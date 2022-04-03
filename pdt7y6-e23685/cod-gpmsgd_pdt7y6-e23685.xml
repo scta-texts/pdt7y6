@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="78"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e23685"><!-- l1d8q6 -->
+            <head xml:id="pdt7y6-e23685-Hd1e99">Quaestio 6</head>
+            <head xml:id="pdt7y6-e23685-Hd1e101" type="question-title"/>
+            <p xml:id="pdt7y6-e23685-d1e103">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0153.xml-->
+               <cb ed="#T" n="b"/>
+               <lb ed="#T" n="69"/>QVESTIO VI. 
+      <lb ed="#T" n="70"/>DE SiMPLICITATE CREATVRAE. 
+    </p>
+            <p xml:id="pdt7y6-e23685-d1e114">
+               <lb ed="#T" n="71"/>CIrca vltimum de simplicitate creature 
+      quae<lb ed="#T" n="72" break="no"/>runtur duo. 
+      <lb ed="#T" n="73"/>Primo generaliter, an aliqua creatura sit 
+      sim<lb ed="#T" n="74" break="no"/>plex. 
+      <lb ed="#T" n="75"/>Secundo specialiter, an anima sit simplex, &amp; 
+      <lb ed="#T" n="76"/>de modo simplicitatis eius. 
+    </p>
+            <div xml:id="pdt7y6-e23685-Dd1e130">
+               <head xml:id="pdt7y6-e23685-Hd1e132">Articulus 1</head>
+               <head xml:id="pdt7y6-e23685-Hd1e134" type="question-title">An aliquae creatura sit simplex</head>
+               <p xml:id="pdt7y6-e23685-d1e137">
+                  <lb ed="#T" n="77"/>Articvlvs I. 
+      <lb ed="#T" n="78"/>An aliquae creatura sit simplex.
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e144">
+                  <lb ed="#T" n="79"/>D primum sic proceditur. 1. Vt colligitur  
+      <lb ed="#T" n="80"/>hic ex auctoritatibus Augustini, illud  
+      <lb ed="#T" n="81"/>quod non habet in se compositionem partium, 
+      <lb ed="#T" n="82"/>vel accidentium, vel formarum vere simplex 
+      <lb ed="#T" n="83"/>est: sed prima materia, &amp; prima forma sunt 
+      hu<lb ed="#T" n="84" break="no"/>iusmodi: ergo vere simplicia sunt,  
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e160">
+                  <lb ed="#T" n="85"/>2. Intellectus resoluens non stat quandiu 
+      inue<lb ed="#T" n="86" break="no"/>nit compositionem, donec deueniat ad simplex: 
+      <lb ed="#T" n="87"/>stat autem in ente, vel esse generali, quia prima 
+      <lb ed="#T" n="88"/>rerum creatarum est esse: ergo ipsum est simplex 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e172">
+                  <lb ed="#T" n="89"/>3. Principia componentia primam creaturam 
+      <lb ed="#T" n="90"/>compositam, aut sunt composita, aut non; si 
+      <lb ed="#T" n="91"/>sunt composita, ergo non faciunt primam 
+      com<lb ed="#T" n="92" break="no"/>positionem, sed erit abire in infinitum; si non 
+      <lb ed="#T" n="93"/>sunt composita, non ergo omnis creatura erit 
+      <lb ed="#T" n="94"/>composita. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e188">
+                  <lb ed="#T" n="95"/>4. Dicitur esse Angelus simplex, &amp; caelum, 
+      <lb ed="#T" n="96"/>&amp; elementa: non ergo omnis creatura est 
+      com<lb ed="#T" n="97" break="no"/>posita. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e197">
+                  <lb ed="#T" n="98"/>Contra. Boet. 2. De nebdom. In omni quod 
+      <lb ed="#T" n="99"/>est citra primum differunt quod est, &amp; esse: 
+      er<lb ed="#T" n="100" break="no"/>go est compositum. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e206">
+                  <lb ed="#T" n="101"/>2. Esse secundum se non dicit quid finitum: 
+      <lb ed="#T" n="102"/>ergo oportet, quod si sit finitum, recipiatur in 
+      <lb ed="#T" n="103"/>aliquo per quod finiatur: ergo in omni 
+      haben<lb ed="#T" n="104" break="no"/>te esse finitum est aliquid recipiens, aliquid 
+      <lb ed="#T" n="105"/>receptum: ergo omne tale est compositum: sed  
+      <lb ed="#T" n="106"/>omnis creatura habet esse finitum: ergo &amp; 
+      com<lb ed="#T" n="107" break="no"/>positum. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e224">
+                  <lb ed="#T" n="108"/>3. Argumentum Augustini hic tale est. 
+      Nul<lb ed="#T" n="109" break="no"/>lum simplex mutabile: omnis creatura mutabilis 
+      <lb ed="#T" n="110"/>est: ergo nulla creatura simplex. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e233">
+                  <lb ed="#T" n="111"/>4. August. de Trin. Solus Deus est id quod 
+      <lb ed="#T" n="112"/>habetur: ergo in omni alio ente praeter Deum 
+      <lb ed="#T" n="113"/>differunt habens &amp; quod habetur: omne vero 
+      <lb ed="#T" n="114"/>ale est compositum: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e245">
+                  <lb ed="#T" n="115"/>Respondeo. Solus Deus est simplex 
+      omnimo<lb ed="#T" n="116" break="no"/>da simplicitate, quia non componitur ex alijs, 
+      <lb ed="#T" n="117"/>nec componitur cum alijs, quia nec aliud ei, 
+      <lb ed="#T" n="118"/>nec ipsum alteri: omnis vero creatura aliquo 
+      <lb ed="#T" n="119"/>istorum modorum componitur: vnde deficit a 
+      <lb ed="#T" n="120"/>Diuina simplicitate. Omne quidem ens 
+      comple<lb ed="#T" n="121" break="no"/>tem componitur ex alio &amp; alio, saltem ex sua 
+      <lb ed="#T" n="122"/>quidditate &amp; suo esse: ens vero incompletum 
+      <lb ed="#T" n="123"/>quod habet esse in altero, componitur illi vel 
+      <lb ed="#T" n="124"/>alterum ipsi. Dicitur tamen creatura. aliqua 
+      sim<lb ed="#T" n="125" break="no"/>plex in suo genere, non vniuersaliter.  
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e271">
+                  <lb ed="#T" n="126"/>Ad 1. De prima materia. Resp. quamuis non 
+      <lb ed="#T" n="127"/>sit in se composita est tame componibilis alteri. 
+      <lb ed="#T" n="128"/>Vel, quamuis non sit in se composita &amp; 
+      diuisi<lb ed="#T" n="129" break="no"/>bilis actu, seu per se, est tamen potentia, seu 
+      <lb ed="#T" n="130"/>per accidens mediante forma quantitatis, quam 
+      <lb ed="#T" n="131"/>in se suscipit Vel dicendum, quod quamuis 
+      <lb ed="#T" n="132"/>secundum quod prima materia est, scilicet in 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0154.xml-->
+      <pb ed="#T" n="79"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>solo intellectu, careat omni compositione, 
+      ta<lb ed="#T" n="2" break="no"/>men prout est actu non caret compositione 
+      par<lb ed="#T" n="3" break="no"/>tium, vel formarum, vel accidentium. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e302">
+                  <lb ed="#T" n="4"/>Ad 2. De esse Resp. Resolutio intellectus 
+      <lb ed="#T" n="5"/>non exigit, vt sit terminus simplex oninimoda 
+      <lb ed="#T" n="6"/>simplicitate, sed illa, quae opponitur 
+      compo<lb ed="#T" n="7" break="no"/>sitioni ex pluribus. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e313">
+                  <lb ed="#T" n="8"/>Ad 3. De principijs componentibus. Resp. 
+      <lb ed="#T" n="9"/>Principia composita sunt compositione huius 
+      <lb ed="#T" n="10"/>cum hoc, non huius ex his 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e322">
+                  <lb ed="#T" n="11"/>Ad 4. De coelo &amp;c. Resp. Simplex aliquid 
+      <lb ed="#T" n="12"/>potest dici dupliciter, vel vniuersaliter, vel in 
+      <lb ed="#T" n="13"/>aliquo genere: primo modo Deus simplex est 
+      <lb ed="#T" n="14"/>secundo modo creaturae aliquae simplices 
+      dicum<lb ed="#T" n="15" break="no"/>tur. Notandum ergo, quod in creaturis 
+      mul<lb ed="#T" n="16" break="no"/>tiplex conipositio reperitur: vna ex genere &amp; 
+      <lb ed="#T" n="17"/>differentia, quae est compositio naturae 
+      commu<lb ed="#T" n="18" break="no"/>nis: altera ex quod est, &amp; esse, quae est 
+      compo<lb ed="#T" n="19" break="no"/>sitio cuiuscumque entis singularis: tertia ex 
+      na<lb ed="#T" n="20" break="no"/>tura &amp; suis proprietatibus naturalibus: quarta 
+      <lb ed="#T" n="21"/>ex subjecto &amp; accidentibus: quinta ex materia. 
+      <lb ed="#T" n="22"/>&amp; forma, vt caelum: sexta ex materia, &amp; for 
+      <lb ed="#T" n="23"/>ma, &amp; priuatione, vt elementum: septima 
+      <lb ed="#T" n="24"/>ex diuersitate materiae &amp; formae, vt mixtum ex 
+      <lb ed="#T" n="25"/>elementis: octaua ex partibus quantitatiuis 
+      <lb ed="#T" n="26"/>similibus, vt corpus homogeneum: Nona ex 
+      <lb ed="#T" n="27"/>partibus quantitatiuis dissimilibus, vt corpus 
+      <lb ed="#T" n="28"/>etherogeneum: decima ex corpore 
+      ether<lb ed="#T" n="29" break="no"/>rogeneo &amp; anima veget abili solum, vt planta: 
+      <lb ed="#T" n="30"/>vndecima ex corpore huiusmodi&amp; anima 
+      vege<lb ed="#T" n="31" break="no"/>talis &amp; sensibili, vt animal: duodecima ex his 
+      <lb ed="#T" n="32"/>&amp; anima rationali, vt homo, in quo stat vltima 
+      <lb ed="#T" n="33"/>compositio naturae. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e23685-Dd1e376">
+               <head xml:id="pdt7y6-e23685-Hd1e378">Articulus 2</head>
+               <head xml:id="pdt7y6-e23685-Hd1e380" type="question-title">
+  An anima sit simplex et quomodo 
+</head>
+               <p xml:id="pdt7y6-e23685-d1e383">
+                  <lb ed="#T" n="34"/>Articvlvs II. 
+      <lb ed="#T" n="35"/>An anima sit simplex, &amp; quomodo. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e390">
+                  <lb ed="#T" n="36"/>D secundum sic proceditur. 1. Anima est 
+      <lb ed="#T" n="37"/>forma corporis: forma vero neque est 
+      ma<lb ed="#T" n="38" break="no"/>teria neque compositum, vt dicit Philosophus 
+      <lb ed="#T" n="39"/>lib. de anima. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e401">
+                  <lb ed="#T" n="40"/>2. Compositum habet esse suum: si ergo 
+      ani<lb ed="#T" n="41" break="no"/>ma componta est, &amp; vlterius homo compositus 
+      <lb ed="#T" n="42"/>est ex anima &amp; corpore: ergo in homine erit 
+      du<lb ed="#T" n="43" break="no"/>plex esse, quod est impossibile, cum vnius non 
+      <lb ed="#T" n="44"/>sit, nisi vnicum esse, 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e415">
+                  <lb ed="#T" n="45"/>3. Quod habet in se esse completum non 
+      vni<lb ed="#T" n="46" break="no"/>tur alteri nisi accidentaliter: si ergo anima 
+      ha<lb ed="#T" n="47" break="no"/>beret esse completum, quale est esse compositi, 
+      <lb ed="#T" n="48"/>non vniretur alteri corpori nisi accidentaliter: 
+      <lb ed="#T" n="49"/>ergo non faceret vnum, nisi per accidens. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e428">
+                  <lb ed="#T" n="50"/>4. Vnum quodque est in recipiente per 
+      mo<lb ed="#T" n="51" break="no"/>dum recipientis, &amp; non per modum rei receptae: 
+      <lb ed="#T" n="52"/>sed species intelligibiles sunt in anima per 
+      mo<lb ed="#T" n="53" break="no"/>dum simplicem: ergo ipsa est simplex. 
+      <lb ed="#T" n="54"/>Cotra. 1. nulla forma simplex potest esse 
+      subje<lb ed="#T" n="55" break="no"/>ctum: sed anima subjectum est scientiarum &amp; 
+      <lb ed="#T" n="56"/>virtutum: ergo non est forma simplex, sed ens in 
+      <lb ed="#T" n="57"/>se completum. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e448">
+                  <lb ed="#T" n="58"/>2. Forma simplex non habet esse per se: sed 
+      <lb ed="#T" n="59"/>anima habet esse per se cum separatur a corpore. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e455">
+                  <lb ed="#T" n="60"/>3. Forma simplex non potest esse motor, 
+      <lb ed="#T" n="61"/>quamuis possit esse principium motus, vt forma 
+      <lb ed="#T" n="62"/>igr is: sed anima est motor, mouet enim corpus 
+      <lb ed="#T" n="63"/>ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e466">
+                  <lb ed="#T" n="64"/>4. Nulla forma simplex habet in se, vnde 
+      in<lb ed="#T" n="65" break="no"/>diuiduetur, cum: omnis forma, quantum est de 
+      <lb ed="#T" n="66"/>se, sit communis: sed anima de se, non ex cor¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0154.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>pore, indiuiduatur, alioquin remota causa 
+      indi<lb ed="#T" n="68" break="no"/>uiduationis tolleretur indiuiduatio: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e484">
+                  <lb ed="#T" n="69"/>Iuxta hoc quaeritur, an sit tota in qualibet 
+      par<lb ed="#T" n="70" break="no"/>te corporis. Videtur quod non. 1. Quia 
+      composi<lb ed="#T" n="71" break="no"/>tum ex anima &amp; corpore est animal: ergo si 
+      ani<lb ed="#T" n="72" break="no"/>ma esset in qualibet parte corporis, quaelibet 
+      <lb ed="#T" n="73"/>pars corporis esset animal. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e498">
+                  <lb ed="#T" n="74"/>2. Diuersae sunt partes corporales: si ergo 
+      ani<lb ed="#T" n="75" break="no"/>ma est in qualibet parte corporis tota, ergo 
+      <lb ed="#T" n="76"/>idem creatum totaliter est in diuersis, quod 
+      vide<lb ed="#T" n="77" break="no"/>tut impossibile. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e509">
+                  <lb ed="#T" n="78"/>3. Aut intelligitur hoc de totalitate essentiae 
+      <lb ed="#T" n="79"/>aut potentiarum; si essentiae, ergo habet partes, 
+      <lb ed="#T" n="80"/>&amp; non est simplex; si potentiarum, ergo 
+      secun<lb ed="#T" n="81" break="no"/>dum quamlibet potentiam est in qualibet parte 
+      <lb ed="#T" n="82"/>corporis, quod est falsum, 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e522">
+                  <lb ed="#T" n="83"/>4. Cum corpus viuat immediate ab anima 
+      <lb ed="#T" n="84"/>informante, sianima est in qualibet parte ergo 
+      <lb ed="#T" n="85"/>quaelibet pars viuit immediate pera nimam: 
+      er<lb ed="#T" n="86" break="no"/>go non dependet vita vnius partis corporis ex 
+      <lb ed="#T" n="87"/>altera: sed hoc falsum est, quia vita omnium 
+      <lb ed="#T" n="88"/>membrorum dependet a corde: ergo. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e538">
+                  <lb ed="#T" n="89"/>Contra. 1. Augustinus de Spiritu &amp; anima. Sicut 
+      <lb ed="#T" n="90"/>Deus est in vniuerso, ita quod est in qualibet 
+      <lb ed="#T" n="91"/>parte totus: ita anima in corpore suo. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e547">
+                  <lb ed="#T" n="92"/>2. Anima est forma totius: forma vero est in 
+      <lb ed="#T" n="93"/>qualibet parte materiae immediatem. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e554">
+                  <lb ed="#T" n="94"/>3. Anima equi cito sentit laesionem in 
+      quali<lb ed="#T" n="95" break="no"/>bet parte: hoc autem non esset, nisi anima prae 
+      <lb ed="#T" n="96"/>sens esset cuilibet parti. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e564">
+                  <lb ed="#T" n="97"/>Respondeo Ad primum. Circa 
+      compositio<lb ed="#T" n="98" break="no"/>nem animae rationalis duae sunt opiniones: nam 
+      <lb ed="#T" n="99"/>quidam, vt patet ex Libro Fontis vitae, dicunt,  
+      <lb ed="#T" n="100"/>eam compositam quasi ex materia spirituali &amp; 
+      for<lb ed="#T" n="101" break="no"/>ma spir: tuali, id est, ex aliquo quasi materiali 
+      <lb ed="#T" n="102"/>principio, ex altero quasi formali. Omnis enim 
+      <lb ed="#T" n="103"/>potentia passiua reducitur ad naturam materiae: 
+      <lb ed="#T" n="104"/>omnis potentia actiua ad naturam formae: anima 
+      <lb ed="#T" n="105"/>vero passiua est, &amp; receptiua impressionum 
+      ma<lb ed="#T" n="106" break="no"/>terialium &amp; spiritualium; &amp; actiua actionum 
+      <lb ed="#T" n="107"/>spiritualium: habet igitur quasi materiam 
+      qua<lb ed="#T" n="108" break="no"/>dam spiritualem &amp; formam spiritualem. Alij 
+      <lb ed="#T" n="109"/>vero dicunt eam: compositam ex quod est, &amp; 
+      <lb ed="#T" n="110"/>esse, id est, quidditate rei &amp; esse eius actuali, quod 
+      <lb ed="#T" n="111"/>habet a Deo: vnde cum habeat illud ab alio: 
+      <lb ed="#T" n="112"/>respectu ipsius esse, &amp; respectu eius ia quo habet 
+      <lb ed="#T" n="113"/>illud, est in potentia: esse vero suum est actus: 
+      <lb ed="#T" n="114"/>vnde est ibi compositio ex potentia &amp; actu. In 
+      <lb ed="#T" n="115"/>compositis quidem, quo est, dupliciter potest 
+      <lb ed="#T" n="116"/>accipi, scilicet forma, siue sit forma partis, siue 
+      <lb ed="#T" n="117"/>totius: vel actus formae, scilicet actus essendis 
+      <lb ed="#T" n="118"/>seu esse, sicut quo creditur, est actus credendi: 
+      <lb ed="#T" n="119"/>In simplicibus vero, quo est, solummodo dicit 
+      <lb ed="#T" n="120"/>tur actus essendi. In ipso vero, quod est, duo est 
+      <lb ed="#T" n="121"/>reperire secundum rationem (quae differunt 
+      ra<lb ed="#T" n="122" break="no"/>tione, non re) ex quibus constat eius diffinitio: 
+      <lb ed="#T" n="123"/>aliquid per modum generis, scilicet naturam 
+      <lb ed="#T" n="124"/>ipsam communem, vt intellectuale; aliquid per 
+      <lb ed="#T" n="125"/>modum differentiae, scilicet limitationem nature, 
+      <lb ed="#T" n="126"/>vt gradum intellectualitatis: actus enim 
+      existen<lb ed="#T" n="127" break="no"/>di, secundum Auicennam, non debet poni in 
+      <lb ed="#T" n="128"/>diffinitione aliqua proprie sumpta, quia res 
+      <lb ed="#T" n="129"/>eiusdem naturae differunt per esse, quamuis 
+      con<lb ed="#T" n="130" break="no"/>ueniant in diffinitione. Sed tamen, cum nullum 
+      <lb ed="#T" n="131"/>terminatum sit suns terminus, videtur quod 
+      <lb ed="#T" n="132"/>duo praedicta necessario differant re, &amp; ita etiam 
+      <lb ed="#T" n="133"/>ipsum, quod est, componitur etiam in se. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0155.xml-->
+      <pb ed="#T" n="80"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>Sustinendo prima opinionem. Respondendum 
+      <lb ed="#T" n="2"/>est ad objecta sic. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e658">
+                  <lb ed="#T" n="3"/>Ad 1. Forma neque est materia neque est 
+      com<lb ed="#T" n="4" break="no"/>positum. Resp. Anima non tantum est forma, 
+      <lb ed="#T" n="5"/>sed substantia, vnde est compositum: sed non 
+      <lb ed="#T" n="6"/>illud respectu cuius dicitur, idest homo. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e669">
+                  <lb ed="#T" n="7"/>Ad 2. De duplici esse Resp. Esse proprie non 
+      <lb ed="#T" n="8"/>est compositi cuiuslibet, sed compositi vltima 
+      <lb ed="#T" n="9"/>compositione, id est suppositi: hoc enim est 
+      <lb ed="#T" n="10"/>compositum per se subsistens, nam &amp; natura 
+      <lb ed="#T" n="11"/>humana composita est, sed non compositum 
+      <lb ed="#T" n="12"/>per se subsistens; anima vero creatur, non vt 
+      <lb ed="#T" n="13"/>per se subsistat sed in corpore, sicut &amp; ipsum 
+      <lb ed="#T" n="14"/>corpus, vt coniungatur animae. Quamuis ergo 
+      <lb ed="#T" n="15"/>in se composita sit, quia tamen pars est alterius, 
+      <lb ed="#T" n="16"/>quandiu sic est, non habet esse completum per 
+      <lb ed="#T" n="17"/>se, sed separata habet.  
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e695">
+                  <lb ed="#T" n="18"/>Ad 3. Si habet esse completum. &amp;c. Resp. 
+      <lb ed="#T" n="19"/>Hoc intelligitur, de eo quod habet esse actu ante 
+      <lb ed="#T" n="20"/>vnionem: hoc vero anima non habet  
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e704">
+                  <lb ed="#T" n="21"/>Ad. 4. De speciebus intelligibilibus. Resp. 
+      <lb ed="#T" n="22"/>Materia spiritualis non repugnat simplicitat  
+      <lb ed="#T" n="23"/>specierum intelligibilium, imo est subjectum 
+      <lb ed="#T" n="24"/>earum: sicut materia corporalis formarum 
+      <lb ed="#T" n="25"/>corporalium. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e717">
+                  <lb ed="#T" n="26"/>Sustinendo opinionem aliorum dicendum, 
+      <lb ed="#T" n="27"/>quod cum anima sit vltima forma naturae, 
+      per<lb ed="#T" n="28" break="no"/>fectissima est, vnde non totaliter dependet a 
+      <lb ed="#T" n="29"/>materia, sicut aliae: sed habet esse praeter 
+      inate<lb ed="#T" n="30" break="no"/>riam separata a corpore, eo quod plus 
+      assimila<lb ed="#T" n="31" break="no"/>tur primae formae, quam aliae forma naturales: 
+      <lb ed="#T" n="32"/>sic est, quod licet sit forma corporis, tamen 
+      ha<lb ed="#T" n="33" break="no"/>bet rationem substantiae in per se subsistendo: 
+      <lb ed="#T" n="34"/>vnde potest esse subjectum accidentium, &amp; 
+      ha<lb ed="#T" n="35" break="no"/>bere esse per se, &amp; esse motor corporis, &amp; esse 
+      <lb ed="#T" n="36"/>andiuidum, quantum in se. Nam quamuis primo 
+      <lb ed="#T" n="37"/>indiuiduetur per corpus secundum opinionem 
+      <lb ed="#T" n="38"/>Auicenae, vel saltem in corpore secundum 
+      <lb ed="#T" n="39"/>omnes; tamen illam indiuiduationem retinet a 
+      <lb ed="#T" n="40"/>corpore separata, sicut cera determinationet 
+      <lb ed="#T" n="41"/>valis retinet. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e755">
+                  <lb ed="#T" n="42"/>Ad 2. quaest. Resp. Anima secundum 
+      essen<lb ed="#T" n="43" break="no"/>tiam simplex est, sed potentia multiplex: primo 
+      <lb ed="#T" n="44"/>modo est forma corporis: secundo modo motor. 
+      <lb ed="#T" n="45"/>Quia ergo forma est totius corporis &amp; partium. 
+      <lb ed="#T" n="46"/>aequaliter est in toto, &amp; partibus: quia vero 
+      <lb ed="#T" n="47"/>motor est secundum potentias, nec omnes 
+      par<lb ed="#T" n="48" break="no"/>tes corporis aptae natae sunt exercere 
+      operatio<lb ed="#T" n="49" break="no"/>nes cuiuslibet potentiae propter diuersas 
+      com<lb ed="#T" n="50" break="no"/>mixtiones, ideo secundum potentias non est tota in 
+      <lb ed="#T" n="51"/>qualibet parte, imo secundum vnam potentiam 
+      <lb ed="#T" n="52"/>in parte vna, secundum alteram in altera: 
+      se<lb ed="#T" n="53" break="no"/>cundum potentiam vero intellectiuam in nulla, 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e784">
+                  <lb ed="#T" n="54"/>Ad 1. Compositum ex anima &amp; corpore est 
+      <lb ed="#T" n="55"/>ani mal. Resp. Non est hoc verum de quolibet 
+      <lb ed="#T" n="56"/>corpore, sed de corpore organieo completo 
+      po<lb ed="#T" n="57" break="no"/>tentia vitam habente. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e795">
+                  <lb ed="#T" n="58"/>Ad 2. Ergo idem totaliter in diuersis. Resp. 
+      <lb ed="#T" n="59"/>Cum partes non sint actu in suo toto, proprie 
+      <lb ed="#T" n="60"/>non sunt diuersa, sed vnum. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e804">
+                  <lb ed="#T" n="61"/>Ad. 3. De totalitate. Resp. Intelligitur haec 
+      <lb ed="#T" n="62"/>totalitas quoad essentiam, non positiue, vt 
+      intel<lb ed="#T" n="63" break="no"/>ligatur congregatio partium, sed potius 
+      priua<lb ed="#T" n="64" break="no"/>tiue. Vel totum accipitur pro perfectio. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e815">
+                  <lb ed="#T" n="65"/>Ad 4. Ergo quaelibet pars viuit immediate. 
+      <lb ed="#T" n="66"/>Resp. Prout viuit, dicit actumprimum vitae, 
+      <lb ed="#T" n="67"/>quaelibet viuit aequaliter ab anima; prout dicit 
+      <lb ed="#T" n="68"/>pper ationem consequente vitam, qua vita con¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0155.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="69"/>seruatur, non aequaliter; sed sic primo &amp; 
+      prin<lb ed="#T" n="70" break="no"/>cipaliter operatur in corde, vbi deficiente 
+      ope<lb ed="#T" n="71" break="no"/>ratione animae deficit etiam in alijs membris, &amp; 
+      <lb ed="#T" n="72"/>sic deficit vita quae habebat conferuari per 
+      huius<lb ed="#T" n="73" break="no"/>modi operationem. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e23685-Dd1e842">
+               <head xml:id="pdt7y6-e23685-Hd1e844">Expositio litterae</head>
+               <p xml:id="pdt7y6-e23685-d1e846">
+                  <lb ed="#T" n="74"/>EXPOSITIO LITERAE. 
+      <lb ed="#T" n="75"/>[ATVnc de veritate) Quia sine vlla priuatio¬ 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e853">
+                  <lb ed="#T" n="76"/>une. [Proprietate) Quia sine vlla permix 
+      <lb ed="#T" n="77"/>tione. [Incommutabilitate.] Quia sine vlla 
+      va<lb ed="#T" n="78" break="no"/>riatione. [Simplicitate) quia sine vlla 
+      composi<lb ed="#T" n="79" break="no"/>tione. [Diuinae naturae] Prout est principium 
+      <lb ed="#T" n="80"/>agendi. [Substantiae] Prout est principium 
+      per<lb ed="#T" n="81" break="no"/>se subsistendi. [Essentiae] Prout est principium 
+      <lb ed="#T" n="82"/>essendi. [Sine dubitatione substantia] 
+      Secun<lb ed="#T" n="83" break="no"/>dum quod dicitur a per se subsistendo. [Vel sic 
+      <lb ed="#T" n="84"/>melius dicitur, essentia.] Quaeritur quare melius, 
+      <lb ed="#T" n="85"/>Resp. Quia essentia dicit esse purum &amp; 
+      absolu<lb ed="#T" n="86" break="no"/>um; substantia in comparatione ad alia nouem 
+      <lb ed="#T" n="87"/>genera quasi a substando dicta. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e882">
+                  <lb ed="#T" n="88"/>[Sicut enim ab eo quod est sapere dicta est 
+      sa<lb ed="#T" n="89" break="no"/>pientia) Contra sapientia principium est actus, 
+      <lb ed="#T" n="90"/>qui est sapere, &amp; essetia actus, qui est esse, &amp; non 
+      <lb ed="#T" n="91"/>e conuerso. Resp. Intelligitur de origine 
+      no<lb ed="#T" n="92" break="no"/>minandi secundum Grammaticos, quia actus 
+      <lb ed="#T" n="93"/>sunt nobis notiores quam habitus, &amp; sicut  
+      <lb ed="#T" n="94"/>res cognoscimus, ita nomina imponimus: non 
+      <lb ed="#T" n="95"/>de origine essendi, sic enim a sapientia dicitur  
+      <lb ed="#T" n="96"/>sapere secundum logicum 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e904">
+                  <lb ed="#T" n="97"/>[Non nouit praeteritum] Cotra. Ipsa est omnis 
+      <lb ed="#T" n="98"/>tempore: ergo nouit omne tempus. Resp. 
+      Intelli<lb ed="#T" n="99" break="no"/>gitur de notitia experientiae quasi mensuretur &amp; 
+      <lb ed="#T" n="100"/>varietur tempore. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e916">
+                  <lb ed="#T" n="101"/>[Solus Deus verus est] Contra. Esse &amp; verum 
+      <lb ed="#T" n="102"/>conuertuntur: ergo quicquid est, vere est. Resp. 
+      <lb ed="#T" n="103"/>Veritas accipitur hic prout opponitur 
+      permix<lb ed="#T" n="104" break="no"/>tioni, non prout falsitatis 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e927">
+                  <lb ed="#T" n="105"/>[Cuius essentiae comparatum nostrum esse, 
+      <lb ed="#T" n="106"/>non est.] Contra aliter non est, nisi per 
+      com<lb ed="#T" n="107" break="no"/>arationem ad causam suam. Resp. Intelligit 
+      <lb ed="#T" n="108"/>hoc de comparatione secundum determinatam 
+      <lb ed="#T" n="109"/>proportionem, non secundum quacumque 
+      ha<lb ed="#T" n="110" break="no"/>bitudinem. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e943">
+                  <lb ed="#T" n="111"/>Aquo est illi essentia) Contra ergo Diuina 
+      <lb ed="#T" n="112"/>essentia est ab aliquo. Resp. Non est ab aliquo in 
+      <lb ed="#T" n="113"/>le, sed in persona Filij, vel Spiritus Sancti. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e952">
+                  <lb ed="#T" n="114"/>Deus solus proprie dicitur essentia vel esse: 
+      <lb ed="#T" n="115"/>Contra quod proprie dicitur de aliquo solo 
+      <lb ed="#T" n="116"/>nulli alteri conuenit. Resp. Proprie dicipotest 
+      <lb ed="#T" n="117"/>aliquis habere quod habet solus a se, non ab 
+      <lb ed="#T" n="118"/>alio; &amp; sic accipitur: vel quod habet solus 
+      <lb ed="#T" n="119"/>non cum alio. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e968">
+                  <lb ed="#T" n="120"/>Esse non est accidens Deo. 
+      <lb ed="#T" n="121"/>Contra nulli aliquid est essentialius, quam 
+      <lb ed="#T" n="122"/>esse: non ergo soli Deo. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e977">
+                  <lb ed="#T" n="123"/>Respondeo. A ccidens dicitur hic communiter 
+      <lb ed="#T" n="124"/>quicquid aliunde accidit; non proprie, quod 
+      subjo<lb ed="#T" n="125" break="no"/>cto completo accidit. Vel dicendum, quod sicut  
+      <lb ed="#T" n="126"/>scire dicitur dupliciter scilicet vt habitus, siun 
+      <lb ed="#T" n="127"/>vt actus primus, &amp; sic est idem cum scientia; &amp; 
+      <lb ed="#T" n="128"/>vt actus secundus, etsic est eius effectus: 
+      simi<lb ed="#T" n="129" break="no"/>liter esse dupliciter dicitur, vel vt habitus,: seu 
+      <lb ed="#T" n="130"/>vt actus primus; &amp; sic esse cuiuslibet rei est idem 
+      <lb ed="#T" n="131"/>quod essentia eius, vnde esse materiae est idem, 
+      <lb ed="#T" n="132"/>quod ipsa materia, esse formae ipsa forma, esse 
+      <lb ed="#T" n="133"/>compositi ipsum composi tum: vel vt actus 
+      se<lb ed="#T" n="134" break="no"/>cundus, sic est accidens essentiae, in rebus 
+      crea<lb ed="#T" n="135" break="no"/>tis dico. Et hoc verum est quando esse dicitur  
+      <!--1652-gregPress-MichiganState-gbooks-v1-0156.xml-->
+      <pb ed="#T" n="81"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>simpliciter vt homo est, quando vero 
+      praedica<lb ed="#T" n="2" break="no"/>tur esse cum determinatione, vt homo est 
+      ani<lb ed="#T" n="3" break="no"/>mal, vel homo est albus: tunc esse significat 
+      in<lb ed="#T" n="4" break="no"/>existentiam praedicati in subjecto siue 
+      substan<lb ed="#T" n="5" break="no"/>tialem, siue accidentalem. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e1026">
+                  <lb ed="#T" n="6"/>Subsistens veritas.] Quoad indiuisionem 
+      <lb ed="#T" n="7"/>esse, &amp; eius quod est [Manens causa] Quoad 
+      <lb ed="#T" n="8"/>omnis alterius esse productionem [Naturalis 
+      <lb ed="#T" n="9"/>generis proprietas) Quoad esse sui a nullo 
+      ac<lb ed="#T" n="10" break="no"/>ceptionem, seu mutationem. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e1039">
+                  <lb ed="#T" n="11"/>[Creatura per tempora &amp; loca] Contra 
+      An<lb ed="#T" n="12" break="no"/>geli non mouentur temporaliter, cum sint in 
+      <lb ed="#T" n="13"/>aeuo: nec localiter, cum non sint in corpore. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e1048">
+                  <lb ed="#T" n="14"/>Resp. Tempus appellatur hic large mensura 
+      <lb ed="#T" n="15"/>cuiuslibet mutationis: hoc modo mouentur 
+      An<lb ed="#T" n="16" break="no"/>geli, &amp; sunt in tempore secundum affectiones, 
+      <lb ed="#T" n="17"/>quamuis in aeuo secundumsubstantiam. Quod  
+      <lb ed="#T" n="18"/>obijcitur de loco Resp. Angeli non mouentur  
+      <lb ed="#T" n="19"/>localiter, ita quod sint in loco circumscriptiue, 
+      <lb ed="#T" n="20"/>sed definitiue. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e1066">
+                  <lb ed="#T" n="21"/>[Et cuicumque creaturae rationali praestatur,  
+      <lb ed="#T" n="22"/>vt peccare non possit.] Contra. Christus natura 
+      <lb ed="#T" n="23"/>Deus est: Deus natura non potest peccare. 
+      <lb ed="#T" n="24"/>Resp. Quamuis ille homo esset Deus natura 
+      for<lb ed="#T" n="25" break="no"/>maliter, tamen gratia vnionis causaliter.  
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e1079">
+                  <lb ed="#T" n="26"/>[Nihil simplex mutabile est.] Contra. 
+      Ange<lb ed="#T" n="27" break="no"/>lus, &amp; anima, punctus, &amp; vnitas simplicia sunt,  
+      <lb ed="#T" n="28"/>&amp; tamen mutabilia. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e1088">
+                  <lb ed="#T" n="29"/>Respondeo. Intelligit de eo quod est vere 
+      sim<lb ed="#T" n="30" break="no"/>plex, &amp; vniuersaliter, non in genere solum. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e1096">
+                  <lb ed="#T" n="31"/>[Vnum tamen significant.] Contra ergo 
+      sy<lb ed="#T" n="32" break="no"/>nonima sunt. Resp. Quamuis significent vnum 
+      <lb ed="#T" n="33"/>re, non tamen sub vna ratione. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0156.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="34"/>[Sine indigentia creatorem.] Quaeritur 
+      qua<lb ed="#T" n="35" break="no"/>re non dicit similiter sine relatione creatorem. 
+      <lb ed="#T" n="36"/>Resp. Quia intendit excludere a Deo relationis 
+      <lb ed="#T" n="37"/>temporalis rem, quae non est sine dependentia 
+      <lb ed="#T" n="38"/>ad suum correlatiuum; non autem modum: Deus 
+      <lb ed="#T" n="39"/>autem dicitur relatiue ad creaturam, ita quod 
+      <lb ed="#T" n="40"/>non referturad ipsam, sed e conuerso. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e1125">
+                  <lb ed="#T" n="41"/>[Non proprie dicitur substantia) Hoc 
+      in<lb ed="#T" n="42" break="no"/>telligitur secundum rationem impositionis 
+      no<lb ed="#T" n="43" break="no"/>minis: dicitur enim a substando, quod substet 
+      <lb ed="#T" n="44"/>caeteris nouem generibus: secundum vero quod 
+      <lb ed="#T" n="45"/>habet rationem subsistentis; sic prius, prorsus, 
+      <lb ed="#T" n="46"/>&amp; maxime conuenit Deo. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e1141">
+                  <lb ed="#T" n="47"/>[Non ex compositis] Per haec quatuor a Deo 
+      <lb ed="#T" n="48"/>omnis compositio remouetur: quia omnis 
+      com<lb ed="#T" n="49" break="no"/>positio, vel est ex natura corporali, &amp; 
+      spirituali<lb ed="#T" n="50" break="no"/>vt in homine: vel ex pure corporali, &amp; sic 
+      du<lb ed="#T" n="51" break="no"/>pliciter: vel altera natura incorruptibili, vt 
+      sci<lb ed="#T" n="52" break="no"/>licet caelesti, altera corrumptibili, vt est compositio 
+      <lb ed="#T" n="53"/>lucis cum aere: vel vtraque corruptibili, &amp; hoc 
+      <lb ed="#T" n="54"/>dupliciter: vel ex simplicibus, vt ex elementis: vel 
+      <lb ed="#T" n="55"/>ex compositis, vt ex elementatis, sicut corpus 
+      <lb ed="#T" n="56"/>organicum. Contra primum dicitur spiritus; 
+      <lb ed="#T" n="57"/>contra secundum, dicitur lux; contra tertium 
+      <lb ed="#T" n="58"/>dicitur virtus: contra quartum dicitur vita. 
+    </p>
+               <p xml:id="pdt7y6-e23685-d1e1170">
+                  <lb ed="#T" n="59"/>[Idemtitas] Contra essentiae &amp; personarum. 
+      <lb ed="#T" n="60"/>diuersitatem. [Vnitas] Contra essentiae in 
+      per<lb ed="#T" n="61" break="no"/>sonis multiplicationem. [Immutabilitas] 
+      con<lb ed="#T" n="62" break="no"/>tra formarum variationem. [Simplicitas) 
+      con<lb ed="#T" n="63" break="no"/>tra partium compositionem. [Puritas) contra 
+      <lb ed="#T" n="64"/>priuationis vel defectus vllam permixtionem. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

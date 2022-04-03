@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="86"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e26093"><!-- l1d9q3 -->
+            <head xml:id="pdt7y6-e26093-Hd1e99">Quaestio 3</head>
+            <head xml:id="pdt7y6-e26093-Hd1e101" type="question-title">De aeternitate generantis et geniti</head>
+            <p xml:id="pdt7y6-e26093-d1e104">
+               <lb ed="#T" n="79"/>QVESTIO III. 
+      <lb ed="#T" n="80"/>DE AETERNITATE GENERANTIS 
+      <lb ed="#T" n="81"/>ET OENITI. 
+</p>
+            <p xml:id="pdt7y6-e26093-d1e113">
+               <lb ed="#T" n="82"/>CIrca tertium quaeruntur duo. 
+      <lb ed="#T" n="83"/>Primo an generatio sit aeterna. 
+      <lb ed="#T" n="84"/>Secundo an genitus &amp; genitor possint 
+      dici<lb ed="#T" n="85" break="no"/>plures aeterni. 
+    </p>
+            <div xml:id="pdt7y6-e26093-Dd1e124">
+               <head xml:id="pdt7y6-e26093-Hd1e126">Articulus 1</head>
+               <head xml:id="pdt7y6-e26093-Hd1e128" type="question-title">
+  An generatio Filii sit aeterna
+</head>
+               <p xml:id="pdt7y6-e26093-d1e131">
+                  <lb ed="#T" n="86"/>Articvlvs I. 
+      <lb ed="#T" n="87"/>An generatio Filij sit aeterna.
+</p>
+               <p xml:id="pdt7y6-e26093-d1e138">
+                  <lb ed="#T" n="88"/>AD primum sic proceditur. 1. Sicut 
+      corru<lb ed="#T" n="89" break="no"/>ptio se habet ad desinere esse, sic 
+      genera<lb ed="#T" n="90" break="no"/>tio ad incipere esse: sed omne quod 
+      corrumpi<lb ed="#T" n="91" break="no"/>tur, definit esse: ergo omne, quod 
+      genera<lb ed="#T" n="92" break="no"/>tur, incipit esse. 
+    </p>
+               <p xml:id="pdt7y6-e26093-d1e151">
+                  <lb ed="#T" n="93"/>2. Quicquid producit diuina essentia non 
+      <lb ed="#T" n="94"/>potest esse coaeternum producenti essentiae: ergo 
+      <lb ed="#T" n="95"/>eadem ratione quicquid producit persona 
+      diui<lb ed="#T" n="96" break="no"/>na non potest esse coaeternum producenti 
+      per<lb ed="#T" n="97" break="no"/>sonae. 
+    </p>
+               <p xml:id="pdt7y6-e26093-d1e165">
+                  <lb ed="#T" n="98"/>3. In Diuinis esse idem est &amp; duratio: ergo 
+      <lb ed="#T" n="99"/>quicquid habet principium essendi, habet 
+      prin<lb ed="#T" n="100" break="no"/>cipium durationis: sed Filius habet principium 
+      <lb ed="#T" n="101"/>essendi: ergo &amp; durationis. 
+    </p>
+               <p xml:id="pdt7y6-e26093-d1e176">
+                  <lb ed="#T" n="102"/>4. Nihil accipit id, quod iam habet: Filius, 
+      <lb ed="#T" n="103"/>accipit esse a Patre: ergo aliquando non habuit. 
+    </p>
+               <p xml:id="pdt7y6-e26093-d1e183">
+                  <lb ed="#T" n="104"/>5. Generatio est ratio simplex, &amp; est idem 
+      <lb ed="#T" n="105"/>quod aeternitas: mensura vero ad certificandam 
+      <lb ed="#T" n="106"/>quantitatem debet esse etiam differens a 
+      mensu<lb ed="#T" n="107" break="no"/>rato: ergo non mensuratur aeternitate. 
+    </p>
+               <p xml:id="pdt7y6-e26093-d1e194">
+                  <lb ed="#T" n="108"/>Contra. 1. Nobilius est genitum diuinum 
+      om<lb ed="#T" n="109" break="no"/>ni creato genito: si ergo in creaturis inuenitur. 
+      <lb ed="#T" n="110"/>genitum coaeuum genitori, vt splendor igni, 
+      <lb ed="#T" n="111"/>multo fortius genitum diuinum coaeuum est 
+      ge<lb ed="#T" n="112" break="no"/>neranti. 
+    </p>
+               <p xml:id="pdt7y6-e26093-d1e207">
+                  <lb ed="#T" n="113"/>2. Natura non impedita nunquam caret sua. 
+      <lb ed="#T" n="114"/>operatione naturali, vt ignis calefactione, Sol 
+      <lb ed="#T" n="115"/>illuminatione: sed naturalis operatio Dei est 
+      ge<lb ed="#T" n="116" break="no"/>nerare, nec impediri potest Deus: ergo 
+      nun<lb ed="#T" n="117" break="no"/>quam fuit sine generatione. 
+    </p>
+               <p xml:id="pdt7y6-e26093-d1e220">
+                  <lb ed="#T" n="118"/>Respondeo. Generatio Filij aeterna est, nam 
+      <lb ed="#T" n="119"/>quamuis productio noua non de sua substantia, 
+      <lb ed="#T" n="120"/>vt creatio, nullam de necessitate ponat 
+      muta<lb ed="#T" n="121" break="no"/>tionem in producente, sed in producto solum: 
+      <lb ed="#T" n="122"/>productio tamen de substantia sua non posset 
+      <lb ed="#T" n="123"/>heri sine mutatione vtriusque. 
+    </p>
+               <p xml:id="pdt7y6-e26093-d1e237">
+                  <lb ed="#T" n="124"/>Ad 1. De corruptione. Resp. Argumentum 
+      <lb ed="#T" n="125"/>hoc tenet de generatione quae est opposita 
+      cor<lb ed="#T" n="126" break="no"/>ruptioni, scilicet de illa quae est species 
+      mn<lb ed="#T" n="127" break="no"/>tationis: sed Diuina non est huiusmodi 
+    </p>
+               <p xml:id="pdt7y6-e26093-d1e248">
+                  <lb ed="#T" n="128"/>Ad 2. De productione essentiae. Resp. Non 
+      <lb ed="#T" n="129"/>est simile, quia, quod producitur differt semper 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0162.xml-->
+      <pb ed="#T" n="87"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>a producente: non autem semper ab eo de quo 
+      <lb ed="#T" n="2"/>producitur, vt statua producitur ab artifice de 
+      <lb ed="#T" n="3"/>aere, &amp; est aes, sed non artifex. Quod ergo 
+      <lb ed="#T" n="4"/>producit essentia, necessario differt 
+      essentia<lb ed="#T" n="5" break="no"/>liter ab essentia producente: ergo non 
+      produ<lb ed="#T" n="6" break="no"/>cit de ipsa; ergo vel de alia essentia, vel de 
+      <lb ed="#T" n="7"/>nihilo: sed quod producitur a persona, potest 
+      <lb ed="#T" n="8"/>differre a producente personali differentia sine 
+      <lb ed="#T" n="9"/>essentiali distinctione. 
+    </p>
+               <p xml:id="pdt7y6-e26093-d1e281">
+                  <lb ed="#T" n="10"/>Ad 3. Esse &amp; duratio idem. Resp. Sicut Filius 
+      <lb ed="#T" n="11"/>habet principium essendi originale, non 
+      tem<lb ed="#T" n="12" break="no"/>porale, ita &amp; durationis: 
+    </p>
+               <p xml:id="pdt7y6-e26093-d1e290">
+                  <lb ed="#T" n="13"/>Ad 4. Nihil accipit, quod iam habet &amp;c. 
+      <lb ed="#T" n="14"/>Resp. Accipere aliquid ab alio dupliciter potest 
+      <lb ed="#T" n="15"/>intelligi: aut quia non habet illud, &amp; sic verum 
+      <lb ed="#T" n="16"/>est: aut quia non habet a se, sic non oportet: 
+      <lb ed="#T" n="17"/>potest enim habere semper, sed non a se, sicut  
+      <lb ed="#T" n="18"/>miles dicitur accipere feudum antiquum suum. 
+      <lb ed="#T" n="19"/>a nouo Domino quando recognoscit ab illo. 
+    </p>
+               <p xml:id="pdt7y6-e26093-d1e308">
+                  <lb ed="#T" n="20"/>Ad 5. Quod obijcitur de generatione &amp; 
+      aeter<lb ed="#T" n="21" break="no"/>nitate. Resp. Quamuis generatio sit simplex 
+      <lb ed="#T" n="22"/>tamen intelligitur vt actus quidam indeficiens, 
+      <lb ed="#T" n="23"/>&amp; sic in ratione quanti, &amp; sic in ratione 
+      ad<lb ed="#T" n="24" break="no"/>aequabilis, licet non terminabilis, &amp; sic in 
+      ratio<lb ed="#T" n="25" break="no"/>ne differentis ab aeternitate: &amp; ideo, quia 
+      diffe<lb ed="#T" n="26" break="no"/>runt secundum rationem, potest dici 
+      mensura<lb ed="#T" n="27" break="no"/>ri aeternitate, licet idem sit re, 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e26093-Dd1e330">
+               <head xml:id="pdt7y6-e26093-Hd1e332">Articulus 2</head>
+               <head xml:id="pdt7y6-e26093-Hd1e334" type="question-title">
+  An genitor et genitus possint dici plures aeterni
+</head>
+               <p xml:id="pdt7y6-e26093-d1e337">
+                  <lb ed="#T" n="28"/>Articvlvs II. 
+      <lb ed="#T" n="29"/>An genitor &amp; genitus: possint dici plures aeterni. 
+    </p>
+               <p xml:id="pdt7y6-e26093-d1e344">
+                  <lb ed="#T" n="30"/>AD secundum sic proceditur. 1. Athan. 
+      di<lb ed="#T" n="31" break="no"/>cit quod tres personae sunt coaeternae: ergo 
+      <lb ed="#T" n="32"/>Pater &amp; Filius sunt coaeterni: ergo aeterni 
+    </p>
+               <p xml:id="pdt7y6-e26093-d1e353">
+                  <lb ed="#T" n="33"/>2. Dicit Augustinus quod Pater, &amp; Filius, &amp; 
+      <lb ed="#T" n="34"/>Spiritus Sanctus sunt res aeternae &amp; 
+      incommu<lb ed="#T" n="35" break="no"/>tabiles, quibus fruendum est: ergo vt prius, 
+    </p>
+               <p xml:id="pdt7y6-e26093-d1e363">
+                  <lb ed="#T" n="36"/>3. Bene sequitur. Hic est vnus qui est albus 
+      <lb ed="#T" n="37"/>&amp; alius, &amp; tertius: ergo hi sunt tres albi: ergo 
+      <lb ed="#T" n="38"/>a simili, cum Pater sit vnus qui est aeternus, &amp; 
+      <lb ed="#T" n="39"/>Filius: alius, &amp; Spiritus Sanctus tertius, 
+      ipsi<lb ed="#T" n="40" break="no"/>sunt tres aeternis 
+    </p>
+               <p xml:id="pdt7y6-e26093-d1e376">
+                  <lb ed="#T" n="41"/>4. AEternus non diminuit de ratione vnius: 
+      <lb ed="#T" n="42"/>sequitur. ergo, sunt vnur, pternus: ergo vnus: 
+      <lb ed="#T" n="43"/>sed hoc est falsum: ergo primum. 
+    </p>
+               <p xml:id="pdt7y6-e26093-d1e385">
+                  <lb ed="#T" n="44"/>5. Adiectiuum trahit numerum a substantiuo 
+      <lb ed="#T" n="45"/>sicut accidens a subjecto: sed aeternus adiectiuum 
+      <lb ed="#T" n="46"/>est: ergo numeratur secundum numerum 
+      sub<lb ed="#T" n="47" break="no"/>jectorum, seu suppositorum. 
+    </p>
+               <p xml:id="pdt7y6-e26093-d1e396">
+                  <lb ed="#T" n="48"/>Contra. 1. Quia Deitas vna est, non possunt 
+      <lb ed="#T" n="49"/>dici plures Dij: ergo eadem ratione, abaeternt 
+      <lb ed="#T" n="50"/>tate vna non possunt dici piures aeterdi 
+    </p>
+               <p xml:id="pdt7y6-e26093-d1e405">
+                  <lb ed="#T" n="51"/>2. Dicit Athanasius: nonitraes aeterni sed simus 
+      <lb ed="#T" n="52"/>aeternus. 
+    </p>
+               <p xml:id="pdt7y6-e26093-d1e412">
+                  <lb ed="#T" n="53"/>3. Regula est, quod nomina essentialia 
+      dicun<lb ed="#T" n="54" break="no"/>tur de singulis personis, &amp; de omnibus simuls in 
+      <lb ed="#T" n="55"/>singulari, non in pluali, vt Deus, creator, &amp; 
+      <lb ed="#T" n="56"/>huiusmodi: sed hos nomen, aeternus, essentiale 
+      <lb ed="#T" n="57"/>est: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e26093-d1e426">
+                  <lb ed="#T" n="58"/>Raspofdeo. Differunt modus significandi 
+      <lb ed="#T" n="59"/>substantise, &amp; adjectiue 2. quia substantiua 
+      di<lb ed="#T" n="60" break="no"/>cunt rem: pormodum substantiae per se 
+      subsiste<lb ed="#T" n="61" break="no"/>tis, quae habet, esse absolutum; ideo eorum plu, 
+      <lb ed="#T" n="62"/>nficatio plurifitat essentiam: sed adiectiua 
+      signi<lb ed="#T" n="63" break="no"/>ficant paer, modum accidentis in altero, &amp; ideo 
+      <lb ed="#T" n="64"/>ab illo numerum recipiunt: vnde eorum 
+      nluri<lb ed="#T" n="65" break="no"/>ficatio non plurificat esse simpliciter. sed 
+      con<lb ed="#T" n="66" break="no"/>sequitur pluralitatem subjectorum. Hinc est, 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0162.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>quod nomina Diuina essentialia, quae significant 
+      <lb ed="#T" n="68"/>substantiam substantiue solum, non dicuntur in 
+      <lb ed="#T" n="69"/>plurali, vt Deus: quae vero significant adiectia 
+      <lb ed="#T" n="70"/>ue solum, vt participia &amp; verba quae significant  
+      <lb ed="#T" n="71"/>per modum actus, &amp; ita per modum 
+      acciden<lb ed="#T" n="72" break="no"/>tis, debent dici in plurali de pluribus personis: 
+      <lb ed="#T" n="73"/>vnde dicitur tres sunt, vel tres existentes: quae 
+      <lb ed="#T" n="74"/>vero aliquando accipiuntur substantiue, 
+      ali<lb ed="#T" n="75" break="no"/>quando adiectiue, vt nomina significantia 
+      pro<lb ed="#T" n="76" break="no"/>prietates consequentes essentiam secundum 
+      mo<lb ed="#T" n="77" break="no"/>dum intelligendi, vt est aeternitas, bonitas, vel 
+      <lb ed="#T" n="78"/>huiusmodi, secundum quod substantiue 
+      acci<lb ed="#T" n="79" break="no"/>piuntur, non debent dici de tribus in plurali, 
+      <lb ed="#T" n="80"/>sed in singulari: secundum quod adiectiue 
+      reti<lb ed="#T" n="81" break="no"/>nentur, sic dicuntur etiam in plurali. 
+    </p>
+               <p xml:id="pdt7y6-e26093-d1e485">
+                  <lb ed="#T" n="82"/>Ad 1. Sunt tres coaeterm: ergo tres aeterni, 
+      <lb ed="#T" n="83"/>Resp. Secundum quod, aeterni, accipitur 
+      substan<lb ed="#T" n="84" break="no"/>tiue, non sequitur: quia terminus hic, coaeters 
+      <lb ed="#T" n="85"/>ni, ratione praepositionis associatiuae 
+      inseparabi<lb ed="#T" n="86" break="no"/>lis importat distinctionem personarum, vnde 
+      <lb ed="#T" n="87"/>non est pure essentialis, sicut hic terminus 
+      <lb ed="#T" n="88"/>aeterni. 
+    </p>
+               <p xml:id="pdt7y6-e26093-d1e503">
+                  <lb ed="#T" n="89"/>Ad 2. Sunt res eternae. Resp. Ibi aeternum 
+      <lb ed="#T" n="90"/>accipitur adiectiue, &amp; sequitur quod sunt 
+      plu<lb ed="#T" n="91" break="no"/>res aeterni adiectiue, non substantiue. 
+    </p>
+               <p xml:id="pdt7y6-e26093-d1e512">
+                  <lb ed="#T" n="92"/>Ad 3. De tribus albis. Resp. Prout aeternus 
+      <lb ed="#T" n="93"/>accipitur adiectiue sicut albus, sic bene sequitur;  
+      <lb ed="#T" n="94"/>alias non: quia albedo est forma 
+      multiplica<lb ed="#T" n="95" break="no"/>bilis in suppositis; aeternitas vero, non 
+    </p>
+               <p xml:id="pdt7y6-e26093-d1e523">
+                  <lb ed="#T" n="96"/>Ad 4. Quod opponitur ergo vnus. Resp. 
+      <lb ed="#T" n="97"/>Non sequitur, non quia vnus diminuat de 
+      ra<lb ed="#T" n="98" break="no"/>tione aeterni, sed quia per se personale est: 
+      <lb ed="#T" n="99"/>adiunctum vero alteri trahit naturam eius 
+      <lb ed="#T" n="100"/>cum sit terminus partiuus, seu numeralis: vnde 
+      <lb ed="#T" n="101"/>sit commutatio a suppositione essentiali in 
+      <lb ed="#T" n="102"/>personalem. 
+    </p>
+               <p xml:id="pdt7y6-e26093-d1e541">
+                  <lb ed="#T" n="103"/>Ad 5. Quod opponitur de adiectiuo. Resp. 
+      <lb ed="#T" n="104"/>Secundum quod adiectiue tenetur, 
+      conceden<lb ed="#T" n="105" break="no"/>dum est, quod sunt tres aeterni: sed prout 
+      te<lb ed="#T" n="106" break="no"/>netur substantiue, non. 
+    </p>
+               <p xml:id="pdt7y6-e26093-d1e553">
+                  <lb ed="#T" n="107"/>Ad 1. In contrarium de Diuinitate. Resp. 
+      <lb ed="#T" n="108"/>Non est illa causa tota: sed quia hic terminus 
+      <lb ed="#T" n="109"/>Deus substantiam significat semper, &amp; per 
+      mo<lb ed="#T" n="110" break="no"/>dum substantiae: hic autem terminus  aeternus. 
+      <lb ed="#T" n="111"/>etsi significat substantiam, tamenisignificat 
+      ali<lb ed="#T" n="112" break="no"/>quando adiectiue, &amp; sic bene dicuntur tres 
+      per<lb ed="#T" n="113" break="no"/>sonae Diuinae; sed non tres Dij. 
+    </p>
+               <p xml:id="pdt7y6-e26093-d1e571">
+                  <lb ed="#T" n="114"/>Ad 2. Ex Symbolo. Resp. Accipitur ibi 
+      aeter<lb ed="#T" n="115" break="no"/>ni, substantiue, non adiectiue, 
+    </p>
+               <p xml:id="pdt7y6-e26093-d1e578">
+                  <lb ed="#T" n="116"/>Ad 3. De regula. Resp. Intelligitur de 
+      ter<lb ed="#T" n="117" break="no"/>minis significantibus substantiam, per modum 
+      <lb ed="#T" n="118"/>substantiae, id est: substantiue, non odiectiue. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

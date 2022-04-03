@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="367"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-f13105"><!-- l1d45prae -->
+            <head xml:id="pdt7y6-f13105-Hd1e99">Praeambulum</head>
+            <head xml:id="pdt7y6-f13105-Hd1e101" type="question-title"/>
+            <p xml:id="pdt7y6-f13105-d1e103">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0442.xml-->
+               <cb ed="#T" n="c"/>
+               <lb ed="#T" n="93"/>DE VOLVNTATE DEI QVE 
+      <lb ed="#T" n="94"/>Essentia Dei est vna &amp; aeterna, &amp; de signis eius. Dist. ELV. A 
+    </p>
+           <!-- <p xml:id="pdt7y6-f13105-d1e114">
+               <lb ed="#T" n="95"/>Am de voluntate Dei aliquid pro sensus nostri imbecillitate dicendum 
+      <lb ed="#T" n="96"/>est. Sciendum est ergo, quia voluntas siue volens de Deo secundum 
+      <lb ed="#T" n="97"/>3 essentiam dicitur. Non est enim ei aliud velle &amp; aliud esse, sed omnino 
+      <lb ed="#T" n="98"/>idem. Et sicut idem est ei esse bonum quod esse Deum, ita idem est ei esse 
+      <lb ed="#T" n="99"/>s volentem, quod esse Deum. Nam voluntas qua semper volens est, non 
+      <lb ed="#T" n="100"/>affectus vel motus est, qui in Deum cadere non valet, sed Diuina ousia 
+      <lb ed="#T" n="101"/>qua volens est Deus, &amp; huiusmodi. 
+    </p>
+            <p xml:id="pdt7y6-f13105-d1e132">
+               <lb ed="#T" n="102"/>Quod licet idem sit Deo velle quod esse, non tamen potest dici Deus esse omnia quae vut. 
+      <lb ed="#T" n="103"/>Et licet idem sit Deo velle quod esse, non tamen dicendum est Deum esse omnia quae 
+      <lb ed="#T" n="104"/>vult: quod quidam de Dei voluntate non recte sentientes, nobis obijciunt dicentes. Si  
+      <lb ed="#T" n="105"/>idem est Deo velle quod esse, ergo cum dicimus Deum velle omnia quae facit, dicimus 
+      <lb ed="#T" n="106"/>cum esse omnia quae facit: alioquin non ibi illo verbo idem significatur, quod significatur  
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0443.xml-\->
+      <pb ed="#T" n="368"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>hoc verbo, Esse, cum de Deo dicitur. Et si ita est, non semper dicitur de Deo velle 
+      secun<lb ed="#T" n="2" break="no"/>dum essentiam. Si vero secundum essentiam non dicitur aliquando, quomodo ergo 
+      dici<lb ed="#T" n="3" break="no"/>tur de Deo? relatiue enim nunquam dicitur. Ad quod dicimus, quia licet idem penitus 
+      <lb ed="#T" n="4"/>sit Deo velle quod esse, non tamen potest dici omnia quae vult: sicut idem est Deo esse 
+      <lb ed="#T" n="5"/>quod scire: nec tamen sicut dicitur scire omnia, ita quoque potest dici esse omnia. 
+      <lb ed="#T" n="6"/>Quis sit sensus horum verborum, Deus scit, vel Deus vult: item, Deus scit omnia, vel vult aliquid: &amp;  
+      <lb ed="#T" n="7"/>quid de Deo in his praedicetur.
+    </p>
+            <p xml:id="pdt7y6-f13105-d1e168">
+               <lb ed="#T" n="8"/>Et vbicumque Deus dicitur scire vel sciens, vel velle vel volens, haec de eo secundum 
+      <lb ed="#T" n="9"/>essentiam dicuntur. Cum enim dicitur, Deus scit, vel Deus vult, siue Deus est sciens vel 
+      <lb ed="#T" n="10"/>volens, essentia Diuina praedicatur, &amp; Deus esse enunciatur. Cum autem additur, omnia, 
+      <lb ed="#T" n="11"/>vel aliquid, vel aliqua, &amp; dicitur Deus scit omnia, vel vult aliquid, vel aliqua; essentia 
+      Diui<lb ed="#T" n="12" break="no"/>na praedicatur non simpliciter &amp; absolute, sed ita vt scientiae quae ipse est, omnia subjecta 
+      <lb ed="#T" n="13"/>monstrentur, &amp; voluntati quae ipsa eadem est, aliquid vel aliqua subjecta esse dicantur: 
+      <lb ed="#T" n="14"/>vt talis siat sensus, Deus scit omnia, id est, Deus est cuius scientiae, quae ipsius essentia est, 
+      <lb ed="#T" n="15"/>omnia subjecta sunt. Similiter, Deus vult haec, vel illa, id est, Deus est cuius voluntati, quae 
+      <lb ed="#T" n="16"/>ipse est, haec siue illa subjecta sunt. Volens ergo siue velle dicitur Deus secundum 
+      essen<lb ed="#T" n="17" break="no"/>tram, cuius voluntas essentia est sempiterna &amp; immutabilis (licet ea varientur &amp; 
+      tran<lb ed="#T" n="18" break="no"/>seait, quae ei subjecta sunt) quae non potest esse iniusta vel mala quia Deus est. 
+      <lb ed="#T" n="19"/>Quod Dei voluntas summe bona, causa est omnium quae naturaliter sunt: cuius causa non est quaerenda, 
+      <lb ed="#T" n="20"/>quia nullam habet, cum sit aeterna. 
+    </p>
+            <p xml:id="pdt7y6-f13105-d1e199">
+               <lb ed="#T" n="21"/>Haec itaque summe bona voluntas, causa est omnium quae naturaliter siunt, vel facta 
+      <lb ed="#T" n="22"/>siue futura sunt, quae nulla praeuenta est causa, quia aeterna est. Ideoque causa ipsius 
+      quae<lb ed="#T" n="23" break="no"/>renda non est. Qui enim eius causam quaerit, aliquid maius ea quaerit, cum nihil ea maius 
+      <lb ed="#T" n="24"/>sit. Vnde August. in lib. 83. qq. Qui quaerit quare voluerit Deus mundum facere, causam 
+      <lb ed="#T" n="25"/>quaerit voluntatis Dei: omnis autem causa efficiens maior est eo quod efficitur: nihil 
+      <lb ed="#T" n="26"/>autem maius est voluntate Dei: non ergo eius causa quaerenda est. Idem in libro contra 
+      <lb ed="#T" n="27"/>Manichaeos, si qui dixerint, quid placuit Deo facere coelum &amp; terram? Respondendum 
+      <lb ed="#T" n="28"/>est eis, qui voluntatem Dei nosse desiderant, causas &amp; voluntatem Dei scire quaerunt, 
+      <lb ed="#T" n="29"/>quod voluntas Dei omnium quae sunt ipsa sit causa. Si enim habet causam voluntas, est 
+      <lb ed="#T" n="30"/>aliquid quod antecedat voluntatem Dei: quod nefas est credere. Qui ergo dicit, quare 
+      <lb ed="#T" n="31"/>fecit Deus coelum &amp; terram? Respondendum est illi, quia vult. Voluntas enim Dei causa 
+      <lb ed="#T" n="32"/>est coeli &amp; terrae: &amp; ideo maior est voluntas Dei, quam coelum &amp; terra. Qui autem dicit, 
+      <lb ed="#T" n="33"/>quare voluit facere coelum &amp; terram? maius aliquid quaerit quam est voluntas Dei: nihil 
+      <lb ed="#T" n="34"/>autem ea maius inueniri potest. Compescat se ergo humana temeritas, &amp; id quod non est, 
+      <lb ed="#T" n="35"/>non quaerat, ne id quod est non inueniat. Ecce his authoritatibus aperte insinuatur, quod 
+      <lb ed="#T" n="36"/>voluntatis Dei causa nulla est, &amp; ideo quaerenda non est. 
+    </p>
+            <p xml:id="pdt7y6-f13105-d1e236">
+               <lb ed="#T" n="37"/>Quod voluntas Dei prima &amp; summa causa est ommum. 
+      <lb ed="#T" n="38"/>Voluntas ergo Dei, vt ait Aug. in 3. lib. de Trinit. prima &amp; summa causa est omnium. 
+      <lb ed="#T" n="39"/>specierum atque motionum. Nihil enim sit, quod non de interiori atque intelligibili aula 
+    </p>
+            <p xml:id="pdt7y6-f13105-d1e245">
+               <lb ed="#T" n="40"/>lummi Imperatoris egrediatur secundum ineffabilem institiam. Vbi enim non operatur  
+      <lb ed="#T" n="41"/>quod vult Dei omnipotentis sapientia, quae pertingit a fine vsque ad finem fortiter, &amp; 
+      dis<lb ed="#T" n="42" break="no"/>ponit omnia suauiter? &amp; non solum facit ea quae perseuerantia consuetudinis 
+      admiratio<lb ed="#T" n="43" break="no"/>nem non admittunt: sed etiam ea, quae propter rartitatem &amp; insolitum euentum mira 
+      vi<lb ed="#T" n="44" break="no"/>dentur: vt sunt defectus luminarium, &amp; terraemotus, &amp; monstrosi animantium partus, &amp; 
+      <lb ed="#T" n="45"/>his similia: quorum nihil sit sine voluntate Dei sed plerisque non apparet. Ideoque placuit,  
+      <lb ed="#T" n="46"/>vanitati Philosophorum etiam causis alijs ea attribuere, cum omnino videre non possent 
+      <lb ed="#T" n="47"/>superiorem caeteris omnibus causam, id est, voluntatem Dei. Itaque non nisi Dei 
+      volun<lb ed="#T" n="48" break="no"/>tas causa prima est sanitatis, aegritudinis, praemiorum atque poenarum, gratiarum &amp; 
+      re<lb ed="#T" n="49" break="no"/>tributionum. Haec ergo sola est vnde ortum est quicquid est, &amp; ipsa non est orta, sed eterna. 
+    </p>
+            <p xml:id="pdt7y6-f13105-d1e269">
+               <lb ed="#T" n="50"/>Quibus modis accipitur Dei voluntas. 
+      <lb ed="#T" n="51"/>Hic non est praetereundum nobis, quod sacra Scriptura de voluntate Dei varijs modis 
+      <lb ed="#T" n="52"/>loqui consueuit: &amp; tamen non est Dei voluntas diuersa, sed locutio diuersa est de 
+      volunta<lb ed="#T" n="53" break="no"/>te, quia nomine voluntatis diuersa accipit. Nam voluntas Dei vere ac proprie dicitur quae 
+      <lb ed="#T" n="54"/>in ipso est, &amp; ipsius essentia est: &amp; haec vna est, nec multiplicitatem recipit nec 
+      mutabili<lb ed="#T" n="55" break="no"/>tatem, quae inexpleta esse non potest: de qua Propheta ait, omnia quaecumque voluit, 
+    </p>
+            <p xml:id="pdt7y6-f13105-d1e285">
+               <lb ed="#T" n="56"/>Dominus fecit. Et Apostolus, Voluntati eius quis resistit? Et alibi, Vt probetis quae sit 
+      vo<lb ed="#T" n="57" break="no"/>luntas Dei bona &amp; beneplacens &amp; perfecta. Et haec voluntas recte appellatur 
+      beneplaci<lb ed="#T" n="58" break="no"/>tum Dei siue dispositio.  
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0444.xml-\->
+      <pb ed="#T" n="369"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>Quod secundum figuram dicitur voluntas Dei praeceptio, prohibitio, consilium, permissio, operatio: &amp; 
+      <lb ed="#T" n="2"/>ideo pluraliter dicit Scriptura voluntates. 
+    </p>
+            <p xml:id="pdt7y6-f13105-d1e306">
+               <lb ed="#T" n="3"/>Aliquando vero secundum quandam figuram dicendi voluntas Dei vocatur, quod 
+      se<lb ed="#T" n="4" break="no"/>cundum proprietatem non est voluntas eius: vt praeceptio, prohibitio, consilium, 
+      nec<lb ed="#T" n="5" break="no"/>non permissio, &amp; operatio. Ideoque pluraliter aliquando Scriptura voluntates Dei 
+      pro<lb ed="#T" n="6" break="no"/>nunciat. Vnde Propheta, Magna opera Domini exquisita in omnes voluntates eius: cum: 
+      <lb ed="#T" n="7"/>non sit nisi vna voluntas Dei, quae ipse est: pluraliter tamen dicit voluntates, quia 
+      vo<lb ed="#T" n="8" break="no"/>luntas Dei varijs modis, ac pro diuersis accipitur, vt dictum est. Ita etiam idem 
+      Prophe<lb ed="#T" n="9" break="no"/>ta propter multos effectus mifericordiae &amp; iustitiae pluraliter dicit, Misericordias 
+      pomini<lb ed="#T" n="10" break="no"/>in aeternum cantabo. Et alibi, Iustitie pominirectae, laetificantes corda: cum tamen in Deo: 
+      <lb ed="#T" n="11"/>vna sit misericordia, vna iustitia, &amp; vna eademque sit misericordia quae iustitia, scilicet,  
+      <lb ed="#T" n="12"/>piuina ousia. 
+    </p>
+            <p xml:id="pdt7y6-f13105-d1e330">
+               <lb ed="#T" n="13"/>Quare praeceptio &amp; prohibitio &amp; consilium dicantur Dei voluntas. 
+      <lb ed="#T" n="14"/>Ideo autem praeceptio &amp; prohibitio atque consilium, cum sint tria, dicitur tamen 
+      vnum<lb ed="#T" n="15" break="no"/>quodque eorum Dei voluntas: quia ista sunt signa diuinae voluntatis: quem admodum &amp; sig: a 
+      <lb ed="#T" n="16"/>irae dicuntur ira: &amp; dilectionis signa dilectio appellantur, &amp; dicitur iratus Deus, &amp; tamen 
+      <lb ed="#T" n="17"/>non est ira in eo aliqua, sed signa tantum quae fotis siunt, quibus iratus ostenditur, ira 
+      <lb ed="#T" n="18"/>ipsius nominantur. Et est figura dicendi, secundum quam non est falsum quod dicitur: sed  
+      <lb ed="#T" n="19"/>verum quod dicitur, sub tropi nubilo obumbratur. Et secundum hos tropos diuersae 
+      vo<lb ed="#T" n="20" break="no"/>luntates Dei dicuntur, quia diuersa sunt illa quae per tropum voluntas Dei dicuntur.  
+    </p>
+            <p xml:id="pdt7y6-f13105-d1e350">
+               <lb ed="#T" n="21"/>vbi voluntas Dei pro praecepto &amp; consilio accipiatur.  
+      <lb ed="#T" n="22"/>Pro praecepto Dei atque consilio potest accipi voluntas, vt ibi, Fiat voluntas tua, sicut 
+      <lb ed="#T" n="23"/>in coelo &amp; in tera. Et alibi. Qui facit voluntatem Patris mei, qui in coelis est, ipse frater  
+      <lb ed="#T" n="24"/>meus, &amp; soror, &amp; mater est. Et contra hanc voluntatem multa fiunt. Vnde Aug. in lib. de 
+      <lb ed="#T" n="25"/>spiritu &amp;litera, Infideles, inquit, contra voluntatem Dei faciunt, cum eius Euangelio, 
+      <lb ed="#T" n="26"/>non credunt. 
+    </p>
+            <p xml:id="pdt7y6-f13105-d1e366">
+               <lb ed="#T" n="27"/>Quod Deus non vult ab hominibus fieri omnia quae praecepit, vel non fieri quae prohibet. 
+      <lb ed="#T" n="28"/>Etsi illa tria dicuntur Dei voluntas, ideo quia signa sunt Diuinae voluntatis: non est 
+      ta<lb ed="#T" n="29" break="no"/>men intelligendum Deum omne illud fieri velle, quod cuicumque praecepit: vel non fieri 
+      <lb ed="#T" n="30"/>quod prohibuit. Praecepit enim Abrahae immolare Filium, nec tamen voluit: nec ideo 
+      <lb ed="#T" n="31"/>praecepit vt id fieret, sed vt Abrahae probaretur fides. Et in Euangelio praecepit sanato ne 
+      <lb ed="#T" n="32"/>cui diceret: ille autem praedicauit vbique, intelligens Deum non ideo prohibuisse quin 
+      <lb ed="#T" n="33"/>vellet opus suum praedicari: sed vt daret formam homini laudem humanam declinandi. 
+    </p>
+            <p xml:id="pdt7y6-f13105-d1e384">
+               <lb ed="#T" n="34"/>De permissione &amp; operatione, vbi dicantur Dei voluntas. 
+      <lb ed="#T" n="35"/>Permissio quoque Dei &amp; operatio voluntas Dei appellantur, qualiter accipit 
+      Aug<lb ed="#T" n="36" break="no"/>in Ench. dicens non sit aliquid nisi omnipotens fieri velit: vel sinendo vt, siat, vel ipse 
+      fa<lb ed="#T" n="37" break="no"/>ciendo. Nec dubitandum est Deum facere bene, etiam sinendo fieri quaecunque fiunt 
+      ma<lb ed="#T" n="38" break="no"/>le: non enim haec nisi iusto iudicio Dei sinit, &amp; profecto bonum est omne quod iustum est. 
+      <lb ed="#T" n="39"/>Ecce hic manifeste habemus Dei voluntatem appellari ipsius operationem, vel 
+      permissio<lb ed="#T" n="40" break="no"/>nem, cum dicit non fieri aliquid nisi omnipotens fieri velit, vbi includit &amp; bona &amp; mala 
+      <lb ed="#T" n="41"/>omnia quae fiunt. Ideoque aperte distinguit quomodo Deum velle dixerit, ne eadem 
+      ra<lb ed="#T" n="42" break="no"/>tione intelligeretur velle bona &amp; mala, subdens vel sinendo vt fiat, hoc quantum ad mala 
+      <lb ed="#T" n="43"/>dicit: vel ipse faciendo, hoc quantum ad bona. Mala enim sinit fieri, sed non facit: bona 
+      <lb ed="#T" n="44"/>vero ipse facit. Ideoque dixit, eum velle: quia &amp; volens, mala sinit; &amp; volens bona 
+      ope<lb ed="#T" n="45" break="no"/>ratur, &amp; ob hoc permssio, &amp; operatio voluntas Dei dicuntur.  
+    </p>
+            <p xml:id="pdt7y6-f13105-d1e413">
+               <lb ed="#T" n="46"/>Quinque supra proposita dicuntur secundum tropum &amp; ideo distinguat Lector ubique, proquo 
+      <lb ed="#T" n="47"/>eorum accipiatur voluntas. 
+    </p>
+            <p xml:id="pdt7y6-f13105-d1e421">
+               <lb ed="#T" n="48"/>Quinque ergo supra posita sunt quae dicuntur, secundum tropum, Dei voluntas: quia 
+      <lb ed="#T" n="49"/>signa sunt diuinae voluntatis, quae vna est &amp; immutabilis, scilicet Dei beneplacitum. 
+      Ideo<lb ed="#T" n="50" break="no"/>que diligenter distinguat Lector, vbi de voluntate Dei Scriptura commemorat, iuxta que 
+      <lb ed="#T" n="51"/>modum accipi oporteat, vtrum pro beneplacito Dei, an pro aliquo signorum eius. Magna 
+      <lb ed="#T" n="52"/>enim est adhibenda discretio in cognitione Diuinae voluntatis: quia &amp; beneplacitum Dei. 
+      <lb ed="#T" n="53"/>est voluntas eius: &amp; signum beneplaciti eius dicitur voluntas eius. Sed beneplacitum 
+      <lb ed="#T" n="54"/>eius aeternum est, signum vero beneplaciti eius non: &amp; consonat rerum effectibus 
+      bene<lb ed="#T" n="55" break="no"/>placitum ipsius, &amp; ipsi effectus rerum ab illo non discordant. Fit enim omne quod 
+      bene<lb ed="#T" n="56" break="no"/>placito vult fieri: &amp; omneque non vult fieri nequaquam sit. Non ita autem est de signis: 
+      <lb ed="#T" n="57"/>quia praecipit Deus multis, ea quae non faciunt, &amp; prohibet quae non cauent, &amp; consulit 
+      <lb ed="#T" n="58"/>quae non implent. 
+    </p>-->
+            <p xml:id="pdt7y6-f13105-d1e447">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0445.xml-->
+               <pb ed="#T" n="370"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>DIVISIO TEXTVS. 
+      <lb ed="#T" n="2"/>TAm de voluntate.] Postquam egit de Dei 
+      <lb ed="#T" n="3"/>Iscientia &amp; potentia, hic agit de eius 
+      volun<lb ed="#T" n="4" break="no"/>tate. Et primo agit de voluntate Dei secundum 
+      <lb ed="#T" n="5"/>se dist. hac. Secundo de voluntate Dei per 
+      com<lb ed="#T" n="6" break="no"/>parationem ad effectum dist. quadrag. sexta, &amp; 
+      <lb ed="#T" n="7"/>quadrag. septima. Tertio per comparationem 
+      <lb ed="#T" n="8"/>ad voluntatem humanam dist. quadrag. octaua. 
+      <lb ed="#T" n="9"/>In prima parte primo ostendit de voluntate Dei, 
+      <lb ed="#T" n="10"/>quid sit. Secundo quid possit [Haec itaque] 
+      Ter<lb ed="#T" n="11" break="no"/>tio quam multipliciter accipiatur [Hic non est 
+      <lb ed="#T" n="12"/>praetereundum.] 
+    </p>
+            <p xml:id="pdt7y6-f13105-d1e482">
+               <lb ed="#T" n="13"/>In prima parte primo determinat veritatem. 
+      <lb ed="#T" n="14"/>Secundo mouet &amp; soluit contrariam 
+      objectio<lb ed="#T" n="15" break="no"/>nem [Et licet.  
+    </p>
+            <p xml:id="pdt7y6-f13105-d1e491">
+               <lb ed="#T" n="16"/>In secunda parte primo ostendit quod 
+      volun<lb ed="#T" n="17" break="no"/>tas Dei nullam habet causam [Haec itaque) 
+      Se<lb ed="#T" n="18" break="no"/>cundo quod ipsa est causa omniu[Voluntas ergo. 
+    </p>
+            <p xml:id="pdt7y6-f13105-d1e500">
+               <lb ed="#T" n="19"/>In tertia parte primo assignat propriam &amp; 
+      <lb ed="#T" n="20"/>principalem acceptionem voluntatis Dei [Hic 
+      <lb ed="#T" n="21"/>non est] Secundo assignat acceptionem 
+      volun<lb ed="#T" n="22" break="no"/>tatis impropriam &amp; figuratiuam [Aliquando, 
+    </p>
+            <p xml:id="pdt7y6-f13105-d1e511">
+               <lb ed="#T" n="23"/>Tertio prosequitur modos figuratiuae 
+      acceptio<lb ed="#T" n="24" break="no"/>nis [Ideo autem) Quarto ostendit differentiam 
+      <lb ed="#T" n="25"/>acceptionis siguratiuae &amp; propriae [Quinque 
+      er<lb ed="#T" n="26" break="no"/>go.] In tertia parte primo prosequitur tres 
+      mo<lb ed="#T" n="27" break="no"/>dos qui sunt respectu rei fiendae [Ideo ] 
+      Secun<lb ed="#T" n="28" break="no"/>do alios duos qui sunt respectu rei factae [
+      Pro<lb ed="#T" n="29" break="no"/>missio.] In prima parte primo ostendit quare 
+      <lb ed="#T" n="30"/>illi dicuntur Dei voluntas, scilicet quia sunt,  
+      <lb ed="#T" n="31"/>signa voluntatis [Ideo] Secundo ostendit ubi 
+      <lb ed="#T" n="32"/>voluntas Dei dicantur [Pro praecepto ] Tertio 
+      <lb ed="#T" n="33"/>cuius sint signa [Et si illa.] 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

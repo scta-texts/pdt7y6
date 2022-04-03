@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="279"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e84818"><!-- l1d35prae -->
+            <head xml:id="pdt7y6-e84818-Hd1e99">Praeambulum</head>
+            <head xml:id="pdt7y6-e84818-Hd1e101" type="question-title"/>
+            <p xml:id="pdt7y6-e84818-d1e103">
+               <pb ed="#T" n="279"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>DE QVIBVSDAM QVAE 
+      <lb ed="#T" n="2"/>secundum substantiam de Deo dicuntur, quae specialem 
+      <lb ed="#T" n="3"/>efflagitant Tractatum, scilicet, de Scientia, &amp; de 
+      Prae<lb ed="#T" n="4" break="no"/>scientia, &amp; Prouidentia, &amp; Dispositione, 
+      Praede<lb ed="#T" n="5" break="no"/>stinatione, Voluntate, &amp; Potentia.
+      <lb ed="#T" n="6"/>Distind. XXXV 
+    </p>
+            <!--<p xml:id="pdt7y6-e84818-d1e123">
+               <lb ed="#T" n="7"/>VMQVE supra differuerimus, ac plura dixerimus de his quae communiter 
+      <lb ed="#T" n="8"/> secundum substantiam de Deo dicuntur, eorum tamen quaedam specialem 
+      <lb ed="#T" n="9"/>efflagitant Tractarum, de quibus modo tractandum est, id est, de scientia, 
+      <lb ed="#T" n="10"/>a praescientia, prouidentia, dispositione, praedistinatione, voluntate, &amp; 
+      <lb ed="#T" n="11"/>potentia. Sciendum est ergo quod sapientia vel scientia Dei, cum sit vna 
+      <lb ed="#T" n="12"/> &amp; simplex, tamen propter varios rerum status &amp; diuersos effectus, piura 
+      <lb ed="#T" n="13"/>ac diuersa fortitur nomina. Dicitur enim non tantum scientia, sed etiam praescientia vel 
+      <lb ed="#T" n="14"/>prouidentia. Et est scientia siue prouidentia non de futuris tantum, sed de omnibus: de 
+      <lb ed="#T" n="15"/>bonis, scilicet, &amp; de malis. Dispositio vero, de faciendis. Praedestinatio, de omnibus 
+      sal<lb ed="#T" n="16" break="no"/>uandis, &amp; de omnibus bonis, qui &amp; hic liberantur, &amp; in futuro coronabuntur. 
+      Praedesti<lb ed="#T" n="17" break="no"/>nauit enim Deus ab aeterno homines, ad bona eligendo: &amp; praedestinauit eis, bona 
+      prae<lb ed="#T" n="18" break="no"/>parando. Quod homines praedestinauit, Apostolus ostendit dicens, Praedestinauit quos 
+      <lb ed="#T" n="19"/>praesciuit fieri conformes imaginis Filij sui: &amp; alibi, Elegit nos ante mundi 
+      constitutio<lb ed="#T" n="20" break="no"/>nem, vt essemus sancti &amp; immaculati. Quod autem bona eis praeparauerit, Propheta Esaias 
+      <lb ed="#T" n="21"/>ostendit dicens, Oculus non vidit Deus abs te, quae praeparasti diligentibus vel 
+      expectanti<lb ed="#T" n="22" break="no"/>bus te. Ergo ab aeterno praedestinauit quosdam futuros bonos &amp; beatos, id est, elegit vt 
+      <lb ed="#T" n="23"/>essent boni &amp; beati, &amp; bona eis praedestinauit, id est, praeparauit. Prouidentia autem est, 
+      <lb ed="#T" n="24"/>gubernandorum: quae vtique eodem modo videtur accipi, quo dispositio. Interdum 
+      ta<lb ed="#T" n="25" break="no"/>men prouidentia accipitur pro praescientia. Sapientia vero vel scientia de omnibus est, 
+      <lb ed="#T" n="26"/>scilicet, bonis &amp; malis, &amp; de praesentibus, praeteritis, &amp; futuris: &amp; non tantum de 
+      tempo<lb ed="#T" n="27" break="no"/>ralibus, sed etiam de aeternis. Non enim ita scit Deus ista temporalia, vt seipsum nesciat, 
+      <lb ed="#T" n="28"/>sed ipse solus seipsum perfecte nouit: cuius scientiae comparatione omnis creaturae scientia. 
+      <lb ed="#T" n="29"/>imperfecta est. 
+    </p>
+            <p xml:id="pdt7y6-e84818-d1e175">
+               <lb ed="#T" n="30"/>Vtrum scientia, vel praescientia, dispositio, vel praedestinatio potuerit esse in Deo, 
+    </p>
+            <p xml:id="pdt7y6-e84818-d1e181">
+               <lb ed="#T" n="31"/>si nulla fuissent futura. 
+      <lb ed="#T" n="32"/>Hic considerari oportet, vtrum scientia vel praescientia, vel dispositio, vel praedestina 
+      <lb ed="#T" n="33"/>tio potuerit esse in Deo, si nulla fuissent futura Cum enim praescientia sit futurorum, &amp; 
+      dis<lb ed="#T" n="34" break="no"/>positio faciendorum, &amp; praedestinatio saluandorum: si nulla essent futura, si nihil esset 
+      fa<lb ed="#T" n="35" break="no"/>cturus Deus vel aliquos saluaturus, non videtur potuisse in Deo esse praescientia, vel 
+      dis<lb ed="#T" n="36" break="no"/>positio, vel praedestinatio: potuit autem Deus nulla praescire futura, potuit non creare 
+      ali<lb ed="#T" n="37" break="no"/>quid, vel non saluare aliquos. Potuit ergo in Deo non esse praescientia, vel dispositio, vel 
+      <lb ed="#T" n="38"/>paedestinatio. Ad hoc autem ita a quibusdam opponitur: Si, inquiunt, potuit praescientia 
+      <lb ed="#T" n="39"/>Dei non esse in Deo ab aeterno, &amp; potuit non esse: si vero potuit non esse, cum praescientia 
+      <lb ed="#T" n="40"/>Dei sit eius scientia, &amp; scientia sit eius essentia: potuit ergo non esse ab aeterno id quod est 
+      <lb ed="#T" n="41"/>eius diuina essentia. Ita &amp; de dispositione &amp; praedestinatione, quae est niuina essentia, 
+      obij<lb ed="#T" n="42" break="no"/>ciunt. Addunt quoque &amp; alia, ita loquentes: Si potuit Deus non praescire aliqua, cum idem 
+      <lb ed="#T" n="43"/>sit Deo praescire quod scire, &amp; scire quod esse: potuit ergo non esse. Item, Cum idem sit 
+      <lb ed="#T" n="44"/>Deum praescium esse, &amp; Deum esse, si potuit non esse praescius, potuit non esse Deus: 
+      po<lb ed="#T" n="45" break="no"/>tuit autem non esse praescius, si potuit nulla praescire: &amp; potuit nulla praescire, quia potuit 
+      <lb ed="#T" n="46"/>nulla facere. 
+    </p>
+            <p xml:id="pdt7y6-e84818-d1e218">
+               <lb ed="#T" n="47"/>Responsio quod praescientia, &amp; dispositio, &amp; praedestinatio quasi relatiue dicuntur.  
+    </p>
+            <p xml:id="pdt7y6-e84818-d1e223">
+               <lb ed="#T" n="48"/>ad futuras res vel ad faciendas. 
+      <lb ed="#T" n="49"/>Ad hoc iuxta modulum nostrae intelligentiae ita dicimus. Praescientia vel dispositio vel 
+      <lb ed="#T" n="50"/>praedestinatio ad aliquid dici videtur. Sicut enim creator ad creaturam relatiue dicitur, ita 
+      <lb ed="#T" n="51"/>praescientia vel praescius ad futura referri videtur, &amp; dispositio ad facienda, ac 
+      praedestina<lb ed="#T" n="52" break="no"/>tio ad saluanda. Verumramen creator ita relatiue dicitur, vt essentiam non significet.  
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0355.xml-\->
+      <pb ed="#T" n="280"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>Praescientia vero vel praescius &amp; in respectu futurorum dicitur, &amp; essentiam designat: ita 
+      <lb ed="#T" n="2"/>etiam dispositio, &amp; praedestinatio. Ideoque cum dicitur: Si nulla essent futura non esset in 
+      <lb ed="#T" n="3"/>Deo praescientia, vel non esset Deus praescius: quia varia est ibi causa dicendi, distingui 
+      <lb ed="#T" n="4"/>oportet rationem dicti: Cum ergo dicis: Si nulla essent futura, non esset in Deo 
+      praescien<lb ed="#T" n="5" break="no"/>tia, vel non esset praescius: si in dicendo, hanc causam attendis, scilicet quia nulla essent 
+      <lb ed="#T" n="6"/>subjecta eius praescientiae, vnde ipsa possit dici praescientia vel ipse praescius, quod 
+      vtrum<lb ed="#T" n="7" break="no"/>que dicitur propter futura: verus est intellectus. Sin autem ea ratione id dicis, quod non 
+      <lb ed="#T" n="8"/>sit in eo scientia qua praescit futura, vel quod ipse non sit Deus, qui est futurorum 
+      prae<lb ed="#T" n="9" break="no"/>scius, falsa est intelligentia. Similiter &amp; aliae locutiones determinandae sunt. Potuit? non 
+      <lb ed="#T" n="10"/>esse praescientia Dei, vel potuit non esse praescius, &amp; potuit Deus non praescire aliqua, id  
+      <lb ed="#T" n="11"/>est, potuit esse quod nulla futura subjecta essent eius scientiae, &amp; ita non posset dici 
+      prae<lb ed="#T" n="12" break="no"/>scius vel praescire, vel scientia eius vel praescientia: non tamen eo minus ipse esset, vel eius 
+      <lb ed="#T" n="13"/>scientia. Sed non posset dici praescius, vel praescire, vel praescientia, si eius scientiae futura 
+      <lb ed="#T" n="14"/>nulla forent subjecta. Similiter de dispositione &amp; praedestinatione vel prouidentia. Haec 
+      <lb ed="#T" n="15"/>enim, vt dictum est ad temporalia referuntur, &amp; de temporalibus tantum sunt.  
+    </p>
+            <p xml:id="pdt7y6-e84818-d1e275">
+               <lb ed="#T" n="16"/>Quod scientia Dei non tantum est de temporalibus, sed etiam de aeternis. 
+      <lb ed="#T" n="17"/>Scientia vero vel sapientia non tantum de temporalibus, sed etiam de aeternis est. 
+      Ideo<lb ed="#T" n="18" break="no"/>que etsi nulla fuissent futura, esset tamen in Deo scientia eadem quae modo est: nec minor. 
+      <lb ed="#T" n="19"/>esset quam modo, nec maior est quam esset. Sciuit ergo Deus ab aeterno aeternum, &amp; 
+      om<lb ed="#T" n="20" break="no"/>ne quod futurum erat, &amp; sciuit immutabiliter. Scit quoque non minus praeterita &amp; futura 
+      <lb ed="#T" n="21"/>quam praesentia, &amp; sua aeterna sapientia &amp; immutabili scit ipse omnia quae sciuntur. 
+      Ora<lb ed="#T" n="22" break="no"/>nis enim ratio supernae &amp; aeternae sapientiae, vt ait Ambr. in eo est, quia omnem 
+      sapien<lb ed="#T" n="23" break="no"/>tiam &amp; essentiam capit sua immensa scientia. 
+    </p>
+            <p xml:id="pdt7y6-e84818-d1e295">
+               <lb ed="#T" n="24"/>Quare omnia dicantur esse in Deo, &amp; quod factum est, habet vitam in eo. 
+      <lb ed="#T" n="25"/>Propterea omnia dicuntur esse in Deo &amp; fuisse ab aeterno. Vnde August. super 
+      Gene<lb ed="#T" n="26" break="no"/>sim. Haec visibilia, inquit, antequam fierent, non erant: quomodo ergo nota Deo erant 
+      <lb ed="#T" n="27"/>quae non erant? Et rursus, Quomodo ea faceret quae sibi nota non erant? non enim 
+      quic<lb ed="#T" n="28" break="no"/>quam fecit ignorans. Nota ergo fecit, non facta cognouit. Proinde antequam fierent, &amp; 
+      <lb ed="#T" n="29"/>erant, &amp; non erant: erant in Dei scientia, non erant in sui natura. Ipsi autem Deo non 
+      <lb ed="#T" n="30"/>audeo dicere alio modo innotuisse cum ea fecisset, quam illo quo ea nouerat, vt faceret: 
+      <lb ed="#T" n="31"/>apud quem non est transmutatio, nec vicissitudinis obumbratio. Ecce hic habes quod haec 
+      <lb ed="#T" n="32"/>visibilia antequam fierent, in Dei scientia erant. Ex hoc ergo sensu omnia dicuntur esse in 
+      <lb ed="#T" n="33"/>Deo, &amp; omne quod factum est dicitur vita esse in ipso: non ideo quod creatura sit creator. 
+      <lb ed="#T" n="34"/>vel quia ista temporalia essentialiter sint in Deo, sed quia in eius scientia semper sunt quae 
+      <lb ed="#T" n="35"/>vita est. 
+    </p>
+            <p xml:id="pdt7y6-e84818-d1e324">
+               <lb ed="#T" n="36"/>Quod eadem ratione dicuntun omnia ei praesentia. 
+      <lb ed="#T" n="37"/>Inde est etiam quod omnia dicuntur ei praesentia esse, non solum ea quae sunt, sed  
+      <lb ed="#T" n="38"/>etiam ea quae praeterierunt, &amp; ea quae futura sunt, secundum illud: Qui vocat ea quae non 
+      <lb ed="#T" n="39"/>sunt, tanquam ea quae sunt. Quia, vt ait Ambrosius in libro de Trinitate, ita cognoscit 
+      <lb ed="#T" n="40"/>ea quae non sunt, vt ea quae sunt. Et hac ratione omnia dicuntur esse in eo, vel apud eum, 
+      <lb ed="#T" n="41"/>siue ei praesentia. Vnde Augustinus super illum locum Psalmi: &amp; pulchritudo agri mecum 
+      <lb ed="#T" n="42"/>est. Ideo, inquit, mecum est, quia apud Deum nihil praeteriit, nihil futurum est. Cum 
+      <lb ed="#T" n="43"/>illo sunt omnia futura, &amp; ei non detrahuntur iam praeterita: cum illo sunt omnia 
+      cogni<lb ed="#T" n="44" break="no"/>tione quadam ineffabili sapientiae Dei. Ecce hic apperit Augustinus ex qua intelligentia 
+      <lb ed="#T" n="45"/>accipienda sint huiusmodi verba: omnia sunt Deo praesentia, in Deo sunt omnia, vel cum 
+      <lb ed="#T" n="46"/>Deo, vel apud Deum, vel in eo vita: quia ineffabilis omnium cognitio in eo est.
+    </p>-->
+            <p xml:id="pdt7y6-e84818-d1e351">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0355.xml-->
+               <cb ed="#T" n="b"/>
+               <lb ed="#T" n="47" type="fixed=280"/>DIVISIO TEXTVS. 
+      <lb ed="#T" n="48"/>[CVmque supra disseruerimus.] Egit a 
+      se<lb ed="#T" n="49" break="no"/>ceunda distinct. vsque huc de Deo prout in 
+      <lb ed="#T" n="50"/>se perfectus est secundum conditiones 
+      perficien<lb ed="#T" n="51" break="no"/>tes cum in essendo: hic agit de eo secundum 
+      <lb ed="#T" n="52"/>conditsone: perficientes cum in operando &amp; 
+      <lb ed="#T" n="53"/>causando, &amp; secundum tria principia operis in 
+      <lb ed="#T" n="54"/>agentibus secundum propositum, non per 
+      ne<lb ed="#T" n="55" break="no"/>cessitatem naturae, diuiditur haec pars in tres 
+      <lb ed="#T" n="56"/>partes. Nam primo agit de scientia quae se 
+      ex<lb ed="#T" n="57" break="no"/>tendit ad bona &amp; mala, vsque ad quadragesimam 
+      <lb ed="#T" n="58"/>distinctionem. Secundo de potentia quae se 
+      ex<lb ed="#T" n="59" break="no"/>tendit tantum ad bona a dist. quadragesima 
+      se<lb ed="#T" n="60" break="no"/>cunda vsque ad quadragesimam quintam. Tertio 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0355.xml-->
+      <cb ed="#T" n="c"/>
+               <lb ed="#T" n="61"/>de voluntate quae se extendit ad bona dispofita 
+      <lb ed="#T" n="62"/>solum, a quadragesima quinta dist. vsque in 
+      <lb ed="#T" n="63"/>finem primi libri. 
+    </p>
+            <p xml:id="pdt7y6-e84818-d1e399">
+               <lb ed="#T" n="64"/>In prima parte primo agi: de scientia Dei 
+      ge<lb ed="#T" n="65" break="no"/>neraliter vsque ad quadragesimam dist. 
+      Secun<lb ed="#T" n="66" break="no"/>do de quadam specie eius, scilicet quae est 
+      res<lb ed="#T" n="67" break="no"/>pectu creaturarum rationaliumspecialiter, dist. 
+      <lb ed="#T" n="68"/>quadragesima &amp; quadrag. prima. In prima parte 
+      <lb ed="#T" n="69"/>agit de scientia Dei secundum se, dist. hac. 
+      Se<lb ed="#T" n="70" break="no"/>cundo de comparatione rerum scitarum ad 
+      sci<lb ed="#T" n="71" break="no"/>entem &amp; e conuerso, dist. trigesimasexta &amp; 
+      tri<lb ed="#T" n="72" break="no"/>gesima septima. Tertio de comparatione ipsius 
+      <lb ed="#T" n="73"/>scientiae ad res scitas &amp; e conuerso, dist. 
+      trige<lb ed="#T" n="74" break="no"/>sima octaua &amp; trigesima nona. 
+    </p>
+            <p xml:id="pdt7y6-e84818-d1e425">
+               <lb ed="#T" n="75"/>In prima parte,: hoc est in hac dist.t primo 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0356.xml-->
+      <pb ed="#T" n="281"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>ostendit quod multipliciter accipitur scientia 
+      <lb ed="#T" n="2"/>Dei. Secundo inquirit an esse eius dependeat a 
+      re<lb ed="#T" n="3" break="no"/>bus scitis [Hic considerari] Tertio quae sint a 
+      <lb ed="#T" n="4"/>Deo scita &amp; qualiter [Scientia vero.] In 
+      secun<lb ed="#T" n="5" break="no"/>da parte primo proponit quaestionem. Secundo 
+      <lb ed="#T" n="6"/>subdit solutionem[Ad hoc iuxta modulum. ] In 
+      <lb ed="#T" n="7"/>tertia parte primo ostendit quod omnia sunt ab 
+      <lb ed="#T" n="8"/>aeterno a Deo scita. Secundo quod ideo 
+      dicun<lb ed="#T" n="9" break="no"/>tur omnia in Deo fuisse ab aeterno &amp; in eius 
+      <lb ed="#T" n="10"/>scientia [Propterea] Tertio quod ideo etiam 
+      <lb ed="#T" n="11"/>omnia dicuntur ei praesentia [Inde est &amp;c.] 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

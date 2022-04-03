@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="29"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-ee8125"><!-- l1d3q2 -->
+            <head xml:id="pdt7y6-ee8125-Hd1e99">Quaestio 2</head>
+            <head xml:id="pdt7y6-ee8125-Hd1e101" type="question-title">De modo cognoscendi Deum</head>
+            <!-- left off here -->
+            <p xml:id="pdt7y6-ee8125-d1e106">
+               <lb ed="#T" n="118"/>QVESTIO II. 
+      <lb ed="#T" n="119"/>DE MODO COONOSCENDI DEVM 
+</p>
+            <p xml:id="pdt7y6-ee8125-d1e113">
+               <lb ed="#T" n="120"/>SEcundo quaeritur modus cognoscendi Deum
+      <lb ed="#T" n="121"/>per creaturam. 
+      <lb ed="#T" n="122"/>Et primo, an Deus cognoscibilis sit per creaturam. 
+      <lb ed="#T" n="123"/>Secundo, An Trinitas per creatura sit cognoscibilis. 
+    </p>
+            <div xml:id="pdt7y6-ee8125-Dd1e125">
+               <head xml:id="pdt7y6-ee8125-Hd1e127">Articulus 1</head>
+               <head xml:id="pdt7y6-ee8125-Hd1e129" type="question-title">An Deus sit cognoscibilis per creaturam</head>
+               <p xml:id="pdt7y6-ee8125-d1e132">
+                  <lb ed="#T" n="124"/>Articvlvs I. 
+      <lb ed="#T" n="125"/>An Deus sit cognoscibilis per creaturam.
+</p>
+               <p xml:id="pdt7y6-ee8125-d1e139">
+                  <lb ed="#T" n="126"/>AD primum sic proceditur. 1. Oportet 
+      <lb ed="#T" n="127"/>esse proportionem medij per quod sit 
+      co<lb ed="#T" n="128" break="no"/>gnitio ad id, quod per ipsum cognoscitur, vt 
+      <lb ed="#T" n="129"/>propositionum in syllogismo ad conclusionem: 
+      <lb ed="#T" n="130"/>sed creaturae ad Deum nulla est proportio.
+      </p>
+               <p xml:id="pdt7y6-ee8125-d1e152">
+                  <lb ed="#T" n="131"/>2. Tenebrae non sunt medium deueniendi in¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0105.xml-->
+      <pb ed="#T" n="30"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>cognitionem lucis: creatura tenebrae sunt &amp; Deus 
+      <lb ed="#T" n="2"/>lux: vnde secundum Augustinum cognitio in 
+      <lb ed="#T" n="3"/>creatura dicitur vespertina, cognitio in Verbo 
+      <lb ed="#T" n="4"/>dicitur matutina: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-ee8125-d1e173">
+                  <lb ed="#T" n="5"/>3. Praesentior est Deus animae quam aliqua 
+      <lb ed="#T" n="6"/>creatura: ergo immediatius cognoscitur ab ipsa: 
+      <lb ed="#T" n="7"/>ergo creatura non potest esse medium 
+      cognos<lb ed="#T" n="8" break="no"/>cendi creatorem. 
+    </p>
+               <p xml:id="pdt7y6-ee8125-d1e184">
+                  <lb ed="#T" n="9"/>4. Deus dicitur lux proportionaliter, quia per 
+      <lb ed="#T" n="10"/>ipsum cognoscuntur caetera: ergo non 
+      cognos<lb ed="#T" n="11" break="no"/>citur pet aliquid caeterorum, alioquin erit 
+      cir<lb ed="#T" n="12" break="no"/>culus. 
+    </p>
+               <p xml:id="pdt7y6-ee8125-d1e195">
+                  <lb ed="#T" n="13"/>Contra Rom. 1. Inuisibilia Dei per ea quae 
+      <lb ed="#T" n="14"/>facta sunt. Ite Sap. 13. Amagnitudine speciei &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-ee8125-d1e202">
+                  <lb ed="#T" n="15"/>2. Causa habet cognosci per effectum suum: 
+      <lb ed="#T" n="16"/>ergo illud, quod magis causa est, scilicet causa 
+      <lb ed="#T" n="17"/>ptima, maxime habet cognosci per effectum, 
+    </p>
+               <p xml:id="pdt7y6-ee8125-d1e211">
+                  <lb ed="#T" n="18"/>3. Ostendit hic Magister, qualiter 
+      Philoso<lb ed="#T" n="19" break="no"/>phi per creaturas Deum cognouerunt. 
+    </p>
+               <p xml:id="pdt7y6-ee8125-d1e218">
+                  <lb ed="#T" n="20"/>4. Cognoscitur res per similitudinem; omnis 
+      <lb ed="#T" n="21"/>creatura similitudo Dei est, ergo, &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-ee8125-d1e226">
+                  <lb ed="#T" n="22"/>Respondeo. Contingit cognoscere, &amp; causam 
+      <lb ed="#T" n="23"/>per effectum, &amp; effectum per causam: similiter  
+      <lb ed="#T" n="24"/>contingit cognoscere creaturam per Deum, vt 
+      <lb ed="#T" n="25"/>in futuro, &amp; Deum per creaturam, vt in 
+      prae<lb ed="#T" n="26" break="no"/>senti; &amp; hoc tribus modis, quia in Dei 
+      cogni<lb ed="#T" n="27" break="no"/>tionem secundum Dionys. deuenimus tripliciter;  
+      <lb ed="#T" n="28"/>scilicet per remotionem, &amp; per eminentiam, &amp; 
+      <lb ed="#T" n="29"/>per causam: In creatura enim tria est 
+      considera<lb ed="#T" n="30" break="no"/>re: creatura enim nominat ens productum ab alio 
+      <lb ed="#T" n="31"/>de nihilo: in quantum ab alio, ducit in 
+      cogni<lb ed="#T" n="32" break="no"/>tionem Dei per causam; secundum esse, quod 
+      <lb ed="#T" n="33"/>habet, sic ducit per eminentiam, quia omnis 
+      <lb ed="#T" n="34"/>perfectio creaturae nobiliori modo est in sua 
+      cau<lb ed="#T" n="35" break="no"/>sa secundum quod ex nihilo, sic permiscetur. 
+      <lb ed="#T" n="36"/>ei multa imperfectio, &amp; sic ducit per 
+      remo<lb ed="#T" n="37" break="no"/>tionem. 
+    </p>
+               <p xml:id="pdt7y6-ee8125-d1e263">
+                  <lb ed="#T" n="38"/>Ad 1. De proportione medij. Respondeo 
+      <lb ed="#T" n="39"/>quamuis inter Deum &amp; creaturam non sit 
+      <lb ed="#T" n="40"/>proportio, seu conuenientia vniuocationis; est: 
+      <lb ed="#T" n="41"/>tamen proportio analogiae, secundum quam 
+      <lb ed="#T" n="42"/>creatura esse suum accipit a creatore, &amp; ipsum 
+      <lb ed="#T" n="43"/>imitatur; &amp; hoc sufficit ad ducendum in 
+      cognitio<lb ed="#T" n="44" break="no"/>nem eius, sicut species hominis ducit in hominis 
+      <lb ed="#T" n="45"/>cognitionem. 
+    </p>
+               <p xml:id="pdt7y6-ee8125-d1e283">
+                  <lb ed="#T" n="46"/>Ad 2. De tenebris. Resp. Creaturae, in 
+      quan<lb ed="#T" n="47" break="no"/>tum ex nihilo, tenebrae sunt propter defectum, 
+      <lb ed="#T" n="48"/>in quantum Dei similitudo, Iux quaedam sunt,  
+      <lb ed="#T" n="49"/>oculo intellectus nostri proportionata: non sunt,  
+      <lb ed="#T" n="50"/>ergo totaliter tenebrae, &amp; sic possunt ducere in 
+      <lb ed="#T" n="51"/>cognitionem lucis maioris, quae minus 
+      intelle<lb ed="#T" n="52" break="no"/>ctui est proportionata, sicut nubes ad videndum 
+      <lb ed="#T" n="53"/>Solem. 
+    </p>
+               <p xml:id="pdt7y6-ee8125-d1e303">
+                  <lb ed="#T" n="54"/>Ad 3. Praesentior est Deus &amp;c. Respondeo 
+      <lb ed="#T" n="55"/>praesentior est, vt res quaedam, sed non vt 
+      ob<lb ed="#T" n="56" break="no"/>jectum intellectus: sicut &amp; anima sibi praesentior 
+      <lb ed="#T" n="57"/>est omni alia re, vt res; sed non vt objectum 
+      cog<lb ed="#T" n="58" break="no"/>nitionis: imo cum multo labore deuenitur in 
+      <lb ed="#T" n="59"/>cognitionem eius, per objecta cognoscendo 
+      <lb ed="#T" n="60"/>actus, &amp; per actus potentias, &amp; per potentias 
+      <lb ed="#T" n="61"/>substantiam, in qua sunt.  
+    </p>
+               <p xml:id="pdt7y6-ee8125-d1e323">
+                  <lb ed="#T" n="62"/>Ad 4. Per Deum cognoscuntur omnia alia. 
+      <lb ed="#T" n="63"/>Respondeo alia cognoscuntur per Deum 
+      effecti<lb ed="#T" n="64" break="no"/>ue, sicut per lumen; sed Deus per creaturas 
+      dis<lb ed="#T" n="65" break="no"/>positiue, sicut per speciem.
+    </p>
+            </div>
+            <div xml:id="pdt7y6-ee8125-Dd1e335">
+               <head xml:id="pdt7y6-ee8125-Hd1e337">Articulus 2</head>
+               <head xml:id="pdt7y6-ee8125-Hd1e339" type="question-title">An Trinitas sit per creaturas cognoscibilis</head>
+               <p xml:id="pdt7y6-ee8125-d1e342">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0105.xml-->
+                  <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="66"/>ARTICVLVS II 
+      <lb ed="#T" n="67"/>An Trinitas sit per creaturas cognoscibilis.
+      </p>
+               <p xml:id="pdt7y6-ee8125-d1e353">
+                  <lb ed="#T" n="68"/>AD secundum sic proceditur 1. Exod. 8. 
+      di<lb ed="#T" n="69" break="no"/>citur, quod magi defecerunt in tertio signo: 
+      <lb ed="#T" n="70"/>&amp; exponit glossa, quia defecerunt Philosophi 
+      <lb ed="#T" n="71"/>in cognitione tertiae personae, scilicet Spiritus 
+      <lb ed="#T" n="72"/>bancti: ergo duas personas saltem cognouerunt. 
+      <lb ed="#T" n="73"/>Ergo cognouerunt distinctionem personarum: 
+      <lb ed="#T" n="74"/>sed cognitio eorum non fuit, nisi per creaturam 
+      <lb ed="#T" n="75"/>ergo, &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-ee8125-d1e373">
+                  <lb ed="#T" n="76"/>2. In anima rationali est imago Dei, per 
+      <lb ed="#T" n="77"/>quam distincte repraesentatur vnitas essentiae &amp; 
+      <lb ed="#T" n="78"/>Trinitas personarum: ergo per ipsam Trinitas 
+      <lb ed="#T" n="79"/>potest cognosci. 
+    </p>
+               <p xml:id="pdt7y6-ee8125-d1e385">
+                  <lb ed="#T" n="80"/>3. Richardus de S. Victore. Ad omne, quod 
+      <lb ed="#T" n="81"/>necesse est esse, credo argumenta necessaria non 
+      <lb ed="#T" n="82"/>deesse: sed argumenta illa non nisi a creaturis 
+      <lb ed="#T" n="83"/>accipiuntur: ergo, cum esse Trinitatis necessarium 
+      <lb ed="#T" n="84"/>sit, per creaturas probari potest. 
+    </p>
+               <p xml:id="pdt7y6-ee8125-d1e398">
+                  <lb ed="#T" n="85"/>4. Trismegistus dicit Monas Monadem 
+      ge<lb ed="#T" n="86" break="no"/>nuit, propriumque in se reffexit ardorem: ergo 
+      <lb ed="#T" n="87"/>Trinitatem cognouit: sed non nisi per 
+      crea<lb ed="#T" n="88" break="no"/>turam: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-ee8125-d1e409">
+                  <lb ed="#T" n="89"/>5. Dicit Augustinus lib. de Ciuit. Dei, quod 
+      <lb ed="#T" n="90"/>pse legit in quodam libro Platonis totum illud, 
+      <lb ed="#T" n="91"/>In principio erat Verbum &amp;c. vsque ad locum 
+      <lb ed="#T" n="92"/>illum, Verbum caro factum est. Ergo vt prius 
+    </p>
+               <p xml:id="pdt7y6-ee8125-d1e420">
+                  <lb ed="#T" n="93"/>6. Ipse recitat lib. haeres. de Hermete, qui  
+      <lb ed="#T" n="94"/>fecit librum qui dicitur, Verbum perfectum, in 
+      <lb ed="#T" n="95"/>quo sic ait: Hic est Filius benedictiDei, &amp; bonae 
+      <lb ed="#T" n="96"/>voluntatis, qui humano ore enarrari non potest. 
+    </p>
+               <p xml:id="pdt7y6-ee8125-d1e431">
+                  <lb ed="#T" n="97"/>7. In eodem. Est enim quis Filij inenarrabilis 
+      <lb ed="#T" n="98"/>sermo sapientiae Spiritus Sanctus de solo Deo: 
+      <lb ed="#T" n="99"/>Dominus est omnium. Ergo vt prius. 
+    </p>
+               <p xml:id="pdt7y6-ee8125-d1e440">
+                  <lb ed="#T" n="100"/>3. Sibylla, ait Augustinus, dicit, ipsum tuum 
+      <lb ed="#T" n="101"/>cognosce Deum Dei silium esse: ergo 
+      habue<lb ed="#T" n="102" break="no"/>runt Philosophi cognitionem distinctionis 
+      per<lb ed="#T" n="103" break="no"/>sonarum: sed non nnsi per creaturas: ergo. &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-ee8125-d1e452">
+                  <lb ed="#T" n="104"/>Contra 1. Non inuenitur sufficiens huius in 
+      <lb ed="#T" n="105"/>creatura aliqua exemplum simile: ergo per 
+      crea<lb ed="#T" n="106" break="no"/>turam non potest haberi huiusmodi cognitio 
+      <lb ed="#T" n="107"/>sufficiens. 
+    </p>
+               <p xml:id="pdt7y6-ee8125-d1e463">
+                  <lb ed="#T" n="108"/>2. Quae excedunt, vel superant rationem 
+      hu<lb ed="#T" n="109" break="no"/>manam, per rationem inuestigari non possunt: 
+      <lb ed="#T" n="110"/>sed talis est in vnitate essentiae Trinitas 
+      persona<lb ed="#T" n="111" break="no"/>rum: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-ee8125-d1e474">
+                  <lb ed="#T" n="112"/>3. Maior fuit cognitio de Deo Iudaeorum per 
+      <lb ed="#T" n="113"/>legem, quam Philosophorum per rationem, 
+      <lb ed="#T" n="114"/>sed Iudaei per legem non habuerunt 
+      cognitio<lb ed="#T" n="115" break="no"/>nem Trinitatis: ergo multo minus Philosophi 
+      <lb ed="#T" n="116"/>per rationem. 
+    </p>
+               <p xml:id="pdt7y6-ee8125-d1e487">
+                  <lb ed="#T" n="117"/>Respondeo, triplex est modus deueniendi in 
+      <lb ed="#T" n="118"/>cognitionem rei alicuius; scilicet per propriam 
+      <lb ed="#T" n="119"/>inuentionem, vel per doctrinam alicuius, vel 
+      <lb ed="#T" n="120"/>per Dei reuelationem. Primo modo Philosophi 
+      <lb ed="#T" n="121"/>non potuerunt habere cognitionem Trinitatis; 
+      <lb ed="#T" n="122"/>secundo modo cognitionem habere potuerunt, 
+      <lb ed="#T" n="123"/>vel libros legis &amp; Prophetarum legendo, vt 
+      <lb ed="#T" n="124"/>dicitur Plato fecisse in AEgypto, vel Daemonum 
+      <lb ed="#T" n="125"/>consultatione discendo; tertio modo habere 
+      <lb ed="#T" n="126"/>possunt quibuscumque Deus reuelare dignatur.  
+      <lb ed="#T" n="127"/>Dico ergo, quod per creaturas cognitio 
+      Tri<lb ed="#T" n="128" break="no"/>nitatis distincta haberi non potest, quia, quae 
+      <lb ed="#T" n="129"/>dicuntur de Deo per comparationem ad 
+      creatu<lb ed="#T" n="130" break="no"/>ras, ad essentiam pertinent, non ad personas: 
+      <lb ed="#T" n="131"/>vnde per naturalem rationem, quae a creaturie 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0106.xml-->
+      <pb ed="#T" n="31"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>decipitur, non venitur in cognitionem 
+      attribu<lb ed="#T" n="2" break="no"/>torum personarum, sed essentiae. Cognouerunt 
+      <lb ed="#T" n="3"/>ergo per creaturas non attributa personarum. 
+      <lb ed="#T" n="4"/>propria sed attributa essentialila appropriata 
+      <lb ed="#T" n="5"/>personis; non in quantum appropriata sunt, 
+      <lb ed="#T" n="6"/>quia eorum, cognitio dependet a cognitione 
+      <lb ed="#T" n="7"/>propriorum, sed cognouerunt appropriata, vt 
+      <lb ed="#T" n="8"/>communia: quia Deus per essentialia causa est 
+      <lb ed="#T" n="9"/>rerum, vnde illorum similitudo relucet in 
+      re<lb ed="#T" n="10" break="no"/>bus expressius 
+    </p>
+               <p xml:id="pdt7y6-ee8125-d1e550">
+                  <lb ed="#T" n="11"/>Ad 1. Defecerunt in cognitione tertiae 
+      perso<lb ed="#T" n="12" break="no"/>nae. Resp. Intelligitur hoc de cognitione 
+      perso<lb ed="#T" n="13" break="no"/>narum, quoad appropriata, non quoad propria, 
+      <lb ed="#T" n="14"/>nisi tantum inquantum communia sunt: dicuntur. 
+      <lb ed="#T" n="15"/>vero defecisse in tertio signo, quia defecerunt in 
+      <lb ed="#T" n="16"/>attributo Spiritus Sancti, id est, in praecipuo 
+      <lb ed="#T" n="17"/>effectu diuinae bonitatis inueniendo, &amp; amando 
+      <lb ed="#T" n="18"/>scilicet cognitione incarnationis 
+    </p>
+               <p xml:id="pdt7y6-ee8125-d1e570">
+                  <lb ed="#T" n="19"/>Ad 2. In anima est imago. Resp. Imago ipsa 
+      <lb ed="#T" n="20"/>animae potest considerari, vt res, vel vt imago 
+      <lb ed="#T" n="21"/>primo modo potest cognosci a Philosophis 
+      <lb ed="#T" n="22"/>secundo modo non, quia praesupponit 
+      cognitio<lb ed="#T" n="23" break="no"/>nem Trinitatis, cuius est imago: neutro tamen 
+      <lb ed="#T" n="24"/>modo propter imperfectionem sui sufficit 
+      du<lb ed="#T" n="25" break="no"/>cere in cognitionem a rinitatis. 
+    </p>
+               <p xml:id="pdt7y6-ee8125-d1e589">
+                  <lb ed="#T" n="26"/>Ad 3. de Richard. Respondeo, quamuis in 
+      <lb ed="#T" n="27"/>se sint nota, sunt tamen nobis occulta, 
+    </p>
+               <p xml:id="pdt7y6-ee8125-d1e596">
+                  <lb ed="#T" n="28"/>Ad 4. Et alia de verbis Philosophorum. 
+      <lb ed="#T" n="29"/>Resp. Per doctrinam, vel reuelationem hoc 
+      no<lb ed="#T" n="30" break="no"/>uerunt, non per rationis inquisitionem. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

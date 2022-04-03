@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="276"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e83760"><!-- l1d34q3 -->
+            <head xml:id="pdt7y6-e83760-Hd1e99">Quaestio 3</head>
+            <head xml:id="pdt7y6-e83760-Hd1e101" type="question-title">De appropriatione quorundam attributorum ad personas</head>
+            <p xml:id="pdt7y6-e83760-d1e104">
+               <lb ed="#T" n="20"/>QVESTIO III. 
+      <lb ed="#T" n="21"/>DE APPROPRIATIONE 
+      QVORVN<lb ed="#T" n="22" break="no"/>DAM ESSENTIALIVN 
+      ATTRIRV<lb ed="#T" n="23" break="no"/>TORVM AD PERSONAS. 
+</p>
+            <p xml:id="pdt7y6-e83760-d1e115">
+               <lb ed="#T" n="24"/>CIrca tertium duo quaeruntur.  
+      <lb ed="#T" n="25"/>Primo an debeat vel possit fieri 
+      appro<lb ed="#T" n="26" break="no"/>priatio aliqua in Diuinis. 
+      <lb ed="#T" n="27"/>Secundo an conueniens sit appropriatio 
+      po<lb ed="#T" n="28" break="no"/>tentiae, sapientiae &amp; bonitatis. 
+    </p>
+            <div xml:id="pdt7y6-e83760-Dd1e128">
+               <head xml:id="pdt7y6-e83760-Hd1e130">Articulus 1</head>
+               <head xml:id="pdt7y6-e83760-Hd1e132" type="question-title">
+  An possit vel debeat fieri appropriatio aliqua in Diuinis
+</head>
+               <p xml:id="pdt7y6-e83760-d1e135">
+                  <lb ed="#T" n="29"/>Articvlvs I. 
+      <lb ed="#T" n="30"/>An possit vel debeat fieri appropriatio  
+      <lb ed="#T" n="31"/>aliqua in Diuinis. 
+</p>
+               <p xml:id="pdt7y6-e83760-d1e144">
+                  <lb ed="#T" n="32"/>AD primum sic proceditur. 1. Quod aeque 
+      <lb ed="#T" n="33"/>commune est pluribus, non conuenit 
+      vni<lb ed="#T" n="34" break="no"/>magis quam alteri: ergo non debet appropriari. 
+      <lb ed="#T" n="35"/>potius vni quam alteri. 
+    </p>
+               <p xml:id="pdt7y6-e83760-d1e155">
+                  <lb ed="#T" n="36"/>2. De similibus simile iudicium: omnia 
+      attri<lb ed="#T" n="37" break="no"/>buta essentialia similiter se habent ad personas: 
+      <lb ed="#T" n="38"/>ergo vel ominia debent appropriari, vel nulla. 
+    </p>
+               <p xml:id="pdt7y6-e83760-d1e165">
+                  <lb ed="#T" n="39"/>3. Appropriatum accidit proprio secundum 
+      <lb ed="#T" n="40"/>intellectum, &amp; consequitur illud: ergo non 
+      exi<lb ed="#T" n="41" break="no"/>stente proprio, non habet esse vel intelligi: sed  
+      <lb ed="#T" n="42"/>ominia attributa essentialia circumscriptis 
+      pro<lb ed="#T" n="43" break="no"/>prietatibus personarum nihilominus essent: ergo 
+      <lb ed="#T" n="44"/>nulli personae appropriata sunt.  
+    </p>
+               <p xml:id="pdt7y6-e83760-d1e181">
+                  <lb ed="#T" n="45"/>4. Nihil ab homine fiendum est quod possit, 
+      <lb ed="#T" n="46"/>errorem inducere: sed appropriatio potest 
+      erro<lb ed="#T" n="47" break="no"/>rem inducere, vt credatur illi personae solum, vel 
+      <lb ed="#T" n="48"/>magis conuenire: ergo appropriatio non debet 
+      <lb ed="#T" n="49"/>ab homine fieri huiusmodi attributorum, quae 
+      <lb ed="#T" n="50"/>communia sunt cuilibet personae. 
+    </p>
+               <p xml:id="pdt7y6-e83760-d1e197">
+                  <lb ed="#T" n="51"/>5. Huiusmodi appropriatio aut habet rationem 
+      <lb ed="#T" n="52"/>aliquam ex parte rei, aut non: si non, ergo cassa 
+      <lb ed="#T" n="53"/>est &amp; vana: si sic, ergo appropriatum magis 
+      con<lb ed="#T" n="54" break="no"/>uenit cui appropriatur quam alteri, quod 
+      fal<lb ed="#T" n="55" break="no"/>sum est. 
+    </p>
+               <p xml:id="pdt7y6-e83760-d1e210">
+                  <lb ed="#T" n="56"/>6. Attributa essentialia non habent aliquam  
+      <lb ed="#T" n="57"/>differentiam a parte rei: ergo ratio 
+      appropria<lb ed="#T" n="58" break="no"/>tionis eorum non est a parte rei, sed intellectus 
+      <lb ed="#T" n="59"/>nostri solum: ergo potest contrario modo fieri 
+      <lb ed="#T" n="60"/>si vellemus 
+    </p>
+               <p xml:id="pdt7y6-e83760-d1e223">
+                  <lb ed="#T" n="61"/>Contra. 1. Filius procedit per modum naturae, 
+      <lb ed="#T" n="62"/>Spiritus per modum voluntatis: ergo quae ad 
+      <lb ed="#T" n="63"/>naturam pertinent maiorem habent similitudi¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0351.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="64"/>nem cum modo processionis Filij, &amp; quae ad 
+      vo<lb ed="#T" n="65" break="no"/>luntatem, maiorem cum modo processionis 
+      spi<lb ed="#T" n="66" break="no"/>ritus sancti: ergo conuenienter possunt illi 
+      ap<lb ed="#T" n="67" break="no"/>propriari. 
+    </p>
+               <p xml:id="pdt7y6-e83760-d1e245">
+                  <lb ed="#T" n="68"/>2. Sancti multa personis appropriant, vt 
+      Hi<lb ed="#T" n="69" break="no"/>larius aeternitatem Patri, speciem imagini, 
+      vsun<lb ed="#T" n="70" break="no"/>muneri: &amp; Augustinus vnitatem Patri, 
+      aequali<lb ed="#T" n="71" break="no"/>tatem Filio, concordiam Spiritui sancto: ergo 
+      <lb ed="#T" n="72"/>conuenienter possunt communia aliqua 
+      appro<lb ed="#T" n="73" break="no"/>priari. 
+    </p>
+               <p xml:id="pdt7y6-e83760-d1e262">
+                  <lb ed="#T" n="74"/>Respondeo. De attributis essentialibus est 
+      lo<lb ed="#T" n="75" break="no"/>qui dupliciter: aut secundum rem, sic omnino 
+      <lb ed="#T" n="76"/>idem sunt, nec appropriafitur: aut secundum 
+      <lb ed="#T" n="77"/>rationem, sic differunt, &amp; sic eorum quaedam 
+      ap<lb ed="#T" n="78" break="no"/>propriantur, quaedam non. Nam appropriatio  
+      <lb ed="#T" n="79"/>non est aliud quam specialis attributio ratione 
+      <lb ed="#T" n="80"/>alicuius conformitatis cum proprio illius 
+      perso<lb ed="#T" n="81" break="no"/>nae. Sunt ergo quaedam attributa essentialia quae 
+      <lb ed="#T" n="82"/>nullam habent similitudinem cum proprio 
+      ali<lb ed="#T" n="83" break="no"/>cuius personae, vt essentia, substantia, 
+      immensi<lb ed="#T" n="84" break="no"/>tas, &amp; huiusmodi: haec non appropriantur. 
+      Quae<lb ed="#T" n="85" break="no"/>dam vero quae habent similitudinem aliquam, vt 
+      <lb ed="#T" n="86"/>potentia cum Patre qui est principium 
+      vniuer<lb ed="#T" n="87" break="no"/>sale, sapientia cum verbo, bonitas cum amore, &amp; 
+      <lb ed="#T" n="88"/>haec appropriantur.  
+    </p>
+               <p xml:id="pdt7y6-e83760-d1e297">
+                  <lb ed="#T" n="89"/>Ad 1. Non conuenit magis vni &amp;c. Resp. 
+      <lb ed="#T" n="90"/>Quamuis non conueniat magis alicui personae, 
+      <lb ed="#T" n="91"/>tamen magis assimilatur ei quod proprie 
+      conue<lb ed="#T" n="92" break="no"/>nit, &amp; ideo magis illi appropriatur.  
+    </p>
+               <p xml:id="pdt7y6-e83760-d1e308">
+                  <lb ed="#T" n="93"/>Ad 2. De similibus simile est iudicium. Resp. 
+      <lb ed="#T" n="94"/>Quamuis similia sint imo idem omnino re, 
+      ta<lb ed="#T" n="95" break="no"/>men dissimilia ratione. 
+    </p>
+               <p xml:id="pdt7y6-e83760-d1e317">
+                  <lb ed="#T" n="96"/>Ad 3. Appropriatum accidit proprio. Resp. 
+      <lb ed="#T" n="97"/>De appropriato est loqui dupliciter: aut 
+      ma<lb ed="#T" n="98" break="no"/>terialiter secundum id quod est, aut 
+      formali<lb ed="#T" n="99" break="no"/>ter inquantum appropriatum est: primo modo 
+      <lb ed="#T" n="100"/>appropriatum secundum intellectum praecedit 
+      <lb ed="#T" n="101"/>proprium, sicut essentia personam: secundo 
+      mo<lb ed="#T" n="102" break="no"/>do sequitur; vnde si non esset proprium, non esset 
+      <lb ed="#T" n="103"/>appropriatum inquantum huiusmodi: esset 
+      ta<lb ed="#T" n="104" break="no"/>men simpliciter id quod est appropriatum. 
+    </p>
+               <p xml:id="pdt7y6-e83760-d1e339">
+                  <lb ed="#T" n="105"/>Ad 4. Deerrore. Resp. Si ita appropriaretur 
+      <lb ed="#T" n="106"/>vni, quod non praedicaretur communiter de 
+      <lb ed="#T" n="107"/>alijs, tunc induceret errorem; sed non ita fit 
+    </p>
+               <p xml:id="pdt7y6-e83760-d1e348">
+                  <lb ed="#T" n="108"/>Ad 5. Aut habet aliquid respondens a parte 
+      <lb ed="#T" n="109"/>rei &amp;c. Resp. Aliquid est super quod fundatur  
+      <lb ed="#T" n="110"/>appropriatio a parte rei: &amp; hoc tam n parte ius 
+      <lb ed="#T" n="111"/>quod appropriatur cuius quidem vera nantura. 
+      <lb ed="#T" n="112"/>super qua fundatur eius ratio in Deo est, 
+      quam<lb ed="#T" n="113" break="no"/>uis secundum indifferentiam realem: quam ex 
+      <lb ed="#T" n="114"/>parte eius cui appropriatur, a parte cuius est 
+      pro<lb ed="#T" n="115" break="no"/>prietas aliqua quae conuenit sibi nec conuenit 
+      al<lb ed="#T" n="116" break="no"/>teri. 
+    </p>
+               <p xml:id="pdt7y6-e83760-d1e371">
+                  <lb ed="#T" n="117"/>Ad 6. Attributa essentialia non habent 
+      diffe<lb ed="#T" n="118" break="no"/>rentiam a parte rei. Resp. Quamuis in Deo non 
+      <lb ed="#T" n="119"/>differant, tamen vera &amp; realiter sunt in illo. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e83760-Dd1e382">
+               <head xml:id="pdt7y6-e83760-Hd1e384">Articulus 2</head>
+               <head xml:id="pdt7y6-e83760-Hd1e386" type="question-title">
+  An conueniens sit appropriatio potentia, sapientia et bonitatis
+</head>
+               <p xml:id="pdt7y6-e83760-d1e389">
+                  <lb ed="#T" n="120"/>Articvlvs II. 
+      <lb ed="#T" n="121"/>An conueniens sit appropriatio potentia, sapientia. 
+      <lb ed="#T" n="122"/>&amp; bonitatis. 
+</p>
+               <p xml:id="pdt7y6-e83760-d1e398">
+                  <lb ed="#T" n="123"/>AD secundum articulum proceditur sic. 1. 
+      <lb ed="#T" n="124"/>Virtus ad potentiam pertinet: sed virtus 
+      <lb ed="#T" n="125"/>appropriatur Filio, non Patri. 1. Corinth. 1. 
+      er<lb ed="#T" n="126" break="no"/>go &amp; potentia. 
+    </p>
+               <p xml:id="pdt7y6-e83760-d1e409">
+                  <lb ed="#T" n="127"/>2. Nullus sapiens Patrem potest iudicare 
+      im<lb ed="#T" n="128" break="no"/>potentiorem Filio, ex hoc quod ipsum genuit, 
+      <lb ed="#T" n="129"/>nec e contrario: ergo hac ratione, quae in lit¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0352.xml-->
+      <pb ed="#T" n="277"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>tera tangitur, Patri potentia appropriari non 
+      <lb ed="#T" n="2"/>debuit. 
+    </p>
+               <p xml:id="pdt7y6-e83760-d1e430">
+                  <lb ed="#T" n="3"/>3. Ex sapientia generatur verbum: ergo 
+      sa<lb ed="#T" n="4" break="no"/>pientia genitori verbi, non genito verbo 
+      ap<lb ed="#T" n="5" break="no"/>propriari debuit. 
+    </p>
+               <p xml:id="pdt7y6-e83760-d1e439">
+                  <lb ed="#T" n="6"/>4. Iob. 12. In antiquis est sapientia: ergo cui 
+      <lb ed="#T" n="7"/>appropriatur antiquitas, id est aeternitas, 
+      scili<lb ed="#T" n="8" break="no"/>cet Patri, eidem sapientia appropriari debuit. 
+    </p>
+               <p xml:id="pdt7y6-e83760-d1e448">
+                  <lb ed="#T" n="9"/>5. Bonum est diffusiuum sui, secundum B. 
+      <lb ed="#T" n="10"/>Dyonisium: ergo habet rationem principij: 
+      er<lb ed="#T" n="11" break="no"/>go Patri cui maxime conuenit principium, 
+      ap<lb ed="#T" n="12" break="no"/>propriari debuit, non Spiritui sancto. 
+    </p>
+               <p xml:id="pdt7y6-e83760-d1e459">
+                  <lb ed="#T" n="13"/>6. Bonum habet rationem finis vltimi: 
+      pri<lb ed="#T" n="14" break="no"/>mum vero principium &amp; finis vltimus in eodem 
+      <lb ed="#T" n="15"/>radicantur, quia non est status circa primum: 
+      <lb ed="#T" n="16"/>er go Patri cui conuenit ratio primi principij. 
+      <lb ed="#T" n="17"/>debet appropriari bonitas. 
+    </p>
+               <p xml:id="pdt7y6-e83760-d1e472">
+                  <lb ed="#T" n="18"/>Respondeo. Appropriationis nominum in 
+      Di<lb ed="#T" n="19" break="no"/>uinis triplex est ratio: vna a parte rei, 
+      sci<lb ed="#T" n="20" break="no"/>icet assimilatio appropriati cum proprio: duae 
+      <lb ed="#T" n="21"/>a parte nostri; vna, manifestatio veritatis, &amp; 
+      <lb ed="#T" n="22"/>haec pertinet ad sapientes, qui per 
+      appropria<lb ed="#T" n="23" break="no"/>ta quorum vestigium in creaturis relucet, 
+      ex<lb ed="#T" n="24" break="no"/>pressius deueniunt in cognitionem propriorum: 
+      <lb ed="#T" n="25"/>aItera exclusio erroris, &amp; haec pertinet ad 
+      simpli<lb ed="#T" n="26" break="no"/>ces. Hac triplici ratione appropriatur potentia 
+      <lb ed="#T" n="27"/>Patri, sapientia Filio, bonitas Spiritui sancto. 
+      <lb ed="#T" n="28"/>Primam rationem tangit Richardus de sancto 
+      <lb ed="#T" n="29"/>Victore lib. de Trinitate, quia potentia 
+      natu<lb ed="#T" n="30" break="no"/>raliter praecedit sapientiam, &amp; vtraque bonam 
+      <lb ed="#T" n="31"/>voluntatem quae est bonitas rerum rationabilium. 
+      <lb ed="#T" n="32"/>Secundam rationem videtur tangere consuetudo. 
+      <lb ed="#T" n="33"/>scripturae, quia opera manifestatiuaspotentiae 
+      at<lb ed="#T" n="34" break="no"/>tribuit Patri, sapientiae Filio, bonitatis Spiritui  
+      <lb ed="#T" n="35"/>sancto. Tertiam rationem tangit hic Magister, 
+      <lb ed="#T" n="36"/>qui attribuit patri potentiam, ne exemplo rerum 
+      <lb ed="#T" n="37"/>carnalium ratione antiquitatis credatur 
+      impo<lb ed="#T" n="38" break="no"/>tens: sapientiam Filio, ne ratione iuuentutis 
+      cre<lb ed="#T" n="39" break="no"/>datur insipiens: bonitatem Spiritui sancto, ne 
+      ra<lb ed="#T" n="40" break="no"/>tione impetuositatis credatur crudelis. 
+    </p>
+               <p xml:id="pdt7y6-e83760-d1e524">
+                  <lb ed="#T" n="41"/>Ad 1. De virtute. Resp. Virtus non nominat 
+      <lb ed="#T" n="42"/>absolute potentia, sed eius vltimam perfectione 
+      <lb ed="#T" n="43"/>per quam potentia exit in opus: ideo attribuitur. 
+      <lb ed="#T" n="44"/>Filio, per quem Pater operatur: quae 
+      appropria<lb ed="#T" n="45" break="no"/>tio sit non ratione eius in quo fundatur virtus, id  
+      <lb ed="#T" n="46"/>est potentiae; sed ratione propinquitatis ad 
+      <lb ed="#T" n="47"/>actum ad quem ordinatur.  
+    </p>
+               <p xml:id="pdt7y6-e83760-d1e543">
+                  <lb ed="#T" n="48"/>Ad 2. De impotentia. Resp. Appropriatio illa 
+      <lb ed="#T" n="49"/>sit propter cautelam rudium, sed propter 
+      erudi<lb ed="#T" n="50" break="no"/>tionem sapientum sit alia. 
+    </p>
+               <p xml:id="pdt7y6-e83760-d1e552">
+                  <lb ed="#T" n="51"/>Ad 3. De sapientia &amp; verbo. Resp. Inter 
+      ver<lb ed="#T" n="52" break="no"/>bum &amp; sapientiam est considerare ordinem, &amp; 
+      si<lb ed="#T" n="53" break="no"/>militudinem: appropriatio sit ratione 
+      assimilatio<lb ed="#T" n="54" break="no"/>nis, quia vtrumque dicit rationem pertinentem 
+      <lb ed="#T" n="55"/>ad genus cognitionis secundum intellectum: non 
+      <lb ed="#T" n="56"/>sit vero appropriatio ratione ordinis, quia 
+      se<lb ed="#T" n="57" break="no"/>cundum ordinem in eodem quidem sapientia. 
+      <lb ed="#T" n="58"/>praecedit verbum, sed in diuersis e conuerso. 
+    </p>
+               <p xml:id="pdt7y6-e83760-d1e572">
+                  <lb ed="#T" n="59"/>Ad 4. De antiquitate. Resp. Quamuis 
+      sapien<lb ed="#T" n="60" break="no"/>tia ratione subjecti magis conueniat antiquo: 
+      ta<lb ed="#T" n="61" break="no"/>men ratione generis, quia ad cognitione pertinet, 
+      <lb ed="#T" n="62"/>magis conuenit verbo. Item propter 
+      exclusio<lb ed="#T" n="63" break="no"/>nem erroris potius debet appropriari ei cui 
+      mi<lb ed="#T" n="64" break="no"/>nus conuenire videtur, quam alteri. 
+    </p>
+               <p xml:id="pdt7y6-e83760-d1e588">
+                  <lb ed="#T" n="65"/>Ad 5. De diffusione boni. Resp. Modus quo 
+      <lb ed="#T" n="66"/>diffundere se conuenit bono, alius est ab eo 
+      se<lb ed="#T" n="67" break="no"/>cundum quem conuenit principio: quia bono 
+      <lb ed="#T" n="68"/>conuenit vt fini mouenti, sed principio vt causae 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0352.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="69"/>efficienti. Vel potius bono conuenit diffusio 
+      vo<lb ed="#T" n="70" break="no"/>luntaria; principio naturalis: &amp; quia 
+      diffusio<lb ed="#T" n="71" break="no"/>voluntaria ex amore est, ideo amori appropriatur.  
+    </p>
+               <p xml:id="pdt7y6-e83760-d1e610">
+                  <lb ed="#T" n="72"/>Ad 6. De fine vltimo. Resp. Quaemuis idem 
+      <lb ed="#T" n="73"/>sit primum principium &amp; finis vltimus, re; 
+      ta<lb ed="#T" n="74" break="no"/>men non est eadem ratio vtriusque: appropriatio  
+      <lb ed="#T" n="75"/>vero magis respicit conuenientiam secundum 
+      <lb ed="#T" n="76"/>rationem, quam secundum rem, vt dictum est, 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

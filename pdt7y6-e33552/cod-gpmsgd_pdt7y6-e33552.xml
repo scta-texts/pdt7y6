@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="110"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e33552"><!-- l1d14prae -->
+            <head xml:id="pdt7y6-e33552-Hd1e99">Praeambulum</head>
+            <head xml:id="pdt7y6-e33552-Hd1e101" type="question-title"/>
+            <p xml:id="pdt7y6-e33552-d1e103">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0185.xml-->
+               <cb ed="#T" n="c"/>
+               <lb ed="#T" n="92"/>QVoD OEMINA EST PROOESSio 
+      <lb ed="#T" n="93"/>Spiritus sancti. Distinct. TIIII. 
+    </p>
+          <!--  <p xml:id="pdt7y6-e33552-d1e114">
+               <lb ed="#T" n="94"/>RAETEREA diligenter adnotandum est, quod gemina est processio 
+      <lb ed="#T" n="95"/>Spiritus sancti: aeterna videlicet, quae ineffabilis est, qua a Patre &amp; Filio. 
+      <lb ed="#T" n="96"/>aeternaliter &amp; sine tempore processit: &amp; temporalis, qua a Patre &amp; Filio 
+      <lb ed="#T" n="97"/>ad sanctificandam creaturam procedit. Et sicut ab aeterno communiter 
+      <lb ed="#T" n="98"/>ac simul procedit a Patre &amp; Filio: ita &amp; in tempore communiter &amp; simul. 
+      <lb ed="#T" n="99"/>ab vtroque procedit ad creaturam, non diuisim a Patre in Filium, &amp; a 
+      <lb ed="#T" n="100"/>Filio ad creaturam. Vnde August. in libro decimo quinto, de Trinit. ait, Spiritus sanctus 
+      <lb ed="#T" n="101"/>non de Patre procedit in Filium, &amp; de Filio procedit ad sanctificandam creaturam: sed  
+      <lb ed="#T" n="102"/>simul de vtroque procedit, quamuis hoc Filio Pater dederit, vt sicut de se, ita etiam de 
+      <lb ed="#T" n="103"/>illo procedat.  
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0186.xml-\->
+      <pb ed="#T" n="111"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>De temporali processione Spiritus sancti, specialiter agitur.  
+      <lb ed="#T" n="2"/>De temporali autem processione, Beda in homilia Dominicae primae post ascensionem, 
+      <lb ed="#T" n="3"/>ita loquitur: Cum gratia spiritus sancti datur hominibus, profecto mittitur Spiritus 
+      a<lb ed="#T" n="4" break="no"/>Patre, mittitur &amp; a Filio, procedit a Patre, procedit &amp; a Filio: quia &amp; eius missio est 
+      <lb ed="#T" n="5"/>ipsa processio. His verbis aperte ostendit, donationem gratiae Spiritus sancti dici 
+      proces<lb ed="#T" n="6" break="no"/>sionem vel missionem eiusdem. Sed cum donatio vel datio non sit nisi temporalis, 
+      con<lb ed="#T" n="7" break="no"/>stat, quia &amp; haec processio, siue missio temporalis est. Hanc quoque temporalem Spiritus 
+      <lb ed="#T" n="8"/>sancti processionem August. in 15. lib. de Trinitate insinuat dicens: Spiritus sanctus 
+      pro<lb ed="#T" n="9" break="no"/>cessit a Christo, quando post resurrectionem insufflauit in discipulos, his verbis: Cum 
+      <lb ed="#T" n="10"/>resurrexisset Christus a mortuis, &amp; apparuisset discipulis, insufflauit, &amp; ait: Accipite 
+      <lb ed="#T" n="11"/>Spiritum sanctum, vt etiam cum de se procedere ostenderet: &amp; ipse est virtus, quae de 
+      <lb ed="#T" n="12"/>illo exibat (vt legitur in Euangelio) &amp; sanabat omnes. Et vt ostenderet hanc 
+      proces<lb ed="#T" n="13" break="no"/>sionem Spiritus sancti non esse aliud, quam donationem vel dationem ipsius Spiritus 
+      <lb ed="#T" n="14"/>sancti, addidit: Post resurrectionem Dominus Iesus bis dedit Spiritum sanctum: semel 
+      <lb ed="#T" n="15"/>in terra propter dilectionem proximi: &amp; iterum de caelo propter dilectionem Dei: quia 
+      <lb ed="#T" n="16"/>per ipsum donum diffunditur charitas in cordibus nostris, qua diligimus Deum &amp; 
+      <lb ed="#T" n="17"/>proximum. 
+    </p>
+            <p xml:id="pdt7y6-e33552-d1e182">
+               <lb ed="#T" n="18"/>Quod aliqui dicant ipsum Spiritum sanctum non dart, sed dona eius. 
+      <lb ed="#T" n="19"/>Sunt autem aliqui, qui dicunt Spiritum sanctum ipsum Deum non dari, sed dona eius, 
+      <lb ed="#T" n="20"/>quae non sunt ipse Spiritus: &amp;, vt aiunt, Spiritus sanctus dicitur dari, cum gratia eius, 
+      <lb ed="#T" n="21"/>quae tamen non est ipse, datur hominibus. Et hoc dicunt Bedam sensisse in superioribus. 
+      <lb ed="#T" n="22"/>verbis, quibus dicit Spiritum sanctum procedere, cum ipsius gratia datur hominibus: 
+      <lb ed="#T" n="23"/>tanquam non ipse detur, sed gratia eius. Sed quod ipse Spiritus sanctus, qui Deus est, 
+      <lb ed="#T" n="24"/>&amp; tertia in Trin. persona, detur, aperte dicit Aug. in lib. 15. de Trin. ita dicens: Eundem, 
+      <lb ed="#T" n="25"/>Spiritum sanctum datum cum insufflasset lesus, de quo mox ait: Ite, baptieate omnes 
+      <lb ed="#T" n="26"/>gentes in nomine Patris &amp; Filij &amp; spiritus sancti: ambigere non debemus. Ipse est 
+      er<lb ed="#T" n="27" break="no"/>go, qui etiam de caelo datus est die Pentecostes. Quomodo ergo Deus non est qui dat, 
+      <lb ed="#T" n="28"/>Spiritum sanctum? imo quantus est Deus, qui dat Deum? Ecce his verbis aperte dicit 
+      <lb ed="#T" n="29"/>Spiritum sanctum, ipsum scilicet Deum, dari hominibus a Patre &amp; a Filio. Et quod ipse 
+      <lb ed="#T" n="30"/>Spiritus sanctus, qui Deus est ac tertia in Trinitate persona, nobis detur, nostrisque 
+      in<lb ed="#T" n="31" break="no"/>fundatur atque illabatur mentibus, aperte ostendit Ambros. in 1. lib. de Spiritu sancto, 
+      <lb ed="#T" n="32"/>dicens: Licet multi dicantur spiritus, quia legitur: Qui facit Angelos suos spiritus: vnus 
+      <lb ed="#T" n="33"/>est tamen Dei Spiritus. Ipsum ergo vnum Spiritum &amp; Apostoli &amp; Prophetae sunt confe 
+      <lb ed="#T" n="34"/>cuti: sicut etiam Vas electionis, dicit: Quia vnum Spiritum potauimus: quasi cum qui non 
+      <lb ed="#T" n="35"/>queat scindi, sed infundatur animis, &amp; sensibus illabatur, vt secularis sitis restinguat 
+      ar<lb ed="#T" n="36" break="no"/>dorem: qui Spiritus sanctus non est de substantia rerum corporalium, nec de substantia. 
+      <lb ed="#T" n="37"/>inuisibilium creaturarum. His verbis aperte dicit Spiritum sanctum ipsum, qui creatura 
+      <lb ed="#T" n="38"/>non est, infundi mentibus nostris. Item in eodem: Omnis creatura mutabilis est, sed non 
+      <lb ed="#T" n="39"/>mutabilis Spiritus sanctus. Quid autem dicere dubitem, quia datus est Spiritus sanctus, 
+      <lb ed="#T" n="40"/>cum scriptum sit. Charitas Dei diffua est in cordibus nostris per Spiritum sanctum, 
+      qui<lb ed="#T" n="41" break="no"/>darus est nobis? Qui cum sit inaccessibilis natura, receptibilis tamen propter bonitatem 
+      <lb ed="#T" n="42"/>suam nobis est, complectens virtute omnia: sed qui solis participetur iustis, simplex 
+      su<lb ed="#T" n="43" break="no"/>bstantia, opulens virtutibus, vnicuique praesens, diuidens de suo singulis, &amp; vbique 
+      totus<lb ed="#T" n="44" break="no"/>Incircumscriptus ergo &amp; infinitus est Spiritus sanctus: qui discipulorum sensus 
+      separato<lb ed="#T" n="45" break="no"/>rum infudit, quem nihil potest fallere. Angeli ad paucos mittebantur, Spiritus sanctus 
+      <lb ed="#T" n="46"/>autem populis infundebatur. Quis ergo dubitet quin Diuinum sit quod infunditur simut 
+      <lb ed="#T" n="47"/>pluribus, nec videtur? Vnus est ergo Spiritus sanctus, qui datus est omnibus licet 
+      sepa<lb ed="#T" n="48" break="no"/>ratis Apostolis. Et hic aperte dicit Ambrosius, quod Spiritus sanctus qui est substantia. 
+      <lb ed="#T" n="49"/>simplex, cum sit vnus, datur pluribus. Alia quoque authoritate hoc idem astruitur, 
+      scili<lb ed="#T" n="50" break="no"/>cet quod Spiritus sanctus qui est aequalis Filio, hominibus detur. Ait enim Augustin de 
+      <lb ed="#T" n="51"/>verbis Apostoli sic: Charitas Dei diffusa est in cordibus nostris per Spiritum sanctum, 
+      <lb ed="#T" n="52"/>qui datus est nobis. Aquo datur? Ab illo qui dedit dona hominibus. Quae donae Spiritum 
+      <lb ed="#T" n="53"/>sanctum qui tale donum dat, quale est ipse. Magna est misericordia eius, donum dat sibi 
+      <lb ed="#T" n="54"/>aequale: quia donum eius spiritus sanctus est. Praemissis his &amp; alijs pluribus authoritatibus, 
+      <lb ed="#T" n="55"/>aperte monstratur quod Spiritus sanctus aequalis Patri &amp; Filio nobis datur: nec ideo tamen 
+      <lb ed="#T" n="56"/>minor est Patre &amp; Filio: Vnde Augustinus in libro quarto de Trinitate ait, Non ideo, 
+      <lb ed="#T" n="57"/>inquit, minorem Spiritum sanctum, quia &amp; cum Pater misit &amp; Filius, arbitrandum est, 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0187.xml-\->
+      <pb ed="#T" n="112"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>An viri sancti &amp; Ecclesiae praelati dent, vel dare possint Spiritum sanctum. Quod non dant hic 
+    </p>
+            <p xml:id="pdt7y6-e33552-d1e281">
+               <lb ed="#T" n="2"/>ostendit. 
+      <lb ed="#T" n="3"/>Hic quaeritur, vtrum &amp; viri sancti dent vel possinte dare aliis Spiritum sanctum. Quem 
+      <lb ed="#T" n="4"/>si alijs dant, cum eius donatio supra sit dicta processio, videtur ab eis procedere 
+      Spiri<lb ed="#T" n="5" break="no"/>tus sanctus vel mitti: sed creator a creatura non mittitur vel procedit: restat ergo vt 
+      Spi<lb ed="#T" n="6" break="no"/>ritum sanctum ipsi non dent, nec possint dare. Vnde August. in 15. lib. de Ciuit. Non 
+      ali<lb ed="#T" n="7" break="no"/>quis discipulorum Christi dedit Spiritum sanctum. Orabant quippe, vt veniret in eos 
+      <lb ed="#T" n="8"/>quibus manum imponebant, non ipsi eum dabant. Quem morem in suis praepositis 
+      <lb ed="#T" n="9"/>etiam nunc seruat Ecclesia. Denique &amp; Simon Magus offerens Apostolis pecuniam, non 
+      <lb ed="#T" n="10"/>ait: Date mihi &amp; hanc potestatem, vt dem Spiritum sanctum: sed cuicunque, inquit, 
+      <lb ed="#T" n="11"/>imposuero manus, accipiat Spiritum sanctum, quia nec scriptura superius dixerat: Videns 
+      <lb ed="#T" n="12"/>autem Simon, quia Apostoli darent Spiritum sanctum, sed dixerat: Videns autem 
+      <lb ed="#T" n="13"/>Simon, quia per impositionem manuum Apostolorum daretur Spiritus sanctus. Ecce his 
+      <lb ed="#T" n="14"/>verbis ostendit Aug. nec Apostolos, nec alios Ecclesiae praelatos dedisse, vel dare Spiritum 
+      <lb ed="#T" n="15"/>sanctum. 
+    </p>
+            <p xml:id="pdt7y6-e33552-d1e314">
+               <lb ed="#T" n="16"/>Quod non possunt dare Spiritum sanctum hic docet. 
+      <lb ed="#T" n="17"/>Et quod plus est, non posse etiam dare dicit in eodem libro, subdens: De Christo 
+      scri<lb ed="#T" n="18" break="no"/>ptum est, quod acceperit a Patre promissionem Spiritus sancti, &amp; effuderit: in quo 
+      vtra<lb ed="#T" n="19" break="no"/>que natura monstrata est, humana scilicet &amp; piuina. Accepit quippe vt homo, effudit vt 
+      <lb ed="#T" n="20"/>Deus. Nos autem accipere quidem hoc donum possumus pro modulo nostro: effundere 
+      <lb ed="#T" n="21"/>vero super alios non vtique possumus: sed vt hoc fiat, Deum super eos, a quo id 
+      effici<lb ed="#T" n="22" break="no"/>tur, inuocamus. His verbis expresse dicit, nos Spiritum sanctum non posse super alios 
+      <lb ed="#T" n="23"/>effundere, id est, alijs dare. 
+    </p>
+            <p xml:id="pdt7y6-e33552-d1e334">
+               <lb ed="#T" n="24"/>Quod videtur contrarium. 
+      <lb ed="#T" n="25"/>Sed huic videtur contrarium: Quod Apostolus ad Galat. de se loquens ait: Qui tribuit 
+      <lb ed="#T" n="26"/>vobis Spiritum, &amp; operatur virtutes in vobis. Ecce euidenter dicit se tribuisse Spiritum. Sed  
+      <lb ed="#T" n="27"/>intelligendum est hoc dixisse Apostolum, non quia haberet potestatem &amp; authoritatem 
+      <lb ed="#T" n="28"/>dandi Spiritum sanctum, sed quia ministerium habuerit, in quo dabatur a Deo Spiritus 
+      <lb ed="#T" n="29"/>sanctus: vt enim ait Augustinus, super eundem locum, exponens illud Apostoli verbum, 
+      <lb ed="#T" n="30"/>ab Apostolo praedicata est eis fides: in qua praedicatione aduentum &amp; praesentiam Spiritus 
+      <lb ed="#T" n="31"/>sancti senserant, sicut illo tempore in nouitate inuitationis ad fidem, etiam sensibilibus 
+      <lb ed="#T" n="32"/>mitaculis praesentia Spiritus sancti apparebat, vt in actibus Apostolorum legitur. Aperte 
+      <lb ed="#T" n="33"/>hic ostendit quomodo illis Spiritum sanctum apostolus tribuerit: non vtique ipsum 
+      mit<lb ed="#T" n="34" break="no"/>tendo in eos, sed praedicando eis fidem Christi: quam illis recipientibus, quod Spiritus 
+      <lb ed="#T" n="35"/>sanctus in eis esset aliquibus signis visibilibus monstrabatur. Non ergo homines 
+      quan<lb ed="#T" n="36" break="no"/>tumcumque Sancti dare possunt Spiritum sanctum.
+    </p>-->
+            <p xml:id="pdt7y6-e33552-d1e365">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0187.xml-->
+               <cb ed="#T" n="b"/>
+               <lb ed="#T" n="37" type="fixed=112"/>DIVISIO TEXTVS. 
+      <lb ed="#T" n="38"/>[DRaeterea diligenter) Postquam egit de 
+      pro<lb ed="#T" n="39" break="no"/>cessione aeterna Spiritus sancti, hic incipit,  
+      <lb ed="#T" n="40"/>agere de temporali. Et primo agit de principio a 
+      <lb ed="#T" n="41"/>quo procedit, dist. hac &amp;, 51 Secundo de 
+      <lb ed="#T" n="42"/>modo procedendi dist. 16. &amp; 17. Tertio de 
+      <lb ed="#T" n="43"/>proprietate eius, secundum quam conuenit ei 
+      <lb ed="#T" n="44"/>temporaliter procedere dist. 18. In prima parte 
+      <lb ed="#T" n="45"/>puimo agit de principio missionis eius 
+      extrinse<lb ed="#T" n="46" break="no"/>co quod non est ipse, dist. hac. Secundo de 
+      <lb ed="#T" n="47"/>principio intrinseco quod est ipse, dist. 15. In 
+      pri<lb ed="#T" n="48" break="no"/>ma parte primo agit de principio increato. 
+      Se<lb ed="#T" n="49" break="no"/>cundo de prncipio creato[ Hic quaeritur vtrum. 
+      <lb ed="#T" n="50"/>sancti virij. In prima parte primo ostendit 
+      Spiri<lb ed="#T" n="51" break="no"/>uim sanctum etiam temporaliter procedee a 
+      <lb ed="#T" n="52"/>Rapta &amp; Filio. Secundo ostendit quid 
+      appella<lb ed="#T" n="53" break="no"/>ium eius processio temporalis. [De temporalis] 
+      <lb ed="#T" n="54"/>Tertio ostendit quod temporaliter procedit 
+      se<lb ed="#T" n="55" break="no"/>cundum se, non tantum secundum effectus suos 
+      <lb ed="#T" n="56"/>[Sunt autem aliqui. IIn secunda parte 
+      principa<lb ed="#T" n="57" break="no"/>li ostendit, quod sancti viri no dant Spiritum 
+      <lb ed="#T" n="58"/>sanctum [Hic quaeritur. ]Secundo quod nec 
+      da<lb ed="#T" n="59" break="no"/>re possunt. [Et iam quod plus est] Tertio 
+      oppo<lb ed="#T" n="60" break="no"/>nit in contrarium &amp; soluit. [Sed huic.] 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0187.xml-->
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

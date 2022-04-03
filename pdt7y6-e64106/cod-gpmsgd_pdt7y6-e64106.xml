@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="210"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e64106"><!-- l1d26prae -->
+            <head xml:id="pdt7y6-e64106-Hd1e99">Praeambulum</head>
+            <head xml:id="pdt7y6-e64106-Hd1e101" type="question-title"/>
+            <p xml:id="pdt7y6-e64106-d1e103">
+               <pb ed="#T" n="210"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>DE PROPRIETATIRVS 
+      PEROONA<lb ed="#T" n="2" break="no"/>rum, sed prius de hoc nomine, Hypostasis. 
+      <lb ed="#T" n="3"/>Distinct. XXVI. 
+      </p>
+            <!--<p xml:id="pdt7y6-e64106-d1e116">
+               <lb ed="#T" n="4"/>VNCde proprietatibus personarum, quas frequenter in hoc tractatu 
+      <lb ed="#T" n="5"/>commemorauimus, aliquid loqui nos oportet. Sed primum audiamus 
+      <lb ed="#T" n="6"/>quid de hoc nomine Hypostasis Hieron. dicit: ait enim sub hoc nomine 
+      <lb ed="#T" n="7"/>su venenum latere: sed hoc dicit secundum quod haeretici eo vtebantur vt 
+      <lb ed="#T" n="8"/>ib simplices seducerent, s. pro persona &amp; pro essentia, vt siue diceretur vna 
+      <lb ed="#T" n="9"/>&amp; tantum hypostasis, siue tres, minus peritos ad inconueniens deducerent, 
+      <lb ed="#T" n="10"/>cum non erat hoc nomen ita apud catholicos vulgatum, nec ita eius significatio 
+      determi<lb ed="#T" n="11" break="no"/>nata, vt modo. Et ideo Hieronymus dicit hoc nomine non vtendum forte sine 
+      distinctio<lb ed="#T" n="12" break="no"/>ne, vel expositione, tunc. [quando cum haereticis contendebatur, ita scribens de fide 
+      Ca<lb ed="#T" n="13" break="no"/>tholica ad Damasum Papam. Ab Atrianorum praesule hypostasion nouellum nomen a me 
+      <lb ed="#T" n="14"/>homine Romano exigitur. Interrogamus, quid tres hypostases arbitrentur intelligi: tres 
+      <lb ed="#T" n="15"/>personas subsistentes aiunt. Respondemus nos ita credere. Non sufficit eis sensus, ipsum 
+      <lb ed="#T" n="16"/>nomen efflagitant: qui a nescio quid veneni in syllabis latet. Clamamus, Si quis tres 
+      hypo<lb ed="#T" n="17" break="no"/>stases, id est, tres subsistentes personas non confitetur, anathema sit. Si quis autem 
+      hypo<lb ed="#T" n="18" break="no"/>stasim ousiam intelligens, non tribus personis vnam hypostasim indicit, alienus a Christo. 
+      <lb ed="#T" n="19"/>est: qui scilicet tres hypostases dicens, sub nomine pietatis tres naturas conatur asferere. 
+      <lb ed="#T" n="20"/>Sufficiat nobis dicere vnam substantiam &amp; tres personas perfectas, aequales, taceamus 
+      <lb ed="#T" n="21"/>tres hypostases, si placet. Nomen hoc non bonae suspicionis est, cum in eodem verbo 
+      sen<lb ed="#T" n="22" break="no"/>sus dissentiunt. Aut si rectum putatis, tres hypostases cum interpretationibus suis debere 
+      <lb ed="#T" n="23"/>nes Sicere, non negamus. Sed mihi credite, venenum sub melle latet. Transfigurat enim 
+      <lb ed="#T" n="24"/>se Angelus Satanae in Angelum lucis. His verbis non negat vtendum esse nomine 
+      Hypo<lb ed="#T" n="25" break="no"/>stasis, sed haereticos eo praue vsos ostendit, contra quos cautela opus erat in distinctione 
+      <lb ed="#T" n="26"/>significationis, alioquin sibi contradiceret, qui supra tres hypostases confitetur.  
+    </p>
+            <p xml:id="pdt7y6-e64106-d1e168">
+               <lb ed="#T" n="27"/>De proprietatibus personarum, &amp; de nominibus earum relatiuis. 
+      <lb ed="#T" n="28"/>Iam de proprietatibus personarum videamus quae etiam notiones, siue relationes in 
+      <lb ed="#T" n="29"/>Scriptura plerumque dicuntur. Ia illa sancta Trinitate, quae ideo a nobis repetitur, vt 
+      cordi<lb ed="#T" n="30" break="no"/>nostro tenacius infigatur, ait August. in libro de fide ad Petrum: aliud est genuisse quam 
+      <lb ed="#T" n="31"/>natum esse: aliudque est procedere, quam genuisse vel natum esse. Vnde manifestum est, 
+      <lb ed="#T" n="32"/>quod alius est vater, alius Filius, alius Spiritus sanctus. Et est proprium solius Patris, non 
+      <lb ed="#T" n="33"/>quia non est natus ipse: sed quia vnum Filium genuerit: propriumque solius Filij, non 
+      <lb ed="#T" n="34"/>quia ipse non genuit, sed quia de Patris essentia natus est: proprium vero Spiritus sancti 
+      <lb ed="#T" n="35"/>est, non quia nec natus est ipse, nec genuit, sed quia solus de Patre Filioque procedit. Ecce 
+      <lb ed="#T" n="36"/>breuiter assignauit, tres proprietates trium personarum: quarum vna non est alia. Hoc 
+      <lb ed="#T" n="37"/>enim significaui cum dixi: Aliud est genuisse quam natum esse: aliudque procedere, id  
+      <lb ed="#T" n="38"/>est, alia proprietas, siue notio est generatio, &amp; alia natiuitas, alia processio, quae 
+      <lb ed="#T" n="39"/>aliis nominibus dicuntur paternitas, filiatio. Has proprietates designant nomina 
+      persona<lb ed="#T" n="40" break="no"/>rum, scilicet Pater, Filius, &amp; Spiritus sanctus: quae relatiua sunt, &amp; ad se inuicem dicuntur:  
+      <lb ed="#T" n="41"/>quia notant relationes, quae non sunt Deo accidentales, sed in ipsis personis ab aeterno sunt,  
+      <lb ed="#T" n="42"/>immutabiliter: vt non modo appellationes sint relatiuae, sed etiam relationes, siue 
+      notio<lb ed="#T" n="43" break="no"/>nes in rebus ipsis, scilicet in personis sint.  
+    </p>
+            <p xml:id="pdt7y6-e64106-d1e208">
+               <lb ed="#T" n="44"/>Quod non omnia quae de Deo dicuntur, secundum substantiam dicuntur: quaedam enim secundum, 
+      <lb ed="#T" n="45"/>relationem dicuntur: nihil tamen secundum accidens.
+    </p>
+            <p xml:id="pdt7y6-e64106-d1e215">
+               <lb ed="#T" n="46"/>Quocirca sciendum est, non omne quod dicitur de Deo, dici secundum substantiam, 
+      <lb ed="#T" n="47"/>quia quaedam dicuntur secundum relationem quae non est accidens, quia non est 
+      mutabi<lb ed="#T" n="48" break="no"/>lis. Vnde August. in 5. lib de Trinit. ait: Nihil in Deo secundum accidens dicitur, quia 
+      ni<lb ed="#T" n="49" break="no"/>hil ei accidit. Nec tamen omne quod dicitur, secundum substantiam de Deo dicitur. In 
+      <lb ed="#T" n="50"/>rebus creatis atque mutabilibus quod non secundum substantiam dicitur, restat vt 
+      secun<lb ed="#T" n="51" break="no"/>dum accidens dicatur: in Deo autem nihil quidem secundum accidens dicitur, quia 
+      <lb ed="#T" n="52"/>nihil in eo mutabile est, aut amissibile: nec tamen omne quod dicitur de Deo, secundum 
+      <lb ed="#T" n="53"/>substantiam dicitur. Dicitur enim ad aliquid, sicut Pater ad Filium, &amp; Filius ad Patrem, 
+      <lb ed="#T" n="54"/>quod non est accidens: quia &amp; ille semper est Pater, &amp; ille semper est Filius, &amp; ita semper, 
+      <lb ed="#T" n="55"/>quia semper natus est Filius, nec coepit vnquam esse Filius. Quod si aliquando esse coepis¬ 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0286.xml-\->
+      <pb ed="#T" n="211"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>fet, aut aliquando desineret esse Filius, secundum accidens diceretur. Et quia Pater non 
+      <lb ed="#T" n="2"/>dicitur Pater, nisi ex eo quod est ei Filius: &amp; Filius non dicitur Filius, nisi ex eo quod habet 
+      <lb ed="#T" n="3"/>Patrem, non secundum substantiam haec dicuntur, sed ad inuicem ista dicuntur: neque 
+      ta<lb ed="#T" n="4" break="no"/>men secundum accidens, quia &amp; quod dicitur Pater, &amp; quod dicitur Filius, &amp; aeternum 
+      <lb ed="#T" n="5"/>atque incommutabile est eis. Ecce aperte his verbis ostenditur, quaedam dici de Deo 
+      se<lb ed="#T" n="6" break="no"/>cundum substantiam, quaedam secundum relationem, nihil tamen secundum accidens, 
+      <lb ed="#T" n="7"/>Ostenditur etiam proprietas Patris esse, quod habet Filium: &amp; proprietas Filij, quod habet  
+      <lb ed="#T" n="8"/>Patrem. Ideoque cum dixerit aeternum &amp; incommutabile esse quod Pater dicitur, &amp; quod 
+      <lb ed="#T" n="9"/>Filius dicitur, ita intelligi voluit, id est, proprietas, qua Pater est Pater, &amp; proprietas, qua 
+      <lb ed="#T" n="10"/>Filius est Filius, aeterna est &amp; incommutabilis: quia &amp; Pater semper Pater, &amp; Filius semper 
+      <lb ed="#T" n="11"/>Filius. Vnde &amp; Hilarius proprietates personarum assignans in 12. lib. de Trinit. ait: Si 
+      sem<lb ed="#T" n="12" break="no"/>per patri proprium est quod semper est pater, necesse est semper Filio proprium esse quod 
+      <lb ed="#T" n="13"/>semper est Filius. Ubi enim semper pater est, semper &amp; Filius est: ergo qui non semper 
+      pa<lb ed="#T" n="14" break="no"/>ter est, non semper genuit. Item in eodem, Nato Deo manifestum est proprium esse quod 
+      <lb ed="#T" n="15"/>Filius est. 
+    </p>
+            <p xml:id="pdt7y6-e64106-d1e278">
+               <lb ed="#T" n="16"/>Quare dicatur esse proprium unigeniti, quod est Filius Dei, cum etiam homines sint Filij Dei. 
+      <lb ed="#T" n="17"/>hic quaeritur, quomodo dicatur proptium nato Deo quod est Dei Filius, vel genitus ex 
+      <lb ed="#T" n="18"/>Deo: cum etiam homines, filij Dei dicantur &amp; sint, secundum illud: Filij excelsi omnes 
+      <lb ed="#T" n="19"/>Et ad Moysen de populo Ilrael Dominus ait: Filius meus primogenitus Israel. Sed magna 
+      <lb ed="#T" n="20"/>est distantia, homines enim filij Dei sunt factura, non natiuitatis proprietate: Deus 
+      au<lb ed="#T" n="21" break="no"/>tem Filius, originis proprietate Filius est, &amp; veritate natiuitatis, non factura, vel 
+      adop<lb ed="#T" n="22" break="no"/>tione: &amp; illi quidem ante sunt, quam filij Dei sunt. Fiunt enim filij, non nascuntur filij 
+      <lb ed="#T" n="23"/>Dei: vnde Hilarius solum Deum natum originis proprietate Dei Filium ostendens, inter 
+      <lb ed="#T" n="24"/>ipsum &amp; homines silios Dei euidentissime distinguit in 12. lib. de Trinit. ita dicens: Vero 
+      <lb ed="#T" n="25"/>Patri solus qui ex eo nascitur vere Filius est: &amp; nos quidem filij Dei sumus sed per factu 
+      <lb ed="#T" n="26"/>ram. Fuimus enim aliquando filij iracundiae, sed filij Dei per adoptionem effecti sumus 
+      <lb ed="#T" n="27"/>potius quam nascimur: &amp; quia omne quod sit, antequam siat non fuit, nos cum filij non 
+      <lb ed="#T" n="28"/>fuissemus, efficimur. Ante enim filij non eramus, sed per gratiam facti sumus, non nati 
+      <lb ed="#T" n="29"/>neque generati, sed acquisiti. Acquisiuit enim nos Deus sibi, &amp; per hoc dicitur nos 
+      ge<lb ed="#T" n="30" break="no"/>nuisse. Cienuisse enim Deum Filios nunquam cum proprietatis significatione cognoscimus 
+      <lb ed="#T" n="31"/>dici. Ex adoptione enim homo factus est silius Dei, non ex generatione: neque ei proprietas 
+      <lb ed="#T" n="32"/>est, sed nuncupatio: ac per id non vere silius est, quia nec proprie natus dicitur, nec 
+      <lb ed="#T" n="33"/>semper fuit silius. Vnigenitus autem Deus, nec fuit aliquando non Filius, nec fuit 
+      ali<lb ed="#T" n="34" break="no"/>quid antequam Filius, nec quicquam ipse nisi Filius. Atque ita qui semper est Filius, 
+      nas<lb ed="#T" n="35" break="no"/>cibilitatis proprietate ac veritate Filius est eius solius qui genuit, &amp; ille tantum qui genuit 
+      <lb ed="#T" n="36"/>Pater ipsius est: quia sicut ille Filius origine, ita ille Pater generatione. 
+    </p>
+            <p xml:id="pdt7y6-e64106-d1e326">
+               <lb ed="#T" n="37"/>Quod homo dicitur filius Trinitatis: Trinitas potest dici Pater hominum. 
+      <lb ed="#T" n="38"/>Homo vero, qui filius Dei est factura, non tantum Patris, sed Filij &amp; Spiritus sancti 
+      <lb ed="#T" n="39"/>filius est, id est, totius Trinitatis: &amp; Trinitas ipsa Pater eius dici potest. Vnde Aug. in lib.  
+      <lb ed="#T" n="40"/>3. de Trinit. dicit: non potest dici Trinitas Pater, nisi forte tranflatiue ad creaturam, 
+      pro<lb ed="#T" n="41" break="no"/>pter adoptionem filiorum. Quod enim scriptum est: Audi Israci, Dominus Deus tuus 
+      <lb ed="#T" n="42"/>Deus vnus est: non vtique excepto Filio, aut Spiritu sancto oportet intelligi: quem vnum 
+      <lb ed="#T" n="43"/>Dominum Deum nostrum recte dicimus, etiam Patrem nostrum, per gratiam suam nos 
+      <lb ed="#T" n="44"/>regenerantem. De hoc etiam Hilarius 6. lib. de Trinit. ait: Omnibus per fidem Deus 
+      Pa<lb ed="#T" n="45" break="no"/>ter est, quibus est Pater per eam fidem qualesum Christum Dei Filium confitemur. Ecce 
+      <lb ed="#T" n="46"/>ostensum est, quare proprium dicatur esse Dei nati, quod Filius est: quia scilicet ipse solus 
+      <lb ed="#T" n="47"/>natus proprie dicitur. Vnde Hilarius in lib. 3. de Trinit, ait: Dominus dicens, clarifica 
+      <lb ed="#T" n="48"/>Filium tuum, non solo nomine contestatus est se esse Filium, sed &amp; proprietate. Nos fili 
+      <lb ed="#T" n="49"/>Dei sumus, sed non talis hic Filius. Hic enim verus &amp; proprius est Filius origine, non ade 
+      <lb ed="#T" n="50"/>ptione; vetitate non nuncupatione, natiuitate, non creatione. 
+    </p>
+            <p xml:id="pdt7y6-e64106-d1e359">
+               <lb ed="#T" n="51"/>Quod Spiritus sanctus dicitur proprie donum Dei, quia proprietate est donum, vt Filius natiuitate: &amp; 
+      <lb ed="#T" n="52"/>vtroque modo dicitur relatiue, &amp; secundum eandem relationem. 
+    </p>
+            <p xml:id="pdt7y6-e64106-d1e366">
+               <lb ed="#T" n="53"/>Ita etiam de Spiritu sancto dicendum est, qui proprie dicitur donum Dei, cum tamen &amp; alia 
+      <lb ed="#T" n="54"/>plura sint dona Dei. Sed Spiritus sanctus in proprietate immutabili &amp; aeterna donum est, sicut  
+      <lb ed="#T" n="55"/>Filius proprietate est Filius. Eo enim dicitur donum quo Spiritus sanctus, &amp; vtroque vtique 
+      <lb ed="#T" n="56"/>nomine relatiue dicitur: eademque relatione dicitur Spiritus sanctus &amp; donum, licet ipsa 
+      <lb ed="#T" n="57"/>relatio non ita appareat in hoc nomine. Spiritus sanctus, sicut in hoc nomine donum. Vnde 
+      <lb ed="#T" n="58"/>August. in 5. lib. de Trinitate ait: Spiritus sanctus, qui non est Trinitas, sed in Trinitate 
+      <lb ed="#T" n="59"/>intelligitur, in eo quod proprie dicitur Spiritus sanctus, relatiue dicitur cum ad Patrem &amp; 
+      <lb ed="#T" n="60"/>Filium refertur: quia Spiritus sanctus &amp; Patris, &amp; Filij Spiritus est. Sed ipsarelatio non ap¬ 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0287.xml-\->
+      <pb ed="#T" n="212"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>paret in hoc nomine: apparet autem cum dicitur donum Dei. ponum enim est Patris &amp; 
+      <lb ed="#T" n="2"/>Filij, quia a Patre procedit &amp; a Filio, ergo Spiritus sanctus ineffabilis quaedam Patris 
+      Fi<lb ed="#T" n="3" break="no"/>liique communio est. Et ideo fortasse sic appellatur, vt iam diximus, nec iterare piget: 
+      <lb ed="#T" n="4"/>quia Patri &amp; Filio potest eadem appellatio conuenire. Nam hoc ipse proprie dicitur, quod 
+      <lb ed="#T" n="5"/>illi communiter, quia etiam Pater Spiritus, &amp; Filius Spiritus, &amp; Pater sanctus, &amp; Filius, 
+      <lb ed="#T" n="6"/>sanctus. Vt ergo ex nomine, quod vtrique conuenit, vtriusque communio significetur.  
+      <lb ed="#T" n="7"/>vocatur donum amborum Spiritus sanctus. Ecce habes quare Spiritus sanctus proprie 
+      di<lb ed="#T" n="8" break="no"/>catur donum, &amp; quod relatiue dicitur, siue donum, siue Spiritus sanctus: &amp; quod nomen 
+      <lb ed="#T" n="9"/>sibi proprium tenet, quod communiter Patri &amp; Filio conuenit, sed idiunim. Et est 
+      scien<lb ed="#T" n="10" break="no"/>dum quod cum Pater vel Filius dicitur Spiritus siue sanctus, neutrum relatiue dicitur, 
+      <lb ed="#T" n="11"/>sed secundum substantiam. 
+    </p>
+            <p xml:id="pdt7y6-e64106-d1e417">
+               <lb ed="#T" n="12"/>An Pater, vel Filius, vel Trinitas ipsa possit dici Spiritus sanctus. 
+      <lb ed="#T" n="13"/>Hic quaeri potest vtrum Pater, vel Filius, vel etiam ipsa Trinitas possit dici Spiritus 
+      <lb ed="#T" n="14"/>sanctus, sicut disiunctim dicitur &amp; Spiritus &amp; sanctus. De hoc August. in lib. 5. de Trinitate 
+      <lb ed="#T" n="15"/>sic ait: Trinitas Filius nullo modo dici potest, Spiritus vero sanctus potest quidem 
+      vniuer<lb ed="#T" n="16" break="no"/>saliter dici, secundum id quod scriptum est: quoniam Deus Spiritus est. Itaque Pater &amp; 
+      <lb ed="#T" n="17"/>Filius &amp; Spiritus sanctus, quoniam vnus Deus est, &amp; vtique Deus sanctus est, Deus 
+      Spiri<lb ed="#T" n="18" break="no"/>tus est, potest appellari Trinitas &amp; Spiritus sanctus. Sed tamen tunc Spiritus sanctus, 
+      re<lb ed="#T" n="19" break="no"/>latiue non dicitur, sed secundum essentiam, quia proprie Spiritus sanctus, qui non est 
+      <lb ed="#T" n="20"/>Trinitas, sed in Trinitate, dicitur relatiue. 
+      <lb ed="#T" n="21"/>Quidam putant Spiritum sanctum non dici relatiue ad Patrem &amp; Filium, quia non vicissim respondent 
+      <lb ed="#T" n="22"/>sibi vocabula, sed falso. 
+    </p>
+            <p xml:id="pdt7y6-e64106-d1e443">
+               <lb ed="#T" n="23"/>Quidam tamen putant Spiritum sanctum vel donum non dicirelatiue ad Patrem vel 
+      <lb ed="#T" n="24"/>ad Filium. Si enim, inquiunt, haec relatiue ad se dicuntur suis inuicem sibi respondent 
+      vo<lb ed="#T" n="25" break="no"/>cabulis: vt sicut dicitur Pater Filij Pater, &amp; Filius Patris Filius: ita dicatur pater Spiritus 
+      <lb ed="#T" n="26"/>sancti vel doni Pater: &amp; Spiritus sanctus vel donum, Patris Spiritus, vel donum. Sed  
+      <lb ed="#T" n="27"/>non ita est in omnibus relatiuis: non enim omnia quae relatiue dicuntur suis ad se inuicem 
+      <lb ed="#T" n="28"/>respondent vocabulis. Vnde Augustin. horum elidens opinionem in libro quinto de 
+      Trini<lb ed="#T" n="29" break="no"/>tate. Non te moueat, inquit, quoniam diximus Spiritum sanctum non ipsam 
+      Trinita<lb ed="#T" n="30" break="no"/>tem, sed cum qui est in Trinitate, relatiue dicilicet non ei respondeat vicissim vocabulum 
+      <lb ed="#T" n="31"/>eius ad quem refertur. Dicimus enim Spiritum sanctum Patris: sed non vicissim dicimus 
+      <lb ed="#T" n="32"/>Patrem Spiritus sancti, ne Filius eius intelligatur Spiritus sanctus. Item dicimus Spiritum 
+      <lb ed="#T" n="33"/>sanctum Filij, sed non dicimus Filium Spiritus sancti, ne Pater eius intelligatur Spiritus 
+      <lb ed="#T" n="34"/>sanctus. In multis enim relatiuis hoc contingit, vt non inueniatur vocabulum quo sibi 
+      vi<lb ed="#T" n="35" break="no"/>cissim respondeant. Cum ergo dicimus donum Patris &amp; Filij, non quidem possumus 
+      dice<lb ed="#T" n="36" break="no"/>re Patrem doni, aut Filium doni: sed vt haec vicissim respondeant, dicimus donum 
+      dona<lb ed="#T" n="37" break="no"/>toris, &amp; donatorem doni: quia hic potuit inueniri vsitatum vocabulum, illic non potuit, 
+      <lb ed="#T" n="38"/>Donum ergo donatoris, &amp; donator doni cum dicimus, relatiue vtrumque ad inuicem 
+      <lb ed="#T" n="39"/>dicimus: donator tamen non fuit Deus, nisi extempore, cum Spiritus sanctus sit doaum 
+      <lb ed="#T" n="40"/>&amp; ab aeterno.
+      </p>-->
+            <p xml:id="pdt7y6-e64106-d1e485">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0287.xml-->
+               <cb ed="#T" n="b"/>
+               <lb ed="#T" n="41" type="fixed=212"/>DIVISIO TEXTVS. 
+      <lb ed="#T" n="42"/>VVne de proprietatibus.] Egit de 
+      nomini<lb ed="#T" n="43" break="no"/>Nbus Diuinis: hic incipit agere de 
+      proprie<lb ed="#T" n="44" break="no"/>tatibus a quibus nomina imponuntur. Et primo 
+      <lb ed="#T" n="45"/>agit de proprie proprijs vsque ad 31. dist. 
+      Secun<lb ed="#T" n="46" break="no"/>do de communibus appropriatis dist. 31. &amp; 32. 
+      <lb ed="#T" n="47"/>Tertio de differentia eorum adinuicem dist. 33. 
+      <lb ed="#T" n="48"/>vsque ad 35. In prima parte primo agit de 
+      pro<lb ed="#T" n="49" break="no"/>prietatibus personalibus dist. hac, &amp; sequenti. 
+      <lb ed="#T" n="50"/>Secundo de proprietatibus non personalibus dist. 
+      <lb ed="#T" n="51"/>28. 20. &amp; 30. In prima parte primode 
+      proprieta<lb ed="#T" n="52" break="no"/>tibus personalibus secundum quod significantur 
+      <lb ed="#T" n="53"/>nominibus proprijs dist. hac. Secundo agit de 
+      <lb ed="#T" n="54"/>eis prout significantur nominibus alijs dist. 27. 
+    </p>
+            <p xml:id="pdt7y6-e64106-d1e522">
+               <lb ed="#T" n="55"/>In prima parte? (id est in hac distinct.)1 
+      pri<lb ed="#T" n="56" break="no"/>mo agit de hypostahi quae est quasi subjectum 
+      <lb ed="#T" n="57"/>proprietatum. Secundo assignat proprietates 
+      <lb ed="#T" n="58"/>personales [Iam de proprietatibus. ] Tertio 
+      <lb ed="#T" n="59"/>soluit dubitationes contra assignationem suam. 
+      <lb ed="#T" n="60"/>incidentes [Hic quaeritur. ] In secunda: huius, 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0287.xml-->
+      <cb ed="#T" n="c"/>
+               <lb ed="#T" n="61"/>trimembris diuisionis? parte primo de ipsis 
+      pro<lb ed="#T" n="62" break="no"/>prietatibus quae &amp; quot sint determinat [Iam 
+      <lb ed="#T" n="63"/>de proprietatibus.] Secundo de earum 
+      quid<lb ed="#T" n="64" break="no"/>ditate, quid sint [Quocirca. ] In tertia parte 
+      <lb ed="#T" n="65"/>primo determinat dubitationem incidentem 
+      <lb ed="#T" n="66"/>contra proprietatem personalem Filij [Hic 
+      <lb ed="#T" n="67"/>quaeritur. ] Secundo circa proprietatem 
+      perso<lb ed="#T" n="68" break="no"/>nalem Spiritus sancti [Ita de Spiritu sancto] 
+      <lb ed="#T" n="69"/>Et primo secundum quod significatur nomine 
+      <lb ed="#T" n="70"/>doni [Ita etiama Secundo secundum quod 
+      no<lb ed="#T" n="71" break="no"/>mine Spiritus sancti [Hic quaeri potest] Tertio 
+      <lb ed="#T" n="72"/>secundum vtroque nomine [Quidam tamen.] 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

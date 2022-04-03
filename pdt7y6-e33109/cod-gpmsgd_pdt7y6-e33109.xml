@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="109"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e33109"><!-- l1d13q3 -->
+            <head xml:id="pdt7y6-e33109-Hd1e99">Quaestio 3</head>
+            <head xml:id="pdt7y6-e33109-Hd1e101" type="question-title">De ratione ingeniti</head>
+            <p xml:id="pdt7y6-e33109-d1e104">
+               <lb ed="#T" n="72"/>QVESTIO III. 
+      <lb ed="#T" n="73"/>DE RATIONE INOENITI. 
+      <lb ed="#T" n="74"/>CIrca tertium quaeruntur duo. 
+      <lb ed="#T" n="75"/>Primo an Spiritus sanctus possit dici inges 
+      <lb ed="#T" n="76"/>genitus. 
+      <lb ed="#T" n="77"/>Secundo supposito quod sic per aliquem 
+      mo<lb ed="#T" n="78" break="no"/>dum, vtrum ingenitum dicat aliquam notionem 
+      <lb ed="#T" n="79"/>in ipso. 
+    </p>
+            <div xml:id="pdt7y6-e33109-Dd1e124">
+               <head xml:id="pdt7y6-e33109-Hd1e126">Articulus 1</head>
+               <head xml:id="pdt7y6-e33109-Hd1e128" type="question-title">
+  An spiritus sanctus possit dici ingenitus
+</head>
+               <p xml:id="pdt7y6-e33109-d1e131">
+                  <lb ed="#T" n="80"/>Articvlvs I. 
+      <lb ed="#T" n="81"/>An spiritus sanctus possit dici ingenitus.
+</p>
+               <p xml:id="pdt7y6-e33109-d1e138">
+                  <lb ed="#T" n="82"/>AD primum sic proceditur. 1. Dicit Damas.1 
+      <lb ed="#T" n="83"/>lib. 1. Quod ingenitus vno modo est idem, 
+      <lb ed="#T" n="84"/>ac increatus, &amp; sic tres personae sunt ingenitae: s 
+      <lb ed="#T" n="85"/>ergo Spiritus sanctus aliquo modo est ingenitus 
+    </p>
+               <p xml:id="pdt7y6-e33109-d1e149">
+                  <lb ed="#T" n="86"/>2. Negatio cum subjecti constantia aequipol. 
+      <lb ed="#T" n="87"/>let termino infinito, vnde sequitur: lapis est, &amp; 
+      <lb ed="#T" n="88"/>non est homo: ergo lapis est non homo: ergo si 
+      <lb ed="#T" n="89"/>Spiritus sanctus est, &amp; non est genitus, ipse est 
+      <lb ed="#T" n="90"/>ingenitus per locum a pari vel ab 
+      aequipol<lb ed="#T" n="91" break="no"/>lenti. Ideo Hyeronimus dicit hic, Spiritus 
+      <lb ed="#T" n="92"/>sanctus Pater non est, sed ingenitus atque non 
+      <lb ed="#T" n="93"/>factus. 
+    </p>
+               <p xml:id="pdt7y6-e33109-d1e170">
+                  <lb ed="#T" n="94"/>3. Aut est ingenitus, aut non: si est, ergo 
+      po<lb ed="#T" n="95" break="no"/>test dici ingenitus: si non est inoenitus, cum duae 
+      <lb ed="#T" n="96"/>negationes aequiposleant vni affirmationi, ergo 
+      <lb ed="#T" n="97"/>est genitus. 
+    </p>
+               <p xml:id="pdt7y6-e33109-d1e181">
+                  <lb ed="#T" n="98"/>Contra 1. August. 15. de Trinit. Pater solus, 
+      <lb ed="#T" n="99"/>non est de alio, ideo solus appellatur 
+      ingeni<lb ed="#T" n="100" break="no"/>tus: &amp; addit, ideo cum Spiritum genitum 
+      <lb ed="#T" n="101"/>non dicamus, ingenitum tamen dicere non 
+      au<lb ed="#T" n="102" break="no"/>demus. 
+    </p>
+               <p xml:id="pdt7y6-e33109-d1e194">
+                  <lb ed="#T" n="103"/>2. August. Spiritum sanctum nec genitum nec 
+      <lb ed="#T" n="104"/>ingenitum fides Catholica declarat. 
+    </p>
+               <p xml:id="pdt7y6-e33109-d1e201">
+                  <lb ed="#T" n="105"/>3. Quod non est susceptibile iustitiae, velut la 
+      <lb ed="#T" n="106"/>pis, non potest dici iustum nec iniustum: erg 
+      <lb ed="#T" n="107"/>a simili Spiritus sanctus, qui non est 
+      susceptibi<lb ed="#T" n="108" break="no"/>lis generationis, non potest dici genitus, nec 
+      in<lb ed="#T" n="109" break="no"/>genitus 
+    </p>
+               <p xml:id="pdt7y6-e33109-d1e214">
+                  <lb ed="#T" n="110"/>Respondeo. Ingenitum dupliciter potest 
+      acci<lb ed="#T" n="111" break="no"/>pi: vel priuatiue, &amp; sic non cadit in Diuinis, vbi 
+      <lb ed="#T" n="112"/>nil dicitur priuatiue, quia priuatio defectum 
+      im<lb ed="#T" n="113" break="no"/>portat: vel negatiue, &amp; hoc dicitur vel 
+      negatio<lb ed="#T" n="114" break="no"/>ne in genere aliquo determinato, vel negatione 
+      <lb ed="#T" n="115"/>simpliciter siue extra genus: prima relinquit 
+      ali<lb ed="#T" n="116" break="no"/>quid, vnde tollit esse ab alio per generationem 
+      <lb ed="#T" n="117"/>solum; secunda nihil relinquit, vnde tollit esse 
+      <lb ed="#T" n="118"/>ab alio simpliciter, &amp; hoc dupliciter: quia vel est 
+      <lb ed="#T" n="119"/>pura negatio, vel negatio fundata super 
+      contra<lb ed="#T" n="120" break="no"/>rio, scilicet super hoc quod est omnia esse ab 
+      <lb ed="#T" n="121"/>illo; primo modo ingenitum conuenit Spiritui  
+      <lb ed="#T" n="122"/>sancto; secundo modo essentiae Diuinae: tertio 
+      <lb ed="#T" n="123"/>modo Patri. Alij dicunt, quod negatiur non 
+      <lb ed="#T" n="124"/>esse ab alio dupliciter accipitur, vel nec in se, nec 
+      <lb ed="#T" n="125"/>in altero, sic conuenit Patri; vel non in se, sed 
+      ta<lb ed="#T" n="126" break="no"/>men in altero, sic conuenit essentiae, quae in se 
+      <lb ed="#T" n="127"/>non est ab altero, sed in persona Filij est ab alio: 
+      <lb ed="#T" n="128"/>similiter in Spiritu sancto. 
+    </p>
+               <p xml:id="pdt7y6-e33109-d1e258">
+                  <lb ed="#T" n="129"/>Ad 1. De Damasceno. Resp. Accipitur ibi  
+      <!--1652-gregPress-MichiganState-gbooks-v1-0185.xml-->
+      <pb ed="#T" n="110"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>aequiuoce ingenitus: sicut aequiuoce dicitur 
+      ge<lb ed="#T" n="2" break="no"/>neratio de creatione, &amp; productione de substantia. 
+    </p>
+               <p xml:id="pdt7y6-e33109-d1e275">
+                  <lb ed="#T" n="3"/>Ad 2. De termino negatiuo cum subjecti 
+      con<lb ed="#T" n="4" break="no"/>stantia. Resp. Hoc verum est quando terminus 
+      <lb ed="#T" n="5"/>infinitus facit negationem simpliciter, seu extra 
+      <lb ed="#T" n="6"/>genus. Quod opponitur de Hieron. Resp. 
+      Inge<lb ed="#T" n="7" break="no"/>nitum accipit negatiue in genere. 
+    </p>
+               <p xml:id="pdt7y6-e33109-d1e288">
+                  <lb ed="#T" n="8"/>Ad 3. De duabus negationibus. Resp. 
+      Secun<lb ed="#T" n="9" break="no"/>dum quod ingenitus dicitur negatiue extra 
+      ge<lb ed="#T" n="10" break="no"/>nus, sic conceditur quod non est ingenitus, id est, 
+      <lb ed="#T" n="11"/>non est ens non ab alio: Si autem concludatur. 
+      <lb ed="#T" n="12"/>ergo est genitus, patet quod consequens est a 
+      <lb ed="#T" n="13"/>superiori ad inferius affirmando: Nam haec, non 
+      <lb ed="#T" n="14"/>est ens non ab alio, aequiposset huic affirmatiuae, 
+      <lb ed="#T" n="15"/>est ens ab alio: nec sequitur ex hac: ergo est ens 
+      <lb ed="#T" n="16"/>ab alio per generationem, impediente fallacia 
+      <lb ed="#T" n="17"/>consequentis. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e33109-Dd1e313">
+               <head xml:id="pdt7y6-e33109-Hd1e315">Articulus 2</head>
+               <head xml:id="pdt7y6-e33109-Hd1e317" type="question-title">
+  An Ingenitum secundum modum quo conuenit. 
+  Spiritui sancto dicat aliquam notionem in ipso. 
+</head>
+               <p xml:id="pdt7y6-e33109-d1e320">
+                  <lb ed="#T" n="18"/>Articvlvs II. 
+      <lb ed="#T" n="19"/>An Ingenitum secundum modum quo conuenit. 
+      <lb ed="#T" n="20"/>Spiritui sancto dicat aliquam notionem in ipso. 
+    </p>
+               <p xml:id="pdt7y6-e33109-d1e329">
+                  <lb ed="#T" n="21"/>AD vltimum proceditur sic. 1. Non nasci in 
+      <lb ed="#T" n="22"/>Patre dicit notionem: ergo, cum Spiritui 
+      <lb ed="#T" n="23"/>sancto similiter conueniat non nasci, dicit in eo 
+      <lb ed="#T" n="24"/>aliquam notionem. 
+    </p>
+               <p xml:id="pdt7y6-e33109-d1e340">
+                  <lb ed="#T" n="25"/>2. Aut dicit essentiam aut relationem, cum sit 
+      <lb ed="#T" n="26"/>praedicatum Diuinum; non essentiam, quia non 
+      <lb ed="#T" n="27"/>conuenit Filio: ergo relationem: ergo notionem. 
+    </p>
+               <p xml:id="pdt7y6-e33109-d1e350">
+                  <lb ed="#T" n="28"/>3. Secundum Aristotelem affirmatio &amp; 
+      nega<lb ed="#T" n="29" break="no"/>tio sunt in eodem genere: ergo cum genitus sit 
+      <lb ed="#T" n="30"/>in genere relationis, similiter erit ingenitus: ergo 
+      <lb ed="#T" n="31"/>est notio aliqua. 
+    </p>
+               <p xml:id="pdt7y6-e33109-d1e361">
+                  <lb ed="#T" n="32"/>Contra. 1. Sicut ingenitus dicitur de Spiritu 
+      <lb ed="#T" n="33"/>sancto, ita non spiratus de Filio: sed illud 
+      nul<lb ed="#T" n="34" break="no"/>Iam notionem ponit in Filio: ergo nec illud in 
+      <lb ed="#T" n="35"/>Spiritu sancto. 
+    </p>
+               <p xml:id="pdt7y6-e33109-d1e372">
+                  <lb ed="#T" n="36"/>2. Si ingenitum diceret notionem in 
+      Spiritu<lb ed="#T" n="37" break="no"/>sancto: ergo in eo non esset tantum vnica sed 
+      <lb ed="#T" n="38"/>duplex notio. 
+    </p>
+               <p xml:id="pdt7y6-e33109-d1e381">
+                  <lb ed="#T" n="39"/>Respondeo. Notio dicitur id quod est 
+      prin<lb ed="#T" n="40" break="no"/>cipium innotescendi personam. Ex hoc dicitur.  
+      <lb ed="#T" n="41"/>quod ad esse notionis tria requiruntur: vnum est, 
+      <lb ed="#T" n="42"/>quod sit proprietas aliqua determinata, nec 
+      ge<lb ed="#T" n="43" break="no"/>neralis, quia talis non distinguit: aliud, quod sit 
+      <lb ed="#T" n="44"/>proprietas relatiua, quia sola relatio originis de 
+      <lb ed="#T" n="45"/>stinguit in Diuinis: tertium, quod sit 
+      proprie<lb ed="#T" n="46" break="no"/>tas ad dignitatem aliquam pertinens, quia talis 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0185.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="47"/>proprietas personam distinguit cum persona sit 
+      <lb ed="#T" n="48"/>nomen dignitatis. Quia ergo esse ab alio non 
+      per<lb ed="#T" n="49" break="no"/>generationem, nullam dignitatem importat, sic 
+      <lb ed="#T" n="50"/>autem ingenitus dicitur de Spiritu sancto, ideo 
+      <lb ed="#T" n="51"/>nullam ponit in illo notionem. 
+    </p>
+               <p xml:id="pdt7y6-e33109-d1e416">
+                  <lb ed="#T" n="52"/>Ad 1. De Patre. Resp. Non est simile, quia 
+      <lb ed="#T" n="53"/>non esse ab alio bene importat in principio 
+      de<lb ed="#T" n="54" break="no"/>terminatam dignitatem. 
+    </p>
+               <p xml:id="pdt7y6-e33109-d1e425">
+                  <lb ed="#T" n="55"/>Ad 2. Aut dicit essentiam. Resp. Relationem 
+      <lb ed="#T" n="56"/>dicit, sed negatiue, non affirmatiue: vnde 
+      remo<lb ed="#T" n="57" break="no"/>uet eam de subjecto de quo dicitur, non ponit. 
+    </p>
+               <p xml:id="pdt7y6-e33109-d1e435">
+                  <lb ed="#T" n="58"/>Ad 3. Resp. Ingenitum dictum de Spiritu 
+      san<lb ed="#T" n="59" break="no"/>cto in genere relationis est, non directe, sed per 
+      <lb ed="#T" n="60"/>reductionem, non quia relationem ponat, sed 
+      <lb ed="#T" n="61"/>quia negat: vnde ex hoc non sequitur quod 
+      po<lb ed="#T" n="62" break="no"/>nat aliquam notionem. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e33109-Dd1e450">
+               <head xml:id="pdt7y6-e33109-Hd1e452">Expositio litterae</head>
+               <p xml:id="pdt7y6-e33109-d1e454">
+                  <lb ed="#T" n="63"/>EXPOSITIO LITERAE. 
+      <lb ed="#T" n="64"/>VOn quomodo natus, sed quomodo datus. 
+    </p>
+               <p xml:id="pdt7y6-e33109-d1e461">
+                  <lb ed="#T" n="65"/>Contra. 1. Non est datus, nisi ex 
+      tempo<lb ed="#T" n="66" break="no"/>re: temporale vero non est ratio distinctiua 
+      aeter<lb ed="#T" n="67" break="no"/>nae rei. 
+    </p>
+               <p xml:id="pdt7y6-e33109-d1e470">
+                  <lb ed="#T" n="68"/>2. Filius procedit quomodo datus Isa. 9. 
+      Fi<lb ed="#T" n="69" break="no"/>lius datus est nobis. 
+    </p>
+               <p xml:id="pdt7y6-e33109-d1e477">
+                  <lb ed="#T" n="70"/>3. Donum &amp; datum dicunt comparationem 
+      <lb ed="#T" n="71"/>ad creaturam: comparatio vero ad creaturam non. 
+      <lb ed="#T" n="72"/>est ratio processus aeterni personae a persona. 
+    </p>
+               <p xml:id="pdt7y6-e33109-d1e487">
+                  <lb ed="#T" n="73"/>Ad 1. Resp. Vt donum dicitur aliquid procea 
+      <lb ed="#T" n="74"/>dere, vel vt ratio donandi, vel vt effectus 
+      dona<lb ed="#T" n="75" break="no"/>tionis: primo modo procedit Spiritus sanctus, 
+      <lb ed="#T" n="76"/>non Filius, quamuis actu sit datus in tempore: 
+      <lb ed="#T" n="77"/>secundo modo non. 
+    </p>
+               <p xml:id="pdt7y6-e33109-d1e500">
+                  <lb ed="#T" n="78"/>Ad 2. Quomodo datus. Resp. Intelligitur 
+      <lb ed="#T" n="79"/>datus nominaliter, vt abstraliatur a tempore, id  
+      <lb ed="#T" n="80"/>est donabilis: non participialiter.  
+    </p>
+               <p xml:id="pdt7y6-e33109-d1e509">
+                  <lb ed="#T" n="81"/>Ad 3. De comparatione ad creaturam &amp;c. 
+      <lb ed="#T" n="82"/>Resp. Non est ratio processus, sed consequens 
+      <lb ed="#T" n="83"/>modum procedendi: vnde quamuis non sit ratio. 
+      <lb ed="#T" n="84"/>essendi, est tamen ratio innotescendi. 
+    </p>
+               <p xml:id="pdt7y6-e33109-d1e520">
+                  <lb ed="#T" n="85"/>[Est quod nec natum nec factum est.] 
+      Con<lb ed="#T" n="86" break="no"/>tra. In eadem diuisione non debet bis idem 
+      re<lb ed="#T" n="87" break="no"/>peti, cum omnis diuisio sit per opposita. Resp. 
+      <lb ed="#T" n="88"/>Non natum accipitur aequiuoce in vtroque 
+      <lb ed="#T" n="89"/>membro: nam in primo dicit negationem extra 
+      <lb ed="#T" n="90"/>genus, &amp; sic conuenit Patri: in secundo 
+      nega<lb ed="#T" n="91" break="no"/>tionem in genere, &amp; sic conuenit Spiritui sancto. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="93"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e28168"><!-- l1d10q2 -->
+            <head xml:id="pdt7y6-e28168-Hd1e99">Quaestio 2</head>
+            <head xml:id="pdt7y6-e28168-Hd1e101" type="question-title">De proprietate Spiritus Sancti</head>
+            <p xml:id="pdt7y6-e28168-d1e104">
+               <lb ed="#T" n="34"/>QVESTIO II. 
+      <lb ed="#T" n="35"/>DE PROPRIETATE SPIRITVS 
+      <lb ed="#T" n="36"/>SANCTI.
+</p>
+            <p xml:id="pdt7y6-e28168-d1e113">
+               <lb ed="#T" n="37"/>CIrca secundum duo quaeruntur.  
+      <lb ed="#T" n="38"/>Primo vtrum Spiritus sit charitas seu 
+      <lb ed="#T" n="39"/>amor appropriate tantum, vel proprie. 
+      <lb ed="#T" n="40"/>Secundo, an procedat a Patre in Filium, &amp; 
+      <lb ed="#T" n="41"/>&amp; conuerso a Filio in Patrem. 
+    </p>
+            <div xml:id="pdt7y6-e28168-Dd1e126">
+               <head xml:id="pdt7y6-e28168-Hd1e128">Articulus 1</head>
+               <head xml:id="pdt7y6-e28168-Hd1e130" type="question-title">
+  An Spiritus Sanctus sit amor appropriate, vel proprie.
+</head>
+               <p xml:id="pdt7y6-e28168-d1e133">
+                  <lb ed="#T" n="42"/>Articvlvs I. 
+      <lb ed="#T" n="43"/>An Spiritus Sanctus sit amor appropriate, vel 
+      <lb ed="#T" n="44"/>proprie. 
+</p>
+               <p xml:id="pdt7y6-e28168-d1e142">
+                  <lb ed="#T" n="45"/>AD primum proceditur sic. 1. Augustinus 
+      <lb ed="#T" n="46"/>dicit, quod sicut Pater dicitur sapientia. 
+      <lb ed="#T" n="47"/>Filius, sapientia Spiritus Sanctus sapientia, &amp; 
+      ta<lb ed="#T" n="48" break="no"/>men Filius sapientia proprie: ita Pater charitas. 
+      <lb ed="#T" n="49"/>Filius charitas, &amp; tamen Spiritus Sanctus 
+      pro<lb ed="#T" n="50" break="no"/>pne charitas dicitur: sed constat, quod Filius, 
+      <lb ed="#T" n="51"/>non dicitur sapientia proprie per proprietatem, 
+      <lb ed="#T" n="52"/>sed per approprirtionem: ergo Spiritus Sanctus 
+      <lb ed="#T" n="53"/>charitas est non per proprietatem, sed per 
+      up<lb ed="#T" n="54" break="no"/>propriationem. 
+    </p>
+               <p xml:id="pdt7y6-e28168-d1e166">
+                  <lb ed="#T" n="55"/>2. Dicit Richardus de S. Victore lib. de 
+      <lb ed="#T" n="56"/>Trinit. Quod dupsex est amor, scilicet amor 
+      <lb ed="#T" n="57"/>gratuitus &amp; amor debitus: amor gratuitus est 
+      <lb ed="#T" n="58"/>quando quis ei, a quo nihil muneris accipit, 
+      <lb ed="#T" n="59"/>gratis amorem impendit: amoP debitus, quando 
+      <lb ed="#T" n="60"/>quis ei a quo munus accipit, nil nifi amorem 
+      <lb ed="#T" n="61"/>impendit: amor ergo vt ipse ait, graturtus 
+      <lb ed="#T" n="62"/>solum in Patre est, quia a nullo accipit; solum 
+      <lb ed="#T" n="63"/>debitus in Spiritu sancto; amor permittus ex 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0168.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="64"/>vtroque, scilicet gratuitus simul &amp; debitus, in 
+      <lb ed="#T" n="65"/>Filio, qui a Patre accipit &amp; Spiritui sancto 
+      im<lb ed="#T" n="66" break="no"/>pendit: ergo amor, cum sit communis tribus 
+      <lb ed="#T" n="67"/>non dicitur de Spiritu sancto proprie. 
+    </p>
+               <p xml:id="pdt7y6-e28168-d1e202">
+                  <lb ed="#T" n="68"/>3. Videtur quod nec appropriate. Rom. vlt. 
+      <lb ed="#T" n="69"/>(Gratia enim Domini nostri Iesu Christi. &amp; 
+      <lb ed="#T" n="70"/>charitas Dei] glossa [Patris] ergo charitas 
+      ap<lb ed="#T" n="71" break="no"/>propriatur Patri. 
+    </p>
+               <p xml:id="pdt7y6-e28168-d1e213">
+                  <lb ed="#T" n="72"/>4. Charitas est vniuersalis motor &amp; forma 
+      <lb ed="#T" n="73"/>virtutum: ergo habet respectu carum rationem 
+      <lb ed="#T" n="74"/>principij ergo Patri, cui ratio principiu 
+      ap<lb ed="#T" n="75" break="no"/>propriatur, debet appropriari. 
+    </p>
+               <p xml:id="pdt7y6-e28168-d1e224">
+                  <lb ed="#T" n="76"/>Contra. 1. Modus, quo quaelibet persona 
+      <lb ed="#T" n="77"/>procedit, est proprius ipsi, cum per hunc 
+      perso<lb ed="#T" n="78" break="no"/>nae distinguantur: Spiritus sanctus procedit per 
+      <lb ed="#T" n="79"/>modum amoris: ergo ratio amoris propria est 
+      <lb ed="#T" n="80"/>ipsi. 
+    </p>
+               <p xml:id="pdt7y6-e28168-d1e237">
+                  <lb ed="#T" n="81"/>2. Sicut verbum se habet ad dicentems sit 
+      <lb ed="#T" n="82"/>amor ad amantem: sed vverbum personam dicit 
+      <lb ed="#T" n="83"/>proprietate verbi distinctam a dicente: ergo a 
+      <lb ed="#T" n="84"/>simili amor personam dicit proprietate amoris 
+      <lb ed="#T" n="85"/>distinctam ab amante: ergo de persona illa amor 
+      <lb ed="#T" n="86"/>dicitur proprie. 
+    </p>
+               <p xml:id="pdt7y6-e28168-d1e253">
+                  <lb ed="#T" n="87"/>3. Videtur quod ei magis appropriari debeat.  
+      <lb ed="#T" n="88"/>quia potentia appropriatur Patri, sapientia 
+      <lb ed="#T" n="89"/>Filio, bonitas Spiritui sancto: sed praecipua pars 
+      <lb ed="#T" n="90"/>bonitatis consisut in amore seu eharitate: ergo; 
+    </p>
+               <p xml:id="pdt7y6-e28168-d1e264">
+                  <lb ed="#T" n="91"/>4. In Trinitate creatae imaginis mens 
+      appro<lb ed="#T" n="92" break="no"/>priatur Patri, notitia Filio, amor Spiritui 
+      san<lb ed="#T" n="93" break="no"/>cto: ergo amor ei conueniet appropriate. 
+    </p>
+               <p xml:id="pdt7y6-e28168-d1e274">
+                  <lb ed="#T" n="94"/>Iuxta hoc quaeritur, quae sit differentia 
+      amo<lb ed="#T" n="95" break="no"/>ris, dilectionis, &amp; charitatis. 
+    </p>
+               <p xml:id="pdt7y6-e28168-d1e281">
+                  <lb ed="#T" n="96"/>Respondeo. Pater &amp; Filius non solum sunt,  
+      <lb ed="#T" n="97"/>vnum in natura &amp; naturali voluntate, imo &amp; 
+      <lb ed="#T" n="98"/>in amicitia, liberali voluntate &amp; hoc dupliciter: 
+      <lb ed="#T" n="99"/>scilicet in consonantia spirandi amorem vnum in 
+      <lb ed="#T" n="100"/>alterum, &amp; in ipso amore spirato. Hinc est quod 
+      <lb ed="#T" n="101"/>amor triplex est in diuinis, essentialis, quo vnum 
+      <lb ed="#T" n="102"/>sunt in se naturaliter diligendo; notionalis, quo 
+      <lb ed="#T" n="103"/>vnum sunt spirando; personalis, quo 
+      conne<lb ed="#T" n="104" break="no"/>ctuntur scilicet amore spirato, scilicet Spiritu 
+      <lb ed="#T" n="105"/>sancto. Primus intelligitur, cum dicitur, Pater  
+      <lb ed="#T" n="106"/>diligit se, vel Filius diligit se: secundus cum 
+      <lb ed="#T" n="107"/>dicitur, Pater &amp; Filius diligunt se Spiritu sancto: 
+      <lb ed="#T" n="108"/>tertius, cum dicitur, Spiritus sanctus amor est, 
+      <lb ed="#T" n="109"/>Primus communis est tribus: secundus; in 
+      Pa<lb ed="#T" n="110" break="no"/>tre &amp; Filio: tertius proprius Spiritui sancta, 
+      <lb ed="#T" n="111"/>Simile hic potest poni in amore sponsi ad spone 
+      <lb ed="#T" n="112"/>sam: diligunt enim naturaliter se, in quantum 
+      <lb ed="#T" n="113"/>quilibet eorum est homo: diligunt se amoru 
+      <lb ed="#T" n="114"/>quasi notionali, in quantum concordant in 
+      ge<lb ed="#T" n="115" break="no"/>nerando: diligunt se amore quasi personali, in 
+      <lb ed="#T" n="116"/>quantum concordant &amp; vninitur in prole gos 
+      <lb ed="#T" n="117"/>nita: ex hoc enim plus se solent diligere quaas 
+      <lb ed="#T" n="118"/>do vnus suscipit prolem ex altero; &amp; magis si 
+      <lb ed="#T" n="119"/>prole. est amabilis, &amp; maxime si esset amor. 
+      <lb ed="#T" n="120"/>Dseo ergo quia amor essentialis commuis est 
+      <lb ed="#T" n="121"/>tribus, tamen appropriatur Spiritui sancto, 
+      <lb ed="#T" n="122"/>quia maiorem similitudinem habet cum eius 
+      <lb ed="#T" n="123"/>proprio: amor vero: otionalis proprie conuertit 
+      <lb ed="#T" n="124"/>Patri &amp; Filio, nec appropriatur Spiritui sancto: 
+      <lb ed="#T" n="125"/>amor vero personalis proprie est ipse Spiritur 
+      <lb ed="#T" n="126"/>sanctus. 
+    </p>
+               <p xml:id="pdt7y6-e28168-d1e351">
+                  <lb ed="#T" n="127"/>Ad 1. De sapientia &amp; ehafitate. Resp. 
+      Lo<lb ed="#T" n="128" break="no"/>quitur ibi Augustinus de charitate 
+      essentiali<lb ed="#T" n="129" break="no"/>Vel non est perfecta similitudo qui charitas 
+      <lb ed="#T" n="130"/>vno modo dicitur proprie de Spiritu sancto 
+      <lb ed="#T" n="131"/>sed sapient ianon dicitur proprio de Filio, ime 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0169.xml-->
+      <pb ed="#T" n="94"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>appropriate tantum. 
+    </p>
+               <p xml:id="pdt7y6-e28168-d1e373">
+                  <lb ed="#T" n="2"/>Ad 2. Ex Richard. Resp. Vno modo amor 
+      <lb ed="#T" n="3"/>communis est tribus, altero modo proprius 
+      <lb ed="#T" n="4"/>Spiritui sancto. 
+    </p>
+               <p xml:id="pdt7y6-e28168-d1e382">
+                  <lb ed="#T" n="5"/>Ad 3. &amp; 4. Charitas appropriatur Patri. Resp. 
+      <lb ed="#T" n="6"/>Charitas dupliciter consideratur, vel in natura 
+      <lb ed="#T" n="7"/>propria, sic appropriatur Spiritui sancto; vel in 
+      <lb ed="#T" n="8"/>comparatione ad virtutes alias, sic potest 
+      ap<lb ed="#T" n="9" break="no"/>propriari Patri: quia tamen magis conuenit ei 
+      <lb ed="#T" n="10"/>secundum se, quam quod in comparatione ad 
+      <lb ed="#T" n="11"/>alterum, ideo potius dicitur appropriari 
+      Spiri<lb ed="#T" n="12" break="no"/>tui sancto. 
+    </p>
+               <p xml:id="pdt7y6-e28168-d1e402">
+                  <lb ed="#T" n="13"/>Ad quaest. Resp. Amor communis est ad 
+      <lb ed="#T" n="14"/>amorem rationalem &amp; naturalem; dilectio 
+      pro<lb ed="#T" n="15" break="no"/>prie se habet ad rationalem quia importat 
+      <lb ed="#T" n="16"/>electionem, sed communiter ad bonum &amp; 
+      <lb ed="#T" n="17"/>malum; charitas ratione appropriationis 
+      pro<lb ed="#T" n="18" break="no"/>prie se habet ad amorem bonum gratiae. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e28168-Dd1e420">
+               <head xml:id="pdt7y6-e28168-Hd1e422">Articulus 2</head>
+               <head xml:id="pdt7y6-e28168-Hd1e424" type="question-title">An Spiritus sanctus procedat a Patre in Filium, &amp; 
+      e conuerso a Filio in Patrem. </head>
+               <p xml:id="pdt7y6-e28168-d1e427">
+                  <lb ed="#T" n="19"/>ARTICVLVS II 
+      <lb ed="#T" n="20"/>An Spiritus sanctus procedat a Patre in Filium, &amp; 
+      <lb ed="#T" n="21"/>e conuerso a Filio in Patrem. 
+    </p>
+               <p xml:id="pdt7y6-e28168-d1e436">
+                  <lb ed="#T" n="22"/>AD secundum sic proceditur. 1. Omnis 
+      <lb ed="#T" n="23"/>amor tendit seu procedit ab amante in 
+      <lb ed="#T" n="24"/>ama:um: ergo si Spiritus est amor Patris &amp; 
+      <lb ed="#T" n="25"/>Filij, procedit a Patre in Filium, &amp; e conuerso. 
+    </p>
+               <p xml:id="pdt7y6-e28168-d1e447">
+                  <lb ed="#T" n="26"/>2. Hieron. dicit inlittera, quod Spiritus 
+      san<lb ed="#T" n="27" break="no"/>ctus est dile, tio quam habet Pater in Filium, 
+      <lb ed="#T" n="28"/>&amp; Filius in Patrem. 
+    </p>
+               <p xml:id="pdt7y6-e28168-d1e457">
+                  <lb ed="#T" n="29"/>3. Super illud Psal. Misit de summo. Glos. 
+      <lb ed="#T" n="30"/>Ca: odori Spiritus sanctus vtriasque dilectio est 
+      <lb ed="#T" n="31"/>scilicet Patris in Filium, &amp; Filij in Patrem. 
+    </p>
+               <p xml:id="pdt7y6-e28168-d1e466">
+                  <lb ed="#T" n="32"/>Contra 1. Quicquid procedit ab aliquo vt in 
+      <lb ed="#T" n="33"/>aliud tendens, non procedit vt per se subsistens. 
+      <lb ed="#T" n="34"/>sed Spiritus sanctus procedit a Patre, vt per se 
+      <lb ed="#T" n="35"/>substens: ergo non vt tendens in Filium. 
+    </p>
+               <p xml:id="pdt7y6-e28168-d1e477">
+                  <lb ed="#T" n="36"/>2. Quicquid procedit in aliud, recipitur in 
+      <lb ed="#T" n="37"/>illo, nisi nt defectus ex parte recipientis: si ergo 
+      <lb ed="#T" n="38"/>Spiritus sanctus procedit a Patre in Filium, 
+      <lb ed="#T" n="39"/>cum in eo nullus sit defectus, Filius suscipit a 
+      <lb ed="#T" n="40"/>Patre Spiritum sanctum: sed quicquid a. Patre. 
+      <lb ed="#T" n="41"/>habet, suscipit per generationis actum: ergo 
+      <lb ed="#T" n="42"/>spirare in Patre non est aliud, quam generare 
+      <lb ed="#T" n="43"/>Filium. 
+    </p>
+               <p xml:id="pdt7y6-e28168-d1e497">
+                  <lb ed="#T" n="44"/>3. Pater nil recipit a Filio: ergo Spiritus 
+      <lb ed="#T" n="45"/>sanctus a Filio non tendit seu procedit in 
+      <lb ed="#T" n="46"/>Patrem. 
+    </p>
+               <p xml:id="pdt7y6-e28168-d1e506">
+                  <lb ed="#T" n="47"/>4. Aut suscipitur ab eo, in quem procedit 
+      <lb ed="#T" n="48"/>aut non: si sic, ergo Pater a Filio suscipit 
+      Spiri<lb ed="#T" n="49" break="no"/>tum sanctum: ergo aliquid habet a Filio. Si non 
+      <lb ed="#T" n="50"/>suscipitur: ergo non potest reddere: quia qui  
+      <lb ed="#T" n="51"/>non suscipit non potest reddere, scilicet 
+      sus<lb ed="#T" n="52" break="no"/>ceptum. 
+    </p>
+               <p xml:id="pdt7y6-e28168-d1e522">
+                  <lb ed="#T" n="53"/>5. Nil est idem principium &amp; terminus 
+      res<lb ed="#T" n="54" break="no"/>pectu eiusdem motus: ergo si Filius est terminus 
+      <lb ed="#T" n="55"/>in quem, non est terminus vel principium a 
+      <lb ed="#T" n="56"/>quo procedat Spiritus sanctus. 
+    </p>
+               <p xml:id="pdt7y6-e28168-d1e534">
+                  <lb ed="#T" n="57"/>Respondeo. Aliquid ab vno in aliud tendere 
+      <lb ed="#T" n="58"/>vel procedere, potest intelligi dupliciter: ve 
+      <lb ed="#T" n="59"/>tanquam in subjectum susceptibile, vt donum 
+      <lb ed="#T" n="60"/>procedit a donante in eum cui datur: vel 
+      tan<lb ed="#T" n="61" break="no"/>quam in obiectum seu terminum actionis vt 
+      <lb ed="#T" n="62"/>amor procedit ab amante in amatum. Primo 
+      <lb ed="#T" n="63"/>modo Spiritus fanctus non procedit a Patre in 
+      <lb ed="#T" n="64"/>Filium, nec e conuerso: secundo modo, vt 
+      <lb ed="#T" n="65"/>amor scilicet aeternus sub hac ratione &amp; nomine 
+      <lb ed="#T" n="66"/>conuderatus, procedit a Patre in Filium vel, &amp; 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0169.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>conuerso. Quidam tamen nolunt hoc 
+      conce<lb ed="#T" n="68" break="no"/>dere, quia non inuenitur expressum: quamuis 
+      <lb ed="#T" n="69"/>concedant, quod est amor Patris in Filium &amp; 
+      <lb ed="#T" n="70"/>e conuerso: sed nullum apparet inconueniens 
+      su<lb ed="#T" n="71" break="no"/>concedatur sub sensu praedicto, scilicet in 
+      <lb ed="#T" n="72"/>quantum consideratur vt medium vtrumque 
+      <lb ed="#T" n="73"/>connectens, scilicet vt amor, non solum vt 
+      <lb ed="#T" n="74"/>extremum ab vtroque simul procedens, scilicet,  
+      <lb ed="#T" n="75"/>vt Spiritus sanctus. 
+    </p>
+               <p xml:id="pdt7y6-e28168-d1e582">
+                  <lb ed="#T" n="76"/>Ad 1. In contrarium. Quidquid procedit ab 
+      <lb ed="#T" n="77"/>aliquo vt in aliud tendens. Resp. De eo quod 
+      <lb ed="#T" n="78"/>tendit primo modo, vniuersaliter verum est: de 
+      <lb ed="#T" n="79"/>eo quod tendit secundo modo, in inferioribus 
+      <lb ed="#T" n="80"/>verum est, quod amor &amp; huiusmodi, 
+      acci<lb ed="#T" n="81" break="no"/>dentia sunt; in diuinis non, vbi omnia quae 
+      <lb ed="#T" n="82"/>sunt, substantia sunt.  
+    </p>
+               <p xml:id="pdt7y6-e28168-d1e600">
+                  <lb ed="#T" n="83"/>Ad 2. Quicquid procedit in aliud. Resp. 
+      <lb ed="#T" n="84"/>Verum est de eo quod procedit vt in subjectum 
+      <lb ed="#T" n="85"/>non vt in obiectum: non enim quod amo 
+      sus<lb ed="#T" n="86" break="no"/>cipit amorem meum. 
+    </p>
+               <p xml:id="pdt7y6-e28168-d1e611">
+                  <lb ed="#T" n="87"/>Ad 3. Pater nil accipit a Filio, vel habet.  
+      <lb ed="#T" n="88"/>Resp. Argumentum procedit de eo quod 
+      pro<lb ed="#T" n="89" break="no"/>cedit in aliud, vt in subjectum, non vt in 
+      <lb ed="#T" n="90"/>objectum 
+    </p>
+               <p xml:id="pdt7y6-e28168-d1e622">
+                  <lb ed="#T" n="91"/>Ad 4. Aut suscipitur. Resp. Non suscipitur 
+      <lb ed="#T" n="92"/>ab eo vt subjecto, sed vt amor terminatur ad 
+      <lb ed="#T" n="93"/>psum vt obiectum, quod sufficit vt dicatur 
+      re<lb ed="#T" n="94" break="no"/>pendere, 
+    </p>
+               <p xml:id="pdt7y6-e28168-d1e633">
+                  <lb ed="#T" n="95"/>Ad 5. Nil idem est principium &amp;c. Resp. 
+      <lb ed="#T" n="96"/>Quamuis in motu recto ista vera sit, non tamen 
+      <lb ed="#T" n="97"/>in motu circulari, in quo idem subjecto, 
+      ratio<lb ed="#T" n="98" break="no"/>ne diuersum est terminus a quo, &amp; ad quem: 
+      <lb ed="#T" n="99"/>amor vero secundum Dionyssostenditur sicut  
+      <lb ed="#T" n="100"/>quidam aeternus cieculus: vnde Filius potest: 
+      <lb ed="#T" n="101"/>esse amoris principium a quo, &amp; terminus, non 
+      <lb ed="#T" n="102"/>secundum eandem rationem: inquantum vnum 
+      <lb ed="#T" n="103"/>cum Patre est principium a quo: sed in quantum 
+      <lb ed="#T" n="104"/>distinctus ab eo potest esse terminus in quem. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

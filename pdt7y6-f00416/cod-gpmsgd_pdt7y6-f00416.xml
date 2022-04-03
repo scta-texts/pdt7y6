@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="329"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-f00416"><!-- l1d40q1 -->
+            <head xml:id="pdt7y6-f00416-Hd1e99">Quaestio 1</head>
+            <head xml:id="pdt7y6-f00416-Hd1e101" type="question-title">De praedestinatione secundum se</head>
+            <p xml:id="pdt7y6-f00416-d1e104">
+               <lb ed="#T" n="23"/>QVESTIO I. 
+      <lb ed="#T" n="24"/>DE PRAEDESTINATIONE, 
+      <lb ed="#T" n="25"/>SECVNDVM ST, 
+</p>
+            <p xml:id="pdt7y6-f00416-d1e113">
+               <lb ed="#T" n="26"/>TTIc quaeruntur tria. 
+      <lb ed="#T" n="27"/>Primo de praedestinatione secundum se 
+      <lb ed="#T" n="28"/>Secundo de certitudine eius in praedestinato. 
+      <lb ed="#T" n="29"/>Tertio de reprobatione. 
+    </p>
+            <p xml:id="pdt7y6-f00416-d1e124">
+               <lb ed="#T" n="30"/>Circa primum quaeruntur tria. 
+      <lb ed="#T" n="31"/>Primo quid sit praedestinatio.  
+      <lb ed="#T" n="32"/>Secundo quorum sit. 
+      <lb ed="#T" n="33"/>Tertio an sit aeterna vel temporalis. 
+    </p>
+            <div xml:id="pdt7y6-f00416-Dd1e136">
+               <head xml:id="pdt7y6-f00416-Hd1e138">Articulus 1</head>
+               <head xml:id="pdt7y6-f00416-Hd1e140" type="question-title">Quid sit praedestinatio</head>
+               <p xml:id="pdt7y6-f00416-d1e143">
+                  <lb ed="#T" n="34"/>ARTICVLVS. I. 
+      <lb ed="#T" n="35"/>Quid sit praedestinatio.
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e150">
+                  <lb ed="#T" n="36"/>CIrca primum quaeritur primo quid sit res 
+      <lb ed="#T" n="37"/>Deinde quid genere. Deinde quid 
+      defini<lb ed="#T" n="38" break="no"/>tione. 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e159">
+                  <lb ed="#T" n="39"/>Ad primum proceditur sic. 1. Nihil increatum 
+      <lb ed="#T" n="40"/>formaliter denominat creaturam: praedestinatio 
+      <lb ed="#T" n="41"/>formaliter denominat creaturam praedestinatam: 
+      <lb ed="#T" n="42"/>ergo praedestinatio non est quid increatum. 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e171">
+                  <lb ed="#T" n="43"/>2. In definitione increati non cadit quid 
+      crea<lb ed="#T" n="44" break="no"/>tum, quia omne increatum potest esse sine 
+      quo<lb ed="#T" n="45" break="no"/>libet creato: sed in definitione praedestinationis 
+      <lb ed="#T" n="46"/>cadit quid creatum, scilicet gratia &amp; gloria: 
+      er<lb ed="#T" n="47" break="no"/>go non est quid increatum. 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e184">
+                  <lb ed="#T" n="48"/>3. Videtur quod non nominet quid creatum, 
+      <lb ed="#T" n="49"/>quia praedestinatio est aeterna: nullum vero 
+      crea<lb ed="#T" n="50" break="no"/>tum est aeternum: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e193">
+                  <lb ed="#T" n="51"/>4. Praedestinantur qui non sunt in natura 
+      pro<lb ed="#T" n="52" break="no"/>pria, sed in sola dispositione Diuina: ergo 
+      prae<lb ed="#T" n="53" break="no"/>destinatio nihil ponit extra Deum: sed totum 
+      <lb ed="#T" n="54"/>quod in Deo est increatum est: ergo nihil ponit 
+      <lb ed="#T" n="55"/>creatum. 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e206">
+                  <lb ed="#T" n="56"/>Contra. 1. Videtur quod ponat vtrumque 
+      <lb ed="#T" n="57"/>Nam praedestinatum dicit tam praedestinationem 
+      <lb ed="#T" n="58"/>actionem, quam praedestinationem passionem: 
+      <lb ed="#T" n="59"/>pdestinatio vero actio est quid increatum, prae¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0404.xml-->
+      <cb ed="#T" n="c"/>
+                  <lb ed="#T" n="60"/>destinatio passio quid creatum: ergo nominant 
+      <lb ed="#T" n="61"/>vtrumque. 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e226">
+                  <lb ed="#T" n="62"/>2. Praedestinatio actus Diuinus est: ergo 
+      no<lb ed="#T" n="63" break="no"/>minat Diuinam essentiam: aut ergo solam, &amp; ita 
+      <lb ed="#T" n="64"/>non denominaret creaturam: aut cum alio, aliud 
+      <lb ed="#T" n="65"/>vero non est nisi quid creatum: ergo nominat 
+      <lb ed="#T" n="66"/>quid increatum, &amp; quid creatum. 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e239">
+                  <lb ed="#T" n="67"/>Ad secundum proceditur fic. Praedestinatio  
+      <lb ed="#T" n="68"/>omnis est praescientia, &amp; non conuertitur: prae 
+      <lb ed="#T" n="69"/>scientia vero pertinet ad sapientiam: ergo &amp; 
+      prae<lb ed="#T" n="70" break="no"/>destinatio.  
+      <lb ed="#T" n="71"/>Contra hoc. Praedestinatio est praeparatio 
+      gra<lb ed="#T" n="72" break="no"/>tiae: sed praeparatio dicit actum potentiae: ergo 
+      <lb ed="#T" n="73"/>pertinet ad potentiam. 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e258">
+                  <lb ed="#T" n="74"/>Contra vtrumque. Praedestinatio secundum 
+      <lb ed="#T" n="75"/>Augustinum est propositum miferendi: sed hoc 
+      <lb ed="#T" n="76"/>pertinet ad voluntatem: ergo &amp; praedestinatio. 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e267">
+                  <lb ed="#T" n="77"/>Circa tertium sic proceditur. 1. Predeftinatio 
+      <lb ed="#T" n="78"/>ait Magister, est preparatio gratiae in 
+      praesenti<lb ed="#T" n="79" break="no"/>&amp; gloriae in futuro. 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e276">
+                  <lb ed="#T" n="80"/>Contra. 1. Solum propositum artificis non 
+      di<lb ed="#T" n="81" break="no"/>citur praeparatio: praedestinatio vero est in 
+      propo<lb ed="#T" n="82" break="no"/>sito solo, vnde praedestinatio est propositum mi 
+      <lb ed="#T" n="83"/>ferendi secundum Augustinum. 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e287">
+                  <lb ed="#T" n="84"/>2. Augustinus de fide ad Petrum dicit, quod 
+      <lb ed="#T" n="85"/>praedestinatio est gratuitae donationis preparatio: 
+      <lb ed="#T" n="86"/>ergo gratie tantum non glorie. 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e296">
+                  <lb ed="#T" n="87"/>3. In angelis &amp; Christo simul fuit gratiae &amp; 
+      glo<lb ed="#T" n="88" break="no"/>riae collatio, &amp; tamen fuerunt praedestinati: ergo 
+      <lb ed="#T" n="89"/>male data est definitio. 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e305">
+                  <lb ed="#T" n="90"/>Respondeo ad primum. Sicut in actionibus 
+      <lb ed="#T" n="91"/>humanis quaedam ita transeunt in materiam 
+      ex<lb ed="#T" n="92" break="no"/>teriorem, quod effectum in ea relinquunt, vt 
+      <lb ed="#T" n="93"/>percussio: quaedam vero ita quod solum 
+      respe<lb ed="#T" n="94" break="no"/>ctum agentis ad eam ponunt, vt visio: &amp; primum 
+      <lb ed="#T" n="95"/>genus actionum aliquid ponit extra ageniem 
+      <lb ed="#T" n="96"/>actu, sed nihil intra: ita in actionibus Diuinis 
+      <lb ed="#T" n="97"/>respectu creaturae, quaedam effectum actu 
+      con<lb ed="#T" n="98" break="no"/>notant in creatura, vt creatio: quaedam vero 
+      <lb ed="#T" n="99"/>solum respectum ad creaturam, vt 
+      praedestina<lb ed="#T" n="100" break="no"/>tio. In primo genere actionum actio &amp; passio 
+      rea<lb ed="#T" n="101" break="no"/>liter differunt, &amp; ideo aliquid in Deo, aliquid 
+      <lb ed="#T" n="102"/>extra Deum ponunt: quia ponunt actionem &amp; 
+      <lb ed="#T" n="103"/>passionem, quorum vnum est in Deo alterum in 
+      <lb ed="#T" n="104"/>creatura: in secundo genere differunt tantum 
+      se<lb ed="#T" n="105" break="no"/>cundum modum significandi, &amp; vtrumque in 
+      <lb ed="#T" n="106"/>Deo est. Praedestinatio ergo totaliter in Deo est, 
+      <lb ed="#T" n="107"/>sicut laudatio Caesaris actiua &amp; passiua est in 
+      so<lb ed="#T" n="108" break="no"/>lo laudante. Sed nunquid ponit quid in 
+      creatu<lb ed="#T" n="109" break="no"/>ra? Resp. Ponere aliquid in aliquo dicitur 
+      ter<lb ed="#T" n="110" break="no"/>minus aliquis dupliciter: aut primo &amp; 
+      principa<lb ed="#T" n="111" break="no"/>liter, quando significatum eius est in illo, vt deal 
+      <lb ed="#T" n="112"/>batio in albo: aut ex consequenti, quando ad 
+      <lb ed="#T" n="113"/>significatum eius in vno, sequitur aliquid esse in 
+      <lb ed="#T" n="114"/>altero, vt vnum relatiuorum ponit aliud. Primo 
+      <lb ed="#T" n="115"/>modo praedestinatio nihil ponit in creatura. 
+      Po<lb ed="#T" n="116" break="no"/>nere vero secundo modo dupliciter contingit;. 
+      <lb ed="#T" n="117"/>aut simal cum illo de quo dicitur, vt Pater ponit. 
+      <lb ed="#T" n="118"/>Filium esse: aut non simul, vt memoria 
+      praete<lb ed="#T" n="119" break="no"/>ritum, &amp; praescientia futurum: primo modo 
+      prae<lb ed="#T" n="120" break="no"/>destinatio nihil ponit in creatura: secundo 
+      mo<lb ed="#T" n="121" break="no"/>do ponit, scilicet effectum gratiae &amp; gloriae. 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e378">
+                  <lb ed="#T" n="122"/>Ad 1. Nihil increatum denominat 
+      formalite<lb ed="#T" n="123" break="no"/>creaturam. Resp. Formalis denominatio duple.: 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0405.xml-->
+      <pb ed="#T" n="330"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>est: aut a forma rei, sic verum est, quia talis 
+      for<lb ed="#T" n="2" break="no"/>ma denominans oportet quod sit in denominato. 
+      <lb ed="#T" n="3"/>aut a forma rationis, sic non: vnde quia 
+      aeterni<lb ed="#T" n="4" break="no"/>tas forma est rei: praedestinatio forma rationis 
+      <lb ed="#T" n="5"/>non potest dici creatura aeterna, tamen potest 
+      <lb ed="#T" n="6"/>dici praedestinata; similiter chimaera non pot est 
+      <lb ed="#T" n="7"/>dici alba, vel nigra; potest tamen dici 
+      opina<lb ed="#T" n="8" break="no"/>bilis, 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e409">
+                  <lb ed="#T" n="9"/>Ad 2. De definitione. Resp. In definitione 
+      <lb ed="#T" n="10"/>essentiali increati non potest poni creatum: sed  
+      <lb ed="#T" n="11"/>in causali potest: sic autem in ponitur gratia &amp; 
+      <lb ed="#T" n="12"/>gloria in definitione praestinationis, &amp; ideo 
+      po<lb ed="#T" n="13" break="no"/>nuntur in obliquo, non in recto. 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e422">
+                  <lb ed="#T" n="14"/>Ad 1. In contrarium de praedestinatione pas 
+      <lb ed="#T" n="15"/>sione &amp;c. Resp. Praedestinatio passio non est 
+      <lb ed="#T" n="16"/>aliud quam praedestinatio actio secundum rem, sed  
+      <lb ed="#T" n="17"/>solum secundum modum significandi, sicut &amp; 
+      <lb ed="#T" n="18"/>laudatio passio qua Caesar laudatur a me, 
+      iden<lb ed="#T" n="19" break="no"/>est quod laudatio actio, quia huiusimodi passio 
+      <lb ed="#T" n="20"/>nihil ponit in passo, sed in agente. 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e440">
+                  <lb ed="#T" n="21"/>Ad 2. Aut nominat essentiam puram, aut aliud 
+      <lb ed="#T" n="22"/>Resp. Non nominat puram essentiam, sed 
+      con<lb ed="#T" n="23" break="no"/>notat respectum ad creaturam: qui tamen 
+      respe<lb ed="#T" n="24" break="no"/>ctus non est aliud secundumrem, sed secundum 
+      <lb ed="#T" n="25"/>dici, seu secundum ratione: &amp; ideo potest 
+      dendini<lb ed="#T" n="26" break="no"/>nare creatura, licet non sit in ea, quia huiusmodi 
+      <lb ed="#T" n="27"/>denominatio rationis nihil ponit in denomi 
+      <lb ed="#T" n="28"/>nato secundum rem, sed solum in denominante. 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e460">
+                  <lb ed="#T" n="29"/>Ad secundam quaest. Resp. Praedestinatio 
+      per<lb ed="#T" n="30" break="no"/>tinet ad scientiam, non simplicis intelligentiae 
+      <lb ed="#T" n="31"/>sed approbationis: ideo partim pertinet ad 
+      sa<lb ed="#T" n="32" break="no"/>pientiam, partim ad voluntatem 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e471">
+                  <lb ed="#T" n="33"/>Ad illud quod opponitur de praepar tione. 
+      <lb ed="#T" n="34"/>Resp. Praeparatio actualis ad potentiam 
+      perti<lb ed="#T" n="35" break="no"/>net, sed habitualis non, haec vero ponitur in 
+      defi<lb ed="#T" n="36" break="no"/>nisione praedestinationis. 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e483">
+                  <lb ed="#T" n="37"/>Ad tertiam quaest. Resp. Praedestinatio 
+      dupli<lb ed="#T" n="38" break="no"/>citer describi potest: aut ex parte nominis, sic 
+      <lb ed="#T" n="39"/>Augustinus lib. de praedestinatione sanctorum 
+      <lb ed="#T" n="40"/>descrioit eam, Praedestinatio est destinatio 
+      alicu<lb ed="#T" n="41" break="no"/>ius in finem: aut ex parte rei, &amp; hoc dupliciter: 
+      <lb ed="#T" n="42"/>aut generaliter respectu quarumcumque 
+      creatu<lb ed="#T" n="43" break="no"/>rarum rationabiliam, &amp; quorumcumque 
+      beneficio<lb ed="#T" n="44" break="no"/>rum diuinorum; sic definit eam Augustinus libi 
+      <lb ed="#T" n="45"/>de fide ad Petrum, Praedestinatio est gratuita 
+      <lb ed="#T" n="46"/>donationis praeparatio: aut specialiter respecti 
+      <lb ed="#T" n="47"/>hominum purorum, &amp; hoc dupliciter: aut sim 
+      <lb ed="#T" n="48"/>pliciter, sic datur illa, praedestinatio est 
+      praepara<lb ed="#T" n="49" break="no"/>tio gratiae in praesenti &amp; gloriae in futuro, quod 
+      <lb ed="#T" n="50"/>conuenit omnibus in statu innocentiae: aut in 
+      <lb ed="#T" n="51"/>statu culpae, &amp; hoc dupliciter: aut principaliter 
+      <lb ed="#T" n="52"/>quoad effectum primum qui est liberatio a culpa 
+      <lb ed="#T" n="53"/>per gratiam, sic definit nagister cap. vltimo 
+      hu<lb ed="#T" n="54" break="no"/>ius distinct. quod praedestinatio est praescientia. 
+      <lb ed="#T" n="55"/>&amp; praeparatio beneficiorum Dei quibus 
+      certis<lb ed="#T" n="56" break="no"/>me liberantur quicunque liberantur: aut 
+      princi<lb ed="#T" n="57" break="no"/>paliter quoad efectum qui est liberatio a 
+      mise<lb ed="#T" n="58" break="no"/>ria per gloriam, sic definit Augustinus lib. d. 
+      <lb ed="#T" n="59"/>praedest. Sanctorum, Praedestinatio est 
+      propo<lb ed="#T" n="60" break="no"/>situm miferendi. 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e538">
+                  <lb ed="#T" n="61"/>Ad 1. In contrarium de praeparatione. Resp. 
+      <lb ed="#T" n="62"/>Quamuis propositum hominis non possit dici 
+      <lb ed="#T" n="63"/>praeparatio, quia non agit solo beneplacito, 
+      ta<lb ed="#T" n="64" break="no"/>men propositum Dei bene potest 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e549">
+                  <lb ed="#T" n="65"/>Ad 2. De gratuita donatione. Resp. Omne 
+      <lb ed="#T" n="66"/>donum Dei, gratuitum est: &amp; ipsa gloria, 
+      gra<lb ed="#T" n="67" break="no"/>tia nominatur ab Apostolo Rom. 6. quia non 
+      <lb ed="#T" n="68"/>a solo libero arbitrio, sed per gratia acquiritur.  
+      <!--1652-gregPress-MichiganState-gbooks-v1-0405.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="69"/>Ad 3. De angelis. Resp. Proprie descriptio illa 
+      <lb ed="#T" n="70"/>de hominibus praedestinatis, non de augelis 
+      in<lb ed="#T" n="71" break="no"/>telligitur.  
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f00416-Dd1e572">
+               <head xml:id="pdt7y6-f00416-Hd1e574">Articulus 2</head>
+               <head xml:id="pdt7y6-f00416-Hd1e576" type="question-title">An praedestinatio sit de solis hominibus</head>
+               <p xml:id="pdt7y6-f00416-d1e579">
+                  <lb ed="#T" n="72"/>Articvlvs II. 
+      <lb ed="#T" n="73"/>An praedestinatio sit de solis hominibus.
+</p>
+               <p xml:id="pdt7y6-f00416-d1e586">
+                  <lb ed="#T" n="74"/>AD secundum sic proecditur. 1. 
+      Praedestina<lb ed="#T" n="75" break="no"/>tio est propositum miserendi secundum 
+      <lb ed="#T" n="76"/>Augustinum lib. de praedest. Sancto rum: sed hoc 
+      <lb ed="#T" n="77"/>respicit solos homines: ergo &amp; praedestinatio.  
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e597">
+                  <lb ed="#T" n="78"/>2. Praedestinatio est praeparatio gratiae in 
+      prae<lb ed="#T" n="79" break="no"/>senti, &amp; gloriae in futuro: sed hoc conuenit 
+      so<lb ed="#T" n="80" break="no"/>lis hominibus praedestinatis: ergo &amp; praedestinatio. 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e607">
+                  <lb ed="#T" n="81"/>3. Magister supra distinct. 35. Dicit quod 
+      prae<lb ed="#T" n="82" break="no"/>destinatio est de hominibus saluandis: non ergo 
+      <lb ed="#T" n="83"/>de creaturis alijs 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e616">
+                  <lb ed="#T" n="84"/>Contra. 1. Angelis ab aeterno praeparauit Deus 
+      <lb ed="#T" n="85"/>gratiam &amp; gloriam: ergo eos praedestinauit. 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e623">
+                  <lb ed="#T" n="86"/>2. Christus homo quamuis simul habuit 
+      gra<lb ed="#T" n="87" break="no"/>tiam &amp; gloriam, tamen fuit praedestinatus, vt 
+      <lb ed="#T" n="88"/>dicit Apostolus ad Rom. 1. ergo &amp; angeli. 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e632">
+                  <lb ed="#T" n="89"/>3. Dicit Magister, quod praedestinatio est de 
+      <lb ed="#T" n="90"/>bonis salutaribus quibus liberantur homines: 
+      <lb ed="#T" n="91"/>ergo etiam de irrationalibus. 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e641">
+                  <lb ed="#T" n="92"/>4. Dicit Augustinus, quod praedestinatio est 
+      <lb ed="#T" n="93"/>destinatio in sinem: sed destinatio in finem est 
+      <lb ed="#T" n="94"/>de omnibus rebus: ergo &amp; praedestinatio.  
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e650">
+                  <lb ed="#T" n="95"/>5. Dicit Augustinus lib. de praedest, sanctorum, 
+      <lb ed="#T" n="96"/>quod peccatores in malis suis praedestinati non 
+      <lb ed="#T" n="97"/>sunt, sed poena est eis praedestinata: ergo 
+      prae<lb ed="#T" n="98" break="no"/>destinatio est etiam de malis 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e662">
+                  <lb ed="#T" n="99"/>6. Primae Timoth. 2. Qui vult omnes 
+      homi<lb ed="#T" n="100" break="no"/>nes &amp;c. ergo saluandi voluntas in Deo est de 
+      ho<lb ed="#T" n="101" break="no"/>minibus etiam malis: ergo praedestinatio est 
+      <lb ed="#T" n="102"/>etiam de malis 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e673">
+                  <lb ed="#T" n="103"/>Respondeo. Praedestinatio aliquando 
+      accipi<lb ed="#T" n="104" break="no"/>tur large &amp; improprie pro praeparatione 
+      praemi<lb ed="#T" n="105" break="no"/>siue boni siue mali, &amp; sic dicit Augustinus poena 
+      <lb ed="#T" n="106"/>malis praedestinatam: aliquando stricte &amp; 
+      pro<lb ed="#T" n="107" break="no"/>prie pro praeparatione praemij boni, &amp; sic potest 
+      <lb ed="#T" n="108"/>dici de aliquibus, vel aliquorum esse stripliciter: 
+      <lb ed="#T" n="109"/>aut tanquam subjecti quod predestinatur, aut 
+      <lb ed="#T" n="110"/>tanquam medij per quod in finem ducitur, aut 
+      <lb ed="#T" n="111"/>tanquam finis ad quem praedestinatur: primo 
+      <lb ed="#T" n="112"/>modo praedestinatio est tantum de creaturis 
+      ra<lb ed="#T" n="113" break="no"/>tionalibus: secundo modo de bonis quae eis 
+      prae<lb ed="#T" n="114" break="no"/>parantur in praesenti: tertio modo de bonis 
+      fu<lb ed="#T" n="115" break="no"/>turis. De creaturis vero rationalibus est 
+      praede<lb ed="#T" n="116" break="no"/>stinatio secundum differentiam triplicem, nam 
+      <lb ed="#T" n="117"/>nomine praedestinationis importatur antecessio. 
+      <lb ed="#T" n="118"/>aeternitatis ad creaturas: aut ergo notatur 
+      an<lb ed="#T" n="119" break="no"/>tecessio aeternitatis ad naturam, &amp; naturae ad 
+      <lb ed="#T" n="120"/>gratiam, &amp; gratiae ad gloriam: aut aeternitatis 
+      <lb ed="#T" n="121"/>ad naturam, &amp; naturae ad gratiam, sed non 
+      gra<lb ed="#T" n="122" break="no"/>tie ad gloriam: aut aeternitatis ad naturam 
+      tan<lb ed="#T" n="123" break="no"/>tum. Primo modo praedestinatio conuenit 
+      ho<lb ed="#T" n="124" break="no"/>minibus solis; secundo modo angelis, 
+      suppo<lb ed="#T" n="125" break="no"/>sita opinione quae dicit eos creatos sine gratia 
+      <lb ed="#T" n="126"/>gratum faciente; tertio modo soli Christo. 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e728">
+                  <lb ed="#T" n="127"/>Ad ea quae opponuntur quod praedestinatio  
+      <lb ed="#T" n="128"/>sit de solis hominibus. Resp. Illae notificationes 
+      <lb ed="#T" n="129"/>praedestinationis dantur secundum quod est de 
+      <lb ed="#T" n="130"/>solis hominibus: nihilominus tamen sunt aliae 
+      <lb ed="#T" n="131"/>quae conueniunt angelis &amp; Christo, vt illae dua 
+      <lb ed="#T" n="132"/>Aug. Praedestinatio est gratuite donationis: 
+      prae<lb ed="#T" n="133" break="no"/>paratio &amp;, Praedestinatio est destinatio in finem. 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e746">
+                  <lb ed="#T" n="134"/>Ad 1. &amp; 2. In contrarium, de angelis. Resp. Co¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0406.xml-->
+      <pb ed="#T" n="331"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>cedo quod praedestinatio conuenit eis. 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e759">
+                  <lb ed="#T" n="2"/>Ad 3. De bonis salutaribus. Resp. 
+      Praede<lb ed="#T" n="3" break="no"/>stinatio de illis esse dicitur vt de medijs non de 
+      <lb ed="#T" n="4"/>subjecto. 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e768">
+                  <lb ed="#T" n="5"/>Ad 4. Praedestinatio est destinatio in finem. 
+      <lb ed="#T" n="6"/>Resp. Augustinis intelligit de fine beatitudinis 
+      <lb ed="#T" n="7"/>qui est vltimus finis rationalis creaturae, non de 
+      <lb ed="#T" n="8"/>nine cuiuscumque creaturae generaliter 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e780">
+                  <lb ed="#T" n="9"/>Ad 5. De malis. Resp. August. accipit ibi pro 
+      <lb ed="#T" n="10"/>prie predestinationem pro preparatione praemi. 
+      <lb ed="#T" n="11"/>cuiuscumque, siue boni, siue niali¬ 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e789">
+                  <lb ed="#T" n="12"/>Ad 6. Qui vuit omnes homines &amp;c. Resp. 
+      <lb ed="#T" n="13"/>Illud Apoitoli intelligitur de voluntate antece 
+      <lb ed="#T" n="14"/>dente, non consequente quae est voluntas sim 
+      <lb ed="#T" n="15"/>pliciter pradestinatio vero continet in se actum 
+      <lb ed="#T" n="16"/>voluntatis beneplaciti. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f00416-Dd1e803">
+               <head xml:id="pdt7y6-f00416-Hd1e805">Articulus 3</head>
+               <head xml:id="pdt7y6-f00416-Hd1e807" type="question-title">An praedestinatio sit aeterna vel temporalis</head>
+               <p xml:id="pdt7y6-f00416-d1e810">
+                  <lb ed="#T" n="17"/>ARTICVS III. 
+      <lb ed="#T" n="18"/>An praedestinatio sit aeterna vel temporalis.
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e817">
+                  <lb ed="#T" n="19"/>AD tertium articulum sic proceditur. 1. 
+      Pra<lb ed="#T" n="20" break="no"/>destinatio est electio sanctorum ante 
+      mun<lb ed="#T" n="21" break="no"/>di constitutionem, secundum illud Ephes. 1 
+      <lb ed="#T" n="22"/>Esegit nos in ipso ante mundi constitutionem 
+      <lb ed="#T" n="23"/>ergo est ab aeterno.
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e830">
+                  <lb ed="#T" n="24"/>2. Praedestinatio est species diuinae praescientiae 
+      <lb ed="#T" n="25"/>omnis vero Dei praescientia est aeterna: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e838">
+                  <lb ed="#T" n="26"/>3. Secundum Origenem Rom. 1. in glos. prae 
+      <lb ed="#T" n="27"/>destinatur qui non est. ergo est nondum 
+      existen<lb ed="#T" n="28" break="no"/>tium: ergo ante creationem angelorum &amp; 
+      ho<lb ed="#T" n="29" break="no"/>minun. ergo ab aeterno. 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e849">
+                  <lb ed="#T" n="30"/>Contra. 1. Omni actioni respondet passio: ergo 
+      <lb ed="#T" n="31"/>predestinationi actioni respondet praedestinatio 
+      <lb ed="#T" n="32"/>passio: cum ergo simul sint actio &amp; passio, &amp; 
+      <lb ed="#T" n="33"/>praedestinatio passio non possit esse nisi in 
+      creatu<lb ed="#T" n="34" break="no"/>ra, &amp; ita non posat esse aeterna, praedestinatio 
+      <lb ed="#T" n="35"/>actio non est aeterna. 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e865">
+                  <lb ed="#T" n="36"/>2. Praedestinatio importat ordinem 
+      praedesti<lb ed="#T" n="37" break="no"/>nantis ad praedestinatum: aut ergo secundum 
+      <lb ed="#T" n="38"/>esse quod habet in Deo, aut secundum esse quod 
+      <lb ed="#T" n="39"/>habet in proprio genere: sed non secundum esse 
+      <lb ed="#T" n="40"/>quod habet in Deo, quia secundum quod in Deo 
+      <lb ed="#T" n="41"/>est, Deus est, Deus autem praedestinatus dici non 
+      <lb ed="#T" n="42"/>potest: ergo secundum esse quod habet in gene 
+      <lb ed="#T" n="43"/>re proprio: sed illud esse temporale est, non 
+      <lb ed="#T" n="44"/>aeternum: ergo &amp; predestinatio. 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e887">
+                  <lb ed="#T" n="45"/>3. Omnis actus diuinus qui non transit nec 
+      <lb ed="#T" n="46"/>super essentiam, nec super personam, oportet 
+      <lb ed="#T" n="47"/>quod transeat extra super creaturam: sed omnis 
+      <lb ed="#T" n="48"/>talis est temporalis: cum ergo praedestinatio 
+      siu<lb ed="#T" n="49" break="no"/>huiusinodi praedestinatio est temporalis 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e900">
+                  <lb ed="#T" n="50"/>4. Predeftinatio est praeparatio: sed nihil di 
+      <lb ed="#T" n="51"/>citur preparari antequam extra incipiat aliqua 
+      <lb ed="#T" n="52"/>dispositio ad ipsum fieri, &amp; hoc non est nili in 
+      <lb ed="#T" n="53"/>tempore: ergo praedestinatio in tempore est. 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e911">
+                  <lb ed="#T" n="54"/>5. Praedestinatio dicit relationem eterni ad 
+      te<lb ed="#T" n="55" break="no"/>porale: sed omnis relatio ponit aliquid in altero 
+      <lb ed="#T" n="56"/>extremorum vel in vtroque: cum ergo praede 
+      <lb ed="#T" n="57"/>stinatio nil ponat in Deo, oportet quod ponat 
+      <lb ed="#T" n="58"/>in remporali: ergo est temporalis. 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e925">
+                  <lb ed="#T" n="59"/>Respondeo. Praedestinatio de suo intellectu 
+      <lb ed="#T" n="60"/>tria importat: principale significatum, id est 
+      Di<lb ed="#T" n="61" break="no"/>uinam dispositionem: &amp; temporale connotati 
+      <lb ed="#T" n="62"/>vt futuru: &amp; ordinem antecessionis significati ad 
+      <lb ed="#T" n="63"/>connotatum. Quia ergo significatum est aeternum, 
+      <lb ed="#T" n="64"/>&amp; ordo a ternus, &amp; connotatum ab aeterno 
+      <lb ed="#T" n="65"/>est futurum, ideo predestinatio est eterna. 
+      <lb ed="#T" n="66"/>Ad 1. In contrarium. Omni actioni respondet 
+      <lb ed="#T" n="67"/>passio. Resp. Hoc intelligi debet de actione quae 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0406.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="68"/>est actio proprie &amp; secundum rem, vt percussio, 
+      <lb ed="#T" n="69"/>non secundum modum significandi solum, vt  
+      <lb ed="#T" n="70"/>cogitatio: talis vero est praedestinatio cum sit 
+      <lb ed="#T" n="71"/>actio rationis non naturae. 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e960">
+                  <lb ed="#T" n="72"/>Ad 2. De ordine. Resp. Praedestinatio 
+      impor<lb ed="#T" n="73" break="no"/>tat ordinem ad pradestinatum secundum esse 
+      <lb ed="#T" n="74"/>quod habebit in proprio genere in actu, sed in 
+      <lb ed="#T" n="75"/>Deo iam habet illud in potentia: sed non notat 
+      <lb ed="#T" n="76"/>ordinem ad illud esse tanquam praesens, sed  
+      <lb ed="#T" n="77"/>tanquam futurum, sic autem non est Deus 
+      <lb ed="#T" n="78"/>ordo quippe antecessionis non requirit 
+      extre<lb ed="#T" n="79" break="no"/>ma actu, sed ordo rerum permanentium. 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e980">
+                  <lb ed="#T" n="80"/>Ad 3. De actu transcunte extra. Resp. Actum 
+      <lb ed="#T" n="81"/>aliquem transire extra, dupliciter potest 
+      intelli<lb ed="#T" n="82" break="no"/>gi: vel secundum rem, ita quod relinquat 
+      effe<lb ed="#T" n="83" break="no"/>ctum in materia exteriori, vt percussio: vel 
+      se<lb ed="#T" n="84" break="no"/>cundum rationem ita quod relinquat ieu 
+      impor<lb ed="#T" n="85" break="no"/>tet respectum ad materiam exteriorem, &amp; hoc 
+      <lb ed="#T" n="86"/>dupliciter, aut praesentem, vt visio; aut 
+      futu<lb ed="#T" n="87" break="no"/>ram vt preuisio; talis vero actus non oporter 
+      <lb ed="#T" n="88"/>quod sit temporalis. 
+    </p>
+               <p xml:id="pdt7y6-f00416-d1e1002">
+                  <lb ed="#T" n="89"/>Ad 4. De praeparatione. Resp. Est causa quae 
+      <lb ed="#T" n="90"/>non praesupponitmateriam vt Deus, &amp; est quae 
+      <lb ed="#T" n="91"/>praesupponit vt creatura: primae causae 
+      volun<lb ed="#T" n="92" break="no"/>tas sola praeparatio est operis sufficiens, sed non 
+      <lb ed="#T" n="93"/>secundae. 
+      <lb ed="#T" n="94"/>Ad 5. De relatione. Resp Omnis relatio 
+      natu<lb ed="#T" n="95" break="no"/>rae siue rei ponit aliquid in altero extremorum, 
+      <lb ed="#T" n="96"/>sed non omnis relatio rationis vt patet in 
+      prae<lb ed="#T" n="97" break="no"/>tio &amp; appraetiato: praedestinatio vero dicit 
+      rela<lb ed="#T" n="98" break="no"/>tionem relationis 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="54"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e16036"><!-- l1d5q2 -->
+            <head xml:id="pdt7y6-e16036-Hd1e99">Quaestio 2</head>
+            <head xml:id="pdt7y6-e16036-Hd1e101" type="question-title">An essentia sit genita</head>
+            <p xml:id="pdt7y6-e16036-d1e104">
+               <lb ed="#T" n="83"/>QVESTIO II. 
+      <lb ed="#T" n="84"/>AN ESSENTIA SIT GENITA. 
+</p>
+            <p xml:id="pdt7y6-e16036-d1e111">
+               <lb ed="#T" n="85"/>CIrca secundum quaeruntur duo. 
+      <lb ed="#T" n="86"/>Primo, an essentia possit dici genita. 
+      <lb ed="#T" n="87"/>Secundo, an possit dici essentia de essentia 
+    </p>
+            <div xml:id="pdt7y6-e16036-Dd1e120">
+               <head xml:id="pdt7y6-e16036-Hd1e122">Articulus 1</head>
+               <head xml:id="pdt7y6-e16036-Hd1e124" type="question-title">
+  Utrum essentia possit dici genita.
+</head>
+               <p xml:id="pdt7y6-e16036-d1e127">
+                  <lb ed="#T" n="88"/>Articvlvs I. 
+      <lb ed="#T" n="89"/>Vtrum essentia possit dici genita.
+</p>
+               <p xml:id="pdt7y6-e16036-d1e134">
+                  <lb ed="#T" n="90"/>AD Primum sic proceditur. 1. Si essentia 
+      ge<lb ed="#T" n="91" break="no"/>neratur, ergo generanti relatiue opponitur: 
+      <lb ed="#T" n="92"/>ergo de generante non praedicatur.  
+    </p>
+               <p xml:id="pdt7y6-e16036-d1e143">
+                  <lb ed="#T" n="93"/>2. Si essentia generatur, cum generans per 
+      <lb ed="#T" n="94"/>essentiam habeat esse, ergo habet esse per rem a 
+      <lb ed="#T" n="95"/>se genitam, quod est impossibile. 
+    </p>
+               <p xml:id="pdt7y6-e16036-d1e153">
+                  <lb ed="#T" n="96"/>3. Omne quod generatur habet principium 
+      <lb ed="#T" n="97"/>de quo est: sed essetia non habet principium de quo 
+      <lb ed="#T" n="98"/>sit quia per illam Pater est: ergo non generatur.  
+    </p>
+               <p xml:id="pdt7y6-e16036-d1e162">
+                  <lb ed="#T" n="99"/>4. Perfecta generatio est de sua substantia: 
+      <lb ed="#T" n="100"/>sed vna est in Patre &amp; Filio substantia: ergo si 
+      <lb ed="#T" n="101"/>essentia in Filio generatur, eadem res generatur 
+      <lb ed="#T" n="102"/>de seipsa, quod est impossibile. 
+    </p>
+               <p xml:id="pdt7y6-e16036-d1e173">
+                  <lb ed="#T" n="103"/>Contra. 1. Hilarius dicit nil nisi naturam 
+      ha<lb ed="#T" n="104" break="no"/>bet Filius: ergo essentia Filij est nata. 
+    </p>
+               <p xml:id="pdt7y6-e16036-d1e180">
+                  <lb ed="#T" n="105"/>2. Generatio simpliciter terminatun ad 
+      substan<lb ed="#T" n="106" break="no"/>tiam: ergo in generatione simpliciter semper 
+      ge<lb ed="#T" n="107" break="no"/>neratur substantia: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e16036-d1e189">
+                  <lb ed="#T" n="108"/>3. Secundum Philosophum in ad aliquid per 
+      <lb ed="#T" n="109"/>se non est motus: ergo nec generatio: ergo 
+      gene<lb ed="#T" n="110" break="no"/>ratio Diuina non est primo in ad aliquid: ergo 
+      <lb ed="#T" n="111"/>in substantia, quia non sunt ibi nisi haec duo 
+      <lb ed="#T" n="112"/>praedicamenta. 
+    </p>
+               <p xml:id="pdt7y6-e16036-d1e202">
+                  <lb ed="#T" n="113"/>4. Secundum Philosophum, motis nobis 
+      <lb ed="#T" n="114"/>mouentur ea quae in mbis sunt, &amp; corruptis 
+      <lb ed="#T" n="115"/>corrumpuntur: ergo generato Filio gineratur 
+      <lb ed="#T" n="116"/>omne quod in ipso est, 
+    </p>
+               <p xml:id="pdt7y6-e16036-d1e214">
+                  <lb ed="#T" n="117"/>5. Quia homo idem est cum Socrate, qui 
+      go<lb ed="#T" n="118" break="no"/>nerat Socratem, generat hominem: sed multo 
+      <lb ed="#T" n="119"/>magis essentia eadem est cum persona: ergo &amp;c. 
+      <lb ed="#T" n="120"/>Respondeo. quamuis secundum Philosophum 
+      <lb ed="#T" n="121"/>lib. de generat. generatio quaedam terminetur  
+      <lb ed="#T" n="122"/>ad accidens; tamen communis generatio, quae 
+      <lb ed="#T" n="123"/>est generatio simpliciter, terminatur aat 
+      substan<lb ed="#T" n="124" break="no"/>tiam: sed substantia dicitur duobus monis, 
+      scili<lb ed="#T" n="125" break="no"/>cet hypostasis, quae prima substantiae; &amp; 
+      essn<lb ed="#T" n="126" break="no"/>sia, quae secunda appellatur. In creaturis 
+      qui<lb ed="#T" n="127" break="no"/>dem plurificatur effentia secundum hypostasias, 
+      <lb ed="#T" n="128"/>&amp; ideo actus generationis ad vnumque: 
+      termi<lb ed="#T" n="129" break="no"/>natur, quia vtrumque per generationem 
+      proctu<lb ed="#T" n="130" break="no"/>citur: sed in diuinis non; imo manet eadem essen¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0130.xml-->
+      <pb ed="#T" n="55"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>tia in genito, quae in generante: vnde quamuis 
+      <lb ed="#T" n="2"/>persona genita a generante produtatur, tamen 
+      <lb ed="#T" n="3"/>eius essentia, cum sit eadem, non producitura  
+      <lb ed="#T" n="4"/>Hinc est quod generatio humuna ad substantiam 
+      <lb ed="#T" n="5"/>tam singularem, quam commurem terminatur,  
+      <lb ed="#T" n="6"/>sed primo &amp; per se ad singulatem, secundario 
+      <lb ed="#T" n="7"/>&amp; quasi per accidens ad comminem: generatio 
+      <lb ed="#T" n="8"/>vero diuina ad solam substantiam singularem 
+      <lb ed="#T" n="9"/>terminatur: vnde persona sola non essentia 
+      ge<lb ed="#T" n="10" break="no"/>peratur.  
+    </p>
+               <p xml:id="pdt7y6-e16036-d1e275">
+                  <lb ed="#T" n="11"/>Ad 1. In contrarium de Hylario. Resp. 
+      Impro<lb ed="#T" n="12" break="no"/>prie loquitur, &amp; exponendus est, idest, nilnisi. 
+      <lb ed="#T" n="13"/>nascendo acceptum Filius habet.  
+    </p>
+               <p xml:id="pdt7y6-e16036-d1e284">
+                  <lb ed="#T" n="14"/>Ad 2. De generatione simpliciter. Resp. 
+      Gene<lb ed="#T" n="15" break="no"/>ratio diuina terminatur ad substantiam, non quae 
+      <lb ed="#T" n="16"/>est essentia, sed quae est persona. 
+    </p>
+               <p xml:id="pdt7y6-e16036-d1e293">
+                  <lb ed="#T" n="17"/>Aid 3. In ad aliquid &amp;c. Resp. Generatio 
+      ni<lb ed="#T" n="18" break="no"/>uina non terminatur ad relationem, sed ad 
+      <lb ed="#T" n="19"/>hypostasim, in qua est fubstantia. 
+    </p>
+               <p xml:id="pdt7y6-e16036-d1e302">
+                  <lb ed="#T" n="20"/>Ad 4. Motis nobis &amp;c. Resp. Non est simile, 
+      <lb ed="#T" n="21"/>quia in nobis quicquid est, dependet ab esse 
+      no<lb ed="#T" n="22" break="no"/>stro, sed in Filio non quicquid est dependet ab 
+      <lb ed="#T" n="23"/>ipso, cum idem sit in alio, scilicet Patre. 
+    </p>
+               <p xml:id="pdt7y6-e16036-d1e313">
+                  <lb ed="#T" n="24"/>Ad 5. Quia homo idem est cum Socrate Resp. 
+      <lb ed="#T" n="25"/>Idenuitas haec non est tota ratio, sed 
+      multiplica<lb ed="#T" n="26" break="no"/>tio hominis in generante &amp; genito. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e16036-Dd1e324">
+               <head xml:id="pdt7y6-e16036-Hd1e326">Articulus 2</head>
+               <head xml:id="pdt7y6-e16036-Hd1e328" type="question-title">
+  Utrum possit dici essentia de essentia.
+</head>
+               <p xml:id="pdt7y6-e16036-d1e331">
+                  <lb ed="#T" n="27"/>ARTICVLVS II 
+      <lb ed="#T" n="28"/>Vtrum possit dici essentia de essentia.
+    </p>
+               <p xml:id="pdt7y6-e16036-d1e338">
+                  <lb ed="#T" n="29"/>AD secundum sic proceditur. 1. Augustinus 
+      <lb ed="#T" n="30"/>concedit has, sapientia de sapientia, 
+      sub<lb ed="#T" n="31" break="no"/>stantia de substantua, mitura de natura: ergo 
+      essen<lb ed="#T" n="32" break="no"/>tiae d essentia. 
+    </p>
+               <p xml:id="pdt7y6-e16036-d1e349">
+                  <lb ed="#T" n="33"/>2. Symbolum Nicenum dicit, lumen de 
+      lumi<lb ed="#T" n="34" break="no"/>ne: lumen vero est ipsa essentia. 
+    </p>
+               <p xml:id="pdt7y6-e16036-d1e357">
+                  <lb ed="#T" n="35"/>3. Quamuis Deus essentialiter vnus sit, tamen 
+      <lb ed="#T" n="36"/>conuenienter dicitur Deus de Deo: ergo a simili¬ 
+    </p>
+               <p xml:id="pdt7y6-e16036-d1e364">
+                  <lb ed="#T" n="37"/>Conera. 1. Secundum Prisciamem omnes 
+      prae<lb ed="#T" n="38" break="no"/>positiones transitiuae sunt: ergo per hoc 
+      impor<lb ed="#T" n="39" break="no"/>tatur distinctio, vel diuersitas aliqua: sed in 
+      <lb ed="#T" n="40"/>nulla perfoa essentia distinguitur ab essentia: 
+      <lb ed="#T" n="41"/>ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e16036-d1e377">
+                  <lb ed="#T" n="42"/>2. Non potest dici eadem persona de seipsa, 
+      <lb ed="#T" n="43"/>quamuis persona distinguatur, vt Filius de Filio: 
+      <lb ed="#T" n="44"/>ergo nec eadem essentia de seipsa 
+    </p>
+               <p xml:id="pdt7y6-e16036-d1e386">
+                  <lb ed="#T" n="45"/>3. Aut accipitur praepositio haec de 
+      ma<lb ed="#T" n="46" break="no"/>terialiter, aut originaliter, aut ordinaliter: 
+      <lb ed="#T" n="47"/>neutro autem modo verum est, quod essentia 
+      <lb ed="#T" n="48"/>sit de essentia: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e16036-d1e397">
+                  <lb ed="#T" n="49"/>Respondeo Actus, seu propriems personalis 
+      <lb ed="#T" n="50"/>distinctiua, proprie personae distinctae conuenit. 
+      <lb ed="#T" n="51"/>vnde, quia quamo magis accediun aliquid ad 
+      <lb ed="#T" n="52"/>modum significandi distinictum, tamo magit 
+      <lb ed="#T" n="53"/>recedicad supponendum conuenientius pro 
+      per<lb ed="#T" n="54" break="no"/>sonu distucta; idub actus persomalis tanto 
+      com<lb ed="#T" n="55" break="no"/>uenientius ei attribuitur vt proprietas dictincti 
+      <lb ed="#T" n="56"/>ua. Quix ergo persona suli proprio tomine 
+      ma<lb ed="#T" n="57" break="no"/>ximer acecdit, ideo illu conuenientissimo 
+      attri<lb ed="#T" n="58" break="no"/>buium. pest hoc veronmagis ac cedra persona, sutb 
+      <lb ed="#T" n="59"/>nomine communi vt hypostasiu, vnde &amp; illi 
+      fe<lb ed="#T" n="60" break="no"/>cundo gradu conuenienter attribuitur. Post. 
+      <lb ed="#T" n="61"/>hoc vero accedit terminas essentalis abstractus, 
+      <lb ed="#T" n="62"/>qui significat essentia cum aliquo actu, vt poten 
+      <lb ed="#T" n="63"/>tras bonreas &amp; huiusmodi: tequia aectus singul. 
+      <lb ed="#T" n="64"/>rrum fune, iduonon incomtenienter suppomt. 
+      <lb ed="#T" n="65"/>pro persona. Pest hoc ac cedie termnus essentia. 
+      <lb ed="#T" n="66"/>lis abffractus qui significau essentiam cum ad 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0130.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>ditione alicuius modi significandi, qui 
+      conue<lb ed="#T" n="68" break="no"/>nit personae, vt est substantia, quae dicitur a 
+      <lb ed="#T" n="69"/>substando, &amp; hoc etiam potest supponere 
+      pro<lb ed="#T" n="70" break="no"/>persona. Essentia autem quae pure significat 
+      es<lb ed="#T" n="71" break="no"/>sentiam in abstractione fine additione vel 
+      sup<lb ed="#T" n="72" break="no"/>pofitalis actus, vel modi personalis, maxime 
+      di<lb ed="#T" n="73" break="no"/>stat a significatione distinctionis personalis; 
+      <lb ed="#T" n="74"/>deo fine maxima improprietate nungnam. 
+      sup<lb ed="#T" n="75" break="no"/>ponit pro persona. Et ideo quamuis concedatur  
+      <lb ed="#T" n="76"/>cum aliqua proprietate, natura de natura, lus 
+      <lb ed="#T" n="77"/>deluge, substantia de substantia, Deus de Deo; 
+      <lb ed="#T" n="78"/>non tamen conceditur essentia de essentia. 
+      Secun<lb ed="#T" n="79" break="no"/>dum hoc patet triplex differentia nominum; 
+      <lb ed="#T" n="80"/>quaedam enim sunt pure porsonalia, quaedam 
+      <lb ed="#T" n="81"/>pure essennialia, quaedam quasi medio modo se 
+      <lb ed="#T" n="82"/>hubentia vel propter cointellectum supposits, 
+      <lb ed="#T" n="83"/>vt concreta; vel alicuius actus; vel modi, qua 
+      <lb ed="#T" n="84"/>persorae conuenit, vt abstracta, prima proprio 
+      <lb ed="#T" n="85"/>supponunt pro persona, vltima non, sed 
+      pro<lb ed="#T" n="86" break="no"/>sola essentia, mediu se habent medio modo; &amp; 
+      <lb ed="#T" n="87"/>secundum quod magis abcedunt ud. modum 
+      <lb ed="#T" n="88"/>significandi personalem, comionientius 
+      suppo<lb ed="#T" n="89" break="no"/>nont pro persona, secundum iod ad 
+      essenia<lb ed="#T" n="90" break="no"/>lem, minus: proprae: sic ergo ipaten rusponfio 
+      <lb ed="#T" n="91"/>ad argumema. 
+    </p>
+               <p xml:id="pdt7y6-e16036-d1e497">
+                  <lb ed="#T" n="92"/>Ad en quae probant per simiha, quod possia 
+      <lb ed="#T" n="93"/>dici essentia de ossehta. Resp. coniest simile, ve 
+      <lb ed="#T" n="94"/>dictum: est. 
+    </p>
+               <p xml:id="pdt7y6-e16036-d1e507">
+                  <lb ed="#T" n="95"/>Ad ea quae oppomintur n contrarium. Resp. 
+      <lb ed="#T" n="96"/>Concedo, quod non dicitur proprie esfentiae. de 
+      <lb ed="#T" n="97"/>essentia: substantia vero de fubstantia dicitur cum 
+      <lb ed="#T" n="98"/>aliqua impropriutateminori ;nec sequutur quod 
+      <lb ed="#T" n="99"/>idem sit de seipso, quia iusmodi nominae cuu 
+      <lb ed="#T" n="100"/>tulibus praepositiombus distinctinis, quamulis sit 
+      <lb ed="#T" n="101"/>gnificentessentiam, tamen trahuntur ad suppos 
+      <lb ed="#T" n="102"/>nendum pro persoxa. Quuito vero minuu to 
+      <lb ed="#T" n="103"/>presse distinctio significatur per praepositionep, 
+      <lb ed="#T" n="104"/>quam per actus personales, tantommor est 
+      im<lb ed="#T" n="105" break="no"/>proptieras: vnde quamuis alicubi dicatur 
+      essen<lb ed="#T" n="106" break="no"/>tia de essentia, non tamen essentia genita. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

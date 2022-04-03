@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="249"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e75748"><!-- l1d31q2 -->
+            <head xml:id="pdt7y6-e75748-Hd1e99">Quaestio 2</head>
+            <head xml:id="pdt7y6-e75748-Hd1e101" type="question-title">De appropriatis secundum Hilarium</head>
+            <p xml:id="pdt7y6-e75748-d1e104">
+               <lb ed="#T" n="73"/>QVESTIO II. 
+      <lb ed="#T" n="74"/>DE APPROPRIATIS PER 
+      <lb ed="#T" n="75"/>SONARVM DIVINARVM 
+      SECVN<lb ed="#T" n="76" break="no"/>BVM HILARIMM.
+</p>
+            <p xml:id="pdt7y6-e75748-d1e115">
+               <lb ed="#T" n="77"/>CIrca secundum articulum quaeruntur tria. 
+      <lb ed="#T" n="78"/>Primo de appropriato Patris. 
+      <lb ed="#T" n="79"/>Secundo de appropriato Filij 
+      <lb ed="#T" n="80"/>Tertio de appropriato Spiritus sancti. 
+    </p>
+            <div xml:id="pdt7y6-e75748-Dd1e126">
+               <head xml:id="pdt7y6-e75748-Hd1e128">Articulus 1</head>
+               <head xml:id="pdt7y6-e75748-Hd1e130" type="question-title">An aeternitas conuenienter approprietur Patri</head>
+               <p xml:id="pdt7y6-e75748-d1e133">
+                  <lb ed="#T" n="81"/>Articvlvs I. 
+      <lb ed="#T" n="82"/>An aeternitas conuenienter approprietur Patri. 
+    </p>
+               <p xml:id="pdt7y6-e75748-d1e140">
+                  <lb ed="#T" n="83"/>AD primum sic proceditur. 1. Probauit 
+      Au<lb ed="#T" n="84" break="no"/>gustinus supra 9. dist. coenternum esse 
+      Pa<lb ed="#T" n="85" break="no"/>trem Filio: ergo aeque conuenit aeternitas Filio 
+      <lb ed="#T" n="86"/>sicut Patri: ergo ita bene potest appropriari 
+      <lb ed="#T" n="87"/>Filio sicut Patri. 
+    </p>
+               <p xml:id="pdt7y6-e75748-d1e153">
+                  <lb ed="#T" n="88"/>2. Correlatiua sunt simul natura: ergo non 
+      <lb ed="#T" n="89"/>prius est natura Pater quam Filius: sed nec 
+      tem<lb ed="#T" n="90" break="no"/>pore nec dignitate: ergo nullo modo: ergo non 
+      <lb ed="#T" n="91"/>est ratio quare potius approprietur aeternitas 
+      <lb ed="#T" n="92"/>Patri, quam Filio: 
+    </p>
+               <p xml:id="pdt7y6-e75748-d1e167">
+                  <lb ed="#T" n="93"/>Contra. 1. AEternum, vt dicit Dyonisius de 
+      <lb ed="#T" n="94"/>Diuinis nom. est antiquum &amp; inuariabile: sed  
+      <lb ed="#T" n="95"/>antiquuni magis videtur congruere Patri quam 
+      <lb ed="#T" n="96"/>Filio: ergo videtur quod aeternitas magis 
+      de<lb ed="#T" n="97" break="no"/>beat appropriari Patri quam Filio 
+    </p>
+               <p xml:id="pdt7y6-e75748-d1e180">
+                  <lb ed="#T" n="98"/>2. AEternitas dicit carentiam principij &amp; finis: 
+      <lb ed="#T" n="99"/>magis videtur carere principio illud quod caret 
+      <lb ed="#T" n="100"/>principio durationis &amp; originis vt Pater quam 
+      <lb ed="#T" n="101"/>quod altero tantum vt Filius: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e75748-d1e191">
+                  <lb ed="#T" n="102"/>3. Magis assimilatur innascibilitas aeternitati, 
+      <lb ed="#T" n="103"/>quam filiatio, vel processio: ergo magis 
+      conue<lb ed="#T" n="104" break="no"/>nit aeternitas cum proprio Patris quam Filij &amp; 
+      <lb ed="#T" n="105"/>Spiritus sancti: ergo magis debet ei appropriari 
+    </p>
+               <p xml:id="pdt7y6-e75748-d1e202">
+                  <lb ed="#T" n="106"/>Respondeo Appropriatio alicuius attribut. 
+      <lb ed="#T" n="107"/>alicui personae sit propter assimilationem ad 
+      <lb ed="#T" n="108"/>proprium, non propter conuenientiam maiorem: 
+      <lb ed="#T" n="109"/>propria enim non appropriantur, sed nec 
+      com<lb ed="#T" n="110" break="no"/>munia similitudinem ad propria non habentia. 
+      <lb ed="#T" n="111"/>AEternitas quidem quoad conditionem quae est 
+      <lb ed="#T" n="112"/>carere fine, non magis assimilatur proprio vnius 
+      <lb ed="#T" n="113"/>personae quam alterius: sed quoad conditionem 
+      <lb ed="#T" n="114"/>quae est carere principio, magis 
+      assimilaturpro<lb ed="#T" n="115" break="no"/>prio Patris, ipse enim caret principio tam 
+      dura<lb ed="#T" n="116" break="no"/>tionis quam originis: aliae vero duae personae 
+      <lb ed="#T" n="117"/>carent principio durationis, non originis: &amp; 
+      <lb ed="#T" n="118"/>ideo Patri appropriatur.  
+    </p>
+               <p xml:id="pdt7y6-e75748-d1e233">
+                  <lb ed="#T" n="119"/>Ad 1. De couuenientia. Resp. Quamuis aeque 
+      <lb ed="#T" n="120"/>conueniat vtrique aeternitas, tamen quoad 
+      ali<lb ed="#T" n="121" break="no"/>quid magis assimilatur proprio Patris. 
+    </p>
+               <p xml:id="pdt7y6-e75748-d1e242">
+                  <lb ed="#T" n="122"/>Ad 2. Simul sunt natura. Resp. Non ideo 
+      ap<lb ed="#T" n="123" break="no"/>propriatur, quia Pater sit prior Filio, sed quia 
+      <lb ed="#T" n="124"/>Pater non habet principium de quo sit, Filius 
+      <lb ed="#T" n="125"/>autem est de Patre principio.
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e75748-Dd1e255">
+               <head xml:id="pdt7y6-e75748-Hd1e257">Articulus 2</head>
+               <head xml:id="pdt7y6-e75748-Hd1e259" type="question-title">An species conuenienter approprietur Filio</head>
+               <p xml:id="pdt7y6-e75748-d1e262">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0325.xml-->
+                  <pb ed="#T" n="250"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>ARTICVLVS II. 
+      <lb ed="#T" n="2"/>An species conuenienter approprietur Filio.
+    </p>
+               <p xml:id="pdt7y6-e75748-d1e275">
+                  <lb ed="#T" n="3"/>AD secundum sic proceditur. 1. Species &amp; 
+      ge<lb ed="#T" n="4" break="no"/>Anus non sunt in Diuinis, vt ostendit 
+      Au<lb ed="#T" n="5" break="no"/>gustinus supra 10. dist. ergo non appropriatur 
+      <lb ed="#T" n="6"/>alicui personae Diuinae species. 
+    </p>
+               <p xml:id="pdt7y6-e75748-d1e286">
+                  <lb ed="#T" n="7"/>2. Aut Hilarius loquitur de specie naturae 
+      <lb ed="#T" n="8"/>aut de specie cognitionis: sed neutro modo 
+      Fi<lb ed="#T" n="9" break="no"/>lius est species Patris, cum Pater nec sit per 
+      <lb ed="#T" n="10"/>ipsum, nec cognoscat per ipsum: ergo species 
+      <lb ed="#T" n="11"/>non debet appropriari Filio. 
+    </p>
+               <p xml:id="pdt7y6-e75748-d1e300">
+                  <lb ed="#T" n="12"/>3. Aut loquitur de specie substantiali, aut de 
+      <lb ed="#T" n="13"/>accidentali: si de essentiali, illa nulli 
+      appropria<lb ed="#T" n="14" break="no"/>tur sicut nec essentia, quia aequaliter communis 
+      <lb ed="#T" n="15"/>est Patri, &amp; Filio, &amp; Spiritui sancto: si de 
+      acci<lb ed="#T" n="16" break="no"/>dentali, contra, accidens non est in Deo: ergo 
+      <lb ed="#T" n="17"/>species nullo modo debet appropriari Filio: 
+    </p>
+               <p xml:id="pdt7y6-e75748-d1e316">
+                  <lb ed="#T" n="18"/>Contra. 1. De ipso specialiter dicitur quod 
+      <lb ed="#T" n="19"/>est speciosus forma prae filijs hominum: ergo ei 
+      <lb ed="#T" n="20"/>debet appropriari species. 
+    </p>
+               <p xml:id="pdt7y6-e75748-d1e325">
+                  <lb ed="#T" n="21"/>2. Filij proprium est quod est imago: species 
+      <lb ed="#T" n="22"/>autem vno modo idem est quod imago, sicut  
+      <lb ed="#T" n="23"/>species rei in sensu vel intellectu: ergo debet 
+      ap<lb ed="#T" n="24" break="no"/>propriari Filio 
+    </p>
+               <p xml:id="pdt7y6-e75748-d1e336">
+                  <lb ed="#T" n="25"/>Respondeo. Species multipliciter dicitur: vno 
+      <lb ed="#T" n="26"/>modo: forma vniuersalis quae praedicatur de 
+      <lb ed="#T" n="27"/>pluribus: alio modo forma substantialis quae 
+      <lb ed="#T" n="28"/>dat esse alicui: altero modo species rei exterior: 
+      <lb ed="#T" n="29"/>quarto modo, quae est principium 
+      cognitio<lb ed="#T" n="30" break="no"/>nis. Primo &amp; secundomodo non sit 
+      appropria<lb ed="#T" n="31" break="no"/>tio speciei ad Filium: sed tertio &amp; quarto; tertio 
+      <lb ed="#T" n="32"/>modo secundum rationem qua dicitur imago: 
+      <lb ed="#T" n="33"/>quarto modo secundum rationem qua dicitur 
+      <lb ed="#T" n="34"/>verbum. Dicitur enim imago secundum 
+      ratio<lb ed="#T" n="35" break="no"/>nem conuenientiae seu assimilationis quae prima 
+      <lb ed="#T" n="36"/>in ipso intelligitur: verbum, secundum 
+      ratio<lb ed="#T" n="37" break="no"/>nem manifestationis 
+    </p>
+               <p xml:id="pdt7y6-e75748-d1e367">
+                  <lb ed="#T" n="38"/>Ad 1. In Deo non est species vel genus. Resp. 
+      <lb ed="#T" n="39"/>Hoc modo non accipitur hic species. 
+    </p>
+               <p xml:id="pdt7y6-e75748-d1e374">
+                  <lb ed="#T" n="40"/>Ad 2. Aut loquitur de specie naturae aut 
+      co<lb ed="#T" n="41" break="no"/>gnitionis. Resp. De vtraque loquitur, &amp; 
+      vtro<lb ed="#T" n="42" break="no"/>que modo Filius dicitur species Patris prout 
+      <lb ed="#T" n="43"/>nominatiuus construitur cum genitiuo vel e 
+      <lb ed="#T" n="44"/>conuerso, in ratione causae efficientis non 
+      for<lb ed="#T" n="45" break="no"/>nialis. 
+    </p>
+               <p xml:id="pdt7y6-e75748-d1e391">
+                  <lb ed="#T" n="46"/>Ad 3. De specie substantiali. Resp. In Deo 
+      <lb ed="#T" n="47"/>non est species accidentalis, sed substantialis: 
+      <lb ed="#T" n="48"/>&amp; quamuis substantialis in ratione substantiae 
+      <lb ed="#T" n="49"/>vel essentiae nulli approprietur, tamen in 
+      ratio<lb ed="#T" n="50" break="no"/>ne speciei appropriatur, quia essentia esse dicit 
+      <lb ed="#T" n="51"/>absolutum, species esse pulchrum 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e75748-Dd1e408">
+               <head xml:id="pdt7y6-e75748-Hd1e410">Articulus 3</head>
+               <head xml:id="pdt7y6-e75748-Hd1e412" type="question-title">
+  An usus recte approprietur Spiritui sancto
+</head>
+               <p xml:id="pdt7y6-e75748-d1e415">
+                  <lb ed="#T" n="52"/>ARTICVLVS III 
+      <lb ed="#T" n="53"/>An usus recte approprietur Spiritui sancto. 
+    </p>
+               <p xml:id="pdt7y6-e75748-d1e422">
+                  <lb ed="#T" n="54"/>AD tertium articulum sic proceditur. 1. 
+      Spi<lb ed="#T" n="55" break="no"/>ritu sancto fruendum est non vtendum, 
+      <lb ed="#T" n="56"/>ergo vsus non debet ei appropriari. 
+    </p>
+               <p xml:id="pdt7y6-e75748-d1e431">
+                  <lb ed="#T" n="57"/>2. Vti, secundum Augustinmum est Illud 
+      <lb ed="#T" n="58"/>quod in vsu venit referre ad id ubrinendum quo, 
+      <lb ed="#T" n="59"/>fruendum est: sed Spiritui sancto non conuemo 
+      <lb ed="#T" n="60"/>referri ad aliud: ergo nec vti. 
+    </p>
+               <p xml:id="pdt7y6-e75748-d1e443">
+                  <lb ed="#T" n="61"/>3. Vti, secundum Augustinum, est aliquid 
+      <lb ed="#T" n="62"/>assumere in voluntatis facultatem: sed id in 
+      <lb ed="#T" n="63"/>cuius facultate voluntas est, non potest in fa 
+      <lb ed="#T" n="64"/>cult: cam voluntatis assumi: e non conuenit 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0325.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="65"/>ei vti: sed talis est Spiritus sanctus: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e75748-d1e461">
+                  <lb ed="#T" n="66"/>Cotra. 1. Referri omnia in finem per charitatem, 
+      <lb ed="#T" n="67"/>est: ergo cum Spiritus sanctus sit charitas tam 
+      pro<lb ed="#T" n="68" break="no"/>prie quam appropriatem, vti debet ei appropriari. 
+    </p>
+               <p xml:id="pdt7y6-e75748-d1e470">
+                  <lb ed="#T" n="69"/>2. Bonum diuiditur in honestum, vtile, 
+      dele<lb ed="#T" n="70" break="no"/>ctabile: ergo vtile debet appropriari, cui 
+      appro<lb ed="#T" n="71" break="no"/>priatur ratio boni: ergo Spiritui sancto. 
+    </p>
+               <p xml:id="pdt7y6-e75748-d1e479">
+                  <lb ed="#T" n="72"/>Respondeo. Vti dupliciter accipitur: vno 
+      <lb ed="#T" n="73"/>modo large, &amp; sic idem est quod assumere 
+      ali<lb ed="#T" n="74" break="no"/>quid in facultatem voluntatis; &amp; sic cadit in 
+      <lb ed="#T" n="75"/>definitione actus fruendi, prout dicit 
+      Augusti<lb ed="#T" n="76" break="no"/>nus quod frui est vti cum gaudio: alio modo 
+      <lb ed="#T" n="77"/>stricte, &amp; sic idem est quod id quod in vsu venit 
+      <lb ed="#T" n="78"/>referre in finem, sic diuiditur contra frui. Primo 
+      <lb ed="#T" n="79"/>modo persona vna vtitur altera: secundo modo 
+      <lb ed="#T" n="80"/>vtendum creatura tantum: &amp; vtroque modo 
+      <lb ed="#T" n="81"/>appropriatur Spiritui sancto: primo modo 
+      <lb ed="#T" n="82"/>propter processionis modum, quia ipse est amor 
+      <lb ed="#T" n="83"/>Patris &amp; Filij; secundo modo propter effectum 
+      <lb ed="#T" n="84"/>appropriatum, quia vti effectus proprius est 
+      <lb ed="#T" n="85"/>charitatis quae appropriatur ei, 
+    </p>
+               <p xml:id="pdt7y6-e75748-d1e512">
+                  <lb ed="#T" n="86"/>Ad id quod opponitur in contrarium de 
+      des<lb ed="#T" n="87" break="no"/>scriptionibus. Resp. Non appropriatur ei vsus 
+      <lb ed="#T" n="88"/>tanquam subjecto vel materiae, sed tanquam  
+      <lb ed="#T" n="89"/>causae, vel quasi formali respectu personarum 
+      <lb ed="#T" n="90"/>in quantum diligunt se Spiritu sancto; vel quasi 
+      <lb ed="#T" n="91"/>efficienti respectu creaturarum. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

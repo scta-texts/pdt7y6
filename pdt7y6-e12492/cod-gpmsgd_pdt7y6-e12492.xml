@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="42"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e12492"><!-- l1d4prae -->
+            <head xml:id="pdt7y6-e12492-Hd1e99">Praeambulum</head>
+            <head xml:id="pdt7y6-e12492-Hd1e101" type="question-title"/>
+            <p xml:id="pdt7y6-e12492-d1e103">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0117.xml-->
+               <pb ed="#T" n="42"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>
+               <!-- line coord error -->
+               <lb ed="#T" n="2"/>HIC QVAERITVR VTRVM. 
+      <lb ed="#T" n="3"/>Concedendum sit quod Deus se genuent. Distinct. IV. 
+    </p>
+       <!--     <p xml:id="pdt7y6-e12492-d1e121">
+               <lb ed="#T" n="4"/>HIc oritur quaestio satis necessaria: constat enim &amp; irrefragabiliter 
+      ve<lb ed="#T" n="5" break="no"/>E rum est, quod Deus pater genuit silium: Ideo quaeritur vtrum 
+      con<lb ed="#T" n="6" break="no"/>cedendum sit, quod Deus genuit Deum. Si enim Deus genuit Deum, 
+      <lb ed="#T" n="7"/>sD videtur quod aut se Deum, aut alium Deum genuerit. Si vero alium 
+      <lb ed="#T" n="8"/>DDeum genuit, non est tantum vnus Deus. Si autem seipsum Deum 
+      ge<lb ed="#T" n="9" break="no"/>gs nuit, aliqua res seipsam genuit. Ad quod respondentes dicimus, sanc 
+      <lb ed="#T" n="10"/>catholice concedi quod vnus vnum genuit, &amp; quod Deus Deum genuit: quia Deus pater  
+      <lb ed="#T" n="11"/>Deum silium genuit. In symbolo quoque scriptum est, Lumen de lumine, Deum 
+      ve<lb ed="#T" n="12" break="no"/>rum de Deo vero. Quod vero additur. Ergo genuit se Deum, vel alium Deum: neutrum 
+      <lb ed="#T" n="13"/>concedendum esse dicimus. Quod alium Deum non genuit, manifestum est: quia vnus 
+      <lb ed="#T" n="14"/>tantum Deus est. Quod autem seipsum non genuit, ostendit Aug. in 1. lib. de Trinit. 
+      di<lb ed="#T" n="15" break="no"/>cens, qui putant eius potentiae esse Deum, vt seipsum ipse genuerit: eo plus errant, quod 
+      <lb ed="#T" n="16"/>non solum Deus ita non est, sed nec spiritualis, neque corporalis creatura. Nulla enim res 
+      <lb ed="#T" n="17"/>est, quae seipsam gignat vt sit: ideo non est credendum vel dicendum quod Deus genuit se. 
+    </p>
+            <p xml:id="pdt7y6-e12492-d1e154">
+               <lb ed="#T" n="18"/>Alia quaestio de eodem. 
+      <lb ed="#T" n="19"/>Sed adhuc componunt garruti ratiocinatores dicentes. Si Deus Pater genuit Deum, 
+      <lb ed="#T" n="20"/>aut ge nuit Deum qui est Deus Pater, aut Deum, qui non est Deus Pater. Si genuit Deum, 
+      <lb ed="#T" n="21"/>qui non est pater: ergo Deus est, qui non est Deus Pater: non ergo vnus tantum Deus 
+      <lb ed="#T" n="22"/>est. Si vero genuit Deum, qui est Deus Pater: ergo genuit seipsum. Ad quod 
+      responde<lb ed="#T" n="23" break="no"/>mus determinantes istam propositionem, qua sic proponunt. Si Deus Pater genuit Deum, 
+      <lb ed="#T" n="24"/>aut Deum qui est Deus Pater, aut Deum qui non est Deus Pater. Hoc enim sane &amp; 
+      pra<lb ed="#T" n="25" break="no"/>ue intelligi potest: &amp; ideo respondendum est ita. Deus Pater genuit Deum, qui est ipse 
+      <lb ed="#T" n="26"/>Pater: hoc dicimus esse falsum, &amp; concedimus alterum, scilicet, genuit Deum, qui non 
+      <lb ed="#T" n="27"/>est Pater: nec tamen genuit alterum Deum, nec ille qui genitus est, est alius Deus quam 
+      <lb ed="#T" n="28"/>Pater, sed vnus Deus cum Patre. Si vero additur, genuit Deum qui non est Deus Pater: 
+      <lb ed="#T" n="29"/>hic distinguimus, quia dupliciter potest intelligi. Genuit Deum, qui non est Deus Pater,  
+      <lb ed="#T" n="30"/>scilicet, Deum Filium qui Filius non est Pater, qui Deus est: hic sensus verus est. Si vero 
+      <lb ed="#T" n="31"/>intelligatur sic, Genuit Deum, qui non est Deus Pater, id est, hic non est Deus qui Pater  
+      <lb ed="#T" n="32"/>est, hic sensus falsus est. Vnus enim &amp; idem Deus est, Pater, &amp; Filius, &amp; Spiritus sanctus: 
+      <lb ed="#T" n="33"/>&amp; e diuerso, Pater, &amp; Filius, &amp; Spiritus Sanctus vnus est Deus. 
+      <lb ed="#T" n="34"/>Opinio quorundam dicentium tres personas esse vnum Deum, vnam substantiam, sed non e conuerso, 
+      <lb ed="#T" n="35"/>scilicet vnum Deum, vel vnam substantiam esse tres personas.
+    </p>
+            <p xml:id="pdt7y6-e12492-d1e197">
+               <lb ed="#T" n="36"/>Quidam tamen veritatis aduersarij concedunt Patrem &amp; Filium, &amp; Spiritum Sanctum, 
+      <lb ed="#T" n="37"/>sine tres personas, esse vnum Deum, vnam substantiam: sed tamen nolunt concedere, 
+      <lb ed="#T" n="38"/>vnum Deum siue vnam substantiam esse tres personas, dicentes, diuinam substantiam 
+      <lb ed="#T" n="39"/>praedicari de tribus personis: non tres personas de substantia diuina. Fides autem 
+      <lb ed="#T" n="40"/>Cathnolica tenet ac praedicat, &amp; tres personas esse vnum Deum, &amp; vnam 
+      substan<lb ed="#T" n="41" break="no"/>tiam, siue essentiam, siue naturam diuinam: &amp; vnum Deum siue essentiam diuinam 
+      <lb ed="#T" n="42"/>esse tres personas. Unde Aug. in 1. lib. de Trin. ita ait. Recte ipse Deus Trinitas 
+      <lb ed="#T" n="43"/>intelligitur, beatus &amp; solus potens. Ecce quam expresse dixit, ipse Deus Trinitas: vt 
+      <lb ed="#T" n="44"/>ostenderet &amp; ipsum Deum esse Trinitatem, &amp; Trinitatem ipsum Deum. Item in 
+      <lb ed="#T" n="45"/>eodem. In verbis, inquit, illis Apostoli quibus de aduentu Christi agens, dicit: Quem 
+      <lb ed="#T" n="46"/>ostendit beatus &amp; solus potens, Rex regum &amp; dominus dominantium, qui solus habet  
+      <lb ed="#T" n="47"/>immortalitatem &amp;c. Nec Pater proprie nominatus est, nec Filius nec Spiritus Sanctus, sed  
+      <lb ed="#T" n="48"/>beatus &amp; solus potens. 1. vnus &amp; solus Deus verus, qui est ipsa Trinitas. Ecce &amp; hic aperte 
+      <lb ed="#T" n="49"/>dicit vnum solum verum Deum esse ipsam Trinitatem: &amp; si vnus Deus Trinitas est, ergo 
+      <lb ed="#T" n="50"/>vnus Deus est tres personae. Item in li. 5. de Trinit. non tres Deos, sed vnum Deum dicimus 
+      <lb ed="#T" n="51"/>esse ipsam praestantissimam Trinitatem. Item in libro qui dicitur Enchiridion ad 
+      Lauren<lb ed="#T" n="52" break="no"/>tiumc. 9. Satis est Christiano rerum creatarum causam visibilium siue inuisibilium, non 
+      <lb ed="#T" n="53"/>nisi bonitatem credere Creatoris qui est Deus verus &amp; vnus: nullamque esse naturam quae 
+      <lb ed="#T" n="54"/>non aut ipse sit, aut ab ipso, eumque esse Trinitatem, Patrem. [. &amp; Filium, &amp; Spiritum 
+      San<lb ed="#T" n="55" break="no"/>ctum. Item Aug. in sermone de Fide. Credimus vnum Deum vnam esse diuini nominis 
+      <lb ed="#T" n="56"/>Trinitatem. Item in 6. lib. de Trin. Dicimus Deum solum esse ipsam Trinitatem. Ecce &amp; 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0118.xml-\->
+      <pb ed="#T" n="43"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>his &amp; alijs pluribus authoritatibus euidenter ostenditur dicendum esse &amp; credendum, quod 
+      <lb ed="#T" n="2"/>vnus Deus est Trinitas, &amp; vna substantia tres personae: sicut e conuerso Trinitas dicitur 
+      <lb ed="#T" n="3"/>esse vnus Deus, &amp; tres personae dicuntur esse vna substantia. 
+    </p>
+            <p xml:id="pdt7y6-e12492-d1e258">
+               <lb ed="#T" n="4"/>Redit ad praemissam quaestionem, scilicet, an Deus Pater se Deum, an alium Deum genuerit. 
+      <lb ed="#T" n="5"/>Nunc ad praemissam quaestionem reuertamur, vbi quaerebatur an Deus pater genuerit 
+      <lb ed="#T" n="6"/>se Deum, an alium Deum. Ad quod dicimus, neutrum fore concedendum. Dicit tamen 
+      <lb ed="#T" n="7"/>Aug. in epistola ad Maximum, quod Deus Pater se alterum genuit, his verbis: Pater vt 
+      <lb ed="#T" n="8"/>haberet filium de seipso, non minuit seipsum: sed ita genuit de se alterum se, vt totus 
+      ma<lb ed="#T" n="9" break="no"/>neret in se, &amp; esset in filio tantus, quantus &amp; solus. Quod ita intelligi potest, id est, de se 
+      al<lb ed="#T" n="10" break="no"/>terum a se genuit: non vtique alterum Deum, sed alteram personam: vel genuit se 
+      alte<lb ed="#T" n="11" break="no"/>rum, id est, genuit alterum, qui hoc est quod ipse. Nam etsi alius sit Pater quam Filius, non 
+      <lb ed="#T" n="12"/>est tamen aliud quam Filius, sed vnum.
+    </p>-->
+            <p xml:id="pdt7y6-e12492-d1e280">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0118.xml-->
+               <cb ed="#T" n="b"/>
+               <lb ed="#T" n="13" type="fixed=43"/>DIVISIO TEXTVS. 
+      <lb ed="#T" n="14"/>[VTIc oritur quaestio &amp;c. Ostendit a secunda 
+      <lb ed="#T" n="15"/>Tdistinetione vsque huc vnitatem essentiae, 
+      <lb ed="#T" n="16"/>&amp; Trinitatem personarum, hic incipit ostende 
+      <lb ed="#T" n="17"/>re trium Personarum ad inuicem originem, &amp; 
+      <lb ed="#T" n="18"/>distinctionem vsque ad 10. &amp; primo agit de 
+      ge<lb ed="#T" n="19" break="no"/>neratione Filij a Patre vsque ad 10. dist. [Nunc 
+      <lb ed="#T" n="20"/>postquam concternitatem] secundo de processione 
+      <lb ed="#T" n="21"/>Spiritus Sancti ab vtroque a 10. vsque ad 19. In 
+      <lb ed="#T" n="22"/>prima parte agit de quatuor rebus, quae ad 
+      gene<lb ed="#T" n="23" break="no"/>rationis intellectum concurrunt, Primo de 
+      ter<lb ed="#T" n="24" break="no"/>minis generationis dist. hac &amp; sequenti, Secundo 
+      <lb ed="#T" n="25"/>de virtute generationis dist. 6. &amp; 7. Tertio de 
+      <lb ed="#T" n="26"/>natura communicata per actum generandi dist. 8. 
+      <lb ed="#T" n="27"/>Quarto de coeternitate geniti, &amp; genitoris dist. 9. 
+    </p>
+            <p xml:id="pdt7y6-e12492-d1e319">
+               <lb ed="#T" n="28"/>In prima parte inquiritur primo. An essentia 
+      <lb ed="#T" n="29"/>sit vllo modo terminus generationis, &amp; primo 
+      <lb ed="#T" n="30"/>secundum quod habet significari nomine 
+      con<lb ed="#T" n="31" break="no"/>creto dist. hac: secundo secundum quod habet 
+      si<lb ed="#T" n="32" break="no"/>gnificari nomine abstracto dist. sequenti. In 
+      pri<lb ed="#T" n="33" break="no"/>ma parte inquirit, an sit concedendum, quod 
+      <lb ed="#T" n="34"/>Deus genuit Deum: &amp; primo determinat 
+      quae<lb ed="#T" n="35" break="no"/>stionem principalem; secundo opponit &amp; soluit 
+      <lb ed="#T" n="36"/>objectum, sed adliue opponunt. ] Tertio 
+      inciden<lb ed="#T" n="37" break="no"/>ter tangit &amp; reprobat quorundam circa 
+      mate<lb ed="#T" n="38" break="no"/>riam hanc errorem( quidam tamen] Quarto 
+      ex<lb ed="#T" n="39" break="no"/>ponit quandam praemissis superficialiter 
+      contra<lb ed="#T" n="40" break="no"/>riam auctoritatem. [Nunc ad praemissa. 3. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="18"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-ee4965"><!-- l1d2q1 -->
+            <head xml:id="pdt7y6-ee4965-Hd1e99">Quaestio 1</head>
+            <head xml:id="pdt7y6-ee4965-Hd1e101" type="question-title">De unitate essentia</head>
+            <p xml:id="pdt7y6-ee4965-d1e104">
+               <lb ed="#T" n="92"/>QVESTIO PRIMA. 
+      <lb ed="#T" n="93"/>De vnitate Essentia.
+</p>
+            <p xml:id="pdt7y6-ee4965-d1e111">
+               <lb ed="#T" n="94"/>AD euidentiam eorum quae dicuntur hic 
+      <lb ed="#T" n="95"/>quaeruntur duo. 
+      <lb ed="#T" n="96"/>Primo de vnitate essentiae. 
+      <lb ed="#T" n="97"/>Secundo de pluralitate personarum. 
+    </p>
+            <p xml:id="pdt7y6-ee4965-d1e122">
+               <lb ed="#T" n="98"/>Circa 1. quaeruntur tria. 
+      <lb ed="#T" n="99"/>Primo., AnDeus per essentia sit vnus vel plures. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0094.xml-->
+      <pb ed="#T" n="19"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>Secundo an in ipso sit aliqua multitudo 
+      attri<lb ed="#T" n="2" break="no"/>butorum. 
+    </p>
+            <p xml:id="pdt7y6-ee4965-d1e141">
+               <lb ed="#T" n="3"/>Tertio secundum quid accipitur attributorum. 
+      <lb ed="#T" n="4"/>distinctio. 
+    </p>
+            <div xml:id="pdt7y6-ee4965-Dd1e148">
+               <head xml:id="pdt7y6-ee4965-Hd1e150">Articulus 1</head>
+               <head xml:id="pdt7y6-ee4965-Hd1e152" type="quesiton-title">
+        Utrum Deus sit unus per essentiam, vel plures.
+      </head>
+               <p xml:id="pdt7y6-ee4965-d1e155">
+                  <lb ed="#T" n="5"/>Articvlvs I. 
+      <lb ed="#T" n="6"/>vtrum Deus sit unus per essentiam, vel plures.
+</p>
+               <p xml:id="pdt7y6-ee4965-d1e162">
+                  <lb ed="#T" n="7"/>AD primum sic proceditur. 1. Secundum omnes 
+      <lb ed="#T" n="8"/>de Deo recte sentientes Deus est, quo 
+      nihi<lb ed="#T" n="9" break="no"/>melius esse potest, vel cogitari: si essent plures Dij 
+      <lb ed="#T" n="10"/>essentialiter differentes, quolibet eorum aliquid 
+      <lb ed="#T" n="11"/>melius cogitari posset, quia aliquid boni haberet  
+      <lb ed="#T" n="12"/>vnus, quod alteri deesset, quo addito melior esset: 
+      <lb ed="#T" n="13"/>ergo plures esse non possunt, 
+    </p>
+               <p xml:id="pdt7y6-ee4965-d1e180">
+                  <lb ed="#T" n="14"/>2. Omnis natura, quae inuenitur in pluribus 
+      <lb ed="#T" n="15"/>secundum prius &amp; posterius, oportet quod 
+      des<lb ed="#T" n="16" break="no"/>cendat ab vno primo principio, in quo perfecte 
+      <lb ed="#T" n="17"/>habeatur; vnitas enim naturae causatae attestatus 
+      <lb ed="#T" n="18"/>naturae, causae sicut omnis calor reducitur ad vnum 
+      <lb ed="#T" n="19"/>principium calidissimum, scilicet ignem: natura 
+      <lb ed="#T" n="20"/>entis in omnibus secundum prius &amp; posterius 
+      in<lb ed="#T" n="21" break="no"/>uenitur: ergo oportet esse vnum ens primum. 
+      <lb ed="#T" n="22"/>perfectissimu, a quo omnia alia entia habeant esse. 
+    </p>
+               <p xml:id="pdt7y6-ee4965-d1e203">
+                  <lb ed="#T" n="23"/>3. Si sint plures essentialiter Dij, in aliquo 
+      es<lb ed="#T" n="24" break="no"/>sentiali conueniunt, &amp; in aliquo differunt: ergo 
+      <lb ed="#T" n="25"/>essentialiter sunt compositi: ergo indigent altero 
+      <lb ed="#T" n="26"/>componente: ergo esse eorum dependet ab 
+      alte<lb ed="#T" n="27" break="no"/>ro: ergo neuter illorum est primum ens, quod 
+      <lb ed="#T" n="28"/>dicitur Deus. 
+    </p>
+               <p xml:id="pdt7y6-ee4965-d1e219">
+                  <lb ed="#T" n="29"/>4. Diuinitas est simplex forma, qua Deus est 
+      <lb ed="#T" n="30"/>Deus: haec forma autem vel incommunicabilis 
+      <lb ed="#T" n="31"/>est pluribus, &amp; sic non erit nisi vnus Deus: aut 
+      <lb ed="#T" n="32"/>non eadem numero, sed specie, vel genere, ergo 
+      <lb ed="#T" n="33"/>aliquo addito ad esse singulare contrahitur: ergo 
+      <lb ed="#T" n="34"/>componitur alteri: ergo non est simplicissima¬ 
+    </p>
+               <p xml:id="pdt7y6-ee4965-d1e235">
+                  <lb ed="#T" n="35"/>Contra 1. Philosophus lib. de gener. Idem 
+      si<lb ed="#T" n="36" break="no"/>militer se habens natum est omnino facere idem: 
+      <lb ed="#T" n="37"/>vnde secundum Fhilosophum ab vno simplicit 
+      <lb ed="#T" n="38"/>procedit tantum vnum immediate: sed a Deo 
+      <lb ed="#T" n="39"/>procedit multitudo creaturarum: ergo non est 
+      <lb ed="#T" n="40"/>idem &amp; vnum. 
+    </p>
+               <p xml:id="pdt7y6-ee4965-d1e251">
+                  <lb ed="#T" n="41"/>2. Nobilior &amp; perfectior est lux spiritualis, 
+      <lb ed="#T" n="42"/>quam corporalis: sed de nobilitate lucis 
+      corpo<lb ed="#T" n="43" break="no"/>ralis est, quod aliam luce sibi similem de se 
+      mul<lb ed="#T" n="44" break="no"/>tipficando generet: ergo multo magis hoc facit 
+      <lb ed="#T" n="45"/>lux spiritualis, id est essentia diuina, 
+      <lb ed="#T" n="46"/>3. Secundum Philosophum 5. Metaph. 
+      Vnum<lb ed="#T" n="47" break="no"/>quodque tunc perfectum est cum attingit 
+      pro<lb ed="#T" n="48" break="no"/>prium finem, vel cum potest facere aliud sibi 
+      si<lb ed="#T" n="49" break="no"/>mile: sed Deus ab aeterno perfectissimus est: 
+      <lb ed="#T" n="50"/>ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-ee4965-d1e275">
+                  <lb ed="#T" n="51"/>Respondeo. Cum totum esse creatorum a 
+      cau<lb ed="#T" n="52" break="no"/>sa prima descendat, per proprietates creatorum 
+      <lb ed="#T" n="53"/>aliquatenus est deuenite in cognitionem 
+      pro<lb ed="#T" n="54" break="no"/>prietatum primae causae: est autem reperire in 
+      <lb ed="#T" n="55"/>causis multitudinem, ordinem, imperfectionem, 
+      <lb ed="#T" n="56"/>connexionem. Multitudo quidem omnis 
+      secun<lb ed="#T" n="57" break="no"/>dlum Dionysium, ab vnitate trahit, originem: 
+      er<lb ed="#T" n="58" break="no"/>go oportet omnis multitudinis principium esse 
+      <lb ed="#T" n="59"/>vnum aliquid. Item ordo omnis essentialis, cum 
+      <lb ed="#T" n="60"/>habeat prius &amp; posterius, oportet quod habeat  
+      <lb ed="#T" n="61"/>aliquid primum, &amp; aliquid postremum: primum. 
+      <lb ed="#T" n="62"/>vero alicuius ordinis oportet esse vnum. Hanc 
+      <lb ed="#T" n="63"/>rationem tangit Anselmus in Monologio. 
+      <lb ed="#T" n="64"/>Item, secundum Boetium de consolatione, Omne 
+      <lb ed="#T" n="65"/>imperfectum ab aliquo simpliciter perfecto 
+      tra<lb ed="#T" n="66" break="no"/>hit originem: Omne ens creatum est imperfectum, 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0094.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>quia habet de potentia: ergo origo eius aliquid 
+      <lb ed="#T" n="68"/>perfectum est: perfectum vero naturaliter &amp; 
+      sim<lb ed="#T" n="69" break="no"/>pliciter non potest esse nisi vnum, quia si plura 
+      <lb ed="#T" n="70"/>essent essentialiter, aliquid deesset vni, quod 
+      al<lb ed="#T" n="71" break="no"/>terum haberet, &amp; sic neutrum esset perfectum 
+      se<lb ed="#T" n="72" break="no"/>cundum Damascenum. Item omnis diuersorum, 
+      <lb ed="#T" n="73"/>connexio causam suae connexionis, &amp; 
+      conferua<lb ed="#T" n="74" break="no"/>tionis eius habet aliquid vnum: omnia creata 
+      ha<lb ed="#T" n="75" break="no"/>bent connexionem, quia partes sunt vnius mum 
+      <lb ed="#T" n="76"/>di: oportet ergo, quod habeant connexionis 
+      <lb ed="#T" n="77"/>suae vnum principium. Et hanc rationem tangi 
+      <lb ed="#T" n="78"/>Plato dicens, quod ideo mundus est vnus, quia 
+      <lb ed="#T" n="79"/>iuxta vnum exemplar formatus est. Sic ergo ex 
+      <lb ed="#T" n="80"/>his patet vnum solum Deum esse 
+    </p>
+               <p xml:id="pdt7y6-ee4965-d1e347">
+                  <lb ed="#T" n="81"/>Ad 1. In contrarium. Idem similiter &amp;c. Resp. 
+      <lb ed="#T" n="82"/>Intelligitur hoc de agente per necessitatem 
+      natu<lb ed="#T" n="83" break="no"/>rae, non per voluntatem liberam. 
+    </p>
+               <p xml:id="pdt7y6-ee4965-d1e357">
+                  <lb ed="#T" n="84"/>Ad 2. Deluce corporali. Resp. Aliquid est 
+      no<lb ed="#T" n="85" break="no"/>bilitatis in natura inferiori quod non esset in 
+      su<lb ed="#T" n="86" break="no"/>periori; sicut esse furibundum, nobilitatis est in 
+      <lb ed="#T" n="87"/>cane, sed non in homine: sic essentialis 
+      multipli<lb ed="#T" n="88" break="no"/>catio nobilitatis est in creatis, &amp; tamen esset 
+      <lb ed="#T" n="89"/>ignobilitas in causa prima, ratione suae 
+      simplici<lb ed="#T" n="90" break="no"/>tatis &amp; perfectionis 
+    </p>
+               <p xml:id="pdt7y6-ee4965-d1e375">
+                  <lb ed="#T" n="91"/>Ad 3. de perfecto. Resp. Propositio illa non 
+      in<lb ed="#T" n="92" break="no"/>telligitur, nisi in solis generabilibus, &amp; 
+      corrupti<lb ed="#T" n="93" break="no"/>bilibus, alioquin sol &amp; Angelus non essent quid 
+      <lb ed="#T" n="94"/>perfectum in suo genere, quia non possunt 
+      pro<lb ed="#T" n="95" break="no"/>ducere sibi simile. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-ee4965-Dd1e389">
+               <head xml:id="pdt7y6-ee4965-Hd1e391">Articulus 2</head>
+               <head xml:id="pdt7y6-ee4965-Hd1e393" type="quesiton-title">
+    An in Deo sit aliqua multitudo attributorum.
+  </head>
+               <p xml:id="pdt7y6-ee4965-d1e396">
+                  <lb ed="#T" n="96"/>Articvlvs II. 
+      <lb ed="#T" n="97"/>An in Deo sit aliqua multitudo. Attributorum. 
+    </p>
+               <p xml:id="pdt7y6-ee4965-d1e403">
+                  <lb ed="#T" n="98"/>D secundum sic proceditur 1. 
+      Simpli<lb ed="#T" n="99" break="no"/>eius est illud in quo nulla est multitudo rei 
+      <lb ed="#T" n="100"/>vel rationis, quam in quo est: Deus vero 
+      simpli<lb ed="#T" n="101" break="no"/>cissimus est: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-ee4965-d1e414">
+                  <lb ed="#T" n="102"/>2. Boetius de Trinitate, Quocirca id vere vnum, 
+      <lb ed="#T" n="103"/>in quo nullus numerus: Deus vere vnus est: 
+      er<lb ed="#T" n="104" break="no"/>go nullus in eo est numerus rerum vel rationum. 
+    </p>
+               <p xml:id="pdt7y6-ee4965-d1e424">
+                  <lb ed="#T" n="105"/>3. Secundum Augustinum. Omne quod in 
+      <lb ed="#T" n="106"/>Deo est, Deus est: si ergo Deus vnus &amp; idem est 
+      <lb ed="#T" n="107"/>vt probatum est, omne quod in Deo est, vnum 
+      <lb ed="#T" n="108"/>&amp; idem est. 
+    </p>
+               <p xml:id="pdt7y6-ee4965-d1e435">
+                  <lb ed="#T" n="109"/>4. Unius simplicis vnica est actio, ergo vnica 
+      <lb ed="#T" n="110"/>forma, per quam agit: si ergo per attributa, 
+      po<lb ed="#T" n="111" break="no"/>tentiae scilicet, sapientiae, bonitatis, &amp; 
+      huiusmo<lb ed="#T" n="112" break="no"/>di agit, haec non sunt nisi vnica forma 
+    </p>
+               <p xml:id="pdt7y6-ee4965-d1e446">
+                  <lb ed="#T" n="113"/>Contra 1. in mente diuina est pluralitas 
+      idea<lb ed="#T" n="114" break="no"/>rum, &amp; rationum, quia non eadem ratione 
+      con<lb ed="#T" n="115" break="no"/>ditus est homo, qua equus, vt ait Augustinus 
+      <lb ed="#T" n="116"/>Mens autem diuina est essentia Dei: ergo &amp;c. 
+      <lb ed="#T" n="117"/>2. Vt ait Ans. quicquid simpliciter melius est 
+      <lb ed="#T" n="118"/>esse quam non esse, Deo est attribuendum: ergo 
+      <lb ed="#T" n="119"/>in ipso vere est sapientia, bonitas, &amp; huiusmodi 
+      <lb ed="#T" n="120"/>vera ratio bonitatis altera est quam 
+      sapien<lb ed="#T" n="121" break="no"/>tiae: ergo in Deo est pluralitas attributorum. 
+    </p>
+               <p xml:id="pdt7y6-ee4965-d1e468">
+                  <lb ed="#T" n="122"/>3. Esse secundum quid &amp; imperfectum, 
+      origi<lb ed="#T" n="123" break="no"/>natur ab aliquo, quod est simpliciter, &amp; 
+      perfe<lb ed="#T" n="124" break="no"/>ctum: ergo cum in omni creato sit imperfectio: 
+      <lb ed="#T" n="125"/>oportet esse aliquid aliud perfectum simpliciter:  
+      <lb ed="#T" n="126"/>quod sit eius principium: perfectum vero 
+      simpli<lb ed="#T" n="127" break="no"/>citer est, vt ait Philosophus 5. Metaphisicae, in 
+      <lb ed="#T" n="128"/>quo inueniuntur omnes nobilitates repertae in 
+      <lb ed="#T" n="129"/>omnibus generibus, &amp; hoc est Deus, vt ait Com 
+      <lb ed="#T" n="130"/>ergo in ipso est aggregatio omnium nobilitatum. 
+      <lb ed="#T" n="131"/>etgo pluralitas attributorum. 
+    </p>
+               <p xml:id="pdt7y6-ee4965-d1e492">
+                  <lb ed="#T" n="132"/>Respondeo. Omnis perfectio, quae est in caus 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0095.xml-->
+      <pb ed="#T" n="20"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>sato aliquo, in causa prima reperitur perfectiori. 
+      <lb ed="#T" n="2"/>modo, quia secundum modum causae non 
+      cau<lb ed="#T" n="3" break="no"/>sati: omnis perfectio creatae naturae a Deo est 
+      <lb ed="#T" n="4"/>imperfectio vero ex materia, vel ex nihilo: 
+      om<lb ed="#T" n="5" break="no"/>nis ergo perfectio, quae reperitur in creaturis, 
+      ve<lb ed="#T" n="6" break="no"/>rissime est in Deo, sed modo diuino. Quia ergo 
+      <lb ed="#T" n="7"/>omnis perfectio est in Deo verissime, cum alia sit 
+      <lb ed="#T" n="8"/>sapientiae, altera bonitatis verissima ratio, 
+      opor<lb ed="#T" n="9" break="no"/>tet, quod haec attributa in ipso differant ratione: 
+      <lb ed="#T" n="10"/>quia vero modo diuino simplici in ipso Sunt, ideo 
+      <lb ed="#T" n="11"/>sunt idem in re, quia quae in creaturis sunt vt 
+      di<lb ed="#T" n="12" break="no"/>uersa, in Deo sunt vt vnum, eo quod nobilius 
+      <lb ed="#T" n="13"/>sunt in ipso. 
+    </p>
+               <p xml:id="pdt7y6-ee4965-d1e531">
+                  <lb ed="#T" n="14"/>Ad 1. Simplicius est, in quo nulla multitudo 
+      <lb ed="#T" n="15"/>&amp;c. Resp. De multitudine rei verum est, non de 
+      <lb ed="#T" n="16"/>multitudine rationis, imo quanto simplicius 
+      tan<lb ed="#T" n="17" break="no"/>to virtuosius, &amp; tanto habens rationem plurium 
+      <lb ed="#T" n="18"/>perfectionum, vt patet in puncto 
+    </p>
+               <p xml:id="pdt7y6-ee4965-d1e545">
+                  <lb ed="#T" n="19"/>Ad 2. De numero. Resp. huiusmodi differentia 
+      <lb ed="#T" n="20"/>rationis nullum numerum ponit in Deo, quia 
+      <lb ed="#T" n="21"/>fundatur super vnam &amp; eandem rem in ipso. Vel 
+      <lb ed="#T" n="22"/>illud intelligitur de numero rei, qui est numerus 
+      <lb ed="#T" n="23"/>simpliciter, non rationis. 
+    </p>
+               <p xml:id="pdt7y6-ee4965-d1e558">
+                  <lb ed="#T" n="24"/>Ad 3. Omne quod in Deo est &amp;c. Resp. Vnum 
+      <lb ed="#T" n="25"/>&amp; idem est re, sed differens ratione. 
+    </p>
+               <p xml:id="pdt7y6-ee4965-d1e565">
+                  <lb ed="#T" n="26"/>Ad 4. De actione vnica. Resp. Actio vnica est 
+      <lb ed="#T" n="27"/>Dei, cum sit ipsa essentia, vnitate rei no rationis. 
+    </p>
+               <p xml:id="pdt7y6-ee4965-d1e572">
+                  <lb ed="#T" n="28"/>Ad ea quae obijciuntur in cotrarium de ideis 
+      <lb ed="#T" n="29"/>&amp; perfectionibus, &amp; nobilitatibus pluribus. Resp. 
+      <lb ed="#T" n="30"/>Per hoc concluditur pluralitas rationis, non rei, 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-ee4965-Dd1e582">
+               <head xml:id="pdt7y6-ee4965-Hd1e584">Articulus 3</head>
+               <head xml:id="pdt7y6-ee4965-Hd1e586" type="question-title">Secundum quid accipiatur Attributorum distinctio.</head>
+               <p xml:id="pdt7y6-ee4965-d1e589">
+                  <lb ed="#T" n="31"/>Articvlvs III. 
+      <lb ed="#T" n="32"/>Secundum quid accipiatur Attributorum distinctio. 
+    </p>
+               <p xml:id="pdt7y6-ee4965-d1e596">
+                  <lb ed="#T" n="33"/>AD tertium sic proceditur. 1. Dicit 
+      Com<lb ed="#T" n="34" break="no"/>Ament. Metaphysicae 2. loquens de de diuinis 
+      <lb ed="#T" n="35"/>rationibus, quod multiplicitas, quam 
+      praeten<lb ed="#T" n="36" break="no"/>dunt, est in Deo secundum intellectum, &amp; nullo 
+      <lb ed="#T" n="37"/>modo secundum rem: ergo ratio illa, qua 
+      diffe<lb ed="#T" n="38" break="no"/>runt, nihil est in re, sed in intellectu solo. 
+    </p>
+               <p xml:id="pdt7y6-ee4965-d1e612">
+                  <lb ed="#T" n="39"/>2. Si ratio illa esset in re, aut esset essentia, aut 
+      <lb ed="#T" n="40"/>persona, aut notio: si essentia, ergo vnica; si 
+      per<lb ed="#T" n="41" break="no"/>sona, ergo tres tantum; si notio ergo quinque 
+      <lb ed="#T" n="42"/>tantum; quod totum falsum est: cum sit in Deo 
+      <lb ed="#T" n="43"/>maior numerositas Attributorum. 
+    </p>
+               <p xml:id="pdt7y6-ee4965-d1e626">
+                  <lb ed="#T" n="44"/>3. Damascenus dicit quod in Deo sunt omnia 
+      <lb ed="#T" n="45"/>vnum praeter ingenerationem generationem &amp; 
+      <lb ed="#T" n="46"/>processionem: ergo a parte Dei nulla est 
+      diffe<lb ed="#T" n="47" break="no"/>rentia attributorum. 
+    </p>
+               <p xml:id="pdt7y6-ee4965-d1e637">
+                  <lb ed="#T" n="48"/>4. Id quod in se omnibus modis est vnum, non 
+      <lb ed="#T" n="49"/>est radix alicuius multitudinis in se existentis: 
+      <lb ed="#T" n="50"/>essentia diuina vna est omnino: ergo in ipsa non 
+      <lb ed="#T" n="51"/>est ratio multitudinis attributorum. 
+    </p>
+               <p xml:id="pdt7y6-ee4965-d1e648">
+                  <lb ed="#T" n="52"/>Contra 1. Dion. 4. de Diu. Nom. Deus est 
+      <lb ed="#T" n="53"/>perfectus sicut omnia in seipso praehabens: ergo 
+      <lb ed="#T" n="54"/>verissimam rationem habens omnium perfectio. 
+      <lb ed="#T" n="55"/>num: sed sapientiae &amp; bonitatis &amp; huiusmodi non 
+      <lb ed="#T" n="56"/>est eadem ratio ergo &amp;c. 
+      <lb ed="#T" n="57"/>2. Creaturae in nis omnibus imitatur, &amp; 
+      partici<lb ed="#T" n="58" break="no"/>pat essediuinum: ergo haec vere sunt in esse diuino. 
+    </p>
+               <p xml:id="pdt7y6-ee4965-d1e666">
+                  <lb ed="#T" n="59"/>3. Sicut Deus vere est Pater, ita vere sapiens: 
+      <lb ed="#T" n="60"/>sed, quia vere est Pater, non potest dici, quod 
+      <lb ed="#T" n="61"/>ratio propria paternitatis, qua differt a 
+      filiatio<lb ed="#T" n="62" break="no"/>ne, sit in solo intellectu, imo est in Deo: ergo a 
+      <lb ed="#T" n="63"/>imili &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-ee4965-d1e679">
+                  <lb ed="#T" n="64"/>4. Si aequiuoce diceretur sapientia de creata 
+      <lb ed="#T" n="65"/>&amp; increata, nec esset aliquo modo vna secundum 
+      <lb ed="#T" n="66"/>analogiam ratio vtriusque, non duceret sapien¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0095.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>tia creata in cognitionem sapientiae increatae: 
+      <lb ed="#T" n="68"/>similiter nec bonitas duceret in cognitionem 
+      <lb ed="#T" n="69"/>bonitatis Diuinae: ducit autem: ergo aliquo 
+      mo<lb ed="#T" n="70" break="no"/>do vna est ratio vtrobique se cundum analogiam: 
+      <lb ed="#T" n="71"/>ergo vera ratio horum est in Deo: sed veris 
+      ra<lb ed="#T" n="72" break="no"/>tionibus differunt: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-ee4965-d1e705">
+                  <lb ed="#T" n="73"/>5. Cassus est intellectus, cui nihil 
+      respon<lb ed="#T" n="74" break="no"/>det in re: ergo huiusmodi distinctio 
+      attributo<lb ed="#T" n="75" break="no"/>rum cassa esset. 
+    </p>
+               <p xml:id="pdt7y6-ee4965-d1e715">
+                  <lb ed="#T" n="76"/>Respondeo. Ratio proprie dicitur intentio 
+      <lb ed="#T" n="77"/>intellectu perceptibilis, quae per nomen rei 
+      ali<lb ed="#T" n="78" break="no"/>cuius, vel per eius definitionem significatur: 
+      <lb ed="#T" n="79"/>hanc enim necesse est praeconcipi ab intellectu, 
+      <lb ed="#T" n="80"/>a quo nomen imponitur, &amp; postmodum 
+      secun<lb ed="#T" n="81" break="no"/>dum illam nomen imponitur. Huiusmodi vero 
+      <lb ed="#T" n="82"/>conceptio tripliciter sit, aut enim totaliter 
+      fun<lb ed="#T" n="83" break="no"/>datur supra rem, ita quod intellectus rei accipit, 
+      <lb ed="#T" n="84"/>similitudinem, vt ratio hominis; aut totaliter super 
+      <lb ed="#T" n="85"/>intellectum, vt ratio Chimerae, aut partim super 
+      <lb ed="#T" n="86"/>rem, partim super intellectum, vt ratio vniuersalis: 
+      <lb ed="#T" n="87"/>vniuersalis enim naturafundamentum primum 
+      ha<lb ed="#T" n="88" break="no"/>bet super multitudinem, vel similitudinem 
+      essen<lb ed="#T" n="89" break="no"/>tialem indiuiduorum; fundamentum vero 
+      pro<lb ed="#T" n="90" break="no"/>ximum, a quo accipit unitatem, super 
+      intelle<lb ed="#T" n="91" break="no"/>ctum accipientem in pluribus aliquid, vt vnum, 
+      <lb ed="#T" n="92"/>quod tamen secundum rem in illis est 
+      plurifica<lb ed="#T" n="93" break="no"/>tum. Ratio, quae fundatur totaliter super 
+      intel<lb ed="#T" n="94" break="no"/>ectum cassa est; quae vero totaliter super rem, nonn 
+      <lb ed="#T" n="95"/>imiliter nec illa, quae partim fundatur supra rem, 
+      <lb ed="#T" n="96"/>partiim super intellectum. Dico ergo, quod ratio 
+      <lb ed="#T" n="97"/>qua differunt attributa diuina partim fundatur. 
+      <lb ed="#T" n="98"/>superrem, partim super intellectum; super rem 
+      <lb ed="#T" n="99"/>quidem, quia in Deo, cum sit perfectissimus, est 
+      <lb ed="#T" n="100"/>vniuersaliter veritas omnium perfectionum, sed  
+      <lb ed="#T" n="101"/>in ipso est vt vnum per modum simplicem, qui  
+      <lb ed="#T" n="102"/>excedit intelligentiae nostrae modum: super 
+      in<lb ed="#T" n="103" break="no"/>tellectum vero, quia intellectus noster 
+      imperfe<lb ed="#T" n="104" break="no"/>ctus est, &amp; creaturarum speciebus immixtus, in 
+      qui<lb ed="#T" n="105" break="no"/>bus haec sunt diuersa secundum rem: ideo omnes 
+      <lb ed="#T" n="106"/>diuinae perfectionis modos, qui in Deo sunt vnum, 
+      <lb ed="#T" n="107"/>no potest sub vna similitudine apprehendere, sed  
+      <lb ed="#T" n="108"/>sub diuersis, sicut &amp; creaturae diuersimode 
+      parti<lb ed="#T" n="109" break="no"/>cipant esse diuinum: Verbum vero, quod est 
+      per<lb ed="#T" n="110" break="no"/>fecta similitudo, est vnum solum, scilicet Filius. Sic 
+      <lb ed="#T" n="111"/>ergo causatur rationum haec multiplicitas partim 
+      <lb ed="#T" n="112"/>ex re, quod in Deo est vniuersalis perfectio 
+      ve<lb ed="#T" n="113" break="no"/>rissime: partim ex intellectu, qui ea, quae in Deo 
+      <lb ed="#T" n="114"/>sunt vnum non potens accipere sub vna similitudine 
+      <lb ed="#T" n="115"/>&amp; in sua simplicitate, format sibi de vna re 
+      diuer<lb ed="#T" n="116" break="no"/>sitatem conceptionum. Ipsa ergo multitudo 
+      ra<lb ed="#T" n="117" break="no"/>tionum in intellectu est; sed causa verificationis 
+      <lb ed="#T" n="118"/>multitudinis in reipsa: sicut e contrario vnitas 
+      <lb ed="#T" n="119"/>vniuersalis in intellectu est, sed causa 
+      verificatio<lb ed="#T" n="120" break="no"/>nis illius vnitatis in singularibus. 
+    </p>
+               <p xml:id="pdt7y6-ee4965-d1e815">
+                  <lb ed="#T" n="121"/>Ad 1. De Comment. Resp. Non negat, quin 
+      <lb ed="#T" n="122"/>causa verificationis huius multitudinis sit in 
+      <lb ed="#T" n="123"/>Deo, sed non ipsa multitudo. 
+      <lb ed="#T" n="124"/>Ad 2. De ratione. Resp. Ipsa a parte Dei vna 
+      <lb ed="#T" n="125"/>est, scilicet essentia ipsa; a parte intellectus, 
+      <lb ed="#T" n="126"/>multiplicatur ex modo intelligendi, qui tamen 
+      <lb ed="#T" n="127"/>modus intellectus non refertur ad rem, vt in re 
+      <lb ed="#T" n="128"/>ponat multitudinem, quia falsus esset: ponit 
+      ta<lb ed="#T" n="129" break="no"/>men illarum rationum veram quidditatem in 
+      <lb ed="#T" n="130"/>Deo, quae quidditas quidem differt in creatura, 
+      <lb ed="#T" n="131"/>sed non in Deo. 
+    </p>
+               <p xml:id="pdt7y6-ee4965-d1e841">
+                  <lb ed="#T" n="132"/>Ad 3. In Deo sunt vnum praeter 
+      ingeneratio<lb ed="#T" n="133" break="no"/>ne &amp;c. Resp. loquitur de vnitate rei no rationis. 
+    </p>
+               <p xml:id="pdt7y6-ee4965-d1e848">
+                  <lb ed="#T" n="134"/>Ad 4. Quod in se vnum est &amp;c. Resp. sicut ra¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0096.xml-->
+      <pb ed="#T" n="21"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>tio vniuersalis fundatur in intellectu, vt in 
+      subje<lb ed="#T" n="2" break="no"/>cto; in singularibus vero, vt causa suae veritatis: 
+      <lb ed="#T" n="3"/>sic diuersitas rationis, bonitatis, &amp; sapientiae, 
+      di<lb ed="#T" n="4" break="no"/>citur fundari in intellectu nostro, vt in subjecto, 
+      <lb ed="#T" n="5"/>quod praestat fundamentum &amp; causam sui esse, 
+      <lb ed="#T" n="6"/>quia accidens habet esse per subjectum; in Deo 
+      <lb ed="#T" n="7"/>vero sicut in objecto, quod prestat fulcimentum, 
+      <lb ed="#T" n="8"/>&amp; causam suae veritati, quia pluralitati istarum 
+      <lb ed="#T" n="9"/>rationum respondet aliquid in Deo, non quidem 
+      <lb ed="#T" n="10"/>plura sed vnum simpliciter habens in se vim 
+      plu<lb ed="#T" n="11" break="no"/>rium, eo quod habet in se modo simplici 
+      per<lb ed="#T" n="12" break="no"/>fectiones omnium rerum. Primo modo, quod in 
+      <lb ed="#T" n="13"/>se vnum est, non potest esse radix multitudinis 
+      <lb ed="#T" n="14"/>quae scilicet sit in eo realiter, sed altero modo 
+      <lb ed="#T" n="15"/>potest tanquam praestans fulcimentum veritati 
+      <lb ed="#T" n="16"/>intellectus accipientis sub multitudine, quod in 
+      <lb ed="#T" n="17"/>se vnum est: sicut vere accipitur inabstractione 
+      <lb ed="#T" n="18"/>ab intellectu, quod in se est in abstractum; &amp; sic 
+      <lb ed="#T" n="19"/>ne materia assumitur, quod non est a materia 
+      se<lb ed="#T" n="20" break="no"/>paratum. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

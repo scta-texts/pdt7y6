@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="11"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-ee2703"><!-- l1d1q1 -->
+            <head xml:id="pdt7y6-ee2703-Hd1e99">Quaestio 1</head>
+            <head xml:id="pdt7y6-ee2703-Hd1e101" type="question-title">De usu</head>
+            <p xml:id="pdt7y6-ee2703-d1e104">
+               <lb ed="#T" n="34"/>QVESTIO I. 
+      <lb ed="#T" n="35"/>DE VSV.
+</p>
+            <p xml:id="pdt7y6-ee2703-d1e111">
+               <lb ed="#T" n="36"/>VVIc quaeritur primo de vsu, tanquam via. 
+      <lb ed="#T" n="37"/>Secundo de fruitione, tanquam de 
+      termi<lb ed="#T" n="38" break="no"/>no vig¬ 
+    </p>
+            <p xml:id="pdt7y6-ee2703-d1e120">
+               <lb ed="#T" n="39"/>Circa primum quaeruntur tria. 
+      <lb ed="#T" n="40"/>Primo de actu, quid sit vti secundum rem. 
+      <lb ed="#T" n="41"/>Secundo de objecto, quo sit vtendum, 
+      <lb ed="#T" n="42"/>Tertio de subjecto quis scilicet vtatur. 
+    </p>
+            <div xml:id="pdt7y6-ee2703-Dd1e132">
+               <head xml:id="pdt7y6-ee2703-Hd1e134">Articulus 1</head>
+               <head xml:id="pdt7y6-ee2703-Hd1e136" type="question-title">Quid sit uti et cuius potentia</head>
+               <p xml:id="pdt7y6-ee2703-d1e139">
+                  <lb ed="#T" n="43"/>Articvlvs I. 
+      <lb ed="#T" n="44"/>Quid sit vti, &amp; cuius potentia.
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e146">
+                  <lb ed="#T" n="45"/>D primum sic proceditur. 1. Referre 
+      ali<lb ed="#T" n="46" break="no"/>quid ad aliud est ordinare &amp; conferre, quod 
+      <lb ed="#T" n="47"/>est potentiae collatiuae, ergo rationis: sed vti est 
+      <lb ed="#T" n="48"/>referre secundum Augustinum: ergo est actus 
+      ra<lb ed="#T" n="49" break="no"/>tionis. 
+      </p>
+               <p xml:id="pdt7y6-ee2703-d1e159">
+                  <lb ed="#T" n="50"/>2. Secundum Philosophum lib. Ethic. intentio 
+      <lb ed="#T" n="51"/>finis, &amp; ordo rerum quae sunt ad finem, ad 
+      pru<lb ed="#T" n="52" break="no"/>dentiam pertinent: sed prudentia pertinet ad 
+      ra<lb ed="#T" n="53" break="no"/>tionem: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e171">
+                  <lb ed="#T" n="54"/>Contra 1. opposita nata sunt fieri circa idem 
+      <lb ed="#T" n="55"/>ad solam voluntatem pertinet abuti, quia ipsa 
+      <lb ed="#T" n="56"/>sola peccat: ergo &amp; vti. 
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e180">
+                  <lb ed="#T" n="57"/>2. Idem ordinat ad finem, quod consequitur 
+      <lb ed="#T" n="58"/>ipsum finem: sed voluntas consequitur finem, 
+      <lb ed="#T" n="59"/>quia ipsa fruitur: ergo illa ad ipsum ordinat 
+      <lb ed="#T" n="60"/>sed ordinatio est vsus: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e191">
+                  <lb ed="#T" n="61"/>3. Vti secundum Augustinum est assumere ali¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0086.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="62"/>quid in facultatem voluntatis, ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e202">
+                  <lb ed="#T" n="63"/>Contra 1. In omni potentia est relatio sui actu: 
+      <lb ed="#T" n="64"/>in finem: hoc autem est vti, ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e209">
+                  <lb ed="#T" n="65"/>2. Per vsum acquiritur habitus: ergo omnis 
+      <lb ed="#T" n="66"/>potentia, quae potest acquirere habitum, habet 
+      <lb ed="#T" n="67"/>vsum. 
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e218">
+                  <lb ed="#T" n="68"/>Respondeo. Vsus nominat actum potentiae 
+      alicu<lb ed="#T" n="69" break="no"/>ius, &amp; hoc sit quadrupliciter, quia vel nominat 
+      <lb ed="#T" n="70"/>actum simpliciter, vt cum dicitur, cuius vsus 
+      bo<lb ed="#T" n="71" break="no"/>nus est, ipsum quoque bonum est: vel actum 
+      fre<lb ed="#T" n="72" break="no"/>quentatum, nam vsus est actus frequenter a 
+      po<lb ed="#T" n="73" break="no"/>tentia elicitus; &amp; his duobus modis vti est actus 
+      <lb ed="#T" n="74"/>cuiuslibet potentiae: vel actum praedominantem, 
+      <lb ed="#T" n="75"/>dicitur enim manus vti instrumento, &amp; non e 
+      <lb ed="#T" n="76"/>contra; &amp; Rex regno; &amp; seruo Dominus: &amp; 
+      <lb ed="#T" n="77"/>sic est actus voluntatis, quae praedominatur in 
+      <lb ed="#T" n="78"/>viribus animae, vnde August. Vti est 
+      assu<lb ed="#T" n="79" break="no"/>mere aliquid in facultatem voluntatis: vel 
+      <lb ed="#T" n="80"/>actum referentem in finem, sic est etiam actus 
+      <lb ed="#T" n="81"/>voluntatis. Nam ordinari in finem tribus 
+      opera<lb ed="#T" n="82" break="no"/>tionibus contingit, prima per modum dirigentis, 
+      <lb ed="#T" n="83"/>quae pertinet ad rationem: secunda per modum 
+      <lb ed="#T" n="84"/>mouentis &amp; imperantis, quae ad voluntatem: 
+      <lb ed="#T" n="85"/>tertia per modum exequentis, quae ad motiuas 
+      <lb ed="#T" n="86"/>alias, quarum actibus voluntas vtitur. Quia 
+      er<lb ed="#T" n="87" break="no"/>go imperantis &amp; motoris vniuersalis est libere 
+      <lb ed="#T" n="88"/>mouere ad quod vult, sicut dux exercitum: 
+      ho<lb ed="#T" n="89" break="no"/>minis vero motor vniuersalis &amp; imperator 
+      vo<lb ed="#T" n="90" break="no"/>luntas est, quae mouet se, &amp; omnia alia. ideo vti, 
+      <lb ed="#T" n="91"/>quod est in finem mouere, ad voluntatem 
+      perti<lb ed="#T" n="92" break="no"/>net, quae per actum proprium seipsam &amp; alias 
+      <lb ed="#T" n="93"/>in finem mouet; &amp; ipsum mouere se in finem vel 
+      <lb ed="#T" n="94"/>alias, vti est. 
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e280">
+                  <lb ed="#T" n="95"/>Ad 1. Referre vel Ordinare rationis est. Resp. 
+      <lb ed="#T" n="96"/>Ordinare vel referre per modum dirigentis 
+      <lb ed="#T" n="97"/>pertinet ad rationem: sed per modum 
+      inclinan<lb ed="#T" n="98" break="no"/>tis &amp; mouentis ad voluntatem, sicut pondus 
+      or<lb ed="#T" n="99" break="no"/>dinat lapidem ad suum vbi. 
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e293">
+                  <lb ed="#T" n="100"/>Ad 2. de prudentia. Resp. ad ipsam pertinet 
+      <lb ed="#T" n="101"/>per modum dirigentis, non mouentis: Vel si 
+      di<lb ed="#T" n="102" break="no"/>catur, quod etiam per modum mouentis, eo 
+      <lb ed="#T" n="103"/>quod prudentia virtus est in modum naturae: 
+      ta<lb ed="#T" n="104" break="no"/>men dicendum, quod ratio in qua est prudentia. 
+      <lb ed="#T" n="105"/>nominat rationem practicam, quae non est sine 
+      <lb ed="#T" n="106"/>voluntate, non speculatiuam 
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e311">
+                  <lb ed="#T" n="107"/>Ad 1. in contrarium de vsu cuiuslibet 
+      facul<lb ed="#T" n="108" break="no"/>tatis. Resp. Omnis potentia refert actum per 
+      sci<lb ed="#T" n="109" break="no"/>psam naturaliter, sed per voluntatem mouentem 
+      <lb ed="#T" n="110"/>actualiter: sic ut lapis naturaliter fertur deorsum; 
+      <lb ed="#T" n="111"/>sed quod actualiter moueatur, habet a causa 
+      re<lb ed="#T" n="112" break="no"/>mouente prohibens. 
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e327">
+                  <lb ed="#T" n="113"/>Ad 2. De vsu. Resp. aequiuocatur vsus ad actum 
+      <lb ed="#T" n="114"/>frequentatum, &amp; ad actum referentem qui est: 
+      <lb ed="#T" n="115"/>voluntatis formaliter, sicut abuti, quamuis 
+      alia<lb ed="#T" n="116" break="no"/>rum virium possit esse materialiter.  
+    </p>
+            </div>
+            <div xml:id="pdt7y6-ee2703-Dd1e339">
+               <head xml:id="pdt7y6-ee2703-Hd1e341">Articulus 2</head>
+               <head xml:id="pdt7y6-ee2703-Hd1e343" type="question-title">De obiecto usus</head>
+               <p xml:id="pdt7y6-ee2703-d1e346">
+                  <lb ed="#T" n="117"/>Articvlvs II. 
+      <lb ed="#T" n="118"/>De obiecto vsus.
+</p>
+               <p xml:id="pdt7y6-ee2703-d1e353">
+                  <lb ed="#T" n="119"/>CIrca secundum quaeruntur tria 1. An 
+      vten<lb ed="#T" n="120" break="no"/>Cdum sit creatura, vel etiam creatore. 2. vtrum 
+      <lb ed="#T" n="121"/>omni creatura. 3. Vtrum etiam defectu 
+      creatu<lb ed="#T" n="122" break="no"/>re, scilicet malo. 
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e364">
+                  <lb ed="#T" n="123"/>Ad 1. quaest. sic proceditur. Potest Deo seruiri 
+      <lb ed="#T" n="124"/>intuitu mercedis secundum glos. Luc. 15. (
+      quan<lb ed="#T" n="125" break="no"/>ti mercenarij) nec potest seruiri ei, nisi diligen 
+      <lb ed="#T" n="126"/>do: ergo potest diligi intuitu mercedis: ergo pro¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0087.xml-->
+      <pb ed="#T" n="12"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>pter aliquid: hoc autemm est vti¬ 
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e385">
+                  <lb ed="#T" n="2"/>Contrar. vltimus finis non debet referri ad 
+      al<lb ed="#T" n="3" break="no"/>terum finem, quia nihil illo vlterius. 
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e392">
+                  <lb ed="#T" n="4"/>2. Augustinus. Tota &amp; sola peruersitas 
+      ho<lb ed="#T" n="5" break="no"/>minis est, vti fruendis &amp; frui vtendis. 
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e399">
+                  <lb ed="#T" n="6"/>Ad 2. quaest. sic. 1. Omne bonum diligendum: 
+      <lb ed="#T" n="7"/>omne creatum est bonum, Gen. 1. ergo 
+      diligen<lb ed="#T" n="8" break="no"/>dum: non fruendo, ergo vtendo, 
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e408">
+                  <lb ed="#T" n="9"/>2. Omini bono creato contingit abuti vt sole, 
+      <lb ed="#T" n="10"/>&amp; luna idolatrae abutuntur: ergo &amp; vti. 
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e415">
+                  <lb ed="#T" n="11"/>Contra 1. Quod non subjacet voluntati non 
+      <lb ed="#T" n="12"/>potest assumi in facultatem voluntatis: ens 
+      neces<lb ed="#T" n="13" break="no"/>sarium tale est, vt circulus solis: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e424">
+                  <lb ed="#T" n="14"/>2. Multae creaturae sunt, quae nos a fine 
+      impe<lb ed="#T" n="15" break="no"/>diunt potius quam adiuuent, vel 
+      adiminiculen<lb ed="#T" n="16" break="no"/>tur: ergo non sunt vtiles. 
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e434">
+                  <lb ed="#T" n="17"/>Ad 3. Quaest. sic. 1. ad Rom. 8. Diligentibus 
+      <lb ed="#T" n="18"/>Deum oninia cooperantur in bonum[Glos.] 
+      <lb ed="#T" n="19"/>etiam peccata mortalia: sed ijs, quae possunt 
+      coo<lb ed="#T" n="20" break="no"/>perari in bonum, est vtendum 
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e445">
+                  <lb ed="#T" n="21"/>2. Augustinus de doctr. Christiana: Non omne 
+      <lb ed="#T" n="22"/>quo vtimur diligendum est, sicut martyres non 
+      <lb ed="#T" n="23"/>dilexerunt scelus persequentium, quo tamen 
+      be<lb ed="#T" n="24" break="no"/>ne vsi sunt.  
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e456">
+                  <lb ed="#T" n="25"/>3. Augustinus. Vtor oini eo, quod intelligo: 
+      <lb ed="#T" n="26"/>ergo malis. 
+      <lb ed="#T" n="27"/>Contra 1. Augustinus. His, quibus vtendum 
+      <lb ed="#T" n="28"/>est, tendentes ad beatitudinem adiuuamur: sed  
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e467">
+                  <lb ed="#T" n="29"/>malis potius retrahimur: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e472">
+                  <lb ed="#T" n="30"/>2. Quod potest referri in finem bonum, potest 
+      <lb ed="#T" n="31"/>bene fieri: sed mox nominata coniuncta sunt 
+      <lb ed="#T" n="32"/>malo, vt furtum, adulterium, nec possunt bene 
+      <lb ed="#T" n="33"/>fieri: erro &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e483">
+                  <lb ed="#T" n="34"/>Responsco. Sicut in corporalibus ad 
+      consuman<lb ed="#T" n="35" break="no"/>dam domum vtitur artifex securi, &amp; arte, &amp; 
+      la<lb ed="#T" n="36" break="no"/>bore, &amp; lapide, sic in spiritualibus vti aliquo 
+      qua<lb ed="#T" n="37" break="no"/>drupliciter contingit, vel vt instrumento, quo 
+      <lb ed="#T" n="38"/>operamur; sic non omnibus vtendum, sed 
+      poten<lb ed="#T" n="39" break="no"/>tijs, per quas in finem ordinamur: vel vt habitu 
+      <lb ed="#T" n="40"/>quo regulamur, sic non omnibus est vtendum, 
+      <lb ed="#T" n="41"/>quia habitus vitij potius obliquat, quam dirigat: 
+      <lb ed="#T" n="42"/>vel vt actu quo mouemur, sic etiam actibus 
+      de<lb ed="#T" n="43" break="no"/>formibus non est vtendum: vel vt objecto circa 
+      <lb ed="#T" n="44"/>quod inclinamur, sic omnibus, quae possunt in 
+      <lb ed="#T" n="45"/>lacultatem voluntatis assumi cum intentione 
+      re<lb ed="#T" n="46" break="no"/>ferendi in finem, vtendum est: talis non est ipse 
+      <lb ed="#T" n="47"/>sinis, vnde eo fruendum, non vtendum: tale ve 
+      <lb ed="#T" n="48"/>ro est omne aliud a fine; vnde omni tali est 
+      vten<lb ed="#T" n="49" break="no"/>dum. Potest enim aliquid assumi in facultatem 
+      <lb ed="#T" n="50"/>voluntatis quadrupliciter, vel voluntatis 
+      ope<lb ed="#T" n="51" break="no"/>rantis, vt bona nostra: vel approbantis, vt alie 
+      <lb ed="#T" n="52"/>na bona: vel tolerantis, vt mala poenae propriae 
+      <lb ed="#T" n="53"/>&amp; culpae alienae: vel respuentis, vt mala culpae 
+      <lb ed="#T" n="54"/>propriae. 
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e532">
+                  <lb ed="#T" n="55"/>Ad 1. ergo quaest. Resp. quod non vtendum 
+      <lb ed="#T" n="56"/>Deo, sed fruendum. Quod obijcitur de intuitu 
+      <lb ed="#T" n="57"/>mercedis. Resp. est merces aeterna, &amp; temporalis, 
+      <lb ed="#T" n="58"/>Qui seruit Deo propter mercedem aeternam, 
+      ni<lb ed="#T" n="59" break="no"/>hilominus seruit ei propter se, quia merces illa 
+      <lb ed="#T" n="60"/>est ipse, vel in eo fundatur. Propter inercedem 
+      <lb ed="#T" n="61"/>temporalem seruire, potest intelligi dupliciter:  
+      <lb ed="#T" n="62"/>vel vt sit finis principaliter, hoc est peccatum; 
+      <lb ed="#T" n="63"/>vel vt sit ratio inducens, hoc est licitum. 
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e554">
+                  <lb ed="#T" n="64"/>Ad 2. Quest. Resp. omni bono creato est 
+      <lb ed="#T" n="65"/>vtendum vt obiecto, sed non alijs tribus modis. 
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e561">
+                  <lb ed="#T" n="66"/>Ad 1. In contrarium. Quod non subjacet &amp;c. 
+      <lb ed="#T" n="67"/>Resp. Omne creatum, quamuis non subjaceat  
+      <lb ed="#T" n="68"/>voluntati, vt effectus causae, subjacet tamen vt 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0087.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="69"/>objectum potentiae. 
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e577">
+                  <lb ed="#T" n="70"/>Ad 2. De impedimento creaturarum. Resp. 
+      <lb ed="#T" n="71"/>quod impedimentum non est ex natura rerum, 
+      <lb ed="#T" n="72"/>sed vitio abutentis. 
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e586">
+                  <lb ed="#T" n="73"/>Ad. 3. Quaest. Resp. Vtendum est malis, vt 
+      <lb ed="#T" n="74"/>objecto. Sed vti aliquo contingit dupliciter, per 
+      <lb ed="#T" n="75"/>se, vel per accidens: per se vtimur eo, quod 
+      ha<lb ed="#T" n="76" break="no"/>bet in natura propria, vnde ad finem ordinetur.  
+      <lb ed="#T" n="77"/>vt bonum; per accidens eo, quod aliunde 
+      acci<lb ed="#T" n="78" break="no"/>pit ordinabilitatem, scilicet a voluntate 
+      ordinan<lb ed="#T" n="79" break="no"/>tis: vnde non a natura, sed ab anima, vt malum: 
+      <lb ed="#T" n="80"/>primum potest dici simpliciter vtile, secundum 
+      <lb ed="#T" n="81"/>non. 
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e608">
+                  <lb ed="#T" n="82"/>Ad 1. In contrarium. Malis non adiuuamur.  
+      <lb ed="#T" n="83"/>Resp. Augustinus loquitur de vtilibus per se, 
+      <lb ed="#T" n="84"/>non per accidens: vel de ijs inquantum cadum 
+      <lb ed="#T" n="85"/>in vsu: vel de adiutorio siue directe per causam, 
+      <lb ed="#T" n="86"/>siue indirecte per occasionem 
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e622">
+                  <lb ed="#T" n="87"/>Ad 2. Quod obijcitur de actibus, qui non 
+      pos<lb ed="#T" n="88" break="no"/>sunt bene sieri. Resp. Idem concludit, quod non 
+      <lb ed="#T" n="89"/>est eis vtendum vt actu, quo moueamur, scilicet,  
+      <lb ed="#T" n="90"/>formaliter: sed tamen vti possumus, vt objecto, 
+      <lb ed="#T" n="91"/>assumendo in facultatem voluntatis detestantis. 
+      <lb ed="#T" n="92"/>vel tolerantis, quasi materialiter.  
+    </p>
+            </div>
+            <div xml:id="pdt7y6-ee2703-Dd1e639">
+               <head xml:id="pdt7y6-ee2703-Hd1e641">Articulus 3</head>
+               <head xml:id="pdt7y6-ee2703-Hd1e643" type="question-title">De subiecto usus</head>
+               <p xml:id="pdt7y6-ee2703-d1e646">
+                  <lb ed="#T" n="93"/>Articvlvs III. 
+      <lb ed="#T" n="94"/>De subjecto vsus.
+</p>
+               <p xml:id="pdt7y6-ee2703-d1e653">
+                  <lb ed="#T" n="95"/>CIrca tertium quaeritur 1. An Deus vtatur. 
+      <lb ed="#T" n="96"/>Caliquo. 2. An creatura Deo coniuncta per 
+      <lb ed="#T" n="97"/>beatitudinem vtatur.  
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e662">
+                  <lb ed="#T" n="98"/>Ad. 1. Quaest. Sic proceditur 1. Dicitur hic 
+      <lb ed="#T" n="99"/>quod Deus vtitur nobis. 
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e670">
+                  <lb ed="#T" n="100"/>2. Assumit nos in facultatem voluntatis: ergo 
+      <lb ed="#T" n="101"/>vtitur nobis. 
+      <lb ed="#T" n="102"/>Contra. Referre dicit motum referentis: in Deo 
+      <lb ed="#T" n="103"/>non cadit motus: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e681">
+                  <lb ed="#T" n="104"/>2. Qui vtitur aliquo indiget ipso: sed Deus 
+      <lb ed="#T" n="105"/>nullo indiget: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e688">
+                  <lb ed="#T" n="106"/>Ad 2. Quaest. sic. 1. Cessat motus, cum perue¬: 
+      <lb ed="#T" n="107"/>nitur ad terminum: fruitio terminus est, vsus 
+      <lb ed="#T" n="108"/>motus: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e697">
+                  <lb ed="#T" n="109"/>2. Non erunt tunc cogitationes nostrae 
+      volubi<lb ed="#T" n="110" break="no"/>les: sed relatio vnius ad alterum importat 
+      cogi<lb ed="#T" n="111" break="no"/>tationum volubilitatem: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e706">
+                  <lb ed="#T" n="112"/>Contra 1. a Sanctis in patria diligitur 
+      proxi<lb ed="#T" n="113" break="no"/>mus: aut ergo propter se, &amp; sic fruuntur 
+      creatu<lb ed="#T" n="114" break="no"/>ra; aut propter aliud, &amp; sic vtuntur.  
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e715">
+                  <lb ed="#T" n="115"/>2. Perfectio diuinae sruitionis non impedit 
+      <lb ed="#T" n="116"/>quin ipse vtatur hominibus: ergo multo minus 
+      <lb ed="#T" n="117"/>perfectio humanae fruitionis potest impedire 
+      <lb ed="#T" n="118"/>quin homines vtantur hominibus. 
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e727">
+                  <lb ed="#T" n="119"/>Respondeo. Vti, est assumere in facultate 
+      volunta<lb ed="#T" n="120" break="no"/>tis referendo in finem: aut ergo in finem, qui est 
+      <lb ed="#T" n="121"/>aliud a referente, &amp; sic vtitur homo; aut 
+      qui<lb ed="#T" n="122" break="no"/>est idem, &amp; sic vtitur Deus: primo modo differt 
+      <lb ed="#T" n="123"/>referens ab eo, quod refert, &amp; a fine, ad quem 
+      re<lb ed="#T" n="124" break="no"/>fert: vnde est ibi motus in ipso: secundo modo 
+      <lb ed="#T" n="125"/>differt quod refertur, &amp; finis ad quem, sed alia 
+      <lb ed="#T" n="126"/>non differunt: vnde non est motus in referente, 
+      <lb ed="#T" n="127"/>sed in relato: quia non potest esse motus ab eodem 
+      <lb ed="#T" n="128"/>numero per idem in idem: primo modo referre 
+      <lb ed="#T" n="129"/>contingit affectu, secundo modo effectu solum. 
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e753">
+                  <lb ed="#T" n="130"/>Ad 1. In contrarium. Referre dicit motum. 
+      <lb ed="#T" n="131"/>Resp. Referre effectu dicit motum referentis, 
+      <lb ed="#T" n="132"/>sed referre affectu non, sed relati solum. 
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e762">
+                  <lb ed="#T" n="133"/>Ad 2. Resp. Vti, prout est motus, importat  
+      <lb ed="#T" n="134"/>indigentiam, sed alteromodo non. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0088.xml-->
+      <pb ed="#T" n="13"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>Ad 2. Quaest. Resp. Quod vtibilium quaedam 
+      <lb ed="#T" n="2"/>compatiuntur secum fruitionem, vt habitus 
+      vir<lb ed="#T" n="3" break="no"/>tutum perfectarum, &amp; huiusmodi; quaedam non 
+      <lb ed="#T" n="4"/>vt ea quae sunt imperfectionis: primo genere re 
+      <lb ed="#T" n="5"/>rum contingit vti in patria, non secundo. 
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e786">
+                  <lb ed="#T" n="6"/>Ad 1. in contrarium: Cessat motus &amp;c. Resp. 
+      <lb ed="#T" n="7"/>Motus, qui est per distantiam a fine, vel termino: 
+      <lb ed="#T" n="8"/>quando peruenitur ad terminum, cessat: &amp; talis est 
+      <lb ed="#T" n="9"/>motus corporalis, &amp; motus spiritualis 
+      imperfe<lb ed="#T" n="10" break="no"/>ctus: motus vero, qui est per ea, quae contingunt 
+      <lb ed="#T" n="11"/>terminum, qualis est motus spiritualis perfectus, 
+      <lb ed="#T" n="12"/>non cessat tunc. 
+    </p>
+               <p xml:id="pdt7y6-ee2703-d1e804">
+                  <lb ed="#T" n="13"/>Ad 2. De volubilitate &amp;c. Resp. Volubilitas 
+      <lb ed="#T" n="14"/>cogitationis tripliciter potest intelligi, vel per 
+      <lb ed="#T" n="15"/>faccessionem visionis, vel per ordinem 
+      collatio<lb ed="#T" n="16" break="no"/>nis; vel per discursum inquisitionis. Primus, &amp; 
+      <lb ed="#T" n="17"/>secundus modus non opponuntur claritati 
+      co<lb ed="#T" n="18" break="no"/>gnitionis patriae, sed vltimus, &amp; de illo intelligit 
+      <lb ed="#T" n="19"/>Augustinus. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

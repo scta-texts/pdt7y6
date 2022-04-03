@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="47"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e14269"><!-- l1d4q4 -->
+            <head xml:id="pdt7y6-e14269-Hd1e99">Quaestio 4</head>
+            <head xml:id="pdt7y6-e14269-Hd1e101" type="question-title">De natura huius Termini Deus</head>
+            <p xml:id="pdt7y6-e14269-d1e104">
+               <lb ed="#T" n="69"/>QVESTIO IV. 
+      <lb ed="#T" n="70"/>DE NATVRA HVIVS 
+      TER<lb ed="#T" n="71" break="no"/>n INI DEVS. 
+</p>
+            <p xml:id="pdt7y6-e14269-d1e113">
+               <lb ed="#T" n="72"/>CIrca quartum quaeritur.  
+      <lb ed="#T" n="73"/>Primo de suppositione, huius termini 
+      <lb ed="#T" n="74"/>Deus. 
+      <lb ed="#T" n="75"/>Secundo de consignificatione. 
+    </p>
+            <div xml:id="pdt7y6-e14269-Dd1e124">
+               <head xml:id="pdt7y6-e14269-Hd1e126">Articulus 1</head>
+               <head xml:id="pdt7y6-e14269-Hd1e128" type="question-title">
+  De suppositione huius termini Deus.
+</head>
+               <p xml:id="pdt7y6-e14269-d1e131">
+                  <lb ed="#T" n="76"/>Articvlvs I. 
+      <lb ed="#T" n="77"/>De suppositione huius termini Deus. 
+</p>
+               <p xml:id="pdt7y6-e14269-d1e138">
+                  <lb ed="#T" n="78"/>AD primum sic proceditur videtur enim 
+      <lb ed="#T" n="79"/>quod supponat principaliter pro persona. 
+      <lb ed="#T" n="80"/>1. Quia hoc nomen Homo principaliter 
+      suppo<lb ed="#T" n="81" break="no"/>nit pro eo, cui inest humanitas: ergo hoc 
+      no<lb ed="#T" n="82" break="no"/>men Deus pro eo, cui inest Deitas: ergo 
+      pro<lb ed="#T" n="83" break="no"/>persona. 
+    </p>
+               <p xml:id="pdt7y6-e14269-d1e154">
+                  <lb ed="#T" n="84"/>2. Deus significat diuinitatem cocretiue siue in 
+      <lb ed="#T" n="85"/>supposito sed terminus comunis concretus 
+      sup<lb ed="#T" n="86" break="no"/>ponit principaliter pro eo, ad quod 
+      significan<lb ed="#T" n="87" break="no"/>lum imponitur: ergo supponit pro essentium in 
+      <lb ed="#T" n="88"/>supposito: ergo pro persona. 
+    </p>
+               <p xml:id="pdt7y6-e14269-d1e168">
+                  <lb ed="#T" n="89"/>Contra 1. Quia iste terminis, homo, 
+      suppo<lb ed="#T" n="90" break="no"/>nit pro indiuiduis naturae humanae, ideo haec 
+      <lb ed="#T" n="91"/>est falsa, Homo est Socrates, Plato, &amp; Cato. 
+      <lb ed="#T" n="92"/>Ergo cum haec sit vera, Deus est Pater,  &amp; 
+      <lb ed="#T" n="93"/>Filius, &amp; Spiritus Sanctus, non supponit 
+      pro<lb ed="#T" n="94" break="no"/>indiuiduo, id est, pro persona. 
+    </p>
+               <p xml:id="pdt7y6-e14269-d1e184">
+                  <lb ed="#T" n="95"/>2. Terminus coimunis personaliter 
+      suppo<lb ed="#T" n="96" break="no"/>nens, addito hoc termino discretiuo, vnus, 
+      suppo<lb ed="#T" n="97" break="no"/>nit pro vno solo, vt si dicatur vnus homo cua 
+      <lb ed="#T" n="98"/>rit: sed hic terminus Deus addito termino, vnus, 
+      <lb ed="#T" n="99"/>nihilominus supponit pro tribus, quia vera 
+      di<lb ed="#T" n="100" break="no"/>citur vnus Deus est Trinitas: ergo non 
+      sup<lb ed="#T" n="101" break="no"/>ponit personaliter.  
+    </p>
+               <p xml:id="pdt7y6-e14269-d1e202">
+                  <lb ed="#T" n="102"/>Resp. Quidam dixerunt, quod hic terminus 
+      <lb ed="#T" n="103"/>Deus, communis &amp; concretus est significans 
+      <lb ed="#T" n="104"/>essentiam communem pluribus suppositis, ideo 
+      <lb ed="#T" n="105"/>supponit naturaliter pro supposito naturae illius, 
+      <lb ed="#T" n="106"/>accidentaliter &amp; ex adiuncto pro natura: sicut  
+      <lb ed="#T" n="107"/>homo naturaliter pro suppositis naturae 
+      huma<lb ed="#T" n="108" break="no"/>nae, accidentaliter pro natura, communi, vt si 
+      <lb ed="#T" n="109"/>dicatur homo est species: quia tamem in illa 
+      sup<lb ed="#T" n="110" break="no"/>positione ominia supposita vnum sunt; ideo 
+      <lb ed="#T" n="111"/>potest supponere pro vna persona, vel pluribus 
+      <lb ed="#T" n="112"/>simul, quodnon habet terminus, homo cum 
+      <lb ed="#T" n="113"/>ratione diuersarum humanitatum contineat 
+      <lb ed="#T" n="114"/>varia supposita. Sed secundum hoc, cum 
+      dici<lb ed="#T" n="115" break="no"/>tur, creat, quod est actus communis essentiae &amp; 
+      <lb ed="#T" n="116"/>personae, terminus supponit pro persona, quia 
+      <lb ed="#T" n="117"/>non habet per quid determinetur ad 
+      supponen<lb ed="#T" n="118" break="no"/>dum pro essentia: hoc autem salsum est. Ideo 
+      <lb ed="#T" n="119"/>alij dicunt, quod, quia habet naturam 
+      terini<lb ed="#T" n="120" break="no"/>ni discreti, propter formam non 
+      multiplicabi<lb ed="#T" n="121" break="no"/>lem in suppositis, sdeo primo &amp; principaliter  
+      <lb ed="#T" n="122"/>supponit pro illa, quia ab ipsa, &amp; ipsi 
+      concre<lb ed="#T" n="123" break="no"/>tiue significandae imponitur, in termino autem 
+      <lb ed="#T" n="124"/>discreto idem est suppositum &amp; signifieatum: 
+      <lb ed="#T" n="125"/>quia tamen essentia ipsa idem est re cum 
+      perso<lb ed="#T" n="126" break="no"/>na; &amp; per terminum concretum significatur,  
+      <lb ed="#T" n="127"/>vt persosa, ideo, accidentaliter potest 
+      suppp<lb ed="#T" n="128" break="no"/>nere pro persona, quando trabitur aliquo 
+      de<lb ed="#T" n="129" break="no"/>terminantj eius suppositum. Alij vero dicuut, 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0123.xml-->
+      <pb ed="#T" n="48"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>quod cum significet naturam singularem, vt 
+      <lb ed="#T" n="2"/>in supposito, &amp; tamen communem pluribus 
+      <lb ed="#T" n="3"/>suppositis, habet naturam terinimi discreti ex 
+      <lb ed="#T" n="4"/>parte naturae significatae, &amp; naturam 
+      termini<lb ed="#T" n="5" break="no"/>communis ex parte suppositorum naturae: vnde 
+      <lb ed="#T" n="6"/>natualiter potest supponere tam pro persona 
+      <lb ed="#T" n="7"/>quam pro natura: determinata tamen illa 
+      na<lb ed="#T" n="8" break="no"/>turalis suppositio non restringitur vel 
+      retrahi<lb ed="#T" n="9" break="no"/>tur per adiuncta &amp; hoc videtur verius, ita 
+      <lb ed="#T" n="10"/>tamen quod per prius pro natura cui 
+      signifi<lb ed="#T" n="11" break="no"/>candae, &amp; a qua impositum est; ex consequenti 
+      <lb ed="#T" n="12"/>pro persona propter identitatem rei, &amp; 
+      modi<lb ed="#T" n="13" break="no"/>significandi. Sic ergo patet solutio ad objecta: 
+      <lb ed="#T" n="14"/>procedunt enim de termino pure communi. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e14269-Dd1e304">
+               <head xml:id="pdt7y6-e14269-Hd1e306">Articulus 2</head>
+               <head xml:id="pdt7y6-e14269-Hd1e308" type="question-title">
+  De consignificatione huius termini Deus.
+</head>
+               <p xml:id="pdt7y6-e14269-d1e311">
+                  <lb ed="#T" n="15"/>Articvlvs II. 
+      <lb ed="#T" n="16"/>De consignificatione huius termini Deus.
+</p>
+               <p xml:id="pdt7y6-e14269-d1e318">
+                  <lb ed="#T" n="17"/>AD secundum sic proceditur. 1. Quamuis 
+      <lb ed="#T" n="18"/>voces non sint eaedem apud omnes, tamen 
+      <lb ed="#T" n="19"/>intellectus sunt idem: apud Hebraeos Deus 
+      con<lb ed="#T" n="20" break="no"/>significatur sub numero plurali, vt habitum est 
+      <lb ed="#T" n="21"/>supra eodem dist. 2. Ergo apud Latinos 
+      simili<lb ed="#T" n="22" break="no"/>ter potest fieri. 
+    </p>
+               <p xml:id="pdt7y6-e14269-d1e334">
+                  <lb ed="#T" n="23"/>2. Scriptura diuina ponit hoc nomen Deus, 
+      <lb ed="#T" n="24"/>frequenter sub consignificatione plurali, vnde 
+      <lb ed="#T" n="25"/>Psal. Ego dixi Dij estis &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e14269-d1e344">
+                  <lb ed="#T" n="26"/>3. Cum verum supponat congruum, quod 
+      <lb ed="#T" n="27"/>non dicitur congrue, non dicitur vere: sed vere 
+      <lb ed="#T" n="28"/>dicitur, quod non sunt plures Dij: ergo cogrue. 
+    </p>
+               <p xml:id="pdt7y6-e14269-d1e353">
+                  <lb ed="#T" n="29"/>4. Deus est idem, quod habens naturam 
+      di<lb ed="#T" n="30" break="no"/>uinam: sed plures sunt habentes naturam 
+      diui<lb ed="#T" n="31" break="no"/>nam: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e14269-d1e362">
+                  <lb ed="#T" n="32"/>5. Quamuis non sit nisi vnum primum 
+      prin<lb ed="#T" n="33" break="no"/>cipium tamen congruenter dicitur, non sunt,  
+      <lb ed="#T" n="34"/>plura prima principia; &amp; quamuis non sit 
+      nisi<lb ed="#T" n="35" break="no"/>vna phoenix vel sol, tamen congruenter 
+      di<lb ed="#T" n="36" break="no"/>cuntur plures phoenices vel soles: ergo a 
+      simi<lb ed="#T" n="37" break="no"/>li &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e14269-d1e378">
+                  <lb ed="#T" n="38"/>6. Si non potest habere plurale, hoc erit aut 
+      <lb ed="#T" n="39"/>ratione formae, aut ratione suppositi: non 
+      ra<lb ed="#T" n="40" break="no"/>tione formae, quia bene dicitur, tres personae 
+      <lb ed="#T" n="41"/>diuinae; nec ratione suppositi, quia sunt plura 
+      <lb ed="#T" n="42"/>supposita: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e14269-d1e391">
+                  <lb ed="#T" n="43"/>Contra 1. Plurale geminat significatum sui 
+      <lb ed="#T" n="44"/>singularis: sed significatum huius termini, Deus, 
+      <lb ed="#T" n="45"/>non est geminabile: ergo non potest habere 
+      <lb ed="#T" n="46"/>plurale. 
+    </p>
+               <p xml:id="pdt7y6-e14269-d1e402">
+                  <lb ed="#T" n="47"/>2. Magis vel aequaliter est Deo proprium 
+      <lb ed="#T" n="48"/>n omen Dei quam Petro nomen Petri: si ergo 
+      <lb ed="#T" n="49"/>Petrus, nquia proprium nomen est, non potest 
+      <lb ed="#T" n="50"/>habere plurale, multo minus Deus, 
+    </p>
+               <p xml:id="pdt7y6-e14269-d1e414">
+                  <lb ed="#T" n="51"/>3. Cuin Deus sit, quo maius cogitari non 
+      <lb ed="#T" n="52"/>potest, non potest cogitari nisi solus Deus: 
+      <lb ed="#T" n="53"/>ergo nec significari, siue existimari. 
+    </p>
+               <p xml:id="pdt7y6-e14269-d1e423">
+                  <lb ed="#T" n="54"/>Respondeo. Hoc nomen Deus accipitur 
+      tri<lb ed="#T" n="55" break="no"/>pliciter, scilicet nuncupatiue, adoptiue, 
+      natura<lb ed="#T" n="56" break="no"/>liter: quia vel secundum communicationem 
+      <lb ed="#T" n="57"/>solius nominis, vel alicuius proprietatis, vel 
+      <lb ed="#T" n="58"/>naturae: primo &amp; secundo modo potest habere 
+      <lb ed="#T" n="59"/>plurale, tertio modo non: forma enim eius 
+      <lb ed="#T" n="60"/>est omnino immultiplicabilis re &amp; intellectu. 
+      <lb ed="#T" n="61"/>Reperitur quippe forma aliqua multiplex, 
+      po<lb ed="#T" n="62" break="no"/>tentia &amp; actu, vt forma hominis; item 
+      poten<lb ed="#T" n="63" break="no"/>tia sed non actu simul, vt forma phoenicis; 
+      <lb ed="#T" n="64"/>item potentia formae, sed non actu propter 
+      <lb ed="#T" n="65"/>defectum potentiae materialis vt forma Solis; 
+      <lb ed="#T" n="66"/>tem nec potentia nec actu, sed solo intel¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0123.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>lectu, vt forma Chimerae: &amp; quodlibet horum 
+      <lb ed="#T" n="68"/>Grammatice potest habere plurale: sed forma 
+      <lb ed="#T" n="69"/>diuina naturalis nullo horum modorum 
+      mul<lb ed="#T" n="70" break="no"/>siplicabilis est: vnde non potest habere plurale. 
+    </p>
+               <p xml:id="pdt7y6-e14269-d1e467">
+                  <lb ed="#T" n="71"/>Ad 1. In quod obijcitur de Heloim. Resp. 
+      <lb ed="#T" n="72"/>Licet eadem sit res significata apud nos &amp; apud 
+      <lb ed="#T" n="73"/>Hebraeos per hos terminos, Deus &amp; Heloim, 
+      <lb ed="#T" n="74"/>tamen modi significandi differunt: huiusmodi 
+      <lb ed="#T" n="75"/>vero accidentia aut pluralitas &amp; huiusmodi 
+      <lb ed="#T" n="76"/>sequuntur aliquando modos significandi, 
+      signi<lb ed="#T" n="77" break="no"/>ficant enim Hebraei forte cum aliquibus 
+      articu<lb ed="#T" n="78" break="no"/>lis, quos nos non habemus, hoc nomine Heloim 
+      <lb ed="#T" n="79"/>supposita diuina, non essentiam. 
+    </p>
+               <p xml:id="pdt7y6-e14269-d1e489">
+                  <lb ed="#T" n="80"/>Ad 2. Ex Scriptura. Resp. Scriptura vtitur 
+      <lb ed="#T" n="81"/>hoc nomine pluraliter in prima &amp; secunda 
+      signi<lb ed="#T" n="82" break="no"/>ficatione, non in tertia. 
+    </p>
+               <p xml:id="pdt7y6-e14269-d1e498">
+                  <lb ed="#T" n="83"/>Ad 3. De incongruitate. Resp. Duplex est 
+      in<lb ed="#T" n="84" break="no"/>congruitas, vna ex cohaerentia accidentium, 
+      <lb ed="#T" n="85"/>vt vxor Petro; altera ex repugnantia 
+      intel<lb ed="#T" n="86" break="no"/>lectuum, vt vxores Petrorum; prima tollis 
+      <lb ed="#T" n="87"/>veritatem vel falsitatem, quia tollit perfectam 
+      <lb ed="#T" n="88"/>significationem; secunda non tollit falsitatem: 
+      <lb ed="#T" n="89"/>vnde falsitas potest remoueri per negationem, 
+      <lb ed="#T" n="90"/>&amp; magis oportet loqui vere quam Grammatice. 
+      <lb ed="#T" n="91"/>Ad 4. De habente naturam diuinam. Resp. 
+      <lb ed="#T" n="92"/>Quamuis huius dictionis, Deus, &amp; huius 
+      ora<lb ed="#T" n="93" break="no"/>tionis, habens deitatem, eadem sit res 
+      signi<lb ed="#T" n="94" break="no"/>ficata, tamen differt modus significandi: quia 
+      <lb ed="#T" n="95"/>in vno nomine significatur suppositum sub 
+      <lb ed="#T" n="96"/>forma, vnde simul multiplicatur vtrumque: 
+      <lb ed="#T" n="97"/>habens vero significat suppositum: vnde 
+      multi<lb ed="#T" n="98" break="no"/>plicato participio quod significat actum 
+      sup<lb ed="#T" n="99" break="no"/>positi, forma non multiplicatur  
+    </p>
+               <p xml:id="pdt7y6-e14269-d1e537">
+                  <lb ed="#T" n="100"/>Ad 5. De vno principio. Resp. Secus est, quia 
+      <lb ed="#T" n="101"/>ratio principij non repugnat plurificationi de 
+      <lb ed="#T" n="102"/>se, sed ex adiunctione, quia additur primum: 
+      <lb ed="#T" n="103"/>similiter Phoenix aptitudine naturali 
+      multipli<lb ed="#T" n="104" break="no"/>cabilis est, quamuis non actu. Similiter sol 
+      ap<lb ed="#T" n="105" break="no"/>titudine formae, quamuis non materiae, sed  
+      <lb ed="#T" n="106"/>Deus nullo modo. 
+    </p>
+               <p xml:id="pdt7y6-e14269-d1e556">
+                  <lb ed="#T" n="107"/>Ad 6. De ratione formae. Resp. Ratione 
+      for<lb ed="#T" n="108" break="no"/>mae non suppositorum contingit quod non 
+      ha<lb ed="#T" n="109" break="no"/>beat plurale. Quod obijcitur de personis diuinis. 
+      <lb ed="#T" n="110"/>Resp. Secus est de multiplicatione per 
+      principa<lb ed="#T" n="111" break="no"/>lem terminum, &amp; per denominatum seu 
+      sum<lb ed="#T" n="112" break="no"/>ptum, quia ab vno possunt denominari plura, 
+      <lb ed="#T" n="113"/>vt ab Israel omnes Itraelitae: vnde non 
+      multi<lb ed="#T" n="114" break="no"/>plicato principali, potest denominatiuum 
+      mul<lb ed="#T" n="115" break="no"/>tiplicari; quia per multiplicatum principale fit 
+      <lb ed="#T" n="116"/>multiplicatio formae significatae; per 
+      denomi<lb ed="#T" n="117" break="no"/>natiuum non, sed suppositorum 
+      communican<lb ed="#T" n="118" break="no"/>tium formam illam. 
+    </p>
+               <p xml:id="pdt7y6-e14269-d1e585">
+                  <lb ed="#T" n="119"/>EX POSITIOLITTERAE. 
+    </p>
+               <p xml:id="pdt7y6-e14269-d1e590">
+                  <lb ed="#T" n="120"/>Eus de Deo, lumen de lumine.] Contra 
+      <lb ed="#T" n="121"/>D Praepositio, De, importat transitionem: 
+      <lb ed="#T" n="122"/>ergo diuersitatem. Resp. Sufficit ei diuersitas 
+      <lb ed="#T" n="123"/>suppositi sine diuersitate naturae: non enim 
+      po<lb ed="#T" n="124" break="no"/>nit diuersitatem, aut transitionem circa formam 
+      <lb ed="#T" n="125"/>termini, cum non sit eius adiectiuum, sed 
+      exer<lb ed="#T" n="126" break="no"/>cet eam circa supposita. 
+    </p>
+               <p xml:id="pdt7y6-e14269-d1e608">
+                  <lb ed="#T" n="127"/>Qui non est ipse Pater] Contra Deus 
+      <lb ed="#T" n="128"/>est Pater. Resp. Intelligit secundum quod 
+      <lb ed="#T" n="129"/>hoc pronomen, Qui, facit relationem 
+      <lb ed="#T" n="130"/>personalem ad suppositum formae 
+      significa<lb ed="#T" n="131" break="no"/>rae per hunc terminum, Deus, in 
+      accusati<lb ed="#T" n="132" break="no"/>uo, non secundum quod facit supposimonem 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0124.xml-->
+      <pb ed="#T" n="49"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>simplicem ad formam suppositi. 
+    </p>
+               <p xml:id="pdt7y6-e14269-d1e632">
+                  <lb ed="#T" n="2"/>[Qui est Deus Pater Hanc Magister distinguit: 
+      <lb ed="#T" n="3"/>praesupposita quippe distinctione praecedenti in 
+      <lb ed="#T" n="4"/>sensu quo facit suppositionem personalem, 
+      sub<lb ed="#T" n="5" break="no"/>distinguendum est, quado additur Deus Pater, quia, 
+      <lb ed="#T" n="6"/>cum sit appositiua constructio, vel Iy Deus, 
+      appo<lb ed="#T" n="7" break="no"/>nitur Patri, &amp; sic est falsa; vel &amp; couerso, &amp; sic vera. 
+    </p>
+               <p xml:id="pdt7y6-e14269-d1e648">
+                  <lb ed="#T" n="8"/>[Quidam tamen) Qui fuerunt hi, &amp; quae 
+      <lb ed="#T" n="9"/>fuit eorum ratio? Hi dicuntur fuisse 
+      Porretani<lb ed="#T" n="10" break="no"/>discipuli Gilberti. Ratio eorum fuit, quia cum 
+      <lb ed="#T" n="11"/>in subjecto sit locus materiae, in praedicato locus 
+      <lb ed="#T" n="12"/>formae, hic terminus Deus in subjecto stat 
+      pro<lb ed="#T" n="13" break="no"/>supposito, &amp; cum pro nullo supposito possit,  
+      <lb ed="#T" n="14"/>verificari, dicebant hanc propositionem, in qua 
+      <lb ed="#T" n="15"/>de Deo praedicatur Trinitas, esse falsam, in 
+      <lb ed="#T" n="16"/>praedicato vero stat pro natura communi. Sed  
+      <lb ed="#T" n="17"/>ratio eorum nulla est, quia cum habeat naturam 
+      <lb ed="#T" n="18"/>non termini communis, sed discreti, suppone¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0124.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="19"/>re potest tam pro persona, quam pro natura, 
+      si<lb ed="#T" n="20" break="no"/>ue a parte praedicati, siue a parte subjecti. 
+      <lb ed="#T" n="21"/>[Non minuit seipsum) Cotra illo genito non 
+      <lb ed="#T" n="22"/>potest amplius generare. Resp. AIterum generare 
+      <lb ed="#T" n="23"/>non esse de perfectione personae, quia sequeretur. 
+      <lb ed="#T" n="24"/>diuisio essentiae cum no posset distingui 
+      genera<lb ed="#T" n="25" break="no"/>tione secundus Filius a Patre, quia illa esset 
+      pro<lb ed="#T" n="26" break="no"/>prie tas distinctiua primi Filij. 
+    </p>
+               <p xml:id="pdt7y6-e14269-d1e697">
+                  <lb ed="#T" n="27"/>[Alterum se.] Quaeritur quid conuenientius 
+      <lb ed="#T" n="28"/>dicaturian alterum vel alium? Videtur quod, alterum, 
+      <lb ed="#T" n="29"/>quia minor, scilicet accidentalis, per hoc 
+      differe<lb ed="#T" n="30" break="no"/>tia importatur: e contra videtur quod, alium, quia 
+      <lb ed="#T" n="31"/>supposito distinguntur: suppositum vero 
+      substan<lb ed="#T" n="32" break="no"/>tia est. Resp. Respiciendo ad suppositorum 
+      distin<lb ed="#T" n="33" break="no"/>ctionem conuenientius dicitur, alium; 
+      respi<lb ed="#T" n="34" break="no"/>ciendo ad distinctionem proprietatum, 
+      conue<lb ed="#T" n="35" break="no"/>nientius alterum dicitur.  
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

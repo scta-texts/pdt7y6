@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="94"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e28731"><!-- l1d10q3 -->
+            <head xml:id="pdt7y6-e28731-Hd1e99">Quaestio 3</head>
+            <head xml:id="pdt7y6-e28731-Hd1e101" type="question-title">De communitate nominis Spiritus Sancti</head>
+            <p xml:id="pdt7y6-e28731-d1e104">
+               <lb ed="#T" n="105"/>QVESTIO III. 
+      <lb ed="#T" n="106"/>DE COMMVNITATE 
+  NOMI<lb ed="#T" n="107" break="no"/>NIS SPIRITVS SANCTI.
+</p>
+            <p xml:id="pdt7y6-e28731-d1e113">
+               <lb ed="#T" n="108"/>Irca tertium duo quaeruntur.  
+      <lb ed="#T" n="109"/>Primo an sit unio vel nexus communis 
+      <lb ed="#T" n="110"/>Patris &amp; Filij. 
+      <lb ed="#T" n="111"/>Secundo de nomine quod habet commune 
+      <lb ed="#T" n="112"/>Patri &amp; Filio. 
+    </p>
+            <div xml:id="pdt7y6-e28731-Dd1e126">
+               <head xml:id="pdt7y6-e28731-Hd1e128">Articulus 1</head>
+               <head xml:id="pdt7y6-e28731-Hd1e130" type="question-title">
+  An Spiritus sanctus sit unio vel nexus Patris et Filii.
+</head>
+               <p xml:id="pdt7y6-e28731-d1e133">
+                  <lb ed="#T" n="113"/>Articvlvs I. 
+      <lb ed="#T" n="114"/>An Spiritus sanctus sit unio vel nexus Patris 
+      <lb ed="#T" n="115"/>&amp; Filij. 
+</p>
+               <p xml:id="pdt7y6-e28731-d1e142">
+                  <lb ed="#T" n="116"/>AD primum sic proceditur. 1. Quod ab 
+      ali<lb ed="#T" n="117" break="no"/>quibus discretum est &amp; distinctum, non est 
+      <lb ed="#T" n="118"/>vnitiuus illorum; Spiritus Sanctus a Patre &amp; 
+      <lb ed="#T" n="119"/>Filio discretus est, &amp; distinctus: ergo non est 
+      <lb ed="#T" n="120"/>vnitidus illorum.
+      </p>
+               <p xml:id="pdt7y6-e28731-d1e155">
+                  <lb ed="#T" n="121"/>2. Unio vel nexus habet rationem medij 
+      re<lb ed="#T" n="122" break="no"/>spectu illorum quae vniuntur vel connectunturm. 
+      <lb ed="#T" n="123"/>sed Spiritus sanctus in Trinitate non habet 
+      ra<lb ed="#T" n="124" break="no"/>tionem mediae personae, imo Filius: ergo non 
+      <lb ed="#T" n="125"/>est vnio vel nexus. 
+    </p>
+               <p xml:id="pdt7y6-e28731-d1e169">
+                  <lb ed="#T" n="126"/>3. Vnio vel nexus quo aliqua nectuntur siue, 
+      <lb ed="#T" n="127"/>effectiue siue formaliter, habet rationem causae 
+      <lb ed="#T" n="128"/>vel principij: Spiritus sanctus respectu Patris. 
+      <lb ed="#T" n="129"/>&amp; Filij non habet rationem causae vel principij¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0170.xml-->
+      <pb ed="#T" n="95"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>ergo non est vnio vel nexus illorum. 
+    </p>
+               <p xml:id="pdt7y6-e28731-d1e189">
+                  <lb ed="#T" n="2"/>Contra. 1. August. Amor est copula amantis 
+      <lb ed="#T" n="3"/>&amp; amati: Spiritus sanctus est amor Patris &amp; 
+      <lb ed="#T" n="4"/>Filij: ergo copula vtriusque. 
+    </p>
+               <p xml:id="pdt7y6-e28731-d1e198">
+                  <lb ed="#T" n="5"/>2. Dionys. de Diuinit. nominibus. Amorem 
+      <lb ed="#T" n="6"/>siue Angelicum, siue diuinum vnitiuam quan 
+      <lb ed="#T" n="7"/>dam intelligimus virtutem: sed Spiritus sanctus 
+      <lb ed="#T" n="8"/>est amor: ergo virtus vnitiua amantium 
+    </p>
+               <p xml:id="pdt7y6-e28731-d1e209">
+                  <lb ed="#T" n="9"/>3. Augustinus. Spiritus sanctus est amborum 
+      <lb ed="#T" n="10"/>suauitas, qua genitus genitori coniungitur.  
+    </p>
+               <p xml:id="pdt7y6-e28731-d1e216">
+                  <lb ed="#T" n="11"/>Respondeo. Spiritus sanctus procedit a Patre 
+      <lb ed="#T" n="12"/>&amp; Filio per modum amoris: ex actu 
+      processio<lb ed="#T" n="13" break="no"/>nis habet vt sit subsistens persona propter 
+      op<lb ed="#T" n="14" break="no"/>positionem relationis: ex modo procedend 
+      <lb ed="#T" n="15"/>habet quod sit vnio &amp; nexus eorum a quibus 
+      <lb ed="#T" n="16"/>procedit quia procedit vt amor: amor enim 
+      <lb ed="#T" n="17"/>est quaedam complacentia &amp; concordia 
+      aman<lb ed="#T" n="18" break="no"/>tium: inter Patrem vero &amp; Filium intelligitur 
+      <lb ed="#T" n="19"/>non solum essentialis concordia, imo, etsi 
+      <lb ed="#T" n="20"/>different essentia, nihilominus esset inter eo 
+      <lb ed="#T" n="21"/>amicitia. 
+    </p>
+               <p xml:id="pdt7y6-e28731-d1e242">
+                  <lb ed="#T" n="22"/>Ad. 1. Quod procedit vt discretum &amp;c. 
+      <lb ed="#T" n="23"/>Resp. Non est hoc verum vniuersaliter, nam 
+      <lb ed="#T" n="24"/>a duobus corporibus glutinosis intelligitur 
+      ali<lb ed="#T" n="25" break="no"/>quid ab eis dascretum procedere, quo 
+      nihilomi<lb ed="#T" n="26" break="no"/>nus nectuntur vel vniuntur illa. 
+    </p>
+               <p xml:id="pdt7y6-e28731-d1e256">
+                  <lb ed="#T" n="27"/>Ad 2. De medio. Resp. Quamuis ex actu 
+      pro<lb ed="#T" n="28" break="no"/>cedendi habeat quod sit tertia persona, tamen ex 
+      <lb ed="#T" n="29"/>modo procedendi habet rationem aliquam &amp; 
+      <lb ed="#T" n="30"/>proprietatem medij. 
+    </p>
+               <p xml:id="pdt7y6-e28731-d1e267">
+                  <lb ed="#T" n="31"/>Ad 3. De causa &amp; principio. Resp. Pater &amp; 
+      <lb ed="#T" n="32"/>Filius dicuntur vniri Spiritu sancto quasi 
+      for<lb ed="#T" n="33" break="no"/>maliter: sed forma dupliciter dicitur, quia 
+      <lb ed="#T" n="34"/>vel vere forma manens &amp; quiescens in ipsis 
+      <lb ed="#T" n="35"/>quorum est: vel similitudinarie habens formae 
+      <lb ed="#T" n="36"/>proprietatem aliquam, vt quod a duobus exit 
+      <lb ed="#T" n="37"/>ipsa coniungens, sicut liquor a duobus 
+      corpo<lb ed="#T" n="38" break="no"/>ribus glutinosis: &amp; tale coniungens non habet  
+      <lb ed="#T" n="39"/>rationem causae sed potius causati. Primo modo 
+      <lb ed="#T" n="40"/>essentia est vnio Patris &amp; Filij &amp; Spiritus sanctis 
+      <lb ed="#T" n="41"/>secundo modo Spiritus sanctus 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e28731-Dd1e295">
+               <head xml:id="pdt7y6-e28731-Hd1e297">Articulus 2</head>
+               <head xml:id="pdt7y6-e28731-Hd1e299" type="question-title"/>
+               <p xml:id="pdt7y6-e28731-d1e301">
+                  <lb ed="#T" n="42"/>Articvlvs II. 
+      <lb ed="#T" n="43"/>De nomine Spiritus sancti quod habet commune cum. 
+      <lb ed="#T" n="44"/>Patre &amp; Filio. 
+</p>
+               <p xml:id="pdt7y6-e28731-d1e310">
+                  <lb ed="#T" n="45"/>AD vltimum proceditur sic. 1. Quod est 
+      <lb ed="#T" n="46"/>commune tribus personis, non efficitur 
+      <lb ed="#T" n="47"/>proprium, nisi adiuncto aliquo proprio: 
+      Spi<lb ed="#T" n="48" break="no"/>ritus nomen commune est tribus; sanctus vero 
+      <lb ed="#T" n="49"/>non est proprium, sed commune trium: ergo 
+      <lb ed="#T" n="50"/>haec duo non faciunt per se nomen alicuius 
+      per<lb ed="#T" n="51" break="no"/>sonae proprium. 
+    </p>
+               <p xml:id="pdt7y6-e28731-d1e328">
+                  <lb ed="#T" n="52"/>2. A quo habet res cognosci, ab eo debet  
+      <lb ed="#T" n="53"/>proprie nominari: a notione personali persona 
+      <lb ed="#T" n="54"/>habet cognosci: ergo ab ea debet nominari: sed 
+      <lb ed="#T" n="55"/>sic non nominat Spiritus sanctus: Ergo non est 
+      <lb ed="#T" n="56"/>nomen proprium eius. 
+    </p>
+               <p xml:id="pdt7y6-e28731-d1e342">
+                  <lb ed="#T" n="57"/>3. Aut accipitur Spinitus proprie, aut 
+      meta<lb ed="#T" n="58" break="no"/>phorice; si proprie, sic attribuitur essentiae non 
+      <lb ed="#T" n="59"/>personae: ergo non debet eo persona proprie 
+      <lb ed="#T" n="60"/>nominari: si metaphorice, cum haec nominatio 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0170.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="61"/>non sit proprie nominatio, non erit nomen 
+      pro<lb ed="#T" n="62" break="no"/>prium. 
+    </p>
+               <p xml:id="pdt7y6-e28731-d1e362">
+                  <lb ed="#T" n="63"/>4. Sicut processio, quae est per modum 
+      amo<lb ed="#T" n="64" break="no"/>ris, est sancta; ista illa quae est per modum 
+      na<lb ed="#T" n="65" break="no"/>turae: sed propter illam non dicitur Filius 
+      san<lb ed="#T" n="66" break="no"/>ctus: ergo nec propter istam debet dici Spiritus 
+      <lb ed="#T" n="67"/>sanctus. 
+    </p>
+               <p xml:id="pdt7y6-e28731-d1e375">
+                  <lb ed="#T" n="68"/>Contra. 1. Dicit August. Quod quia 
+      perso<lb ed="#T" n="69" break="no"/>na communis est, ideo recte habet nomen 
+      com<lb ed="#T" n="70" break="no"/>mune, scilicet Spiritus sanctus 
+    </p>
+               <p xml:id="pdt7y6-e28731-d1e384">
+                  <lb ed="#T" n="71"/>2. Communi vsu tractatorum scripturae 
+      ap<lb ed="#T" n="72" break="no"/>pellatur Spiritus sanctus 
+    </p>
+               <p xml:id="pdt7y6-e28731-d1e391">
+                  <lb ed="#T" n="73"/>Respondeo. Hoc quod dico, Spiritus sanctus 
+      <lb ed="#T" n="74"/>dupliciter potest accipi: vel vt oratio, sic est 
+      <lb ed="#T" n="75"/>commune toti Trinitati: vel vt dictio, sic ex 
+      <lb ed="#T" n="76"/>vsu Ecclesiae nomen est appropriatum personae 
+      <lb ed="#T" n="77"/>Spiritus sancti. Ratio vna est ex modo 
+      proce<lb ed="#T" n="78" break="no"/>dendi: nam in nobis processus generationis 
+      <lb ed="#T" n="79"/>corporalis est; sed processus amoris spiritualis. 
+      <lb ed="#T" n="80"/>Alia ratio ab effectu, quia amor, qui est donum 
+      <lb ed="#T" n="81"/>eius, facit nos spirituales. 
+    </p>
+               <p xml:id="pdt7y6-e28731-d1e413">
+                  <lb ed="#T" n="82"/>Ad 1. De nomine communi. Resp. Haec 
+      ap<lb ed="#T" n="83" break="no"/>propriatio ex vsu est, non ex natura terminorum. 
+    </p>
+               <p xml:id="pdt7y6-e28731-d1e421">
+                  <lb ed="#T" n="84"/>Ad. 2. A quo habet res cognosci &amp;c. Resp. 
+      <lb ed="#T" n="85"/>Hoc verum est, quando inuenitur nomen 
+      con<lb ed="#T" n="86" break="no"/>ueniens ad hoc, sed hic non inueniebatur. 
+    </p>
+               <p xml:id="pdt7y6-e28731-d1e430">
+                  <lb ed="#T" n="87"/>Ad 3. Aut accipitur proprie &amp;c. Resp. 
+      Pro<lb ed="#T" n="88" break="no"/>prie accipitur; &amp; quamuis naturae conueniat, 
+      <lb ed="#T" n="89"/>tamen ex vsu personae appropriatur rationibus 
+      <lb ed="#T" n="90"/>praedictis. 
+    </p>
+               <p xml:id="pdt7y6-e28731-d1e441">
+                  <lb ed="#T" n="91"/>Ad. 4. Quod opponitur de hoc, quod dicitur  
+      <lb ed="#T" n="92"/>sanctus. Resp. Quia sanctitas conditio est potius 
+      <lb ed="#T" n="93"/>voluntatis quam naturae, ideo potius additur 
+      <lb ed="#T" n="94"/>nomini personae procedentis per modum 
+      volun<lb ed="#T" n="95" break="no"/>tatis, quam per modum naturae. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e28731-Dd1e455">
+               <head xml:id="pdt7y6-e28731-Hd1e457">Expositio litterae</head>
+               <p xml:id="pdt7y6-e28731-d1e459">
+                  <lb ed="#T" n="96"/>EXPOSITIO LITERAE 
+    </p>
+               <p xml:id="pdt7y6-e28731-d1e464">
+                  <lb ed="#T" n="97"/>Mor est. ] Amor communis est 
+      affectio<lb ed="#T" n="98" break="no"/>num naturali, &amp; rationali; dilectio 
+      <lb ed="#T" n="99"/>propria rationali; charitas proprissima 
+      spi<lb ed="#T" n="100" break="no"/>rituali¬ 
+    </p>
+               <p xml:id="pdt7y6-e28731-d1e475">
+                  <lb ed="#T" n="101"/>Verbum proprie sapientia dicitur. ] Contra. 
+      <lb ed="#T" n="102"/>Sapientia proprie attributum est essentiale, sicut  
+      <lb ed="#T" n="103"/>potentia, &amp; voluntas. Resp. Exponendum est 
+      <lb ed="#T" n="104"/>proprie id est appropriate. 
+    </p>
+               <p xml:id="pdt7y6-e28731-d1e486">
+                  <lb ed="#T" n="105"/>[Et tamen Spiritus sanctus proprie charitat 
+      <lb ed="#T" n="106"/>nuncupatur. ] Contra. Cantat Ecclesia, charitas 
+      <lb ed="#T" n="107"/>Pater, gratia Christus. Resp. Triplex est 
+      chari<lb ed="#T" n="108" break="no"/>tas: essentialis, quae est communis tribus, sed 
+      <lb ed="#T" n="109"/>appropriatur Spiritui sancto; notionalis, quae 
+      <lb ed="#T" n="110"/>est communis Patri &amp; Filio; &amp; personalis, quae 
+      <lb ed="#T" n="111"/>est proprie Spiritus sanctus. 
+    </p>
+               <p xml:id="pdt7y6-e28731-d1e505">
+                  <lb ed="#T" n="112"/>[Siue vnitas] In quantum Deo coniungit, 
+      <lb ed="#T" n="113"/>[Siue charitas )In quantum per modum libera 
+      <lb ed="#T" n="114"/>litatis procedit. [Siue sanctitas) In quantum 
+      eo<lb ed="#T" n="115" break="no"/>rum munditiam &amp; immaterialitatem ostendit. 
+    </p>
+               <p xml:id="pdt7y6-e28731-d1e516">
+                  <lb ed="#T" n="116"/>(Filij charitatis.] Contra. Ergo Filius 
+      essen<lb ed="#T" n="117" break="no"/>tiae, vel Spiritus sancti. Resp. Genitiuus 
+      con<lb ed="#T" n="118" break="no"/>struitur non in ratione causae, sed in 
+      designatio<lb ed="#T" n="119" break="no"/>ne essentiae, id est, Filij charissimi ad maiorem 
+      <lb ed="#T" n="120"/>expressionem. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

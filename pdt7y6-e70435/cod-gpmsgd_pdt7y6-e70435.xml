@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="231"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e70435"><!-- l1d28q2 -->
+            <head xml:id="pdt7y6-e70435-Hd1e99">Quaestio 2</head>
+            <head xml:id="pdt7y6-e70435-Hd1e101" type="question-title">De innascibilitate</head>
+            <p xml:id="pdt7y6-e70435-d1e104">
+               <lb ed="#T" n="96"/>QVESTIO II. 
+      <lb ed="#T" n="97"/>DE PROPRIETATE INNAScipILI. 
+      <lb ed="#T" n="98"/>TATIS IN PATRE. 
+</p>
+            <p xml:id="pdt7y6-e70435-d1e113">
+               <lb ed="#T" n="99"/>CIrca secundum de innascibilitate quatuor 
+      <lb ed="#T" n="100"/>Cquaeruntur. 
+      <lb ed="#T" n="101"/>Primo an sit in genere relationis 
+      <lb ed="#T" n="102"/>Secundo an sit notio Patris. 
+      <lb ed="#T" n="103"/>Tertio an sit idem euod paternitas. 
+      <lb ed="#T" n="104"/>Quarto an constituat personam Patris. 
+    </p>
+            <div xml:id="pdt7y6-e70435-Dd1e129">
+               <head xml:id="pdt7y6-e70435-Hd1e131">Articulus 1</head>
+               <head xml:id="pdt7y6-e70435-Hd1e133" type="question-title">An innascibilitas sit in genere relationis</head>
+               <p xml:id="pdt7y6-e70435-d1e136">
+                  <lb ed="#T" n="105"/>Articvlvs I. 
+      <lb ed="#T" n="106"/>An innascibilitas sit in genere relationis 
+</p>
+               <p xml:id="pdt7y6-e70435-d1e143">
+                  <lb ed="#T" n="107"/>AD primum sic proceditur. 1. Dicit 
+      Augu<lb ed="#T" n="108" break="no"/>stinus, quod cum dico ingenitus, negatiua 
+      <lb ed="#T" n="109"/>particula non id efficit, vt quod sine illa relatiue, 
+      <lb ed="#T" n="110"/>dicitur, illa praeposita substantialiter dicatur: 
+      er<lb ed="#T" n="111" break="no"/>go adhuc dicit relationem. 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e156">
+                  <lb ed="#T" n="112"/>2. Adhuc dicit Augustinus, quod sicut 
+      inge<lb ed="#T" n="113" break="no"/>nitus ad genitorem, ita non genitus ad non 
+      ge<lb ed="#T" n="114" break="no"/>nitorem refertur: ergo dicit relationem. 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e166">
+                  <lb ed="#T" n="115"/>3. Persona a persona non distinguitur nisi per 
+      <lb ed="#T" n="116"/>relationem: distinguitur autem per 
+      proprieta<lb ed="#T" n="117" break="no"/>tem ingeniti, seu innascibilitatem: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e175">
+                  <lb ed="#T" n="118"/>4. Omne praedicabile reducitur ad aliquod 
+      ge<lb ed="#T" n="119" break="no"/>nus: ergo ingenitus reducitur ad aliquod genus: 
+      <lb ed="#T" n="120"/>quaeritur ergo ad quod? nec est inuenire praeter 
+      <lb ed="#T" n="121"/>genus relationis, negatio enim non ponit in 
+      ali<lb ed="#T" n="122" break="no"/>quo nouo genere &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e188">
+                  <lb ed="#T" n="123"/>Contra. 1. Negatio addita termino relatiuo 
+      <lb ed="#T" n="124"/>tollit relationem: ergo remouet ab eo genus 
+      re<lb ed="#T" n="125" break="no"/>lationis. 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e197">
+                  <lb ed="#T" n="126"/>2. Non est relatio: ergo negatiua particula 
+      mu<lb ed="#T" n="127" break="no"/>tat eius praedicamentum 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e204">
+                  <lb ed="#T" n="128"/>3. Quicquid est in aliquo genere, de illo 
+      praedi<lb ed="#T" n="129" break="no"/>catur genus generalissimum: sed de ingenito non 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0307.xml-->
+      <pb ed="#T" n="232"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>potest praedicari genus generalissimum, quia 
+      ter<lb ed="#T" n="2" break="no"/>minus negatiuus non ponit aliquid de genere 
+      <lb ed="#T" n="3"/>entium: ergo non est in aliquo genere. 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e224">
+                  <lb ed="#T" n="4"/>4. Non homo praedicatur de quantitate &amp; 
+      <lb ed="#T" n="5"/>qualitate &amp; caeteris generibus: ergo non dicitur 
+      <lb ed="#T" n="6"/>secundum genus substantiae: ergo a simili 
+      inge<lb ed="#T" n="7" break="no"/>nitus non dicit rem de genere relationis. 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e236">
+                  <lb ed="#T" n="8"/>5. Per quamlibet relationem refertur habens 
+      <lb ed="#T" n="9"/>illam ad aliquid: sed per ingenitum non refertur 
+      <lb ed="#T" n="10"/>Pater ad aliud, quia nec ad Filium, nec ad 
+      Spi<lb ed="#T" n="11" break="no"/>ritum sanctum, nec ad creaturam: ergo non 
+      di<lb ed="#T" n="12" break="no"/>cit relationem. 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e249">
+                  <lb ed="#T" n="13"/>6. Omnis relatio in Diuinis dicit respectum 
+      <lb ed="#T" n="14"/>ad principium, vel ad illud quod est ex 
+      princi<lb ed="#T" n="15" break="no"/>pio: ingenitus vero non dicit respectum nec ad 
+      <lb ed="#T" n="16"/>principium, nec ad id quod est ex principio: 
+      er<lb ed="#T" n="17" break="no"/>go non significat relationem. 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e262">
+                  <lb ed="#T" n="18"/>7. Omne relatiuum habet suum correlatiuum: 
+      <lb ed="#T" n="19"/>sed ingenitum nullum habet correlatiuum: ergo 
+      <lb ed="#T" n="20"/>non est relatiuum. 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e271">
+                  <lb ed="#T" n="21"/>Respondeo. In genere aliquo dicitur aliquid 
+      <lb ed="#T" n="22"/>esse dupliciter: vel per se, vt quod recipit 
+      praedi<lb ed="#T" n="23" break="no"/>cationem generis: vel per reductionem, &amp; hoc 
+      <lb ed="#T" n="24"/>dupliciter; vel directam vt principia illius 
+      ge<lb ed="#T" n="25" break="no"/>neris, sicut punctus &amp; vnitas est in genere 
+      quan<lb ed="#T" n="26" break="no"/>titatis; &amp; materia &amp; forma in genere substantiae: 
+      <lb ed="#T" n="27"/>vel indirectam scilicet per aliud, vt priuationes 
+      <lb ed="#T" n="28"/>&amp; negationes reducuntur ad idem genus cum suis 
+      <lb ed="#T" n="29"/>affirmationibus, per quas habent esse &amp; 
+      cognos<lb ed="#T" n="30" break="no"/>ci. Haec vero reductio sit non per ipsam 
+      nega<lb ed="#T" n="31" break="no"/>tionem quae in nullo genere ponit, sed per rem 
+      <lb ed="#T" n="32"/>negatam: omnino enim in non esse intelligitur 
+      <lb ed="#T" n="33"/>sse, in negatione affirmatio, vt dicit 
+      Philo<lb ed="#T" n="34" break="no"/>sophus. 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e304">
+                  <lb ed="#T" n="35"/>Ad 1. Negatio tollit relationem. Resp. 
+      Quam<lb ed="#T" n="36" break="no"/>uis remoueat praedicationem generis, non 
+      ta<lb ed="#T" n="37" break="no"/>men reductionem ad genus. 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e313">
+                  <lb ed="#T" n="38"/>Ad 2. De non relatione. Resp. Quamuis 
+      rela<lb ed="#T" n="39" break="no"/>tio non praedicetur de non relatione, tamen 
+      re<lb ed="#T" n="40" break="no"/>ducitur ad genus relationis. 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e323">
+                  <lb ed="#T" n="41"/>Ad 3. De generalissimo. Resp. Hoc 
+      intelligi<lb ed="#T" n="42" break="no"/>tur de ijs quae sunt in genere per se, scilicet per 
+      <lb ed="#T" n="43"/>rectam ordinationem, vt species &amp; indiuidua: non 
+      <lb ed="#T" n="44"/>de ijs quae per reductionem. 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e334">
+                  <lb ed="#T" n="45"/>Ad 4. De non homine. Resp. Quamuis non 
+      <lb ed="#T" n="46"/>homo possit supponere pro quantitate, vel 
+      qua<lb ed="#T" n="47" break="no"/>litate, vel huiusmodi, estt amen in genere 
+      sub<lb ed="#T" n="48" break="no"/>stantiae: non per praedicationem sed per 
+      redu<lb ed="#T" n="49" break="no"/>ctionem indirectam. 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e347">
+                  <lb ed="#T" n="50"/>Ad 5. Per quamlibet relationem refertur 
+      ha<lb ed="#T" n="51" break="no"/>bens illam. Resp. Hoc intelligitur de relatione 
+      <lb ed="#T" n="52"/>significata affirmatiue, non negatiue. 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e356">
+                  <lb ed="#T" n="53"/>Ad 6. Omnis relatio dicit respectum. Resp. 
+      <lb ed="#T" n="54"/>Innascibilitas dicit respectum ad principium, 
+      <lb ed="#T" n="55"/>non tamen ponendo illum, sed remouendo, 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e365">
+                  <lb ed="#T" n="56"/>Ad 7. Omne correlatiuum &amp;c. Resp. Hoc 
+      <lb ed="#T" n="57"/>verum est de ijs quae sunt relatiua secundum 
+      <lb ed="#T" n="58"/>modum existendi, non de ijs quae sunt relatiua 
+      <lb ed="#T" n="59"/>secundum modum intelligendi tantum, nam 
+      <lb ed="#T" n="60"/>talia non ponunt sua correlatiua in actu, sed in 
+      <lb ed="#T" n="61"/>ntellectu. Sic ingenitum ponit no genitorem in 
+      <lb ed="#T" n="62"/>intellectu secundum Augustinum. Vel hoc 
+      ve<lb ed="#T" n="63" break="no"/>rum est de ijs quae sunt relatiua per se, non per 
+      <lb ed="#T" n="64"/>reductionem: id est per positionem, non per 
+      ne<lb ed="#T" n="65" break="no"/>gationem. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e70435-Dd1e391">
+               <head xml:id="pdt7y6-e70435-Hd1e393">Articulus 2</head>
+               <head xml:id="pdt7y6-e70435-Hd1e395" type="question-title">An innascibilitas sit notio Patris.</head>
+               <p xml:id="pdt7y6-e70435-d1e398">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0307.xml-->
+                  <cb ed="#T" n="b"/>
+                  <!-- line coord order error -->
+                  <lb ed="#T" n="130"/>Articvlvs II. 
+      <lb ed="#T" n="131"/>An innascibilitas sit notio Patris. 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e411">
+                  <lb ed="#T" n="132"/>D secundum sic proceditur. 1. Ingenitum
+      <!-- line coord order error -->
+      <lb ed="#T" n="66"/>de Patre aut dicitur negatiue, aut priuatiue: 
+      <lb ed="#T" n="67"/>si negatiue, ergo nihil ponit in ipso: ergo nullam 
+      <lb ed="#T" n="68"/>notionem: si priuatiue, ergo ponit in ipso 
+      imper<lb ed="#T" n="69" break="no"/>fectionem. 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e427">
+                  <lb ed="#T" n="70"/>2. Secundum Augustinum, cum Pater dicitur  
+      <lb ed="#T" n="71"/>ingenitus, ostenditur non quid sit, sed quid non: 
+      <lb ed="#T" n="72"/>sit: sed quid non sit non notificat ipsum: ergo  
+      <lb ed="#T" n="73"/>non est notio. 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e439">
+                  <lb ed="#T" n="74"/>3. Si negatio haec notio est, cum haec negatio 
+      <lb ed="#T" n="75"/>conueniat Diuinae essentiae, ergo in ipsa est 
+      ali<lb ed="#T" n="76" break="no"/>qua notio, quod falsum est, 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e448">
+                  <lb ed="#T" n="77"/>4. Sicut conuenit Patri esse ingenitum, ita non 
+      <lb ed="#T" n="78"/>spiratum: fed non spiratus nullam ponit in eo 
+      <lb ed="#T" n="79"/>notionem: ergo nec ingenitus. 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e457">
+                  <lb ed="#T" n="80"/>Contra. 1. Augustinus. Alia est notio Patris 
+      <lb ed="#T" n="81"/>qua dicitur Pater, alia qaa dicitur ingenitus 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e464">
+                  <lb ed="#T" n="82"/>2. Omne illud quo vna persona ab alia 
+      distin<lb ed="#T" n="83" break="no"/>guitur, notio est: sed talis est ingeneratio seu 
+      in<lb ed="#T" n="84" break="no"/>nascibilitas: ergo est notio¬ 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e473">
+                  <lb ed="#T" n="85"/>Respondeo. Ingenitum dupliciter accipitur: 
+      <lb ed="#T" n="86"/>aut enim priuatiue, sic Deo non conuenit: aut 
+      <lb ed="#T" n="87"/>negatiue, &amp; hoc dupliciter: aut enim dicit 
+      ne<lb ed="#T" n="88" break="no"/>gationem in genere, &amp; sic idem est quod non 
+      <lb ed="#T" n="89"/>ens ab alio generatum, &amp; sic conuenit Spiritui  
+      <lb ed="#T" n="90"/>sancto: aut dicit negationem simpliciter, &amp; sic 
+      <lb ed="#T" n="91"/>idem est quod non ens ab alio, &amp; hoc modo 
+      <lb ed="#T" n="92"/>potest accipi dupliciter: vel vt sit pura negatio, 
+      <lb ed="#T" n="93"/>sic conuenit essentiae, nec est notio; vel vt sit 
+      <lb ed="#T" n="94"/>negatio fundata super contrarium, scilicet super 
+      <lb ed="#T" n="95"/>rationem vniuersalis principij, siue coniuncta 
+      <lb ed="#T" n="96"/>contrario: sic conuenit Patri, &amp; est notio 
+      indi<lb ed="#T" n="97" break="no"/>cans in ipso dignitatem primi principij, siue 
+      <lb ed="#T" n="98"/>magis principij non de principio: nam per 
+      ra<lb ed="#T" n="99" break="no"/>tionem principij ponitur in ipso duplex 
+      notio<lb ed="#T" n="100" break="no"/>paternitas &amp; communis spiratio: per rationem 
+      <lb ed="#T" n="101"/>non de principio ponitur in ipso tertia notio, 
+      sci<lb ed="#T" n="102" break="no"/>licet innascibilitas. Aliqui vero dicunt quod 
+      <lb ed="#T" n="103"/>non ens ab alio prout dicit negationem 
+      simpli<lb ed="#T" n="104" break="no"/>citer, dupliciter accipitur: aut nullo modo ens 
+      <lb ed="#T" n="105"/>ab alio, nec in se, nec in aliquo alio, &amp; sic 
+      Ha<lb ed="#T" n="106" break="no"/>tri conuenit: aut non ens ab alio in se, sic 
+      con<lb ed="#T" n="107" break="no"/>uenit essentiae; Pater enim nullo modo est ab 
+      <lb ed="#T" n="108"/>alio, essentia vero quamuis in se non sit ab alio: 
+      <lb ed="#T" n="109"/>est tamen ab alio in persona Filij &amp; Spiritus 
+      <lb ed="#T" n="110"/>sancti. 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e532">
+                  <lb ed="#T" n="111"/>Ad 1. Aut accipitur negatiue aut priuatiue. 
+      <lb ed="#T" n="112"/>Resp. Negatiue accipitur; sed tamen aliquid 
+      po<lb ed="#T" n="113" break="no"/>nit dignitatis, quia non est pura negatio, sed  
+      <lb ed="#T" n="114"/>negatio fundata super dispositionem 
+      contra<lb ed="#T" n="115" break="no"/>riam, quia super vniuersalitatem principij. 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e546">
+                  <lb ed="#T" n="116"/>Ad 2. Quid non sit nihil notificat. Resp. 
+      Se<lb ed="#T" n="117" break="no"/>cundum quod est pura negatio nihil notificat, 
+      <lb ed="#T" n="118"/>sicut si de homine dicatur iste est non malus 
+      <lb ed="#T" n="119"/>homo. 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e557">
+                  <lb ed="#T" n="120"/>Ad 3. De Diuina essentia. Resp. Ingenitum 
+      <lb ed="#T" n="121"/>aliter accipitur prout conuenit essentiae, aliter 
+      <lb ed="#T" n="122"/>prout conuenit Patri. 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e566">
+                  <lb ed="#T" n="123"/>Ad 4. De non spirato. Resp. Non spiratum 
+      <lb ed="#T" n="124"/>intelligitur in ingenito prout dicitur de Patre; 
+      <lb ed="#T" n="125"/>sic enim dicit negationem simpliciter non in 
+      ge<lb ed="#T" n="126" break="no"/>nere. Dicitur autem potius ingenitus, quam non 
+      <lb ed="#T" n="127"/>spiratus, quia nemoto primo modo emanat 
+      o<lb ed="#T" n="128" break="no"/>nis &amp; principaliori significatione, ex 
+      conse<lb ed="#T" n="129" break="no"/>quenti intelliguntur alij remoueri,[ 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e70435-Dd1e585">
+               <head xml:id="pdt7y6-e70435-Hd1e587">Articulus 3</head>
+               <head xml:id="pdt7y6-e70435-Hd1e589" type="question-title">An innascibilitas sit idem quod paternitas.</head>
+               <p xml:id="pdt7y6-e70435-d1e592">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0308.xml-->
+                  <pb ed="#T" n="233"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>ARTICVLVS III. 
+      <lb ed="#T" n="2"/>An innascibilitas sit idem quod paternitas.
+</p>
+               <p xml:id="pdt7y6-e70435-d1e605">
+                  <lb ed="#T" n="3"/>AD tertium articulum sic proceditur. 1. 
+      <lb ed="#T" n="4"/>Sicut se habet nascibilitas ad Filium, sic 
+      <lb ed="#T" n="5"/>innascibilitas ad Patrem: sed nascibilitas est 
+      <lb ed="#T" n="6"/>eadem cum filiatione: ergo innascibilitas 
+      cu<lb ed="#T" n="7" break="no"/>paternitate. 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e618">
+                  <lb ed="#T" n="8"/>2. Dicit Philosophus. 1. Priorum. Quod 
+      <lb ed="#T" n="9"/>primum &amp; principium idem dico: sed 
+      innasci<lb ed="#T" n="10" break="no"/>bilitas dicit rationem primi, paternitas 
+      ratio<lb ed="#T" n="11" break="no"/>nem principij: ergo idem. 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e630">
+                  <lb ed="#T" n="12"/>3. Relatio in Diuinis constituit personam: 
+      <lb ed="#T" n="13"/>ergo vnius personae vna est relatio.  
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e637">
+                  <lb ed="#T" n="14"/>Contra. 1. Relationes diuersificantur penes 
+      <lb ed="#T" n="15"/>terminos: sed innascibilitas priuat principium 
+      <lb ed="#T" n="16"/>a quo sit, paternitas ponit principium alicuius 
+      <lb ed="#T" n="17"/>quod ab illo sit: ergo sunt diuersae relationes. 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e648">
+                  <lb ed="#T" n="18"/>2. Plus differunt priuatiue opposita, quam 
+      <lb ed="#T" n="19"/>disparata: sed generatio &amp; communis spiratio  
+      <lb ed="#T" n="20"/>cum sint disparata non sunt eadem notio: ergo 
+      <lb ed="#T" n="21"/>multo magis generatio &amp; ingeneratio cum sint 
+      <lb ed="#T" n="22"/>opposita. 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e661">
+                  <lb ed="#T" n="23"/>3. Secundum Augustinum aliud est esse 
+      Pa<lb ed="#T" n="24" break="no"/>trem, aliud ingenitum, vnde quamuis non 
+      <lb ed="#T" n="25"/>esset Pater, nihilominus intelligi posset 
+      inge<lb ed="#T" n="26" break="no"/>nitus: ergo non sunt eadem notio paternitas &amp; 
+      <lb ed="#T" n="27"/>innascibilitas. 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e674">
+                  <lb ed="#T" n="28"/>4. Possibile est ingenitum inueniri sine 
+      Pa<lb ed="#T" n="29" break="no"/>tre, vt in Adam in paradiso, &amp; e conuerso vt 
+      <lb ed="#T" n="30"/>in Cain: ergo non significant eandem 
+      proprie<lb ed="#T" n="31" break="no"/>tatem. 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e685">
+                  <lb ed="#T" n="32"/>Respondeo. Innascibilitas &amp; paternitas in 
+      <lb ed="#T" n="33"/>Patre differunt: quarum differentia tripliciter 
+      <lb ed="#T" n="34"/>potest colligi. Primo, quia imnascibilitas 
+      dici<lb ed="#T" n="35" break="no"/>tur negatiue, paternitas positiue: secundo quia 
+      <lb ed="#T" n="36"/>innascibilitas dicitur per comparationem ad 
+      <lb ed="#T" n="37"/>principium, paternitas per comparationem ad 
+      <lb ed="#T" n="38"/>id quod est ex principio: tertio quia 
+      innascibi<lb ed="#T" n="39" break="no"/>litas vt est notio praesupponit paternitatam 
+      <lb ed="#T" n="40"/>quia prout est notio non est pura negatio sed 
+      <lb ed="#T" n="41"/>fundata super rationem vniuersalis principij 
+      <lb ed="#T" n="42"/>vel illi coniuncta, ergo praesupponit in eodem 
+      <lb ed="#T" n="43"/>habitudinem principij secundum intellectum, 
+      <lb ed="#T" n="44"/>ergo paternitatem &amp; communem spirationem 
+      <lb ed="#T" n="45"/>in generali, licet non in speciali. Hinc est quod 
+      <lb ed="#T" n="46"/>non potest esse idem quod paternitas, quamuis 
+      <lb ed="#T" n="47"/>inseparabiliter comittetur eam in Diuinis, non 
+      <lb ed="#T" n="48"/>inferioribus. 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e725">
+                  <lb ed="#T" n="49"/>Ad 1. Sicut se habet nascibilitas ad Filium. &amp;c. 
+      <lb ed="#T" n="50"/>Resp. Non similiter se habet, quia nascibilitas 
+      <lb ed="#T" n="51"/>&amp; filiatio dicunt respectum ad idem: sed 
+      innas<lb ed="#T" n="52" break="no"/>cibilitas &amp; paternitas ad diuersa 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e736">
+                  <lb ed="#T" n="53"/>Ad 2. De primo &amp; principio. Resp. Primum 
+      <lb ed="#T" n="54"/>dicitur dupliciter vel ante quod nihil, vel post 
+      <lb ed="#T" n="55"/>quod aliquid: secundo modo est de ratione 
+      prin<lb ed="#T" n="56" break="no"/>cipij; primo modo non generaliter, sed de 
+      ra<lb ed="#T" n="57" break="no"/>tione principij non de principio. 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e749">
+                  <lb ed="#T" n="58"/>Ad 3. Relatio in Diuinis constituit 
+      perso<lb ed="#T" n="59" break="no"/>nam. Resp. Non quaecumque relatio constituit 
+      <lb ed="#T" n="60"/>personam; sed vna quae prior est &amp; principalior.  
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e70435-Dd1e759">
+               <head xml:id="pdt7y6-e70435-Hd1e761">Articulus 4</head>
+               <head xml:id="pdt7y6-e70435-Hd1e763" type="question-title">
+  An innascibilitas constituat personam Patris.
+</head>
+               <p xml:id="pdt7y6-e70435-d1e766">
+                  <lb ed="#T" n="61"/>Articvlvs IV. 
+      <lb ed="#T" n="62"/>An innascibilitas constituat personam Patris. 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e773">
+                  <lb ed="#T" n="63"/>D quartum articulum sic proceditur. 1. 
+      <lb ed="#T" n="64"/>Sicut paternitas soli Patri conuenit, fic 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0308.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="65"/>innascibilitas: ergo qua ratione paternitas 
+      per<lb ed="#T" n="66" break="no"/>sonam constituit &amp; distinguit, eadem 
+      innasci<lb ed="#T" n="67" break="no"/>bilitas, 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e791">
+                  <lb ed="#T" n="68"/>2. Magis pertinet ad dignitatem 
+      innascibili<lb ed="#T" n="69" break="no"/>tas, quam paternitas, quia paternitas 
+      commu<lb ed="#T" n="70" break="no"/>nicatur creaturis sed non innascibilitas: sed 
+      per<lb ed="#T" n="71" break="no"/>sona constituitur a proprietate ad dignitatem 
+      <lb ed="#T" n="72"/>pertinente: ergo magis constituitur ab 
+      innasci<lb ed="#T" n="73" break="no"/>bilitate quam a paternitate. 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e808">
+                  <lb ed="#T" n="74"/>3. Nihil habet esse eo quo dat alij esse: sed  
+      <lb ed="#T" n="75"/>Pater paternitate dat Filio esse: ergo 
+      paternita<lb ed="#T" n="76" break="no"/>te non habet esse; sed nec communi spiratione, 
+      <lb ed="#T" n="77"/>quia illa non est eius propria: ergo 
+      mnascibi<lb ed="#T" n="78" break="no"/>litate. 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e821">
+                  <lb ed="#T" n="79"/>Contra. 1. Sicut se habet filiatio ad Filium, 
+      <lb ed="#T" n="80"/>sic paternitas ad Patrem: sed filiatio sola 
+      con<lb ed="#T" n="81" break="no"/>stituit personam Filij: ergo sola paternitas 
+      per<lb ed="#T" n="82" break="no"/>sonam Patris. 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e832">
+                  <lb ed="#T" n="83"/>2. Illa est maxime proprietas personalis a 
+      <lb ed="#T" n="84"/>qua persona denominatur: sed a paternitate. 
+      <lb ed="#T" n="85"/>persona Patris denominatu: ergo ipsa est 
+      pro<lb ed="#T" n="86" break="no"/>prietas eius personalis. 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e843">
+                  <lb ed="#T" n="87"/>Respondeo. Innascibilitas proprietas est 
+      per<lb ed="#T" n="88" break="no"/>sonae, non personalis, oportet enim, cum 
+      per<lb ed="#T" n="89" break="no"/>sona sit aliquid distinctum &amp; positiuum &amp; quasi 
+      <lb ed="#T" n="90"/>lubjectum proprietatum omnium, quod 
+      pro<lb ed="#T" n="91" break="no"/>prietas personalis sit proprietas proprie positiue 
+      <lb ed="#T" n="92"/>dicta, non negatiue: opertet etiam quod sit 
+      <lb ed="#T" n="93"/>proprietas propria non communis alteri 
+      perso<lb ed="#T" n="94" break="no"/>nae: &amp; quod sit prima proprietas distinctiua 
+      <lb ed="#T" n="95"/>personae: innascibilitas vero negatiue dicitur 
+      <lb ed="#T" n="96"/>non positiue quamuis super positionem 
+      funde<lb ed="#T" n="97" break="no"/>tur: communis vero spiratio non est propria: 
+      <lb ed="#T" n="98"/>vtraque vero secundum intellectum 
+      praesuppo<lb ed="#T" n="99" break="no"/>nit paternitatem: ideo neutra harum est 
+      proprie<lb ed="#T" n="100" break="no"/>tas personalis, sed paternitas sola quae est 
+      pro<lb ed="#T" n="101" break="no"/>prietas affirmatiua, &amp; propria in qua consistit  
+      <lb ed="#T" n="102"/>prima ratio principij. 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e880">
+                  <lb ed="#T" n="103"/>Ad 1. Sicut paternitas soli Patri conuenit &amp;c. 
+      <lb ed="#T" n="104"/>Resp. Non sequitur, quia plus exigitur ad 
+      pro<lb ed="#T" n="105" break="no"/>prietatem perfonalem, quam conuenire vni soli, 
+      <lb ed="#T" n="106"/>vt dictum est, 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e891">
+                  <lb ed="#T" n="107"/>Ad 2. De maiori dignitate &amp;c. Resp. 
+      Quam<lb ed="#T" n="108" break="no"/>uis paternitas communicetur creaturae, non 
+      ta<lb ed="#T" n="109" break="no"/>men ideo indignior iunascibilitate: sicut bonitas 
+      <lb ed="#T" n="110"/>communicatur creaturae, non tamen 
+      immen<lb ed="#T" n="111" break="no"/>sitas, nec ideo bonitas indignior est 
+      immen<lb ed="#T" n="112" break="no"/>sitate. 
+    </p>
+               <p xml:id="pdt7y6-e70435-d1e908">
+                  <lb ed="#T" n="113"/>Ad 3. Resp. Cum dicitur nihil habet esse 
+      <lb ed="#T" n="114"/>co quo dat alteri esse, hoc pronomen: eo potest 
+      <lb ed="#T" n="115"/>construi in similitudinem quasi causae formalis, 
+      <lb ed="#T" n="116"/>&amp; sic falsa est propositio, nam per formam suam 
+      <lb ed="#T" n="117"/>res habet esse, &amp; per eandem causat esse in 
+      alte<lb ed="#T" n="118" break="no"/>ro: aut quasi causae efficientis, &amp; sic vera est: 
+      <lb ed="#T" n="119"/>Pater vero habet esse personale distinctum 
+      pa<lb ed="#T" n="120" break="no"/>ternitate quasi formaliter non effectiue. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="71"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e21074"><!-- l1d8q1 -->
+            <head xml:id="pdt7y6-e21074-Hd1e99">Quaestio 1</head>
+            <head xml:id="pdt7y6-e21074-Hd1e101" type="question-title"/>
+            <p xml:id="pdt7y6-e21074-d1e103">
+               <lb ed="#T" n="49"/>QVESTIO I. 
+      <lb ed="#T" n="50"/>DE DIVINE ESSENTIAE 
+      <lb ed="#T" n="51"/>ENTITATE.
+</p>
+            <p xml:id="pdt7y6-e21074-d1e112">
+               <lb ed="#T" n="52"/>QVaeruntur hic sex. 
+      <lb ed="#T" n="53"/>Primo de diuinae essentiae entitate. 
+      <lb ed="#T" n="54"/>Secundo de eius veritate. 
+      <lb ed="#T" n="55"/>Tertio de eius aeternitate. 
+      <lb ed="#T" n="56"/>Quarto de eius immutabilitate. 
+      <lb ed="#T" n="57"/>Quinto de eius simplicitate.  
+      <lb ed="#T" n="58"/>Sexto de simplicitate creaturae. 
+    </p>
+            <p xml:id="pdt7y6-e21074-d1e130">
+               <lb ed="#T" n="59"/>Circa primum quaeruntur duo. 
+      <lb ed="#T" n="60"/>Primo, an esse sit Deo proprium. 
+      <lb ed="#T" n="61"/>Secundo, vtrum esse eius sit esse commune 
+      <lb ed="#T" n="62"/>omnium creaturarum. 
+    </p>
+            <!--1652-gregPress-MichiganState-gbooks-v1-0146.xml-->
+            <div xml:id="pdt7y6-e21074-Dd1e144">
+               <head xml:id="pdt7y6-e21074-Hd1e146">Articulus 1</head>
+               <head xml:id="pdt7y6-e21074-Hd1e148" type="question-title">
+  An esse sit Deo proprium
+</head>
+               <p xml:id="pdt7y6-e21074-d1e151">
+                  <cb ed="#T" n="c"/>
+                  <lb ed="#T" n="63"/>ARTICVLVS I. 
+      <lb ed="#T" n="64"/>An esse sit Deo proprium.
+      </p>
+               <p xml:id="pdt7y6-e21074-d1e160">
+                  <lb ed="#T" n="65"/>D primum sic proceditur. 1. Illud est 
+      ali<lb ed="#T" n="66" break="no"/>cui proprium, quod sibi soli conuenit: sed  
+      <lb ed="#T" n="67"/>esse non soli Deo conuenit: ergo. 
+    </p>
+               <p xml:id="pdt7y6-e21074-d1e169">
+                  <lb ed="#T" n="68"/>2. Quod maxime commune est, habet 
+      mini<lb ed="#T" n="69" break="no"/>me rationem proprij: sed esse maxime 
+      commu<lb ed="#T" n="70" break="no"/>ne est, est enim transcendens quodlibet genus 
+      <lb ed="#T" n="71"/>entis: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e21074-d1e181">
+                  <lb ed="#T" n="72"/>3. Nulli potest Deus aliquid communicare, 
+      <lb ed="#T" n="73"/>cui non communicat esse: ergo cum multis 
+      <lb ed="#T" n="74"/>multa communicet, communicat eis esse: ergo 
+      <lb ed="#T" n="75"/>non retinet esse vt proprium. 
+    </p>
+               <p xml:id="pdt7y6-e21074-d1e192">
+                  <lb ed="#T" n="76"/>Contra. 1. Nulla res sibi appropriat, quod sibi  
+      <lb ed="#T" n="77"/>proprium non est: sed Deus hoc nomen, qui  
+      <lb ed="#T" n="78"/>est, sibi appropriat dicens haec dices filijs Israel, 
+      <lb ed="#T" n="79"/>qui est mnit me ad vos. EXxod. 3. Ergo sibi 
+      pro<lb ed="#T" n="80" break="no"/>prium est, 
+    </p>
+               <p xml:id="pdt7y6-e21074-d1e205">
+                  <lb ed="#T" n="81"/>2. Hilar. Esse non est accidens Deo, sed 
+      sub<lb ed="#T" n="82" break="no"/>sistens veritas, &amp; manens causa, &amp; naturalis 
+      ge<lb ed="#T" n="83" break="no"/>neris proprietas. 
+      <lb ed="#T" n="84"/>Respondeo. Proprium aliquid alicuius 
+      duplici<lb ed="#T" n="85" break="no"/>ter potest dici, vel quod non habet cum alio, vel 
+      <lb ed="#T" n="86"/>quod non habet ab alio. Primo modo risibile. 
+      <lb ed="#T" n="87"/>dicitur proprium hominis: secundo modo 
+      pec<lb ed="#T" n="88" break="no"/>catum suum. Primo modo esse non est Deo 
+      <lb ed="#T" n="89"/>proprium: sed secundo modo. Si obiiciatur 
+      so<lb ed="#T" n="90" break="no"/>lus pater non est ab alio. Resp. Quamuis soli 
+      <lb ed="#T" n="91"/>Patri proprium sit non esse ab alio masculine &amp; 
+      <lb ed="#T" n="92"/>originaliter, tamen non esse ab alio neutraliter,  
+      <lb ed="#T" n="93"/>&amp; causaliter, commune est toti Trinitati¬ 
+    </p>
+               <p xml:id="pdt7y6-e21074-d1e236">
+                  <lb ed="#T" n="94"/>Ad ea quae opponuntur patet per hanc distina 
+      <lb ed="#T" n="95"/>ctionem. Vel dicendum, quod esse, siue qui est, 
+      <lb ed="#T" n="96"/>potest dupliciter accipi: vel simpliciter &amp; 
+      abso<lb ed="#T" n="97" break="no"/>lute, sic non est Deo proprium: vel cum 
+      praeci<lb ed="#T" n="98" break="no"/>sione, id est, nulio addito, sic est proprium Deo, 
+      <lb ed="#T" n="99"/>quia in solo Deo esse non contrahitur seu 
+      deter<lb ed="#T" n="100" break="no"/>minatur per aliquid additum, quia totum quod 
+      <lb ed="#T" n="101"/>in ipso est, est esse suum praecisissimum; in alijs 
+      <lb ed="#T" n="102"/>vero rebus aliter est. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e21074-Dd1e259">
+               <head xml:id="pdt7y6-e21074-Hd1e261">Articulus 2</head>
+               <head xml:id="pdt7y6-e21074-Hd1e263" type="question-title">
+  An esse Dei sit esse commane omnium creturarum
+</head>
+               <p xml:id="pdt7y6-e21074-d1e266">
+                  <lb ed="#T" n="103"/>Articvlvs II. 
+      <lb ed="#T" n="104"/>An esse Dei sit esse commane omnium creturarum. 
+    </p>
+               <p xml:id="pdt7y6-e21074-d1e273">
+                  <lb ed="#T" n="105"/>D secundum sic proceditur. 1. Dvonis. 4.1 
+      <lb ed="#T" n="106"/>cap. cael. hier. Esse omnium est 
+      supersub<lb ed="#T" n="107" break="no"/>stantialis Deitas. 
+    </p>
+               <p xml:id="pdt7y6-e21074-d1e282">
+                  <lb ed="#T" n="108"/>2. Omnis creatura est per aliud, non per se: 
+      <lb ed="#T" n="109"/>esse vero est non per aliud, sed per se, alioquin 
+      <lb ed="#T" n="110"/>esset abire in infinitum: ergo esse non est 
+      crea<lb ed="#T" n="111" break="no"/>tura. 
+    </p>
+               <p xml:id="pdt7y6-e21074-d1e294">
+                  <lb ed="#T" n="112"/>3. Quaecumque sunt, &amp; nullo modo differunt 
+      <lb ed="#T" n="113"/>idem sunt: esse rei, &amp; esse Dei sunt, &amp; nullo 
+      mo<lb ed="#T" n="114" break="no"/>do differunt, quia si differunt, aliquo differunt, 
+      <lb ed="#T" n="115"/>&amp; ita vtrumque compositum esset, quod salsum, 
+      <lb ed="#T" n="116"/>est: ergo idem sunt.
+    </p>
+               <p xml:id="pdt7y6-e21074-d1e307">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0147.xml-->
+                  <pb ed="#T" n="72"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>Contra. 1. Dicit Philosophus lib. de causis 
+      <lb ed="#T" n="2"/>Causa prima regit omnes res, praeter quod 
+      co<lb ed="#T" n="3" break="no"/>misceatur: Sed nihil tam commiscetur cuilibet 
+      <lb ed="#T" n="4"/>rei, quam esse suum: ergo esse cuiuslibet rei non 
+      <lb ed="#T" n="5"/>est esse Diuinum. 
+    </p>
+               <p xml:id="pdt7y6-e21074-d1e327">
+                  <lb ed="#T" n="6"/>2. Non est idem esse per essentiam, &amp; esse 
+      per<lb ed="#T" n="7" break="no"/>parti cipationem: quia in primo nulla 
+      differen<lb ed="#T" n="8" break="no"/>tia; in secundo multa; cum vnum quodque in 
+      <lb ed="#T" n="9"/>participante sit secundum differentias 
+      partici<lb ed="#T" n="10" break="no"/>pantium: cum ergo esse Dei sit per essentiam, 
+      <lb ed="#T" n="11"/>esse creaturatum per participationem, non est 
+      <lb ed="#T" n="12"/>idem esse Dei, &amp; creaturarum esse 
+    </p>
+               <p xml:id="pdt7y6-e21074-d1e345">
+                  <lb ed="#T" n="13"/>3. Non est idem mutabile &amp; imnmutabile, 
+      tem<lb ed="#T" n="14" break="no"/>porale, &amp; aeternum: ergo nec esse creaturarum. 
+      <lb ed="#T" n="15"/>&amp; Dei. 
+    </p>
+               <p xml:id="pdt7y6-e21074-d1e354">
+                  <lb ed="#T" n="16"/>Respondeo. Esse Dei est esse omnium, non for 
+      <lb ed="#T" n="17"/>maliter seu essentialiter, sed effectiue, seu 
+      causa<lb ed="#T" n="18" break="no"/>liter, quia causa est eius non per modum causantis 
+      <lb ed="#T" n="19"/>aequiuoci, quod nec nomine, nec ratione 
+      con<lb ed="#T" n="20" break="no"/>uenit cum causato, vt sol causa est inferiorum. 
+      <lb ed="#T" n="21"/>nec per modum causantis vniuoci, quod 
+      nomi<lb ed="#T" n="22" break="no"/>ne, &amp; diffinitione, seu ratione conuenit cum 
+      <lb ed="#T" n="23"/>causato, vt homo generans cum homine genito; 
+      <lb ed="#T" n="24"/>sed per modum causantis analogi, quod conue 
+      <lb ed="#T" n="25"/>nit etiam cum causato nomine &amp; proportione 
+      <lb ed="#T" n="26"/>quadam secundum prius &amp; posterius, sicut ens 
+      <lb ed="#T" n="27"/>substantiae &amp; accidenti, vel sanum medicinae 
+      <lb ed="#T" n="28"/>&amp; animali¬ 
+    </p>
+               <p xml:id="pdt7y6-e21074-d1e385">
+                  <lb ed="#T" n="29"/>Ad 1. De Dyonis. Resp. Loquitur per 
+      cau<lb ed="#T" n="30" break="no"/>sam, non per essentiam. 
+    </p>
+               <p xml:id="pdt7y6-e21074-d1e393">
+                  <lb ed="#T" n="31"/>Ad 2. Esse non est per aliud Resp. Non est. 
+      <lb ed="#T" n="32"/>pei aliud formaliter, est tamen peraliud 
+      efficien<lb ed="#T" n="33" break="no"/>ter, scilicet per esse diuinum, 
+    </p>
+               <p xml:id="pdt7y6-e21074-d1e402">
+                  <lb ed="#T" n="34"/>Ad 3. De differentia. Resp. Prima rerum 
+      prin<lb ed="#T" n="35" break="no"/>cipia, sicut prima materia, &amp; prima forma in 
+      ge<lb ed="#T" n="36" break="no"/>nere naturae, &amp; sicut differentiae primae in genere 
+      <lb ed="#T" n="37"/>rationis sicut corporeum &amp; incorporeum in 
+      <lb ed="#T" n="38"/>praedicamento substantiae, quamuis differant; 
+      sci<lb ed="#T" n="39" break="no"/>psis tamen differunt: vnde non propter hoc 
+      se<lb ed="#T" n="40" break="no"/>quitur, quod sint composita: quae vero 
+      sequun<lb ed="#T" n="41" break="no"/>tur ex primis per differentias aliquas differunt. 
+      <lb ed="#T" n="42"/>&amp; ideo composita sunt: esse ergo creatum &amp; esse 
+      <lb ed="#T" n="43"/>increatum seipsis, cum sint prima, differunt: nec 
+      <lb ed="#T" n="44"/>tamen composita sunt ex alijs: prima quippe 
+      <lb ed="#T" n="45"/>rerum creatarum est esse, &amp; non est ante ipsum 
+      <lb ed="#T" n="46"/>creatum latius eo, vt dicitur libro de causis. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

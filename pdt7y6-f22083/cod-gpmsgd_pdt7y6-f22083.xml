@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="397"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-f22083"><!-- l1d48q3 -->
+            <head xml:id="pdt7y6-f22083-Hd1e99">Quaestio 3</head>
+            <head xml:id="pdt7y6-f22083-Hd1e101" type="question-title">De casibus specialibus circa conformitatem voluntatis humanae ad divinam</head>
+            <p xml:id="pdt7y6-f22083-d1e104">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0472.xml-->
+               <pb ed="#T" n="397"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>QVESTIO III. 
+      <lb ed="#T" n="2"/>DE QVIBVSDAM CASiBVS SPIRI. 
+      <lb ed="#T" n="3"/>TVALIBVS CIRCA CONEORMITATEN 
+      <lb ed="#T" n="4"/>VOLVNTATIS HVMANAE 
+      <lb ed="#T" n="5"/>AD DIVINAM. 
+    </p>
+            <p xml:id="pdt7y6-f22083-d1e124">
+               <lb ed="#T" n="6"/>CIrca tertium problema quaeruntur duo. 
+      <lb ed="#T" n="7"/>Primo si sancti debuerunt velle passionem 
+      <lb ed="#T" n="8"/>Christi.
+      <lb ed="#T" n="9"/>Secundo si sancti volunt poenas reproborum. 
+    </p>
+            <div xml:id="pdt7y6-f22083-Dd1e135">
+               <head xml:id="pdt7y6-f22083-Hd1e137">Articulus 1</head>
+               <head xml:id="pdt7y6-f22083-Hd1e139" type="question-title">
+  An sancti debuerunt velle passionem Christi
+</head>
+               <p xml:id="pdt7y6-f22083-d1e142">
+                  <lb ed="#T" n="10"/>Articvlvs I. 
+      <lb ed="#T" n="11"/>An sancti debuerunt velle passionem Christi. 
+    </p>
+               <p xml:id="pdt7y6-f22083-d1e149">
+                  <lb ed="#T" n="12"/>AD primum sic proceditur. 1. Dolor est, ait 
+      <lb ed="#T" n="13"/>Augustinus, de ijs quae nobis 
+      nolentibu<lb ed="#T" n="14" break="no"/>accidum: sed Beata Virgo &amp; Apostoli de mor 
+      <lb ed="#T" n="15"/>te Christi doluerunt: ergo eam noluerunt.  
+    </p>
+               <p xml:id="pdt7y6-f22083-d1e160">
+                  <lb ed="#T" n="16"/>2. Quilibet tenetur velle, si posset, 
+      innocen<lb ed="#T" n="17" break="no"/>tem a inorte liberare: ergo tenetur illum velle 
+      li<lb ed="#T" n="18" break="no"/>berari: ergo ipsum non inori¬ 
+    </p>
+               <p xml:id="pdt7y6-f22083-d1e170">
+                  <lb ed="#T" n="19"/>3. Consentire male volentibus malum est: sed  
+      <lb ed="#T" n="20"/>qui consentiebat Chrisium pati, consentiebat,  
+      <lb ed="#T" n="21"/>Iudaeis ina e volentibus: ergo peccabat.  
+    </p>
+               <p xml:id="pdt7y6-f22083-d1e179">
+                  <lb ed="#T" n="22"/>Contra. 1. Sancti volunt quod sciunt Deum 
+      <lb ed="#T" n="23"/>velle: sciebant autem per scripturas Deum velle 
+      <lb ed="#T" n="24"/>pati Christum: ergo hoc volebant  
+    </p>
+               <p xml:id="pdt7y6-f22083-d1e188">
+                  <lb ed="#T" n="25"/>2. Matth. 16. Petrus nolendo passionem 
+      Chri<lb ed="#T" n="26" break="no"/>sti est Satanas appellatus: ergo malum erat hoc 
+      <lb ed="#T" n="27"/>nolle. 
+    </p>
+               <p xml:id="pdt7y6-f22083-d1e197">
+                  <lb ed="#T" n="28"/>Iuxta hoc quaeritur, si Diabolus voluit pat 
+      <lb ed="#T" n="29"/>Christum. 
+    </p>
+               <p xml:id="pdt7y6-f22083-d1e204">
+                  <lb ed="#T" n="30"/>Videtur quod non. 1. Super illud Matth. 27 
+      <lb ed="#T" n="31"/>Misit ad eum vxor eius, dicit Glos. quod 
+      Dia<lb ed="#T" n="32" break="no"/>bolus voluit per mulierem liberare Christum, ne 
+      <lb ed="#T" n="33"/>per mortem cius amitteret mortis imperium: er 
+      <lb ed="#T" n="34"/>go nolebat cum pati 
+    </p>
+               <p xml:id="pdt7y6-f22083-d1e217">
+                  <lb ed="#T" n="35"/>2. Petrus nolendo Christum pati, Satanae 
+      si<lb ed="#T" n="36" break="no"/>milis reputatus fuit Matth. 10. Ergo Satanas 
+      <lb ed="#T" n="37"/>nolebat Christum pati. 
+    </p>
+               <p xml:id="pdt7y6-f22083-d1e227">
+                  <lb ed="#T" n="38"/>Contra. 1. Dicit ulagister quod idem 
+      volune<lb ed="#T" n="39" break="no"/>runt Iudaei &amp; Diabolus: ergo Diabolus voluit 
+      <lb ed="#T" n="40"/>Christum pati. 
+    </p>
+               <p xml:id="pdt7y6-f22083-d1e236">
+                  <lb ed="#T" n="41"/>2. Ipse totum procurauit intrando in cor 
+      Iu<lb ed="#T" n="42" break="no"/>dae, Ioan. 13. ergo voluit. 
+    </p>
+               <p xml:id="pdt7y6-f22083-d1e243">
+                  <lb ed="#T" n="43"/>Respondeo ad primum. Passionem Christi, 
+      <lb ed="#T" n="44"/>vel sanctorum, est considerare dupliciter: vel 
+      se<lb ed="#T" n="45" break="no"/>cundum se &amp; absolute inquantum passio est: ve 
+      <lb ed="#T" n="46"/>in comparatiose ad finem. Primo modo habet  
+      <lb ed="#T" n="47"/>rationem mali per comparationem ad 
+      nocu<lb ed="#T" n="48" break="no"/>mentum naturae patientis, &amp; sic noluerunt san 
+      <lb ed="#T" n="49"/>cti passionem Christi, sed Iudaei voluerunt: 
+      se<lb ed="#T" n="50" break="no"/>cundo modo habet rationem boni per 
+      compara<lb ed="#T" n="51" break="no"/>tionem ad redemptionem mundi, vel 
+      vtilitatem<lb ed="#T" n="52" break="no"/>Ecclesiae, &amp; gloriam patientis, &amp; sic voluerunt,  
+      <lb ed="#T" n="53"/>eam sancti, &amp; sic Iudaei noluerunt,  
+    </p>
+               <p xml:id="pdt7y6-f22083-d1e269">
+                  <lb ed="#T" n="54"/>Ad 1. Augustini. Resp. Loquitur de 
+      volun<lb ed="#T" n="55" break="no"/>tate naturali qua nolebant Apostoli pati 
+      Chri<lb ed="#T" n="56" break="no"/>stum, non deliberatiua 
+    </p>
+               <p xml:id="pdt7y6-f22083-d1e278">
+                  <lb ed="#T" n="57"/>Ad 2. Deliberatione innocentis. Resp. Hoc 
+      <lb ed="#T" n="58"/>est verum de innocente qui inuite patitur: sed  
+      <lb ed="#T" n="59"/>Christus voluntarie pro liberatione nocentium. 
+      <lb ed="#T" n="60"/>patiebatur. 
+    </p>
+               <p xml:id="pdt7y6-f22083-d1e289">
+                  <lb ed="#T" n="61"/>Ad 3 Consentire male volentibus &amp;c. Resp. 
+      <lb ed="#T" n="62"/>Consentire eis in malo volito malum est: sed in 
+      <lb ed="#T" n="63"/>aliquo bono quod sequitur ex opere eorum, non 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0472.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="64"/>ex malo enim potest sequi bonum. 
+    </p>
+               <p xml:id="pdt7y6-f22083-d1e306">
+                  <lb ed="#T" n="65"/>Ad 2. Quaest De Diabolo. Resp. A 
+      prin<lb ed="#T" n="66" break="no"/>cipio voluit: circa finem noluit, quia per aliqua 
+      <lb ed="#T" n="67"/>signa effectum passionis coniecturauit. 
+    </p>
+               <p xml:id="pdt7y6-f22083-d1e315">
+                  <lb ed="#T" n="68"/>Ad 1. De Gloss. Resp. Loquitur pro statu ille. 
+      <lb ed="#T" n="69"/>in quo iam sibi damnum imininere ex Christ. 
+      <lb ed="#T" n="70"/>passione praeuidebat, forte ex aliqua 
+      exultatio<lb ed="#T" n="71" break="no"/>ne insolita Patrum in inferno existentium. 
+    </p>
+               <p xml:id="pdt7y6-f22083-d1e326">
+                  <lb ed="#T" n="72"/>Ad 2. De Petro. Resp. Petrus comparatus 
+      <lb ed="#T" n="73"/>est Satanae, non quoad volitum: sed quoad id 
+      <lb ed="#T" n="74"/>quod consequebatur ex volito, scilicet 
+      impedi<lb ed="#T" n="75" break="no"/>mentum salutis humai generis. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f22083-Dd1e339">
+               <head xml:id="pdt7y6-f22083-Hd1e341">Articulus 2</head>
+               <head xml:id="pdt7y6-f22083-Hd1e343" type="question-title">
+  An sancti velint poenam reproborum
+</head>
+               <p xml:id="pdt7y6-f22083-d1e346">
+                  <lb ed="#T" n="76"/>Articvlvs II. 
+      <lb ed="#T" n="77"/>An sancti velint poenam reproborum.
+</p>
+               <p xml:id="pdt7y6-f22083-d1e353">
+                  <lb ed="#T" n="78"/>In secundum articulum proceditur sic. 1. 
+      <lb ed="#T" n="79"/>Dicit Bernardus lib. de consideratione, 
+      <lb ed="#T" n="80"/>quod angeli etsi sunt impassibiles, non 
+      incom<lb ed="#T" n="81" break="no"/>passibiles: ergo &amp; sancti similiter: ergo 
+      compa<lb ed="#T" n="82" break="no"/>tiuntur poenis reproborum: ergo nolunt eas 
+    </p>
+               <p xml:id="pdt7y6-f22083-d1e366">
+                  <lb ed="#T" n="83"/>2. deliderare poenam alterius, est malignitatis: 
+      <lb ed="#T" n="84"/>sancti vero habent spiritum benignitatis e ergo 
+      <lb ed="#T" n="85"/>non desiderant poenam alterius. 
+    </p>
+               <p xml:id="pdt7y6-f22083-d1e376">
+                  <lb ed="#T" n="86"/>3. Super illud Psal. Conuertantur peccatores 
+      <lb ed="#T" n="87"/>in infernum. Glos. Praedicentis vox est, non 
+      <lb ed="#T" n="88"/>optantis: ergo sancti nolunt danmnationem res 
+      <lb ed="#T" n="89"/>proborum. 
+    </p>
+               <p xml:id="pdt7y6-f22083-d1e387">
+                  <lb ed="#T" n="90"/>Contra 1. Sancti volunt quod sciunt Deum 
+      <lb ed="#T" n="91"/>velle: sed sciunt cum velle poenas reproborum: 
+      <lb ed="#T" n="92"/>ergo volunt eas 
+    </p>
+               <p xml:id="pdt7y6-f22083-d1e396">
+                  <lb ed="#T" n="93"/>2. Psal. Laetabitur iustus cum viderit 
+      vindi<lb ed="#T" n="94" break="no"/>ctam &amp;c. ergo gaudet de poenis reproborum 
+    </p>
+               <p xml:id="pdt7y6-f22083-d1e403">
+                  <lb ed="#T" n="95"/>Respondeo. Possunt sancti &amp; reprobi 
+      compa<lb ed="#T" n="96" break="no"/>rari quadrupliciter. Loquendo enim de sanctis 
+      <lb ed="#T" n="97"/>&amp; reprobis in via, sic debent velle eorum 
+      salu<lb ed="#T" n="98" break="no"/>tem, nisi foret eis reuelata ipforum damnatio 
+      <lb ed="#T" n="99"/>&amp; tunc deberent adhuc corum salutem velle, 
+      <lb ed="#T" n="100"/>saltem voluntate conditionata, licet non 
+      abso<lb ed="#T" n="101" break="no"/>luta. Loquendo de sanctis in coelo, &amp; reprobis in 
+      <lb ed="#T" n="102"/>inferno sancti volunt absolute damnationem 
+      <lb ed="#T" n="103"/>eorum per comparationem ad iustitiam 
+      punien<lb ed="#T" n="104" break="no"/>tis, non ad naturam sustinentis. Loquendo de 
+      <lb ed="#T" n="105"/>sanctis in coelo &amp; reprobis in mundo, sancti 
+      ab<lb ed="#T" n="106" break="no"/>solute volunt salutem eorum, nisi eorum 
+      quo<lb ed="#T" n="107" break="no"/>rum est sibi reuelata damnatio. Loquedo de 
+      sun<lb ed="#T" n="108" break="no"/>ctis in mundo &amp; reprobis in inferno, sancti 
+      vo<lb ed="#T" n="109" break="no"/>lunt absolute eorum damnationem per 
+      compa<lb ed="#T" n="110" break="no"/>rationem ad iustitiam punientis, possunt tamen 
+      <lb ed="#T" n="111"/>compati eis per comparationem ad naturam 
+      pa<lb ed="#T" n="112" break="no"/>tientis. 
+    </p>
+               <p xml:id="pdt7y6-f22083-d1e445">
+                  <lb ed="#T" n="113"/>Ad 1. angeli non sunt incompassibiles. Resp. 
+      <lb ed="#T" n="114"/>Compassio habet duo, scilicet voluntatem 
+      sub<lb ed="#T" n="115" break="no"/>ueniendi, &amp; passionem annexam: quoad 
+      secun<lb ed="#T" n="116" break="no"/>dum non est compassio in angelis: quoad 
+      pri<lb ed="#T" n="117" break="no"/>mum est in eis compassio respectu eorum 
+      qui<lb ed="#T" n="118" break="no"/>bus potest subueniri, scilicet corum qui sunt in 
+      <lb ed="#T" n="119"/>mundo, vel in Purgatorio: sed non respectu 
+      <lb ed="#T" n="120"/>eorum quibus non potest subueniri, quales sunt,  
+      <lb ed="#T" n="121"/>damnati in inferno 
+    </p>
+               <p xml:id="pdt7y6-f22083-d1e467">
+                  <lb ed="#T" n="122"/>Ad 2. Optare poenam alterius &amp;c. Resp. Hoc 
+      <lb ed="#T" n="123"/>verum est quando optatur vt poena, id est 
+      eclo<lb ed="#T" n="124" break="no"/>vindictae, non amore iustitiae, 
+    </p>
+               <p xml:id="pdt7y6-f22083-d1e477">
+                  <lb ed="#T" n="125"/>Ad 3. Non est vox optantis. Resp. Loquitur  
+      <lb ed="#T" n="126"/>ibi de peccatoribus existentibus in via, id est in 
+      <lb ed="#T" n="127"/>mundo: non in termino viae, id est in inferno.
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f22083-Dd1e487">
+               <head xml:id="pdt7y6-f22083-Hd1e489">Expositio litterae</head>
+               <p xml:id="pdt7y6-f22083-d1e491">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0473.xml-->
+                  <pb ed="#T" n="398"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>EXPOSITIO LITERE. 
+      <lb ed="#T" n="2"/>Actio Iudaeorum fuit mala.] Contra. Actio 
+      <lb ed="#T" n="3"/>fuit causa immediata passionis, quae 
+      bo<lb ed="#T" n="4" break="no"/>na fuit. Resp. Actio Iudaeorum fuit causa 
+      im<lb ed="#T" n="5" break="no"/>mediata passionis in genere naturae, &amp; sic erat 
+      <lb ed="#T" n="6"/>mala: non in genere moris, &amp; sic erat bona. 
+    </p>
+               <p xml:id="pdt7y6-f22083-d1e513">
+                  <lb ed="#T" n="7"/>Voluit Christum pati.] Contra. Deus non 
+      <lb ed="#T" n="8"/>vult mala. Resp. Deus volebat passionem in 
+      <lb ed="#T" n="9"/>comparatione ad sustinentem, &amp; sic erat bona, 
+      <lb ed="#T" n="10"/>non ad inferentem: nam Christum passionem 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0473.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="11"/>illatam a Iudaeis sustinere, erat bonum: sed 
+      Chri<lb ed="#T" n="12" break="no"/>sto passionem a Iudaeis inferri erat malum. 
+    </p>
+               <p xml:id="pdt7y6-f22083-d1e533">
+                  <lb ed="#T" n="13"/>Vt Petrus Apostolus, qui illud nolebat. 1 
+      <lb ed="#T" n="14"/>Contra. Similiter Beata Virgo nolebat 
+      Chri<lb ed="#T" n="15" break="no"/>stum pati. Resp. Imo volebat Christum 
+      pati<lb ed="#T" n="16" break="no"/>voluntate rationis deliberantis absoluta, licet  
+      <lb ed="#T" n="17"/>nollet voluntate naturali: Petrus autem, qui 
+      vo<lb ed="#T" n="18" break="no"/>lebat contrarium voluntate rationis 
+      deliberan<lb ed="#T" n="19" break="no"/>tis absoluta, redargutus est: quia volebat 
+      im<lb ed="#T" n="20" break="no"/>pedimentum tanti boni per quod genus 
+      huma<lb ed="#T" n="21" break="no"/>num redemptum est praestante eo redemptore. 
+      <lb ed="#T" n="22"/>qui est benedictus in saecula Amen. 
+   </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="102"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e30956"><!-- l1d12q1 -->
+            <head xml:id="pdt7y6-e30956-Hd1e99">Quaestio 1</head>
+            <head xml:id="pdt7y6-e30956-Hd1e101" type="question-title">De ordine processionis Spiritus Sancti</head>
+            <p xml:id="pdt7y6-e30956-d1e104">
+               <lb ed="#T" n="45"/>QVESTIO VNICA. 
+      <lb ed="#T" n="46"/>DE ORDINE PROCESSIONIS 
+      <lb ed="#T" n="47"/>SpiRITVS SANCTI. 
+</p>
+            <p xml:id="pdt7y6-e30956-d1e113">
+               <lb ed="#T" n="48"/>QVaeruntur hic quatuor.  
+      <lb ed="#T" n="49"/>
+               <!--line coord error -->
+            </p>
+            <p xml:id="pdt7y6-e30956-d1e122">
+               <lb ed="#T" n="50"/>Primo, an Spiritus sanctus prius 
+      proce<lb ed="#T" n="51" break="no"/>dat a Patre, quam a Filio. 
+      <lb ed="#T" n="52"/>Secundo, an magis vel plenius ab vno, quam 
+      <lb ed="#T" n="53"/>ab alio. 
+      <lb ed="#T" n="54"/>Tertio, an aeque immediate ab vtroque. 
+      <lb ed="#T" n="55"/>Quarto, au eadem virtus spiratiua, quae est in 
+      <lb ed="#T" n="56"/>eis, sit etiam in Spiritu sancto.
+    </p>
+            <div xml:id="pdt7y6-e30956-Dd1e141">
+               <head xml:id="pdt7y6-e30956-Hd1e143">Articulus 1</head>
+               <head xml:id="pdt7y6-e30956-Hd1e145" type="question-title">
+  An Spiritus sanctus prius procedat a Patro quam a Filio. 
+</head>
+               <p xml:id="pdt7y6-e30956-d1e148">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0177.xml-->
+                  <cb ed="#T" n="c"/>
+                  <lb ed="#T" n="57"/>ARTICVLVS I. 
+      <lb ed="#T" n="58"/>An Spiritus sanctus prius procedat a Patro. 
+      <lb ed="#T" n="59"/>quam a Filio. 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e161">
+                  <lb ed="#T" n="60"/>AD primum proceditur sic. 1. Spiritus 
+      san<lb ed="#T" n="61" break="no"/>ctus procedit a Patre: aut ergo iam nato 
+      Fi<lb ed="#T" n="62" break="no"/>lio, &amp; ita Filius prior est Spiritu sancto, aut non 
+      <lb ed="#T" n="63"/>nato, &amp; ita Spiritus sanctus prius procedit a 
+      Pa<lb ed="#T" n="64" break="no"/>tre, quam a Filio. 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e174">
+                  <lb ed="#T" n="65"/>2. Prius est commune, quam proprium: ergo 
+      <lb ed="#T" n="66"/>quod inest alicui secundum commune, prius 
+      <lb ed="#T" n="67"/>inest, quam quod inest secundum proprium: 
+      spi<lb ed="#T" n="68" break="no"/>rare Spiritum sanctum inest Patri secundum 
+      <lb ed="#T" n="69"/>communem notionem cum Filio; generare 
+      Fi<lb ed="#T" n="70" break="no"/>liam secundam propriam: ergo prius inest ei 
+      <lb ed="#T" n="71"/>actus spirandi quam generandi: ergo spiratio 
+      <lb ed="#T" n="72"/>Spiritus a Patre prior est quam Filij generatio: 
+      <lb ed="#T" n="73"/>ergo prius procedit a Patre, quam a Filio. 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e197">
+                  <lb ed="#T" n="74"/>3. Causa prima seu principium primum est 
+      il<lb ed="#T" n="75" break="no"/>lud. in quo est prima influentia, &amp; vltimus 
+      sta<lb ed="#T" n="76" break="no"/>tus, ad quod omnia reducuntur, quod agit  
+      <lb ed="#T" n="77"/>non ab alio: sed solus Pater est huiusmodi: ergo 
+      <lb ed="#T" n="78"/>ipse solus est prima causa vel principium: sed  
+      <lb ed="#T" n="79"/>omne quod procedit a causa prima, &amp; ab 
+      ali<lb ed="#T" n="80" break="no"/>qua altera, prius procedit a prima: ergo Spiritus 
+      <lb ed="#T" n="81"/>sanctus prius procedit a Patre quam a Filio. 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e217">
+                  <lb ed="#T" n="82"/>4. Pater est principium non de principio: 
+      Fi<lb ed="#T" n="83" break="no"/>sius principium de principio: sed naturaliter 
+      <lb ed="#T" n="84"/>prius agit &amp; producit principium sine 
+      principio<lb ed="#T" n="85" break="no"/>quam principium de principio: ergo quicquid a 
+      <lb ed="#T" n="86"/>Patre &amp; Filio producitur, producitur prius a 
+      <lb ed="#T" n="87"/>Patre, quam a Filio. 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e233">
+                  <lb ed="#T" n="88"/>5. Hylar. in iquadem notula, quae ab 
+      aliqui<lb ed="#T" n="89" break="no"/>bus solet hic poni, dicit quod Filius consequi¬ &amp; 
+      <lb ed="#T" n="90"/>tur Patrem, &amp; Spiritus sanctus vtrumque: cum 
+      <lb ed="#T" n="91"/>ergo omnis effectus prius prodedat a causa prio¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0178.xml-->
+      <pb ed="#T" n="103"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>ri quam a posteriori, Spiritus sanctus prius 
+      pro<lb ed="#T" n="2" break="no"/>cedit a Patre, quam a Filio. 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e255">
+                  <lb ed="#T" n="3"/>Contra. 1. Ansel. lib. de process. Spiritus 
+      <lb ed="#T" n="4"/>sancti. In Deo nihil aut natura aut tempore prius 
+      <lb ed="#T" n="5"/>vel posterius, aut maius aut minus. 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e264">
+                  <lb ed="#T" n="6"/>2. In vno non est prius &amp; posterius: Spiritus 
+      <lb ed="#T" n="7"/>sanctus procedit a Patre &amp; Filio, secundum 
+      <lb ed="#T" n="8"/>quod sunt vnum: ergo non secundum prius &amp; 
+      <lb ed="#T" n="9"/>postenius. 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e275">
+                  <lb ed="#T" n="10"/>3. Athanasius dicit, quod in Trinitate nihil 
+      <lb ed="#T" n="11"/>prius aut posterius, nihil maius aut minus, 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e283">
+                  <lb ed="#T" n="12"/>Respondeo. In Diuinis secundum 
+      Augusti<lb ed="#T" n="13" break="no"/>num est solus ordo naturae, scilicet secundum 
+      <lb ed="#T" n="14"/>priginem, quo vnus est ex alio: non ordo 
+      secun<lb ed="#T" n="15" break="no"/>dum prius &amp; posterius, quo vnus sit prior altero: 
+      <lb ed="#T" n="16"/>vnde Pater Filio, aut Spiritu sancto nullo 
+      mo<lb ed="#T" n="17" break="no"/>do prior est, nec e conuerso; nec Spiritus 
+      san<lb ed="#T" n="18" break="no"/>ctus a Patre prius procedit, quam a Filio, nec e 
+      <lb ed="#T" n="19"/>conuerso, quia secundum naturam idem sunt,  
+      <lb ed="#T" n="20"/>secundum proprietates personales correlatiue 
+      <lb ed="#T" n="21"/>se habent. 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e307">
+                  <lb ed="#T" n="22"/>Ad 1. Aut iam nato. Resp. Non est sufficiens 
+      <lb ed="#T" n="23"/>diuisio, quia quamuis natum &amp; non natum 
+      op<lb ed="#T" n="24" break="no"/>ponantur contradictorie; non tamen procedere 
+      <lb ed="#T" n="25"/>iam nato Filio, aut non nato: sicut quamuis 
+      ho<lb ed="#T" n="26" break="no"/>mo&amp; non homo opponantur contradictorie, non 
+      <lb ed="#T" n="27"/>tamen esse album hominem, aut album non 
+      ho<lb ed="#T" n="28" break="no"/>minem: neutrum ergo dandum est. Et est simile 
+      <lb ed="#T" n="29"/>si dicatur splendor procedit ab igne: aut ergo 
+      <lb ed="#T" n="30"/>iam orto calore, aut nondum orto: vtrumque 
+      <lb ed="#T" n="31"/>enim falsum est; sed simul dum oritur  
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e331">
+                  <lb ed="#T" n="32"/>Ad 2. Prius est commune &amp;c. Resp. Habet  
+      <lb ed="#T" n="33"/>verum, vbi commune includitur in ratione 
+      pro<lb ed="#T" n="34" break="no"/>prij, sicut essentiale sibi; non vbi non 
+      inclu<lb ed="#T" n="35" break="no"/>ditur: vnde prius est esse animal, quam 
+      homi<lb ed="#T" n="36" break="no"/>nem, non tamen esse album, quam esse hominem, 
+      <lb ed="#T" n="37"/>quamuis esse album sit communius: spiratio vero 
+      <lb ed="#T" n="38"/>non includitur in ratione generationis; vnde non 
+      <lb ed="#T" n="39"/>oportet quod sit prior quamuis communior. 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e351">
+                  <lb ed="#T" n="40"/>Ad 3. Solus Pater est causa prima. Resp. In 
+      <lb ed="#T" n="41"/>causis agentibus per essentiam &amp; virtutes 
+      diuer<lb ed="#T" n="42" break="no"/>sas, prioritas est &amp; posterioritas: sed in causis 
+      <lb ed="#T" n="43"/>agentibus per essentiam eandem&amp; virtutem, non 
+      <lb ed="#T" n="44"/>sic autem causant Pater &amp; Filius &amp; Spiritus 
+      <lb ed="#T" n="45"/>sanctus, sic &amp; spirant Pater &amp; Filius, vnde non 
+      <lb ed="#T" n="46"/>est ibi prioritas, quia non est ibi influentia prima 
+      <lb ed="#T" n="47"/>&amp; secunda, sed vna &amp; eadem 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e371">
+                  <lb ed="#T" n="48"/>Ad 4. Prius naturaliter agit principium sine 
+      <lb ed="#T" n="49"/>principio &amp;c. Resp. Vbi diuersa virtus est 
+      vtrius<lb ed="#T" n="50" break="no"/>que principij, verum est hoc; non vbi vna &amp; 
+      <lb ed="#T" n="51"/>eadem. 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e382">
+                  <lb ed="#T" n="52"/>Ad 5. De Hylar. Resp. Consequentiam vocat  
+      <lb ed="#T" n="53"/>ordinem naturae inseparabilem, quo vnus ex 
+      al<lb ed="#T" n="54" break="no"/>tero, non quo vnus prior altero, 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e30956-Dd1e392">
+               <head xml:id="pdt7y6-e30956-Hd1e394">Articulus 2</head>
+               <head xml:id="pdt7y6-e30956-Hd1e396" type="question-title">
+  An magis vel plenius Spiritus sanctus procedat a 
+  Patre, quam a Filio
+</head>
+               <p xml:id="pdt7y6-e30956-d1e399">
+                  <lb ed="#T" n="55"/>Articvlvs II. 
+      <lb ed="#T" n="56"/>An magis vel plenius Spiritus sanctus procedat a 
+      <lb ed="#T" n="57"/>Patre, quam a Filio. 
+</p>
+               <p xml:id="pdt7y6-e30956-d1e408">
+                  <lb ed="#T" n="58"/>AD sEcundum articulum proceditur sic. 1. Vi 
+      <lb ed="#T" n="59"/>Ahabetur lib. de causis, omnis causa primaria 
+      <lb ed="#T" n="60"/>plus est influens in suum causatum, quam 
+      cau<lb ed="#T" n="61" break="no"/>sa secundaria: sed in productione Spiritus 
+      san<lb ed="#T" n="62" break="no"/>cti, Pater est quasi causa primaria, quia est 
+      prin<lb ed="#T" n="63" break="no"/>cipium non de principio; Filius causa 
+      secunda<lb ed="#T" n="64" break="no"/>ria, quia principium de principio: vnde&amp; 
+      Atha<lb ed="#T" n="65" break="no"/>nasius dicit quod Filius est secundus post Patre: 
+      <lb ed="#T" n="66"/>ergo &amp; plus influit ibi Pater, quam Filius: ergo 
+      <lb ed="#T" n="67"/>magis &amp; plenius procedit Spiritus sanctus a Pa¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0178.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="68"/>tre, quam a Filio. 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e439">
+                  <lb ed="#T" n="69"/>2. Propter quod vnumquodque tale, ipsum 
+      <lb ed="#T" n="70"/>magis tale, vt dicit Philosophus lib. Topie: si 
+      <lb ed="#T" n="71"/>ergo propter Patrem spirat Filius, magis spirat 
+      <lb ed="#T" n="72"/>Pater quam Filius: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e451">
+                  <lb ed="#T" n="73"/>3. Spiritus sanctus habet a Patre, quod 
+      proce<lb ed="#T" n="74" break="no"/>dat a Filio, &amp; non e conuerso: ergo plus 
+      ha<lb ed="#T" n="75" break="no"/>bet a Patre quam a Filio: ergo plus procedit 
+      <lb ed="#T" n="76"/>ab ipso. 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e462">
+                  <lb ed="#T" n="77"/>4. Filius habet a Patre, quod spiret Spiritum 
+      <lb ed="#T" n="78"/>sanctum; Pater vero a nullo: ergo magis est 
+      au<lb ed="#T" n="79" break="no"/>ctor spirationis Spiritus sancti Pater quam 
+      <lb ed="#T" n="80"/>Filius: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e473">
+                  <lb ed="#T" n="81"/>Contra. 1. Vbi est vnitas non est magis vel 
+      mi<lb ed="#T" n="82" break="no"/>nus: Pater &amp; Filius sunt vnum: ergo vnus non 
+      <lb ed="#T" n="83"/>spirat magis alio. 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e482">
+                  <lb ed="#T" n="84"/>2. Inter Patrem &amp; Filium est summa 
+      aequali<lb ed="#T" n="85" break="no"/>tas: ergo non est inter eos magis &amp; minus. 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e489">
+                  <lb ed="#T" n="86"/>3. Quamuis Filius habeat a Patre quod 
+      crea<lb ed="#T" n="87" break="no"/>tura procedat ab eo, non tamen procedit magis 
+      <lb ed="#T" n="88"/>creatura a Patre quam a Filio: ergo a simili &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e498">
+                  <lb ed="#T" n="89"/>Respondeo. Quamuis virtutem spiratiuam 
+      <lb ed="#T" n="90"/>Filius habeat a Patre, quia tamen illa vna &amp; 
+      ea<lb ed="#T" n="91" break="no"/>dem est in Patre &amp; Filio, ideo non magis 
+      proce<lb ed="#T" n="92" break="no"/>dit Spiritus a Patre quam a Filio, nec plenius, 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e510">
+                  <lb ed="#T" n="93"/>Ad 1. De causa primaria. Resp. Nec Pater  
+      <lb ed="#T" n="94"/>nec Filius proprie est causa Spiritus sancti, 
+      <lb ed="#T" n="95"/>quia, causa est id, ad cuius esse sequitur 
+      <lb ed="#T" n="96"/>aliud, vel diuersum in essentia. Cum etiam 
+      <lb ed="#T" n="97"/>eadem sit virtus causalis in vtroque, non 
+      <lb ed="#T" n="98"/>est vnus eorum causa primaria, alter secundaria 
+      <lb ed="#T" n="99"/>Ad id quod opponitur de Athanasio. Resp. 
+      In<lb ed="#T" n="100" break="no"/>telligit quod est secundus ordine originis, non 
+      <lb ed="#T" n="101"/>posterioritatis naturae, temporis, vel dignitatis 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e532">
+                  <lb ed="#T" n="102"/>Ad 2. Propter quod vnum quodque tale 
+      <lb ed="#T" n="103"/>&amp; illud magis tale. Resp. Veritaem haa 
+      <lb ed="#T" n="104"/>bett propositio vbi est ratio causalitatis, &amp; 
+      <lb ed="#T" n="105"/>causa vniuoca: tunc enim eadem specie &amp; non 
+      <lb ed="#T" n="106"/>numero qualitas est &amp; in causa &amp; causato, &amp; 
+      <lb ed="#T" n="107"/>perfectius in causa, sicut caliditas in igne &amp; alijs 
+      <lb ed="#T" n="108"/>calefactis ab igne. Hic vero nulla est causalitas, 
+      <lb ed="#T" n="109"/>sed eadem numero spiratio in Patre &amp; Filio: 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e552">
+                  <lb ed="#T" n="110"/>Ad 3. Spiritus sanctus habet a Patre &amp;c. Resp. 
+      <lb ed="#T" n="111"/>Hos non facit, quod plus habeat a Patre quam 
+      <lb ed="#T" n="112"/>a Filio, cum totum noc habeat ab vtroque; sed  
+      <lb ed="#T" n="113"/>quod ipsa spiratio aliquo modo comparatur ad 
+      <lb ed="#T" n="114"/>patrem, quo non ad Filium, quia in Filio est a 
+      <lb ed="#T" n="115"/>Patre, non e conuerso. 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e568">
+                  <lb ed="#T" n="116"/>Ad 4. Quod Filius habet a patre, quod spiret 
+      <lb ed="#T" n="117"/>Spiritum sanctum &amp;c. Resp. Non sequitur: 
+      er<lb ed="#T" n="118" break="no"/>go magis est auctor: sed, ergo aliquo alio modo 
+      <lb ed="#T" n="119"/>auctor, quia immediate &amp; mediante Filio, vt in 
+      <lb ed="#T" n="120"/>sequenti articulo patebit. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e30956-Dd1e582">
+               <head xml:id="pdt7y6-e30956-Hd1e584">Articulus 3</head>
+               <head xml:id="pdt7y6-e30956-Hd1e586" type="question-title">
+  An aeque immediate Spiritus sanctus procedat a 
+  Patre et Filio.
+</head>
+               <p xml:id="pdt7y6-e30956-d1e589">
+                  <lb ed="#T" n="121"/>Articvlvs III. 
+      <lb ed="#T" n="122"/>An aeque immediateS piritus sanctus procadat a 
+      <lb ed="#T" n="123"/>Patre&amp; Filio. 
+</p>
+               <p xml:id="pdt7y6-e30956-d1e598">
+                  <lb ed="#T" n="124"/>AD tertium articulum sic proceditur. 1. Illud 
+      <lb ed="#T" n="125"/>per quod aliquid agit est medium in 
+      actio<lb ed="#T" n="126" break="no"/>ne: sed pater per Filium spirat, vnde Hyl. 
+      Spi<lb ed="#T" n="127" break="no"/>ritum, qui ex te per vnigenitum tuum est, 
+      pro<lb ed="#T" n="128" break="no"/>merear: ergo Filius est medium in spirando: ergo 
+      <lb ed="#T" n="129"/>non ita immediate procedit a patre sicut a Filio 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e614">
+                  <lb ed="#T" n="130"/>2. Spiritus sanctus est tertia in Trinitate 
+      per<lb ed="#T" n="131" break="no"/>sona: tertium vero non exit a primo nisi per 
+      me<lb ed="#T" n="132" break="no"/>dium secundum: ergo Spiritus non exit a Patre. 
+      <lb ed="#T" n="133"/>nisi Filio mediante: ergo non aeque immediate 
+      <lb ed="#T" n="134"/>ab vtroque.
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e628">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0179.xml-->
+                  <pb ed="#T" n="104"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>3. In imagine Trinitatis amor non aeque 
+      im<lb ed="#T" n="2" break="no"/>mediate exit a mente, &amp; a notitia, sed a mente 
+      <lb ed="#T" n="3"/>mediante notitia: ergo in Trinitate Spiritus, cui 
+      <lb ed="#T" n="4"/>appropriatur amor, exit a patre mediante Filio: 
+      <lb ed="#T" n="5"/>cui appropriatur notitia. 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e648">
+                  <lb ed="#T" n="6"/>4. Nullus effectus procedit a duabus causis 
+      <lb ed="#T" n="7"/>eque immediatis eiusdem generis, granum 
+      <lb ed="#T" n="8"/>enim exit a virtute solis mediante virtute 
+      semi<lb ed="#T" n="9" break="no"/>nis: ergo a simili Spiritus sanctus non procedit 
+      <lb ed="#T" n="10"/>aeque immediate a duabus personis. 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e661">
+                  <lb ed="#T" n="11"/>5. Duorum effectuum ab eadem causa aeque 
+      <lb ed="#T" n="12"/>&amp; immediate procedentium vnus non est causa 
+      <lb ed="#T" n="13"/>alterius: si ergo Filius &amp; Spiritus sanctus aeque 
+      <lb ed="#T" n="14"/>immediate procederent, Filius non esset 
+      princi<lb ed="#T" n="15" break="no"/>pium. 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e674">
+                  <lb ed="#T" n="16"/>Contra. 1. AEque immediate procedit creaturas 
+      <lb ed="#T" n="17"/>a tribus personis proptervnam virtutem creandi: 
+      <lb ed="#T" n="18"/>ergo similiter Spiritus sanctus a duobus propter  
+      <lb ed="#T" n="19"/>vnam virtutem spirandi. 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e685">
+                  <lb ed="#T" n="20"/>2. Si non esset aeque immediata processio, non 
+      <lb ed="#T" n="21"/>esset aequalis germanitas: ergo nec aequalis 
+      di<lb ed="#T" n="22" break="no"/>lectio. 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e694">
+                  <lb ed="#T" n="23"/>Respondeo. Respiciendo ad principium, quo 
+      <lb ed="#T" n="24"/>spirant, aeque immediate procedit a patre, sicut a 
+      <lb ed="#T" n="25"/>Filio: respiciendo ad ipsos spirantes similiter 
+      <lb ed="#T" n="26"/>aeque immediate procedit a patre, sicut a Filio: 
+      <lb ed="#T" n="27"/>sed nihilominus etiam mediate procedit a patre, 
+      <lb ed="#T" n="28"/>quia non solum per se spirat, sed mediante 
+      Fi<lb ed="#T" n="29" break="no"/>lio, vt ostendit Ric. de S. Victore lib. 5. de Trin. 
+      <lb ed="#T" n="30"/>&amp; ponit exemplum, quia Abel aeque immediate 
+      <lb ed="#T" n="31"/>processit ab Adam &amp; Eua: &amp; nihilominus ab 
+      <lb ed="#T" n="32"/>Adam processit mediante Eua. 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e719">
+                  <lb ed="#T" n="33"/>Ad 1. Illud, per quod aliquid agit &amp;c. Resp. 
+      <lb ed="#T" n="34"/>Verum est vbi haec praepositio, per, notat 
+      habi<lb ed="#T" n="35" break="no"/>tudinem causalitatis vel instrumenti: sed hic 
+      no<lb ed="#T" n="36" break="no"/>tat solam habitudinem auctoritatis. 
+      Nihilomi<lb ed="#T" n="37" break="no"/>nus tamen verum est, quod Filius est medium 
+      <lb ed="#T" n="38"/>vno modo, inquantum a patre habet quod 
+      spi<lb ed="#T" n="39" break="no"/>ret: tame &amp; immediate Spiritus procedit a patre. 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e737">
+                  <lb ed="#T" n="40"/>Ad 2. De tertia persona. Resp. Verum est 
+      quan<lb ed="#T" n="41" break="no"/>do primum &amp; secundum omnino sunt diuersa in 
+      <lb ed="#T" n="42"/>nullo iuncta, &amp; secundum prius &amp; posterius or 
+      <lb ed="#T" n="43"/>dinata: sed hic Pater &amp; Filius sunt vnum in 
+      spi<lb ed="#T" n="44" break="no"/>rando. 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e750">
+                  <lb ed="#T" n="45"/>Ad 3. De Imagine. Resp. Similitudo imaginis 
+      <lb ed="#T" n="46"/>non est perfecta in omnibus, vnde non est simile 
+      <lb ed="#T" n="47"/>quoad hoc, quia mens &amp; notitia omnino sunt,  
+      <lb ed="#T" n="48"/>diuersa: sed Pater &amp; Filius sunt vnum in 
+      spi<lb ed="#T" n="49" break="no"/>rando. 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e763">
+                  <lb ed="#T" n="50"/>Ad 4. De duabus causis immediatis &amp;c. Resp. 
+      <lb ed="#T" n="51"/>Pater &amp; Filius non se habent in spirando 
+      Spiri<lb ed="#T" n="52" break="no"/>tum sanctum, vt duae causae, quia vnum sunt in 
+      <lb ed="#T" n="53"/>spirando. 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e774">
+                  <lb ed="#T" n="54"/>Ad 5. De duobus effectibus &amp;c. Resp. Hoc 
+      <lb ed="#T" n="55"/>verum est, quando procedunt ab eadem causa 
+      <lb ed="#T" n="56"/>eodem modo, aliter non:nam &amp; Eua &amp; Abel 
+      <lb ed="#T" n="57"/>processerunt immediate ab. Adam, &amp; tamen 
+      <lb ed="#T" n="58"/>Abel processit ex Eua. Vel soluendum est per 
+      in<lb ed="#T" n="59" break="no"/>teremptionem antecedentis, nam creaturae 
+      im<lb ed="#T" n="60" break="no"/>mediate procedunt a Deo, &amp; tamen inter eas 
+      <lb ed="#T" n="61"/>est ordo causalitatis. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e30956-Dd1e795">
+               <head xml:id="pdt7y6-e30956-Hd1e797">Articulus 4</head>
+               <head xml:id="pdt7y6-e30956-Hd1e799" type="question-title">
+  An virtus spirativa quae est in Patre et Filio, sit 
+  etiam in Spiritu sancto. 
+</head>
+               <p xml:id="pdt7y6-e30956-d1e802">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0179.xml-->
+                  <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="62"/>ARTICVLVS IV. 
+      <lb ed="#T" n="63"/>An virtus spiratiua, quae est in Patre &amp; Filio, sit 
+      <lb ed="#T" n="64"/>etiam in Spiritu sancto. 
+  </p>
+               <p xml:id="pdt7y6-e30956-d1e815">
+                  <lb ed="#T" n="65"/>AD quartum proceditur sic. 1. Potentia 
+      ge<lb ed="#T" n="66" break="no"/>nerandi est in Patre &amp; Filio, vt dictum est 
+      <lb ed="#T" n="67"/>supra eadem dist. 7. ergo a simili, potentia spirandi, 
+      <lb ed="#T" n="68"/>quae est in Patre &amp; Filio, est etiam in Spiritu 
+      <lb ed="#T" n="69"/>sancto. 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e828">
+                  <lb ed="#T" n="70"/>2. Potentia est de essentialibus, sicut voluntas 
+      <lb ed="#T" n="71"/>&amp; scientia: ergo omnis potentia, quae est in 
+      pa<lb ed="#T" n="72" break="no"/>tre &amp; Filio, est in Spiritu sancto 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e838">
+                  <lb ed="#T" n="73"/>3. Sicut pater diligit Filium, &amp; e conuerso; ita 
+      <lb ed="#T" n="74"/>Spiritus sanctus vtrumque: ergo sicut illi 
+      spi<lb ed="#T" n="75" break="no"/>rant amorem diligendo se: ita Spiritus sanctus. 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e847">
+                  <lb ed="#T" n="76"/>Contra. 1. Prustra est potentia sine actu: sed  
+      <lb ed="#T" n="77"/>actus spirandi non conuenit Spiritui sancto: ergo 
+      <lb ed="#T" n="78"/>nec potentia. 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e856">
+                  <lb ed="#T" n="79"/>2. Non potest inDiuinis esse nisi duplex 
+      pro<lb ed="#T" n="80" break="no"/>ductio, scilicet naturalis &amp; voluntaria: ergo nec 
+      <lb ed="#T" n="81"/>nisi duplex potentia producendi: sed neutra est 
+      <lb ed="#T" n="82"/>in Spiritu sancto, quia nullus potest produci 
+      <lb ed="#T" n="83"/>ab eo. 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e869">
+                  <lb ed="#T" n="84"/>Respondeo, potentia spirandi tripliciter potest 
+      <lb ed="#T" n="85"/>dici, secundum quod gerundiuum potest sumi a 
+      <lb ed="#T" n="86"/>verbo actiuo, vel passiuo, vel ab impersonali: 
+      pri<lb ed="#T" n="87" break="no"/>mo modo idem est quod potentia spiratiua, 
+      sci<lb ed="#T" n="88" break="no"/>licet per quam quis spirat: secundo modo idem 
+      <lb ed="#T" n="89"/>quod potentia qua quis spiratur: tertio modo 
+      <lb ed="#T" n="90"/>idem est quod potentia qua sit spiratio. Primo 
+      <lb ed="#T" n="91"/>modo est in Patre &amp; Filio: secundo modo in 
+      Spi<lb ed="#T" n="92" break="no"/>ritu sancto: tertio modo in tribus communiter.  
+      <lb ed="#T" n="93"/>Nec tamen tres spirant vel spirantur: sed duo 
+      <lb ed="#T" n="94"/>spirant &amp; vnus spiratur.  
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e895">
+                  <lb ed="#T" n="95"/>Ad 1. De potentia generandi. Resp. potentia 
+      <lb ed="#T" n="96"/>generandi actiue non est in Filio sed passiue: 
+      si<lb ed="#T" n="97" break="no"/>militer potentia spirandi passiue est in 
+      Spiritu<lb ed="#T" n="98" break="no"/>sancto. 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e906">
+                  <lb ed="#T" n="99"/>Ad 2. De essentialibus. Resp. Quamuis 
+      po<lb ed="#T" n="100" break="no"/>tentia secundum se sit essentialis, coniuncta 
+      ta<lb ed="#T" n="101" break="no"/>men actui notionali est notionalis, sicut Deus 
+      <lb ed="#T" n="102"/>generans est essentiale nomen tractum ad 
+      perso<lb ed="#T" n="103" break="no"/>nale. 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e920">
+                  <lb ed="#T" n="104"/>Ad 3. De dilectione. Resp. Spiritus sanctus 
+      di<lb ed="#T" n="105" break="no"/>ligit patrem &amp; Filium amore essentiali, &amp; 
+      seipso<lb ed="#T" n="106" break="no"/>qui est amor, non amore alio spirato ab ipso: 
+      <lb ed="#T" n="107"/>nam extrema coniunguntur ad inuicem per 
+      me<lb ed="#T" n="108" break="no"/>dium; sed medium vtrique extremo 
+      coniungi<lb ed="#T" n="109" break="no"/>tur seipso. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e30956-Dd1e937">
+               <head xml:id="pdt7y6-e30956-Hd1e939">Expositio litterae</head>
+               <p xml:id="pdt7y6-e30956-d1e941">
+                  <lb ed="#T" n="110"/>EXPOSITIO LITERAE. 
+      <lb ed="#T" n="111"/>AVt notitiam Filio] Contra videtur esse 
+      <lb ed="#T" n="112"/>Adiuisio per immediata, quia per 
+      affirmatio<lb ed="#T" n="113" break="no"/>nem &amp; negationem. Resp. Non se habent hae 
+      <lb ed="#T" n="114"/>duae propositiones, vt affirmatio &amp; negatio: 
+      vtra<lb ed="#T" n="115" break="no"/>que enim est affirmatiua, sed vna est de 
+      praedi<lb ed="#T" n="116" break="no"/>cato negatiuo. 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e959">
+                  <lb ed="#T" n="117"/>[Principaliter procedit] Contra ergo a Filio 
+      <lb ed="#T" n="118"/>secundario. 
+    </p>
+               <p xml:id="pdt7y6-e30956-d1e966">
+                  <lb ed="#T" n="119"/>Respondeo. Principaliter non dicit hic 
+      gra<lb ed="#T" n="120" break="no"/>dum virtutis, sed ordinem originis solum. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

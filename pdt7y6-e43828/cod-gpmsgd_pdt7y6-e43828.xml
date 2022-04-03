@@ -1,0 +1,1015 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="144"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e43828"><!-- l1d17q2 -->
+            <head xml:id="pdt7y6-e43828-Hd1e99">Quaestio 2</head>
+            <head xml:id="pdt7y6-e43828-Hd1e101" type="question-title">De augmento caritatis</head>
+            <p xml:id="pdt7y6-e43828-d1e104">
+               <lb ed="#T" n="83"/>QVESTIO II. 
+      <lb ed="#T" n="84"/>DE AVCMENTO CHARiTATIS. 
+    </p>
+            <p xml:id="pdt7y6-e43828-d1e111">
+               <lb ed="#T" n="85"/>CIrca secundum de augmento charitatis 
+      quae<lb ed="#T" n="86" break="no"/>runtur quinque. 
+      <lb ed="#T" n="87"/>Primo an charitas augeatur.  
+      <lb ed="#T" n="88"/>Secundo quomodo augeatur.  
+      <lb ed="#T" n="89"/>Tertio an augeatur quolibet motu. 
+      <lb ed="#T" n="90"/>Quarto an sit aliquis teminus augmen ieius. 
+      <lb ed="#T" n="91"/>Quinto an possit diminui. 
+    </p>
+            <div xml:id="pdt7y6-e43828-Dd1e129">
+               <head xml:id="pdt7y6-e43828-Hd1e131">Articulus 1</head>
+               <head xml:id="pdt7y6-e43828-Hd1e133" type="question-title">
+  An charitas augeatur
+</head>
+               <p xml:id="pdt7y6-e43828-d1e136">
+                  <lb ed="#T" n="92"/>Articvlvs I. 
+      <lb ed="#T" n="93"/>An charitas augeatur.
+</p>
+               <p xml:id="pdt7y6-e43828-d1e143">
+                  <lb ed="#T" n="94"/>AD primum sic proceditur. 1. Nihil augetur 
+      <lb ed="#T" n="95"/>nisi quantum: nullum simplex est quam 
+      <lb ed="#T" n="96"/>tum; charitas est simplex cum sit forma subjecti 
+      <lb ed="#T" n="97"/>simplicis; ergo non est quanta: ergo non 
+      au<lb ed="#T" n="98" break="no"/>getur.  
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e156">
+                  <lb ed="#T" n="99"/>2. Si augetur, aut ergo secundum quantitatem 
+      <lb ed="#T" n="100"/>nolis, aut virtutis: non molis, quia non habet  
+      <lb ed="#T" n="101"/>quantitatem dimensiuam; non virtutis, quia 
+      <lb ed="#T" n="102"/>quantitas virtutis attenditur secundum objecta 
+      <lb ed="#T" n="103"/>in quae potest virtus, in eadem vero omnia &amp; 
+      <lb ed="#T" n="104"/>totidem objecta in quae potest maxima charitas, 
+      <lb ed="#T" n="105"/>potest minima: ergo nullo modo augetur.  
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e175">
+                  <lb ed="#T" n="106"/>3. Augmentum est species motus: solum 
+      cor<lb ed="#T" n="107" break="no"/>pus essentialiter mouetur, vt probat 
+      Philoso<lb ed="#T" n="108" break="no"/>phus lib. Phys. ergo solum corpus essentialiter  
+      <lb ed="#T" n="109"/>augetur.
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e186">
+                  <lb ed="#T" n="110"/>4. Cuius causa tota &amp; immediata semper se 
+      <lb ed="#T" n="111"/>habet vniformiter, ipsum nec augetur, nec 
+      mi<lb ed="#T" n="112" break="no"/>nuitur, nec variatur: causa tota &amp; immediata 
+      <lb ed="#T" n="113"/>charitatis, scilicet Deus, semper se habet 
+      vni<lb ed="#T" n="114" break="no"/>ormiter: ergo nec augetur, nec minuitur, nec 
+      <lb ed="#T" n="115"/>variatur.
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e202">
+                  <lb ed="#T" n="116"/>5. Augmentum qualitatis non potest reduci 
+      <lb ed="#T" n="117"/>proprie nisi ad motum alterationis, vt probat,  
+      <lb ed="#T" n="118"/>Philosop. 7. Phys. alteratio vero non est per se 
+      <lb ed="#T" n="119"/>nisi circa formas sensibiles: ergo non est circa 
+      <lb ed="#T" n="120"/>charitatem: ergo ipsa non augetur  
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e215">
+                  <lb ed="#T" n="121"/>6. Quod augetur per essentiam, essentialiter 
+      <lb ed="#T" n="122"/>mutatur: quod mutatur essentialiter, non manet 
+      <lb ed="#T" n="123"/>idem, sed sit aliud: ergo si charitas essentialiter  
+      <lb ed="#T" n="124"/>lugeatur, non manet eadem, sed sit alia charitas. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e226">
+                  <lb ed="#T" n="125"/>Contra. 1. August. Charitas meretur augeri, 
+      <lb ed="#T" n="126"/>vt aucta mereatur &amp; perfici. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e233">
+                  <lb ed="#T" n="127"/>2. Secundum essentiam charitatis mensuratur 
+      <lb ed="#T" n="128"/>essentia meriti, &amp; secundum essentiam meriti 
+      es<lb ed="#T" n="129" break="no"/>sentia praemij: cum ergo secundum diuersos 
+      <lb ed="#T" n="130"/>gradus incipientium, proficientium, &amp; perfecto. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0220.xml-->
+      <pb ed="#T" n="145"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>rum: augeatur essentialiter praemium ipsorum, 
+      <lb ed="#T" n="2"/>ergo &amp; meritum, e rgo &amp; charitas. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e256">
+                  <lb ed="#T" n="3"/>3. Per actum deuenimus in cognitionem 
+      ha<lb ed="#T" n="4" break="no"/>bitus: sed actus charitatis intenditur &amp; augetur: 
+      <lb ed="#T" n="5"/>ergo &amp; habitus. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e265">
+                  <lb ed="#T" n="6"/>4. Maior effectus egreditur a maiori virtute: 
+      <lb ed="#T" n="7"/>maior virtus a maiori essentia: si ergo 
+      contin<lb ed="#T" n="8" break="no"/>git charitatis effectum augeri, contingit essentia. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e274">
+                  <lb ed="#T" n="9"/>5. Secundum Augustinum in rebus 
+      spirituali<lb ed="#T" n="10" break="no"/>bus idem est maius quod melius: sed contingit 
+      <lb ed="#T" n="11"/>charitatem meliorari, cum bonitas hominis ex 
+      <lb ed="#T" n="12"/>charitate causetur: ergo contingit eam augeri. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e285">
+                  <lb ed="#T" n="13"/>Respondeo. Circa hoc multiplex opinio 
+      repe<lb ed="#T" n="14" break="no"/>ritur, nam Magister dixit charitatem augeri non 
+      <lb ed="#T" n="15"/>in se sed in nobis, dum nos in illa proficimus 
+      <lb ed="#T" n="16"/>sicut lux augetur in videntibus secundum quod 
+      <lb ed="#T" n="17"/>eorum oculi clarificantur.  
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e298">
+                  <lb ed="#T" n="18"/>Contra hanc opinionem est. Quia non potest 
+      <lb ed="#T" n="19"/>intelligi profectus noster in claritate illa, nisi 
+      ali<lb ed="#T" n="20" break="no"/>quid maius quam prius habeamus. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e307">
+                  <lb ed="#T" n="21"/>Alij dixerunt quod charitas augetur, sed non 
+      <lb ed="#T" n="22"/>eadem numero manens, sed maior minori 
+      succe<lb ed="#T" n="23" break="no"/>dit, sicut dies dicuntur augeri. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e317">
+                  <lb ed="#T" n="24"/>Contra hanc opinionem est, quod nulla 
+      for<lb ed="#T" n="25" break="no"/>ma destruitur nisi vel ex contrario agente, sicut  
+      <lb ed="#T" n="26"/>albedo per nigredinem: vel per accidens ex 
+      cor<lb ed="#T" n="27" break="no"/>ruptione subjecti, sicut ignis magnus destruit 
+      <lb ed="#T" n="28"/>paruum quia consumit materiam eius. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e330">
+                  <lb ed="#T" n="29"/>Alij dixerunt quod augetur eadem numero. 
+      <lb ed="#T" n="30"/>manens, sed secundum accidentalia non secundum 
+      <lb ed="#T" n="31"/>essentiam: augeri enim dicitur vel secundum 
+      <lb ed="#T" n="32"/>radicationem maiorem in subjecto, vel 
+      secun<lb ed="#T" n="33" break="no"/>dum maiorem: feruorem. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e343">
+                  <lb ed="#T" n="34"/>Contra hanc opinionem est, quia augmento 
+      <lb ed="#T" n="35"/>accidentali non respondet essentiale augmentum. 
+      <lb ed="#T" n="36"/>praemij: contingit autem ipsum praemium 
+      es<lb ed="#T" n="37" break="no"/>sentialiter augeri. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e354">
+                  <lb ed="#T" n="38"/>Alij dicunt communius &amp; verius quod 
+      cha<lb ed="#T" n="39" break="no"/>ritas augetur per essentiam, non in quantum 
+      <lb ed="#T" n="40"/>essentiam, scilicet quoad esse, quia non magis 
+      <lb ed="#T" n="41"/>est charitas quam prius: sed inquantum ipsa 
+      <lb ed="#T" n="42"/>essentia virtus est, scilicet quoad posse, sicut 
+      <lb ed="#T" n="43"/>quando homo augetur, non augetur eius essentia 
+      <lb ed="#T" n="44"/>sed statura. Fit autem hoc augmentum eius 
+      secun<lb ed="#T" n="45" break="no"/>dum quantitatem virtutis non molis: quantitas 
+      au<lb ed="#T" n="46" break="no"/>tem virtutis non est quantitas in genere suo, sed  
+      <lb ed="#T" n="47"/>qualitas; sed quantitatis rationem accipit ex 
+      <lb ed="#T" n="48"/>comparatione ad aliquid extra diuisibile vel 
+      <lb ed="#T" n="49"/>multiplicabile, scilicet ad numerum vel 
+      magni<lb ed="#T" n="50" break="no"/>tudinem actuum &amp; objectorum. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e385">
+                  <lb ed="#T" n="51"/>Ad 1. Nullum simplex est quantum. Resp. 
+      <lb ed="#T" n="52"/>Hoc intelligitur de quantitate molis non 
+      virtu<lb ed="#T" n="53" break="no"/>tis. Charitas ergo quamuis non sit quanta 
+      quan<lb ed="#T" n="54" break="no"/>titate molis, nec per se, quia forma simplex, nec 
+      <lb ed="#T" n="55"/>per accidens quia in subjecto simplici scilicet 
+      ani<lb ed="#T" n="56" break="no"/>ma, tamen habet quantitatem &amp; diuisione virtutis 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e401">
+                  <lb ed="#T" n="57"/>Ad 2. Resp. Quantitas virtutis dupliciter 
+      men<lb ed="#T" n="58" break="no"/>suratur: vel quoad numerum objectorum 
+      quasi<lb ed="#T" n="59" break="no"/>extensiue, secundum similitudinem quantitatis) 
+      <lb ed="#T" n="60"/>discretae: vel quoad intensionem actus super: dem 
+      <lb ed="#T" n="61"/>objectum, quasi secundum similitudinem 
+      quan<lb ed="#T" n="62" break="no"/>titatis continuae: &amp; sic augetur charitas, non 
+      pri<lb ed="#T" n="63" break="no"/>mo modo. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e420">
+                  <lb ed="#T" n="64"/>Ad 3. Augmentum est species motus. Resp. 
+      <lb ed="#T" n="65"/>Cum dicitur, solum corpus essentialiter 
+      moue<lb ed="#T" n="66" break="no"/>tur, intelligitur de motu naturali, &amp; de eo quod 
+      <lb ed="#T" n="67"/>mouetur tanquam subjectum motus: sed 
+      chari<lb ed="#T" n="68" break="no"/>tas cum augetur, non est motus augmentir natu¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0220.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="69"/>ralis: nec augetur vt subjectum huius 
+      mutatio<lb ed="#T" n="70" break="no"/>nis, quia nullum accidens est subjectum 
+      muta<lb ed="#T" n="71" break="no"/>tionis: sed tanquam id circa quod attenditur 
+      au<lb ed="#T" n="72" break="no"/>ginentum, sicut quantitas dicitur augeri. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e446">
+                  <lb ed="#T" n="73"/>Ad 4. De causa immediata. Resp. Quamuis 
+      <lb ed="#T" n="74"/>causa immediata efficiens non mutetur 
+      secun<lb ed="#T" n="75" break="no"/>dam se, tamen si causa materialis receptiua 
+      mu<lb ed="#T" n="76" break="no"/>tatur, tunc efficiens immutabilis manens 
+      mu<lb ed="#T" n="77" break="no"/>tabilia operatur secundum mutabilitatem 
+      reci<lb ed="#T" n="78" break="no"/>pientium, vt patet in sole illuminante acra: 
+      <lb ed="#T" n="79"/>causa vero materialis recipiens mutatur nunc. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e464">
+                  <lb ed="#T" n="80"/>Ad 5. Alteratio non est nisi secundum 
+      sensi<lb ed="#T" n="81" break="no"/>biles quantitates, vel formas. Resp. Sicut passio 
+      <lb ed="#T" n="82"/>est ita alteratio duplex cum includat in se 
+      passio<lb ed="#T" n="83" break="no"/>nem: quia vel recipiendo solum, sic est etiam 
+      <lb ed="#T" n="84"/>circa spirituales substantias &amp; qualitates, &amp; sic 
+      <lb ed="#T" n="85"/>est circa charitatem: vel in abijciendo aliquid a 
+      <lb ed="#T" n="86"/>substantia per actionem formae contrariae, sic est 
+      <lb ed="#T" n="87"/>circa formas sensibiles &amp; partis sensitiuae tantum 
+      <lb ed="#T" n="88"/>per se, &amp; per accidens circa partem 
+      intellecti<lb ed="#T" n="89" break="no"/>uam &amp; formas intelligibiles inquantum 
+      gene<lb ed="#T" n="90" break="no"/>rantur aut conferuantur ex formis sensibilibus. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e490">
+                  <lb ed="#T" n="91"/>Ad 6. De mutatione essentiali. Resp. augeri 
+      <lb ed="#T" n="92"/>vel inoueri per essentiam dicitur dupliciter: vel 
+      <lb ed="#T" n="93"/>quia essentia per se est terminus motus: vel quia 
+      <lb ed="#T" n="94"/>aliquid coniunctuessentiae est terminus motus, 
+      <lb ed="#T" n="95"/>sicut dicitur quis mutando locum moueri 
+      essen<lb ed="#T" n="96" break="no"/>tialiter. Primo modo essentia rei mutatur &amp; fit 
+      <lb ed="#T" n="97"/>aliud: secundo modo non. Sic augetur essentia 
+      <lb ed="#T" n="98"/>charitatis, non secundum quod essentia, quia 
+      <lb ed="#T" n="99"/>ita vere erat charitas sicut post: sed inquantum  
+      <lb ed="#T" n="100"/>virtus, scilicet per comparationem ad actum &amp; 
+      <lb ed="#T" n="101"/>objectum. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e43828-Dd1e518">
+               <head xml:id="pdt7y6-e43828-Hd1e520">Articulus 2</head>
+               <head xml:id="pdt7y6-e43828-Hd1e522" type="question-title">
+  Quomodo charitas augeatur
+</head>
+               <p xml:id="pdt7y6-e43828-d1e525">
+                  <lb ed="#T" n="102"/>Articvlvs II. 
+      <lb ed="#T" n="103"/>Quomodo charitas augeatur.
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e532">
+                  <lb ed="#T" n="104"/>AD secundum articulum sic proceditur. 1. 
+      <lb ed="#T" n="105"/>Philosophus lib. de generat. &amp; corrup. 
+      <lb ed="#T" n="106"/>Augmentum est praeexistenti magnitudini 
+      ad<lb ed="#T" n="107" break="no"/>ditamentum: si ergo charitas augetur, hoc est 
+      <lb ed="#T" n="108"/>per additionem. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e545">
+                  <lb ed="#T" n="109"/>2. Charitas est in anima sicut lumen in acre, 
+      <lb ed="#T" n="110"/>vnde Augustinus hic vocat eam lumen: sed 
+      lu<lb ed="#T" n="111" break="no"/>men augetur per additionem alterius luminis: 
+      <lb ed="#T" n="112"/>ergo &amp; charitas additione alterius charitatis. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e557">
+                  <lb ed="#T" n="113"/>3. Deus augmentat charitatem: Deus autem 
+      <lb ed="#T" n="114"/>non agit aliquid de nouo in anima nisi per 
+      <lb ed="#T" n="115"/>nouum influxum: ergo de nouo influit, quo 
+      <lb ed="#T" n="116"/>charitatem auget: sed simili sit augmentum: 
+      <lb ed="#T" n="117"/>ergo de nouo influit charitatem aliquam. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e570">
+                  <lb ed="#T" n="118"/>4. Ex eisdem res generatur &amp; nutritur &amp; 
+      au<lb ed="#T" n="119" break="no"/>gmentatur: sed per influentiam charitas 
+      genera<lb ed="#T" n="120" break="no"/>tur: ergo &amp; augetur.  
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e579">
+                  <lb ed="#T" n="121"/>5. Charitas non augetur per recessum a 
+      con<lb ed="#T" n="122" break="no"/>trario solum, quia &amp; in statu innocentiae augeri 
+      <lb ed="#T" n="123"/>posset: ergo per accessum ad terminum: sed 
+      mi<lb ed="#T" n="124" break="no"/>nor res ad maiorem quantitatem, nisi rarefiat.  
+      <lb ed="#T" n="125"/>non accedit nisi per additionem: ergo charitas 
+      <lb ed="#T" n="126"/>augetur per additionem. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e595">
+                  <lb ed="#T" n="127"/>Contra. 1. Secundum Philosophum, sic 
+      <lb ed="#T" n="128"/>simplex simplici additur nihil maius efficitur 
+      <lb ed="#T" n="129"/>vt punctus puncto: ergo cum charitas sit 
+      sim<lb ed="#T" n="130" break="no"/>plex, per additionem charitatis non augetur.  
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e606">
+                  <lb ed="#T" n="131"/>2. Quanto virtus simplicior. tanto virtuosior: 
+      <lb ed="#T" n="132"/>quanto plus additur ei tanto magis recedit a 
+      sim<lb ed="#T" n="133" break="no"/>plicitate: ergo tanto magis recedit a 
+      virtuosita<lb ed="#T" n="134" break="no"/>te: ergo per additionem non sit augmentum. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0221.xml-->
+      <pb ed="#T" n="146"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>virtutis, sed dimimutio. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e626">
+                  <lb ed="#T" n="2"/>3. Quod additur priori charitati, aut est 
+      cha<lb ed="#T" n="3" break="no"/>ritas aut non: si non, ergo non auget 
+      charita<lb ed="#T" n="4" break="no"/>tem, quia simile simili augetur: si sic, aut ergo 
+      <lb ed="#T" n="5"/>nititur priori, aut non: si non, ergo non auget 
+      <lb ed="#T" n="6"/>eam: si sic ergo vna est in potentia respectu 
+      al<lb ed="#T" n="7" break="no"/>terius, quia ex duobus quorum vtrumque est 
+      <lb ed="#T" n="8"/>actu non sit vnum, nisi sit vnum materiale 
+      <lb ed="#T" n="9"/>respectu alterius. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e647">
+                  <lb ed="#T" n="10"/>4. Charitas quae additur, aut semper est eadem 
+      <lb ed="#T" n="11"/>illi cui additur, aut non: si sic, ergo idem 
+      ad<lb ed="#T" n="12" break="no"/>ditur sibi ipsi, quod falsum est: si non, ergo 
+      <lb ed="#T" n="13"/>aliquod nunc est in quo duae charitates sunt in 
+      <lb ed="#T" n="14"/>eo cuius charitas augetur.  
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e660">
+                  <lb ed="#T" n="15"/>5. Maior est vis ignis spiritualis quam 
+      corpora<lb ed="#T" n="16" break="no"/>lis: sed ignis corporalis sine additione auget 
+      sci<lb ed="#T" n="17" break="no"/>psum: ergo multo magis ignis spiritualis. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e669">
+                  <lb ed="#T" n="18"/>Respondeo. Circa hoc duae sunt opiniones. 
+      <lb ed="#T" n="19"/>Quidam enim dicunt fieri augmentum 
+      charita<lb ed="#T" n="20" break="no"/>tis per charitatis prius infusae meliorationem 
+      <lb ed="#T" n="21"/>in se, &amp; depurationem, &amp; perfectionem, id est 
+      <lb ed="#T" n="22"/>per eductionem de potentia secundum quod 
+      <lb ed="#T" n="23"/>magis colligitur virtus amoris a multis in vnum. 
+      <lb ed="#T" n="24"/>Alij vero per additione nouae charitatis a Deo, 
+      <lb ed="#T" n="25"/>quae praecedenti vnitur creando, &amp; vniendo 
+      <lb ed="#T" n="26"/>creatur. Primi accipiunt augmentum charitatis 
+      <lb ed="#T" n="27"/>ad similitudinem augmenti qualitatum 
+      natura<lb ed="#T" n="28" break="no"/>lium, scilicet per eiusdem intensionem: alij 
+      <lb ed="#T" n="29"/>vero ad similitudinem augmenti quantitatis) 
+      <lb ed="#T" n="30"/>id est per alterius charitatis additionem. Primi 
+      <lb ed="#T" n="31"/>ponunt augmentum sine additione rei 
+      extrinse<lb ed="#T" n="32" break="no"/>cae. Sit exeplum virtus quae poni potest in augi 
+      <lb ed="#T" n="33"/>mento luminis: quod dupliciter contingit 
+      au<lb ed="#T" n="34" break="no"/>geri, &amp; depuratione aeris, &amp; additione alterius 
+      <lb ed="#T" n="35"/>uminis, &amp; sic vtrumque augmentum est essen 
+      <lb ed="#T" n="36"/>tiale, non extensiue sed intensiue. Secundum 
+      <lb ed="#T" n="37"/>opinionem primam, respondendum est ad 
+      ob<lb ed="#T" n="38" break="no"/>jecta sic. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e717">
+                  <lb ed="#T" n="39"/>Ad 1. De definitione. Resp. Philosophus 
+      de<lb ed="#T" n="40" break="no"/>finit augmentum in quantitate molis non 
+      vir<lb ed="#T" n="41" break="no"/>tutis. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e726">
+                  <lb ed="#T" n="42"/>Ad 2. Charitas est sicut lumen. Resp Lumen 
+      <lb ed="#T" n="43"/>in aere bene augetur sine additione luminis 
+      <lb ed="#T" n="44"/>noui per depurationem acris. Vel dicendum 
+      <lb ed="#T" n="45"/>quod non est simile: quia lumen cum sit forma 
+      <lb ed="#T" n="46"/>corporalis, quantitatem habet dimensiuam per 
+      <lb ed="#T" n="47"/>accidens non per se vnde habet intendi per 
+      <lb ed="#T" n="48"/>ndditionem quantitatis: charitas vero 
+      spiritua<lb ed="#T" n="49" break="no"/>lis est 
+      <lb ed="#T" n="50"/>Ad 3. Deus augmentat charitatem. Resp. Deus 
+      <lb ed="#T" n="51"/>augmentat charitatem, non de nouo aliquid 
+      <lb ed="#T" n="52"/>influendo, sed ipsam perficiendo, scilicet de 
+      <lb ed="#T" n="53"/>potentia ad actum reducendo, in quantum ipsa 
+      <lb ed="#T" n="54"/>potentia animae plus perficitur habitu illo se ad 
+      <lb ed="#T" n="55"/>actum &amp; objectum &amp; finem illius habitus 
+      plu<lb ed="#T" n="56" break="no"/>colligendo &amp; ab impedimentis elongando. Quod 
+      <lb ed="#T" n="57"/>autem dicit quod Deus non agit aliquid nouum. 
+      <lb ed="#T" n="58"/>in auima nisi per nouum influxum, falsum est, 
+      <lb ed="#T" n="59"/>nam nouus aliquis effectus in anima potest 
+      pro<lb ed="#T" n="60" break="no"/>uenire ex noua dispositione recipientis, sicut 
+      <lb ed="#T" n="61"/>noua illuminatio in aere per depurationem acris 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e772">
+                  <lb ed="#T" n="62"/>Ad 4. Ex eisdem res generatur &amp; augetur.  
+      <lb ed="#T" n="63"/>Resp. Hoc intelligitur in augmento corporali. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e780">
+                  <lb ed="#T" n="64"/>Ad 5. minus ad maius no accedit nisi per 
+      addi<lb ed="#T" n="65" break="no"/>tionem. Resp. In accessu minoris ad maius 
+      se<lb ed="#T" n="66" break="no"/>cundum quantitatem dimensiuam, verum est, 
+      <lb ed="#T" n="67"/>non secundum virtualem. Dico autem 
+      charita<lb ed="#T" n="68" break="no"/>tem augeri per accessum ad terminum virtutis 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0221.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="69"/>perfectae. Quod autem qualitas aliqua au 
+      gea<lb ed="#T" n="70" break="no"/>tur per recessum a contrario, hoc accidit ex 
+      <lb ed="#T" n="71"/>conditione subjecti contrarie sibi dispositi. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e804">
+                  <lb ed="#T" n="72"/>Secundum opinionem secundam quae 
+      vide<lb ed="#T" n="73" break="no"/>tur planior, respondendum est ad objecta sic. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e811">
+                  <lb ed="#T" n="74"/>Ad 1. De simplici. Resp. Charitas quamuis 
+      <lb ed="#T" n="75"/>sit simplex, eo quod caret quantitate, molis, 
+      <lb ed="#T" n="76"/>habett amen quantitatem virtutis, &amp; secundum 
+      <lb ed="#T" n="77"/>hoc augetur per additionem. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e822">
+                  <lb ed="#T" n="78"/>Ad 2. Additio recedit a simplicitate. Resp. 
+      <lb ed="#T" n="79"/>Secus est in genere quantitatis molis, &amp; virtutis. 
+      <lb ed="#T" n="80"/>quia in mole minimum est simplicissimum, 
+      sci<lb ed="#T" n="81" break="no"/>licet punctus: sed in virtute, virtusdiuina quae 
+      <lb ed="#T" n="82"/>est maximum est simplicissimum, ideo ibi 
+      ad<lb ed="#T" n="83" break="no"/>ditio recedit a simplicitate, hic non 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e838">
+                  <lb ed="#T" n="84"/>Ad 3. Aut est charitas. Resp. Quod additur 
+      <lb ed="#T" n="85"/>charitas est, &amp; charitas cui sit additio, cum sit 
+      <lb ed="#T" n="86"/>imperfecta, se habet in ratione potentiae; &amp; 
+      <lb ed="#T" n="87"/>charitas quae additur se habet in ratione actus &amp; 
+      <lb ed="#T" n="88"/>complementi. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e851">
+                  <lb ed="#T" n="89"/>Ad 4. Aut semper est eadem. Resp. Non 
+      <lb ed="#T" n="90"/>semper est eadem: nam ab instanti additionis 
+      <lb ed="#T" n="91"/>eadem est: ante illud nec eadem nec diuersa cum 
+      <lb ed="#T" n="92"/>non sit, idem enim &amp; diuersum sunt differentiae 
+      <lb ed="#T" n="93"/>entis. Nec sequitur, ergo in aliquod nunc sunt,  
+      <lb ed="#T" n="94"/>duae charitates &amp;c. impediente fallacia 
+      conse<lb ed="#T" n="95" break="no"/>quentis a duabus causis veritatis ad vnam: nam 
+      <lb ed="#T" n="96"/>quod non sit semper eadem, potest contingere 
+      <lb ed="#T" n="97"/>duabus de causis, aut quia non est, aut quia 
+      di<lb ed="#T" n="98" break="no"/>uersa est. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e876">
+                  <lb ed="#T" n="99"/>Ad 5. De igne. Resp. Non est simile, quia 
+      <lb ed="#T" n="100"/>forma ignis cum sit materialis educitur de 
+      po<lb ed="#T" n="101" break="no"/>tentia materiae per naturalem agentem 
+      haben<lb ed="#T" n="102" break="no"/>tem formam illam in actu scilicet in genere: 
+      <lb ed="#T" n="103"/>charitas vero cum sit forma spiritualis 
+      produci<lb ed="#T" n="104" break="no"/>tur de nihilo sola virtute creantis. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e43828-Dd1e893">
+               <head xml:id="pdt7y6-e43828-Hd1e895">Articulus 3</head>
+               <head xml:id="pdt7y6-e43828-Hd1e897" type="question-title">An charitas augeatur quolibet motu</head>
+               <p xml:id="pdt7y6-e43828-d1e900">
+                  <lb ed="#T" n="105"/>Articvlvs III. 
+    <lb ed="#T" n="106"/>An charitas augeatur quolibet motu.
+  </p>
+               <p xml:id="pdt7y6-e43828-d1e907">
+                  <lb ed="#T" n="107"/>AD tertium articulum sic proceditur. 1. 
+      Om<lb ed="#T" n="108" break="no"/>nes actus charitatis eiusdem sunt specaei, 
+      <lb ed="#T" n="109"/>quantum ad esse morale, sicut actus fortitudinis 
+      <lb ed="#T" n="110"/>vel alterius virtutis: sed eiusdem esse idem est 
+      <lb ed="#T" n="111"/>effectus: si ergo aliquis actus charitatis auget 
+      <lb ed="#T" n="112"/>charitatem, quilibet actus charitatis auget eam. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e923">
+                  <lb ed="#T" n="113"/>2. Potentior &amp; propinquior est dispositio 
+      qui<lb ed="#T" n="114" break="no"/>libet actus charitatis ad charitatem, quam actus 
+      <lb ed="#T" n="115"/>naturalis aliquis ad gratiam: sed aliquis actus 
+      <lb ed="#T" n="116"/>est dispositio immediata ad gratiam: ergo multo. 
+      <lb ed="#T" n="117"/>magis quilibet actus charitatis ad charitatem. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e937">
+                  <lb ed="#T" n="118"/>3. Qui potest quod maius est, potest &amp; quod 
+      <lb ed="#T" n="119"/>minus: quilibet actus charitatis potest mereri 
+      <lb ed="#T" n="120"/>vitam aeternam: ergo multo magis augmentum 
+      <lb ed="#T" n="121"/>charitatis, 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e948">
+                  <lb ed="#T" n="122"/>Contra. 1. ex eisdem principijs generatur 
+      <lb ed="#T" n="123"/>aliquid &amp; augetur: sed ex vno actu non 
+      genera<lb ed="#T" n="124" break="no"/>tur charitas, quia nec etiam virtus moralis ad 
+      <lb ed="#T" n="125"/>cuius generationem plus confert actus noster: 
+      <lb ed="#T" n="126"/>ergo nec augetur.  
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e961">
+                  <lb ed="#T" n="127"/>2. Secundum augmentum charitatis augetur 
+      <lb ed="#T" n="128"/>praemium substantiale: sed non quodlibet motu 
+      <lb ed="#T" n="129"/>charitatis praemium substantiale augetur, 
+      qui<lb ed="#T" n="130" break="no"/>pluribus operibus charitatis meremur idem 
+      prae<lb ed="#T" n="131" break="no"/>mium: ergo nec charitas quolibet motu 
+      au<lb ed="#T" n="132" break="no"/>getur.  
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e977">
+                  <lb ed="#T" n="133"/>Respondeo. Differunt causa naturalis &amp; 
+      vo<lb ed="#T" n="134" break="no"/>luntaria: quia causa naturalis semper agit tota 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0222.xml-->
+      <pb ed="#T" n="147"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>sua virtute, cum agat ex necessitate; sed causa 
+      <lb ed="#T" n="2"/>voluntaria domina sui actus est, &amp; non semper 
+      <lb ed="#T" n="3"/>agit tota virtute. Hinc est quod ante 
+      infusio<lb ed="#T" n="4" break="no"/>nem gratiae, aliquando vnus actus est dispositio 
+      <lb ed="#T" n="5"/>immediata ad gratiam, quando scilicet procedi 
+      <lb ed="#T" n="6"/>ex toto conatu naturae: Aliquando non vnus 
+      <lb ed="#T" n="7"/>sed plures secundum quod per plures paulatim 
+      <lb ed="#T" n="8"/>disponitur, &amp; tandem dispositio per vltimun 
+      <lb ed="#T" n="9"/>completur, eo quod agit in virtute omnium 
+      <lb ed="#T" n="10"/>praecedentium quia inuenit materiam per 
+      prae<lb ed="#T" n="11" break="no"/>cedentes actus dispositam: sicut contingit in 
+      <lb ed="#T" n="12"/>multis guttis cauantibus lapidem, quarum 
+      prae<lb ed="#T" n="13" break="no"/>cedentes disponunt, sed per vltimam agentem 
+      <lb ed="#T" n="14"/>virtute omnium praecedentium, quae disponunt 
+      <lb ed="#T" n="15"/>materiam, completur effectus. Sic dico quod 
+      <lb ed="#T" n="16"/>post infusionem gratiae, aliquando vnus actu 
+      <lb ed="#T" n="17"/>est sufficiens vt charitas augeatur, quando 
+      sci<lb ed="#T" n="18" break="no"/>licet ex tota virtute potentiae naturalis &amp; 
+      ha<lb ed="#T" n="19" break="no"/>bitus perficientis eam producitur; &amp; tunc statim 
+      <lb ed="#T" n="20"/>augmentum consequitur: aliquando non vnus 
+      <lb ed="#T" n="21"/>sed plures, quando non ex toto conatu proce 
+      <lb ed="#T" n="22"/>dunt; &amp; tunc per plures actus dispositio 
+      acqui<lb ed="#T" n="23" break="no"/>ritur, quia quilibet est remota dispositio, sec 
+      <lb ed="#T" n="24"/>per vltimum completur, nec tamen ex 
+      necessi<lb ed="#T" n="25" break="no"/>tate, quia in dispositionibus voluntatis, 
+      quan<lb ed="#T" n="26" break="no"/>tumcumque sit homo dispositus, potest tamen 
+      <lb ed="#T" n="27"/>non operari secundum dispositionem illam. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1049">
+                  <lb ed="#T" n="28"/>Ad 1. Omnes sunt eiusdem speciei. Resp. 
+      <lb ed="#T" n="29"/>Quamuis sint eiusdem speciei, non tamen 
+      om<lb ed="#T" n="30" break="no"/>nes aeque intensi. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1058">
+                  <lb ed="#T" n="31"/>Ad 2. De actu naturali. Resp. Sicut actus 
+      na<lb ed="#T" n="32" break="no"/>turalis, qui procedit ex tota virtute naturae est 
+      <lb ed="#T" n="33"/>dispositio proxima ad gratia &amp; charitatem: ita 
+      <lb ed="#T" n="34"/>actus charitatis, qui procedit ex tota virtute 
+      <lb ed="#T" n="35"/>charitatis, est dispositio proxima ad 
+      augmen<lb ed="#T" n="36" break="no"/>tum gratiae &amp; charitatis: sed tamen actus prae 
+      <lb ed="#T" n="37"/>cedens charitatem praeparat per modum 
+      dispo<lb ed="#T" n="38" break="no"/>sitionis, non per modum fheriti: sequens vero 
+      <lb ed="#T" n="39"/>vtroque modo: neuter vero per modum causae 
+      <lb ed="#T" n="40"/>efficien is. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1083">
+                  <lb ed="#T" n="41"/>Ad 3. Qui potest quod maius est &amp;c. Resp. 
+      <lb ed="#T" n="42"/>Quodammodo maius est mereri augmentum. 
+      <lb ed="#T" n="43"/>charitatis quam vitam aeternam: quia qui 
+      me<lb ed="#T" n="44" break="no"/>retur augmentum charitatis, meretur de 
+      ne<lb ed="#T" n="45" break="no"/>cessitate ipsam vitam aeternam &amp; augmentum 
+      <lb ed="#T" n="46"/>vitae aeternae: quia secundum proportionem 
+      <lb ed="#T" n="47"/>quamuis non secundum aequiparantiam, vita 
+      <lb ed="#T" n="48"/>aeterna respondet charitati. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1103">
+                  <lb ed="#T" n="49"/>Ad 1. In contrarium. Quia ex actu vno virtus 
+      <lb ed="#T" n="50"/>moralis seu politica non acquiritur. Resp. Non 
+      <lb ed="#T" n="51"/>est nmile quia habitus requirit firmitatem: ex 
+      <lb ed="#T" n="52"/>vno vero actu voluntatis, cum ipsa principium 
+      <lb ed="#T" n="53"/>sit valde mutabile, firmitas non habetur: &amp; ideo 
+      <lb ed="#T" n="54"/>habitus, cuius firmitas dependet ex opere 
+      no<lb ed="#T" n="55" break="no"/>stro tanquam causa efficiente, per vnum actum 
+      <lb ed="#T" n="56"/>non acquiritur: sed firmitas charitatis &amp; eius 
+      <lb ed="#T" n="57"/>productio ex Deo est, nec ex parte nostra 
+      requi<lb ed="#T" n="58" break="no"/>ritur nisi perfecta dispositio vel conatus, &amp; ideo 
+      <lb ed="#T" n="59"/>sufficit vnus actus qui ex tota virtute 
+      produci<lb ed="#T" n="60" break="no"/>tur, quia plus non potest natura 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1132">
+                  <lb ed="#T" n="61"/>Ad 2. Non quolibet motu charitatis &amp;c. 
+      <lb ed="#T" n="62"/>Resp. Non quolibet motu charitatis per se 
+      in<lb ed="#T" n="63" break="no"/>quantum est principium nierendi, sed quasi ex 
+      <lb ed="#T" n="64"/>consequenti inquantum est pars praemis
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e43828-Dd1e1144">
+               <head xml:id="pdt7y6-e43828-Hd1e1146">Articulus 4</head>
+               <head xml:id="pdt7y6-e43828-Hd1e1148" type="question-title">An sit aliquis terminus augmenti charitatis</head>
+               <p xml:id="pdt7y6-e43828-d1e1151">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0222.xml-->
+                  <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="65"/>ARTICVLVS IV. 
+      <lb ed="#T" n="66"/>An sit aliquis terminus augmenti charitatis,
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1162">
+                  <lb ed="#T" n="67"/>AD quartum articulum sic proceditur. 1 
+      <lb ed="#T" n="68"/>Perfectio non excedit capacitatem perfe 
+      <lb ed="#T" n="69"/>ctibilis: sed capacitas animae humanae habet 
+      ter<lb ed="#T" n="70" break="no"/>minum &amp; est finita: ergo &amp; eius perfectio. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1173">
+                  <lb ed="#T" n="71"/>2. Nullus motus ordinatus &amp; rectus est ad id 
+      <lb ed="#T" n="72"/>quod consequi non potest quis: sed consequi 
+      <lb ed="#T" n="73"/>infinitum quis non potest propter imnitam 
+      <lb ed="#T" n="74"/>distantiam: ergo cum motus charitatis sit 
+      ordi<lb ed="#T" n="75" break="no"/>natus, non potest esse ad augmentum infinitum. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1187">
+                  <lb ed="#T" n="76"/>3. Charitate &amp; gratia Christi, quae tamer 
+      <lb ed="#T" n="77"/>finita est, non potest maior esse vt habetur in; 
+      <lb ed="#T" n="78"/>distinct. 13. sed si charitas posset crescere in 
+      in<lb ed="#T" n="79" break="no"/>finitum, posset maior esse. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1198">
+                  <lb ed="#T" n="80"/>4. Sicut habet terminum quantitas molis in 
+      <lb ed="#T" n="81"/>creatura, ita quantitas virtutis: sed moles non 
+      <lb ed="#T" n="82"/>potest crescere in infinitum: ergo nec virtus. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1207">
+                  <lb ed="#T" n="83"/>5. Charitas potest perfici: perfecto vero non 
+      <lb ed="#T" n="84"/>est possibilis additio: ergo potest venire ad 
+      sta<lb ed="#T" n="85" break="no"/>tum in quo nil ei poterit addi 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1216">
+                  <lb ed="#T" n="86"/>6. Charitas intendit coniungere fini aut 
+      <lb ed="#T" n="87"/>ergo aliquando coniungit aut non: si non, ergo 
+      <lb ed="#T" n="88"/>frustra est: si sic, ergo vltra proficere non potest 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1225">
+                  <lb ed="#T" n="89"/>Contra. 1. Probat Philosophus. 2. de anima, 
+      <lb ed="#T" n="90"/>quod augmentum animalis non est per virtutem 
+      <lb ed="#T" n="91"/>ignis per se, nisi inquantum est instrumentum, 
+      <lb ed="#T" n="92"/>animae, quia ignis semper potest in infinitum 
+      <lb ed="#T" n="93"/>sed terminus augmenti animalis determinatus 
+      <lb ed="#T" n="94"/>est: ergo cum multo potentior sit ignis 
+      spiri<lb ed="#T" n="95" break="no"/>tualis, potest augeri in infinitum. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1243">
+                  <lb ed="#T" n="96"/>2. Omne quod habet infinitam causam sui 
+      <lb ed="#T" n="97"/>augmenti potest augeri in infinitum: sed 
+      chari<lb ed="#T" n="98" break="no"/>tas habet infinitam causam sui augmenti, 
+      sci<lb ed="#T" n="99" break="no"/>licet Deum. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1255">
+                  <lb ed="#T" n="100"/>3. Objectum charitatis est diligibile in 
+      infini<lb ed="#T" n="101" break="no"/>tum: ergo cum quantitas virtutis mensuretur 
+      <lb ed="#T" n="102"/>penes obiectum, potest charitas crescere in infinitum 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1264">
+                  <lb ed="#T" n="103"/>4. Charitas alsimilat nos Deo: sed nunquam  
+      <lb ed="#T" n="104"/>tanta est assimilatio quin possit esse maior, quia 
+      <lb ed="#T" n="105"/>distat infinita distantia: ergo semper potest 
+      cres<lb ed="#T" n="106" break="no"/>cere charitas in infinitum. 
+      <lb ed="#T" n="107"/>5. Quanto magis crescit charitas, tanto est 
+      vir<lb ed="#T" n="108" break="no"/>tuosior ad merendum: sed per meritum 
+      auge<lb ed="#T" n="109" break="no"/>tur: ergo quanto plus crescit, plus potest 
+      auge<lb ed="#T" n="110" break="no"/>ri: ergo in infinitum. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1284">
+                  <lb ed="#T" n="111"/>Respondeo. Circa hoc dicunt quidam quod 
+      <lb ed="#T" n="112"/>charitas potest augeri in infinitum, sed nunquam 
+      <lb ed="#T" n="113"/>augetur actu: sicut numerus potest augeri in 
+      in<lb ed="#T" n="114" break="no"/>finitum, sed nunquam augetur. Nec hoc ponit po 
+      <lb ed="#T" n="115"/>tentiam infinitam vnam in numero quia non 
+      <lb ed="#T" n="116"/>est vna potentia, sed tot quot sunt species 
+      nu<lb ed="#T" n="117" break="no"/>merorum: nam semper in productione nouae. 
+      <lb ed="#T" n="118"/>speciei, per actum illum vna potentia 
+      termina<lb ed="#T" n="119" break="no"/>tur, &amp; alia generatur ad actum sequentis speciei. 
+      <lb ed="#T" n="120"/>Sic dicunt quod licet capacitas substantiae 
+      con<lb ed="#T" n="121" break="no"/>poralis terminata sit in se, non tamen capacitas 
+      <lb ed="#T" n="122"/>substantiae spiritualis, imo sempei ainpliatur 
+      <lb ed="#T" n="123"/>secundum amplioiem perceptionem Diuinae 
+      bo<lb ed="#T" n="124" break="no"/>uitatis, &amp; generatur noua capacitas. Contra hanc 
+      <lb ed="#T" n="125"/>opinionem est: quia secundum hoc, 
+      Christo<lb ed="#T" n="126" break="no"/>non est datum secundum plenitudinem suae 
+      ca<lb ed="#T" n="127" break="no"/>pacitatis, cum totum quod datum est sit 
+      fi<lb ed="#T" n="128" break="no"/>nitum. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1326">
+                  <lb ed="#T" n="129"/>Anj dicunt quod capacitas vniuscuiusque 
+      <lb ed="#T" n="130"/>respectu charitatis efeterminata est, &amp; in dispo¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0223.xml-->
+      <pb ed="#T" n="148"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>sitione diuina, &amp; in natura: &amp; quando 
+      perue<lb ed="#T" n="2" break="no"/>nit ad terminum suae capacitatis, quod est in 
+      <lb ed="#T" n="3"/>coniunctione seu adeptione finis, tunc non 
+      <lb ed="#T" n="4"/>potest plus capere &amp; tunc stat augmentum 
+      cha<lb ed="#T" n="5" break="no"/>ritatis, non ante. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1350">
+                  <lb ed="#T" n="6"/>Secundum primam opinionem responderi 
+      <lb ed="#T" n="7"/>potest sic ad objiecta. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1357">
+                  <lb ed="#T" n="8"/>Ad 1. De capacitate finita. Resp. Quamuis 
+      <lb ed="#T" n="9"/>finita sit actu, tamen semper potest ampliari 
+      <lb ed="#T" n="10"/>sicut potentia additionis numeri. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1367">
+                  <lb ed="#T" n="11"/>Ad 2. De motu ordinato. Resp. Quid ibi 
+      mo<lb ed="#T" n="12" break="no"/>tus charitatis est ad id quod potest consequi: 
+      <lb ed="#T" n="13"/>sed tamen cum quolibet consequente, quia non 
+      <lb ed="#T" n="14"/>est purus actus, generatur potentia noua 
+      conse<lb ed="#T" n="15" break="no"/>quendi aliud, sicut in numero. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1380">
+                  <lb ed="#T" n="16"/>Ad 3. De charitate Christi. Resp. Charitas 
+      <lb ed="#T" n="17"/>Christo data quodammodo infinita est, 
+      inquan<lb ed="#T" n="18" break="no"/>tum disponit ad actum infinitum vnionis, &amp; 
+      <lb ed="#T" n="19"/>vnitur charitati infinitae: &amp; ideo non potest 
+      <lb ed="#T" n="20"/>maior esse. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1393">
+                  <lb ed="#T" n="21"/>Ad 4. De quantitate molis. Resp. Non est. 
+      <lb ed="#T" n="22"/>simile, quia potentia materialis limitatur 
+      secun<lb ed="#T" n="23" break="no"/>dum exigentiam materiae, sed potentia 
+      spiritua<lb ed="#T" n="24" break="no"/>lis nen, rmo ampliatur secundum exigentiam 
+      <lb ed="#T" n="25"/>diuinae bonitatis perceptae. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1406">
+                  <lb ed="#T" n="26"/>Ad 5. Charitas potest perfici. Resp. Potest 
+      <lb ed="#T" n="27"/>perfici in genere, sed non vniuersaliter: de eo 
+      <lb ed="#T" n="28"/>autem quod est perfectum vniuersaliter, dicitur 
+      <lb ed="#T" n="29"/>quod ei non potest fieri additio. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1417">
+                  <lb ed="#T" n="30"/>Ad 6. Coniungit fini. Resp. Quamuis 
+      con<lb ed="#T" n="31" break="no"/>iungat fini, tamen illa coniunctio potest esse 
+      se<lb ed="#T" n="32" break="no"/>cundum infinitos gradus maior semper.  
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1426">
+                  <lb ed="#T" n="33"/>Secundum opinionem aliam, quae planior est 
+      <lb ed="#T" n="34"/>&amp; communior, respondendum est sic ad 
+      ob<lb ed="#T" n="35" break="no"/>jecta 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1436">
+                  <lb ed="#T" n="36"/>Ad 1. De augmento ignis. Resp. Augmentum 
+      <lb ed="#T" n="37"/>illud extensiue sit, non intensiue: sic charitas 
+      <lb ed="#T" n="38"/>penes obijecta posset augeri in infinitum, 
+      exten<lb ed="#T" n="39" break="no"/>siue scilicet, si essent infiniti homines diligendi. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1447">
+                  <lb ed="#T" n="40"/>Ad 2. De causa infinita. Resp. Quamuis sit 
+      <lb ed="#T" n="41"/>infinita in se, tamen finita est in effectu pro sua 
+      <lb ed="#T" n="42"/>voluntate, &amp; suscipientium capacitate 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1456">
+                  <lb ed="#T" n="43"/>Ad 3. Obiectum charitatis est diligibile &amp;c. 
+      <lb ed="#T" n="44"/>Resp. Non solum mensuratur quantitas virtutis 
+      <lb ed="#T" n="45"/>ex parte obiecti, sed ex parte substantiae in qua 
+      <lb ed="#T" n="46"/>radicatur potius: sed ex parte obiecti 
+      cognos<lb ed="#T" n="47" break="no"/>citur.  
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1469">
+                  <lb ed="#T" n="48"/>Ad 4. Non est tanta assimilatio. Resp. Licet  
+      <lb ed="#T" n="49"/>ex parte eius cui sit assimilatio, semper possit 
+      in<lb ed="#T" n="50" break="no"/>telligi maior tamen ex parte eius qui 
+      assimila<lb ed="#T" n="51" break="no"/>tur non potest esse maior, quia capacitas eius 
+      ter<lb ed="#T" n="52" break="no"/>minata est, 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1482">
+                  <lb ed="#T" n="53"/>5. Quod opponitur de augmento meriti. 
+      <lb ed="#T" n="54"/>Resp. Intelligitur in statu circa terminum, non 
+      <lb ed="#T" n="55"/>autem in coniunctione cum suo termino. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e43828-Dd1e1492">
+               <head xml:id="pdt7y6-e43828-Hd1e1494">Articulus 5</head>
+               <head xml:id="pdt7y6-e43828-Hd1e1496" type="question-title">An charitas possit diminui</head>
+               <p xml:id="pdt7y6-e43828-d1e1499">
+                  <lb ed="#T" n="56"/>ARTICVLVS V 
+      <lb ed="#T" n="57"/>An charitas possit diminui.
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1506">
+                  <lb ed="#T" n="58"/>AD quintum articulum oroceditur sic. 1 
+      <lb ed="#T" n="59"/>Cotraria nata sunt fieri circa 
+      idemtaugmen<lb ed="#T" n="60" break="no"/>tum &amp; diminutio sunt contraria: ergo si charitas 
+      <lb ed="#T" n="61"/>potest augeri, potest minui. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1517">
+                  <lb ed="#T" n="62"/>2. Secundum augmentum cupiditatis 
+      decres<lb ed="#T" n="63" break="no"/>cit chari as &amp; e conuerso cum sint contraria, 
+      <lb ed="#T" n="64"/>vnde August. vbi magna est charitas, ibi 
+      par<lb ed="#T" n="65" break="no"/>ua cupiditas &amp; e contrarioa sed contingit in 
+      ha<lb ed="#T" n="66" break="no"/>bente charitatem, cupiditatem minui: ergo au¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0223.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>geri: ergo charitatem minui. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1538">
+                  <lb ed="#T" n="68"/>3. Veniale cum sit malum adimit aliquid de 
+      <lb ed="#T" n="69"/>bono non tantum naturae sed gratiae, quia 
+      ma<lb ed="#T" n="70" break="no"/>nente bono integro gratiae, quod naturam 
+      per<lb ed="#T" n="71" break="no"/>ficit, non potest minui bonum naturae: adimit 
+      <lb ed="#T" n="72"/>ergo veniale bonum gratiae: sed non totum, sic 
+      <lb ed="#T" n="73"/>enim esset mortale: ergo partem ergo minuit. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1554">
+                  <lb ed="#T" n="74"/>4. Sicut contingit fieri de imperfecto 
+      perfe<lb ed="#T" n="75" break="no"/>ctum, ita e contrario: sed motuum contrariorum. 
+      <lb ed="#T" n="76"/>sunt causae contrariae: ergo cum primum fiat 
+      <lb ed="#T" n="77"/>per augmentum charitatis, secundum sit pe 
+      <lb ed="#T" n="78"/>eius diminutionem. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1567">
+                  <lb ed="#T" n="79"/>5. Dispositio maior ad charitatem, est causa 
+      <lb ed="#T" n="80"/>augmenti eius: ergo opposita dispositio erit 
+      cau<lb ed="#T" n="81" break="no"/>sa oppositi. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1576">
+                  <lb ed="#T" n="82"/>Contra. 1. Secundum Philosophum, omne 
+      <lb ed="#T" n="83"/>finitum per ablationem multiplicatam 
+      consumi<lb ed="#T" n="84" break="no"/>tur: cum igitur charitas sit finita, si per veniale 
+      <lb ed="#T" n="85"/>minuitur (constat enim quod per mortale non 
+      <lb ed="#T" n="86"/>minuitur, sed destruitur) ergo per venialia 
+      mul<lb ed="#T" n="87" break="no"/>tiplicata destruitur: ergo per sola venialia quis 
+      <lb ed="#T" n="88"/>damnatur.  
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1594">
+                  <lb ed="#T" n="89"/>2. Si sit diminutio charitatis per venialia, aut 
+      <lb ed="#T" n="90"/>sit secundum eandem quantitatem semper, aut 
+      <lb ed="#T" n="91"/>non, sed secundum eandem proportionem: si 
+      se<lb ed="#T" n="92" break="no"/>cundum eandem quantitatem, cum tota 
+      quan<lb ed="#T" n="93" break="no"/>titas finita sit, ergo per venialia multiplicata 
+      de<lb ed="#T" n="94" break="no"/>struitur tota: si secundum eandem proportione, 
+      <lb ed="#T" n="95"/>vt si semper remoueatur vigesima pars eius quod 
+      <lb ed="#T" n="96"/>remanet &amp; sic in infinitum sicut continuum 
+      di<lb ed="#T" n="97" break="no"/>uisibile est in infinitum, ergo cum semper illud 
+      <lb ed="#T" n="98"/>quod post aufertur minus sit eo quod prius 
+      au<lb ed="#T" n="99" break="no"/>ferebatur, minus nocebit semper peccatum 
+      po<lb ed="#T" n="100" break="no"/>sterius quam prius, ergo minus erit malum. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1623">
+                  <lb ed="#T" n="101"/>3. Si veniale minuit charitatem: ergo minuit 
+      <lb ed="#T" n="102"/>praemium essentiale: ergo punitur poena 
+      damni<lb ed="#T" n="103" break="no"/>aeterni. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1633">
+                  <lb ed="#T" n="104"/>4. Charitas est forma simplex &amp; vniformis: 
+      <lb ed="#T" n="105"/>quod autem tale est, non potest minui quin 
+      to<lb ed="#T" n="106" break="no"/>aliter destru atur.  
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1642">
+                  <lb ed="#T" n="107"/>Respondeo. Quauis charitas possit augeri 
+      se<lb ed="#T" n="108" break="no"/>cundum essentiam, non tamen minui potest 
+      secun<lb ed="#T" n="109" break="no"/>dum essentiam, sed secundum accidens solum. 
+      Secun<lb ed="#T" n="110" break="no"/>dum essentiam non potest minui, quia nec ex 
+      <lb ed="#T" n="111"/>parte agentis, cum sit causa perficiendi non 
+      de<lb ed="#T" n="112" break="no"/>ficiendi: nec ex parte suscipientis, quia nec per 
+      <lb ed="#T" n="113"/>cessationem actus, quia non generatur ex 
+      acti<lb ed="#T" n="114" break="no"/>bus humanis, sicut virtutes morales: nec per 
+      in<lb ed="#T" n="115" break="no"/>ordinationem actus, quia illa inordinatio aut 
+      <lb ed="#T" n="116"/>tollit finem, &amp; ita destruit charitatem, aut est in 
+      <lb ed="#T" n="117"/>ijs quae sunt ad finem, &amp; tunc non attingit 
+      cha<lb ed="#T" n="118" break="no"/>ritatem quae est in coniunctione finis. Secundum 
+      <lb ed="#T" n="119"/>accidens vero potest: &amp; quoad radicationem, per 
+      <lb ed="#T" n="120"/>inordinationem actus inquantum per venialia. 
+      <lb ed="#T" n="121"/>generatur contraria dispositio: &amp; quoad 
+      fer<lb ed="#T" n="122" break="no"/>uorem, per cessationem actus inquantum ex 
+      <lb ed="#T" n="123"/>dissuetudine minuitur facilitas obedientiae 
+      vir<lb ed="#T" n="124" break="no"/>tum inferiorum ad superiores. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1684">
+                  <lb ed="#T" n="125"/>Ad 1. Nata sunt fieri circa idem. Resp. Hoc 
+      <lb ed="#T" n="126"/>intelligitur quando alterum non inest 
+      naturali<lb ed="#T" n="127" break="no"/>ter, vt nigredo coruo: sed charitati inest 
+      poten<lb ed="#T" n="128" break="no"/>tia ad augmentum naturaliter, scilicet ex sua 
+      <lb ed="#T" n="129"/>causa, non autem ex sua potentia ad oppositum. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1697">
+                  <lb ed="#T" n="130"/>Ad 2. De cupiditate. Resp. Non omnis 
+      cupi<lb ed="#T" n="131" break="no"/>ditas opponitur essentialiter charitati, sed 
+      mor<lb ed="#T" n="132" break="no"/>talis solum. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1706">
+                  <lb ed="#T" n="133"/>Ad 3. De veniali. Resp. Veniale adimit de 
+      <lb ed="#T" n="134"/>bono accidentali ipsius gratiae, non de essentiali.
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1713">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0224.xml-->
+                  <pb ed="#T" n="149"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>Ad. 4. Sicut contingit fieri de imperfecto 
+      <lb ed="#T" n="2"/>&amp;c. Resp. Perfectio attenditur non solum 
+      secun<lb ed="#T" n="3" break="no"/>dum essentiam charitatis, sed secundum statum 
+      <lb ed="#T" n="4"/>vel accidens: essentiam enim contingit crescere 
+      <lb ed="#T" n="5"/>non decrescere, sed secundum accidentia potest 
+      <lb ed="#T" n="6"/>fieri vtrumque. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1736">
+                  <lb ed="#T" n="7"/>Ad 5. Dispositio maior est causa augmenti. 
+      <lb ed="#T" n="8"/>Resp. Quamuis dispositso subjecti sit causa 
+      dis<lb ed="#T" n="9" break="no"/>ponens ex parte suscipientis ad augmentum 
+      <lb ed="#T" n="10"/>charitatis, non tamen efficiens: dispositio vero 
+      <lb ed="#T" n="11"/>contraria non habet secum causam efficientem 
+      <lb ed="#T" n="12"/>diminutionis. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1752">
+                  <lb ed="#T" n="13"/>LITERAE EXPLICATIO. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1757">
+                  <lb ed="#T" n="14"/>Iligat eandem dilectionem) Contra. 
+      Simi<lb ed="#T" n="15" break="no"/>Duter dilectio qua diligit diligenda est: ergo 
+      <lb ed="#T" n="16"/>abire est in infinitum. Resp. Dilectio habitus 
+      di<lb ed="#T" n="17" break="no"/>ligitur dilectione actus, dilectio actus seipsa &amp; 
+      <lb ed="#T" n="18"/>sic est status. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1770">
+                  <lb ed="#T" n="19"/>Notiorem Deum habere quam fratrem) 
+      <lb ed="#T" n="20"/>Contra. fratrem videt aperte, Deum non nisi per 
+      <lb ed="#T" n="21"/>speculum. Resp. Quamuis Deum non videat 
+      <lb ed="#T" n="22"/>apertem, videt tamen per effectum qui necessario 
+      <lb ed="#T" n="23"/>ducit in ipsum: proximum vero per speciem 
+      sen<lb ed="#T" n="24" break="no"/>sibilem in quo potest esse deceptio vt per illam 
+      <lb ed="#T" n="25"/>videatur quod non est. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1788">
+                  <lb ed="#T" n="26"/>[In lumine manet. ] Lumen pertinet ad 
+      co<lb ed="#T" n="27" break="no"/>gnitionem, charitas ad affectum. Resp. Lumen 
+      <lb ed="#T" n="28"/>comparatur charitati, non quantum ad virtutem 
+      <lb ed="#T" n="29"/>manifestationis, sed operationis: sicut enim 
+      lu<lb ed="#T" n="30" break="no"/>men est forma vniuersaliter motiua in natura, eo 
+      <lb ed="#T" n="31"/>quod est qualitas primi alterantis, scilicet coeli 
+      <lb ed="#T" n="32"/>vel solis: ita charitas in donis gratiae, eo quod 
+      <lb ed="#T" n="33"/>est similitudo primi doni. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1808">
+                  <lb ed="#T" n="34"/>[Nam fiaterna dilectio] Contra. Illa virtus 
+      <lb ed="#T" n="35"/>creata est. Resp. Loquitur de dilectione qua 
+      di<lb ed="#T" n="36" break="no"/>ligimus effectiue &amp; exemplariter, non 
+      formali<lb ed="#T" n="37" break="no"/>ter, &amp; est hic parenthesis, id est, interpositio.  
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1820">
+                  <lb ed="#T" n="38"/>[Tues Domine spes mea &amp;c.] Contra. Deus 
+      <lb ed="#T" n="39"/>dicitur charitas fraterna per causam, sed 
+      simili<lb ed="#T" n="40" break="no"/>ter est fides. Resp. Charitas dicitur absolute de 
+      <lb ed="#T" n="41"/>Deo, non sic aliae virtutes, praedicatione causali, 
+      <lb ed="#T" n="42"/>multiplici ratione: prima est propter 
+      appropria<lb ed="#T" n="43" break="no"/>tionem principalem ratione maioris 
+      assimilatio<lb ed="#T" n="44" break="no"/>nis cum proprio Spiritus sancti: secunda propter 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0224.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="45"/>essentialem perfectionem, quia nihil habet 
+      im<lb ed="#T" n="46" break="no"/>perfectionis essentiale sicut caeterae: Tertia 
+      pro<lb ed="#T" n="47" break="no"/>pter inseparabilitatem, quia semper est 
+      coniun<lb ed="#T" n="48" break="no"/>cta Spiritui sancto, non sic caeterae. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1851">
+                  <lb ed="#T" n="49"/>[Nullum est isto excellentius] Contra. 
+      Sapien<lb ed="#T" n="50" break="no"/>tia est primum &amp; excellentissimum donorum, 
+      <lb ed="#T" n="51"/>Isa. 11. Resp. Inter dona proprie dicta quae sunt,  
+      <lb ed="#T" n="52"/>septem, de quibus habetur Isa. 11. Sapientia est 
+      <lb ed="#T" n="53"/>excellentius: sed hoc habet a charitate 
+      infor<lb ed="#T" n="54" break="no"/>mante. Inter dona dicta communiter ad omnes 
+      <lb ed="#T" n="55"/>habitus infusos charitas est donum excellentius 
+      <lb ed="#T" n="56"/>simpliciter, quia immediatius coniungit fini. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1871">
+                  <lb ed="#T" n="57"/>[Per quam nos tota inhabitat Trinitas) 
+      Con<lb ed="#T" n="58" break="no"/>tra. Spiritus sanctus per Patrem &amp; Filium est &amp; 
+      <lb ed="#T" n="59"/>operatur omnia, &amp; non e conuerso. Resp. 
+      Ali<lb ed="#T" n="60" break="no"/>ter dicitur praepositus operari per Regem aliter  
+      <lb ed="#T" n="61"/>Rex per praepositum, &amp; vtrninque verum est: 
+      <lb ed="#T" n="62"/>sed in prima propositione praepositio notat 
+      effe<lb ed="#T" n="63" break="no"/>ctum, in secunda subauctoritatem: ita hic 
+      di<lb ed="#T" n="64" break="no"/>cendum est, 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1891">
+                  <lb ed="#T" n="65"/>[Cum vbique sit &amp; in omni creatura] 
+      Con<lb ed="#T" n="66" break="no"/>tra. 1. ergo est in daemonibus. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1898">
+                  <lb ed="#T" n="67"/>2. Cum Spiritus sanctus sit charitas: ergo 
+      cha<lb ed="#T" n="68" break="no"/>ritas est in lapide. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1905">
+                  <lb ed="#T" n="69"/>Resp. Ad primum. Daemon non solum 
+      nomi<lb ed="#T" n="70" break="no"/>nat creaturam, sed vitium creaturae secundum 
+      <lb ed="#T" n="71"/>vsum, ideo non sequitur quod sit in Daemonibus. 
+      <lb ed="#T" n="72"/>vel in peccatoribus. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1917">
+                  <lb ed="#T" n="73"/>Ad secundum. Resp. Quamuis idem sint re 
+      <lb ed="#T" n="74"/>differunt modo significandi, quia spiritus 
+      signi<lb ed="#T" n="75" break="no"/>ficat ipsum vt substantiam seu personam pers se 
+      <lb ed="#T" n="76"/>subsistentem, sed charitas vt habitum. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1928">
+                  <lb ed="#T" n="77"/>[Duplo fiat in me] Contra: ergo voluit 
+      prae<lb ed="#T" n="78" break="no"/>poni Magistro suo. Resp. Non ex amore 
+      pro<lb ed="#T" n="79" break="no"/>priae excellentiae hoc voluit, sed pro vtilitate 
+      Ec<lb ed="#T" n="80" break="no"/>clesiae, &amp; necessitate temporis periculosi 
+      immi<lb ed="#T" n="81" break="no"/>nentis. Vel non petijt duplicari sibi Spiritum 
+      <lb ed="#T" n="82"/>sanctum, sed duplex officium spiritus, quod erat 
+      <lb ed="#T" n="83"/>in Elia dari, scilicet ad Prophetiam &amp; ad 
+      mira<lb ed="#T" n="84" break="no"/>cula. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1948">
+                  <lb ed="#T" n="85"/>[Sine mensura] Cotra. Sap. 11. omnia in 
+      men<lb ed="#T" n="86" break="no"/>sura &amp;c. Resp. Mensurata fuit gratia Christi in 
+      <lb ed="#T" n="87"/>se, sine mensura in comparatione ad alios. 
+    </p>
+               <p xml:id="pdt7y6-e43828-d1e1957">
+                  <lb ed="#T" n="88"/>Rectissima affectio charitas dicitur rectissima 
+      <lb ed="#T" n="89"/>affectio, quia rectior affectione omni alia, seu 
+      na<lb ed="#T" n="90" break="no"/>turali, seu acquisita, seu infusa. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

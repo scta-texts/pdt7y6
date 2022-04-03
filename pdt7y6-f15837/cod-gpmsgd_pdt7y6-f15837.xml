@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="376"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-f15837"><!-- l1d46prae -->
+            <head xml:id="pdt7y6-f15837-Hd1e99">Praeambulum</head>
+            <head xml:id="pdt7y6-f15837-Hd1e101" type="question-title"/>
+            <p xml:id="pdt7y6-f15837-d1e103">
+               <cb ed="#T" n="c"/>
+               <lb ed="#T" n="31"/>ILII SENTENTIAE, QA DICTVM. 
+      <lb ed="#T" n="32"/>est Dei voluntatem non posse cassati, quae ipse est, quaedam 
+      <lb ed="#T" n="33"/>videntur obuiare. Distinct. XLVI. 
+    </p>
+            <!--<p xml:id="pdt7y6-f15837-d1e114">
+               <lb ed="#T" n="34"/>IC oritur quaestio. Dictum est enim in superioribus, &amp; authoritatibus 
+      <lb ed="#T" n="35"/>Eia communitum, quod voluntas Dei, quae ipsa est, quae beneplacitum eius 
+      <lb ed="#T" n="36"/>vocatur, cassari non potest: quia illa voluntate fecit quaecunque voluit, 
+      <lb ed="#T" n="37"/>Qin caelo &amp; in terra: cui teste Apostolo nihil resistit. Quaeritur ergo 
+      quo<lb ed="#T" n="38" break="no"/>modo accipiendum sit quod Apostolus de Domino ait. Qui vult omnes 
+      <lb ed="#T" n="39"/>homines saluos fieri. Cum enim non omnes salui fiant, sed plures 
+      dam<lb ed="#T" n="40" break="no"/>nentur: videtur vtique non fieri quod Deus vult fieri, humana, scilicet, 
+      <lb ed="#T" n="41"/>voluntate impediente voluntatem Dei. Dominus quoque in Euangelio impiam 
+      ciuita<lb ed="#T" n="42" break="no"/>tem compellans, Quoties, inquit, volui congregare silios tuos sicut gallina congregat 
+      <lb ed="#T" n="43"/>pullos suos sub alas, &amp; noluistialta enim haec dicuntur tanquaDei voluntas superata sit 
+      ho<lb ed="#T" n="44" break="no"/>minum voluntate: &amp; infirmissimis nolendo impedientibus non potuerit facere 
+      potentissi<lb ed="#T" n="45" break="no"/>mus quod volebat. Vbi est ergo illa omnipotentia, qua in caelo &amp; in terra, secundum 
+      <lb ed="#T" n="46"/>Prophetam, omnia quaecunque voluit fecit; &amp; quomodo voluntati eius secundum 
+      Apo<lb ed="#T" n="47" break="no"/>stolum nihil resistit, si colligere filios Hierusalem voluit, &amp; non fecit ? Haec enim 
+      praedi<lb ed="#T" n="48" break="no"/>ctis plurimum obuiare videntur.  
+    </p>
+            <p xml:id="pdt7y6-f15837-d1e149">
+               <lb ed="#T" n="49"/>Solutio, quomodo intelligendum sit illud, Volui congregare &amp; noluisti. 
+      <lb ed="#T" n="50"/>Sed audiamus solutionem: ac primum quomodo accipiendum sit illud quod Dominus 
+      <lb ed="#T" n="51"/>ait videamus. Non enim ex eo sensu illud dictum est, ait August. in Enchir. praedictam 
+    </p>
+            <p xml:id="pdt7y6-f15837-d1e159">
+               <lb ed="#T" n="52"/>quaestionem soluens, quasi dominus voluerit congregare silios Hierusalem &amp; non si, 
+      fa<lb ed="#T" n="53" break="no"/>ctum quod voluit, quia ipsa noluerit: sed potius ipsa quidem filios suos ab ipso colligi 
+      no<lb ed="#T" n="54" break="no"/>luit, qua tamen nolente filios eius collegit ipse omnes quos voluit: quia in caelo &amp; in 
+      ter<lb ed="#T" n="55" break="no"/>ra non quaedam voluit &amp; fecit, quaedam vero voluit &amp; non fecit, sed omnia quaecunque 
+      <lb ed="#T" n="56"/>voluit, fecit: vt sit sensus, Quoties volui congregare filios tuos &amp; noluisti? id est, 
+      quot<lb ed="#T" n="57" break="no"/>quot congregaui mea voluntate semper efficaci, te nolente feci. Ecce in euidenti positum 
+      <lb ed="#T" n="58"/>est quod illa Domini verba superioribus non repugnant. 
+    </p>
+            <p xml:id="pdt7y6-f15837-d1e177">
+               <lb ed="#T" n="59"/>Quomodo intelligendum sit illud, Qui vult omnes homines saluos fieri. 
+      <lb ed="#T" n="60"/>Nunc videre restat, quomodo etiam praemissa verba Apostoli, praedictis non 
+      contradi<lb ed="#T" n="61" break="no"/>cant: qui de Deo loquens ait, Vult omnes homines saluos fieri. Quorum occasione 
+      ver<lb ed="#T" n="62" break="no"/>borum multi a veritate deuiauerunt, dicentes Deum multa velle fieri quae non fiunt. Sed 
+      <lb ed="#T" n="63"/>non est intelligendum ea ratione illud esse dictum, quasi Deus velit aliquos saluari &amp; non 
+      <lb ed="#T" n="64"/>saluentur. Quis enim tam impie desipiat, vt dicat Deum malas hominum voluntates quas 
+      <lb ed="#T" n="65"/>voluerit, &amp; quando voluerit, &amp; vbi voluerit, in bonum non posse conuertere? Non est 
+      vti<lb ed="#T" n="66" break="no"/>que verum quod in Psaimo dicitur, Quaecunque voluit fecit, si aliqua voluit, &amp; non fecit: 
+      <lb ed="#T" n="67"/>&amp; quod est indignius, ideo non fecit, quoniam ne fieret quod volebat omnipotens, 
+      volun<lb ed="#T" n="68" break="no"/>tas hominis impediuit. Ideoque cum audimus, &amp; in sacrisliteris legimus, quod velit 
+      om<lb ed="#T" n="69" break="no"/>nes homines saluos fieri (quamuis certum sit nobis non omnes homines saluos fieri) non 
+      <lb ed="#T" n="70"/>tamen ideo debemus omnipotentissimae Dei voluntati aliquid derogare, sed ita intelligere, 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0452.xml-\->
+      <pb ed="#T" n="377"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>quod scriptum est, Vult omnes homines saluos fieri: tanquam diceretur, nullum hominem 
+      <lb ed="#T" n="2"/>fieri saluum, nisi quem saluum fieri ipse voluerit; non quod nullus sit hominum nisi quem 
+      <lb ed="#T" n="3"/>saluum fieri velit, sed quod nullus siat saluus nisi quem velit saluari: &amp; ideo rogandus est, vt 
+      <lb ed="#T" n="4"/>velit: quia necesse est fieri, si voluerit. Non est enim credendus omnipotens aliquid 
+      vo<lb ed="#T" n="5" break="no"/>luisse sieri quod factum non sit. Sic etiam intelligitur illud: Illuminat omnem hominem 
+      ve<lb ed="#T" n="6" break="no"/>nientem in hunc mundum: non quia nullus hominum est qui non illuminetur, sed quia 
+      <lb ed="#T" n="7"/>nisi ab ipso nullus illuminetur. Potest &amp; alio modo illud intelligi, dum tamen credere non 
+      <lb ed="#T" n="8"/>cogamur omnipotentem aliquid fieri voluisse, factumque non esse: qui sine vllis ambi 
+      <lb ed="#T" n="9"/>gurtatibus siue in coelo &amp; in terra, sicut Veritas cantat, omnia quaecunque voluit fecit. 
+      <lb ed="#T" n="10"/>profecto facere non voluit quaecunque non fecit. Ex his aperte ostenditur quod Deus ea 
+      <lb ed="#T" n="11"/>voluntate, quae ipse est, non vnit aliquid fieri, quod non fiat, neque non fieri, quod fiat. 
+    </p>
+            <p xml:id="pdt7y6-f15837-d1e236">
+               <lb ed="#T" n="12"/>Vtrum mala Dei voluntate siant, an ea nolente. 
+      <lb ed="#T" n="13"/>Ideoque cum constet omnia bona quae fiunt, eius fieri voluntate, quae si fieri nollet, 
+      nul<lb ed="#T" n="14" break="no"/>latenus fierent, recte quaeri solet, vtrum &amp; mala omnia quae siunt, id est peccata, Dei fiant 
+      <lb ed="#T" n="15"/>voluntate: an nolente eo fiant. Super hoc diuersi varia sentientes sibi contradicere inue 
+      <lb ed="#T" n="16"/>niuntur. Alij enim dicunt quod Deus vult mala esse vel fieri, non tamen vult mala: alij 
+      ve<lb ed="#T" n="17" break="no"/>ro quod nec vult mala esse nec fieri. In hoc tamen conueniunt &amp; hi &amp; illi, quod vtrique 
+      <lb ed="#T" n="18"/>fatentur Deum mala non velle. Vtrique vero rationibus &amp; authoritatibus innituntur ad 
+      <lb ed="#T" n="19"/>muniendam suam assertionem. 
+    </p>
+            <p xml:id="pdt7y6-f15837-d1e256">
+               <lb ed="#T" n="20"/>Quare dicunt quidam Deum velle mala esse vel fieri. 
+      <lb ed="#T" n="21"/>Qui enim dicunt Deum mala velle esse vel fieri, suam his modis muniunt intentionem: 
+      <lb ed="#T" n="22"/>Si enim, inquiunt, mala non esse vel non fieri vellet, nullo modo essent vel fierent: quia 
+      si<lb ed="#T" n="23" break="no"/>vult ea non esse vel non fieri, &amp; non potest id efficere, scilicet, vt non sint vel non siant, 
+      vo<lb ed="#T" n="24" break="no"/>luntati eius &amp; potentiae aliquid resistit, &amp; non est omnipotens, quia non potest quod vult: 
+      <lb ed="#T" n="25"/>sed impotens est sicuti &amp; nos sumus, qui quod volumus quaadoque non valemus. Sed quid 
+      <lb ed="#T" n="26"/>omnipotens est, &amp; in nullo impotens, certum est non posse fieri mala vel esse nisi eo 
+      vo<lb ed="#T" n="27" break="no"/>lente. Quomodo enim inuito eo &amp; nolente posset ab aliquo malum fieri, cum scriptum 
+      <lb ed="#T" n="28"/>sit, Voluntati eius quis resistit eSupra etiam dicit Augustinus, quia necesse est fieri si 
+      volue<lb ed="#T" n="29" break="no"/>rit. Sed vult mala fieri, aut non fieri: si vult non fieri, non siunt: fiunt autem: vult ergo 
+      <lb ed="#T" n="30"/>fieri. Item bonum est mala esse vel fieri: alioquin summe bonus non permitteret ea fieri. 
+      <lb ed="#T" n="31"/>Vnde Augustinus in Enchiridio. Quamuis ea, inquit, quae mala sunt, inquantum mala sunt,  
+      <lb ed="#T" n="32"/>non sunt bona: tamen vt non solum bona, sed etiam sint &amp; mala, bonum est. Nam nisi esset 
+      <lb ed="#T" n="33"/>hoc bonum, vt essent &amp; mala, nullo modo esse sinerentur ab omnipotenti bono: cui 
+      pro<lb ed="#T" n="34" break="no"/>culdubio tam facile est quod vult facere, quam facile est quod non vult esse, non sinere. 
+      <lb ed="#T" n="35"/>Haec nisi credamus, periclitatur nostra confessio, qua nos in Patrem omnipotentem 
+      cre<lb ed="#T" n="36" break="no"/>dere confitemur. Ecce hic apperte habes, quod bonum est mala esse omnis autem boni 
+      <lb ed="#T" n="37"/>Deus author est, qui vult omne bonum esse quod est: cum ergo bonum sit mala fieri vel 
+      <lb ed="#T" n="38"/>esse, ergo velt &amp; mala fieri vel esse. His atque aliis huiusmodirationibus &amp; 
+      authoritati<lb ed="#T" n="39" break="no"/>bus vtuntur, qui dicunt Deum velle mala esse vel fieri. 
+    </p>
+            <p xml:id="pdt7y6-f15837-d1e302">
+               <lb ed="#T" n="40"/>Hic ponit rationes illorum qui dicunt Dei voluntate non fieri mala, vel non esse. 
+      <lb ed="#T" n="41"/>E 
+      <lb ed="#T" n="42"/>Illi vero, qui dicunt Dei voluntate mala non fieri, vel non esse, inductionibus praemissis 
+      <lb ed="#T" n="43"/>ita respondent. dicentes: Deum nec velle mala fieri, nec velle non fieri, vel nolle fieri, sed  
+      <lb ed="#T" n="44"/>tantum non velle fieri. Si enim vellet ea fieri vel esse, faceret vtique ea fieri vel esse; &amp; ita 
+      <lb ed="#T" n="45"/>esset author malorum: non est autem author malorum, vt Sanctorum protestantur 
+      autho<lb ed="#T" n="46" break="no"/>ritates: non ergo eius voluntate siunt mala. Item, si nollet mala fieri, vel vellet non fieri 
+      <lb ed="#T" n="47"/>&amp; tamen fierent, omnipotens non esset, cum eius voluntas humanae voluntatis effectu im 
+      <lb ed="#T" n="48"/>pediretur. Ideoque non concedunt Deum velle mala fieri, ne malorum author 
+      intelliga<lb ed="#T" n="49" break="no"/>tur: nec concedunt eum velle mala non fieri, vel nosse fieri, ne impotens esse videatur, sed  
+      <lb ed="#T" n="50"/>tantum dicunt cum non velle mala fieri, vt non author, sed permissor malorum monstre. 
+      <lb ed="#T" n="51"/>tur. Vnde &amp; Euangelista vbi ostenditDeum authorem esse omnium bonorum, dicens: 
+      Om<lb ed="#T" n="52" break="no"/>nia per ipsum facta sunt: consequenter malorum authorem esse negat, dicens: Et sine ipso 
+      <lb ed="#T" n="53"/>factum est nihil, id est peccatum. Non dixit per eum factum esse, vel eo nolente &amp; inuito, 
+      <lb ed="#T" n="54"/>sed tantum sine eo. id est, sine eius voluntate, quia non eius voluntate sit peccatum. Non 
+      <lb ed="#T" n="55"/>ergo Deo volente vel nolente, sed non volente fiunt mala: quia non subest Dei voluntati, 
+      <lb ed="#T" n="56"/>vt malum fiat: vel non sfiat: sed vt fieri sinat, quia bonum est sinere mala fieri, &amp; vtique 
+      <lb ed="#T" n="57"/>volens sinit, non volens mala: sed volens sinere sinit, vt ipsa siant: quia nec mala sunt 
+      bo<lb ed="#T" n="58" break="no"/>na, nec ea vel fieri vel esse bonum est. 
+    </p>
+            <p xml:id="pdt7y6-f15837-d1e346">
+               <lb ed="#T" n="59"/>Quomodo intelligendum sit illud Augustini, mala fitribonum est. 
+      <lb ed="#T" n="60"/>Quod vero Augustinus ait: Mala fieri bonum est, nec sinerentur mala ab omnipotenti 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0453.xml-\->
+      <pb ed="#T" n="378"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>bono fieri nisi hoc esset bonum, vt ea essent, ea ratione dictum esse asferunt, quia ex 
+      ma<lb ed="#T" n="2" break="no"/>lis quae siunt Deus bona elicit: nec ipse permitteret ea fieri nisi de eis boni aliquid 
+      face<lb ed="#T" n="3" break="no"/>ret. Vnde Augustinus in eodem libro Enchiridij aperte indicans praedictorum verborum. 
+      <lb ed="#T" n="4"/>esse talem intelligentiam ait: Deus omnipotens, cui rerum est summa potestas, cum summe 
+      <lb ed="#T" n="5"/>bonus sit, nullo modo sineret aliquid mali esse in operibus suis, nisi vsque adeo esset 
+      omni<lb ed="#T" n="6" break="no"/>potens &amp; bonus, vt bene faceret etiam de malo. Item in eodem: Melius iudicauit Deus 
+      <lb ed="#T" n="7"/>de malis bona facere, quam mala nulla permittere. Ex hoc itaque sensu dictum est ac 
+      ve<lb ed="#T" n="8" break="no"/>rum est: bonum est mala fieri: quia ex malis quae siunt, bonis (qui secundum propositum 
+      <lb ed="#T" n="9"/>vocati sunt sancti) accidit bonitas, id est, vtilitas: talibus enim (vt ait Apostolus) in 
+      bo<lb ed="#T" n="10" break="no"/>num cooperantur omnia etiam mala, quia eis prosunt, quae aliis facientibus obsunt. Unde 
+      <lb ed="#T" n="11"/>etiam aliquando in scriptura legitur malum appellari bonum: vt Hieronymus super 
+      Mar<lb ed="#T" n="12" break="no"/>cum: Malum, inquit, Iudae bonum fuit, scilicet nobis: nec si bonum est illi vel illi, inde 
+      se<lb ed="#T" n="13" break="no"/>quitur quod simpliciter bonum sit: proprie enim ac simpliciter bonum est, quod in se &amp; 
+      fa<lb ed="#T" n="14" break="no"/>cienti bonum est. 
+    </p>
+            <p xml:id="pdt7y6-f15837-d1e391">
+               <lb ed="#T" n="15"/>Quadripartita boni acceptio. 
+      <lb ed="#T" n="16"/>Est enim aliquid quod in se bonum est, &amp; cui sit: sed non est bonum facienti, vt cum 
+      <lb ed="#T" n="17"/>subuenitur pauperi, sed non propter Deum. Et est aliquid bonum in se &amp; facienti, sed non 
+      <lb ed="#T" n="18"/>ei cui sit, vt cum veritas propter Deum alicui non obedienti praedicatur. Et est aliquid in se 
+      <lb ed="#T" n="19"/>&amp; facienti &amp; ei cui sit bonum, vt cum veritas praedicatur propter Deum credenti: Unde 
+      <lb ed="#T" n="20"/>Apostolus: Bonus odor sumus Deo, aliis odor vitae, aliis odor mortis. Est autem aliud, 
+      <lb ed="#T" n="21"/>quod nec in se bonum est, &amp; facienti nocet, &amp; damnat, nisi poeniteat, vt malum: valet 
+      ta<lb ed="#T" n="22" break="no"/>men ad aliquid. Vt enim ait Augustinus in Enchiridio: Asumme &amp; aequaliter &amp; 
+      immu<lb ed="#T" n="23" break="no"/>tabiliter Trinitate bona creata sunt omnia: nec summe, nec aequaliter, nec immutabiliter  
+      <lb ed="#T" n="24"/>bona, sed tamen bona etiam singula: Simul vero vniuersa valde bona: quia ex omnibus 
+      <lb ed="#T" n="25"/>consistit vniuersitatis admirabilis pulchritudo, in qua etiam illud quod malum dicitur, 
+      be<lb ed="#T" n="26" break="no"/>ne ordinatum &amp; loco suo positum, eminentius commendat bona, vt magis placeant &amp; 
+      <lb ed="#T" n="27"/>laudabiliora sint, dum comparantur malis. 
+    </p>
+            <p xml:id="pdt7y6-f15837-d1e422">
+               <lb ed="#T" n="28"/>Quod mala vniuersitati valent, &amp; facientibus sua propria, vel patientibus. 
+      <lb ed="#T" n="29"/>aliena prosunt, electis tamen. 
+    </p>
+            <p xml:id="pdt7y6-f15837-d1e429">
+               <lb ed="#T" n="30"/>Hinc patet quod ex malis quae fiunt, aliquod prouenit bonum, dum bona magis placent 
+      <lb ed="#T" n="31"/>&amp;laudabiliora existunt. Ipsis etiam facientibus ex malis quae faciunt interdum bona 
+      pro<lb ed="#T" n="32" break="no"/>ueniunt, si secundum propositum vocati sunt sancti. Talibus enim, vt ait Aug. in lib. de 
+      Cor<lb ed="#T" n="33" break="no"/>rectione &amp; gratia, vsque adeo Deus omnia cooperatur in bonum, vt si qui horum deuiant 
+      <lb ed="#T" n="34"/>&amp; exorbitant, etiam hoc ipsum eis faciat proficere in bonum: quia humiliores redeunt, 
+      <lb ed="#T" n="35"/>atque doctiores, vt Petrus. Illa etiam mala quae ab iniquis fideles pie perferuntur, vt ait 
+      <lb ed="#T" n="36"/>Augustinus in lib. de Trinitate, ipsis vtique prosunt, vel ad delenda peccata, vel ad 
+      exer<lb ed="#T" n="37" break="no"/>cendam probandamque iustitiam, vel ad demonstrandam huius vitae miseriam. Ideoque 
+      <lb ed="#T" n="38"/>&amp; Iob Dei manum, &amp; Apostolus Satanae stimulum sensit, &amp; vterque bene profecit, quia 
+      <lb ed="#T" n="39"/>malum bene portauit. 
+    </p>
+            <p xml:id="pdt7y6-f15837-d1e453">
+               <lb ed="#T" n="40"/>Ex praedictis concludit ostendens bonum esse fieri mala, multis modis. 
+      <lb ed="#T" n="41"/>Si quis igitur diligenter attendat quae scripta sunt, facile est ei percipere ex malis bona 
+      <lb ed="#T" n="42"/>prouenire: &amp; ex ea ratione dictum esse, quod bonum est mala fieri, vel esse, non quia 
+      ma<lb ed="#T" n="43" break="no"/>lum sit bonum, vel quia bonum sit malum fieri. Non est enim bonum malum fieri ab 
+      ali<lb ed="#T" n="44" break="no"/>quo: quia non est bonum vt aliquis faciat malum. Si enim hoc esset bonum, profecto 
+      hu<lb ed="#T" n="45" break="no"/>ius Deus author esset, qui est author omnis boni. Quod si huius Deus author est, eo ergo 
+      <lb ed="#T" n="46"/>authore homo agit mala, &amp; ita eo authore homo sit deterior. Et si eo authore homo sit 
+      de<lb ed="#T" n="47" break="no"/>terior, tunc eo volente homo sit deterior. Idem est enim dicere aliquid fieri Deo authore, 
+      <lb ed="#T" n="48"/>quod Deo volente: Deo autem authore homo non sit deterior, ergo non Deo volente, vt 
+      <lb ed="#T" n="49"/>Aug. in 83. quaest. aperte astruit a minori, dicens ita: Nullo sapiente homine authore fit 
+      <lb ed="#T" n="50"/>homo deterior: tanta enim est ista culpa quae in sapientem hominem cadere nequit: est 
+      au<lb ed="#T" n="51" break="no"/>tem Deus omni homine sapiente praestantior: multo minus ergo Deo authore sit homo 
+      de<lb ed="#T" n="52" break="no"/>terior. Multo enim est praestantior Dei voluntas, quam hominis sapientia: Illo autem 
+      au<lb ed="#T" n="53" break="no"/>thore cum dicitur, illo volente dicitur: ergo est vitium voluntatis humanae, quo est homo 
+      <lb ed="#T" n="54"/>deterior: quod vitium si longe abest a Dei voluntate, vt ratio docet, a quo sit, quaerendum 
+      <lb ed="#T" n="55"/>est. Ecce aperte dicit Augustinus: Deo authore vel volente hominem non fieri deteriorem, 
+      <lb ed="#T" n="56"/>sed vitio voluntatis suae. Non est ergo Deo authore quod malum sit ab aliquo: &amp; ita Deo 
+      <lb ed="#T" n="57"/>volente mala non fiunt. 
+    </p>
+            <p xml:id="pdt7y6-f15837-d1e495">
+               <lb ed="#T" n="58"/>Quod in Deo non est causa, vt sit homo deterior.  
+      <lb ed="#T" n="59"/>Deinde idem August. quaerens quae sit causa vt homo sit deterior, in Deo eam non esse 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0454.xml-\->
+      <pb ed="#T" n="379"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>asferit, in eodem lib. dicens: Vt sit homo deterior, aut in ipso est, aut in alio, aut in nihilo. Si 
+      <lb ed="#T" n="2"/>in nihilo, nulla causa est: si in alio, aut inDeo, aut in alio quolibet homine, aut in eo qui 
+      ne<lb ed="#T" n="3" break="no"/>que Deus, neque homo sit: sed non in Deo (bonorum enim Deus tantum causa est) ergo in 
+      <lb ed="#T" n="4"/>homine est, aut in eo quod neque Deus, neque homo, aut in nihilo. Et ex his aperte 
+      osten<lb ed="#T" n="5" break="no"/>ditur quod non est bonum, vt sit homo deterior: quia non est Deus eius rei causa 
+      quitan<lb ed="#T" n="6" break="no"/>tum causa bonorum est. Et si non est bonum vt homo siat deterior, non est ergo bonum, 
+      <lb ed="#T" n="7"/>vt ab eo siat malum: non ergo vult Deus vt ab eo fiat malum. 
+    </p>
+            <p xml:id="pdt7y6-f15837-d1e524">
+               <lb ed="#T" n="8"/>Aliter probat quod Deo authore non siunt mala. 
+      <lb ed="#T" n="9"/>Item aliter etiam ostenditur quod Deo authore, id est, volente non fiunt mala: quia ipse 
+      <lb ed="#T" n="10"/>non est causa tendendi ad non esse: tendere enim ad non esse malum est: ipse autem 
+      au<lb ed="#T" n="11" break="no"/>thor mali non est: tendit vero ad non esse qui operatur malum: non ergo Deo authore est, 
+      <lb ed="#T" n="12"/>quod aliquis operatur malum. Non est ergo bonum, quod aliquis operatur malum, quia 
+      <lb ed="#T" n="13"/>tantum boni Deus author est. Hoc autem Augustinus in eodem libro aperte explicat ita 
+      <lb ed="#T" n="14"/>dicens: Qui omnium quae sunt author est, &amp; ad cuius bonitatem id pertinet vt sit omne 
+      <lb ed="#T" n="15"/>quod est, boni tantummodo causa est. Quocirca mali author non est, &amp; ideo ipse sum 
+      <lb ed="#T" n="16"/>mum bonum est: a quo in nullo deficere bonum est, &amp; malum est deficere. Non est ergo 
+      <lb ed="#T" n="17"/>causa deficiendi, id est, tendendi ad non esse, qui, vt ita dicam, essendi causa est, quia 
+      om<lb ed="#T" n="18" break="no"/>nium quae sunt author est, quae inquantum sunt, bona sunt. Ecce aperte habes quod 
+      defi<lb ed="#T" n="19" break="no"/>cere a Deo, qui summum est bonum, malum est: mala ergo facere malum est: non ergo 
+      <lb ed="#T" n="20"/>Deo authore vel volente mala fiunt. 
+    </p>
+            <p xml:id="pdt7y6-f15837-d1e556">
+               <lb ed="#T" n="21"/>Obiectio quorundam sophiflica, qua probare nituntur ex Deo esse quod mala siant. 
+      <lb ed="#T" n="22"/>Iam sufficienter ostensum est, quod Deo authore non siunt mala. Quidam tamen 
+      so<lb ed="#T" n="23" break="no"/>phistice incedentes, &amp; ideo Deo odibiles, probare conantur exDeo authore esse quod 
+      ma<lb ed="#T" n="24" break="no"/>la siunt, hoc modo: Quod mala siunt, verum est: omne autem verum quod est, a veritate 
+      <lb ed="#T" n="25"/>est, quae Deus est: a Deo ergo est quod mala siunt. Quod autem omne verum a Deo sit, 
+      <lb ed="#T" n="26"/>confirmant authore August. in lib. 83. quaest. ita dicentis: Omne verum a veritate verum 
+      <lb ed="#T" n="27"/>est: est autem veritas Deus: Deum ergo habet authorem omne verum. Est autem verum 
+      <lb ed="#T" n="28"/>quod mala siunt vel sunt. Deo ergo authore est quod sunt vel fiunt mala. 
+    </p>
+            <p xml:id="pdt7y6-f15837-d1e576">
+               <lb ed="#T" n="29"/>Responsio, vbi concedit omne verum esse a Deo, &amp; sophisma aperit.  
+      <lb ed="#T" n="30"/>Quibus facile est nobis respondere, sed indignum responsione videtur quod dicunt: 
+      <lb ed="#T" n="31"/>Omne namque verum a Deo est, vt ait Augustinus, cui consonat Ambros. qui tractans 
+      il<lb ed="#T" n="32" break="no"/>lud verbum Apostoli. Nemo potest dicere, Dominus lesus, nisi in Spiritu sancto: dicit quod 
+      <lb ed="#T" n="33"/>cum verum a quocunque dicitur, a Spiritu sancto est. Cum itaque verum sit quod mala fiunt  
+      <lb ed="#T" n="34"/>hoc verum quod dicitur illa locutione, scilicet mala siunt, a Deo est, sed non inde sequitur 
+      <lb ed="#T" n="35"/>quod a Deo sit, vt mala siant: Si enim hoc diceretur, author malorum Deus esse intellige 
+      <lb ed="#T" n="36"/>retur: quod ex simili manifeste falsum ostenditur: Deus prohibet furtum fieri, sed furtum 
+      <lb ed="#T" n="37"/>fieri verum est, ergo prohibet verum: non sequitur.  
+    </p>
+            <p xml:id="pdt7y6-f15837-d1e598">
+               <lb ed="#T" n="38"/>Partem quaestionis approbat illorum, qui dicunt Deum non velle mala fieri. 
+      <lb ed="#T" n="39"/>Haec igitur, &amp; alia huiusmodi inania relinquentes, praemissae quaestionis parti saniori 
+      fa<lb ed="#T" n="40" break="no"/>uentes, quae sanctorum testimonijs plenius approbatur: dicamus Deum non velle mala 
+      <lb ed="#T" n="41"/>fieri: nec tamen velle non fieri, neque nolle fieri. Omne ergo quod vult fieri sit, &amp; 
+      om<lb ed="#T" n="42" break="no"/>ne quod vult non fieri non sit. Fiunt autem multa, quae non vult fieri, vt omnia 
+      ma<lb ed="#T" n="43" break="no"/>la, ergo, &amp;c.
+    </p>-->
+            <p xml:id="pdt7y6-f15837-d1e614">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0454.xml-->
+               <cb ed="#T" n="b"/>
+               <lb ed="#T" n="44" type="fixed=379"/>DIVISIO TEXTVS. 
+      <lb ed="#T" n="45"/>NVIc oritur quaestio. ] Postquam egit de vo¬ 
+      <lb ed="#T" n="46"/>TTlantate Dei secundum se, hicagit de ea per 
+      <lb ed="#T" n="47"/>comparationem ad effectum, ostendendo eius 
+      effi<lb ed="#T" n="48" break="no"/>cacia. Primo indirecte, quia numquam est 
+      inef<lb ed="#T" n="49" break="no"/>ficax dist. hac. Secundo directe, quia semper 
+      <lb ed="#T" n="50"/>efficax dist. quadrag. septima. Quod nunquam 
+      <lb ed="#T" n="51"/>sit inefficax, ostendit dupliciter. Primo 
+      respe<lb ed="#T" n="52" break="no"/>ctu bonorum, tractando quaestionem hanc 
+      <lb ed="#T" n="53"/>vtrum aliquid velit fieri quod non fiat. Secundo 
+      <lb ed="#T" n="54"/>respectumalorum, tractando quaestionem hanc, 
+      <lb ed="#T" n="55"/>vtrum aliquid nolit fieri quod siat [Ideoque 
+      <lb ed="#T" n="56"/>cum constet. 
+    </p>
+            <p xml:id="pdt7y6-f15837-d1e649">
+               <lb ed="#T" n="57"/>In prima parte ad mouendam dubitationem, 
+      <lb ed="#T" n="58"/>primo inducit auctoritates duas Euangelij &amp; 
+      <lb ed="#T" n="59"/>Apostoli. Secundo determinat auctoritatem 
+      <lb ed="#T" n="60"/>Euangelij [Sed audiamus ] Tertio determinat 
+      <lb ed="#T" n="61"/>auctoritatem Apostoli [Nunc videre restat.] 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0454.xml-->
+      <cb ed="#T" n="c"/>
+               <lb ed="#T" n="62"/>In secunda parte primo procedit opiniones 
+      <lb ed="#T" n="63"/>recitando. Secundo pro opinione veriori 
+      defi<lb ed="#T" n="64" break="no"/>niendo [Si quis igitur diligenter. ] In prima 
+      <lb ed="#T" n="65"/>parte primo ponit duas opiniones [Ideoque ] 
+      <lb ed="#T" n="66"/>Secundo rationes opinionis minus verae] 
+      Qui<lb ed="#T" n="67" break="no"/>enim dicunt] Tertio rationes opinionis 
+      verio<lb ed="#T" n="68" break="no"/>ris [Illi vero qui) Quarto solutionem 
+      aucto<lb ed="#T" n="69" break="no"/>ritatum primae opinionis [Quod vero] Vbi. 
+      <lb ed="#T" n="70"/>primo ponit responsionem. Secundo resposionis 
+      <lb ed="#T" n="71"/>explanationem [Est enim ] Tertio 
+      praemisso<lb ed="#T" n="72" break="no"/>rum conclusionem [Hinc patet. ] In secunda 
+      <lb ed="#T" n="73"/>parte, primo tribus rationibus probat quod 
+      <lb ed="#T" n="74"/>Deus non vult mala fieri [Si quis Secundo 
+      op<lb ed="#T" n="75" break="no"/>ponit in contrarium &amp; soluit; Iam sufficientera  
+      <lb ed="#T" n="76"/>In prima parte primo inducit rationem a 
+      mino<lb ed="#T" n="77" break="no"/>ri [Si quis ergo] Secundo a diuisione [
+      Dein<lb ed="#T" n="78" break="no"/>de ] Tertio ab effectu [Item.] In secunda 
+      par<lb ed="#T" n="79" break="no"/>te primo ponit objectum[Iam sufficienter 
+      Se<lb ed="#T" n="80" break="no"/>cundo solutionem Quibus] Tertio infert 
+      con<lb ed="#T" n="81" break="no"/>clusionem [Haec igitur. ]cod in.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

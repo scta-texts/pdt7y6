@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="253"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e77182"><!-- l1d32prae -->
+            <head xml:id="pdt7y6-e77182-Hd1e99">Praeambulum</head>
+            <head xml:id="pdt7y6-e77182-Hd1e101" type="question-title"/>
+            <p xml:id="pdt7y6-e77182-d1e103">
+               <cb ed="#T" n="c"/>
+               <lb ed="#T" n="42"/>VTRVMPATERVELFILIVS 
+      <lb ed="#T" n="43"/>Spiritu sancto diligat, cum diligere idem Deo sit quod esse. 
+      <lb ed="#T" n="44"/>Distinct. EXXII.
+    </p>
+           <!-- <p xml:id="pdt7y6-e77182-d1e114">
+               <lb ed="#T" n="45"/>Ic oritur quaestio ex praedictis deducta, dictum est enim supra, atque 
+      <lb ed="#T" n="46"/>sanctorum authoritatibus ostensum, quod Spiritus sanctus est 
+      commu<lb ed="#T" n="47" break="no"/>nio Patris &amp; Filij, &amp; amor quo Pater &amp; Filius se inuicem diligunt. Ideo 
+      <lb ed="#T" n="48"/>quaeritur vtrum pater vel Filius per Spiritum sanctum diligat: quod 
+      vti<lb ed="#T" n="49" break="no"/>que videtur oportere dici secundum authoritates supra positas: quibus 
+      <lb ed="#T" n="50"/>ostenditur Spiritum sanctum esse, quo genitus a gignente diligatur, 
+      ge<lb ed="#T" n="51" break="no"/>nitoremque suum diligat. Sed contra, si Pater vel Filius dicatur diligere 
+      <lb ed="#T" n="52"/>per Spiritum sanctum, videtur esse per Spiritum sanctum: quia non est aliud Deo esse 
+      <lb ed="#T" n="53"/>&amp; aliud diligere, sed idem: quia vt ait Aug. in 15. lib. de Trinit. Quicquid secundum 
+      quali<lb ed="#T" n="54" break="no"/>tates in illa simplici natura dici videtur, secundum essentiam est intelligendum, vt bonus, 
+      <lb ed="#T" n="55"/>magnus, immortalis, sapiens, diligens, &amp; huiusmodi. Ideoque si Pater vel Filius dili git 
+      <lb ed="#T" n="56"/>per Spiritum sanctum, per ipsum Spiritum esse videtur: neque tantum essentia sua diligit, 
+      <lb ed="#T" n="57"/>sed etiam dono. 
+    </p>
+            <p xml:id="pdt7y6-e77182-d1e145">
+               <lb ed="#T" n="58"/>Haec quaestio insolubilis est humanum superans sensum: in quo authoritates sibi occurrunt. 
+      <lb ed="#T" n="59"/>Huic quaestioni, cum altitudinem nimiae profunditatis contineat, id solum 
+      responde<lb ed="#T" n="60" break="no"/>mus, quod Augustinus significare videtur scilicet quod Pater &amp; Filius se diligant, &amp; 
+      vni<lb ed="#T" n="61" break="no"/>tatem seruent non solum essentia sua, sed suo dono proprio, quod licet supra positum sit, 
+      <lb ed="#T" n="62"/>iterare tamen non piget, quia sic expedit. Ait ergo August. in 6. libro de Trinit. ita, 
+      Ma<lb ed="#T" n="63" break="no"/>nifestum est quod non aliquis duorum est quo vterque coniungitur, quo genitus a 
+      gignen<lb ed="#T" n="64" break="no"/>te diligatur, genitoremque suum diligat, sintque non participatione sed essentia sua, neque 
+      <lb ed="#T" n="65"/>dono superioris alicuius sed suo proprio seruantes vnitatem pacis. Ecce hic dicit quod 
+      <lb ed="#T" n="66"/>essentia sua &amp; sono suo feruant vnitatem. Idem in 15. lib. de Trinit. ait, In illa Trinitate 
+      <lb ed="#T" n="67"/>quis audeat dicere, Patrem nec se, nec Filium, nec Spiritum sanctum diligere, nisi per 
+      <lb ed="#T" n="68"/>Spiritum sanctum? Hic aperte ostendit, Patrem non tantum per Spiritum sanctum 
+      dilige<lb ed="#T" n="69" break="no"/>re, non tamen simpliciter dicit patrem non diligere per Spiritum sanctum. 
+    </p>
+            <p xml:id="pdt7y6-e77182-d1e175">
+               <lb ed="#T" n="70"/>Vtrum Pater sit sapiens sapientia quam genuit, sicut diligit amore qui ab ipso procedit. 
+      <lb ed="#T" n="71"/>Praeterea diligenter inuestigari: portet, vtrum Pater sapiens sit sapientia quam genuit, 
+      <lb ed="#T" n="72"/>quae tantum Filius est. Quod videtur a similiposse probari. Si enim Pater diligit amore 
+      qui<lb ed="#T" n="73" break="no"/>ab ipso procedit, cur non &amp; sapientia vel intelligentia quam ipse genuit, sapit, vel 
+      intelli<lb ed="#T" n="74" break="no"/>git? Hanc quaestionem vrgere videtur, vt ait August. in 6. lib. de Trinit. quod scri 
+      <lb ed="#T" n="75"/>psit Apostolus dicens Christum Dei virtutem &amp; Dei sapientiam. Vbi quaeritur, vtrum ita 
+      <lb ed="#T" n="76"/>sit Pater sapientiae &amp; virtutis suae, vt hac sapientia sapiens sit quam genuit, &amp; hac virtute 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0329.xml-\->
+      <pb ed="#T" n="254"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>potens, quam genuit. Sed absit vt ita sit: quia si hoc est ibi esse quod sapere, non per illam 
+      <lb ed="#T" n="2"/>sapientiam quam genuit sapiens dicitur Pater: alioquin non ipsa ab illo, sed ille ab ipsa est. 
+      <lb ed="#T" n="3"/>Si enim sapientia quam genuit, causa est illi vt sapiens sit, etiam vt sit ipsa illi causa est, 
+      <lb ed="#T" n="4"/>quod fieri non potest, nisi gignendo cum aut faciendo, sed nec genitricem, nec 
+      conditri<lb ed="#T" n="5" break="no"/>cem vatris vllo modo quisquam dixerit sapientiam: quid enim est insanius? Ergo Pater 
+      ip<lb ed="#T" n="6" break="no"/>Sa sapientia est: qua sapiens est: Filius vero dicitur sapientia Patris, &amp; virtus Patris: non 
+      <lb ed="#T" n="7"/>quia Pater per eum sit sapiens vel potens, sed quia Filius sapientia &amp; virtus est de Patre 
+      sa<lb ed="#T" n="8" break="no"/>pientia &amp; virtute. Ex his ergo patet quod Pater non est sapiens sapientia genita, sed 
+      seipso<lb ed="#T" n="9" break="no"/>sapientia ingenita. 
+    </p>
+            <p xml:id="pdt7y6-e77182-d1e219">
+               <lb ed="#T" n="10"/>Vtrum Filius sit sapiens sapientia genita vel ingenita. 
+      <lb ed="#T" n="11"/>Post haec quaeri solet a quibusdam, vtrum Filius sit sapiens sapientia genita, vel 
+      ingeni<lb ed="#T" n="12" break="no"/>ta. Si enim non est sapiens sapientia genita, nec seipso sapiens est: si vero sapientia genita 
+      <lb ed="#T" n="13"/>sapiens est, non videtur sapiens esse sapientia ingenita, &amp; ita non videtur esse sapiensa 
+      <lb ed="#T" n="14"/>Patre, cum a Patre habeat omnia. Ad quod dicimus, quod vna est sapientia Patris &amp; Filij. 
+      <lb ed="#T" n="15"/>&amp; Spiritus sancti, sicut vna essentia: quia sapientia in illius naturae simplicitate est 
+      essen<lb ed="#T" n="16" break="no"/>tia, &amp; tamen Filius tantum est sapientia genita, &amp; Pater tantum est sapientia ingenita: &amp; 
+      <lb ed="#T" n="17"/>sapientia genita est de sapientia ingenita, vel a sapientia ingenita. Et cum idem sit ibi esse 
+      <lb ed="#T" n="18"/>quod sapientem esse, relinquitur vt sapientia genita sit sapiens de sapientia ingenita. Non 
+      <lb ed="#T" n="19"/>ergo Filius dicitur sapientia Dei, tanquam ipse solus intelligens sitvel sapiens sibi &amp; Patri &amp; 
+      <lb ed="#T" n="20"/>Spiritui sancto, quia vt ait Aug. in 15. lib. de Trinit. cap. 7. Si solus ibi Filius intelligit &amp; sibi 
+      <lb ed="#T" n="21"/>&amp; Patri &amp; Spiritui sancto, ad illam reditur absurditatem, vt Pater non sit sapiens de 
+      seipso<lb ed="#T" n="22" break="no"/>sed de Filio: nec sapientia sapientiam genuerit, sed ea sapientia Pater dicatur sapiens esse 
+      <lb ed="#T" n="23"/>quam genuit. Vbi enim non est intelligentia, nec sapientia potest esse. Ideoque si Pater  
+      <lb ed="#T" n="24"/>non intelligit ipse sibi, sed Filius intelligit Patri, profecto Filius Patrem sapientiam facit. 
+      <lb ed="#T" n="25"/>Et si hoc est Deo esse quod sapere, &amp; ea illi est essentia, quae sapientia, non Filius a patre, 
+      <lb ed="#T" n="26"/>quod verum est, sed a Filio potius Pater habet essentiam, quod absurdissimum atque 
+      fal<lb ed="#T" n="27" break="no"/>sissimum est. Est ergo Deus Pater sapiens ea, quae ipse est, sua sapientia: &amp; Filius, sapientia 
+      <lb ed="#T" n="28"/>Patris, est sapiens de sapientia quae est Pater, de quo est genitus Filius. Ita &amp; Pater est 
+      in<lb ed="#T" n="29" break="no"/>telligens ea, quae ipse est, sua intelligentia. Non enim esset sapiens, qui non esset 
+      intelli<lb ed="#T" n="30" break="no"/>gens. Filius autem intelligentia ratris, de intelligentia genitus est, quae est Pater: de qua 
+      <lb ed="#T" n="31"/>&amp; intelligens est. Proinde Pater est sapientia, &amp; Filius sapientia, &amp; vterque vna est 
+      sapien<lb ed="#T" n="32" break="no"/>tia: &amp; tamen solus Pater est ingenita sapientia, &amp; Filius solus genita sapientia, nec tamen 
+      <lb ed="#T" n="33"/>alia sapientia Pater, alia sapientia Filius, sed vna eademque est: sicut Pater est Deus 
+      inge<lb ed="#T" n="34" break="no"/>nitus, &amp; Filius est Deus genitus: neque Deus genitus est Deus ingenitus; non ideo tamen 
+      <lb ed="#T" n="35"/>alius Deus est Pater, alius Deus Filius: sed vnus Deus vterque. Non autem vnus. Alius 
+      <lb ed="#T" n="36"/>est enim genitus, alius ingenitus; sed non alius Deus, imo vterque vnum, siue vnus Deus. 
+      <lb ed="#T" n="37"/>Ita non est sapientia genita sapientia ingenita: sed alia est sapientia genita, alia ingenita: 
+      <lb ed="#T" n="38"/>non tamen est alia sapientia, sed vna eademque sapientia. 
+    </p>
+            <p xml:id="pdt7y6-e77182-d1e284">
+               <lb ed="#T" n="39"/>An Filius sit sapiens seipso vel per seipsum.
+    </p>
+            <p xml:id="pdt7y6-e77182-d1e289">
+               <lb ed="#T" n="40"/>Ex praedictis constat, quod Filius non est sapiens a se, neque de se: sed de Patre, &amp; a 
+      Pa<lb ed="#T" n="41" break="no"/>tre. Quaeri autem solet, vtrum Filius sit sapiens seipso vel per seipsum. Quidam dicunt,  
+      <lb ed="#T" n="42"/>multiplicem hic fieri intelligentiam, &amp; ideo distinguendum fore: ita vt cum dicis Filium 
+      <lb ed="#T" n="43"/>esse sapientem seipso vel per seipsum, si sui natura &amp; essentia sapientem intelligas, verus 
+      <lb ed="#T" n="44"/>sit intellectus: si vero a seipso vel de seipso sapientem esse intelligas, falsitati subjectam 
+      ha<lb ed="#T" n="45" break="no"/>beas intelligentiam. Alij vero simpliciter &amp; absque determinatione concedunt huiusmodi 
+      <lb ed="#T" n="46"/>locutiones, Filius est sapiens per se, sed non ase, vel de se: &amp; Filius est Deus per se, &amp; est 
+      <lb ed="#T" n="47"/>per se, sed non a se, vel de se: hoc confirmantes verbis Hilarij, qui Filium non a se, sed  
+      <lb ed="#T" n="48"/>per se agere, in lib. 9. de Trinit. ait, naturae, inquit, cui contradicis, haeretice, haec 
+      vni<lb ed="#T" n="49" break="no"/>tas est, vt ita per se agat Filius, ne a se agat: &amp; ita non a se agat, vt per se agat. Intellige 
+      <lb ed="#T" n="50"/>Filium agentem &amp; per eum Patrem agentem. Non a se agit, cum Pater in eo manere 
+      <lb ed="#T" n="51"/>monstratur. Per se agit, cum secundum natiuitatem Filij agit ipse quae placita sunt. 
+      In<lb ed="#T" n="52" break="no"/>firmus sit non a se agendo, nisi a Deo ipse agit: non sit vero in vnitate naturae, si quae agit 
+      <lb ed="#T" n="53"/>&amp; in quibus placet non per se agit. Sicut ergo, inquiunt, Filius per se agit, sed non a se, 
+      <lb ed="#T" n="54"/>ita &amp; Filius debet dici sapiens per se, sed non a se. Sic &amp; ipse per se Deus ost, vel esse 
+      di<lb ed="#T" n="55" break="no"/>cendus est (vt aiunt) sed non a se, vel de se. 
+    </p>
+            <p xml:id="pdt7y6-e77182-d1e326">
+               <lb ed="#T" n="56"/>An una tantum sit sapientia Patris.
+    </p>
+            <p xml:id="pdt7y6-e77182-d1e331">
+               <lb ed="#T" n="57"/>Post haec a quibusdam solet quaeri, vtrum vna tantum sit sapientia Patris. Quod non esse 
+      <lb ed="#T" n="58"/>nituntur probare hoc modo. Filius, inquiunt, est sapientia Patris genita, qua Pater sapiens. 
+      <lb ed="#T" n="59"/>non est. Est igitur aliqua sapientia Patris, qua sapiens non est. Est autem &amp; sapientia Patris 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0330.xml-\->
+      <pb ed="#T" n="255"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>ingenita, &amp; ea, Pater sapiens est. Est ergo quaedam sapientia patris, qua sapiens est: &amp; 
+      ip<lb ed="#T" n="2" break="no"/>sa non est illa sapientia Patris, qua Pater sapiens non est: non est ergo vna tantum 
+      sapien<lb ed="#T" n="3" break="no"/>tia Patris. Item, sapientia ingenita est sapientia patris: &amp; sapientia genita est sapientia. 
+      <lb ed="#T" n="4"/>Patris: non est autem sapientia ingenita sapientia genita: non est igitur vna tantum Patris 
+      <lb ed="#T" n="5"/>sapientia. Haec &amp; his similia, tanquam sophistica, &amp; a veritate longinqua, cunctisque in 
+      <lb ed="#T" n="6"/>Theologia peritis patentia abijcimus, responso indigna aduertentes: id tamen adijcientes 
+      <lb ed="#T" n="7"/>quia vna tantum sapientia Patris, sed non vno modo dicitur. Nam sapientia Patris dicitur 
+      <lb ed="#T" n="8"/>illa quam genuit, &amp; sapientia Patris dicitur ea qua sapiens est. Diuersa est ergo ratio dicti. 
+      <lb ed="#T" n="9"/>Illa enim dicitur patris, quia eam genuit: &amp; ea dicitur sapientia Patris, quia ea sapit. 
+      <lb ed="#T" n="10"/>Vna est tamen sapientia patris, quia sapientia genita est eadem sapientia, &amp; ea qua 
+      <lb ed="#T" n="11"/>sapiens est: sine ea qua sapiens est, intelligatur persona patris, siue essentia vatris: quia 
+      <lb ed="#T" n="12"/>persona patris quae intelligitur cum dicitur sapientia ingenita, &amp; persona Filij, quae 
+      signi<lb ed="#T" n="13" break="no"/>ficatur cum dicitur sapientia genita, vna eademque sapientia est: quae essentia Diuina 
+      in<lb ed="#T" n="14" break="no"/>telligitur communis tribus personis. 
+    </p>
+            <p xml:id="pdt7y6-e77182-d1e378">
+               <lb ed="#T" n="15"/>Quod in Trinitate est dilectio quae est Trinitas: &amp; tamen Spiritus sanctus est dilectio, quae non est: 
+      <lb ed="#T" n="16"/>Trinitas, nec ideo duae sunt dilectiones: ita &amp; de sapientia. 
+    </p>
+            <p xml:id="pdt7y6-e77182-d1e385">
+               <lb ed="#T" n="17"/>Et sicut in Trinitate dilectio est, quae est pater, Filius, &amp; Spiritus sanctus, quae est ipsa 
+      <lb ed="#T" n="18"/>essentia Deitatis, &amp; tamen Spiritus sanctus dilectio est, quae non est pater vel Filius: nec 
+      <lb ed="#T" n="19"/>ideo duae dilectiones sunt in Trinitate: quia dilectio quae proprie Spiritus sanctus est, est 
+      <lb ed="#T" n="20"/>dilectio quae Trinitas est, non tamen ipsa Trinitas est, sicut Spiritus sanctus est essentia 
+      <lb ed="#T" n="21"/>quae Trinitas est, non tamen ipse Trinitas est: ita in Trinitate sapientia est, quae est pater 
+      <lb ed="#T" n="22"/>&amp; Filius &amp; Spiritus sanctus quae est essentia Diuina: &amp; tamen Filius est sapient a, quae non 
+      <lb ed="#T" n="23"/>est pater vel Spiritus sanctus. Nec ideo duae sapientiae ibi sunt: quia sapientia, quae proprie 
+      <lb ed="#T" n="24"/>est Filius, est sapientia quae est Trinitas, ipsa tamen non est Trinitas: sicut t ilius est 
+      essen<lb ed="#T" n="25" break="no"/>tia quae est Trinitas, ipse tamen non est Trinitas, 
+      <lb ed="#T" n="26"/>Qua ratione Pater non dicitur sapiens ea sapientia quam genuit, eadem videtur debere dici quod non sit di¬ 
+    </p>
+            <p xml:id="pdt7y6-e77182-d1e409">
+               <lb ed="#T" n="27"/>ligens Pater vel Filius dilectione, quae ab vtroque procedit. 
+      <lb ed="#T" n="28"/>Praeterea diligenter notandum est, quod ea ratione qua pater non dicitur sapiens ea 
+      sa<lb ed="#T" n="29" break="no"/>pientia quam genuit, videtur fore dicendum quod pater non diligat Filium, vel Filius 
+      pa<lb ed="#T" n="30" break="no"/>trem ea dilectione quae ab vtroque procedit, scilicet, quae proprie Spiritus sanctus est. 
+      <lb ed="#T" n="31"/>Sicut enim idem est Deo sapere quod esse, ita est ei idem diligere quod esse. ideoque sicut  
+      <lb ed="#T" n="32"/>negatur pater esse sapiens sapientia quam genuit, quia si ea diceretur sapiens, non ipsa ab 
+      <lb ed="#T" n="33"/>eo, sed ipse ab ea intelligeretur esse: ita videtur non debere concedi, quod pater vel Filius, 
+      <lb ed="#T" n="34"/>diligat dilectione, quae tantum Spiritus sanctus est: quia si ea diligit pater vel Filius, non 
+      <lb ed="#T" n="35"/>Spiritus sanctus videtur esse a vatre &amp; Filio, sed pater &amp; Filius a Spiritu sancto: quia idem 
+      <lb ed="#T" n="36"/>est ibi diligere quod esse. At supra dictum est, atque authoritate Augustini sancitum quod 
+      <lb ed="#T" n="37"/>in Trinitate tria sunt, vnus diligens eum qui de illo est, &amp; vnus diligens eum de quo est, &amp; 
+      <lb ed="#T" n="38"/>ipsa dilectio: &amp; non est aliquis duorum quo genitus a gignente diligitur, &amp; genitore uum 
+      <lb ed="#T" n="39"/>diligit. Quibus verbis aperte significatur patrem Filium, &amp; Filium patrem diligere, ea 
+      sci<lb ed="#T" n="40" break="no"/>licet dilectione quae non est aliquis eorum, sed tantum Spiritus sanctus. Cum idem ergo 
+      <lb ed="#T" n="41"/>sit ibi diligere quod esse, quomodo dicitur vater vel Filius non esse ea dilectione, qua alter 
+      <lb ed="#T" n="42"/>alterum diligit? cum ideo pater negetur sapere sapientia quam genuit, nec ea esse 
+      intel<lb ed="#T" n="43" break="no"/>ligatur.  
+    </p>
+            <p xml:id="pdt7y6-e77182-d1e448">
+               <lb ed="#T" n="44"/>Quod &amp; haec quaestio inexplicabilis est, quae excellit infirmitatem hominum. 
+      <lb ed="#T" n="45"/>Difficilem mihi fateor hanc quaestionem, praecipue cum ex paedictis oriatur, quae 
+      simi<lb ed="#T" n="46" break="no"/>lem videntur habere rationem: quod meae intelligentiae attendens infirmitas turbatur.  
+      <lb ed="#T" n="47"/>cupiens magis ex dictis sanctorum referre, quam afferre. Optimus enim Lector est, inquit  
+      <lb ed="#T" n="48"/>Hilarius in primo libro de Trinitate, qui dictorum intelligentiam expecta tex dictis potius, 
+      <lb ed="#T" n="49"/>quam imponat, &amp; retulerit magis quam attulerit: neque cogat id videri dictis contineri, 
+      <lb ed="#T" n="50"/>quod antelectionem praesumplerit intelligendum. Cum ergo de rebus Dei sermo est, 
+      con<lb ed="#T" n="51" break="no"/>cedamus Deo sui cognitionem, dictisque eius pia veneratione famulemur. Inuestiget ergo 
+      <lb ed="#T" n="52"/>diligenter pius lector rationem dictorum, si forte eorum aliquam valeat reperire causam: 
+      <lb ed="#T" n="53"/>qua nota, ipsa praemissa quaestio aliquatenus explicari, valeat. Ego autem hanc 
+      quaestio<lb ed="#T" n="54" break="no"/>nem non absoluens, sed errorem excludens, profiteor non esse dictum patrem diligere 
+      <lb ed="#T" n="55"/>Filium, vel Filium patrem, ea dilectione quae ab vtroque procedit, quae non est aliquis 
+      <lb ed="#T" n="56"/>eorum, sed tantum Spiritus sanctus,t anquam ea dilectione pater sit, vel Filius: sed sic ea 
+      <lb ed="#T" n="57"/>Pater diligit Filium, &amp; Filius patrem, vt etiam vater per sdea, quae ipse est, dilectione 
+      di<lb ed="#T" n="58" break="no"/>ligat, sic &amp; Filius, non autem sic, vt pater per se non diligat, &amp; Filius, sed per eam 
+      tan<lb ed="#T" n="59" break="no"/>tum. Quis haec in illa Trinitate (inquit Augustinus) opinari vel affirmare praesumat? Eam 
+      <lb ed="#T" n="60"/>tamen quaestionem Lectorum diligentiae plenius dijudicandam atque absoluendam relin 
+      <lb ed="#T" n="61"/>quimus, ad hoc minus sufficientes.
+    </p>-->
+            <p xml:id="pdt7y6-e77182-d1e490">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0331.xml-->
+               <pb ed="#T" n="256"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>DIVISIO TEXTVS. 
+      <lb ed="#T" n="2"/>NVIc oritur quaestio. ] Pofuit assignationem 
+      <lb ed="#T" n="3"/>quorundam appropriatorum: hic 
+      de<lb ed="#T" n="4" break="no"/>terminat dubitationes incidentes ex assignatione. 
+      <lb ed="#T" n="5"/>Primo circa appropriata Spiritus sancti. 
+      Secun<lb ed="#T" n="6" break="no"/>do circa appropriata Filij [Praeterea diligenter 
+      <lb ed="#T" n="7"/>inuestigari oportet ] Tertio circa vtrumque 
+      si<lb ed="#T" n="8" break="no"/>mul, quia agit de vno in comparatione ad aliud 
+      <lb ed="#T" n="9"/>[Praeterea diligenter notandum est, 
+    </p>
+            <p xml:id="pdt7y6-e77182-d1e519">
+               <lb ed="#T" n="10"/>In prima parte primo ponit quaestionem. 
+      Se<lb ed="#T" n="11" break="no"/>cundo responsionem [huic quaestioni.] 
+    </p>
+            <p xml:id="pdt7y6-e77182-d1e527">
+               <lb ed="#T" n="12"/>In secunda parte primo inquirit an Pater sit 
+      <lb ed="#T" n="13"/>sapiens sapientia genita [Praeterea] Secundo a 
+      <lb ed="#T" n="14"/>Filius sit sapiens sapientia genita vel ingenita 
+      <lb ed="#T" n="15"/>[Post haec quaeri] Tertio an Filius sit sapiens 
+      <lb ed="#T" n="16"/>seipso. [Ex praedictis] Quarto an vna sit 
+      sa<lb ed="#T" n="17" break="no"/>pientia Patris tantum [Post haec ] Vbi primo 
+      <lb ed="#T" n="18"/>mouet quaestionem, &amp; subdit solutionem. 
+      Se<lb ed="#T" n="19" break="no"/>cundo ponit eius per exemplum 
+      manifestatio<lb ed="#T" n="20" break="no"/>nem [Et sicut. 1 
+    </p>
+            <p xml:id="pdt7y6-e77182-d1e549">
+               <lb ed="#T" n="21"/>In tertia parte principali primo mouet 
+      quae<lb ed="#T" n="22" break="no"/>stionem [Praeterea] Secundo insolutam 
+      relin<lb ed="#T" n="23" break="no"/>quens excludit errorem[Difficilem.] 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

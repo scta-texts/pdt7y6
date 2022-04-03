@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="240"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e73316"><!-- l1d30prae -->
+            <head xml:id="pdt7y6-e73316-Hd1e99">Praeambulum</head>
+            <head xml:id="pdt7y6-e73316-Hd1e101" type="question-title"/>
+            <p xml:id="pdt7y6-e73316-d1e103">
+               <cb ed="#T" n="c"/>
+               <lb ed="#T" n="46"/>DEHIS QVE TEMPORALITER 
+      <lb ed="#T" n="47"/>De Deo dicuntur &amp; relatiue secundum accidens, quod 
+      <lb ed="#T" n="48"/>non Deo, sed creaturis accidit. 
+      <lb ed="#T" n="49"/>Distinct. XXX. 
+    </p>
+         <!--   <p xml:id="pdt7y6-e73316-d1e116">
+               <lb ed="#T" n="50"/>Vnt enim quaedam quae ex tempore de Deo dicuntur, eique 
+      tempora<lb ed="#T" n="51" break="no"/>liter conueniunt sine sui mutatione: &amp; relatiue dicuntur secundum 
+      ac<lb ed="#T" n="52" break="no"/>cidens: non quod accidit Deo, sed quod accidit creaturis, vt creator, 
+      <lb ed="#T" n="53"/>dominus, refugium, datum, vel donatum, &amp; huiusmodi. De his 
+      Aug<lb ed="#T" n="54" break="no"/>in 5. libro de Trinitate ait Creator relatiue dicitur ad creaturam; sicut  
+      <lb ed="#T" n="55"/>dominus ad seruum. Item, non aliquem moueat quod Spiritus sanctus, 
+      <lb ed="#T" n="56"/>cum sit coaeternus patri &amp; Filio, dicitur tamen aliquid ex tempore: 
+      ve<lb ed="#T" n="57" break="no"/>luti hoc ipsum quod donatum diximus. Nam sempiterne Spiritus sanctus est donum, 
+      tem<lb ed="#T" n="58" break="no"/>poraliter autem donatum. Et si Dominus non dicitur, nisi cum habere incipit seruum, 
+      <lb ed="#T" n="59"/>etiam ista appellatio relatiua ex tempore est Deo. Non enim sempiterna creatura est, 
+      <lb ed="#T" n="60"/>cuius ille Dominus est: ergo Dominum esse non sempiternum habet, ne cogamur etiam 
+      <lb ed="#T" n="61"/>creaturam sempiternam dicere: quia ille sempiterne non dominaretur, nisi etiam ista 
+      <lb ed="#T" n="62"/>sempiterne famularetur. Sicut autem non potest esse seruus qui non habet dominum, 
+      <lb ed="#T" n="63"/>sic nec dominus qui non habet seruum. 
+    </p>
+            <p xml:id="pdt7y6-e73316-d1e149">
+               <lb ed="#T" n="64"/>Oppositio, quod non ex tempore sit Dominus, quia est Dominus temporis, quod non 
+    </p>
+            <p xml:id="pdt7y6-e73316-d1e155">
+               <lb ed="#T" n="65"/>est ex tempore. 
+      <lb ed="#T" n="66"/>Sed hic aliquis dicet, quod non ex tempore competit Deo haec appellatio qua dicitur  
+      <lb ed="#T" n="67"/>Dominus, quia non est tantum Dominus rerum quae ex tempore caeperunt, sed etiam 
+      <lb ed="#T" n="68"/>illius rei quae non coepit ex tempore, id est, ipsius temporis, quod non coepit ex 
+      tempo<lb ed="#T" n="69" break="no"/>re, quia non erat ante tempus quam inciperet: &amp; ideo non coepit esse Dominus ex 
+      tem<lb ed="#T" n="70" break="no"/>pore. Ad quod dici potest, quia licet non coeperit ex tempore Dominus esse temporis, 
+      <lb ed="#T" n="71"/>coepit tamen esse Dominus temporis, quia non semper fuit tempus: &amp; ipsius hominis 
+      <lb ed="#T" n="72"/>ex tempore coepit esse Dominus. De hoc August. in eod. lib. continue ita ait: Quisquis 
+      <lb ed="#T" n="73"/>extiterit qui aeternum Deum solum dicat, tempora vero non esse aeterna propter 
+      varieta<lb ed="#T" n="74" break="no"/>tem &amp; mutabilitatem: sed tamen ipsa tempora non in tempore esse coepisse, quia non 
+      <lb ed="#T" n="75"/>erat tempus antequam tempora inciperent: &amp; ideo non in tempore accidere Deo vt 
+      Do<lb ed="#T" n="76" break="no"/>minus esset, quia ipsorum temporum Dominus erat, quae vtique non in tempore esse 
+      <lb ed="#T" n="77"/>coeperunt: quid respondebit de homine qui in tempore factus est, cuius vtique Dominus 
+      <lb ed="#T" n="78"/>non erat antequam esset? Certe vt Dominus hominis esset, ex tempore accidit Deo: &amp; 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0316.xml-\->
+      <pb ed="#T" n="241"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>vt omnis amoueatur controuersia, certe vt tuus Dominus esset vel meus, qui modo esse 
+      <lb ed="#T" n="2"/>coepimus, ex tempore habuit. Quomodo ergo obtinebimus nihil secundum accidens dici 
+      <lb ed="#T" n="3"/>de Deo, nisi quia ipsius naturae nihil accidit quo mutetur? vt ea sint accidentia relatiua 
+      <lb ed="#T" n="4"/>quae cum aliqua mutatione rerum de quibus dicuntur, accidunt: sicut amicus relatiue 
+      <lb ed="#T" n="5"/>dicitur. Non enim amicus esse incipit, nisi cum amare coeperit. Fit ergo aliqua muratio 
+      <lb ed="#T" n="6"/>voluntatis vt amicus dicatur. Nummus vero cum dicitur pretium, relatiue dicitur: nec 
+      <lb ed="#T" n="7"/>tamen mutatus est cum esse coeperit pretium, nec cum dicitur pignus &amp; huiusmodi. Si 
+      <lb ed="#T" n="8"/>ergo nummus potest nulla sui mutatione toties dici relatiue, vt neque cum incipit dici, 
+      <lb ed="#T" n="9"/>neque cum desinit, aliquid in eius natura vel forma qua nummus est, mitationis fiat: 
+      <lb ed="#T" n="10"/>quanto facilius de illa incommutabili Dei substantia debemus accipere, quod ita dicatur  
+      <lb ed="#T" n="11"/>relatiue aliquid ad creaturam, vt quamuis temporaliter incipiat dici, non tamen ipsius 
+      <lb ed="#T" n="12"/>substantiae Dei accidisse aliquid intelligatur, sed illi creaturae ad quam. dicitur, qualiter  
+      <lb ed="#T" n="13"/>etiam refugium nostrum dicitur (Refugium enim nostrum dicitur Deus) relatiue namque 
+      <lb ed="#T" n="14"/>ad nos efertur, &amp; tunc refugium nostrum sit cum ad eum refugimus. Nunquid tunc fit 
+      <lb ed="#T" n="15"/>aliquid in eius natura, quod antequam refugeremus ad eum, non erat? In nobis ergo fit 
+      <lb ed="#T" n="16"/>aliqua mutatio, qui ad cum refugiendo efficimur meliores: in illo autem nulla. Sic &amp; 
+      pa<lb ed="#T" n="17" break="no"/>ter noster esse incipit, cum per eius gratiam regeneramur, qui dedit nobis potestatem 
+      <lb ed="#T" n="18"/>Filios Dei fieri: Substantia ergo nostra mutatur in melius, cum Filij eius efficimur. 
+      Simili<lb ed="#T" n="19" break="no"/>ter &amp; ille Pater noster esse incipit, sed nulla suae commutatione substantiae Quod ergo 
+      <lb ed="#T" n="20"/>temporaliter dici incipit Deus, quod antea non dicebatur. manifestum est relatiue dici: 
+      <lb ed="#T" n="21"/>non ramen secundum accidens Dei, quod aliquid ei acciderit, sed plane secundum 
+      ac<lb ed="#T" n="22" break="no"/>cidens eius ad quod dici aliquid Deus incipit relatiue. Ex his aperte ostenditur, quod 
+      quae<lb ed="#T" n="23" break="no"/>dam de Deo temporaliter dicuntur relatiue ad creaturas sine mutatione Deitatis, sed non 
+      <lb ed="#T" n="24"/>sine mutatione creaturae, &amp; ita accidens est in creatura, non in creatore: &amp; appellatio 
+      <lb ed="#T" n="25"/>qua creatura dicitur relatiue ad creatorem relatiua est, &amp; relationem notat quae est in ipsa 
+      <lb ed="#T" n="26"/>creatura. Appellatio vero illa, qua creator relatiue dicitur ad creaturam, relatiua quidem 
+      <lb ed="#T" n="27"/>est, sed nullam notat relationem quae sit in creatore. 
+    </p>
+            <p xml:id="pdt7y6-e73316-d1e253">
+               <lb ed="#T" n="28"/>Hic soluitur quaestio, qua quaerebatur utrum Spiritus sanctus dicatur datum relatiue ad 
+    </p>
+            <p xml:id="pdt7y6-e73316-d1e258">
+               <lb ed="#T" n="29"/>se, cum ipse det se. 
+      <lb ed="#T" n="30"/>Hic potest solui quaestio superius proposita, vbi quaerebatur, cum Spiritus sanctus 
+      da<lb ed="#T" n="31" break="no"/>tum dicatur vel donatum (quod autem datur, refertur &amp; ad tum qui dat, &amp; ad illum cur 
+      <lb ed="#T" n="32"/>datur) &amp; cum Spiritus sanctus det seipsum, vtrum ad seipsum relatiue dicatur, cum 
+      di<lb ed="#T" n="33" break="no"/>citur dari vel donari. Cui quaestioni respondentes, dicimus Spiritum sanctum dici datum 
+      <lb ed="#T" n="34"/>vel donatum relatiue &amp; ad dantem, &amp; ad illum cui datur. Dans autem siue donator est 
+      <lb ed="#T" n="35"/>Pater cum Filio &amp; Spiritu sancto. Nec tamen dicimus Spiritum sanctum referri ad se, sed  
+      <lb ed="#T" n="36"/>appellatio dati vel donati refertur &amp; ad dantem &amp; ad recipientem: quia non potost aliquid 
+      <lb ed="#T" n="37"/>dici datum, nisi ab aliquo, &amp; alicui detur. Cum autem Spiritus sanctus dati a se vel datus 
+      <lb ed="#T" n="38"/>a se dicitur, relatiue quidem dicitur ad illum cui datur, &amp; est appellatio rolutiua, &amp; in illo 
+      <lb ed="#T" n="39"/>cui datur mutatio sit, non in dante.
+    </p>-->
+            <p xml:id="pdt7y6-e73316-d1e284">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0316.xml-->
+               <cb ed="#T" n="b"/>
+               <lb ed="#T" n="40" type="fixed=241"/>DIVISIO TEXTVS. 
+      <lb ed="#T" n="41"/>CVnt enim quaedam. ] Egit de innascibilitate, 
+      <lb ed="#T" n="42"/>Q&amp; communi spiratione: hic incidenter 
+      oc<lb ed="#T" n="43" break="no"/>casione praemissorum agit de quibusdam 
+      relatio<lb ed="#T" n="44" break="no"/>mbus quae dicuntur de Deo. Et primo ostendit 
+      <lb ed="#T" n="45"/>quaedam dici de Deo ex tempore secundum 
+      re<lb ed="#T" n="46" break="no"/>lationem. Secundo opponit in contrarium, &amp; 
+      <lb ed="#T" n="47"/>soluit objectionem [Sed hic aliquis] Tertio 
+      de<lb ed="#T" n="48" break="no"/>terminat modum quo ista dicuntur de Deo 
+      <lb ed="#T" n="49"/>Quomodo ergo] Quarto ex hac 
+      determma<lb ed="#T" n="50" break="no"/>tione soluit quandam quaestionem superius 
+      pro<lb ed="#T" n="51" break="no"/>positam de Spiritu sancto [Hic potest solui.] 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

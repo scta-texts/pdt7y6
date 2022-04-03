@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="153"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e46488"><!-- l1d18q2 -->
+            <head xml:id="pdt7y6-e46488-Hd1e99">Quaestio 2</head>
+            <head xml:id="pdt7y6-e46488-Hd1e101" type="question-title">De ratione doni in comparatione ad alias personas</head>
+            <p xml:id="pdt7y6-e46488-d1e104">
+               <lb ed="#T" n="38"/>QVESTIO II. 
+      <lb ed="#T" n="39"/>DERATIONE DONI IN 
+      COMPARA<lb ed="#T" n="40" break="no"/>TIONE AD ALIAS PERSONAS. 
+</p>
+            <p xml:id="pdt7y6-e46488-d1e113">
+               <lb ed="#T" n="41"/>CIrca secundum duo quaeruntur.  
+      <lb ed="#T" n="42"/>Primo an proprium sit Spiritus sancti 
+      <lb ed="#T" n="43"/>esse donum. 
+      <lb ed="#T" n="44"/>Secundo an conueniat ei ab aeterno. 
+    </p>
+            <div xml:id="pdt7y6-e46488-Dd1e124">
+               <head xml:id="pdt7y6-e46488-Hd1e126">Articulus 1</head>
+               <head xml:id="pdt7y6-e46488-Hd1e128" type="question-title">
+  An proprium sit spiritus sancti esse donum
+</head>
+               <p xml:id="pdt7y6-e46488-d1e131">
+                  <lb ed="#T" n="45"/>Articvlvs I. 
+      <lb ed="#T" n="46"/>An proprium sit spiritus sancti esse donum. 
+</p>
+               <p xml:id="pdt7y6-e46488-d1e138">
+                  <lb ed="#T" n="47"/>D primum sic proceditur. 1. Omne quod 
+      <lb ed="#T" n="48"/>datur donum est Filius datur Isa. 9. Unde 
+      <lb ed="#T" n="49"/>&amp; Magister dicit, quod magis datus est nobis 
+      <lb ed="#T" n="50"/>Filius, quam Spiritus sanctus: ergo ipse est 
+      <lb ed="#T" n="51"/>donum. 
+    </p>
+               <p xml:id="pdt7y6-e46488-d1e151">
+                  <lb ed="#T" n="52"/>2. Aut fuit donabilis ab aeterno Filius, aut 
+      <lb ed="#T" n="53"/>non: si sic, ergo donum, quia donum dicitur 
+      <lb ed="#T" n="54"/>ab aptitudine donandi: si non, ergo cum in 
+      tem<lb ed="#T" n="55" break="no"/>pore sit datus, aliquis est actus temporalis cuius 
+      <lb ed="#T" n="56"/>non praecessit potentia ab aeterno, quod 
+      fal<lb ed="#T" n="57" break="no"/>sum est. 
+    </p>
+               <p xml:id="pdt7y6-e46488-d1e168">
+                  <lb ed="#T" n="58"/>3. Donum non importat nisi respectum ad 
+      da<lb ed="#T" n="59" break="no"/>tem, &amp; ad eum cui datur: vterque vero 
+      conue<lb ed="#T" n="60" break="no"/>nit Filio: ergo &amp; donum. 
+    </p>
+               <p xml:id="pdt7y6-e46488-d1e177">
+                  <lb ed="#T" n="61"/>Contra. 1. Augustinus de Trinit. Sicur in 
+      Tri<lb ed="#T" n="62" break="no"/>nitate non dicitur verbum nisi Filius, ita nec 
+      do<lb ed="#T" n="63" break="no"/>num nisi Spiritus sanctus: ergo proprie. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0228.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="64"/>2. Augustinus assignans 15. de Trinit. 
+      ratio<lb ed="#T" n="65" break="no"/>nem quare Spiritus sanctus non dicitur Filius, 
+      <lb ed="#T" n="66"/>dicit quia procedit quomodo datus non 
+      quomo<lb ed="#T" n="67" break="no"/>do natus: ergo ratio doni conuenit ei ex modo 
+      <lb ed="#T" n="68"/>procedendi: ergo proprie. 
+    </p>
+               <p xml:id="pdt7y6-e46488-d1e201">
+                  <lb ed="#T" n="69"/>Iuxta hoc quaeritur, an ratio doni sit 
+      proprie<lb ed="#T" n="70" break="no"/>tas eius distinctiua. 
+    </p>
+               <p xml:id="pdt7y6-e46488-d1e208">
+                  <lb ed="#T" n="71"/>Videtur quod sic. 1. Augustinus 15. de Trinit. 
+      <lb ed="#T" n="72"/>Eo dicitur donum quo Spiritus sanctus: ergo 
+      ra<lb ed="#T" n="73" break="no"/>tio doni est spiratio passiua. 
+    </p>
+               <p xml:id="pdt7y6-e46488-d1e217">
+                  <lb ed="#T" n="74"/>2. August. de Trinit. dicit quod relatio, per 
+      <lb ed="#T" n="75"/>quam refertur ad Patrem &amp; Filium, magis api 
+      <lb ed="#T" n="76"/>paret in hoc nomine, donum, quam in hoc no 
+      <lb ed="#T" n="77"/>mine, Spiritus sanctus: ergo ratio doni est 
+      pro<lb ed="#T" n="78" break="no"/>prietas eius distinctiua. 
+    </p>
+               <p xml:id="pdt7y6-e46488-d1e230">
+                  <lb ed="#T" n="79"/>Contra. 1. Donum dicit respectum ad 
+      creatu<lb ed="#T" n="80" break="no"/>ram: nulla persona distinguitur per respectum 
+      <lb ed="#T" n="81"/>ad creaturam, quia circumscripta creatura 
+      ma<lb ed="#T" n="82" break="no"/>net distinctio personarum: ergo donum non 
+      di<lb ed="#T" n="83" break="no"/>cit proprietatem Spiritus sancti distinctiuam. 
+    </p>
+               <p xml:id="pdt7y6-e46488-d1e244">
+                  <lb ed="#T" n="84"/>2. Proprietas distinctiua personae sumitur ab 
+      <lb ed="#T" n="85"/>actu, non ab habitu, vt generatio &amp; huiusmodis 
+      <lb ed="#T" n="86"/>sed Spiritus dicitur donum ab habitu donandi 
+      <lb ed="#T" n="87"/>non ab actu: ergo donum non dicit 
+      propriea<lb ed="#T" n="88" break="no"/>tem distinctiuam eius. 
+    </p>
+               <p xml:id="pdt7y6-e46488-d1e257">
+                  <lb ed="#T" n="89"/>3. Si donum dicit proprietatem distinetiuam 
+      <lb ed="#T" n="90"/>eius, aut eandem quam amor &amp; Spiritus 
+      san<lb ed="#T" n="91" break="no"/>ctus, aut aliam: si eandem, ergo sunt nomina 
+      sy<lb ed="#T" n="92" break="no"/>nonima; si aliam, ergo non est vna tantum 
+      pro<lb ed="#T" n="93" break="no"/>prietas Spiritus sancti: quod falsum est, 
+    </p>
+               <p xml:id="pdt7y6-e46488-d1e270">
+                  <lb ed="#T" n="94"/>4. Nulla alia persona distinguitur proprietate 
+      <lb ed="#T" n="95"/>dicente respectum ad creaturam: ergonec 
+      Spi<lb ed="#T" n="96" break="no"/>ritus sanctus: ergo ratio doni non est eius 
+      pro<lb ed="#T" n="97" break="no"/>prietas distinetiua. 
+    </p>
+               <p xml:id="pdt7y6-e46488-d1e281">
+                  <lb ed="#T" n="98"/>Respondeo. Ad primum differt donum &amp; 
+      da<lb ed="#T" n="99" break="no"/>tum triplici differentia: ex parte 
+      consignificatio<lb ed="#T" n="100" break="no"/>nis, quia donum cum sit nomen, significat fine 
+      <lb ed="#T" n="101"/>tempore: sed datum, participium aut nomen 
+      ver<lb ed="#T" n="102" break="no"/>bale, significat cum tempore: ex parte etiam 
+      fi<lb ed="#T" n="103" break="no"/>gnificationis, quia donum addit supra datum, 
+      <lb ed="#T" n="104"/>donum enim est datio non quaecumque, sed 
+      ir<lb ed="#T" n="105" break="no"/>redibilis secundum Philosophum lib. topic. id1 
+      <lb ed="#T" n="106"/>est liberalis, qua sit non intentione retributionis: 
+      <lb ed="#T" n="107"/>ex parte modi significandi, quia donum dicitur  
+      <lb ed="#T" n="108"/>quasi a naturali aptitudine vt detur, sed datum ab 
+      <lb ed="#T" n="109"/>actu, quia nomen significat per modum 
+      qualita<lb ed="#T" n="110" break="no"/>tis, participium per modum actus. Dicit ergo 
+      <lb ed="#T" n="111"/>emanatione per modum liberabilitatis, sine 
+      tem<lb ed="#T" n="112" break="no"/>pore, in aptitudine vt detur: Spiritus sanctus 
+      ve<lb ed="#T" n="113" break="no"/>ro procedit a Patre &amp; Filio fine tempore, &amp; ex 
+      <lb ed="#T" n="114"/>liberalitate(quia per modum amoris) in 
+      aptitu<lb ed="#T" n="115" break="no"/>dine naturali vt detur (quia amor est, amor 
+      ve<lb ed="#T" n="116" break="no"/>ro habet primo &amp; principaliter rationem doni, 
+      <lb ed="#T" n="117"/>caetera vero ex consequenti in quantum 
+      partici<lb ed="#T" n="118" break="no"/>eipant rationem amoris) ideo proprie dicitur 
+      <lb ed="#T" n="119"/>donum secundum Augustinum. 
+    </p>
+               <p xml:id="pdt7y6-e46488-d1e331">
+                  <lb ed="#T" n="120"/>Ad 1. Omne quod datur donum est Resp. Non 
+      <lb ed="#T" n="121"/>est verum secundum quod donum accipitur  
+      <lb ed="#T" n="122"/>proprie, secundum quod datur ex naturali 
+      ap<lb ed="#T" n="123" break="no"/>titudine quam habet ad hoc vt detur.  
+    </p>
+               <p xml:id="pdt7y6-e46488-d1e342">
+                  <lb ed="#T" n="124"/>Ad 2. Aut fuit donabilis. Resp. Donabilis 
+      du<lb ed="#T" n="125" break="no"/>pliciter, potest dici, aut ab auctoritate, aut ab 
+      <lb ed="#T" n="126"/>apritudine naturali rei donabilis: primo modo 
+      <lb ed="#T" n="127"/>Filius fuit donabilis ab aeterno: secundo modo 
+      <lb ed="#T" n="128"/>non, sed Spiritus sanctus. 
+      <lb ed="#T" n="129"/>Ad 3. Non importat &amp;c. Resp. Donum 
+      impor<lb ed="#T" n="130" break="no"/>tat respocturemanatronis lberalis, sed 
+      secun<lb ed="#T" n="131" break="no"/>dum aptitudinem, non solum actu: Filio vero 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0229.xml-->
+      <pb ed="#T" n="154"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>conuenit actu non aptitudine 
+    </p>
+               <p xml:id="pdt7y6-e46488-d1e372">
+                  <lb ed="#T" n="2"/>Ad secundam quaest. Resp. Sicut vna essentia 
+      <lb ed="#T" n="3"/>secundum rem multipliciter significatur &amp; vt 
+      <lb ed="#T" n="4"/>differens ratione; sic vna proprietas secundum 
+      <lb ed="#T" n="5"/>rem, significatur multipliciter &amp; vt differens 
+      ra<lb ed="#T" n="6" break="no"/>tione: hinc est quod proprietas Spiritus sancti 
+      <lb ed="#T" n="7"/>significatur &amp; nomine Spiritus, &amp; nomine 
+      amo<lb ed="#T" n="8" break="no"/>ris, &amp; nomine doni: sed nomine Spiritus quoac 
+      <lb ed="#T" n="9"/>actum procedendi, nomine amoris quoad 
+      mo<lb ed="#T" n="10" break="no"/>dum, nomine doni quoad respectum 
+      donabili<lb ed="#T" n="11" break="no"/>tatis superadictum. Et ideo nomina haec non 
+      <lb ed="#T" n="12"/>sunt synonima, quia eorum ratio non est penitus 
+      <lb ed="#T" n="13"/>eadem, sed diuersa: sicut etiam Filius secundum 
+      <lb ed="#T" n="14"/>diuersas rationes verbum dicitur &amp; imago. 
+      Per<lb ed="#T" n="15" break="no"/>donum ergo significatur proprietas Spiritus 
+      san<lb ed="#T" n="16" break="no"/>ctus, sed tamen respectu quodam ad creaturam. 
+    </p>
+               <p xml:id="pdt7y6-e46488-d1e407">
+                  <lb ed="#T" n="17"/>Ad 1. In contrarium. Nulla persona 
+      distin<lb ed="#T" n="18" break="no"/>guitur &amp;c. Resp. Nomine doni respectus ad 
+      crea<lb ed="#T" n="19" break="no"/>turam significatur non vt quo persona 
+      distingui<lb ed="#T" n="20" break="no"/>tur, sed vt quod distinctionem consequitur 
+      se<lb ed="#T" n="21" break="no"/>cundum modum intelligendi: nam per respectum 
+      <lb ed="#T" n="22"/>ad dantem habet distingui, non per respectum ad 
+      <lb ed="#T" n="23"/>cum cui datur, qui tamen respectus non est ab 
+      <lb ed="#T" n="24"/>eo separabilis quia consequitur naturaliter 
+      mo<lb ed="#T" n="25" break="no"/>dum suae distinetionis personalis. 
+    </p>
+               <p xml:id="pdt7y6-e46488-d1e429">
+                  <lb ed="#T" n="26"/>Ad 2. Proprietas distinetiua personae sumitur 
+      <lb ed="#T" n="27"/>ab actu. Resp. Donum importat respectum ad 
+      <lb ed="#T" n="28"/>dantem &amp; ad eum cui datur: sed primus est 
+      se<lb ed="#T" n="29" break="no"/>cundum actum, secundus secundum aptitudi 
+      <lb ed="#T" n="30"/>nem: &amp; per primum sit personae distinctio: 
+      se<lb ed="#T" n="31" break="no"/>cundus vero potius consequitur distinctionem 
+      <lb ed="#T" n="32"/>secundum modum intelligendi. 
+    </p>
+               <p xml:id="pdt7y6-e46488-d1e447">
+                  <lb ed="#T" n="33"/>Ad 3. Aut eandem &amp;c. Resp. Donum, amor, 
+      <lb ed="#T" n="34"/>&amp; Spiritus sanctus eandem proprietatem dicunt, 
+      <lb ed="#T" n="35"/>sed sub diuersis rationibus vt dictum est, 
+    </p>
+               <p xml:id="pdt7y6-e46488-d1e456">
+                  <lb ed="#T" n="36"/>Ad 4. Nulla alia persona &amp;c. Resp. Spiritus 
+      <lb ed="#T" n="37"/>sanctus per proprietatem doni prout dicit 
+      respe<lb ed="#T" n="38" break="no"/>ctum ad creaturas non distinguitur, sed ad 
+      dan<lb ed="#T" n="39" break="no"/>tem: sicut &amp; Filius per proprietatem qua 
+      ver<lb ed="#T" n="40" break="no"/>bum est in respectu ad dicentem, quo tamen 
+      no<lb ed="#T" n="41" break="no"/>mine importatur secundum aliquos respectus 
+      <lb ed="#T" n="42"/>aptitudinalis ad creaturas quae eo dicuntur.  
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e46488-Dd1e476">
+               <head xml:id="pdt7y6-e46488-Hd1e478">Articulus 2</head>
+               <head xml:id="pdt7y6-e46488-Hd1e480" type="question-title">
+  An conveniat Spiritui sancto ab aeterno esse donum.
+</head>
+               <p xml:id="pdt7y6-e46488-d1e483">
+                  <lb ed="#T" n="43"/>Articvlvs II. 
+      <lb ed="#T" n="44"/>An conueniat Spiritui sancto ab aeterno esse donum. 
+    </p>
+               <p xml:id="pdt7y6-e46488-d1e490">
+                  <lb ed="#T" n="45"/>AD secundum sic proceditur. 1. Augustinus 
+      <lb ed="#T" n="46"/>5. de Trinit. Spiritus sanctus, eo donum est 
+      <lb ed="#T" n="47"/>quo datur: sed datur solum ex tempore: ergo 
+      do<lb ed="#T" n="48" break="no"/>num est ex tempore solum 
+    </p>
+               <p xml:id="pdt7y6-e46488-d1e501">
+                  <lb ed="#T" n="49"/>2. Donum dicit relationem ad dantem &amp; ad eum 
+      <lb ed="#T" n="50"/>cui datur: relatio vero ponit extroma sua: cum 
+      <lb ed="#T" n="51"/>ergo cui datur ex tempore sit, Spiritus sanctus 
+      <lb ed="#T" n="52"/>non est donum nisi ex tempore. 
+    </p>
+               <p xml:id="pdt7y6-e46488-d1e513">
+                  <lb ed="#T" n="53"/>3 Filius non est verbum priusquam 
+      proferu<lb ed="#T" n="54" break="no"/>tur: ergo nec Spiritus sanctus est donur, prius 
+      <lb ed="#T" n="55"/>quam detur. 
+    </p>
+               <p xml:id="pdt7y6-e46488-d1e522">
+                  <lb ed="#T" n="56"/>Contra. 1. Augustinus. Ex eo quod daturus 
+      <lb ed="#T" n="57"/>erat eum Deus, iam donum est, ergo ab aeternd 
+    </p>
+               <p xml:id="pdt7y6-e46488-d1e529">
+                  <lb ed="#T" n="58"/>2. Sicut per verbum huncioniia ita pers 
+      do<lb ed="#T" n="59" break="no"/>num Spiritus sanctudonantur Diuina: sed in 
+      Fi<lb ed="#T" n="60" break="no"/>lio erat perfecta ratio verbi antequam aliquid 
+      <lb ed="#T" n="61"/>per eum fieret: ergo in Spiritu sancto erat pera 
+      <lb ed="#T" n="62"/>fecta ratio doni antequam per ipsum aliquid 
+      da<lb ed="#T" n="63" break="no"/>retur: ergo ab aeterno. 
+    </p>
+               <p xml:id="pdt7y6-e46488-d1e545">
+                  <lb ed="#T" n="64"/>Iuxta hoc quaeritur, quid magis couenit 
+      Spi<lb ed="#T" n="65" break="no"/>ritui sancto, scilicer vel donum vel datum 
+    </p>
+               <p xml:id="pdt7y6-e46488-d1e552">
+                  <lb ed="#T" n="66"/>Videtur quod datum. 1 Quia in vnoquoque 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0229.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>genere perfectior est actus quam potentia: ergo 
+      <lb ed="#T" n="68"/>datum, quod imponitur ab actu, quam donum 
+      <lb ed="#T" n="69"/>quod ab aptitudine: quod autem perfectius est 
+      <lb ed="#T" n="70"/>magis conuenit Spiritui sancto. 
+    </p>
+               <p xml:id="pdt7y6-e46488-d1e570">
+                  <lb ed="#T" n="71"/>2. Donum dicitur secundum Augustinum eo 
+      <lb ed="#T" n="72"/>quod datur: ergo datum est causa doni: ergo cum 
+      <lb ed="#T" n="73"/>propter rationem dati dicatur donum, magis 
+      di<lb ed="#T" n="74" break="no"/>citur datum quam donum. 
+    </p>
+               <p xml:id="pdt7y6-e46488-d1e582">
+                  <lb ed="#T" n="75"/>Contra. 1. Donum dicitur ab aeterno, datum 
+      <lb ed="#T" n="76"/>ex tempore: sed magis conuenit ei, quod 
+      con<lb ed="#T" n="77" break="no"/>uenit ei ab aeterno, quam quod ex tempore: ergo 
+      <lb ed="#T" n="78"/>donum quam datum. 
+    </p>
+               <p xml:id="pdt7y6-e46488-d1e593">
+                  <lb ed="#T" n="79"/>2. Non daretur vnquam actu, nisi esset 
+      do<lb ed="#T" n="80" break="no"/>num: sed donum esset etsi numquam actu 
+      dare<lb ed="#T" n="81" break="no"/>tur: ergo magis conuenit ratio doni quam dati¬ 
+    </p>
+               <p xml:id="pdt7y6-e46488-d1e602">
+                  <lb ed="#T" n="82"/>Respondeo Ad primum. Donum &amp; datum 
+      <lb ed="#T" n="83"/>vtrumque importat respectum duplicem, vnum 
+      <lb ed="#T" n="84"/>ad dantem quasi a parte ante, alterum ad eum 
+      <lb ed="#T" n="85"/>cui datur quasi a parte post: sed hic respectus 
+      vl<lb ed="#T" n="86" break="no"/>timus dicitur importari, vel secundum actum, 
+      <lb ed="#T" n="87"/>sic importatur nomine dati, vel secundum 
+      apti<lb ed="#T" n="88" break="no"/>tudinem, sic nomine doni: quia ergo respectus 
+      <lb ed="#T" n="89"/>ad eum cui datur, Spiritui sancto conuenit ab 
+      <lb ed="#T" n="90"/>aeterno aptitudine, ex tempore actu, ideo ab 
+      <lb ed="#T" n="91"/>aeterno dicitur donum proprie, sed datum ex 
+      <lb ed="#T" n="92"/>tempore. 
+    </p>
+               <p xml:id="pdt7y6-e46488-d1e628">
+                  <lb ed="#T" n="93"/>Ad 1. Eo donum est quo datur. Resp. 
+      Augu<lb ed="#T" n="94" break="no"/>stinum accipere ibi donum pro dato improprie, 
+      <lb ed="#T" n="95"/>vel eo quod dicit causam nominationis quoad 
+      <lb ed="#T" n="96"/>nos, non existentiae: vel datum dicit praesens 
+      <lb ed="#T" n="97"/>confusum: non tamen donum proprie ideo 
+      dici<lb ed="#T" n="98" break="no"/>tur quia datur, sed quia donabilis. 
+    </p>
+               <p xml:id="pdt7y6-e46488-d1e644">
+                  <lb ed="#T" n="99"/>Ad 2. Relatio ponit extrema. Resp. Hoc 
+      ve<lb ed="#T" n="100" break="no"/>rum est quando relatio est secundum actum, non 
+      <lb ed="#T" n="101"/>secundum habitum solum. 
+    </p>
+               <p xml:id="pdt7y6-e46488-d1e653">
+                  <lb ed="#T" n="102"/>Ad 3. De verbo. Resp. Non est simile, nam 
+      <lb ed="#T" n="103"/>proferri dicu respectum ad proferentem solum, 
+      <lb ed="#T" n="104"/>ex quo habet vt sit verbum: sed dari dicit 
+      res<lb ed="#T" n="105" break="no"/>pectum non ad dantem tantum, sed pot: is ad 
+      <lb ed="#T" n="106"/>eum cui datur, ex quo Spiritus sanctus . a 
+      ha<lb ed="#T" n="107" break="no"/>bet vt sit donum. 
+    </p>
+               <p xml:id="pdt7y6-e46488-d1e670">
+                  <lb ed="#T" n="108"/>Ad secunda in quaest. Resp. Cum ratio 
+      doni<lb ed="#T" n="109" break="no"/>conueniat Spiritui sancto ab aeterno: ratio dati 
+      <lb ed="#T" n="110"/>solum ex tempore magis conuenit ei ratio 
+      doni<lb ed="#T" n="111" break="no"/>quam dati, quia per prius est donum. 
+    </p>
+               <p xml:id="pdt7y6-e46488-d1e681">
+                  <lb ed="#T" n="112"/>Ad 1. Perfectior est actus &amp;c. Resp. Hoc 
+      ve<lb ed="#T" n="113" break="no"/>rum est in potentijs passiuis; in actiuis vero non 
+      <lb ed="#T" n="114"/>semper: quia agens aliquando non agit propter 
+      <lb ed="#T" n="115"/>impotentiam ex parte sui, &amp; tunc actus perficit 
+      <lb ed="#T" n="116"/>potentiam in ipso: aliquando propter 
+      impoten<lb ed="#T" n="117" break="no"/>tiam suscipientis, vt sol non illuminat propter 
+      <lb ed="#T" n="118"/>contrariam dispositionem rei illuminabilis &amp; 
+      <lb ed="#T" n="119"/>tunc actu: non est perfectior potentia: sic autem 
+      <lb ed="#T" n="120"/>est in proposito. 
+    </p>
+               <p xml:id="pdt7y6-e46488-d1e703">
+                  <lb ed="#T" n="121"/>Ad 2. Donum dicitur eo quod datur. Resp. 
+      <lb ed="#T" n="122"/>Augustinus accipit ibi donum pro dato, non 
+      pro<lb ed="#T" n="123" break="no"/>prie. Veldatum dicit praesens confusum. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="33"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-ee9540"><!-- l1d3q4 -->
+            <head xml:id="pdt7y6-ee9540-Hd1e99">Quaestio 4</head>
+            <head xml:id="pdt7y6-ee9540-Hd1e101" type="question-title">De imagine Dei</head>
+            <p xml:id="pdt7y6-ee9540-d1e104">
+               <lb ed="#T" n="103"/>QVESTIO IV 
+      <lb ed="#T" n="104"/>D EInAOINE DEI. 
+</p>
+            <p xml:id="pdt7y6-ee9540-d1e111">
+               <lb ed="#T" n="105"/>QVaeruntur hic quatuor.  
+      <lb ed="#T" n="106"/>Primo de imagine in anima in generali. 
+      <lb ed="#T" n="107"/>Secundo de imagine memoriae, 
+      intelligen<lb ed="#T" n="108" break="no"/>tiae, &amp; voluntatis in speciali. 
+      <lb ed="#T" n="109"/>Tertio de imagine mentis, notitiae, &amp; amoris. 
+      <lb ed="#T" n="110"/>Quarto de differentia huius imaginis duplicis 
+      <lb ed="#T" n="111"/>communitu. 
+    </p>
+            <p xml:id="pdt7y6-ee9540-d1e129">
+               <lb ed="#T" n="112"/>Circa primum quaeritur hic vtrum imago Dei 
+      <lb ed="#T" n="113"/>sit in sola parte rationali. Secundo vtrum sit in 
+      <lb ed="#T" n="114"/>sola parte rationis inferiori. 
+    </p>
+            <div xml:id="pdt7y6-ee9540-Dd1e139">
+               <head xml:id="pdt7y6-ee9540-Hd1e141">Articulus 1</head>
+               <head xml:id="pdt7y6-ee9540-Hd1e143" type="question-title">
+  Utrum imago Dei sit in sola parte rationali.
+</head>
+               <p xml:id="pdt7y6-ee9540-d1e146">
+                  <lb ed="#T" n="115"/>Articvlvs I. 
+      <lb ed="#T" n="116"/>vtrum imago Dei sit in sola parte rationali. 
+    </p>
+               <p xml:id="pdt7y6-ee9540-d1e153">
+                  <lb ed="#T" n="117"/>AD primum sic proceditur 1. Ait Beda quod 
+      <lb ed="#T" n="118"/>Aimago Dei in es parte est, qua brutis 
+      excelli<lb ed="#T" n="119" break="no"/>mus: sed haec est sola pars rationalis: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-ee9540-d1e162">
+                  <lb ed="#T" n="120"/>2. Augustiuus. Anima eo est imago Dei, quo 
+      <lb ed="#T" n="121"/>capax eius est. Sed non est capax Dei, nisi 
+      <lb ed="#T" n="122"/>secundum solam partem rationalem: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-ee9540-d1e172">
+                  <lb ed="#T" n="123"/>Ad 3. August. 11. de Trinitate. Nitamur in 
+      <lb ed="#T" n="124"/>homine exteriori inuenire qualecumque 
+      vesti<lb ed="#T" n="125" break="no"/>grum Trinitatis, non quia in ipso imago Dei, 
+      <lb ed="#T" n="126"/>sit: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-ee9540-d1e183">
+                  <lb ed="#T" n="127"/>Contra 1. Richardus lib. de Trinit. dicit quod  
+      <lb ed="#T" n="128"/>imago attenditur secundum exteriora, non 
+      interio<lb ed="#T" n="129" break="no"/>ra; nam interiora valde dissimilia sunt, vt patet 
+      <lb ed="#T" n="130"/>in imagine Caesaris: sed pars animae exterior est 
+      <lb ed="#T" n="131"/>pars sensibilis, qua apprehendit, exteriora 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0109.xml-->
+      <pb ed="#T" n="34"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>sensibilia: ergo secundum illam imago Dei 
+      dici<lb ed="#T" n="2" break="no"/>debet. 
+    </p>
+               <p xml:id="pdt7y6-ee9540-d1e207">
+                  <lb ed="#T" n="3"/>2. August. de spiritu &amp; anima, Imago Dei, 
+      inte<lb ed="#T" n="4" break="no"/>rioris hominis, id est, animae nobilitate 
+      diligen<lb ed="#T" n="5" break="no"/>tius consideranda est, primo quia sicut Deus 
+      <lb ed="#T" n="6"/>vbique totus est omnia viuificans, mouens, &amp; 
+      gu<lb ed="#T" n="7" break="no"/>bernans: sic anima in suo corpore vbique tota 
+      <lb ed="#T" n="8"/>viget viuificans illud, mouens, &amp; gubernans: sed 
+      <lb ed="#T" n="9"/>hoc facit anima secundum partem sensibilem: 
+      <lb ed="#T" n="10"/>ergo secundum illam est imago 
+    </p>
+               <p xml:id="pdt7y6-ee9540-d1e227">
+                  <lb ed="#T" n="11"/>3. Augustinus 11. de Trinit. in sensuexteriori. 
+      <lb ed="#T" n="12"/>tria copulantur in vnum, scilicet res visa, species 
+      <lb ed="#T" n="13"/>qua videtur, &amp; intentio copulans illa duo: in 
+      <lb ed="#T" n="14"/>sensu vero interiori est imago rei absentis in 
+      me<lb ed="#T" n="15" break="no"/>moria; similitudo eius, qua acies cogitantis 
+      in<lb ed="#T" n="16" break="no"/>formatur, cum actu cogitat; &amp; voluntas media, 
+      <lb ed="#T" n="17"/>ergo est in parte sensibili inueniri vnitatem, &amp; 
+      <lb ed="#T" n="18"/>Trinitatem: ergo imaginem. 
+    </p>
+               <p xml:id="pdt7y6-ee9540-d1e247">
+                  <lb ed="#T" n="19"/>Respondeo. Duplex est Dei similitudo in 
+      <lb ed="#T" n="20"/>creatura, quaedam secundum appropriata, 
+      quae<lb ed="#T" n="21" break="no"/>dam secundum propria. Prima dicitur vestigium, 
+      <lb ed="#T" n="22"/>quasi confuse repraesentans naturam communem; 
+      <lb ed="#T" n="23"/>secunda imago expresse repraesentans indiuiduum. 
+      <lb ed="#T" n="24"/>distinctum: Prima exigit Trinitatem, sed non 
+      <lb ed="#T" n="25"/>consubstantialitatem; secunda 
+      consubstantialita<lb ed="#T" n="26" break="no"/>tem: quia ergo huiusmodi consubstantialitas non 
+      <lb ed="#T" n="27"/>est in sensibili secundum illa quae ponit 
+      Augu<lb ed="#T" n="28" break="no"/>stinus, ideo non ibi est imago, sed in sola 
+      ratio<lb ed="#T" n="29" break="no"/>nali¬ 
+    </p>
+               <p xml:id="pdt7y6-ee9540-d1e273">
+                  <lb ed="#T" n="30"/>Ad 1. in contrarium imago attenditur 
+      secun<lb ed="#T" n="31" break="no"/>dum exteriora. Resp. Hoc verum est de imagine 
+      <lb ed="#T" n="32"/>artificiali, non de naturali, qualis est filius: 
+      ali<lb ed="#T" n="33" break="no"/>ter enim est secundum Augustinum imago 
+      Cae<lb ed="#T" n="34" break="no"/>saris in nummo, aliter in filio. 
+    </p>
+               <p xml:id="pdt7y6-ee9540-d1e287">
+                  <lb ed="#T" n="35"/>Ad 2. de ratione mouendi, &amp; viuificandi. Resp. 
+      <lb ed="#T" n="36"/>Rationem imaginis assignat communiter &amp; large, 
+      <lb ed="#T" n="37"/>non stricte &amp; proprie. 
+    </p>
+               <p xml:id="pdt7y6-ee9540-d1e296">
+                  <lb ed="#T" n="38"/>Ad 3. de Augustino, quod in sensu tria 
+      copu<lb ed="#T" n="39" break="no"/>lantur in vnum. Resp. Non copulantur in vna 
+      <lb ed="#T" n="40"/>substantia, sed in vna operatione: vnde non est 
+      <lb ed="#T" n="41"/>ibi consubstantialitas, quare nec imago. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-ee9540-Dd1e308">
+               <head xml:id="pdt7y6-ee9540-Hd1e310">Articulus 2</head>
+               <head xml:id="pdt7y6-ee9540-Hd1e312" type="question-title">
+  Utrum imago Trinitatis sit in sola parte rationis superiori.
+</head>
+               <p xml:id="pdt7y6-ee9540-d1e315">
+                  <lb ed="#T" n="42"/>Articvlvs II. 
+      <lb ed="#T" n="43"/>Vtrum imago Trinitatis sit in sola parte 
+      ratio<lb ed="#T" n="44" break="no"/>nis superiori. 
+</p>
+               <p xml:id="pdt7y6-ee9540-d1e324">
+                  <lb ed="#T" n="45"/>CIrca secundum sic proceditur. 1. Sicut  
+      <lb ed="#T" n="46"/>dicit Augustinus quod imago illius, in quo 
+      <lb ed="#T" n="47"/>nit melius est, inquirenda est, &amp; inuenienda: 
+      <lb ed="#T" n="48"/>sed natura nostra parte rationali nil melius 
+      <lb ed="#T" n="49"/>habet: ergo in superiori parte rationis est imago. 
+    </p>
+               <p xml:id="pdt7y6-ee9540-d1e337">
+                  <lb ed="#T" n="50"/>2. Augastinus mens est supremum in anima 
+      <lb ed="#T" n="51"/>habens imaginem in potentia cognoscendi: sed 
+      <lb ed="#T" n="52"/>supremum ratio superior est. 
+    </p>
+               <p xml:id="pdt7y6-ee9540-d1e347">
+                  <lb ed="#T" n="53"/>Augustinus de Trinitate 12. Natura humanae 
+      <lb ed="#T" n="54"/>mentis ex parte, qua consulit incircumscriptam 
+      <lb ed="#T" n="55"/>veritatem, imago Dei est, ex qua parte vero 
+      in<lb ed="#T" n="56" break="no"/>tendit in agenda inferiora, non est imago Dei. 
+    </p>
+               <p xml:id="pdt7y6-ee9540-d1e358">
+                  <lb ed="#T" n="57"/>4. Idem Augustinus 12. de Trinitate citans 
+      <lb ed="#T" n="58"/>illud verbum Apostoli 2. Cor. 12. vir gloria Dei 
+      <lb ed="#T" n="59"/>est, ait: Ratio nisi ex ea parte qua aeternis 
+      con<lb ed="#T" n="60" break="no"/>templandis inhaerescit, non est imago Dei. 
+    </p>
+               <p xml:id="pdt7y6-ee9540-d1e369">
+                  <lb ed="#T" n="61"/>Virtus inferior dicitur secundum officium 
+      <lb ed="#T" n="62"/>regendi inferiora: sed illud non manet post 
+      mor<lb ed="#T" n="63" break="no"/>tem: ergo cum tunc imago maneat, secundum 
+      <lb ed="#T" n="64"/>partem inferiorem non est imago. 
+    </p>
+               <p xml:id="pdt7y6-ee9540-d1e380">
+                  <lb ed="#T" n="65"/>5. Inferiora sunt Dei vestigia: ergo anima, 
+      se<lb ed="#T" n="66" break="no"/>cundum quod illa apprehendit, imitatur simili¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0109.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>tadinem vestigij: ergo sic non est imago. 
+    </p>
+               <p xml:id="pdt7y6-ee9540-d1e393">
+                  <lb ed="#T" n="68"/>Contra 1. Augustinus de Trinit. Cum in natu: 
+      <lb ed="#T" n="69"/>ra mentis nostrae quaerimus Trinitatem, in tota 
+      <lb ed="#T" n="70"/>quaerimus non separantes rationem actionis 
+      <lb ed="#T" n="71"/>temporalium a contemplatione aeternorum. 
+    </p>
+               <p xml:id="pdt7y6-ee9540-d1e404">
+                  <lb ed="#T" n="72"/>2. In parte inferiori sicut in superiori est 
+      inue<lb ed="#T" n="73" break="no"/>nire haec tria, in quibus assignatur imago, scilicet,  
+      <lb ed="#T" n="74"/>memoriam, intelligentiam &amp; voluntatem; ergo 
+      <lb ed="#T" n="75"/>&amp; imaginem. 
+    </p>
+               <p xml:id="pdt7y6-ee9540-d1e416">
+                  <lb ed="#T" n="76"/>3. Anima, secundum, quod contemplatur Deum 
+      <lb ed="#T" n="77"/>est imago: sed s Aidum naturam, in statu viae 
+      <lb ed="#T" n="78"/>non nisi per visibilia contemplatur inuisibilia: 
+      er<lb ed="#T" n="79" break="no"/>go secundum illud, quo contemplatur 
+      inuisibi<lb ed="#T" n="80" break="no"/>ia, est imago: ergo secundum rationem inferiorem. 
+    </p>
+               <p xml:id="pdt7y6-ee9540-d1e429">
+                  <lb ed="#T" n="81"/>4. Magis repraesentat Deum, quod 
+      repraesen<lb ed="#T" n="82" break="no"/>tat cum secundum se vt est trinus &amp; vnus, &amp; in 
+      <lb ed="#T" n="83"/>comparatione ad res, quam quod altero modo 
+      <lb ed="#T" n="84"/>tantum: sed ratio inferior vtroque modo 
+      reprae<lb ed="#T" n="85" break="no"/>sentar, superior vero primo modo tantum: ergo 
+      <lb ed="#T" n="86"/>magis imitatur: ergo magis est imago 
+    </p>
+               <p xml:id="pdt7y6-ee9540-d1e445">
+                  <lb ed="#T" n="87"/>Respondeo. Quod, sicut oculus confiderando 
+      <lb ed="#T" n="88"/>siue superiora siue inferiora, vna est substantia, 
+      <lb ed="#T" n="89"/>sed duplex habet officium, &amp; inquantum 
+      supe<lb ed="#T" n="90" break="no"/>riora inspicit, actu informatur similitudine 
+      caele<lb ed="#T" n="91" break="no"/>stium, inquantum respicit inferiora non: sic 
+      se<lb ed="#T" n="92" break="no"/>tundum Augustinum ratio superior &amp; inferior, 
+      <lb ed="#T" n="93"/>vna est secundum substantiam, differens 
+      secun<lb ed="#T" n="94" break="no"/>dum officium: Et ipsa quidem tota secundum 
+      <lb ed="#T" n="95"/>substantiam imago est sicut tabula; secundum 
+      <lb ed="#T" n="96"/>officium vero considerandi superiora, quibus 
+      in<lb ed="#T" n="97" break="no"/>formatur, imago est sicut pictura proprie; large 
+      <lb ed="#T" n="98"/>tamen accipiendo aliquando dicitur imago 
+      <lb ed="#T" n="99"/>etiam secundum quod considerat inferiora, vt 
+      <lb ed="#T" n="100"/>Augustinus ait 12. de Trinit. Cum de natura 
+      hu<lb ed="#T" n="101" break="no"/>imanae mentis agerem, mulierem cum viro, vnam 
+      <lb ed="#T" n="102"/>esse imaginem dixi, vt vna imago sit tota illa 
+      su<lb ed="#T" n="103" break="no"/>bstantia: Cum adtem ad adiutorium distribuitur.  
+      <lb ed="#T" n="104"/>quod ad eam ipsam solam attinet, non est imago 
+      <lb ed="#T" n="105"/>Dei: quod autem ad virum solum attinet 
+      ima<lb ed="#T" n="106" break="no"/>go Dei est. Ratio tamen superior, secundum quod 
+      <lb ed="#T" n="107"/>contemplatur aeterna gratia regiminis inferiorum. 
+      <lb ed="#T" n="108"/>non est proprie imago Dei, sed pro gratia 
+      conte<lb ed="#T" n="109" break="no"/>plationis: &amp; primo modo proprie dicitur ratio  
+      <lb ed="#T" n="110"/>superior, secundo modo proprie mens: vnde 
+      <lb ed="#T" n="111"/>vtrumque pro vtroque communiter accipitur.  
+    </p>
+               <p xml:id="pdt7y6-ee9540-d1e502">
+                  <lb ed="#T" n="112"/>Ad 1. In contra. In tota anima requirimus. 
+      <lb ed="#T" n="113"/>Resp. Verum est secundum substantiam 
+      <lb ed="#T" n="114"/>sed non in tota secundum officium. 
+    </p>
+               <p xml:id="pdt7y6-ee9540-d1e511">
+                  <lb ed="#T" n="115"/>Ad 2. Illa tria est inuenire in parte inferiori 
+      ra<lb ed="#T" n="116" break="no"/>tionis. Resp. Verum est, sed secundum 
+      infor<lb ed="#T" n="117" break="no"/>mationem animae ab inferioribus non sit 
+      assimi<lb ed="#T" n="118" break="no"/>latio expressa ad Deum, vnde cessat perfecta 
+      ra<lb ed="#T" n="119" break="no"/>tio imaginis 
+    </p>
+               <p xml:id="pdt7y6-ee9540-d1e524">
+                  <lb ed="#T" n="120"/>Ad 3. de contemplatione inuisibilium per 
+      vi<lb ed="#T" n="121" break="no"/>sibilia. Resp. Inuisibilia possunt dupliciter 
+      con<lb ed="#T" n="122" break="no"/>siderari, vel in se, scilicet vt res, &amp; sic pertinent 
+      <lb ed="#T" n="123"/>ad rationem inferiorem; vel in comparatione ad 
+      <lb ed="#T" n="124"/>causam primam, scilicet vt vestigium Creatoris, 
+      <lb ed="#T" n="125"/>uc ad superiorem 
+    </p>
+               <p xml:id="pdt7y6-ee9540-d1e541">
+                  <lb ed="#T" n="126"/>Ad vltimum. Resp. Quamuis ratio inferior 
+      <lb ed="#T" n="127"/>magis representet ex:ensiue, id est, pluribus 
+      mo<lb ed="#T" n="128" break="no"/>dis: tamen superior magis intensiue, licet per 
+      <lb ed="#T" n="129"/>vnum: vel dicendum, quod illa representatio in 
+      <lb ed="#T" n="130"/>comparatione ad res non pertinet ad rationem 
+      <lb ed="#T" n="131"/>imaginis, sed vestigij.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

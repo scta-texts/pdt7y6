@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="58"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e17306"><!-- l1d6prae -->
+            <head xml:id="pdt7y6-e17306-Hd1e99">Praeambulum</head>
+            <head xml:id="pdt7y6-e17306-Hd1e101" type="question-title"/>
+            <p xml:id="pdt7y6-e17306-d1e103">
+               <cb ed="#T" n="133"/>
+               <lb ed="#T" n="1"/>
+               <!-- line coord error -->
+            </p>
+            <p xml:id="pdt7y6-e17306-d1e112">
+               <lb ed="#T" n="2"/>VTRVM PATER VOLVNTATE 
+      <lb ed="#T" n="3"/>genuit Filium an necessitate, &amp; an volens, vel nolens sit 
+      <lb ed="#T" n="4"/>Deus, Distinet. VI.A 
+    </p>
+          <!--  <p xml:id="pdt7y6-e17306-d1e121">
+               <lb ed="#T" n="5"/>gue Raete rea quaeri solet, vtrum Pater genuerit Filium voluntate, an 
+      necessita<lb ed="#T" n="6" break="no"/>te. De hoc Grosius ad August: ita ait, Voluntate genuit Pater Filium vel 
+      <lb ed="#T" n="7"/>&amp; fecessitate: sed nec voluntate nec necessitate: quia necesfitas in Deo non 
+      <lb ed="#T" n="8"/>&amp; est, praeire voluntas sapientiam non potuit. Quocirca, vt Augustin. ait sin 
+      <lb ed="#T" n="9"/>&amp; i5 lilir. de Trinit. ridenda est dialectica Eunomij a quo Eunomiani 
+      fiaere<lb ed="#T" n="10" break="no"/>&amp; tici orti sunt: qui cum non potuisset intelligere, nec credere voluisset 
+      <lb ed="#T" n="11"/>
+               <!-\- line error -\->
+               <lb ed="#T" n="12"/>cedentem Deo voluntatem, qua gigneret Filium: sicut nos aliquando aliquid volumus, 
+      <lb ed="#T" n="13"/>at quod antea non volebamus, propter quod murabilis intelligitur nostra natura, quod absit,  
+      <lb ed="#T" n="14"/>vt in Deo esse credamus. Dicamus ergo verbum Dei esse Filium Dei natura, non 
+      volunta<lb ed="#T" n="15" break="no"/>6. te, vt docet Aug. in 15. lib. de Trinit. vbi quendam Catholicum haeretico respondentem 
+      <lb ed="#T" n="16"/>Ccommendat, dicens: Acute sane quidam respondit haeretico versutissime interroganti, 
+      <lb ed="#T" n="17"/>aa vtrum Deus Filum volens vel nolens genuerit, vt si diceret nolens: Absurdissima Dei, 
+      <lb ed="#T" n="18"/>miferia sequeretur: si, autem volens, continuo quod intendebat concluderet, scilicet,  
+      <lb ed="#T" n="19"/>ae hon naturae esse Filiu, sed voluntatis. At isse vigilantissime vicisum quaesiuit ab eo, vtrum 
+      <lb ed="#T" n="20"/>Deus Pater volens aut nolens sit Deus, vt si responderet, nosens sequeretur grandis 
+      absur<lb ed="#T" n="21" break="no"/>ditas &amp; miseria, quam de Deo credere magnaestinsania: si autem diceret, 
+      volensrespon<lb ed="#T" n="22" break="no"/>deretur ei: Ergo &amp; ipse voluntate sua Deus est, non patura. Quid ergo restabat, nisi vt 
+      ob<lb ed="#T" n="23" break="no"/>mutesceret, ssuia interrogatione obligatum indissolubili vinculo se videns? Ex praedictis 
+      do<lb ed="#T" n="24" break="no"/>cetur non esse concedendum quod Deus voluntate vel necessitate, vel volens, vel nosens, 
+      <lb ed="#T" n="25"/>sit Deus. Item quod voluntate vel necessitate, vel volens vel nolens genuerit Filium: 
+      <lb ed="#T" n="26"/>oppositis contrapiaedicta. 
+  </p>
+            <p xml:id="pdt7y6-e17306-d1e174">
+               <lb ed="#T" n="27"/>Sed contra hoc opponitur sic. Voluntas Dei est natura siue essentia Dei, quia non est 
+      <lb ed="#T" n="28"/>aliud Deo esse, aliud velle: &amp; ideo sicut vna est essentia trium personarum, ita &amp; vna 
+      vo<lb ed="#T" n="29" break="no"/>luntas. Si ergo Deus natura Deus est, &amp; voluntate Deus est: Et si verbum Dei natura 
+      <lb ed="#T" n="30"/>Filius Dei est, &amp; voluntate Filius Dei est. Hoc autem facile est refellere: nam &amp; 
+      praescien<lb ed="#T" n="31" break="no"/>tia Dei, siue scientia, qua scit vel praescit bona &amp; mala, Diuina natura siue essentia est, 
+      <lb ed="#T" n="32"/>&amp; praedeffinatio siue voluntas eius eadem Diuina essentia est: nec est aliud Deo scire 
+      <lb ed="#T" n="33"/>&amp; velle quam esse, &amp; cum sit vnum &amp; idem scientia Dei vel voluntas, non tamen 
+      dici<lb ed="#T" n="34" break="no"/>2. tur de voluntate quicquid dicitur de scientia, &amp; e conuerso. Nec omnia illa sua 
+      volun<lb ed="#T" n="35" break="no"/>tate Deus vult, quae sua scientia scit, cum sua scientia nouerit tam bona quam mala, 
+      <lb ed="#T" n="36"/>5. voluntate autem non velit nisi bona. Scientia quippe Dei &amp; praescientia de bonis est &amp; 
+      <lb ed="#T" n="37"/>cae malis: voluntas vero &amp; praedestinatio de bonis est tantum, &amp; tamen vnum &amp; idem 
+      <lb ed="#T" n="38"/>in Deo est scientia &amp; voluntas, &amp; praescientia &amp; praedestinatio. Ita cum vnum sit 
+      <lb ed="#T" n="39"/>natura Dei &amp; voluntas, dicitur tamen Pater genuisse Filium natura, non voluntate, &amp; 
+      <lb ed="#T" n="40"/>a esse Deus natura, non voluntate. 
+  </p>
+            <p xml:id="pdt7y6-e17306-d1e207">
+               <lb ed="#T" n="41"/>Qualiter intelligenda sunt illa verba, Pater nec nolens, nec velens Deus est, nec volens, nec nolen, 
+      <lb ed="#T" n="42"/>cenuit Filium. 
+  </p>
+            <p xml:id="pdt7y6-e17306-d1e214">
+               <lb ed="#T" n="43"/>Praedicta tamen verba quibus prundenter dictum est, quod Deus Pater nec volens, nec 
+      <lb ed="#T" n="44"/>va: nolens est Deus, nec nosens nec volens genuit Filium, siue voluntare, siue necessitate, 
+      <lb ed="#T" n="45"/>ra. &amp;x tali sensu mihi videntur accipienda, vt voluntatem praecedentem vel accedentem 
+      <lb ed="#T" n="46"/>sus intelligamus: qualiter Eunomius intelligebat. Non enim ipse Deus est voluntare 
+      praece<lb ed="#T" n="47" break="no"/>denti vel efficienti, vel volens priusquam Deus: nec voluntate praecedenti, vel accedenti 
+      <lb ed="#T" n="48"/>genuit Filium, nec prius volens, quam generans genuit Filium, nec prius generans quam 
+      <lb ed="#T" n="49"/>volens genuit Filium: volens tamen genuit, sicut potens genuit, &amp; bonus genuit 
+      <lb ed="#T" n="50"/>Filium, &amp; sapiens genuit; &amp; huiusmodi. Si enim Pater sapiens &amp; bonus dicitur genuisse 
+      <lb ed="#T" n="51"/>Filium, cur non &amp; volens: cum ita sit Deo idem esse volentem, quod eit esse Deum: sicut  
+      <lb ed="#T" n="52"/>idem est esse sapientem, quod est esse Deum. Dicamus ergo quia Pater sicut sapiens, 
+      <lb ed="#T" n="53"/>ita volens genuit Filium, sed non voluntante praecedenti vel accedenti. Quem sensui 
+      <lb ed="#T" n="54"/>aperit Hieron. &amp; confirmat ita dicens super epistola ad Ephes. De Filio Dei, id est, 
+      Do<lb ed="#T" n="55" break="no"/>mino nostro sesu Christo scriptum est, quia cum Patre semper fuit, &amp; nunquam cum vt 
+      <lb ed="#T" n="56"/>esset, paterna voluntas praecessit, &amp; ille quidem natura Filius est.
+  </p>-->
+            <p xml:id="pdt7y6-e17306-d1e247">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0134.xml-->
+               <pb ed="#T" n="59"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>DIVISIO TEXTVS. 
+      <lb ed="#T" n="2"/>[D Raeterea quaeri solet) Egit de terminis 
+      ge<lb ed="#T" n="3" break="no"/>nerationis: agit modo de virtute generantis: 
+      <lb ed="#T" n="4"/>&amp; primo principaliter de virtute 
+      intellectuali<lb ed="#T" n="5" break="no"/>dist. hac: secundo de virtute naturali dist. 7. 
+    </p>
+            <p xml:id="pdt7y6-e17306-d1e267">
+               <lb ed="#T" n="6"/>In hac prima parte inquirit vtrum Pater 
+      vo<lb ed="#T" n="7" break="no"/>luntate, aut necessitate genuit Filium: &amp; primo 
+      <lb ed="#T" n="8"/>determinat quaestionem per interemptionem 
+      <lb ed="#T" n="9"/>vtriusque partis: secundo opponit, &amp; ponit 
+      so<lb ed="#T" n="10" break="no"/>lutionem objectionis [Sed contra hoc 
+      opponi<lb ed="#T" n="11" break="no"/>tur ] tertio redit ad explanationem 
+      principa<lb ed="#T" n="12" break="no"/>lis solutionis [Praedicta tamen] In prima parte 
+      <lb ed="#T" n="13"/>primo soluit quaestionem absolute: secundo ad 
+      <lb ed="#T" n="14"/>hominem, instantiam proponendo [Dicamus 
+      <lb ed="#T" n="15"/>ergo. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

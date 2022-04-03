@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="NaN"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e80079"><!-- l1d33q1 -->
+            <head xml:id="pdt7y6-e80079-Hd1e99">Quaestio 1</head>
+            <head xml:id="pdt7y6-e80079-Hd1e101" type="question-title">De comparatione Notionum ad essentiam</head>
+            <p xml:id="pdt7y6-e80079-d1e104">
+               <lb ed="#T" n="31"/>QVESTIO I. 
+      <lb ed="#T" n="32"/>DECONTRARIETATE OPI. 
+      <lb ed="#T" n="33"/>NIONVM CIRCA NOTIONES 
+      <lb ed="#T" n="34"/>DIVINAS.
+</p>
+            <p xml:id="pdt7y6-e80079-d1e115">
+               <lb ed="#T" n="35"/>VTIc quaeruntur quatuor  
+      <lb ed="#T" n="36"/>AXPrimo de contrarietate opinionum circa 
+      <lb ed="#T" n="37"/>notiones 
+      <lb ed="#T" n="38"/>Secundo de comparatione notionum ad 
+      per<lb ed="#T" n="39" break="no"/>sonas. 
+      <lb ed="#T" n="40"/>Tertio de comparatione notionum ad 
+      essen<lb ed="#T" n="41" break="no"/>tiam. 
+      <lb ed="#T" n="42"/>Quarto de comparatione notionum ad 
+      ad<lb ed="#T" n="43" break="no"/>jectiua, siue personalia, siue essentialia. 
+    </p>
+            <div xml:id="pdt7y6-e80079-Dd1e137">
+               <head xml:id="pdt7y6-e80079-Hd1e139">Articulus 1</head>
+               <head xml:id="pdt7y6-e80079-Hd1e141" type="question-title">
+  An liceat contrarie opinari de motionibus
+</head>
+               <p xml:id="pdt7y6-e80079-d1e144">
+                  <lb ed="#T" n="44"/>ARTICVLVS VNICVS. 
+      <lb ed="#T" n="45"/>An liceat contrarie opinari de motionibus. 
+    </p>
+               <p xml:id="pdt7y6-e80079-d1e151">
+                  <lb ed="#T" n="46"/>AD primum articulum sic proceditur. 1. 
+      Di<lb ed="#T" n="47" break="no"/>cit Augustinus, quod nusquam 
+      periculo<lb ed="#T" n="48" break="no"/>sius erratur quam circa Trinitatem: sed 
+      contra<lb ed="#T" n="49" break="no"/>rie opinantium alter de necessitate erat: ergo 
+      <lb ed="#T" n="50"/>periculosum est opinari de eis contrarie: non 
+      <lb ed="#T" n="51"/>periculo poenae: ergo culpae: ergo est peccatum. 
+    </p>
+               <p xml:id="pdt7y6-e80079-d1e167">
+                  <lb ed="#T" n="52"/>2. Mendacium in doctrina religionis graue 
+      <lb ed="#T" n="53"/>2eccatum est secundum Augustinum: sed 
+      opi<lb ed="#T" n="54" break="no"/>:no altera necessario tale est mendacium: ergo 
+      <lb ed="#T" n="55"/>graue peccatum est: ergo opinari contrarie non 
+      <lb ed="#T" n="56"/>potest esse sine peccato opinantium. 
+    </p>
+               <p xml:id="pdt7y6-e80079-d1e181">
+                  <lb ed="#T" n="57"/>3. Dicere aliquid, quod non est Deus, esse Deum, 
+      <lb ed="#T" n="58"/>vel &amp; contrario, peccatum est idololatricae, ver 
+      <lb ed="#T" n="59"/>imidelitatis: sed qui dicit aliquid esse notionem 
+      <lb ed="#T" n="60"/>diuinam quod non est, vel e contrario, facit hoc: 
+      <lb ed="#T" n="61"/>hoc autem facit alter contrarie circa notiones 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0339.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="62"/>opinantium: ergo alter committit peccatum 
+      <lb ed="#T" n="63"/>idololatriae. 
+    </p>
+               <p xml:id="pdt7y6-e80079-d1e203">
+                  <lb ed="#T" n="64"/>4. Dicit Augustinus, quod non solum 
+      menti<lb ed="#T" n="65" break="no"/>tur ille qui dicit salsum, sed qui asserit 
+      du<lb ed="#T" n="66" break="no"/>bium: sed contrarie opinans de Dei notionibus 
+      <lb ed="#T" n="67"/>asserit dubium: ergo mentitur: ergo contrario 
+      <lb ed="#T" n="68"/>opinari est peccatum. 
+    </p>
+               <p xml:id="pdt7y6-e80079-d1e216">
+                  <lb ed="#T" n="69"/>Contra. 1. Hieron. Quod de Scripturis 
+      sa<lb ed="#T" n="70" break="no"/>cris auctoritatem non habet, eadem facilitate, 
+      <lb ed="#T" n="71"/>contemnitur qua probatur: positio notionum de 
+      <lb ed="#T" n="72"/>Scripturis auctoritatem non habet, quia nec de 
+      <lb ed="#T" n="73"/>veteri nec de nouo Testamento: ergo eadem 
+      <lb ed="#T" n="74"/>facilitate potest contemni qua probari¬ 
+    </p>
+               <p xml:id="pdt7y6-e80079-d1e232">
+                  <lb ed="#T" n="75"/>2. Omne peccatum est contra fidem, vel 
+      <lb ed="#T" n="76"/>mores: opinari contrarie de notionibus non est 
+      <lb ed="#T" n="77"/>contra fidem, quia contra nullum articulum; 
+      <lb ed="#T" n="78"/>nec contra mores, quia contra nullum 
+      prae<lb ed="#T" n="79" break="no"/>ceptum: ergo non est peccatum. 
+    </p>
+               <p xml:id="pdt7y6-e80079-d1e245">
+                  <lb ed="#T" n="80"/>3. Augustinus de lib. arbitrio. Approbare 
+      <lb ed="#T" n="81"/>falsa pro veris vt erret inuitus, non est natura, 
+      <lb ed="#T" n="82"/>instituti hominis sed poena damnati: ergo 
+      opina<lb ed="#T" n="83" break="no"/>ri falsum cum desiderio sciendi veritatem, poena 
+      <lb ed="#T" n="84"/>est non peccatum. 
+    </p>
+               <p xml:id="pdt7y6-e80079-d1e258">
+                  <lb ed="#T" n="85"/>Respondeo. Contrarie opinari de aliquo 
+      du<lb ed="#T" n="86" break="no"/>pliciter est: aut enim illud est de pertinentibus 
+      <lb ed="#T" n="87"/>necessario ad religionem fidei &amp; morum, aut 
+      <lb ed="#T" n="88"/>non. Si sit de impertinentibus, scilicet quo 
+      po<lb ed="#T" n="89" break="no"/>sito vel remoto nullum inconueniens sequitur  
+      <lb ed="#T" n="90"/>in fide vel moribus, non est peccatum nisi per 
+      <lb ed="#T" n="91"/>accidens ratione praesumptionis, vel elationis, 
+      <lb ed="#T" n="92"/>vel pertinaciae annexae. Si sit de pertinentibus 
+      <lb ed="#T" n="93"/>ad religionem, aut ergo directe &amp; euidenter est 
+      <lb ed="#T" n="94"/>contra articulos fidei, vel praecepta morum; 
+      <lb ed="#T" n="95"/>tunc no potest fieri sine peccato, vel simplicis 
+      er<lb ed="#T" n="96" break="no"/>roris vel haeresis si addatur pertinacia 
+      defensio<lb ed="#T" n="97" break="no"/>nis: aut non, sed per reductionem, &amp; de tali res 
+      <lb ed="#T" n="98"/>contrarie opinari ante pertractationem 
+      pecca<lb ed="#T" n="99" break="no"/>tum non est; post pertractionem, ex quo 
+      appa<lb ed="#T" n="100" break="no"/>ret inconueniens quod inde sequitur, iam 
+      pec<lb ed="#T" n="101" break="no"/>catum est. Vnde simpliciter opinari quod 
+      Do<lb ed="#T" n="102" break="no"/>minus equitauit equum, ante pertactatione non 
+      <lb ed="#T" n="103"/>est peccatum: post pertractationem, ex quo 
+      au<lb ed="#T" n="104" break="no"/>diuit contrarium contineri in Euangelio, 
+      pecca<lb ed="#T" n="105" break="no"/>tum est, quia sequitur ex hoc quod Euangelium 
+      <lb ed="#T" n="106"/>est falsum. 
+    </p>
+               <p xml:id="pdt7y6-e80079-d1e309">
+                  <lb ed="#T" n="107"/>Ad 1. Alter de necessitate errat. Resp. Non 
+      <lb ed="#T" n="108"/>errat circa ea quae sunt de necessitate fidei vel 
+      <lb ed="#T" n="109"/>morum. 
+    </p>
+               <p xml:id="pdt7y6-e80079-d1e318">
+                  <lb ed="#T" n="110"/>Ad 2. De mendacio. Resp. quamuis altera 
+      opi<lb ed="#T" n="111" break="no"/>nio sit falsa, non tamen mendacium, quia non 
+      <lb ed="#T" n="112"/>est contra mentem opinantis. 
+    </p>
+               <p xml:id="pdt7y6-e80079-d1e327">
+                  <lb ed="#T" n="113"/>Ad 3. De peccato idololatriae. Resp. Quamuis 
+      <lb ed="#T" n="114"/>quaelibet notio Dei quae est in Deo sit Deus, non 
+      <lb ed="#T" n="115"/>tamen determinatum est quae sit notio eius, &amp; 
+      <lb ed="#T" n="116"/>quae non; an sit in ipso vel non. 
+    </p>
+               <p xml:id="pdt7y6-e80079-d1e338">
+                  <lb ed="#T" n="117"/>Ad 4. De dubio. Resp. Qui asserit dubium 
+      per<lb ed="#T" n="118" break="no"/>tinaciter, peccat; sed non qui simpliciter 
+      opi<lb ed="#T" n="119" break="no"/>nando affirmat. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

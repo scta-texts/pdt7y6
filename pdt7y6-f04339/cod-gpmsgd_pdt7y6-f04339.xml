@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="341"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-f04339"><!-- l1d41q3 -->
+            <head xml:id="pdt7y6-f04339-Hd1e99">Quaestio 3</head>
+            <head xml:id="pdt7y6-f04339-Hd1e101" type="question-title">De causa reprobationis</head>
+            <p xml:id="pdt7y6-f04339-d1e104">
+               <lb ed="#T" n="14"/>QVESTIO III. 
+      <lb ed="#T" n="15"/>DE REPROBATIONE. 
+</p>
+            <p xml:id="pdt7y6-f04339-d1e111">
+               <lb ed="#T" n="16"/>CIrca tertium quaeruntur duo, 
+      <lb ed="#T" n="17"/>Primo an reprobatio habeat causam a 
+      <lb ed="#T" n="18"/>parte hominis 
+      <lb ed="#T" n="19"/>Secundo an habeat causam a parte Dei. 
+    </p>
+            <div xml:id="pdt7y6-f04339-Dd1e122">
+               <head xml:id="pdt7y6-f04339-Hd1e124">Articulus 1</head>
+               <head xml:id="pdt7y6-f04339-Hd1e126" type="question-title">An reprobatio habeat causam a parte hominis</head>
+               <p xml:id="pdt7y6-f04339-d1e129">
+                  <lb ed="#T" n="20"/>Articvlvs I. 
+      <lb ed="#T" n="21"/>An reprobatio habeat causam a parte hominis
+</p>
+               <p xml:id="pdt7y6-f04339-d1e136">
+                  <lb ed="#T" n="22"/>AD primum sic proceditur. 1. Rom. 9. 
+      Su<lb ed="#T" n="23" break="no"/>per illud, Esauodio habui, Glos. Esau 
+      sub<lb ed="#T" n="24" break="no"/>tracta gratia per iustitiam reprobatus est 
+      secun<lb ed="#T" n="25" break="no"/>dum exigentiam meritorum. 
+    </p>
+               <p xml:id="pdt7y6-f04339-d1e147">
+                  <lb ed="#T" n="26"/>2. Reprobatio importat tria, odium aeternum, 
+      <lb ed="#T" n="27"/>obdurationem temporalem, futuram 
+      damnatio<lb ed="#T" n="28" break="no"/>nem: sed meritum hominis est causa damnatio 
+      <lb ed="#T" n="29"/>nis, &amp; obdurationis, &amp; odij, quia Deus 
+      nemi<lb ed="#T" n="30" break="no"/>nem odit, nisi propter peccatum: ergo est causa 
+      <lb ed="#T" n="31"/>reprobationis. 
+    </p>
+               <p xml:id="pdt7y6-f04339-d1e164">
+                  <lb ed="#T" n="32"/>3. Voluntate antecedente vult Deus omne 
+      <lb ed="#T" n="33"/>homines saluari 1. Timoth. 1. Cum ergo quos 
+      <lb ed="#T" n="34"/>reprobat, velit damnari, hoc est voluntate 
+      con<lb ed="#T" n="35" break="no"/>sequente: sed voluntas consequens est ex nostra 
+      <lb ed="#T" n="36"/>causa, secundum Damascenum: ergo nos 
+      su<lb ed="#T" n="37" break="no"/>mus causa reprobationis. 
+    </p>
+               <p xml:id="pdt7y6-f04339-d1e180">
+                  <lb ed="#T" n="38"/>4. Non propter merita aliquem condemnare, 
+      <lb ed="#T" n="39"/>iniustum est: Deus autem iniustus non est: ergo 
+      <lb ed="#T" n="40"/>quos reprobat, propter merita reprobat,  
+    </p>
+               <p xml:id="pdt7y6-f04339-d1e189">
+                  <lb ed="#T" n="41"/>Contra. 1. Rom. 9. Cum nihil boni aut mali 
+      <lb ed="#T" n="42"/>egissent, non ex operibus sed ex vocante dictum 
+      <lb ed="#T" n="43"/>est, Iacob dilexi, Esau odio habui: ergo De 
+      <lb ed="#T" n="44"/>reprobatio non causatur ex operibus hominis 
+    </p>
+               <p xml:id="pdt7y6-f04339-d1e200">
+                  <lb ed="#T" n="45"/>2. Temporale non potest esse causa aeterni: 
+      <lb ed="#T" n="46"/>ergo nec temporale meritum causa aeternae 
+      re<lb ed="#T" n="47" break="no"/>probationis 
+    </p>
+               <p xml:id="pdt7y6-f04339-d1e209">
+                  <lb ed="#T" n="48"/>3. Si meritum est causa, aut ergo ineritum in 
+      <lb ed="#T" n="49"/>actu, aut in prescientia: si in actu, contra, effe 
+      <lb ed="#T" n="50"/>ctus non est potior causa: si in praescientia, 
+      con<lb ed="#T" n="51" break="no"/>tra, praescientia meritorum Deus est; actus aeter 
+      <lb ed="#T" n="52"/>nae reprobationis Deus est; nihil autem est 
+      cau<lb ed="#T" n="53" break="no"/>sa sui ipsius 
+    </p>
+               <p xml:id="pdt7y6-f04339-d1e225">
+                  <lb ed="#T" n="54"/>Respondeo. In reprobatione tria intelligun 
+      <lb ed="#T" n="55"/>tur: aeterna praeuisio, temporalis obduratio, &amp; 
+      <lb ed="#T" n="56"/>futura damnatio: quoad primum, meritum ho 
+      <lb ed="#T" n="57"/>minis non est causa: quoad secundum, est causa 
+      <lb ed="#T" n="58"/>meritoria &amp; effectiua: quoad tertium, est causa 
+      <lb ed="#T" n="59"/>meritoria, sed non effectiua 
+    </p>
+               <p xml:id="pdt7y6-f04339-d1e242">
+                  <lb ed="#T" n="60"/>Ad 1. De Glos. Resp. Loquitur Glos. de iustitia 
+      <lb ed="#T" n="61"/>reprobationis quoad temporale connotatum, 
+      <lb ed="#T" n="62"/>non quoad principale significatum aeternum. 
+    </p>
+               <p xml:id="pdt7y6-f04339-d1e251">
+                  <lb ed="#T" n="63"/>Ad 2. De odio &amp; obduratione. Resp. Odium 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0416.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="64"/>Dei dicitur secundum effectum, non secundum 
+      <lb ed="#T" n="65"/>affectum: vnde odium proprie non est 
+      reproba<lb ed="#T" n="66" break="no"/>tio essentialiter, sed reprobationis effectus 
+    </p>
+               <p xml:id="pdt7y6-f04339-d1e267">
+                  <lb ed="#T" n="67"/>Ad 3. De voluntate consequente. Resp. Huius. 
+      <lb ed="#T" n="68"/>modi antecessio &amp; consequentia attenditur, non 
+      <lb ed="#T" n="69"/>quoad voluntatis actum, sed quoad volitum: sic 
+      <lb ed="#T" n="70"/>autem ex nostra causa Deus vult nos damnari, 
+      <lb ed="#T" n="71"/>ita quod Iy ex nostra causa, determinet actum 
+      <lb ed="#T" n="72"/>damnandi non volendi, 
+    </p>
+               <p xml:id="pdt7y6-f04339-d1e283">
+                  <lb ed="#T" n="73"/>Ad 4. Non propter merita &amp;c. Resp. 
+      Repro<lb ed="#T" n="74" break="no"/>bare importat praeparationem poene inferenda 
+      <lb ed="#T" n="75"/>propter merita: vnde Iy propter potest 
+      determi<lb ed="#T" n="76" break="no"/>nare verbum ex parte preparantis vel rei 
+      prae<lb ed="#T" n="77" break="no"/>parate: primo modo, non propter meritum 
+      re<lb ed="#T" n="78" break="no"/>probare, iniustum non est; sed secundo modo, id  
+      <lb ed="#T" n="79"/>est praeparare poenam homini non propter 
+      meri<lb ed="#T" n="80" break="no"/>ta inferendam. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f04339-Dd1e305">
+               <head xml:id="pdt7y6-f04339-Hd1e307">Articulus 2</head>
+               <head xml:id="pdt7y6-f04339-Hd1e309" type="question-title">An damnatio habeat causam a parte Dei</head>
+               <p xml:id="pdt7y6-f04339-d1e312">
+                  <lb ed="#T" n="81"/>Articvlvs II. 
+      <lb ed="#T" n="82"/>An damnatio habeat causam a parte Dei.
+</p>
+               <p xml:id="pdt7y6-f04339-d1e319">
+                  <lb ed="#T" n="83"/>AD secundum sic proceditur. 1. Sicut se 
+      ha<lb ed="#T" n="84" break="no"/>bet praedestinatio ad salutem, sic 
+      reproba<lb ed="#T" n="85" break="no"/>tio ad damnationem: sed praedestinatio est causa 
+      <lb ed="#T" n="86"/>salutis: ergo reprobatio causa damnationis. 
+    </p>
+               <p xml:id="pdt7y6-f04339-d1e330">
+                  <lb ed="#T" n="87"/>2. Sequitur. Si reprobatus est, ergo 
+      damnabi<lb ed="#T" n="88" break="no"/>tur: sed in omini conditionali vera, antecedens est 
+      <lb ed="#T" n="89"/>causa consequentis: ergo reprobatio causa 
+      dam<lb ed="#T" n="90" break="no"/>nationis 
+    </p>
+               <p xml:id="pdt7y6-f04339-d1e342">
+                  <lb ed="#T" n="91"/>3. Damnatio reproborum iusta est: omne 
+      iu<lb ed="#T" n="92" break="no"/>stum a Deo: ergo damnatio reproborum a 
+      <lb ed="#T" n="93"/>Deo: non a Deo predestinante; ergo a Deo 
+      re<lb ed="#T" n="94" break="no"/>probante: ergo a diuina reprobatione: 
+    </p>
+               <p xml:id="pdt7y6-f04339-d1e353">
+                  <lb ed="#T" n="95"/>4. Preparatio causa est eius quod praeparatur 
+      <lb ed="#T" n="96"/>sed reprobatio est preparatio poenae aeternae: 
+      er<lb ed="#T" n="97" break="no"/>go est causa eius. 
+    </p>
+               <p xml:id="pdt7y6-f04339-d1e362">
+                  <lb ed="#T" n="98"/>Contra. 1. Dicit hic Magister, quod 
+      repro<lb ed="#T" n="99" break="no"/>batio non est causa mali, sicut praedestinatio est 
+      <lb ed="#T" n="100"/>causa boni¬ 
+    </p>
+               <p xml:id="pdt7y6-f04339-d1e371">
+                  <lb ed="#T" n="101"/>2. Deus est causa bonorum non fnalorum. 
+      <lb ed="#T" n="102"/>damnari est pessimum: ergo. 
+    </p>
+               <p xml:id="pdt7y6-f04339-d1e378">
+                  <lb ed="#T" n="103"/>3. Non est eadem causa oppositorum: Deus 
+      <lb ed="#T" n="104"/>est causa coniunctionis creaturae rationalis ad se: 
+      <lb ed="#T" n="105"/>non ergo est causa separationis eius a se: ergo 
+      <lb ed="#T" n="106"/>nec damnationis 
+    </p>
+               <p xml:id="pdt7y6-f04339-d1e389">
+                  <lb ed="#T" n="107"/>Respondeo. In damnatione tria est 
+      conside<lb ed="#T" n="108" break="no"/>rare: poenam damni, quae priuatio est: &amp; poena 
+      <lb ed="#T" n="109"/>sensus, quae est aliquid: &amp; ordinationem 
+      vtrius<lb ed="#T" n="110" break="no"/>que ad subjectum &amp; meritum eius: primum a 
+      <lb ed="#T" n="111"/>Deo simpliciter non est, secundum simpliciter  
+      <lb ed="#T" n="112"/>est, tertium a Deo est inquantum iustum est: hoc 
+      <lb ed="#T" n="113"/>autem totum ab homine est &amp; a merito eius, sed  
+      <lb ed="#T" n="114"/>peccatum ab homine efficiente per modum 
+      cau<lb ed="#T" n="115" break="no"/>se deficientis, secundum ab homine per modum 
+      <lb ed="#T" n="116"/>causae disponentis siue meritoriae, tertium ab 
+      <lb ed="#T" n="117"/>homine per modum causae sine qua non, non ex 
+      <lb ed="#T" n="118"/>qua¬ 
+    </p>
+               <p xml:id="pdt7y6-f04339-d1e419">
+                  <lb ed="#T" n="119"/>Ad 1. Praedestinatio est causa falutis &amp;c. Resp. 
+      <lb ed="#T" n="120"/>Non est omnino simile, quia salus totaliter 
+      con<lb ed="#T" n="121" break="no"/>fistit in positione, sed damnatio partim in 
+      pri<lb ed="#T" n="122" break="no"/>uatione. 
+    </p>
+               <p xml:id="pdt7y6-f04339-d1e430">
+                  <lb ed="#T" n="123"/>Ad 2. In omni couditionali vera &amp;c. Resp. 
+      <lb ed="#T" n="124"/>In illa afltecedens est causa consequentis in 
+      in<lb ed="#T" n="125" break="no"/>ferendo sed non in essendo: est autem ibi locus 
+      <lb ed="#T" n="126"/>a conuertibili non a causa: &amp; ita bene sequitur e 
+      <lb ed="#T" n="127"/>conuerso, si damnabitur ergo seprobatus est 
+    </p>
+               <p xml:id="pdt7y6-f04339-d1e443">
+                  <lb ed="#T" n="128"/>Ad 2. Damnatio iusta est. Resp. Ex hoc non 
+      <lb ed="#T" n="129"/>sequitur quod sit a Deo simpliciter, sed inquantum 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0417.xml-->
+      <pb ed="#T" n="342"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>iusta, quia non habet ordinem per se, sed per 
+      <lb ed="#T" n="2"/>accidens. 
+    </p>
+               <p xml:id="pdt7y6-f04339-d1e461">
+                  <lb ed="#T" n="3"/>Ad 4. Preparatio &amp;c. Resp. Ipsa poena sensus 
+      <lb ed="#T" n="4"/>a Deo praeparatur; sed non poena damni, sed  
+      <lb ed="#T" n="5"/>eius ordinatio.  
+    </p>
+               <p xml:id="pdt7y6-f04339-d1e470">
+                  <lb ed="#T" n="6"/>Ad id quod opponitur in contrarium. Resp. 
+      <lb ed="#T" n="7"/>Deus non est causa mali culpae. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="394"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-f21211"><!-- l1d48q2 -->
+            <head xml:id="pdt7y6-f21211-Hd1e99">Quaestio 2</head>
+            <head xml:id="pdt7y6-f21211-Hd1e101" type="question-title">In quo teneamur conformari voluntati divinae</head>
+            <p xml:id="pdt7y6-f21211-d1e104">
+               <lb ed="#T" n="90"/>QVESTIO II. 
+      <lb ed="#T" n="91"/>IN QVO TENEAMVR CONEORMARI 
+      <lb ed="#T" n="92"/>VOLVNTATI DIVINAE.
+</p>
+            <p xml:id="pdt7y6-f21211-d1e113">
+               <lb ed="#T" n="93"/>CIrca secundum articulum quaeruntur duo. 
+      <lb ed="#T" n="94"/>Primo an teneamur conformati in forma 
+      <lb ed="#T" n="95"/>volendi. 
+      <lb ed="#T" n="96"/>Secundo an tenemur conformati in volito. 
+    </p>
+            <div xml:id="pdt7y6-f21211-Dd1e124">
+               <head xml:id="pdt7y6-f21211-Hd1e126">Articulus 1</head>
+               <head xml:id="pdt7y6-f21211-Hd1e128" type="question-title">
+  An teneamur conformati voluntati Diuina in forma volendi
+</head>
+               <p xml:id="pdt7y6-f21211-d1e131">
+                  <lb ed="#T" n="97"/>ARTICVLVe 
+      <lb ed="#T" n="98"/>An teneamur conformati voluntati Diuina. 
+      <lb ed="#T" n="99"/>in forma volendi. 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e140">
+                  <lb ed="#T" n="100"/>AD primum sic proceditur. 1. Deuter. 10. 
+      <lb ed="#T" n="101"/>Iuste quod iustum est persequeris: ergo 
+      <lb ed="#T" n="102"/>non sufficit fieri quod Deus praecipit, nisi fiat 
+      <lb ed="#T" n="103"/>iuste: ergo ex charitate. 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e151">
+                  <lb ed="#T" n="104"/>2. Tenemur Deum ex toto corde diligere 
+      <lb ed="#T" n="105"/>Deuteron. 6. Diliges Deum tuum &amp;c. Ergo 
+      te<lb ed="#T" n="106" break="no"/>nemur ei conformati in charitate. 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e161">
+                  <lb ed="#T" n="107"/>3. Tenemur Deo veraciter obedire: ergo ex 
+      <lb ed="#T" n="108"/>bona voluntate: ergo ex charitate 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e168">
+                  <lb ed="#T" n="109"/>4. Opus praecipitur propter charitatem. 1 
+      <lb ed="#T" n="110"/>Timoth. 1. Finis praecepti est charitas: ergo 
+      si<lb ed="#T" n="111" break="no"/>tenemur ad conformitatem in opere, multo 
+      <lb ed="#T" n="112"/>magis tenemur ad conformitatem in chatitate. 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e179">
+                  <lb ed="#T" n="113"/>Contra. 1. Qui in articulo necessitatis 
+      hono<lb ed="#T" n="114" break="no"/>rat parentes naturali pietate, non peccat: ergo 
+      <lb ed="#T" n="115"/>non tenebatur honorare ex charitate: ergo non 
+      <lb ed="#T" n="116"/>tenebatur in forma volendi, siue in ratione. 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e190">
+                  <lb ed="#T" n="117"/>2. Nullus tenetur nisi ad illud quod est in sua 
+      <lb ed="#T" n="118"/>potestate: sed habere charitatem non est in 
+      po<lb ed="#T" n="119" break="no"/>testate nostra, sed Dei dantis: ergo non tenemur. 
+      <lb ed="#T" n="120"/>charitatem habere: ergo nec conformati in 
+      for<lb ed="#T" n="121" break="no"/>ma volendi, 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e203">
+                  <lb ed="#T" n="122"/>3. Si tenemur conformati in forma volendi 
+      <lb ed="#T" n="123"/>ergo quandocumque aliquid non ex charitate 
+      <lb ed="#T" n="124"/>volumus, peccamus mortaliter.  
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e212">
+                  <lb ed="#T" n="125"/>4. Si tenemur conformati in forma volendi, 
+      <lb ed="#T" n="126"/>ergo peccator cum nunquam conformetur 
+      qua<lb ed="#T" n="127" break="no"/>diu est in statu peccati, continue peccat 
+      morta<lb ed="#T" n="128" break="no"/>lirer in omissione. 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e224">
+                  <lb ed="#T" n="129"/>Respondeo teneri ad conformitatem in forma 
+      <lb ed="#T" n="130"/>volendi dupliciter est: vel obligatione 
+      condi<lb ed="#T" n="131" break="no"/>tionali, id est, si quis vult habere mercedem sui 
+      <lb ed="#T" n="132"/>operis; &amp; sic quilibet tenetur semper conforma¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0470.xml-->
+      <pb ed="#T" n="395"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>ri in forma volendi: aut obligatione absoluta, 
+      <lb ed="#T" n="2"/>ita quod si non conformetur, incurrat offensam 
+      <lb ed="#T" n="3"/>&amp; distinguendum est. Quia est conformitas in 
+      <lb ed="#T" n="4"/>actu: ad hanc non tenetur quis nisi habita chari 
+      <lb ed="#T" n="5"/>tate, &amp; tunc non semper in quolibet actu, sed  
+      <lb ed="#T" n="6"/>aliquando pro loco, &amp; tempore &amp; 
+      oportuni<lb ed="#T" n="7" break="no"/>tate: nam sicut quando cogitat articulos, 
+      tene<lb ed="#T" n="8" break="no"/>tur credere; ita quando actu cogitat Dei 
+      bonita<lb ed="#T" n="9" break="no"/>cem tenetur diligere. Est etiam conformitas in 
+      <lb ed="#T" n="10"/>habitu: ad hanc non tenetur quis directe; sed  
+      <lb ed="#T" n="11"/>indirecte: tenetur enim non femper sed 
+      quan<lb ed="#T" n="12" break="no"/>do actu bomtatem Dei recogitat, se ad 
+      charita<lb ed="#T" n="13" break="no"/>cem Dei praeparare. 
+      <lb ed="#T" n="14"/>Ad 1. Iuste quod iustum est &amp;c. Resp. 
+      Quam<lb ed="#T" n="15" break="no"/>uis iuste, non tamen sequitur ex charitate: quia 
+      <lb ed="#T" n="16"/>iustitia specialis quamuis non iustitia 
+      genera<lb ed="#T" n="17" break="no"/>lis, potest esse informis. Vel iuste imtelligitur  
+      <lb ed="#T" n="18"/>quantum ad formam operis operati, non operrs 
+      <lb ed="#T" n="19"/>operantis. 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e283">
+                  <lb ed="#T" n="20"/>Ad 2. Tenemur Deum diligere &amp;c. Resp. 
+      <lb ed="#T" n="21"/>Praeceptum affirmatiuum est: vnde non obligat 
+      <lb ed="#T" n="22"/>nisi pro loco &amp; tempore. 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e292">
+                  <lb ed="#T" n="23"/>Ad 3. Deo veraciter tenemur obedire. Resp. 
+      <lb ed="#T" n="24"/>Veritas dicitur aut secundum quod opponitur 
+      <lb ed="#T" n="25"/>falsitati, sic tenemur veraciter obedire, sed hoc 
+      <lb ed="#T" n="26"/>potest fieri sine charitate: aut secundum quod 
+      <lb ed="#T" n="27"/>opponitur vanitati, &amp; sic non semper tenemur. 
+      <lb ed="#T" n="28"/>obedire veraciter obligatione absoluta, sed 
+      con<lb ed="#T" n="29" break="no"/>ditionata: sic autem non potest quis obedire 
+      ve<lb ed="#T" n="30" break="no"/>raciter nisi ex charitate. 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e312">
+                  <lb ed="#T" n="31"/>Ad 4. Opus praecipitur propter charitatem. 
+      <lb ed="#T" n="32"/>Resp. Quamuis opus praecipiatur propter 
+      chari<lb ed="#T" n="33" break="no"/>tatem, non tamen tenetur quis simpliciter ad 
+      <lb ed="#T" n="34"/>charitatem sicut ad opus, quia opus est in 
+      pote<lb ed="#T" n="35" break="no"/>state nestra sed charitas non nisi per modum 
+      <lb ed="#T" n="36"/>praeparationis non causalitatis. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f21211-Dd1e330">
+               <head xml:id="pdt7y6-f21211-Hd1e332">Articulus 2</head>
+               <head xml:id="pdt7y6-f21211-Hd1e334" type="question-title">
+  An teneamur conformati voluntati Diuinae in volito
+</head>
+               <p xml:id="pdt7y6-f21211-d1e337">
+                  <lb ed="#T" n="37"/>Articvlvs II. 
+      <lb ed="#T" n="38"/>An teneamur conformati voluntati Diuinae in volito. 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e344">
+                  <lb ed="#T" n="39"/>AD secundum articulum proceditur sic. 1. 
+      <lb ed="#T" n="40"/>Super illud Pfal. Non adhaesit mihi cor 
+      <lb ed="#T" n="41"/>prauum, Prauum cor &amp; distortum habet qui non 
+      <lb ed="#T" n="42"/>vult id quod Deus vult. sed tenetur quilibet 
+      <lb ed="#T" n="43"/>cor non distortum habere: ergo tenetur velle 
+      <lb ed="#T" n="44"/>quod Deus vult. 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e360">
+                  <lb ed="#T" n="45"/>2. Deus non vult nisi quod bonum &amp; iustum 
+      <lb ed="#T" n="46"/>est: sed quilibet debet velle quod bonum &amp; 
+      <lb ed="#T" n="47"/>iustum est: ergo tenetur velle quod Deus vult. 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e370">
+                  <lb ed="#T" n="48"/>3. Intellectus discordans a diuino 
+      intelligibi<lb ed="#T" n="49" break="no"/>li non potest esse rectus: ergo nec voluntas 
+      <lb ed="#T" n="50"/>discordans a Deo in volito: sed quilibet tenetur 
+      <lb ed="#T" n="51"/>rectam voluntatem habere: ergo tenetur a Dei 
+      <lb ed="#T" n="52"/>volito non discordare. 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e383">
+                  <lb ed="#T" n="53"/>Contra. 1. Non facit male filius volendo 
+      pa<lb ed="#T" n="54" break="no"/>trem non mori, quem Deus vult mori: ergo 
+      <lb ed="#T" n="55"/>non tenetur illud quod Deus vult velle. 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e392">
+                  <lb ed="#T" n="56"/>2. Viri sancti frequenter sine peccato, &amp; etiam 
+      <lb ed="#T" n="57"/>meritorie volunt contraria: sed impossibile est. 
+      <lb ed="#T" n="58"/>contraria volentium vtrumque voluntati 
+      diui<lb ed="#T" n="59" break="no"/>nae se in volito conformare: ergo ad hoc non 
+      <lb ed="#T" n="60"/>tenentur.  
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e405">
+                  <lb ed="#T" n="61"/>3 Nullus tenetur velle quod nescit: sed 
+      fre<lb ed="#T" n="62" break="no"/>quenter nescimus quid Deus velit: ergo non 
+      te<lb ed="#T" n="63" break="no"/>nemur illud velle. 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e414">
+                  <lb ed="#T" n="64"/>Iuxta hoc quaeritur an teneamur velle id quod 
+      <lb ed="#T" n="65"/>scimus Deum velle. 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e421">
+                  <lb ed="#T" n="66"/>Videtur quod sic. 1. Dicit enim Augustinus, 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0470.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>quod impius est, cui non placet diuina 
+      proui<lb ed="#T" n="68" break="no"/>dentia: ergo quod Dei prouidentia ordinat tes 
+      <lb ed="#T" n="69"/>nemur velle. 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e438">
+                  <lb ed="#T" n="70"/>2. Non est amitus qui discordat ab amico in 
+      <lb ed="#T" n="71"/>licitis &amp; honestis quae scit eum velle, quia idem 
+      <lb ed="#T" n="72"/>velle &amp; nolle eadem perfecta amicitia est, 
+      secun<lb ed="#T" n="73" break="no"/>dum Tullium: ergo cum teneamur esse amici 
+      <lb ed="#T" n="74"/>Dei tenemur velle quod scimus eum velle. 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e451">
+                  <lb ed="#T" n="75"/>3. Praeponere voluntatem suam voluntati 
+      Di<lb ed="#T" n="76" break="no"/>uinae peccatum est, quia hoc est praeponere 
+      <lb ed="#T" n="77"/>creaturam creatori: sed hoc facit quicumque 
+      <lb ed="#T" n="78"/>sciens quod Deus vult aliquid, nihilominus vult 
+      <lb ed="#T" n="79"/>oppositum ergo peccat.  
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e464">
+                  <lb ed="#T" n="80"/>4. Quod possum velle, possum licite facere: 
+      <lb ed="#T" n="81"/>fed contrarium eius quod Deus vult, si scio cum 
+      <lb ed="#T" n="82"/>velle, non possum licite facere: ergo nec velle. 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e473">
+                  <lb ed="#T" n="83"/>Contra 1. Ieremiae. 28. Respondit Ieremias 
+      <lb ed="#T" n="84"/>also Prophetae, Amen. Et dicit Gloss. Optat 
+      <lb ed="#T" n="85"/>fieri quod ille mentitur: ergo volebat 
+      contra<lb ed="#T" n="86" break="no"/>rium eius quod sciebat velle deum. 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e484">
+                  <lb ed="#T" n="87"/>2. Nemo tenetur velle sibi subtrahi gratiam 
+      <lb ed="#T" n="88"/>Dei, &amp; tamen dum in peccato est, scit deum 
+      <lb ed="#T" n="89"/>velie gratiam subtrahi: ergo non tenetur velle 
+      <lb ed="#T" n="90"/>quod scit deum velle. 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e495">
+                  <lb ed="#T" n="91"/>3. Quamuis reuelatus sit alicui casus suus, vel 
+      <lb ed="#T" n="92"/>peccatum alterius non tenetur id velle: ergo 
+      <lb ed="#T" n="93"/>non tenetur quis velle quicquid scit deum velle. 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e505">
+                  <lb ed="#T" n="94"/>4. Non teneor velle quod vult Praelatus meus 
+      <lb ed="#T" n="95"/>licet sciam eum velle, nisi praecipiat: ergo nec 
+      <lb ed="#T" n="96"/>quod vult Deus. 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e514">
+                  <lb ed="#T" n="97"/>5. Quamuis Deus aliquid consulat, non tamen 
+      <lb ed="#T" n="98"/>tenetur quis hoc velle: ergo non quilibet 
+      tene<lb ed="#T" n="99" break="no"/>tur velle, quod scit Deum velle. 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e523">
+                  <lb ed="#T" n="100"/>Iuxta hoc quaeritur, an iusta sit semper 
+      vo<lb ed="#T" n="101" break="no"/>luntas quae conformatur in volito voluntati 
+      di<lb ed="#T" n="102" break="no"/>utnae. 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e532">
+                  <lb ed="#T" n="103"/>Videtur quod sic. 1. Quia conformari 
+      iusti<lb ed="#T" n="104" break="no"/>tiae est iustum esse: voluntas vero Dei omnis 
+      <lb ed="#T" n="105"/>iusta est: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e541">
+                  <lb ed="#T" n="106"/>2. Semper est intellectus rectus, qui est 
+      con<lb ed="#T" n="107" break="no"/>formis in intellecto intellectui diuino: ergo &amp; 
+      <lb ed="#T" n="108"/>affectus conformis affectui. 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e550">
+                  <lb ed="#T" n="109"/>3. Super illud Psal. Exultane iusti Gloss. 
+      Re<lb ed="#T" n="110" break="no"/>ctum cor habet qui vult quod Deus vult: ergo 
+      <lb ed="#T" n="111"/>recta est voluntas quae conformatur in volito 
+      <lb ed="#T" n="112"/>voluntati Diuiuae. 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e562">
+                  <lb ed="#T" n="113"/>Contra 1. Dicit Augustinus, quod Deus 
+      <lb ed="#T" n="114"/>voluntatem suam bonam implet aliquando per 
+      <lb ed="#T" n="115"/>hominum voluntates malas: ergo non semper 
+      <lb ed="#T" n="116"/>est bona voluntas hominis consonans in effectu 
+      <lb ed="#T" n="117"/>seu in volito voluntati Diuinae. 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e575">
+                  <lb ed="#T" n="118"/>2. Malus filius volendo patrem mori, quem 
+      <lb ed="#T" n="119"/>Deus vult mori, peccat: ergo non semper est 
+      <lb ed="#T" n="120"/>usta voluntas conformis in volite voluntati 
+      <lb ed="#T" n="121"/>diuinae. 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e586">
+                  <lb ed="#T" n="122"/>3. Si conformitas in volito faceret 
+      volun<lb ed="#T" n="123" break="no"/>tatem iustam ergo cum iniuriam passum 
+      vin<lb ed="#T" n="124" break="no"/>dicare velit, volende ille se vindicare, vellet  
+      <lb ed="#T" n="125"/>iuste: sed hoc falsum est: ergo primum. 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e597">
+                  <lb ed="#T" n="126"/>Respondeo ad primum. Duplex est in nobis 
+      vo<lb ed="#T" n="127" break="no"/>funtas: quaedam sensualitatis, hac non tenemur 
+      <lb ed="#T" n="128"/>conformati voluntati diuinae nec in volito, nec 
+      <lb ed="#T" n="129"/>alio modo: quaedam rationis, &amp; haec duplex: 
+      <lb ed="#T" n="130"/>quaedam determinata ad vnum, vt voluntas 
+      na<lb ed="#T" n="131" break="no"/>turalis, &amp; secundum hanc non tenemur 
+      confor<lb ed="#T" n="132" break="no"/>mari in volito, quia non possumus: alia 
+      volun<lb ed="#T" n="133" break="no"/>tas inde terminata, vt voluntas deliberatiua, &amp; 
+      <lb ed="#T" n="134"/>haec est duplex: quaedam conditionata, hac item 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0471.xml-->
+      <pb ed="#T" n="396"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>non tenemur, nec ei volendo conditionalite 
+      <lb ed="#T" n="2"/>contrarium discordamus, quia hoc non est velle 
+      <lb ed="#T" n="3"/>simpliciter: quaedam absoluta, hac tenemur 
+      <lb ed="#T" n="4"/>conformati in volito, sed non in quocumque. 
+      <lb ed="#T" n="5"/>Aut enim ignotum est nobis, &amp; tunc non 
+      tene<lb ed="#T" n="6" break="no"/>mur illud velle: aut est nobis notum, &amp; tunc 
+      <lb ed="#T" n="7"/>distinguendum: est enim aliquid a Deo volitum 
+      <lb ed="#T" n="8"/>dupliciter: aut simpliciter &amp; absolute, aut non: 
+      <lb ed="#T" n="9"/>illud quod Deus non vult simpliciter &amp; 
+      absolu<lb ed="#T" n="10" break="no"/>te, vt sententiam comminationis quam 
+      aliqua<lb ed="#T" n="11" break="no"/>do mutat, quando merita mutantur, non tene 
+      <lb ed="#T" n="12"/>mur velle: illud vero quod Deus vult absolute 
+      <lb ed="#T" n="13"/>aut congruit nobis velle, aut non: aliquando 
+      <lb ed="#T" n="14"/>enim, secundum Augustinum, aliquid vuli 
+      <lb ed="#T" n="15"/>Deus quod non congruit nos velle, vt patrem 
+      <lb ed="#T" n="16"/>meum mori: aliquando congruit vni velle 
+      <lb ed="#T" n="17"/>aliquid, quod non congruit alteri. Ideoque quod 
+      <lb ed="#T" n="18"/>Deus vult &amp; congruit nobis, bonum est in se &amp; 
+      <lb ed="#T" n="19"/>bonum est nobis, vnde Deus vult nos velle, &amp; 
+      <lb ed="#T" n="20"/>ideo tenemur illud velle. Illud vero quod non 
+      <lb ed="#T" n="21"/>congruit nobis, quamuis sit bonum in se, non 
+      <lb ed="#T" n="22"/>tamen quoad nos, ideo non vult Deus nos id 
+      <lb ed="#T" n="23"/>velle; vnde non tenemur velle (illud. Unde 
+      <lb ed="#T" n="24"/>super illud Psal. Rectos decet collaudatio Gloss. 
+      <lb ed="#T" n="25"/>Congruit vt quod Deus vult te velle, tu velis. 
+      <lb ed="#T" n="26"/>Quidam tamen simpliciter dicunt quod tene 
+      <lb ed="#T" n="27"/>mur velle absolute quicquid scimus Deum 
+      vel<lb ed="#T" n="28" break="no"/>le, sed conditionaliter possumus contrarium 
+      <lb ed="#T" n="29"/>velle: secundum hos tenetur aliquis velle sub 
+      <lb ed="#T" n="30"/>stractionem gratiae, &amp; carentiam visionis Dei, &amp; 
+      <lb ed="#T" n="31"/>huiusmodi: quod non videtur probabile. Unde 
+      <lb ed="#T" n="32"/>dicendum vt prius, quia illud quod vult Deus 
+      <lb ed="#T" n="33"/>aut congruit nobis velle, aut non: si sic debe 
+      <lb ed="#T" n="34"/>mus illud velle posito quod sciamus: si non 
+      <lb ed="#T" n="35"/>non. 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e701">
+                  <lb ed="#T" n="36"/>Ad 1. Cor distortum habet qui non vult 
+      <lb ed="#T" n="37"/>quod Deus vult. Resp. Hoc intelligitur de eo 
+      <lb ed="#T" n="38"/>quod Deus vult ipsum velle, non de eo quod 
+      <lb ed="#T" n="39"/>vult simpliciter.  
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e712">
+                  <lb ed="#T" n="40"/>Ad 2. Quilibet tenetur velle &amp;c. Resp. Velle 
+      <lb ed="#T" n="41"/>omne quod bonum &amp; iustum est, dupliciter 
+      po<lb ed="#T" n="42" break="no"/>test intelligi: vel quod iustum est in se, sic non 
+      <lb ed="#T" n="43"/>tenetur quilibet, non enim tenetur latro velle 
+      <lb ed="#T" n="44"/>se damnatri a Iudice: vel quod iustum est cum 
+      <lb ed="#T" n="45"/>velle, sic tenetur 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e729">
+                  <lb ed="#T" n="46"/>Ad 3. De intellectu. Resp. Non est simile 
+      <lb ed="#T" n="47"/>quia intellectus rectitudo consistit in adaequa 
+      <lb ed="#T" n="48"/>tione ad rem intellectam consideratam in se: sed  
+      <lb ed="#T" n="49"/>rectitudo voluntatis in ordine ad finem, qui or 
+      <lb ed="#T" n="50"/>do quia potest manere in contrario volito, ideo 
+      <lb ed="#T" n="51"/>potest etiam manere rectitudo in voluntate 
+      <lb ed="#T" n="52"/>contrarij. 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e747">
+                  <lb ed="#T" n="53"/>Ad secundam quaest. Resp. Duplex est 
+      con<lb ed="#T" n="54" break="no"/>formitas: quaedam plena &amp; perfecta, quae est 
+      co<lb ed="#T" n="55" break="no"/>formitas vniuersalis in omnibus secundum 
+      qua<lb ed="#T" n="56" break="no"/>tuor genera causarum: scilicet in volendo quod 
+      <lb ed="#T" n="57"/>Deus vult, &amp; haec est conformitas secundum 
+      <lb ed="#T" n="58"/>rationem cause materialis: &amp; in volendo vt vult 
+      <lb ed="#T" n="59"/>&amp; haec est conformitas secundum rationem 
+      cau<lb ed="#T" n="60" break="no"/>sae formalis: &amp; in volendo quod scimus ipsum 
+      <lb ed="#T" n="61"/>velle, &amp; haec est conformitas in ratione causae 
+      <lb ed="#T" n="62"/>efficientis: &amp; in volendo ad quod vult, &amp; haec 
+      <lb ed="#T" n="63"/>conformitas secundum rationem causae finalis 
+      <lb ed="#T" n="64"/>Quaedam vero est conformitas semiplena, 
+      scili<lb ed="#T" n="65" break="no"/>cet in volendo quod scimus eum velle, &amp; ad 
+      <lb ed="#T" n="66"/>quod vult. Prima est supererogationis, &amp; ad 
+      <lb ed="#T" n="67"/>hanc in via non tenemur: secunda necessitatis, 
+      <lb ed="#T" n="68"/>&amp; ad hanc aliquando tenemur.
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e784">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0471.xml-->
+                  <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="69"/>Ad 1. Impius est cui non placet Diuina 
+      pro<lb ed="#T" n="70" break="no"/>uidentia. Resp. Hoc intelligitur de prouidentia 
+      <lb ed="#T" n="71"/>efficiente, non permittente. Vel in vniuersali 
+      <lb ed="#T" n="72"/>non in quolibet casu particulari. Vel per se, id  
+      <lb ed="#T" n="73"/>est de re prouisa, inquantum prouisa, non 
+      se<lb ed="#T" n="74" break="no"/>cundum id quod est, 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e804">
+                  <lb ed="#T" n="75"/>Ad 2. Non est amicus &amp;c. Resp. Hoc verum 
+      <lb ed="#T" n="76"/>est de concordia in ijs quaecumque vnus amicus 
+      <lb ed="#T" n="77"/>vult alterum velle: non in ijs quaecumque vult 
+      <lb ed="#T" n="78"/>ipse. 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e815">
+                  <lb ed="#T" n="79"/>Ad 3. Praeponere voluntatem suam &amp;c. Resp. 
+      <lb ed="#T" n="80"/>Velle aliud quam Deus velit, non est praepone 
+      <lb ed="#T" n="81"/>re: sed velle aliud quam Deus vult nos velle: 
+      <lb ed="#T" n="82"/>vult autem nos velle quaecumque vult, quorum 
+      <lb ed="#T" n="83"/>appetitio non est contraria naturae, vt 
+      malo<lb ed="#T" n="84" break="no"/>rum poenae; vel rationi rectae, vt malorum 
+      cul<lb ed="#T" n="85" break="no"/>pae; vel quae culpam immediate 
+      consequun<lb ed="#T" n="86" break="no"/>tur, ] vt gratiae subtractio, naturae vulneratio, 
+      <lb ed="#T" n="87"/>separatio a Deo. 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e837">
+                  <lb ed="#T" n="88"/>Ad 4. Quod possum velle &amp;c. Resp. Sicut  
+      <lb ed="#T" n="89"/>licite possum velle contrarium eius quod Deus 
+      <lb ed="#T" n="90"/>vult, non tamen contrarium eius quod vult me 
+      <lb ed="#T" n="91"/>velle, ita &amp; facere: vnde &amp; licet praeuideam 
+      <lb ed="#T" n="92"/>mortem patris mei, licet tamen mihi pro eius 
+      <lb ed="#T" n="93"/>sanitate quicquid possum facere 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e854">
+                  <lb ed="#T" n="94"/>Ad 1. in contrarium de Ieremia. Resp. Hoc 
+      <lb ed="#T" n="95"/>volendo volebat quidem contrarium eius quod 
+      <lb ed="#T" n="96"/>Deus volebat, sed non contrarium eius quod 
+      <lb ed="#T" n="97"/>Deus volebat cum velle. Vel Deus volebat 
+      il<lb ed="#T" n="98" break="no"/>lud non simpliciter sed sub conditione, nisi 
+      poe<lb ed="#T" n="99" break="no"/>niterent 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e870">
+                  <lb ed="#T" n="100"/>Ad 2. Nemo tenetur velle sibi subtrahi gra 
+      <lb ed="#T" n="101"/>tiam &amp;c. Resp. Hoc vult Deus non efficiendo, 
+      <lb ed="#T" n="102"/>sed permittendo. Vel non vult hoc quantum in 
+      <lb ed="#T" n="103"/>se est, sed propter meritum hominis 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e881">
+                  <lb ed="#T" n="104"/>Ad 3. De casu reuelato &amp;c. Resp. Huiusme 
+      <lb ed="#T" n="105"/>di non cadunt sub voluntate diuina efficiente, 
+      <lb ed="#T" n="106"/>sed permittente: vnde non tenetur ea quis velle. 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e890">
+                  <lb ed="#T" n="107"/>Ad 4. Non teneor velle quod vult Praelatus 
+      <lb ed="#T" n="108"/>meus. Resp. Teneor velle quod ipse vult 
+      prae<lb ed="#T" n="109" break="no"/>cise me velle, sed non quod vult simpliciter: sed  
+      <lb ed="#T" n="110"/>quia huiusmodi eius voluntas non innotescit 
+      <lb ed="#T" n="111"/>mihi nisi per praeceptum, ideo non teneor velle 
+      <lb ed="#T" n="112"/>nisi eo praecipiente. 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e906">
+                  <lb ed="#T" n="113"/>Ad 5. De consilio. Resp. Deus non vult 
+      sim<lb ed="#T" n="114" break="no"/>pliciter &amp; praecise nos illud velle, sed vult 
+      vo<lb ed="#T" n="115" break="no"/>luntate antecedente: voluntate signi, non 
+      volun<lb ed="#T" n="116" break="no"/>tate beneplaciti. 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e917">
+                  <lb ed="#T" n="117"/>Ad tertiam quaest. Resp. Conformitas 
+      volun<lb ed="#T" n="118" break="no"/>tatis nostrae ad voluntatem Diuinam consistit in 
+      <lb ed="#T" n="119"/>simili proportione vel habitudine ad volitum: 
+      <lb ed="#T" n="120"/>aut ergo quoad materiam voliti tantum, aut 
+      <lb ed="#T" n="121"/>etiam quoad formam actus volendi: prima 
+      con<lb ed="#T" n="122" break="no"/>formitas non facit voluntatem iustam, sed 
+      se<lb ed="#T" n="123" break="no"/>cunda. 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e936">
+                  <lb ed="#T" n="124"/>Ad 1. Conformari iustitiae &amp;c. Resp. Hoc 
+      <lb ed="#T" n="125"/>verum quando est conformitas non tantum 
+      ma<lb ed="#T" n="126" break="no"/>terialis in volito, sed etiam formalis in modo, 
+      <lb ed="#T" n="127"/>iuste quod iustum est exequendo, 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e947">
+                  <lb ed="#T" n="128"/>Ad 2. De intellectu. Resp. Non est simile, 
+      <lb ed="#T" n="129"/>quia intellectus rectificatur ex adaequatione ad 
+      <lb ed="#T" n="130"/>rem intellectuam, sed voluntas ex ordine ad fine. 
+    </p>
+               <p xml:id="pdt7y6-f21211-d1e956">
+                  <lb ed="#T" n="131"/>Ad 3. Rectum cor habet qui vult quod vult 
+      <lb ed="#T" n="132"/>Deus. Resp. Hoc intelligendum est de eo 
+      qui<lb ed="#T" n="133" break="no"/>vult quando Deus vult cum velle. Vel, rectum 
+      <lb ed="#T" n="134"/>cor habot quoad hoc, non tamen simpliciter.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

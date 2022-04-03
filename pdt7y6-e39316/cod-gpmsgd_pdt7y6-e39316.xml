@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="129"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e39316"><!-- l1d16q1 -->
+            <head xml:id="pdt7y6-e39316-Hd1e99">Quaestio 1</head>
+            <head xml:id="pdt7y6-e39316-Hd1e101" type="question-title">De missione visibili</head>
+            <p xml:id="pdt7y6-e39316-d1e104">
+               <lb ed="#T" n="65"/>QVESTIO VNICA. 
+      <lb ed="#T" n="66"/>DE MISSIONE VISIBILI. 
+    </p>
+            <p xml:id="pdt7y6-e39316-d1e111">
+               <lb ed="#T" n="67"/>Vaeruntur hic de nissione isibili septem. 
+      <lb ed="#T" n="68"/>Primo de missionis actu. 
+      <lb ed="#T" n="69"/>Secundo de fine seu vsu eius. 
+      <lb ed="#T" n="70"/>Tertio de personis ad quas facta est. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0205.xml-->
+      <pb ed="#T" n="130"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>Quarto de personis in quibus facta est. 
+      <lb ed="#T" n="2"/>Quinto De ministris per quos facta est. 
+      <lb ed="#T" n="3"/>Sexto de speciebus in quibus facta est. 
+      <lb ed="#T" n="4"/>Septimo de speciebus missionis Filij specia 
+      <lb ed="#T" n="5"/>liter.  
+    </p>
+            <div xml:id="pdt7y6-e39316-Dd1e140">
+               <head xml:id="pdt7y6-e39316-Hd1e142">Articulus 1</head>
+               <head xml:id="pdt7y6-e39316-Hd1e144" type="question-title">De actu missionis visibilis</head>
+               <p xml:id="pdt7y6-e39316-d1e147">
+                  <lb ed="#T" n="6"/>Articvlvs I. 
+      <lb ed="#T" n="7"/>De actu missionis visibilis.
+</p>
+               <p xml:id="pdt7y6-e39316-d1e154">
+                  <lb ed="#T" n="8"/>D primum sic proceditut. 1. Missio 
+      perso<lb ed="#T" n="9" break="no"/>nae alicuius dicitur secundum quod in 
+      crea<lb ed="#T" n="10" break="no"/>tura incipit esse modo quo prius non fuit: sed 
+      <lb ed="#T" n="11"/>in creatura visibili semper est &amp; fuit &amp; eodem 
+      <lb ed="#T" n="12"/>modo, scilicet essentialiter, praesentialiter, 
+      po<lb ed="#T" n="13" break="no"/>tentialiter: ergo non potest fieri missio in 
+      crea<lb ed="#T" n="14" break="no"/>tura visibili. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e172">
+                  <lb ed="#T" n="15"/>2. Causa repraesentatur in omni effectu sibi 
+      <lb ed="#T" n="16"/>simili vt in signo: si ergo mitti dicitur Deus 
+      vi<lb ed="#T" n="17" break="no"/>sibiliter ratione manifestationis vel repraesenta. 
+      <lb ed="#T" n="18"/>tionis in creatura visibili, potest dici mitti 
+      insqua<lb ed="#T" n="19" break="no"/>libet creaturam: sed hoc falsum: ergo primum. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e186">
+                  <lb ed="#T" n="20"/>3. In Sacramentis repraesentatur gratia vt in 
+      <lb ed="#T" n="21"/>signo: ergo potest dici fieri missio visibilis in 
+      <lb ed="#T" n="22"/>Sacramento. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e195">
+                  <lb ed="#T" n="23"/>4. Nullus potest scire signo visibili se habere 
+      <lb ed="#T" n="24"/>Spiritum sanctum: ergo vel missio visibilis non 
+      <lb ed="#T" n="25"/>est manifestatio in signo visibili, vel nulla est: 
+      <lb ed="#T" n="26"/>visibilis missio. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e206">
+                  <lb ed="#T" n="27"/>5. Pater, secundum Augustinum, aliquando 
+      <lb ed="#T" n="28"/>manifestatus est seu apparuit in creatura visibi 
+      <lb ed="#T" n="29"/>li: &amp; tamen non potest dici missus: ergo missio 
+      <lb ed="#T" n="30"/>visibilis non est manifestatio in signo visibili. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e217">
+                  <lb ed="#T" n="31"/>Contra 1. Missio inuisibilis est manifestatio in 
+      <lb ed="#T" n="32"/>effectu inuisibili: ergo missio visibilis est 
+      mani<lb ed="#T" n="33" break="no"/>festatio in effectu visibili. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e226">
+                  <lb ed="#T" n="34"/>2. Augustinus dicit, quod operatio visibiliter  
+      <lb ed="#T" n="35"/>expressa, &amp; oculis oblata mortalibus, missio 
+      di<lb ed="#T" n="36" break="no"/>cenda est: ergo missio visibilis est visibilis 
+      appa<lb ed="#T" n="37" break="no"/>ritio seu manifestatio. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e237">
+                  <lb ed="#T" n="38"/>3. August. Tunc dicitur mitti Filius cum ex 
+      <lb ed="#T" n="39"/>tempore cuiusquam mente percipitur: ergo 
+      <lb ed="#T" n="40"/>visibilis perceptio est visibilis missio. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e247">
+                  <lb ed="#T" n="41"/>4. Quandocumque Angelus visibiliter 
+      appa<lb ed="#T" n="42" break="no"/>ret, dicitur visibiliter mitti: ergo visibilis missio. 
+      <lb ed="#T" n="43"/>non est aliud quam visibilis apparitio vel 
+      mani<lb ed="#T" n="44" break="no"/>festatio.  
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e258">
+                  <lb ed="#T" n="45"/>Respondeo. Sicut missio inuisibilis idem est 
+      <lb ed="#T" n="46"/>cum processione aeterna, sed addit inuisibilem 
+      <lb ed="#T" n="47"/>manifestationem ad intellectum solum: sic 
+      mis<lb ed="#T" n="48" break="no"/>sio visibilis idem est cum inuisibili, sed addit 
+      ma<lb ed="#T" n="49" break="no"/>nifestationem visibilem ad sensum: includit ergo 
+      <lb ed="#T" n="50"/>tria in intellectu suo, scilicet personae 
+      emanatio<lb ed="#T" n="51" break="no"/>nem aeternam, eius internam inhabitationem 
+      <lb ed="#T" n="52"/>seu praesentiam, &amp; vtriusque in signo visibili 
+      <lb ed="#T" n="53"/>manifestationem &amp; euidentiam: vnde importat 
+      <lb ed="#T" n="54"/>respectum triplicem, vnum aeternum persona 
+      <lb ed="#T" n="55"/>ad suum principium, alterum temporalem 
+      cau<lb ed="#T" n="56" break="no"/>sae ad effectum, tertium super temporalem 
+      signa<lb ed="#T" n="57" break="no"/>ti ad signum. Exemplum huiusmodi potest 
+      po<lb ed="#T" n="58" break="no"/>ni processus verbi in mente, in imaginatione, in 
+      <lb ed="#T" n="59"/>voce. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e293">
+                  <lb ed="#T" n="60"/>Ad 1. In creatura visibili semper est eodem 
+      <lb ed="#T" n="61"/>modo. Resp. Praeter illos tres modos generales, 
+      <lb ed="#T" n="62"/>quibus semper est eodem modo in creatura vt 
+      <lb ed="#T" n="63"/>in re, est alius quo dicitur esse illis eisdem modis 
+      <lb ed="#T" n="64"/>in creatura vt in signo, &amp; hoc pertinet ad 
+      visibi<lb ed="#T" n="65" break="no"/>lem missionis modum. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e309">
+                  <lb ed="#T" n="66"/>Ad 2. De causa &amp; effectu. Resp. Licet omnis 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0205.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>creatura repraesentet causam primam secundum 
+      <lb ed="#T" n="68"/>effectum naturae in seipsa, non tamen secundum 
+      <lb ed="#T" n="69"/>effectum gratiae in altero, 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e325">
+                  <lb ed="#T" n="70"/>Ad 3. De Sacramento. Resp. Sacramentum  
+      <lb ed="#T" n="71"/>non est signum institutum ad tempus sed in 
+      per<lb ed="#T" n="72" break="no"/>petuum. Vel melius dicendum, quod 
+      Sacra<lb ed="#T" n="73" break="no"/>mentum signum est gratiae futurae, vel 
+      cre<lb ed="#T" n="74" break="no"/>andae, sed missio visibilis gratiae iam 
+      praesen<lb ed="#T" n="75" break="no"/>tis, non per ipsam creandae. Vel Sacramentum 
+      <lb ed="#T" n="76"/>signum est mediante ministerio humano, non 
+      <lb ed="#T" n="77"/>diuino miraculo, ideo non ita aperte significat.  
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e345">
+                  <lb ed="#T" n="78"/>Ad 4. Nullus potest scire &amp;c. Resp. 
+      Secun<lb ed="#T" n="79" break="no"/>dum communem legem sciri non potest; sed  
+      <lb ed="#T" n="80"/>per priuilegium gratiae potest vel ille cui sit 
+      mis<lb ed="#T" n="81" break="no"/>sio, vel alius de ipso¬ 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e357">
+                  <lb ed="#T" n="82"/>Ad 5. De Patre. Resp. Non sola apparitio est 
+      <lb ed="#T" n="83"/>de ratione missionis visibilis, sed apparitio qua 
+      <lb ed="#T" n="84"/>manifestatur quis esse ab alio: vnde apparitio  
+      <lb ed="#T" n="85"/>se habet ad missionem visibilem sicut genus ad 
+      <lb ed="#T" n="86"/>speciem. Hinc est quod quamuis Pater 
+      appa<lb ed="#T" n="87" break="no"/>ruerit (temerarium est enim dicere quod Pater  
+      <lb ed="#T" n="88"/>nunquam per formas visibiles Patribus aut 
+      Pro<lb ed="#T" n="89" break="no"/>phetis apparuit vt dicit August. 2. de Trinit. 
+      <lb ed="#T" n="90"/>tamen non potest dici missus 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e379">
+                  <lb ed="#T" n="91"/>Ad 1. In contrarium missio inuisibilis est ma 
+      <lb ed="#T" n="92"/>nifestatio &amp;c. Resp. Verum est, non tamen 
+      <lb ed="#T" n="93"/>quaecumque manifestatio, sed qua cognoscitur  
+      <lb ed="#T" n="94"/>missus esse ab alio. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e390">
+                  <lb ed="#T" n="95"/>Ad 2. Operatio oculis oblata &amp;c. Resp. 
+      In<lb ed="#T" n="96" break="no"/>telligit Augustinus de operatione qua 
+      manife<lb ed="#T" n="97" break="no"/>statur esse ab alio. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e399">
+                  <lb ed="#T" n="98"/>Ad 3. De Filio. Resp. Tunc dicitur mitti 
+      Fi<lb ed="#T" n="99" break="no"/>lius cum percipitur, scilicet esse ab alio, hoc 
+      <lb ed="#T" n="100"/>enim conuenit erinquantum Filius est, 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e408">
+                  <lb ed="#T" n="101"/>Ad 4. De Angelo. Resp. Non est simile, quia 
+      <lb ed="#T" n="102"/>Angelus omnis ab alio est &amp; operatur, propter 
+      <lb ed="#T" n="103"/>quod omnis eius apparitio potest dici missio: sed  
+      <lb ed="#T" n="104"/>non sic omnis persona Diuina, quia Pater non 
+      <lb ed="#T" n="105"/>est ab alio. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e39316-Dd1e423">
+               <head xml:id="pdt7y6-e39316-Hd1e425">Articulus 2</head>
+               <head xml:id="pdt7y6-e39316-Hd1e427" type="question-title">De fine seu usu missionis visibilis</head>
+               <p xml:id="pdt7y6-e39316-d1e430">
+                  <lb ed="#T" n="106"/>Articvlvs II. 
+      <lb ed="#T" n="107"/>De fine seu usu missionis visibilis.
+</p>
+               <p xml:id="pdt7y6-e39316-d1e437">
+                  <lb ed="#T" n="108"/>AD secundum articulum sic proceditur. 1. 
+      <lb ed="#T" n="109"/>Visibilis missio sine inuisibili nihil prodest 
+      <lb ed="#T" n="110"/>ei cui sit: missio inuisibilis sine visibili sufficit: 
+      <lb ed="#T" n="111"/>ergo visibilis superfluit, 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e448">
+                  <lb ed="#T" n="112"/>2. Missio sit propter reuocationem creaturae 
+      <lb ed="#T" n="113"/>a sensibilibus ad aeterna, secundum Augustinum 
+      <lb ed="#T" n="114"/>sed missio inuisibilis tam intellectum creaturae 
+      <lb ed="#T" n="115"/>quam affectum eius sufficienter ad aeterna 
+      redu<lb ed="#T" n="116" break="no"/>cit: ergo visibilis superfluit. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e462">
+                  <lb ed="#T" n="117"/>3. Anima circa sensibilia occupata minus 
+      suf<lb ed="#T" n="118" break="no"/>ficit ad aeterna: ergo cum per missionem 
+      visibi<lb ed="#T" n="119" break="no"/>lem circa sensibilia occupetur huiusmodi missio 
+      <lb ed="#T" n="120"/>plus nocet ei quam proficit. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e473">
+                  <lb ed="#T" n="121"/>4. Non potest manifestari per aliquid nisi sus 
+      <lb ed="#T" n="122"/>ficienter ducat in illud: sed nulla creatura 
+      visi<lb ed="#T" n="123" break="no"/>bilis sufficienter ducit in cognitionem gratiae 
+      in<lb ed="#T" n="124" break="no"/>uisibilis: ergo nec eam manifestat.  
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e484">
+                  <lb ed="#T" n="125"/>Contra 1. Maior &amp; certior est manifestatio 
+      <lb ed="#T" n="126"/>quae sit simul ad intellectum &amp; sensum, quam ad 
+      <lb ed="#T" n="127"/>alterum tantum: sed in missione inuisibili fit 
+      <lb ed="#T" n="128"/>manifestatio ad intellectum tantum: in 
+      missio<lb ed="#T" n="129" break="no"/>ne visibili etiam ad sensum: ergo aliquid 
+      certi<lb ed="#T" n="130" break="no"/>tudinis &amp; cognitionis addit: ergo non superfluit. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e500">
+                  <lb ed="#T" n="131"/>2. Intellectus noster in corpore nil 
+      apprehen<lb ed="#T" n="132" break="no"/>dit sine phanta smate, sicut nec visus sine colo¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0206.xml-->
+      <pb ed="#T" n="131"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>re, secundum Philosophum lib. de anima: ergo 
+      <lb ed="#T" n="2"/>cognitioni intellectuali sensibilis proficit: ergo 
+      <lb ed="#T" n="3"/>missioni inuisibili visibilis. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e520">
+                  <lb ed="#T" n="4"/>3. Rom. 1. Inuisibilia Dei per ea quae facta 
+      <lb ed="#T" n="5"/>sunt &amp;c. ergo ad cognoscenda inuisibilia, 
+      visi<lb ed="#T" n="6" break="no"/>bilis missio proficit. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e529">
+                  <lb ed="#T" n="7"/>4. Per vocem illam, Tu es Filius meus &amp;c. 
+      <lb ed="#T" n="8"/>Luc. quilibet audiens, emanationem personae 
+      <lb ed="#T" n="9"/>a persona intelligere potuit: ergo missio 
+      visibi<lb ed="#T" n="10" break="no"/>lis per se ad cognitionem aeternae emanationis 
+      <lb ed="#T" n="11"/>proficit. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e543">
+                  <lb ed="#T" n="12"/>Respondeo. Missio inuisibilis, cum sit latens 
+      <lb ed="#T" n="13"/>sit homini propter seipsum: sed visibilis cum sit 
+      <lb ed="#T" n="14"/>patens, propter alterum sit: sicut enim in 
+      mis<lb ed="#T" n="15" break="no"/>sione inuisibili manifestatur homini praesentia 
+      <lb ed="#T" n="16"/>Dei per aliquod interius signum, sic in mission: 
+      <lb ed="#T" n="17"/>visibili manifestatur alijs per aliquod signum 
+      <lb ed="#T" n="18"/>exterius. Prima missio sit ad ostendenda 
+      plenitu<lb ed="#T" n="19" break="no"/>dinem sufficientiae in se: secunda sit ad 
+      osten<lb ed="#T" n="20" break="no"/>dendam plenitudinem redundantiae in alios. Sic 
+      <lb ed="#T" n="21"/>cellarium sine circulo impletur ad sufficientiam 
+      <lb ed="#T" n="22"/>propriae familiae, sed cum appositione circuli 
+      <lb ed="#T" n="23"/>ad plenitudinem redundantiae ostendendum. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e572">
+                  <lb ed="#T" n="24"/>Ad 1. Inuisibilis missio sine visibili sufficit 
+      <lb ed="#T" n="25"/>Resp. Sufficit ei cuius mittitur propter se, sed  
+      <lb ed="#T" n="26"/>non propter alios. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e581">
+                  <lb ed="#T" n="27"/>Ad 2. De sufficienti reuocatione &amp;c. Resp. 
+      <lb ed="#T" n="28"/>Quamuis per missionem inuisibilem sufficiens. 
+      <lb ed="#T" n="29"/>sit reuocatio habentis, non tamen aliorum per 
+      <lb ed="#T" n="30"/>ipsum. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e592">
+                  <lb ed="#T" n="31"/>Ad 3. De occupatione circa sensibilia. Resp. 
+      <lb ed="#T" n="32"/>Occupatio anime circa sensibilia duplex est, vel 
+      <lb ed="#T" n="33"/>vt sunt res, ibi sistendo; vel vt sunt signa, per 
+      <lb ed="#T" n="34"/>illa ad inuisibilia transeundo: prima impedit, 
+      <lb ed="#T" n="35"/>secunda promouet.  
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e605">
+                  <lb ed="#T" n="36"/>Ad 4. Nulla creatura sufficienter ducit &amp;c. 
+      <lb ed="#T" n="37"/>Resp. Quamuis per se non sufficiat, tamen ex 
+      <lb ed="#T" n="38"/>citat &amp; iuuat: nec enim vox Patris in verbe 
+      <lb ed="#T" n="39"/>sufliciebat sine fide ad cognoscendum Filium, 
+      <lb ed="#T" n="40"/>sed excitabat.  
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e39316-Dd1e619">
+               <head xml:id="pdt7y6-e39316-Hd1e621">Articulus 3</head>
+               <head xml:id="pdt7y6-e39316-Hd1e623" type="question-title">
+  De personis ad quas facta est missio visibilis.
+</head>
+               <p xml:id="pdt7y6-e39316-d1e626">
+                  <lb ed="#T" n="41"/>Articvlvs III. 
+      <lb ed="#T" n="42"/>De personis ad quas facta est missio visibilis.
+</p>
+               <p xml:id="pdt7y6-e39316-d1e633">
+                  <lb ed="#T" n="43"/>Circa tertium proceditur sic. 1. Ad Patres 
+      <lb ed="#T" n="44"/>antiquos fiebat missio inuisibilis: sed visibilis 
+      <lb ed="#T" n="45"/>misso manifestatio est illius: ergo videtur quod 
+      <lb ed="#T" n="46"/>ad eos debuit fieri missio visibilis, 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e644">
+                  <lb ed="#T" n="47"/>2. Prequenter illis Filius &amp; Spiritus sanctu 
+      <lb ed="#T" n="48"/>visibiliter apparuit, vt patet Gen. 17. &amp; Dan. 
+      <lb ed="#T" n="49"/>2. &amp; 7. Visibilis vero apparitio Filij &amp; Spiritus 
+      <lb ed="#T" n="50"/>sancti, missio visibilis dicitur: ergo ad eos facta 
+      <lb ed="#T" n="51"/>est missio visibilis. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e658">
+                  <lb ed="#T" n="52"/>Contra 1. August. de Trinit. Quamuis Filius, 
+      <lb ed="#T" n="53"/>&amp; Spiritus sanctus in veteri Testamento 
+      appa<lb ed="#T" n="54" break="no"/>ruerit, nunquam tamen dicuntur missi. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e667">
+                  <lb ed="#T" n="55"/>2. Secundum Augustinum, omnis illa 
+      appa<lb ed="#T" n="56" break="no"/>ritio fiebat per Angelos: ergo ibi mittebatur 
+      <lb ed="#T" n="57"/>Angelus non Deus 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e676">
+                  <lb ed="#T" n="58"/>Iuxta hoc quaeritur quibus fieri debuit in 
+      <lb ed="#T" n="59"/>nouo testamento. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e683">
+                  <lb ed="#T" n="60"/>Videtur. 1. Quod omnibus Praelatis. Fit enim 
+      <lb ed="#T" n="61"/>missio visibilis ad ostendendam plenitudinem 
+      <lb ed="#T" n="62"/>redundantiae in alijs: sed huiusmodi 
+      redundan<lb ed="#T" n="63" break="no"/>tia &amp; eius manifestatio conuenit omnibus 
+      Prae<lb ed="#T" n="64" break="no"/>latis: ergo eis debet fieri. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e696">
+                  <lb ed="#T" n="65"/>2. In Beata Virgine fuit plenitudo redundan¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0206.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="66"/>tiae: ergo ei debuit sieri missio visibilis. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e707">
+                  <lb ed="#T" n="67"/>3. Missio visibilis signum est missionis 
+      inuifi<lb ed="#T" n="68" break="no"/>bilis: sed Christo post conceptionem nulla 
+      fa<lb ed="#T" n="69" break="no"/>cta est missio inuisibilis: ergo nec visibilis fieri 
+      <lb ed="#T" n="70"/>debuit. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e719">
+                  <lb ed="#T" n="71"/>4. Sicut fuit plenitudo in sanctis primis, ita 
+      <lb ed="#T" n="72"/>erit in vltimis: ergo sicut illis fiebat missio 
+      visi<lb ed="#T" n="73" break="no"/>bilis monstrans in eis gratiae plenitudinem, ita 
+      <lb ed="#T" n="74"/>debet fieri vltimis sanctis 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e730">
+                  <lb ed="#T" n="75"/>Respondeo. Missio visibilis sit ad 
+      ostenden<lb ed="#T" n="76" break="no"/>dam gratiae plenitudinem in illo, redundantius 
+      <lb ed="#T" n="77"/>autem in alijs: quia ergo in veteri Testamento 
+      <lb ed="#T" n="78"/>quamuis aliqui sancti haberent plenitudinem 
+      <lb ed="#T" n="79"/>gratiae &amp; redundantiam; non tamen erat status 
+      <lb ed="#T" n="80"/>plenitudinis in se, &amp; redundantiae in alios, quia 
+      <lb ed="#T" n="81"/>status erat carnalis propagationis fidelium, non 
+      <lb ed="#T" n="82"/>spiritualis: ideo in veteri Testamento non 
+      fie<lb ed="#T" n="83" break="no"/>bat missio visibilis 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e752">
+                  <lb ed="#T" n="84"/>Ad 1. Fiebat ad eos missio inuisibilis. Resp. 
+      <lb ed="#T" n="85"/>Missio visibilis manifestatio est missionis 
+      inuisi<lb ed="#T" n="86" break="no"/>bilis, non cuiuscumque, sed in statu plenitudinis 
+      <lb ed="#T" n="87"/>&amp; redundansiae qui tunc non erat. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e763">
+                  <lb ed="#T" n="88"/>Ad 2. De apparitionibus. Resp. Illae 
+      appari<lb ed="#T" n="89" break="no"/>tiones erant ad aliquem effectum specialem 
+      in<lb ed="#T" n="90" break="no"/>dicandum non ad indicandum inhabitationem 
+      <lb ed="#T" n="91"/>gra: iae aut plenitudinem, vnde non fiebant in 
+      <lb ed="#T" n="92"/>a quo apper nte supra homines, sedper se: ideo 
+      <lb ed="#T" n="93"/>non dicuntur missiones, quia missio sit ad 
+      inha<lb ed="#T" n="94" break="no"/>bitandum nouo modo. Praeterea cum non 
+      fie<lb ed="#T" n="95" break="no"/>ret ibi nouus effectus, sed aliqua noua apparitio 
+      <lb ed="#T" n="96"/>in signo exteriori, &amp; noua illuminatio ad 
+      intel<lb ed="#T" n="97" break="no"/>ligendum signatum, totum illud fiebat 
+      median<lb ed="#T" n="98" break="no"/>te Angelo: persona vero non dicitur proprie 
+      <lb ed="#T" n="99"/>mitti nisi in tffectu imediato. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e792">
+                  <lb ed="#T" n="100"/>Ad quaest. Resp. In primitiua Ecclesia pauci 
+      <lb ed="#T" n="101"/>erant fideles, &amp; quasi seminatia plantatio totius 
+      <lb ed="#T" n="102"/>Ecclesiae; nec ita erat veritas in aperto; ideo 
+      in<lb ed="#T" n="103" break="no"/>digebant inmssione visibili Spiritus sancti: nunc 
+      <lb ed="#T" n="104"/>vero non cit eadem necessitas in Praelatis 
+      pro<lb ed="#T" n="105" break="no"/>pter niultitudinem fidelium, &amp; euidentiam 
+      veri<lb ed="#T" n="106" break="no"/>tatis, &amp; sufficientiam miraculorum quae in 
+      primiti<lb ed="#T" n="107" break="no"/>ua Ecclesia facti sunt. Per quod patet ad primum. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e812">
+                  <lb ed="#T" n="108"/>Ad 2. De Beata Virgine. Resp. 
+      Quam<lb ed="#T" n="109" break="no"/>uis ipsa die Pentecostes cum Apostolis 
+      Spi<lb ed="#T" n="110" break="no"/>ritum sanctum visibiliter recepisse credatur: 
+      <lb ed="#T" n="111"/>non tamen est simile de ipsa&amp; de Apostolis; quia 
+      <lb ed="#T" n="112"/>in ipsa erat plenitudo gratiaes non vt redundans 
+      <lb ed="#T" n="113"/>in alios per doctrinam, &amp; Ecclesiasticum 
+      mini<lb ed="#T" n="114" break="no"/>sterium sicut in Apostolis 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e831">
+                  <lb ed="#T" n="115"/>Ad 3. De Christo. Resp. Christo facta est 
+      mis<lb ed="#T" n="116" break="no"/>sio visibilis ad ostendendam plenitudinem 
+      gra<lb ed="#T" n="117" break="no"/>tiae in ipso &amp; redundantiam in alijs, &amp; ideo tunc 
+      <lb ed="#T" n="118"/>primo facta est quando incoepit redundare. Quod  
+      <lb ed="#T" n="119"/>opponitur. Missio visibilis signum est 
+      inuisibi<lb ed="#T" n="120" break="no"/>lis. Resp. Non oportet quod sit signum eius 
+      <lb ed="#T" n="121"/>quae tunc de nouo fiat, sed sufficit quod vel 
+      il<lb ed="#T" n="122" break="no"/>lius, vel alterius quae facta fuerat 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e851">
+                  <lb ed="#T" n="123"/>Ad 4. De sin: tis vltimis. Resp. Non est 
+      simi<lb ed="#T" n="124" break="no"/>le, quia in primo principio Ecciesiae fuit tempus 
+      <lb ed="#T" n="125"/>redundantiae &amp; propagationis spiritualis ad 
+      <lb ed="#T" n="126"/>multiplicationem fidelium: sed non sic erit in 
+      <lb ed="#T" n="127"/>fine Ecclesiae. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e39316-Dd1e865">
+               <head xml:id="pdt7y6-e39316-Hd1e867">Articulus 4</head>
+               <head xml:id="pdt7y6-e39316-Hd1e869" type="question-title">De personis in quibus facta est missio visibilis</head>
+               <p xml:id="pdt7y6-e39316-d1e872">
+                  <lb ed="#T" n="128"/>ARTICVLVS IV 
+      <lb ed="#T" n="129"/>De personis in quibus facta est missio visibilis. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e879">
+                  <lb ed="#T" n="130"/>AD quartum proceditur sic. 1. August. 2. de 
+      <lb ed="#T" n="131"/>Trinit. Temerarium est dicere quod Pater  
+      <!--1652-gregPress-MichiganState-gbooks-v1-0207.xml-->
+      <pb ed="#T" n="132"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>in veteri Testamento nunquam per formas 
+      vi<lb ed="#T" n="2" break="no"/>sibiles apparuit. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e897">
+                  <lb ed="#T" n="3"/>2. Nemo sani capitis affirmare debet, 
+      nun<lb ed="#T" n="4" break="no"/>quam personam Patris per aliquam speciem 
+      <lb ed="#T" n="5"/>corporalem vigilantium oculis apparuisse. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e907">
+                  <lb ed="#T" n="6"/>3. Sicut necessaria est inhabitatio &amp; cognitio 
+      <lb ed="#T" n="7"/>Filij &amp; Spiritus sancti, ita Patris: ergo cum 
+      <lb ed="#T" n="8"/>visibilis missio siat ad manifestationem personae, 
+      <lb ed="#T" n="9"/>ita debet fieri missio visibilis ad manifestationem 
+      <lb ed="#T" n="10"/>Patris, sicut Filij &amp; Spiritus sancti. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e920">
+                  <lb ed="#T" n="11"/>Contra. 1. Magis demonstrata sunt necessa 
+      <lb ed="#T" n="12"/>ria ad fidem in nouo Testamento quam in 
+      vete<lb ed="#T" n="13" break="no"/>ri: sed in nouo Testamento nunquam apparuit 
+      <lb ed="#T" n="14"/>Pater in specie visibili: ergo multo minus in 
+      <lb ed="#T" n="15"/>veteri: ergo nunquam. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e933">
+                  <lb ed="#T" n="16"/>2. Augustinus 4. de Trinit. Non ideo Pater 
+      <lb ed="#T" n="17"/>non dicitur missus, sed misisse Filium &amp; 
+      Spiri<lb ed="#T" n="18" break="no"/>tum sanctum; quod ipse sit maior, illi minores, 
+      <lb ed="#T" n="19"/>sed quia in visibili creatura non apparuit sicut 
+      <lb ed="#T" n="20"/>illi. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e946">
+                  <lb ed="#T" n="21"/>Respondeo. Duo sunt sensus disciplinabiles 
+      <lb ed="#T" n="22"/>visus &amp; auditus: ideo secundum hos duos 
+      pro<lb ed="#T" n="23" break="no"/>cedit omnis cognitio disciplinabilis, scilicet 
+      <lb ed="#T" n="24"/>quae sit per signa: in signis vero, secundum 
+      Au<lb ed="#T" n="25" break="no"/>gustinum de doctrina Christiana, verba 
+      obti<lb ed="#T" n="26" break="no"/>nent principatum: ergo cognitio per verba plus 
+      <lb ed="#T" n="27"/>habet expressionis &amp; distinctionis. Quia ergo in 
+      <lb ed="#T" n="28"/>veteri lege erat tempus gratiae nondum reuelatae 
+      <lb ed="#T" n="29"/>sicut in nouo Testamento, ideo tunc Pater 
+      ap<lb ed="#T" n="30" break="no"/>paruit in visibili in nouo Testamento vero in 
+      <lb ed="#T" n="31"/>audibili: non tamen ratione huius vel illius, 
+      <lb ed="#T" n="32"/>mitti dicendus est, quia missio addit super 
+      ap<lb ed="#T" n="33" break="no"/>paritionem, manifestatione emanationis ab alio: 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e977">
+                  <lb ed="#T" n="34"/>Ad 1. In contrarium. In nouo Testamento 
+      <lb ed="#T" n="35"/>non apparuit &amp;c. Resp. Quamuis non 
+      apparue<lb ed="#T" n="36" break="no"/>rit in specie visibili proprie, apparuit tamen 
+      <lb ed="#T" n="37"/>accipiendo, Iy, visibili large, id est, in specie 
+      <lb ed="#T" n="38"/>audibili. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e990">
+                  <lb ed="#T" n="39"/>Ad 2. de Augustino. Resp. Loquitur de 
+      ap<lb ed="#T" n="40" break="no"/>paritione noui Testamenti, non generaliter.  
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e39316-Dd1e998">
+               <head xml:id="pdt7y6-e39316-Hd1e1000">Articulus 5</head>
+               <head xml:id="pdt7y6-e39316-Hd1e1002" type="question-title">De ministris per quos facta est missio visibilis</head>
+               <p xml:id="pdt7y6-e39316-d1e1005">
+                  <lb ed="#T" n="41"/>ARTICVLVS V 
+      <lb ed="#T" n="42"/>De ministris per quos facta est missio visibilis. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e1012">
+                  <lb ed="#T" n="43"/>AD quintum sic proceditur. 1. Augustinus 
+      <lb ed="#T" n="44"/>3. de Trinit. Omnia quae Patribus visa sunt,  
+      <lb ed="#T" n="45"/>cum Deus illis secundum dispensationem tem 
+      <lb ed="#T" n="46"/>poribus congruam praesentaretur, per Angelos 
+      <lb ed="#T" n="47"/>facta esse dicimus. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e1025">
+                  <lb ed="#T" n="48"/>2. Idem 4. de Trinit. Si quaeritur, post 
+      In<lb ed="#T" n="49" break="no"/>carnationem verbi quomodo facta sit vel vox 
+      <lb ed="#T" n="50"/>Patris vel species corporalis, in qua Spiritus 
+      <lb ed="#T" n="51"/>sanctus demonstratus est? Per creaturam factam 
+      <lb ed="#T" n="52"/>esse non dubito: quomodo tamen ista, sine 
+      crea<lb ed="#T" n="53" break="no"/>tura rationali vel intellectuali, fieri potuerunt 
+      <lb ed="#T" n="54"/>non video: ergo omnis visibilis missio sit per 
+      <lb ed="#T" n="55"/>Angelos. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e1046">
+                  <lb ed="#T" n="56"/>3. Item Gregorius. Verbis per Angelum 
+      lo<lb ed="#T" n="57" break="no"/>quitur Deus cum nil in imagine ostenditur  
+      <lb ed="#T" n="58"/>sed supernae verba locutionis audiuntur: sicut  
+      <lb ed="#T" n="59"/>dicente Domino, Pater clarifica Filium tuum 
+      <lb ed="#T" n="60"/>protinus respondetur clarificaui &amp; iterum 
+      cla<lb ed="#T" n="61" break="no"/>rificabo &amp;c. Nimirum de coelestibus loquens 
+      <lb ed="#T" n="62"/>verba sua quae audiri ab hominibus voluit, 
+      ra<lb ed="#T" n="63" break="no"/>tionali creatura administrante formauit: ergo 
+      <lb ed="#T" n="64"/>a simili de alijs operationibus est iudicandum. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e1068">
+                  <lb ed="#T" n="65"/>4. Dyonisius lex Diuinitatis est inferiora per 
+      <lb ed="#T" n="66"/>media reducere, &amp; media per suprema: ergo 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0207.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>hominum reductio sit mediantibus Angelis. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e1081">
+                  <lb ed="#T" n="68"/>5. Datio veteris legis fuit nobilior modus 
+      Di<lb ed="#T" n="69" break="no"/>uinae apparitionis: sed ille factus est mediantibus 
+      <lb ed="#T" n="70"/>Angelis, sicut habetur Galat. 3. Ordinata per 
+      <lb ed="#T" n="71"/>Angelos: ergo multo magis omnes aliae fiunt 
+      <lb ed="#T" n="72"/>mediantibus ipsis. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e1094">
+                  <lb ed="#T" n="73"/>6. De bonitate Diuina est, quod, quae per se 
+      <lb ed="#T" n="74"/>operari potest, tamen communicat creaturis 
+      se<lb ed="#T" n="75" break="no"/>cundum earum capacitatem: cum ergo Diuinae 
+      <lb ed="#T" n="76"/>apparitiones conueniant Angelis, Diuina 
+      boni<lb ed="#T" n="77" break="no"/>tas communicauit eis. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e1107">
+                  <lb ed="#T" n="78"/>Contra. 1. Si Angelus erat motor in 
+      appari<lb ed="#T" n="79" break="no"/>tionibus illis; ergo falsum quod dicit scriptura, 
+      <lb ed="#T" n="80"/>Dominum apparuisse, Dominum locutum esse, 
+      <lb ed="#T" n="81"/>cum hoc Angelus fecerit 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e1118">
+                  <lb ed="#T" n="82"/>2. Augustinus dicit 3. de Trinit. Quod 
+      sermo<lb ed="#T" n="83" break="no"/>nes Dei in nouo Testamento, non per Angelos, 
+      <lb ed="#T" n="84"/>sed per ipsum Deum facti sunt: ergo similiter 
+      <lb ed="#T" n="85"/>aliae apparitiones. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e1130">
+                  <lb ed="#T" n="86"/>3. Apparitio noui Testamenti nobilissima 
+      <lb ed="#T" n="87"/>est: sed nobilior est apparitio per se &amp; immediata. 
+      <lb ed="#T" n="88"/>quam per alterum &amp; mediata: ergo apparitio 
+      <lb ed="#T" n="89"/>noui Testamenti per se &amp; immediata est, cum 
+      <lb ed="#T" n="90"/>sit nobilissima. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e1143">
+                  <lb ed="#T" n="91"/>Respondeo. Dicunt quidam quod 
+      apparitio<lb ed="#T" n="92" break="no"/>nes veteris Testamenti fiebant Angelico 
+      mini<lb ed="#T" n="93" break="no"/>sterio sed apparitiones noui Testamenti a Deo 
+      <lb ed="#T" n="94"/>immediate. Alij consentientes verbis 
+      Augustini<lb ed="#T" n="95" break="no"/>praemissis verius dicunt, quod apparitio Dei in 
+      <lb ed="#T" n="96"/>creatura duplex est: vel in creatura vnita, &amp; 
+      <lb ed="#T" n="97"/>haec sit immediate a Deo: vel separata, &amp; haec 
+      <lb ed="#T" n="98"/>sit semper mediante Angelo, quia Deus in 
+      <lb ed="#T" n="99"/>creatura corporali operatur mediante spirituali, 
+      <lb ed="#T" n="100"/>gubernat enim creaturam corporalem mediante. 
+      <lb ed="#T" n="101"/>spirituali secundum Augustinum lib. de Trinit. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e1169">
+                  <lb ed="#T" n="102"/>Ad 1. In contrarium. Si Angelus erat motor 
+      <lb ed="#T" n="103"/>&amp;c. Resp. Quamuis esset motor tamen opera 
+      <lb ed="#T" n="104"/>batur &amp; loquebatur tanqua vicarius in persona 
+      <lb ed="#T" n="105"/>alterius, non tanquam principalis in persona 
+      <lb ed="#T" n="106"/>propria: ideo actio ipsa attribuitur Domino, 
+      <lb ed="#T" n="107"/>non Angelo, sicut mandatum praeconis iudici: 
+      <lb ed="#T" n="108"/>non enim scribitur in gestis: ita dixit praeco, sed  
+      <lb ed="#T" n="109"/>ita dixit Imperator. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e1189">
+                  <lb ed="#T" n="110"/>Ad 2. De sermonibus Dei &amp;c. Resp. Loquitur. 
+      <lb ed="#T" n="111"/>Augustinus de sermonibus Dei incarnati, quos 
+      <lb ed="#T" n="112"/>expressit in creatura vnita, non separata. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e1198">
+                  <lb ed="#T" n="113"/>Ad 3. De nobilissima apparitione. Resp. Non 
+      <lb ed="#T" n="114"/>omnis apparitio noui Testamenti est 
+      nobilissi<lb ed="#T" n="115" break="no"/>ma simpliciter, sed sola illa quae facta est in 
+      crea<lb ed="#T" n="116" break="no"/>tura vnita. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e39316-Dd1e1210">
+               <head xml:id="pdt7y6-e39316-Hd1e1212">Articulus 6</head>
+               <head xml:id="pdt7y6-e39316-Hd1e1214" type="question-title">
+  De speciebus in quibus facta est missio visibilis
+</head>
+               <p xml:id="pdt7y6-e39316-d1e1217">
+                  <lb ed="#T" n="117"/>ARTICVLVS VI. 
+      <lb ed="#T" n="118"/>De speciebus in quibus facta est missio visibilis. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e1224">
+                  <lb ed="#T" n="119"/>AD sextum sic proceditur triplex est 
+      visio<lb ed="#T" n="120" break="no"/>secundum Augustinum, corporalis, 
+      ima<lb ed="#T" n="121" break="no"/>ginaria, intellectualis: &amp; per hanc triplicem 
+      <lb ed="#T" n="122"/>visionem sit alicuius manifestatio: cum ergo 
+      <lb ed="#T" n="123"/>missio siat ad manifestationem, videtur quod 
+      <lb ed="#T" n="124"/>debet fieri non tantum in intellectualibus aut 
+      <lb ed="#T" n="125"/>corporalibus, sed etiam in imaginalibus formis. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e1242">
+                  <lb ed="#T" n="126"/>2. Quanto creatura nobilior tanto magis 
+      <lb ed="#T" n="127"/>representat Deum: ergo magis debuit fieri Dei. 
+      <lb ed="#T" n="128"/>manifestatio in creaturis nobilioribus, vt stellis 
+      <lb ed="#T" n="129"/>&amp; huiusmodi, quam inferioribus 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e1254">
+                  <lb ed="#T" n="130"/>3. Illae formae aut erant verae &amp; naturales, 
+      <lb ed="#T" n="131"/>aut non: si sic, ergo manere debuerunt post 
+      per<lb ed="#T" n="132" break="no"/>actum officium: si non, ergo aliquid fictionis 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0208.xml-->
+      <pb ed="#T" n="133"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>erat in operibus veritatis. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e1272">
+                  <lb ed="#T" n="2"/>4. Aut Deus erat in illis formis modo 
+      com<lb ed="#T" n="3" break="no"/>muni quo in omnibus creaturis, aut speciali: 
+      <lb ed="#T" n="4"/>si communi, ergo apparebat, vel mittebatur in 
+      <lb ed="#T" n="5"/>omnibus alijs: si modo, speciali, ergo vel per 
+      <lb ed="#T" n="6"/>gratiam inhabitantem, vel per gratiam vnionis: 
+      <lb ed="#T" n="7"/>iste enim est triplex modus quo Deus dicitur 
+      <lb ed="#T" n="8"/>esse in rebus. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e1290">
+                  <lb ed="#T" n="9"/>5. Unius vnum est signum manifestatiuum: 
+      <lb ed="#T" n="10"/>Spiritus sanctus vero, &amp; Pater, &amp; Filius, quilibet 
+      <lb ed="#T" n="11"/>est vnum simplex: ergo vnum debuit esse signum 
+      <lb ed="#T" n="12"/>cuiuslibet eorum manifestatiuum: ergo 
+      super<lb ed="#T" n="13" break="no"/>fluit tanta varietas apparitionum. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e1303">
+                  <lb ed="#T" n="14"/>6. Quare Filius apparuit solum in creatura 
+      ra<lb ed="#T" n="15" break="no"/>tionali, Pater in sola audibili, Spiritus sanctus 
+      <lb ed="#T" n="16"/>vero in visibili irrationali, &amp; aliquando in toto 
+      <lb ed="#T" n="17"/>animali scilicet in columba, aliquando in parte 
+      <lb ed="#T" n="18"/>animalis, scilicet in linguis: 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e1316">
+                  <lb ed="#T" n="19"/>Respondeo. Missio visibilis sit ad 
+      manifesta<lb ed="#T" n="20" break="no"/>tionem plenitudinis in alios redundantis. Huiusi 
+      <lb ed="#T" n="21"/>modi redundantia duplex est, vel per legem, vel 
+      <lb ed="#T" n="22"/>per operationem: secundum hoc in Christo &amp; 
+      <lb ed="#T" n="23"/>in Apostolis duplex facta est apparitio, vel 
+      mis<lb ed="#T" n="24" break="no"/>sio. In Christo quidem, ad significandum reduns 
+      <lb ed="#T" n="25"/>dantiam operationis siue gratiae, sacta est in 
+      ba<lb ed="#T" n="26" break="no"/>ptismo: ad quam tria requirebantur in ipso res 
+      <lb ed="#T" n="27"/>demptore, natura debens quae ostensa est in per 
+      <lb ed="#T" n="28"/>sona propria: &amp; natura potens quam ostendi 
+      <lb ed="#T" n="29"/>Pater in voce sua; per quam ostendit quod cum 
+      <lb ed="#T" n="30"/>esset Filius naturalis, poterat alios facere Filios 
+      <lb ed="#T" n="31"/>adoptiuos: item influentia naturae potentis 
+      su<lb ed="#T" n="32" break="no"/>per debentem in columba, quae significabat 
+      per<lb ed="#T" n="33" break="no"/>manentiam Spiritus sancti super Christum vt 
+      <lb ed="#T" n="34"/>hominem. In ipso vero ad significandam redum 
+      <lb ed="#T" n="35"/>dantiam doctrinae, vel instructionis, apparuit 
+      <lb ed="#T" n="36"/>vox Patris in transfiguratione Matth. 17 Unde 
+      <lb ed="#T" n="37"/>addidit, ipsum audite. In Apostolis autem ad si 
+      <lb ed="#T" n="38"/>gnificandam redundantiam doctrinae, vel instru 
+      <lb ed="#T" n="39"/>ctionis, apparuit in linguis igneis: ad significa 
+      <lb ed="#T" n="40"/>dam vero redundantiam operationis, apparuit in 
+      <lb ed="#T" n="41"/>flatu. Ioan. 20. per quem ostendebatur descensus 
+      <lb ed="#T" n="42"/>alius potestatis a capite Christo, in ipsos. Act. 2. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e1371">
+                  <lb ed="#T" n="43"/>Ad 1. De visione imaginaria. Resp. 
+      Omni<lb ed="#T" n="44" break="no"/>missio vel apparitio sit propter manifestationem 
+      <lb ed="#T" n="45"/>gratiae inhabitatis, aut quoad se, aut quoad alios: 
+      <lb ed="#T" n="46"/>forma vero imagiaria cum sit rei absentis, non 
+      <lb ed="#T" n="47"/>manifestat praesentiam gratiae: ideo non 
+      compe<lb ed="#T" n="48" break="no"/>tit missioni. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e1388">
+                  <lb ed="#T" n="49"/>Ad 2. De creaturis nobilioribus. Resp. 
+      Quam<lb ed="#T" n="50" break="no"/>uis nobiliores creaturae vt Angeli &amp; stellae 
+      nobi<lb ed="#T" n="51" break="no"/>lius repraesentent attributa essentialia, non tamen 
+      <lb ed="#T" n="52"/>personalia secundum modos emanationis 
+      per<lb ed="#T" n="53" break="no"/>sonae a persona. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e1401">
+                  <lb ed="#T" n="54"/>Ad 3. De formis. Resp. Veritatem habebant 
+      <lb ed="#T" n="55"/>exterioris corporeae sigurae, ad significandum, 
+      <lb ed="#T" n="56"/>non ad operandum. Vnde illa columba habebat 
+      <lb ed="#T" n="57"/>veram columbae figuram; sed non veram 
+      colum<lb ed="#T" n="58" break="no"/>bae naturam: erat enim verum corpus, sed non 
+      <lb ed="#T" n="59"/>vera columba vt dicit quaedam glos. Matth. 3. 
+      <lb ed="#T" n="60"/>Patet ergo quod non erat fictio, &amp; bene sic 
+      con<lb ed="#T" n="61" break="no"/>ueniebat proposito. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e1421">
+                  <lb ed="#T" n="62"/>Ad 4. Qualiter Deus erat in illis formis. Resp. 
+      <lb ed="#T" n="63"/>Modus quo Deus est in rebus corporalibus 
+      sub<lb ed="#T" n="64" break="no"/>diuiditur; quia vel vt causa in effectu, vel vt 
+      si<lb ed="#T" n="65" break="no"/>gnum in signo, hoc modo erat Deus in formis 
+      il<lb ed="#T" n="66" break="no"/>lis; non tamen vt in signo naturali, sed instituto, 
+      <lb ed="#T" n="67"/>non institutione perpetua, vt in Sacramentis, sec 
+      <lb ed="#T" n="68"/>ad tempus.
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e1439">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0208.xml-->
+                  <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="69"/>Ad 5. Vnius vnum est signum. Resp. 
+      Quam<lb ed="#T" n="70" break="no"/>uis Spiritus sit vnus in substantia, &amp; persona, 
+      ta<lb ed="#T" n="71" break="no"/>men est multiplex in operationibus: formae vero 
+      <lb ed="#T" n="72"/>illae erant ad reprae sentandum ipsum non in 
+      es<lb ed="#T" n="73" break="no"/>sentia sua, vel persona solum, sed in aliquo 
+      effe<lb ed="#T" n="74" break="no"/>ctu occulto. Ideo oportuit huius fieri 
+      manifesta<lb ed="#T" n="75" break="no"/>tionem sub diuersis, quia non sufficeret in vna, 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e1461">
+                  <lb ed="#T" n="76"/>Ad 6. Quo quaeritur, quare Filius &amp;c. Resp. 
+      <lb ed="#T" n="77"/>Filius apparuit vt mediator: est autem mediator 
+      <lb ed="#T" n="78"/>Dei &amp; hominum solum, &amp; non alterius creaturae: 
+      <lb ed="#T" n="79"/>est etiam mediator proprie in humana natura 
+      <lb ed="#T" n="80"/>solum non in altera, vt habetur infra lib. 3. dist. 
+      <lb ed="#T" n="81"/>10. &amp; ideo apparuit solum in natura humana: 
+      Pa<lb ed="#T" n="82" break="no"/>ter vero apparebat ad ostendendum Filium: &amp; 
+      <lb ed="#T" n="83"/>quia proprietas Filij non potest ita expresse 
+      ali<lb ed="#T" n="84" break="no"/>qua specie manifestari sicut voce, ideo apparuit 
+      <lb ed="#T" n="85"/>in voce: &amp; propter auctoritatem principij 
+      com<lb ed="#T" n="86" break="no"/>mendandam. Spiritus vero sanctus qui apparebat, 
+      <lb ed="#T" n="87"/>in creatura non vnita, ideo in creatura corporea 
+      <lb ed="#T" n="88"/>irrationali, quod magis conuenit significationi 
+      <lb ed="#T" n="89"/>institutiuae, apparuit: in toto vero animali 
+      appa<lb ed="#T" n="90" break="no"/>ruit super Christum &amp; non in caeteris, ad 
+      signifi<lb ed="#T" n="91" break="no"/>candum in ipso vniuersalem gratiae, &amp; sensuum. 
+      <lb ed="#T" n="92"/>spiritualium plenitudinem, quae non est alijs: in 
+      <lb ed="#T" n="93"/>columba vero super Christum apparuit ad 
+      signi<lb ed="#T" n="94" break="no"/>ficandum in ipso innocentiam naturae, 
+      foecundi<lb ed="#T" n="95" break="no"/>tatem gratiae, &amp; sacrificium redemptionis humanae; 
+      <lb ed="#T" n="96"/>est enim columba animal innocens, foecundum, 
+      <lb ed="#T" n="97"/>&amp; secundum legem offerebatur pro 
+      redemptio<lb ed="#T" n="98" break="no"/>ne primogenitorum pauperum, sicut factum est 
+      <lb ed="#T" n="99"/>Lucae 2. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e39316-Dd1e1517">
+               <head xml:id="pdt7y6-e39316-Hd1e1519">Articulus 7</head>
+               <head xml:id="pdt7y6-e39316-Hd1e1521" type="question-title">De specie missionis visibilis Filii specialiter</head>
+               <p xml:id="pdt7y6-e39316-d1e1524">
+                  <lb ed="#T" n="100"/>ARTICVLVS VII. 
+      <lb ed="#T" n="101"/>De specie missionis visibilis Filij specialiter.
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e1531">
+                  <lb ed="#T" n="102"/>AD septimum articulum procoditur sic. 1. 
+      <lb ed="#T" n="103"/>Heb. 2. Videmus Iesum &amp;c. ergo ratione 
+      <lb ed="#T" n="104"/>speciei humanae, in qua apparuit, minor est 
+      An<lb ed="#T" n="105" break="no"/>gelo. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e1542">
+                  <lb ed="#T" n="106"/>2 Vt dicit Philosophus lib. Top. Si optimus 
+      <lb ed="#T" n="107"/>equus optimo asino melior est, tunc simpliciter 
+      <lb ed="#T" n="108"/>equus melior est asino: ergo a simili si optimus 
+      <lb ed="#T" n="109"/>homo melior est optimo Angelo, homo 
+      simpli<lb ed="#T" n="110" break="no"/>citer melior est Angelo: sed hoc salium: ergo 
+      <lb ed="#T" n="111"/>optimus homo non est melior optimo 
+      Angelo<lb ed="#T" n="112" break="no"/>sed potius e conuerso. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e1561">
+                  <lb ed="#T" n="113"/>Contra. 1. August. contra Maximum. Natura 
+      <lb ed="#T" n="114"/>humana, quae peccato non poterat 
+      deprauari<lb ed="#T" n="115" break="no"/>qualem assumpsit Christus, nullus maior est nisi 
+      <lb ed="#T" n="116"/>Deus 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e1572">
+                  <lb ed="#T" n="117"/>2. Maius est quod adoratur quam quod 
+      ado<lb ed="#T" n="118" break="no"/>rat: sed Angelica natura adorat humanam 
+      natu<lb ed="#T" n="119" break="no"/>ram in Christo: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e1581">
+                  <lb ed="#T" n="120"/>3. In Beata Virgine natura humana exaltata 
+      <lb ed="#T" n="121"/>est super omnes Angelos: ergo multo magis 
+      na<lb ed="#T" n="122" break="no"/>tura humana in Christo vnita. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e1590">
+                  <lb ed="#T" n="123"/>Respondeo. Naturam humanam in Christe 
+      <lb ed="#T" n="124"/>vnitam est considerare dupliciter: vel vt vnitam, 
+      <lb ed="#T" n="125"/>sic maior erat. Angelis: vel secundum se; &amp; 
+      <lb ed="#T" n="126"/>hoc vel ex parte qua erat comprehensor; sic 
+      <lb ed="#T" n="127"/>erat maior: vel ex parte qua viator; sic minor 
+      <lb ed="#T" n="128"/>cum ergo in statu viatoris esset ad tempus solum 
+      <lb ed="#T" n="129"/>modo, &amp; secundum coniunctionem animae ad 
+      <lb ed="#T" n="130"/>corpus passibile, simpliciter maior erat, 
+      secun<lb ed="#T" n="131" break="no"/>dum quid minor inquantum viator.  
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e1612">
+                  <lb ed="#T" n="132"/>Ad 1. Ex Apostolo. Resp. Non dicit 
+      simpli<lb ed="#T" n="133" break="no"/>citer minoratum, sed paulominus: quia maior 
+      <lb ed="#T" n="134"/>erat simpliciter, minor secundum quid.
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e1621">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0209.xml-->
+                  <pb ed="#T" n="134"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>Ad 2. De optimo homine. Resp. Si ex solis 
+      <lb ed="#T" n="2"/>naturae principijs esset excellentia illa, bene 
+      se<lb ed="#T" n="3" break="no"/>queretur: sed non sic est; imo est per accidens. 
+      <lb ed="#T" n="4"/>ex principijs gratiae: consideratio autem illa sicut  
+      <lb ed="#T" n="5"/>&amp; aliae intelliguntur per se. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e39316-Dd1e1643">
+               <head xml:id="pdt7y6-e39316-Hd1e1645">Expositio textus</head>
+               <p xml:id="pdt7y6-e39316-d1e1647">
+                  <lb ed="#T" n="6"/>EXPOSITIO TEXTVS. 
+      <lb ed="#T" n="7"/>[OEipso minor dicitur. ] Contra. Ratione 
+      di<lb ed="#T" n="8" break="no"/>uersarum naturarum non potest dici alius, 
+      <lb ed="#T" n="9"/>a seipso: ergo nec minor seipso. Item. Nil est 
+      in<lb ed="#T" n="10" break="no"/>aequale sibi ipsi. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e1660">
+                  <lb ed="#T" n="11"/>Resp. Non est dicendum simpliciter quod 
+      <lb ed="#T" n="12"/>Christus sit minor seipso; sed cum duplici 
+      deter<lb ed="#T" n="13" break="no"/>minatione, Christus secundum quod homo. 
+      mi<lb ed="#T" n="14" break="no"/>minor est seipso secundum quod est Deus. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e1671">
+                  <lb ed="#T" n="15"/>Ad 1. Non est alius a seipso. Resp. Secus est, 
+      <lb ed="#T" n="16"/>quia alius dicit diuersitatem personae, sed minor 
+      <lb ed="#T" n="17"/>inaequalitatem naturae. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e1680">
+                  <lb ed="#T" n="18"/>Ad 2. Nil est inaequale sibi. Resp. Simpliciter  
+      <lb ed="#T" n="19"/>loquendo verum est: sed secundum aliquid, scilicet,  
+      <lb ed="#T" n="20"/>cum determinatione, sic; nam idem homo 
+      secun<lb ed="#T" n="21" break="no"/>dum longitudinem est inaequalis sibi secundum 
+      <lb ed="#T" n="22"/>latitudinem. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e1694">
+                  <lb ed="#T" n="23"/>[Minoratus paulominus ab Angelis] Contra 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0209.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="24"/>Hebr. 1. Tanto melior Angelis. Resp. 
+      Simpli<lb ed="#T" n="25" break="no"/>citer melior: secundum quid ratione 
+      passibilita<lb ed="#T" n="26" break="no"/>tis minor, secundum quam dicitur Pater maior.  
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e1710">
+                  <lb ed="#T" n="27"/>Contra. Eadem quantitas spiritualis in 
+      vtro<lb ed="#T" n="28" break="no"/>que. Resp. Dans &amp; cui datur possunt comparari 
+      <lb ed="#T" n="29"/>dupliciter: vel secundum rationem donationis, vel 
+      <lb ed="#T" n="30"/>secundum rationem dati: cum ergo datum 
+      diffe<lb ed="#T" n="31" break="no"/>rens est in recipiente &amp; in dante, simpliciter 
+      ma<lb ed="#T" n="32" break="no"/>ior est dans, &amp; recipiens minor: cum vero idem 
+      <lb ed="#T" n="33"/>omnino, quamuis maior dicatur dans ratione 
+      au<lb ed="#T" n="34" break="no"/>ctoritatis, non tamen recipiens minor: maioritas 
+      <lb ed="#T" n="35"/>ergo accipitur hic non penes virtutem, sed penes 
+      <lb ed="#T" n="36"/>auctoritatem. 
+    </p>
+               <p xml:id="pdt7y6-e39316-d1e1734">
+                  <lb ed="#T" n="37"/>[Tamen Filius non est minor]) Contra 
+      ma<lb ed="#T" n="38" break="no"/>ior dicitur minore maior. Resp. Non accipitur  
+      <lb ed="#T" n="39"/>ibi comparatiue sed tantum relatiue secundum 
+      <lb ed="#T" n="40"/>rationem principij ad id cuius est principium. 
+      <lb ed="#T" n="41"/>Sed nunquid eo sensu quo dicitur Pater maior, 
+      <lb ed="#T" n="42"/>potest dici Filius minor? Resp. Non, quia 
+      impro<lb ed="#T" n="43" break="no"/>prietates perfectionis facilius recipiuntur in 
+      Di<lb ed="#T" n="44" break="no"/>uinis quam imperfectionis. Sed nunquid similiter  
+      <lb ed="#T" n="45"/>Pater &amp; Filius, est maior Spiritu sancto? Resp. 
+      <lb ed="#T" n="46"/>Si inueniretur scriptum, ex eodem sensu 
+      acci<lb ed="#T" n="47" break="no"/>peretur, sed improprietates exponendae sunt non 
+      <lb ed="#T" n="48"/>extendendae. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

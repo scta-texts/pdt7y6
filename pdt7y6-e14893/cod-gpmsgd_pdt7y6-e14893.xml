@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="51"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e14893"><!-- l1d5prae -->
+            <head xml:id="pdt7y6-e14893-Hd1e99">Praeambulum</head>
+            <head xml:id="pdt7y6-e14893-Hd1e101" type="question-title"/>
+            <p xml:id="pdt7y6-e14893-d1e103">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0124.xml-->
+               <cb ed="#T" n="c"/>
+               <lb ed="#T" n="36"/>HIo QVAERITVR, ANPATER 
+      <lb ed="#T" n="37"/>GENVIT DIVINAM ESSENTIAM. VEL 
+      <lb ed="#T" n="38"/>ipsa Filium; an essentia genuerit essentiam, vel ipsa nec 
+      <lb ed="#T" n="39"/>genuit, nec genita est. Distinctio V. 
+    </p>
+          <!--  <p xml:id="pdt7y6-e14893-d1e119">
+               <lb ed="#T" n="40"/>POst haec quaeritur vtrum concedendum sit, quod Pater genuit diuinam 
+      <lb ed="#T" n="41"/>essentiam, vel quod niuina essentia genuit Filium, vel essentia genuit 
+      es<lb ed="#T" n="42" break="no"/>sentiam, an omnino non genuit, nec genita est iuina essentia. Ad quod 
+      <lb ed="#T" n="43"/>catholicis tractatoribus consentientes dicimus, quod nec Pater genuit 
+      <lb ed="#T" n="44"/>biuinam essentiam, nec diuina essentia genuit Filium, nec diuina essentia 
+      <lb ed="#T" n="45"/>genuit diuinam essentiam. Hic autem nomine essentiae intelligimus 
+      bi<lb ed="#T" n="46" break="no"/>uinam naturam, quae communis est tribus personis, &amp; tota in singulis. Ideo non est 
+      dicen<lb ed="#T" n="47" break="no"/>dum, quod Pater genuit niuinam essentiam, quia siPater diceretur genuisse Diuinam 
+      essen<lb ed="#T" n="48" break="no"/>tiam, Diuina essentia relatiue diceretur ad Patrem, vel pro relatiuo poneretur. Si autem 
+      <lb ed="#T" n="49"/>relatiue diceretur, vel pro relat iuo poneretur, non indicaret essentiam. Vt enim ait 
+      Aug<lb ed="#T" n="50" break="no"/>in 5. lib. de Trin. quod relatiue dicitur, non indicat substantiam. 
+    </p>
+            <p xml:id="pdt7y6-e14893-d1e145">
+               <lb ed="#T" n="51"/>Secuntu rutio. 
+      <lb ed="#T" n="52"/>Item, cum Deus Pater sit niuina essentia, si eius esset genitor, esset vtique genitor eius 
+      <lb ed="#T" n="53"/>rei, quae ipse est: &amp; ita eadem res seipsam genuisset, quod Aug: negat, vt supra ostendimus. 
+    </p>
+            <p xml:id="pdt7y6-e14893-d1e155">
+               <lb ed="#T" n="54"/>Tertia ratio &amp; potior.  
+      <lb ed="#T" n="55"/>Item, si Pater est genitor essentiae diuinae, cum ipse essentia Diuina sit, &amp; Deus sit: eo ergo 
+      <lb ed="#T" n="56"/>quod generat, &amp; est, &amp; Deus est. Ita ergo non illud quod generatur, est a Patre Deus: sed  
+      <lb ed="#T" n="57"/>Pater eo quod generat, &amp; est, &amp; Deus est: &amp; si ita ert, non genitum gignens; sed 
+      gignentige<lb ed="#T" n="58" break="no"/>nitus causa est, vt &amp; sit, &amp; Deus sit. Simili ratione probat Aug. in lib. 7. de Trir. quod 
+      Pa<lb ed="#T" n="59" break="no"/>ter non est sapiens sapientia quam genuit. quia si ea sapiens est, ea est: hoc enim est 
+      sibi<lb ed="#T" n="60" break="no"/>esse quod sapere. Quod si hoc est sibi esse quod saperer non per illam sapientiam, quam 
+      ge<lb ed="#T" n="61" break="no"/>nuit Pater, sapiens est. Quid enim aliud dicimus, cum dicimus Hoc illi est esse quod 
+      sape<lb ed="#T" n="62" break="no"/>re, nisi eo est, quo sapiens est ? Ergo quae causa ilh est vt sapiens sit, etiam ipsa illi causa est 
+      <lb ed="#T" n="63"/>vt sit. Si ergo sapientia, quam genuit; illi causa est vt sapiensesit, &amp; causa illi est vt sit. Sed, 
+      <lb ed="#T" n="64"/>causam Patri, qua sit, a Patre genitam nullo modo quisquam dixerit sapientiam: quid enim 
+      <lb ed="#T" n="65"/>est insaniuse Ita ergo si Fater genuit essentiam, qua est, essentia quam genuit causa est illi. 
+      <lb ed="#T" n="66"/>vt sit: non ergo ipsam, quae est: essentiam geriuit. Nam id illa simplicitate, inquit 
+      Augusti<lb ed="#T" n="67" break="no"/>nus, quia noest aliud sapere quam effe: endem est ibi sapientia quae essentia, ideoque quod 
+      <lb ed="#T" n="68"/>de sapientia, hroc de essentia dicimus. Sicut ergo non genuit sapientiam, qua sapiens est, 
+      <lb ed="#T" n="69"/>ita nec essentiam, qua est. Vt onim sapientia sapiens est, &amp; potentia potens: ita &amp; essentia 
+      <lb ed="#T" n="70"/>ipse est. Eaxdemque sapientia est &amp; potentia, quae essentia. Patet itaque ex praedictis, quia 
+      <lb ed="#T" n="71"/>Pater essentiam diuinam non genuit. 
+    </p>
+            <p xml:id="pdt7y6-e14893-d1e197">
+               <lb ed="#T" n="72"/>Huic aduersari videtur Augustinus. 
+      <lb ed="#T" n="73"/>Here aucem videtur contrarium quod Aug. ait m lib, vnico de Fide &amp; Symbolo cap. 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0125.xml-\->
+      <cb ed="#T" n="125"/>
+               <lb ed="#T" n="1"/>2. Deus cum verbum genuit, id quod ipse est genuit, nec de nihilo, nec de aliqua iam facta 
+      <lb ed="#T" n="2"/>conditaque materia, sed de seipso id quod ipse est. Item Deus Pater, qui verissime se 
+      indica<lb ed="#T" n="3" break="no"/>re animis cognituris &amp; voluit &amp; potuit, hoc ad seipsum indicandum genuit, quod est ipse 
+      <lb ed="#T" n="4"/>qui genuit. Ecce aperte dicit his verbis, Deum Patrem genuisse illud quod ipse est. Illud  
+      <lb ed="#T" n="5"/>autem quod ipse est, non est nisi Diuina essentia: videtur ergo dininam essentiam genuisse. 
+      <lb ed="#T" n="6"/>Ad quod respondemus illa verba sic intelligenda esse, dicentes, Pater de se ipso genuit 
+      il<lb ed="#T" n="7" break="no"/>lud quod ipse est, id est, Filium quiest illud quod Pater est. Nam quod Pater est, &amp; Filius, 
+      <lb ed="#T" n="8"/>hoc est: sed non qui Pater est, &amp; Filius hic est, 
+    </p>
+            <p xml:id="pdt7y6-e14893-d1e226">
+               <lb ed="#T" n="9"/>Alias partes quaestionis exequitur.  
+      <lb ed="#T" n="10"/>Ir a etiam non est dicendum quod Diuina essentia genuit Filium: quia cum Filius sit 
+      Di<lb ed="#T" n="11" break="no"/>uina essentia, iam esset Filius res a qua generatur: &amp; ita eadem res seipsam generaret. Ita 
+      <lb ed="#T" n="12"/>etiam dicimus quod essentia Diuina non genuit essentiam. Cum enim vna &amp; summa 
+      quae<lb ed="#T" n="13" break="no"/>dam res sit Diuina essentia, si Diuina essentia essentiam genuit, eadem res seipsam genuit, 
+      <lb ed="#T" n="14"/>quod omnino esse non potest: sed Pater solus genuit Filium, &amp; a Patre &amp; Filio procedit 
+      <lb ed="#T" n="15"/>Spiritus sanctus. 
+    </p>
+            <p xml:id="pdt7y6-e14893-d1e244">
+               <lb ed="#T" n="16"/>Quae videantur praedictis esse contraria. 
+      <lb ed="#T" n="17"/>Praedictis autem videtur contrarium esse, quod dicit August. in lib. 7. de Trin. Hoc, 
+      in<lb ed="#T" n="18" break="no"/>quit, est Deo esse, quod sapere: vnde Pater &amp; Filius simul sunt vna sapientia, quia vna 
+      es<lb ed="#T" n="19" break="no"/>sentia, &amp; sigillatim sapientia de sapientia, sicut essentia de essentia. Ecce his verbis aperte 
+      <lb ed="#T" n="20"/>dicit August. sapientiam de sapientia, &amp; essentiam de essentia. Vbi videtur significare quod 
+      <lb ed="#T" n="21"/>sapientia sapientiam, &amp; essentia genuerit essentiam. Idem in lib. de Fide ad Petrum: ait, 
+      <lb ed="#T" n="22"/>Sic Christum Dei silium, id est, vnam ex Trinitate personam, Deum verum crede, vt 
+      Di<lb ed="#T" n="23" break="no"/>uinitatem eius de natura Patris natam esse non dubites. Hic videtur dicere, quod natura 
+      <lb ed="#T" n="24"/>Filij sit nata de natura Patris. Idem in lib. 15. de Trinit. ait, Dicitur Filius consilium de 
+      con<lb ed="#T" n="25" break="no"/>silio, &amp; voluntas de voluntate, sicut substantia de substantia, sapientia de sapientia. Et hic 
+      <lb ed="#T" n="26"/>videtur dicere quod substantia sit genita de substantia, &amp; sapientia de sapientia. Sed hoc 
+      <lb ed="#T" n="27"/>ita determinamus. Sapientia de sapientia, &amp; substantia de substantia est, id est, Filius 
+      qui<lb ed="#T" n="28" break="no"/>est sapientia, qui est substantia, est de Patre, qui est eadem substantia &amp; sapientia: &amp; Filius, 
+      <lb ed="#T" n="29"/>qui est Diuinitas, natus est de Patre, qui est natura Diuina. Et vt expressius dicamus, dicimus 
+      <lb ed="#T" n="30"/>Filium sapientiam esse de ratre sapientia, &amp; dicimus silium substantiam esse genitum de 
+      <lb ed="#T" n="31"/>patre, &amp; a patre substantia. Quod autem ita intelligi debeat August. ostendit in libro 
+      se<lb ed="#T" n="32" break="no"/>ptimo de Trinitate dicens, Pater ipse sapientia est, &amp; dicitur Filius sapientia Patris, 
+      quo<lb ed="#T" n="33" break="no"/>modo dicitur lumen Patris: id est sicutlumen delumine, &amp; vterque vnum lumen; sic 
+      in<lb ed="#T" n="34" break="no"/>lligatur sapientia de sapientia, &amp; vterque vna sapientia, &amp; vna essentia. Item ideo Christus 
+      <lb ed="#T" n="35"/>dicitur virtus &amp; sapientia Dei, quia de patre virtute &amp; sapientia etiam ipse virtus &amp; sapientia 
+      <lb ed="#T" n="36"/>est sicut ipse lumen de patre lumine est, &amp; ipse fons vitae est apud Deum patrem fontem vitae. 
+      <lb ed="#T" n="37"/>Filius ergo sapientia de patre sapientia est: sicut filius lumen de patre lumine, &amp; Deus 
+      Fi<lb ed="#T" n="38" break="no"/>lius de Deo Patre, vt &amp; singulus sit lumen, &amp; singulus Deus, &amp; singulus sapientia, &amp; simul 
+      <lb ed="#T" n="39"/>vnum lumen, vnus Deus, vna sapientia. Ecce manifeste his verbis aperit August. ex quo 
+      <lb ed="#T" n="40"/>sensu accipienda sunt praedicta verba &amp; his similia scilicet cum dicitur: Substantia de 
+      su<lb ed="#T" n="41" break="no"/>bstantia, vel substantia genuit substantiam. 
+    </p>
+            <p xml:id="pdt7y6-e14893-d1e303">
+               <lb ed="#T" n="42"/>Quod videtur praedictae expositioni contrarium. 
+      <lb ed="#T" n="43"/>Huic vero etiam id contrarium videtur quod Hilarius ait in 4. lib. de Trinit. Nihil, 
+      in<lb ed="#T" n="44" break="no"/>quit, nisi natum habet Filius: &amp; geniti honoris admiratio in honore generantis est. Cum 
+      <lb ed="#T" n="45"/>ergo Filius essentiam habeat (tota enim in eo est Diuina essentia) videtur quod ipsa Diuina 
+      <lb ed="#T" n="46"/>essentia nata sit. Item in 5. lib. ait. Natiuitas Dei non potest eam, ex qua prouecta est, non 
+      <lb ed="#T" n="47"/>tenere naturam: nec enim aliud quam Deus subsistit, quod non aliunde quam de Deo 
+      <lb ed="#T" n="48"/>subsistit. Ecce hic dicit natiuitatem Dei prouectam ex natura: &amp; ita videtur ex his verbis 
+      <lb ed="#T" n="49"/>atque praedictis, natura Dei &amp; genita &amp; genuisse. Quod apertius dicit in lib. 9. de Trinit. 
+      <lb ed="#T" n="50"/>Nos, inquit, vnigenitum Deum in forma Dei manentem in natura hominis mansisse 
+      pro<lb ed="#T" n="51" break="no"/>fitemur: nec vnitatem formae seruilis in naturam niuinae vnitatis refundimus: nec rursum 
+      <lb ed="#T" n="52"/>corporali insinuatione Patrem in Filio praedicamus: sed ex eo eiusdem generis genitam 
+      na<lb ed="#T" n="53" break="no"/>turam, naturaliter in se gignentem habuisse naturam, quae in forma naturae se gignentis 
+      <lb ed="#T" n="54"/>manens, formam naturae &amp; infirmitatis corporalis accepit. Non enim defecerat Dei 
+      na<lb ed="#T" n="55" break="no"/>tura, ne esset: sed in se humilitatem terrenae natiuitatis manens sibi Dei natura 
+      suscepe<lb ed="#T" n="56" break="no"/>rat, generis sui potestatem in habitu assumptae humanitatis exercens. Ecce hic aperte dicit, 
+      <lb ed="#T" n="57"/>&amp; naturam genuisse, &amp; naturam genitam, &amp; naturam assumpsisse naturam, quod a 
+      pleris<lb ed="#T" n="58" break="no"/>que negatur. Item in eodem. Nunquid vnigenito Deo contumelia est, Patrem sibi 
+      innasci<lb ed="#T" n="59" break="no"/>bilem Deum esse? Cum ex innascibili Deo natiuitas vnigenita in naturam vnigenitam su¬ 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0126.xml-\->
+      <cb ed="#T" n="126"/>
+               <lb ed="#T" n="1"/>bsistat: Ecce &amp; hic dicit vnigenitam naturam. 
+    </p>
+            <p xml:id="pdt7y6-e14893-d1e351">
+               <lb ed="#T" n="2"/>Quomodo sint intelligenda praemissa verba Hilarij. 
+      <lb ed="#T" n="3"/>Sed quia haec verba sane vult intelligi, ipse idem dicit in 4. libro. Intelligentia dictorum 
+      <lb ed="#T" n="4"/>ex causis est assumenda dicendi: quia non sermonires, sed rei sermo subjectus est. Haec 
+      er<lb ed="#T" n="5" break="no"/>go verba ita intelligi possunt. Nihil habet silius nisi natum, id est, nihil habet secundum 
+      <lb ed="#T" n="6"/>quod Deus est, nisi quod nascendo accepit: &amp; ipse nascendo Patris in se subsistentem 
+      na<lb ed="#T" n="7" break="no"/>turam habuit, vnde Hilarius addit in 5. libro: Eandem naturam habet genitus, quam ille 
+      <lb ed="#T" n="8"/>qui genuit: ita tamen, vt natus non sit ille qui genuit. Nam quomodo erit Pater ipse, cum 
+      <lb ed="#T" n="9"/>genitus sit? Sed in his ipsis subsistit ille qui genitus est, in quibus totus est ipse qui genuit 
+      <lb ed="#T" n="10"/>quia non est aliunde qui genitus est: &amp; ideo non refertur ad aliud quod in vno subsistit, &amp;: 
+      <lb ed="#T" n="11"/>ex vno. Acsi in generatione Filij &amp; naturam suam, vt ita dicam, sequitur indemutabilis. 
+      <lb ed="#T" n="12"/>Deus indemutabilem Deum gignens, nec naturam suam deferit ex indemutabili Deo 
+      in<lb ed="#T" n="13" break="no"/>demutabilis Dei perfecta natiuitas. Subsistentem ergo in eo Dei naturam intelligamus, 
+      <lb ed="#T" n="14"/>cum in Deo Deus insit, nec praeter cum qui Deus est quisquam Deus alius sit: quia ipse 
+      <lb ed="#T" n="15"/>Deus, &amp; in eo Deus. Naturae ergo Dei patris veritas in Deo Filio esse docetur, cum in eo 
+      <lb ed="#T" n="16"/>Deus intelligitur esse qui Deus est. Est enim vnus in vno, &amp; vnus, ab vno. 
+    </p>
+            <p xml:id="pdt7y6-e14893-d1e387">
+               <lb ed="#T" n="17"/>Quod legitar Pater de sua substantia genuisse Filium, &amp; Filium substantiae Patris. 
+      <lb ed="#T" n="18"/>Dicitur quoque, &amp; frequenter in scriptura legitur Patrem de sua substantiae: genuisse 
+      fi<lb ed="#T" n="19" break="no"/>lium: vnde Augustinus in libr. de fide ad Petrum ait: Pater Deus de nullo genitus Deo, 
+      se<lb ed="#T" n="20" break="no"/>mel de sua natura sine initio genuit Filium Deum sibi aequalem: &amp; eadem qua ipse 
+      natura<lb ed="#T" n="21" break="no"/>liter aeternus est, Diuinitate coaeternum. Ecce hic dicit Augustinus Filium genitum de 
+      na<lb ed="#T" n="22" break="no"/>tura Patris. Est autem vna natura Patris &amp; Filij &amp; Spiritus sancti. Si ergo de natura Patris 
+      <lb ed="#T" n="23"/>genitus est Filius, genitus est de natura Filij &amp; Spiritus sancti: imo de natura trium 
+      perso<lb ed="#T" n="24" break="no"/>natum. Idem quoque Augustinus in libro 15. de Trinitate, dicit Christum esse Filium 
+      su<lb ed="#T" n="25" break="no"/>bstantiae Patris, &amp; de substantia Patris genitum, tractans illud verbum Apostoli loquentis 
+      <lb ed="#T" n="26"/>de Deo Patre sic. Qui eruit nos de potestate tenebrarum, &amp; transtulit in regnum Filij 
+      cha<lb ed="#T" n="27" break="no"/>ritatis suae. Quod dictum est, inquit, Filij charitatis suae nihil aliud intelligitur quam Filij sui 
+      <lb ed="#T" n="28"/>dilecti, quam filij substantiae suae, Charitas quippe patris, quae in natura eius est 
+      ineffabili<lb ed="#T" n="29" break="no"/>ter simplici, nihil est aliud quam ipsa natura atque substantia, vt saepe diximus, &amp; 
+      saepe<lb ed="#T" n="30" break="no"/>iterare non piget: ac per hoc Filius charitatis eius nullus alius est, quam qui de substantia 
+      <lb ed="#T" n="31"/>eius est genitus. Ecce hic aperte dicit Augustinus Filium esse genium de substantia Patris, 
+      <lb ed="#T" n="32"/>&amp; silium substantiae Patris. Idem quoque Augustinus in libro 3. contra haereticum Maximi¬] 
+      <lb ed="#T" n="33"/>num, substantiam Dei genuisse Filium, &amp; Filium genitum de substantia Patris asserit, 
+      di<lb ed="#T" n="34" break="no"/>cens: Carualibus cogitationibus pleni, substantiam Dei de seipsa gignere silium non 
+      pu<lb ed="#T" n="35" break="no"/>ratis, nisi hoc patiatur quod substantia carnis patitur quando gignit. Erratis non scientes 
+      <lb ed="#T" n="36"/>scripturas, neque virtutem Dei. Nullo enim modo verum Dei silium cogitatis, si cum 
+      na<lb ed="#T" n="37" break="no"/>tum esse de substantia Patris negatis. Non enim iam erat hominis filius, &amp; Deo donante 
+      <lb ed="#T" n="38"/>factus est Dei filius ex Deo natus, gratia non natura. An forte etsi non hominis filius erat, 
+      <lb ed="#T" n="39"/>tamen iam aliqua erat qualiscunque creatura, &amp; in Dei silium, Deo mutante conuersa est: 
+      <lb ed="#T" n="40"/>Sed nihil horum est: ergo aut de nihilo, aut de aliqua substantia natus est. Sod ne credere 
+      <lb ed="#T" n="41"/>mus vos putare de nihilo esse Dei Filium, affirmatis non vos dicere de nihilo esse Dei Filium. 
+      <lb ed="#T" n="42"/>De aliqua ergo substantia est: &amp; si non de substantia Patris; de qua sit dicite, sed non 
+      inue<lb ed="#T" n="43" break="no"/>nietis. Iam ergo vnigenitum Dei Filium Iesum Christum de Patris esse substantia, non vos 
+      <lb ed="#T" n="44"/>nobiscum pigeat confiteri. Idem in eodem. Vtique legimus vt simus in vero Filio eius lesu 
+      <lb ed="#T" n="45"/>Christo. Dicite ergo nobis. Vtrum iste verus Dei Filius, ab eis qui gratia filij sunt, quadam 
+      <lb ed="#T" n="46"/>proprietate discretus, de nulla substantia sit, an de aliqua? Non dico, inquis, de nulla: 
+      <lb ed="#T" n="47"/>nec dicam de nihilo, ergo de aliqua substantia est. Quaero de qua?Si non de Patris 
+      substan<lb ed="#T" n="48" break="no"/>tia est, aliam quaeret si aliam non inuenis, Patris agnosce substantiam, &amp; Filium cum Patre 
+      <lb ed="#T" n="49"/>homousion conficere. Idem in eodem, Confiteor Deum patrem omnino 
+      incorruptibili<lb ed="#T" n="50" break="no"/>ter genuisse, sed quod est ipse genuisse. Item, Dico quod saepe dicendum est: Aut de 
+      ali<lb ed="#T" n="51" break="no"/>qua substantia est natus Dei Filius, aut de nulla. Si de nulla, ergo de nihilo, quod vos iam 
+      <lb ed="#T" n="52"/>non dicitis: si vero de aliqua, nec tamen de Patris substantia, non est verus filius: si vero de 
+      <lb ed="#T" n="53"/>Patris substantia, vnius eiusdemque substantiae sunt Pater &amp; Filius. Vos autom nec Filium, 
+      <lb ed="#T" n="54"/>Dei de substantia Patris genitum vultis, &amp; tamen cum nec ex nihilo, nec ex aliqua 
+      mate<lb ed="#T" n="55" break="no"/>ria sed ex Patre esse conceditis: nec videtis quam necesse sit vt qui non est ex nihilo, nec 
+      <lb ed="#T" n="56"/>ex aliqua aliare, sed ex Deo, nisi ex Dei substantia esse non possit, &amp; hoc esse quod Deus 
+      <lb ed="#T" n="57"/>est, de quo est, id est, Deus de Deo natus est: quia non alius prius fux: sed natura 
+      <lb ed="#T" n="58"/>coaeterna de Deo est.
+    </p>
+            <p xml:id="pdt7y6-e14893-d1e481">
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0127.xml-\->
+               <pb ed="#T" n="52"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>Colligens summam praedictorum aperit ex quo sensu accipienda sint. 
+      <lb ed="#T" n="2"/>His verbis praemissis innui videtur, quod diuina substantia Filium genuerit, &amp; quod Filius 
+      <lb ed="#T" n="3"/>sit genitus de substantia Patris, &amp; quod de Deo est natura coaeterna, &amp; quod Pater id 
+      <lb ed="#T" n="4"/>quod ipse est genuit. Id autem quod ipse est, Diuina essentia est: &amp; ita putari potest diuina 
+      <lb ed="#T" n="5"/>essentiam genuisse. Vehementer mouent nos haec verba, quae quomodo intelligenda sint, 
+      <lb ed="#T" n="6"/>mallem ab alijs audite, quam ipse tradere. Vt tamen sine praeiudicio atque temeritate 
+      lo<lb ed="#T" n="7" break="no"/>quar, ex hoc sensu dicta possunt accipi: Natura coaeterna de Deo est, id est, Filius 
+      coaeter<lb ed="#T" n="8" break="no"/>nus Patri de Patre est, ita est eadem cum eo natura, vel eiusdem naturae, quem sensum 
+      <lb ed="#T" n="9"/>confirmat Augustin. ibidem subiiciens &amp; quod dixerat quasi explanans: Dicto enim, 
+      Na<lb ed="#T" n="10" break="no"/>tura coaeterna est de Deo, addit: Non est aliud filius quam illud de quo est, id est, vnius 
+      <lb ed="#T" n="11"/>eiusdemque substantiae est. Deinde apertius talem intellectum ex praedictis verbis fore 
+      ha<lb ed="#T" n="12" break="no"/>bendum aperit in eodem libro contra Maximinum, dicens: Trinitas haec vnius 
+      eiusdem<lb ed="#T" n="13" break="no"/>que substantiae est: quia non de aliqua materia vel de nihilo est Filius, sed de quo est 
+      geni<lb ed="#T" n="14" break="no"/>tus. Item, Spiritus Sanctus non de aliqua materia vel de nihilo est, sed inde est vnde 
+      pro<lb ed="#T" n="15" break="no"/>cedit. His vtique verbis aperte ostendit ea ratione dici Filium esse de substantia Patris, 
+      qui<lb ed="#T" n="16" break="no"/>est de Patre genitus, ita quod est eiusdem substantiae cum eo: Spirirum Sanctum esse de 
+      <lb ed="#T" n="17"/>substantia Patris &amp; Filij, quia ab vtroque procedit, ita quod est eiusdem substantiae. 
+    </p>
+            <p xml:id="pdt7y6-e14893-d1e527">
+               <lb ed="#T" n="18"/>Quod nec Filius, nec Spiritus Sanctus est de nihilo, sed de aliquo, non tamen de materia. 
+      <lb ed="#T" n="19"/>Ostenditur quoque ex illis verbis Filium &amp; Spiritum Sanctum non esse de nihilo, sed de 
+      <lb ed="#T" n="20"/>aliquo, nec tamen de aliqua materia. Vnde etiam Hilarius in 12. libr. de Trinit. ait, 
+      Vni<lb ed="#T" n="21" break="no"/>genitus Deus cum natus sit, patrem testatur authorem: cum ex manente natus est, non 
+      <lb ed="#T" n="22"/>est natus ex nihilo: &amp; cum ante tempus natus est, omnem sensum praeuenit nascendo. 
+      <lb ed="#T" n="23"/>Hic aperte dicitur, quod Filius non est natus ex nihilo. Similiter &amp; Spiritus Sanctus non 
+      <lb ed="#T" n="24"/>est dicendus esse vel procedere ex nihilo: quia Filius de substantia Patris natus est, id est, a 
+      <lb ed="#T" n="25"/>Patre est, cum quo eiusdem substantiae est, &amp; eadem substantia. Ex quo sensu etiam 
+      acci<lb ed="#T" n="26" break="no"/>piendum est illud. Pater genuit id quod ipse est, id est Filium, qui est hoc quod Pater. Et  
+      <lb ed="#T" n="27"/>hoc ita debere intelligi Aug. aperit dicens in 1. lib. contra Maximinum, Hoc genuit Pater  
+      <lb ed="#T" n="28"/>quod est: alioquin non est verus Filius, si quod est Pater, non est Filius. Item substantia Dei. 
+      <lb ed="#T" n="29"/>genuit Filium, id est, Pater substantia genuit Filium, qui est eadem substantia &amp; eiusdem 
+      <lb ed="#T" n="30"/>substantiae. Quod sic esse intelligendum Aug. ostendit dicens ad Maximinum: Sicut dicis, 
+      <lb ed="#T" n="31"/>Spiritus Spiritum genuit: ita dic, Spiritus eiusdem naturae vel substantiae Spiritum genuit. 
+      <lb ed="#T" n="32"/>Item sicut dicis, Deus Deum genuit: ita dic, Deus eiusdem naturae vel substantiae Deum. 
+      <lb ed="#T" n="33"/>genuit. Hoc si credideris &amp; dixeris, nihil de hac re vlterius accusaberis. His enim verbis 
+      <lb ed="#T" n="34"/>aperit quomodo praedicta debeat intelligi. Similiter Filius natus est de substantia Patris, vel 
+      <lb ed="#T" n="35"/>Pater genuit Filium de sua natura, siue essentia, id est, de se natura &amp; essentia genuit Filium, 
+      <lb ed="#T" n="36"/>eiusdem substantiae ac naturae, &amp; qui est eadem essentia ac natura. Similiter expone illud, 
+      <lb ed="#T" n="37"/>Filius substantiae Patris id est Filius Patris substantiae, id est, qui est substantia cum quo &amp; 
+      <lb ed="#T" n="38"/>Filius eadem rubstantia est: quia consubstantialis est Patri Filius. Et hic sensus adiuuatur. 
+      <lb ed="#T" n="39"/>ex his verbis August. qui in lib. 5. de Trinit. ait, Tres personas eiusdem essentiae, vel 
+      <lb ed="#T" n="40"/>tres personas vnam essentiam dicimus. Tres autem personas ex eadem essentia 
+      <lb ed="#T" n="41"/>non dicimus, quasi aliud ibi sit quod essentia est, aliud quod persona. His verba 
+      <lb ed="#T" n="42"/>ostenditur non esse dicendum personam esse ex essentia, nisi ex sensu praedicto. 
+      <lb ed="#T" n="43"/>Qui sensus confirmatur etiam ex eo quod in lib. 15. de Trinit. idem ait; Sicut nosta 
+      <lb ed="#T" n="44"/>scientia scientiae Dei, sic &amp; nostrum verbum, quod nascitur de nostra scientia, 
+      <lb ed="#T" n="45"/>dissimile est illi verbo Dei, quod natum est de Patris essentia. Tale est autem ac si 
+      dice<lb ed="#T" n="46" break="no"/>rem, de Patris scientia, de Patris sapientia: vel, quod est expressius, de Patre essentia, 
+      <lb ed="#T" n="47"/>de Patre scientia, de Patre sapientia. Ex hoc itaque intellectu, verbum Dei Patris 
+      vni<lb ed="#T" n="48" break="no"/>genitus Filius per omnia Patri similis &amp; aequalis recte dicitur Deus de Deo, lumen de 
+      lu<lb ed="#T" n="49" break="no"/>mine, sapientia de sapientia, essentia de essentia: quia hoc est omnino quod Pater, non 
+      <lb ed="#T" n="50"/>tamen Pater: quia iste Filius, ille Pater.  
+    </p>
+            <p xml:id="pdt7y6-e14893-d1e601">
+               <lb ed="#T" n="51"/>Quare verbum Patris dicatur Filius naturae. 
+      <lb ed="#T" n="52"/>Inde est quod solus vnigonitus Dei dicitur naturae Filius, quia eiusdem naturae est, &amp; 
+      <lb ed="#T" n="53"/>eadem natura est cum Patre: vnde Hilarius in libro primo de Trinitate de Christoloquens 
+      <lb ed="#T" n="54"/>ait: Natura Filius est, quia eandem naturam quam ille qui genuit, habet.
+    </p>-->
+            <p xml:id="pdt7y6-e14893-d1e612">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0127.xml-->
+               <cb ed="#T" n="b"/>
+               <lb ed="#T" n="55" type="fixed=52"/>DIVESIO TEXTVS. 
+      <lb ed="#T" n="56"/>[DOst haec.] Quaeritur hic an essentia sit 
+      ter<lb ed="#T" n="57" break="no"/>minus generationis, secundum quod habet  
+      <lb ed="#T" n="58"/>significari nomine abstracto, &amp; primo tractat 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0127.xml-->
+      <cb ed="#T" n="c"/>
+               <lb ed="#T" n="59"/>quaestionem, an essentia generet vel generetur: 
+      <lb ed="#T" n="60"/>secundo an de ipsa sit generatio [Dicitur quoqu I 
+    </p>
+            <p xml:id="pdt7y6-e14893-d1e636">
+               <lb ed="#T" n="61"/>In prima parte primo ostendit, quod essentia 
+      <lb ed="#T" n="62"/>non generatur, secundo quod non generat [
+      Ista<lb ed="#T" n="63" break="no"/>etiam) Tertio opponit cotra vtrumque simul ex 
+      <lb ed="#T" n="64"/>verbis Augustini praedictis, quarto opponit ad 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0128.xml-->
+      <pb ed="#T" n="53"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>idem ex verbis Hilarij [Huic vero] In prima 
+      <lb ed="#T" n="2"/>parte primo determinat veritatem. Secundo 
+      ra<lb ed="#T" n="3" break="no"/>tionibus confirmat determinationem [Ideo non 
+      <lb ed="#T" n="4"/>est dicendum] Tertio opponit in contrarium, &amp; 
+      <lb ed="#T" n="5"/>soluit objectum. [huic autem. 
+    </p>
+            <p xml:id="pdt7y6-e14893-d1e666">
+               <lb ed="#T" n="6"/>[Ita etiam) Hici ostendit, quod essentia non 
+      <lb ed="#T" n="7"/>generat silium, item quod essenta noin generat 
+      <lb ed="#T" n="8"/>essentiam [Itaetiam.] 
+    </p>
+            <p xml:id="pdt7y6-e14893-d1e675">
+               <lb ed="#T" n="9"/>[Praedictis) Hic primo ponit contrarias 
+      pre<lb ed="#T" n="10" break="no"/>dictis auctonitates Augustini. Secundo 
+      auctori<lb ed="#T" n="11" break="no"/>tatum determinationem [Sed hoc ita 
+      determi<lb ed="#T" n="12" break="no"/>namus. 
+    </p>
+            <p xml:id="pdt7y6-e14893-d1e686">
+               <lb ed="#T" n="13"/>[Huic vero etiam. ] Hic primo opponit ex 
+      <lb ed="#T" n="14"/>auctoritatibus Hilarij. Secundo soluit [Sed quia 
+      <lb ed="#T" n="15"/>haec verba. 
+    </p>
+            <p xml:id="pdt7y6-e14893-d1e695">
+               <lb ed="#T" n="16"/>Dicitur quoque.] Hic tractat quaestionem, 
+      <lb ed="#T" n="17"/>An de essentia sit generatio, &amp; primo ponit 
+      au<lb ed="#T" n="18" break="no"/>ctoritates quae dicunt quod Filius de substantia. 
+      <lb ed="#T" n="19"/>Patris natus sit, secundo qualiter intelligatur ge 
+      <lb ed="#T" n="20"/>neraliter ostendit [His verbis ] Tertio 
+      speciali<lb ed="#T" n="21" break="no"/>ter auctoritates singulas determinat &amp; exponit. 
+      <lb ed="#T" n="22"/>[Ostenditur quoque: 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

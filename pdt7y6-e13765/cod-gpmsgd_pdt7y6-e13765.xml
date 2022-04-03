@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="46"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e13765"><!-- l1d4q3 -->
+            <head xml:id="pdt7y6-e13765-Hd1e99">Quaestio 3</head>
+            <head xml:id="pdt7y6-e13765-Hd1e101" type="question-title">De veritate praedicationis circa Divina</head>
+            <p xml:id="pdt7y6-e13765-d1e104">
+               <lb ed="#T" n="33"/>QVESTIO TERTIA 
+      <lb ed="#T" n="34"/>DE VERITATE PRAEDICATIONiS 
+      <lb ed="#T" n="35"/>CIRCA DIVINA. 
+      <lb ed="#T" n="36"/>
+               <!-- line coord error -->
+            </p>
+            <p xml:id="pdt7y6-e13765-d1e117">
+               <lb ed="#T" n="37"/>TErtio quaeritur de veritate praedicationis 
+      <lb ed="#T" n="38"/>TFirca diuina, circa quod tria quaeruntur.  
+      <lb ed="#T" n="39"/>Primo. An fieri possit praedicatio affirmatiua 
+      <lb ed="#T" n="40"/>in diuinis. 
+    </p>
+            <p xml:id="pdt7y6-e13765-d1e128">
+               <lb ed="#T" n="41"/>Secundo. An persona vere praedicetur de 
+      es<lb ed="#T" n="42" break="no"/>sentia. 
+    </p>
+            <p xml:id="pdt7y6-e13765-d1e136">
+               <lb ed="#T" n="43"/>Tertio. An Trinitas personarum vere 
+      praedi<lb ed="#T" n="44" break="no"/>cetur de ipsa. 
+    </p>
+            <div xml:id="pdt7y6-e13765-Dd1e143">
+               <head xml:id="pdt7y6-e13765-Hd1e145">Articulus 1</head>
+               <head xml:id="pdt7y6-e13765-Hd1e147" type="question-title">
+  Utrum fieri possit praedicatio affirmatiua in Diuinis.
+</head>
+               <p xml:id="pdt7y6-e13765-d1e150">
+                  <lb ed="#T" n="45"/>Articvlvs I. 
+      <lb ed="#T" n="46"/>vtrum fieri possit praedicatio affirmatiua in Diuinis. 
+    </p>
+               <p xml:id="pdt7y6-e13765-d1e157">
+                  <lb ed="#T" n="47"/>AD primum sic proceditur 1. Veritas 
+      propo<lb ed="#T" n="48" break="no"/>sitionis causatur ex veritate rei: in Deo 
+      nul<lb ed="#T" n="49" break="no"/>la est vera compositio: ergo propositio 
+      compo<lb ed="#T" n="50" break="no"/>sitionem significans non potest verificari de 
+      ip<lb ed="#T" n="51" break="no"/>so: sed omnis affirmatiua significat 
+      compositio<lb ed="#T" n="52" break="no"/>nem praedicati cum subjecto: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e13765-d1e173">
+                  <lb ed="#T" n="53"/>2. Cassus &amp; falsus est intellectus, cui nil 
+      res<lb ed="#T" n="54" break="no"/>pondet a parte rei: sed intellectui propositionis 
+      <lb ed="#T" n="55"/>compositionem significantis, nihil respondet a 
+      <lb ed="#T" n="56"/>parte rei: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e13765-d1e185">
+                  <lb ed="#T" n="57"/>3. Hoc verbum, est, significat quandam 
+      com<lb ed="#T" n="58" break="no"/>positionem, quam sine compositis non est 
+      intel<lb ed="#T" n="59" break="no"/>ligere, vt ait Philosophus lib. Periherm. vbi 
+      er<lb ed="#T" n="60" break="no"/>go nulla compositio, ibi non potest vere 
+      appo<lb ed="#T" n="61" break="no"/>ni hoc verbum, est, in propositione; sed nulla 
+      <lb ed="#T" n="62"/>potest fieri affirmatiua propositio sine eius 
+      ex<lb ed="#T" n="63" break="no"/>pressa vel tacita appositione: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e13765-d1e203">
+                  <lb ed="#T" n="64"/>4. Dyon. de diu. nom. Negationes in Diuinis 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0121.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="65"/>sunt verae, affirmationes incompactae. 
+    </p>
+               <p xml:id="pdt7y6-e13765-d1e214">
+                  <lb ed="#T" n="66"/>Contra 1. Dicit <name xml:id="pdt7y6-e13765-Nd1e218" ref="#Boethius">Boetius</name>, quod nulla 
+      proposi<lb ed="#T" n="67" break="no"/>tio est verior illa, in qua idem praedicatur de se: 
+      <lb ed="#T" n="68"/>sed in propositione affirmatiua diuina 
+      praedica<lb ed="#T" n="69" break="no"/>tur idem de se: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e13765-d1e228">
+                  <lb ed="#T" n="70"/>2. Propositionum contradictoriarum, si vna 
+      <lb ed="#T" n="71"/>est vera, reliqua est falsa, &amp; e conuerso: sed haec 
+      <lb ed="#T" n="72"/>est falsa secundum omnes, Deus non est bonus, 
+      <lb ed="#T" n="73"/>vel iustus, vel sapiens: ergo eius contradictoria 
+      <lb ed="#T" n="74"/>erit vera. 
+    </p>
+               <p xml:id="pdt7y6-e13765-d1e241">
+                  <lb ed="#T" n="75"/>Respondeo. Praedicatio alicuius de aliquo 
+      du<lb ed="#T" n="76" break="no"/>pliciter potest fieri proprie, vel praedicatione 
+      <lb ed="#T" n="77"/>per essentiam, seu identitatem, vt homo est 
+      ho<lb ed="#T" n="78" break="no"/>mo, vel homo est animal rationale mortale; vel 
+      <lb ed="#T" n="79"/>predicatione per inhaerentiam, seu 
+      denomina<lb ed="#T" n="80" break="no"/>tionem; &amp; hoc dupliciter, vel extrinfeca 
+      deno<lb ed="#T" n="81" break="no"/>minatione, vt dicitur aliquis aliquando dexter,  
+      <lb ed="#T" n="82"/>vel dicitur opus humanum; vel intrinfeca 
+      scili<lb ed="#T" n="83" break="no"/>cet per inhaerentiam alicuius accidentis, vt 
+      dici<lb ed="#T" n="84" break="no"/>tur homo albus. Prima praedicatio non 
+      impor<lb ed="#T" n="85" break="no"/>tat conipositionem realem, sed vocalem tantum, 
+      <lb ed="#T" n="86"/>ideo bene conuenit in Diuinis secundum rem: 
+      <lb ed="#T" n="87"/>secunda non importat compositionem saltem de 
+      <lb ed="#T" n="88"/>necessitate etiam in creaturis, &amp; ideo bene 
+      con<lb ed="#T" n="89" break="no"/>uenit in Diuinis: sic enim dicitur, Deus creator,  
+      <lb ed="#T" n="90"/>aut Dominus, ex comparatione creaturae ad 
+      ip<lb ed="#T" n="91" break="no"/>sum; tertia non conuenit in Diuinis secundum 
+      <lb ed="#T" n="92"/>rem, sed secundum modum intelligendi solum, 
+      <lb ed="#T" n="93"/>quia quod in Deo simplex est non possumus 
+      <lb ed="#T" n="94"/>apprehendere simplici intellectu vno, vnde nec 
+      <lb ed="#T" n="95"/>significare. 
+    </p>
+               <p xml:id="pdt7y6-e13765-d1e289">
+                  <lb ed="#T" n="96"/>Ad 1. De veritate propositionis. Resp. 
+      Propo<lb ed="#T" n="97" break="no"/>sitio compositionem significare potest 
+      duplici<lb ed="#T" n="98" break="no"/>ter; vel vt rem significatam, scilicet ponendo 
+      <lb ed="#T" n="99"/>compositionem in re: vel vt modum, scilicet,  
+      <lb ed="#T" n="100"/>ponendo compositionem in modo intelligendi, 
+      <lb ed="#T" n="101"/>seu significandi: primo modo nulla affirmatiua 
+      <lb ed="#T" n="102"/>praedicatio de Deo fieri potest, sed secundo 
+      <lb ed="#T" n="103"/>quia quod in Deo est per modum simplicitatis, 
+      <lb ed="#T" n="104"/>intellectus noster non apprehendit nisi per 
+      mo<lb ed="#T" n="105" break="no"/>dum compositionis: sed tamen illam 
+      composi<lb ed="#T" n="106" break="no"/>tionem non pouit esse in re, sed in modo. 
+    </p>
+               <p xml:id="pdt7y6-e13765-d1e316">
+                  <lb ed="#T" n="107"/>Ad 2. Cassus est intellectus &amp;c. Resp. 
+      Ali<lb ed="#T" n="108" break="no"/>quid respondet a parte rei, non tamen per 
+      mo<lb ed="#T" n="109" break="no"/>dum compositionis, sed per modum simplicitatis, 
+    </p>
+               <p xml:id="pdt7y6-e13765-d1e325">
+                  <lb ed="#T" n="110"/>Ad 3. De compositione huius verbi est, &amp;c. 
+      <lb ed="#T" n="111"/>Resp. Compositio ista vocum est, scilicet 
+      subje<lb ed="#T" n="112" break="no"/>cti &amp; praedicati, non rerum. 
+    </p>
+               <p xml:id="pdt7y6-e13765-d1e334">
+                  <lb ed="#T" n="113"/>Ad 4. de Dyon. RIncompactae dicuntur a 
+      <lb ed="#T" n="114"/>parte rei significatae, no a parte modi significadi. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e13765-Dd1e342">
+               <head xml:id="pdt7y6-e13765-Hd1e344">Articulus 2</head>
+               <head xml:id="pdt7y6-e13765-Hd1e346" type="question-title">
+  Utrum Persona vere praedicetur de essentia.
+</head>
+               <p xml:id="pdt7y6-e13765-d1e349">
+                  <lb ed="#T" n="115"/>Articvlvs II. 
+      <lb ed="#T" n="116"/>vtrum Persona vere praedicetur de essentia. 
+</p>
+               <p xml:id="pdt7y6-e13765-d1e356">
+                  <lb ed="#T" n="117"/>AD secundum sic proceditur 1. In 
+      praedica<lb ed="#T" n="118" break="no"/>to est locus formae, in subjecto locus 
+      mate<lb ed="#T" n="119" break="no"/>riae: essentia vero se habet, vt forma, suppositum 
+      <lb ed="#T" n="120"/>vt materia: ergo de persona debet 
+      praedicari<lb ed="#T" n="121" break="no"/>essentia, non e conuerso. 
+    </p>
+               <p xml:id="pdt7y6-e13765-d1e369">
+                  <lb ed="#T" n="122"/>2. <name xml:id="pdt7y6-e13765-Nd1e373" ref="#Boethius">Boetius</name>. Forma simplex nulli subjectum 
+      <lb ed="#T" n="123"/>esse potest. 
+    </p>
+               <p xml:id="pdt7y6-e13765-d1e380">
+                  <lb ed="#T" n="124"/>3. Praedicatum significatur vt inhaeres 
+      subje<lb ed="#T" n="125" break="no"/>cto: sed persona non inhaeret essentiae: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e13765-d1e387">
+                  <lb ed="#T" n="126"/>Contra. Idem est in Diuinis essentia, &amp; 
+      perso<lb ed="#T" n="127" break="no"/>na: idem autem de seipso vicissim praedicatur,  
+      <lb ed="#T" n="128"/>secundum Boentium. 
+    </p>
+               <p xml:id="pdt7y6-e13765-d1e396">
+                  <lb ed="#T" n="129"/>Respondeo. Ratione omnimodae identitatis sed 
+      <lb ed="#T" n="130"/>cundum rem vere praedicari potest persona 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0122.xml-->
+      <pb ed="#T" n="47"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>de essentia, &amp; essentia de persona. 
+    </p>
+               <p xml:id="pdt7y6-e13765-d1e412">
+                  <lb ed="#T" n="2"/>Ad 1. In praedicato est locus formae. Resp. 
+      <lb ed="#T" n="3"/>Hoc locum habet in praedicatione,, quae sit per 
+      <lb ed="#T" n="4"/>inhaerentiam, non per identitatem 
+    </p>
+               <p xml:id="pdt7y6-e13765-d1e421">
+                  <lb ed="#T" n="5"/>Ad 2. Eorma simplex &amp;c. Resp. Quamuis 
+      <lb ed="#T" n="6"/>non possit forma simplex esse subjectum 
+      acci<lb ed="#T" n="7" break="no"/>dentis, potest tamen esse subjectum locutionis. 
+    </p>
+               <p xml:id="pdt7y6-e13765-d1e430">
+                  <lb ed="#T" n="8"/>Ad 3. Praedicatum significatur vt inhaerens. 
+      <lb ed="#T" n="9"/>Resp. Non est hoc verum vniuersaliter sed in 
+      <lb ed="#T" n="10"/>praedicatione nhaerentiae. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e13765-Dd1e440">
+               <head xml:id="pdt7y6-e13765-Hd1e442">Articulus 3</head>
+               <head xml:id="pdt7y6-e13765-Hd1e444" type="question-title">
+  An Trinitas personarum vere praedicetur de essentia.
+</head>
+               <p xml:id="pdt7y6-e13765-d1e447">
+                  <lb ed="#T" n="11"/>Articvlvs III. 
+      <lb ed="#T" n="12"/>An Trinitas personarum vere praedicetur de essentia. 
+    </p>
+               <p xml:id="pdt7y6-e13765-d1e454">
+                  <lb ed="#T" n="13"/>AD tertium sic proceditur. 1. Haec est falsa, 
+      <lb ed="#T" n="14"/>Homo est Socrates, &amp; Plato, &amp; Cato, quia 
+      <lb ed="#T" n="15"/>nullum suppositum hominis est Socrates, 
+      Pla<lb ed="#T" n="16" break="no"/>to, Cato: ergo a simili haec est falsa, Deus est 
+      <lb ed="#T" n="17"/>Trinitas, vel Deus est Pater, &amp; Filius, &amp; 
+      Spi<lb ed="#T" n="18" break="no"/>ritus Sanctus. 
+    </p>
+               <p xml:id="pdt7y6-e13765-d1e470">
+                  <lb ed="#T" n="19"/>2. Secundum Boet. Omne quod praedicatur  
+      <lb ed="#T" n="20"/>in Diuinis, aut praedicatur secundum 
+      substan<lb ed="#T" n="21" break="no"/>tiam, aut se cundum relationem: si ergo 
+      Trini<lb ed="#T" n="22" break="no"/>tas praedicatur de essentia, aut secundum 
+      substa<lb ed="#T" n="23" break="no"/>tiam, &amp; ita poterit praedicari de qualibet 
+      perso<lb ed="#T" n="24" break="no"/>na, aut se cundum relationem, &amp; ita Trinitas 
+      re<lb ed="#T" n="25" break="no"/>fertur ad aliud, quod salsum est, 
+    </p>
+               <p xml:id="pdt7y6-e13765-d1e489">
+                  <lb ed="#T" n="26"/>3. Immediatius se habet persona ad 
+      Trinita<lb ed="#T" n="27" break="no"/>rem, quam ad essentiam: sed non potest 
+      dici<lb ed="#T" n="28" break="no"/>persona est Trinitas: ergo multo minus essentia 
+      <lb ed="#T" n="29"/>est Trinitas. 
+    </p>
+               <p xml:id="pdt7y6-e13765-d1e500">
+                  <lb ed="#T" n="30"/>Contra. 1. Trinitas est trium vnitas: ergo &amp;c. 
+      <lb ed="#T" n="31"/>2. Probat hic Magister quod essentia est Pater  
+      <lb ed="#T" n="32"/>&amp; Filius, &amp; Spiritus Sanctus. 
+    </p>
+               <p xml:id="pdt7y6-e13765-d1e509">
+                  <lb ed="#T" n="33"/>3. In Diuinis ominia sunt idem, praeterquam  
+      <lb ed="#T" n="34"/>inter quae distinguit oppositio relationis vt 
+      di<lb ed="#T" n="35" break="no"/>cit Auselmus lib. de process. Spiritus. Sancti: 
+      <lb ed="#T" n="36"/>sed inter essentiam &amp; Trinitatem nulla 
+      distin<lb ed="#T" n="37" break="no"/>guit oppositio relationis: ergo sunt idem: ergo 
+      <lb ed="#T" n="38"/>vere potest vnum de altero praedicari. 
+    </p>
+               <p xml:id="pdt7y6-e13765-d1e525">
+                  <lb ed="#T" n="39"/>Respondeo. Propter omnimodam 
+      indifferen<lb ed="#T" n="40" break="no"/>tiam essentiae ad totam Trinitatem, potest 
+      prae<lb ed="#T" n="41" break="no"/>dicari Trinitas de essentia, &amp; e conuerso. 
+    </p>
+               <p xml:id="pdt7y6-e13765-d1e534">
+                  <lb ed="#T" n="42"/>Ad 1. Quia nullum suppositum hominis est 
+      <lb ed="#T" n="43"/>&amp;c. Resp. Non solum est hoc ex defectu 
+      suppo<lb ed="#T" n="44" break="no"/>siti, sed formae significatae, quia forma 
+      significa<lb ed="#T" n="45" break="no"/>ta per terminum bic bonp. diuiditur secundum 
+      <lb ed="#T" n="46"/>diuisionem suppositorum: vnde non est ibi vnum, 
+      <lb ed="#T" n="47"/>suppositum, seu significatum, pro quo possit 
+      ve<lb ed="#T" n="48" break="no"/>rificari propositio: hic vero secus est, quia hic 
+      <lb ed="#T" n="49"/>terminus, Deus, pro natura potest reddere 
+      lo<lb ed="#T" n="50" break="no"/>cutionem veram, licet non pro personae 
+    </p>
+               <p xml:id="pdt7y6-e13765-d1e556">
+                  <lb ed="#T" n="51"/>Ad 2. Aut secundum substantiam. Resp. 
+      Se<lb ed="#T" n="52" break="no"/>cundum relationem praedicatur. Sciendum 
+      ta<lb ed="#T" n="53" break="no"/>men, quod secundum relationem aliquid 
+      prae<lb ed="#T" n="54" break="no"/>dicari potest dupliciter; vel extrinsecam, quae 
+      <lb ed="#T" n="55"/>terminatur extra, vt iste est similis illi; veli 
+      an<lb ed="#T" n="56" break="no"/>trinsecaui, quae terminatur intra vt isti sunt 
+      simi<lb ed="#T" n="57" break="no"/>les: hoc vtrimo modo praedicatur Trinitas 
+      se<lb ed="#T" n="58" break="no"/>tundum relatirmom: vnde non oportet, quod 
+      <lb ed="#T" n="59"/>referatim ad aliud; habet enim intra se 
+      intel<lb ed="#T" n="60" break="no"/>lectum correlatorum. 
+    </p>
+               <p xml:id="pdt7y6-e13765-d1e581">
+                  <lb ed="#T" n="61"/>Ad 3. iImmediatius. se habet persona &amp;c. 
+      <lb ed="#T" n="62"/>Resp. Immediatius se habet secundum modum 
+      <lb ed="#T" n="63"/>signifienndi, quia vtrobique significatur telatio,  
+      <lb ed="#T" n="64"/>sed non secundum rem, quip persona personae 
+      <lb ed="#T" n="65"/>pelatiue opponitur, sed non essentia personae: 
+      <lb ed="#T" n="66"/>Inde Trimtas non potost praedicari de persona 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0122.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>vna, quia personalitas in personis multiplicatur.  
+      <lb ed="#T" n="68"/>essentia vero sic, quia non multiplicatur in eis 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

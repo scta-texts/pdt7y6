@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="166"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e50302"><!-- l1d19q2 -->
+            <head xml:id="pdt7y6-e50302-Hd1e99">Quaestio 2</head>
+            <head xml:id="pdt7y6-e50302-Hd1e101" type="question-title">De illis in quibus assignatur aequalitas personarum</head>
+            <p xml:id="pdt7y6-e50302-d1e104">
+               <lb ed="#T" n="45"/>QVESTIO II. 
+      <lb ed="#T" n="46"/>DE RIS IN QVIBVS ASSIONATVR 
+      <lb ed="#T" n="47"/>AEQVALITAS PERSONARVM. 
+</p>
+            <p xml:id="pdt7y6-e50302-d1e113">
+               <lb ed="#T" n="48"/>CIrca secundum articulum duo quaeruntur.  
+      <lb ed="#T" n="49"/>Primo de magnitudine. 
+      <lb ed="#T" n="50"/>Secundo de aeternitate. 
+    </p>
+            <div xml:id="pdt7y6-e50302-Dd1e122">
+               <head xml:id="pdt7y6-e50302-Hd1e124">Articulus 1</head>
+               <head xml:id="pdt7y6-e50302-Hd1e126" type="question-title">
+  De magnitudine Dei.
+</head>
+               <p xml:id="pdt7y6-e50302-d1e129">
+                  <lb ed="#T" n="51"/>Articvlvs I. 
+      <lb ed="#T" n="52"/>De magnitudine Dei.
+</p>
+               <p xml:id="pdt7y6-e50302-d1e136">
+                  <lb ed="#T" n="53"/>AD primum proceditur sic. 1. Psal. Magnus 
+      <lb ed="#T" n="54"/>Dominus &amp; magna virtus eius: ergo 
+      ma<lb ed="#T" n="55" break="no"/>gnitudo in Deo. 
+    </p>
+               <p xml:id="pdt7y6-e50302-d1e145">
+                  <lb ed="#T" n="56"/>2. Secundum Ansel. Deus est quo maius 
+      ex<lb ed="#T" n="57" break="no"/>cogitari non potest: ergo maximus: ergo 
+      ma<lb ed="#T" n="58" break="no"/>gnus: quia omne superlatiuum supponit suum 
+      <lb ed="#T" n="59"/>positiuum. 
+    </p>
+               <p xml:id="pdt7y6-e50302-d1e157">
+                  <lb ed="#T" n="60"/>Contra. 1. Magnitudo species est continuae 
+      <lb ed="#T" n="61"/>quantitatis: in Deo non est quantitas continua 
+    </p>
+               <p xml:id="pdt7y6-e50302-d1e164">
+                  <lb ed="#T" n="62"/>2. Magnitudo est conditio materiae: in Deo 
+      <lb ed="#T" n="63"/>nilla est conditio materialis.
+    </p>
+               <p xml:id="pdt7y6-e50302-d1e171">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0241.xml-->
+                  <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="64"/>3. In Deo non est quantitas nisi virtutis: ergo 
+      <lb ed="#T" n="65"/>male condiuiditur magnitudo contra potestatem. 
+    </p>
+               <p xml:id="pdt7y6-e50302-d1e182">
+                  <lb ed="#T" n="66"/>4. Non solum Pater &amp; Filius &amp; Spiritus 
+      san<lb ed="#T" n="67" break="no"/>ctus sunt aequales aeternitate, magnitudine, &amp; 
+      <lb ed="#T" n="68"/>potestate, sed etiam in sapientia &amp; bonitate &amp; 
+      <lb ed="#T" n="69"/>huiusmodi: ergo insufficienter assignat 
+      Augusti<lb ed="#T" n="70" break="no"/>nus aequalitatem Diuinam in his rebus. 
+    </p>
+               <p xml:id="pdt7y6-e50302-d1e195">
+                  <lb ed="#T" n="71"/>Respondeo. AEquale dicitur secundum 
+      quan<lb ed="#T" n="72" break="no"/>titatem: in Deo non est quantitas nisi virtutis: 
+      <lb ed="#T" n="73"/>ergo neque aequalitas. Virtus vero est vltimum 
+      <lb ed="#T" n="74"/>posse rei, quia, vt ait Philosophus lib. de coelo 
+      <lb ed="#T" n="75"/>&amp; mundo virtus est vltimum de potentia in res 
+      <lb ed="#T" n="76"/>vnde secundum quod posse attribuitur ei, 
+      attri<lb ed="#T" n="77" break="no"/>buitur ei secundum hoc quantitas virtutis &amp; 
+      <lb ed="#T" n="78"/>aequalitas: posse vero extenditur ad tria, ad 
+      <lb ed="#T" n="79"/>actum essendi simpliciter: &amp; ad actum bene 
+      essen<lb ed="#T" n="80" break="no"/>di, secundum quod vnumquodque attingit 
+      vl<lb ed="#T" n="81" break="no"/>timam perfectionem sui generis: &amp; ad actum 
+      <lb ed="#T" n="82"/>operandi. Secundum hoc, quoad primum 
+      quan<lb ed="#T" n="83" break="no"/>titas virtutis appellatur aeternitas: quoad 
+      secun<lb ed="#T" n="84" break="no"/>dum magnitudo vnde magnus dicetur homo 
+      <lb ed="#T" n="85"/>perfectus in scientia &amp; gratia &amp; huiusmodi: 
+      <lb ed="#T" n="86"/>quoad tertium potestas: vnde conuenienter 
+      <lb ed="#T" n="87"/>assignatur aequalitas in his tribus, aequales enim 
+      <lb ed="#T" n="88"/>sunt in actu semper existendi, in perfectione 
+      na<lb ed="#T" n="89" break="no"/>turae, in potestate operandi, 
+    </p>
+               <p xml:id="pdt7y6-e50302-d1e239">
+                  <lb ed="#T" n="90"/>Ad 1. &amp; 2. in contrarium de magnitudine. 
+      <lb ed="#T" n="91"/>Resp. Accipitur hic non magnitudo molis, quae 
+      <lb ed="#T" n="92"/>est quantitas continua &amp; conditio materiae, sed  
+      <lb ed="#T" n="93"/>magnitudo virtutis. 
+    </p>
+               <p xml:id="pdt7y6-e50302-d1e251">
+                  <lb ed="#T" n="94"/>Ad 3. De potestate. Resp. Quantitas virtutis 
+      <lb ed="#T" n="95"/>communius accipitur quam potestatis: quia 
+      <lb ed="#T" n="96"/>quantitas potestatis respicit actus exteriores: sed  
+      <lb ed="#T" n="97"/>quantitas virtutis, &amp; actum semper 
+      existendi<lb ed="#T" n="98" break="no"/>&amp; actus in quibus consistit perfectio naturae, sicut  
+      <lb ed="#T" n="99"/>intelligendi, replendi omnia, &amp; huiusmodi. 
+    </p>
+               <p xml:id="pdt7y6-e50302-d1e267">
+                  <lb ed="#T" n="100"/>Ad 4. De sapientia &amp;c. Resp. Potest dici quod 
+      <lb ed="#T" n="101"/>sapientia &amp; bonitas &amp; huiusmodi continentur 
+      <lb ed="#T" n="102"/>sub quantitate magnitudinis. Vel potest dici 
+      <lb ed="#T" n="103"/>quod potius pertinent ad similitudinem quam 
+      <lb ed="#T" n="104"/>ad aequalitatem. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e50302-Dd1e282">
+               <head xml:id="pdt7y6-e50302-Hd1e284">Articulus 2</head>
+               <head xml:id="pdt7y6-e50302-Hd1e286" type="question-title">
+  De aeternitate Dei.
+</head>
+               <p xml:id="pdt7y6-e50302-d1e289">
+                  <lb ed="#T" n="105"/>Articvlvs II. 
+      <lb ed="#T" n="106"/>De AEternitate Dei.
+    </p>
+               <p xml:id="pdt7y6-e50302-d1e296">
+                  <lb ed="#T" n="107"/>AD secundum articulum proceditur sic. 1. 
+      <lb ed="#T" n="108"/>Nil est causa sui: sed Deus est auctor aeter.  
+      <lb ed="#T" n="109"/>nitatis, vt dicit August. lib. 83. quaestionum: 
+      <lb ed="#T" n="110"/>ergo aeternitas non est Deus: ergo non est in 
+      <lb ed="#T" n="111"/>Deo. 
+    </p>
+               <p xml:id="pdt7y6-e50302-d1e309">
+                  <lb ed="#T" n="112"/>2. Lib. de causis dicitur quod Deus est ante 
+      <lb ed="#T" n="113"/>aeternitatem, &amp; causa eius: ergo aeternitas non 
+      <lb ed="#T" n="114"/>est Deus: ergo nec est in Deo. 
+    </p>
+               <p xml:id="pdt7y6-e50302-d1e319">
+                  <lb ed="#T" n="115"/>3. Isaac lib. definitionum. AEternitas est 
+      <lb ed="#T" n="116"/>spatium continuum non interfectum: sed nihil 
+      <lb ed="#T" n="117"/>tale est in Deo: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e50302-d1e328">
+                  <lb ed="#T" n="118"/>4. Primum non habet mensurari, sed 
+      ipso<lb ed="#T" n="119" break="no"/>alia: ergo Diuinum esse non mensuratur aliquo: 
+      <lb ed="#T" n="120"/>ergo non est ponere aeternitatem in Deo. 
+    </p>
+               <p xml:id="pdt7y6-e50302-d1e337">
+                  <lb ed="#T" n="121"/>5. Dicit Boet. quod nunc stans facit 
+      aeterni<lb ed="#T" n="122" break="no"/>tatem: sed nihil factum est in Deo: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e50302-d1e344">
+                  <lb ed="#T" n="123"/>Contra. 1. Omne quod caret principio &amp; fine 
+      <lb ed="#T" n="124"/>est aeternum: Deus est huiusmodi: ergo aeternis 
+      <lb ed="#T" n="125"/>tas est in Deo 
+    </p>
+               <p xml:id="pdt7y6-e50302-d1e353">
+                  <lb ed="#T" n="126"/>2. Secundum Augustinum, res quibus 
+      fruen<lb ed="#T" n="127" break="no"/>dum sunt incommutabiles &amp; aeternae, scilicet,  
+      <lb ed="#T" n="128"/>Pater &amp; Filius &amp; Spiritus sanctus. 
+    </p>
+               <p xml:id="pdt7y6-e50302-d1e362">
+                  <lb ed="#T" n="129"/>3. Omne esse durans mensuram habet suae du¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0242.xml-->
+      <pb ed="#T" n="167"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>rationis: sed diuinum esse est huiusmodi: ergo 
+      <lb ed="#T" n="2"/>mensuram habet suae durationis, aut ergo carente. 
+      <lb ed="#T" n="3"/>principio &amp; fine, aut habentem vtrumque, aut 
+      <lb ed="#T" n="4"/>carentem fine habentem principium, quia quar 
+      <lb ed="#T" n="5"/>ta differentia est impossibilis: si esse diuinum 
+      ha<lb ed="#T" n="6" break="no"/>bet mensuram habentem principium vel finem, 
+      <lb ed="#T" n="7"/>ergo vel esse Diuinum terminatum est, vel 
+      <lb ed="#T" n="8"/>mensura non respondet suo menfurato: sec 
+      <lb ed="#T" n="9"/>vtrumque falsum est: ergo habet mensuram 
+      <lb ed="#T" n="10"/>carentem fine &amp; principio: haec autem dicitur 
+      <lb ed="#T" n="11"/>aeternitas: ergo aeternitas est in Deo. 
+      <lb ed="#T" n="12"/>Respondeo. Triplex solet distingui duratio: vna 
+      <lb ed="#T" n="13"/>carens principio &amp; fine, id est aeternitas: altera 
+      ha<lb ed="#T" n="14" break="no"/>bens vtrumque, id est tempus: tertia habens 
+      princi<lb ed="#T" n="15" break="no"/>pium, carens fine, id est aeuum. Sed haec 
+      diffe<lb ed="#T" n="16" break="no"/>rentia non est essentialis, nam quamuis mundus 
+      <lb ed="#T" n="17"/>careret principio &amp; fine, vt quidam Philosophi 
+      <lb ed="#T" n="18"/>dixerunt, non tamen esset aeternus, quia 
+      suc<lb ed="#T" n="19" break="no"/>cessione est mutabilis, vt dicit Boet. lib. 5. de 
+      <lb ed="#T" n="20"/>consolat. quamuis etiam Angelus esset ab 
+      aeter<lb ed="#T" n="21" break="no"/>no, non tamen esset aeternus proprie 
+      loquen<lb ed="#T" n="22" break="no"/>do, quia aeternitas idem est cum aeterno: sed  
+      <lb ed="#T" n="23"/>aeuum non esset idem quod Angelus. 
+    </p>
+               <p xml:id="pdt7y6-e50302-d1e424">
+                  <lb ed="#T" n="24"/>Differentia vero potest assignari sic, quia 
+      <lb ed="#T" n="25"/>vnumquodque quamdiu est in actu, non solum 
+      <lb ed="#T" n="26"/>in potentia, tamdiu durare dicitur: actus ergo 
+      <lb ed="#T" n="27"/>existendi est id quod primo a duratione aliqua 
+      <lb ed="#T" n="28"/>mensuratur, vnde ex parte diuernitatis eiu 
+      <lb ed="#T" n="29"/>oportet quod mensurarum seu durationum 
+      di<lb ed="#T" n="30" break="no"/>uersitas assignetur. Res enim diuerforum 
+      gene<lb ed="#T" n="31" break="no"/>nerum nunquam eadem meusura mensuratur. 
+      <lb ed="#T" n="32"/>non enim tempus vicubitum dicitur, nec linea 
+      <lb ed="#T" n="33"/>diurna vocatur. Actus vero existendi triplex 
+      <lb ed="#T" n="34"/>est: quidam omnino perfectus, qui est omnine 
+      <lb ed="#T" n="35"/>potentiae impermixtus vt esse Diuinum, &amp; huius 
+      <lb ed="#T" n="36"/>mensura est aeternitas: alius omnino 
+      imper<lb ed="#T" n="37" break="no"/>fectus &amp; semper potentiae permixtus, vnde 
+      <lb ed="#T" n="38"/>motui coniunctus, &amp; tale esse rerum est 
+      tempo<lb ed="#T" n="39" break="no"/>ralium generabilium &amp; corruptibilium, &amp; 
+      hu<lb ed="#T" n="40" break="no"/>iusmodi mensura est tepus: alius modo medio se 
+      <lb ed="#T" n="41"/>habens, est enim partim potentiae permixtus 
+      <lb ed="#T" n="42"/>in quantum est ab alio; partim non, in quantum  
+      <lb ed="#T" n="43"/>est simplex &amp; totus simul completus vt esse 
+      <lb ed="#T" n="44"/>Angelicum &amp; rerum perpetuarum; &amp; 
+      huiusmo<lb ed="#T" n="45" break="no"/>di mensura est aeuum. Notandum est autem quod 
+      <lb ed="#T" n="46"/>rerum aeternatum duratio tota est simul, quia 
+      <lb ed="#T" n="47"/>esse rei mensuratae &amp; posse &amp; agere totum est 
+      <lb ed="#T" n="48"/>simul, quia totum idem omnino simplex. 
+      Du<lb ed="#T" n="49" break="no"/>ratio vero rerum temporalium, tota est 
+      suc<lb ed="#T" n="50" break="no"/>cessiua, quia esse rei, quam mensurat, &amp; eius 
+      <lb ed="#T" n="51"/>posse &amp; agere continuae mutationi subjacet. 
+      Du<lb ed="#T" n="52" break="no"/>ratio vero rerum aeuiternarum partim simul est 
+      <lb ed="#T" n="53"/>partim succeisiue, quia esse rei quam mensurat, 
+      to<lb ed="#T" n="54" break="no"/>tum est simul; sed posse eius &amp; agere non est totum 
+      <lb ed="#T" n="55"/>simul sed successiue, non tamen continues sed 
+      <lb ed="#T" n="56"/>intercis e. Successio vero ista ab aliquibus tem 
+      <lb ed="#T" n="57"/>pus appellatur, aequiuoce tamen, vnde dicunt 
+      <lb ed="#T" n="58"/>Angeli partim mensurantur aeuo, scilicet quoad 
+      <lb ed="#T" n="59"/>esse quod semper idem permanet, ita quod nili 
+      <lb ed="#T" n="60"/>de ipso transit in praeteritum &amp; nil expectatur 
+      <lb ed="#T" n="61"/>in futurum, sed totum habetur complete: 
+      <lb ed="#T" n="62"/>partim vero tempore, scilicet quoad agere, id  
+      <lb ed="#T" n="63"/>est quoad vicissitudinem cogitationum &amp; 
+      af<lb ed="#T" n="64" break="no"/>fectionum quae sibi succedunt interpolatae, sicut  
+      <lb ed="#T" n="65"/>vnitates in numero, &amp; non continuae. Hoc 
+      vi<lb ed="#T" n="66" break="no"/>detur sentire Author lib. de Causis dicens, quod 
+      <lb ed="#T" n="67"/>inter rem cuius substantia &amp; actio est in momente 
+      <lb ed="#T" n="68"/>aeternitatis, &amp; inter rem cuius substantia &amp; actio est 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0242.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="69"/>in momento temporis teporis, est res media 
+      cu<lb ed="#T" n="70" break="no"/>rus sustantia est in momento aeternitatis, &amp; actio in 
+      <lb ed="#T" n="71"/>momento temporis. Quia tamen quilibet 
+      huius<lb ed="#T" n="72" break="no"/>modi actuum simplex est, &amp; statim copletus in se, &amp; 
+      <lb ed="#T" n="73"/>totus simul, aut futurus antequam sit, aut praeses 
+      <lb ed="#T" n="74"/>quandiu est aut praeteritus quando desinit esse 
+      <lb ed="#T" n="75"/>altero superadueniente, vnde quandiu durat 
+      to<lb ed="#T" n="76" break="no"/>tus simul est sicut ipsum esse, ideo mensuratur 
+      <lb ed="#T" n="77"/>mensura simplici sicut ipsum esse. Ideo alijs 
+      vi<lb ed="#T" n="78" break="no"/>detur mensurari eadem mensura qua 
+      mensura<lb ed="#T" n="79" break="no"/>tur esse: quamuis non simul inecipiat &amp; 
+      ma<lb ed="#T" n="80" break="no"/>neat semper cum ipso esse: sicut esse 
+      ani<lb ed="#T" n="81" break="no"/>marum diuersarum mensuratur eodem aeuo 
+      <lb ed="#T" n="82"/>quamuis non simul incipiant esse. Et hoc 
+      vide<lb ed="#T" n="83" break="no"/>tur sentire Anselmus in Prosologio, qui ponit 
+      <lb ed="#T" n="84"/>aeternitatem rerum fine carentium suecessionem 
+      <lb ed="#T" n="85"/>habere, dicit enim quod talia nondum habent 
+      <lb ed="#T" n="86"/>de sua aeternitate quod venturum est, sicut iam 
+      <lb ed="#T" n="87"/>non habent quod praeteritum est. Ipsa ergo 
+      aeter<lb ed="#T" n="88" break="no"/>nitas vera, sine vllo priori &amp; posteriori: tempus 
+      <lb ed="#T" n="89"/>cum priori &amp; posteriori continuq &amp; 
+      diuilibi<lb ed="#T" n="90" break="no"/>li: sed aeuum cum priori &amp; posteriori, non 
+      ta<lb ed="#T" n="91" break="no"/>men continuo sed indiuisibili propter actuum 
+      <lb ed="#T" n="92"/>simplicium renouationem. Illud tamen prius &amp; 
+      <lb ed="#T" n="93"/>posterius secundum quosdam de natura est 
+      ip<lb ed="#T" n="94" break="no"/>ius aeui, vnde ponunt in eo successionem, vt 
+      <lb ed="#T" n="95"/>Anselmus: secundum alios vero non, sed 
+      tem<lb ed="#T" n="96" break="no"/>poris aequiuoce accepti. 
+    </p>
+               <p xml:id="pdt7y6-e50302-d1e589">
+                  <lb ed="#T" n="97"/>In ipso autem mensurato duo est reperire, 
+      <lb ed="#T" n="98"/>scilicet ipsum cuius est actus, &amp; actum eius: sic 
+      <lb ed="#T" n="99"/>a parte mensurae duo, vnum quod respondet 
+      <lb ed="#T" n="100"/>vt mensura subjecto actus in quantum stat idem 
+      <lb ed="#T" n="101"/>sub illo actu toto, scilicet nunc: alterum quod 
+      <lb ed="#T" n="102"/>respondet vt mensura actui ipsi, &amp; hoc est 
+      dura<lb ed="#T" n="103" break="no"/>tio ipsa: secundum ergo quod differunt 
+      subje<lb ed="#T" n="104" break="no"/>ctum &amp; actus, differunt nunc &amp; duratio euius. 
+      <lb ed="#T" n="105"/>Sicut enim se habet quilibet actus ad subjectum 
+      <lb ed="#T" n="106"/>cuius est actus, sic quaelibet duratio ad suum 
+      <lb ed="#T" n="107"/>nunc. Actus vero qui mensuratur tempore 
+      <lb ed="#T" n="108"/>differt ab eo cuius est actus, secundum rem &amp; 
+      <lb ed="#T" n="109"/>secundum rationem continuae suceessionis, quia 
+      <lb ed="#T" n="110"/>mobile est de genere permanentium, motus de 
+      <lb ed="#T" n="111"/>genere successiuorum &amp; continuorum: eod em 
+      <lb ed="#T" n="112"/>ergo modo tempus &amp; nunc temporis differunt 
+      <lb ed="#T" n="113"/>dupliciter: &amp; secundum rem, quia nunc non 
+      <lb ed="#T" n="114"/>est tempus: &amp; secundum continuae 
+      successio<lb ed="#T" n="115" break="no"/>nis rationem, quia nune non est successiuum 
+      <lb ed="#T" n="116"/>nec continuum, sed permanet idem in toto 
+      <lb ed="#T" n="117"/>tempore, sicut mobile in toto motu; tempus 
+      <lb ed="#T" n="118"/>vero successiuum est &amp; continuum. Actus autem 
+      <lb ed="#T" n="119"/>qui mensuratur aeuo, scilicet ipsum esse 
+      aeuiter<lb ed="#T" n="120" break="no"/>ni, differt ab eo cuius est actus, re quidem, sed  
+      <lb ed="#T" n="121"/>non secundum rationem continuae successionis, 
+      <lb ed="#T" n="122"/>quia vtrumque sine continua successione est: 
+      <lb ed="#T" n="123"/>&amp; sic potest intelligi differentia aeui ad suum 
+      <lb ed="#T" n="124"/>nnne; differt enim (vt videtur) substantia ipsius 
+      <lb ed="#T" n="125"/>nunc, quod est aeui causa, a permanentia sua, 
+      <lb ed="#T" n="126"/>quae est aeui essentia; sicut nunc temporis a 
+      flu<lb ed="#T" n="127" break="no"/>xu suo qui est essentia temporis. Esse autem quod 
+      <lb ed="#T" n="128"/>mensuratur aeternitate est idem cum eo cuius est 
+      <lb ed="#T" n="129"/>actus, re, sed differunt solum ratione. Et ideo 
+      <lb ed="#T" n="130"/>aeternitas &amp; nunc aeternitatis non differuntre, 
+      <lb ed="#T" n="131"/>sed ratione solum, in quantum ipsa aeternitas 
+      <lb ed="#T" n="132"/>respicit actum existendi scilicet ipsum esse, nunc 
+      <lb ed="#T" n="133"/>vero aeternitatis ipsum quod est: quae duo in 
+      <lb ed="#T" n="134"/>Deo non differunt re sed ratione: in omnibus. 
+      <lb ed="#T" n="135"/>alijs etiam re. Et quia quicquid est in Deo Deus 
+      <lb ed="#T" n="136"/>est, ideo ipsa aeternitas idem est quod Deus se¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0243.xml-->
+      <pb ed="#T" n="168"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>cundum rem, differens tamen secundum ratione. 
+    </p>
+               <p xml:id="pdt7y6-e50302-d1e687">
+                  <lb ed="#T" n="2"/>Ad 1. &amp; 2. De Augustino &amp; Philosopho. 
+      <lb ed="#T" n="3"/>Resp. Loquuntur de aeternitate non essentiali, 
+      <lb ed="#T" n="4"/>sed participata, id est de aeuo. 
+    </p>
+               <p xml:id="pdt7y6-e50302-d1e696">
+                  <lb ed="#T" n="5"/>Ad 3. Quod opponitur de Isaac. Resp. 
+      aeter<lb ed="#T" n="6" break="no"/>nitatem accipit largius pro duratione successiua 
+      <lb ed="#T" n="7"/>infinita: sicut est aeternitas inundi secundum 
+      <lb ed="#T" n="8"/>Philosophos illos qui posuerunt mundum aeter 
+      <lb ed="#T" n="9"/>num vel materiam. Vel dicundum verius quod 
+      <lb ed="#T" n="10"/>spatium vocat moram seu permanentiam in 
+      <lb ed="#T" n="11"/>eodem statu. 
+    </p>
+               <p xml:id="pdt7y6-e50302-d1e714">
+                  <lb ed="#T" n="12"/>Ad 4. Primum non habet mensurari. Resp. 
+      <lb ed="#T" n="13"/>Non habet mensurari mensura, quae sit aliud ab 
+      <lb ed="#T" n="14"/>ipso secundum rem, sed secundum rationem 
+      <lb ed="#T" n="15"/>tantum. 
+    </p>
+               <p xml:id="pdt7y6-e50302-d1e725">
+                  <lb ed="#T" n="16"/>Ad 5. De Boetio. Resp. Facere accepit <name xml:id="pdt7y6-e50302-Nd1e729" ref="#Boethius">Boetius</name> 
+      <lb ed="#T" n="17"/>secundum rationem intelligendi solum, non 
+      se<lb ed="#T" n="18" break="no"/>cundum rem: sicut intellectus quando se 
+      intel<lb ed="#T" n="19" break="no"/>ligit dicitur pati a se. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

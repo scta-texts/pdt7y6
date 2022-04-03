@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="66"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e19903"><!-- l1d7q3 -->
+            <head xml:id="pdt7y6-e19903-Hd1e99">Quaestio 3</head>
+            <head xml:id="pdt7y6-e19903-Hd1e101" type="question-title">De potentia generandi in 
+comparatione ad potentiam creandi</head>
+            <p xml:id="pdt7y6-e19903-d1e104">
+               <lb ed="#T" n="70"/>QVESTIO III. 
+      <lb ed="#T" n="71"/>DE POTENTIA OENERANDI 
+      <lb ed="#T" n="72"/>duo. 
+      <lb ed="#T" n="73"/>IN COMPARATIONE AD POTENTIAM 
+      <lb ed="#T" n="74"/>CREANDI.
+</p>
+            <p xml:id="pdt7y6-e19903-d1e117">
+               <lb ed="#T" n="75"/>CIrca tertium de comparatione potentiae 
+      ge<lb ed="#T" n="76" break="no"/>nerandi ad potentiam creandi quaeruntur. 
+    </p>
+            <p xml:id="pdt7y6-e19903-d1e124">
+               <lb ed="#T" n="77"/>Primo, an eadem sit potentia creandi, &amp; 
+      ge<lb ed="#T" n="78" break="no"/>nerandi. 
+    </p>
+            <p xml:id="pdt7y6-e19903-d1e132">
+               <lb ed="#T" n="79"/>Secundo, an potentia generandi includatur in 
+      <lb ed="#T" n="80"/>omnipotentia Dei. 
+    </p>
+            <div xml:id="pdt7y6-e19903-Dd1e139">
+               <head xml:id="pdt7y6-e19903-Hd1e141">Articulus 1</head>
+               <head xml:id="pdt7y6-e19903-Hd1e143" type="question-title">
+  An eadem sit potentia creandi et generandi.
+</head>
+               <p xml:id="pdt7y6-e19903-d1e146">
+                  <lb ed="#T" n="81"/>Articvlvs I. 
+      <lb ed="#T" n="82"/>An eadem sit potentia creandi &amp; generandi. 
+    </p>
+               <p xml:id="pdt7y6-e19903-d1e153">
+                  <lb ed="#T" n="83"/>AD primum sic proceditur. 1. Potentiae 
+      di<lb ed="#T" n="84" break="no"/>stinguuntur per actus: sed creare, &amp; 
+      gene<lb ed="#T" n="85" break="no"/>rare diuersi sunt actus: ergo non erit eadem 
+      po<lb ed="#T" n="86" break="no"/>tentia. 
+    </p>
+               <p xml:id="pdt7y6-e19903-d1e164">
+                  <lb ed="#T" n="87"/>2. Quaecumque non sese inseparabiliter 
+      con<lb ed="#T" n="88" break="no"/>sequuntur, non sunt eadem: sed potentia 
+      crean<lb ed="#T" n="89" break="no"/>di, &amp; generandi non se inseparabiliter 
+      conse<lb ed="#T" n="90" break="no"/>quuntur, quia potentia creandi est in tribus, 
+      po<lb ed="#T" n="91" break="no"/>tentia generandi in solo Patre, &amp; circumscripta 
+      <lb ed="#T" n="92"/>potentia generandi a Deo, secundum illos 
+      qui<lb ed="#T" n="93" break="no"/>non credunt Trinitatem, nihilominus manet 
+      po<lb ed="#T" n="94" break="no"/>tentia creandi in Deo: ergo non sunt eadem 
+      po<lb ed="#T" n="95" break="no"/>tentia.
+    </p>
+               <p xml:id="pdt7y6-e19903-d1e187">
+                  <lb ed="#T" n="96"/>Contra. 1. In Deo nulla est potentiarum 
+      diuer<lb ed="#T" n="97" break="no"/>sitas: ergo omnis potentia Diuina est vna. 
+    </p>
+               <p xml:id="pdt7y6-e19903-d1e194">
+                  <lb ed="#T" n="98"/>2. Plus differunt sapientia &amp; potentia, quam 
+      <lb ed="#T" n="99"/>potentia &amp; potentia: sed in Deo sapientia est 
+      <lb ed="#T" n="100"/>idem cum potentia: ergo multo fortius 
+      poten<lb ed="#T" n="101" break="no"/>tia cum potentia. 
+    </p>
+               <p xml:id="pdt7y6-e19903-d1e205">
+                  <lb ed="#T" n="102"/>Iuxta hoc quaeritur. An dicatur vniuoce 
+      no<lb ed="#T" n="103" break="no"/>men, potentia, de vtraque &amp; videtur quod non. 1. 
+      <lb ed="#T" n="104"/>Quia creare &amp; generare in nullo vniuocantur: er. 18 
+      <lb ed="#T" n="105"/>go nec potentia generandi &amp; creandi, 
+    </p>
+               <p xml:id="pdt7y6-e19903-d1e216">
+                  <lb ed="#T" n="106"/>2. Actus essentiales &amp; personales non sunt,  
+      <lb ed="#T" n="107"/>eiusdem rationis, quia illi absoluti, isti relatiui: 
+      <lb ed="#T" n="108"/>ergo nec potentiae ad illos 
+    </p>
+               <p xml:id="pdt7y6-e19903-d1e225">
+                  <lb ed="#T" n="109"/>Contra. 1. In vno &amp; eodem nil potest esse 
+      aequi<lb ed="#T" n="110" break="no"/>uocum: vtraque potentia in Deo est: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e19903-d1e232">
+                  <lb ed="#T" n="111"/>2. Nomen, cuius significatum est vnum &amp; 
+      <lb ed="#T" n="112"/>idem, non est aequiuocum: sed potentia creandi 
+      <lb ed="#T" n="113"/>&amp; gener andi est vna est eadem, vt probatum est: 
+      <lb ed="#T" n="114"/>ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e19903-d1e244">
+                  <lb ed="#T" n="115"/>Iuxta hoc quaeritur. Posito quod dicatur se 
+      <lb ed="#T" n="116"/>cundum prius, &amp; posterius, de qua dicatur per 
+      <lb ed="#T" n="117"/>prius. Videtur, quod de potentia creandi 1. Quia 
+      <lb ed="#T" n="118"/>prius est commune, quam proprium: ergo 
+      po<lb ed="#T" n="119" break="no"/>tentia communis tribus, quam propria vni. 
+    </p>
+               <p xml:id="pdt7y6-e19903-d1e257">
+                  <lb ed="#T" n="120"/>2. Essentiale includitur in personali, sicut  
+      <lb ed="#T" n="121"/>essentia in persona, &amp; non e conuerso: ergo 
+      <lb ed="#T" n="122"/>essentiale est prius: nam prius includitur in 
+      po<lb ed="#T" n="123" break="no"/>steriori, non e conuerso. 
+    </p>
+               <p xml:id="pdt7y6-e19903-d1e268">
+                  <lb ed="#T" n="124"/>Contra. 1. Secundum ordinem actum est 
+      <lb ed="#T" n="125"/>ordo potentiarum: sed actus generandi prior 
+      <lb ed="#T" n="126"/>est, quam creandi: ergo &amp; potentia. 
+    </p>
+               <p xml:id="pdt7y6-e19903-d1e277">
+                  <lb ed="#T" n="127"/>2. Objectum potentiae generandi prius est 
+      <lb ed="#T" n="128"/>objecto potentiae creandi, sicut aeter num 
+      tempo<lb ed="#T" n="129" break="no"/>rali: ergo &amp; potentia. 
+    </p>
+               <p xml:id="pdt7y6-e19903-d1e286">
+                  <lb ed="#T" n="130"/>
+                  <!--1652-gregPress-MichiganState-gbooks-v1-0142.xml-->
+                  <pb ed="#T" n="67"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>Respondeo ad 1. Quaest. sicut esse creatorem, 
+      <lb ed="#T" n="2"/>&amp; esse Patrem vnum est ex parte essentiae, 
+      diffe<lb ed="#T" n="3" break="no"/>rens ex parte relationum; ita posse generare &amp; 
+      <lb ed="#T" n="4"/>posse creare, ex parte potentiae idem sunt, ex 
+      <lb ed="#T" n="5"/>parte operationum differunt: quia potentia, 
+      <lb ed="#T" n="6"/>cum sit medium secundum rationem 
+      intelligen<lb ed="#T" n="7" break="no"/>di inter essentiam &amp; operationem, ex parte 
+      essen<lb ed="#T" n="8" break="no"/>tiae, quae vna est, omnimodam habet vnitatem 
+      <lb ed="#T" n="9"/>quia idem est cum ipsa; ex parte operationum, 
+      <lb ed="#T" n="10"/>quae diuersae sunt &amp; secundum prius &amp; posterius, 
+      <lb ed="#T" n="11"/>habet distinctionem &amp; ordinem: sicut in sole 
+      <lb ed="#T" n="12"/>potentia lucendi, illuminandi, liquefaciendi, 
+      <lb ed="#T" n="13"/>constrnigendi, a parte solis eadem est, a parte 
+      <lb ed="#T" n="14"/>actum differens: &amp; ex parte illa est ibi analogia. 
+    </p>
+               <p xml:id="pdt7y6-e19903-d1e328">
+                  <lb ed="#T" n="15"/>Ad 1. potentiae distinguntur per actus. Resp. 
+      <lb ed="#T" n="16"/>Hoc verum est de potentsa comparata ad 
+      <lb ed="#T" n="17"/>actum, non in se 
+    </p>
+               <p xml:id="pdt7y6-e19903-d1e338">
+                  <lb ed="#T" n="18"/>Ad 2. De inseparabilitate. Resp. Secundum 
+      <lb ed="#T" n="19"/>id quod sunt, non separantur; sed secundum 
+      <lb ed="#T" n="20"/>comparationem ad actum. 
+    </p>
+               <p xml:id="pdt7y6-e19903-d1e347">
+                  <lb ed="#T" n="21"/>Ad 2. quaest. Resp. Potentia generandi &amp; 
+      <lb ed="#T" n="22"/>creandi per comparationem ad essentiam, id est, 
+      <lb ed="#T" n="23"/>secundum id quod est vna est in radice, &amp; 
+      vni<lb ed="#T" n="24" break="no"/>uoce dicitur: per comparationem ad actum, due, 
+      <lb ed="#T" n="25"/>&amp; analogie non aequiuoce dicitur, nam aliud 
+      <lb ed="#T" n="26"/>commune habet, scilicet generalem rationem 
+      <lb ed="#T" n="27"/>producendi aliquid: sed modus specialis 
+      pro<lb ed="#T" n="28" break="no"/>ducendi est in Diuinis. 
+    </p>
+               <p xml:id="pdt7y6-e19903-d1e367">
+                  <lb ed="#T" n="29"/>Ad. 1. Non vniuocantur. Resp. Quamuis 
+      <lb ed="#T" n="30"/>non vniuocentur habent tamen aliquid 
+      com<lb ed="#T" n="31" break="no"/>mune secundum rationem intelligendi per prius 
+      <lb ed="#T" n="32"/>&amp; posterius sicut dicit Basil. quod accipere esse, 
+      <lb ed="#T" n="33"/>commune est Filio &amp; creaturis. 
+    </p>
+               <p xml:id="pdt7y6-e19903-d1e380">
+                  <lb ed="#T" n="34"/>Ad 2. Actus essentiales &amp;c. Resp. Quamuis 
+      <lb ed="#T" n="35"/>non sint omnino eiusdem rationis, tamen 
+      se<lb ed="#T" n="36" break="no"/>cundum analogiam in aliquo conueniunt. 
+    </p>
+               <p xml:id="pdt7y6-e19903-d1e389">
+                  <lb ed="#T" n="37"/>Ad 3. Quaest. Resp. Sicut aeternum prius est 
+      <lb ed="#T" n="38"/>temporali, ita ordo ad aeternum prius est 
+      or<lb ed="#T" n="39" break="no"/>dine ad temporale: vnde potentiae ordinatio ad 
+      <lb ed="#T" n="40"/>actum aeternum generandi prius est ordinatione 
+      <lb ed="#T" n="41"/>eius ad actum temporalem creandi, secundum 
+      <lb ed="#T" n="42"/>rationem intelligendi saltem. 
+    </p>
+               <p xml:id="pdt7y6-e19903-d1e405">
+                  <lb ed="#T" n="43"/>Ad 1. Prius est commune &amp;c. Resp. De 
+      com<lb ed="#T" n="44" break="no"/>muni quod includitur in ratione proprij, verum, 
+      <lb ed="#T" n="45"/>est, vt animal in homine; sed non de 
+      com<lb ed="#T" n="46" break="no"/>mui, quod non includitur, vt album in 
+      ho<lb ed="#T" n="47" break="no"/>mine; creare vero non includitur in actu 
+      ge<lb ed="#T" n="48" break="no"/>nerandi. 
+    </p>
+               <p xml:id="pdt7y6-e19903-d1e422">
+                  <lb ed="#T" n="49"/>Ad 2. Essentiale includitur in personali. Resp. 
+      <lb ed="#T" n="50"/>Verum est de essentiali absoluto, non de 
+      essen<lb ed="#T" n="51" break="no"/>tiali relato ad creaturam. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e19903-Dd1e432">
+               <head xml:id="pdt7y6-e19903-Hd1e434">Articulus 2</head>
+               <head xml:id="pdt7y6-e19903-Hd1e436" type="question-title">
+  An potentia generandi includatur in omnipotentia Dei.
+</head>
+               <p xml:id="pdt7y6-e19903-d1e439">
+                  <lb ed="#T" n="52"/>Articvlvs II. 
+      <lb ed="#T" n="53"/>An potentia generandi includatur in omnipotentia. 
+      <lb ed="#T" n="54"/>Dei.
+</p>
+               <p xml:id="pdt7y6-e19903-d1e448">
+                  <lb ed="#T" n="55"/>AD secundum sic proceditur. 1. potentia 
+      <lb ed="#T" n="56"/>generandi est aliqua potentia, vt dicit 
+      <lb ed="#T" n="57"/>Magister: sed aliqua potentia continetur sub 
+      <lb ed="#T" n="58"/>omni potentia, sicut particulare sub 
+      vniuersa<lb ed="#T" n="59" break="no"/>li: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e19903-d1e461">
+                  <lb ed="#T" n="60"/>2. Maius quid est Filius, quam totus 
+      mun<lb ed="#T" n="61" break="no"/>dus: ergo maius posse generare Filium, quam 
+      <lb ed="#T" n="62"/>creare mundum si ergo non est omnipotentia. 
+      <lb ed="#T" n="63"/>sine inclusa potentia creandi, multo fortius sine 
+      <lb ed="#T" n="64"/>inclusa potentia generandi. 
+    </p>
+               <p xml:id="pdt7y6-e19903-d1e475">
+                  <lb ed="#T" n="65"/>Contra 1. Omnipotentia aequaliter est in 
+      Pa<lb ed="#T" n="66" break="no"/>tre &amp; Filio: potentia generandi non similiter est 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0142.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>in Patre &amp; Filio. 
+    </p>
+               <p xml:id="pdt7y6-e19903-d1e488">
+                  <lb ed="#T" n="68"/>2. AEquiuoca non vniuntur in aliquo: creator 
+      <lb ed="#T" n="69"/>&amp; creatura sunt entia aequiuoce: ergo non 
+      <lb ed="#T" n="70"/>vniuntur in aliquo: ergo sub omni ente non 
+      <lb ed="#T" n="71"/>continentur vtraque: ergo nec actus creatus, &amp; 
+      <lb ed="#T" n="72"/>increatus sub omnipotentia. 
+    </p>
+               <p xml:id="pdt7y6-e19903-d1e501">
+                  <lb ed="#T" n="73"/>Respondeo. Hic terminus, omnipotentia, 
+      <lb ed="#T" n="74"/>componitur ex hoc signo, omnis, &amp; potentia: 
+      <lb ed="#T" n="75"/>omnis vero aliquando facit distributionem 
+      <lb ed="#T" n="76"/>strictam, seu accommodam pro vniuersitate 
+      <lb ed="#T" n="77"/>entium creatorum, vt cum dicitur Ioan. 1. 
+      <lb ed="#T" n="78"/>Omnia per ipsum facta sunt: aliquando 
+      gene<lb ed="#T" n="79" break="no"/>ralem &amp; longam pro vniuersitate entium siue 
+      <lb ed="#T" n="80"/>creatorum, siue non, vt cum diuiditur ens in 
+      <lb ed="#T" n="81"/>temporale &amp; aeternum: secundo modo 
+      poten<lb ed="#T" n="82" break="no"/>ia generandi per comparationem ad actum 
+      <lb ed="#T" n="83"/>etiam cadit sub omnipotentia, non primo 
+      <lb ed="#T" n="84"/>modo. 
+    </p>
+               <p xml:id="pdt7y6-e19903-d1e530">
+                  <lb ed="#T" n="85"/>Ad 1. In contrarium omnipotentia similiter est 
+      <lb ed="#T" n="86"/>in patre &amp; Filio. Resp. Verum est; sed non 
+      <lb ed="#T" n="87"/>pportet quod ad omnes eosdem actus. 
+    </p>
+               <p xml:id="pdt7y6-e19903-d1e539">
+                  <lb ed="#T" n="88"/>Ad 2. Non vniuntur. Resp. Quamuis nihil 
+      <lb ed="#T" n="89"/>habeant vnum commune per vniuocationem 
+      <lb ed="#T" n="90"/>creator &amp; creatura, possunt tamen habere 
+      com<lb ed="#T" n="91" break="no"/>mune per analogiam quandam, &amp; sic possunt,  
+      <lb ed="#T" n="92"/>tare sub vna distributione generali.
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e19903-Dd1e553">
+               <head xml:id="pdt7y6-e19903-Hd1e555">Expositio litterae</head>
+               <p xml:id="pdt7y6-e19903-d1e557">
+                  <lb ed="#T" n="93"/>EXPOSITIO LITERAE. 
+      <lb ed="#T" n="94"/>NOn est aliquid subjectum Diuinae 
+      poten<lb ed="#T" n="95" break="no"/>Ntiae. ] Contra. Quicquid potest Deus 
+      <lb ed="#T" n="96"/>subjectum est potentiae suae. Resp. Generare 
+      <lb ed="#T" n="97"/>non est quid, sed ad aliquid sed adhuc 
+      oppo<lb ed="#T" n="98" break="no"/>nitur. Deus potest intelligere: ergo suum 
+      intel<lb ed="#T" n="99" break="no"/>ligere subjectum est suae potentiae: ergo est ea 
+      <lb ed="#T" n="100"/>inferius. Resp. Non vniuersaliter quicquid 
+      <lb ed="#T" n="101"/>potest Deus, subjectum est suae potentiae, sed  
+      <lb ed="#T" n="102"/>quicquid potest realiter differens ab ipsa 
+      po<lb ed="#T" n="103" break="no"/>tentia. 
+    </p>
+               <p xml:id="pdt7y6-e19903-d1e583">
+                  <lb ed="#T" n="104"/>Filij generatio non est de omnibus.] Contra. 
+      <lb ed="#T" n="105"/>Augustinus probat per omnipotentiam, quod 
+      <lb ed="#T" n="106"/>Deus Pater genuit Filium aequalem. Resp. 
+      <lb ed="#T" n="107"/>Stricte &amp; proprie, cum Deus nihil habeat cum 
+      <lb ed="#T" n="108"/>alio vniuocum, non cadit sub aliqua 
+      distribu<lb ed="#T" n="109" break="no"/>tione, loquendo large sic. 
+    </p>
+               <p xml:id="pdt7y6-e19903-d1e599">
+                  <lb ed="#T" n="110"/>[Esse patrem non est esse aliquid.] Contra: 
+      <lb ed="#T" n="111"/>ergo est esse nihil. Resp. Esse aliquid potest esse 
+      <lb ed="#T" n="112"/>dupliciter, vel communiter in ratione 
+      transcen<lb ed="#T" n="113" break="no"/>dentis ad quodlibet genus entis, &amp; sic 
+      comple<lb ed="#T" n="114" break="no"/>ctitur essentiam &amp; personam; vel stricte &amp; proprie 
+      <lb ed="#T" n="115"/>significat substantia, &amp; sic complectitur essentiam 
+      <lb ed="#T" n="116"/>solum: primo modo sequeretur, non est aliquid, 
+      <lb ed="#T" n="117"/>ergo nihil: secundo modo non sequitur.  
+    </p>
+               <p xml:id="pdt7y6-e19903-d1e619">
+                  <lb ed="#T" n="118"/>[Si nasci potuit, potuit esse Filius.] Cotra esse 
+      <lb ed="#T" n="119"/>relationis non necessario causat mutabilitatem. 
+      <lb ed="#T" n="120"/>Resp. Secus est in creaturis vbi relatio, cum 
+      <lb ed="#T" n="121"/>sit accidens, vt paternitas &amp; huiusmodi, 
+      sequi<lb ed="#T" n="122" break="no"/>tur suppositum, iam distinctum, &amp; non ipsa 
+      con<lb ed="#T" n="123" break="no"/>stituit: &amp; indiuinis vbi relatio suppositum distinctum 
+      <lb ed="#T" n="124"/>facit, quia est, quasi forma distincta personaliter.  
+    </p>
+               <p xml:id="pdt7y6-e19903-d1e638">
+                  <lb ed="#T" n="125"/>[Ex impotentia non: fuit.] Notandum, 
+      <lb ed="#T" n="126"/>quod prout hoc quod dico, non potuit, 
+      <lb ed="#T" n="127"/>accipitur in virtute negatiuae orationis, sic 
+      se<lb ed="#T" n="128" break="no"/>quitur, non potuit: ergo potuit: secundum 
+      <lb ed="#T" n="129"/>vero quod accipitur in virtute vnius quasi 
+      pri<lb ed="#T" n="130" break="no"/>uatiuae dictionis, non sequitur 
+    </p>
+               <p xml:id="pdt7y6-e19903-d1e654">
+                  <lb ed="#T" n="131"/>[Pater est potens natura gignere Filium 
+      <lb ed="#T" n="132"/>Contra ergo potens essentia. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0143.xml-->
+      <pb ed="#T" n="68"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>Item. Ergo cum eadem natura sit in 
+      Spiritu<lb ed="#T" n="2" break="no"/>Sancto, ergo Spiritus Sanctus potest gignere 
+    </p>
+               <p xml:id="pdt7y6-e19903-d1e672">
+                  <lb ed="#T" n="3"/>Respondeo. Quamuis natura &amp; essentia sint 
+      <lb ed="#T" n="4"/>idem secundum rem, tamen differunt secundum 
+      <lb ed="#T" n="5"/>rationem, quia essentia dicitur absolure, 
+      natu<lb ed="#T" n="6" break="no"/>ra vero, in quantum est principium 
+      operatio<lb ed="#T" n="7" break="no"/>num naturalium. 
+    </p>
+               <p xml:id="pdt7y6-e19903-d1e685">
+                  <lb ed="#T" n="8"/>Ad. 2. Resp. quamuis natura sit eadem in 
+      <lb ed="#T" n="9"/>tribus secundum se, tamen alteri proprietati 
+      <lb ed="#T" n="10"/>coniuncta est in persona patris, quam Filij, vel 
+      <lb ed="#T" n="11"/>Spiritus Sancti: vnde potentia naturalis ad 
+      <lb ed="#T" n="12"/>aliquem alium actum ordinatur in Patre scilicet,  
+      <lb ed="#T" n="13"/>generandi, quam in Filio, quam in Spiritu Sancto. 
+    </p>
+               <p xml:id="pdt7y6-e19903-d1e701">
+                  <lb ed="#T" n="14"/>[Eandem potentiam qua potuit gignere 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0143.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="15"/>Contra potentiae distinguntur per actus. Resp. 
+      <lb ed="#T" n="16"/>Respiciendo ad radicem potentiae secundum id 
+      <lb ed="#T" n="17"/>quod est, eadem est: comparando ad actum, quia 
+      <lb ed="#T" n="18"/>sic concernit proprietatem, non eadem est, 
+    </p>
+               <p xml:id="pdt7y6-e19903-d1e719">
+                  <lb ed="#T" n="19"/>(Filius habet potentiam, qua potest gigni, 
+      <lb ed="#T" n="20"/>Contra quicquid habet Filius habet a patre; sed  
+      <lb ed="#T" n="21"/>potentiam qua potest gigni, non habet a patre, 
+      <lb ed="#T" n="22"/>quia potentia naturaliter praecedit actum, ex actu 
+      <lb ed="#T" n="23"/>vero generationis habet Filius quicquid habet  
+      <lb ed="#T" n="24"/>a Patre. Resp. Filius habet a patre potentiam 
+      <lb ed="#T" n="25"/>gignendi non actiue dictam, ex qua habet 
+      quic<lb ed="#T" n="26" break="no"/>quid habet, illam scilicet, qua pater generat; 
+      <lb ed="#T" n="27"/>sed quaconuenit ei esse genitum. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

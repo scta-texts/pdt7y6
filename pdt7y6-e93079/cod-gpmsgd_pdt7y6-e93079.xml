@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="306"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e93079"><!-- l1d37q4 -->
+            <head xml:id="pdt7y6-e93079-Hd1e99">Quaestio 4</head>
+            <head xml:id="pdt7y6-e93079-Hd1e101" type="question-title">Qualiter spiritus creatus seu Angelus sit in loco</head>
+            <p xml:id="pdt7y6-e93079-d1e104">
+               <lb ed="#T" n="25"/>QVESTIO IV 
+      <lb ed="#T" n="26"/>QVALITER SPIRITVS CREATVS 
+      <lb ed="#T" n="27"/>SEV ANOELVS SIT IN LOCO. 
+</p>
+            <p xml:id="pdt7y6-e93079-d1e113">
+               <lb ed="#T" n="28"/>CIrca quartum quaeruntur 
+      tria<lb ed="#T" n="29" break="no"/>Primo an angelus sit in loco. 
+      <lb ed="#T" n="30"/>Secundo an possit esse in pluribus locis simul. 
+      <lb ed="#T" n="31"/>Tertio an possint plures angeli simul esse in 
+      <lb ed="#T" n="32"/>eodem loco. 
+    </p>
+            <div xml:id="pdt7y6-e93079-Dd1e126">
+               <head xml:id="pdt7y6-e93079-Hd1e128">Articulus 1</head>
+               <head xml:id="pdt7y6-e93079-Hd1e130" type="question-title">An angelus sit in loco</head>
+               <p xml:id="pdt7y6-e93079-d1e133">
+                  <lb ed="#T" n="33"/>Articvlvs I. 
+      <lb ed="#T" n="34"/>An angelus sit in loco.
+</p>
+               <p xml:id="pdt7y6-e93079-d1e140">
+                  <lb ed="#T" n="35"/>AD primum sic proceditur. Boetius lib. de 
+      <lb ed="#T" n="36"/>Trinit. Communis animi conceptio est, 
+      <lb ed="#T" n="37"/>quae incorporalia sunt, in loco non esse: ergo 
+      <lb ed="#T" n="38"/>angeli non sunt in loco. 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e151">
+                  <lb ed="#T" n="39"/>2. Augustinus lib. 83. quaest. Quod alicubi 
+      <lb ed="#T" n="40"/>est continetur loco, quod continetur loco 
+      cor<lb ed="#T" n="41" break="no"/>pus est: sed angelus non est corpus: ergo non 
+      <lb ed="#T" n="42"/>est alicubi. 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e163">
+                  <lb ed="#T" n="43"/>3. Locus est accidens corporale: sed 
+      substan<lb ed="#T" n="44" break="no"/>tia spiritualis non est susceptibilis accidentium 
+      <lb ed="#T" n="45"/>corporalium: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e172">
+                  <lb ed="#T" n="46"/>4. Spiritus humanus potest esse sine corpore 
+      <lb ed="#T" n="47"/>proprio: ergo multo fortius sine alieno: ergo sine 
+      <lb ed="#T" n="48"/>loco: ergo multe magis angelus qui est spiritus 
+      <lb ed="#T" n="49"/>magis absolutus a corpore. 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e183">
+                  <lb ed="#T" n="50"/>5. Omne quod non depende: a situ, vel 
+      mate<lb ed="#T" n="51" break="no"/>ria, non dependet a loco: ergo angelus non 
+      de<lb ed="#T" n="52" break="no"/>pendet a loco: ergo potest esse sine loco: ergo 
+      <lb ed="#T" n="53"/>non est in loco. 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e194">
+                  <lb ed="#T" n="54"/>6. Vltimum corpus, scilicet coelum, propter 
+      <lb ed="#T" n="55"/>sui nobilitatem non est in loco: ergo cuin 
+      an<lb ed="#T" n="56" break="no"/>gelus sit multo nobilior &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e203">
+                  <lb ed="#T" n="57"/>Contra. 1. Damascenus: Coelum est 
+      conti<lb ed="#T" n="58" break="no"/>nentia visibilium &amp; inuilibilium creaturarum: 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e210">
+                  <lb ed="#T" n="59"/>rgo creatura inuisibilis, scilicet angelus, 
+      conti<lb ed="#T" n="60" break="no"/>netur coelo: ergo continue est in coelo. 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e218">
+                  <lb ed="#T" n="61"/>2. Damasc. Angelus essentialiter adest, &amp; 
+      cir<lb ed="#T" n="62" break="no"/>cumscribitur vbi operatur. Et dicit quod cum 
+      <lb ed="#T" n="63"/>sunt angeli in coelo, non sunt in terra: ergo 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0381.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="64"/>definiuntur loco¬ 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e234">
+                  <lb ed="#T" n="65"/>3. Augustinus lib. de definitionibus rectae fidei: 
+      <lb ed="#T" n="66"/>Angelos &amp; omnes substantias intellectuales ideo 
+      <lb ed="#T" n="67"/>corporeas dicimus, quia loca circumscribuntur.  
+      <lb ed="#T" n="68"/>ergo sunt in loco. 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e245">
+                  <lb ed="#T" n="69"/>4. Angelus aut est vbique, aut nusquam, aut 
+      <lb ed="#T" n="70"/>alicubi &amp; alicubi non: si primo modo est, ergo 
+      <lb ed="#T" n="71"/>est Deus, secundum Ambrosium: si secundo 
+      <lb ed="#T" n="72"/>modo, ergo nihil est, secundum Anselmum: si 
+      <lb ed="#T" n="73"/>tertio modo, ergo definitur loco: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e258">
+                  <lb ed="#T" n="74"/>5. Quaecumque carent differentia loci, simui 
+      <lb ed="#T" n="75"/>sunt: Angeli non sunt simul plures: ergo 
+      diffe<lb ed="#T" n="76" break="no"/>runt loco: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e267">
+                  <lb ed="#T" n="77"/>6. Angeli non sunt extra mundum, cum sint  
+      <lb ed="#T" n="78"/>partes mundi: ergo in mundo tantum: sed non 
+      <lb ed="#T" n="79"/>in toto: ergo in parte: ergo sunt in loco 
+      deter<lb ed="#T" n="80" break="no"/>minato. 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e278">
+                  <lb ed="#T" n="81"/>Ad haec dicunt aliqui quod angelus est in 
+      <lb ed="#T" n="82"/>loco determinato, non per essentiam, sed per 
+      <lb ed="#T" n="83"/>operationem 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e288">
+                  <lb ed="#T" n="84"/>Sed contra hoc opponitur. 1. Quia quod 
+      con<lb ed="#T" n="85" break="no"/>uenit alicui per aliud, conuenit primo illi alteri: 
+      <lb ed="#T" n="86"/>sed operationi non conuenit esse in loco: ergo 
+      <lb ed="#T" n="87"/>nec angelo per operationem. 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e299">
+                  <lb ed="#T" n="88"/>2. Quamuis operatio Dei sit in loco 
+      definiti<lb ed="#T" n="89" break="no"/>uo, vt suscitatio mortui: non tamen propter  
+      <lb ed="#T" n="90"/>hoc Deus dici potest esse in Poco definitiuo: 
+      er<lb ed="#T" n="91" break="no"/>go a simili nec angelus. 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e310">
+                  <lb ed="#T" n="92"/>3. Aut dicitur hoc ratione operationis 
+      spiri<lb ed="#T" n="93" break="no"/>tualis, aut corporalis: si rationem spiritualis, 
+      <lb ed="#T" n="94"/>Contra, illa nullam habitudinem habet ad 
+      lo<lb ed="#T" n="95" break="no"/>cum: si ratione corporalis, Contra, angelus, 
+      <lb ed="#T" n="96"/>in coelo nihil corporaliter operatur: ergo non 
+      <lb ed="#T" n="97"/>est difinitiue in coelo. 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e326">
+                  <lb ed="#T" n="98"/>Respondeo. Circa hanc quaestionem alia est: 
+      <lb ed="#T" n="99"/>opinio Thilosophorum antiquorum: alia 
+      quo<lb ed="#T" n="100" break="no"/>rundam Theologorum: alia Theologorum 
+      com<lb ed="#T" n="101" break="no"/>muniter. Prima est, quod angelus siue 
+      Intelli<lb ed="#T" n="102" break="no"/>gentia cum sit substantia pure denudata ab 
+      omni<lb ed="#T" n="103" break="no"/>materia &amp; materialibus conditionibus, nullo 
+      mo<lb ed="#T" n="104" break="no"/>do est in loco nec per essentiam, nec per 
+      opera<lb ed="#T" n="105" break="no"/>tionem: quia Intelligentia separata sine vllo suo 
+      <lb ed="#T" n="106"/>motu mouet, vt desideratum mouet 
+      desideran<lb ed="#T" n="107" break="no"/>tem, animam orbi alicui coniunctam, &amp; illa 
+      or<lb ed="#T" n="108" break="no"/>bem sibi coniunctum mouet, &amp; ille mouet 
+      ele<lb ed="#T" n="109" break="no"/>mentalem materiam. Secunda est, quod angelus 
+      <lb ed="#T" n="110"/>per essentiam numquam est in loco, nec per 
+      ac<lb ed="#T" n="111" break="no"/>cidens in corpore assumpto: sed per 
+      operatio<lb ed="#T" n="112" break="no"/>nem solum, in quantum circa locum aliquem 
+      <lb ed="#T" n="113"/>vel locatum aliquid operatur quocunqe modo. 
+      <lb ed="#T" n="114"/>ita quod si nullo modo operatur circa corpus 
+      <lb ed="#T" n="115"/>aliquod, non est in loco corporeo. Sed Spiritus 
+      <lb ed="#T" n="116"/>Diuinus dicitur esse in loco quia operatur ipsum 
+      <lb ed="#T" n="117"/>esse loci &amp; locati in loco &amp; locato: spiritus 
+      an<lb ed="#T" n="118" break="no"/>gelicus, quia operatur aliqua esse consequentia, 
+      <lb ed="#T" n="119"/>no esse in loco vel locato: spiritus humanus, quia 
+      <lb ed="#T" n="120"/>pperatur esse? sui in locato, scilicet corpore 
+      pro<lb ed="#T" n="121" break="no"/>prio, (&amp; per ipsum aliqua operatur in loco. 
+      Ter<lb ed="#T" n="122" break="no"/>tia opinio est, quod angelus, &amp; per operationem 
+      <lb ed="#T" n="123"/>corporalem, &amp; per essentiam est in loco, sed 
+      de<lb ed="#T" n="124" break="no"/>finitiue non circumscriptiue. Prima opinio 
+      con<lb ed="#T" n="125" break="no"/>tradicit fidei, quae ponit angelos eirca nos 
+      ope<lb ed="#T" n="126" break="no"/>rari. Secunda videtur non bene consentire 
+      aucto<lb ed="#T" n="127" break="no"/>ritatibus sanctorum, qui ponunt eos 
+      circumscri<lb ed="#T" n="128" break="no"/>bi, id est, determinari. Tertia videtur verior quae 
+      <lb ed="#T" n="129"/>ponit eos loco determinato definitiue contineri. 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e398">
+                  <lb ed="#T" n="130"/>Hanc ergo sequendo, dico quod secundum 
+      <lb ed="#T" n="131"/>Philosophum lib. Phys. locus proprie dicitur 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0382.xml-->
+      <pb ed="#T" n="307"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>esse superficies corporis rem ambientis: vnde ad 
+      <lb ed="#T" n="2"/>completam rationem existendi in loco, tria 
+      con<lb ed="#T" n="3" break="no"/>currunt. quod enim ambitur, vndique 
+      commen<lb ed="#T" n="4" break="no"/>suratur: intra rem ambientem includitur &amp; 
+      con<lb ed="#T" n="5" break="no"/>tinetur; intus ipsi rei ambienti praesens habetur: 
+      <lb ed="#T" n="6"/>requirit ergo esse in loco proprie 
+      commensura<lb ed="#T" n="7" break="no"/>tionem, determinationem, praesentialitatem: 
+      <lb ed="#T" n="8"/>praesentialitatem dico per se suosistentem, quam 
+      <lb ed="#T" n="9"/>non habent accidentia rei locatae: &amp; separatam, 
+      <lb ed="#T" n="10"/>quam non habent partes locati, vnde nec per se 
+      <lb ed="#T" n="11"/>sunt in loco: &amp; internam, quam non habent 
+      lo<lb ed="#T" n="12" break="no"/>cata contigua. Quia ergo solae substantiae 
+      com<lb ed="#T" n="13" break="no"/>pletae talem praesentiam possunt habere ad 
+      cor<lb ed="#T" n="14" break="no"/>poralia loca, ideo solae possunt dici esse per se in 
+      <lb ed="#T" n="15"/>locis corporalibus: sed haec secundum maiorem 
+      <lb ed="#T" n="16"/>vel minorem proprietatem, secundum quod 
+      <lb ed="#T" n="17"/>plus participant rationem loci dicti: corpora enim 
+      <lb ed="#T" n="18"/>sic sunt intra superficies aliquorum corporum, 
+      <lb ed="#T" n="19"/>quod habent ad eas commensurationem, &amp; 
+      deter<lb ed="#T" n="20" break="no"/>minationem, &amp; praesentialitatem: spiritus vero 
+      <lb ed="#T" n="21"/>creati sic sunt intea superficies aliquorum 
+      cor<lb ed="#T" n="22" break="no"/>porum (quia vniuersum componitur ex 
+      corpo<lb ed="#T" n="23" break="no"/>ribus sese contingentibus) quod habent ad eas 
+      <lb ed="#T" n="24"/>non commensurationem, sed tamen 
+      determina<lb ed="#T" n="25" break="no"/>tionem, non enim sant extra ipsas) &amp; praesentia. 
+      <lb ed="#T" n="26"/>litatem: spiritus vero increatus fic est intra 
+      su<lb ed="#T" n="27" break="no"/>perficies quorumlibet corporum, quod non 
+      ha<lb ed="#T" n="28" break="no"/>bet cum eis commensurationem, nec 
+      determi<lb ed="#T" n="29" break="no"/>nationem, quin sit etiam extra illas, vel esse 
+      pos<lb ed="#T" n="30" break="no"/>sit simul intra alteram superficiem sed solam 
+      <lb ed="#T" n="31"/>praesentialitatem: ideo proprie dicuntur corpora 
+      <lb ed="#T" n="32"/>esse in loco, scilicet circumscriptiue; spiritus 
+      <lb ed="#T" n="33"/>creati large, scilicet difinitiue solum; Spiritus 
+      <lb ed="#T" n="34"/>Diuinus largissime scilicet praesentialiter solum, 
+      <lb ed="#T" n="35"/>Corpas enim suostantia partibilis est &amp; termina 
+      <lb ed="#T" n="36"/>ta termino eiusdem generis, ideo loco 
+      commen<lb ed="#T" n="37" break="no"/>suratur &amp; definitur: angelus substantia 
+      impar<lb ed="#T" n="38" break="no"/>tibilis est, sed terminata termino non eiusdem 
+      <lb ed="#T" n="39"/>generis, ideo non commensuratur, sed definitur: 
+      <lb ed="#T" n="40"/>Deus vero substantia nec partibilis, nec 
+      termi<lb ed="#T" n="41" break="no"/>nata, ideo nec commensuratur nec definitur, sed  
+      <lb ed="#T" n="42"/>interius praesentialiter per totum adest. 
+      Exem<lb ed="#T" n="43" break="no"/>plum huius triplicis locationis potest poni in 
+      <lb ed="#T" n="44"/>homine, cuius corpus circumscriptiue est in 
+      lo<lb ed="#T" n="45" break="no"/>co intrinseco: anima est quasi definitiue in 
+      cor<lb ed="#T" n="46" break="no"/>pore suo, non circumscriptiue, quia vtrumque 
+      <lb ed="#T" n="47"/>terminatum est, sed non termino eiusdem 
+      gene<lb ed="#T" n="48" break="no"/>ris: ipsa eadem quasi praesentialiter, non 
+      circum<lb ed="#T" n="49" break="no"/>scriptiue, nec difinitiue, est in qualibet parte 
+      <lb ed="#T" n="50"/>corporis. Et si anima esset in corpore vt separata 
+      <lb ed="#T" n="51"/>ab ipso, tunc esset magis perfecta similitudo; sed 
+      <lb ed="#T" n="52"/>quia vnita est corpori vt forma &amp; motor, non 
+      di<lb ed="#T" n="53" break="no"/>citur proprie esse in corpore vel parte corporis 
+      <lb ed="#T" n="54"/>tanquam in loco, sed tanquam perfectio in suo 
+      <lb ed="#T" n="55"/>perfectibili, vel motor in moto. Id quod in loco 
+      <lb ed="#T" n="56"/>est praesentialiter tantum vt Deus, sic est in loce 
+      <lb ed="#T" n="57"/>quod nullo mudo dependet a loco, sed locus ab 
+      <lb ed="#T" n="58"/>ipso. Id quod definitiue tantum, vt angelus, 
+      <lb ed="#T" n="59"/>sic est in loco quod non dependet a loco 
+      secun<lb ed="#T" n="60" break="no"/>dum aliquam virtutem loci proprie dictam, nec 
+      <lb ed="#T" n="61"/>locus ab ipso; vnde locus potest esse sine vllo 
+      <lb ed="#T" n="62"/>spiritu creato, &amp; spiritus creari potuit sine loco, 
+      <lb ed="#T" n="63"/>si crearetur in mundo intelligibili non sensibili 
+      <lb ed="#T" n="64"/>sed quia creatus est in mundo sensibili, nunquam  
+      <lb ed="#T" n="65"/>potest esse in mundo quin sit in loco, non quod 
+      <lb ed="#T" n="66"/>locus ipse determinet ipsum, sed Deus in loco 
+      <lb ed="#T" n="67"/>Id quod circumscriptiue est in loco, vt corpus 
+      <lb ed="#T" n="68"/>dependet a loco &amp; locus ab ipso, ita quod non 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0382.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="69"/>est locus sine corpore, nec corpus circum 
+      scripti<lb ed="#T" n="70" break="no"/>bile fine loco¬ 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e567">
+                  <lb ed="#T" n="71"/>Ad 1. De auctoritate Boetij. Resp. Loquitur 
+      <lb ed="#T" n="72"/>de esse in loco stricte &amp; proprie, id est 
+      circum<lb ed="#T" n="73" break="no"/>scriptiue, non definitiue tantum, 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e577">
+                  <lb ed="#T" n="74"/>Ad 2. Augustini. Resp. Loquitur de esse alicub 
+      <lb ed="#T" n="75"/>circumscriptiue, non definitiue solum. 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e584">
+                  <lb ed="#T" n="76"/>Ad 3. Locus est accidens corporale. Resp. 
+      <lb ed="#T" n="77"/>Locus non est in locato. Et cum dicitur quod 
+      <lb ed="#T" n="78"/>vbi est accidens corporale. Resp. Hoc verum 
+      <lb ed="#T" n="79"/>est de vbi circumscriptiuo, non definitiuo. 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e595">
+                  <lb ed="#T" n="80"/>Ad 4. De spiritu humano. Resp. Esse sine 
+      cor<lb ed="#T" n="81" break="no"/>pore dupliciter potest intelligi, scilicet vt 
+      sepa<lb ed="#T" n="82" break="no"/>ratum a corpore secundum esse, vel secundum 
+      <lb ed="#T" n="83"/>vbi: primo modo esser sine corpore magis 
+      conue<lb ed="#T" n="84" break="no"/>nit angelo quam anime:: secundo modo e 
+      con<lb ed="#T" n="85" break="no"/>trario, quia anima est pars alicuius totius, vnde 
+      <lb ed="#T" n="86"/>non conuenit vt est pars esse in loco nisi per 
+      ac<lb ed="#T" n="87" break="no"/>cidens, sed post separationem a corpore 
+      conue<lb ed="#T" n="88" break="no"/>nit: sed angelus est substantia absoluta. Vel 
+      dice<lb ed="#T" n="89" break="no"/>dum, quod primo modo maius est esse sine 
+      cor<lb ed="#T" n="90" break="no"/>pore proprio, quam alieno: secundo modo 
+      mi<lb ed="#T" n="91" break="no"/>nus est: sicut esse in hoc loco minus est, quam 
+      <lb ed="#T" n="92"/>esse in loco simpliciter; vnde non sequitur, 
+      po<lb ed="#T" n="93" break="no"/>test esse sine hoc loco, ergo simpliciter sine loco. 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e628">
+                  <lb ed="#T" n="94"/>Ad 5. Omne absolutum a materia &amp; situ &amp;c. 
+      <lb ed="#T" n="95"/>Resp. Absolutum est a loco circum scriptiuo, sed  
+      <lb ed="#T" n="96"/>non definitiuo. 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e637">
+                  <lb ed="#T" n="97"/>Ad 6. De vltimo corpore. Resp. Non est hoc 
+      <lb ed="#T" n="98"/>propter coeli nobilitatem solam, vel 
+      independen<lb ed="#T" n="99" break="no"/>tiam: sed ratione vltimitatis &amp; ratione 
+      maiorita<lb ed="#T" n="100" break="no"/>tis, quia corpus est maximum; vnde non potest 
+      <lb ed="#T" n="101"/>includi intra corpus alterum: sed tamen aliud 
+      <lb ed="#T" n="102"/>corpus nobilius, eo quod minus est ipso, vt 
+      cor<lb ed="#T" n="103" break="no"/>pus glorificatum, includitur intra ipsum. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e93079-Dd1e657">
+               <head xml:id="pdt7y6-e93079-Hd1e659">Articulus 2</head>
+               <head xml:id="pdt7y6-e93079-Hd1e661" type="question-title">An angelus possit esse in pluribus locis simul</head>
+               <p xml:id="pdt7y6-e93079-d1e664">
+                  <lb ed="#T" n="104"/>Articvlvs II. 
+      <lb ed="#T" n="105"/>An angelus possit esse in pluribus locis simul. 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e671">
+                  <lb ed="#T" n="106"/>AD secundum articulum sic proceditur. 1. 
+      <lb ed="#T" n="107"/>Corpus magis determinatum est ad locum 
+      <lb ed="#T" n="108"/>quam angelus: aliquod corpus, scilicet Christi, 
+      <lb ed="#T" n="109"/>potest esse simul in pluribus locis: ergo &amp; 
+      an<lb ed="#T" n="110" break="no"/>gelus. 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e684">
+                  <lb ed="#T" n="111"/>2. Secundum Damascenum, ibi est angelus 
+      <lb ed="#T" n="112"/>vbi operatur: sed potest operari alibi quam in 
+      <lb ed="#T" n="113"/>loco vno determinato, quia omne agens cuius 
+      <lb ed="#T" n="114"/>virtus excedit illud circa quod agit, potest &amp; cit 
+      <lb ed="#T" n="115"/>ca aliud operari: ergo potest esse in pluribi locis, 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e698">
+                  <lb ed="#T" n="116"/>3. Angelus cum assumit corpus &amp; mouet illud 
+      <lb ed="#T" n="117"/>simul totum &amp; aequaliter, ipse simul est &amp; 
+      aequali<lb ed="#T" n="118" break="no"/>ter in qualibet parte corporis, quia ibi est vbi 
+      <lb ed="#T" n="119"/>operatur: ergo cum plures sint partes, ipse est in 
+      <lb ed="#T" n="120"/>pluribus locis. 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e711">
+                  <lb ed="#T" n="121"/>4. Angelus est in aliquo loco vt in domo: aut 
+      <lb ed="#T" n="122"/>ergo solum in simplici, vt in puncto, aut in 
+      com<lb ed="#T" n="123" break="no"/>posito: si in simplici, Cotra, non operatur in 
+      pun<lb ed="#T" n="124" break="no"/>cto: si in composito; aut in toto, ita quod non 
+      <lb ed="#T" n="125"/>in qualibet parte, Contra, ergo extensiue est in 
+      <lb ed="#T" n="126"/>loco: si in qualibet, ergo in pluribus locis simul 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e727">
+                  <lb ed="#T" n="127"/>5. Angelus secundum quosdam mouetur 
+      su<lb ed="#T" n="128" break="no"/>bito: ergo in eodem instanti est in loco, &amp; in 
+      me<lb ed="#T" n="129" break="no"/>dio, &amp; in termino ad quem: ergo simul in 
+      plu<lb ed="#T" n="130" break="no"/>ribus locis, 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e738">
+                  <lb ed="#T" n="131"/>Contra. 1. Angelus definitiue est in loco: 
+      er<lb ed="#T" n="132" break="no"/>go ita hic quod non alibi. 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e745">
+                  <lb ed="#T" n="133"/>2. Nihil habens terminatum esse, potest esse 
+      <lb ed="#T" n="134"/>simul in pluribus, ergo nec angelus, 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0383.xml-->
+      <pb ed="#T" n="308"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>3. Damascenus dicit, quod cum sunt in coelo, 
+      <lb ed="#T" n="2"/>non sunt in terra: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e763">
+                  <lb ed="#T" n="3"/>Respondeo. Circa hoc duplex est opinio: 
+      <lb ed="#T" n="4"/>Quidam enim dicunt quod angelus non potest 
+      <lb ed="#T" n="5"/>esse per essentiam nisi in vno loco impartibili 
+      <lb ed="#T" n="6"/>cum sit impartibilis: nec est simile de anima qua 
+      <lb ed="#T" n="7"/>est in toto corpore suo, quia est corporis totius 
+      <lb ed="#T" n="8"/>non tantum motor, sed perfectio. Ab illo autem 
+      <lb ed="#T" n="9"/>loco influit angelus per virtutem in ea quae 
+      pro<lb ed="#T" n="10" break="no"/>xima sunt, quando vult operando, in eis sicut  
+      <lb ed="#T" n="11"/>adamas in ferro remoto a se. Alij dicunt quod 
+      <lb ed="#T" n="12"/>potest esse in loco vno, etiam quanto, ita quod 
+      <lb ed="#T" n="13"/>sit in qualibet parte eius totus, sicut aninia in 
+      <lb ed="#T" n="14"/>corpore toto. Et huic opinioni videtur attestari. 
+      <lb ed="#T" n="15"/>Guillelmus Altissiodorensis. Non tamen ideo 
+      <lb ed="#T" n="16"/>potest esse angelus in diuersis locis, nec in vno 
+      <lb ed="#T" n="17"/>quantolibet loco, sed in tanto in quanto potest 
+      <lb ed="#T" n="18"/>immediate operari: sicut anima in tanto 
+      cor<lb ed="#T" n="19" break="no"/>pore, quantum potest viuificare. In angelo enim 
+      <lb ed="#T" n="20"/>secundum Dionysium, tria est reperire, scilicet,  
+      <lb ed="#T" n="21"/>substantiam, virtutem, &amp; operationem: &amp; sicut  
+      <lb ed="#T" n="22"/>corpus ab alio habet vt sit in loco vno 
+      determi<lb ed="#T" n="23" break="no"/>nato circumscriptiue, scilicet a communi 
+      termi<lb ed="#T" n="24" break="no"/>no substantiae suae, quia est substantia corpores 
+      <lb ed="#T" n="25"/>finita: ab altero vt sit in loco terminato, quia a 
+      <lb ed="#T" n="26"/>termino propriae quantitatis dimensiuae: ab 
+      al<lb ed="#T" n="27" break="no"/>tero vt sit in hoc loco, scilicet a termino proprij. 
+      <lb ed="#T" n="28"/>motus, vel operationis: ita angelus habet ab 
+      <lb ed="#T" n="29"/>alio vt sit definitiue praesens in loco vno 
+      deter<lb ed="#T" n="30" break="no"/>minato, scilicet quia est substantia spiritualis 
+      fini<lb ed="#T" n="31" break="no"/>ta: ab alio vt possit esse in tanto vel tanto loco, 
+      <lb ed="#T" n="32"/>scilicet a termino suae quantitatis virtualis: ab 
+      <lb ed="#T" n="33"/>alio vt sit in loco hoc deteriminato, scilicet a sua 
+      <lb ed="#T" n="34"/>voluntate &amp; a sua operatione determinata. 
+      Qua<lb ed="#T" n="35" break="no"/>tum est ergo de essentia, quia nita est, 
+      determi<lb ed="#T" n="36" break="no"/>natur ad locum vnum, ita quod non possit in 
+      <lb ed="#T" n="37"/>pluribus esse: quia vero etiam simplex est, non 
+      <lb ed="#T" n="38"/>video quare non possit non solum in composito. 
+      <lb ed="#T" n="39"/>secundum quosdam, sed etiam in simplici, id est 
+      <lb ed="#T" n="40"/>in puncto, secundum alios esse. Quantum est de 
+      <lb ed="#T" n="41"/>virtute, in tanto loco potest esse, quanto loco 
+      <lb ed="#T" n="42"/>potest esse praesens immediate; &amp; in tanto 
+      po<lb ed="#T" n="43" break="no"/>test esse praesens, inquanto potest operari 
+      imme<lb ed="#T" n="44" break="no"/>diate, licet non operetur: vel in minori si vult, 
+      <lb ed="#T" n="45"/>Quantum est de operatione, si operatio 
+      spiritua<lb ed="#T" n="46" break="no"/>lis est, non indiget ad operandum loci 
+      determi<lb ed="#T" n="47" break="no"/>nata quantitate vel qualitate: si est corporalis 
+      <lb ed="#T" n="48"/>indiget tanto loco in quanto loco vult operari 
+      <lb ed="#T" n="49"/>immediate. Esse ergo in loco determinato 
+      debe<lb ed="#T" n="50" break="no"/>tur ei per essentiam: posse esse in aliquanto loco, 
+      <lb ed="#T" n="51"/>per virtutem: esse actu in loco hoc 
+      determi<lb ed="#T" n="52" break="no"/>ate, per determinationem voluntatis, vel 
+      <lb ed="#T" n="53"/>operationis, &amp; ita per accidens. Quia vero nec 
+      <lb ed="#T" n="54"/>eius operatio immediate terminati potest nisi ad 
+      <lb ed="#T" n="55"/>vnum, nec eius virtus nec eius essentia esse nisi in 
+      <lb ed="#T" n="56"/>vno: ideo non potest esse in pluribus locis. Est. 
+      <lb ed="#T" n="57"/>ergo commune &amp; necessarium omnibus esse in 
+      <lb ed="#T" n="58"/>loco determinato per essentiam: 1 posse esse in 
+      <lb ed="#T" n="59"/>loco maiori vel minoriedefinitur secundum 
+      vir<lb ed="#T" n="60" break="no"/>tutem maiorem vel minorem: esse in toto vel in 
+      <lb ed="#T" n="61"/>parte loci illius, vel in simplici puncto:v 
+      deter<lb ed="#T" n="62" break="no"/>minatur: secundum voluntatem (quia virtus 
+      <lb ed="#T" n="63"/>illa voluntati conformatur) &amp; secundum 
+      opera<lb ed="#T" n="64" break="no"/>tionis necessitatem. 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e901">
+                  <lb ed="#T" n="65"/>Ad 1. De corpore Christi. Resp. Hoc est ex 
+      <lb ed="#T" n="66"/>mitaculo transsubstantiationis plurium 
+      substan<lb ed="#T" n="67" break="no"/>tiarum in idem corpus, no exvirtute ipsius corporis 
+      <lb ed="#T" n="68"/>Ad 2. De operatione. Resp. Non potest 
+      ange<lb ed="#T" n="69" break="no"/>lus simul operari immediate nisi in vno, sed me¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0383.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="70"/>diate potest per illud in plura: dicitur autem ibi 
+      <lb ed="#T" n="71"/>esse vbi operatur, scilicet immediate, 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e923">
+                  <lb ed="#T" n="72"/>Ad 3. De corpore assumpto. Resp. Totum 
+      il<lb ed="#T" n="73" break="no"/>lud corpus non est sibi nisi vt locus vnus, 
+      quam<lb ed="#T" n="74" break="no"/>uis sit in singulis partibus eius: quia non est in 
+      <lb ed="#T" n="75"/>partibus singulis vt singulae sunt, sed vt 
+      coniun<lb ed="#T" n="76" break="no"/>guntur in suo toto, sicut anima in partibus 
+      cor<lb ed="#T" n="77" break="no"/>poris. 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e939">
+                  <lb ed="#T" n="78"/>Ad 4. De loco simplici &amp;c. Resp. Secundum 
+      <lb ed="#T" n="79"/>motum voluntatis &amp; finem propter quem 
+      de<lb ed="#T" n="80" break="no"/>terminatur specialiter ad locum aliquid potest 
+      <lb ed="#T" n="81"/>esse vel in simplici vel in composito. Ad illud: 
+      <lb ed="#T" n="82"/>Non operatur in simplici. Resp. Quando 
+      opera<lb ed="#T" n="83" break="no"/>tur opera corporalia immediate, tunc oportet 
+      <lb ed="#T" n="84"/>quod sit in loco quanto: sed quando spiritualia, 
+      <lb ed="#T" n="85"/>non oportet. Ad illud: Si est in qualibet parte 
+      <lb ed="#T" n="86"/>&amp;c. Resp. Dico quod est in qualibet parte, non 
+      <lb ed="#T" n="87"/>tamen vt est quaelibet per se, sed vt 
+      coniungun<lb ed="#T" n="88" break="no"/>tur omnes in suo toto, vnde in omnibus partibus 
+      <lb ed="#T" n="89"/>est vt in loco vno 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e968">
+                  <lb ed="#T" n="90"/>Ad 5. De motu subito. Resp. Non ideo 
+      opor<lb ed="#T" n="91" break="no"/>tet quod sit in pluribus locis simul, quia vel 
+      <lb ed="#T" n="92"/>non pertransit niedium secundum ipsos: vel 
+      to<lb ed="#T" n="93" break="no"/>tum medium in vno nunc est ei vnus locus, 
+      <lb ed="#T" n="94"/>sicut totum corpus assumpium. v lmouetur 
+      se<lb ed="#T" n="95" break="no"/>cundum quosdam in diuersis iuinc immediatis: 
+      <lb ed="#T" n="96"/>ita quod in alio nunc est in termino a quo: in 
+      <lb ed="#T" n="97"/>alio, in medio: in alio, in termino ad quem, vt  
+      <lb ed="#T" n="98"/>plenius dicetur infra eadem distinctione. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e93079-Dd1e991">
+               <head xml:id="pdt7y6-e93079-Hd1e993">Articulus 3</head>
+               <head xml:id="pdt7y6-e93079-Hd1e995" type="question-title">An possint plures angeli simul esse in eodem loco</head>
+               <p xml:id="pdt7y6-e93079-d1e998">
+                  <lb ed="#T" n="99"/>Articvlvs III. 
+      <lb ed="#T" n="100"/>An possint plures angeli simul esse in eodem loco. 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e1005">
+                  <lb ed="#T" n="101"/>AD tertium sic proceditur. 1. Magis 
+      repleti<lb ed="#T" n="102" break="no"/>uum loci est corpus, quam spiritus: sed  
+      <lb ed="#T" n="103"/>vbi est aliquod corpus, nihilominus potest cum 
+      <lb ed="#T" n="104"/>eo esse spiritus: ergo multo magis cum vno 
+      spi<lb ed="#T" n="105" break="no"/>ritu alius, 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e1018">
+                  <lb ed="#T" n="106"/>2. Quamuis daemon non illabatur animae, 
+      illa<lb ed="#T" n="107" break="no"/>bitur tamen corpori: ergo cum anima sit in toto 
+      <lb ed="#T" n="108"/>corpore &amp; in qualibet eius parte, simul sunt 
+      dae<lb ed="#T" n="109" break="no"/>mon &amp; anima: ergo eadem ratione duo 
+      daemo<lb ed="#T" n="110" break="no"/>nes simul possunt esse: ergo eadem ratione duo 
+      <lb ed="#T" n="111"/>angeli 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e1035">
+                  <lb ed="#T" n="112"/>3. Spiritus non replet locum: ergo non 
+      im<lb ed="#T" n="113" break="no"/>pedit quin alius possit esse in eodem loco. 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e1042">
+                  <lb ed="#T" n="114"/>4. Maior est conuenientia &amp; propinquitas 
+      <lb ed="#T" n="115"/>angeli ad angelum, quam ad Deum: si ergo potest 
+      <lb ed="#T" n="116"/>esse simul in eodem cum Deo, multo magis cum 
+      <lb ed="#T" n="117"/>a ngelo altero. 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e1053">
+                  <lb ed="#T" n="118"/>5. Duo corpora, quorum alterum est 
+      glori<lb ed="#T" n="119" break="no"/>ficatum, alterum non, possunt esse simul in 
+      <lb ed="#T" n="120"/>eodem loco: ergo &amp; duo spiritus: ergo saltem 
+      <lb ed="#T" n="121"/>potest esse angelus in eodem loco cum 
+      spiritu<lb ed="#T" n="122" break="no"/>humano. 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e1066">
+                  <lb ed="#T" n="123"/>Contra. 1. Damascenus probat lib. primo 
+      <lb ed="#T" n="124"/>quod non possunt esse duo Dij, quia vnus non 
+      <lb ed="#T" n="125"/>esset simul vbique cum altero: ergo multo 
+      mi<lb ed="#T" n="126" break="no"/>nus angeli, qui loco habent definiri, possunt esse 
+      <lb ed="#T" n="127"/>simul in eodem loco. 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e1079">
+                  <lb ed="#T" n="128"/>2. Sicut se habet corpus ad locum 
+      circum<lb ed="#T" n="129" break="no"/>scribentem, ita creatus spiritus ad definientem: 
+      <lb ed="#T" n="130"/>sed vt probat Philosophus 4. Phys. duo 
+      corpo<lb ed="#T" n="131" break="no"/>ra naturaliter non possunt esse in eodem loco 
+      <lb ed="#T" n="132"/>simul circumscribente: ergo nec duo spiritus 
+      <lb ed="#T" n="133"/>in eodem loco definiente. 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e1095">
+                  <lb ed="#T" n="134"/>3. Duo spiritus humani non possunt simul 
+      <lb ed="#T" n="135"/>esse in eodem corpore: ergo nec duo spiritus 
+      <lb ed="#T" n="136"/>angelici. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0384.xml-->
+      <pb ed="#T" n="309"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>Respondeo. Locus angelorum tripliciter 
+      di<lb ed="#T" n="2" break="no"/>citur: vno modo locus eorum dicitur terminans. 
+      <lb ed="#T" n="3"/>eos &amp; continens Spiritus Diuinus, sic omnes 
+      <lb ed="#T" n="4"/>sunt in eodem loco &amp; intra Deum currunt, vt 
+      <lb ed="#T" n="5"/>ait Gregorius, quocumque mittantur. Alio 
+      <lb ed="#T" n="6"/>modo terminus naturalis suae substantiae 
+      virtu<lb ed="#T" n="7" break="no"/>tis, &amp; operationis, &amp; hoc modo singuli sunt in 
+      <lb ed="#T" n="8"/>loco proprio, non plures in eodem. Tertio 
+      mo<lb ed="#T" n="9" break="no"/>do locus corporalis definiens eos, &amp; sic plures 
+      <lb ed="#T" n="10"/>angeli non possunt esse in eodem loco proprio, 
+      <lb ed="#T" n="11"/>licet in eodem loco communi possent. Et hoc 
+      in<lb ed="#T" n="12" break="no"/>telligo siue determinetur eis proprius locus 
+      se<lb ed="#T" n="13" break="no"/>cundum terminum substantiae, siue secundum 
+      <lb ed="#T" n="14"/>terminum virtualis quantitatis, siue secundum 
+      <lb ed="#T" n="15"/>terminum operationis: quia cum quilibet 
+      eo<lb ed="#T" n="16" break="no"/>rum sit per se sufficiens in operatione 
+      huiusmo<lb ed="#T" n="17" break="no"/>di, superfluum esset vnum esse cum altero. 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e1148">
+                  <lb ed="#T" n="18"/>Ad 1. Magis repletiuum &amp;c. Resp. Repletio 
+      <lb ed="#T" n="19"/>non impedit, sed definitio vniuscuiusque se 
+      cun<lb ed="#T" n="20" break="no"/>dum substantiam, virtutem, &amp; operationem. 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e1157">
+                  <lb ed="#T" n="21"/>Ad 2. De daemone. Resp. Non est simile cum 
+      <lb ed="#T" n="22"/>anima: quia anima est in corporis substantia, sed  
+      <lb ed="#T" n="23"/>daemon in poris vel vacuitatibus, vel in 
+      humo<lb ed="#T" n="24" break="no"/>re vel aere incluso. 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e1168">
+                  <lb ed="#T" n="25"/>Ad 3. De repletione. Resp. Non est: ausa 
+      re<lb ed="#T" n="26" break="no"/>pletio, sed definitio vt dictum est, 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e1175">
+                  <lb ed="#T" n="27"/>Ad 4. De maiori conuenientia. Resp. Non 
+      <lb ed="#T" n="28"/>est causa disconuenientia, sed distinctio tam 
+      <lb ed="#T" n="29"/>substantiae, quam virtutis, quam operationis: 
+      <lb ed="#T" n="30"/>sed Deus oportet quod sit praesens omnibus his 
+      <lb ed="#T" n="31"/>modis cuilibet, ita tamen quod sufficienter a re 
+      <lb ed="#T" n="32"/>qualibet distinguitur seipso, non loco, vel 
+      tem<lb ed="#T" n="33" break="no"/>pore, vel altero extrinseco modo. 
+    </p>
+               <p xml:id="pdt7y6-e93079-d1e1193">
+                  <lb ed="#T" n="34"/>Ad 5. De duobus corporibus. Resp. Non est. 
+      <lb ed="#T" n="35"/>simile: quia vnum, cum sit spirituale penetrat 
+      <lb ed="#T" n="36"/>aliud, sed non sic spiritus spiritum. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

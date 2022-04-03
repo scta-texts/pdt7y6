@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="101"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e30693"><!-- l1d12prae -->
+            <head xml:id="pdt7y6-e30693-Hd1e99">Praeambulum</head>
+            <head xml:id="pdt7y6-e30693-Hd1e101" type="question-title"/>
+            <p xml:id="pdt7y6-e30693-d1e103">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0176.xml-->
+               <pb ed="#T" n="101"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>VTRVM SPIRITVS SANOTVS 
+      <lb ed="#T" n="2"/>Prius vel plenius procedat a Patre quam a Filio. 
+      <lb ed="#T" n="3"/>Distinct. XII.
+    </p>
+         <!--   <p xml:id="pdt7y6-e30693-d1e119">
+               <lb ed="#T" n="4"/>ITEM quaeritur cum Spiritus sanctus a Patre procedat &amp; a Filio, vtrum 
+      <lb ed="#T" n="5"/>prius vel magis procesferit a Patre quam a Filio: quod nititur haereticus 
+      <lb ed="#T" n="6"/>ostendere, ita dicens. Si processit Spiritus sanctus a Patre, processit 
+      <lb ed="#T" n="7"/>vtique aut nato iam Filio, aut non nato Filio. Si vero iam nato Filio 
+      <lb ed="#T" n="8"/>processit, ante natus est Filius quam processerit Spiritus sanctus: 
+      prae<lb ed="#T" n="9" break="no"/>cessit ergo natiuitas Filij processionem Spiritus sancti. Si autem 
+      pro<lb ed="#T" n="10" break="no"/>cessit a Patre non genito Filio, ante processit quam Filius genitus fuerit. 
+      <lb ed="#T" n="11"/>Responsio Augustini ad id quod primo quaerebatur, scilicet, an prius a Patre quam a 
+    </p>
+            <p xml:id="pdt7y6-e30693-d1e139">
+               <lb ed="#T" n="12"/>Filio procefferit. 
+      <lb ed="#T" n="13"/>His &amp; huiusmodi quaestionibus magis laboriosis quam fructuosis respondet August. 
+      <lb ed="#T" n="14"/>In 15. lib. de Trin. dicens, In illa summa Trinitate, quae Deus est, interualla temporum 
+      <lb ed="#T" n="15"/>nulla sunt, per quae posset ostendi aut saltem requiri, vtrum prius de Patre natus sit 
+      <lb ed="#T" n="16"/>Filius, &amp; postea de ambobus processerit Spiritus sanctus. Nunquid ergo possumus 
+      quae<lb ed="#T" n="17" break="no"/>rere vtrum iam processerat de Patre Spiritus sanctus, quando natus est Filius, an 
+      non<lb ed="#T" n="18" break="no"/>dum processerat, &amp; illo nato de vtroque processit. Non possunt prorsus ibi ista quaeri, 
+      <lb ed="#T" n="19"/>vbi nihil ex tempore inchoatur, vt ex consequenti perficiatur in tempore. Ideo qui 
+      po<lb ed="#T" n="20" break="no"/>test intelligere sine tempore generationem Filij de Patre, intelligat sine tempore 
+      pro<lb ed="#T" n="21" break="no"/>cessionem Spiritus sancti de vtroque. Ecce his verbis absoluta est quaestio illa qua 
+      quae<lb ed="#T" n="22" break="no"/>rebatur, vtrum prius processerit Spiritus sanctus a Patre, quam a Filio. 
+    </p>
+            <p xml:id="pdt7y6-e30693-d1e166">
+               <lb ed="#T" n="23"/>Hic agitur de eo quod secundo quaerebatur, scilicet, an plenius vel magis processerita 
+    </p>
+            <p xml:id="pdt7y6-e30693-d1e171">
+               <lb ed="#T" n="24"/>Patre, quam a Filio. 
+      <lb ed="#T" n="25"/>Nunc tractandum est quod secundo quaerebatur, scilicet, an plenius aut magis 
+      pro<lb ed="#T" n="26" break="no"/>cedat Spiritus sanctus a Patre quam a Filio: Ad quod dicimus, quia sicut non ante 
+      pro<lb ed="#T" n="27" break="no"/>cedit a Patre quam a Filio, ita non plenius vel magis procedit a patre quam a Filio. 
+      <lb ed="#T" n="28"/>Augustin. tamen in 15. lib. de Trinitate dicens, quod Spiritus sanctus principaliter  
+      <lb ed="#T" n="29"/>procedit de Patre: Non frustra, inquit, in hac Trinitate non dicitur verbum Dei. 
+      <lb ed="#T" n="30"/>nisi Filius: nec donum Dei, nisi Spiritus sanctus: nec de quo genitum est verbum, 
+      <lb ed="#T" n="31"/>&amp; de quo procedit Spiritus sanctus principaliter, nisi Deus Pater. Ecce audisti, 
+      <lb ed="#T" n="32"/>quia Spiritus sanctus principaliter procedit a Patre. Sed ne te hoc turbaret, ipse 
+      <lb ed="#T" n="33"/>continuo ex quo sensu hoc dixerit, aperit dicens: Ideo addidi, Principaliter, quia &amp; de 
+      <lb ed="#T" n="34"/>Filio Spiritus sanctus procedere reperitur: sed hoc quoque illi Pater dedit, non iam 
+      exi<lb ed="#T" n="35" break="no"/>stenti, &amp; nondum habenti: sed quicquid vnigenito verbo dedit, gignendo dedit. Sic ergo 
+      <lb ed="#T" n="36"/>cum genuit, vt etiam de illo donum commune procederet, &amp; Spiritus sanctus, Spiritus 
+      <lb ed="#T" n="37"/>esset amborum. Ecce exposuit ipsemet quomodo Spiritus prinespaliter procedat a Patre: 
+      <lb ed="#T" n="38"/>non quia prius vel magis procedat a Patre quam a Filio: sed quia cum procedat a Filio, 
+      <lb ed="#T" n="39"/>hoc ipsum habet Filius a Patre. 
+    </p>
+            <p xml:id="pdt7y6-e30693-d1e208">
+               <lb ed="#T" n="40"/>Ex eodem seusu etiam dicitur Spiritus sanctus proprie procedere a Patre. 
+      <lb ed="#T" n="41"/>Ex eodem sensu etiam dicitur procedere proprie de Patre: vnde Hieronymus in 
+      expo<lb ed="#T" n="42" break="no"/>sitione catholicae fidei, Nicaenique Symboli ait: Credimus in Spiritum sanctum, qui de 
+      <lb ed="#T" n="43"/>Patre procedit proprie. Item Spiritum sanctum verum Deum inuenimis in Scriptura, 
+      <lb ed="#T" n="44"/>&amp; de Patre esse proprie. Et item, de Patre Filius &amp; Spiritus sanctus proprie &amp; vere de 
+      <lb ed="#T" n="45"/>Patre procedit. Ecce aperte dicit Spiritum sanctum proprie esse de Patre, &amp; proprie 
+      pro<lb ed="#T" n="46" break="no"/>cedere a Patre: quod non est ita intelligendum tanquam prius vel plenius a Patre proce 
+      <lb ed="#T" n="47"/>dat quam a Filio sed quia hoc habet Pater a se non ab alio, vt de ipso sit &amp; procedat.  
+      <lb ed="#T" n="48"/>Spiritus sanctus: Filius autem non a se, sed a Patre hoc habet, vt de seipso sit &amp; 
+      proce<lb ed="#T" n="49" break="no"/>dat Spiritus sanctus. 
+    </p>
+            <p xml:id="pdt7y6-e30693-d1e232">
+               <lb ed="#T" n="50"/>Ex eodem sensu dicitur Spiritus sanctus esse, &amp; mitti a Patre per Filium. 
+      <lb ed="#T" n="51"/>Forte etiam iuxta hanc intelligentiam dicitur Spiritus sanctus mitti per Filium, &amp; a 
+      <lb ed="#T" n="52"/>Patre esse per Filium: vnde Hilarius ad Deum Patrem de Spiritu sancto &amp; Filio loquens 
+      <lb ed="#T" n="53"/>in 12. lib. de Trinitate ait, In Spiritu sancto tuo ex te profecto, &amp; per eum misso. Item, 
+      <lb ed="#T" n="54"/>Ante tempora vnigenitus tuus exte natus manet, ita quod ex te per eum Spiritus 
+      san<lb ed="#T" n="55" break="no"/>ctus tuus est: quod etsi sensu non percipiam, tamen teneo conscientia. In spiritualibus 
+      <lb ed="#T" n="56"/>enim rebus tuis hobes sum. Item in eodem, Conferua hanc oro fidei meae religionem, 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0177.xml-\->
+      <pb ed="#T" n="102"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>vt quod in regenerationis meae Symbolo professus sum, semper obtineam Te Patrem 
+      <lb ed="#T" n="2"/>scilicet, &amp; Filium tuum vna tecum adorem, Spiritum sanctum tuum, qui ex te per 
+      vnige<lb ed="#T" n="3" break="no"/>nitum tuum est, promerear. Ecce aperte dicit Spiritum sanctum a Patre per Filium &amp; 
+      <lb ed="#T" n="4"/>mitti &amp; esse. Quod non est intelligendum quasi a Patre per Filium minorem mittatur,  
+      <lb ed="#T" n="5"/>vel sit: sed quia ex Patre &amp; Filio est, mittitur ab vtroque, sed hoc ipsum habet Filius a 
+      Pa<lb ed="#T" n="6" break="no"/>tre, vt ab ipso sit &amp; mittatur Spiritus sanctus. Hoc ergo voluit significare Hilarius 
+      distin<lb ed="#T" n="7" break="no"/>ctionem faciens in locutione, vt ostenderet in Patre esse authoritatem. Inde est etiam 
+      <lb ed="#T" n="8"/>quod veritas ostendens Patrem esse authorem processionis, qua procedit Spiritus a Filio, 
+      <lb ed="#T" n="9"/>dixit in Euangelio, De Patre procedit: cum &amp; de Patre &amp; Filio procedat Spiritus sanctus. 
+      <lb ed="#T" n="10"/>Vnde Aug. in 15. lib. de Trin. quaerit, si de Patre. &amp; Filio procedit Spiritus sanctus: cur 
+      <lb ed="#T" n="11"/>Filius dixit, De Patre procedit? Cur putas, nisi quia solet ad cum referre etiam quod ipsius 
+      <lb ed="#T" n="12"/>est, sicut &amp; de quo ipse est: sicut ait, Mea doctrina, non est mea, sed eius quimisit me? 
+      <lb ed="#T" n="13"/>Si ergo hic intelligitur eius doctrina, quam tamen non dixit suam, sed Patris: quanto 
+      <lb ed="#T" n="14"/>magis illic intelligendus est Spiritus sanctus de ipso procedere, vbi sic ait, De Patre 
+      proce<lb ed="#T" n="15" break="no"/>dit: vt non diceret de me non procedit. Aquo autem habet Filius vt sit Deus (est enim 
+      <lb ed="#T" n="16"/>Deus de Deo) ab illo vtique habet vt etiam de illo proceda: Spiritus sanctus. Et ideo 
+      Spi<lb ed="#T" n="17" break="no"/>ritus sanctus vt etiam de Filio procedat, sicut procedit de Patre, ab ipso habet Patre. 
+      <lb ed="#T" n="18"/>Quapropter qui potest intelligere in eo quod ait Filius: Sicut habet Pater vitam, in 
+      seme<lb ed="#T" n="19" break="no"/>tipso, sic dedit &amp; Filio vitam habere in semetipso: non sine vita existenti iam Filio vitam 
+      <lb ed="#T" n="20"/>Patrem dedisse, sed ita eum sine tempore genuisse, vt vita, quam Pater Filio gignendo 
+      <lb ed="#T" n="21"/>dedit, coaeterna sit vitae Patris qui dedit: intelligat etiam sicut habet Pater in seipso, vt de 
+      <lb ed="#T" n="22"/>illo procedat Spiritus sanctus: sic dedisse Filio vt etiam de isto procedat idem Spiritus 
+      san<lb ed="#T" n="23" break="no"/>ctus, &amp; vtrumque sine tempore. Ita ergo dictum est Spiritum sanctum de Patre 
+      procede<lb ed="#T" n="24" break="no"/>re, vt intelligatur etiam quod procedit de Filio, de Patre esse Filio. Si enim quicquid 
+      <lb ed="#T" n="25"/>habet, de patre habet Filius, de Patre habet vtique vt de illo procedat Spiritus sanctus, 
+      <lb ed="#T" n="26"/>sed nulla ibi tempora cogitentur, quae habeant prius &amp; posterius, quia ibi omnino nulla 
+      <lb ed="#T" n="27"/>sunt.
+    </p>-->
+            <p xml:id="pdt7y6-e30693-d1e315">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0177.xml-->
+               <cb ed="#T" n="b"/>
+               <lb ed="#T" n="28" type="fixed=102"/>DIVISIO TEXTVS. 
+      <lb ed="#T" n="29"/>[y Tem quaeritur) Postquam agit de modo pro¬ 
+      <lb ed="#T" n="30"/>cedendi &amp; de principio a quo procedit 
+      Spiri<lb ed="#T" n="31" break="no"/>tus sanctus, hic agit de coordinatione 
+      processso<lb ed="#T" n="32" break="no"/>nis. Et primo excludit ordine temporis: secundo 
+      <lb ed="#T" n="33"/>ordinem causalitatis [Nunc tractandum. ] 
+      Ter<lb ed="#T" n="34" break="no"/>tio ponit ordinem naturalis originis [Ex hoc 
+      <lb ed="#T" n="35"/>sensu. IIn prima parte primo ponit quaestionem: 
+      <lb ed="#T" n="36"/>secundo solutionem [His &amp; huiusmodi.] In 
+      se<lb ed="#T" n="37" break="no"/>cunda parte, primo soluit quaestionem 
+      princi<lb ed="#T" n="38" break="no"/>palem[Nunc.] Secundo dubitationem 
+      inciden<lb ed="#T" n="39" break="no"/>tem[Augustinus tamen.] In tertia parte primo 
+      <lb ed="#T" n="40"/>ostendit, quod ratione ordinis naturae dicitur 
+      <lb ed="#T" n="41"/>proprie procedere a Patre [Ex hoc sensu] 
+      Se<lb ed="#T" n="42" break="no"/>cundo, quod ideo dicitur mitti a Pater per 
+      Fi<lb ed="#T" n="43" break="no"/>lium [Forte.] Tertio quod ideo a Patre 
+      speciali<lb ed="#T" n="44" break="no"/>ter dicitur procedere[Inde est.] 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,930 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="183"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e55876"><!-- l1d22q1 -->
+            <head xml:id="pdt7y6-e55876-Hd1e99">Quaestio 1</head>
+            <head xml:id="pdt7y6-e55876-Hd1e101" type="question-title">De Divinis Nominibus</head>
+            <p xml:id="pdt7y6-e55876-d1e104">
+               <lb ed="#T" n="38"/>QVESTIO VNICA 
+      <lb ed="#T" n="39"/>DE DIVINISNOMINIRVS.
+</p>
+            <p xml:id="pdt7y6-e55876-d1e111">
+               <lb ed="#T" n="40"/>VIc de Diuinis nominibus quaeruntur sex. 
+      <lb ed="#T" n="41"/> Primo an Deus sit nominabilis. 
+      <lb ed="#T" n="42"/>Secundo an vno nomine velpuribus. 
+      <lb ed="#T" n="43"/>Tertio an proprie vel translatiue nominetur.  
+      <lb ed="#T" n="44"/>Quarto secundum quod genus praedicamenti. 
+      <lb ed="#T" n="45"/>Quinto de diuisione diuinorum nominum. 
+      <lb ed="#T" n="46"/>Sexto de regulis quae de eis dantur.  
+    </p>
+            <div xml:id="pdt7y6-e55876-Dd1e129">
+               <head xml:id="pdt7y6-e55876-Hd1e131">Articulus 1</head>
+               <head xml:id="pdt7y6-e55876-Hd1e133" type="question-title">
+  An Deus sit nominabilis
+</head>
+               <p xml:id="pdt7y6-e55876-d1e136">
+                  <lb ed="#T" n="47"/>Articvlvs I. 
+      <lb ed="#T" n="48"/>An Deus sit nominabilis. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e143">
+                  <lb ed="#T" n="49"/>AD primum sic proceditur. Videtur quod 
+      <lb ed="#T" n="50"/>Deus non sit nominabilis. 1. Dicit enim 
+      <lb ed="#T" n="51"/>Dionys. lib. de Diuinis nominibus: Deus 
+      omni<lb ed="#T" n="52" break="no"/>no est incomprehensibilis, &amp; neque sensus eius 
+      <lb ed="#T" n="53"/>est, neque fantasia, neque opinio, neque 
+      no<lb ed="#T" n="54" break="no"/>men, neque sermo, neque tactus, neque scientia.
+      </p>
+               <p xml:id="pdt7y6-e55876-d1e159">
+                  <lb ed="#T" n="55"/>2 2. Philosophus lib. de causis dicit quod causa 
+      <lb ed="#T" n="56"/>prima superior est omni narratione: ergo non est 
+      <lb ed="#T" n="57"/>enarrabilis: ergo nec nominabilis. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e169">
+                  <lb ed="#T" n="58"/>3. Omne signum habet proportionem cum 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0258.xml-->
+      <cb ed="#T" n="c"/>
+                  <lb ed="#T" n="59"/>suo significato: finiti ad infinitum nulla est 
+      pro<lb ed="#T" n="60" break="no"/>portio: ergo infinitum non potest significari 
+      <lb ed="#T" n="61"/>signo finito. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e185">
+                  <lb ed="#T" n="62"/>4. Omne nomen imponitur ab aliqua forma 
+      <lb ed="#T" n="63"/>existente in intellectu, quia voces secundum 
+      <lb ed="#T" n="64"/>Philosophum lib. 1. periherm, sunt notae earum 
+      <lb ed="#T" n="65"/>quae sunt in anima passionum: Deus vero, vt  
+      <lb ed="#T" n="66"/>ait Augustinus, qui omnem fermam 
+      subter<lb ed="#T" n="67" break="no"/>fugit, intellectui peruius esse non potest: ergo 
+      <lb ed="#T" n="68"/>non est nominabilis. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e203">
+                  <lb ed="#T" n="69"/>5. Omne nomen significat cum qualitate, &amp; 
+      <lb ed="#T" n="70"/>omne verbum &amp; participium significat actum 
+      <lb ed="#T" n="71"/>cum tempore: in Deo vero nec est qualitas, 
+      <lb ed="#T" n="72"/>nec tempus: ergo non erit nominabilis per 
+      <lb ed="#T" n="73"/>nomen, aut per verbum, aut per participium: 
+      <lb ed="#T" n="74"/>ergo multo fortius per alias partes orationis 
+      <lb ed="#T" n="75"/>minus principales. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e221">
+                  <lb ed="#T" n="76"/>Contra 1. Omne quod potest cognosci potest 
+      <lb ed="#T" n="77"/>nominari: Deus potest cognosci a creatura 
+      ra<lb ed="#T" n="78" break="no"/>tionali, cum Deum cognoscere sit finis eius: 
+      <lb ed="#T" n="79"/>ergo &amp; nominari.
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e232">
+                  <lb ed="#T" n="80"/>2. Roni. 10. Corde creditur ad iustitiam, ore 
+      <lb ed="#T" n="81"/>autem confessio sit ad salutem: ergo non est 
+      <lb ed="#T" n="82"/>salus sine Dei confessione: ergo nec sine 
+      nomi<lb ed="#T" n="83" break="no"/>natione: ergo non tantum possibile, imo necesse 
+      <lb ed="#T" n="84"/>est cum nominabilem fore. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e245">
+                  <lb ed="#T" n="85"/>3. Script. sacra vocat cum diuersis 
+      nomini<lb ed="#T" n="86" break="no"/>bus, &amp; Dionys. librum composuit de Diuinis 
+      <lb ed="#T" n="87"/>nominibus: ergo est nominabilis. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e255">
+                  <lb ed="#T" n="88"/>Respondeo. Rei alicuius nominatio a nobis 
+      <lb ed="#T" n="89"/>non sit nisi media nostra cognitione, vnde sicut  
+      <lb ed="#T" n="90"/>possumus rem cognoscere ita &amp; nominare: &amp; 
+      <lb ed="#T" n="91"/>Deum cognoscere possumus cognitione 
+      imper<lb ed="#T" n="92" break="no"/>fecta, non perfecta: similiter imperfecte 
+      possu<lb ed="#T" n="93" break="no"/>mus nominare non perfecte: ipse vero solus 
+      <lb ed="#T" n="94"/>seipsum perfecte cognoscit, vnde seipsum solus 
+      <lb ed="#T" n="95"/>verbo suo aeterno potest exprimere. 
+      <lb ed="#T" n="96"/>Ad 1. &amp; 2. De Dionysio &amp; Philosopho. Resp. 
+      <lb ed="#T" n="97"/>Vtraque auctoritas intelligitur de 
+      enarratio<lb ed="#T" n="98" break="no"/>ne perfecta, non de imperfecta. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e281">
+                  <lb ed="#T" n="99"/>Ad 3. De signo. Resp. Quamuis secundum se 
+      <lb ed="#T" n="100"/>Deus sit infinitus, tamen a nobis apprehendi¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0259.xml-->
+      <pb ed="#T" n="184"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>tur sub modo finito: &amp; sic potest ei 
+      proportio<lb ed="#T" n="2" break="no"/>nari signum finitum. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e299">
+                  <lb ed="#T" n="3"/>Ad 4. De forma existente in intellectu. Resp. 
+      <lb ed="#T" n="4"/>Quamuis Dei non sit forma aliqua inhaerens, siue 
+      <lb ed="#T" n="5"/>corporalis, siue spiritualis, ipse tamen forma est, 
+      <lb ed="#T" n="6"/>&amp; formam in intellectu nostro habet. 
+      Verunta<lb ed="#T" n="7" break="no"/>men quia perfecte apprehendi per forma aliqua 
+      <lb ed="#T" n="8"/>nonpotest, ideo dicitur subterfugere omnem 
+      <lb ed="#T" n="9"/>formam: nam si dico sapientiam, plus extra 
+      ra<lb ed="#T" n="10" break="no"/>tionem huius nominis latet quam intus 
+      conti<lb ed="#T" n="11" break="no"/>neatur de proprietatibus diuinis: &amp; similiter de 
+      <lb ed="#T" n="12"/>caeteris nominibus eius: sic ergo imperfecte 
+      <lb ed="#T" n="13"/>quamuis non perfecte nominari potest. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e325">
+                  <lb ed="#T" n="14"/>Ad 5. De qualitate. Resp. Aliter accipit 
+      qua<lb ed="#T" n="15" break="no"/>litatem &amp; substantiam logicus, scilicet 
+      secun<lb ed="#T" n="16" break="no"/>dum rem &amp; materiam: aliter Grammaticus 
+      <lb ed="#T" n="17"/>scilicet secundum modum significandi solum: 
+      <lb ed="#T" n="18"/>vnde id quod significaturvt per se subsistens, 
+      vo<lb ed="#T" n="19" break="no"/>cat substantiam, id a quo illud: inotescit vocat  
+      <lb ed="#T" n="20"/>qualitatem: vnde id cui nomen imponitur, 
+      vo<lb ed="#T" n="21" break="no"/>cat substantiam; id a quo imponitur, qualitatem: in 
+      <lb ed="#T" n="22"/>concretis vero forma, in abstractis vero actum 
+      for<lb ed="#T" n="23" break="no"/>mae. Vnde in nomine entis ipsum quod est vocat  
+      <lb ed="#T" n="24"/>substantia, ipsa essentia vocat qualitate: in 
+      nomi<lb ed="#T" n="25" break="no"/>essentiae, essentiam vocat substantiam, esse vero 
+      <lb ed="#T" n="26"/>qualitatem. Nec refert an vtrumque horum sit 
+      <lb ed="#T" n="27"/>differens re aut ratione rantum. Sic autem 
+      con<lb ed="#T" n="28" break="no"/>tingit in Deo intelligere &amp; significare aliquid vt 
+      <lb ed="#T" n="29"/>substantiam, aliquid per modum qualitatis. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e55876-Dd1e364">
+               <head xml:id="pdt7y6-e55876-Hd1e366">Articulus 2</head>
+               <head xml:id="pdt7y6-e55876-Hd1e368" type="question-title">
+  An Deus sit nominabilis vno nomine vel pluribus.
+</head>
+               <p xml:id="pdt7y6-e55876-d1e371">
+                  <lb ed="#T" n="30"/>Articvlvs II. 
+      <lb ed="#T" n="31"/>An Deus sit nominabilis vno nomine vel pluribus.
+</p>
+               <p xml:id="pdt7y6-e55876-d1e378">
+                  <lb ed="#T" n="32"/>AD secundum proceditur sic. Videtur quod 
+      <lb ed="#T" n="33"/>Deus non sit nominabilis nisi vno 
+      nomi<lb ed="#T" n="34" break="no"/>ne. 1. Dicit enim Hylarius, quod non sermoni 
+      <lb ed="#T" n="35"/>res, sed rei sermo debet esse subjectus: ergo de 
+      <lb ed="#T" n="36"/>re vna debet esse tantum sermo vnus: Deus 
+      au<lb ed="#T" n="37" break="no"/>tem res vna est &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e394">
+                  <lb ed="#T" n="38"/>2. Omne quod est in Deo Deus est: ergo 
+      no<lb ed="#T" n="39" break="no"/>men significans aliquid diuinum significat idem: 
+      <lb ed="#T" n="40"/>ergo vel vnicum est Dei nomen, vel omnia sunt  
+      <lb ed="#T" n="41"/>ynonima &amp; aequipossent vni soli. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e406">
+                  <lb ed="#T" n="42"/>3. Diuersitas nominum aut contingit a parte. 
+      <lb ed="#T" n="43"/>rei significatae, aut intellectus significantis: si ergo 
+      <lb ed="#T" n="44"/>est nominum diuersitas, aut est a parte Dei, aut 
+      <lb ed="#T" n="45"/>intellectus nostri: non a parte Dei, quia totu. 
+      <lb ed="#T" n="46"/>quod in Deo est, vnum est: non a parte 
+      intelle<lb ed="#T" n="47" break="no"/>ctus nostri solum, quia falsus est intellectus qui 
+      <lb ed="#T" n="48"/>nullum habet fundamentum a parte rei: ergo 
+      <lb ed="#T" n="49"/>nullo rodo potest esse in Deo nominun diuersitas. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e426">
+                  <lb ed="#T" n="50"/>Contra. 1. Nullum nomen vnum sufficit 
+      diui<lb ed="#T" n="51" break="no"/>nam perfectionem exprintere: ergo necesse est 
+      <lb ed="#T" n="52"/>cum non vno tantum, sed pluribus nominare 
+      <lb ed="#T" n="53"/>nominibus. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e437">
+                  <lb ed="#T" n="54"/>2. In Deo est conimune &amp; proprium: sed 
+      nul<lb ed="#T" n="55" break="no"/>lo nomine, fine aequiuoca ambiguitate, potest 
+      <lb ed="#T" n="56"/>significari commune &amp; proprium: ergo cum 
+      <lb ed="#T" n="57"/>vtrumque sine ambignitate credi &amp; 
+      confiteri<lb ed="#T" n="58" break="no"/>oporteat, oportet vtrumque altero nomine 
+      si<lb ed="#T" n="59" break="no"/>gnificari. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e453">
+                  <lb ed="#T" n="60"/>Respondeo. Deum nominare contingit 
+      dupli<lb ed="#T" n="61" break="no"/>citer, sicut &amp; considerare: aut secundum, se aut 
+      <lb ed="#T" n="62"/>in comparatione ad creaturas. Secundum se 
+      ve<lb ed="#T" n="63" break="no"/>ro tripliciter secundum tria quae sunt in Deo, 
+      sci<lb ed="#T" n="64" break="no"/>licet secundum essentiam, secundum personas, 
+      <lb ed="#T" n="65"/>secundum notiones, Essentia vna est re, sed 
+      ha<lb ed="#T" n="66" break="no"/>bet in se multitudinem attributorum differen¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0259.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>tium in Deo sola ratione, in seipsis vero 
+      secun<lb ed="#T" n="68" break="no"/>dum naturas &amp; rationes proprias: vnde 
+      secun<lb ed="#T" n="69" break="no"/>lum hoc, essentia potest significari sub 
+      rationi<lb ed="#T" n="70" break="no"/>bus diuersis, &amp; ita diuersimode nominari; &amp; 
+      li<lb ed="#T" n="71" break="no"/>cet res significata sit eadem re, tamen ratio 
+      signi<lb ed="#T" n="72" break="no"/>ficandi differt, vnde non sunt nomina omnine 
+      <lb ed="#T" n="73"/>synonima. Personae vero inuicem differunt re 
+      <lb ed="#T" n="74"/>vnde habent significari diuersis nominibus 
+      signi<lb ed="#T" n="75" break="no"/>ficantibus res diuersas. Notiones autem differunt, 
+      <lb ed="#T" n="76"/>re, non tamen essentia ideo diuersis nominibus 
+      <lb ed="#T" n="77"/>significari possunt reali diuersitate. In 
+      compara<lb ed="#T" n="78" break="no"/>tione vero ad creaturas similiter tribus modis 
+      <lb ed="#T" n="79"/>potest nominari Deus secundum. B. Dionys. aut 
+      <lb ed="#T" n="80"/>per ablationem condi ionum imperfectarum, vt  
+      <lb ed="#T" n="81"/>immensus, infinitus &amp; huiusmodi: aut per 
+      emi<lb ed="#T" n="82" break="no"/>nentiam conditionum perfectarum, vt lux, vita, 
+      <lb ed="#T" n="83"/>&amp; huiusmodi: aut per causalitatem vtrarumque 
+      <lb ed="#T" n="84"/>vt creator, Dominus. Et quamuis id cui nomen 
+      <lb ed="#T" n="85"/>imponitur sit idem a parte Dei, id tamen a quo 
+      <lb ed="#T" n="86"/>imponitur differt a parte creaturae non tantum 
+      <lb ed="#T" n="87"/>ratione, imo re: vnde secundum hoc, nomina 
+      <lb ed="#T" n="88"/>diuersa Deo imponuntur reali diuersitate. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e523">
+                  <lb ed="#T" n="89"/>Ad 1. De Hylario. Resp. Non est vna res 
+      tan<lb ed="#T" n="90" break="no"/>tum cui nomen imponitur, nisi res essentialiter  
+      <lb ed="#T" n="91"/>accepta: nec est vna ratio a qua nomen 
+      imponi<lb ed="#T" n="92" break="no"/>tur, etiam a parte essentiae, nam nomen 
+      imponi<lb ed="#T" n="93" break="no"/>tur a forma rationis in anima apprehensa, &amp; non 
+      <lb ed="#T" n="94"/>est ratio vna seu apprehensio de diuersis 
+      attribu<lb ed="#T" n="95" break="no"/>tis diuinis. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e541">
+                  <lb ed="#T" n="96"/>Ad 2. Omne nomen diuinum significat idem. 
+      <lb ed="#T" n="97"/>Resp. Quamuis significet idem identitate rei 
+      di<lb ed="#T" n="98" break="no"/>ctae essentialiter, non tamen identitate rei dictae 
+      <lb ed="#T" n="99"/>personaliter, aat notionaliter, nec identitate 
+      ra<lb ed="#T" n="100" break="no"/>tionis: hoc autem sufficit ad hoc quod nomina 
+      <lb ed="#T" n="101"/>non sint synonima. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e558">
+                  <lb ed="#T" n="102"/>Ad 3. Aut a parte Dei. Resp. diuersitas 
+      nomi<lb ed="#T" n="103" break="no"/>num personalium a parte Dei est: diuersitas 
+      es<lb ed="#T" n="104" break="no"/>fentialium a parte nostri; nec tamen falsus est 
+      <lb ed="#T" n="105"/>intellectus: quia fundatur, vel super 
+      diuersita<lb ed="#T" n="106" break="no"/>tem realem proprietatum inuentarum in creaturis, 
+      <lb ed="#T" n="107"/>quoad nomina quae dicuntur de Deo in 
+      compa<lb ed="#T" n="108" break="no"/>ratione ad creaturam: vel super veritatem 
+      ipsa<lb ed="#T" n="109" break="no"/>rum proprietatum in Deo existentium, quamuis 
+      <lb ed="#T" n="110"/>modo omnino simplici, quoad nomina 
+      essentia<lb ed="#T" n="111" break="no"/>lia quae dicuntur de Deo sine comparatione ad 
+      <lb ed="#T" n="112"/>creaturam: quae attributa, quia non eo modo 
+      <lb ed="#T" n="113"/>quo in Deo sunt, apprehendere sufficit, sed per 
+      <lb ed="#T" n="114"/>modum imperfectum, ideo ea sicut diuisim 
+      ac<lb ed="#T" n="115" break="no"/>cipit diuisim significat: nec tamen hanc 
+      distin<lb ed="#T" n="116" break="no"/>ctionem ponit in Deo, sed in seipso, vnde non 
+      <lb ed="#T" n="117"/>fallit. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e55876-Dd1e596">
+               <head xml:id="pdt7y6-e55876-Hd1e598">Articulus 3</head>
+               <head xml:id="pdt7y6-e55876-Hd1e600" type="question-title">
+  An Deus proprie vel translatiue nominetur.
+</head>
+               <p xml:id="pdt7y6-e55876-d1e603">
+                  <lb ed="#T" n="118"/>Articvlvs III. 
+      <lb ed="#T" n="119"/>An Deus proprie vel translatiue nominetur.
+</p>
+               <p xml:id="pdt7y6-e55876-d1e610">
+                  <lb ed="#T" n="120"/>AD tertium articulum sic proceditur. 1. 
+      Om<lb ed="#T" n="121" break="no"/>nis cognitio nostra incipit a sensu, quod 
+      se<lb ed="#T" n="122" break="no"/>cundum Philosophum lib. de anima intellectus 
+      <lb ed="#T" n="123"/>noster nihil apprehendit sine fantasmate: ergo 
+      <lb ed="#T" n="124"/>omnis nostra nominatio sit a proprietate 
+      sen<lb ed="#T" n="125" break="no"/>sibili: sed proprietas sensibilis Deo non conuenit, 
+      <lb ed="#T" n="126"/>nisi translatiue. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e628">
+                  <lb ed="#T" n="127"/>2. Vnumquodque sicut cognoscimus, ita 
+      no<lb ed="#T" n="128" break="no"/>minamus: sed Deum in praesenti non nis. per 
+      <lb ed="#T" n="129"/>creaturarum proprietates cognoscimus: ergo 
+      <lb ed="#T" n="130"/>nec nominamus: ergo omnia nomina quibus 
+      <lb ed="#T" n="131"/>Deum nominamus a creaturis in Deum 
+      transfer<lb ed="#T" n="132" break="no"/>rimus.
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e645">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0260.xml-->
+                  <pb ed="#T" n="185"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>3. Lib. de regulis fidei. Omne simplex proprio 
+      <lb ed="#T" n="2"/>est, &amp; improprie nominatur: &amp; causam reddit 
+      <lb ed="#T" n="3"/><name xml:id="pdt7y6-e55876-Nd1e659" ref="#Boethius">Boetius</name>, quia omne simplex aliud st &amp; 
+      <lb ed="#T" n="4"/>alio dicitur esse: cum ergo omnis improprietas 
+      <lb ed="#T" n="5"/>ad aliquao, proprietatem reducatur, omne quod 
+      <lb ed="#T" n="6"/>de aliquo sinproprie dicitim oportet quod de 
+      <lb ed="#T" n="7"/>aliquo proprrodicatur conine autem tale a 
+      pro<lb ed="#T" n="8" break="no"/>pria signifieatione ad mpropriam transfertur.  
+      <lb ed="#T" n="9"/>cum ergo Deus sit omnino simplex non nisi 
+      <lb ed="#T" n="10"/>improprie &amp; transsatiue nominatur 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e678">
+                  <lb ed="#T" n="11"/>4. Secundum Deatum nyonis. non est nisi 
+      <lb ed="#T" n="12"/>duplex Theologia scilicet mystica &amp; symbe 
+      <lb ed="#T" n="13"/>lica: secundum vtramque Deus transtatine 
+      no<lb ed="#T" n="14" break="no"/>minatur, quia secundum mysticam a 
+      nomini<lb ed="#T" n="15" break="no"/>bus spiritualium creaturarum; secundum 
+      sym<lb ed="#T" n="16" break="no"/>boficam, a nominibus corporalium: ergo om 
+      <lb ed="#T" n="17"/>nis Dei nominatio translatiua est: 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e696">
+                  <lb ed="#T" n="18"/>Contra. 1. Quae de Deo dicuntur solo, ipsi 
+      <lb ed="#T" n="19"/>proprie conueniunt sed multa nomina sunt,  
+      <lb ed="#T" n="20"/>quae de Deo solo dicuntur, vt aeternus, omnis 
+      <lb ed="#T" n="21"/>potens: ergo ei proprie conueniunt, non ergo 
+      <lb ed="#T" n="22"/>translatiue 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e709">
+                  <lb ed="#T" n="23"/>2. Quaedam in Deo per oppositionem ad 
+      crea<lb ed="#T" n="24" break="no"/>turae proprietates dicuntur potius quam 
+      secun<lb ed="#T" n="25" break="no"/>dum similitudinem, vt immensus, infinitus, &amp; 
+      <lb ed="#T" n="26"/>huiusmodi: ergo a creaturis non transferuntur. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e720">
+                  <lb ed="#T" n="27"/>3. Quae per prius sunt in aliquo, al illo in 
+      <lb ed="#T" n="28"/>alia transferuntur, mn e conuerso: bonita 
+      <lb ed="#T" n="29"/>sapientia, &amp; huiusmodi per prius sunt in Deo 
+      <lb ed="#T" n="30"/>ergo ab ipso ad alia non e conuero 
+      transfe<lb ed="#T" n="31" break="no"/>runtur.  
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e733">
+                  <lb ed="#T" n="32"/>4. Ephef. 4. A quo omnis paternitas 
+      nomi<lb ed="#T" n="33" break="no"/>natur: ergo a Deo in creaturam, &amp; non e 
+      con<lb ed="#T" n="34" break="no"/>uerso transfertur. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e743">
+                  <lb ed="#T" n="35"/>5 Damascenus. Sciendum quod non est a 
+      <lb ed="#T" n="36"/>nobis translatum ad beatam diuinitatem, 
+      Pa<lb ed="#T" n="37" break="no"/>ternitatis, &amp; Filiationis, &amp; processionis nomen 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e752">
+                  <lb ed="#T" n="38"/>6. Adam simul Dei &amp; creaturarum 
+      cognitio<lb ed="#T" n="39" break="no"/>nem accepit: ergo Deum non per creaturas 
+      co<lb ed="#T" n="40" break="no"/>gnouit: ergo non per creaturas ei nomina 
+      im<lb ed="#T" n="41" break="no"/>posuit. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e763">
+                  <lb ed="#T" n="42"/>7. Deus seipsum pei se non per creaturam 
+      co<lb ed="#T" n="43" break="no"/>gnoscit: ergo nomina quibus in Scriptura se 
+      <lb ed="#T" n="44"/>ipse nominat, a creaturis accipere non oportuit 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e772">
+                  <lb ed="#T" n="45"/>Respondeo. De transsatione nominum a 
+      crea<lb ed="#T" n="46" break="no"/>turis ad creatorem loqui possumus tribus modis: 
+      <lb ed="#T" n="47"/>vel quoad vocem: vel quoad significationem 
+      <lb ed="#T" n="48"/>siuc rationem rei significatae: vel quoad ipsam 
+      <lb ed="#T" n="49"/>rem significatam. Primo modo omne nomen 
+      <lb ed="#T" n="50"/>diuinum translatum est a creaturis, quia 
+      cogni<lb ed="#T" n="51" break="no"/>tio nostra de Deo &amp; nominatio habet initium a 
+      <lb ed="#T" n="52"/>creaturis. Vltimo modo nullum nomen diui 
+      <lb ed="#T" n="53"/>num translatum est a creaturis, quia Deus 
+      nihi<lb ed="#T" n="54" break="no"/>accipit a creaturae. Secundo modo quaedam 
+      no<lb ed="#T" n="55" break="no"/>mina transsata dicuntur a creatore ad creaturam 
+      <lb ed="#T" n="56"/>vt pater: quaedam e conuerso, vt leo: 
+      quae<lb ed="#T" n="57" break="no"/>dam neutro modo vt aeternus, immensus: quia 
+      <lb ed="#T" n="58"/>quaedam significant res quarum veritas per prius 
+      <lb ed="#T" n="59"/>est in Deo, per posterius est in creatura, vt 
+      po<lb ed="#T" n="60" break="no"/>tentia, sapientia bonitas, &amp; paternitas &amp; 
+      hu<lb ed="#T" n="61" break="no"/>iusmodi, &amp; haec magis proprie &amp; per prius de 
+      <lb ed="#T" n="62"/>Deo dicuntur quam creatura: quaedam 
+      signi<lb ed="#T" n="63" break="no"/>ficant res quarum veritas in creatura est sola, 
+      <lb ed="#T" n="64"/>sed aliqua similitudo in Deo vt. Ieo, agnus, &amp; 
+      <lb ed="#T" n="65"/>huiusmodi, &amp; haec a creaturis transferuntur in 
+      <lb ed="#T" n="66"/>Deum, &amp; haec appellantui, proprie nomnia 
+      <lb ed="#T" n="67"/>translatiua, quia transsatio sit secundum 
+      simi<lb ed="#T" n="68" break="no"/>litudinem: quaedam vero significant rem cuiu 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0260.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="69"/>veritas est in Deo solo, &amp; oppositum in 
+      creatu<lb ed="#T" n="70" break="no"/>ra, vt aeternus, immensus, &amp; haec non 
+      transfe<lb ed="#T" n="71" break="no"/>runtur a Deo in creaturam, nec e conuerso, nisi 
+      <lb ed="#T" n="72"/>translatione solius vocis 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e840">
+                  <lb ed="#T" n="73"/>Ad 1. Omnis cognitio nostra incipit a sensu. 
+      <lb ed="#T" n="74"/>Resp. Opposita est via cognitionis &amp; 
+      nomina<lb ed="#T" n="75" break="no"/>tionis: nam cognitio incipit a sensu &amp; 
+      termi<lb ed="#T" n="76" break="no"/>natur ad intellectum; nominatio e conuerso 
+      <lb ed="#T" n="77"/>vnde potest imponi nomen vel a forma 
+      intelli<lb ed="#T" n="78" break="no"/>gibili, ad quam terminatur eius cognitio: vel a 
+      <lb ed="#T" n="79"/>sensibi a qua incipit: &amp; primo modo non est 
+      <lb ed="#T" n="80"/>impositio translatiua; secundo modo sic 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e860">
+                  <lb ed="#T" n="81"/>Ad 2. Deum non cognoscimus nisi per 
+      crea<lb ed="#T" n="82" break="no"/>tutas. Resp. Per traaruras Deus nominari potest 
+      <lb ed="#T" n="83"/>multipliciter: vel per remotionem, vel per 
+      <lb ed="#T" n="84"/>eminentiam, vel per causam, vel per 
+      similitudi<lb ed="#T" n="85" break="no"/>nem: &amp; hoc vltimo modo dicitur translatiue 
+      <lb ed="#T" n="86"/>nominari solum. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e877">
+                  <lb ed="#T" n="87"/>Ad 3. Omne simplex. Resp. Improprie dicitur 
+      <lb ed="#T" n="88"/>nominari omne sinmplex, non quoad rem 
+      signi<lb ed="#T" n="89" break="no"/>ficatam, sed quoad modum sgmficandi, quia 
+      <lb ed="#T" n="90"/>modo composito significatur: tran laiiuum vtro 
+      <lb ed="#T" n="91"/>nomen non dicitur. nisi vbi est transsatic 
+      signi<lb ed="#T" n="92" break="no"/>ficationis. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e893">
+                  <lb ed="#T" n="93"/>Ad 4. De duplici Theologra: Iusp. Mystica 
+      <lb ed="#T" n="94"/>Theologia quomuis nominet Deum per 
+      creatu<lb ed="#T" n="95" break="no"/>ras spirituales, non tamen per earum 
+      similitudi<lb ed="#T" n="96" break="no"/>nem, sed perremorionem, vel per eminentiam, 
+      <lb ed="#T" n="97"/>vel causam. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e906">
+                  <lb ed="#T" n="98"/>Ad ea quae opponuntur in contrarium 
+      Res<lb ed="#T" n="99" break="no"/>posdendum est sic 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e913">
+                  <lb ed="#T" n="100"/>AI I. Quae de Deo solo dicuntur. Resp. 
+      <lb ed="#T" n="101"/>Huiusmodi nomina, licet non res, transsata sunt 
+      <lb ed="#T" n="102"/>ad diuina, non tamen per similitudinem &amp; 
+      <lb ed="#T" n="103"/>ideo non dicuirtur translatiua: sed per 
+      remotio<lb ed="#T" n="104" break="no"/>nem, vel eminentiam, vel causam 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e926">
+                  <lb ed="#T" n="105"/>Ad 2. Quod opponitur de ijs quae dicuntur 
+      <lb ed="#T" n="106"/>per oppositionem &amp;c. Resp. Transsatio vocis 
+      <lb ed="#T" n="107"/>tion tantum sit per similitudinem, sed per 
+      abla<lb ed="#T" n="108" break="no"/>tionem, vel eminentiam, vel causam; sed 
+      trans<lb ed="#T" n="109" break="no"/>latio significationis per similitudinem solum 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e939">
+                  <lb ed="#T" n="110"/>Ad 3. De ijs quae per prius &amp;c. Resp. 
+      Quam<lb ed="#T" n="111" break="no"/>uis nu possint transferri ta ia transsatione 
+      signii<lb ed="#T" n="112" break="no"/>cationis, transsatione tamen vocis transferuntur.  
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e949">
+                  <lb ed="#T" n="113"/>Ad 4. &amp; 5. De paternitate &amp;c. Resp. 
+      Intelli<lb ed="#T" n="114" break="no"/>git Apostolus &amp; Damas. de translatione 
+      signifi<lb ed="#T" n="115" break="no"/>cationis, non vocis tantum: appellatur enim 
+      no<lb ed="#T" n="116" break="no"/>men aliquando ipsa significatio vocis, aliquando 
+      <lb ed="#T" n="117"/>ipsa res significata. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e962">
+                  <lb ed="#T" n="118"/>Ad 6. De Adam. Resp. Quamuis Deum &amp; 
+      <lb ed="#T" n="119"/>creaturas cognouerit simul tempore, tamen 
+      <lb ed="#T" n="120"/>prius natura creaturas: quia cognouit Deum 
+      <lb ed="#T" n="121"/>non in sua essentia, sed in effectibus suis 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e973">
+                  <lb ed="#T" n="122"/>Ad vlt. De nominatione Dei a seipso. Resp. 
+      <lb ed="#T" n="123"/>Deus nominauit se non propter se, sed propter 
+      <lb ed="#T" n="124"/>nos: oportuit ergo quod se nominaret per ea 
+      <lb ed="#T" n="125"/>quae nobis nota sunt: ergo per nomina sumpte 
+      <lb ed="#T" n="126"/>a creaturis. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e55876-Dd1e987">
+               <head xml:id="pdt7y6-e55876-Hd1e989">Articulus 4</head>
+               <head xml:id="pdt7y6-e55876-Hd1e991" type="question-title">
+  Secundum quod genus praedicamenti Deus sit nominabilis.
+</head>
+               <p xml:id="pdt7y6-e55876-d1e994">
+                  <lb ed="#T" n="127"/>ARTICVLVS IV 
+      <lb ed="#T" n="128"/>secundum quod genus praedicamenti Deus sit 
+      <lb ed="#T" n="129"/>nominabilis. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1003">
+                  <lb ed="#T" n="130"/>AD quartum articulum sic proceditur. 1. 
+      <lb ed="#T" n="131"/>substantia &amp; accidens sufficienter diuidunt,  
+      <lb ed="#T" n="132"/>ens: sed nullum nomen Diuinum significat aca 
+      <lb ed="#T" n="133"/>cidens: ergo omne nomen Diuinum significat  
+      <lb ed="#T" n="134"/>substantiam.
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1016">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0261.xml-->
+                  <pb ed="#T" n="186"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>2. Quicquid est in Deo habet esse Diuinum: 
+      <lb ed="#T" n="2"/>ergo esse per se: ergo esse substantiae: ergo omne 
+      <lb ed="#T" n="3"/>nomen Diuinum significat substantiam. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1033">
+                  <lb ed="#T" n="4"/>3. Si est alius modus significandi praeterquam 
+      <lb ed="#T" n="5"/>secundum substantiam, aut differunt isti modi a 
+      <lb ed="#T" n="6"/>parferei, aut a parte rationis solum: si a parte rei, 
+      <lb ed="#T" n="7"/>ergo in Deo est diuersitas secundum rem: si a parte 
+      <lb ed="#T" n="8"/>rationis solum, ergo tot modi sunt quot sunt 
+      ra<lb ed="#T" n="9" break="no"/>tiones diuersae: sed tot sunt rationes diuersae 
+      <lb ed="#T" n="10"/>quot sunt attributa: ergo innumerabiles sunt modi. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1051">
+                  <lb ed="#T" n="11"/>4. August. lib. de doctrina Christiana: si 
+      quae<lb ed="#T" n="12" break="no"/>ratur quid est Deus, conuenienter respondetur  
+      <lb ed="#T" n="13"/>Pater &amp; Filius &amp; Spiritus sanctus: sed omne 
+      <lb ed="#T" n="14"/>quod respondetur conuenienter ad quaestionem 
+      <lb ed="#T" n="15"/>factam per quid, dicitur secundum substantiam: 
+      <lb ed="#T" n="16"/>ergo Pater &amp; Filius &amp; Spiritus sanctus 
+      dicun<lb ed="#T" n="17" break="no"/>tur secundum substantiam: ergo omnia nomina 
+      <lb ed="#T" n="18"/>personalia &amp; notionalia eadem ratione 
+      dicun<lb ed="#T" n="19" break="no"/>tur secundum substantiam. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1073">
+                  <lb ed="#T" n="20"/>Contra 1. August. dicit, ea quae ad se dicuntur 
+      <lb ed="#T" n="21"/>dici secundum substantiam, ea quae ad aliud 
+      se<lb ed="#T" n="22" break="no"/>cundum relationem: ergo non omne nomen 
+      di<lb ed="#T" n="23" break="no"/>uinum dicitur secundum substantiam. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1084">
+                  <lb ed="#T" n="24"/>2 <name xml:id="pdt7y6-e55876-Nd1e1088" ref="#Boethius">Boetius</name> lib. de Trinit. dicit quod duo 
+      prae<lb ed="#T" n="25" break="no"/>dicamenta tantum sunt in diuinis scilicet sub: 
+      <lb ed="#T" n="26"/>stantia relatio, est enim Deus sine quantitate 
+      <lb ed="#T" n="27"/>magnus, &amp; sine qualitate bonus, sec non sine res 
+      <lb ed="#T" n="28"/>latione relatus: ergo non omne nomen diuinum 
+      <lb ed="#T" n="29"/>dicitur secundum substantiam. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1103">
+                  <lb ed="#T" n="30"/>3. Non omne nomen diuinum commune est 
+      <lb ed="#T" n="31"/>tribus: omne autem nomen substantiale est 
+      <lb ed="#T" n="32"/>commune tribus: ergo non omne nomen 
+      Diui<lb ed="#T" n="33" break="no"/>num dicitur secundum substantiam. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1114">
+                  <lb ed="#T" n="34"/>4. Si omne nomen in diuinis diceretur 
+      secun<lb ed="#T" n="35" break="no"/>dum substantiam: ergo qui dicit tres personas 
+      <lb ed="#T" n="36"/>dicit tres substantias: sed hoc falsum: ergo primum. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1124">
+                  <lb ed="#T" n="37"/>Respondeo., diuersitas nominum ex parte 
+      eo<lb ed="#T" n="38" break="no"/>rum quae per ipsa dicuntur, potest accipi 
+      tripli<lb ed="#T" n="39" break="no"/>citer: aut a parte rei dictae secundum se absolute: 
+      <lb ed="#T" n="40"/>aut in habitudine ad alteram rem: aut in 
+      com<lb ed="#T" n="41" break="no"/>paratione ad intellectum dicentis. Tripliciter  
+      <lb ed="#T" n="42"/>ergo potest accipi diuersitas eorum quae per 
+      <lb ed="#T" n="43"/>nomina dicuntur, aut secundum modum essendi, 
+      <lb ed="#T" n="44"/>vt album &amp; rotundum: aut secundum modum 
+      <lb ed="#T" n="45"/>se habendi, scilicet absolute vel in 
+      comparatio<lb ed="#T" n="46" break="no"/>ne ad aliud, vt nummus &amp; pretium: aut 
+      secun<lb ed="#T" n="47" break="no"/>dum modum intelligendi vt definitio &amp; 
+      defini<lb ed="#T" n="48" break="no"/>tum: prima diuersitas dicendi vel praedicandi neon 
+      <lb ed="#T" n="49"/>est in Deo, quia omne quod est in Deo est 
+      sub<lb ed="#T" n="50" break="no"/>stantia diuina: secunda est ibi, quia aliqua 
+      prae<lb ed="#T" n="51" break="no"/>dicantur absolute secundum substantiam, aliqua 
+      <lb ed="#T" n="52"/>ad aliquid secundum relationem, &amp; secundum 
+      <lb ed="#T" n="53"/>haec sunt tantum in diuinis duo praedicamenta: 
+      <lb ed="#T" n="54"/>tertia diuersitas est ibi secundum diuersa 
+      attribu<lb ed="#T" n="55" break="no"/>ta, &amp; hec variatur secundum omnia genera 
+      prae<lb ed="#T" n="56" break="no"/>dicamentorum. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1170">
+                  <lb ed="#T" n="57"/>Ad 1. Substantia &amp; accidens &amp;c. Resp. 
+      Quam<lb ed="#T" n="58" break="no"/>uis sufficienter diuidant ens creatum, non tamen 
+      <lb ed="#T" n="59"/>ens simpliciter: nam secundum August. non 
+      <lb ed="#T" n="60"/>quicquid in Deo dicitur non secundum 
+      substan<lb ed="#T" n="61" break="no"/>tiam, necesse est dici secundum accidens, imo 
+      <lb ed="#T" n="62"/>dicitur secundum relationem 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1186">
+                  <lb ed="#T" n="63"/>Ad 2. Omne quod habet esse in Deo habetesse 
+      <lb ed="#T" n="64"/>per se. Resp. Licet per se, non tamen ad se: in 
+      hi<lb ed="#T" n="65" break="no"/>uinis vero substaatia dicitur quae habet esse per 
+      <lb ed="#T" n="66"/>se, &amp; ad se. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1197">
+                  <lb ed="#T" n="67"/>Ad 3. Aut differunt hi modi a parte rei. Resp. 
+      <lb ed="#T" n="68"/>Praedicatio secundum substantiam &amp; secundum 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0261.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="69"/>relationem in Deo differunt differentia rationis 
+      <lb ed="#T" n="70"/>non rei, sicut substantia &amp; relatio: ratio tamen 
+      <lb ed="#T" n="71"/>illa non solum est in ratiocinante, sed aliquo mo 
+      <lb ed="#T" n="72"/>do fundatur in re vel in modo rei, non tamen 
+      <lb ed="#T" n="73"/>penes modum essendi, sed penes modum se 
+      ha<lb ed="#T" n="74" break="no"/>pendi. Huiusmodi autem modus diuersus 
+      cau<lb ed="#T" n="75" break="no"/>sat in Deo diuersitatem realem, secundum quod 
+      <lb ed="#T" n="76"/>res dicitur persona, non secundum quod res 
+      di<lb ed="#T" n="77" break="no"/>citur essentia. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1228">
+                  <lb ed="#T" n="78"/>Ad 4. Quia Pater &amp; Filius conuenienter 
+      res<lb ed="#T" n="79" break="no"/>pondentur per quaestionum factam per quid. 
+      <lb ed="#T" n="80"/>Resp. Licet persona sit ad aliquid secundum 
+      mo<lb ed="#T" n="81" break="no"/>dum se habendi, tamen substantia est secundum 
+      <lb ed="#T" n="82"/>modum essendi. Hinc est quod couenienter 
+      res<lb ed="#T" n="83" break="no"/>pondetur ad quaestionem factam per quid, per 
+      <lb ed="#T" n="84"/>modum scilicet essendi: nihilominus tamen non 
+      <lb ed="#T" n="85"/>dicitur secundum substantiam, sed ad aliquid 
+      pro<lb ed="#T" n="86" break="no"/>pter modum se habendi: substantia enim aliquando 
+      <lb ed="#T" n="87"/>dicitur omne ens, per se, &amp; sic omne ens diuinum, 
+      <lb ed="#T" n="88"/>substantia est: aliquando ens absolutum, &amp; sic non 
+      <lb ed="#T" n="89"/>omne ens diuinum dicitur secundum substantia. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e55876-Dd1e1258">
+               <head xml:id="pdt7y6-e55876-Hd1e1260">Articulus 5</head>
+               <head xml:id="pdt7y6-e55876-Hd1e1262" type="question-title">
+  De diuisione Diuinorum nominum.
+</head>
+               <p xml:id="pdt7y6-e55876-d1e1265">
+                  <lb ed="#T" n="90"/>ARTICVLVS V 
+      <lb ed="#T" n="91"/>De diuisione Diuinorum nominum.
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1272">
+                  <lb ed="#T" n="92"/>AD quintum sic proceditur. Ambrosius 
+      as<lb ed="#T" n="93" break="no"/>signat hic tres differentias nominum 
+      Diui<lb ed="#T" n="94" break="no"/>norum, dicens quod quaedam exprimunt 
+      pro<lb ed="#T" n="95" break="no"/>prietatem, quaedam essentiam, quaedam 
+      dicun<lb ed="#T" n="96" break="no"/>tur translatiue. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1285">
+                  <lb ed="#T" n="97"/>Contra. 1. Magister addit aliam diuisionem 
+      <lb ed="#T" n="98"/>trimembrem: ergo aut Ambrosius est 
+      diminu<lb ed="#T" n="99" break="no"/>tus, aut ipse superfluus. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1295">
+                  <lb ed="#T" n="100"/>2. Damascenus assignat aliam diuisionem 
+      di<lb ed="#T" n="101" break="no"/>cens quod nominum diuinorum quaedam 
+      signi<lb ed="#T" n="102" break="no"/>ficant quasi quoddam pelagus essentiae 
+      infini<lb ed="#T" n="103" break="no"/>tum, vt, Qui est; quaedam significant 
+      operatio<lb ed="#T" n="104" break="no"/>nem, vt Deus; quaedam significant ea quae sunt,  
+      <lb ed="#T" n="105"/>circa substantiam, vt sapiens, bonus; 
+      quae<lb ed="#T" n="106" break="no"/>dam vero habitudinem:d ea a quibus 
+      distin<lb ed="#T" n="107" break="no"/>guntur scilicet ad creatui is, vt creator, 
+      nomi<lb ed="#T" n="108" break="no"/>nus; quaedam vero significant quid non sit, vt 
+      <lb ed="#T" n="109"/>incorporeus, infinitus: ergo aut Ambrosij 
+      diui<lb ed="#T" n="110" break="no"/>sio est insufficiens, aut huius superflua. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1321">
+                  <lb ed="#T" n="111"/>3. Haec nomina, persona, hypostasis, 
+      Trini<lb ed="#T" n="112" break="no"/>tas, nec proprietatem exprimunt, nec essentiam, 
+      <lb ed="#T" n="113"/>nec translatiue dicuntur.  
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1330">
+                  <lb ed="#T" n="114"/>4. Haec nomina, incarnatus, passus, &amp; 
+      simi<lb ed="#T" n="115" break="no"/>lia sub nui: differentia illarum continentur: 
+      <lb ed="#T" n="116"/>ergo insufficiens est diuisio. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1339">
+                  <lb ed="#T" n="117"/>5. Haec nomina, similis, aequalis, nec 
+      pro<lb ed="#T" n="118" break="no"/>prietatem dicunt, quia conueniunt tribus; nec 
+      <lb ed="#T" n="119"/>essentiam, quia dicuntur ad aliquid. 
+      <lb ed="#T" n="120"/>Respondeo. Diuisio Ambr,. sufficiens est 
+      concor<lb ed="#T" n="121" break="no"/>das Aug. &amp; pionys. Nam omne nomen dictum de 
+      <lb ed="#T" n="122"/>Deo, aut dicitur de eo proprie secundum 
+      ve<lb ed="#T" n="123" break="no"/>itatem rei quae in ipso est: aut metaphorice 
+      se<lb ed="#T" n="124" break="no"/>cundum translatiuam similitudinem: nomen 
+      <lb ed="#T" n="125"/>autem dictum de Deo secundum veritatem, aut 
+      <lb ed="#T" n="126"/>est essentiale &amp; comune tribus, aut personale. 
+      <lb ed="#T" n="127"/>proprium alicuius. Secundum hoc pionysius 
+      di<lb ed="#T" n="128" break="no"/>stinguit triplicem Theologiam: scilicet 
+      symbo<lb ed="#T" n="129" break="no"/>licam de nominibus translatiuis: &amp; vnitam quae 
+      <lb ed="#T" n="130"/>de nominibus essentialibus: &amp; discretam quae de 
+      <lb ed="#T" n="131"/>personalibus. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1374">
+                  <lb ed="#T" n="132"/>Ad 1. De diuisione Magistri. Resp. Diuisio. 
+      <lb ed="#T" n="133"/>Magistri sub diuisione Ambrosij continetur,  
+      <lb ed="#T" n="134"/>scilicet sub differgntia nominum quae de Deo 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0262.xml-->
+      <pb ed="#T" n="187"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>proprie non translatiue dicuntur. Ea enim quae 
+      <lb ed="#T" n="2"/>de Deo proprie dicuntur, aut sunt essentialia 
+      <lb ed="#T" n="3"/>aut personalia: si essentialia, aut dicuntur ab 
+      <lb ed="#T" n="4"/>aeterno vt sapiens, aut ex tempore, vt Dominus 
+      <lb ed="#T" n="5"/>si personalia, aut dicuntur ab aeterno, aut ex 
+      <lb ed="#T" n="6"/>tempore: si ex tempore, aut ergo absolute, vt 
+      <lb ed="#T" n="7"/>Incarnatus; aut relatiue, vt datus, missus; si 
+      <lb ed="#T" n="8"/>ab aeterno, aut ergo singulariter, vt Pater, aut 
+      <lb ed="#T" n="9"/>collectiue, vt Trinitas, 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1409">
+                  <lb ed="#T" n="10"/>Ad 2. De diuisione namasceni. Resp. diuisio 
+      <lb ed="#T" n="11"/>Damasceni reducitur ad vnum membrum 
+      di<lb ed="#T" n="12" break="no"/>uisionis Ambrosij, scilicet ad differentiam 
+      no<lb ed="#T" n="13" break="no"/>minum essentialium: haec enim dicuntur vel de 
+      <lb ed="#T" n="14"/>Deo secundum se, vel in comparatione ad 
+      crea<lb ed="#T" n="15" break="no"/>turam: si de Deo secundum se, aut significan 
+      <lb ed="#T" n="16"/>essentiam, vt, Qui est, aut virtutem, vt honus; 
+      <lb ed="#T" n="17"/>aut operationem, vt Deus: si in comparation: 
+      <lb ed="#T" n="18"/>ad creaturam, aut ergo secundum respectum 
+      <lb ed="#T" n="19"/>causalitatis ad creaturas vt pominus, aut se 
+      <lb ed="#T" n="20"/>cundum remotionem imperfectionis 
+      creatura<lb ed="#T" n="21" break="no"/>rum ab ipso, vt incorporeus. Sic ergo patet quod 
+      <lb ed="#T" n="22"/>Ambros. non est diminutus, quia non intendit 
+      <lb ed="#T" n="23"/>ponere nisi primas differentias nominum 
+      gene<lb ed="#T" n="24" break="no"/>rales: nec tamen alij superflui sunt, quia illa 
+      <lb ed="#T" n="25"/>diuidunt per speciales differentias. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1447">
+                  <lb ed="#T" n="26"/>Ad 3. Quod opponitur de hypostasi, 
+      perso<lb ed="#T" n="27" break="no"/>na &amp; Trinitate. Resp. Haec continetur sub 
+      diffe<lb ed="#T" n="28" break="no"/>rentia nominum significantium proprietates 
+      per<lb ed="#T" n="29" break="no"/>sonales: hae enim possunt significari, vel 
+      indi<lb ed="#T" n="30" break="no"/>stincte vt per nomina personarum communia, 
+      <lb ed="#T" n="31"/>vt hypostasis, spersona: vel distincte, &amp; hoc 
+      du<lb ed="#T" n="32" break="no"/>pliciter: vel singulariter vt per nomina 
+      perso<lb ed="#T" n="33" break="no"/>narum propria; vel distincte collectiue, vt per 
+      <lb ed="#T" n="34"/>hoc nomen Trinitas. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1469">
+                  <lb ed="#T" n="35"/>Ad 4. Quod opponitur de his nominibus, 
+      in<lb ed="#T" n="36" break="no"/>carnatus, passus, &amp; huiusmodi. Resp. 
+      Redu<lb ed="#T" n="37" break="no"/>cuntur ad nomina personalia: horum enim 
+      <lb ed="#T" n="38"/>quaedam conueniunt ab aeterno; quaedam ex 
+      <lb ed="#T" n="39"/>tempore, vt ea quae praedicantur ratione 
+      in<lb ed="#T" n="40" break="no"/>carnationis. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1485">
+                  <lb ed="#T" n="41"/>Ad 5. Quod opponitur de aequali &amp; 
+      simili<lb ed="#T" n="42" break="no"/>Respondeo. Haec nomina duo significant  
+      <lb ed="#T" n="43"/>scilicet essentiam, &amp; relationem; &amp; secundum 
+      <lb ed="#T" n="44"/>hoc sub duplici genere nominum continentur 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e55876-Dd1e1497">
+               <head xml:id="pdt7y6-e55876-Hd1e1499">Articulus 6</head>
+               <head xml:id="pdt7y6-e55876-Hd1e1501" type="question-title">
+  De regulis quae dantur circa diuisionem Divinorum nominum.
+</head>
+               <p xml:id="pdt7y6-e55876-d1e1504">
+                  <lb ed="#T" n="45"/>ARTICVLVS VI. 
+      <lb ed="#T" n="46"/>De regulis quae dantur circa diuisionem Diuinorum. 
+      <lb ed="#T" n="47"/>nominum.
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1513">
+                  <lb ed="#T" n="48"/>AD sextum sic proceditur. ponit hic Magiste 
+      <lb ed="#T" n="49"/>sex regulas de diuinis nominibus 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1520">
+                  <lb ed="#T" n="50"/>Prima est. Omne nomen dictum de Deo, 
+      di<lb ed="#T" n="51" break="no"/>citur vel secundum substantiam, vel relationem 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1528">
+                  <lb ed="#T" n="52"/>Contra. Cum dicitur, est homo, vel incar 
+      <lb ed="#T" n="53"/>natus, vel passus, hoc non dicitur secundum 
+      <lb ed="#T" n="54"/>substantiam, quia non dicitur de tribus; nec 
+      se<lb ed="#T" n="55" break="no"/>cundum relationem, quia non dicit 
+      habitudi<lb ed="#T" n="56" break="no"/>nem personae ad personam. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1541">
+                  <lb ed="#T" n="57"/>Respondeo. Regula haec intelligitur de ijs 
+      <lb ed="#T" n="58"/>quae dicuntur de Deo ab aeterno, non ex cepore. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1548">
+                  <lb ed="#T" n="59"/>Secunda regula est haec. Omne quod dicitur 
+      <lb ed="#T" n="60"/>de tribus personis simul, ita quod de qualibet 
+      <lb ed="#T" n="61"/>singulariter, dicitur secundum substantiam 
+      <lb ed="#T" n="62"/>3. Contra. Nomina partitiua vt vnus, 
+      distin<lb ed="#T" n="63" break="no"/>ctus, &amp; huiusmodi sic dicuntur, quia pater, &amp; 
+      <lb ed="#T" n="64"/>Filius, &amp; Spiritus sanctus, quilibet est vnus &amp; 
+      <lb ed="#T" n="65"/>distinctus; &amp; ipsi sunt tres distincti: nec tamen 
+      <lb ed="#T" n="66"/>dicuntur secundum substantiam. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0262.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>Resp. Haec regula intelligitur de ijs quae 
+      di<lb ed="#T" n="68" break="no"/>cuntur de tribus personis simul, &amp; de qualibet 
+      <lb ed="#T" n="69"/>singulariter, eodem modo, scilicet in singulari. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1579">
+                  <lb ed="#T" n="70"/>Tertia regula est. Omne nomen dictum 
+      secun<lb ed="#T" n="71" break="no"/>dum substantiam, praedicatur de tribus simul 
+      <lb ed="#T" n="72"/>singulariter, excepto hoc nomine persona. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1588">
+                  <lb ed="#T" n="73"/>Contra. AEqualis, similis, coaeternus, dicuntur 
+      <lb ed="#T" n="74"/>secundum substantiam: &amp; tamen praedicantur  
+      <lb ed="#T" n="75"/>de tribus pluraliter.  
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1597">
+                  <lb ed="#T" n="76"/>Respondeo. Regula haec intelligitur de pure 
+      <lb ed="#T" n="77"/>substantialibus. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1605">
+                  <lb ed="#T" n="78"/>Quarta regula est haec. Omne nomen dictum 
+      <lb ed="#T" n="79"/>de Deo respectu creaturae, praedicat essentiam. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1612">
+                  <lb ed="#T" n="80"/>Contra. Datus, incarnatus, &amp; huiusmodi non 
+      <lb ed="#T" n="81"/>praedicant essentiam. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1619">
+                  <lb ed="#T" n="82"/>Respondeo. Haec regula intelligitur deijs quae 
+      <lb ed="#T" n="83"/>dicuntur secundum naturam diuinam, nec 
+      di<lb ed="#T" n="84" break="no"/>cunt respectum personae ad personam, sed ad 
+      <lb ed="#T" n="85"/>creaturam tantum. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1630">
+                  <lb ed="#T" n="86"/>Quinta regula est haer. Omne nomen quod 
+      di<lb ed="#T" n="87" break="no"/>citur de Deo ex tempore, &amp; non dicitur de omnis 
+      <lb ed="#T" n="88"/>bus personis, praedicat notionem. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1639">
+                  <lb ed="#T" n="89"/>Contra. Incarnatus, humanatus, passus, 
+      dicun<lb ed="#T" n="90" break="no"/>tur ex tempore, &amp; de vna persona: &amp; tamen 
+      ab<lb ed="#T" n="91" break="no"/>solute, vt dicit hic magister.  
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1648">
+                  <lb ed="#T" n="92"/>Respondeo. Praedicare notionem dicitur 
+      ali<lb ed="#T" n="93" break="no"/>quid dupliciter: vel explicite vt Pater, vel in 
+      <lb ed="#T" n="94"/>plicite, sic incarnatus &amp; humanatus praedican 
+      <lb ed="#T" n="95"/>notionem Filij de quo solo dicuntur.  
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1660">
+                  <lb ed="#T" n="96"/>Sexta regula est haec. Nullum nomen dictum 
+      <lb ed="#T" n="97"/>relatiue, dicitur substantialiter, nec e conuerso 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1667">
+                  <lb ed="#T" n="98"/>Contra. Dominus, creator &amp; huiusmodi 
+      rela<lb ed="#T" n="99" break="no"/>tiue dicuntur &amp; substamialiter  
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1674">
+                  <lb ed="#T" n="100"/>Respondeo. Regula intelligitur de relatiuis 
+      se<lb ed="#T" n="101" break="no"/>cundum esse, non de relatiuis secundum dicit 
+      <lb ed="#T" n="102"/>Notandum tamen quod relatiue dicuntur, 
+      quae<lb ed="#T" n="103" break="no"/>dam ex principali nominis intellectu: quaedam 
+      <lb ed="#T" n="104"/>ex consequenti: principaliter tribus modis: vel 
+      <lb ed="#T" n="105"/>quia significant relationem qua aliquid refertur 
+      <lb ed="#T" n="106"/>vt paternitas; vel quia remouent relationem qua 
+      <lb ed="#T" n="107"/>aliquid refertur vt ingenitus; vel quia significant 
+      <lb ed="#T" n="108"/>ipsum quod refertur, vt Pater. Ex consequenti. 
+      <lb ed="#T" n="109"/>tribus modis, vel per suppositionem, vt Deus 
+      ge<lb ed="#T" n="110" break="no"/>nerat deum; vel per implicationem vt 
+      nicarna<lb ed="#T" n="111" break="no"/>tus; vel per cointellectum, vt aequalis. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e55876-Dd1e1704">
+               <head xml:id="pdt7y6-e55876-Hd1e1706">Expositio litterae</head>
+               <p xml:id="pdt7y6-e55876-d1e1708">
+                  <lb ed="#T" n="112"/>ExPoSITIO LITERAE. 
+      <lb ed="#T" n="113"/>Isseredum nobis videtur de nominibus. 
+      <lb ed="#T" n="114"/>DContra. In scientijs inferioribus non est 
+      <lb ed="#T" n="115"/>eiusdem scientiae tractatus rerum &amp; nominum. 
+      <lb ed="#T" n="116"/>Resp. Non est simile, quia Theologia cum sit sus 
+      <lb ed="#T" n="117"/>perior omnibus tractat de omnibus aliquo modo 
+      <lb ed="#T" n="118"/>inquantum pertinent ad finem suum, id est ad 
+      <lb ed="#T" n="119"/>hominis salutem. Ad hanc vero pertinet non 
+      so<lb ed="#T" n="120" break="no"/>lum credulitas cordis, sed confessio vocis. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1730">
+                  <lb ed="#T" n="121"/>[Vt splendor.] Contra. Dicit August. super  
+      <lb ed="#T" n="122"/>Ioan. quod lux verius dicitur in spiritualibus 
+      <lb ed="#T" n="123"/>quam in corporalibus splendor. Resp. August 
+      <lb ed="#T" n="124"/>loquitur ibi de luce non secundum rem cui non 
+      <lb ed="#T" n="125"/>men imponitur, haec enim res est corporalis, sed  
+      <lb ed="#T" n="126"/>secundum rationem a qua imponitur scilicet a 
+      <lb ed="#T" n="127"/>ratione manifestandi. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1748">
+                  <lb ed="#T" n="128"/>[Quod ad aliquid dicitur non substantialiter  
+      <lb ed="#T" n="129"/>Contra. In Deo relatio est substantia. Resp. 
+      <lb ed="#T" n="130"/>Quamuis sit idem re, differunt ratione &amp; modo 
+      <lb ed="#T" n="131"/>se habendi. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1759">
+                  <lb ed="#T" n="132"/>[Non tamen tres magni.] Contra adiecti¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0263.xml-->
+      <pb ed="#T" n="188"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>dum numeratur secundum substantiua quibus 
+      <lb ed="#T" n="2"/>adiungitur. Resp. Secundum quod ponitur 
+      sub<lb ed="#T" n="3" break="no"/>stantiue non potest dici, tres magni: sed 
+      adie<lb ed="#T" n="4" break="no"/>ctine dici posset. 
+    </p>
+               <p xml:id="pdt7y6-e55876-d1e1780">
+                  <lb ed="#T" n="5"/>Deus enim non est magnus.] Contra 
+      vide<lb ed="#T" n="6" break="no"/>tur quod ratio August. non valeat quia 
+      magni<lb ed="#T" n="7" break="no"/>tudo non se denominat, vnde quamuis aliquis 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0263.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="8"/>sit magnus magnitudine quae non est ipse, non 
+      <lb ed="#T" n="9"/>tamen magnitudo est maior eo. Resp. August. 
+      <lb ed="#T" n="10"/>Intelligit per maioritatem hanc, veritatem 
+      prae<lb ed="#T" n="11" break="no"/>dicationis &amp; existentiae: nam ratio 
+      magnitudi<lb ed="#T" n="12" break="no"/>nis verius est in magnitudine, quam in re magna, 
+      <lb ed="#T" n="13"/>quia in illa essentialiter, in ista participatiue. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

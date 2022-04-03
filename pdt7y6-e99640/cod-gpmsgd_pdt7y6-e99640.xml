@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="326"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e99640"><!-- l1d39q3 -->
+            <head xml:id="pdt7y6-e99640-Hd1e99">Quaestio 3</head>
+            <head xml:id="pdt7y6-e99640-Hd1e101" type="question-title">De Dei providentia</head>
+            <p xml:id="pdt7y6-e99640-d1e104">
+               <lb ed="#T" n="16"/>QVESTIO III. 
+      <lb ed="#T" n="17"/>DE VERITATE DIVINE PROVI 
+      <lb ed="#T" n="18"/>DENTIAE 
+</p>
+            <p xml:id="pdt7y6-e99640-d1e113">
+               <lb ed="#T" n="19"/>CIrca tertium articulum duo quaeruntur.
+      <lb ed="#T" n="20"/>Primo quid est prouidentia. 
+      <lb ed="#T" n="21"/>Secundo de quibus est 
+    </p>
+            <div xml:id="pdt7y6-e99640-Dd1e122">
+               <head xml:id="pdt7y6-e99640-Hd1e124">Articulus 1</head>
+               <head xml:id="pdt7y6-e99640-Hd1e126" type="question-title">Quid est prouidentia</head>
+               <p xml:id="pdt7y6-e99640-d1e129">
+                  <lb ed="#T" n="22"/>Articvlvs I. 
+      <lb ed="#T" n="23"/>Quid est prouidentia.
+</p>
+               <p xml:id="pdt7y6-e99640-d1e136">
+                  <lb ed="#T" n="24"/>AD primum sic proceditur. 1. Boetius 4. de 
+      <lb ed="#T" n="25"/>consol. Prouidentia est ratio in summe 
+      <lb ed="#T" n="26"/>omnium principe constituta, per quam cuncta 
+      <lb ed="#T" n="27"/>disponit: sed disponere pertinet ad scientiam 
+      <lb ed="#T" n="28"/>practicam: ergo &amp; prouidentia. 
+    </p>
+               <p xml:id="pdt7y6-e99640-d1e149">
+                  <lb ed="#T" n="29"/>2. Idem in eodem. Temporalis ordinis 
+      expli<lb ed="#T" n="30" break="no"/>catio in diuinae mentis ordinata prospectu 
+      pro<lb ed="#T" n="31" break="no"/>ndentia est: sed huiusmodi prospectus pertinet 
+      <lb ed="#T" n="32"/>ad scientiam practicam: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e99640-d1e161">
+                  <lb ed="#T" n="33"/>3. Sap. 14. Tua, Pater, prouidentia cuncta 
+      <lb ed="#T" n="34"/>gubernat: ergo gubernate est actus prouidentiae: 
+      <lb ed="#T" n="35"/>sed gubernate pertinet ad scientiam practicam  
+    </p>
+               <p xml:id="pdt7y6-e99640-d1e170">
+                  <lb ed="#T" n="36"/>4. Non dicitur habere prouidentiam qui scit 
+      <lb ed="#T" n="37"/>quid sit agendum, nec agit illud: sed scire 
+      ali<lb ed="#T" n="38" break="no"/>quid agendum, pertinet ad scientiam practicam: 
+      <lb ed="#T" n="39"/>ergo &amp; prouidentia. 
+    </p>
+               <p xml:id="pdt7y6-e99640-d1e181">
+                  <lb ed="#T" n="40"/>Contra. 1. Secundum Boetium lib. de consol 
+      <lb ed="#T" n="41"/>Prouidentia dicitur quasi porro id est, a longe 
+      <lb ed="#T" n="42"/>videntia: sed videre siue de prope, siue de 
+      lon<lb ed="#T" n="43" break="no"/>ge, pertinec ad cognitionem speculatiuam: ergo 
+      <lb ed="#T" n="44"/>&amp; prouidentia. 
+    </p>
+               <p xml:id="pdt7y6-e99640-d1e194">
+                  <lb ed="#T" n="45"/>2. Boetius 4. de consol dicit quod vt est ad in 
+      <lb ed="#T" n="46"/>tellectum ratiocinatio, sic ad fatum 
+      prouiden<lb ed="#T" n="47" break="no"/>tia: ergo pertinet ad intellectum ratiocinantem: 
+      <lb ed="#T" n="48"/>ergo ad speculatiuum. 
+    </p>
+               <p xml:id="pdt7y6-e99640-d1e205">
+                  <lb ed="#T" n="49"/>3. Prouidentia Dei est de malis: ergo 
+      proui<lb ed="#T" n="50" break="no"/>dentia non pertinet ad scientiam practicam quae 
+      <lb ed="#T" n="51"/>est causa scitorum. 
+    </p>
+               <p xml:id="pdt7y6-e99640-d1e214">
+                  <lb ed="#T" n="52"/>Respondeo. Cum scientia speculatiua sit de 
+      <lb ed="#T" n="53"/>entibus quae non sunt ex opere nostro: practica 
+      <lb ed="#T" n="54"/>de jis quae sunt ab opere nostro: prouidentia. 
+      <lb ed="#T" n="55"/>vero sit de agendis per nos: sequitur quod 
+      pro<lb ed="#T" n="56" break="no"/>uidentia pertinet ad scientiam practicam, non 
+      <lb ed="#T" n="57"/>speculatiuam. Similiter ergo prouidentia diuina, 
+      <lb ed="#T" n="58"/>cum sit de agendis per eum, pertinet ad 
+      scien<lb ed="#T" n="59" break="no"/>tiam eius practicam, non ad speculatiuam. 
+      Qua<lb ed="#T" n="60" break="no"/>uis autem scientia practica, &amp; dispositio, &amp; 
+      pro<lb ed="#T" n="61" break="no"/>uidentia Dei, idem sint re, tamen differunt 
+      ratio<lb ed="#T" n="62" break="no"/>ne. Artifex enim aliquid acturus praecogitat finem 
+      <lb ed="#T" n="63"/>operis, &amp; ea quae ad fineni consequendum 
+      va<lb ed="#T" n="64" break="no"/>lent: deinde ordinat apud se vtilia ad suum fine 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0401.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="65"/>&amp; ipsa inter se: vltimo cogitat de pertinentibus. 
+      <lb ed="#T" n="66"/>ad huius ordinis executionem &amp; repellendam 
+      <lb ed="#T" n="67"/>inordinationem: quoad primum dicitur 
+      prae<lb ed="#T" n="68" break="no"/>scientia practica, quoad secundum dispositio, 
+      <lb ed="#T" n="69"/>quoad tertium prouidentia. Prouidentia vero 
+      <lb ed="#T" n="70"/>importat &amp; sapientiam in praecognitione &amp; 
+      vo<lb ed="#T" n="71" break="no"/>luntatem in proposito, &amp; potentiam in 
+      execu<lb ed="#T" n="72" break="no"/>tione propositi. Includit ergo prouidentia in se 
+      <lb ed="#T" n="73"/>&amp; scientiam practicam, &amp; dispositionem, &amp; 
+      su<lb ed="#T" n="74" break="no"/>peraddit executionemm tempore quae est 
+      gu<lb ed="#T" n="75" break="no"/>bernatio. 
+    </p>
+               <p xml:id="pdt7y6-e99640-d1e274">
+                  <lb ed="#T" n="76"/>Ad 1. In contrarium de etymologia nominis. 
+      <lb ed="#T" n="77"/>Resp. Interpretatio nominis non semper 
+      con<lb ed="#T" n="78" break="no"/>uertitur cum interpretato. 
+    </p>
+               <p xml:id="pdt7y6-e99640-d1e283">
+                  <lb ed="#T" n="79"/>Ad 2. Vt est ad intellectum ratiocinatio &amp;c. 
+      <lb ed="#T" n="80"/>Resp. Similitudo est quoad modum causalitatis, 
+      <lb ed="#T" n="81"/>non quead genus. 
+    </p>
+               <p xml:id="pdt7y6-e99640-d1e292">
+                  <lb ed="#T" n="82"/>Ad 3. Prouidentia est de malis. Resp. Non est. 
+      <lb ed="#T" n="83"/>de malis per se, sed inquantum ordinabilia sunt,  
+      <lb ed="#T" n="84"/>ad aliud bonum. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e99640-Dd1e303">
+               <head xml:id="pdt7y6-e99640-Hd1e305">Articulus 2</head>
+               <head xml:id="pdt7y6-e99640-Hd1e307" type="question-title">De quibus est prouidentia</head>
+               <p xml:id="pdt7y6-e99640-d1e310">
+                  <lb ed="#T" n="85"/>ARTICVLVS II 
+      <lb ed="#T" n="86"/>De quibus est prouidentia.
+    </p>
+               <p xml:id="pdt7y6-e99640-d1e317">
+                  <lb ed="#T" n="87"/>AD secundum articulum sic proceditur. 1. 
+      <lb ed="#T" n="88"/>Quod sit a casu non est prouisum, quia 
+      <lb ed="#T" n="89"/>contingit praeter intentionem: sed secundum 
+      <lb ed="#T" n="90"/>Philosophos in mundo multa siunt a casu: ergo 
+      <lb ed="#T" n="91"/>sine prouidentia. 
+    </p>
+               <p xml:id="pdt7y6-e99640-d1e330">
+                  <lb ed="#T" n="92"/>2. Quod Prouidentia regitur ordinatum est ad 
+      <lb ed="#T" n="93"/>certum finem: actus liberi arbitiij non sunt 
+      ordi<lb ed="#T" n="94" break="no"/>nati ad certum finem, quia se habent ad 
+      vtrum<lb ed="#T" n="95" break="no"/>libet: ergo non reguntur prouidentia. 
+    </p>
+               <p xml:id="pdt7y6-e99640-d1e342">
+                  <lb ed="#T" n="96"/>3. Quae prouidentia siunt, ordinate siunt: sed  
+      <lb ed="#T" n="97"/>in mundo multa fiunt inordinate: ergo sine 
+      pro<lb ed="#T" n="98" break="no"/>uidentia. 
+    </p>
+               <p xml:id="pdt7y6-e99640-d1e351">
+                  <lb ed="#T" n="99"/>Contra. 1. In regno omnipotentis &amp; 
+      sapien<lb ed="#T" n="100" break="no"/>is, &amp; optimi Regis nihil sit sine eius 
+      prouiden<lb ed="#T" n="101" break="no"/>tia: ergo nec in regno Dei¬ 
+    </p>
+               <p xml:id="pdt7y6-e99640-d1e360">
+                  <lb ed="#T" n="102"/>2. Sap. 12. AEqualiter est illi cura de omnibus: 
+      <lb ed="#T" n="103"/>ergo nihil sit sine eius prouidentia 
+    </p>
+               <p xml:id="pdt7y6-e99640-d1e367">
+                  <lb ed="#T" n="104"/>3. Matth. 10. dicit dominus, quod nec passer 
+      <lb ed="#T" n="105"/>vnus cadit in terram sine Patre caelesti: ergo nec 
+      <lb ed="#T" n="106"/>sine prouidentia. 
+    </p>
+               <p xml:id="pdt7y6-e99640-d1e376">
+                  <lb ed="#T" n="107"/>Respondeo. Circa Dei prouidentiam varij 
+      <lb ed="#T" n="108"/>fuisse leguntur errores. Nam quidam turbati 
+      va<lb ed="#T" n="109" break="no"/>rietate mundanorum euentuum, posuerunt 
+      om<lb ed="#T" n="110" break="no"/>nino prouidentiam non esse, sed fato 
+      continge<lb ed="#T" n="111" break="no"/>re omnia. Alij voluerunt sola caelestia, in 
+      qui<lb ed="#T" n="112" break="no"/>bus no incidit error, regi prouidentia, inferiora 
+      <lb ed="#T" n="113"/>vero omnia fato. Alij naturas vni uersales 
+      gene<lb ed="#T" n="114" break="no"/>rum &amp; specierum inferiorum, quia 
+      incorruptibi<lb ed="#T" n="115" break="no"/>les sunt propter generationem &amp; corruptionem 
+      <lb ed="#T" n="116"/>continuam, sed non particularia: alij vero etia 
+      <lb ed="#T" n="117"/>particularia naturae rationalis, propter 
+      intelle<lb ed="#T" n="118" break="no"/>ctum qui est incorruptibilis, regi prouidentia 
+      <lb ed="#T" n="119"/>docuerunt, sed non alia particularia. Fides vero 
+      <lb ed="#T" n="120"/>ponit omnia gubernati Dei prouidentia, cuius 
+      <lb ed="#T" n="121"/>effectus tamen magis viget circa rationadia 
+      quam<lb ed="#T" n="122" break="no"/>circa naturalia: quia circa naturalia quoad esse 
+      <lb ed="#T" n="123"/>naturae solum, in rationalibus etiam quoad 
+      <lb ed="#T" n="124"/>esse morale. In naturalibus quidem est ordo 
+      pro<lb ed="#T" n="125" break="no"/>uidentiae dupliciter: in quibusdam sine 
+      possibi<lb ed="#T" n="126" break="no"/>litate ad defectum, vt in caelestibus: in quibus. 
+      <lb ed="#T" n="127"/>dam cum possibilitate, vt in inferioribus, qui  
+      <lb ed="#T" n="128"/>tamen defectus quando contingit ordinatur 
+      per<lb ed="#T" n="129" break="no"/>prouidentiam in aliquod bonum naturae prout. 
+      <lb ed="#T" n="130"/>vnius corruptio est alterius generatio. In ratio¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0402.xml-->
+      <pb ed="#T" n="327"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>nalibus vero est ordoprouidentiae sine 
+      possibili<lb ed="#T" n="2" break="no"/>tate ad defectum naturae, ex ea parte quia 
+      ratio<lb ed="#T" n="3" break="no"/>nalia sunt, scilicet a parte animae; tamen cum 
+      <lb ed="#T" n="4"/>possibilitate ad defectum voluntatis, qui tamen 
+      <lb ed="#T" n="5"/>quando accidit, per Dei prouidentiam 
+      ordina<lb ed="#T" n="6" break="no"/>tur in bonum, aut se cundum ordinem iustitiae 
+      <lb ed="#T" n="7"/>per punitionem, aut secundum ordinem 
+      miseri<lb ed="#T" n="8" break="no"/>cordiae per remissionem. 
+    </p>
+               <p xml:id="pdt7y6-e99640-d1e454">
+                  <lb ed="#T" n="9"/>Ad 1. De casu. Resp. A casu dicuntur fieri in 
+      <lb ed="#T" n="10"/>mundo quae contingunt praeter intentionem 
+      <lb ed="#T" n="11"/>causae proximae, a qua praecipue recipiunt 
+      effe<lb ed="#T" n="12" break="no"/>ctus conditiones suas: &amp; hoc modo dicitur 
+      ho<lb ed="#T" n="13" break="no"/>micidium inuoluntarium casuale. Nulla tamen 
+      <lb ed="#T" n="14"/>siunt praeter intentionem causae primae 
+    </p>
+               <p xml:id="pdt7y6-e99640-d1e471">
+                  <lb ed="#T" n="15"/>Ad 2. Actus liberi arbitrij non sunt 
+      ordinati<lb ed="#T" n="16" break="no"/>ad certum finem. Resp. Imo quantum est ex 
+      in<lb ed="#T" n="17" break="no"/>tentione prouidentiae ad certum finem sunt, id  
+      <lb ed="#T" n="18"/>est ad bonum: sed ex vitio subjecti accidit quod 
+      <lb ed="#T" n="19"/>aliter contingunt: quos tamen defectus 
+      proui<lb ed="#T" n="20" break="no"/>dentia ordiuat in bonum. 
+    </p>
+               <p xml:id="pdt7y6-e99640-d1e487">
+                  <lb ed="#T" n="21"/>Ad 3. Multa siunt inordinate. Resp. 
+      Proui<lb ed="#T" n="22" break="no"/>dentiae subiacere dicuntur aliqua dupliciter, aut 
+      <lb ed="#T" n="23"/>vt fienda, aut iam facta: primo modo subjacent. 
+      <lb ed="#T" n="24"/>bona quae per ipsam: siunt: secundo modo 
+      ma<lb ed="#T" n="25" break="no"/>a &amp; inordinata opera creaturae, quae per pro¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0402.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="26"/>uidentiam ordinantur.  
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e99640-Dd1e508">
+               <head xml:id="pdt7y6-e99640-Hd1e510">Expositio litterae</head>
+               <p xml:id="pdt7y6-e99640-d1e512">
+                  <lb ed="#T" n="27"/>EXPOSITIO LITERAE 
+    </p>
+               <p xml:id="pdt7y6-e99640-d1e517">
+                  <lb ed="#T" n="28"/>[TLle gignendo, iste nascendo.] Contra. 
+      Sci<lb ed="#T" n="29" break="no"/>Ire in Deo est esse: ergo Pater habet esse 
+      gene<lb ed="#T" n="30" break="no"/>rande: ergo per generationem. Resp. 
+      Gerun<lb ed="#T" n="31" break="no"/>diuum aliquando notat causam, vt si dicatur, 
+      <lb ed="#T" n="32"/>iste mouetur currendo: aliquando comitantiam, 
+      <lb ed="#T" n="33"/>vt si dicatur, iste mouetur comedendo: 
+      secun<lb ed="#T" n="34" break="no"/>do modo accipitur hic, non primo 
+    </p>
+               <p xml:id="pdt7y6-e99640-d1e535">
+                  <lb ed="#T" n="35"/>Scientia Dei non est nisi de ijs quae sunt, vel 
+      <lb ed="#T" n="36"/>fuerunt, vel erunt) Contra. Deus etiam scit illa 
+      <lb ed="#T" n="37"/>quae esse possunt. Resp. Loquitur de scientia 
+      vi<lb ed="#T" n="38" break="no"/>sionis. 
+    </p>
+               <p xml:id="pdt7y6-e99640-d1e546">
+                  <lb ed="#T" n="39"/>[Non potest nouiter velle aliquid.] Contra. 
+      <lb ed="#T" n="40"/>Potest velle quod prius nolebat. Resp. diuisim 
+      <lb ed="#T" n="41"/>vera est, coiunctim falsa: ex sensu vero 
+      coniun<lb ed="#T" n="42" break="no"/>cto sequitur quod nouiter aliquid velit, non ex 
+      <lb ed="#T" n="43"/>sensu diuiso. 
+    </p>
+               <p xml:id="pdt7y6-e99640-d1e560">
+                  <lb ed="#T" n="44"/>Specialem curam de rationalibus.] Contra. 
+      <lb ed="#T" n="45"/>sap. 5. AEque est illi cura de omnibus. Resp. 
+      <lb ed="#T" n="46"/>AEque accipitur ibi pro similiter, non pro 
+      aequa<lb ed="#T" n="47" break="no"/>liter. Vel priuat inaequalitatem acceptionis 
+      per<lb ed="#T" n="48" break="no"/>sonarum, non ordinis. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0402.xml-->
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

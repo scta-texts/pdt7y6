@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="327"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-f00120"><!-- l1d40prae -->
+            <head xml:id="pdt7y6-f00120-Hd1e99">Praeambulum</head>
+            <head xml:id="pdt7y6-f00120-Hd1e101" type="question-title"/>
+            <p xml:id="pdt7y6-f00120-d1e103">
+               <cb ed="#T" n="c"/>
+               <lb ed="#T" n="49"/>QVID SIT PRAEDESTINATIO 
+      <lb ed="#T" n="50"/>&amp; in quo differt a praescientia. 
+      <lb ed="#T" n="51"/>Distinct. XL. 
+    </p>
+           <!-- <p xml:id="pdt7y6-f00120-d1e114">
+               <lb ed="#T" n="52"/>PRAEDESTINATIO vero de bonis salutaribus est, &amp; de hominibus 
+      sal<lb ed="#T" n="53" break="no"/>uandis: vt enim ait August. in libro de praedestinatione Sanctorum, 
+      prae<lb ed="#T" n="54" break="no"/>destinatio est gratiae praeparatio, quae sine praescientia esse non potest 
+      po<lb ed="#T" n="55" break="no"/>test autem sine praedestinatione esse praescientia. Praedestinatione quippe 
+      <lb ed="#T" n="56"/>SDeus ea praesciuit, quae fuerat ipse facturus: sed praesciuit Deus etiam 
+      <lb ed="#T" n="57"/>quae non esset ipse facturus, id est, omnia mala. Praedestinauit eos quos 
+      <lb ed="#T" n="58"/>elegit, reliquos vero reprobauit, id est, ad mortem aeternam praesciuit peccaturos. 
+    </p>
+            <p xml:id="pdt7y6-f00120-d1e132">
+               <lb ed="#T" n="59"/>An aliquis praedestinatorum possit damnari, vel reproborum saluari. 
+      <lb ed="#T" n="60"/>Praedestinatorum nullus videtur posse damnari, nec reproborum aliquis posse 
+      saluari<lb ed="#T" n="61" break="no"/>Vnde Augustinus in libro de Correctione &amp; Gratia: In Apocalypsi, inquit, dicitur: Tene 
+      <lb ed="#T" n="62"/>quod habes, ne alius accipiat coronam tuam. Si alius non est accepturus nisi iste perdide 
+      <lb ed="#T" n="63"/>rit, certus est electorum numerus, id est, non potest augeri vel minui. Ad hoc autem obij. 
+      <lb ed="#T" n="64"/>ciunt quidam nitentes probare numerum electorum posse augeri &amp; minui, sic: Posset Deus 
+      <lb ed="#T" n="65"/>non apponere gratiam quibus apponit, &amp; posset subtrahere quibus non substrahit: quod 
+      si<lb ed="#T" n="66" break="no"/>faceret, vtique damnarentur: possent ergo damnari isti qui tamen saluabuntur, posset 
+      ita<lb ed="#T" n="67" break="no"/>que minui electorum numerus. Ita etiam posset augeri: quia posset apponi gratia quibus 
+      <lb ed="#T" n="68"/>non apponitur, per quam saluarentur: possent ergo saluari habita gratia, qui tamen fine 
+      <lb ed="#T" n="69"/>ea damnabuntur: posset itaque augeri numerus electorum. 
+    </p>
+            <p xml:id="pdt7y6-f00120-d1e159">
+               <lb ed="#T" n="70"/>Quibus respondemus ex ea ratione dictum esse, &amp; verum esse, numerum electorum 
+      <lb ed="#T" n="71"/>non posse augeri vel minui: quia non potest vtrunque simul esse, scilicet vt aliquis 
+      sal<lb ed="#T" n="72" break="no"/>uetur &amp; non sit praedestinatus: vel vt aliquis praedestinatus sit &amp; damnetur. Intelligentia 
+      <lb ed="#T" n="73"/>enim conditionisr implicitae veritatem facit in dicto, &amp; impossibilitatem in vero. Si 
+      <lb ed="#T" n="74"/>vero simpliciter intelligatur, impossibilitas non admittitur, vt cum dicitur: Praedestina 
+      <lb ed="#T" n="75"/>tus potest vel non potest damnari, &amp; reprobus potest saluari. In his enim &amp; huiusmodi 
+      lo<lb ed="#T" n="76" break="no"/>cutionibus, ex ratione dicti dijudicanda est sententia dictionis. Alia namque sit 
+      intelli<lb ed="#T" n="77" break="no"/>gentia, si per coniunctionem haec accipiantur dicta, atque si per disiunctionem, vt supra 
+      <lb ed="#T" n="78"/>cum de praescientia agebatur, praetaxatum est. Si enim cum dicis: Praedestinatus non 
+      po<lb ed="#T" n="79" break="no"/>test damnari, intelligas ita, id est, non potest esse vt praedestinatus sit &amp; damnetur, verum 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0403.xml-\->
+      <pb ed="#T" n="328"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>dicis: quia coniunctim intelligis: falsum autem si disiunctim, vt si intelligas istum non 
+      <lb ed="#T" n="2"/>posse damnari quem dico praedestinatum, potuit enim non esse praedestinatus, &amp; ita 
+      dam<lb ed="#T" n="3" break="no"/>naretur.
+    </p>
+            <p xml:id="pdt7y6-f00120-d1e196">
+               <lb ed="#T" n="4"/>Quomodo adhuc instant quaestioni. 
+      <lb ed="#T" n="5"/>Veruntamen adhuc instant, &amp; secundum coniunctionem argumentando ita procedunt. 
+      <lb ed="#T" n="6"/>Non enim, inquiunt, potest esse vt aliquis praedestinatus sit &amp; damnetur. Vtrunque 
+      isto<lb ed="#T" n="7" break="no"/>rum simul esse non potest: sed alterum horum non potest non esse, scilicet quin iste sit 
+      prae<lb ed="#T" n="8" break="no"/>destinatus (ab aeterno enim praedestinatus est) &amp; non potest modo non esse 
+      praedestina<lb ed="#T" n="9" break="no"/>tus: cum ergo impossibile sit simul vtrumque esse, &amp; impossibile sit alterum non esse, 
+      vide<lb ed="#T" n="10" break="no"/>tur non posse alterum esse, scilicet vt damnetur: quod si est, ergo non potest esse vt non 
+      <lb ed="#T" n="11"/>saluetur. In huius quaestionis solutione mallem alios audire quam docere. Dicimus tamen 
+      <lb ed="#T" n="12"/>de praescientia similem posse moueri quaestionem. Ideoque tam hic quam ibi vnam 
+      faci<lb ed="#T" n="13" break="no"/>mus responsionem, dicentes determinandum fore illud cui innititur tota haec quaestio, 
+      sci<lb ed="#T" n="14" break="no"/>licet impossibile est alterum istorum non esse, scilicet, quin iste modo sit praedestinatus: ab 
+      <lb ed="#T" n="15"/>aeterno enim iste praedestinatus est. Distinguendum enim est cum ait: Iste non potest 
+      mo<lb ed="#T" n="16" break="no"/>do non esse praedestinatus, vel non potest modo esse quin sit praedestinatus: hoc enim 
+      con<lb ed="#T" n="17" break="no"/>iunctim vel disiunctim intelligi potest. Non enim potest esse vt ab aeterno sit praedestinatus; 
+      <lb ed="#T" n="18"/>&amp; modo non sit praedestinatus: nec potest esse simul vt sit praedestinatus, &amp; non sit 
+      praede<lb ed="#T" n="19" break="no"/>stinatus: sed tamen potuit esse ab aeterno quod non esset praedestinatus, &amp; potuit ab 
+      aeter<lb ed="#T" n="20" break="no"/>no non esse praedestinatus. Et sicut ab aeterno Deus potuit cum non praedestinare, ita 
+      con<lb ed="#T" n="21" break="no"/>ceditur a quibuldam quod &amp; modo potest Deus cum non praedestinasse. Ab aeterno ergo 
+      <lb ed="#T" n="22"/>potest Deus non praedestinasse cum: ergo potest iste non fuisse praedestinatus: si vero non 
+      <lb ed="#T" n="23"/>fuisset praedestinatus, nec modo esset praedestinatus: ergo modo potest non esse 
+      praedesti<lb ed="#T" n="24" break="no"/>natus; ita &amp; de praescientia &amp; de praescitis dicunt: quod in actionibus vel in operationibus. 
+      <lb ed="#T" n="25"/>Dei &amp; hominum nullatenus concedunt. Ex quo enim aliquid factum est vel dictum, non 
+      <lb ed="#T" n="26"/>concedunt quod possit non esse vel non fuisse: imo impossibile est non esse vel non fuisse 
+      <lb ed="#T" n="27"/>quod factum est vel dictum: referentes possibilitatem vel impossibilitatem ad naturam rei 
+      <lb ed="#T" n="28"/>existentis. Cum vero de praescientia vel praedestinatione Dei agitur, possibilitas, vel 
+      impos<lb ed="#T" n="29" break="no"/>sibilitas ad potentiam Dei refertur, quae semper eadem fuit &amp; est: quia praedestiuatio, 
+      prae<lb ed="#T" n="30" break="no"/>scientia, potentia, vnum in Deo est 
+    </p>
+            <p xml:id="pdt7y6-f00120-d1e257">
+               <lb ed="#T" n="31"/>Quid sit reprobatio Dei, &amp; in quibus consideretur, &amp; quis sit praedestnationis effectus. D 
+      <lb ed="#T" n="32"/>Cumque praedestinatio sit gratiae praeparatio, id est, Diuina electio qua elegit quos 
+      vo<lb ed="#T" n="33" break="no"/>luitante mundi constitutionem, vt ait Apostolus: reprobatio e conuerso intelligenda est 
+    </p>
+            <p xml:id="pdt7y6-f00120-d1e266">
+               <lb ed="#T" n="34"/>praescientia iniquitatisquorundam, &amp; praeparatio damnationis eorundem. Sicut enim 
+      prae<lb ed="#T" n="35" break="no"/>destinationis effectus illa gratia est, qua in praesenti iustificamur, atque ad recte viuendum, 
+      <lb ed="#T" n="36"/>&amp; in bono perseuerandum adiuuamur, &amp; illa qua in futuro beatificamur: ita reprobatio 
+      <lb ed="#T" n="37"/>Dei, qua ab aeterpo non eligendo quosdam reprobauit, secundum duo consideratur: 
+      quo<lb ed="#T" n="38" break="no"/>rum alterum praescit &amp; non praeparat, id est, iniquitatem; alterum praescit &amp; praeparat, 
+      sci<lb ed="#T" n="39" break="no"/>licet, aeternam poenam. Vnde August. ad Prosperum &amp; Hilarium, Haec, inquit, regula 
+      in<lb ed="#T" n="40" break="no"/>concusse tenenda est, peccatores in peccatis praescitos esse, non praeparatos; poenam 
+      au<lb ed="#T" n="41" break="no"/>tem esse praeparatam. Praeparauit enim Deus, vt ait August. in lib. de Bono Perseuerantiae, 
+      <lb ed="#T" n="42"/>in praescientia sua, quibus voluit bona sua: &amp; quibuscunque donat, proculdubio se 
+      dona<lb ed="#T" n="43" break="no"/>turum esse praesciuit. Praeparauit etiam Deus, vt ait Fulgentius, malis ignem aeternum, illis 
+      <lb ed="#T" n="44"/>vtique quos iuste praeparauit ad luenda supplicia, nec tamen praeparauit ad facienda pe¬¬ 
+      <lb ed="#T" n="45"/>cata. Praeparauit enim Deus, quod diuina aequitas redderet, non quod humana iniquitas 
+      <lb ed="#T" n="46"/>admitteret. Non enim sicut praeparauit Sanctos ad iustitiam percipiendam, sic 
+      praepara<lb ed="#T" n="47" break="no"/>uit iniquos ad iniustitiam admittendam: quia prauitatis praeparator numquam fuit. Sicut  
+      <lb ed="#T" n="48"/>ergo praedestinatio Dei proprie est praescientia &amp; praeparatio beneficiorum Dei quibus. 
+      <lb ed="#T" n="49"/>certissime liberantur quicunque liberantur: ita reprobatio Dei est praescientia malitiae in 
+      <lb ed="#T" n="50"/>quibusdam non finiendae, &amp; praeparatio poenae non terminandae. Et sicut praedestinationis 
+      <lb ed="#T" n="51"/>effectus est gratis appositio, ita reprobationis aeternae quodammodo effectus esse videtur 
+      <lb ed="#T" n="52"/>obduratio. Nec obdurat Deus, ait August. ad Sixtum, impartiendo malitiam, sed non 
+      im<lb ed="#T" n="53" break="no"/>partiendo gratiam, sicut nec digni sunt. Quibus enim non impartitur, nec digni sunt, nec 
+      <lb ed="#T" n="54"/>merentur: potius vt non impartiatur, hoc digni sunt, hoc merentur. Unde apostolus ait, 
+      <lb ed="#T" n="55"/>Cuius vult miferetur Deus, &amp; quem vult indurat: inifericordiam appellans 
+      praedestina<lb ed="#T" n="56" break="no"/>tionem, &amp; praecipue praedestinationis effectum, id est, gratiae appositionem: 
+      obduratio<lb ed="#T" n="57" break="no"/>nem vero gratiae priuationem. Non enim, vt ait Aug. ad Simplicianum, intelligendum est 
+      <lb ed="#T" n="58"/>quod Deus ita induret, quasi quenquam peccare cogat: sed tamen quibusdam 
+      peccatori<lb ed="#T" n="59" break="no"/>bus misericordiam iustificationis suae non largitur, &amp; ob hoc eos indurare dicitur, quia non 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0404.xml-\->
+      <pb ed="#T" n="329"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>eorum miferetur, non quia impellit vt peccent. Eorum autem non misererur, quibus 
+      gra<lb ed="#T" n="2" break="no"/>tiam non praebendam esse aequitate occultissima, &amp; ab humanis sensibus remotissima 
+      iudi<lb ed="#T" n="3" break="no"/>cat: quam non apperit, sed mitatur Apostolus dicens, O altitudo diuitiarum sapientiae &amp; 
+      <lb ed="#T" n="4"/>scientiae Dei. 
+    </p>-->
+            <p xml:id="pdt7y6-f00120-d1e340">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0404.xml-->
+               <cb ed="#T" n="b"/>
+               <lb ed="#T" n="5" type="fixed=329"/>DIVISIO TEXTVS. 
+      <lb ed="#T" n="6"/>[DRaedestinatio vero est de bonis.] Egit de 
+      <lb ed="#T" n="7"/>scientia Dei in generali: hic agit de 
+      qua<lb ed="#T" n="8" break="no"/>da melus specie quae est praedestinatio. Et 
+      pri<lb ed="#T" n="9" break="no"/>mo agit de effectu praedestinationis &amp; 
+      reproba<lb ed="#T" n="10" break="no"/>tionis dist. hac. Secundo de causa dist. 
+      quadra<lb ed="#T" n="11" break="no"/>gesima prima. In prima parte primo agit de 
+      effe<lb ed="#T" n="12" break="no"/>ctu praedestinationis. Secundo de effectu 
+      repro<lb ed="#T" n="13" break="no"/>Sationie [Cumque praedestinatio.  
+    </p>
+            <p xml:id="pdt7y6-f00120-d1e366">
+               <lb ed="#T" n="14"/>In prima parte primo ostendit quis sit effectus 
+      <lb ed="#T" n="15"/>praedestinationis. Secundo inquirit &amp; 
+      determi<lb ed="#T" n="16" break="no"/>nat an effectus eius cassari possit [
+      Praedestinato<lb ed="#T" n="17" break="no"/>rum] Tertio contra determinationem opponit 
+      <lb ed="#T" n="18"/>&amp; soluit [Veruntamen. 
+    </p>
+            <p xml:id="pdt7y6-f00120-d1e380">
+               <lb ed="#T" n="19"/>In secunda parte primo determinat de effectu 
+      <lb ed="#T" n="20"/>reprobationis positiuo [Cumque] Secundo 
+      <lb ed="#T" n="21"/>de effectu priuatiuo [ Sicut ergo 
+      praedesti<lb ed="#T" n="22" break="no"/>natio.] 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

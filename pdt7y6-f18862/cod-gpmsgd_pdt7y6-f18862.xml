@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="386"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-f18862"><!-- l1d47prae -->
+            <head xml:id="pdt7y6-f18862-Hd1e99">Praeambulum</head>
+            <head xml:id="pdt7y6-f18862-Hd1e101" type="question-title"/>
+            <p xml:id="pdt7y6-f18862-d1e103">
+               <cb ed="#T" n="c"/>
+               <lb ed="#T" n="73"/>QVoD VOLVNIAS DEI SEMpER 
+      <lb ed="#T" n="74"/>impletur de homine quocunque se vertat. 
+      <lb ed="#T" n="75"/>Distinct. XLVII. 
+      </p>
+           <!-- <p xml:id="pdt7y6-f18862-d1e114">
+               <lb ed="#T" n="76"/>OLVNTIS quippe Dei semper efficax est, vt fiat omne quod velit, 
+      <lb ed="#T" n="77"/>&amp; nihil siat quod nolit: quae de homine semper impletur quocunque 
+      <lb ed="#T" n="78"/>se vertat. Nihil enim vt ait Augustinus, in libero arbitrio 
+      constitu<lb ed="#T" n="79" break="no"/>tum superat voluntatem Dei: &amp; si faciat contra eius voluntatem, 
+      ta<lb ed="#T" n="80" break="no"/>men contra eius voluntatem quae ipse est nihil putandum est ita 
+      fie<lb ed="#T" n="81" break="no"/>ri, tanquam velit fieri, &amp; non siat, vel nolit fieri, &amp; fiat. Illa enim 
+      vo<lb ed="#T" n="82" break="no"/>luntas (vt ait August. in Enchir.) semper impletur, aut de nobis, aut 
+      <lb ed="#T" n="83"/>a nobis. De nobis impletur, sed tamen non implemus eam, 
+      quan<lb ed="#T" n="84" break="no"/>do peccamus. A nobis impletur quando bonum facimus: ideo enim facimus, quia scimus 
+      <lb ed="#T" n="85"/>placere Deo. Ita &amp; de homine semper Deus implet suam voluntatem: quia nihil facit 
+      ho<lb ed="#T" n="86" break="no"/>mo de quo Deus non operetur quod vult. Non enim vult Deus vt peccet homo quilibet. 
+      <lb ed="#T" n="87"/>Si autem peccauerit, poenitenti vult parcere vt viuat: in peccatis vero perseuerantem 
+      pu<lb ed="#T" n="88" break="no"/>nire, vt iustitiae potentiam contumax non enadat. Sicut alios ab aeterno praeparauit ad 
+      poe<lb ed="#T" n="89" break="no"/>nam, ita alios praeparauit ad gloriam: &amp; haec sunt magna opera Domini exquisita in 
+      om<lb ed="#T" n="90" break="no"/>nes voluntates eius. Et tam sapienter exquisita, vt cum angelica &amp; humana creatura 
+      pec<lb ed="#T" n="91" break="no"/>casset, id est, non quod ille, sed quod voluit ipsa fecisset, etiam per eandem creaturae volun¬ 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0462.xml-\->
+      <pb ed="#T" n="387"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>tatem qua factum est, quod creator non voluit, impleret ipse quod voluit: bene r:ens 
+      <lb ed="#T" n="2"/>etiam malis tanquam summe bonus ad eorum damnationem quos iuste praedostinauit ad 
+      <lb ed="#T" n="3"/>poenam, &amp; ad eorum salutem quos benigne praedestinauit ad gratiam. Quantum enim ad 
+      <lb ed="#T" n="4"/>ipsos attinet, quod Deus noluit fecerunt: quantum vero ad omnipotentiam Dei, nullo 
+      <lb ed="#T" n="5"/>modo id facere valuerunt. Hoc quippe ipso quod contra eius voluntatem fecerunt, de 
+      ip<lb ed="#T" n="6" break="no"/>sis facta est voluntas eius. Propterea namque magna opera Domini sunt, exquisita in 
+      <lb ed="#T" n="7"/>omnes voluntates eius, vt miro &amp; ineffabili modo non siat praeter eius voluntacem, quod 
+      <lb ed="#T" n="8"/>etiam sit contra eius voluntatem, quia non fieret si non sineret: nec vtique nolens sinit, 
+      <lb ed="#T" n="9"/>sed volens: nec sineret bonus fieri mala, nisi omnipotes etiam de malo posset facere bene. 
+    </p>
+            <p xml:id="pdt7y6-f18862-d1e177">
+               <lb ed="#T" n="10"/>His verbis euidenter monstratur quod voluntas Dei aeterna semper impletur de 
+      homi<lb ed="#T" n="11" break="no"/>ne, etiam si faciat homo contra Dei voluntatem. Sed aduertendum est diligenter 
+      quomo<lb ed="#T" n="12" break="no"/>do in superioribus dicitur fieri aliquid contra Dei voluntatem, quod tamen non sit praeter  
+      <lb ed="#T" n="13"/>eam, &amp; qualiter intelligendum sit illud, Quantum ad se fecerunt quod Deus noluit 
+      quan<lb ed="#T" n="14" break="no"/>tum vero ad omnipotentiam Dei, nullo modo id facere valuerunt. Videntur enim ista 
+      su<lb ed="#T" n="15" break="no"/>perioribus obuiare, vbi dictum est voluntati eius nihil resistere. 
+    </p>
+            <p xml:id="pdt7y6-f18862-d1e194">
+               <lb ed="#T" n="16"/>Hic aperit diuersis modis supra accipi Dei voluntatem. 
+      <lb ed="#T" n="17"/>Verum, vt supra diximus, voluntas Dei diuersis modis accipitur, quae diuersitas si in 
+      prae<lb ed="#T" n="18" break="no"/>dictis verbis diligenter notetur, nihil ibi contradictionis reperitur. Vbi enim dicit non fieri 
+      <lb ed="#T" n="19"/>praeter eius voluntatem, etiam quod sit contra eius voluntatem, dissimiliter accepit 
+      vo<lb ed="#T" n="20" break="no"/>luntatem &amp; non ipsam voluntatem quae Deus est, &amp; sempiterna est: sed eius signa 
+      praedi<lb ed="#T" n="21" break="no"/>ctis verbis intelligi voluit, id est, prohibitionem siue praeceptionem &amp; permissionem. 
+      Mul<lb ed="#T" n="22" break="no"/>ta enim siunt contra Dei praeceptum vel prohibitionem, quae tamen non siunt praeter eius 
+      <lb ed="#T" n="23"/>permissionem. Ipsius namque permissione omnia siunt mala: quae tamen praeter eius 
+      vo<lb ed="#T" n="24" break="no"/>luntatem sempiternam siunt, sicut August. dicit super illum locum Psal. Vt non loquatur.  
+      <lb ed="#T" n="25"/>os meum opera hominum. Opera enim hominum dicit ea quae mala sunt, quae praeter  
+      <lb ed="#T" n="26"/>Dei voluntatem siunt quae ipse est: sed non praeter eius permissionem quae ipse non est. 
+      <lb ed="#T" n="27"/>Appellatur tamen ipsa Dei veluntas, quia Deus volens sinit mala fieri. Fiunt &amp; contra 
+      <lb ed="#T" n="28"/>eius praeceptionem vel prohibitionem, sed non contra eius voluntatem quae ipse est: 
+      nisi<lb ed="#T" n="29" break="no"/>dicantur contra eam neri, quia praeter eam fiunt. Contra eam quippe nihil ita sit, vt velit  
+      <lb ed="#T" n="30"/>fieri quod non fiat, vel nolit fieri &amp; siat: quod euidenter ibi August. notauit, vbi ait: 
+      Quan<lb ed="#T" n="31" break="no"/>tum ad ipsos attinet quod Deus noluit fecerunt: quantum vero ad omnipotentiam Dei, 
+      <lb ed="#T" n="32"/>nulso modo id facere valuerunt. Ac si diceret: Fecerunt contra Dei praeceptum quod 
+      ap<lb ed="#T" n="33" break="no"/>pellatur voluntas, sed non fecerunt contra Dei voluntatem omnipotentem, quia hoc noa 
+      <lb ed="#T" n="34"/>valuerunt, illud valuerunt: &amp; ita per hoc quod fecerunt contra Dei voluntatem, id est 
+      prae<lb ed="#T" n="35" break="no"/>ceptum, de ipsis facta est voluntas eius: id est, impleta est voluntas eius sempiterna, qua 
+      <lb ed="#T" n="36"/>eos damnari volebat. Vnde Gregor. super Iob, Multi voluntatem Dei peragunt, vnde 
+      mu<lb ed="#T" n="37" break="no"/>tare contendunt, &amp; consilio eius resistentes obsequuntur: quia hoc eius dispositioni 
+      mili<lb ed="#T" n="38" break="no"/>tat, quae per humanum studium resultat. Hic aperte ostenditur, quia dum mali consilio ac 
+      <lb ed="#T" n="39"/>praecepto Dei resistunt, quod voluntas Dei appellatur, ea faciunt vnde voluntas eius, quae 
+      <lb ed="#T" n="40"/>ipse est, impletur, quae dispositio vel beneplacitum vocatur. Nam, vt ait Augustinus in 
+      <lb ed="#T" n="41"/>Enchir. quantaelibet sint voluntates angelorum &amp; hominum bonorum vel malorum, vel 
+      <lb ed="#T" n="42"/>illud quod Deus, vel aliud volentium quam Deus, omnipotentis voluntas semper 
+      inui<lb ed="#T" n="43" break="no"/>cta est: quae mala esse numquam potest, quae etiam dum mala irtogat, iusta est: &amp; 
+      profe<lb ed="#T" n="44" break="no"/>cto quae iusta est, mala non est. Deus ergo omnipoteas siue per mifericordiam cuius vult 
+      <lb ed="#T" n="45"/>miferetur, siue per iudicium quem vult obdurat: nec inique aliquid facit, nec nisi volens 
+      <lb ed="#T" n="46"/>quicquam facit, &amp; omnia quaecumque vult facit. 
+      <lb ed="#T" n="47"/>Summatim perstringit sententiam praedictorum, addens quare Deus praecepit omnibus bona facere, &amp; mala 
+    </p>
+            <p xml:id="pdt7y6-f18862-d1e266">
+               <lb ed="#T" n="48"/>vitare: cum non velit hoc ab omnibus impleri. 
+      <lb ed="#T" n="49"/>Ex praedictisliquet quod voluntas Dei quae ipse est, semper inuicta est, nec in aliquo 
+      <lb ed="#T" n="50"/>cassatur, sed per omnia impletur. Consilium vero eius &amp; praeceptio, siue prohibitio non 
+      <lb ed="#T" n="51"/>ab omnibus implentur, quibus proposita &amp; data sunt. Neque ideo praecepit omnibus. 
+      <lb ed="#T" n="52"/>bona, vel prohibuit mala, vel consuluit optima, quod vellet ab omnibus bona quae 
+      praece<lb ed="#T" n="53" break="no"/>pit fieri, vel mala quae prohibuit vitari (si enim vellet, vtique &amp; fierent, quia in nullo 
+      po<lb ed="#T" n="54" break="no"/>test ab homine superari vel impediri eius voluntas) sed vt iustitiam suam hominibus 
+      <lb ed="#T" n="55"/>ostenderet, &amp; mali essent inexcusabiles: denique vt boni ex obedientia gloriam, mali ex 
+      <lb ed="#T" n="56"/>inobedientia poenam fortirentur, sicut vtrisque ab aeterno praeparauit. Ea ergo quae 
+      om<lb ed="#T" n="57" break="no"/>nibus praecepit vel prohibuit, a quibusdam voluit fieri vel vitari, sed non ab omnibus. Et  
+      <lb ed="#T" n="58"/>quaedam personaliter praecepit &amp; in veteri &amp; in noua lege: quae ab eis quibus praecepit,  
+      <lb ed="#T" n="59"/>fieri noluit: vt Abrahae de immolatione filij, &amp; in Euangelio quibusdam curatis, quibus 
+      <lb ed="#T" n="60"/>praecepit ne cui dicerent. 
+    </p>-->
+            <p xml:id="pdt7y6-f18862-d1e297">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0463.xml-->
+               <pb ed="#T" n="388"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>DIVISIO TEXTVS. 
+      <lb ed="#T" n="2"/>VVOluntas quippe.] Ostendit quod volun¬ 
+      <lb ed="#T" n="3"/>tas Dei nunquam sit inefficax: hic 
+      osten<lb ed="#T" n="4" break="no"/>dit quod semper sit efficax. Ubi ostendit primo 
+      <lb ed="#T" n="5"/>quod omnia siunt ex voluntate Dei. Secundu 
+      <lb ed="#T" n="6"/>ex determinatis mouet dubitationem 
+      inciden<lb ed="#T" n="7" break="no"/>tem (His verbis] Tertio ponit eius solutionem 
+      <lb ed="#T" n="8"/>LVerum vt sitpra)] Quarto subdit praemissorum 
+      <lb ed="#T" n="9"/>recapitulationem. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

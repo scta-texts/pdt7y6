@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="277"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e84288"><!-- l1d34q4 -->
+            <head xml:id="pdt7y6-e84288-Hd1e99">Quaestio 4</head>
+            <head xml:id="pdt7y6-e84288-Hd1e101" type="question-title">De translatione nominum ad divina</head>
+            <p xml:id="pdt7y6-e84288-d1e104">
+               <lb ed="#T" n="77"/>QVESTIO IV 
+      <lb ed="#T" n="78"/>DE TRANSLATIONE NOMINVM. 
+      <lb ed="#T" n="79"/>AD DIVINA. 
+</p>
+            <p xml:id="pdt7y6-e84288-d1e113">
+               <lb ed="#T" n="80"/>CIrca quartum quaeruntur duo. 
+      <lb ed="#T" n="81"/>Primo an aliquid conueniat Deo 
+      transsa<lb ed="#T" n="82" break="no"/>tiue. 
+      <lb ed="#T" n="83"/>Secundo a quibus rebus debeat fieri ad cum. 
+      <lb ed="#T" n="84"/>translatio.  
+    </p>
+            <div xml:id="pdt7y6-e84288-Dd1e126">
+               <head xml:id="pdt7y6-e84288-Hd1e128">Articulus 1</head>
+               <head xml:id="pdt7y6-e84288-Hd1e130" type="question-title">
+  An aliquid conueniat Deo translatiue
+</head>
+               <p xml:id="pdt7y6-e84288-d1e133">
+                  <lb ed="#T" n="85"/>Articvlvs I. 
+      <lb ed="#T" n="86"/>An aliquid conueniat Deo translatiue.
+</p>
+               <p xml:id="pdt7y6-e84288-d1e140">
+                  <lb ed="#T" n="87"/>AD primum sic proceditur. 1. Sicut dicit 
+      <lb ed="#T" n="88"/>Boetius lib. de Trinit. In diuinis 
+      intelle<lb ed="#T" n="89" break="no"/>ctualiter versari oportet, nec ad imaginationes 
+      <lb ed="#T" n="90"/>deduci: sed translatiua sumuntur ex imaginibus. 
+      <lb ed="#T" n="91"/>&amp; sensibilibus: ergo non debent de Deo dici. 
+    </p>
+               <p xml:id="pdt7y6-e84288-d1e153">
+                  <lb ed="#T" n="92"/>2. Omnes transferentes, vt ait Aristoteles lib. 
+      <lb ed="#T" n="93"/>Topie. secundum aliquam similitudinem 
+      trans<lb ed="#T" n="94" break="no"/>ferunt: similitudo vero est rerum differentium. 
+      <lb ed="#T" n="95"/>eadem qualitas: cum ergo sensibilium ad 
+      spiri<lb ed="#T" n="96" break="no"/>rualia diuina non sit similitudo nisi valde 
+      remo<lb ed="#T" n="97" break="no"/>ta, abiis ad diuina non debet fieri translatio.  
+    </p>
+               <p xml:id="pdt7y6-e84288-d1e170">
+                  <lb ed="#T" n="98"/>3. Huiusmodi similitudinariae translationes 
+      <lb ed="#T" n="99"/>sunt quaedam velamina veritatis secundum 
+      nio<lb ed="#T" n="100" break="no"/>nysium: ergo potius nocent ad intelligendam 
+      <lb ed="#T" n="101"/>veritatem quam prosunt: ergo non debent fieri 
+      <lb ed="#T" n="102"/>in Theologia in qua quaeritur manifestatio 
+      ve<lb ed="#T" n="103" break="no"/>ritatis) 
+    </p>
+               <p xml:id="pdt7y6-e84288-d1e186">
+                  <lb ed="#T" n="104"/>4. Intellectus noster, cum non recipiat nisi 
+      <lb ed="#T" n="105"/>depurata a conditionibus naturalibus, magis 
+      <lb ed="#T" n="106"/>aptus est recipere immaterialia quam materialia: 
+      <lb ed="#T" n="107"/>ergo similitudines materiales potius impediunt 
+      <lb ed="#T" n="108"/>eum quam iuuant ad cognoscenda diuina imma. 
+      <lb ed="#T" n="109"/>erialia. 
+    </p>
+               <p xml:id="pdt7y6-e84288-d1e202">
+                  <lb ed="#T" n="110"/>Contra 1. dionysius lib. de coelesti Hicrarch. 
+      <lb ed="#T" n="111"/>dicit quod non est possibile nobis aliter 
+      superlu<lb ed="#T" n="112" break="no"/>cere diuinum radium nisi similitudinum 
+      varieta<lb ed="#T" n="113" break="no"/>te circumuelatum: ergo vtilis &amp; necessaria est 
+      <lb ed="#T" n="114"/>translatiua similitudo rerum corporalium ad 
+      si<lb ed="#T" n="115" break="no"/>gnificationem diuinarum. 
+    </p>
+               <p xml:id="pdt7y6-e84288-d1e218">
+                  <lb ed="#T" n="116"/>2. Rom. 1. Inuisibilia Dei ex iis quae facta 
+      <lb ed="#T" n="117"/>sunt intellecta conspiciuntur: ergo ad 
+      intelli<lb ed="#T" n="118" break="no"/>genda diuina proficit translatiua similitudo 
+      vi<lb ed="#T" n="119" break="no"/>sibilium. 
+    </p>
+               <p xml:id="pdt7y6-e84288-d1e229">
+                  <lb ed="#T" n="120"/>Respondeo: Ratio traussationis sensibilium 
+      <lb ed="#T" n="121"/>similitudinum ad diuina duplex est: vna a parte 
+      <lb ed="#T" n="122"/>fidelium, quae est manuductio intellectus 
+      nostri<lb ed="#T" n="123" break="no"/>per huiusmodi sensibilia &amp; consueta ad 
+      cogni<lb ed="#T" n="124" break="no"/>tionem diuinorum, quae sunt nostro intellectui 
+      <lb ed="#T" n="125"/>occultiora, innata enim nobis est via a 
+      sensibili<lb ed="#T" n="126" break="no"/>bus ad intelligibilia: altera a parte infidelium, 
+      <lb ed="#T" n="127"/>scilicet occultatio diuinorum secretorum &amp;
+      my<lb ed="#T" n="128" break="no"/>steriorum. 
+    </p>
+               <p xml:id="pdt7y6-e84288-d1e251">
+                  <lb ed="#T" n="129"/>Ad 1. Boetij. Respondeo. principium 
+      specula<lb ed="#T" n="130" break="no"/>tionis nostrae incipit a speciebus sensibilibus; 
+      <lb ed="#T" n="131"/>terminatur autem in speciebus intellectualibus. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0353.xml-->
+      <pb ed="#T" n="278"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>Quando ergo Boetius dicit quod in niuinis 
+      <lb ed="#T" n="2"/>oportet versari intellectualiter, hoc intelligitur  
+      <lb ed="#T" n="3"/>quoad terminum &amp; complementum nostrae 
+      <lb ed="#T" n="4"/>speculationis, non quoad initium. 
+    </p>
+               <p xml:id="pdt7y6-e84288-d1e276">
+                  <lb ed="#T" n="5"/>Ad 2. de similitudine. Resp. Duplex 
+      <lb ed="#T" n="6"/>est similitudo: vna participationis, quae est 
+      se<lb ed="#T" n="7" break="no"/>cundum eandem qualitatem; haec non est 
+      sensi<lb ed="#T" n="8" break="no"/>bilium ad diuina: altera imitationis, quae est 
+      se<lb ed="#T" n="9" break="no"/>cundum habitudinem effectus ad causam, vel 
+      si<lb ed="#T" n="10" break="no"/>gni ad signatum; haec est sensibilium ad diuina, 
+      <lb ed="#T" n="11"/>secundum quam dicuntur esse vestigium 
+      Trini<lb ed="#T" n="12" break="no"/>tatis, &amp; secundum hanc sit translatio  
+    </p>
+               <p xml:id="pdt7y6-e84288-d1e296">
+                  <lb ed="#T" n="13"/>Ad 3. de velaminibus. Resp. Velamen 
+      <lb ed="#T" n="14"/>duplex est, quoddam ad occultandum, quod 
+      <lb ed="#T" n="15"/>dam ad contemperandum: primo modo nubes 
+      <lb ed="#T" n="16"/>obscura; secundo modo clara nubes est in 
+      vela<lb ed="#T" n="17" break="no"/>mentum radij solaris: vtroque modo 
+      similitudi<lb ed="#T" n="18" break="no"/>nibus velatur radius diuinus: primo modo 
+      pro<lb ed="#T" n="19" break="no"/>pter infideles, secundo modo propter fideles 
+      mi<lb ed="#T" n="20" break="no"/>nus capaces. Scriptura vero intendit veritatem 
+      <lb ed="#T" n="21"/>manifestare, secundum quod vtile est, id est 
+      se<lb ed="#T" n="22" break="no"/>cundum proportionem legentium quibus 
+      ve<lb ed="#T" n="23" break="no"/>ritas nuda aut pateret deritui fidelium, aut 
+      ex<lb ed="#T" n="24" break="no"/>cederet intellectum simplicium 
+    </p>
+               <p xml:id="pdt7y6-e84288-d1e325">
+                  <lb ed="#T" n="25"/>Ad 4. de intellectu. Resp. Quamuis 
+      intel<lb ed="#T" n="26" break="no"/>lectus noster magis aptus natus sit recipere 
+      <lb ed="#T" n="27"/>immateriales species quam materiales, tamen 
+      <lb ed="#T" n="28"/>magis innata est sibi via recipiendi 
+      immateria<lb ed="#T" n="29" break="no"/>lia in speciebus rerum materialium a materia ab 
+      <lb ed="#T" n="30"/>stractis, quam rerum immaterialium: sicut enim 
+      <lb ed="#T" n="31"/>se habet color ad visum, sic secundum 
+      Philoso<lb ed="#T" n="32" break="no"/>phum lib. de Anima phantasma ad intellectum, 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e84288-Dd1e347">
+               <head xml:id="pdt7y6-e84288-Hd1e349">Articulus 2</head>
+               <head xml:id="pdt7y6-e84288-Hd1e351" type="question-title">
+  A quibus rebus debeat fieri ad Deum translatio
+</head>
+               <p xml:id="pdt7y6-e84288-d1e354">
+                  <lb ed="#T" n="33"/>Articvlvs II. 
+      <lb ed="#T" n="34"/>A quibus rebus debeat fieri ad Deum translatio.
+    </p>
+               <p xml:id="pdt7y6-e84288-d1e361">
+                  <lb ed="#T" n="35"/>AD secundum sic proceditur. 1. Similitudo
+      <lb ed="#T" n="36"/>est ratio transsationis, quia omnes transfe 
+      <lb ed="#T" n="37"/>rentes secundum aliquam similitudinem 
+      transfe<lb ed="#T" n="38" break="no"/>runt: ergo cum substantiae spirituales, vt Angeli, 
+      <lb ed="#T" n="39"/>sint Deo similiores, ab illis ad diuina potius 
+      de<lb ed="#T" n="40" break="no"/>bent nomina transferri. 
+    </p>
+               <p xml:id="pdt7y6-e84288-d1e377">
+                  <lb ed="#T" n="41"/>2. In Deo non sunt conditiones nisi nobiles: 
+      <lb ed="#T" n="42"/>ergo rerum vilium nulla est ad ipsum 
+      similitu<lb ed="#T" n="43" break="no"/>do, vt vermis serpentis &amp; huiusmodi: ergo a 
+      <lb ed="#T" n="44"/>talibus nulla ad Deum debet fieri translatio.  
+    </p>
+               <p xml:id="pdt7y6-e84288-d1e389">
+                  <lb ed="#T" n="45"/>3. Eisdem similitudinibus non bene 
+      repraesen<lb ed="#T" n="46" break="no"/>tantur contraria: ergo similitudines rerum 
+      qui<lb ed="#T" n="47" break="no"/>bus representantur contrarie potestates 
+      demo<lb ed="#T" n="48" break="no"/>num, vt serpentis, leonis, &amp; huiusmodi, non 
+      de<lb ed="#T" n="49" break="no"/>bent transferri ad repraesentationem niuinorum. 
+    </p>
+               <p xml:id="pdt7y6-e84288-d1e402">
+                  <lb ed="#T" n="50"/>Contra. 1. In scripturis Sanctis a creaturis 
+      <lb ed="#T" n="51"/>vilibus vt vermis &amp; huiusmodi, transumptio 
+      <lb ed="#T" n="52"/>sumitur ad Diuina: ergo talia conuenienter 
+      <lb ed="#T" n="53"/>transferuntur.  
+    </p>
+               <p xml:id="pdt7y6-e84288-d1e413">
+                  <lb ed="#T" n="54"/>2. In omnibus effectibus similitudo causae 
+      pri<lb ed="#T" n="55" break="no"/>mae inuenitur: ergo ad ipsam significandam ab 
+      <lb ed="#T" n="56"/>omnibus effectibus translumptiua similitudo 
+      po<lb ed="#T" n="57" break="no"/>test induci. 
+    </p>
+               <p xml:id="pdt7y6-e84288-d1e424">
+                  <lb ed="#T" n="58"/>3. Vbi magis imminet erroris periculum, illud 
+      <lb ed="#T" n="59"/>maxime vitandum: sed in transsumptione 
+      no<lb ed="#T" n="60" break="no"/>bilium creaturarum ad Diuina, maius imminet 
+      <lb ed="#T" n="61"/>simplicibus erroris periculum, ne forte putent 
+      <lb ed="#T" n="62"/>ea proprie dici: ergo magis est vitanda quam 
+      <lb ed="#T" n="63"/>assumptio creaturarum viliorum. 
+    </p>
+               <p xml:id="pdt7y6-e84288-d1e440">
+                  <lb ed="#T" n="64"/>Respondeo. Nomina creaturarum quaedam 
+      <lb ed="#T" n="65"/>sunt quae significant solam conditionem nature. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0353.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="66"/>quaedam addunt defectum seu deformitatem vel 
+      <lb ed="#T" n="67"/>culpae vel miseriae: haec vltima non 
+      conuenien<lb ed="#T" n="68" break="no"/>ter transferuntt. ad Diuina significanda, vt 
+      no<lb ed="#T" n="69" break="no"/>men diaboli, vel inferni, vel morbi, vel 
+      mor<lb ed="#T" n="70" break="no"/>tis. Significantium conditionem, quaedam 
+      signi<lb ed="#T" n="71" break="no"/>ficant conditionem quae vere &amp; per prius est in 
+      <lb ed="#T" n="72"/>Deo, per posterius in creatura, vt intellectus, 
+      <lb ed="#T" n="73"/>charitas, &amp; huiusmodi; &amp; haec de Deo proprie 
+      <lb ed="#T" n="74"/>non translatiue dicuntur: quaedam significant 
+      <lb ed="#T" n="75"/>conditionem quae non est in Deo nisi 
+      similitudi<lb ed="#T" n="76" break="no"/>narie: &amp; harum rerum quaedam sunt nobiliores, 
+      <lb ed="#T" n="77"/>a quibus ad Deum nomina rarius transferuntur,  
+      <lb ed="#T" n="78"/>vt caelestia: quaedam minus nobiles, a quibus 
+      <lb ed="#T" n="79"/>frequentius transferuntur, vt terrestria. Cuius 
+      ra<lb ed="#T" n="80" break="no"/>tio secundum B. Dyonisium duplex accipi 
+      po<lb ed="#T" n="81" break="no"/>test, vna respectu infidelium, quia per haec 
+      <lb ed="#T" n="82"/>magis eis occultantur secreta diuinorum: 
+      alte<lb ed="#T" n="83" break="no"/>ra respectu simplicium fidelium quibus minon 
+      <lb ed="#T" n="84"/>praebetur errandi occasione credant aliquid tale 
+      <lb ed="#T" n="85"/>vere esse Deum. 
+    </p>
+               <p xml:id="pdt7y6-e84288-d1e495">
+                  <lb ed="#T" n="86"/>Ad 1. De similitudine maiori. Resp. 
+      Quam<lb ed="#T" n="87" break="no"/>us similitudo sit ratio generalis transferendi; est. 
+      <lb ed="#T" n="88"/>tamen altera ratio specialis in spiritualibus 
+      <lb ed="#T" n="89"/>translationibus, propter quam conuenientius 
+      <lb ed="#T" n="90"/>a minus similibus transferunttur, duplici 
+      ratio<lb ed="#T" n="91" break="no"/>ne quae dicta est: praeter quas potest reddi altera 
+      <lb ed="#T" n="92"/>ratio duplex: vna quia magis nobis nota est 
+      ho<lb ed="#T" n="93" break="no"/>rum proprietas quam creaturarum nobiliorum. 
+      <lb ed="#T" n="94"/>altera quia aliqua Diuina operatio magis 
+      reprae<lb ed="#T" n="95" break="no"/>sentatur in natura horum quam in natura 
+      supe<lb ed="#T" n="96" break="no"/>riorum, sicut in natura leonis terror &amp; 
+      seueri<lb ed="#T" n="97" break="no"/>tas diuinae vltionis. 
+    </p>
+               <p xml:id="pdt7y6-e84288-d1e525">
+                  <lb ed="#T" n="98"/>Ad 2. De conditionibus nobilioribus. Resp. 
+      <lb ed="#T" n="99"/>Expressio representationis non requirit 
+      similitu<lb ed="#T" n="100" break="no"/>dinem participationis conditionum nobilium, 
+      <lb ed="#T" n="101"/>sed imita tionis: nam aliquando melius 
+      reprae<lb ed="#T" n="102" break="no"/>sentat Imperatorem imago picta quam aurea. 
+      <lb ed="#T" n="103"/>Vel dicendum quod nulii causa vel creatura est 
+      <lb ed="#T" n="104"/>in qua non sint aliquae conditiones nobiles. 
+    </p>
+               <p xml:id="pdt7y6-e84288-d1e543">
+                  <lb ed="#T" n="105"/>Ad 3. De daemonibus. Resp. Earumdem rerum. 
+      <lb ed="#T" n="106"/>similitudinibus secundum easdem proprietates 
+      <lb ed="#T" n="107"/>non possunt repraesentari nec contraria, nec 
+      di<lb ed="#T" n="108" break="no"/>uersa: sed secundum diuersas similitudines 
+      pos<lb ed="#T" n="109" break="no"/>sunt repraesentari diuersa, sed non contraria: sic 
+      <lb ed="#T" n="110"/>diuersis earundem rerum proprietatibuspossunt. 
+      <lb ed="#T" n="111"/>repraesentari diuersae Dei &amp; diaboli 
+      conditio<lb ed="#T" n="112" break="no"/>nes, sed non contrariae, vt per serpentis 
+      vene<lb ed="#T" n="113" break="no"/>num malitia diaboli; per eius in Palo 
+      erectio<lb ed="#T" n="114" break="no"/>nem &amp; aspectum antidotum passionis Christi. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e84288-Dd1e568">
+               <head xml:id="pdt7y6-e84288-Hd1e570">Expositio litterae</head>
+               <p xml:id="pdt7y6-e84288-d1e572">
+                  <lb ed="#T" n="115"/>EXPOSITIO LITERAE 
+      <lb ed="#T" n="116"/>[CIea essentia quae est Pater est Filius.] Res¬ 
+    </p>
+               <p xml:id="pdt7y6-e84288-d1e579">
+                  <lb ed="#T" n="117"/>Opondendum est ad argumentum, quia 
+      Pa<lb ed="#T" n="118" break="no"/>ter &amp; Filius possunt teneri adiectiue, vel 
+      sub<lb ed="#T" n="119" break="no"/>stantiue: primo modo essentia nec est Pater,  
+      <lb ed="#T" n="120"/>nec Filius, quia sic sequeretur quod ei inesset 
+      <lb ed="#T" n="121"/>paternitas &amp; filiatio, eo quod adjectiuum ponit 
+      <lb ed="#T" n="122"/>rem significatam circa suum substantiuum: 
+      se<lb ed="#T" n="123" break="no"/>cundo modo essentia est Pater &amp; Filius, id est 
+      <lb ed="#T" n="124"/>persona Patris &amp; Filij. 
+    </p>
+               <p xml:id="pdt7y6-e84288-d1e599">
+                  <lb ed="#T" n="125"/>Aliam rem quaere] dicendum quod res 
+      po<lb ed="#T" n="126" break="no"/>test accipi, vel essentialiter, sic vna res est in 
+      diui<lb ed="#T" n="127" break="no"/>nis, scilicet essentia quae nec generat nec 
+      gene<lb ed="#T" n="128" break="no"/>ratur: vel personaliter, sic plures res sunt.  
+    </p>
+               <p xml:id="pdt7y6-e84288-d1e610">
+                  <lb ed="#T" n="129"/>[Non idem est natura quod res naturae) 
+      Intel<lb ed="#T" n="130" break="no"/>ligendum est quod natura &amp; res naturae in 
+      crea<lb ed="#T" n="131" break="no"/>turis differunt secundum rem, sed in Deo non 
+      <lb ed="#T" n="132"/>nisi secundum rationem, propter omnimodam 
+      <lb ed="#T" n="133"/>simplicitatem. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0354.xml-->
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

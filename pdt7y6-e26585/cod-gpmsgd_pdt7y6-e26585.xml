@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="87"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e26585"><!-- l1d9q4 -->
+            <head xml:id="pdt7y6-e26585-Hd1e99">Quaestio 4</head>
+            <head xml:id="pdt7y6-e26585-Hd1e101" type="question-title">De coaeternitatis significatione</head>
+            <p xml:id="pdt7y6-e26585-d1e104">
+               <lb ed="#T" n="119"/>QVESTIO. 
+      IV<lb ed="#T" n="120" break="no"/>BE CoAETERNITATIS SioniricArxaonE¬ 
+</p>
+            <p xml:id="pdt7y6-e26585-d1e111">
+               <lb ed="#T" n="121"/>CIrda, vstimum quaeruntur, 
+      quo<lb ed="#T" n="122" break="no"/>Erimo, an generatio Filij sit samper in 
+      <lb ed="#T" n="123"/>fier, sivel in facto esse. 
+      <lb ed="#T" n="124"/>Secundo qualiter significatur melius,, vel 
+      <lb ed="#T" n="125"/>vt in facto: esse, vel vt in fieri¬ 
+    </p>
+            <div xml:id="pdt7y6-e26585-Dd1e124">
+               <head xml:id="pdt7y6-e26585-Hd1e126">Articulus 1</head>
+               <head xml:id="pdt7y6-e26585-Hd1e128" type="question-title">
+      An generatio Filii sit semper in fieri vel in facte esse
+    </head>
+               <p xml:id="pdt7y6-e26585-d1e131">
+                  <lb ed="#T" n="126"/>ARTICVLVS I. 
+      <lb ed="#T" n="127"/>An generatio Filij sit semper in fieri, vel in facte esse. 
+    </p>
+               <p xml:id="pdt7y6-e26585-d1e138">
+                  <lb ed="#T" n="128"/>AD primum sic proceditur. 1. Omne quod 
+      <lb ed="#T" n="129"/>semper est in fieri, aut hoc est, quia nun¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0163.xml-->
+      <pb ed="#T" n="88"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>quam perficitur, aut quia semper iteratur: sed  
+      <lb ed="#T" n="2"/>diuina generatio semper perfecta est, nec iteratur: 
+      <lb ed="#T" n="3"/>ergo non est in fieri¬ 
+    </p>
+               <p xml:id="pdt7y6-e26585-d1e158">
+                  <lb ed="#T" n="4"/>2. Augustinus. In aeternis quicquid est, 
+      tan<lb ed="#T" n="5" break="no"/>tummodo est: ergo nihil ibi fit 
+    </p>
+               <p xml:id="pdt7y6-e26585-d1e166">
+                  <lb ed="#T" n="6"/>3. Quod sit, non est secundum Philosophu: sed  
+      <lb ed="#T" n="7"/>generatio Diuina semper est: ergo nunquam fit. 
+    </p>
+               <p xml:id="pdt7y6-e26585-d1e173">
+                  <lb ed="#T" n="8"/>Contra. 1. ceneratio Diuina infinita est, vnde 
+      <lb ed="#T" n="9"/>dicit Damasc. quod Deus generat infinite, &amp; 
+      <lb ed="#T" n="10"/>impassibiliter: ergo nunquam pertransit, vel 
+      <lb ed="#T" n="11"/>finitur: sed omnis actus, qui non finitur, semper 
+      <lb ed="#T" n="12"/>est in fieri: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e26585-d1e186">
+                  <lb ed="#T" n="13"/>2. Quod est in facto esse, terminatum est: sed  
+      <lb ed="#T" n="14"/>actus Diuinae generationis interminabilis est: 
+      <lb ed="#T" n="15"/>ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e26585-d1e195">
+                  <lb ed="#T" n="16"/>3. Quicquid aeternum est simul est cum toto 
+      <lb ed="#T" n="17"/>tempore: actus generationis aeternus est: ergo 
+      <lb ed="#T" n="18"/>simul erit cum toto tempore: ergo quotidie 
+      ge<lb ed="#T" n="19" break="no"/>neratur Filius. 
+    </p>
+               <p xml:id="pdt7y6-e26585-d1e206">
+                  <lb ed="#T" n="20"/>4. Filius procedit a Patre, vt splendor a sole: 
+      <lb ed="#T" n="21"/>sed splendoris generatio semper est in fieri: ergo 
+      <lb ed="#T" n="22"/>similiter generatio Filij 
+    </p>
+               <p xml:id="pdt7y6-e26585-d1e215">
+                  <lb ed="#T" n="23"/>Iuxta hoc quaeritur. Quis sit modus Diuinae 
+      <lb ed="#T" n="24"/>generationis, videtur quod nullus. Arius 
+      dis<lb ed="#T" n="25" break="no"/>putans contra Victorinum ponit duodecim 
+      mo<lb ed="#T" n="26" break="no"/>dos generationis, quos omnes probat Filio non 
+      <lb ed="#T" n="27"/>conuenire. Primus est secundum fluxum lineae 
+      <lb ed="#T" n="28"/>a puncto, in. quo deest aequalitas. Secundus, 
+      <lb ed="#T" n="29"/>secundum emissionem radij a sole, in quo deest 
+      <lb ed="#T" n="30"/>consubstantialitas. Tertius, secundum 
+      impres<lb ed="#T" n="31" break="no"/>sionem cerae a sigillo, in quo est differentia, &amp; 
+      <lb ed="#T" n="32"/>causalitas. Quartus secundum immissionem 
+      <lb ed="#T" n="33"/>bonae voluntatis a Deo, nec iste conuenit, 
+      <lb ed="#T" n="34"/>quia voluntas bona accidens est. Quintus se 
+      <lb ed="#T" n="35"/>cundum productionem accidentis a substantia. 
+      <lb ed="#T" n="36"/>qui non conuenit, quia accidens non habet esse 
+      <lb ed="#T" n="37"/>per se. Sextus secundum abstractionem 
+      specie<lb ed="#T" n="38" break="no"/>rum a materia, qui non conuenit, quia 
+      spiritua<lb ed="#T" n="39" break="no"/>lior est species re, a qua generatur. Septimus 
+      <lb ed="#T" n="40"/>secundum excitationem voluntatis a 
+      cogitatio<lb ed="#T" n="41" break="no"/>ne, qui non conuenit, quia huiusmodi excitatio 
+      <lb ed="#T" n="42"/>temporalis est. Octauus secundum 
+      trantsigima<lb ed="#T" n="43" break="no"/>tionem, vt cum ex aere sit statua, qui non 
+      con<lb ed="#T" n="44" break="no"/>uenit, quia talis generatio sit a materia. Nonus 
+      <lb ed="#T" n="45"/>secundum productionem morus a causa 
+      mouen<lb ed="#T" n="46" break="no"/>te, qui non conuenit, quia non est in Deo 
+      essp<lb ed="#T" n="47" break="no"/>ctus &amp; causa. Decimus secundum eductionem 
+      <lb ed="#T" n="48"/>specierum agenere per additionem 
+      differentia<lb ed="#T" n="49" break="no"/>rum, qui non conuenit, quia gonus se habet vt 
+      <lb ed="#T" n="50"/>rinateria: Vnlecimus setudum exemplaritatum, 
+      <lb ed="#T" n="51"/>vt areu a mente rrtificis, qui non conuenit quia 
+      <lb ed="#T" n="52"/>ex arte: est. Duodecimus secundum 
+      nasceni<lb ed="#T" n="53" break="no"/>tiam, ve Filius a Patre, qui non conuenit, quia 
+      <lb ed="#T" n="54"/>inter Patrem &amp; Filiom non est coaeuitas: ergo 
+    </p>
+               <p xml:id="pdt7y6-e26585-d1e288">
+                  <lb ed="#T" n="55"/>videtur quod nullus modus generationis Deo 
+      <lb ed="#T" n="56"/>conuerint. 
+    </p>
+               <p xml:id="pdt7y6-e26585-d1e295">
+                  <lb ed="#T" n="57"/>Respondeo. Generatio Dei est aeterna: 
+      aeter<lb ed="#T" n="58" break="no"/>na vero nonfiunt, &amp; quae nonifiunt, numquam 
+      <lb ed="#T" n="59"/>sunt in facto esse: ergo dicendum est. quod gane 
+      <lb ed="#T" n="60"/>ratio Dei nunqua est in fieri, siet in factoestersed 
+      <lb ed="#T" n="61"/>in esse ihuahiabili fine vllo motu vel imutatione. 
+    </p>
+               <p xml:id="pdt7y6-e26585-d1e308">
+                  <lb ed="#T" n="62"/>Ad 1. Infinita est. Resp. Infinita est fiegstiue, 
+      <lb ed="#T" n="63"/>quia non est apta nata habere finem; non 
+      pri<lb ed="#T" n="64" break="no"/>uatiue: quod autem est infinitum negatiue non 
+      <lb ed="#T" n="65"/>oportat quod sit in fieri 
+    </p>
+               <p xml:id="pdt7y6-e26585-d1e319">
+                  <lb ed="#T" n="66"/>Ad 2. De interminabilitate. Resp. Quamuis 
+      <lb ed="#T" n="67"/>tareat termino, non tunen est in firi:: est esim 
+      <lb ed="#T" n="68"/>actus simplex, non successtuus, 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0163.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="69"/>Ad 3. De aeterno. Resp. Simul est cum toto 
+      <lb ed="#T" n="70"/>tempore, tota cum qualibet parte temporis stado 
+      <lb ed="#T" n="71"/>non fluendo, quia simplex est: patet ergo quod 
+      <lb ed="#T" n="72"/>semper est in esse, numquam in fieri, quia sic 
+      <lb ed="#T" n="73"/>non esset tota cum toto tempore. 
+    </p>
+               <p xml:id="pdt7y6-e26585-d1e343">
+                  <lb ed="#T" n="74"/>Ad 4. De splendore. Resp. Similitudo est 
+      <lb ed="#T" n="75"/>quoad coaeuitatem originis, non quoad 
+      succes<lb ed="#T" n="76" break="no"/>siuam continuationem eiusdem. Differt altem 
+      <lb ed="#T" n="77"/>ux, lumen, splendor, radius, claritas: quia lux 
+      <lb ed="#T" n="78"/>dicitur prout est claritas corporis luminosi, 
+      sci<lb ed="#T" n="79" break="no"/>licet in suo fonte; lumen, prout in, corpore 
+      <lb ed="#T" n="80"/>transparenti, scilicet in acre; splendor, prout 
+      <lb ed="#T" n="81"/>reffectitur in corpore opaco; radius, prout 
+      diri<lb ed="#T" n="82" break="no"/>gitur a sole ad certam partem corporis, vel 
+      <lb ed="#T" n="83"/>terrae; claritas prout impermixta est suo 
+      con<lb ed="#T" n="84" break="no"/>trario, seu in fonte, seu alibi. 
+    </p>
+               <p xml:id="pdt7y6-e26585-d1e369">
+                  <lb ed="#T" n="85"/>Ad vltimum respondet Victorinus, quod in 
+      <lb ed="#T" n="86"/>diuisione illa non continetur omnis modus 
+      ge<lb ed="#T" n="87" break="no"/>nerationis etiam temporalis: non enim 
+      conti<lb ed="#T" n="88" break="no"/>netur ibi modus generationis naturalis aeris ex 
+      <lb ed="#T" n="89"/>igne, multo minus fructus ex arbore: ergo mul. 
+      <lb ed="#T" n="90"/>to minus generatio aeterna: modus tamen illius 
+      <lb ed="#T" n="91"/>est, quia de tota substantia ab aeterno sine 
+      motu<lb ed="#T" n="92" break="no"/>in identitate naturae &amp; modo naturali. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e26585-Dd1e391">
+               <head xml:id="pdt7y6-e26585-Hd1e393">Articulus 2</head>
+               <head xml:id="pdt7y6-e26585-Hd1e395" type="question-title">
+  An generatio Filii melius significetur in facto esse quam in fieri.
+</head>
+               <p xml:id="pdt7y6-e26585-d1e398">
+                  <lb ed="#T" n="93"/>Articvlvs II. 
+      <lb ed="#T" n="94"/>An generatio Filij melius significeture in facto esse: 
+      <lb ed="#T" n="95"/>quam in fieri. 
+</p>
+               <p xml:id="pdt7y6-e26585-d1e407">
+                  <lb ed="#T" n="96"/>AD secundum articulum sic proceditur. 1. 
+      <lb ed="#T" n="97"/>Praesens, cum sit actu existens &amp; 
+      vnifor<lb ed="#T" n="98" break="no"/>me, magis competit aternitati: ergo generatio  
+      <lb ed="#T" n="99"/>aeterna conuenientius designatur per praesens: 
+      <lb ed="#T" n="100"/>ergo melius dicitur, semper nascitur Filius. 
+    </p>
+               <p xml:id="pdt7y6-e26585-d1e420">
+                  <lb ed="#T" n="101"/>2. Perfectior est potentia semper actui 
+      con<lb ed="#T" n="102" break="no"/>uncta, quam non semper: potentia generatiua 
+      <lb ed="#T" n="103"/>Patris est semper perfecta: ergo semper actui 
+      <lb ed="#T" n="104"/>coniuncta: vnumquodque vero melius 
+      signifi<lb ed="#T" n="105" break="no"/>catur prout est in re: ergo melius significatur  
+      <lb ed="#T" n="106"/>quando dicitur, semper nascitur.  
+    </p>
+               <p xml:id="pdt7y6-e26585-d1e437">
+                  <lb ed="#T" n="107"/>Contra 1. Quod semper in fieri, semper est 
+      im<lb ed="#T" n="108" break="no"/>perfectum: ergo quod semper est perfectum, 
+      ma<lb ed="#T" n="109" break="no"/>le significatur vt in fieri. 
+    </p>
+               <p xml:id="pdt7y6-e26585-d1e446">
+                  <lb ed="#T" n="110"/>2. Augustinus. Melior esti qui semper natus 
+      <lb ed="#T" n="111"/>est, quam qui sempet nascitur.  
+    </p>
+               <p xml:id="pdt7y6-e26585-d1e453">
+                  <lb ed="#T" n="112"/>Iuxta hoc quaeritur quare potest significari per 
+      <lb ed="#T" n="113"/>praesens, &amp; per praeteritum, non autem ita bene 
+      <lb ed="#T" n="114"/>per futurum, cum tamen praeteritum plus distat  
+      <lb ed="#T" n="115"/>ab esse quam futurum. 
+    </p>
+               <p xml:id="pdt7y6-e26585-d1e464">
+                  <lb ed="#T" n="116"/>Respondeo. Fieri &amp; esse aliter fehabent in 
+      <lb ed="#T" n="117"/>permanentibus, aliter in fuccessiuis: nam in 
+      per<lb ed="#T" n="118" break="no"/>manentibus, quod fit; non est: in saccessiuis 
+      <lb ed="#T" n="119"/>quod fit, est: quia esse successiuorum est in fieri. 
+      <lb ed="#T" n="120"/>Loquedo ergo de generatione ad similitudinem. 
+      <lb ed="#T" n="121"/>succelsubrum mehus diceretur, semper nascitur: 
+      <lb ed="#T" n="122"/>sed loquendo ad similitudimem permanentiuut, 
+      <lb ed="#T" n="123"/>malius dicitur, semper natus est. Quia vero 
+      ge<lb ed="#T" n="124" break="no"/>neratio succussiua non est sed permanens, nec 
+      ta<lb ed="#T" n="125" break="no"/>men vnquam praeterita sed semper perfecta 
+      <lb ed="#T" n="126"/>melius dicitur, semper natus est. Vibi mouitur 
+      <lb ed="#T" n="127"/>natiurtas &amp; permanens &amp; perfecta. Praeteritum 
+      <lb ed="#T" n="128"/>enim perfectum dupliciter exponitur, sellicet, 
+      <lb ed="#T" n="129"/>vel perfunt, vel per est, vt natus fuit vel est: 
+      <lb ed="#T" n="130"/>sed in prima expositione notatur: praetiritum 
+      <lb ed="#T" n="131"/>&amp; actus &amp; terminus; in secunda expositione 
+      <lb ed="#T" n="132"/>notatur terminus praesens, licet actut 
+      praeteri<lb ed="#T" n="133" break="no"/>tus: &amp; quoad hoc melius dicitur; 
+      semperna<lb ed="#T" n="134" break="no"/>tus est, inspiciendo ad perfectionum simul &amp; 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0164.xml-->
+      <pb ed="#T" n="89"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>praesentialitatem: semper nasci vero dicit 
+      praesen<lb ed="#T" n="2" break="no"/>tialitatem, sed non perfectionem. 
+    </p>
+               <p xml:id="pdt7y6-e26585-d1e519">
+                  <lb ed="#T" n="3"/>Ad1. De similitudine praesentis ad 
+      aeternita<lb ed="#T" n="4" break="no"/>tem. Resp. Praesens huius verbi, est maxime 
+      <lb ed="#T" n="5"/>conuenit aeternitati, quia nullam operationem 
+      <lb ed="#T" n="6"/>vel motum significat: sed aliorum verborum non 
+      <lb ed="#T" n="7"/>sit: consignificatur enim motus. 
+    </p>
+               <p xml:id="pdt7y6-e26585-d1e532">
+                  <lb ed="#T" n="8"/>Ad 2. De potentia perfecta. Resp. Quamuis 
+      <lb ed="#T" n="9"/>per Iy semper nascitur, significetur, vt semper 
+      <lb ed="#T" n="10"/>coniuncta actui, non tamen actui perfecto: ideo 
+      <lb ed="#T" n="11"/>melius dicitur, semper natus est, 
+    </p>
+               <p xml:id="pdt7y6-e26585-d1e544">
+                  <lb ed="#T" n="12"/>Ad aliud in contrarium. Resp. Inspiciendo 
+      <lb ed="#T" n="13"/>ad actualitatem praesentis, bene dicitur, semper 
+      <lb ed="#T" n="14"/>nascitur: sed inspiciendo ad imperfectionem 
+      <lb ed="#T" n="15"/>eius non. 
+    </p>
+               <p xml:id="pdt7y6-e26585-d1e555">
+                  <lb ed="#T" n="16"/>Ad vltimum. Resp. Futurum caret &amp; 
+      actua<lb ed="#T" n="17" break="no"/>litate, &amp; perfectione: sed praeteritum caret 
+      qui<lb ed="#T" n="18" break="no"/>dem actualitate, sed non perfectione: ideo 
+      futu<lb ed="#T" n="19" break="no"/>rum non ita bene dicitur, sicut praesens, &amp; 
+      prae<lb ed="#T" n="20" break="no"/>teritum dicitur tamen aliquando ratione 
+      imper<lb ed="#T" n="21" break="no"/>transitionis: in praeterito enim est praeteritio, &amp; 
+      <lb ed="#T" n="22"/>perfectio: in praesenti actus existendi, &amp; 
+      transi<lb ed="#T" n="23" break="no"/>tus in praeteritum: in futuro non existentia, &amp; 
+      <lb ed="#T" n="24"/>impertransitio. Quoad perfectionem praeteritum 
+      <lb ed="#T" n="25"/>de Deo dicitur, praesens quoad actualitatem, 
+      fu<lb ed="#T" n="26" break="no"/>turum quoad impertransitionem: vnde de Deo 
+      <lb ed="#T" n="27"/>dicitur est fuit, erit. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e26585-Dd1e585">
+               <head xml:id="pdt7y6-e26585-Hd1e587">Expositio litterae</head>
+               <p xml:id="pdt7y6-e26585-d1e589">
+                  <lb ed="#T" n="28"/>EXPOSITIO LITERAE. 
+      <lb ed="#T" n="29"/>LAVt ergo non fuit, quando non fuit Filius, 
+    </p>
+               <p xml:id="pdt7y6-e26585-d1e596">
+                  <lb ed="#T" n="30"/>Aaut aliquando non habuit sapientiam.] Co¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0164.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="31"/>tra. Non est sapiens sapientia genita: ergo 
+      ni<lb ed="#T" n="32" break="no"/>hilominus habuisset sapientiam. Resp. 
+      Habuis<lb ed="#T" n="33" break="no"/>set sapientiam, qua esset sapiens: sed non 
+      sapien<lb ed="#T" n="34" break="no"/>tiam genitam a se. 
+    </p>
+               <p xml:id="pdt7y6-e26585-d1e614">
+                  <lb ed="#T" n="35"/>[Quomodo ergo immutabilis Deus] 
+      Con<lb ed="#T" n="36" break="no"/>tra. Factus est de no Creatore Creator sine 
+      muta<lb ed="#T" n="37" break="no"/>tione: ergo. Resp. Non est simile de relatione 
+      <lb ed="#T" n="38"/>aeterna, quae realiter est in Deo; &amp; de 
+      tempora<lb ed="#T" n="39" break="no"/>li, quae solum secundum intellectum, 
+    </p>
+               <p xml:id="pdt7y6-e26585-d1e627">
+                  <lb ed="#T" n="40"/>Item opponitur, quia secundum Philosos 
+      <lb ed="#T" n="41"/>phum in 5. Phys. In ad aliquid non est motus: 
+      <lb ed="#T" n="42"/>ergo aduentus relationis non mutat. Resp. Licet  
+      <lb ed="#T" n="43"/>ad aliquid non sit terminus motus primo &amp; per 
+      <lb ed="#T" n="44"/>se, consequitur tamen motum. 
+    </p>
+               <p xml:id="pdt7y6-e26585-d1e641">
+                  <lb ed="#T" n="45"/>[Quanquam pro hodie possit intelligi dies 
+      <lb ed="#T" n="46"/>ille.] Contra. Secundum carnem non est genitus 
+      <lb ed="#T" n="47"/>a Patre. Resp. Genui, id est, te feci nasci. 
+      <lb ed="#T" n="48"/>[Sacramento Natiuitatis.] Contra. Natiuitas 
+      <lb ed="#T" n="49"/>illa nullius est rei signum. Resp. Sacramentum 
+      si<lb ed="#T" n="50" break="no"/>gnificat sacrum secretum. 
+    </p>
+               <p xml:id="pdt7y6-e26585-d1e657">
+                  <lb ed="#T" n="51"/>Vbi Pater auctor est, ibi natiuitas est.] Contra 
+      <lb ed="#T" n="52"/>in processione Spiritus sancti Pater auctor est, 
+      <lb ed="#T" n="53"/>Resp. Intelligendum est per se, id est, Pater  
+      <lb ed="#T" n="54"/>inquantum Pater.  
+    </p>
+               <p xml:id="pdt7y6-e26585-d1e668">
+                  <lb ed="#T" n="55"/>Et ab aeterno auctore aeterna natiuitas.] 
+      <lb ed="#T" n="56"/>Contra. Ergo a simili ab aeterno creatore aeterna. 
+      <lb ed="#T" n="57"/>creatio. Resp. Non est simile, quia uatiuitas est 
+      <lb ed="#T" n="58"/>de substantia propria, sed creatio de nihilo. 
+    </p>
+               <p xml:id="pdt7y6-e26585-d1e679">
+                  <lb ed="#T" n="59"/>[Omne quod semper est aeternum est. 
+      Con<lb ed="#T" n="60" break="no"/>tra. Motus caeli semper est: ergo aeternus. Resp. 
+      <lb ed="#T" n="61"/>Semper accipitur aequiuoce pro toto tempore, 
+      <lb ed="#T" n="62"/>vel toto aeuo, vel tota aeternitate
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

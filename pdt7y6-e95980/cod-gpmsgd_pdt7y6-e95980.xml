@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="314"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e95980"><!-- l1d38prae -->
+            <head xml:id="pdt7y6-e95980-Hd1e99">Praeambulum</head>
+            <p xml:id="pdt7y6-e95980-d1e101">
+               <cb ed="#T" n="c"/>
+               <lb ed="#T" n="37"/>HICREDIT AD PROPOSITVM. 
+      <lb ed="#T" n="38"/>repetens superius dicta, vt addat alia. 
+      <lb ed="#T" n="39"/>Distind. XXXVIII. 
+    </p>
+           <!-- <p xml:id="pdt7y6-e95980-d1e112">
+               <lb ed="#T" n="40"/>VNC ergo ad propositum reuertentes coepto insistamus. Supra dictum 
+      <lb ed="#T" n="41"/>est, quod praescientia Dei futurorum tantum est, sed omnium tam bono. 
+      <lb ed="#T" n="42"/>rum quam malorum: scientia vero vel sapientia non modo de futuris, sed  
+      <lb ed="#T" n="43"/>D etiam de praesentibus &amp; futuris: nec tantum de temporalibus, sed etiam 
+      <lb ed="#T" n="44"/>N&amp; de aeternis, quia seipsum nouit Deus. Hic oritur quaestio non 
+      dissimulan<lb ed="#T" n="45" break="no"/>da, vtrum scilicet scientia vel praescientia sit causa rerum, anres sint 
+      cau<lb ed="#T" n="46" break="no"/>sae scientiae vel praescientiae Dei. Videtur enim praescientia Dei causa esse 
+      <lb ed="#T" n="47"/>eorum quae ei subsunt, ac necessitatem eueniendi eis facere: quia nec aliqua futura 
+      fuis<lb ed="#T" n="48" break="no"/>sent nisi Deus ea praescisset, nec possunt non euenire, cum Deus ea praesciuerit. Si autem 
+      <lb ed="#T" n="49"/>impossibile est ea non euenire, quia praescita sunt, videtur ergo ipsa praescie ntia qua 
+      praesci<lb ed="#T" n="50" break="no"/>ta sunt, eis esse causa eueniendi. Impossibile est autem non euenire, cum praescita sint, 
+      <lb ed="#T" n="51"/>quia si non euenirent cum praescita sint, falleretur Dei praescientia. At Dei praescientia 
+      falli<lb ed="#T" n="52" break="no"/>non potest. Impossibile est ergo ea non euenire, cum praescita sint. Sic ergo praescientia 
+      <lb ed="#T" n="53"/>causa eorum esse videtur, quae praescita sunt. Hoc idem &amp; de scientia dicitur, scilicet, 
+      <lb ed="#T" n="54"/>quod quia Deus aliqua nouerit, ideo sint. Cui sententiae August. attestari videtur in 15. lib.  
+      <lb ed="#T" n="55"/>de Trinitate, dicens, Non ista ex aliquo tempore cognouit Deus, sed futura omnia tempo 
+      <lb ed="#T" n="56"/>ralia, atque in eis etiam quid &amp; quando ab illo petituri fueramus, &amp; quod &amp; de quibus 
+      <lb ed="#T" n="57"/>rebus vel exauditurus, vel non exauditurus esset, sine initio ante praesciuit. Uniuersas 
+      au<lb ed="#T" n="58" break="no"/>tem creaturas &amp; spirituales &amp; corporales, non quia sunt ideo nouit, sed ideo sunt quia 
+      no<lb ed="#T" n="59" break="no"/>uit: non enim nesciuit quae fuerat creaturus: quia ergo sciuit, creauit; non quia creauit, 
+      <lb ed="#T" n="60"/>sciuit: nec aliter sciuit creata quam creanda, non enim eius sapientiae aliquid excessit ex 
+      <lb ed="#T" n="61"/>eis, sed illis existentibus sicut oportebat, &amp; quando oporrebat, illa mansit vt erat, vnde in 
+      <lb ed="#T" n="62"/>Eccles. Antequam crearentur, omnia nota sunt illi: sic &amp; postquam consummata sunt.  
+      <lb ed="#T" n="63"/>Ecce his verbis videtur Augustinus innuere scientiam, vel praescientiam Dei causam esse 
+      <lb ed="#T" n="64"/>eorum quae siunt: cum dicit ideo ea esse, quia Deus nouit. Idem quoque in sexto lib. dicere 
+      <lb ed="#T" n="65"/>videtur. Cum, inquit, decedant &amp; succedant tempora, non decedit aliquid vel succedit 
+      <lb ed="#T" n="66"/>scientiae Dei, in qua nouit omnia quae fecit per ipsam. Non enim haec quae creata sunt, ideo 
+      <lb ed="#T" n="67"/>sciuntur a Deo, quia facta sunt: sed potius ideo facta sunt, quia immutabiliter ab eo 
+      sciun<lb ed="#T" n="68" break="no"/>tur. Et hic etiam significare videtur Dei scientiam causam eorum esse quae fiunt, dicens non 
+      <lb ed="#T" n="69"/>ideo Deum ea nouisse, quia facta sunt: sed ideo facta, quia nouit ea Deus. Ideoque 
+      vide<lb ed="#T" n="70" break="no"/>tur Dei scientia vel praescientia causa esse eorum quae nouit. 
+    </p>
+            <p xml:id="pdt7y6-e95980-d1e182">
+               <lb ed="#T" n="71"/>Inconuenientia ostendit quae sequerentur, si diceretur scientia vel praescientia causa omnium. 
+      <lb ed="#T" n="72"/>rerum quae ei subsunt.
+    </p>
+            <p xml:id="pdt7y6-e95980-d1e189">
+               <lb ed="#T" n="73"/>Quod si ita est, est ergo causa omnium malorum, cum omnia mala sciantur &amp; 
+      praescian<lb ed="#T" n="74" break="no"/>tur a Deo: quod longe est a veritate. Si enim Dei scientia vel praescientia causa esset ma¬ 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0390.xml-\->
+      <pb ed="#T" n="315"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>lorum, esset vtique Deus author maiorum, quod penitus falsum est. Non ergo scientia 
+      <lb ed="#T" n="2"/>vel praescientia Dei causa est oninium quae ei subsunt.  
+    </p>
+            <p xml:id="pdt7y6-e95980-d1e208">
+               <lb ed="#T" n="3"/>Quod res futura non sunt causa scientiae vel praescientiae Dei. 
+      <lb ed="#T" n="4"/>Neque etiam res fuiurae causa sunt Dei praescientiae: licet enim non essent futurae 
+      nisi<lb ed="#T" n="5" break="no"/>praescirentur a Deo, non tamen ideo praesciuntur quia futurae sunt. Si enim hoc esset, tunc 
+      <lb ed="#T" n="6"/>eius quod aeternum est aliquid existeret causa, ab eo alienum, ab eo diuersum: &amp; ex 
+      crea<lb ed="#T" n="7" break="no"/>tuiss dependeret scientia creatoris, &amp; creatum causa esset increati. Origenes tamen super 
+      <lb ed="#T" n="8"/>epistolam ad Romanos ait, Non propterea aliquid erit, quia id scit Deus futurum: sed quia 
+      <lb ed="#T" n="9"/>futurum est, ideo scitur a Deo antequam fiat. Hoc videtur praemissis verbis Augustini 
+      ob<lb ed="#T" n="10" break="no"/>uiare. Hic enim significari videtur, quod res futurae causa sint praescientiae: ibi vero quod 
+      <lb ed="#T" n="11"/>praescientia causa sit rerum suturarum. 
+    </p>
+            <p xml:id="pdt7y6-e95980-d1e230">
+               <lb ed="#T" n="12"/>Quid ex praedictis tenendum sit, cum determinatione authoritatum. 
+      <lb ed="#T" n="13"/>Hanc igitur quae videtur repugnantiam de medio tollere cupientes, dicimus res futuras 
+      <lb ed="#T" n="14"/>nullatenus causam esse praesciensiae vel scientiae Dei: nec ideo praesciri vel sciri, quia 
+      futu<lb ed="#T" n="15" break="no"/>rae vel factae sunt: ita exponentes quod ait Origenes. Quia futurum est, ideo scitur a Deo 
+      <lb ed="#T" n="16"/>antequam fiat, id est, quod futurum est scitur a Deo antequam fiat, neque sciretur nisi 
+      fu<lb ed="#T" n="17" break="no"/>turum esset, vt non notetur ibi causa, nisi sine qua non sciret. Ita etiam dicimus scientiam 
+      <lb ed="#T" n="18"/>vel praescientiam Dei non esse causam eorum quae siunt, nisitalem sine qua non fiunt, si 
+      ra<lb ed="#T" n="19" break="no"/>men scientiam ad notitiam tantum referamus. Si vero nomine scientiae includitur etiam 
+      <lb ed="#T" n="20"/>beneplacitum atque dispositio, tunc recte potest dici causa eorum quae Deus facit. His enim 
+      <lb ed="#T" n="21"/>duobus modis, vt superius praetaxatum est, accipitur cognitio vel scientia Dei, scilicet 
+      pro<lb ed="#T" n="22" break="no"/>noritia sol, vel pro notitia simul &amp; beneplacito. Hoc modo forte accipit Augustinus 
+      di<lb ed="#T" n="23" break="no"/>cens: Ideo iunt quia nouit, id est, quia scienti placuit, &amp; quia sciens disposuit. Hic sensus 
+      <lb ed="#T" n="24"/>ex eo adiuuatur, quia de bonis ibi tantum ait Augustinus, scilicet de creaturis &amp; de his quae 
+      <lb ed="#T" n="25"/>Deus facit: quae omnia nouit non solum scientia, sed etiam beneplacito ac dispositione. 
+      <lb ed="#T" n="26"/>Sic ergo ibi accipitur Dei cognitio, vt non modo notitiam, sed etiam beneplacitum Dei, 
+      <lb ed="#T" n="27"/>significet. Mala vero scit Deus &amp; praescit antequam fiant, sed sola notitia, non beneplacito. 
+      <lb ed="#T" n="28"/>Praescit enim Deus &amp; praedicit etiam quae non est ipse facturus, sicut praesciuit &amp; praedixi 
+      <lb ed="#T" n="29"/>infidelitatem Indaeorum, sed non fecit, nec ideo quia praesciuit, ad peccatum infidelitatis 
+      <lb ed="#T" n="30"/>eos coegit, nec praescisset vel praedixisset eorum mala, nisi essent ea habituri. Vnde 
+      Augu<lb ed="#T" n="31" break="no"/>stinus super loannem: Deus, inquit futurorum praescius per Prophetam praedixit infidelitas 
+      <lb ed="#T" n="32"/>tem ludaeorum, sed non fecit: neque praescisset mala eorum, nisi ea haberent. Non enim 
+      <lb ed="#T" n="33"/>ideo quemquam ad peccandum cogit, quia futura hominum peccata praenouit: illorum 
+      <lb ed="#T" n="34"/>enim praeleiit peccata, non sua. Ideoque si ea quae ille praesciuit, ipsorum non sunt, non 
+      <lb ed="#T" n="35"/>vera ille praesciuit. Sed quia illius praescientia falli non potest, sine dubio non alius, fed ipsi. 
+      <lb ed="#T" n="36"/>peccatit quos Deus peccatores esse praesciuit, &amp; ideo si non malum, sed bonum facere 
+      vo<lb ed="#T" n="37" break="no"/>luissent, non malum facturi praeuiderentur ab eo, qui nouit quid sit quisque facturus. His 
+      <lb ed="#T" n="38"/>verbis aperte ostenditur, si diligenter attendamus, praescientiam Dei non esse causam 
+      ma<lb ed="#T" n="39" break="no"/>lorum quae piae cit: quia non ea praescit tanquam facturus, nec tanquam sua, sed illorum 
+      <lb ed="#T" n="40"/>qui sunt ea facturi vel habituri: praesciuit ergo illa sola notitia, sed non beneplacito 
+      autho<lb ed="#T" n="41" break="no"/>ritatis. Vnde datur intelligi, quod Deus e conuerso praescit bona tanquam sua, tanquam 
+      <lb ed="#T" n="42"/>ea quae facturus est, vt illa praesciendo simul fuerit ipsius notitia, &amp; authoritatis beneplacitum.  
+    </p>
+            <p xml:id="pdt7y6-e95980-d1e300">
+               <lb ed="#T" n="43"/>Contra hoc quod dictum est, praescientiam Dei non posse falli, oppositio. 
+      <lb ed="#T" n="44"/>Ad hoc autem quod supra dictum est, scilicet praescientiam Dei falli non posse, solet a 
+      qui<lb ed="#T" n="45" break="no"/>busdam ita opponi. Deus praesciuit hunc lecturum, vel aliquid huiusmodi: sed potest esse 
+      <lb ed="#T" n="46"/>vt iste non legat: ergo potest aliter esse quam Deus praesciuit: ergo potest falli Dei 
+      prae<lb ed="#T" n="47" break="no"/>scientia, quod omnino falsum est. Potest equidem non fieri aliquid, &amp; illud tamen 
+      prae<lb ed="#T" n="48" break="no"/>scitum est fieri, non ideo tamen potest falli Dei praescientia: quia si illud non fieret, nec a 
+      <lb ed="#T" n="49"/>Deo praescitum esset fieri. Sed adhuc vrgent quaestionem dicentes: Aut aliter potest fieri 
+      <lb ed="#T" n="50"/>qua. Deus praesciuit, aut non aliter: si non aliter, ergo necessario cuncta eueniunt: 
+      si<lb ed="#T" n="51" break="no"/>vero aliter, potest ergo Dei praescientia falli el mutari. Sed potest aliter fieri, quia potest 
+      <lb ed="#T" n="52"/>aliter fieri quam fiat: ita autem sit vt praescitum est: aliter ergo potest fieri quam praescitum 
+      <lb ed="#T" n="53"/>est. Ad quod dicimus illam locutionem multiplicem facere intelligentiam, scilicet: Aliter  
+      <lb ed="#T" n="54"/>potest fieri quam Deus praesciuit, &amp; huiusmodi, vt: Potest non esse quod Deus praesciuit, 
+      <lb ed="#T" n="55"/>&amp;: Impossibile est non esse quod Deus praesciuit, &amp;: Impossibile est non esse praescita 
+      om<lb ed="#T" n="56" break="no"/>ina quae siunt, &amp; huiusmodi. Possunt enim haec coniunctim intelligi, vt coniunctio: sit 
+      im<lb ed="#T" n="57" break="no"/>plicita, &amp; disiunctim. Si enimita intelligas. No potest aliter fieri quam Deus praesciuit, id est, 
+      <lb ed="#T" n="58"/>non potest vtrunque simul esse, scilicet quod Deus ita praesciuerit fieri, &amp; aliter fiat, verum 
+      <lb ed="#T" n="59"/>intelligis. Si autem per disiunctionem intelligas, vt dicas hoc aliter non posse euenire quam 
+      <lb ed="#T" n="60"/>euenit, &amp; quomodo futurum Deus praesciuit, falsum est. Hoc enim aliter potest euenirem, 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0391.xml-\->
+      <pb ed="#T" n="316"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>quam euenit, &amp; tamen Deus hoc modo futurum praesciuit. Similiter &amp; alia determinat io, 
+      <lb ed="#T" n="2"/>scilicet: Impossibile est illud non euenire quod Deus praesciuit; vel cum Deus praescierit: 
+      <lb ed="#T" n="3"/>si coniunctim intelligas, verum dicis: si disiunctim, falsum. Ita etiam &amp; illud: Impossibile. 
+      <lb ed="#T" n="4"/>est non esse praescitum omne quod sit, id est, non potest esse vtrumque, scilicet, vt fiat, &amp; 
+      <lb ed="#T" n="5"/>non sit praescitum, hic sensus verus est. Si vero dicis Deum non potuisse non praescire 
+      om<lb ed="#T" n="6" break="no"/>ne quod sit, falsum est. Potuit enim facere vt non fieret, &amp; ita non esse praescitum.
+    </p>-->
+            <p xml:id="pdt7y6-e95980-d1e361">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0391.xml-->
+               <cb ed="#T" n="b"/>
+               <lb ed="#T" n="7" type="fixed=315"/>DIVISIO TEXTVS. 
+      <lb ed="#T" n="8"/>TVnc ad propositum.] Egit de scientia 
+      <lb ed="#T" n="9"/>Dei secundum se, &amp; de comparatione 
+      re<lb ed="#T" n="10" break="no"/>rum scitarum ad scientem, &amp; e conuerso: hic 
+      <lb ed="#T" n="11"/>agit de comparatione scientiae. ad scitas, &amp; e 
+      <lb ed="#T" n="12"/>conuerso. Et primo inquirit de causalitate eius 
+      <lb ed="#T" n="13"/>respectu rerum dist. hac. Secundo de eius 
+      im<lb ed="#T" n="14" break="no"/>mutabilitate per mutationem rerum dist. triges. 
+      <lb ed="#T" n="15"/>nona. In prima parte primo inquirit, an 
+      prae<lb ed="#T" n="16" break="no"/>scientia Dei sit causa rerum futurarum. Secundo 
+      <lb ed="#T" n="17"/>e contrario vtrum ipsa futura sint causa 
+      prae<lb ed="#T" n="18" break="no"/>scientiae Dei [Neque etiam) Tertio ponit 
+      de<lb ed="#T" n="19" break="no"/>terminationem vtriusque quaestionis [Hanc 
+      igi<lb ed="#T" n="20" break="no"/>tur) Quarto mouet &amp; soluit dubitationem 
+      inci<lb ed="#T" n="21" break="no"/>dentem ex sua determinatione[Ad hoc autem.] 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

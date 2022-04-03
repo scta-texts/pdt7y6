@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="296"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e90341"><!-- l1d37prae -->
+            <head xml:id="pdt7y6-e90341-Hd1e99">Praeambulum</head>
+            <head xml:id="pdt7y6-e90341-Hd1e101" type="question-title"/>
+            <p xml:id="pdt7y6-e90341-d1e103">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0371.xml-->
+               <cb ed="#T" n="c"/>
+               <lb ed="#T" n="54"/>QVIBVS MODIS DICATVR 
+      <lb ed="#T" n="55"/>Deus esse in rebus. Distinct. XXXVII. A 
+    </p>
+           <!-- <p xml:id="pdt7y6-e90341-d1e114">
+               <lb ed="#T" n="56"/>Tquoniam demonstratum est ex parte, quomodo omnia dicantur esse in 
+      <lb ed="#T" n="57"/>Deo, addendum videtur hic quibus modis dicatur Deus esse in rebus: 
+      fi<lb ed="#T" n="58" break="no"/>tamen id humana mens vel ex parte digne valeat cogitare, vel lingua 
+      suffi<lb ed="#T" n="59" break="no"/>ciat eloqui. Sciendum ergo est, quod Deus incommutabiliter semper 
+      in<lb ed="#T" n="60" break="no"/>a se existens, praesentialiter, potentialiter, essentialiter est in omni natura 
+      <lb ed="#T" n="61"/>siue essentia, sine sui definitione; &amp; in omniloco sine circumscriptione; &amp; 
+      <lb ed="#T" n="62"/>in omni tempore sine mutabilitate. Et praeterea in sanctis spiritibus &amp; animabus est 
+      ex<lb ed="#T" n="63" break="no"/>cellentius, scilicet per gratiam inhabitans, &amp; in homine Christo excellentissime, in quo 
+      ple<lb ed="#T" n="64" break="no"/>nitudo Diuinitatis corparaliter inhabitat, vt ait Apostolus: in eo enim Deus habitauit, 
+      <lb ed="#T" n="65"/>non per gratiam adoptionis, sed per gratiam vnionis. Ne autem ista (quia capacitatem 
+      <lb ed="#T" n="66"/>humanae intelligentiae excedunt) falsitatis arguere aliqui praesumant: Sanctorum 
+      autho<lb ed="#T" n="67" break="no"/>ritatibus munienda mihi videntur. Beatus Gregorius super Cantic. Cantic. inquit: Licet 
+      <lb ed="#T" n="68"/>Deus communi modo omnibus rebus insit praesentia, potentia, substantia, tamen 
+      fami<lb ed="#T" n="69" break="no"/>liariori modo per gratiam dicitur esse in illis, qui mirificentiam operum Dei acutius &amp; 
+      <lb ed="#T" n="70"/>fidelius considerant. De hoc enim eodem August. ad Dardanum, in lib. de praesentia Dei, 
+      <lb ed="#T" n="71"/>ait: Cum Deus sit natura incorporea &amp; incommutabiliter viua, aeterna stabilitate in 
+      seipso<lb ed="#T" n="72" break="no"/>manens, totus adest rebus omnibus &amp; singulis totus: sed in quibus habitat, habent cum 
+      <lb ed="#T" n="73"/>pro suae capacitatis diuersitate, alij amplius, alij minus: quos ipse sibi dilectissimum 
+      tem<lb ed="#T" n="74" break="no"/>plum gratia suae bonitatis aedificat. Hilarius quoque in lib. 8. de Trinitate, apertissime 
+      do<lb ed="#T" n="75" break="no"/>cet Deum vbique esse. Deus, inquit, immensae virtutis, viuens potestas, quae nusquam non 
+      <lb ed="#T" n="76"/>adsit, non desit vsquam, se omnem per sua edocet, vt ibi sua sint, ipse esse intelligatur. Non 
+      <lb ed="#T" n="77"/>autem corporali modo cum alicubi sit, non etiam vbique esse credatur, cum &amp; in omnibus. 
+      <lb ed="#T" n="78"/>esse non desinat Ambros. 1. lib de Spiritu sancto, Spiritum sanctum probat non esse 
+      crea<lb ed="#T" n="79" break="no"/>turam: quia vbique est, quod est proprium Diuinitatis, ita dicens: Cum omnis creatura 
+      <lb ed="#T" n="80"/>certis naturae suae sit circumscriptalimitibus, quomodo quis audeat creaturam appellare 
+      <lb ed="#T" n="81"/>Spiritum sanctum, qui non habet circum scriptam determinatamque virtutem, qui &amp; in 
+      <lb ed="#T" n="82"/>omnibus, &amp; vbique semper est: quod vtique Diuinitatis &amp; dominationis est proprium. 
+      <lb ed="#T" n="83"/>Idem in eodem: Domini est omnia complere, qui dicit caelum &amp; terram ego compleo. 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0372.xml-\->
+      <pb ed="#T" n="297"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>Si ergo Dominus est qui caelum complet &amp; terram, quis ergo potest Spiritum sanctum 
+      <lb ed="#T" n="2"/>iudicare dominationis &amp; Diuinae potestatis exortem, qui repleuit orbem? &amp; quod plus, 
+      <lb ed="#T" n="3"/>est, repleuit &amp; lesum, totius mundi redemptorem. Ex his aliisque pluribus auctoritatibus 
+      <lb ed="#T" n="4"/>aperte monstratur, quod Deus vbique in omni creatura essentialiter, praesentialiter, &amp; 
+      po<lb ed="#T" n="5" break="no"/>tentialiter est. 
+    </p>
+            <p xml:id="pdt7y6-e90341-d1e195">
+               <lb ed="#T" n="6"/>Quod in sanctis non modo est, sed etiam habitat, qui non ubicumque est habitat.  
+      <lb ed="#T" n="7"/>In sanctis vero etiam habitat, in quibus est per gratiam: non enim vbicunque est, ibi 
+      ha<lb ed="#T" n="8" break="no"/>bitat: vbi vero habitat, ibi est. In solis bonis habitat, qui sunt templum eius, &amp; sedes eius. 
+      <lb ed="#T" n="9"/>Unde per Esaiam Dominus ait: Caelum mihi sedes est, terra autem scabellum pedum 
+      meo<lb ed="#T" n="10" break="no"/>rum: quia in electis qui sunt caelum, habitat Deus &amp; regnat, qui eius voluntati deuoti 
+      ob<lb ed="#T" n="11" break="no"/>temperant: malos vero qui sunt terra, iudicij districtione calcat. Vnde in lib. Sapien. 
+      dici<lb ed="#T" n="12" break="no"/>tur: Thronus sapientiae anima iusti, quia in iustis specialius est, quam in alijs rebus, in 
+      qui<lb ed="#T" n="13" break="no"/>bus tamen omnibus totus est. Quemadmodum anima, ait Augustinus in Epistola ad 
+      Hie<lb ed="#T" n="14" break="no"/>ronymum de origine animae, per omnes particulas corporis tota adest simul, nec minor in 
+      <lb ed="#T" n="15"/>minoribus, nec maior in maioribus, sed tamen in alijs intensius, &amp; in alijs remissius 
+      ope<lb ed="#T" n="16" break="no"/>ratur, cum in singulis particulis corporis essentialiter tota sit: ita &amp; Deus cum sit in 
+      omni<lb ed="#T" n="17" break="no"/>bus essentialiter ac totus, in illis tamen plenius esse dicitur quos inhabitat, id est, in 
+      qui<lb ed="#T" n="18" break="no"/>bus ita est, vt faciat eos templum suum: &amp; ibi tales cum eo sunt iam ex parte, sed in 
+      bea<lb ed="#T" n="19" break="no"/>titudine perfecte. Mali vero, eisi ibi sint vbi ipse est, qui nusquam deest, non tamen sunt,  
+      <lb ed="#T" n="20"/>cum eo. Vnde August. super Ioan. Non satis fuit dicere: Vbi ego sum, &amp; illi sint: sed 
+      addi<lb ed="#T" n="21" break="no"/>dit, Mecum, quia &amp; ibi miseri possunt esse vbi &amp; ille est, qui nulquam deest: sed beati sunt,  
+      <lb ed="#T" n="22"/>cum illo, quia non sunt beati nisi ex eo quod cum illo sunt: qui fruuntur eo, &amp; vident illum, 
+      <lb ed="#T" n="23"/>sicut est. Mali vero non sunt cum illo, vt caeci in luce non sunt cum luce: nec boni ita nunc 
+      <lb ed="#T" n="24"/>sunt cum eo, vt videant per speciem, &amp; si sunt aliquo modo cum eo per fidem. Quomodo 
+      <lb ed="#T" n="25"/>autem Deus habitet in bonis, ex illis aliquatenus intelligere valebis, quae supra dicta sunt,  
+      <lb ed="#T" n="26"/>cum de Spiritus sancti processione temporali ageretur: vbi licet ex parte exponitur (ex 
+      <lb ed="#T" n="27"/>parte enim cognoscimus, &amp; ex parte prophetamus) quomodo Spiritus sanctus habitet in 
+      <lb ed="#T" n="28"/>nobis, qui non sine Patre &amp; Filio inhabitat. 
+    </p>
+            <p xml:id="pdt7y6-e90341-d1e248">
+               <lb ed="#T" n="29"/>vbi erat vel haebitabat Deus antequam esset creaturae. 
+      <lb ed="#T" n="30"/>Si autem quaeris, vbi habitabat Deus antequam sancti essent: Dicimus quia in 
+      seha<lb ed="#T" n="31" break="no"/>bitabat. Vnde August. in lib. 3. contra Maximinum: In templo, inquit, suo habitat Deus, 
+      <lb ed="#T" n="32"/>scilicet in sanctis qui sunt templum Dei, modo secundum fidem ambulantes: &amp; tempium. 
+      <lb ed="#T" n="33"/>Dei erunt aliquando secundum speciem, qualiter etiam nunc templum Dei sunt angeli, 
+      <lb ed="#T" n="34"/>Sed dicet aliquis: Antequa faceret Deus caelum &amp; terram, antequa faceret sanctos, vbi 
+      ha<lb ed="#T" n="35" break="no"/>bitabateln se habitabat Deus: apud se habitat, &amp; apud se est. Non ergo sancti sic sunt domus 
+      <lb ed="#T" n="36"/>Dei, vt ea substracta cadat Deus. Imo sic habitat Deus in sanctis, vt si ipse discesserit, cadant.  
+    </p>
+            <p xml:id="pdt7y6-e90341-d1e268">
+               <lb ed="#T" n="37"/>Multa hic breuiter docet quae confirmant praedicta. 
+      <lb ed="#T" n="38"/>Sciendum est etiam, quia, vt ait August. in lib. ad Dardanum, dici nisi stultissime 
+      ne<lb ed="#T" n="39" break="no"/>quit, Spiritum sanctum non habere locum in nostro corpore, quod totum anima nostra 
+      <lb ed="#T" n="40"/>impleuerit. Stultius dicitur etiam angustiis alicubi impediri Trinitatem, vt Pater &amp; Filius &amp; 
+      <lb ed="#T" n="41"/>Spiritus sanctus alicubi simul esse non possint. Verum illud est multo mirabilius, quod 
+      <lb ed="#T" n="42"/>cum Deus vbique sit totus, non tamen in omnibus habitat. Quis porto aude at opinari, 
+      nisi<lb ed="#T" n="43" break="no"/>imseparabilitatem Trinitatis penitus ignoret, quod in aliquo possit habitare Pater &amp; 
+      Fi<lb ed="#T" n="44" break="no"/>lius, in quo non habitet Spiritus sanctus, aut in aliquo Spiritus sanctus, in quo non habitet  
+      <lb ed="#T" n="45"/>Pater &amp; Filius. Fatendum est ergo vbique esse Deum per niuinitatis praesentiam, sed non 
+      <lb ed="#T" n="46"/>vbique per inhabitationis gratiam. Propter hanc enim inhabitationem gratiae non 
+      dici<lb ed="#T" n="47" break="no"/>mus: Pater noster qui es vbique, cum &amp; hoc verum sit: sed qui es in caelis, id est, in sanctis, 
+      <lb ed="#T" n="48"/>in quibus est quodam excellentiori modo. 
+    </p>
+            <p xml:id="pdt7y6-e90341-d1e297">
+               <lb ed="#T" n="49"/>Quod deus inhaebitator est quorumdam nondum cognoscentium Deum, &amp; non 
+    </p>
+            <p xml:id="pdt7y6-e90341-d1e302">
+               <lb ed="#T" n="50"/>quorundam cognoscentium. 
+      <lb ed="#T" n="51"/>Illud quoque mirabile est, quia, vt ait Augustinus in eodem, Deus est inhabitator 
+      quo<lb ed="#T" n="52" break="no"/>rundam nondum cognoscentium Deum. &amp; non quorundam cognoscentium Deum. Illi 
+      <lb ed="#T" n="53"/>enim ad templum Dei non pertinent, qui cognoscentes Deum non sicut Deum glorificant.  
+      <lb ed="#T" n="54"/>Ad templum Dei pertinent paruuli sanctificati sacramento Christi, &amp; regenerati Spiritu 
+      <lb ed="#T" n="55"/>sancto, qui nondum valent cognoscere Deum. Ergo quem potuerunt illi nosse nec habere, 
+      <lb ed="#T" n="56"/>isti potuerunt habere antequam nosse. Beatissimi autem sunt illi, quibus est Deum 
+      habe<lb ed="#T" n="57" break="no"/>re, quod nosse. Hic aliquatenus aperit August. quomodo Deus habitet in aliquo, id est, 
+      ha<lb ed="#T" n="58" break="no"/>beatur: cum videlicet ita est in aliquo, vt ab eo cognoscatur &amp; diligatur.  
+    </p>
+            <p xml:id="pdt7y6-e90341-d1e324">
+               <lb ed="#T" n="59"/>Quomodo Deus totus ubique sit per essentiam, non potest intelligi ab humano sensu. 
+      <lb ed="#T" n="60"/>Ex praedictis patet, quod Deus vbique totus est per essentiam &amp; in sandtis habitat per, 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0373.xml-\->
+      <pb ed="#T" n="298"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>gratiam. Cumque superius licet tenuiter, ostensum sit qua ratione dicatur habitare in 
+      qui<lb ed="#T" n="2" break="no"/>busdam: nunc efflagitaret ordinis ratio id etiam assignari, quomodo vbique per essentiam 
+      <lb ed="#T" n="3"/>&amp; totus sit, nisi huius considerationis sublimitas atque immensitas humanae mentis 
+      <lb ed="#T" n="4"/>sensum omnino excederet, vt enim ait Chrysost. super epist. ad Heb. Sicut multa de Deo 
+      <lb ed="#T" n="5"/>intelligimus, quae loqui penitus non valemus: ita multa loquimur, quae intelligere non 
+      <lb ed="#T" n="6"/>sumus idonei. Verbi gratia, quod vbique Deus est, scimus &amp; dicimus: quomodo autem 
+      <lb ed="#T" n="7"/>vbique sit, intellectu non capimus. Item, quod est incorporea quaedam virtus quae est 
+      om<lb ed="#T" n="8" break="no"/>nium causa bonorum scimus, quomodo autem vel quae ista sit, penitus ignoramus. 
+    </p>
+            <p xml:id="pdt7y6-e90341-d1e355">
+               <lb ed="#T" n="9"/>Quorundam opinio, qui praesumunt ostendere quomodo Deus ubique sit per¬ 
+    </p>
+            <p xml:id="pdt7y6-e90341-d1e361">
+               <lb ed="#T" n="10"/>essentiam, potentiam, praesentiam. 
+      <lb ed="#T" n="11"/>Quidam tamen immensa ingenio suo metiri praesumentes, hoc ita fore intelligendum 
+      <lb ed="#T" n="12"/>tradiderunt, quod Deus vbique per essentiam esse dicitur: non quod Dei essentia proprie 
+      <lb ed="#T" n="13"/>sit in omniloco, &amp; in omni creatura: sed quia omnis natura atque omne quod naturaliter  
+      <lb ed="#T" n="14"/>est, in quocumque loco sit, per eum habet esse: &amp; omnis locus in quo illud est, [idem etiam 
+      <lb ed="#T" n="15"/>dicunt ideo Deum vbique dici esse per praesentiam, vel per potentiam, quia cuncta loca 
+      <lb ed="#T" n="16"/>sunt ei praesentia, &amp; quae in eis sunt, nec in eis aliquid operari cessat. Nam &amp; ipsa loca, &amp; 
+      <lb ed="#T" n="17"/>quicquid in eis est, nisi ipse conferuet, manere non possunt. In eis ergo per substantiam 
+      <lb ed="#T" n="18"/>Deus esse dicitur, vt aiunt, quia per virtutem propriae substantiae suae facit vt etiam loca 
+      <lb ed="#T" n="19"/>sint &amp; omnia quae in eis sunt. Sed licet haec vera sint, quae asserunt in explanandis 
+      intelli<lb ed="#T" n="20" break="no"/>gentiis praedictorum: in illis tamen verbis, quibus dicitur Deus vbique esse per essentiam, 
+      <lb ed="#T" n="21"/>plus contineri credendum est, quod homo viuens capere non valet. 
+    </p>
+            <p xml:id="pdt7y6-e90341-d1e390">
+               <lb ed="#T" n="22"/>Quod Deus cum sit in omnibus rebus, non tamen sor dibus rerum inquinatur.  
+      <lb ed="#T" n="23"/>Solet etiam ab eisdem quaeri, quomodo Deus substantialiter insit omnibus rebus, &amp; 
+      cor<lb ed="#T" n="24" break="no"/>poralium fordium inquinationibus non contingatur. Quod tam friuolum est, vt nec 
+      res<lb ed="#T" n="25" break="no"/>ponsione sit dignum, cum etiam spiritus creatus fordibus corporeis etiam leprosi vel 
+      <lb ed="#T" n="26"/>quantumcumque pollutiinquinari non possit. Sol quoque radios suos sine sui pollutione 
+      <lb ed="#T" n="27"/>effundit super loca &amp; corpora non solum munda, sed etiam immunda, ac fordibus 
+      foeten<lb ed="#T" n="28" break="no"/>tia, quorum contractu homines &amp; aliae quaedam res inficiuntur: Solis vero radij impolluti. 
+      <lb ed="#T" n="29"/>&amp; incontaminati ea contingentes existunt. Non est ergo mirandum si essentia Diuina 
+      <lb ed="#T" n="30"/>omnino simplex &amp; incommutabilis omnia replet loca, &amp; omnibus creaturis essentialiter  
+      <lb ed="#T" n="31"/>inest, nec tamen cuiusquam rei fordibus contaminatur, vel contingitur. Vnde August. in 
+      <lb ed="#T" n="32"/>libr. deNatura boni, Cum in Deo, inquit, sint omnia quae condidit, non tamen inquinant 
+      <lb ed="#T" n="33"/>eum illi qui peccant. De cuius etiam sapientia, quae attingit a fine vsque ad finem fortiter,  
+      <lb ed="#T" n="34"/>dicitur: Attingit omnia, propter suam munditiam, &amp; nihil inquinatum in eam incurrit.  
+      <lb ed="#T" n="35"/>Timent quidam quod fieri non potest, scilicet ne humana carne veritas &amp; substantia Dei, 
+      <lb ed="#T" n="36"/>inquinetur, &amp; tamen praedicant istum visibilem solem radios suos per omnes faeces &amp; 
+      for<lb ed="#T" n="37" break="no"/>des spargere, &amp; eos mundos &amp; synceros feruari. Si ergo visibilia munda a visibilibus 
+      im<lb ed="#T" n="38" break="no"/>mundis contingi possunt, &amp; non inquinari: quanto magis inuisibilis &amp; incommutabilis 
+      <lb ed="#T" n="39"/>Veritas. Postremo respondeant quid potius de Deo respondendum existiment: vel quod 
+      <lb ed="#T" n="40"/>nusquam per essentiam sit, vel quod vbique, vel alicubi ita quod non vbique. Sed quis 
+      au<lb ed="#T" n="41" break="no"/>deat dicere quod nusquam Diuina essentia sit, vel quod alicubi, &amp; non vbique sit? Si enim 
+      <lb ed="#T" n="42"/>ita est alicubi quod non vbique, ergo localis est. Est ergo vbique tota quae continet 
+      <lb ed="#T" n="43"/>totum, &amp; penetrat totum, quae nec pro sui simplicitate diuidi, nec pro sui puritate 
+      <lb ed="#T" n="44"/>maculari, nec pro sui immensitate vllo modo comprehendi potest. Vnde August. Deus 
+      <lb ed="#T" n="45"/>vbique est, cui non locis sed actionibus propinquamus. 
+    </p>
+            <p xml:id="pdt7y6-e90341-d1e445">
+               <lb ed="#T" n="46"/>Quod Deus ubique sit, &amp; in omni tempore, non tamen bcalis est, non cu: mscriptibilis, 
+    </p>
+            <p xml:id="pdt7y6-e90341-d1e450">
+               <lb ed="#T" n="47"/>nec loco, nec tempore mouetur.  
+      <lb ed="#T" n="48"/>Cumque Diuina natura veraciter &amp; essentialiter sit in omniloco &amp; in omni tempore, 
+      <lb ed="#T" n="49"/>non tamen mouetur per loca vel pertempora, nec localis, nec temporalis est. 
+      Lo<lb ed="#T" n="50" break="no"/>calis non est, quia penitus non circunscribitur loco: quia nec ita est in vno loco, quod 
+      <lb ed="#T" n="51"/>non sit in alio. Neque dimensionem habet, sicut corpus, cui secundum locum assignatur 
+      <lb ed="#T" n="52"/>principium, medium, &amp; finis, &amp; ante &amp; retro, dextrum &amp; sinistrum, sursum &amp; deorsum: 
+      <lb ed="#T" n="53"/>quod sui interpositione facit distantiam circumstantium. Duobus namque his modis 
+      dici<lb ed="#T" n="54" break="no"/>tur in Scriptura aliquid locale, siue circum scriptibile, &amp; e conuerso, scilicet, vel quia 
+      di<lb ed="#T" n="55" break="no"/>mensionem capiens longitudinis, altitudinis, &amp; latitudinis, distantiam facit in loco, 
+      <lb ed="#T" n="56"/>vt corpus: vel quia loco definitur ac determinatur, quoniam cum sit alicubi, non 
+      <lb ed="#T" n="57"/>vbique inuenitur, quod non solum corpori, sed etiam omnicreato spiritui congruit. 
+      <lb ed="#T" n="58"/>Omne ergo corpus omni modo locale est. Spiritus vero creatus quodammodo est 
+      <lb ed="#T" n="59"/>localis, &amp; quodammodo non est localis. Localis quidem dicitur, quia definitione loci ter 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0374.xml-\->
+      <pb ed="#T" n="299"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>minatur: quoniam cum alicubi praesens sit totus, alibi non inuenitur. Non autem ita 
+      lo<lb ed="#T" n="2" break="no"/>calis est, vt dimensionem capiens distantiam in loco faciat. Diuina ergo sola essentia 
+      om<lb ed="#T" n="3" break="no"/>nino illocalis &amp; incircunscriptibis est: quae nec locis mouetur aliquo modo, scilicet, vel 
+      <lb ed="#T" n="4"/>determinatione finita vel dimensione suscepta, nec temporibus, sed affectu &amp; cognitione 
+      <lb ed="#T" n="5"/>mouetur. His enim duobus modis, scilicet, loco vel tempore, sit mutatio creaturae, quae 
+      <lb ed="#T" n="6"/>longe est a creatore. Vnde August. super Gen. Deus, inquit omnipotens 
+      incommutabi<lb ed="#T" n="7" break="no"/>li aeternitate, voluntate, veritate, semper idem, mouet per tempus creaturam 
+      spiritua<lb ed="#T" n="8" break="no"/>lem, mouet etiam per tempus &amp; locum creaturam corporalem, vt eo motu naturas, quas 
+      <lb ed="#T" n="9"/>condidit, administret. Cum ergo tale aliquid agit, non debemus opinari eius substantiam, 
+      <lb ed="#T" n="10"/>qua Deus est, temporibus locisque mutabilem, siue per tempora &amp; loca mobilem, cum sit 
+      <lb ed="#T" n="11"/>ipse &amp; interior omni re, quia in ipso sunt omnia, &amp; exterior omni re, quia ipse est super 
+      om<lb ed="#T" n="12" break="no"/>nia, &amp; antiquior omnibus, quia ipse est ante omnia, &amp; nouior omnibus, quia ipse idem 
+      <lb ed="#T" n="13"/>post omnia, scilicet, post omnium initia. Ecce hic aperte ostenditur, quod nec locis, nec 
+      <lb ed="#T" n="14"/>temporibus mutatur vel mouetur Deus. Spiritualis autem creatura per tempus mouetur,  
+      <lb ed="#T" n="15"/>corporalis vero etiam per tempus &amp;. locum. 
+    </p>
+            <p xml:id="pdt7y6-e90341-d1e520">
+               <lb ed="#T" n="16"/>Quid sit mutari secundum tempus. 
+      <lb ed="#T" n="17"/>Mutari autem per tempus, est variari secundum qualitates interiores vel exteriores, quae 
+      <lb ed="#T" n="18"/>sunt in ipsa re quae mutatur: vt quando suscipit vicissitudinem gaudij, doloris, scientiae, 
+      <lb ed="#T" n="19"/>obliuionis; vel variationem formae, siue alicuius qualitatis exterioris. Haec enim inuratio  
+      <lb ed="#T" n="20"/>quae sit secundum tempus, variatio est qualitatum, quae sit in corporali vel spirituali 
+      crea<lb ed="#T" n="21" break="no"/>tura: &amp; ideo vocatur tempus. 
+    </p>
+            <p xml:id="pdt7y6-e90341-d1e536">
+               <lb ed="#T" n="22"/>Opinio quorundam, qui dicunt spiritus creatos non moueri loco, nec esse locales. 
+      <lb ed="#T" n="23"/>De mutatione vero loci magna inter conquirentes disceptatio versatur. Sunt enim 
+      qui<lb ed="#T" n="24" break="no"/>dicunt nullum spiritum aliquo modo posse mutariloco: ab omni spiritulocum vniuersaliter  
+      <lb ed="#T" n="25"/>remouere volentes: quoniam secundum dimensionem tantum &amp; circumscriptionem locum 
+      <lb ed="#T" n="26"/>stare asserunt, atque id solum esse locale vel in loco esse dicunt, quod dimensionem 
+      reci<lb ed="#T" n="27" break="no"/>pit, &amp; distantiam in loco facit. Et hoc dicunt August. sensisse, mutationem temporis 
+      tan<lb ed="#T" n="28" break="no"/>tum spirituali creaturae tribuentem: loci vero &amp; temporis, corporeae. 
+    </p>
+            <p xml:id="pdt7y6-e90341-d1e555">
+               <lb ed="#T" n="29"/>Hic respondetur eis. 
+      <lb ed="#T" n="30"/>Sed, vt supra diximus, dupliciter dicitur esse res localis vel circunscriptibllis: scilicet,  
+      <lb ed="#T" n="31"/>vel quia dimensionem recipit &amp; distantiam facit, vel quia loci termino definitur: quorum 
+      <lb ed="#T" n="32"/>vtrumque conuenit corporeae creaturae, alterum vero tantum spirituali. Nam, vt supra 
+      <lb ed="#T" n="33"/>diximus, corporalis creatura ita est localis vel circunscriptibilis, quod determinatur 
+      de<lb ed="#T" n="34" break="no"/>finitioneloci, &amp; quod dimensionem recipiens distantiam facit: spiritualis vero tantum 
+      <lb ed="#T" n="35"/>definitione loci concluditur, cum ita sit alicubi, quod non alibi, sed nec dimensionem 
+      <lb ed="#T" n="36"/>recipit, nec distantiam in loco facit, quia si multi essent spiritus hic, non eo coangustarent 
+      <lb ed="#T" n="37"/>locum, quo minus de corporib. contineret. Ideoque August. atrribuit mutationem loci 
+      <lb ed="#T" n="38"/>corpori non spiritui: quialicet spiritus transeat deloco ad locum, non tamen ita vt 
+      di<lb ed="#T" n="39" break="no"/>mensionibus circunscriptis interpositione sui faciat distantiam, sicut corpus. 
+    </p>
+            <p xml:id="pdt7y6-e90341-d1e581">
+               <lb ed="#T" n="40"/>Conclusio ex praedictis, quod spiritus creati sunt locales &amp; circunscriptibiles quodammodo, spiritus 
+    </p>
+            <p xml:id="pdt7y6-e90341-d1e586">
+               <lb ed="#T" n="41"/>vero Dei omnino incircunscriptibilis. 
+      <lb ed="#T" n="42"/>Sunt ergo spiritus creati in loco, &amp; transeunt de loco ad locum, &amp; quodammodo 
+      lo<lb ed="#T" n="43" break="no"/>cales &amp; circunscriptibiles, sed non omni eo modo quo creaturae corporeae. Spiritus autem 
+      <lb ed="#T" n="44"/>increatus, qui Deus est, in loco quidem est &amp; in omniloco, sed omnino illocalis est &amp; 
+      in<lb ed="#T" n="45" break="no"/>circunscriptibilis. Unde Beda super Lucam ait: cum ad nos angeli veniunt, sic exterius 
+      im<lb ed="#T" n="46" break="no"/>plent ministerium, vt tamen ante Deum interius per contemplationem assistant: quia etsi e 
+      <lb ed="#T" n="47"/>angelus est spiritus circunscriptus, summus tamen spiritus, qui Deus est, 
+      incircunscri<lb ed="#T" n="48" break="no"/>ptus est, intra quem currit angelus quocumque mittatur. Ecce hic dicitur quia, spiritus 
+      <lb ed="#T" n="49"/>angelicus circunscriptus est, Spiritus autem qui Deus est, incircunscriptus. Alibi etiam 
+      <lb ed="#T" n="50"/>Ambrosius distantiam ostendens inter spiritum increatum, &amp; spiritum creatum, dicit  
+      <lb ed="#T" n="51"/>Seraphim de loco ad locum transire, inquiens ita in lib. de Trinit. Dixit Esa. Quia missus est 
+      <lb ed="#T" n="52"/>ad me vnus de Seraphin. Et Spiritus quidem sanctus dicitur missus, sed Seraphin ad vnum, 
+      <lb ed="#T" n="53"/>Spiritus vero ad omnes: Seraphin mittitur in ministerio, Spiritus operatur mysterium: 
+      <lb ed="#T" n="54"/>Seraphin de loco ad locum transit, non enim complet omnia, sed ipse repletur a 
+      Spiritu<lb ed="#T" n="55" break="no"/>Hic aperte ostenditur quod angeli quodammodo locales sunt.  
+    </p>
+            <p xml:id="pdt7y6-e90341-d1e621">
+               <lb ed="#T" n="56"/>Cum repetitione superiorum confirmat authoritatibus, Deum esse vbique sine locali motu. 
+      <lb ed="#T" n="57"/>Fateamur itaque Diuinam naturam pro immensitate sui nusquam deesse: eamque 
+      so<lb ed="#T" n="58" break="no"/>lam omnino illocalem, &amp; omnino incircunscriptibilem nullo concludiloco, sed a fine 
+      vs<lb ed="#T" n="59" break="no"/>que ad finem attingere, non tamen spatiosa magnitudine, nec locali motu, sed 
+      immensi<lb ed="#T" n="60" break="no"/>tate atque immobilitate suae essentiae. Vnde Aug. ad Dardanum ait, non quasi spatiosa 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0375.xml-\->
+      <pb ed="#T" n="300"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>magnitudine opinemur Deum per cuncta diffundi, sicut fumus aut lux ista diffunditur: sed  
+      <lb ed="#T" n="2"/>potius sicut in duobus sapientibus, quorum alter altero corpore grandior est, sed 
+      sapien<lb ed="#T" n="3" break="no"/>tior non est, vna sapientia est, nec est in maiore maior, nec in minore minor, nec minor 
+      <lb ed="#T" n="4"/>in vno quam in duobus: ita Deus sine labore regens &amp; continens mundum, in coelo totus 
+      <lb ed="#T" n="5"/>est, in terra totus, &amp; in vtroque totus, &amp; nullo contentus loco, sed in seipso vbique 
+      to<lb ed="#T" n="6" break="no"/>tus. Idem quoque super Psal. ait, ad verbum Dei pertinet non esse in parte, sed vbique esse 
+      <lb ed="#T" n="7"/>per seipsum, haec enim est sapientia Dei, quae attingit a fine vsque ad finem fortiter, non 
+      <lb ed="#T" n="8"/>tamen motu locali, sed immobilitate sui: veluti si moles aliqua saxea impleat aliquem 
+      lo<lb ed="#T" n="9" break="no"/>cum, dicitur quod atringit a fine illius loci vsque ad finem, cum tamen alterum non 
+      dese<lb ed="#T" n="10" break="no"/>rat alterum occupando. Non ergo habet motum localem verbum illud, &amp; sapientia illa 
+      <lb ed="#T" n="11"/>solida est &amp; vbique. Ex praedictis innotescit, quod Deus est ita vbique per essentiam, quod 
+      <lb ed="#T" n="12"/>non speciosa magnitudine diffunditur, nec vno deferto loco alium occupat, quia localem 
+      <lb ed="#T" n="13"/>motum non habet. Ideoque Augustin. volens praescindere a Dei puritate omnem localem 
+      <lb ed="#T" n="14"/>motum &amp; localem circunscriptionem, potius dicit omnia esse in illo, quam ipsum esse 
+      <lb ed="#T" n="15"/>alicubi, nec tamen ipsum esse locum, qui non est in loco, in lib. 83. quaest. ita inquiens. 
+      <lb ed="#T" n="16"/>Deus non alicubi est: quod alicubi est, continetur loco, quod continetur loco, corpus 
+      <lb ed="#T" n="17"/>est: Deus autem non est corpus: non ergo alicubi est. Et tamen quia est, &amp; in loco non 
+      <lb ed="#T" n="18"/>est, in illo sunt potius omnia, quam ille alicubi: nec tamen ita in illo, vt ipse sit locus: 
+      <lb ed="#T" n="19"/>locus enim in spatio est quod longitudine &amp; latitudine &amp; altitudine corporis occupatur: 
+      <lb ed="#T" n="20"/>nec Deus tale aliquid est: &amp; omnia ergo in ipso sunt, &amp; locus non est, nec in loco est, 
+      <lb ed="#T" n="21"/>Locus tamen Dei, sed improprie, dicitur templum Dei, non quod eo contineatur: id, 
+      <lb ed="#T" n="22"/>autem nihil melius quam amima munda intelligitur. Ecce hic dicit Deum non esse, in loco, 
+      <lb ed="#T" n="23"/>sed intelligendum est cum non esse in loco localiter, scilicet quia nec circum scriptionem, 
+      <lb ed="#T" n="24"/>neclocalem motum habet.  
+    </p>
+            <p xml:id="pdt7y6-e90341-d1e693">
+               <lb ed="#T" n="25"/>Oppositio, qua videtur probari quod Deus mutetur loco. 
+      <lb ed="#T" n="26"/>Ad hoc autem solet opponi sic. Quotidie siunt creaturae quae ante non erant, &amp; in eis 
+      <lb ed="#T" n="27"/>Deus est, cum ante non esset in eis est ergo vbi ante non erat, ideoque mutabilis esse 
+      vide<lb ed="#T" n="28" break="no"/>tur. Sed licet quotidie incipiat esse in creaturis, in quibus ante non erat, quia illae non 
+      <lb ed="#T" n="29"/>erant: hoc tamen sit sine sui mutatione, qualiter in mundo coepit esse quem fecit, tamen 
+      <lb ed="#T" n="30"/>sine sui mutabilitate: &amp; similiter desinit esse in quibus ante erat sine sui muratione: nec 
+      ta<lb ed="#T" n="31" break="no"/>men ipse deferit locum, sed locus desinit esse. 
+    </p>
+            <p xml:id="pdt7y6-e90341-d1e711">
+               <lb ed="#T" n="32"/>Epilogus, vbi exponitur quare in praedictam venerit disceptationem. 
+      <lb ed="#T" n="33"/>Iam sufficienter demonstratum esse videtur, quomodo omnia dicantur esse in Deo, &amp; 
+      <lb ed="#T" n="34"/>Deus in omnibus: quam disceptationem quasi incidenter suscepimus, quia id videbatur. 
+      <lb ed="#T" n="35"/>postulare res circa quam noster versabatur sermo. Differebamus enim de scientia siue 
+      sa<lb ed="#T" n="36" break="no"/>pientia Dei: &amp; cum diceremus Deum scire omnia, quaesitum est vtrum propter 
+      cognitio<lb ed="#T" n="37" break="no"/>nem quam de omnibus habet, dicerentur omnia esse in Deo, an alia ratione hoc 
+      di<lb ed="#T" n="38" break="no"/>ceret Scriptura. Huius ergo quaestionis occasio in praemissam nos deduxit disputationem.
+    </p>-->
+            <p xml:id="pdt7y6-e90341-d1e730">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0375.xml-->
+               <cb ed="#T" n="b"/>
+               <lb ed="#T" n="39" type="fixed=300"/>DIVISIO TEXTVS. 
+      <lb ed="#T" n="40"/>[ETquoniam demonstratum est.] Egit de 
+      <lb ed="#T" n="41"/>existentia rertm in Deo: hic agitde 
+      exi<lb ed="#T" n="42" break="no"/>stentia Dei in rebus. Et primo ostendit modos 
+      <lb ed="#T" n="43"/>veros quibus Deus est in rebus. Secundo 
+      remo<lb ed="#T" n="44" break="no"/>uet modos falsos quibus nonest in ipsis [
+      Cum<lb ed="#T" n="45" break="no"/>que natura diuina. 
+    </p>
+            <p xml:id="pdt7y6-e90341-d1e752">
+               <lb ed="#T" n="46"/>In prima parte primo agit comuniter de modo 
+      <lb ed="#T" n="47"/>existendi in rebus, siue per naturam, siue per 
+      gra<lb ed="#T" n="48" break="no"/>tiam. Secundo specialiter de modo existendi 
+      per<lb ed="#T" n="49" break="no"/>gratiam [In sanctis vero ] Tertio specialiter  
+      <lb ed="#T" n="50"/>de modo existendi per naturam [Ex praedictis 
+      <lb ed="#T" n="51"/>patet. ] In prima parte primo assignat modos 
+      <lb ed="#T" n="52"/>existentiae Dei in rebus. Secundo confirmat 
+      au<lb ed="#T" n="53" break="no"/>ctoritatibus [Ne autem ista.] In secunda parte 
+      <lb ed="#T" n="54"/>primo ostendit qualiter Deus habitat in sanctis. 
+      <lb ed="#T" n="55"/>Secundo inquirit vbi habitabat antequam essent 
+      <lb ed="#T" n="56"/>Sancti [Si autem quaeris] Tertio quae 
+      perso<lb ed="#T" n="57" break="no"/>na inhabitet in sanctis, quia tota Trinitas 
+      <lb ed="#T" n="58"/>[Sciendum) Quarto in quibus sanctis habitet,  
+      <lb ed="#T" n="59"/>quia nont antum in adultis, sed etiam in 
+      paruu<lb ed="#T" n="60" break="no"/>lis [Illud quoque.] In tertia parte 
+      primoosten<lb ed="#T" n="61" break="no"/>dit modum, quo Deus est in rebus omnibus per 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0375.xml-->
+      <cb ed="#T" n="c"/>
+               <lb ed="#T" n="62"/>naturam, non esse comprehensibilem [Ex 
+      prae<lb ed="#T" n="63" break="no"/>dictis] Secundo quorumdam arguit super hoc 
+      <lb ed="#T" n="64"/>praesumptionem [Quidam tamen ] Tertio 
+      mo<lb ed="#T" n="65" break="no"/>uet &amp; soluit dubitationem incidentem. Solet  
+      <lb ed="#T" n="66"/>etiam. 
+    </p>
+            <p xml:id="pdt7y6-e90341-d1e804">
+               <lb ed="#T" n="67"/>In secunda parte vbi remouet modos falsos 
+      <lb ed="#T" n="68"/>quibus non est Deus in rebus, primo remoueta 
+      <lb ed="#T" n="69"/>Deo ta localem quam temporalem mutatione 
+      <lb ed="#T" n="70"/>Cumque.] Secundo de locali mutatione 
+      spi<lb ed="#T" n="71" break="no"/>rituum mouet &amp; determinat incidentem 
+      dubita<lb ed="#T" n="72" break="no"/>tionem [De mutatione vero ] Tertio ponit 
+      <lb ed="#T" n="73"/>praemissorum repetitionem &amp; confirmationem 
+      <lb ed="#T" n="74"/>[Fateamur. ] In prima parte primo determinat 
+      <lb ed="#T" n="75"/>veritatem [Cumque] Secundo confirmat 
+      de<lb ed="#T" n="76" break="no"/>terminationem [Vnde Augustinus.] In 
+      secun<lb ed="#T" n="77" break="no"/>da parte primo excludit de motu locali 
+      spiri<lb ed="#T" n="78" break="no"/>tuum, quorumdam falsam opinionem [De 
+      muta<lb ed="#T" n="79" break="no"/>tione.] Secundo concludit veritatem [Sunt 
+      er<lb ed="#T" n="80" break="no"/>go. ] In tertia parte primo repetit &amp; confirmat 
+      <lb ed="#T" n="81"/>quod Deus vbique sit non localiter [Fateamur)  
+      <lb ed="#T" n="82"/>Secundo ostendit qua ratione de hoc tractauit 
+      <lb ed="#T" n="83"/>[Iam sufficienter. ] 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

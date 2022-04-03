@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="199"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e60983"><!-- l1d24q2 -->
+            <head xml:id="pdt7y6-e60983-Hd1e99">Quaestio 2</head>
+            <head xml:id="pdt7y6-e60983-Hd1e101" type="question-title">De numero in divinis</head>
+            <p xml:id="pdt7y6-e60983-d1e104">
+               <lb ed="#T" n="120"/>QVESTIO II. 
+      <lb ed="#T" n="121"/>DE TERMINOSIONIFICANTE 
+      <lb ed="#T" n="122"/>NVMERVN IN DIVINIS 
+</p>
+            <p xml:id="pdt7y6-e60983-d1e113">
+               <lb ed="#T" n="123"/>CIrca secundum quaeruntur tria. 
+      <lb ed="#T" n="124"/>Primo an termim numerales &amp; 
+      distincti<lb ed="#T" n="125" break="no"/>ui possint praedicari de Deo. 
+      <lb ed="#T" n="126"/>Secundo an praedicentur secundum positionem 
+      <lb ed="#T" n="127"/>vel secundum priuationem. 
+      <lb ed="#T" n="128"/>Tertio an secundum substantiam vel 
+      secun<lb ed="#T" n="129" break="no"/>dum relationem.
+    </p>
+            <div xml:id="pdt7y6-e60983-Dd1e131">
+               <head xml:id="pdt7y6-e60983-Hd1e133">Articulus 1</head>
+               <head xml:id="pdt7y6-e60983-Hd1e135" type="question-title">
+  An termini numerales et distinctiui possint praedicari de Deo. 
+</head>
+               <p xml:id="pdt7y6-e60983-d1e138">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0275.xml-->
+                  <pb ed="#T" n="200"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>ARTICVLVS I. 
+      <lb ed="#T" n="2"/>An termini numerales &amp; distinctiui possint. 
+      <lb ed="#T" n="3"/>praedicari de Deo. 
+    </p>
+               <p xml:id="pdt7y6-e60983-d1e154">
+                  <lb ed="#T" n="4"/>AD primum sic proceditur. 1. Boetius dicit 
+      <lb ed="#T" n="5"/>quod in Deo nullus est numerus, quia vere 
+      <lb ed="#T" n="6"/>vnum est: ergo falso praedicantur termini de eo, 
+      <lb ed="#T" n="7"/>qui significat numerum. 
+    </p>
+               <p xml:id="pdt7y6-e60983-d1e165">
+                  <lb ed="#T" n="8"/>2. Hylar. Nihil in Deo diuersum, nihil 
+      alie<lb ed="#T" n="9" break="no"/>num, nihil separabile: vbi vero sic est, nullus est 
+      <lb ed="#T" n="10"/>numerus: ergo falso praedicantur de ipso termini 
+      <lb ed="#T" n="11"/>numerales 
+    </p>
+               <p xml:id="pdt7y6-e60983-d1e177">
+                  <lb ed="#T" n="12"/>3. Omnis species numeri est pars alterius: Deus 
+      <lb ed="#T" n="13"/>non est pars: ergo non vere praedicatur de ipso 
+      <lb ed="#T" n="14"/>aliqua species numeri 
+    </p>
+               <p xml:id="pdt7y6-e60983-d1e186">
+                  <lb ed="#T" n="15"/>Contra. 1. Fides in Deo confitetur tres 
+      perso<lb ed="#T" n="16" break="no"/>nas, quinque notiones: ergo vere praedicantur  
+      <lb ed="#T" n="17"/>de Deo termini numerales. 
+    </p>
+               <p xml:id="pdt7y6-e60983-d1e195">
+                  <lb ed="#T" n="18"/>2. Symbolum dicit, alius Pater, alius Filius, alius 
+      <lb ed="#T" n="19"/>Spiritus sanctus: vbi vero est alietas, ibi 
+      distin<lb ed="#T" n="20" break="no"/>ctio &amp; numeratio: ergo vere praedicantur de Deo 
+      <lb ed="#T" n="21"/>termini numerales. 
+    </p>
+               <p xml:id="pdt7y6-e60983-d1e206">
+                  <lb ed="#T" n="22"/>3. De quocumque vere praedicatur vnum &amp; 
+      <lb ed="#T" n="23"/>vnum, vere praedicantur duo: sed de Patre &amp; 
+      <lb ed="#T" n="24"/>Filio vere praedicantur vnum &amp; vnum: ergo duo. 
+    </p>
+               <p xml:id="pdt7y6-e60983-d1e215">
+                  <lb ed="#T" n="25"/>Respondeo. Sicut ratio vnitatis consistit in 
+      in<lb ed="#T" n="26" break="no"/>diuisione, ita ratio numeri in diuisione: vnde vbi 
+      <lb ed="#T" n="27"/>est diuisio simpliciter, ibi est numerus 
+      simplici<lb ed="#T" n="28" break="no"/>ter; vbi secundum quid, ibi est numeruos 
+      secun<lb ed="#T" n="29" break="no"/>dum quid. Diuisio vero simpliciter attenditur 
+      <lb ed="#T" n="30"/>secundum essentiam siue formam, vel 
+      secun<lb ed="#T" n="31" break="no"/>dum materiam, vel secundum quantitatem: 
+      <lb ed="#T" n="32"/>ideo quae sic sunt diuisa, simpliciter sunt 
+      mul<lb ed="#T" n="33" break="no"/>ta, &amp; simpliciter numerantur, diuisio autem 
+      se<lb ed="#T" n="34" break="no"/>cundum quid, attenditur secundum proprie 
+      <lb ed="#T" n="35"/>tates rei, &amp; magis secundum absolutas: vnde 
+      <lb ed="#T" n="36"/>Sortes albus est alter a se nigro: minus vero 
+      se<lb ed="#T" n="37" break="no"/>cundum relatiuas, vnde ipse dexter est alter a 
+      <lb ed="#T" n="38"/>se sinistro. Numerus ergo simpliciter importat 
+      <lb ed="#T" n="39"/>distinctionem cum separatione: numerus 
+      se<lb ed="#T" n="40" break="no"/>cundum quid distinctionem sine separatione: 
+      <lb ed="#T" n="41"/>quia ergo in Deo est distinctio sed non 
+      separatio<lb ed="#T" n="42" break="no"/>ideo non est in Deo numerus simpliciter, sed  
+      <lb ed="#T" n="43"/>numerus quidam, scilicet personarum &amp; 
+      proprie<lb ed="#T" n="44" break="no"/>tarum: &amp; sicut non ponitur in eo numerus 
+      sim<lb ed="#T" n="45" break="no"/>pliciter, sic nec species numeri simpliciter. 
+      Si<lb ed="#T" n="46" break="no"/>militer &amp; termini numerales de Deo 
+      praedican<lb ed="#T" n="47" break="no"/>tur non simpliciter sed cum determinatione, tres 
+      <lb ed="#T" n="48"/>personae, quinque notiones &amp; huiusmodi 
+    </p>
+               <p xml:id="pdt7y6-e60983-d1e270">
+                  <lb ed="#T" n="49"/>Ad 1. In Deo nullus numerus &amp;c. Resp. 
+      <lb ed="#T" n="50"/>Termim numerales praedicantur de Deo, non 
+      <lb ed="#T" n="51"/>simpliciter prout dicunt numerum simpliciter; 
+      <lb ed="#T" n="52"/>sed cum determinatione, prout dicut numerum 
+      <lb ed="#T" n="53"/>quemdam. Similiter soluendum secundum &amp; 
+      <lb ed="#T" n="54"/>tertium argumentum. 
+    </p>
+               <p xml:id="pdt7y6-e60983-d1e287">
+                  <lb ed="#T" n="55"/>Argumenta vero facta ad oppositum 
+      conclu<lb ed="#T" n="56" break="no"/>dunt in Deo esse numerum quendam, non 
+      nu<lb ed="#T" n="57" break="no"/>merum simpliciter.  
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e60983-Dd1e298">
+               <head xml:id="pdt7y6-e60983-Hd1e300">Articulus 2</head>
+               <head xml:id="pdt7y6-e60983-Hd1e302" type="question-title">
+  An termini numerales et distinctiui praedicentur de 
+  Deo secundum positionem vel secundum 
+  priuationem tantum
+</head>
+               <p xml:id="pdt7y6-e60983-d1e305">
+                  <lb ed="#T" n="58"/>Articvlvs II. 
+      <lb ed="#T" n="59"/>An termini numerales &amp; distinctiui praedicentur de 
+      <lb ed="#T" n="60"/>Deo secundum positionem vel secundum 
+      <lb ed="#T" n="61"/>priuationem tantum. 
+</p>
+               <p xml:id="pdt7y6-e60983-d1e316">
+                  <lb ed="#T" n="62"/>AD secundum articulum sic proceditur. 1 
+      <lb ed="#T" n="63"/>Quae dicuntur plura positiue, maius quid 
+      <lb ed="#T" n="64"/>sunt omnia simul quam singulum illorum: sed  
+      <!--1652-gregPress-MichiganState-gbooks-v1-0275.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="65"/>in Deo non est maius &amp; minus: ergo nec 
+      plura<lb ed="#T" n="66" break="no"/>litas dicta positiue. 
+    </p>
+               <p xml:id="pdt7y6-e60983-d1e334">
+                  <lb ed="#T" n="67"/>2. Quae dicuntur plura positiue constituunt 
+      <lb ed="#T" n="68"/>realem multitudinem: ergo realem 
+      diuersita<lb ed="#T" n="69" break="no"/>tem: sed in Deo non est realis diuersitas: ergo 
+      <lb ed="#T" n="70"/>nec pluralitas positiue dicta. 
+    </p>
+               <p xml:id="pdt7y6-e60983-d1e346">
+                  <lb ed="#T" n="71"/>3. Impossibile est in vno &amp; eodem simplici 
+      <lb ed="#T" n="72"/>opposita poni: ergo impossibile est in Deo simul. 
+      <lb ed="#T" n="73"/>vnitatem &amp; pluralitatem ponere: ergo non 
+      di<lb ed="#T" n="74" break="no"/>cuntur de Deo positiue. 
+    </p>
+               <p xml:id="pdt7y6-e60983-d1e357">
+                  <lb ed="#T" n="75"/>Contra. 1. Si dicuntur priuatiue: ergo 
+      priua<lb ed="#T" n="76" break="no"/>tionis est priuatio, &amp; erit circulus in eorum 
+      des<lb ed="#T" n="77" break="no"/>scriptione, quia vnum describitur per alterum: 
+      <lb ed="#T" n="78"/>quod est inconueniens. 
+    </p>
+               <p xml:id="pdt7y6-e60983-d1e368">
+                  <lb ed="#T" n="79"/>2. Si dicuntur priuatiue: ergo Trinitas in 
+      <lb ed="#T" n="80"/>Deo nihil ponit: ergo non est adoranda. 
+    </p>
+               <p xml:id="pdt7y6-e60983-d1e375">
+                  <lb ed="#T" n="81"/>3. Si nihil ponunt, ergo qua ratione dicuntur 
+      <lb ed="#T" n="82"/>in Deo esse tres personae, possent dici quinque 
+      <lb ed="#T" n="83"/>personae: sed hoc est falsum: ergo primum. 
+    </p>
+               <p xml:id="pdt7y6-e60983-d1e384">
+                  <lb ed="#T" n="84"/>Respondeo. Concedendum est quod in 
+      per<lb ed="#T" n="85" break="no"/>sonis est vera &amp; realis distinctio: omnis autem 
+      <lb ed="#T" n="86"/>realis, maxime rerum omnino immaterialium, 
+      <lb ed="#T" n="87"/>distinctio fundatur super aliquas formas reales 
+      <lb ed="#T" n="88"/>distinctas: ergo &amp; distinctio personarum: 
+      termi<lb ed="#T" n="89" break="no"/>ni vero distinctiui dicti de Deo fundantur super 
+      <lb ed="#T" n="90"/>formas aliquas quae sunt principia distinguendi, 
+      <lb ed="#T" n="91"/>non tamen absolutas, propter vnitatem 
+      essen<lb ed="#T" n="92" break="no"/>tiae, sed relatiuas: non ergo dicuntur in Deo 
+      <lb ed="#T" n="93"/>priuatiue sed positiue: quamuis Magister 
+      con<lb ed="#T" n="94" break="no"/>trarium senserit eo quod illa distinctio 
+      funda<lb ed="#T" n="95" break="no"/>tur super formas relatiuas non absolutas. Vnde 
+      <lb ed="#T" n="96"/>nihil ponunt in Deo sui generis, scilicet 
+      quanti<lb ed="#T" n="97" break="no"/>tatis, sed alterius scilicet relationis. 
+    </p>
+               <p xml:id="pdt7y6-e60983-d1e417">
+                  <lb ed="#T" n="98"/>Ad 1. Quae dicuntur plura positiue &amp;c. Resp. 
+      <lb ed="#T" n="99"/>Hoc verum est de ijs quae sunt plura 
+      simplici<lb ed="#T" n="100" break="no"/>ter, scilicet pluralitate absoluta; non de ijs quae 
+      <lb ed="#T" n="101"/>secundum quid sunt plura, pluralitate relatiua 
+      <lb ed="#T" n="102"/>solum. 
+    </p>
+               <p xml:id="pdt7y6-e60983-d1e431">
+                  <lb ed="#T" n="103"/>Ad 2. Similiter. Respondendum est, 
+      <lb ed="#T" n="104"/>Ad 3. Resp. Quamuis vnitas &amp; multitudo seu 
+      <lb ed="#T" n="105"/>pluralitas secundum se sit opposita: non tamen 
+      <lb ed="#T" n="106"/>vnitas essentiae &amp; pluralitas personarum. Nam 
+      <lb ed="#T" n="107"/>vnitas absoluta &amp; pluralitas relatiua non 
+      oppo<lb ed="#T" n="108" break="no"/>nuntur, sicut nec in puncto vnitas essentiae &amp; 
+      <lb ed="#T" n="109"/>pluralitas relationum. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e60983-Dd1e450">
+               <head xml:id="pdt7y6-e60983-Hd1e452">Articulus 3</head>
+               <head xml:id="pdt7y6-e60983-Hd1e454" type="question-title">
+  An termini numerales et distinctiui praedicentur de 
+  Deo secundum substantiam vel secundum 
+  relationem.
+</head>
+               <p xml:id="pdt7y6-e60983-d1e457">
+                  <lb ed="#T" n="110"/>Articvlvs III. 
+      <lb ed="#T" n="111"/>An termini numerales &amp; distinctiui praedicentur de 
+      <lb ed="#T" n="112"/>Deo secundum substantiam vel secundum 
+      <lb ed="#T" n="113"/>relationem. 
+    </p>
+               <p xml:id="pdt7y6-e60983-d1e468">
+                  <lb ed="#T" n="114"/>AD tertium articulum sic proceditur. 1. 
+      di<lb ed="#T" n="115" break="no"/>cit <name xml:id="pdt7y6-e60983-Nd1e474" ref="#Boethius">Boetius</name> quod praedicamenta alia, 
+      ex<lb ed="#T" n="116" break="no"/>cepto praedicamento relationis, dicta de Deo,: 
+      <lb ed="#T" n="117"/>mutantur in substantiam: ergo termini 
+      nume<lb ed="#T" n="118" break="no"/>rales, cum significent quantitatem, dicuntur de 
+      <lb ed="#T" n="119"/>Deo secundum substantiam 
+    </p>
+               <p xml:id="pdt7y6-e60983-d1e487">
+                  <lb ed="#T" n="120"/>2. In diuinis ea quae dicuntur absolute, 
+      di<lb ed="#T" n="121" break="no"/>cuntur secundum substantiam: sed termini 
+      nu<lb ed="#T" n="122" break="no"/>merales absolute dicuntur: ergo secundum 
+      sub<lb ed="#T" n="123" break="no"/>stantiam. 
+    </p>
+               <p xml:id="pdt7y6-e60983-d1e499">
+                  <lb ed="#T" n="124"/>3. In eodem genere sunt principium &amp; id 
+      <lb ed="#T" n="125"/>cuius est principium: cum ergo vnum in Deo 
+      <lb ed="#T" n="126"/>dicatur substantialiter, videtur quod similiter  
+      <lb ed="#T" n="127"/>multitudo dicatur substantialiter: ergo terminis 
+      <lb ed="#T" n="128"/>multitudinem significantes dicuntur secundum 
+      <lb ed="#T" n="129"/>substantiam. 
+    </p>
+               <p xml:id="pdt7y6-e60983-d1e515">
+                  <lb ed="#T" n="130"/>Contra. 1. Si dicerentur substantialiter, possent 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0276.xml-->
+      <pb ed="#T" n="201"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>addi termino substantiali: sed hoc est falsum: 
+      er<lb ed="#T" n="2" break="no"/>go primum. 
+    </p>
+               <p xml:id="pdt7y6-e60983-d1e531">
+                  <lb ed="#T" n="3"/>2. Quae dicuntur substantialiter, dicuntur de 
+      <lb ed="#T" n="4"/>pluribus simul in singulari: sed termini numera 
+      <lb ed="#T" n="5"/>ses non sic dicuntur: ergo non dicuntur 
+      secun<lb ed="#T" n="6" break="no"/>dum substantiam. 
+    </p>
+               <p xml:id="pdt7y6-e60983-d1e542">
+                  <lb ed="#T" n="7"/>3. In substantia est vnitas omnimoda: erg 
+      <lb ed="#T" n="8"/>quae dicunt pluralitatem aliquam, non dicuntur 
+      <lb ed="#T" n="9"/>secundum substantiam 
+    </p>
+               <p xml:id="pdt7y6-e60983-d1e551">
+                  <lb ed="#T" n="10"/>Respondeo. In Diuinis nulla est distinctio 
+      <lb ed="#T" n="11"/>realis in essentia, sed in personis: illa ergo quae 
+      <lb ed="#T" n="12"/>dicunt reale aliquam distinctionem oportet dic 
+      <lb ed="#T" n="13"/>non secundum substantiam, sed secundum 
+      rela<lb ed="#T" n="14" break="no"/>tiones personarum: ergo cum huiusmodi 
+      termi<lb ed="#T" n="15" break="no"/>ni numerales dicant in Deo realem 
+      distinctio<lb ed="#T" n="16" break="no"/>nem, dicuntur secundum relationem non 
+      secun<lb ed="#T" n="17" break="no"/>dum substantiam: significant ergo relationes 
+      <lb ed="#T" n="18"/>non tamen distincte sed indistincte¬ 
+    </p>
+               <p xml:id="pdt7y6-e60983-d1e573">
+                  <lb ed="#T" n="19"/>Ad 1. De mutatione quantitatis in 
+      substan<lb ed="#T" n="20" break="no"/>tiam. Resp. Numerus in Deo non dicit 
+      quanti<lb ed="#T" n="21" break="no"/>tatem, sed relationem: dicit enim distinetionem 
+      <lb ed="#T" n="22"/>relatiuam non absolutam. 
+    </p>
+               <p xml:id="pdt7y6-e60983-d1e585">
+                  <lb ed="#T" n="23"/>Ad 2. Quae dicuntur absolute &amp;c. Resp. Dic. 
+      <lb ed="#T" n="24"/>aliquid dupliciter dicitur, vel explicite vel 
+      im<lb ed="#T" n="25" break="no"/>plicitem, siue se cundum rem &amp; secundum nomen: 
+      <lb ed="#T" n="26"/>termini ergo numerales, quamuis relatiue inor 
+      <lb ed="#T" n="27"/>dicantur explicite &amp; secundumnomen, d,. 
+      cun<lb ed="#T" n="28" break="no"/>tur tamen implicite &amp; secundum rem. 
+    </p>
+               <p xml:id="pdt7y6-e60983-d1e601">
+                  <lb ed="#T" n="29"/>Ad 3. Vnum in Deo dicitur essentialiter: ergo 
+      <lb ed="#T" n="30"/>&amp; multitudo, cum in eodem genere sint 
+      princi<lb ed="#T" n="31" break="no"/>pium &amp; principiatum. Resp. Vnum essentialis 
+      <lb ed="#T" n="32"/>ter dictum non est principium multitudinis per 
+      <lb ed="#T" n="33"/>sonarum, aut notionum: sed vnum dictum 
+      no<lb ed="#T" n="34" break="no"/>tionaliter.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="120"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e36242"><!-- l1d15q1 -->
+            <head xml:id="pdt7y6-e36242-Hd1e99">Quaestio 1</head>
+            <head xml:id="pdt7y6-e36242-Hd1e101" type="question-title">De missione in communi</head>
+            <p xml:id="pdt7y6-e36242-d1e104">
+               <lb ed="#T" n="70"/>QVESTIO. I. 
+      <lb ed="#T" n="71"/>DE MiSSIONE IN COMMVMI. 
+    </p>
+            <p xml:id="pdt7y6-e36242-d1e111">
+               <lb ed="#T" n="72"/>QVaeruntur hic de missione Diuina quatuor.  
+      <lb ed="#T" n="73"/>Primo de missione in generali. 
+      <lb ed="#T" n="74"/>Secundo de missione Spiritus sancti. 
+      <lb ed="#T" n="75"/>Tertio de missione Filij. 
+      <lb ed="#T" n="76"/>Quarto de termino vtriusque missionis. 
+    </p>
+            <p xml:id="pdt7y6-e36242-d1e124">
+               <lb ed="#T" n="77"/>Circa primum quaeruntur tria. 
+      <lb ed="#T" n="78"/>Primo an sit missio in Diuinis, 
+      <lb ed="#T" n="79"/>Secundo quid sit. 
+      <lb ed="#T" n="80"/>Tertio quid significet ibi nomen missionis.
+    </p>
+            <div xml:id="pdt7y6-e36242-Dd1e136">
+               <head xml:id="pdt7y6-e36242-Hd1e138">Articulus 1</head>
+               <head xml:id="pdt7y6-e36242-Hd1e140" type="question-title">
+  An sit missio in Diuinis
+</head>
+               <p xml:id="pdt7y6-e36242-d1e143">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0196.xml-->
+                  <pb ed="#T" n="121"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>ARTICVLVS I. 
+      <lb ed="#T" n="2"/>An sit missio in Diuinis.
+  </p>
+               <p xml:id="pdt7y6-e36242-d1e156">
+                  <lb ed="#T" n="3"/>AD primum sic proceditur. 1. Missio 
+      impor<lb ed="#T" n="4" break="no"/>Atat loci mutationem, nam mitti dicitur 
+      ali<lb ed="#T" n="5" break="no"/>quid vbi prius non erat: sed vbique existenti non 
+      <lb ed="#T" n="6"/>conue nit loci mutatio: ergo nec missio. 
+    </p>
+               <p xml:id="pdt7y6-e36242-d1e167">
+                  <lb ed="#T" n="7"/>2. Ezech. 10. conuertam restituens eos. glos. 
+      <lb ed="#T" n="8"/>Hieron. quod coniunctum est &amp; in vno 
+      corpo<lb ed="#T" n="9" break="no"/>re copulatum non potest mitti, sed quod est 
+      ex<lb ed="#T" n="10" break="no"/>tra: vnde etiam non dicitur mitti manus, sed 
+      la<lb ed="#T" n="11" break="no"/>pis qui a manu proijcitur: sed personae Diuinae 
+      <lb ed="#T" n="12"/>inter se essentialiter coniunctae sunt ergo ad 
+      inui<lb ed="#T" n="13" break="no"/>cem mitti non possunt, &amp; constat quod nec ab 
+      <lb ed="#T" n="14"/>alio: ergo nullo modo 
+    </p>
+               <p xml:id="pdt7y6-e36242-d1e188">
+                  <lb ed="#T" n="15"/>3. Missio importat respectu mittentis 
+      obedien<lb ed="#T" n="16" break="no"/>tiam &amp; subjectionem: sed in Diuinis personis 
+      <lb ed="#T" n="17"/>nil tale est: ergo eis non conuenit missio. 
+    </p>
+               <p xml:id="pdt7y6-e36242-d1e197">
+                  <lb ed="#T" n="18"/>4. Secundum Dyonis. Angelis superioribus 
+      <lb ed="#T" n="19"/>ratione suae dignitatis non conuenit ad nos 
+      mit<lb ed="#T" n="20" break="no"/>ti, sed solum Deo assistere: ergo multo minus 
+      <lb ed="#T" n="21"/>personis. 
+    </p>
+               <p xml:id="pdt7y6-e36242-d1e208">
+                  <lb ed="#T" n="22"/>Contra. 1. Multis auctoritatibus ostenditur  
+      <lb ed="#T" n="23"/>sapientiam mitti vt patet, sap. 1. mitte illam &amp;c. 
+      <lb ed="#T" n="24"/>Spiritum sanctum mitti vt patet Ioan. 160. 
+    </p>
+               <p xml:id="pdt7y6-e36242-d1e217">
+                  <lb ed="#T" n="25"/>2. Peccator est absens Deo, quamuis Deus sit 
+      <lb ed="#T" n="26"/>praesens ei, vt caecus est absens luci, quamuis 
+      <lb ed="#T" n="27"/>lux sit praesens ei, secundum Augustinum: sec 
+      <lb ed="#T" n="28"/>quod datur absenti dicitur mitti: ergo Spiritu 
+      <lb ed="#T" n="29"/>sanctus qui infunditur peccatori, congrue 
+      dici<lb ed="#T" n="30" break="no"/>tur mitti. 
+    </p>
+               <p xml:id="pdt7y6-e36242-d1e233">
+                  <lb ed="#T" n="31"/>3. Radius quamuis separetur a sole congrue 
+      <lb ed="#T" n="32"/>dicitur a sole ad nos emitti: ergo similiter vna 
+      <lb ed="#T" n="33"/>persona ab alia. 
+    </p>
+               <p xml:id="pdt7y6-e36242-d1e242">
+                  <lb ed="#T" n="34"/>Respondeo. Missio in Diuinis accipitur non 
+      <lb ed="#T" n="35"/>proprie sed similitudinarie: a creaturis vero ad 
+      <lb ed="#T" n="36"/>Diuina sit translatio similitudinum quoad ea quae 
+      <lb ed="#T" n="37"/>sunt perfectionis, non quae imperfectionis. Sed in 
+      <lb ed="#T" n="38"/>missione quidem proprie dicta scilicet creaturae 
+      <lb ed="#T" n="39"/>quatuor reperiuntur vnum ex parte mittenti. 
+      <lb ed="#T" n="40"/>scilicet auctoritas: alterum ex parte missi 
+      scili<lb ed="#T" n="41" break="no"/>cet separatio seu diuersitas eius a mittente: ter 
+      <lb ed="#T" n="42"/>tium ex parte termini a quo, scilicet loci 
+      muta<lb ed="#T" n="43" break="no"/>tio: quartum ex parte termini ad quem scilicet 
+      <lb ed="#T" n="44"/>effectus aliquis. Primum &amp; vltimum perfectionis 
+      <lb ed="#T" n="45"/>est, &amp; ideo conuenit Diuinae missioni: secundum 
+      <lb ed="#T" n="46"/>&amp; tertium imperfectionis, ideo non conuenit 
+      <lb ed="#T" n="47"/>hoc enim contingit ex imperfectione missi, qui 
+      <lb ed="#T" n="48"/>cum differens sit essentialiter a mittente, ab eo 
+      <lb ed="#T" n="49"/>separatur, &amp; cum sit essentiae terminatae, locum 
+      <lb ed="#T" n="50"/>mutat quia in pluribus esse non potest simul. 
+    </p>
+               <p xml:id="pdt7y6-e36242-d1e282">
+                  <lb ed="#T" n="51"/>Ad 1. Mitti dicitur ad vbi prius non erat 
+      <lb ed="#T" n="52"/>Resp. Hoc verum est vbi est missio localis, sicut 
+      <lb ed="#T" n="53"/>in creaturis: sed in Deo est missio causali 
+      <lb ed="#T" n="54"/>solum, non sicut ad nouum locum, sed ad 
+      <lb ed="#T" n="55"/>nouum effectum, vel modum existendi ibi 
+      <lb ed="#T" n="56"/>dem sicut missio radij in oculis, prius 
+      <lb ed="#T" n="57"/>caeci. 
+    </p>
+               <p xml:id="pdt7y6-e36242-d1e300">
+                  <lb ed="#T" n="58"/>Ad 2. De Hyeron. Resp. Locum habet in 
+      <lb ed="#T" n="59"/>missione creaturae non in Diuina. 
+    </p>
+               <p xml:id="pdt7y6-e36242-d1e307">
+                  <lb ed="#T" n="60"/>Ad 3. De obedientia &amp; subjectione. Resp. 
+      <lb ed="#T" n="61"/>Non quaecumque missio importat subjectionen 
+      <lb ed="#T" n="62"/>sed missio rei per essentiam differentis qualis est 
+      <lb ed="#T" n="63"/>in creatura. 
+    </p>
+               <p xml:id="pdt7y6-e36242-d1e318">
+                  <lb ed="#T" n="64"/>Ad 4. De Angelis inferioribus. Resp. Angeli 
+      <lb ed="#T" n="65"/>superiores non operantur circa nos nisi 
+      median<lb ed="#T" n="66" break="no"/>tibus Angelis inferioribus; &amp; ideo si venirent, as 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0196.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>sumerent officium inferiorum, &amp; mutarent lo 
+      <lb ed="#T" n="68"/>cum: sed personae diuinae operantur circa non 
+      <lb ed="#T" n="69"/>sine loci mutatione. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e36242-Dd1e339">
+               <head xml:id="pdt7y6-e36242-Hd1e341">Articulus 2</head>
+               <head xml:id="pdt7y6-e36242-Hd1e343" type="question-title">
+  An mitti sit cognosci esse ab alio secundum Augustinum
+</head>
+               <p xml:id="pdt7y6-e36242-d1e346">
+                  <lb ed="#T" n="70"/>Articvlvs II. 
+      <lb ed="#T" n="71"/>An mitti sit cognosci esse ab alio secundum. 
+      <lb ed="#T" n="72"/>Augustinum. 
+</p>
+               <p xml:id="pdt7y6-e36242-d1e355">
+                  <lb ed="#T" n="73"/>AD secundum proceditur sic August. 4. De 
+      <lb ed="#T" n="74"/>Trinit. Sicut Filio natum esse, est de Patre 
+      <lb ed="#T" n="75"/>esse; ita mitti est cognosci quod ab alio sit: &amp; 
+      <lb ed="#T" n="76"/>sicut Spiritui sancto donum Dei esse, est a Patre. 
+      <lb ed="#T" n="77"/>procedere; ita mitti est cognosci, quod ab ille 
+      <lb ed="#T" n="78"/>procedat. Contra. 1. Cognitio non est nisi 
+      ha<lb ed="#T" n="79" break="no"/>bentis vsum liberi arbitrij: Spiritus sanctus 
+      mit<lb ed="#T" n="80" break="no"/>titur in infusione gratiae: ergo in iustificatione 
+      <lb ed="#T" n="81"/>paruuli. 
+    </p>
+               <p xml:id="pdt7y6-e36242-d1e377">
+                  <lb ed="#T" n="82"/>2. Si mitti est cognosci, magis mitti magis 
+      co<lb ed="#T" n="83" break="no"/>gnosci est: sed malus Theologus magis &amp; 
+      me<lb ed="#T" n="84" break="no"/>lius cognoscit Spiritum sanctum, &amp; Filium esse 
+      <lb ed="#T" n="85"/>ab alio, quam bona vetula: ergo magis mittitur 
+      <lb ed="#T" n="86"/>ad eum Spiritus sanctus &amp; Filius: sed hoc 
+      fal<lb ed="#T" n="87" break="no"/>sum est: ergo primum. 
+    </p>
+               <p xml:id="pdt7y6-e36242-d1e394">
+                  <lb ed="#T" n="88"/>3. Per Doctrinam potest personae processus 
+      <lb ed="#T" n="89"/>cognosci, &amp; tamen non dicitur per doctrinam 
+      <lb ed="#T" n="90"/>persona Diuina mitti: ergo mitti non est 
+      co<lb ed="#T" n="91" break="no"/>gnosci. 
+    </p>
+               <p xml:id="pdt7y6-e36242-d1e405">
+                  <lb ed="#T" n="92"/>4. Per commune non cognoscitur proprium 
+      <lb ed="#T" n="93"/>nam per animal non cognoscitur homo nisi in 
+      <lb ed="#T" n="94"/>vniuersali non in propria ratione: sed effectus 
+      <lb ed="#T" n="95"/>missionis communis est toti Trinitati, 
+      proces<lb ed="#T" n="96" break="no"/>sus personae proprius est ei: ergo per missionem 
+      <lb ed="#T" n="97"/>non potest cognosci. 
+    </p>
+               <p xml:id="pdt7y6-e36242-d1e421">
+                  <lb ed="#T" n="98"/>5. Cognitio appropriatur Filio: ergo &amp; missic 
+      <lb ed="#T" n="99"/>debet appropriari ei: sed hoc falsum est: ergo 
+      <lb ed="#T" n="100"/>mitti non est cognosci. 
+    </p>
+               <p xml:id="pdt7y6-e36242-d1e430">
+                  <lb ed="#T" n="101"/>Respondeo. Descriptio haec non est per 
+      essen<lb ed="#T" n="102" break="no"/>tiam, sed per causam: sicut cum dicitur, dies est 
+      <lb ed="#T" n="103"/>sol lucens per terram. Mitti enim personae 
+      ali<lb ed="#T" n="104" break="no"/>cuius, est ipsam ab altero alicui dari cum alique 
+      <lb ed="#T" n="105"/>effectu sibi appropriato, &amp; simili, in quo vel 
+      <lb ed="#T" n="106"/>actu, vel aptitudine manifestatur ipsi suscipienti 
+      <lb ed="#T" n="107"/>vt causa in effectu sibi appropriato. Sicut si sol 
+      <lb ed="#T" n="108"/>immittendo radium in oculos caeci illuminaret 
+      <lb ed="#T" n="109"/>ipsum, tunc missio radij in oculis caeci 
+      genera<lb ed="#T" n="110" break="no"/>ret in eo speciem nouam qua manifestaretur: in 
+      <lb ed="#T" n="111"/>qua specie fundatur nouus respectus oculi ad 
+      ra<lb ed="#T" n="112" break="no"/>dium in ratione patientis ad principium 
+      acti<lb ed="#T" n="113" break="no"/>uum, radij ad oculum in ratione agentis 
+      illumi<lb ed="#T" n="114" break="no"/>nantis ad passiuum. 
+    </p>
+               <p xml:id="pdt7y6-e36242-d1e463">
+                  <lb ed="#T" n="115"/>Ad 1. In contrarium de adulto &amp; paruulo. 
+      <lb ed="#T" n="116"/>Resp. Cognitio dupliciter est; vel actu, sic 
+      con<lb ed="#T" n="117" break="no"/>uenit adulto iustificato; vel habitu, sic paruulo 
+    </p>
+               <p xml:id="pdt7y6-e36242-d1e472">
+                  <lb ed="#T" n="118"/>Ad 2. De malo Theologo. Resp. Intelligit 
+      <lb ed="#T" n="119"/>Augustinus de cognitione non simplici, sed 
+      ex<lb ed="#T" n="120" break="no"/>perimentali seu approbatiua. 
+    </p>
+               <p xml:id="pdt7y6-e36242-d1e482">
+                  <lb ed="#T" n="121"/>Ad 3. De doctrina. Resp. Cognitio per 
+      do<lb ed="#T" n="122" break="no"/>ctrinam est cognitio notitiae simplicis, non 
+      ex<lb ed="#T" n="123" break="no"/>perimentalis. 
+    </p>
+               <p xml:id="pdt7y6-e36242-d1e491">
+                  <lb ed="#T" n="124"/>Ad 4. De effectu communi. Resp. Quamuis 
+      <lb ed="#T" n="125"/>per commune, vt commune est, non possit 
+      cog<lb ed="#T" n="126" break="no"/>nosci proprium tamen per commune 
+      appropria<lb ed="#T" n="127" break="no"/>tum potest: effectus vero missionis quamuis 
+      <lb ed="#T" n="128"/>communis sit toti Trinitati, tamen est vni 
+      per<lb ed="#T" n="129" break="no"/>sonae appropriabilis propter assimilationem 
+      <lb ed="#T" n="130"/>cum proprio ipsius personae 
+    </p>
+               <p xml:id="pdt7y6-e36242-d1e509">
+                  <lb ed="#T" n="131"/>Ad 5. Cognitio appropriatur Filio. Resp. 
+      <lb ed="#T" n="132"/>Quamuis actus cognitionis approprietur Filio 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0197.xml-->
+      <pb ed="#T" n="122"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>tamen donum per quod sit cognitio potest 
+      ap<lb ed="#T" n="2" break="no"/>propriari Spiritui sancto. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e36242-Dd1e528">
+               <head xml:id="pdt7y6-e36242-Hd1e530">Articulus 3</head>
+               <head xml:id="pdt7y6-e36242-Hd1e532" type="question-title">
+  Quid significet nomen missionis.
+</head>
+               <p xml:id="pdt7y6-e36242-d1e535">
+                  <lb ed="#T" n="3"/>Articvlvs III. 
+      <lb ed="#T" n="4"/>Quid significet nomen missionis.
+</p>
+               <p xml:id="pdt7y6-e36242-d1e542">
+                  <lb ed="#T" n="5"/>AD tertium sic proceditur. 1. Beda. Missio 
+      <lb ed="#T" n="6"/>Spiritus sancti est eius processio: sed 
+      pro<lb ed="#T" n="7" break="no"/>cessio notionale attributum est: ergo &amp; missio. 
+    </p>
+               <p xml:id="pdt7y6-e36242-d1e551">
+                  <lb ed="#T" n="8"/>2. Missio importat originem in diuinis: ergo 
+      <lb ed="#T" n="9"/>notionalis est. 
+    </p>
+               <p xml:id="pdt7y6-e36242-d1e559">
+                  <lb ed="#T" n="10"/>3. Omne essentiale in Diuinis, conuenit 
+      tri<lb ed="#T" n="11" break="no"/>bus: sed missio non conuenit tribus, quia Pater  
+      <lb ed="#T" n="12"/>non mittitur: ergo non est essentiale: ergo est 
+      <lb ed="#T" n="13"/>notionale. 
+    </p>
+               <p xml:id="pdt7y6-e36242-d1e570">
+                  <lb ed="#T" n="14"/>Contra. 1. Nulla notio communis est Filio &amp; 
+      <lb ed="#T" n="15"/>Spiritui sancto; missio vero communis est 
+      vtri<lb ed="#T" n="16" break="no"/>que: ergo non significat aliquam notionem. 
+    </p>
+               <p xml:id="pdt7y6-e36242-d1e579">
+                  <lb ed="#T" n="17"/>2. Dyon. Omne nomen significans effectum 
+      <lb ed="#T" n="18"/>in creatura essentiale est &amp; commune tribus: sed  
+      <lb ed="#T" n="19"/>missio huiusmodi est: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e36242-d1e588">
+                  <lb ed="#T" n="20"/>Respondeo. In diuinis quaedam nomina sunt,  
+      <lb ed="#T" n="21"/>pure personalia seu notionalia vt Pater &amp; 
+      Fi<lb ed="#T" n="22" break="no"/>lius; &amp; similia: quaedam pure essentialia, vt 
+      <lb ed="#T" n="23"/>Deus, essentia &amp; huiusmodi: quaedam vero 
+      <lb ed="#T" n="24"/>mixta quae composita sunt ex intellectu 
+      perso<lb ed="#T" n="25" break="no"/>nali &amp; essentiali vt potentia generandi &amp; 
+      huius<lb ed="#T" n="26" break="no"/>modi: tale est hoc nomen, missio, &amp; hoc 
+      par<lb ed="#T" n="27" break="no"/>ticipium missus, &amp; hoc verbum, mittere, cum 
+      <lb ed="#T" n="28"/>suis similibus, important enim respectum 
+      per<lb ed="#T" n="29" break="no"/>sonae missae ad suum principium, quod est 
+      no<lb ed="#T" n="30" break="no"/>tionale: important etiam respectum causae 
+      <lb ed="#T" n="31"/>ad effectum connotatum, qui respectus 
+      <lb ed="#T" n="32"/>est essentialis. Important autem secundum 
+      <lb ed="#T" n="33"/>quosdam principaliter intellectum notionis 
+      <lb ed="#T" n="34"/>quam essentiae quia respectus aeternus 
+      prin<lb ed="#T" n="35" break="no"/>cipalior est ibi quam respectus temporalis. 
+      Se<lb ed="#T" n="36" break="no"/>cundum alios e contrario quia nomen ipsum 
+      <lb ed="#T" n="37"/>ab effectu temporali potius impositum est quam 
+      <lb ed="#T" n="38"/>ab emanatione aeterna. 
+    </p>
+               <p xml:id="pdt7y6-e36242-d1e632">
+                  <lb ed="#T" n="39"/>Ad id quod opponitur. Omne essentiale 
+      con<lb ed="#T" n="40" break="no"/>uenit tribus. Resp. Intelligitur hoc de pure 
+      <lb ed="#T" n="41"/>essentiali. 
+    </p>
+               <p xml:id="pdt7y6-e36242-d1e641">
+                  <lb ed="#T" n="42"/>Ad 1. In contrarium. Nulla notio 
+      commu<lb ed="#T" n="43" break="no"/>nis est &amp;c. Resp. Notio significari potest 
+      dupli<lb ed="#T" n="44" break="no"/>citer; vel indistincte, &amp; sic non est notio proprie 
+      <lb ed="#T" n="45"/>quia non notificat sicut cum dico quod Filio &amp; 
+      <lb ed="#T" n="46"/>Spiritui sancto commune est esse ab alio: vel 
+      <lb ed="#T" n="47"/>distincte, sicut cum dico quod Filius generatur a 
+      <lb ed="#T" n="48"/>Patre. Primo modo missio significat notionem 
+      <lb ed="#T" n="49"/>communem Filio &amp; Spiritui sancto, non 
+      se<lb ed="#T" n="50" break="no"/>cundo modo. 
+    </p>
+               <p xml:id="pdt7y6-e36242-d1e664">
+                  <lb ed="#T" n="51"/>Ad 2. De Dyonisio. Resp. Regula intelligitur 
+      <lb ed="#T" n="52"/>de nomine significante effectum in creatura 
+      so<lb ed="#T" n="53" break="no"/>lum sine respectu personae ad personam aeternam. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="286"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e86986"><!-- l1d36prae -->
+            <head xml:id="pdt7y6-e86986-Hd1e99">Praeambulum</head>
+            <head xml:id="pdt7y6-e86986-Hd1e101" type="question-title"/>
+            <p xml:id="pdt7y6-e86986-d1e103">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0361.xml-->
+               <pb ed="#T" n="286"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>VTRVM CONOEDENDVM SII. 
+      <lb ed="#T" n="2"/>omnia esse in Dei essentia, vel in eo per essentiam: vt omnia 
+      <lb ed="#T" n="3"/>dicuntur esse in Dei cognitione vel praescientia. 
+      <lb ed="#T" n="4"/>Disinae. XXXVI. 
+    </p>
+            <!--<p xml:id="pdt7y6-e86986-d1e121">
+               <lb ed="#T" n="5"/>SOLET hic quaeri, cum omnia dicantur esse in Dei cognitione seu 
+      prae<lb ed="#T" n="6" break="no"/>scientia, vel in Deo per cognitionem; &amp; eius cognitio, vel praescientia 
+      <lb ed="#T" n="7"/>sit Diuina essentia: vtrum concedendum sit, omnia esse in Diuina 
+      essen<lb ed="#T" n="8" break="no"/>tia, vel in Deo per essentiam. Ad quod dicimus, quia Dei cognitio eius 
+      <lb ed="#T" n="9"/>vtique essentia est, &amp; eius praescientia, in qua sunt omnia, ipsius cognitio 
+      <lb ed="#T" n="10"/>est: nec tamen omnia quae sunt in eius praescientia vel cognitione, in 
+      <lb ed="#T" n="11"/>Q eius essentia esse dici debent. Si enim hoc diceretur, intelligerentur esse 
+      <lb ed="#T" n="12"/>eiusdem cum Deo essentiae. In Deo enim dicitur esse per essentiam, quod 
+      <lb ed="#T" n="13"/>est Diuina essentia, quod est Deus. Habet ergo Deus apud se in praescientia sua, quae non 
+      <lb ed="#T" n="14"/>habet in sui natura. Vnde Augustinus de verbis Apostoli ita ait: Elegit nos ante 
+      mundi<lb ed="#T" n="15" break="no"/>constitutionem. Quis sufficit hoc explicare? Eliguntur qui non sunt: nec errat qui eligit, 
+      <lb ed="#T" n="16"/>nec vane eligit. Eligit tamen, &amp; habet electos quos creaturus est eligendos: quos habuit 
+      <lb ed="#T" n="17"/>apud semetipsum non in natura sua, sed in praescientia sua. Nondum erant quibus 
+      promit<lb ed="#T" n="18" break="no"/>tebatur: sed &amp; ipsi promissi sunt, quibus promittebatur. Ecce hic aperte dicit Deum apud 
+      <lb ed="#T" n="19"/>semetipsum habere efectos ante mundi constitutionem, non in natura sua, sed in 
+      praescien<lb ed="#T" n="20" break="no"/>tia sua: cum tamen elus praescientia non aliud sit quam eius natura, quia ipsius 
+      praescien<lb ed="#T" n="21" break="no"/>tia, eius est notitia. Potest tamen ad electos referri, cum ait: In natura sua, id est, illorum. 
+      <lb ed="#T" n="22"/>Illos quippe habuit ab aeterno apud se, non in natura sui, id est, illorum, qui nondum erant: 
+      <lb ed="#T" n="23"/>sed in sua praescientia, quia eos ita nouit ac si essent. 
+    </p>
+            <p xml:id="pdt7y6-e86986-d1e165">
+               <lb ed="#T" n="24"/>Vtrum mala debeant dici esse in Deo, vbi sunt omnia bona, cum vtraque sint in eius 
+      <lb ed="#T" n="25"/>cognitione &amp; praescientia, omnia enim cognoscit. 
+      <lb ed="#T" n="26"/>Post praedicta quaeritur, cum omnia dicantur esse in Deo non per essentiam naturae, sed  
+      <lb ed="#T" n="27"/>per cognitionem scientiae, &amp; Deus sciat bona &amp; mala: vtrum concedendum sit simpliciter  
+      <lb ed="#T" n="28"/>mala esse in Deo, siue esse in Deo per cognitionem. Scit enim Deus &amp; sciuit semper 
+      om<lb ed="#T" n="29" break="no"/>nia, tam bona quam mala, etiam antequam fierent, &amp; praesciuit ab aeterno ea futura: 
+      <lb ed="#T" n="30"/>ideoque cum omnia bona diximus esse in Deo propter praescientiam cognitionis, eadem 
+      <lb ed="#T" n="31"/>ratione videtur dicendum omnia mala esse in eo, cum ea semper nouerit, &amp; per cognitione 
+      <lb ed="#T" n="32"/>ei praesentia fuerint. praecognouit enim Deus ab aeterno quosdam futuros malos &amp; eorum. 
+      <lb ed="#T" n="33"/>malitiam, vt ait Augustinus, praesciuit sed non praeparauit. Cum ergo peccata omnium. 
+      <lb ed="#T" n="34"/>sciat, nunquid intelligendum est ea includi in illa generalitate locutionis, qua dixit 
+      Aposto<lb ed="#T" n="35" break="no"/>lus, omnia esse in Deo? Ex ipso, inquit &amp; per ipsum, &amp; ipso sunt omnia. Sed quis nisi 
+      insa<lb ed="#T" n="36" break="no"/>nus dixerit mala esse in Deo? Illa enim esse in Deo intelliguntur quae exipso, &amp; per ipsum 
+      <lb ed="#T" n="37"/>sunt: ea vero per ipsum sunt, &amp; ex ipso, quorum author est: sed non est author nisi 
+      bono<lb ed="#T" n="38" break="no"/>rum. Non ergo ex ipso, &amp; per ipsum sunt nisi bona: ita ergo non in ipso sunt nisi bona. 
+      <lb ed="#T" n="39"/>Non ergo mala in Deo sunt: quia licet ea noscat, non tamen ita omnino noscit, vt 
+      bo<lb ed="#T" n="40" break="no"/>na: mala ergo quasi de longe cognoscit, vt ait Propheta: Et alta a longe cognoscit, id est, 
+      <lb ed="#T" n="41"/>superbiam. Et alibi ad Deum loquens demalis ait: De absconditis tuis adimpletus est 
+      ven<lb ed="#T" n="42" break="no"/>ter eorum. Quod exponens August. Abscondita, inquit, peccata sunt quae alumine tuae 
+      <lb ed="#T" n="43"/>veritatis absconduntur. Sed quomodo peccata a lumine veritatis Diuinae absconduntur,  
+      <lb ed="#T" n="44"/>cum a Deo sciantur? Si enim non sciret, quomodo deillis iudicaret, &amp; pro illis malos 
+      da<lb ed="#T" n="45" break="no"/>naret? Alibi Propheta: Quia neque ab Oriente, neque ab Occidente deest. Quod 
+      expo<lb ed="#T" n="46" break="no"/>nens Cassiodorus, inquit: Neque a bonis neque a malis deest Deus: sed omnibus praesens 
+      <lb ed="#T" n="47"/>&amp; cognitor est. Cognoscit ergo Deus &amp; bona &amp; mala per scientiam: sed bona 
+      co<lb ed="#T" n="48" break="no"/>gnoscit etiam per approbationem &amp; per heneplacitum: mala vero non. Unde Cassiod. 
+      <lb ed="#T" n="49"/>super Pialm. dicit peccata abscondita Deo sunt, quia non nonit, id est, non approbat. Et  
+      <lb ed="#T" n="50"/>ex eo sensu. August. dixit ea abscondita a lumine Dei. Qui etiam in lib. ad Heluidium insi¬ 
+    </p>
+            <p xml:id="pdt7y6-e86986-d1e227">
+               <lb ed="#T" n="51"/>nuat cognitionem Dei variis modis accipiendam, inquiens: Si ad scientiam referas, non 
+      <lb ed="#T" n="52"/>. ignorat Deus aliquos vel aliqua: qui tamen in iudicio quibusdam dicit: Non noui vos, 
+      <lb ed="#T" n="53"/>ssed eorum improbatio hoc verbo insinuata est. Ecce non cognoscere dicitur Deus quae 
+      <lb ed="#T" n="54"/>non approbat, quae ei non placent. Apparet itaque verum esse quod diximus, scilicet quia 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0362.xml-\->
+      <pb ed="#T" n="287"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>quodam modo cognoscit Deus bona, quo non cognoscit mala. Pariter quidem vtraque 
+      <lb ed="#T" n="2"/>eodem modo noscit quantum ad notitiam: sed bona etiam approbatione &amp; beneplacito 
+      <lb ed="#T" n="3"/>cognoscit. 
+    </p>
+            <p xml:id="pdt7y6-e86986-d1e251">
+               <lb ed="#T" n="4"/>Hic aperit quare bona tantum dicantar esse in Deo &amp; non mala. 
+      <lb ed="#T" n="5"/>Et inde est, quod bona tantum dicuntur esse in Deo, non mala, &amp; illa prope, haec 
+      lon<lb ed="#T" n="6" break="no"/>ge: quia licet in Deo aliqua dicantur esse propter cognitionis praesentiam, &amp; Deus bona 
+      <lb ed="#T" n="7"/>&amp; mala cognoscat: mala tamen non cognoscit nisi per notitiam, bona vero non solum per 
+      <lb ed="#T" n="8"/>scientiam, sed etiam per approbationem &amp; beneplacitum. Et ob talem cognitionem 
+      ali<lb ed="#T" n="9" break="no"/>qua dicuntur esse in Deo, scilicet, quia ita ea scit, vt etiam approbet &amp; placeant, id est, ita 
+      <lb ed="#T" n="10"/>scit, vt eorum sit author.  
+    </p>
+            <p xml:id="pdt7y6-e86986-d1e269">
+               <lb ed="#T" n="11"/>Quod idem est omnia esse ex Deo, &amp; per ipsum, &amp; in ipso. 
+      <lb ed="#T" n="12"/>Proinde si diligonter inspiciamus, idem videtur esse, omnia esse ex Deo, &amp; per ipsum, &amp; 
+      <lb ed="#T" n="13"/>in ipso. Vnde Ambrosius in tertio libro de Spiritu sancto: Haec tria ex ipso &amp; per ipsum 
+      <lb ed="#T" n="14"/>&amp; in ipso sunt, oninia vnum esse supra diximus. Cum dicit per ipsum esse omnia, non 
+      ne<lb ed="#T" n="15" break="no"/>gauit in inso esse omnia. Eandem vim habent omnia haec, scilicet cum ipso, &amp; in ipso, &amp; per 
+      <lb ed="#T" n="16"/>ipsum: &amp; vnum in hisatque consimile, non contrarium intelligitur. Ecce habes, quia ex 
+      <lb ed="#T" n="17"/>eadem intelligentia Scriptura dicit esse omnia in ipso, &amp; per ipsum, &amp; ex ipso, &amp; cum ipso. 
+      <lb ed="#T" n="18"/>Cum ergo ex eadem ratione omnia dicantur esse ex Deo, velper ipsum, non solum quia 
+      <lb ed="#T" n="19"/>scit, sed etiam quia eorum author est: consequitur vt eadem ratione ea esse in Deo 
+      dican<lb ed="#T" n="20" break="no"/>tur, scilicet quia scit, &amp; eorum author esse dicitur: quia in illo viuimus, &amp; mouemur, &amp; 
+      su<lb ed="#T" n="21" break="no"/>mus: quia eo authore sumus, niouemur, &amp; viuimus. Cum ergo non sit author nisi 
+      bono<lb ed="#T" n="22" break="no"/>tum, merito sola bona in eo esse dicuntur, sicut ex ipso, &amp; per ipsum. Cum ergo in eius 
+      co<lb ed="#T" n="23" break="no"/>gnitione vel praescientia sint omnia, scilicet bona &amp; mala, in eo tamen non dicuntur esse, 
+      <lb ed="#T" n="24"/>nisi bona, quorum author est, Vnde Augustinus in lib. de natura boni: cum audimus 
+      <lb ed="#T" n="25"/>inquit, ex Deo, &amp; per ipsum, &amp; in ipso esse omnia, omnes vtique naturas intelligere 
+      de<lb ed="#T" n="26" break="no"/>bemus, &amp; omnia quae naturaliter sunt. Neque enim ex ipso sunt peccata, quae naturam 
+      <lb ed="#T" n="27"/>non feruant, sed vitiant: quae ex voluntate peccantium nascuntur omnia. Hic aperte 
+      di<lb ed="#T" n="28" break="no"/>citur quod in illa generalitate locutionis bona tantum continentur.  
+    </p>
+            <p xml:id="pdt7y6-e86986-d1e311">
+               <lb ed="#T" n="29"/>Quod omnia ex Patre, &amp; per Patrem, &amp; in Patre sunt, ita &amp; de Filio, &amp; de Spiritu sancto est 
+    </p>
+            <p xml:id="pdt7y6-e86986-d1e316">
+               <lb ed="#T" n="30"/>dicendum: licet propter personas siat distinctio. 
+      <lb ed="#T" n="31"/>Praeterea sciendum est, quod licet ibi indicetur distinctio personarum, cum dicitur: Ex 
+      <lb ed="#T" n="32"/>ipso, &amp; per ipsum, &amp; in ipso: omnia tamen ex Patre, &amp; per Patrem, &amp; in Patre sunt. 
+      Simi<lb ed="#T" n="33" break="no"/>liter de Filio, &amp; de Spiritu sancto accipiendum est. Vnde Augustinus in libro de 
+      Trini<lb ed="#T" n="34" break="no"/>tate: non confuse, inquit, accipiendum est quod ait Apostolus, ex ipso, &amp; per ipsum, &amp; 
+      <lb ed="#T" n="35"/>in ipso. Ex ipso dicens propter Patrem, per ipsum propter Filium, in ipso propter 
+      Spiri<lb ed="#T" n="36" break="no"/>tum sanctum. Vigilanter autem attende, ne quia Patrem volens intelligi dixit ex ipso, sic 
+      <lb ed="#T" n="37"/>intelligas omnia esse a Patre vt neges omnia esse ex Filio, vel ex Spiritu sancto, cum ex 
+      Pa<lb ed="#T" n="38" break="no"/>tre, &amp; per patrem, &amp; in Patre omnia esse sane dici possint: similiter &amp; de Filio, &amp; de 
+      Spi<lb ed="#T" n="39" break="no"/>ritu sancto dicendum est. 
+    </p>
+            <p xml:id="pdt7y6-e86986-d1e340">
+               <lb ed="#T" n="40"/>Quod non omnia, quae ex Deo sunt, etiam de ipso sunt, sed e conuerso. 
+      <lb ed="#T" n="41"/>Illud etiam hic annectendum est, quod non omnia quae dicuntur esse ex Deo, etiam de 
+      <lb ed="#T" n="42"/>ipso esse dici debeant. Quia vt ait August. in lib. de natura boni: Non hoc significat 
+      pe<lb ed="#T" n="43" break="no"/>nitus ex ipso, quod de ipso. Quod enim de ipso est, potest dici esse ex ipso: sed non omne 
+      <lb ed="#T" n="44"/>quod ex ipso est, potest dici esse de ipso, quia non est de sua substantia. Ex ipso enim sunt,  
+      <lb ed="#T" n="45"/>caelum &amp; terra quia ipse fecit ea: non autem de ipso, quia non de substantia sua. Sicut 
+      ali<lb ed="#T" n="46" break="no"/>quis homo si generat Filium, &amp; faciat domum, &amp; ex ipso est Filius, ex ipso est &amp; domus 
+      <lb ed="#T" n="47"/>sed Filius de ipso, domus vero de terra &amp; ligno, non de ipso. 
+    </p>
+            <p xml:id="pdt7y6-e86986-d1e361">
+               <lb ed="#T" n="48"/>Quae dicta sunt, summatim colligit. 
+      <lb ed="#T" n="49"/>Ex praemissis apertum est, quod in Dei cognitione, siue praescientia sunt omuia, scilicet,  
+      <lb ed="#T" n="50"/>bona &amp; mala, sed non omni modo sunt ibi mala, quo bona, &amp; quod in Deo bona tantum 
+      <lb ed="#T" n="51"/>sunt sicut ex ipso, &amp; per ipsum, non mala. Et ex quo sensu haec accipienda sint assignatum 
+      <lb ed="#T" n="52"/>est. Et quod de ipso non dicitur esse proprie, quod aliud est ab ipso. Ex ipso autem esse 
+      di<lb ed="#T" n="53" break="no"/>cuntur omnia, quae eo authore sunt.
+    </p>-->
+            <p xml:id="pdt7y6-e86986-d1e377">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0362.xml-->
+               <cb ed="#T" n="b"/>
+               <lb ed="#T" n="54" type="fixed=287"/>DIVISIO TEXTVS. 
+      <lb ed="#T" n="55"/>COlet hic quaeri. Egit de scientia secundum 
+      <lb ed="#T" n="56"/>Dse: hic agit de comparatione rerum scitarum 
+      <lb ed="#T" n="57"/>ad scientem, &amp; e conuerso. Et primo agit de 
+      <lb ed="#T" n="58"/>existentia rerum in Deo dist. hac. Secundo de 
+      <lb ed="#T" n="59"/>existentia Dei in rebus dist. sequenti. In prima 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0362.xml-->
+      <cb ed="#T" n="c"/>
+               <lb ed="#T" n="60"/>parte primo inquirit an omnia quae Deus scit 
+      <lb ed="#T" n="61"/>sint in ipso. Secundo explanat quid sit esse in 
+      ip<lb ed="#T" n="62" break="no"/>so [Proinde si diligenter. ] 
+    </p>
+            <p xml:id="pdt7y6-e86986-d1e408">
+               <lb ed="#T" n="63"/>In prima parte primo inquirit generaliter an 
+      <lb ed="#T" n="64"/>omnia quae scit Deus sint in eius essentia. 
+      Secun<lb ed="#T" n="65" break="no"/>do specialiter an in ipso sint mala ab eo scita 
+      <lb ed="#T" n="66"/>[Post praedicta ] Tertio quare in eo dicuntur  
+      <lb ed="#T" n="67"/>esse tantummodo bona [Et, inde est Doomis¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0363.xml-->
+      <pb ed="#T" n="288"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>In secunda parte primo ostendit quod idem 
+      <lb ed="#T" n="2"/>est esse ex ipso, &amp; per ipsum, &amp; in ipso. 
+      Secun<lb ed="#T" n="3" break="no"/>do quod omnia entia sunt a singulis personis 
+      <lb ed="#T" n="4"/>hoc triplici modo [Praeterea. ] Tertio. quod 
+      <lb ed="#T" n="5"/>non omnia quae sunt ex ipso Deo possunt dici 
+      <lb ed="#T" n="6"/>esse de ipso [Illud etiam) Quarto ponitur 
+      prae<lb ed="#T" n="7" break="no"/>missorum recapitulatio [Ex praemissis.] 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

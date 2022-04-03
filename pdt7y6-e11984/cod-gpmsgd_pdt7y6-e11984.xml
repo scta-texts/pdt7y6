@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="40"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e11984"><!-- l1d3q7 -->
+            <head xml:id="pdt7y6-e11984-Hd1e99">Quaestio 7</head>
+            <head xml:id="pdt7y6-e11984-Hd1e101" type="question-title">De differentia praedictarum duarum imaginum</head>
+            <p xml:id="pdt7y6-e11984-d1e104">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0115.xml-->
+               <cb ed="#T" n="b"/>
+               <lb ed="#T" n="63"/>QVESTIO VII. 
+      <lb ed="#T" n="64"/>DE DIEEERENTIA 
+      PRAEDIC<lb ed="#T" n="65" break="no"/>TARVMDVARVM IMAOINVM. 
+    </p>
+            <p xml:id="pdt7y6-e11984-d1e117">
+               <lb ed="#T" n="66"/>VLtimo quaeritur de harum imaginum 
+      di<lb ed="#T" n="67" break="no"/>uersitate. 
+    </p>
+            <div xml:id="pdt7y6-e11984-Dd1e124">
+               <head xml:id="pdt7y6-e11984-Hd1e126">Articulus 1</head>
+               <head xml:id="pdt7y6-e11984-Hd1e128" type="question-title">Quomodo hae duae imagines differant</head>
+               <p xml:id="pdt7y6-e11984-d1e131">
+                  <lb ed="#T" n="68"/>ARTICVLVS VNICVS. 
+      <lb ed="#T" n="69"/>Quomodo hae duae imagines differant.
+      </p>
+               <p xml:id="pdt7y6-e11984-d1e138">
+                  <lb ed="#T" n="70"/>AD quod sic proceditur 1. Idem sunt actus 
+      <lb ed="#T" n="71"/>vtrobique, nam meminisse idipsum est 
+      <lb ed="#T" n="72"/>quod memorari; nosse idem est quod 
+      intelli<lb ed="#T" n="73" break="no"/>gere; diligere idem est, quod velle: ergo eadem 
+      <lb ed="#T" n="74"/>actuum principia. 
+    </p>
+               <p xml:id="pdt7y6-e11984-d1e151">
+                  <lb ed="#T" n="75"/>2. Ista tria aut nominant potentias, &amp; sic 
+      <lb ed="#T" n="76"/>non differunt a praedictis, aut habitus seu actus, 
+      <lb ed="#T" n="77"/>&amp; ita accidentaliter inesse videntur animae, &amp; 
+      <lb ed="#T" n="78"/>eam accidentaliter imaginem facere. 
+    </p>
+               <p xml:id="pdt7y6-e11984-d1e163">
+                  <lb ed="#T" n="79"/>3. Mens, aut accipitur ibi pro substantia. 
+      <lb ed="#T" n="80"/>ammae, &amp; sic male connumeratur duobus alijs, 
+      <lb ed="#T" n="81"/>quae sunt potentiae, vel habitus; aut pro 
+      po<lb ed="#T" n="82" break="no"/>tentia, &amp; sic non differt a memoria; aut 
+      pro<lb ed="#T" n="83" break="no"/>habitu, &amp; ita non potest dici quod mens 
+      dili<lb ed="#T" n="84" break="no"/>gat se. 
+    </p>
+               <p xml:id="pdt7y6-e11984-d1e179">
+                  <lb ed="#T" n="85"/>4. Ista tria dicuntur secundum cognitionem 
+      <lb ed="#T" n="86"/>ipsius animae a seipsa, vt patet per Augustinum 
+      <lb ed="#T" n="87"/>9. de Trinit. ad cognoscendum vero seipsam 
+      <lb ed="#T" n="88"/>mens nullo habitu vtitur: ergo nominant 
+      po<lb ed="#T" n="89" break="no"/>tentias animae ergo non differunt a praemissis. 
+    </p>
+               <p xml:id="pdt7y6-e11984-d1e192">
+                  <lb ed="#T" n="90"/>5. Secundum Augustinum. Mens est 
+      su<lb ed="#T" n="91" break="no"/>premum in anima supremum vero in anima 
+      <lb ed="#T" n="92"/>nec est substantia animae, nec habitus aliquis: 
+      <lb ed="#T" n="93"/>ergo stat pro potentia: non ergo est accipere 
+      <lb ed="#T" n="94"/>hic imaginem secundum habitus. 
+    </p>
+               <p xml:id="pdt7y6-e11984-d1e205">
+                  <lb ed="#T" n="95"/>Respondeo. Differentiam harum duarum 
+      ima<lb ed="#T" n="96" break="no"/>ginum diuersi diuersimode assignat. In hoc 
+      quip<lb ed="#T" n="97" break="no"/>pe omnes conueniunt, quod imago praeassignata 
+      <lb ed="#T" n="98"/>accipitur penes potentias naturales: sed circa 
+      <lb ed="#T" n="99"/>huius assignationem differunt: quidam enim 
+      di<lb ed="#T" n="100" break="no"/>cunt, quod mens hic nominat habitum naturale 
+      <lb ed="#T" n="101"/>concreatum memoriae, notitia habitum 
+      intelle<lb ed="#T" n="102" break="no"/>ctiuae, amor voluntatis. Contra hoc opponitur, 
+      <lb ed="#T" n="103"/>quia actus memoriae sui est meminisse, non nosse 
+      <lb ed="#T" n="104"/>vel amare, quos omnes tamen menti hic 
+      attri<lb ed="#T" n="105" break="no"/>buit Augustinus. Alij dicunt quod mens 
+      nomi<lb ed="#T" n="106" break="no"/>nat potentiam animae supremam, notitia vero 
+      <lb ed="#T" n="107"/>nominat habitum cognitionis, &amp; amor habitum 
+      <lb ed="#T" n="108"/>dilectionis. Contra hoc opponitur, quod mens 
+      <lb ed="#T" n="109"/>aut nominat vnam potentiam simplicem, &amp; ita 
+      <lb ed="#T" n="110"/>no habebit duos actus, scilicet nosse &amp; amare; aut 
+      <lb ed="#T" n="111"/>plures, &amp; ita non erit ibi Trinitas, sed quaternitas, 
+      <lb ed="#T" n="112"/>Alij dicunt quod mens nominat ipsam 
+      substan<lb ed="#T" n="113" break="no"/>tiam animae secundum superiorem faciem non 
+      <lb ed="#T" n="114"/>secundum inferiorem: notitia vero habitum 
+      co<lb ed="#T" n="115" break="no"/>gnoscituae partis, amor habitum voluntatis. Sed  
+      <lb ed="#T" n="116"/>contra haec opponitur, quia substantia animae 
+      <lb ed="#T" n="117"/>non est einsdem naturae cum suo habitu, qui est 
+      <lb ed="#T" n="118"/>accidens: praeterea anima non indiget habitu ad 
+      <lb ed="#T" n="119"/>cognoscendum, &amp; amandum se. Alij dicuat quod 
+      <lb ed="#T" n="120"/>mens nominat hic supremam animae potentiam, 
+      <lb ed="#T" n="121"/>qua Deum &amp; se cognoscit, scilicet intelligentiam: 
+      <lb ed="#T" n="122"/>notitia vero nominat actum eiusdem, quo in se 
+      <lb ed="#T" n="123"/>cognoscendum vel Deum, reditiamor vero 
+      no<lb ed="#T" n="124" break="no"/>minat actum complacentiae naturalis, qui ex 
+      illo<lb ed="#T" n="125" break="no"/>procedit, quo se cognitam diligit &amp; Deum. Hi¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0116.xml-->
+      <pb ed="#T" n="41"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>actus sunt animae connaturiles &amp; inseparabiles 
+      <lb ed="#T" n="2"/>&amp; ideo quasi habituales, &amp; ideo ab alijs habitus 
+      <lb ed="#T" n="3"/>naturales forsitan appellantur. Prima ergo imago 
+      <lb ed="#T" n="4"/>accipitur penes tres potentias natur ales; haec 
+      ve<lb ed="#T" n="5" break="no"/>ro penes vnam potentiam, &amp; duos actus 
+      natura<lb ed="#T" n="6" break="no"/>les, &amp; quasi habituales eiusdem sese 
+      consequen<lb ed="#T" n="7" break="no"/>tes: amor enim naturalis in suum objectum inest 
+      <lb ed="#T" n="8"/>cuilibet potentiae, sed amor in bonum 
+      simplici<lb ed="#T" n="9" break="no"/>ter habet potentiam per se. 
+    </p>
+               <p xml:id="pdt7y6-e11984-d1e301">
+                  <lb ed="#T" n="10"/>Ad 1. De eisdem actibus. Resp. Quamuis ijdem 
+      <lb ed="#T" n="11"/>sint actus, non tamen oportet, quod eadem 
+      prin<lb ed="#T" n="12" break="no"/>cipia actuum, quia huiusmodi actus procedunt 
+      <lb ed="#T" n="13"/>a potentijs &amp; habitibus earum, sed non eodem 
+      mo<lb ed="#T" n="14" break="no"/>do, quia a potentijs originaliter, ab habitibus 
+      eli<lb ed="#T" n="15" break="no"/>citiue seu. formaliter. Vel dicendum quod non sunt,  
+      <lb ed="#T" n="16"/>iidem actus: quia mentis, prout hic accipitur,  
+      <lb ed="#T" n="17"/>actus non est imeminisse, sed nosse, &amp; amare; 
+      nos<lb ed="#T" n="18" break="no"/>se vero &amp; amare nominant hic actus naturales 
+      <lb ed="#T" n="19"/>tantum, non deliberatiuos 
+    </p>
+               <p xml:id="pdt7y6-e11984-d1e325">
+                  <lb ed="#T" n="20"/>Ad 2. Aut nominant. Resp. Mens nominat 
+      se<lb ed="#T" n="21" break="no"/>cundum quosdam substantiam, secundum alios 
+      <lb ed="#T" n="22"/>habitum, secundum alios potentiam: alia vero 
+      <lb ed="#T" n="23"/>duo nominant secundum quosdam, habitus, 
+      se<lb ed="#T" n="24" break="no"/>cundum alios actus: nec tamen ideo 
+      accidentali<lb ed="#T" n="25" break="no"/>ter sed substantialiter insunt, quia naturaliter: 
+      si<lb ed="#T" n="26" break="no"/>cut viuere viuenti substantialiter inest. 
+    </p>
+               <p xml:id="pdt7y6-e11984-d1e344">
+                  <lb ed="#T" n="27"/>Ad 3. De mente. Resp. Mens aliquando 
+      dici<lb ed="#T" n="28" break="no"/>tur tota animae substantia, aliquando superior 
+      <lb ed="#T" n="29"/>pars animae, in qua est imago Dei, aliquando 
+      pri<lb ed="#T" n="30" break="no"/>ma eius potentia, id est memoria vel habitus eius; 
+      <lb ed="#T" n="31"/>aliquando vero secunda, id est intellectiua, a 
+      me<lb ed="#T" n="32" break="no"/>tior metiris. Secundum hoc a diuersis 
+      diuersi<lb ed="#T" n="33" break="no"/>mode hic accipitur. Magister tantum dicit hic 
+      <lb ed="#T" n="34"/>quod mens accipitur non pro substantia animae, 
+      <lb ed="#T" n="35"/>sed pro eo, quod est excellentius in anima, hoc 
+      <lb ed="#T" n="36"/>autem est intellectiua. 
+    </p>
+               <p xml:id="pdt7y6-e11984-d1e368">
+                  <lb ed="#T" n="37"/>Ad 4. Mens non indiget habitu. Resp. 
+      Secun<lb ed="#T" n="38" break="no"/>dum quosdam notitia &amp; amor non nominant 
+      ha<lb ed="#T" n="39" break="no"/>bitus sed actus: secundum alios dicendum, quod 
+      <lb ed="#T" n="40"/>quamuis non indigeat habitu, indiget tamen 
+      ali<lb ed="#T" n="41" break="no"/>quo, quod se habet per modum habitus, quia ad 
+      <lb ed="#T" n="42"/>cognitionem requiritur &amp; potentia cognoscitiua. 
+      <lb ed="#T" n="43"/>&amp; lux intellectus agentis sub qua cognoscit, &amp; 
+      <lb ed="#T" n="44"/>praesentia rei cognitae vel per essentiam, vel per 
+      <lb ed="#T" n="45"/>speciem. 
+    </p>
+               <p xml:id="pdt7y6-e11984-d1e390">
+                  <lb ed="#T" n="46"/>Ad 5. Mens est supremum. Resp. Ordo in 
+      ani<lb ed="#T" n="47" break="no"/>ma dupliciter potest poni, vel rei, vel rationis: 
+      <lb ed="#T" n="48"/>primo modo dupliciter; vel ordo originis, sic 
+      <lb ed="#T" n="49"/>mens potentia est supremum in genere 
+      potentia<lb ed="#T" n="50" break="no"/>rum imaginis; mens habitus in genere habituums 
+      <lb ed="#T" n="51"/>vel dignitatis, sic voluntas est supremum: 
+      secun<lb ed="#T" n="52" break="no"/>do modo secundum ordinem rationis, etiam mens 
+      <lb ed="#T" n="53"/>prout dicit animae substantiam, supremum est, 
+      <lb ed="#T" n="54"/>quia quamuis sit idem re cum anima, differunt. 
+      <lb ed="#T" n="55"/>tamen ratione, quia nominat animam secundum 
+      <lb ed="#T" n="56"/>eius faciem superiorem. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e11984-Dd1e418">
+               <head xml:id="pdt7y6-e11984-Hd1e420">Expositio litterae</head>
+               <p xml:id="pdt7y6-e11984-d1e422">
+                  <lb ed="#T" n="57"/>EXPOSITIO SECVNDAE 
+      <lb ed="#T" n="58"/>PARTIS TEXTVS. 
+    </p>
+               <p xml:id="pdt7y6-e11984-d1e429">
+                  <lb ed="#T" n="59"/>CIrcalitteram dubitatur( imago Dei 
+      perma<lb ed="#T" n="60" break="no"/>Cnet.] Contra Psal. In ciuitate tua Domine 
+      <lb ed="#T" n="61"/>imaginem ipsorum ad nihilum rediges. Resp. 
+      <lb ed="#T" n="62"/>Remanet quoad esse, tollitur quoad bene esse. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0116.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="63"/>[Eo imago quo capax eius est.] Cotra quod 
+      ca<lb ed="#T" n="64" break="no"/>pit alterum oportet esse maius eo, vel aequale 
+      <lb ed="#T" n="65"/>vnde ex mutua capacitate probat Augustinus 
+      <lb ed="#T" n="66"/>aequalitatem potentiarum. Resp. De capacitae. 
+      <lb ed="#T" n="67"/>comprehensionis verum est, non de qualibet  
+    </p>
+               <p xml:id="pdt7y6-e11984-d1e455">
+                  <lb ed="#T" n="68"/>[Vna mens] Contra. Proprietas non 
+      praedica<lb ed="#T" n="69" break="no"/>tur de eo cuius est, abstracte sed concrete. Resp. 
+      <lb ed="#T" n="70"/>Praedicatio huiusmodi impropria est, non per 
+      es<lb ed="#T" n="71" break="no"/>sentia, vt sit sensus vna mens, id est vnius mentis. 
+    </p>
+               <p xml:id="pdt7y6-e11984-d1e466">
+                  <lb ed="#T" n="72"/>Eo quo ad se inuicem referuntur.] Contra. 
+      <lb ed="#T" n="73"/>Memoria ad voluntatem no refertur. Resp. 
+      Qua<lb ed="#T" n="74" break="no"/>uis non referatur secundum se, refertur tame sub 
+      <lb ed="#T" n="75"/>ratione memorabili, vel secundum rationem 
+      ori<lb ed="#T" n="76" break="no"/>ginis, inquantum ab ipsa oritur 
+    </p>
+               <p xml:id="pdt7y6-e11984-d1e480">
+                  <lb ed="#T" n="77"/>[AEqualia sunt singula singulis, &amp; singula 
+      omni<lb ed="#T" n="78" break="no"/>bus]Contra. Omne totum est maius sua 
+      <lb ed="#T" n="79"/>parte: Quaelibet harum potentiarum pars 
+      <lb ed="#T" n="80"/>est imaginis. Resp. De toto integrali verum 
+      <lb ed="#T" n="81"/>est illud, non de tota potentiali: nam vna 
+      <lb ed="#T" n="82"/>potentia superior potest quicquid inferior 
+      <lb ed="#T" n="83"/>non tamen tot modis: vnde in parte suprema 
+      <lb ed="#T" n="84"/>includitur quantitas aliarum partium. Non 
+      <lb ed="#T" n="85"/>ergo deficit communis animi conceptio, quia 
+      <lb ed="#T" n="86"/>illa pars continet in se totum quodammodo. 
+    </p>
+               <p xml:id="pdt7y6-e11984-d1e504">
+                  <lb ed="#T" n="87"/>[otamque memoria.] Contra. Omnis animae 
+      <lb ed="#T" n="88"/>potentia simplex est. Resp. Totalitas quoad 
+      qua<lb ed="#T" n="89" break="no"/>titatem molis illa tollit simplicitatem, sed non 
+      <lb ed="#T" n="90"/>in quantitate virtutis: prima enim attenditur 
+      per<lb ed="#T" n="91" break="no"/>comparationem partium integralium, secunda 
+      <lb ed="#T" n="92"/>per comparationem actuum, &amp; objectorum 
+      qua<lb ed="#T" n="93" break="no"/>si partium externarum. 
+    </p>
+               <p xml:id="pdt7y6-e11984-d1e522">
+                  <lb ed="#T" n="94"/>[Nihil tam in memoria, quam ipsa 
+      me<lb ed="#T" n="95" break="no"/>moria] Contra. Ergo idipsum in seipso. Resp. 
+      <lb ed="#T" n="96"/>Quauis idipsum secundum rem, non tamen 
+      secu<lb ed="#T" n="97" break="no"/>lum rationem; sic enim differunt cognoscens, &amp; 
+      <lb ed="#T" n="98"/>cognitum, tamen idem cognoscit seipsum, &amp; est iste 
+      <lb ed="#T" n="99"/>modus essendi in sicut motiuum in moto. 
+    </p>
+               <p xml:id="pdt7y6-e11984-d1e538">
+                  <lb ed="#T" n="100"/>[Voluntas mea totam intelligentiam capit: 
+      <lb ed="#T" n="101"/>Cotra. Multa intelligo quae nolo, vt mala. Resp. 
+      <lb ed="#T" n="102"/>Actus voluntatis non tantum est velle aliquid, sed  
+      <lb ed="#T" n="103"/>vti, id est in facultatem voluntatis 
+      assume<lb ed="#T" n="104" break="no"/>re aliquo modo: &amp; sic bona voluntas, &amp; 
+      <lb ed="#T" n="105"/>de malis est, quia malis bene vtitur.  
+    </p>
+               <p xml:id="pdt7y6-e11984-d1e554">
+                  <lb ed="#T" n="106"/>ISingula tamen substantialiter sunt in 
+      substan<lb ed="#T" n="107" break="no"/>tia.] Contra. Cum sint in genere qualitatis, 
+      acci<lb ed="#T" n="108" break="no"/>dentia sunt. Resp. Non dicitur, quod sint 
+      sub<lb ed="#T" n="109" break="no"/>stantiae, sed sunt in substantia sua, id est, animae 
+      <lb ed="#T" n="110"/>substantialiter insunt: nam substantiale vel 
+      <lb ed="#T" n="111"/>essentiale potest dici quatuor modis; vno modo 
+      <lb ed="#T" n="112"/>quod essentialiter praedicatur de substantia, vt 
+      <lb ed="#T" n="113"/>species; secundo modo, quod est pars essentiae 
+      <lb ed="#T" n="114"/>rei, vel de essentia, vt materia, &amp; forma; 
+      <lb ed="#T" n="115"/>tertio, sine quo res non potest intelligi esse, vt  
+      <lb ed="#T" n="116"/>vnitas, veritas, bonitas; quarto, sine quo res 
+      <lb ed="#T" n="117"/>non potest intelligi habere perfectum esse, vt 
+      po<lb ed="#T" n="118" break="no"/>tentiae naturales animae in animo sunt 
+      substan<lb ed="#T" n="119" break="no"/>tialiter: dicuntur esse in animo per quandam 
+      re<lb ed="#T" n="120" break="no"/>ductionem, quia sine ijs non habet esse perfecta 
+      <lb ed="#T" n="121"/>ipsa animae substantia. 
+    </p>
+               <p xml:id="pdt7y6-e11984-d1e591">
+                  <lb ed="#T" n="122"/>[Si enim deesset vnij] Contra. Ergo duae 
+      <lb ed="#T" n="123"/>personae superfluunt in Trinitate: Resp. 
+      Loqui<lb ed="#T" n="124" break="no"/>tur de duobus essentialiter differentibus, &amp; 
+      <lb ed="#T" n="125"/>perfectiones essentialiter differentes habentibus. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

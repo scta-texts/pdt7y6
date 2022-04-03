@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="344"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-f05487"><!-- l1d42prae -->
+            <head xml:id="pdt7y6-f05487-Hd1e99">Praeambulum</head>
+            <head xml:id="pdt7y6-f05487-Hd1e101" type="question-title"/>
+            <p xml:id="pdt7y6-f05487-d1e103">
+               <cb ed="#T" n="c"/>
+               <lb ed="#T" n="16"/>DE OMNIPOTENTIA DEI, VBI 
+      <lb ed="#T" n="17"/>prius consideratur, quase dicatur omnipotens, 
+      <lb ed="#T" n="18"/>Distinct. XLII. 
+    </p>
+            <!--<p xml:id="pdt7y6-f05487-d1e114">
+               <lb ed="#T" n="19"/>NVNC de omnipotentia Dei agendum est: vbi prima consideratio 
+      oc<lb ed="#T" n="20" break="no"/>currit, quomodo vere Deus dicatur omnipotens: an quia omnia 
+      pos<lb ed="#T" n="21" break="no"/>sit, an tantum quia ea possit quae vult. Quod enim Deus omnia possit, 
+      <lb ed="#T" n="22"/>pluribus authoritatibus comprobatur. Ait enim August. in lib. 
+      Quae<lb ed="#T" n="23" break="no"/>stionum veteris ac nouae legis, Omnia quidem potest Deus, sed non 
+      fa<lb ed="#T" n="24" break="no"/>cit nisi quod conuenit veritati eius &amp; iustitiae. Idem in eodem, Potuit 
+      <lb ed="#T" n="25"/>Deus cuncta facere simul, sed ratio prohibuit, id est, voluntas. 
+      Ratio<lb ed="#T" n="26" break="no"/>nem nempe ibi voluntatem Dei appellauit, quia Dei voluntas rationabilis est &amp; 
+      aequis<lb ed="#T" n="27" break="no"/>sima. Eatendum est ergo Deum omnia posse. 
+    </p>
+            <p xml:id="pdt7y6-f05487-d1e136">
+               <lb ed="#T" n="28"/>Quomodo dicatur Deus omnia posse, cum nos multa possimus qua ipse non potest. 
+      <lb ed="#T" n="29"/>Sed quaeritur quomodo omnia posse dicatur, cum nos quaedam possimus quae ipse non 
+      <lb ed="#T" n="30"/>potest. Non potest enim ambulare, loqui, &amp; huiusmodi quae a natura Diuinitatis sunt 
+      pe<lb ed="#T" n="31" break="no"/>nitus aliena, cum horum instrumenta nullatenus habere queat incorporea &amp; simplex 
+      sub<lb ed="#T" n="32" break="no"/>stantia. Quibus id respondendum arbitror, quod huiusmodi actiones, ambulatio, 
+      sci<lb ed="#T" n="33" break="no"/>licet &amp; locutio &amp; huiusmodi, a Dei potentia alienae non sunt, sed ad ipsam pertinentes. 
+      <lb ed="#T" n="34"/>Licet enim huiusmodi actiones in se Deus habere non possit (non enim potest ambulare 
+      <lb ed="#T" n="35"/>vel loqui, &amp; huiusmodi) eas tamen in creaturis potest operari: facit enim vt homo 
+      am<lb ed="#T" n="36" break="no"/>bulet, &amp; loquatur, &amp; huiusmodi. Non ergo per istas actiones Diuinae potentiae 
+      detra<lb ed="#T" n="37" break="no"/>hitur aliquid, quia &amp; hoc potest facere omnipotens. 
+    </p>
+            <p xml:id="pdt7y6-f05487-d1e161">
+               <lb ed="#T" n="38"/>De aliis obiicitur.  
+      <lb ed="#T" n="39"/>Sed sunt alia quaedam quae Deus nullatenus facere potest, vt peccata, non enim potest 
+      <lb ed="#T" n="40"/>mentiri, non potest peccare. Sed non ideo omnipotentiae Dei in aliquo detrahitur vel 
+      de<lb ed="#T" n="41" break="no"/>rogatur, si peccare non posse dicitur: quia non esset hoc potentiae, sed infirmitatis. Si enim 
+      <lb ed="#T" n="42"/>hoc posset, omnipotens non esset. Non ergo impotentiae sed potentiae imputandum est, 
+      <lb ed="#T" n="43"/>quod ista non potest: vnde August. in 15. lib. de Trinit. Magna, inquit, Dei potentia est non 
+      <lb ed="#T" n="44"/>posse mentiri. Sunt enim quaedam quae in aliis rebus potentiae deputanda sunt, in aliis 
+      ve<lb ed="#T" n="45" break="no"/>ro minime: &amp; quae in aliis laudabilia sunt, in aliis vero reprehensibilia sunt. Non ergo 
+      <lb ed="#T" n="46"/>ideo Deus minus potens est, quia peccare non potest cum omnipotens nullatenus possit. 
+      <lb ed="#T" n="47"/>esse qui hoc potest. 
+    </p>
+            <p xml:id="pdt7y6-f05487-d1e185">
+               <lb ed="#T" n="48"/>Item de aliis opponit. 
+      <lb ed="#T" n="49"/>Sunt etiam &amp; alia quaedam, quae Deus non potest, vnde videtur non omnia posse: non 
+      <lb ed="#T" n="50"/>enim potest mori vel falli. Vnde Augustin. in libr. de Symbolo, Deus omnipotens non 
+      <lb ed="#T" n="51"/>potest mori, non potest falli, non potest miser fieri, nec potest vinci. Haec vtique &amp; 
+      huius<lb ed="#T" n="52" break="no"/>modi absit vt possit omnipotens: si enim huiusmodi passionibus atque defectibus subjjci. 
+      <lb ed="#T" n="53"/>posset, omnipotens minime foret. Et ideo monstratur omnipotens, quia ei haec 
+      propin<lb ed="#T" n="54" break="no"/>quare non valent: potest tamen haec in aliis operari. 
+    </p>
+            <p xml:id="pdt7y6-f05487-d1e203">
+               <lb ed="#T" n="55"/>Quod omnipotentia Dei secundum duo consideratur. 
+      <lb ed="#T" n="56"/>Hic ergo diligenter considerantibus, omnipotentia eius secundum duo apparet, scilicet,  
+      <lb ed="#T" n="57"/>quod omnia facit quae vult, &amp; nihil omnino patitur: secundum vtrumque Deus 
+      omni<lb ed="#T" n="58" break="no"/>potens verissime praedicatur, quia nec aliquid est quod ei ad patiendum corruptionem 
+      in<lb ed="#T" n="59" break="no"/>fere valeat, nec aliquid ad faciendum impedimentum afferre. Manifestum est itaque Deum. 
+      <lb ed="#T" n="60"/>omnino nihil posse pati, &amp; omnia facere posse, praeter ea sola quibus eius dignitas 
+      laede<lb ed="#T" n="61" break="no"/>retur, eiusque excellentiae derogaretur: in quo tamen non est minus omnipotens. Hoc 
+      <lb ed="#T" n="62"/>enim posse non esset posse, sed non posse. Nemo ergo Deum impotentem in aliquo 
+      dice<lb ed="#T" n="63" break="no"/>re praesumat, quia omnia potest quae posse potentiae est: &amp; inde vere dicitur omnipotens. 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0420.xml-\->
+      <pb ed="#T" n="345"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>Quibasdam autboritatibus traditur, quod ideo dicitur omnipotens, quia potest quicquid vult. E 
+      <lb ed="#T" n="2"/>Ex quibusdam tamen authoritatibus traditur ideo vere dici omnipotens, quia quicquid 
+      <lb ed="#T" n="3"/>vult, potest, Vnde August. in Enchiridio, Non ob aliud veraciter vocatur omnipotens, 
+      <lb ed="#T" n="4"/>nisi quoniam quicquid vult potest: nec voluntate cuiuspiam creaturae voluntatis 
+      omnipo<lb ed="#T" n="5" break="no"/>tentis impeditur effectus. Idem in libro de Spiritu &amp; litera: Non potest Deus facere 
+      iniu<lb ed="#T" n="6" break="no"/>sta, quia ipse est summa iustitia &amp; bonitas. Omnipotens vero est, non quod possit omnia 
+      <lb ed="#T" n="7"/>facere, sed quia potest efficere quicquid vult, ita vt nihil valeat eius voluntati resistere, quin 
+      <lb ed="#T" n="8"/>compleatur, aut aliquo modo impedire eandem. Ioannes Chrysostomus in Homilia 
+      qua<lb ed="#T" n="9" break="no"/>dam de expositione Symboli, ait, Omnipotens dicitur Deus quia posse illius non potest 
+      <lb ed="#T" n="10"/>inuenire non posse, dicente Propheta, Omnia quaecumque voluit fecit. Ipse est ergo 
+      om<lb ed="#T" n="11" break="no"/>nipotens, vt totum que vult possit, vnde Apostolus. Eius, inquit, voluntati quis resistit: 
+      <lb ed="#T" n="12"/>His authoritatibus videtur ostendi, quod Deus ex eo tantum dicatur omnipotens, quod 
+      <lb ed="#T" n="13"/>omnia potest quae vult, non quia omnia possit.  
+    </p>
+            <p xml:id="pdt7y6-f05487-d1e260">
+               <lb ed="#T" n="14"/>Determinatio praemissarum authoritatum. 
+      <lb ed="#T" n="15"/>Sed ad hoc potest dici, quod Augustinus vbi dicit: Omnipotens non dicitur quod 
+      om<lb ed="#T" n="16" break="no"/>nia possit &amp;c. tam ample &amp; generaliter accepit omnia, vt etiam mala includeret, quae Deus 
+      <lb ed="#T" n="17"/>non potest, nec vult: non ergo negauit cum posse omnia quae conuenit ei posse. Similiter  
+      <lb ed="#T" n="18"/>cum dicit: Non ob aliud veraciter dicitur omnipotens, nisi quoniam quicquid vult, potest: 
+      <lb ed="#T" n="19"/>non negat eum posse etiam ea quae non vult, sed aduersus illos qui dicebant Deum multa 
+      <lb ed="#T" n="20"/>velle quae non poterat, affirmat cum posse quicquid vult, &amp; ex eo vere dici omnipotentem, 
+      <lb ed="#T" n="21"/>non ob aliud, quam quia potest quicquid vult. Sed caue quomodo intelligas, Potest 
+      quic<lb ed="#T" n="22" break="no"/>quid vult: an quicquid vult se posse, an quicquid vult facere, an quicquid vult fieri. Si enim 
+      <lb ed="#T" n="23"/>dicas ideo omnipotentem vocari, quia potest quicquid vult se posse;: ergo &amp; Petrus similiter  
+      <lb ed="#T" n="24"/>omnipotes dici potest, vel quilibet Sanctorum beatorum, quia potest quicquid vult se posse, &amp; 
+      <lb ed="#T" n="25"/>potest facere quicquid vult facere. Non enim vult facere nisi quod facit, nec posse nisi quae 
+      <lb ed="#T" n="26"/>potest: sed non potest facere quicquid vult fieri. Vult enim saluos fieri qui saluandi sunt, 
+      ve<lb ed="#T" n="27" break="no"/>runtamen eos saluare non valet. Deus autem quicquid vult fieripotest facere. Si enim vult 
+      <lb ed="#T" n="28"/>aliquid fieri per se, potest illud facere per se, &amp; per se facit: sicut caelum &amp; terram per se fecit, 
+      <lb ed="#T" n="29"/>quia voluit. Si autemvult fieri per creaturam, &amp; per eam operatur: sicut per homines facit 
+      <lb ed="#T" n="30"/>domus, &amp; huiusmodi artificia. Et Deus quidem ex se, &amp; per se potest: homo autem vel 
+      <lb ed="#T" n="31"/>Angelus, quantuincumque beatus est, non est potens ex se, vel perse. 
+    </p>
+            <p xml:id="pdt7y6-f05487-d1e302">
+               <lb ed="#T" n="32"/>oppositio. 
+      <lb ed="#T" n="33"/>sed forte dices, nec Dei Filius potest a se, nec Spiritus sanctus, sed solus Pater. Ille enim 
+      <lb ed="#T" n="34"/>potest a se, qui est a se: Filius autem quia non est a se, sed a Patre non potest a se, sed a 
+      Pa<lb ed="#T" n="35" break="no"/>tre: &amp; Spiritus sanctus ab vtroque. Ad quod dicimus, quialicet Filius non possit a se, nec 
+      <lb ed="#T" n="36"/>operetur a se, potest tamen &amp; operatur per se: sic &amp; Spiritus sanctus. Vnde Hilarius in lib. 
+      <lb ed="#T" n="37"/>9. de Trinitate. Naturae, inquit, cui contradicis, haeretice maec vnitas est, vt ita per se 
+      <lb ed="#T" n="38"/>agat Filius, ne a se agat: &amp; ita non a seagat, vt per se agat. E se autem dicitur agere &amp; 
+      <lb ed="#T" n="39"/>potens esse, quia naturalem habet potentiam eandem quam &amp; Pater, qua potens est &amp; 
+      <lb ed="#T" n="40"/>operatur, sed quia illam habet a Patre, non a se, ideo a Patre non a se dicitur posse &amp; 
+      age<lb ed="#T" n="41" break="no"/>re. Homo autem vel angelus gratuitam habet potentiam, qua potens est. Ideo ergo vere 
+      <lb ed="#T" n="42"/>ac proprie Deus Trinitas omnipotens dicitur, quia per se, id est, naturali potentia potest 
+      <lb ed="#T" n="43"/>quicquid vult fieri, &amp; quicquid vult se posse. Nihil enim vult fieri quod non possit facere 
+      <lb ed="#T" n="44"/>per se, vel per creaturas: &amp; nihil vult se posse, quod non possit, &amp; omne quod vult fieri, 
+      <lb ed="#T" n="45"/>vult se posse, sed non omne quod vult se posse, vult fieri: si enim vellet, fieret, quia 
+      vo<lb ed="#T" n="46" break="no"/>luntati eius nihil resistere potest.
+    </p>-->
+            <p xml:id="pdt7y6-f05487-d1e337">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0420.xml-->
+               <cb ed="#T" n="b"/>
+               <lb ed="#T" n="47" type="fixed=345"/>DIVISIO TEXTVS. 
+      <lb ed="#T" n="48"/>[NVVuc de omni potentia.] Postquam egit  
+      <lb ed="#T" n="49"/>Nde scientia Dei a triges. quinta dist. vsque 
+      <lb ed="#T" n="50"/>huc, hic agit de eius potentia. Et primo 
+      deter<lb ed="#T" n="51" break="no"/>minat veram rationem diuinae omnipotentiae. 
+      <lb ed="#T" n="52"/>quae operari Deus possit dist. hac. Secundo 
+      quam<lb ed="#T" n="53" break="no"/>ta possit dist. quadrag. tertia. Tertio qualia &amp; 
+      <lb ed="#T" n="54"/>qualiter possit dist. quadrag. quarta. In prima 
+      <lb ed="#T" n="55"/>parte inquirit an Deus dicatur omnipotens quia 
+      <lb ed="#T" n="56"/>potest omnia, aut quia potest quicquid vult, 
+      <lb ed="#T" n="57"/>Et primo ostendit quod ideo dicitur omnipotens 
+      <lb ed="#T" n="58"/>quia omnia potest. Secundo determinat 
+      autho<lb ed="#T" n="59" break="no"/>ritates quae videntur definire ideo dici 
+      omni<lb ed="#T" n="60" break="no"/>potentem, quia potest omnia quae vult [Ex 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0420.xml-->
+      <cb ed="#T" n="c"/>
+               <lb ed="#T" n="61"/>quibusdam. 
+    </p>
+            <p xml:id="pdt7y6-f05487-d1e382">
+               <lb ed="#T" n="62"/>In prima parte primo astruit quod Deus 
+      po<lb ed="#T" n="63" break="no"/>test omnia. Secundo quaedam excludit a 
+      gene<lb ed="#T" n="64" break="no"/>ralitate illa [Sed quaeritur. ] Tertio ostendit in 
+      <lb ed="#T" n="65"/>quo consistat Dei omnipotentia [Hic ergo. 
+      <lb ed="#T" n="66"/>In prima parte excludit tria: primo actus cor 
+      <lb ed="#T" n="67"/>porales [Sed quaeritur) Secundo actus malo: 
+    </p>
+            <p xml:id="pdt7y6-f05487-d1e398">
+               <lb ed="#T" n="68"/>Sed sunt alia] Tertio priuationes &amp; passiones 
+      <lb ed="#T" n="69"/>[Sunt etiam alia. 
+    </p>
+            <p xml:id="pdt7y6-f05487-d1e405">
+               <lb ed="#T" n="70"/>In secunda parte principali, primo ponit 
+      au<lb ed="#T" n="71" break="no"/>thoritates ipsas [Ex quibusdam] Secundo 
+      de<lb ed="#T" n="72" break="no"/>terminationem earum [Sed ad hoc ] Tertio 
+      <lb ed="#T" n="73"/>opponit contra determinationem &amp; soluit [ Sed 
+      <lb ed="#T" n="74"/>forte.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

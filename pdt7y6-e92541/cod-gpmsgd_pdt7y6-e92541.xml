@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="304"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e92541"><!-- l1d37q3 -->
+            <head xml:id="pdt7y6-e92541-Hd1e99">Quaestio 3</head>
+            <head xml:id="pdt7y6-e92541-Hd1e101" type="question-title">Qualiter se habeat Deus ad locum et motum</head>
+            <p xml:id="pdt7y6-e92541-d1e104">
+               <lb ed="#T" n="107"/>QVESTIO III 
+      <lb ed="#T" n="108"/>QVALITER SE HABEAT DEVS 
+    </p>
+            <p xml:id="pdt7y6-e92541-d1e111">
+               <lb ed="#T" n="109"/>AD LOCVM RTMOTVM. 
+      <lb ed="#T" n="110"/>CIrca tertium quaeruntur tria. 
+      <lb ed="#T" n="111"/>Primo an Deus sit localis. 
+      <lb ed="#T" n="112"/>Secundo an sit mutabilis de loco ad locum 
+      <lb ed="#T" n="113"/>Tertio an sit extra omnem locum 
+    </p>
+            <div xml:id="pdt7y6-e92541-Dd1e124">
+               <head xml:id="pdt7y6-e92541-Hd1e126">Articulus 1</head>
+               <head xml:id="pdt7y6-e92541-Hd1e128" type="question-title">An Deus sit localis</head>
+               <p xml:id="pdt7y6-e92541-d1e131">
+                  <lb ed="#T" n="114"/>Articvlvs I. 
+      <lb ed="#T" n="115"/>An Deus sit localis.
+</p>
+               <p xml:id="pdt7y6-e92541-d1e138">
+                  <lb ed="#T" n="116"/>AD primum articulum sic proceditur. 1 
+      <lb ed="#T" n="117"/>Magis est mutabile quod est mutabile 
+      om<lb ed="#T" n="118" break="no"/>ni specie motus vt corpus humanum; quam 
+      <lb ed="#T" n="119"/>quod vna tantum, vt caelum: ergo a simili 
+      ma<lb ed="#T" n="120" break="no"/>gis est locale quod est in omni loco, quam quod 
+      <lb ed="#T" n="121"/>est in vno tantum. 
+    </p>
+               <p xml:id="pdt7y6-e92541-d1e154">
+                  <lb ed="#T" n="122"/>2. Deus est in omni loco: ergo est in hoc loco 
+      <lb ed="#T" n="123"/>determinato: sed omne quod est in loco 
+      deter<lb ed="#T" n="124" break="no"/>minato locale est ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e92541-d1e164">
+                  <lb ed="#T" n="125"/>3. Deus est hic: aut ergo secundum partem, 
+      <lb ed="#T" n="126"/>&amp; ita erit partibilis, quod fal sum est: aut 
+      se<lb ed="#T" n="127" break="no"/>cundum totum, &amp; sic erit loco 
+      circumscriptibi<lb ed="#T" n="128" break="no"/>lis: ergo localis. 
+    </p>
+               <p xml:id="pdt7y6-e92541-d1e175">
+                  <lb ed="#T" n="129"/>4. Quicquid eit in tempore est temporale: ergo 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0380.xml-->
+      <pb ed="#T" n="305"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>quicquid in loco locale: sed Deus est in loco: 
+      <lb ed="#T" n="2"/>ergo localis est. 
+    </p>
+               <p xml:id="pdt7y6-e92541-d1e191">
+                  <lb ed="#T" n="3"/>Contra. 1. Temporale non dicitur nisi quod 
+      <lb ed="#T" n="4"/>tempore toto vel parte eius mensuratur: ergo 
+      <lb ed="#T" n="5"/>nec locale, nisi quod loco mensuratur: sed 
+      im<lb ed="#T" n="6" break="no"/>mensum non mensuratur: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e92541-d1e202">
+                  <lb ed="#T" n="7"/>2. Locus est accidens: ergo non denominat 
+      <lb ed="#T" n="8"/>aliquid, nisi id ad quod se habet vt accidens: 
+      <lb ed="#T" n="9"/>sed sic non se habet ad deum: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e92541-d1e211">
+                  <lb ed="#T" n="10"/>3. Deus non tantum est in loco, sed in puncto 
+      <lb ed="#T" n="11"/>oci, &amp; magis conuenit cum Deo punctus quam 
+      <lb ed="#T" n="12"/>locus: sed a puncto non potest dici punctualis: 
+      <lb ed="#T" n="13"/>ergo multo minus a loco localis. 
+    </p>
+               <p xml:id="pdt7y6-e92541-d1e222">
+                  <lb ed="#T" n="14"/>Respondeo. Sicut aliud est esse in tempore, 
+      <lb ed="#T" n="15"/>aliud est esse temporale: ita aliud esse in loco, 
+      <lb ed="#T" n="16"/>aliud esse locale: nam primum potest diciper 
+      <lb ed="#T" n="17"/>coexistentiam, secundum vero non nisi per 
+      <lb ed="#T" n="18"/>cominensurationem. Locale enim dicitur 
+      se<lb ed="#T" n="19" break="no"/>cundum Anselmum quod sequitur leges loci, 
+      <lb ed="#T" n="20"/>&amp; temporale quod sequitur leges temporis: Deus 
+      <lb ed="#T" n="21"/>autem, quamuis sit coexistens &amp; praesens, non 
+      <lb ed="#T" n="22"/>amen sequitur leges loci: vnde non non est 
+      lo<lb ed="#T" n="23" break="no"/>calis. Leges enim loci sunt, continere locatum, 
+      <lb ed="#T" n="24"/>mensurare, conferuare, &amp; terminare, quae 
+      om<lb ed="#T" n="25" break="no"/>nia Deus a loco non suscipit, imo potius haec in 
+      <lb ed="#T" n="26"/>loco respectu locatorum efficit. 
+    </p>
+               <p xml:id="pdt7y6-e92541-d1e254">
+                  <lb ed="#T" n="27"/>Ad 1. De magis mutabili &amp;c. Resp. Si esse in 
+      <lb ed="#T" n="28"/>loco diceretur de Deo proprie, id est, 
+      circum<lb ed="#T" n="29" break="no"/>scriptiue, sicut mutari de eo quod mouetur 
+      <lb ed="#T" n="30"/>aliqua specie motus, bene concluderetur: sed  
+      <lb ed="#T" n="31"/>non sic dicitur quia per solam praesentiam 
+      di<lb ed="#T" n="32" break="no"/>citur in loco esse. 
+    </p>
+               <p xml:id="pdt7y6-e92541-d1e270">
+                  <lb ed="#T" n="33"/>Ad 2. Deus est in loco determinato. Resp. 
+      <lb ed="#T" n="34"/>Quamuis sit in loco determinato secundum se, 
+      <lb ed="#T" n="35"/>non tamen ad locum determinatur: solum autem 
+      <lb ed="#T" n="36"/>quod ad locum determinatur, locale est. 
+    </p>
+               <p xml:id="pdt7y6-e92541-d1e281">
+                  <lb ed="#T" n="37"/>Ad 3. De parte &amp; toto. Resp. Totus est in 
+      <lb ed="#T" n="38"/>quolibet loco: sed esse aliquid totum in aliquo 
+      <lb ed="#T" n="39"/>non ponit ipsum esse circumscriptibilem, 
+      nifi<lb ed="#T" n="40" break="no"/>addatur, ita quod non in alio simul, nec actu 
+      <lb ed="#T" n="41"/>nec potentia: hoc autem in non conuenit Deo. 
+    </p>
+               <p xml:id="pdt7y6-e92541-d1e294">
+                  <lb ed="#T" n="42"/>Ad 4. De tempore. Resp. Esse in tempore vt 
+      <lb ed="#T" n="43"/>in propria mensura facit temporale, similiter esse 
+      <lb ed="#T" n="44"/>in loco locale: sed esse in tempore quolibet mo 
+      <lb ed="#T" n="45"/>do non facit temporale: nam aliud est in 
+      tem<lb ed="#T" n="46" break="no"/>pore vt tota substantia temporis, sicut nunc: aliud 
+      <lb ed="#T" n="47"/>vt pars, sicut praeteritum &amp; futurum; aliud vt 
+      <lb ed="#T" n="48"/>passio, vt breue &amp; longum; aliud vt 
+      mensura<lb ed="#T" n="49" break="no"/>tum, vt motus: similiter nec esse quocumque 
+      <lb ed="#T" n="50"/>modo in loco facit locale, sed per 
+      circumscri<lb ed="#T" n="51" break="no"/>ptionem. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e92541-Dd1e320">
+               <head xml:id="pdt7y6-e92541-Hd1e322">Articulus 2</head>
+               <head xml:id="pdt7y6-e92541-Hd1e324" type="question-title">An Deus sit mutabilis de loco ad locum</head>
+               <p xml:id="pdt7y6-e92541-d1e327">
+                  <lb ed="#T" n="52"/>Articvlvs II. 
+      <lb ed="#T" n="53"/>An Deus sit mutabilis de loco ad locum.
+</p>
+               <p xml:id="pdt7y6-e92541-d1e334">
+                  <lb ed="#T" n="54"/>AD secundum sic proceditur. 1. 
+      Augusti<lb ed="#T" n="55" break="no"/>nus de Genesi ad litt. dicit quod Deus 
+      mo<lb ed="#T" n="56" break="no"/>set creaturam corporalem per loca, &amp; per 
+      tem<lb ed="#T" n="57" break="no"/>pora: spiritualem per tempora, non per loca; 
+      <lb ed="#T" n="58"/>seipsum sine loco &amp; tempore: ergo mouetur.  
+    </p>
+               <p xml:id="pdt7y6-e92541-d1e347">
+                  <lb ed="#T" n="59"/>2. Omne quod contingit esse vbi non erat 
+      <lb ed="#T" n="60"/>prius vel &amp; contrario, mouetur: sed Deus 
+      con<lb ed="#T" n="61" break="no"/>tingit esse vbi non erat prius, quando noua 
+      crea<lb ed="#T" n="62" break="no"/>tura ponitur, &amp; e contrario quando destruitur: 
+      <lb ed="#T" n="63"/>ergo mouetur.  
+    </p>
+               <p xml:id="pdt7y6-e92541-d1e361">
+                  <lb ed="#T" n="64"/>3. Motis nobis, ait Philosophus lib. Top. 
+      <lb ed="#T" n="65"/>mouentur ea quae in nobis sunt, vt partes, &amp; 
+      <lb ed="#T" n="66"/>etiam formae accidentales, &amp; etiam anima: ergo 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0380.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>motis sanctis mouetur Deus in eis. Et dicit 
+      <lb ed="#T" n="68"/>Oreg. cum sit illocalis Deus, localiter tamen 
+      <lb ed="#T" n="69"/>ambulat cum sanctis. 
+    </p>
+               <p xml:id="pdt7y6-e92541-d1e381">
+                  <lb ed="#T" n="70"/>Contra. 1. Qui mouetur secundum locum. 
+      ac<lb ed="#T" n="71" break="no"/>cedit ad locum, vbi prius non erat: sed Deus 
+      <lb ed="#T" n="72"/>vbique est: ergo non potest moueri secundum 
+      <lb ed="#T" n="73"/>locum: ergo multo minus qualibet alia specie 
+      <lb ed="#T" n="74"/>motus, cum haec sit omnibus prior &amp; simplicior 
+      <lb ed="#T" n="75"/>vnde etiam in caelestibus sola reperitur.  
+    </p>
+               <p xml:id="pdt7y6-e92541-d1e397">
+                  <lb ed="#T" n="76"/>2. Omnis motus est actus imperfecti exeuntis 
+      <lb ed="#T" n="77"/>de potentia in actum: Deus vero nihil habet  
+      <lb ed="#T" n="78"/>imperfectum: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e92541-d1e406">
+                  <lb ed="#T" n="79"/>3. Nobilior est dispositio quiequam motus, 
+      <lb ed="#T" n="80"/>cum sit finis eius: quod autem nobilius est, Deo 
+      <lb ed="#T" n="81"/>attribuendum est: ergo quiescit non mouetur.  
+    </p>
+               <p xml:id="pdt7y6-e92541-d1e415">
+                  <lb ed="#T" n="82"/>Respondeo. Vt ait Boetius, Deus stabilis 
+      ma<lb ed="#T" n="83" break="no"/>nens dat cuncta moueri: vnde motus ei attribuit 
+      <lb ed="#T" n="84"/>non potest essentialiter, sed solum causaliter  
+      <lb ed="#T" n="85"/>sicut dicitur exaltari in corde hominis: efficitur 
+      <lb ed="#T" n="86"/>enim proprinquion rei alicui aut praesentior 
+      mu<lb ed="#T" n="87" break="no"/>tatione rei non sui, sicut lux aeri, adamas ferro, 
+      <lb ed="#T" n="88"/>portus naui. 
+    </p>
+               <p xml:id="pdt7y6-e92541-d1e433">
+                  <lb ed="#T" n="89"/>Ad 1. Augustini. Resp. Cum omnis motus 
+      <lb ed="#T" n="90"/>proprie dictus sit in loco &amp; tempore 
+      Augu<lb ed="#T" n="91" break="no"/>stinus dicendo quod Deus mouet se sine 
+      tempo<lb ed="#T" n="92" break="no"/>re &amp; loco, intendit dicere quod monet se sine 
+      <lb ed="#T" n="93"/>motu. Sed quia motus du importat, actum, &amp; 
+      <lb ed="#T" n="94"/>imperfectionem actus; Deus autem semper 
+      in<lb ed="#T" n="95" break="no"/>actu est, nunquam tamen imperfectus: ideo 
+      di<lb ed="#T" n="96" break="no"/>cit quod mouet se sine motu, nec per hoc 
+      impli<lb ed="#T" n="97" break="no"/>catur conditio. 
+    </p>
+               <p xml:id="pdt7y6-e92541-d1e456">
+                  <lb ed="#T" n="98"/>Ad 2. Omne quod contingit &amp;c. Resp. Hoc 
+      <lb ed="#T" n="99"/>contingit dupliciter: vel motu sui ad rem aliqua: 
+      <lb ed="#T" n="100"/>vel motu rei ad se, vt si circa aliquem 
+      immobi<lb ed="#T" n="101" break="no"/>lem siat domus: primo modo inducit motum in 
+      <lb ed="#T" n="102"/>pso, secundo modo in altero: primo modo Deus 
+      <lb ed="#T" n="103"/>nunquam incipit esse vbi prius non erat, nec e 
+      <lb ed="#T" n="104"/>contrario: sed secundo. 
+    </p>
+               <p xml:id="pdt7y6-e92541-d1e474">
+                  <lb ed="#T" n="105"/>Ad 3. Motis nobis &amp;c. Resp. Hoc 
+      intel<lb ed="#T" n="106" break="no"/>ligitur de ijs quae nobis insunt essentialiter  
+      <lb ed="#T" n="107"/>vel accidentanter coniuncta, non quae 
+      separa<lb ed="#T" n="108" break="no"/>ta, vt Deus. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e92541-Dd1e486">
+               <head xml:id="pdt7y6-e92541-Hd1e488">Articulus 3</head>
+               <head xml:id="pdt7y6-e92541-Hd1e490" type="question-title">An Deus sit extra omnem locum</head>
+               <p xml:id="pdt7y6-e92541-d1e493">
+                  <lb ed="#T" n="109"/>Articvlvs III. 
+      <lb ed="#T" n="110"/>An Deus sit extra omnem locum.
+</p>
+               <p xml:id="pdt7y6-e92541-d1e500">
+                  <lb ed="#T" n="111"/>AD tertium proceditur sic. 1. Deus non est 
+      <lb ed="#T" n="112"/>in nihilo: extra mundum, seu extra 
+      om<lb ed="#T" n="113" break="no"/>nem locum nihil est: ergo Deus non est extra 
+      <lb ed="#T" n="114"/>mundum. 
+    </p>
+               <p xml:id="pdt7y6-e92541-d1e511">
+                  <lb ed="#T" n="115"/>2. Extra mundum aut supponit pro nihilo, 
+      <lb ed="#T" n="116"/>aut pro aliquo: si pro nihilo, ergo posset dici 
+      <lb ed="#T" n="117"/>quod chimaera est extra mundum: si pro aliquo 
+      <lb ed="#T" n="118"/>aut ergo creato, &amp; sic extra mundum creaturae. 
+      <lb ed="#T" n="119"/>aliqua est: aut pro increato, &amp; sic cum omnia 
+      <lb ed="#T" n="120"/>sint in Deo, omnia possunt dic esse extra 
+      mun<lb ed="#T" n="121" break="no"/>dum. 
+    </p>
+               <p xml:id="pdt7y6-e92541-d1e530">
+                  <lb ed="#T" n="122"/>3. In nullo est Deus quod non sit in ipso: sed  
+      <lb ed="#T" n="123"/>extra mundum non est aliquid quod sit in Deo: 
+      <lb ed="#T" n="124"/>ergo nec in quo sit Deus. 
+    </p>
+               <p xml:id="pdt7y6-e92541-d1e539">
+                  <lb ed="#T" n="125"/>Contra. 1. Isidorus dicit quod Deus est supra 
+      <lb ed="#T" n="126"/>omnia non elatus, infra omnia non depressus, 
+      <lb ed="#T" n="127"/>extra omnia non exclusus, intra omnia non in 
+      <lb ed="#T" n="128"/>clusus: ergo est extra mundum. 
+    </p>
+               <p xml:id="pdt7y6-e92541-d1e550">
+                  <lb ed="#T" n="129"/>2. Deus est extra omne tempus, quia supra, 
+      <lb ed="#T" n="130"/>cum sit in aeternitate: ergo &amp; extra omnem 
+      lo<lb ed="#T" n="131" break="no"/>cum: ergo extra mundum. 
+    </p>
+               <p xml:id="pdt7y6-e92541-d1e559">
+                  <lb ed="#T" n="132"/>3. Si Deus non est extra mundum, ergo de 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0381.xml-->
+      <pb ed="#T" n="306"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>finitur in mundo: ergo terminatur.  
+    </p>
+               <p xml:id="pdt7y6-e92541-d1e572">
+                  <lb ed="#T" n="2"/>Respondeo. Extra mundum, vel extra locum 
+      <lb ed="#T" n="3"/>esse Deum, vel separatum a loco, potest inteli 
+      <lb ed="#T" n="4"/>ligi dupliciter: vel per distantiam situs, vel per 
+      <lb ed="#T" n="5"/>indifferentiam &amp; indeterminationem seu 
+      exces<lb ed="#T" n="6" break="no"/>sum immeniitatis: primo modo Deus non est 
+      <lb ed="#T" n="7"/>extra rem aliquam, aut locum: secundo, nodo 
+      <lb ed="#T" n="8"/>est extra omnem rem creatam &amp; locum. 
+    </p>
+               <p xml:id="pdt7y6-e92541-d1e590">
+                  <lb ed="#T" n="9"/>Ad 1. Extra mundum nihil &amp;c. Resp. Non 
+      di<lb ed="#T" n="10" break="no"/>citur Deus esse extra mundum per positionem, 
+      <lb ed="#T" n="11"/>quia sit in re aliqua extra, sed per priuationem 
+      <lb ed="#T" n="12"/>quia non concluditur intra 
+    </p>
+               <p xml:id="pdt7y6-e92541-d1e602">
+                  <lb ed="#T" n="13"/>Ad 2. Aut supponit pro aliquo. Resp. Non 
+      <lb ed="#T" n="14"/>supponit pro aliquo in quo sit Deus, sed priuat  
+      <lb ed="#T" n="15"/>quod non concludatur mundo. Nec chimera 
+      ta<lb ed="#T" n="16" break="no"/>men potest dici extra mundum, quia esse extra 
+      <lb ed="#T" n="17"/>mundum supponit esse 
+    </p>
+               <p xml:id="pdt7y6-e92541-d1e615">
+                  <lb ed="#T" n="18"/>Ad 3. Extra mundum non est aliud &amp;c. Resp. 
+      <lb ed="#T" n="19"/>Non dicitur Deus esse extra mundum, prout 
+      <lb ed="#T" n="20"/>extra mundum ponit ordinem situs, sed prout 
+      <lb ed="#T" n="21"/>priuat definitionem loci: sicut etiam Deus 
+      po<lb ed="#T" n="22" break="no"/>test dici esse ante mundum, non prout ante dicit 
+      <lb ed="#T" n="23"/>quando temporis, sed prout priuat quando &amp; 
+      <lb ed="#T" n="24"/>ponit aeternitatem. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

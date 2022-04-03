@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="334"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-f02365"><!-- l1d40q3 -->
+            <head xml:id="pdt7y6-f02365-Hd1e99">Quaestio 3</head>
+            <head xml:id="pdt7y6-f02365-Hd1e101" type="question-title">De reprobatione</head>
+            <p xml:id="pdt7y6-f02365-d1e104">
+               <lb ed="#T" n="74"/>QVESTIO III. 
+      <lb ed="#T" n="75"/>DE REPROBATIONE.
+</p>
+            <p xml:id="pdt7y6-f02365-d1e111">
+               <lb ed="#T" n="76"/>CIrca terium articulum quaeruntur tria.
+      <lb ed="#T" n="77"/>Primo quid sit reprobatio.  
+      <lb ed="#T" n="78"/>Secundo quid obduratio.  
+      <lb ed="#T" n="79"/>Tertio cuius sit effectus. 
+    </p>
+            <div xml:id="pdt7y6-f02365-Dd1e122">
+               <head xml:id="pdt7y6-f02365-Hd1e124">Articulus 1</head>
+               <head xml:id="pdt7y6-f02365-Hd1e126" type="question-title">Quid sit reprobatio</head>
+               <p xml:id="pdt7y6-f02365-d1e129">
+                  <lb ed="#T" n="80"/>ARTICVLVS I 
+      <lb ed="#T" n="81"/>Quid sit reprobatio.
+    </p>
+               <p xml:id="pdt7y6-f02365-d1e136">
+                  <lb ed="#T" n="82"/>AD primum sic proceditur. 1. Reprobatio 
+      <lb ed="#T" n="83"/>malorum est: malorum vero Deus non 
+      ha<lb ed="#T" n="84" break="no"/>bet nisi simplicem scientiam: ergo, eprobatio 
+      <lb ed="#T" n="85"/>est simplex scientia. 
+    </p>
+               <p xml:id="pdt7y6-f02365-d1e147">
+                  <lb ed="#T" n="86"/>2. Qui appropriat sibi nomen communius 
+      <lb ed="#T" n="87"/>nihil addit supra commune, vt accidens 
+      com<lb ed="#T" n="88" break="no"/>mune nihil addit supra naturam accidentis: sed  
+      <lb ed="#T" n="89"/>reprobatio appropriat sibi prescientiam vnde 
+      <lb ed="#T" n="90"/>reprobi dicuntur praesciti: ergo nihil addit super 
+      <lb ed="#T" n="91"/>praescientiam 
+    </p>
+               <p xml:id="pdt7y6-f02365-d1e164">
+                  <lb ed="#T" n="92"/>3. Magister distinguendo species diuinae 
+      scien<lb ed="#T" n="93" break="no"/>tiae supra eod. lib. dist. 35.c. 1. Non posuit repro¬ A 
+      <lb ed="#T" n="94"/>bationem: ergo videtur quod nihil addit supra 
+      <lb ed="#T" n="95"/>scientiam. 
+    </p>
+               <p xml:id="pdt7y6-f02365-d1e175">
+                  <lb ed="#T" n="96"/>Contra. 1. Dicit hic Magister. Reprobatio est 
+      <lb ed="#T" n="97"/>praescientia iniquitatis quorundam &amp; praepara 
+      <lb ed="#T" n="98"/>tio damnationis eorundem: ergo supra scientiam 
+      <lb ed="#T" n="99"/>simplicem addit praeparationem. 
+    </p>
+               <p xml:id="pdt7y6-f02365-d1e186">
+                  <lb ed="#T" n="100"/>2. Praescientia est tam bonorum quam 
+      malo<lb ed="#T" n="101" break="no"/>rum, reprobatio malorum tantum: ergo non est 
+      <lb ed="#T" n="102"/>praescientia tantum. 
+    </p>
+               <p xml:id="pdt7y6-f02365-d1e195">
+                  <lb ed="#T" n="103"/>Respondeo. In reprobatione tria sunt: vnum 
+      <lb ed="#T" n="104"/>est praeuisio iniquitatis ab aeterno: alterum 
+      ob<lb ed="#T" n="105" break="no"/>duratio, id est subtractio gratiae in praesenti: 
+      ter<lb ed="#T" n="106" break="no"/>tium est praeparatio poena aeternae in futuro: sicut  
+      <lb ed="#T" n="107"/>&amp; contra in praedestinatione sunt tria contraria. 
+      <lb ed="#T" n="108"/>Quoad primum reprobatio nihil addit supra 
+      <lb ed="#T" n="109"/>praescientiam: quoad secundum non addit 
+      effe<lb ed="#T" n="110" break="no"/>ctum aliquem positiuum sed priuatiuum: quoad 
+      <lb ed="#T" n="111"/>tertium, effectum positiuum; sed aliter quam 
+      <lb ed="#T" n="112"/>predestinatio, quia praedestinatio importat 
+      glo<lb ed="#T" n="113" break="no"/>riam secundum beneplacitum, sed reprobatio 
+      <lb ed="#T" n="114"/>secundum exigentiam meritorum. 
+    </p>
+               <p xml:id="pdt7y6-f02365-d1e224">
+                  <lb ed="#T" n="115"/>Ad 1. Reprobatio malorum est. Resp. Non 
+      <lb ed="#T" n="116"/>tantum de malis culpae, sed de malis poenae 
+      res<lb ed="#T" n="117" break="no"/>pectu quorum Deus habet causalitatem 
+    </p>
+               <p xml:id="pdt7y6-f02365-d1e233">
+                  <lb ed="#T" n="118"/>Ad 2. De nomine generis. Resp. Quia quoad 
+      <lb ed="#T" n="119"/>duo prima quae includit in suo intellectu, nihil 
+      <lb ed="#T" n="120"/>addit supra praescientiam, ideo nomen 
+      praescien<lb ed="#T" n="121" break="no"/>tiae sibi appropriat, licet addat quoad tertium 
+    </p>
+               <p xml:id="pdt7y6-f02365-d1e245">
+                  <lb ed="#T" n="122"/>Ad 3. De Magistro. Resp. Non connumerat 
+      <lb ed="#T" n="123"/>eam, quia quoad malum culpe nihil addit supra 
+      <lb ed="#T" n="124"/>praescientiam, quoad malum vero poenae nihil 
+      su<lb ed="#T" n="125" break="no"/>per prouidentiam. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f02365-Dd1e258">
+               <head xml:id="pdt7y6-f02365-Hd1e260">Articulus 2</head>
+               <head xml:id="pdt7y6-f02365-Hd1e262" type="question-title">Quid sit obduratio</head>
+               <p xml:id="pdt7y6-f02365-d1e265">
+                  <lb ed="#T" n="126"/>Articvlvs II. 
+      <lb ed="#T" n="127"/>Quid sit obduratio.
+</p>
+               <p xml:id="pdt7y6-f02365-d1e272">
+                  <lb ed="#T" n="128"/>AD secundum sic proceditur. 1. Augustinus 
+      <lb ed="#T" n="129"/>quaest. 2. ad Simplic. obduratio nihil 
+      <lb ed="#T" n="130"/>aliud est quam Dei obuiare mandatis: ergo cul¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0410.xml-->
+      <pb ed="#T" n="335"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>pa est, non poena. 
+    </p>
+               <p xml:id="pdt7y6-f02365-d1e290">
+                  <lb ed="#T" n="2"/>2. Omnis poena iusta: nihil iustum opponitur  
+      <lb ed="#T" n="3"/>iustitiae seu gratiae: obduratio vero 
+      opponitu<lb ed="#T" n="4" break="no"/>iustitiae &amp; gratiae: ergo non est poena sed culpa 
+    </p>
+               <p xml:id="pdt7y6-f02365-d1e300">
+                  <lb ed="#T" n="5"/>3. Ad Rom. 2. Secundum duritiam tuam &amp;c. 
+      <lb ed="#T" n="6"/>(Glos. Obduratio est obduratae in malitia menti 
+      <lb ed="#T" n="7"/>pertiuacia, per quam sit homo impenitens: sed  
+      <lb ed="#T" n="8"/>hoc est culpa, non poena: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-f02365-d1e311">
+                  <lb ed="#T" n="9"/>4. Secundum Augustinum de libero arbitrio. 
+      <lb ed="#T" n="10"/>poena est malum quod patimur, sed culpa 
+      ma<lb ed="#T" n="11" break="no"/>lum quod agimus: obduratio vero est malum 
+      <lb ed="#T" n="12"/>quod aginmus: ergo culpa non poena, 
+    </p>
+               <p xml:id="pdt7y6-f02365-d1e322">
+                  <lb ed="#T" n="13"/>Contra. 1. Rom. 9. Cuius vult miseretur. 
+      <lb ed="#T" n="14"/>(Glos. Indurare est nolle misereri. Et addit, 
+      Mi<lb ed="#T" n="15" break="no"/>feretur per gratiam quae gratis datur; indurat 
+      <lb ed="#T" n="16"/>per iudicium quod ineritis redditur: ergo est 
+      <lb ed="#T" n="17"/>poena, non culpa 
+    </p>
+               <p xml:id="pdt7y6-f02365-d1e335">
+                  <lb ed="#T" n="18"/>2. Sicut se habet obcaecatio ad intellectum, sic 
+      <lb ed="#T" n="19"/>obduratio ad affectum: sed obcaecatio est poena 
+      <lb ed="#T" n="20"/>intellectus, non culpa: ergo obduratio est poena 
+      <lb ed="#T" n="21"/>affectus. 
+    </p>
+               <p xml:id="pdt7y6-f02365-d1e346">
+                  <lb ed="#T" n="22"/>3. Secundum Augustinum libro de libero arb 
+      <lb ed="#T" n="23"/>poena est afflictio inuoluntaria: sed nullus vult 
+      <lb ed="#T" n="24"/>obdurari: ergo obduratio est poena. 
+    </p>
+               <p xml:id="pdt7y6-f02365-d1e355">
+                  <lb ed="#T" n="25"/>Respondeo. Obduratio in spiritibus dicitur 
+      <lb ed="#T" n="26"/>translatiue ad similitudinem obdurationis in 
+      <lb ed="#T" n="27"/>corporibus. Ad duritiam sequitur triplex 
+      pro<lb ed="#T" n="28" break="no"/>prietas, scilicet inhabilitas ad suscipiendam 
+      im<lb ed="#T" n="29" break="no"/>pressionem: stabilitas ad permanendum in se: &amp; 
+      <lb ed="#T" n="30"/>fortitudo ad resistendum. Secundum hunc 
+      tri<lb ed="#T" n="31" break="no"/>plicem modum, cor dicitur obdurari 
+      triplici<lb ed="#T" n="32" break="no"/>ter: vno modo per inhabilitatem ad 
+      suscipien<lb ed="#T" n="33" break="no"/>dam gratiam: secundo modo per firmam 
+      adhae<lb ed="#T" n="34" break="no"/>sionem ad peceatum: tertio modo per 
+      rebellio<lb ed="#T" n="35" break="no"/>nem diuinarum inspirationum &amp; mandatorum. 
+      <lb ed="#T" n="36"/>Primo modo est passio consequens culpam, &amp; 
+      <lb ed="#T" n="37"/>sic est poena: secundo inodo est dispositio culpae 
+      <lb ed="#T" n="38"/>cuiuslibetx praeteritae:: tertio modo est speciale 
+      <lb ed="#T" n="39"/>genus peccati. 
+    </p>
+               <p xml:id="pdt7y6-f02365-d1e391">
+                  <lb ed="#T" n="40"/>Ad 1. Augustini. Resp. Accipit 
+      obduratio<lb ed="#T" n="41" break="no"/>nem tertio modo. 
+    </p>
+               <p xml:id="pdt7y6-f02365-d1e398">
+                  <lb ed="#T" n="42"/>Ad 2. De poena. Resp. Triplex est poena: 
+      sci<lb ed="#T" n="43" break="no"/>licet quaedam inflicta, quae poena tantum e st nec 
+      <lb ed="#T" n="44"/>resistit gratiae, vt fames &amp; sitis: quaedam 
+      con<lb ed="#T" n="45" break="no"/>tracta, quae poena est, quia a malo originali, vt 
+      <lb ed="#T" n="46"/>concupiscentia; &amp; tamen repugnat gratiae, quia 
+      <lb ed="#T" n="47"/>inclinat ad malum actuale: quaedam acta qua 
+      <lb ed="#T" n="48"/>est a malo actuali, vt gratiae expulsio, &amp; excae 
+      <lb ed="#T" n="49"/>catio, &amp; obduratio; &amp; haec repugnat gratiae, 
+      <lb ed="#T" n="50"/>quia affectus est coniunctus culpae. 
+    </p>
+               <p xml:id="pdt7y6-f02365-d1e420">
+                  <lb ed="#T" n="51"/>Ad 3. De Apostolo. Resp. Illo modo acce 
+      <lb ed="#T" n="52"/>pta obduratio culpa est, seu culpae dispositio 
+    </p>
+               <p xml:id="pdt7y6-f02365-d1e427">
+                  <lb ed="#T" n="53"/>Ad 4. Obdurationem agimus. Resp. 
+      Secun<lb ed="#T" n="54" break="no"/>dum quod accipitur secundo modo, ipsam 
+      agi<lb ed="#T" n="55" break="no"/>mus, &amp; est culpa, vel culpae dispositio, seu cir 
+      <lb ed="#T" n="56"/>cumstantia aggrauans. 
+    </p>
+               <p xml:id="pdt7y6-f02365-d1e438">
+                  <lb ed="#T" n="57"/>Ad 1. In contrarium. Indurat per iudicium. 
+      <lb ed="#T" n="58"/>Resp. Induratio accipitur ibi primo modo. 
+    </p>
+               <p xml:id="pdt7y6-f02365-d1e445">
+                  <lb ed="#T" n="59"/>Ad 2. De obcaecatione. Resp. Non similiter  
+      <lb ed="#T" n="60"/>se habent: nam intellectus semper obcaecatur 
+      <lb ed="#T" n="61"/>ab aliquo: sed affectus potest obdurari a seipso: 
+      <lb ed="#T" n="62"/>&amp; ita licet obcaecatio sit poena, obduratio 
+      ta<lb ed="#T" n="63" break="no"/>men quandoque nominat culpam. 
+    </p>
+               <p xml:id="pdt7y6-f02365-d1e459">
+                  <lb ed="#T" n="64"/>Ad vltimum. Nullus vult obdurari. Resp. 
+      <lb ed="#T" n="65"/>Hoc verum est secundum quod obduratio 
+      pas<lb ed="#T" n="66" break="no"/>sio est: sed non duobus alijs modis.
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f02365-Dd1e469">
+               <head xml:id="pdt7y6-f02365-Hd1e471">Articulus 3</head>
+               <head xml:id="pdt7y6-f02365-Hd1e473" type="question-title">Cuius sit effectus obduratio</head>
+               <p xml:id="pdt7y6-f02365-d1e476">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0410.xml-->
+                  <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>ARTICVLVS III. 
+      <lb ed="#T" n="68"/>Cuius sit effectus obduratio.
+    </p>
+               <p xml:id="pdt7y6-f02365-d1e487">
+                  <lb ed="#T" n="69"/>AD tertium sic proceditur. 1. Rom. 9. 
+      Quem<lb ed="#T" n="70" break="no"/>Avult indurat: sed idem est fieri Deo 
+      autho<lb ed="#T" n="71" break="no"/>re &amp; Deo volente secundum Augustinum: 
+      er<lb ed="#T" n="72" break="no"/>go obduratio sit Deo auctore. 
+    </p>
+               <p xml:id="pdt7y6-f02365-d1e498">
+                  <lb ed="#T" n="73"/>2. Dicit Glossa quod indurare est nolle mise 
+      <lb ed="#T" n="74"/>reri: sed hoc non dicitur de Deo per inhaeren 
+      <lb ed="#T" n="75"/>tiam, nec per essentiam, quamuis enim 
+      volun<lb ed="#T" n="76" break="no"/>tas si positiue accipitur, sit in Deo &amp; sit Deus 
+      <lb ed="#T" n="77"/>non tamen obduratio: ergo dicitur per causam: 
+      <lb ed="#T" n="78"/>ergo Deus est causa obdurationis. 
+    </p>
+               <p xml:id="pdt7y6-f02365-d1e515">
+                  <lb ed="#T" n="79"/>3. Dicit Augustinus super Exod. quod Deus 
+      <lb ed="#T" n="80"/>indurauit Pharaonem iusto iudicio: ergo 
+      obdu<lb ed="#T" n="81" break="no"/>ratio est a Deo. 
+    </p>
+               <p xml:id="pdt7y6-f02365-d1e524">
+                  <lb ed="#T" n="82"/>4. Omne quod est aliquid, est a Deo: sec 
+      <lb ed="#T" n="83"/>obduratio est aliquid: ergo est a Deo. 
+    </p>
+               <p xml:id="pdt7y6-f02365-d1e531">
+                  <lb ed="#T" n="84"/>5. Si aliquid est causa alicuius, oppositum erit 
+      <lb ed="#T" n="85"/>causa oppositi: sed Deum velle misereri est causa 
+      <lb ed="#T" n="86"/>mollificationis cordis, seu conuersionis: ergo 
+      <lb ed="#T" n="87"/>Deum nolle miscreri est causa obdurationis. 
+    </p>
+               <p xml:id="pdt7y6-f02365-d1e542">
+                  <lb ed="#T" n="88"/>6. Omnis effectus siue positiuus, siue 
+      priuati<lb ed="#T" n="89" break="no"/>uus habet causam aliquam proximam &amp; 
+      imme<lb ed="#T" n="90" break="no"/>diatam. Quaero ergo, quae sit causa 
+      obduratio<lb ed="#T" n="91" break="no"/>nis? non enim causa est actus liberi arbitrij, cum 
+      <lb ed="#T" n="92"/>obduratio sit in paruulis, vt in Esau: nec 
+      pecca<lb ed="#T" n="93" break="no"/>tum originale aliunde contractum, cum aequale 
+      <lb ed="#T" n="94"/>sit in omnibus paruulis: nec actus alicuius 
+      sub<lb ed="#T" n="95" break="no"/>stantiae creatae exteriois, cum nulla possit in 
+      ani<lb ed="#T" n="96" break="no"/>ma agere: ergo causa est Deus 
+    </p>
+               <p xml:id="pdt7y6-f02365-d1e564">
+                  <lb ed="#T" n="97"/>Contra. 1. Anselmus, Non ideo non habet 
+      ho<lb ed="#T" n="98" break="no"/>imo gratiam, quia Deus non dat; sed quia 
+      ho<lb ed="#T" n="99" break="no"/>mo non vult accipere: ergo homo est eausa 
+      ob<lb ed="#T" n="100" break="no"/>durationis, non Deus. 
+    </p>
+               <p xml:id="pdt7y6-f02365-d1e575">
+                  <lb ed="#T" n="101"/>2. Sup. Ioan. 1. Dicit Augustinus, quod 
+      <lb ed="#T" n="102"/>sicut lux est praesens caeco, &amp; ipse est absens luci 
+      <lb ed="#T" n="103"/>sic Deus est praesens peccatori: sed lux non est 
+      <lb ed="#T" n="104"/>causa excaecationis corporalis in caeco: ergo nec 
+      <lb ed="#T" n="105"/>Deus est causa obeaecationis spiritualis in 
+      pee<lb ed="#T" n="106" break="no"/>catore: ergo nec obdurationis 
+    </p>
+               <p xml:id="pdt7y6-f02365-d1e592">
+                  <lb ed="#T" n="107"/>3. Obduratio est malum: Deus vero causa est. 
+      <lb ed="#T" n="108"/>boni, non mali: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-f02365-d1e599">
+                  <lb ed="#T" n="109"/>Respondeo. Obduratio secundum quod 
+      poe<lb ed="#T" n="110" break="no"/>na est, dicit quandam priuatiuam passionem, id  
+      <lb ed="#T" n="111"/>est inhabilitatem ad gratiam, quae prouenit ex 
+      <lb ed="#T" n="112"/>peccato: iusto enim iudicio habet homo caus 
+      <lb ed="#T" n="113"/>sam deficientem obdurationis, scilicet liberum 
+      <lb ed="#T" n="114"/>arbitrium; causam promerentem, scilicet 
+      pec<lb ed="#T" n="115" break="no"/>catum; causam ordinantem, scilicet Deum 
+      <lb ed="#T" n="116"/>Ad 1. 2. &amp; 3. Apostoli, Glos. &amp; 
+      Augustini<lb ed="#T" n="117" break="no"/>Resp. Obduratio attribuitur Deo non secundum 
+      <lb ed="#T" n="118"/>id quod aliquid est, sed secundum ordinem quaem 
+      <lb ed="#T" n="119"/>habet ad peccatum, sicut poena ad culpam 
+    </p>
+               <p xml:id="pdt7y6-f02365-d1e625">
+                  <lb ed="#T" n="120"/>Ad 4. Omne quod aliquid est. Resp. 
+      Quam<lb ed="#T" n="121" break="no"/>uis induratio in corporibus sit positio, in 
+      spiri<lb ed="#T" n="122" break="no"/>tibus tamen priuatio est 
+    </p>
+               <p xml:id="pdt7y6-f02365-d1e634">
+                  <lb ed="#T" n="123"/>Ad 5. Si aliquid est causa &amp;c. Resp. In causis 
+      <lb ed="#T" n="124"/>necessarijs tenet hoc, non in voluntarijs. 
+    </p>
+               <p xml:id="pdt7y6-f02365-d1e641">
+                  <lb ed="#T" n="125"/>Ad 6. Quae sit causa &amp;c. Resp. Liberum 
+      ar<lb ed="#T" n="126" break="no"/>bitrium est causa deficiens, vel proprium in 
+      <lb ed="#T" n="127"/>adultis, vel alienum in paruulis: proprium 
+      pec<lb ed="#T" n="128" break="no"/>catum, originale vel actuale, causa meritoria: 
+      <lb ed="#T" n="129"/>absentia vero Dei non est causa, cum semper 
+      <lb ed="#T" n="130"/>praesens sit de se. Causa vero eleuationis vnius 
+      <lb ed="#T" n="131"/>duorum iacentium, virtus est Diuina non sua. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f02365-Dd1e660">
+               <head xml:id="pdt7y6-f02365-Hd1e662">Expositio litterae</head>
+               <p xml:id="pdt7y6-f02365-d1e664">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0411.xml-->
+                  <pb ed="#T" n="336"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>ExPOSITIO LITERAE. 
+      <lb ed="#T" n="2"/>[DRaedestinatio de bonis salutaribus.] 
+      Con<lb ed="#T" n="3" break="no"/>tra. Solae creaturae rationales praedestinatur.  
+      <lb ed="#T" n="4"/>Resp. Praedestinatio est preordinatio: in 
+      praeor<lb ed="#T" n="5" break="no"/>dinatione tria concurrunt, vnum quod 
+      ordi<lb ed="#T" n="6" break="no"/>natur, scilicet creatura rationalis: alterum per 
+      <lb ed="#T" n="7"/>quod, scilicet gratia: tertium ad quod, scilicet,  
+      <lb ed="#T" n="8"/>gloria. 
+    </p>
+               <p xml:id="pdt7y6-f02365-d1e690">
+                  <lb ed="#T" n="9"/>[Intelligentia conditionis implicitae.] 
+      Quaeri<lb ed="#T" n="10" break="no"/>tur quomodo hoc intelligatur. Nunquid enim 
+      <lb ed="#T" n="11"/>conditionis intelligentia causa est oppositorum? 
+      <lb ed="#T" n="12"/>Resp. Hoc sic intelligi potest. Si enim 
+      accipian<lb ed="#T" n="13" break="no"/>tur duo dicta, quorum vnum est verum, scilicet 
+      <lb ed="#T" n="14"/>Petrum posse damnari, alterum falsum, scilicet,  
+      <lb ed="#T" n="15"/>Petrum non posse damnari; &amp; vtrique addatur. 
+      <lb ed="#T" n="16"/>conditio implicita in hoc participio, 
+      praedesti<lb ed="#T" n="17" break="no"/>natus, impossibilitatem facit in dicto prius vero, 
+      <lb ed="#T" n="18"/>&amp; veritatem in dicto prius falso: nam Petrum 
+      <lb ed="#T" n="19"/>non posse damnari, coniunctim verum est, id  
+      <lb ed="#T" n="20"/>est, si praedestinatus est: quod sine conditione 
+      <lb ed="#T" n="21"/>erat simpliciter falsum. 
+    </p>
+               <p xml:id="pdt7y6-f02365-d1e721">
+                  <lb ed="#T" n="22"/>[Quod in operationibus &amp;c. ] Operationes 
+      <lb ed="#T" n="23"/>Dei nominat operationes eius aeternas quae non 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0411.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="24"/>ponunt effectum in creatura: tales enim, quia 
+      <lb ed="#T" n="25"/>aeternitate mensurantur non tempore, non 
+      se<lb ed="#T" n="26" break="no"/>quuntur necessitatem praeteriti, sed manent in 
+      <lb ed="#T" n="27"/>libertate praesentis, ita tamem quod immobilitas 
+      <lb ed="#T" n="28"/>non tollatur. Potest tamen volle quod non vnit, 
+      <lb ed="#T" n="29"/>&amp; e couerso; &amp; praedestinare. quod non 
+      praedesti<lb ed="#T" n="30" break="no"/>nauit, &amp; e couerso;nec tamem potest postqua 
+      vo<lb ed="#T" n="31" break="no"/>luerit nolle, aut postquam praedestinauit non 
+      <lb ed="#T" n="32"/>praedestinare. Operationes vero creaturae, vel 
+      <lb ed="#T" n="33"/>Dei in creatura, ex parte creaturae transeunt in 
+      <lb ed="#T" n="34"/>praeteritum &amp; siunt sub necessitate. 
+    </p>
+               <p xml:id="pdt7y6-f02365-d1e756">
+                  <lb ed="#T" n="35"/>Praedestinationis effectus illa gratia est.] 
+      <lb ed="#T" n="36"/>Contra. Posita causa ponitur effectus. Resp. 
+      <lb ed="#T" n="37"/>Causa est in habitu, non in actu. 
+    </p>
+               <p xml:id="pdt7y6-f02365-d1e766">
+                  <lb ed="#T" n="38"/>Item quaeritur, in quo genere causae sit. Resp. 
+      <lb ed="#T" n="39"/>Quoad scientiam, causa exemplaris est; quoad 
+      <lb ed="#T" n="40"/>beneplacitum, causa est efficiens. 
+    </p>
+               <p xml:id="pdt7y6-f02365-d1e775">
+                  <lb ed="#T" n="41"/>Item quaeritur, an sit causa vniuersalis vel 
+      <lb ed="#T" n="42"/>particularis: &amp; an sit causa necessaria, vel 
+      con<lb ed="#T" n="43" break="no"/>tingens. Resp. Conuenientiam habet in eo quod 
+      <lb ed="#T" n="44"/>perfectionis est cum jis omnibus: nam cum 
+      vni<lb ed="#T" n="45" break="no"/>uersali, conuenit in communitate ad multa: cum 
+      <lb ed="#T" n="46"/>particulari, in sufficientia ad singula: cum causa 
+      <lb ed="#T" n="47"/>necessaria, in immobilitate: cum contingenti, in 
+      <lb ed="#T" n="48"/>libertate: nec est praecise aliqua earum.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

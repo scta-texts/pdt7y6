@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="39"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e11557"><!-- l1d3q6 -->
+            <head xml:id="pdt7y6-e11557-Hd1e99">Quaestio 6</head>
+            <head xml:id="pdt7y6-e11557-Hd1e101" type="question-title">De imagine mentis notitiae et amoris</head>
+            <p xml:id="pdt7y6-e11557-d1e104">
+               <lb ed="#T" n="49"/>QVESTIO VI 
+      <lb ed="#T" n="50"/>DE INAOINE MENTIS NOTITIAE ET AMORIS.
+</p>
+            <p xml:id="pdt7y6-e11557-d1e111">
+               <lb ed="#T" n="51"/>Tertio quaeritur hic de imagine quae 
+      funda<lb ed="#T" n="52" break="no"/>tur super habitus naturales. 
+      <lb ed="#T" n="53"/>Et primo quaeritur de partium harum ordine 
+      <lb ed="#T" n="54"/>adinuicem. 
+      <lb ed="#T" n="55"/>Secundo de consubstantialitate in 
+      compa<lb ed="#T" n="56" break="no"/>ratione ad animam 
+    </p>
+            <div xml:id="pdt7y6-e11557-Dd1e127">
+               <head xml:id="pdt7y6-e11557-Hd1e129">Articulus 1</head>
+               <head xml:id="pdt7y6-e11557-Hd1e131" type="question-title">
+  De ordine harum partium secundae imaginis
+</head>
+               <p xml:id="pdt7y6-e11557-d1e134">
+                  <lb ed="#T" n="57"/>Articvlvs I. 
+      <lb ed="#T" n="58"/>De ordine harum partium secundae imaginis. 
+    </p>
+               <p xml:id="pdt7y6-e11557-d1e141">
+                  <lb ed="#T" n="59"/>D primum sic proceditur. 1. Augustinus 
+      <lb ed="#T" n="60"/>dicit, quod notitia procedit ex mente, 
+      <lb ed="#T" n="61"/>amor ex vtroque. Et ad idem est, quod 
+      distin<lb ed="#T" n="62" break="no"/>ctio, &amp; ordo partium trinitatis quae est imago, 
+      <lb ed="#T" n="63"/>debet correspodere distinctioni personarum 
+      cu<lb ed="#T" n="64" break="no"/>ius est imago: in illa vero Pater, cui 
+      appropria<lb ed="#T" n="65" break="no"/>tur mens, est a nullo; filius cui notitia, ab 
+      ipso<lb ed="#T" n="66" break="no"/>solo; Spiritus Sanctus, cui amor, ab vtroque: 
+      <lb ed="#T" n="67"/>ergo mens a nullo, notitia a mente, amor vero 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0114.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="68"/>debet esse ab vtroque. 
+    </p>
+               <p xml:id="pdt7y6-e11557-d1e170">
+                  <lb ed="#T" n="69"/>2. Potentiarum &amp; habituum ordo &amp; dictinctio 
+      <lb ed="#T" n="70"/>patet ex actibus: hic autem est ordo actuum, 
+      <lb ed="#T" n="71"/>quia intelligere praecedit rei speciem in mente, 
+      <lb ed="#T" n="72"/>&amp; vtrumque sequitur ailigere: ergo hic ordo 
+      <lb ed="#T" n="73"/>debet esse in potentijs vel habitibus. 
+    </p>
+               <p xml:id="pdt7y6-e11557-d1e184">
+                  <lb ed="#T" n="74"/>contra 1. Potentiae &amp; habitus concreati sunt: 
+      <lb ed="#T" n="75"/>ergo vnus non est ex altero. 
+    </p>
+               <p xml:id="pdt7y6-e11557-d1e191">
+                  <lb ed="#T" n="76"/>2. Mens multa nouit, quae non diligit: ergo 
+      <lb ed="#T" n="77"/>nec semper ex se notitiam gignit. 
+    </p>
+               <p xml:id="pdt7y6-e11557-d1e198">
+                  <lb ed="#T" n="78"/>3. Dicit Augustinus de Trinitate, quod 
+      par<lb ed="#T" n="79" break="no"/>tum mentis praecedit appetitus: ergo notitiam 
+      <lb ed="#T" n="80"/>amor. 
+    </p>
+               <p xml:id="pdt7y6-e11557-d1e207">
+                  <lb ed="#T" n="81"/>Iuxta hoc quaeritur de ordine partium 
+      ima<lb ed="#T" n="82" break="no"/>ginis prius assignatae: assignat enim Augustinus 
+      <lb ed="#T" n="83"/>hic ordinem hunc, quod ex memoria procedit 
+      <lb ed="#T" n="84"/>intelligentia, ex intelligentia voluntas. 
+    </p>
+               <p xml:id="pdt7y6-e11557-d1e218">
+                  <lb ed="#T" n="85"/>Contra1. Ecclesiast. 17. ad imagine suam. Glos 
+      <lb ed="#T" n="86"/>sicut ex patre Filius, ex vtroque Spirit Sanctus: 
+      <lb ed="#T" n="87"/>ita ex intellectu voluntas, ex vtroque memoria 
+    </p>
+               <p xml:id="pdt7y6-e11557-d1e227">
+                  <lb ed="#T" n="88"/>2. Augustinus in serm de imagine. Sicut ex 
+      <lb ed="#T" n="89"/>Patre Filius generatur; ex patre &amp; Filio procedit 
+      <lb ed="#T" n="90"/>Spiritus Sanctus: ita per intellectum generatur 
+      <lb ed="#T" n="91"/>voluntas, ex lris ambobus procedit inemoria. 
+    </p>
+               <p xml:id="pdt7y6-e11557-d1e239">
+                  <lb ed="#T" n="92"/>Respondeo. Mens vel memoria dupliciter 
+      po<lb ed="#T" n="93" break="no"/>test accipi, quia vel respectu specierum 
+      innata<lb ed="#T" n="94" break="no"/>rum, &amp; sic semper praecedit mens, vel memoria, 
+      <lb ed="#T" n="95"/>sequitur notitia &amp; intelligentia, consequitur  
+      <lb ed="#T" n="96"/>amor vel voluntas: non ita quod horum, 
+      secun<lb ed="#T" n="97" break="no"/>dum quod sunt potentiae naturales vel habitus, 
+      <lb ed="#T" n="98"/>vnum oriatur proprie ab altero, sed quia vnum 
+      <lb ed="#T" n="99"/>inest mediante altero, &amp; non exit in actum, 
+      nisi<lb ed="#T" n="100" break="no"/>ictu alterius praesupposito Vel accipitur 
+      respe<lb ed="#T" n="101" break="no"/>ctu specierum acquilitarum, &amp; hoc dupliciter,  
+      <lb ed="#T" n="102"/>vel prout sunt in fieri secundum sui primam 
+      ge<lb ed="#T" n="103" break="no"/>nerationem, sic intelligentia praecedit 
+      volunta<lb ed="#T" n="104" break="no"/>tem, voluntas memoriam; vel prout sunt in 
+      <lb ed="#T" n="105"/>esse scundum viam conuersionis animae super 
+      <lb ed="#T" n="106"/>species prius acceptas: sic mens, vel memoria 
+      <lb ed="#T" n="107"/>praecedit intelligentiam, &amp; notitiam, &amp; 
+      vtrum<lb ed="#T" n="108" break="no"/>que voluntatem, vel amorem. 
+    </p>
+               <p xml:id="pdt7y6-e11557-d1e278">
+                  <lb ed="#T" n="109"/>Ad 1. In contr. Potentiae &amp; habitus concreati 
+      <lb ed="#T" n="110"/>sunt &amp;c. Resp. Quamuis vnum non sit ex 
+      alte<lb ed="#T" n="111" break="no"/>ro effectiue: potest tamen dispositiue inesse 
+      <lb ed="#T" n="112"/>vnum mediante altero: &amp; sic potest causalitas 
+      <lb ed="#T" n="113"/>esse in operando, licet non sit in essendo. 
+    </p>
+               <p xml:id="pdt7y6-e11557-d1e291">
+                  <lb ed="#T" n="114"/>Ad 2. Mens multa nouit. Resp. Quando 
+      di<lb ed="#T" n="115" break="no"/>citur, quod diligit notitiam suam, refertur hoc 
+      <lb ed="#T" n="116"/>ad notitiam objiectorum, quae innata sunt. Vel 
+      <lb ed="#T" n="117"/>dicendum, quod diligit ea non secundum id 
+      <lb ed="#T" n="118"/>quod sunt, sed secundum id quod in notitia 
+      <lb ed="#T" n="119"/>sunt, id est, amat ea se nosse 
+    </p>
+               <p xml:id="pdt7y6-e11557-d1e307">
+                  <lb ed="#T" n="120"/>Ad 3. de appetitu. Resp. Est appetitus 
+      genera<lb ed="#T" n="121" break="no"/>lis cuiuslibet potentiae ad suum objectum, &amp; 
+      <lb ed="#T" n="122"/>hic praecedit, nec est pars imaginis, sed 
+      conna<lb ed="#T" n="123" break="no"/>turalis cuiuslibet potentiae, nec requirit 
+      cogni<lb ed="#T" n="124" break="no"/>tionem praecedentem: est etiam specialis, 
+      scili<lb ed="#T" n="125" break="no"/>cet voluntatis &amp; boni, &amp; hic sequitur notitiam. 
+    </p>
+               <p xml:id="pdt7y6-e11557-d1e323">
+                  <lb ed="#T" n="126"/>Ad ea quae opponuntur de memoria. Resp. 
+      <lb ed="#T" n="127"/>Memoria ibi accipitur non prout est specierum. 
+      <lb ed="#T" n="128"/>innatarum conferuatiua, sed acquisitarum, non 
+      <lb ed="#T" n="129"/>prout sunt in facto esse, sed in fieri¬ 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e11557-Dd1e336">
+               <head xml:id="pdt7y6-e11557-Hd1e338">Articulus 2</head>
+               <head xml:id="pdt7y6-e11557-Hd1e340" type="question-title">
+  Vtrum mens, notitia et amor sint consubstatiales anima.
+</head>
+               <p xml:id="pdt7y6-e11557-d1e343">
+                  <lb ed="#T" n="130"/>ARTICVLVS II 
+      <lb ed="#T" n="131"/>Vtrum mens, notitia &amp; amor sint consubstatiales anima. 
+    </p>
+               <p xml:id="pdt7y6-e11557-d1e350">
+                  <lb ed="#T" n="132"/>AD secundum sic proceditur, August. 9. de 
+      <lb ed="#T" n="133"/>Trinit. Admonemur, si vtcumque videre, 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0115.xml-->
+      <pb ed="#T" n="40"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>possumus, haec tria in anima existere, &amp; 
+      tan<lb ed="#T" n="2" break="no"/>quam euoluta euolui, vt sentiantur, &amp; 
+      enume<lb ed="#T" n="3" break="no"/>rentur substantialiter, vel, vt ita dicam, 
+      essen<lb ed="#T" n="4" break="no"/>ialiter, non tanquam in subjecto, vt color, aut 
+      <lb ed="#T" n="5"/>figura in corpore, aut vlla alia quantitas, aut 
+      <lb ed="#T" n="6"/>qualitas ;quicquid enim tale est non excedit 
+      <lb ed="#T" n="7"/>subjectum, non enim color iste aut figura huius 
+      <lb ed="#T" n="8"/>corporis potest esse &amp; alterius corporis: mens 
+      <lb ed="#T" n="9"/>aute amore, quo se amat, potest amare praeter se, 
+      <lb ed="#T" n="10"/>item non se sola cognoscit mens, sed alia multa, 
+    </p>
+               <p xml:id="pdt7y6-e11557-d1e385">
+                  <lb ed="#T" n="11"/>2. Idem Augustinus. Quamobrem amor &amp; 
+      co<lb ed="#T" n="12" break="no"/>gnitio non tanquam subjecto insunt menti, sed  
+      <lb ed="#T" n="13"/>substantialiter etiam ista sunt sicut ipsa mens: 
+      <lb ed="#T" n="14"/>quia etsi relatiue dicuntur adinuicem, in sua, 
+      <lb ed="#T" n="15"/>tamen sunt singula quaeque substantia. 
+    </p>
+               <p xml:id="pdt7y6-e11557-d1e399">
+                  <lb ed="#T" n="16"/>3. Anima substantialiter est imago: ergo ea 
+      <lb ed="#T" n="17"/>per quae est imago, illi consubstantialia sunt.  
+    </p>
+               <p xml:id="pdt7y6-e11557-d1e406">
+                  <lb ed="#T" n="18"/>Contra 1. Amor &amp; cognitio nominant 
+      ha<lb ed="#T" n="19" break="no"/>bitus, vel actus; haec vero sunt accidentia: ergo. 
+    </p>
+               <p xml:id="pdt7y6-e11557-d1e413">
+                  <lb ed="#T" n="20"/>2. Videmus, quod qualitates primae, vt 
+      ca<lb ed="#T" n="21" break="no"/>lidum, frigidum agunt in aliena subjecta extra 
+      <lb ed="#T" n="22"/>se, quamuis sint accidentia: ergo ratio 
+      Augusti<lb ed="#T" n="23" break="no"/>ni nulla est. 
+    </p>
+               <p xml:id="pdt7y6-e11557-d1e424">
+                  <lb ed="#T" n="24"/>3. Per scientiam acquisitam: quae accidens 
+      <lb ed="#T" n="25"/>est, cognoscit homo alia: ergo ratio 
+      Augustini<lb ed="#T" n="26" break="no"/>nulla est. 
+    </p>
+               <p xml:id="pdt7y6-e11557-d1e433">
+                  <lb ed="#T" n="27"/>Respondeo. Aliquid esse in genere aliquo 
+      du<lb ed="#T" n="28" break="no"/>pliciter est, vel per lineam praedicamentalem, 
+      <lb ed="#T" n="29"/>vel per reductionem: primo modo quod est in 
+      <lb ed="#T" n="30"/>genere suscipit praedicationem generis; secundo 
+      <lb ed="#T" n="31"/>modo non semper, non enim punctus est 
+      quan<lb ed="#T" n="32" break="no"/>titas: primo modo dicuntur esse in eodem 
+      ge<lb ed="#T" n="33" break="no"/>nere, de quibus idem genus praedicatur; 
+      secun<lb ed="#T" n="34" break="no"/>do modo illa, quae ad idem genus vt principium 
+      <lb ed="#T" n="35"/>reducuntur: Nam vtroque modo genus 
+      acci<lb ed="#T" n="36" break="no"/>pitur, vt dicit Porphyrius. Dico ergo, quod 
+      <lb ed="#T" n="37"/>mens, notitia, amor, potest accipi quasi 
+      con<lb ed="#T" n="38" break="no"/>cretiue, vt videtur secundum Augustinum, 
+      pro<lb ed="#T" n="39" break="no"/>anima seipsam memorante, cognoscente, &amp; 
+      <lb ed="#T" n="40"/>imante: sic ista sunt vna substantia: vel 
+      abstra<lb ed="#T" n="41" break="no"/>ctiue pro habitu siue actu memoriae, notitiae, &amp; 
+      <lb ed="#T" n="42"/>amoris: &amp; hoc dupliciter, vel respectu 
+      spe<lb ed="#T" n="43" break="no"/>cierum acquisitarum; sic nec substantia sunt 
+      <lb ed="#T" n="44"/>nec substantialia: vel respectu imatarum, Dei 
+      <lb ed="#T" n="45"/>scilic et &amp; sui; sic consubstantialia dicuntur 
+      per<lb ed="#T" n="46" break="no"/>reductionem, quia sine his non perficitur animae 
+      <lb ed="#T" n="47"/>rationalis substantia. 
+    </p>
+               <p xml:id="pdt7y6-e11557-d1e481">
+                  <lb ed="#T" n="48"/>Ad 1. In contrarium. Nominant habitus vel 
+      <lb ed="#T" n="49"/>actus. Respondeo. Habitus &amp; actus naturales 
+      <lb ed="#T" n="50"/>possunt dici substantiales per reductionem, vt 
+      <lb ed="#T" n="51"/>ictus viuendi; sed acquisiti non. 
+    </p>
+               <p xml:id="pdt7y6-e11557-d1e493">
+                  <lb ed="#T" n="52"/>Ad 2. De ratione Augustini. Resp. Non est. 
+      <lb ed="#T" n="53"/>intentio Augustini, quod forma accidentalis 
+      <lb ed="#T" n="54"/>non agat in alienum subjectum, sed quod non 
+      <lb ed="#T" n="55"/>transit de vno ad aliud, sicut mens, notitia, 
+      <lb ed="#T" n="56"/>amor ab vno objecto transit ad aliud, &amp; secum 
+      <lb ed="#T" n="57"/>amplectitur alia. 
+    </p>
+               <p xml:id="pdt7y6-e11557-d1e509">
+                  <lb ed="#T" n="58"/>Ad 3. De scientia accidentali. Resp. Non est. 
+      <lb ed="#T" n="59"/>objectio, quia scientia ipsa non discurrit a notia 
+      <lb ed="#T" n="60"/>ad non cognita, sicut notitia, mens, &amp; amor 
+      <lb ed="#T" n="61"/>a notis ad nota, ab amatis ad amata, 
+      ma<lb ed="#T" n="62" break="no"/>nens tamen in seipsa. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

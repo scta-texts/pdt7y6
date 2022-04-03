@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="128"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e39022"><!-- l1d16prae -->
+            <head xml:id="pdt7y6-e39022-Hd1e99">Praeambulum</head>
+            <head xml:id="pdt7y6-e39022-Hd1e101" type="question-title"/>
+            <p xml:id="pdt7y6-e39022-d1e103">
+               <cb ed="#T" n="c"/>
+               <lb ed="#T" n="18"/>DE MISSONE SPIRITVS SANCTI. 
+      <lb ed="#T" n="19"/>quae sit duobus modis, visibiliter, &amp; inuisibiliter.  
+      <lb ed="#T" n="20"/>Distinct. XVI. 
+    </p>
+          <!--  <p xml:id="pdt7y6-e39022-d1e114">
+               <lb ed="#T" n="21"/>QVNCde Spiritu sancto videndum est, praeter illam ineffabilem &amp; 
+      aeter<lb ed="#T" n="22" break="no"/>nam processionem qua procedit a patre &amp; silio, &amp; non a seipso: quae sit 
+      <lb ed="#T" n="23"/>S eius temporalis processio, quae dicitur missio, siue datio. Ad quod dicimus, 
+      <lb ed="#T" n="24"/>quia sicut filius duobus modis dicitur mitti: vno, quo visibiliter apparuit: 
+      <lb ed="#T" n="25"/>altero, quo inuisibiliter a castis mentibus percipitur: ita &amp; Spiritus sanctus 
+      <lb ed="#T" n="26"/>a patre &amp; silio, ac a seipso duobus modis procedere, siue mitti, siue dari 
+      di<lb ed="#T" n="27" break="no"/>citur: vno visibiliter, altero inuisibiliter. Datus est enim visibilis creaturae demonstratione, 
+      <lb ed="#T" n="28"/>sicut in die Pentecostes, aliisque vicibus: &amp; datur quotidie inuisibiliter, illabendo 
+      menti<lb ed="#T" n="29" break="no"/>bus fidelium. 
+    </p>
+            <p xml:id="pdt7y6-e39022-d1e136">
+               <lb ed="#T" n="30"/>Prius de illo modo missionis, qui sit uisibiliter, agit. 
+      <lb ed="#T" n="31"/>Et primo agamus de illo missionis modo, qui sit visibili specie: de hoc August. in 2. lib.  
+      <lb ed="#T" n="32"/>de Trinitate ait, In promptu est intelligere de spiritu sancto, cur missus &amp; ipse dicatur.  
+      <lb ed="#T" n="33"/>Facta est enim quaedam creaturae species ex tempore, in qua visibiliter ostenderetur 
+      Spiri<lb ed="#T" n="34" break="no"/>tus sanctus: siue cum in ipsum Dominum corporali specie columbae descendit, siue cum 
+      <lb ed="#T" n="35"/>in die Pentecostes factus est subito de coelo sonus, quasi ferretur flatus vehemens, &amp; visae 
+      <lb ed="#T" n="36"/>sunt illis linguae diuisae, sicut ignis, qui &amp; insedit super vnumquemque eorum. Haec 
+      opera<lb ed="#T" n="37" break="no"/>tio visibiliter expressa &amp; oculis oblata mortalibus, missio Spiritus sancti dicta est: non vt 
+      <lb ed="#T" n="38"/>appareret eis ipsa substantia, qua &amp; ipse inuisibilis &amp; incommutabilis est, sicut Pater &amp; 
+      fi<lb ed="#T" n="39" break="no"/>lius: sed vt exterioribus visis corda hominum commota a temporali manifestatione 
+      ve<lb ed="#T" n="40" break="no"/>nientis, ad occultam aeternitatem semper praesentis conuerterentur. Ecce his verbis 
+      ape<lb ed="#T" n="41" break="no"/>rit Augustinus illum modum missionis, qui visibiliter exhibetur, cum tamen ipse spiritus 
+      <lb ed="#T" n="42"/>in sui natura non videatur: qui nec in illis creaturis magis erat, quam in alijs, sed ad aliud. 
+      <lb ed="#T" n="43"/>In iliis enim erat, vt per eas ad homines veniens ostenderetur esse in illis ad quos illae 
+      crea<lb ed="#T" n="44" break="no"/>turae veniebant. Non enim Spiritus sanctus temporali motu tunc venit, vel in homines 
+      <lb ed="#T" n="45"/>descendit, sed per temporalem motum creaturae significata est spiritualis &amp; inuisibilis 
+      Spi<lb ed="#T" n="46" break="no"/>ritus sancti infusio. Et, vt apertius dicam, per illum modum missionis Spiritus sancti 
+      cor<lb ed="#T" n="47" break="no"/>poraliter exhibitum, monstrata est spiritualis &amp; interior missio Sancti spiritus, siue 
+      dona<lb ed="#T" n="48" break="no"/>tio: de qua agendum est. 
+    </p>
+            <p xml:id="pdt7y6-e39022-d1e181">
+               <lb ed="#T" n="49"/>Ccum filius sit miner patre secundum formam creatam, in qua apparuit, cur non &amp; 
+      <lb ed="#T" n="50"/>Sed prius quaerendum est, cum filius dicatur minor patre secundum missionem, qua in 
+      <lb ed="#T" n="51"/>forma creata apparuit, cur &amp; Spiritus sanctus non dicatur similiter minor Patre, cum in 
+      <lb ed="#T" n="52"/>forma creata apparuit. Nam de Filio quod minor sit patre secundum formam qua missus 
+      <lb ed="#T" n="53"/>apparuit, aperte ostendit Aug. in 4. lib. de Trinit. dicens, Misit Deus filium suum, factum 
+      <lb ed="#T" n="54"/>ex muliere, factum sublege: vsque adeo paruum, vt factum, eo itaque missum, quo 
+      fa<lb ed="#T" n="55" break="no"/>ctum. Fateamur ergo factum minorem: &amp; intantum minorem, inquantum factum: &amp; 
+      in<lb ed="#T" n="56" break="no"/>tantum factum, inquantum missum. Ecce habes, quia silius inquantum est missus, id est, 
+      <lb ed="#T" n="57"/>factus, minor est Patre. Cur ergo Spiritus sanctus non dicatur patre miner, cum &amp; ipse 
+      <lb ed="#T" n="58"/>crearuram assumpserit, in qua apparuit? Quia aliter spiritus assumpsit creaturam in qua 
+      <lb ed="#T" n="59"/>apparuit, aliter filius: nam filius accepit per vnionem personae, spiritus vero non: Filius, 
+      <lb ed="#T" n="60"/>enim accepit hominem, ita vt fieret homo. Spiritus vero sanctus non ita accepit colum 
+      <lb ed="#T" n="61"/>bam, vt fieret columba. De hoc Aug. in 2. lib. de Trinit. ait. Ideo nusquam scriptum est, 
+      <lb ed="#T" n="62"/>quod Deus pater maior sit Spiritu sancto, vel Spiritus sanctus minor Patre: quia non sic 
+    </p>
+            <p xml:id="pdt7y6-e39022-d1e214">
+               <lb ed="#T" n="63"/>Spiritus sanctus similiter? 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0204.xml-\->
+      <pb ed="#T" n="129"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>est assumpta creatura, in qua appareret Spiritus sanctus, sicut assumptus est filius 
+      homi<lb ed="#T" n="2" break="no"/>nis, in quo forma ipsius Dei, Verbi persona praesentaretur, non vt haberet verbum Dei, 
+      <lb ed="#T" n="3"/>sicut alij sancti sapientes, sed quod ipsum verbum erat. Aliud est enim Verbum in carne, 
+      <lb ed="#T" n="4"/>aliud verbum caro, id est, aliud est Verbum in homine, aliud est Verbum homo. Caro 
+      <lb ed="#T" n="5"/>enim pro homine posita est in eo quod ait. Verbum caro factum est. Non ergo sic assumpta 
+      <lb ed="#T" n="6"/>est creatura, in qua apparuit Spiritus sanctus sicut assumpta est caro illa &amp; humana forma 
+      <lb ed="#T" n="7"/>ex virgine Maria. Non enim columbam, vel illum flatum, vel illum ignem beatificauit, 
+      <lb ed="#T" n="8"/>sibique in vnitatem personae coniunxit in aeternum. Ex praedictis aperte ostensum est, se 
+      <lb ed="#T" n="9"/>cundum quid filius dicatur minor Patre, &amp; quare filius dicatur minor Patre, &amp; non 
+      Spi<lb ed="#T" n="10" break="no"/>ritus sanctus. 
+    </p>
+            <p xml:id="pdt7y6-e39022-d1e247">
+               <lb ed="#T" n="11"/>Quod Filius secundum quod homo factus est, non modo Patre, sed Spiritu sancto &amp; 
+      <lb ed="#T" n="12"/>etiam seipso minor est. 
+    </p>
+            <p xml:id="pdt7y6-e39022-d1e254">
+               <lb ed="#T" n="13"/>Notandum autem quod filius secundum quod homo factus est, non tantum Patre, sed  
+      <lb ed="#T" n="14"/>Spiritu sancto, &amp; etiam seipso minor dicitur. Et quod etiam seipso minor dicatur 
+      secun<lb ed="#T" n="15" break="no"/>dum formam ferui, Augustinus ostendit in 1. lib. de Trin. dicens, Errauerunt homine: ca, 
+      <lb ed="#T" n="16"/>quae de Christo secundum hominem dicta sunt, ad eius substantiam, quae sempiterna est: 
+      <lb ed="#T" n="17"/>transferentes: sicut illud quod ipse pominus ait: Pater maior me est, quod propter 
+      for<lb ed="#T" n="18" break="no"/>mam serui veritas dicit, secundum quem modum etiam seipso minor est silius. Quot. odo 
+      <lb ed="#T" n="19"/>enim non etiam seipso minor factus est, qui seipsum exinaniuit, formam serui accipiense 
+      <lb ed="#T" n="20"/>Non enim sic accepit formam serui, vt amitteret formam Dei, in qua erat aequalis patri. In 
+      <lb ed="#T" n="21"/>forma ergo Dei vnigenitus Patris aequalis est patri: In forma serui etiam seipso minor est. 
+      <lb ed="#T" n="22"/>Non ergo immerito Scriptura dicit vtrumque, scilicet &amp; aequalem patri silium, &amp; Patrem 
+      <lb ed="#T" n="23"/>maiorem filio. Illud enim propter Dei formam, hoc autem propter formam serui 
+      intelli<lb ed="#T" n="24" break="no"/>gitur. De hoc eodem in 2. libro de Trin. August. ait, Dei Filius est aequalis patri secundum 
+      <lb ed="#T" n="25"/>dum Dei formam, in qua est: &amp; minor patre secundum formam serui, quam acccepit: in 
+      <lb ed="#T" n="26"/>qua non modo patre, sed etiam Spiritu sancto, nec hoc tantum, sed etiam seipso minor 
+      in<lb ed="#T" n="27" break="no"/>uentus est. Propter quod, vt idem in lib. Epistola, contra Maximinum ait, Non tantum 
+      <lb ed="#T" n="28"/>Patre, sed etiam seipso, &amp; Spiritu sancto minor factus est, &amp; etiam minoratus paulominus 
+      <lb ed="#T" n="29"/>ab Angelis. Est ergo Dei filius, vt ipse ait in 1. lib. de Trinit. Deo Pat. i in natura aequalis, 
+      <lb ed="#T" n="30"/>habitu minor in forma setur quam accepit. His authoritatibus ostenditur aperte Filius 
+      se<lb ed="#T" n="31" break="no"/>cundum formam serui minor Patre: &amp; seipso, &amp; Spiritu sancto. 
+    </p>
+            <p xml:id="pdt7y6-e39022-d1e298">
+               <lb ed="#T" n="32"/>Hilarius aliter cicit, scilicet, quod Pater sit maior, nec Filius tamen mitor. 
+      <lb ed="#T" n="33"/>Hilarius autem dicere videtur, quod Pater maior sit Filio, nec tamen Filius minor Patre. 
+      <lb ed="#T" n="34"/>Pater enim dicitur maior propter authoritatem, quia in eo est authoritas generationis: 
+      se<lb ed="#T" n="35" break="no"/>cundum quam dicit, Pater maior me est. Et Apostolus, donauit ei nomen quod est 
+      supe<lb ed="#T" n="36" break="no"/>omne nomen. Cum ergo ait, Pater maior me est, hoc est ac si diceret, ponauit mihi no 
+      <lb ed="#T" n="37"/>men. Si ergo, inquit Hilarius, in 9. lib. de Trinit. donantis authoritate Pater maior est 
+      <lb ed="#T" n="38"/>nunquid per doni confessionem Filius minor est: maior itaque donans est, sed minor iam 
+      <lb ed="#T" n="39"/>non est cui vnum esse donatur: ait enim, Ego &amp; Pater vnum sumus. Si non hoc donatur  
+      <lb ed="#T" n="40"/>Iesu, vt confitendus sit in gloria Dei Patris, minor Patre est: si autem in eadem gloria ei 
+      do<lb ed="#T" n="41" break="no"/>natur esse qua Pater est, habes &amp; in donantis authoritate, quia maior est, &amp; in donasi 
+      co<lb ed="#T" n="42" break="no"/>fessione, quia 7. um sunt. Maior itaque Pater Filio est, &amp; plane maior: cui tantum donat 
+      <lb ed="#T" n="43"/>esse, quantur est ipse, cui innascibilitatis imaginem sacramento natiuitatis impartit, quo 
+      <lb ed="#T" n="44"/>ex se in for na sua generat. Audisti Lector quid super hoc dicat Hilarius: cuius verba 
+      vbi<lb ed="#T" n="45" break="no"/>cunque occurrerint diligenter nota, pieque intellige.
+    </p>-->
+            <p xml:id="pdt7y6-e39022-d1e331">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0204.xml-->
+               <cb ed="#T" n="b"/>
+               <lb ed="#T" n="46" type="fixed=129"/>DIVISIO TEXTVS. 
+      <lb ed="#T" n="47"/>VVnc de Spiritu sancto videndum est 
+      <lb ed="#T" n="48"/>Npostquam egit de principio missionis 
+      <lb ed="#T" n="49"/>seu processionis temporalis Spiritus sancti, hic 
+      <lb ed="#T" n="50"/>agit le modo: &amp; primo de modo visibili dist. 
+      <lb ed="#T" n="51"/>hac. Secundo de modo inuisibili, dist. 17. 
+    </p>
+            <p xml:id="pdt7y6-e39022-d1e352">
+               <lb ed="#T" n="52"/>In 1. parte primo agit de modo visibili 
+      missio<lb ed="#T" n="53" break="no"/>ois Spiritus sancti secudum se. Secundo 
+      incom<lb ed="#T" n="54" break="no"/>paratione ad modum visibilem missionis Filij 
+      <lb ed="#T" n="55"/>[Sed prius quaerendum est.] In prima parte 
+      pri<lb ed="#T" n="56" break="no"/>mo distinguit duplicem modum missionis. 
+      Secu<lb ed="#T" n="57" break="no"/>do ostendit, quid sit modus viubilis [Et primo. 
+    </p>
+            <p xml:id="pdt7y6-e39022-d1e368">
+               <lb ed="#T" n="58"/>In secunda parte primo ostendit quod 
+      secun<lb ed="#T" n="59" break="no"/>dum modu visibilem missionis Spiritus sanctus 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0204.xml-->
+      <cb ed="#T" n="c"/>
+               <lb ed="#T" n="60"/>minot Patre non dicitur sicut Filius: Secundo 
+      <lb ed="#T" n="61"/>ostendit quod Filius secundum quod homo 
+      ini<lb ed="#T" n="62" break="no"/>nor est tota Trinitate. [Notandum] Tertio quia 
+      <lb ed="#T" n="63"/>Deus Pater est maior Filio secundum 
+      Diuini<lb ed="#T" n="64" break="no"/>tatem [Hylarius.] 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="259"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e78862"><!-- l1d32q2 -->
+            <head xml:id="pdt7y6-e78862-Hd1e99">Quaestio 2</head>
+            <head xml:id="pdt7y6-e78862-Hd1e101" type="question-title">De appropriatis pertinentibus ad Filium</head>
+            <p xml:id="pdt7y6-e78862-d1e104">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0334.xml-->
+               <cb ed="#T" n="b"/>
+               <lb ed="#T" n="70"/>QVESTIO II. 
+      <lb ed="#T" n="71"/>CIRCA APPROPRIATA 
+      PERTINEN<lb ed="#T" n="72" break="no"/>TIA AD EILIVM. 
+  </p>
+            <p xml:id="pdt7y6-e78862-d1e117">
+               <lb ed="#T" n="73"/>CIrca secundum articulum quaeruntur tria 
+      <lb ed="#T" n="74"/>Primo an Pater sit sapiens sapientia ge 
+      <lb ed="#T" n="75"/>nita. 
+      <lb ed="#T" n="76"/>Secundo an sit potens potentia genita. 
+      <lb ed="#T" n="77"/>Tertio an Filius sit sapiens sapientia genita 
+      <lb ed="#T" n="78"/>vel ingenita. 
+    </p>
+            <div xml:id="pdt7y6-e78862-Dd1e133">
+               <head xml:id="pdt7y6-e78862-Hd1e135">Articulus 1</head>
+               <head xml:id="pdt7y6-e78862-Hd1e137" type="question-title">
+  An Pater sit sapiens sapientia genita
+</head>
+               <p xml:id="pdt7y6-e78862-d1e140">
+                  <lb ed="#T" n="79"/>Articvlvs I. 
+      <lb ed="#T" n="80"/>An Pater sit sapiens sapientia genita.
+</p>
+               <p xml:id="pdt7y6-e78862-d1e147">
+                  <lb ed="#T" n="81"/>AD primum sic proceditur. 1 Omnis 
+      ia<lb ed="#T" n="82" break="no"/>piens sua sapientia estsapiens. sed Filius est 
+      <lb ed="#T" n="83"/>sapientia Patris: ergo Pater est eo 
+      sapien<lb ed="#T" n="84" break="no"/>ergo est sapiens sapientia genita. 
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e158">
+                  <lb ed="#T" n="85"/>2. Omnis artifex arte sua sapiens est: sed Filius 
+      <lb ed="#T" n="86"/>est ars Patris plena omnium rationum 
+      viuen<lb ed="#T" n="87" break="no"/>tium vt ait Augustinus: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e168">
+                  <lb ed="#T" n="88"/>3. Hugo 10. de Trinit. Nouit Pater omnia in 
+      <lb ed="#T" n="89"/>seipso, nouit &amp; in Filio: sed eo, in quo omnia 
+      <lb ed="#T" n="90"/>nouit, sapiens est: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e177">
+                  <lb ed="#T" n="91"/>4. Augustinus. Aut non fuit aliquando 
+      quan<lb ed="#T" n="92" break="no"/>do non fuit Filius, aut aliquando Deus non ha 
+      <lb ed="#T" n="93"/>buit virtutem &amp; sap ientiamergo Pater sine 
+      Fi<lb ed="#T" n="94" break="no"/>lio non haberet sapientiam: ergo eo est sapiens. 
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e188">
+                  <lb ed="#T" n="95"/>5. Secundum Anselmum, dicere Dei est 
+      <lb ed="#T" n="96"/>suum intelligere: sed Pater omnia dicit per 
+      ver<lb ed="#T" n="97" break="no"/>bum suum: ergo &amp; intelligit: ergo sapiens est 
+      <lb ed="#T" n="98"/>per verbum suum. 
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e199">
+                  <lb ed="#T" n="99"/>Contra. 1. In rebus humanis non filius 
+      patri<lb ed="#T" n="100" break="no"/>sed pater potius silio sapientiae causa est: ergo 
+      <lb ed="#T" n="101"/>similiter in Diuinis. 
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e208">
+                  <lb ed="#T" n="102"/>2. Augustinus in Diuinis sapere idem est quod 
+      <lb ed="#T" n="103"/>esse: sed Pater non est per sapientiam genitam 
+      <lb ed="#T" n="104"/>ergo non sapit per sapientiam genitam 
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e217">
+                  <lb ed="#T" n="105"/>3. Filius habet a Patre totum quod habet, &amp; 
+      <lb ed="#T" n="106"/>non e conuerso: ergo Filius habet a Patre 
+      sa<lb ed="#T" n="107" break="no"/>pientiam, &amp; non e conuerso. 
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e227">
+                  <lb ed="#T" n="108"/>Respondeo. Quamuis Pater dicat omnia ver 
+      <lb ed="#T" n="109"/>bo genito, non tamen intelligit omnia 
+      sapien<lb ed="#T" n="110" break="no"/>tia genita, non propter diuersitatem rei quae 
+      <lb ed="#T" n="111"/>per sapientiam genitam, &amp; per verbum 
+      suppo<lb ed="#T" n="112" break="no"/>nitur, sed propter diuersummodum 
+      significan<lb ed="#T" n="113" break="no"/>di: nam dicere dicit motum ab anima, 
+      intelli<lb ed="#T" n="114" break="no"/>gere motum ad animam. Item verbum dicit rem 
+      <lb ed="#T" n="115"/>egredientem ab anima: sed sapientia rem 
+      ma<lb ed="#T" n="116" break="no"/>nentem in anima. Cum ergo dicitur quis sapere 
+      <lb ed="#T" n="117"/>vel inteiligere sapientia, sapientia notatur esse 
+      <lb ed="#T" n="118"/>in ipso principium actus sapiendi vel 
+      intelligen<lb ed="#T" n="119" break="no"/>di: sed cum dicitur, ominia in verbo dicit, ver 
+      <lb ed="#T" n="120"/>bum non notatur esse principium actus dicendi, 
+      <lb ed="#T" n="121"/>sed potius terminus vel effectus: Filius vero 
+      res<lb ed="#T" n="122" break="no"/>pectu alicuius actus paterni non potest esse 
+      prin<lb ed="#T" n="123" break="no"/>cipium in eo, sed potest esse terminus 
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e264">
+                  <lb ed="#T" n="124"/>Ad 1. Filius est sapientia Patris. Resp. Verum 
+      <lb ed="#T" n="125"/>est quasi effectiue seu originaliter, non 
+      forma<lb ed="#T" n="126" break="no"/>liter: sicut sapientia discipuli est sapientia 
+      ma<lb ed="#T" n="127" break="no"/>gistri effectiue, non formaliter: sapientia vero 
+      <lb ed="#T" n="128"/>formali quisque sapiens est 
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e277">
+                  <lb ed="#T" n="129"/>Ad 2. De Arte. Resp. Filius est ars Patris 
+      lo<lb ed="#T" n="130" break="no"/>quendo quasi effectiue, non formaliter: non 
+      <lb ed="#T" n="131"/>quia Filius sit effectus Patris, sed quia 
+      constru<lb ed="#T" n="132" break="no"/>ctio illa sit permodum efficientis causg.O¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0335.xml-->
+      <pb ed="#T" n="260"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>Ad 3. Pater nouit omnia in Filio. Resp. 
+      propo<lb ed="#T" n="2" break="no"/>sitio hec duplex est, eo quod determinatio in Filio 
+      <lb ed="#T" n="3"/>potest determinate hoc verbum nouis a parte 
+      <lb ed="#T" n="4"/>suppositi vel a parte appositi. Primo modo 
+      si<lb ed="#T" n="5" break="no"/>gnificatur Filius Patri esse ratio cognoscendi: 
+      <lb ed="#T" n="6"/>secundo modo significatur esse id in quo 
+      repre<lb ed="#T" n="7" break="no"/>sentantur omnia: primo modo propositio falsa 
+      <lb ed="#T" n="8"/>est, secundo modo vera. Et est exemplum, sicut  
+      <lb ed="#T" n="9"/>auctor libri omnia contenta in libro nouit in 
+      ipso<lb ed="#T" n="10" break="no"/>libro secundo modo, no primo, ita quod 
+      praepo<lb ed="#T" n="11" break="no"/>sitio in acipitur quasi imaterialiter, non effectiue. 
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e319">
+                  <lb ed="#T" n="12"/>Ad 4. Aut non fuit aliquando &amp;c. Resp. 
+      Ar<lb ed="#T" n="13" break="no"/>gumentum augustini ex virtute appropriationis 
+      <lb ed="#T" n="14"/>concludit, non proprietatis, quia secundum 
+      <lb ed="#T" n="15"/>Apostolum semper appropriata fuit Filio 
+      sa<lb ed="#T" n="16" break="no"/>pientia: sed si Filius aliquando non fuisset, non 
+      <lb ed="#T" n="17"/>semper fuisset ei appropriata sapientia. 
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e335">
+                  <lb ed="#T" n="18"/>Ad 5. Dicere est intelligere. Resp. Quamuis 
+      <lb ed="#T" n="19"/>dicere essentialiter sumptum sit idem quod 
+      in<lb ed="#T" n="20" break="no"/>telligere, tamen prout actus iste transit in 
+      crea<lb ed="#T" n="21" break="no"/>turam, additur connotatum temporale respectu 
+      <lb ed="#T" n="22"/>cuius verbum potest esse causa: prout vero 
+      ac<lb ed="#T" n="23" break="no"/>cipitur personaliter, dicere non est intelligere 
+      <lb ed="#T" n="24"/>sed verbum proferre. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e78862-Dd1e355">
+               <head xml:id="pdt7y6-e78862-Hd1e357">Articulus 2</head>
+               <head xml:id="pdt7y6-e78862-Hd1e359" type="question-title">
+  An Pater sit potens potentia genita
+</head>
+               <p xml:id="pdt7y6-e78862-d1e362">
+                  <lb ed="#T" n="25"/>Articvlvs II. 
+      <lb ed="#T" n="26"/>An Pater sit potens potentia genita.
+</p>
+               <p xml:id="pdt7y6-e78862-d1e369">
+                  <lb ed="#T" n="27"/>D secundum sic proceditur 1. Cor. 1. 
+      <lb ed="#T" n="28"/>Nos praedicamus Christum Dei virtutem 
+      <lb ed="#T" n="29"/>&amp; sapientiam: sed vnusquisque sua virtute 
+      po<lb ed="#T" n="30" break="no"/>tens est: ergo Deus Pater Christo potens est 
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e380">
+                  <lb ed="#T" n="31"/>2. In Deo idem est virtus &amp; operatio: Pater 
+      <lb ed="#T" n="32"/>habet operari per Filium: ergo habet posse per 
+      <lb ed="#T" n="33"/>Filium. 
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e390">
+                  <lb ed="#T" n="34"/>3. Sicut se habet nosse ad sapientiam, ita 
+      ope<lb ed="#T" n="35" break="no"/>rari ad potentiam: sed per quod aliquis nouit, 
+      <lb ed="#T" n="36"/>per illud est sapiens: ergo per quod operatur,  
+      <lb ed="#T" n="37"/>per illud est potens. 
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e401">
+                  <lb ed="#T" n="38"/>Contra. 1. Posse &amp; esse in aeterno Patre non 
+      <lb ed="#T" n="39"/>differunt: sed non est Filio: ergo non est potens 
+      <lb ed="#T" n="40"/>Filio. 
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e410">
+                  <lb ed="#T" n="41"/>2. Potentia potius appropriatur Patri quam 
+      <lb ed="#T" n="42"/>Filio: ergo Pater non est potens Filio suo, 
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e417">
+                  <lb ed="#T" n="43"/>Respondeo. Verborum praedicabilium de 
+      <lb ed="#T" n="44"/>Diuinis quaedam sunt substantiua, vt esse: 
+      quae<lb ed="#T" n="45" break="no"/>da adiectiua siue practica, vt caetera: &amp; 
+      practico<lb ed="#T" n="46" break="no"/>rum quaedam significant motum ad animam, vt 
+      <lb ed="#T" n="47"/>intelligere, nosse: quaedam ab anima, horum 
+      <lb ed="#T" n="48"/>vero sunt duo modi: quia quaedam connotant 
+      <lb ed="#T" n="49"/>respectum ad creaturam vt posse, velle, 
+      quae<lb ed="#T" n="50" break="no"/>dam etiam effectum in ipsa, vt operari, 
+      guber<lb ed="#T" n="51" break="no"/>nare. In trium primorum genere actuum, 
+      abla<lb ed="#T" n="52" break="no"/>tiuus additus significat rationem principij 
+      res<lb ed="#T" n="53" break="no"/>pectu illorum actuum in agente: in quarto non 
+      <lb ed="#T" n="54"/>semper sed respectu effectus connotati: sicut  
+      <lb ed="#T" n="55"/>irtifex dicitur operari per instrumentum, 
+      ve<lb ed="#T" n="56" break="no"/>Rex per praepositum, non tamen posse 
+      simplici<lb ed="#T" n="57" break="no"/>ter vel nosse, nec esse per ipsum. Inde est quod 
+      <lb ed="#T" n="58"/>conuenienter dicitur Pater operari per Filium: 
+      <lb ed="#T" n="59"/>non autem potest per Filium, aut nouit, aut est 
+      <lb ed="#T" n="60"/>per Filium: quia solet pro regula dici quod cum 
+      <lb ed="#T" n="61"/>verbis practicis addita praepositione per 
+      significa<lb ed="#T" n="62" break="no"/>tur in nominatiuo auctoritas, in causali 
+      sub<lb ed="#T" n="63" break="no"/>auctoritas: cum verbis non practicis e 
+      conuer<lb ed="#T" n="64" break="no"/>so Vnde cum dicitur Pater operatur per Filium 
+      <lb ed="#T" n="65"/>sensus est, Filius operatur, &amp; hoc habet a Patre. 
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e469">
+                  <lb ed="#T" n="66"/>Ad 1. De Apostolo. Resp. Filius dicitur vir¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0335.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>tus Patris quasi originaliter, non formaliter: 
+      <lb ed="#T" n="68"/>vnusquisque vero potens est virtute sua quae 
+      <lb ed="#T" n="69"/>sua est formaliter, non originaliter.  
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e485">
+                  <lb ed="#T" n="70"/>Ad 2. In Deo est idem virtus &amp; operatio. 
+      <lb ed="#T" n="71"/>Resp. Quamuis idem sit quoad principaee 
+      signi<lb ed="#T" n="72" break="no"/>ficatum, tamen operatio transiens in creaturam 
+      <lb ed="#T" n="73"/>addit temporale connotatum ratione cuius 
+      diffe<lb ed="#T" n="74" break="no"/>runt.  
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e499">
+                  <lb ed="#T" n="75"/>Ad 3. Sicut se habet nosse ad sapientiam &amp;c. 
+      <lb ed="#T" n="76"/>Resp. Non est simile omnino, quia nosse dicit 
+      <lb ed="#T" n="77"/>motum ad animam, nec connotat effectum in 
+      <lb ed="#T" n="78"/>creatura, sed respectum solum: operari vero dicit 
+      <lb ed="#T" n="79"/>motum ab anima, &amp; ideo notat effectum in 
+      <lb ed="#T" n="80"/>creatura. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e78862-Dd1e516">
+               <head xml:id="pdt7y6-e78862-Hd1e518">Articulus 3</head>
+               <head xml:id="pdt7y6-e78862-Hd1e520" type="question-title">
+  An Filius sit sapiens sapientia genita vel ingenita
+</head>
+               <p xml:id="pdt7y6-e78862-d1e523">
+                  <lb ed="#T" n="81"/>Articvlvs III. 
+      <lb ed="#T" n="82"/>An Filius sit sapiens sapientia genita vel ingenita. 
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e530">
+                  <lb ed="#T" n="83"/>AD vltimum sic proceditur. 1. Filius est sapiens. 
+      <lb ed="#T" n="84"/>sapientia essentiali: sed sapientia 
+      essen<lb ed="#T" n="85" break="no"/>tialis est sapientia nec genita nec ingenita: ergo 
+      <lb ed="#T" n="86"/>est sapiens sapientia nec genita nec ingenita. 
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e541">
+                  <lb ed="#T" n="87"/>2. Non alio est sapiens Filius quam Pater: 
+      <lb ed="#T" n="88"/>sed Pater est sapiens sapientia essentiali quae nec 
+      <lb ed="#T" n="89"/>genita est nec ingenita: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e551">
+                  <lb ed="#T" n="90"/>3. In Deo sapere &amp; esse idem est: ergo quo 
+      <lb ed="#T" n="91"/>Filius est, eo sapiens est: sed essentia qua est nec 
+      <lb ed="#T" n="92"/>genita est nec ingenita: ergo similiter sapientia. 
+      <lb ed="#T" n="93"/>qua est sapiens. 
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e562">
+                  <lb ed="#T" n="94"/>4. Sapientia est formale principium respectu 
+      <lb ed="#T" n="95"/>sapientis: sed nec sapientia genita nec ingenita 
+      <lb ed="#T" n="96"/>est formale principium respectu Filij: ergo 
+      rFi<lb ed="#T" n="97" break="no"/>lius non est sapiens sapientia genita nec 
+      in<lb ed="#T" n="98" break="no"/>genita. 
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e575">
+                  <lb ed="#T" n="99"/>5. Sapientia venita &amp; sapientia ingenita 
+      sup<lb ed="#T" n="100" break="no"/>ponit hypostasim; hypostasis vero non se habet  
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e582">
+                  <lb ed="#T" n="101"/>vt habitus: sed sapientia est habitus sapientis: 
+      <lb ed="#T" n="102"/>ergo non potest dici quis sapiens sapientia 
+      geni<lb ed="#T" n="103" break="no"/>ta nec ingenita. 
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e591">
+                  <lb ed="#T" n="104"/>Contra. 1. Hilarius. Nihil nisi natum habet 
+      <lb ed="#T" n="105"/>Filius: ergo sapientia quam habet est sapientia. 
+      <lb ed="#T" n="106"/>genita non ingenita. 
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e600">
+                  <lb ed="#T" n="107"/>2. Filius Dei seipso sapiens est, cum sit 
+      sa<lb ed="#T" n="108" break="no"/>piens essentialiter non participatiue: ipse vero 
+      <lb ed="#T" n="109"/>est sapientia genita non ingenita: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e610">
+                  <lb ed="#T" n="110"/>3. Filius est sapiens de Patre: ergo de 
+      sapien<lb ed="#T" n="111" break="no"/>tia ingenita. 
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e617">
+                  <lb ed="#T" n="112"/>4. Dicit hic Augustinus quod Filius est 
+      sa<lb ed="#T" n="113" break="no"/>piens de sapientia quae est Pater: ergo de 
+      sapien<lb ed="#T" n="114" break="no"/>tia ingenita. 
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e626">
+                  <lb ed="#T" n="115"/>Respondeo. Sapientia de se essentialis 
+      termi<lb ed="#T" n="116" break="no"/>nus est suppositione &amp; significatione, sed per 
+      <lb ed="#T" n="117"/>additionem termini notionalis trahitur ad 
+      sup<lb ed="#T" n="118" break="no"/>ponendum pro persona: vnde quando dicitur  
+      <lb ed="#T" n="119"/>sapientia ingenita, prout ingenitum dicit 
+      no<lb ed="#T" n="120" break="no"/>tionem Patris, supponit pro persona Patris. Cum 
+      <lb ed="#T" n="121"/>ergo quaeritur an Filius sit sapiens sapientia 
+      ge<lb ed="#T" n="122" break="no"/>nita vel ingenita, simpliciter concedendum est 
+      <lb ed="#T" n="123"/>quod est sapiens sapientia genita, id est seipso, 
+      <lb ed="#T" n="124"/>quia habet in se suae sapientiae formale 
+      princi<lb ed="#T" n="125" break="no"/>pium, scilicet essentiam, quod est ipse, quia 
+      <lb ed="#T" n="126"/>Filius est essentia &amp; sapientia. Sed cum quaeritur  
+      <lb ed="#T" n="127"/>an sit sapiens sapientia ingenita, distinguendum 
+      <lb ed="#T" n="128"/>est, quod aliquo dicitur quis sapiens dupliciter: 
+      <lb ed="#T" n="129"/>aut enim formaliter, sic non est sapies supientia. 
+      <lb ed="#T" n="130"/>ingenita: aut quasi effectiue siue originaliter, sic 
+      <lb ed="#T" n="131"/>est, quia sapientia habet originaliter aPatre: sicut  
+      <lb ed="#T" n="132"/>Filius a patre edoctus sapiens est sapientia Patria. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0336.xml-->
+      <pb ed="#T" n="261"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>originaliter, sed sapientia sua formaliter. 
+      Abbre<lb ed="#T" n="2" break="no"/>uiando ergo dicamus quod actus aliquis alicui 
+      <lb ed="#T" n="3"/>potest attribui dupliciter: aut originaliter siue 
+      <lb ed="#T" n="4"/>quasi effectiue: aut formaliter, &amp; hoc dupliciter: 
+      <lb ed="#T" n="5"/>aut tar quam formae quae est principium agendi, 
+      <lb ed="#T" n="6"/>au tanquam supposito habenti formam per 
+      <lb ed="#T" n="7"/>quam agit: sic caliditas calefacit, &amp; calidum 
+      ca<lb ed="#T" n="8" break="no"/>lefacit per se loquendo formaliter. Primo modo 
+      <lb ed="#T" n="9"/>Filius est sapiens sapientia ingenita, id est Patre: 
+      <lb ed="#T" n="10"/>secundo modo sapientia non genita vel ingenita 
+      <lb ed="#T" n="11"/>id est essentia Diuina: tertio modo sapientia ge 
+      <lb ed="#T" n="12"/>nita id est seipso. 
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e700">
+                  <lb ed="#T" n="13"/>Ad 1. De sapient ia essentiali. Resp. 
+      Forma<lb ed="#T" n="14" break="no"/>liter vno modo sapiens est sapientia nec genita 
+      <lb ed="#T" n="15"/>nec ingenita, alio modo sapientia genita: 
+      origi<lb ed="#T" n="16" break="no"/>naliter vero sapientia ingenita. Nec est tamen 
+      <lb ed="#T" n="17"/>eius nisi vna sapientia qua sapiens est, sicut Deus 
+      <lb ed="#T" n="18"/>generans &amp; Deus genitus non est nisi vnus Deus 
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e716">
+                  <lb ed="#T" n="19"/>Ad 2. Non alio est sapiens &amp;c. Resp. Verum 
+      <lb ed="#T" n="20"/>est formaliter tanquam forma existente in 
+      ipso<lb ed="#T" n="21" break="no"/>sed originaliter non est verum. 
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e725">
+                  <lb ed="#T" n="22"/>Ad 3. Ilem est sapere quod esse. Resp. 
+      Con<lb ed="#T" n="23" break="no"/>cedo quod sapiens est formaliter sapientia nec 
+      <lb ed="#T" n="24"/>genita nec ingenita, &amp; nihilominus etiam 
+      sapien<lb ed="#T" n="25" break="no"/>tia ingenita originaliter, &amp; genita formaliter 
+      <lb ed="#T" n="26"/>prout actus attribuitur supposito per formam. 
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e739">
+                  <lb ed="#T" n="27"/>Ad 4. Sapientia est principium formale. Resp. 
+      <lb ed="#T" n="28"/>Hoc intelligitur de sapientia qua quis dicitur  
+      <lb ed="#T" n="29"/>sapiens formaliter vt a forma, non vt a 
+      supposi<lb ed="#T" n="30" break="no"/>to habente formam, nec originaliter.  
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e750">
+                  <lb ed="#T" n="31"/>Ad 5. De hypostasi. Resp. Illud quo quis 
+      sa<lb ed="#T" n="32" break="no"/>piens est formaliter, secundum quod actus 
+      attri<lb ed="#T" n="33" break="no"/>buitur alicui tanquam formae, se habet vt 
+      habi<lb ed="#T" n="34" break="no"/>tus: sed illud cui attribuitur tanquam supposito 
+      <lb ed="#T" n="35"/>habenti formam vel tanquam principio origina 
+      <lb ed="#T" n="36"/>li, non. Notandum tamen quod quamuis Fi¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0336.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="37"/>lius possit dici esse sapiens per seipsum, non 
+      ta<lb ed="#T" n="38" break="no"/>men a seipso, quia per dicit habitudinem 
+      cuius<lb ed="#T" n="39" break="no"/>cumque causae: a vero dicit habitudinem causae 
+      <lb ed="#T" n="40"/>efficientis. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e78862-Dd1e780">
+               <head xml:id="pdt7y6-e78862-Hd1e782">Expositio litterae</head>
+               <p xml:id="pdt7y6-e78862-d1e784">
+                  <lb ed="#T" n="41"/>EXPOSITIO LITERAE. 
+      <lb ed="#T" n="42"/>[CApientia de sapientia) Nunquid similiter 
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e791">
+                  <lb ed="#T" n="43"/>Opotest dici aeternitas de aeternitate? Resp. 
+      <lb ed="#T" n="44"/>Non, quia aeternitas repugnat rationi originis¬ 
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e798">
+                  <lb ed="#T" n="45"/>[Alia sapientia genita) Contra. Non est nisi 
+      <lb ed="#T" n="46"/>vna in Deo sapientia. Resp. Quamuis sapientia 
+      <lb ed="#T" n="47"/>ibi significet essentiam quae est vna, tamen 
+      sup<lb ed="#T" n="48" break="no"/>ponit pro persona quae alia est: relatiuum vero 
+      <lb ed="#T" n="49"/>additum refert suppositum, non significatum  
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e811">
+                  <lb ed="#T" n="50"/>Et per eum agentem Patrem) Contra. Ergo 
+      <lb ed="#T" n="51"/>per medium. Resp. Et per medium agit, &amp; sine 
+      <lb ed="#T" n="52"/>medio: nam virtute propria agit, &amp; ita sine mes 
+      <lb ed="#T" n="53"/>dio: &amp; Filio dat vt agat, &amp; ita per medium. 
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e823">
+                  <lb ed="#T" n="54"/>[Non est ergo tantum vna) Argumentum 
+      ta<lb ed="#T" n="55" break="no"/>le est: alia est sapientia Patris genita, alia 
+      ingeni<lb ed="#T" n="56" break="no"/>ta: ergo non est tantum Patris vna sapientia. 
+      <lb ed="#T" n="57"/>Resp. Fallacia est figurae dictionis a 
+      commuta<lb ed="#T" n="58" break="no"/>tione suppositionis personalis in essentialem: 
+      <lb ed="#T" n="59"/>nam sapientia per additionem genitae vel 
+      inge<lb ed="#T" n="60" break="no"/>nitae trahitur ad supponendum pro persona, in 
+      <lb ed="#T" n="61"/>conclusione vero sine ijs supponit pro essentia. 
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e843">
+                  <lb ed="#T" n="62"/>Spiritus sanctus est dilectio quae non est 
+      Pa<lb ed="#T" n="63" break="no"/>ter Hoc de dilectione personali intelligitur, non 
+      <lb ed="#T" n="64"/>de essentiali¬ 
+    </p>
+               <p xml:id="pdt7y6-e78862-d1e852">
+                  <lb ed="#T" n="65"/>Filius est sapientia quae non est Pater] 
+      Co<lb ed="#T" n="66" break="no"/>tra. Filius non est essentia quae non sit Pater: ergo 
+      <lb ed="#T" n="67"/>nec sapientia. Resp. Propositio haec simpliciter  
+      <lb ed="#T" n="68"/>dicta falsa est, nisi addatur genita, sic, Filius est 
+      <lb ed="#T" n="69"/>sapientia genita quae non est Pater, &amp; sic 
+      intelli<lb ed="#T" n="70" break="no"/>git Magister, quamuis non exprimat.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

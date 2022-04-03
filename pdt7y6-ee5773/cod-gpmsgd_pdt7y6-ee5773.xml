@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="21"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-ee5773"><!-- l1d2q2 -->
+            <head xml:id="pdt7y6-ee5773-Hd1e99">Quaestio 2</head>
+            <head xml:id="pdt7y6-ee5773-Hd1e101" type="question-title">De pluralitate personarum</head>
+            <p xml:id="pdt7y6-ee5773-d1e104">
+               <lb ed="#T" n="21"/>QVESTIO II. 
+      <lb ed="#T" n="22"/>De pluralitate personarum. 
+</p>
+            <p xml:id="pdt7y6-ee5773-d1e111">
+               <lb ed="#T" n="23"/>CIrca secundum problema principale tria 
+      <lb ed="#T" n="24"/>Cquaeruntur.  
+    </p>
+            <p xml:id="pdt7y6-ee5773-d1e118">
+               <lb ed="#T" n="25"/>Primo. An in Deo sit personarum pluralitas 
+      <lb ed="#T" n="26"/>Secundo. An illa pluralitas sit Trinitas 
+      tan<lb ed="#T" n="27" break="no"/>tuim, vel numerus maior, vel minor. 
+    </p>
+            <p xml:id="pdt7y6-ee5773-d1e128">
+               <lb ed="#T" n="28"/>Tertio. An illa pluralitas seu Trinitas sit 
+      <lb ed="#T" n="29"/>rei, vel rationis tantum 
+    </p>
+            <div xml:id="pdt7y6-ee5773-Dd1e135">
+               <head xml:id="pdt7y6-ee5773-Hd1e137">Articulus 1</head>
+               <head xml:id="pdt7y6-ee5773-Hd1e139" type="question-title">Utrum in Deo sit personarum pluralitas.</head>
+               <p xml:id="pdt7y6-ee5773-d1e142">
+                  <lb ed="#T" n="30"/>Articvlvs I. 
+      <lb ed="#T" n="31"/>vtrum in Deo sit personarum pluralitas.
+</p>
+               <p xml:id="pdt7y6-ee5773-d1e149">
+                  <lb ed="#T" n="32"/>AD primum sic proceditur. 1. In ordine 
+      vni<lb ed="#T" n="33" break="no"/>uersi reperitur in vna persona vna natura vt 
+      <lb ed="#T" n="34"/>in Angelis. Item in multis personis multae 
+      es<lb ed="#T" n="35" break="no"/>sentiae, in eisdem. Ite in vna persona multae 
+      na<lb ed="#T" n="36" break="no"/>turae vt in persona hominis: ergo ad 
+      comple<lb ed="#T" n="37" break="no"/>mentum vniuersi debet esse quartum membrum, 
+      <lb ed="#T" n="38"/>scilicet multae personae in vna natura: sed hoc 
+      <lb ed="#T" n="39"/>non reperitur in creatura: ergo in Deo. 
+    </p>
+               <p xml:id="pdt7y6-ee5773-d1e169">
+                  <lb ed="#T" n="40"/>2. Vt dicit Ricard. lib. de Trinit. Est quoddam 
+      <lb ed="#T" n="41"/>ens a semetipso, &amp; ab aeterno; &amp; est quoddam 
+      <lb ed="#T" n="42"/>ens non a semetipso, sed nec ab aeterno: sed 
+      op<lb ed="#T" n="43" break="no"/>posita extrema oportet coniungi per medium; 
+      <lb ed="#T" n="44"/>medium vero non potest esse, nisi detur aliud 
+      <lb ed="#T" n="45"/>quoddam ens a semetipso, sed non ab aeterno; 
+      <lb ed="#T" n="46"/>aut quodda ens ab aeterno, sed non a semetipso: 
+      <lb ed="#T" n="47"/>primum estimpossibile, quia quod ab aeterno 
+      <lb ed="#T" n="48"/>no est, a semetipso esse non potest: ergo 
+      opor<lb ed="#T" n="49" break="no"/>tet aliquid esse non a semetipso, sed abaeterno: 
+      <lb ed="#T" n="50"/>quod autem ab, aeterno est, non potest esse, nisi 
+      <lb ed="#T" n="51"/>in vnitate essentiae; quod ab alio non potest esse, 
+      <lb ed="#T" n="52"/>nisi in distinctione personae: ergo oportet ponere 
+      <lb ed="#T" n="53"/>distinctionem personarum in vna essentia. 
+    </p>
+               <p xml:id="pdt7y6-ee5773-d1e203">
+                  <lb ed="#T" n="54"/>3. In creatura est natura particularis, &amp; 
+      vni<lb ed="#T" n="55" break="no"/>uersalis: natura particularis est indiuisibilis, &amp; 
+      <lb ed="#T" n="56"/>mcommunicabilis; natura vniuersalis diuisibilis; 
+      <lb ed="#T" n="57"/>&amp; communicabilis: diuisibilitas imperfectionis, 
+      <lb ed="#T" n="58"/>communicabilitas; perfectionis est: cum ergo, 
+      <lb ed="#T" n="59"/>quod perfectionis est in creaturis Deo 
+      tribuen<lb ed="#T" n="60" break="no"/>dum sit, &amp; quod imperfectionis remouendum, 
+      <lb ed="#T" n="61"/>attribui debet Deo communicabilitas sine 
+      diui<lb ed="#T" n="62" break="no"/>sione naturae: hoc autem non contingit nisi sit 
+      <lb ed="#T" n="63"/>personarum pluralitas in vnitate essentiae: ergo, &amp;c. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0096.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="64"/>4. Nullius rei sine socio iucunda est possessio: 
+      <lb ed="#T" n="65"/>Ergo si esset in Deo vna sola persona, non esset 
+      <lb ed="#T" n="66"/>in eo perfecta iucunditas. 
+    </p>
+               <p xml:id="pdt7y6-ee5773-d1e238">
+                  <lb ed="#T" n="67"/>5. Secundum Ricar. de Trinit. In quo est 
+      <lb ed="#T" n="68"/>omnis boni plenitudo, non potest deesse summa 
+      <lb ed="#T" n="69"/>dilectio: summa dilectio non potest esse ad 
+      se<lb ed="#T" n="70" break="no"/>ipsum, nec ad diuersum in essentia; nec ad vnum 
+      <lb ed="#T" n="71"/>solum, cum maior sit charitas, qua quis vult 
+      <lb ed="#T" n="72"/>habere condilectum, quam qua non vult: ergo in 
+      <lb ed="#T" n="73"/>Deo pluralitatem aliquorum eiusdem essentiae 
+      <lb ed="#T" n="74"/>esse oportet. 
+    </p>
+               <p xml:id="pdt7y6-ee5773-d1e258">
+                  <lb ed="#T" n="75"/>Contra 1. Videmus quod ad multiplicationem 
+      <lb ed="#T" n="76"/>suppositorum, sequitur eiusdem essentiae 
+      mul<lb ed="#T" n="77" break="no"/>tiplicatio: si ergo essentia diuina multiplicari 
+      <lb ed="#T" n="78"/>non potest, nec eius supposita poterunt, 
+    </p>
+               <p xml:id="pdt7y6-ee5773-d1e269">
+                  <lb ed="#T" n="79"/>2. De nobilitate &amp; simplicitate diuinae 
+      essen<lb ed="#T" n="80" break="no"/>tiae est, quod non recipiat multiplicationem: 
+      ea<lb ed="#T" n="81" break="no"/>dem vero, non maior, vel minor est nobilitas 
+      es<lb ed="#T" n="82" break="no"/>sentiae, &amp; personae. Ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-ee5773-d1e280">
+                  <lb ed="#T" n="83"/>3. Quae omnino sunt idem multiplicato vno 
+      <lb ed="#T" n="84"/>multiplicatur alterum: si ergo vnum non potest 
+      <lb ed="#T" n="85"/>multiplicari, nec alterum: sic autem se habent  
+      <lb ed="#T" n="86"/>essentia &amp; persona. 
+    </p>
+               <p xml:id="pdt7y6-ee5773-d1e291">
+                  <lb ed="#T" n="87"/>Respondeo. In diuinis ponenda est 
+      plurali<lb ed="#T" n="88" break="no"/>tas, &amp; distinctio personarum, &amp; vnitas essentiae 
+      <lb ed="#T" n="89"/>propter sumii boni secunditatem seudiffusionem, 
+      <lb ed="#T" n="90"/>&amp; propter eiusdem summam charitatem: Haec 
+      <lb ed="#T" n="91"/>autem pluralitas non repugnat vnitati essentiae, 
+      <lb ed="#T" n="92"/>quia non sumitur per esse absolutum, vt in 
+      crea<lb ed="#T" n="93" break="no"/>turis, sed per ad aliud se habere: Nam secundum 
+      <lb ed="#T" n="94"/>Boetium relatio multiplicat Trinitatem, 
+      essen<lb ed="#T" n="95" break="no"/>ia continet vnitatem: In homine enim personae 
+      <lb ed="#T" n="96"/>distinguntur origine &amp; qualitate; in Angelo 
+      <lb ed="#T" n="97"/>sola qualitate: In Deo sola origine, secundum 
+      <lb ed="#T" n="98"/>Ricard. de Trinit. 
+    </p>
+               <p xml:id="pdt7y6-ee5773-d1e321">
+                  <lb ed="#T" n="99"/>Ad 1. In contrarium de multiplicatione 
+      sup<lb ed="#T" n="100" break="no"/>positorum. Resp. Verum est de multiplicatione 
+      <lb ed="#T" n="101"/>absoluta qualis est in creaturis; sed non de 
+      rela<lb ed="#T" n="102" break="no"/>tiua quae est per ad aliud se habere, qualis est 
+      <lb ed="#T" n="103"/>in Deo. 
+    </p>
+               <p xml:id="pdt7y6-ee5773-d1e334">
+                  <lb ed="#T" n="104"/>Ad 2. De nobilitate personae. Resp. Licet. 
+      <lb ed="#T" n="105"/>eadem sit simplicitas in vno &amp; altero, quia sunt,  
+      <lb ed="#T" n="106"/>idem re: tamen aliquid potest repugnare 
+      sim<lb ed="#T" n="107" break="no"/>plicitati illi, &amp; nobilitati illi in vno, quod non 
+      <lb ed="#T" n="108"/>in altero; quia differunt ratione: essentia enim 
+      <lb ed="#T" n="109"/>dicit ens absolutum, cuius multiplicatio non 
+      po<lb ed="#T" n="110" break="no"/>test fieri, nisi per differentias absolutas, ita 
+      se<lb ed="#T" n="111" break="no"/>queretur essetialis diuisio: persona vero dicit ens 
+      <lb ed="#T" n="112"/>distinctum per se, distinctio vero potest fieri &amp; 
+      <lb ed="#T" n="113"/>per differentias absolutas, &amp; relatiuas. Ad 
+      rela<lb ed="#T" n="114" break="no"/>tiuas vero non sequitur essentialis diuisio: vnde 
+      <lb ed="#T" n="115"/>non sequitur imperfectio vlla, sed iucunda fruitio. 
+    </p>
+               <p xml:id="pdt7y6-ee5773-d1e363">
+                  <lb ed="#T" n="116"/>Ad 3. Quae sunt omnino idem. Resp. 
+      <lb ed="#T" n="117"/>Verum est de ijs quae sunt idem &amp; secundum 
+      <lb ed="#T" n="118"/>rationem, &amp; secundum modum essendi, &amp; 
+      <lb ed="#T" n="119"/>secundum modum se habendi: sic vero non se 
+      <lb ed="#T" n="120"/>habent essentia, &amp; persona. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-ee5773-Dd1e377">
+               <head xml:id="pdt7y6-ee5773-Hd1e379">Articulus 2</head>
+               <head xml:id="pdt7y6-ee5773-Hd1e381" type="question-title">
+    An pluralitas personarum divinarum sit Trinitas tantum.
+  </head>
+               <p xml:id="pdt7y6-ee5773-d1e384">
+                  <lb ed="#T" n="121"/>Articvlvs II. 
+      <lb ed="#T" n="122"/>An pluralitas personarum diuinarum sit Trinitas 
+      <lb ed="#T" n="123"/>tantum. 
+</p>
+               <p xml:id="pdt7y6-ee5773-d1e393">
+                  <lb ed="#T" n="124"/>AD secundum sic proceditur 1. In diuinis 
+      <lb ed="#T" n="125"/>non potest esse distinctio penes 
+      proprieta<lb ed="#T" n="126" break="no"/>tem absolutam; ergo penes relatiuam oportet 
+      <lb ed="#T" n="127"/>quod sit: sed non penes accidentalem, scilicet,  
+      <lb ed="#T" n="128"/>quae fundatur in accidente: ergo penes 
+      substan<lb ed="#T" n="129" break="no"/>tialem, id est, quae fundatur in substantia, non vt 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0097.xml-->
+      <pb ed="#T" n="22"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>in subjecto, sed vt in causa: haec vero relatio non 
+      <lb ed="#T" n="2"/>potest esse relatio identitatis, nec diuersitatis 
+      su<lb ed="#T" n="3" break="no"/>bstantiae; ergo originis: penes originem vero non 
+      <lb ed="#T" n="4"/>potest esse, nisi trina distinctio, scilicet, qua vnus 
+      <lb ed="#T" n="5"/>a nullo, a quo alius; alter ab alio, a quo alius; 
+      al<lb ed="#T" n="6" break="no"/>ter ab alio, a quo nullus: modus autem vnius 
+      <lb ed="#T" n="7"/>personae, cum sit eius proprietas, non potest 
+      al<lb ed="#T" n="8" break="no"/>teri couenire: ergo non possunt plures personae, 
+      <lb ed="#T" n="9"/>quam tres esse. 
+    </p>
+               <p xml:id="pdt7y6-ee5773-d1e435">
+                  <lb ed="#T" n="10"/>2. Vt dicit Ricard. de Trinit. Oportet, quod 
+      <lb ed="#T" n="11"/>inter personas diuinas sit summe plena &amp; 
+      ordina<lb ed="#T" n="12" break="no"/>tissima concors differentia, &amp; differens 
+      concor<lb ed="#T" n="13" break="no"/>dia: Ad eos vero oportet, quod sit ibi Trinitas 
+      <lb ed="#T" n="14"/>sola ergo &amp;c. Probatio mediae. Oportet quod 
+      <lb ed="#T" n="15"/>sit vna sola persona quae non sit ab alio, a qua 
+      <lb ed="#T" n="16"/>alia; alioquin vel in perpetuum remanet sola, 
+      <lb ed="#T" n="17"/>vel inter ipsam &amp; alias non esset vlla germanitas 
+      <lb ed="#T" n="18"/>aut concordia. Item quod sit vna sola persona 
+      <lb ed="#T" n="19"/>quae ab alio, a qua non sit alius; si enim ab alio: 
+      <lb ed="#T" n="20"/>non esset, in perpetuum diuino confortio 
+      care<lb ed="#T" n="21" break="no"/>ret; si ab ipsa alius, in infinitum multiplicatio 
+      <lb ed="#T" n="22"/>procederet: &amp; si hoc alteri personae conueniret, 
+      <lb ed="#T" n="23"/>inter eos summa germanitas non esset. Item 
+      <lb ed="#T" n="24"/>oportet, quod sit vna sola media, quae ab alio, 
+      <lb ed="#T" n="25"/>aqua alius; si enim plures essent mediae, aut vna 
+      <lb ed="#T" n="26"/>ab altera non procederet; &amp; sic non esset summa 
+      <lb ed="#T" n="27"/>germanitas, aut si procederet, ergo aut per 
+      mo<lb ed="#T" n="28" break="no"/>dum naturae, &amp; sic essent duo filij, aut 
+      liberalita<lb ed="#T" n="29" break="no"/>tis, &amp; sic essent duo Spiritus Sancti. 
+    </p>
+               <p xml:id="pdt7y6-ee5773-d1e482">
+                  <lb ed="#T" n="30"/>3. Non possunt differre personae penes ide 
+      <lb ed="#T" n="31"/>quod accipit vnus ab altero, scilicet naturam: 
+      <lb ed="#T" n="32"/>ergo penes modos accipiendi: modi vero 
+      per<lb ed="#T" n="33" break="no"/>fectae acceptionis, non sunt, nisi duo, scilicet  
+      <lb ed="#T" n="34"/>naturae &amp; voluntatis; ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-ee5773-d1e495">
+                  <lb ed="#T" n="35"/>4. Vt probat Ricardus de sancto Victore, 
+      <lb ed="#T" n="36"/>Ad perfectionem summae dilectionis requiritur 
+      <lb ed="#T" n="37"/>&amp; sufficit habere dilectum &amp; condilectum, quod 
+      <lb ed="#T" n="38"/>sufficienter potest esse in tribus, &amp; non in 
+      pau<lb ed="#T" n="39" break="no"/>cioribus: in diuina aute perfectione nihil est 
+      di<lb ed="#T" n="40" break="no"/>minutum, &amp; nihil superfluum: ergo non est 
+      <lb ed="#T" n="41"/>ibi nisi trinitas personarum. 
+    </p>
+               <p xml:id="pdt7y6-ee5773-d1e513">
+                  <lb ed="#T" n="42"/>Contra 1. Infinitae virtutis emanatio oportet, 
+      <lb ed="#T" n="43"/>quod sit infinita omni modo si emanet secundum 
+      <lb ed="#T" n="44"/>totalitatem suam: ergo, &amp; intensiue &amp; 
+      extensi<lb ed="#T" n="45" break="no"/>ue: sed virtus emanationis personarum vnius ab 
+      <lb ed="#T" n="46"/>alia infinita est, &amp; agit secundum totalitatem 
+      <lb ed="#T" n="47"/>suam: ergo in infinitum extenditur.  
+    </p>
+               <p xml:id="pdt7y6-ee5773-d1e529">
+                  <lb ed="#T" n="48"/>2. Aequalis est trium personarum perfectio: 
+      <lb ed="#T" n="49"/>tunc vero est vnumquodque perfectum, cum 
+      <lb ed="#T" n="50"/>potest producere sibi simile: ergo Spiritus 
+      San<lb ed="#T" n="51" break="no"/>ctus potest alterum producere, &amp; ille alterum, 
+      <lb ed="#T" n="52"/>&amp; sic in infinitum, 
+    </p>
+               <p xml:id="pdt7y6-ee5773-d1e542">
+                  <lb ed="#T" n="53"/>3. Qui dat vni totum, quod potest, alteri non 
+      <lb ed="#T" n="54"/>habet quid det: Pater Filio dat totum, quod 
+      po<lb ed="#T" n="55" break="no"/>test: ergo alteri personae nil dare poterit: ergo 
+      <lb ed="#T" n="56"/>non possunt esse nisi duae personae. 
+    </p>
+               <p xml:id="pdt7y6-ee5773-d1e553">
+                  <lb ed="#T" n="57"/>Respondeo. In Deo fides ponit Trinitatem 
+      <lb ed="#T" n="58"/>solam, non plures personas, aut pauciores: quod 
+      <lb ed="#T" n="59"/>accipit ex diuinae iucunditatis, &amp; perfectionis. 
+      <lb ed="#T" n="60"/>&amp; dilectionis perfectione, vt dictum est. Item 
+      <lb ed="#T" n="61"/>ex modorum emanandi distinctione, vt dictum 
+      <lb ed="#T" n="62"/>est. Item ex vestigij, quod in creaturis omnibus 
+      <lb ed="#T" n="63"/>inuenitur, trinitate, secundum quod tangit 
+      <lb ed="#T" n="64"/>Augustinus lib. 83. qq. Creaturae causam trina esse 
+      <lb ed="#T" n="65"/>pportet, qua sit, qua haec sit, qua sibi amica sit: 
+      <lb ed="#T" n="66"/>causam vero creaturae ponimus Deum: 
+      opor<lb ed="#T" n="67" break="no"/>tet ergo Deum Trinitatem esse. 
+    </p>
+               <p xml:id="pdt7y6-ee5773-d1e580">
+                  <lb ed="#T" n="68"/>Ad 1. In contrarium deinfinita emanatione. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0097.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="69"/>Resp. Infinitas extensiua imperfectionis est, 
+      <lb ed="#T" n="70"/>cum recedat ab vnitate; intensiua vero non: 
+      <lb ed="#T" n="71"/>prima ergo Deo non conuenit, sed secunda. 
+    </p>
+               <p xml:id="pdt7y6-ee5773-d1e596">
+                  <lb ed="#T" n="72"/>Ad 2. AEqualis est perfectio trium. Resp. 
+      Ve<lb ed="#T" n="73" break="no"/>rum est; sed producere personam aliam, vel non 
+      <lb ed="#T" n="74"/>roducere, in Deo, cum non sit quid, sed ad 
+      <lb ed="#T" n="75"/>aliquid, non est ex ratione perfectionis: in 
+      crea<lb ed="#T" n="76" break="no"/>turis vero esset, quia dicit aliquid, non tantum 
+      <lb ed="#T" n="77"/>ad aliquid. Vel dicendum, quod perfectionis est 
+      <lb ed="#T" n="78"/>in aliqua persona, in alia vero non, quia eius 
+      pro<lb ed="#T" n="79" break="no"/>prietas contradicit, vt in Spiritu sancto. 
+    </p>
+               <p xml:id="pdt7y6-ee5773-d1e616">
+                  <lb ed="#T" n="80"/>Ad 3. Qui dat quicquid potest &amp;c. Resp. 
+      Ve<lb ed="#T" n="81" break="no"/>um est de eo qui ita dat, quod nihil retinet, sed  
+      <lb ed="#T" n="82"/>Pater totum dat &amp; totum retinet. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-ee5773-Dd1e626">
+               <head xml:id="pdt7y6-ee5773-Hd1e628">Articulus 3</head>
+               <head xml:id="pdt7y6-ee5773-Hd1e630" type="question-title">An Trinitas personarum sit rei vel rationis.</head>
+               <p xml:id="pdt7y6-ee5773-d1e633">
+                  <lb ed="#T" n="83"/>Articvlvs III. 
+      <lb ed="#T" n="84"/>An Trinitas personarum sit rei vel rationis. 
+    </p>
+               <p xml:id="pdt7y6-ee5773-d1e640">
+                  <lb ed="#T" n="85"/>AD vltimum proceditur sic 1. Dicit 
+      Damas<lb ed="#T" n="86" break="no"/>cenus, quod oportet scire, quod in 
+      creatu<lb ed="#T" n="87" break="no"/>ris diuersa, re considerantur, conuenientia vero 
+      <lb ed="#T" n="88"/>ratione, in diuinis vero e conuerso: ergo 
+      diffe<lb ed="#T" n="89" break="no"/>runt solum ratione. 
+    </p>
+               <p xml:id="pdt7y6-ee5773-d1e653">
+                  <lb ed="#T" n="90"/>2. Boetius dicit quod relatio multiplicat  
+      <lb ed="#T" n="91"/>Trinitatem: sed relatio non multiplicat 
+      secun<lb ed="#T" n="92" break="no"/>dum rem, imo secundum rationem solam, vt 
+      <lb ed="#T" n="93"/>patet in puncto: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-ee5773-d1e665">
+                  <lb ed="#T" n="94"/>3. Proprietas non differt ab essentia, nisi 
+      ra<lb ed="#T" n="95" break="no"/>tione: si ergo proprietas distinguit, &amp; essentia 
+      <lb ed="#T" n="96"/>non, non est ibi distinctio, nisi sola ratione. 
+    </p>
+               <p xml:id="pdt7y6-ee5773-d1e674">
+                  <lb ed="#T" n="97"/>Contra 1. Dicit Augustinus. Quod Pater,  &amp; 
+      <lb ed="#T" n="98"/>Filius, &amp; Spiritus Sanctus sunt res, quibus 
+      fruen<lb ed="#T" n="99" break="no"/>dum est: ergo differunt re. 
+    </p>
+               <p xml:id="pdt7y6-ee5773-d1e683">
+                  <lb ed="#T" n="100"/>2. Distinctio secundum rationem non 
+      distin<lb ed="#T" n="101" break="no"/>guit sufficienter supposita: ibi vero est 
+      distin<lb ed="#T" n="102" break="no"/>ctio secundum supposita. 
+    </p>
+               <p xml:id="pdt7y6-ee5773-d1e692">
+                  <lb ed="#T" n="103"/>3. Si ratio distingueret personas, ergo cum 
+      <lb ed="#T" n="104"/>attributa differant ratione, distinguerent 
+      perso<lb ed="#T" n="105" break="no"/>nas, quod falsum est, 
+    </p>
+               <p xml:id="pdt7y6-ee5773-d1e701">
+                  <lb ed="#T" n="106"/>Respondeo. Ratio dupliciter accipitur, aut quae 
+      <lb ed="#T" n="107"/>est ratio sola, scilicet a parte raciocinantis, sic 
+      <lb ed="#T" n="108"/>personae non differunt ratione, aut ratio, quae 
+      <lb ed="#T" n="109"/>est res; &amp; talis est relatio, qua personae differunt: 
+      <lb ed="#T" n="110"/>ipsa enim relatio comparata ad essentiam eius 
+      <lb ed="#T" n="111"/>quod refert, sola ratio est, quia non inhaeret; 
+      <lb ed="#T" n="112"/>comparata autem ad objectum, respectu cuius 
+      <lb ed="#T" n="113"/>est, sic res quaedam est, id est modus se 
+      <lb ed="#T" n="114"/>habendi, id est habens verissimam naturam &amp; 
+      <lb ed="#T" n="115"/>effectum relationis oppositae. Ipsa vero per 
+      com<lb ed="#T" n="116" break="no"/>parationem ad essentiam idem est quod ipsa, re; 
+      <lb ed="#T" n="117"/>sed differunt ratione, sicut attributa diuiua inter 
+      <lb ed="#T" n="118"/>se: secundum vero quod ad aliud se habet, sic 
+      <lb ed="#T" n="119"/>res est quaedam distinguens personas realiter,  
+      <lb ed="#T" n="120"/>quia habet verissimam relationis naturam, 
+      scili<lb ed="#T" n="121" break="no"/>cet originem: relationis vero oppositio requirit 
+      <lb ed="#T" n="122"/>distinctionem 
+    </p>
+               <p xml:id="pdt7y6-ee5773-d1e740">
+                  <lb ed="#T" n="123"/>Ad 1. De Damasc. Resp. Ratio accipitur ibi  
+      <lb ed="#T" n="124"/>non tantuma parte raciocinantis, sed rei: 
+      pro<lb ed="#T" n="125" break="no"/>prietas enim per comparationem ad essentiam 
+      <lb ed="#T" n="126"/>ratio est, &amp; per comparationem ad personam, 
+      <lb ed="#T" n="127"/>quam distinguit: per comparationem vero ad 
+      <lb ed="#T" n="128"/>ad a quo distinguit, res est: res enim cum sit de 
+      <lb ed="#T" n="129"/>transcendentibus, commune est ad omne genus 
+      <lb ed="#T" n="130"/>entis seu absolutum, seu relatiuum. 
+    </p>
+               <p xml:id="pdt7y6-ee5773-d1e761">
+                  <lb ed="#T" n="131"/>Ad 2. Relatio non multiplicat secundum 
+      <lb ed="#T" n="132"/>rem. Resp. Non quaecumque relatio, sed 
+      oppo<lb ed="#T" n="133" break="no"/>sitionis relatio secundum originem multiplicat  
+      <lb ed="#T" n="134"/>supposita, quia non potest esse relatio eiusdem 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0098.xml-->
+      <pb ed="#T" n="23"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>ad seipsum. 
+    </p>
+               <p xml:id="pdt7y6-ee5773-d1e781">
+                  <lb ed="#T" n="2"/>Ad 3. Non differt ab essentia, nisi ratione. 
+      <lb ed="#T" n="3"/>Resp. verum est, sed tamen per comparationem 
+      <lb ed="#T" n="4"/>ad objectum res quaedam est: Sic autem 
+      distin<lb ed="#T" n="5" break="no"/>guitre, non primo modo: sicut enim in diuinis 
+      <lb ed="#T" n="6"/>est sapientia, quaequidem non differt ab 
+      essen<lb ed="#T" n="7" break="no"/>tia, nisi secundum rationem; &amp; tamen efficit 
+      <lb ed="#T" n="8"/>realiter effectum sapientiae propter veritatem 
+      ra<lb ed="#T" n="9" break="no"/>tionis sapientiae, quae manet cum vnitate 
+      essen<lb ed="#T" n="10" break="no"/>tiae: ita relatiua oppositio non differt ab essen 
+      <lb ed="#T" n="11"/>tia, nisi secundum rationem; &amp; tamenefficit 
+      ve<lb ed="#T" n="12" break="no"/>rum effectum oppositionis relatiuae distinguendo: 
+      <lb ed="#T" n="13"/>diuersitas vero rationis a parte attributorum non 
+      <lb ed="#T" n="14"/>distinguit, quia non est ibi oppositio.  
+    </p>
+            </div>
+            <div xml:id="pdt7y6-ee5773-Dd1e813">
+               <head xml:id="pdt7y6-ee5773-Hd1e815">Expositio literae</head>
+               <p xml:id="pdt7y6-ee5773-d1e817">
+                  <lb ed="#T" n="15"/>EXPOSITIO LITERAE 
+      <lb ed="#T" n="16"/>[QVrgatissimis mentibus cernitur) Dubitatur. 
+      <lb ed="#T" n="17"/>qualiter sit mens purgatissima? Resp. 
+      secun<lb ed="#T" n="18" break="no"/>dum Augustinum, li purgetur a peccati colluuie, 
+      <lb ed="#T" n="19"/>a rerum temporalium vana delectatione, ab 
+      <lb ed="#T" n="20"/>errorum obtenebratione, a rerum naturalium 
+      fal<lb ed="#T" n="21" break="no"/>laci propositione, a rerum corruptibilium 
+      phan<lb ed="#T" n="22" break="no"/>tastica imaginatione. 
+    </p>
+               <p xml:id="pdt7y6-ee5773-d1e837">
+                  <lb ed="#T" n="23"/>[Nisi per iustitiam fidei.] Contra mens 
+      mali<lb ed="#T" n="24" break="no"/>Doctoris Theologi sine iustitia in Deo figitur.  
+      <lb ed="#T" n="25"/>Resp. Loquitur de fixione secundum 
+      cognitio<lb ed="#T" n="26" break="no"/>nem, non tantum speculatiuam sed practicam. 
+    </p>
+               <p xml:id="pdt7y6-ee5773-d1e848">
+                  <lb ed="#T" n="27"/>[Dicendum fuit vnum sunt. ] Quamuis enim 
+      <lb ed="#T" n="28"/>verbum substantiuum significet essentiam, quae 
+      <lb ed="#T" n="29"/>vna est; tamen significat eam, vt actum: actus 
+      <lb ed="#T" n="30"/>vero numeratur in suppositis.
+    </p>
+               <p xml:id="pdt7y6-ee5773-d1e859">
+                  <lb ed="#T" n="31"/>[Deus nomen est naturae] Contra secundum 
+      <lb ed="#T" n="32"/>Damasc. imponitur ab operatione, quia Soc 
+      di<lb ed="#T" n="33" break="no"/>citur, scilicet vel ab aeidtip quod est ardere, 
+      <lb ed="#T" n="34"/>vel a Saxoeras quod est videre, vel a Auim quod 
+      <lb ed="#T" n="35"/>est fouere. Resp. Aliud est a quo imponiur 
+      no<lb ed="#T" n="36" break="no"/>men scilicet operatio: aliud cui imponitur,  
+      <lb ed="#T" n="37"/>&amp; huius dicitur esse nomen, scilicet naturae: 
+      <lb ed="#T" n="38"/>primum enim est qualitas nominis, secundum 
+      <lb ed="#T" n="39"/>quasi substantia. 
+    </p>
+               <p xml:id="pdt7y6-ee5773-d1e882">
+                  <lb ed="#T" n="40"/>[Dominus enim nomen potestatis.] Contra 
+      <lb ed="#T" n="41"/>Est nomen relationis. Resp. Omnis relatio super 
+      <lb ed="#T" n="42"/>aliquid absolutum fundatur, vt aequalitas supra 
+      <lb ed="#T" n="43"/>quantitatem; similitudo super qualitatem, sic relatio 
+      <lb ed="#T" n="44"/>dominij super potestatem coercendi subditos. 
+    </p>
+               <p xml:id="pdt7y6-ee5773-d1e895">
+                  <lb ed="#T" n="45"/>[Qui est.] Opponitur de hoc nomine, 
+      <lb ed="#T" n="46"/>qui est, Damasc. enim dicit quod, Qui est, 
+      <lb ed="#T" n="47"/>primum nomen Dei est. Dyonis. quod Bonum est 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0098.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="48"/>primum nomen eius. Resp. [Qui est.] Est 
+      pri<lb ed="#T" n="49" break="no"/>mum simpliciter, sed Bonum quoad nos. 
+    </p>
+               <p xml:id="pdt7y6-ee5773-d1e913">
+                  <lb ed="#T" n="50"/>[Faciamus ad Imaginem.] His verbis secundum 
+      <lb ed="#T" n="51"/>Augustinum &amp; Hyl. duo significantur, Trinitas 
+      <lb ed="#T" n="52"/>&amp; vnitas. Sed differunt. Secundum Augustinum, 
+      <lb ed="#T" n="53"/>qui respicit significationem seu modum 
+      signifi<lb ed="#T" n="54" break="no"/>candi, per [Faciamus.] Et [Nostram.] 
+      sig<lb ed="#T" n="55" break="no"/>nificatur personarum pluralitas: per imaginem 
+      <lb ed="#T" n="56"/>&amp; similitudinem, quae sunt singularis numeri, 
+      <lb ed="#T" n="57"/>essentiae vnitas. Secundum Hylar, qui respicit  
+      <lb ed="#T" n="58"/>rem significatam, per quodlibet horum significatur  
+      <lb ed="#T" n="59"/>&amp; Trinitas &amp; Vnitas. Nam per faciamus 
+      significa<lb ed="#T" n="60" break="no"/>tur associatio plurium suppositorum in actu vno: 
+      <lb ed="#T" n="61"/>similiter, pernostram, associatio pluriam in 
+      possessio<lb ed="#T" n="62" break="no"/>ne vna: per pluralitate ergo suppositorum 
+      signi<lb ed="#T" n="63" break="no"/>ficatur personarum pluralitas, per associationem in 
+      <lb ed="#T" n="64"/>vno, essentiae v nitas. Item imago &amp; similitudo: 
+      <lb ed="#T" n="65"/>significant conuenientiam plurium in vno, &amp; sic 
+      <lb ed="#T" n="66"/>per pluralitatem conuenientium notatur 
+      perso<lb ed="#T" n="67" break="no"/>narum pluralitas, per vnum, in quo conueniunt, 
+      <lb ed="#T" n="68"/>essentiae vnitas. Notandum secundum 
+      Augusti<lb ed="#T" n="69" break="no"/>num quod imago &amp; similitudo importat 
+      respe<lb ed="#T" n="70" break="no"/>ctum extrinsecum tantum exemplaris diuini ad 
+      <lb ed="#T" n="71"/>exemplatum, secundum Hylarium vero &amp; 
+      in<lb ed="#T" n="72" break="no"/>trinsecum, scilicet personarum adinuicem, &amp; 
+      ex<lb ed="#T" n="73" break="no"/>trinsecum ipsarum ad exemplaium. Vnde 
+      secun<lb ed="#T" n="74" break="no"/>dum August, sensus est, ad imaginem &amp; 
+      similitu<lb ed="#T" n="75" break="no"/>dinem; id est, ad imitationem essentiae vnius in 
+      <lb ed="#T" n="76"/>tribus personis, in qua nobis inuice assimilamur.  
+    </p>
+               <p xml:id="pdt7y6-ee5773-d1e974">
+                  <lb ed="#T" n="77"/>[Nunc vero. ] Notandum, quod pluribus 
+      <lb ed="#T" n="78"/>modis infinuatur Trinitas in auctoritatibus hic 
+      <lb ed="#T" n="79"/>positis: primo per significationem principalem, 
+      <lb ed="#T" n="80"/>vt Magister vult in nomine Patris: secundo per 
+      <lb ed="#T" n="81"/>consignificationem numeri vt Genesis. 1. 
+      Fa<lb ed="#T" n="82" break="no"/>ciamus &amp;c. tertio per suppositionem 
+      termino<lb ed="#T" n="83" break="no"/>rum Prouerb. 8. Ego ex ore Altissimi &amp;c. 
+      Quar<lb ed="#T" n="84" break="no"/>to per connotationem, sicut imago secundum 
+      <lb ed="#T" n="85"/>Hylar. connotat respectum personarum ad 
+      in<lb ed="#T" n="86" break="no"/>uicem. Quinto per verborum ordinem. Psalm. 
+      <lb ed="#T" n="87"/>Benedicat nos Deus &amp;c. Quia per Deus noster,  
+      <lb ed="#T" n="88"/>exprimitur Filius positus in medio. Sexto per 
+      <lb ed="#T" n="89"/>trinam replicationem Isa. 6. Sanctus sanctus &amp;c. 
+      <lb ed="#T" n="90"/>septimo per operum apparitionem Cen. 1. In&amp; 
+      <lb ed="#T" n="91"/>principio creauit caelum &amp;c. octauo per 
+      constru<lb ed="#T" n="92" break="no"/>ctionis habitudinem differentem Rom. 11. ex 
+      <lb ed="#T" n="93"/>ipso &amp; per ipsum &amp;c. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

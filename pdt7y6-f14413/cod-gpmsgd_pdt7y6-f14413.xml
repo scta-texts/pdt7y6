@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="372"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-f14413"><!-- l1d45q2 -->
+            <head xml:id="pdt7y6-f14413-Hd1e99">Quaestio 2</head>
+            <head xml:id="pdt7y6-f14413-Hd1e101" type="question-title">De causalitate divinae voluntatis</head>
+            <p xml:id="pdt7y6-f14413-d1e104">
+               <lb ed="#T" n="75"/>QVESTIO II. 
+      <lb ed="#T" n="76"/>DECAVSALITATE DIVINAE 
+      <lb ed="#T" n="77"/>VOLVNTATIS. 
+</p>
+            <p xml:id="pdt7y6-f14413-d1e113">
+               <lb ed="#T" n="78"/>CIrca secundum articulum quaeruntur tria. 
+      <lb ed="#T" n="79"/>Primo an voluntas diuina sit proprie 
+      <lb ed="#T" n="80"/>causa omnium efficiens. 
+      <lb ed="#T" n="81"/>Secundo cuiusmodi causa sit. 
+      <lb ed="#T" n="82"/>Tertio an habeat causam motiuam sui. 
+    </p>
+            <div xml:id="pdt7y6-f14413-Dd1e126">
+               <head xml:id="pdt7y6-f14413-Hd1e128">Articulus 1</head>
+               <head xml:id="pdt7y6-f14413-Hd1e130" type="question-title">
+  An voluntas Dei sit proprie omnium causa efficiens
+</head>
+               <p xml:id="pdt7y6-f14413-d1e133">
+                  <lb ed="#T" n="83"/>Articvlvs I. 
+      <lb ed="#T" n="84"/>An voluntas Dei sit proprie omnium causa efficiens. 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e140">
+                  <lb ed="#T" n="85"/>AD primum sic proceditur. 1. Augustinus 
+      <lb ed="#T" n="86"/>lib. de Trinit. Voluntas Dei prima &amp; 
+      sum<lb ed="#T" n="87" break="no"/>ma causa est omnium specierum atque 
+      forma<lb ed="#T" n="88" break="no"/>rum, actionum atque motionum: ergo ei 
+      pro<lb ed="#T" n="89" break="no"/>prie conuenit causalitas rerum. 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e153">
+                  <lb ed="#T" n="90"/>2. Augustinus de Trinit. Omnis creaturae 
+      cau<lb ed="#T" n="91" break="no"/>sa est voluntas Dei: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e161">
+                  <lb ed="#T" n="92"/>3. Causa ponit effectum: sola voluntas Dei 
+      po<lb ed="#T" n="93" break="no"/>nit effectum, non potentia eius vel scientia: ergo 
+      <lb ed="#T" n="94"/>ipsa solum proprie est causa rerum. 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e170">
+                  <lb ed="#T" n="95"/>4. Philosophus 5. Metaph. Omnium 
+      artifi<lb ed="#T" n="96" break="no"/>ciatorum principium est voluntas artificis: sec 
+      <lb ed="#T" n="97"/>omnia procedunt a Deo vt ab artifice: ergo 
+      vo<lb ed="#T" n="98" break="no"/>luntas eius proprie est omnium principium. 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e181">
+                  <lb ed="#T" n="99"/>5. Sola bonitas mouet cum ad operandum: 
+      <lb ed="#T" n="100"/>bonitas vero eius est sua bona voluntas: ergo sua. 
+      <lb ed="#T" n="101"/>bona voluntas est causa omnium operum. 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e190">
+                  <lb ed="#T" n="102"/>Contra. 1. Deus non est causa rerum nisi per 
+      <lb ed="#T" n="103"/>suam operationem: operatio vero ad potentiam 
+      <lb ed="#T" n="104"/>pertinet: ergo potentia proprie est causa. 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e199">
+                  <lb ed="#T" n="105"/>2. Hugo de sancto Victore. Voluntas mouet  
+      <lb ed="#T" n="106"/>sapientia disponit, potentia exequitur: ergo 
+      po<lb ed="#T" n="107" break="no"/>tentia immediatius se habet ad effectum: ergo 
+      <lb ed="#T" n="108"/>magis proprie debet dici causa. 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e210">
+                  <lb ed="#T" n="109"/>3. Si dicitur causa rerum voluntas potius qua 
+      <lb ed="#T" n="110"/>scientia, vel potentia; aut hoc est propter 
+      vir<lb ed="#T" n="111" break="no"/>tutem operantis aut propter modum operandis 
+      <lb ed="#T" n="112"/>si propter virtutem, contra, virtus magis 
+      con<lb ed="#T" n="113" break="no"/>ienit potentiae: si propter modum, contra, agens 
+      <lb ed="#T" n="114"/>per voluntatem non imprimit conditiones suas 
+      <lb ed="#T" n="115"/>in effectu, non enim imprimit artifex artem vel 
+      <lb ed="#T" n="116"/>cientiam in artificiato: sed agens per naturam 
+      <lb ed="#T" n="117"/>imprimit, vt ignis caliditatem: ergo cum Deus 
+      <lb ed="#T" n="118"/>conditiones suas generales, scilicet unitatem, 
+      <lb ed="#T" n="119"/>veritatem, bonitatem, imprimat in operibus 
+      <lb ed="#T" n="120"/>suis, potius debet dici agens per naturam. 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e240">
+                  <lb ed="#T" n="121"/>Respondeo. Tres sunt conditiones in Deo 
+      <lb ed="#T" n="122"/>quibus omnia operatur: scilicet potentia, 
+      scien<lb ed="#T" n="123" break="no"/>tia, &amp; voluntas: harum vero conditionum sola 
+      <lb ed="#T" n="124"/>voluntas determinat ad hoc vel ad illud 
+      ope<lb ed="#T" n="125" break="no"/>randum, &amp; sola mouet seu inclinat ad 
+      operan<lb ed="#T" n="126" break="no"/>dum: nam potentia &amp; scientia se habet ad 
+      mul<lb ed="#T" n="127" break="no"/>ta indeterminate: vnde sola voluntas ponit 
+      effe<lb ed="#T" n="128" break="no"/>ctum. Ideo quamuis tam potentia Dei quam 
+      <lb ed="#T" n="129"/>scientia sit rerum causa, tamen voluntati magis 
+      <lb ed="#T" n="130"/>appropriatur causalitas rerum. 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e264">
+                  <lb ed="#T" n="131"/>Ad 1. in contrarium operatio ad potentiam 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0448.xml-->
+      <pb ed="#T" n="373"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>pertinet &amp;c. Resp. Non pertinet ad potentiam 
+      <lb ed="#T" n="2"/>per se acceptam, sed vt inclinata est per 
+      volun<lb ed="#T" n="3" break="no"/>tatem ad hoc vel ad illud operandum. 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e282">
+                  <lb ed="#T" n="4"/>Ad 2. Potentia exequitur. Resp. Non per se 
+      <lb ed="#T" n="5"/>accepta, sed coniuncta voluntati exequitur.  
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e289">
+                  <lb ed="#T" n="6"/>Ad 3. Aut hoc est propter virtutem agendi. 
+      <lb ed="#T" n="7"/>Resp. Propter vtrumque. Ad illud. Virtus 
+      <lb ed="#T" n="8"/>agentis magis &amp;c. Resp. Virtus agentis duplex 
+      <lb ed="#T" n="9"/>est: imperans scilicet, &amp; exequens: prima 
+      ma<lb ed="#T" n="10" break="no"/>gis conuenit voluntati, secunda magis potentiae 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e302">
+                  <lb ed="#T" n="11"/>Ad illud quod opponitur de modo. Resp. 
+      <lb ed="#T" n="12"/>Quamuis agens voluntarium creatum non 
+      im<lb ed="#T" n="13" break="no"/>primat conditiones suas, tum quia virtutem 
+      ha<lb ed="#T" n="14" break="no"/>bet terminatam, tum quia agit in materiam 
+      de<lb ed="#T" n="15" break="no"/>terminatam: tamen agens voluntarium 
+      increa<lb ed="#T" n="16" break="no"/>tum, quia virtutem infinitam habet, nec 
+      prae<lb ed="#T" n="17" break="no"/>supponit determinatam materiam, sed facit 
+      <lb ed="#T" n="18"/>imprimit conditiones suas quas vult. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f14413-Dd1e324">
+               <head xml:id="pdt7y6-f14413-Hd1e326">Articulus 2</head>
+               <head xml:id="pdt7y6-f14413-Hd1e328" type="question-title">
+  An voluntas Dei sit causa necessaria rerum, vel contingens: an propria &amp; immediata, vel mediata solum
+</head>
+               <p xml:id="pdt7y6-f14413-d1e331">
+                  <lb ed="#T" n="19"/>Articvlvs II. 
+      <lb ed="#T" n="20"/>An voluntas Dei sit causa necessaria rerum, vel 
+      con<lb ed="#T" n="21" break="no"/>tingens: an propria &amp; immediata, vel 
+      me<lb ed="#T" n="22" break="no"/>diata solum. 
+</p>
+               <p xml:id="pdt7y6-f14413-d1e342">
+                  <lb ed="#T" n="23"/>AD secundum sic proceditur. 1. Videtur 
+      <lb ed="#T" n="24"/>quod voluntas Dei sit causa necessaria. 1. 
+      <lb ed="#T" n="25"/>Omnis enim causa contingens est mutabilis: Dei 
+      <lb ed="#T" n="26"/>vero voluntas est omnino immutabilis: ergo non 
+      <lb ed="#T" n="27"/>est causa contingens, sed causa necessaria. 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e355">
+                  <lb ed="#T" n="28"/>2. A causa contingente nunquam exit 
+      effe<lb ed="#T" n="29" break="no"/>ctus necessarius: sed avoluntate Dei multi exeunt. 
+      <lb ed="#T" n="30"/>effectus necessarij: ergo non est causa 
+      contin<lb ed="#T" n="31" break="no"/>gens, sed necessaria, 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e367">
+                  <lb ed="#T" n="32"/>3. Omne quod in Deo est, necessarium est, 
+      <lb ed="#T" n="33"/>quia aeternum: sed voluntas Dei in Deo est, &amp; 
+      <lb ed="#T" n="34"/>vt est voluntas, &amp; vt est causa: ergo est causa 
+      <lb ed="#T" n="35"/>necessaria. 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e378">
+                  <lb ed="#T" n="36"/>Contra. 1. Quod omnino est voluntarium, 
+      <lb ed="#T" n="37"/>nullo modo est necessarium: sed volantas Dei, 
+      <lb ed="#T" n="38"/>est omnino causa voluntaria: ergo nullo modo 
+      <lb ed="#T" n="39"/>necessaria. 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e389">
+                  <lb ed="#T" n="40"/>2. A causa necessaria non procedit effectus 
+      <lb ed="#T" n="41"/>contingens: sed a voluntate Diuina multi 
+      pro<lb ed="#T" n="42" break="no"/>cedunt effectus contingentes: ergo non est causa 
+      <lb ed="#T" n="43"/>necessaria. 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e400">
+                  <lb ed="#T" n="44"/>3. Causa necessaria ex necessitate agit: sed  
+      <lb ed="#T" n="45"/>Deus agit ex libertate: ergo non est causa 
+      ne<lb ed="#T" n="46" break="no"/>cessaria. 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e409">
+                  <lb ed="#T" n="47"/>Item quaeritur an sit causa propria &amp; imme 
+      <lb ed="#T" n="48"/>diata omnium. 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e416">
+                  <lb ed="#T" n="49"/>Videtur quod sit. 1. Quia omnis causa quae 
+      pro<lb ed="#T" n="50" break="no"/>ducit totum effectum, est causa propria rei &amp; 
+      <lb ed="#T" n="51"/>immediata: sed talis causa est omnium 
+      volun<lb ed="#T" n="52" break="no"/>tas Diuina: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e428">
+                  <lb ed="#T" n="53"/>2. In Commento i1o propositionum lib. de 
+      <lb ed="#T" n="54"/>causis, dicitur quod inter causam quae agit per 
+      <lb ed="#T" n="55"/>essentiam, &amp; effectum suum, non est medium: 
+      <lb ed="#T" n="56"/>ergo cum voluntas Dei sit huiusmodi causa, ipsa 
+      <lb ed="#T" n="57"/>est causa omnium propria &amp; immediata. 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e441">
+                  <lb ed="#T" n="58"/>3. Omni causa, quae non est propria &amp; 
+      imme<lb ed="#T" n="59" break="no"/>diata, alia est magis propria &amp; immediata: sed 
+      <lb ed="#T" n="60"/>voluntate Diuina ad quemlibet effectum nulla 
+      <lb ed="#T" n="61"/>potest esse causa magis propria, cum tota rei 
+      <lb ed="#T" n="62"/>proprietas producatur ab ipsa; isec magis 
+      im<lb ed="#T" n="63" break="no"/>mediata, quia ipsa est omnium rerum intima: 
+      <lb ed="#T" n="64"/>ergo ipsa est causa omniu propria &amp; immediata. 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e459">
+                  <lb ed="#T" n="65"/>4. Deus scit verissime ominia: ergo per 
+      cau<lb ed="#T" n="66" break="no"/>sam propriam &amp; immediatam: ergo cum nesciat.  
+      <!--1652-gregPress-MichiganState-gbooks-v1-0448.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>nisi per se, ipse est causa omnium propria &amp; 
+      im<lb ed="#T" n="68" break="no"/>mediata: sed non est causa nisi per suam 
+      volun<lb ed="#T" n="69" break="no"/>tatem: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e477">
+                  <lb ed="#T" n="70"/>Contra. 1. Non potest esse eiufdem effectus 
+      du<lb ed="#T" n="71" break="no"/>plex propria causa &amp; immediata: si ergo 
+      volun<lb ed="#T" n="72" break="no"/>tas Dei est omnium propria causa &amp; immediata, 
+      <lb ed="#T" n="73"/>nulla est alia causa alicuius rei propria &amp; 
+      imme<lb ed="#T" n="74" break="no"/>diata: sed hoc est falsum: ergo primum. 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e490">
+                  <lb ed="#T" n="75"/>2. Ponita causa propria &amp; immediata ponitur  
+      <lb ed="#T" n="76"/>effectus: sed posita Diuina voluntate, non 
+      po<lb ed="#T" n="77" break="no"/>nuntur omnia: ergo ipsa non est huiusmodi 
+      <lb ed="#T" n="78"/>causa omnium. 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e501">
+                  <lb ed="#T" n="79"/>3. Reddita causa propria &amp; immediata, 
+      stul<lb ed="#T" n="80" break="no"/>tum est aliam quaerere: ergo ad causam 
+      redden<lb ed="#T" n="81" break="no"/>dam omnium quae fiunt, sufficit reddere solam 
+      <lb ed="#T" n="82"/>Diuinam voluntatem: sed hoc est falsum: ergo 
+      <lb ed="#T" n="83"/>primum. 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e515">
+                  <lb ed="#T" n="84"/>Respondeo ad primam quaestionem. Duplex 
+      <lb ed="#T" n="85"/>est necenitas: vna scilicet ineuitabilit. tis nue 
+      <lb ed="#T" n="86"/>coactionis, hoc modo Deus nullius est causa rei 
+      <lb ed="#T" n="87"/>necessaria: altera immutabilitatis, hoc modo 
+      <lb ed="#T" n="88"/>Deus est causa necessaria, quia numquam 
+      mu<lb ed="#T" n="89" break="no"/>tatur a dispositione vna siue naturali inae 
+      volun<lb ed="#T" n="90" break="no"/>taria, nec mutari potest. Sed sciedum, quod 
+      hu<lb ed="#T" n="91" break="no"/>iulmodi causae actus duplex est: quid in 
+      inte<lb ed="#T" n="92" break="no"/>rior, connaturalis ipsi causae, vt velie, &amp; nic 
+      si<lb ed="#T" n="93" break="no"/>militer est necessarius: quidam exterior, id est 
+      <lb ed="#T" n="94"/>effectus, qui non est connaturalis, sed ne nihilo 
+      <lb ed="#T" n="95"/>producitur; &amp; hic potest esse vel necessarius, vel 
+      <lb ed="#T" n="96"/>cont ingens, quia talis effectus licet sit mutabilis 
+      <lb ed="#T" n="97"/>non ponit mutabilitatem in causa prima. 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e548">
+                  <lb ed="#T" n="98"/>Ad 1. in contrarium. Quod est omnino 
+      vo<lb ed="#T" n="99" break="no"/>suntarium &amp;c. Resp. Nec: ssitas immutabi 
+      lita<lb ed="#T" n="100" break="no"/>tis non repugnat voluntati, sed necessitas 
+      con<lb ed="#T" n="101" break="no"/>ditionis. 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e559">
+                  <lb ed="#T" n="102"/>Ad 2. A causa necessaria non procedit 
+      effe<lb ed="#T" n="103" break="no"/>ctus contingens. Resp. Hoc intelligendum est 
+      <lb ed="#T" n="104"/>quando ipsa est tota &amp; sola causa, &amp; quando est 
+      <lb ed="#T" n="105"/>causa necessaria necefnitate ineuitabilitatis, non 
+      <lb ed="#T" n="106"/>solius immutabilitatis: sed hoc modo voluntas 
+      <lb ed="#T" n="107"/>Dei non est causa necessaria. 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e575">
+                  <lb ed="#T" n="108"/>Ad 3. Causa necessaria agit ex necessitate. 
+      <lb ed="#T" n="109"/>Resp. Hoc intelligitur de causa necessaria 
+      neces<lb ed="#T" n="110" break="no"/>sitate ineuitabilitatis, non immutabilitatis quae 
+      <lb ed="#T" n="111"/>non opponitur libertati. 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e586">
+                  <lb ed="#T" n="112"/>Ad secundam iquaest. resp. Causa propria 
+      <lb ed="#T" n="113"/>alicuius rei dupliciter potest dici: aut per 
+      pro<lb ed="#T" n="114" break="no"/>ductionem propriam rei: aut per 
+      appropriatio<lb ed="#T" n="115" break="no"/>nem ad rem illam: primo modo Deus est 
+      pro<lb ed="#T" n="116" break="no"/>pria causa omnium: secundo modo nullius. De 
+      <lb ed="#T" n="117"/>causa vero immediata dici potest, quod 
+      effe<lb ed="#T" n="118" break="no"/>ctuum, qui sunt a causa prima sola, voluntas 
+      <lb ed="#T" n="119"/>Dei est causa immediata tantum: aliorum causa 
+      <lb ed="#T" n="120"/>est &amp; mediata &amp; immediata nquantum enim 
+      <lb ed="#T" n="121"/>pse per essentiam suam proprium effestum 
+      pro<lb ed="#T" n="122" break="no"/>ducit, causa est immediata: inquantum causae 
+      <lb ed="#T" n="123"/>secundae effectum producere ribait, causa est 
+      <lb ed="#T" n="124"/>mediata, ita quod ipse est totius efse::us causa; 
+      <lb ed="#T" n="125"/>&amp; secunda causa similiter est causa totius. 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e619">
+                  <lb ed="#T" n="126"/>Ad 1. in contrarium. Non potest esse 
+      eius<lb ed="#T" n="127" break="no"/>dem duplex causa propria &amp; immediata. 
+      <lb ed="#T" n="128"/>Resp. In causis creatis verum est, quia 
+      deter<lb ed="#T" n="129" break="no"/>minatae sunt ad diuersos effectus: sed in causis 
+      <lb ed="#T" n="130"/>quarum vna est creata altera increata, non. 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e633">
+                  <lb ed="#T" n="131"/>Ad 2. Posit; causa propria &amp; immediata &amp;c. 
+      <lb ed="#T" n="132"/>Resp. Hoc est verum ti ponatur in operari, non 
+      <lb ed="#T" n="133"/>in esse solum. 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e642">
+                  <lb ed="#T" n="134"/>Ad 3. Reddita causa propria &amp; immediata &amp;c. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0449.xml-->
+      <pb ed="#T" n="374"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>Resp. Hoc verum est de causa propria &amp; 
+      imme<lb ed="#T" n="2" break="no"/>diata per determinationem ad illum effectum; 
+      <lb ed="#T" n="3"/>haec enim sic est causa propria, quod non 
+      com<lb ed="#T" n="4" break="no"/>munis: sed non de causa indeterminata. Causa 
+      <lb ed="#T" n="5"/>enim determinata proportionata est suo effectui, 
+      <lb ed="#T" n="6"/>ideo sufficienter notificat ipsum: sed causa 
+      inde<lb ed="#T" n="7" break="no"/>terminata non sic, quia non est proportionata, 
+      <lb ed="#T" n="8"/>sed in infinitum exce dens. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f14413-Dd1e672">
+               <head xml:id="pdt7y6-f14413-Hd1e674">Articulus 3</head>
+               <head xml:id="pdt7y6-f14413-Hd1e676" type="question-title">
+  An voluntas Diuina habeat causam motiuam sui
+</head>
+               <p xml:id="pdt7y6-f14413-d1e679">
+                  <lb ed="#T" n="9"/>Articvlvs III. 
+      <lb ed="#T" n="10"/>An voluntas Diuina habeat causam motiuam sui. 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e686">
+                  <lb ed="#T" n="11"/>AD tertium articulum proceditur sic. 1. 
+      <lb ed="#T" n="12"/>Ephes. 1. Omnia operatur secundum 
+      con<lb ed="#T" n="13" break="no"/>silium voluntatis. Glos. voluntas Dei ex 
+      ratio<lb ed="#T" n="14" break="no"/>ne est: ergo habet causam rationabilem. 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e697">
+                  <lb ed="#T" n="15"/>2. Omnis voluntas rationabilis mouetur ad 
+      <lb ed="#T" n="16"/>volendum ex causa rationabili: sed voluntas Dei. 
+      <lb ed="#T" n="17"/>rationabilis est: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e707">
+                  <lb ed="#T" n="18"/>3. Quamuis certum sit Deum velle aliquid 
+      <lb ed="#T" n="19"/>tamen inquiritur ratio &amp; causa: ergo voluntas 
+      <lb ed="#T" n="20"/>Dei agit ex rationabili causa. 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e716">
+                  <lb ed="#T" n="21"/>Contra. 1. Augustinus dicit hic, quod 
+      volun<lb ed="#T" n="22" break="no"/>tas 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e723">
+      <!-- line coord order error -->
+                  <lb ed="#T" n="23"/>Dei prima &amp; summa causa est omnium: ergo 
+      <lb ed="#T" n="24"/>non mouetur ab vlla causa. 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e732">
+                  <lb ed="#T" n="25"/>2. Dicit Augustinus, quod omnis causa est: 
+      <lb ed="#T" n="26"/>maior causato: sed voluntate Diuina nihil est 
+      <lb ed="#T" n="27"/>maius: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e741">
+                  <lb ed="#T" n="28"/>Respondeo. Differunt causa &amp; ratio: causa 
+      <lb ed="#T" n="29"/>enim mouet, sed ratio solam conuenientiam ad 
+      <lb ed="#T" n="30"/>effectum proponit. Dico ergo quod voluntatis 
+      <lb ed="#T" n="31"/>Dei ad aliquid faciendum nulla est causa: est 
+      <lb ed="#T" n="32"/>tamen ratio, id est rationabilis ordinatio eius 
+      <lb ed="#T" n="33"/>ad suum volitum. Quae ratio, id est ordinatio 
+      <lb ed="#T" n="34"/>rationalis, sumi potest &amp; ex parte volentis in 
+      <lb ed="#T" n="35"/>eius sapientia siue praescientia, &amp; ex parte 
+      voli<lb ed="#T" n="36" break="no"/>ti in aliqua eius conditione futura, cuius similis 
+      <lb ed="#T" n="37"/>non est in eius opposito. 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e765">
+                  <lb ed="#T" n="38"/>Ad 1. De Gloss. Resp. Voluntas Dei ex 
+      ra<lb ed="#T" n="39" break="no"/>tione est, prout Iy ex dicit concomitantiam, id  
+      <lb ed="#T" n="40"/>est, rationalis est: non causam. Vel voluntas 
+      ac<lb ed="#T" n="41" break="no"/>cipitur pro volito 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e777">
+                  <lb ed="#T" n="42"/>Ad 2. Omnis voluntas rationalis &amp;c. Resp. 
+      <lb ed="#T" n="43"/>Hoc locum habet in voluntate quae non est sua, 
+      <lb ed="#T" n="44"/>regula, vnde errare potest, &amp; ideo mouet mota. 
+      <lb ed="#T" n="45"/>sed Diuina voluntas regulasua est, 
+    </p>
+               <p xml:id="pdt7y6-f14413-d1e788">
+                  <lb ed="#T" n="46"/>Ad 3. Quamuis certum sit Deum velle&amp;c. 
+      <lb ed="#T" n="47"/>Resp. Inquiritur causa voliti, sed non 
+      volun<lb ed="#T" n="48" break="no"/>tatis Diuinae. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="31"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-ee8635"><!-- l1d3q3 -->
+            <head xml:id="pdt7y6-ee8635-Hd1e99">Quaestio 3</head>
+            <head xml:id="pdt7y6-ee8635-Hd1e101" type="question-title">De medio cognoscendi Deum</head>
+            <p xml:id="pdt7y6-ee8635-d1e104">
+               <lb ed="#T" n="31"/>QVESTIO TERTIA
+      <lb ed="#T" n="32"/>DE MEDIO COGNOSCENDI DEVM.
+</p>
+            <p xml:id="pdt7y6-ee8635-d1e111">
+               <lb ed="#T" n="33"/>Tertio quaeritur de vestigio Dei in creatura. 
+      <lb ed="#T" n="34"/>quod est medium cognoscendi. 
+      <lb ed="#T" n="35"/>Primo quaeritur. An omnis creatura sit 
+      vesti<lb ed="#T" n="36" break="no"/>gium. 
+      <lb ed="#T" n="37"/>Secundo cuius sit cognoscere Deum per 
+      vesti<lb ed="#T" n="38" break="no"/>gium. 
+    </p>
+            <div xml:id="pdt7y6-ee8635-Dd1e127">
+               <head xml:id="pdt7y6-ee8635-Hd1e129">Articulus 1</head>
+               <head xml:id="pdt7y6-ee8635-Hd1e131" type="question-title">An omnis creatura sit vestigium</head>
+               <p xml:id="pdt7y6-ee8635-d1e134">
+                  <lb ed="#T" n="39"/>Articvlvs <unclear>II. </unclear>
+                  <lb ed="#T" n="40"/>An omnis creatura sit vestigium.
+</p>
+               <p xml:id="pdt7y6-ee8635-d1e143">
+                  <lb ed="#T" n="41"/>AD primum sic proceditur 1. Augustinus 
+      <lb ed="#T" n="42"/>Omnis creatura gerit vestigium creatoris 
+      <lb ed="#T" n="43"/>&amp; est similis ei. 
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e152">
+                  <lb ed="#T" n="44"/>2. Vt dicit Augustinus, Deus per omnia suae 
+      <lb ed="#T" n="45"/>significationis indicia sparsit.  
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e160">
+                  <lb ed="#T" n="46"/>3. Vt dicit Philosophus, omne agens quodam 
+      <lb ed="#T" n="47"/>modo habet similitudinem, seu speciem rei 
+      <lb ed="#T" n="48"/>quam facit: ergo res facta semper assimilatur suo 
+      <lb ed="#T" n="49"/>factori. 
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e171">
+                  <lb ed="#T" n="50"/>4. Vestigium Trinitatis consistit in modo, 
+      <lb ed="#T" n="51"/>specie, &amp; ordine rerum, seu numero, 
+      ponde<lb ed="#T" n="52" break="no"/>re, &amp; mensura: haec autem tria in omnibus 
+      crea<lb ed="#T" n="53" break="no"/>turis est reperire: nam, vt ait Augustinus, vbi 
+      <lb ed="#T" n="54"/>naec nulla sunt, ergo nulla bona sunt. Ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e184">
+                  <lb ed="#T" n="55"/>Contra 1. Vestigium est similitudo, 
+      similitu<lb ed="#T" n="56" break="no"/>do secundum Philosophum est rerum 
+      diffe<lb ed="#T" n="57" break="no"/>rentium eadem qualitas: creaturae ad Deum 
+      <lb ed="#T" n="58"/>non est eadem qualitas: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e195">
+                  <lb ed="#T" n="59"/>2. Vestigium est figuratio lineamentorum 
+      <lb ed="#T" n="60"/>pedis in puluere: infinitum vero omnino est 
+      in<lb ed="#T" n="61" break="no"/>sigurabile: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e204">
+                  <lb ed="#T" n="62"/>3. Vestigium diuiditur contra imaginem: 
+      <lb ed="#T" n="63"/>ergo creaturi, quae est imago Dei, non est vesti¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0106.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="64"/>gium. 
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e217">
+                  <lb ed="#T" n="65"/>4. Vestigium consistit in modo, specie &amp; 
+      <lb ed="#T" n="66"/>ordine: in quolibet autem istorum per se 
+      quam<lb ed="#T" n="67" break="no"/>uis sint creatura, non tamen sunt illa, alioquin 
+      <lb ed="#T" n="68"/>esset abire in infinitum: ergo non omnis 
+      creatu<lb ed="#T" n="69" break="no"/>ra est vestiglum. 
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e231">
+                  <lb ed="#T" n="70"/>5. Ambros. in hexameron, lucis natura est, 
+      <lb ed="#T" n="71"/>vt non in numero, pondere, &amp; mensura sit, &amp; 
+      <lb ed="#T" n="72"/>sicut caetera creata: ergo non est vestigium. 
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e240">
+                  <lb ed="#T" n="73"/>Respondeo. Omne agens intendit assimilare 
+      <lb ed="#T" n="74"/>sibi patiens, vt patet in actione naturali ignis 
+      <lb ed="#T" n="75"/>per naturam, &amp; in actione artificiali artificis 
+      <lb ed="#T" n="76"/>per ideam: Deus vero per essentiam est causa 
+      <lb ed="#T" n="77"/>omnis creaturae secundum triplicem rationem 
+      <lb ed="#T" n="78"/>causalitatis: est enim causa efficiens per 
+      poten<lb ed="#T" n="79" break="no"/>tiam, exempiaris per sapientiam, finalis per 
+      bo<lb ed="#T" n="80" break="no"/>nitatem. Hinc est quod omni creaturae imprimit. 
+      <lb ed="#T" n="81"/>similitudinem huius triplicis causalitatis faciens 
+      <lb ed="#T" n="82"/>omnia in modo, specie, &amp; ordine; in numero, 
+      <lb ed="#T" n="83"/>pondere, &amp; mensura, dans vnicuique esse 
+      ter<lb ed="#T" n="84" break="no"/>minatum, quod attestatur potentiae Patris; esse 
+      <lb ed="#T" n="85"/>distinctum, quod sapientiae filij; esse 
+      ordina<lb ed="#T" n="86" break="no"/>tum quod bonitati Spiritus Sancti. Notandum 
+      <lb ed="#T" n="87"/>vero, quod similitudo est duplex, quaedam 
+      <lb ed="#T" n="88"/>indistincte reprae sentans, vt similitudo pedis, 
+      <lb ed="#T" n="89"/>quae repraesuntat speciem animalis, sed non 
+      in<lb ed="#T" n="90" break="no"/>diuiduum, quaedam distinete, vt similitude 
+      <lb ed="#T" n="91"/>facile repraesentat indiuiduum. Prima trasfertur 
+      <lb ed="#T" n="92"/>ad figurandam repraesentationem naturae 
+      com<lb ed="#T" n="93" break="no"/>munis; secunda personae. Prima dicitur 
+      vesti<lb ed="#T" n="94" break="no"/>gium, secunda vero imago. Prima est in 
+      omni<lb ed="#T" n="95" break="no"/>bus creaturis; secunda in solis rationalibus. 
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e292">
+                  <lb ed="#T" n="96"/>Ad 1. In contrarium de similitudine. Resp. 
+      <lb ed="#T" n="97"/>Similitudo accipitur multipliciter; vel 
+      aequali<lb ed="#T" n="98" break="no"/>tatis, vt duorum hominum in humanitate, vel 
+      <lb ed="#T" n="99"/>participationis, vt duorum aiborum in 
+      albedi<lb ed="#T" n="100" break="no"/>ne; vel imitationis, vt imaginis, &amp; imaginati: 
+      <lb ed="#T" n="101"/>secundam, definit Philosophus. Tertia est 
+      <lb ed="#T" n="102"/>inter creaturam, &amp; Deum. 
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e310">
+                  <lb ed="#T" n="103"/>Ad 2. Vestigium est figuratio. Resp. 
+      Simi<lb ed="#T" n="104" break="no"/>litudo transsationis huius nominis attenditur 
+      <lb ed="#T" n="105"/>quoad repraesentationem indistinctam, non 
+      <lb ed="#T" n="106"/>quoad figurationem 
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e321">
+                  <lb ed="#T" n="107"/>Ad 3. Velligium diuiditur contra imaginem. 
+      <lb ed="#T" n="108"/>Resp. Diuisio illa non est per oppositionem rei, 
+      <lb ed="#T" n="109"/>sed rationis: vnde non sequitur, quod idem 
+      <lb ed="#T" n="110"/>suppositum non possit esse vestigium, &amp; imago; 
+      <lb ed="#T" n="111"/>sed tantum, quod non secundum idem sit 
+      vesti<lb ed="#T" n="112" break="no"/>gium &amp; imago: &amp; hoc verum est; nam secundum 
+      <lb ed="#T" n="113"/>naturam est anima rationalis vestigium; 
+      secun<lb ed="#T" n="114" break="no"/>dum rationem, imago. 
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e341">
+                  <lb ed="#T" n="115"/>Ad. 4. de modo, specie, &amp; ordine. Resp. 
+      <lb ed="#T" n="116"/>sicut intentio operationis artificis perfecte 
+      ter<lb ed="#T" n="117" break="no"/>minatur ad ens completum, &amp; non ad partes 
+      <lb ed="#T" n="118"/>eius, vel proprietates; ita intentio 
+      assimilatio<lb ed="#T" n="119" break="no"/>nis: vnde perfecta vestigij assimilatio in ente 
+      <lb ed="#T" n="120"/>completo requirenda est, non in singulis 
+      par<lb ed="#T" n="121" break="no"/>tibus, vel proprietatibus eius, quae tamen 
+      <lb ed="#T" n="122"/>omnia in modo, specie, &amp; ordine producta sunt.  
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e362">
+                  <lb ed="#T" n="123"/>Ad 5. de luce. Resp. non intendit 
+      Ambros<lb ed="#T" n="124" break="no"/>dicere, quod careat omni modo, specie, &amp; 
+      or<lb ed="#T" n="125" break="no"/>dine; sed non habet hoc ita limitate, sicut 
+      caete<lb ed="#T" n="126" break="no"/>rae creaturae corporales, eo quod est qualitas 
+      <lb ed="#T" n="127"/>agentis vniuersalis, scilicet coeli, per quam 
+      <lb ed="#T" n="128"/>agit in inferiora. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-ee8635-Dd1e380">
+               <head xml:id="pdt7y6-ee8635-Hd1e382">Articulus 2</head>
+               <head xml:id="pdt7y6-ee8635-Hd1e384" type="question-title">Cuius sit cognoscere Deum per vestigium.</head>
+               <p xml:id="pdt7y6-ee8635-d1e387">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0107.xml-->
+                  <pb ed="#T" n="32"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>ARTICVLVS II. 
+      <lb ed="#T" n="2"/>Cuius sit cognoscere Deum per vestigium. 
+  </p>
+               <p xml:id="pdt7y6-ee8635-d1e400">
+                  <lb ed="#T" n="3"/>AD secundum, proceditur sic: Videtur enim 
+      <lb ed="#T" n="4"/>quod conueniat cognitio per vestigium 
+      <lb ed="#T" n="5"/>brutis. 1. Quid secundum Augustinum: Omiuis 
+      <lb ed="#T" n="6"/>inima mouetur visis: ergo recipit cognitionem 
+      <lb ed="#T" n="7"/>diuinae virtutis in specie sibi ostensa mouentis 
+      <lb ed="#T" n="8"/>iliter enim quomodo obediret ei, vt asina 
+      An<lb ed="#T" n="9" break="no"/>gelo. Num. 22. 
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e418">
+                  <lb ed="#T" n="10"/>2. Omnia bonum exoptant: in hoc enim 
+      ap<lb ed="#T" n="11" break="no"/>petitu abundant sensibilia a non sensibilibus. 
+      <lb ed="#T" n="12"/>quia illa appetunt bonum per solam 
+      inclinatio<lb ed="#T" n="13" break="no"/>nem naturalem; haec vero per apprehensionem: 
+      <lb ed="#T" n="14"/>ergo bonum apprehendunt, ergo ea, in quibus 
+      <lb ed="#T" n="15"/>consistit bonum, scilicet modum, speciem, &amp; 
+      <lb ed="#T" n="16"/>ordinem: ergo vestigium. 
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e437">
+                  <lb ed="#T" n="17"/>Coritra. Vestigiuin est signum: non cognoscit 
+      <lb ed="#T" n="18"/>signum: qui non cognoscit habitudinem eius ad 
+      <lb ed="#T" n="19"/>ignificatum: hoc autem sola creatura rationalis 
+      fa<lb ed="#T" n="20" break="no"/>cere potest, ergo conuenit cognitio per 
+      vesti<lb ed="#T" n="21" break="no"/>gium soli creaturae rationali 
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e450">
+                  <lb ed="#T" n="22"/>Videtur autem haec cognitio per vestigium 
+      <lb ed="#T" n="23"/>oli viatori, non Angelo vel beato conuenire 
+      <lb ed="#T" n="24"/>Quid enim opus est scala tenenti iam solium, 
+      <lb ed="#T" n="25"/>ait Bern. lib. de Consider. scala ad 
+      cognoscen<lb ed="#T" n="26" break="no"/>dum Deum, vestigium creaturae est: 
+      compre<lb ed="#T" n="27" break="no"/>hensor vero homo, seu Angelus, iam perfecte 
+      <lb ed="#T" n="28"/>&amp; immediate cognoscit Deum. Ergo &amp;c. Item 
+      <lb ed="#T" n="29"/>videnti facie ad faciem non est speculum 
+      ne<lb ed="#T" n="30" break="no"/>cessarium: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e472">
+                  <lb ed="#T" n="31"/>Contra, apprehensores siue homines, siue 
+      An<lb ed="#T" n="32" break="no"/>geli vident Deum in creatura, &amp; illam visionem 
+      <lb ed="#T" n="33"/>referunt in Deum: ergo cognoscunt Deum pero 
+      <lb ed="#T" n="34"/>vestigium. 
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e483">
+                  <lb ed="#T" n="35"/>Videtur rursus quod solum in statu culpae 
+      <lb ed="#T" n="36"/>uonin statu inhnocentiae conueniat viatori 
+      ho<lb ed="#T" n="37" break="no"/>nin 
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e492">
+                  <lb ed="#T" n="38"/>1. Quia dicit Magister 4. sent. distinct. prima 
+      <lb ed="#T" n="39"/>quod ante peccatum homo immediate videbat,  
+      <lb ed="#T" n="40"/>Deum. 
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e501">
+                  <lb ed="#T" n="41"/>2. Non est ordo congruus, vt magis 
+      propin<lb ed="#T" n="42" break="no"/>quum Deo coniungatur per magis remotum: 
+      <lb ed="#T" n="43"/>creatura vero rationalis innocens erat Deo 
+      pro<lb ed="#T" n="44" break="no"/>inquior &amp; similior, quam quod libet 
+      cuiuscum<lb ed="#T" n="45" break="no"/>que creaturae vestigium: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e515">
+                  <lb ed="#T" n="46"/>Contra. Cognitio intellectus humai in statu, 
+      <lb ed="#T" n="47"/>quo carni vnitus est, a sensu habet ortum: ergo 
+      <lb ed="#T" n="48"/>non apprehendit, nisi per medium rerum 
+      sen<lb ed="#T" n="49" break="no"/>sibilium: ergo per vestigium creaturarum. 
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e526">
+                  <lb ed="#T" n="50"/>Respondeo. Cognitio per vestigium a creatura. 
+      <lb ed="#T" n="51"/>incipit, &amp; terminatur ad Deum: vtitur enim 
+      <lb ed="#T" n="52"/>creatura ad cognoscendum Deum quia a 
+      crea<lb ed="#T" n="53" break="no"/>tura incipit, nec conuenit comprehensori, qui &amp; 
+      <lb ed="#T" n="54"/>contra creaturam cognoscit per Deum, quia ad 
+      <lb ed="#T" n="55"/>Deum ordinatur: nec competit bruto, quia 
+      <lb ed="#T" n="56"/>non apprehendit Deum. 
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e544">
+                  <lb ed="#T" n="57"/>Notandum ergo quod aliud est cognoscere 
+      <lb ed="#T" n="58"/>per vestigium, aliud in vestigio, quia primo 
+      <lb ed="#T" n="59"/>modo vocatur medium cognoscendi; secundo 
+      <lb ed="#T" n="60"/>modo objectum: homo vero viator cognoscit in 
+      <lb ed="#T" n="61"/>vestigio, &amp; per vestigium: Angelus, vel 
+      ho<lb ed="#T" n="62" break="no"/>mo comprehensor in vestigio, non per 
+      vesti<lb ed="#T" n="63" break="no"/>gium: brutum nec in vestigio, nec per 
+      vesti<lb ed="#T" n="64" break="no"/>gium: sicut homo familiaris cognoscit faciem 
+      <lb ed="#T" n="65"/>hominis sibi noti, non in speculo, nec per 
+      spe<lb ed="#T" n="66" break="no"/>culum; homo extraneus in speculo &amp; per spe¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0107.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>culum; brutum vero nec in speculo, nec per speculum. 
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e575">
+                  <lb ed="#T" n="68"/>Ad 1. Omnis anima. Resp. Motus iste 
+      <lb ed="#T" n="69"/>est per apprehensionem rei, quae est vestigium, 
+      <lb ed="#T" n="70"/>sed non inquantum est vestigium, imo 
+      natu<lb ed="#T" n="71" break="no"/>raliter.  
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e586">
+                  <lb ed="#T" n="72"/>Ad 2. De apprehensione boni. Resp. 
+      <lb ed="#T" n="73"/>Quamuis bruta apprehendant id, quod bonum 
+      <lb ed="#T" n="74"/>est, non tamen secundum rationem boni 
+      sim<lb ed="#T" n="75" break="no"/>pliciter, id est, ea, in quibus fundatur 
+      bonita<lb ed="#T" n="76" break="no"/>ris ratio. 
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e599">
+                  <lb ed="#T" n="77"/>Ad contrarium quaest. 1. Referunt 
+      compre<lb ed="#T" n="78" break="no"/>hensores cognitionem creaturae in Deum. Resp. 
+      <lb ed="#T" n="79"/>Referunt laudando, sed non in cognitionem eius 
+      <lb ed="#T" n="80"/>pet creaturam deueniendo. 
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e611">
+                  <lb ed="#T" n="81"/>Ad 1. Quaest. 2. De statu innocentiae. Resp. 
+      <lb ed="#T" n="82"/>tunc videbat homo Deum per vestigium 
+      crea<lb ed="#T" n="83" break="no"/>Turae, sed quidem clarius, quam modo, &amp; 
+      <lb ed="#T" n="84"/>propter obscuritatem intellectus, &amp; propter  
+      <lb ed="#T" n="85"/>deteriorationem rerum, saltem quoad vlum 
+      ho<lb ed="#T" n="86" break="no"/>minis. Dicitur autem tunc videre sine 
+      medio<lb ed="#T" n="87" break="no"/>aenigmatis in intellectu, non speculi in creatura. 
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e629">
+                  <lb ed="#T" n="88"/>Ad 2. De propinquitate. Resp. Creatura 
+      <lb ed="#T" n="89"/>potest considerati vt res, &amp; sic magis remota est, 
+      <lb ed="#T" n="90"/>vel vt signum, sic potest assumi, vt medium 
+      <lb ed="#T" n="91"/>disponens. 
+      <lb ed="#T" n="92"/>EX POSITIO PRIMAE PARTIS 
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e642">
+                  <lb ed="#T" n="93"/>TE XTVS. 
+      <lb ed="#T" n="94"/>[TNuisibilia Dei &amp;c.] Cotra: ergo in Deo sunt,  
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e649">
+                  <lb ed="#T" n="95"/>Iplura. Resp. nosunt plura pluralitate rei; sed  
+      <lb ed="#T" n="96"/>rationis, siue modo nostro cognoscendi secundum 
+      <lb ed="#T" n="97"/>glos. [Inuisibilia. ] Glossa, natura inuisibilis quae 
+      <lb ed="#T" n="98"/>cognoscitur ex rerum specie, &amp; 
+      magnitudi<lb ed="#T" n="99" break="no"/>ne. [Vitus] id est potentia, quae secundum 
+      <lb ed="#T" n="100"/>glos. cognoscitur ex niundi gubernatione. [
+      Di<lb ed="#T" n="101" break="no"/>uinitas,] id est, bonitas, quae secundum glos. 
+      <lb ed="#T" n="102"/>cognoscitur ex omnium repletione. [A 
+      creatu<lb ed="#T" n="103" break="no"/>ra mundi] glos. ab homine, non tantum ab 
+      <lb ed="#T" n="104"/>Angelis. Ergo Angeli cognoscunt Deum 
+      per<lb ed="#T" n="105" break="no"/>creaturam. Respondeo. Haec determinatio [per 
+      <lb ed="#T" n="106"/>ea, quae sacta sunt. ] non cadit sub 
+      explicatio<lb ed="#T" n="107" break="no"/>ne, sed extra sub hoc sensu. Inuisibilia 
+      inundi<lb ed="#T" n="108" break="no"/>conspiciuntur intellecta ab homine, non solum 
+      <lb ed="#T" n="109"/>ab Augelo, conspiciuntur inquam per ea, quae 
+      <lb ed="#T" n="110"/>facta sunt.  
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e686">
+                  <lb ed="#T" n="111"/>Natura inuisibilis. ] Visione corporali non 
+      <lb ed="#T" n="112"/>visione intellectuali, qua summe visibilis est, 
+      <lb ed="#T" n="113"/>licet non quoad nos 
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e695">
+                  <lb ed="#T" n="114"/>Potuerunt ergo cognoscere.] Argumentum tale 
+      <lb ed="#T" n="115"/>videtur. Mundus iste visibilis opus est ab aliquo 
+      <lb ed="#T" n="116"/>factum: sed nulla creatura potest facere opus 
+      <lb ed="#T" n="117"/>tam magnum: ergo maior est omni creatura, 
+      <lb ed="#T" n="118"/>qui fecit ipsum. Aliud etiam argumentum tale 
+      <lb ed="#T" n="119"/>videtur. Omne mutabile. cum incoeperit esse 
+      <lb ed="#T" n="120"/>habet aliquid immutabile primum existendi 
+      <lb ed="#T" n="121"/>principium: omne ens notum nobis siue 
+      corpo<lb ed="#T" n="122" break="no"/>reum, siue spirituale iutabile est: ergo oportet 
+      <lb ed="#T" n="123"/>quod aliquid habeat existendi immutabile 
+      prin<lb ed="#T" n="124" break="no"/>cipium 
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e722">
+                  <lb ed="#T" n="125"/>[Considerauerunt. ] Argumentum tale videtur. 
+      <lb ed="#T" n="126"/>Non contingit esse vel inuenire bonum &amp; melius, 
+      <lb ed="#T" n="127"/>in rebus, nisi sit aliquid optimum, quod sit 
+      <lb ed="#T" n="128"/>causa bonitatis, illorum: sed in rebus contingit 
+      <lb ed="#T" n="129"/>inuenire bonum corpus meliorem spiritum. 
+      <lb ed="#T" n="130"/>Ergo oportet esse aliquid optimum. 
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e738">
+                  <lb ed="#T" n="131"/>[Intellexerunt.] Argumentum etiam tale 
+      vide<lb ed="#T" n="132" break="no"/>tur. Non possunt: esse aliqua secundum magis &amp; 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0108.xml-->
+      <pb ed="#T" n="33"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>minus speciosa, nisi sit aliquid per essentiam 
+      spe<lb ed="#T" n="2" break="no"/>ciosum: sed seusibilia sunt spetiosa, 
+      intelligibi<lb ed="#T" n="3" break="no"/>lia speciosiora: ergo oportet aliquid esset per 
+      esse<lb ed="#T" n="4" break="no"/>tiam speciosum. 
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e760">
+                  <lb ed="#T" n="5"/>[Ex perpetuitate namque.] Contra non omnis 
+      <lb ed="#T" n="6"/>causa quratione praecedit effectum, vt 
+      luxsplendo<lb ed="#T" n="7" break="no"/>rem. Resp. Duplex est causa, quaedamnaturalis 
+      <lb ed="#T" n="8"/>&amp; de se producens effectum, quaedam voluntaria 
+      <lb ed="#T" n="9"/>aliunde producens effectum: prima praeedit effectum 
+      <lb ed="#T" n="10"/>natura saltem, secunda etiam duratione, 
+      <lb ed="#T" n="11"/>[Ex magnitudine omnipotens] Contra, 
+      magni<lb ed="#T" n="12" break="no"/>tudo finita est, omnipotentia infinita est: 
+      effe<lb ed="#T" n="13" break="no"/>ctus vero finitus non ducit in cognitionem causae 
+      <lb ed="#T" n="14"/>infinitae. Resp. Quamuis secundum se 
+      magni<lb ed="#T" n="15" break="no"/>tudo non ducat in cognitionem 
+      omnipoten<lb ed="#T" n="16" break="no"/>tiae; tamen comparando ad illud, ex quo 
+      pro<lb ed="#T" n="17" break="no"/>ducitur, quia ex nihilo, &amp; ad potentiam 
+      al<lb ed="#T" n="18" break="no"/>terius cuiuslibet agentis, ducit  
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e793">
+                  <lb ed="#T" n="19"/>[Ex ordine &amp; dispositione sapiens] Contra, 
+      <lb ed="#T" n="20"/>ordo indicat causam finale, a d quam omnia 
+      or<lb ed="#T" n="21" break="no"/>dinantur, scilicet bonitate. Resp. Est ordo rei ad 
+      <lb ed="#T" n="22"/>rem, &amp; rei in finem; primus indicat sapientiam; 
+      <lb ed="#T" n="23"/>secundus ibonitatem. 
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e806">
+                  <lb ed="#T" n="24"/>[Vnitatem jqua in se terminatur, quod refertur 
+      <lb ed="#T" n="25"/>ad modum vel mensuram. [Speciem, qua ab alijs 
+      <lb ed="#T" n="26"/>distinguitur, quod refertur ad numerum [Ordine 
+      <lb ed="#T" n="27"/>quo in finem refertur, quod refertur ad pondus 
+      <lb ed="#T" n="28"/>primum appropriatur potentiae Patris; secundum 
+      <lb ed="#T" n="29"/>sapientiae filij; tertium bonitati Spiritus sancti 
+      <lb ed="#T" n="30"/>Accipi vero possunt haec omnia vestigia 
+      creatu<lb ed="#T" n="31" break="no"/>rarum penes tria, quae est reperire in omnibus 
+      crea<lb ed="#T" n="32" break="no"/>is secundum Philosophum lib. de Coelo &amp; Mundo, 
+      <lb ed="#T" n="33"/>scilicet primum, medium &amp; finem. Et quia haec 
+      <lb ed="#T" n="34"/>secundum diuersas comparationes diuersimode 
+      <lb ed="#T" n="35"/>possunt comparari, ideo diuersa, &amp; diuerso 
+      mo<lb ed="#T" n="36" break="no"/>do assignantur vestigia Dei in creaturis, vel in 
+      <lb ed="#T" n="37"/>sui natura, vel in comparatione ad cognitionem 
+      <lb ed="#T" n="38"/>animae, vel in comparatione ad res alias, vel in 
+      <lb ed="#T" n="39"/>comparatione ad finem vltimum. In sui natura 
+      <lb ed="#T" n="40"/>dicitur, vel secundum fieri, vel secundum esse: 
+      secun<lb ed="#T" n="41" break="no"/>dum esse vero multis modis, quia vel secundum 
+      substa<lb ed="#T" n="42" break="no"/>tia, vel secundum virtutem: vel, secundum 
+      compara<lb ed="#T" n="43" break="no"/>tione prout comparare possunt hec diligenterintueti. 
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e852">
+                  <lb ed="#T" n="44"/>Aquo sumus] vt causa efficienti. [per que 
+      <lb ed="#T" n="45"/>sumus) vt causam exemplarem. [In quo sumus] 
+      <lb ed="#T" n="46"/>vt causa conseruante, quod pertinet ad 
+      bonita<lb ed="#T" n="47" break="no"/>tem, quae est causa finalis. 
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e864">
+                  <lb ed="#T" n="48"/>[Magi in tertio signo. 
+      <lb ed="#T" n="49"/>Contra, quia praecessit conuersio virgarum 
+      <lb ed="#T" n="50"/>in serpentes, &amp; manus sanae in leprosam, &amp; 
+      <lb ed="#T" n="51"/>aquae in sanguinem, vt patet. Exodi 7. 
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e875">
+                  <lb ed="#T" n="52"/>Respondeo. Loquitur. de signo, quod fuit 
+      <lb ed="#T" n="53"/>signum, &amp; plaga, non signum tantum.
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e882">
+                  <lb ed="#T" n="54"/>DIVISIOSECVNDE PARTIS 
+      <lb ed="#T" n="55"/>SEXNNVS. 
+      <lb ed="#T" n="56"/>[RVVnc vero ad eam) Hic probat secundo Tri¬ 
+      <lb ed="#T" n="57"/>Nnitatem, &amp; vnitatem per imaginem 
+      dreatu<lb ed="#T" n="58" break="no"/>rarum rationabilium, &amp; primo per imaginem 
+      <lb ed="#T" n="59"/>quae fundatur super naturales potentias, 
+      secun<lb ed="#T" n="60" break="no"/>do per imaginem, quae fundatur supor 
+      natum<lb ed="#T" n="61" break="no"/>les habitus, vul actus [potest etiam alio modo: 
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e902">
+                  <lb ed="#T" n="62"/>In prima parte primo ponit imaginis, &amp; 
+      par<lb ed="#T" n="63" break="no"/>tium eius assignationem; secundo ostendip 
+      par<lb ed="#T" n="64" break="no"/>tium assignatarum aequalitatem[AEqualia etiam 
+      <lb ed="#T" n="65"/>tertio ipsarum in sua substantia ostendit 
+      radica<lb ed="#T" n="66" break="no"/>tionem. ] Hic attendendum] quarto earum ad 
+      <lb ed="#T" n="67"/>id eius sunt imago dissimilitudine. [Veruntamen¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0108.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="68"/>In prima parte primo ostendit, vbi sit 
+      quaeren<lb ed="#T" n="69" break="no"/>da imago Dei: secundo, in quo attendatur ratio 
+      <lb ed="#T" n="70"/>imaginis[ecce ergo mens. ]In secunda parte 
+      pri<lb ed="#T" n="71" break="no"/>mo assignat aequalitatem trium potentiarum. 
+      <lb ed="#T" n="72"/>[Simul aequalia] secundo specialiter aequalitatem 
+      <lb ed="#T" n="73"/>memoriae [totamque memoriam) tertio 
+      intelli<lb ed="#T" n="74" break="no"/>gentiae [similiter omnia haec.] Quarto voluntatis 
+      <lb ed="#T" n="75"/>voluntas etia] vbi primo assignat aequalitatem: 
+      se<lb ed="#T" n="76" break="no"/>cundo quorunnda vocabulorum quae posuit tagit 
+      <lb ed="#T" n="77"/>significationem [Ecce illius] In tertia parte 
+      <lb ed="#T" n="78"/>principali circa radicationem potentiarum 
+      ima<lb ed="#T" n="79" break="no"/>ginis in vna essentia, primo ponit dubitationem 
+      <lb ed="#T" n="80"/>ex ratione diuersitatis [Hic attendendum)] 
+      <lb ed="#T" n="81"/>secundo fortificat eam per rationem relatiuae 
+      op<lb ed="#T" n="82" break="no"/>positionis(&amp; haec tria] tertio subdit 
+      determina<lb ed="#T" n="83" break="no"/>tionem dubitationis. [Sed iam videndum.] In 
+      <lb ed="#T" n="84"/>quarta parte circa dissimilitudinem, primo 
+      assi<lb ed="#T" n="85" break="no"/>gnat dissimilitudinem quoad vnitatem 
+      essen<lb ed="#T" n="86" break="no"/>tiae [Veruntamen) Secundo quoad 
+      persona<lb ed="#T" n="87" break="no"/>se distinctionem [Rursus ista ] Tertio e contras 
+      <lb ed="#T" n="88"/>rio assignat similitudinis ratione. [Sciendum vero¬ 
+    </p>
+               <p xml:id="pdt7y6-ee8635-d1e967">
+                  <lb ed="#T" n="89"/>[Potest &amp; alio modo.] Hic assignat 
+      Trini<lb ed="#T" n="90" break="no"/>tatis imaginem, quae fundatur super 
+      habitudi<lb ed="#T" n="91" break="no"/>nes naturales, &amp; primo ponitur imaginis 
+      assi<lb ed="#T" n="92" break="no"/>gnatione, &amp; secundo assignationis vtilitate[ Mens 
+      <lb ed="#T" n="93"/>itaque] in prima parte primo assignat imaginis 
+      <lb ed="#T" n="94"/>distinctionem, secundum earum vnitatem, &amp; 
+      <lb ed="#T" n="95"/>ordinem [Haec autem tria] Secundo earum 
+      tri<lb ed="#T" n="96" break="no"/>nitatem &amp; ordinem [Et est ipsa ] Tertio 
+      <lb ed="#T" n="97"/>earum aequalitatem [Nec est minor] Quarto 
+      <lb ed="#T" n="98"/>carum connexionem [Sunt haec etiam. ] 
+      Assi<lb ed="#T" n="99" break="no"/>gnationis vtilitatem innuit duplicem primo ad 
+      <lb ed="#T" n="100"/>Trinitatem, &amp; vnitatem intelligendam [Mens 
+      <lb ed="#T" n="101"/>itaque) Secundo ad firmiter credendum [
+      Qua<lb ed="#T" n="102" break="no"/>propter. ] 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

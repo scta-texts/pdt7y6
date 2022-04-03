@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="358"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-f10060"><!-- l1d43q2 -->
+            <head xml:id="pdt7y6-f10060-Hd1e99">Quaestio 2</head>
+            <head xml:id="pdt7y6-f10060-Hd1e101" type="question-title">De necessitate operandi in Deo</head>
+            <p xml:id="pdt7y6-f10060-d1e104">
+               <lb ed="#T" n="108"/>QVESTIO II. 
+      <lb ed="#T" n="109"/>DE NECESSITATE OPERANDI 
+      <lb ed="#T" n="110"/>IN DEO. 
+</p>
+            <p xml:id="pdt7y6-f10060-d1e113">
+               <lb ed="#T" n="111"/>CIrca secundum problema principale 
+      quae<lb ed="#T" n="112" break="no"/>Cruntur quatuor.
+      <lb ed="#T" n="113"/>Primo au Deus operetur ex necessitate 
+      na<lb ed="#T" n="114" break="no"/>turae.
+      <lb ed="#T" n="115"/>Secundo an operetur ex necessitate iustitiae. 
+      <lb ed="#T" n="116"/>Tertio an possit plura facere, 
+      <lb ed="#T" n="117"/>Quarto an aliqua possit de potentia absoluta, 
+      <lb ed="#T" n="118"/>quae non potest de potentia ordinata. 
+    </p>
+            <div xml:id="pdt7y6-f10060-Dd1e133">
+               <head xml:id="pdt7y6-f10060-Hd1e135">Articulus 1</head>
+               <head xml:id="pdt7y6-f10060-Hd1e137" type="question-title">
+  An Deus operetur ex necessitate naturae
+</head>
+               <p xml:id="pdt7y6-f10060-d1e140">
+                  <lb ed="#T" n="119"/>Articvlvs I. 
+      <lb ed="#T" n="120"/>An Deus operetur ex necessitate naturae.
+</p>
+               <p xml:id="pdt7y6-f10060-d1e147">
+                  <lb ed="#T" n="121"/>AD primum sic proceditur. 1. Dicit Dyon.1 
+      <lb ed="#T" n="122"/>4. cap. de Diuinis nom. sicut noster sol 
+      <lb ed="#T" n="123"/>non ratiocinans, nec eligens, radios suos 
+      diffun<lb ed="#T" n="124" break="no"/>dit in omnia corpora: ita Diuina bonitas in 
+      om<lb ed="#T" n="125" break="no"/>nia entia: sed operari sine ratiocinatione &amp; 
+      ele<lb ed="#T" n="126" break="no"/>ctione est operari per necessitatem naturae: ergo 
+      <lb ed="#T" n="127"/>Deus operatur per necessitatem naturae. 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e165">
+                  <lb ed="#T" n="128"/>2. Omne agens per essentiam suam, agit 
+      pe<lb ed="#T" n="129" break="no"/>necessitatem, quia quod consequitur essentiam 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0434.xml-->
+      <pb ed="#T" n="359"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>rei, necessario ipsam rem consequitur: sed Deus 
+      <lb ed="#T" n="2"/>agit per essentiam suam, cum sit agens simplex: 
+      <lb ed="#T" n="3"/>ergo per necessitatem. 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e186">
+                  <lb ed="#T" n="4"/>3. Ens Diuinum est per se necessarium, sicut  
+      <lb ed="#T" n="5"/>per se bonum: ergo quicquid est in eo, totum 
+      <lb ed="#T" n="6"/>est necessarium, sicut totum bonum: ergo eius 
+      <lb ed="#T" n="7"/>operatio est necessaria. 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e197">
+                  <lb ed="#T" n="8"/>4. Impossibile est causam effectus necessarij 
+      <lb ed="#T" n="9"/>non esse necessariam: sed Dei operatio causa est 
+      <lb ed="#T" n="10"/>multorum necessariorum: ergo ipsa est necessaria 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e206">
+                  <lb ed="#T" n="11"/>Contra. 1. Ab vno secundum necessitatem 
+      <lb ed="#T" n="12"/>naturae operante non est nisi vnum, quia idem 
+      <lb ed="#T" n="13"/>eodem modo se habens natum est facere idem. 
+      <lb ed="#T" n="14"/>vt dicit Philosophus lib. de generat. &amp; corrupt. 
+      <lb ed="#T" n="15"/>si ergo Deus esset agens per necessitatem, non 
+      <lb ed="#T" n="16"/>esset causa immediata nisi vnius: sed hoc est 
+      fal<lb ed="#T" n="17" break="no"/>sum ergo non agit per necessitatem naturae. 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e224">
+                  <lb ed="#T" n="18"/>2. Omne agens per necessitatem producit et 
+      <lb ed="#T" n="19"/>fectu sibi coaeuum: sed effectus Diuinus non 
+      <lb ed="#T" n="20"/>potest esse Deo coaeuus: ergo non agit per ne 
+      <lb ed="#T" n="21"/>cessitatem naturae. 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e235">
+                  <lb ed="#T" n="22"/>3. Nobilius est agens per voluntatis 
+      liberta<lb ed="#T" n="23" break="no"/>tem, quam per necessitatem naturae: sed Deus 
+      <lb ed="#T" n="24"/>est agens nobilissimum: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e244">
+                  <lb ed="#T" n="25"/>Respondeo. Omne quod sit vel est intentum 
+      <lb ed="#T" n="26"/>&amp; ordinatum in finem aliquem determinatum, 
+      <lb ed="#T" n="27"/>vel non: si non, ergo est a casu, &amp; quae fiunt a 
+      ca<lb ed="#T" n="28" break="no"/>su, non siunt vniformiter, quae vero per naturam 
+      <lb ed="#T" n="29"/>vniformiter: ergo non est per naturam: si vero 
+      <lb ed="#T" n="30"/>est intentum &amp; ordinatum, aut ergo ab ordinam 
+      <lb ed="#T" n="31"/>te coniuncto; aut a separato: aut partim sic, 
+      par<lb ed="#T" n="32" break="no"/>tim non: ab ordinante coniuncto, sicut in 
+      agen<lb ed="#T" n="33" break="no"/>te pure voluntario per electionem: ab ordinante 
+      <lb ed="#T" n="34"/>separato sicut in agente naturali per necessitatem, 
+      <lb ed="#T" n="35"/>vt dicit Themist. Comm. quod natura agit quasi 
+      <lb ed="#T" n="36"/>rememorata a causis superioribus: ab vtroque 
+      <lb ed="#T" n="37"/>sicut in agente voluntario voluntate inclinat  
+      <lb ed="#T" n="38"/>per naturam. Effectus autem Diuini non 
+      siun<lb ed="#T" n="39" break="no"/>a casu, quia ordinate &amp; vniformiter siunt: ergo 
+      <lb ed="#T" n="40"/>secundum intentiouem alicuius ordinantis: sec 
+      <lb ed="#T" n="41"/>non ordinantis separati, quia sic Deus non esset 
+      <lb ed="#T" n="42"/>agens primum nec sufficiens: ergo coniuncti; sed 
+      <lb ed="#T" n="43"/>non ab ipso differentis, quia simplex est: ergo 
+      <lb ed="#T" n="44"/>eiusdem ipsius. Est ergo Deus agens per 
+      volunta<lb ed="#T" n="45" break="no"/>ria electionem non per necessitatem naturalem 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e293">
+                  <lb ed="#T" n="46"/>Ad 1. De Dionys. Resp. Dionysius non in 
+      <lb ed="#T" n="47"/>tendit assignare conuenientiam actionis 
+      Diui<lb ed="#T" n="48" break="no"/>nae ad solarem quoad necessitatem causandi, sed  
+      <lb ed="#T" n="49"/>quoad vniuersalitatem &amp; communitatem 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e304">
+                  <lb ed="#T" n="50"/>Ad 2. Omne agens per essentiam &amp;c. Resp. 
+      <lb ed="#T" n="51"/>Non agit per essentiam vt essentia est vel natu 
+      <lb ed="#T" n="52"/>ra sed vt est potentia, scientia, &amp; voluntas: &amp; 
+      <lb ed="#T" n="53"/>quamuis res sit vna, tamen ratio diuersa &amp; es 
+      <lb ed="#T" n="54"/>fectus. 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e317">
+                  <lb ed="#T" n="55"/>Ad 3. Ens diuinum est per se necessarium. 
+      <lb ed="#T" n="56"/>Resp. Quamuis Dei operatio secundum 
+      princi<lb ed="#T" n="57" break="no"/>pale significatum sit in Deo, non tamen 
+      secun<lb ed="#T" n="58" break="no"/>dum connotatum: &amp; ideo principaliter 
+      signifi<lb ed="#T" n="59" break="no"/>catum id est actus Diuinus, est necessarium, sed  
+      <lb ed="#T" n="60"/>effectus connotatus voluntarius est 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e333">
+                  <lb ed="#T" n="61"/>Ad 4. Impossibile est causam necessarij 
+      effe<lb ed="#T" n="62" break="no"/>ctus non esse necessariam. Resp. De causa 
+      vni<lb ed="#T" n="63" break="no"/>uoca eiusdem generis cum suo effectu, verum est 
+      <lb ed="#T" n="64"/>hoc; sed non oportet de causa prima quae non 
+      <lb ed="#T" n="65"/>est vniuoca cum vllo effectu suo: quae tamen 
+      ne<lb ed="#T" n="66" break="no"/>cessaria est necessitate immutabilitatis, sed non 
+      <lb ed="#T" n="67"/>necessario causat, sed arbitrio voluntatis.
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f10060-Dd1e353">
+               <head xml:id="pdt7y6-f10060-Hd1e355">Articulus 2</head>
+               <head xml:id="pdt7y6-f10060-Hd1e357" type="question-title">
+  An Deus operetur ex necessitate iustitiae
+</head>
+               <p xml:id="pdt7y6-f10060-d1e360">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0434.xml-->
+                  <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="68"/>ARTICVLVS II. 
+      <lb ed="#T" n="69"/>An Deus operetur ex necessitate tustitiae.
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e371">
+                  <lb ed="#T" n="70"/>AD secundum articulum proceditur sic. 1. 
+      <lb ed="#T" n="71"/>2. Timoth. 2. Fidelis Deus seipsum negare: 
+      <lb ed="#T" n="72"/>non potest: ergo cum ipse sit iustitia non potesta 
+      <lb ed="#T" n="73"/>negare iustitiam: ergo agit ex necessitate iustitiae. 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e382">
+                  <lb ed="#T" n="74"/>2. Quicquid sit sine iustitia ab agente 
+      volun<lb ed="#T" n="75" break="no"/>tario, est iniustum: sed Deus nihil potest 
+      face<lb ed="#T" n="76" break="no"/>re iniustum: ergo nihil sine iustitia: ergo 
+      ope<lb ed="#T" n="77" break="no"/>ratur ex necessitate iustitiae. 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e394">
+                  <lb ed="#T" n="78"/>3. Causae naturales dicuntur agere 
+      necessita<lb ed="#T" n="79" break="no"/>te naturae, quia determinatae sunt ad vnum 
+      op<lb ed="#T" n="80" break="no"/>positorum: ergo a simili, cum Deus sit 
+      determina<lb ed="#T" n="81" break="no"/>tus ad vnum oppositorum scilicet ad bonum 
+      <lb ed="#T" n="82"/>vel iustum, ipse agit per necessitatem iustitiae. 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e407">
+                  <lb ed="#T" n="83"/>Contra. 1. Rom. 2. An ignoras. Gloss. Deus &amp; 
+      <lb ed="#T" n="84"/>omnipotens paratus est saluare per 
+      misericor<lb ed="#T" n="85" break="no"/>diam quos non potest per iustitiam: ergo non 
+      <lb ed="#T" n="86"/>agit ex necessitate iustitiae. 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e418">
+                  <lb ed="#T" n="87"/>2. Multos per miraculum reuocauit ad statum 
+      <lb ed="#T" n="88"/>vitae praesentis &amp; penitentiae, qui erant damnati, 
+      <lb ed="#T" n="89"/>vt Traianum Imperatorem gentilem ad preces 
+      <lb ed="#T" n="90"/>Gregorij: ergo non agit ex necessitate iustitiae. 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e429">
+                  <lb ed="#T" n="91"/>3. Non agit per necessitatem iustitiae creatae, 
+      <lb ed="#T" n="92"/>quia non est regula operationis Diuinae; nec 
+      in<lb ed="#T" n="93" break="no"/>creatae, quia ipsa non contrariatur 
+      voluntatiDi<lb ed="#T" n="94" break="no"/>uinae: ergo nullo modo.
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e440">
+                  <lb ed="#T" n="95"/>Respondeo. Agere ex necessitate iustitiae 
+      po<lb ed="#T" n="96" break="no"/>test intelligi dupliciter: aut necessitate coactio. 
+      <lb ed="#T" n="97"/>nis; sic non: aut ex necessitate immutabilitatis, 
+      <lb ed="#T" n="98"/>aut ergo iustitiae quae est exigentia meritorum: 
+      <lb ed="#T" n="99"/>sic non, quia illa potest mutari: aut iustitiae quae 
+      <lb ed="#T" n="100"/>est condecentia bonitatis Diuinae idque aut 
+      <lb ed="#T" n="101"/>simpliciter, sic omnia operatur ex necessitate 
+      iu<lb ed="#T" n="102" break="no"/>stitiae, quia nihil potest facere quod non sit 
+      con<lb ed="#T" n="103" break="no"/>cedens bonitati suae: aut vt nunc, sic nihil 
+      ope<lb ed="#T" n="104" break="no"/>ratur ex necessitate iustitiae, quia condecentiam 
+      <lb ed="#T" n="105"/>quae nunc est, potest mutare. Quandoque enim 
+      <lb ed="#T" n="106"/>tota determinatio operis dependet a parte 
+      ope<lb ed="#T" n="107" break="no"/>rantis: quandoque ex genere operis: 
+      operatio<lb ed="#T" n="108" break="no"/>num nostrarum determinatio ad bonum &amp; ad 
+      <lb ed="#T" n="109"/>malum non tota dependet ex parte nostra, sed  
+      <lb ed="#T" n="110"/>quandoque ex genere operis, quia quaedam sunt,  
+      <lb ed="#T" n="111"/>per se bona, quedam per se mala, quaedam per 
+      <lb ed="#T" n="112"/>se indifferentia: sed determinatio Diuinorum 
+      <lb ed="#T" n="113"/>operum dependet totaliter ex parte Dei 
+      operan<lb ed="#T" n="114" break="no"/>tis, quia scilicet sicut Dei scientia causa est 
+      ve<lb ed="#T" n="115" break="no"/>ritatis in rebus per se scitis, ita voluntas causa 
+      <lb ed="#T" n="116"/>bonitatis in volitis: vbi vero determinatio 
+      ope<lb ed="#T" n="117" break="no"/>ris tota est ex parte operantis, operans nihil 
+      fa<lb ed="#T" n="118" break="no"/>cit ex necessitate iustitiae, sed ex libertate 
+      vo<lb ed="#T" n="119" break="no"/>luntatis, vnde Deus nihil facit ex necessitate 
+      <lb ed="#T" n="120"/>iustitiae. 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e499">
+                  <lb ed="#T" n="121"/>Ad 1. Quod non potest se negare &amp;c. Resp. 
+      <lb ed="#T" n="122"/>Iustitia dicitur dupliciter: vel rectitudo Diuinae 
+      <lb ed="#T" n="123"/>voluntatis in se, vel rectitudo ordinationis in 
+      <lb ed="#T" n="124"/>opere: prima Deus est &amp; immutabilis omnino: 
+      <lb ed="#T" n="125"/>secunda non, vnde contra hanc potest Deus 
+      <lb ed="#T" n="126"/>facere. 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e516">
+                  <lb ed="#T" n="127"/>Ad 2. Quidquid sit sine iustitia &amp;c. Resp. 
+      <lb ed="#T" n="128"/>Quidquid sit contra iustitiam vel sine iustitia 
+      <lb ed="#T" n="129"/>quae est rectitudo operis, coniunctim 
+      intelligen<lb ed="#T" n="130" break="no"/>do, est iniustum; sed non diuisim, potest enim 
+      <lb ed="#T" n="131"/>ordo iustitiae, vt nunc exopere tolli, &amp; alius 
+      <lb ed="#T" n="132"/>imponi ab eo ex quo dependet tota ordinatio 
+      <lb ed="#T" n="133"/>sui operis.
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e534">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0435.xml-->
+                  <pb ed="#T" n="360"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>Ad 3. De causis naturalibus. Resp. Quamuis 
+      <lb ed="#T" n="2"/>ordo Diuinae voluntatis sit determinatus ad 
+      iu<lb ed="#T" n="3" break="no"/>stitiam generaliter, non tamen ad iustitiam talem 
+      <lb ed="#T" n="4"/>in hoc opere vel in illo specialiter  
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e552">
+                  <lb ed="#T" n="5"/>Ad 1. in contrarium de Glos. Resp. Iustitia 
+      <lb ed="#T" n="6"/>accipitur pro exigentia meritorum, contra 
+      <lb ed="#T" n="7"/>quam Deus facere potest: est autem iustitia 
+      se<lb ed="#T" n="8" break="no"/>cundum Anselmum in Prosolog. aliter dicta 
+      <lb ed="#T" n="9"/>pro condecentia Diuinae bonitatis, contra quam 
+      <lb ed="#T" n="10"/>Deus facere non potest 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e568">
+                  <lb ed="#T" n="11"/>Ad 2. De Traiano. Resp. Quamuis hoc 
+      fue<lb ed="#T" n="12" break="no"/>rit contra iustitiamprimo modo dictam, non 
+      ta<lb ed="#T" n="13" break="no"/>men secundo modo. Nec erat damnatus ille 
+      fi<lb ed="#T" n="14" break="no"/>naliter &amp; diffinitiue, quamuis meruisset: sedDeus 
+      <lb ed="#T" n="15"/>cum in eum solum peccetur, pro voluntate 
+      po<lb ed="#T" n="16" break="no"/>test remittere: sed homo Iudex non sine iniuria 
+      <lb ed="#T" n="17"/>vel iustitiae, vel Reipublicae.  
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e586">
+                  <lb ed="#T" n="18"/>Ad 3. Iustitia non repugnat &amp;c. Resp. 
+      Quam<lb ed="#T" n="19" break="no"/>uis iustitia non repugnet voluntati Diuinae: 
+      ta<lb ed="#T" n="20" break="no"/>men inmustitia repugnat ei,. ideo nihil potest 
+      in<lb ed="#T" n="21" break="no"/>iustum velle vel facere. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f10060-Dd1e598">
+               <head xml:id="pdt7y6-f10060-Hd1e600">Articulus 3</head>
+               <head xml:id="pdt7y6-f10060-Hd1e602" type="question-title">An possit Deus plura facere quam faciat</head>
+               <p xml:id="pdt7y6-f10060-d1e605">
+                  <lb ed="#T" n="22"/>Articvlvs III. 
+      <lb ed="#T" n="23"/>An possit Deus plura facere quam faciat.
+</p>
+               <p xml:id="pdt7y6-f10060-d1e612">
+                  <lb ed="#T" n="24"/>AD tertium articulum proceditur sic. 1. 
+      <lb ed="#T" n="25"/>Omnis potentia quae operando non lassa 
+      <lb ed="#T" n="26"/>tur, nec deficit aeque potest plura vt pauciora: 
+      <lb ed="#T" n="27"/>ergo non tot facit quin possit plura facere.
+  </p>
+               <p xml:id="pdt7y6-f10060-d1e623">
+                  <lb ed="#T" n="28"/>2. Potentia quae determinatur ad certum 
+      nu<lb ed="#T" n="29" break="no"/>merum operationum est finita: sed Dei 
+      poten<lb ed="#T" n="30" break="no"/>tia est infinita: ergo non est determinata ad cer 
+      <lb ed="#T" n="31"/>tum numerum: cigo potest plura 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e635">
+                  <lb ed="#T" n="32"/>3. Potentior est increatus artifex omni artifice 
+      <lb ed="#T" n="33"/>creato: sed artifex creatus per artem suam 
+      po<lb ed="#T" n="34" break="no"/>test plura facere quam facit: ergo multo magis 
+      <lb ed="#T" n="35"/>increatus. 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e646">
+                  <lb ed="#T" n="36"/>Contra. 1. perfectum secundum Philosophum 
+      <lb ed="#T" n="37"/>est cui nihil deest, vel cui non est possibilis ad 
+      <lb ed="#T" n="38"/>ditio, vt cireulus perfecta figura: sed Dei per 
+      <lb ed="#T" n="39"/>fecta sunt opera Deuteron. 32. ergo non potest 
+      <lb ed="#T" n="40"/>eis fieri additio: ergo non potest plura. 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e659">
+                  <lb ed="#T" n="41"/>2. Eccl. Non est adijcere nec minuere 
+      operi<lb ed="#T" n="42" break="no"/>bus Dei: ergo non potest plura nec pauciora. 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e666">
+                  <lb ed="#T" n="43"/>3. Non potest Deus facere nisi quae ab aeter 
+      <lb ed="#T" n="44"/>no praeordinauit: sed praeordinauit tot &amp; non 
+      <lb ed="#T" n="45"/>plura: ergo non potest facere plura. 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e675">
+                  <lb ed="#T" n="46"/>4. Deus non potest facere nisi quod iustum 
+      <lb ed="#T" n="47"/>est &amp; rationale: non est autem iustum &amp; 
+      ratio<lb ed="#T" n="48" break="no"/>nale vt faciat plura, quia proculdubio faceret ea 
+      <lb ed="#T" n="49"/>ergo non potest facere plura. 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e686">
+                  <lb ed="#T" n="50"/>5. Qui dicit omne, nihil excipit: qui dicit 
+      <lb ed="#T" n="51"/>vniuersum dicit omne: ergo extra vniuersum 
+      <lb ed="#T" n="52"/>nihil est exceptum: cum ergo Deus fecerit 
+      vni<lb ed="#T" n="53" break="no"/>uersum, non potest ergo plura 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e698">
+                  <lb ed="#T" n="54"/>Respondeo. Cum Diuina potentia sit infinita, 
+      <lb ed="#T" n="55"/>&amp; sit causa rerum voluntaria, concedendum est 
+      <lb ed="#T" n="56"/>quod potest facere plura, propter potentiae 
+      in<lb ed="#T" n="57" break="no"/>finitatem: &amp; pauciora, propter libertatem: alia 
+      <lb ed="#T" n="58"/>etiam quam facit, propter vtrumque: quia non 
+      <lb ed="#T" n="59"/>determinatur ad certum genus operationum vel 
+      <lb ed="#T" n="60"/>ad certum numerum. 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e716">
+                  <lb ed="#T" n="61"/>Ad 1. in contrarium. Dei perfecta sunt 
+      ope<lb ed="#T" n="62" break="no"/>ra. Resp. Est perfectum simpliciter &amp; est 
+      per<lb ed="#T" n="63" break="no"/>fectum in genere: primo modo intelligitur quod 
+      <lb ed="#T" n="64"/>perfecto non est possibilis additio: secundo 
+      mo<lb ed="#T" n="65" break="no"/>do intelligitur quod Dei perfecta sunt opera. 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e729">
+                  <lb ed="#T" n="66"/>Ad 2. Non est adjicere vel minuere. Resp. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0435.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>Loquitur de additione ab alio artifice, non ab 
+      <lb ed="#T" n="68"/>ipso. 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e742">
+                  <lb ed="#T" n="69"/>Ad 3. Non potest facere nisi quae 
+      praeordina<lb ed="#T" n="70" break="no"/>uit. Resp. Coniunctim vera: diuisim falsa: potest 
+      <lb ed="#T" n="71"/>enim facere alia quam illa quae praeordinauit, 
+      <lb ed="#T" n="72"/>quia potest &amp; ab aeterno alia praeordinasse. 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e753">
+                  <lb ed="#T" n="73"/>Ad 4. Deus non potest facere nisi quod iustum 
+      <lb ed="#T" n="74"/>est &amp;c. Resp. Propositio haec duplex est, sicut 
+      <lb ed="#T" n="75"/>ista Possibile est Antichristum esse homine qui  
+      <lb ed="#T" n="76"/>est: quia ampliatio potest cadere sub 
+      possibilita<lb ed="#T" n="77" break="no"/>te, &amp; sic ampliatur pro ijs quae iusta esse possunt, 
+      <lb ed="#T" n="78"/>&amp; sic est vera: vel extra possibilitatem, &amp; sic 
+      <lb ed="#T" n="79"/>supponit pro ijs quae actu iusta sunt, &amp; sic est 
+      <lb ed="#T" n="80"/>falsa. Nec valet hoc argumentum: non potest 
+      <lb ed="#T" n="81"/>facere nisi iusta &amp; rationabilia: sed non est iustum 
+      <lb ed="#T" n="82"/>&amp; rationabile vt faciat quod non facit: ergo &amp;c. 
+      <lb ed="#T" n="83"/>Quia in prima ampliantur termini ad 
+      suppo<lb ed="#T" n="84" break="no"/>nendum pro ijs quae iusta &amp; rationabilia esse 
+      <lb ed="#T" n="85"/>possunt: in media propositione restringuntur ad 
+      <lb ed="#T" n="86"/>ea quae iusta sunt: vnde sit processus ab 
+      amplia<lb ed="#T" n="87" break="no"/>ta ad restrictam 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e788">
+                  <lb ed="#T" n="88"/>Ad 5. De vniuerso. Resp. Uniuersum 
+      inclu<lb ed="#T" n="89" break="no"/>dit collectionem omnium entium, sed non 
+      pos<lb ed="#T" n="90" break="no"/>sibilium: de ijs ergo pro quibus sit distributio, 
+      <lb ed="#T" n="91"/>cum dicitur vniuersum, nihil excipitur: sed  
+      <lb ed="#T" n="92"/>quia non sit distributio pro possibilibus, ideo 
+      <lb ed="#T" n="93"/>Deus potest facere adhuc plura quam contineat 
+      <lb ed="#T" n="94"/>vninersum. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f10060-Dd1e807">
+               <head xml:id="pdt7y6-f10060-Hd1e809">Articulus 4</head>
+               <head xml:id="pdt7y6-f10060-Hd1e811" type="question-title">
+  An aliqua possit Deus de potentia absoluta, quae non potest de potentia ordinata
+</head>
+               <p xml:id="pdt7y6-f10060-d1e814">
+                  <lb ed="#T" n="95"/>ARTICVLVS IV 
+      <lb ed="#T" n="96"/>An aliqua possit Deus de potentia absoluta, quae non 
+      <lb ed="#T" n="97"/>potest de potentia ordinata. 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e823">
+                  <lb ed="#T" n="98"/>AD vltimum articulum proceditur sic. 1. 
+      <lb ed="#T" n="99"/>Gen. 10. Non potero facere quicquam 
+      <lb ed="#T" n="100"/>&amp;c. Gloss. quod poterat de potentia, non pote 
+      <lb ed="#T" n="101"/>rat de iustitia: sed posse de iustitia dicit poten 
+      <lb ed="#T" n="102"/>tiam ordinatam: ergo non poterat hoc de 
+      po<lb ed="#T" n="103" break="no"/>tentia ordinata: ergo aliquid potest Deus de 
+      po<lb ed="#T" n="104" break="no"/>tentia absoluta, quod non potest de ordinata 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e841">
+                  <lb ed="#T" n="105"/>2. Ad Galat 3. Si fieri posset oculos vestro 
+      <lb ed="#T" n="106"/>eruissetis. Glost. Quod non potest fieri, &amp; tamen 
+      <lb ed="#T" n="107"/>constat quod absolute fieri poterat: ergo &amp; potes 
+      <lb ed="#T" n="108"/>homo de potentia absoluta, quod non potest de 
+      <lb ed="#T" n="109"/>ordinata: ergo similiter Deus qui multo 
+      poten<lb ed="#T" n="110" break="no"/>tior est, 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e858">
+                  <lb ed="#T" n="111"/>3. Deus potest reuocare D. Petrum ad statu 
+      <lb ed="#T" n="112"/>merendi in quo posset peccare, &amp; in peccato 
+      per<lb ed="#T" n="113" break="no"/>seuerare &amp; damnari finaliter: ergo posset 
+      damna<lb ed="#T" n="114" break="no"/>re Petrum de potentia: constat autem quod non 
+      <lb ed="#T" n="115"/>potest de iustitia: ergo aliquid potest de 
+      poten<lb ed="#T" n="116" break="no"/>tia absoluta quod non potest de ordinata. 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e874">
+                  <lb ed="#T" n="117"/>Contra. 1. Potentia Dei non potest esse sine 
+      <lb ed="#T" n="118"/>ordine: ergo quicquid potest, potest de poten 
+      <lb ed="#T" n="119"/>tia ordinata. 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e883">
+                  <lb ed="#T" n="120"/>2. In Deo potentia &amp; ordo potentiae idem 
+      <lb ed="#T" n="121"/>sunt: ergo quicquid potest de potentia, potest de 
+      <lb ed="#T" n="122"/>potentia ordinata. 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e892">
+                  <lb ed="#T" n="123"/>3. Non potest Deus operari sine 
+      praeordina<lb ed="#T" n="124" break="no"/>tione suae sapientiae &amp; bonitatis: ergo non 
+      po<lb ed="#T" n="125" break="no"/>test aliquid nisi de potentia ordinata. 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e901">
+                  <lb ed="#T" n="126"/>Respondeo. Est ordo simpliciter, &amp; est ordo vt 
+      <lb ed="#T" n="127"/>nunc: nihil potest Deus nisi de potentia 
+      ordina<lb ed="#T" n="128" break="no"/>ta, primo modo loquendo de ordine: sed multa 
+      <lb ed="#T" n="129"/>potest de potentia, circumscripto hoc ordine 
+      <lb ed="#T" n="130"/>scilicet vt nunc: primo modo dicitur posse de 
+      <lb ed="#T" n="131"/>potentia absoluta: secundo modo dicitur posse 
+      <lb ed="#T" n="132"/>de potentia ordinata: ergo multa potest primo 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0436.xml-->
+      <pb ed="#T" n="361"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>modo quae non potest secundo modo. Ideo 
+      quae<lb ed="#T" n="2" break="no"/>dam dicitur posse de potentia absoluta, quae non 
+      <lb ed="#T" n="3"/>potest de ordinatu, quia multa subsunt suae 
+      po<lb ed="#T" n="4" break="no"/>tentiae quae non congruit sibi vt nunc facere: 
+      <lb ed="#T" n="5"/>posset tamen ea facere conuenientia, &amp; sic ea 
+      fa<lb ed="#T" n="6" break="no"/>cere. 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e938">
+                  <lb ed="#T" n="7"/>Ad 1. in contrarium. Potentia Dei non 
+      po<lb ed="#T" n="8" break="no"/>test esse sine ordine. Resp. Quamuis non possit 
+      <lb ed="#T" n="9"/>esse sine ordine simpliciter, potest tamen sine 
+      <lb ed="#T" n="10"/>ordine hoc qui nunc est. Vel dicendum quod 
+      <lb ed="#T" n="11"/>quamuis non possit esse sine ordine, potest 
+      ta<lb ed="#T" n="12" break="no"/>tamen intelligi aut secundum se, aut cum illo 
+      or<lb ed="#T" n="13" break="no"/>dine. 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e957">
+                  <lb ed="#T" n="14"/>Ad 2. In Deo potentia &amp; ordo eius idem sunt.  
+      <lb ed="#T" n="15"/>Resp. Idem sunt in principali significato, sed  
+      <lb ed="#T" n="16"/>non in connotato: quia ordo connotat 
+      conue<lb ed="#T" n="17" break="no"/>nientia in effectu, quam non conotat potentia. 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e968">
+                  <lb ed="#T" n="18"/>Ad 3. Deus non potest operari &amp;c. Resp. 
+      <lb ed="#T" n="19"/>Quamuis non possit operari sine 
+      praeordinatio<lb ed="#T" n="20" break="no"/>ne simpliciter, potest tamen sine 
+      praeordinatio<lb ed="#T" n="21" break="no"/>ne vt nunc: diuisim, non coniunctim: seu, 
+      quam<lb ed="#T" n="22" break="no"/>uis non possit de potentia actui coniuncta, potest 
+      <lb ed="#T" n="23"/>tamen de potentia secundum se considerata. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f10060-Dd1e985">
+               <head xml:id="pdt7y6-f10060-Hd1e987">Expositio litterae</head>
+               <p xml:id="pdt7y6-f10060-d1e989">
+                  <lb ed="#T" n="24"/>EXPOSITIO LITERAE. 
+      <lb ed="#T" n="25"/>[LIs autem respondemus.] Quaeritur vnde 
+      <lb ed="#T" n="26"/>TAvenit haec distinctio. Resp. Ex eo quod 
+      <lb ed="#T" n="27"/>hoc verbum, est, potest dicere vel praesens 
+      sim<lb ed="#T" n="28" break="no"/>pliciter: vel praesens vt nunc. Primo modo vera 
+      <lb ed="#T" n="29"/>est, secundo modo falsa. Sicut de equo in 
+      stabu<lb ed="#T" n="30" break="no"/>lo sic dicatur, iste equus bene currit, si hoc 
+      <lb ed="#T" n="31"/>verbum turrit dicat praesens simpliciter, 
+      propo<lb ed="#T" n="32" break="no"/>positio vera est: si praesens vt nunc, falsa. Ratio 
+      <lb ed="#T" n="33"/>vero distinctionis potest fundari super hoc, quia 
+      <lb ed="#T" n="34"/>ampliatio potest cadere sub possibilitate, &amp; 
+      pos<lb ed="#T" n="35" break="no"/>sibilitas supra totum dictum, &amp; tunc sit 
+      amplia<lb ed="#T" n="36" break="no"/>tio ad supponendum pro praesenti simpliciter: 
+      <lb ed="#T" n="37"/>aut extra, &amp; tunc pro praesenti vt nunc. 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e1022">
+                  <lb ed="#T" n="38"/>[Sed non poterat per iustitiam.] quaeritur de 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0436.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="39"/>qua iustitia loquitur. Resp. Dicit Hugo de 
+      San<lb ed="#T" n="40" break="no"/>cto Victore, quod duplex est iustitia, vna de 
+      <lb ed="#T" n="41"/>bitum facientis, altera meritum patientis: hoc 
+      <lb ed="#T" n="42"/>autem intelligitur de secunda, non de prima: id  
+      <lb ed="#T" n="43"/>est de voluntate Dei non secundum se, sed prout 
+      <lb ed="#T" n="44"/>pensat merita hominum. 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e1044">
+                  <lb ed="#T" n="45"/>Nisi forte ex promisso] Contra. Qui debet 
+      <lb ed="#T" n="46"/>ex commisso, simpliciter debet: ergo similiter  
+      <lb ed="#T" n="47"/>qui ex promisso. Resp. Non est simile, quia 
+      obli<lb ed="#T" n="48" break="no"/>gatio ex commisso precedit voluntatem, sed  
+      <lb ed="#T" n="49"/>obligatio ex promisso procedit ex voluntate. 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e1057">
+                  <lb ed="#T" n="50"/>Sed solutio nulla videtur, quia similiter 
+      ob<lb ed="#T" n="51" break="no"/>ligatio voti ex voluntate procedit. Propter hoc 
+      <lb ed="#T" n="52"/>dicendum, quod Dei promissio non est 
+      promis<lb ed="#T" n="53" break="no"/>sio proprie, sed suae bonae voluntatis infinuatio 
+      <lb ed="#T" n="54"/>per modum promissionis, ad homines 
+      inducen<lb ed="#T" n="55" break="no"/>dos ad bonum. 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e1074">
+                  <lb ed="#T" n="56"/>[Eadem ratione manente.] Contra. Alia 
+      ra<lb ed="#T" n="57" break="no"/>tione secundum Augustinum conditus est 
+      ho<lb ed="#T" n="58" break="no"/>mo, quam equus. Resp. Non loquitur de ratione 
+      <lb ed="#T" n="59"/>quae est idea, sed qua est rationalis voluntas, quae 
+      <lb ed="#T" n="60"/>potest velle alia, imutatione volitorum sine 
+      muta<lb ed="#T" n="61" break="no"/>tione sua. 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e1090">
+                  <lb ed="#T" n="62"/>THaec quaestio de praescientia facile 
+      determina<lb ed="#T" n="63" break="no"/>ri potest.] Quaeritur quomodo? Resp. Quamuis 
+      <lb ed="#T" n="64"/>nihil possit operari sine praescientia, nec praesciat  
+      <lb ed="#T" n="65"/>nisi quod facit: potest tamen praescire aliqua 
+      <lb ed="#T" n="66"/>quae non praescit, &amp; non praescire aliqua quae 
+      <lb ed="#T" n="67"/>praescit, intelligendo diuisim, non coniunctim. 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e1106">
+                  <lb ed="#T" n="68"/>[An putas quia non possum petere. ] 
+      Nun<lb ed="#T" n="69" break="no"/>quid Deus volebat dare. Si autem volebat, 
+      da<lb ed="#T" n="70" break="no"/>bat. Resp. Quamuis nollet, poterat velle, &amp; ita 
+      <lb ed="#T" n="71"/>dare: sicut &amp; Christus nolebat petere, sed poterat. 
+    </p>
+               <p xml:id="pdt7y6-f10060-d1e1117">
+                  <lb ed="#T" n="72"/>[Cur apud quosdam.] Sed qua iustitia facit 
+      <lb ed="#T" n="73"/>hoc, vel qua misericordia? Resp. Matt. 11. Si 
+      <lb ed="#T" n="74"/>in Tyro &amp;c. redditur ratio, quia si nouerat 
+      <lb ed="#T" n="75"/>multos credituros quibus parcere noluit, &amp; 
+      no<lb ed="#T" n="76" break="no"/>uerat plures non credituros, quibus parcere 
+      vo<lb ed="#T" n="77" break="no"/>luit: &amp; addit Augustinus, quia multos de illis 
+      <lb ed="#T" n="78"/>credituris nouerat ad vomitum redituros.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

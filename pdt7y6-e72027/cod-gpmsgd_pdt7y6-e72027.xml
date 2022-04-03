@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="236"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e72027"><!-- l1d29q1 -->
+            <head xml:id="pdt7y6-e72027-Hd1e99">Quaestio 1</head>
+            <head xml:id="pdt7y6-e72027-Hd1e101" type="question-title">De communi spiratione</head>
+            <p xml:id="pdt7y6-e72027-d1e104">
+               <lb ed="#T" n="67"/>QVESTIO VNICA. 
+      <lb ed="#T" n="68"/>DE COMMVNI SPIRATIONE. 
+      <lb ed="#T" n="69"/>TTIe quaeruntur septem. 
+    </p>
+            <p xml:id="pdt7y6-e72027-d1e113">
+               <lb ed="#T" n="70"/>Primo vtrum persona vna sit principium 
+      <lb ed="#T" n="71"/>alterius, vel creaturae tantum. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0312.xml-->
+      <pb ed="#T" n="237"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>Secundo an dicatur vniuoce principium 
+      res<lb ed="#T" n="2" break="no"/>pectu personae &amp; respectu creaturae. 
+      <lb ed="#T" n="3"/>Tertio de quo dicitur per prius. 
+      <lb ed="#T" n="4"/>Quarto si vna notione Pater &amp; Filius sunt,  
+      <lb ed="#T" n="5"/>principium Spiritus sancti. 
+      <lb ed="#T" n="6"/>Quinto si sunt vnum principium Spiritus 
+      <lb ed="#T" n="7"/>sancti. 
+      <lb ed="#T" n="8"/>Sexto an sint idem principium Spiritus sancti. 
+      <lb ed="#T" n="9"/>Septimo quid significet principium, cum 
+      prin<lb ed="#T" n="10" break="no"/>cipium de principio dicitur.  
+    </p>
+            <div xml:id="pdt7y6-e72027-Dd1e148">
+               <head xml:id="pdt7y6-e72027-Hd1e150">Articulus 1</head>
+               <head xml:id="pdt7y6-e72027-Hd1e152" type="question-title">
+  An persona una sit principium alterius
+</head>
+               <p xml:id="pdt7y6-e72027-d1e155">
+                  <lb ed="#T" n="11"/>Articvlvs I. 
+      <lb ed="#T" n="12"/>An persona una sit principium alterius.
+</p>
+               <p xml:id="pdt7y6-e72027-d1e162">
+                  <lb ed="#T" n="13"/>AD primum sic proceditur. 1. Dicit 
+      Philo<lb ed="#T" n="14" break="no"/>sophus. 1. poster. Principium &amp; primum. 
+      <lb ed="#T" n="15"/>idem dico: in Diuinis personis non est ratio 
+      pri<lb ed="#T" n="16" break="no"/>mi, quia primum dicitur respectu secundi, vel 
+      <lb ed="#T" n="17"/>posterioris: ergo nec ratio principij. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e175">
+                  <lb ed="#T" n="18"/>2. Secundum Philosophum 5. Metaph. 
+      Prin<lb ed="#T" n="19" break="no"/>cipium &amp; causa idem sunt re, sed differunt 
+      ratio<lb ed="#T" n="20" break="no"/>ne, quia principij nomen dicitur maxime de 
+      <lb ed="#T" n="21"/>causis extrinfecis, sed nomen causae de 
+      intrinse<lb ed="#T" n="22" break="no"/>cis: sed vna persona non est causa alterius, quia 
+      <lb ed="#T" n="23"/>causa est cuius esse sequitur aliud: ergo nec 
+      prin<lb ed="#T" n="24" break="no"/>cipium alterius. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e194">
+                  <lb ed="#T" n="25"/>3. Principium dicitur respectu principiati: 
+      <lb ed="#T" n="26"/>sed nulla persona est principiata ab altera: ergo 
+      <lb ed="#T" n="27"/>nulla persona est principium alterius. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e203">
+                  <lb ed="#T" n="28"/>4. Apocal. vlt. Ego sum alpha &amp; o. ergo 
+      quo<lb ed="#T" n="29" break="no"/>rumcumque Deus est principium, eorundem est 
+      <lb ed="#T" n="30"/>finis: sed non est finis respectu personae Diuinae, 
+      <lb ed="#T" n="31"/>quia finis est melior ijs quae sunt ad finem: ergo 
+      <lb ed="#T" n="32"/>nec principium. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e216">
+                  <lb ed="#T" n="33"/>Contra. 1. Omne illud a quoaliqu id oritur, est 
+      <lb ed="#T" n="34"/>principium eius: persona vna ab altera oritur: 
+      <lb ed="#T" n="35"/>ergo vna persona est alteri personae principium. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e225">
+                  <lb ed="#T" n="36"/>2. Dicit hic Augustinus, quod Pater est 
+      prin<lb ed="#T" n="37" break="no"/>cipium totius Diuinitatis 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e232">
+                  <lb ed="#T" n="38"/>Respondeo. Differunt principium &amp; causa, sic 
+      <lb ed="#T" n="39"/>cut superius &amp; inferius: omnis enim causa est: 
+      <lb ed="#T" n="40"/>principium, &amp; non conuertitur, nam mane est 
+      <lb ed="#T" n="41"/>principium diei &amp; non causa. Principium enim 
+      <lb ed="#T" n="42"/>dicit ordinem quemcumque generaliter, siue 
+      ori<lb ed="#T" n="43" break="no"/>ginis, siue alterum: causa vero dicit ordinem 
+      <lb ed="#T" n="44"/>semper essentialem essentialiter differentium, 
+      <lb ed="#T" n="45"/>quia causa est cuius esse sequitur aliud, nam duae 
+      <lb ed="#T" n="46"/>causae extrinsecae nihil dicunt de essentia 
+      cau<lb ed="#T" n="47" break="no"/>sati: duae intrinfecae dicunt partem essentiae, &amp; 
+      <lb ed="#T" n="48"/>non quaelibet totam essentiam. Quia ergo in 
+      Di<lb ed="#T" n="49" break="no"/>uinis personis est ordo originis naturalis, sed non 
+      <lb ed="#T" n="50"/>ordo essentialis, ideo persona respectu personae 
+      <lb ed="#T" n="51"/>principium potest dici, sed non causa proprie, 
+      <lb ed="#T" n="52"/>nisi extenso vocabulo. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e267">
+                  <lb ed="#T" n="53"/>Ad 1. De primo &amp; principio. Resp. Primum 
+      <lb ed="#T" n="54"/>aliquando accipitur relatiue, id est post quod 
+      <lb ed="#T" n="55"/>aliud: aliquando absolute, id est ante quod nihil: 
+      <lb ed="#T" n="56"/>primo modo non est in Diuinis, secundo modo 
+      <lb ed="#T" n="57"/>est. Vel dicendum quod illud Philosophi 
+      tan<lb ed="#T" n="58" break="no"/>tum verum est in principio essentialiter 
+      differen<lb ed="#T" n="59" break="no"/>te ab eo cuius est principium. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e286">
+                  <lb ed="#T" n="60"/>Ad 2. De causa. Resp. Loquitur ibi non de 
+      <lb ed="#T" n="61"/>principio vniuersaliter, sed de principio causali. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e293">
+                  <lb ed="#T" n="62"/>Ad 3. De principiato. Resp. Principium non 
+      <lb ed="#T" n="63"/>semper dicitur respectu principiati, cum 
+      princi<lb ed="#T" n="64" break="no"/>pium sit nomen, &amp; significet sine tempore; 
+      prin<lb ed="#T" n="65" break="no"/>cipiatum vero participium &amp; significet cum 
+      <lb ed="#T" n="66"/>tempore: sed dicitur respectu eius quod est a 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0312.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>principio. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e313">
+                  <lb ed="#T" n="68"/>Ad 4. De fine. Resp. Illud intelligitur solum 
+      <lb ed="#T" n="69"/>de principio essentialiter dicto, scilicet respectu 
+      <lb ed="#T" n="70"/>creaturarum non respectu personarum. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e72027-Dd1e324">
+               <head xml:id="pdt7y6-e72027-Hd1e326">Articulus 2</head>
+               <head xml:id="pdt7y6-e72027-Hd1e328" type="question-title">
+  An dicatur vniuoce principium respectu personae. 
+  et respectu creaturae.
+</head>
+               <p xml:id="pdt7y6-e72027-d1e331">
+                  <lb ed="#T" n="71"/>Articvlvs II. 
+      <lb ed="#T" n="72"/>An dicatur vniuoce principium respectu personae. 
+      <lb ed="#T" n="73"/>&amp; respectu creaturae. 
+</p>
+               <p xml:id="pdt7y6-e72027-d1e340">
+                  <lb ed="#T" n="74"/>AD secundum articulum sic proceditur. 1. 
+      <lb ed="#T" n="75"/>Dicit Basilius. Filius accipere a Patre 
+      com<lb ed="#T" n="76" break="no"/>mune habet cum omni creatura; sed habere 
+      per<lb ed="#T" n="77" break="no"/>naturam, Filij proprium: sed super accipere 
+      Fi<lb ed="#T" n="78" break="no"/>lij fundatur ratio principij personaliter dicti; 
+      su<lb ed="#T" n="79" break="no"/>per accipere creaturae ratio principij dicti 
+      essen<lb ed="#T" n="80" break="no"/>tialiter: ergo ratio principij communis est 
+      vtro<lb ed="#T" n="81" break="no"/>pique: ergo vniuoca. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e360">
+                  <lb ed="#T" n="82"/>2. Sapientia dicitur vniuoce de sapientia 
+      di<lb ed="#T" n="83" break="no"/>cta essentialiter &amp; personaliter similiter amor: 
+      <lb ed="#T" n="84"/>ergo &amp; principium. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e370">
+                  <lb ed="#T" n="85"/>3. Principium dictum essentialiter &amp; 
+      perso<lb ed="#T" n="86" break="no"/>naliter significat idem, quia in Deo non differt 
+      <lb ed="#T" n="87"/>essentia &amp; persona: ergo est vniuocum. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e379">
+                  <lb ed="#T" n="88"/>Contra. 1. Si vnum oppositorum est 
+      multi<lb ed="#T" n="89" break="no"/>plex alterum etiam est multiplex: sed ens 
+      respe<lb ed="#T" n="90" break="no"/>ctu cuius principium dicitur essentialiter, &amp; 
+      il<lb ed="#T" n="91" break="no"/>lud respectu cuius personaliter est multiplex, nec 
+      <lb ed="#T" n="92"/>dicitur vniuoce: ergo similiter principium. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e392">
+                  <lb ed="#T" n="93"/>2. Plus differt principium aeternum &amp; temporale 
+      <lb ed="#T" n="94"/>quam leo pictus &amp; verus: si ergo leo dicitur de 
+      <lb ed="#T" n="95"/>vtroque aequiuoce, multo nmagis principium. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e401">
+                  <lb ed="#T" n="96"/>3. Actus essentialis &amp; personalis non 
+      vniuocan<lb ed="#T" n="97" break="no"/>tur in aliqua vna ratione communi: ergo nec 
+      <lb ed="#T" n="98"/>principium vtriusque actus 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e410">
+                  <lb ed="#T" n="99"/>Respondeo. Terminus aliquis communis in 
+      <lb ed="#T" n="100"/>Deo multipliciter accipitur, tribus modis: aut 
+      <lb ed="#T" n="101"/>ratione suppositi, vt hic terminus, Deus, cum 
+      <lb ed="#T" n="102"/>dico Deus creat &amp; Deus generat: aut ratione 
+      si<lb ed="#T" n="103" break="no"/>gnificati, vt cum dicitur Pater Filij naturalis &amp; 
+      <lb ed="#T" n="104"/>Filiorum adoptiuorum: aut ratione connotatr. 
+      <lb ed="#T" n="105"/>vt cum dicitur principium respectu personae &amp; 
+      <lb ed="#T" n="106"/>respectu creaturae: prima multiplicitas facit 
+      com<lb ed="#T" n="107" break="no"/>munitatem vniuocationis: secunda 
+      aequiuoca<lb ed="#T" n="108" break="no"/>tionis: tertia analogiae, &amp; haec est communitas 
+      <lb ed="#T" n="109"/>principij. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e436">
+                  <lb ed="#T" n="110"/>Ad primum. Resp. Loquitur Basilius de 
+      com<lb ed="#T" n="111" break="no"/>munitate analogiae, non vniuocationis. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e444">
+                  <lb ed="#T" n="112"/>Ad 2. De sapientia. Resp. Sapientia non 
+      di<lb ed="#T" n="113" break="no"/>citur vniuoce, sed analogice: similiter &amp; 
+      prin<lb ed="#T" n="114" break="no"/>cipium. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e453">
+                  <lb ed="#T" n="115"/>Ad 3. Significant idem. Resp. Quamuis 
+      signi<lb ed="#T" n="116" break="no"/>ficent idem re, sed non ratione. Praeterea cum 
+      si<lb ed="#T" n="117" break="no"/>gnato est ibi connotatum, scilicet temporale. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e462">
+                  <lb ed="#T" n="118"/>Ad 1. In contrarium. Si vnum oppositorum est 
+      <lb ed="#T" n="119"/>multiplex &amp;c. Resp. Alterum oppositorum 
+      <lb ed="#T" n="120"/>multiplex est multiplicitate analogiae, non 
+      aequi<lb ed="#T" n="121" break="no"/>uocationis, similiter &amp; principium. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e473">
+                  <lb ed="#T" n="122"/>Ad 2. De Leonevero &amp; picto. Resp. Ratio 
+      aequi<lb ed="#T" n="123" break="no"/>uocationis non est distantia quarumlibet rerum. 
+      <lb ed="#T" n="124"/>significatarum quocumque modo, sed 
+      multipli<lb ed="#T" n="125" break="no"/>citas significatorum principalium: in principio 
+      <lb ed="#T" n="126"/>vero dicto aeternaliter &amp; temporaliter idem est 
+      <lb ed="#T" n="127"/>principale significatum, quamuis aliud sit 
+      con<lb ed="#T" n="128" break="no"/>notatum: in leone vero &amp; picto aliud est 
+      prin<lb ed="#T" n="129" break="no"/>cipale significatum. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e493">
+                  <lb ed="#T" n="130"/>Ad 3. De actu essentiali &amp; personali. Resp. 
+      <lb ed="#T" n="131"/>Quamuis non vniuocentur in aliquo, tamen 
+      <lb ed="#T" n="132"/>conueniunt communitate analogiae in aliqua 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0313.xml-->
+      <pb ed="#T" n="238"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>vna ratione generali: sed non in speciali. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e72027-Dd1e512">
+               <head xml:id="pdt7y6-e72027-Hd1e514">Articulus 3</head>
+               <head xml:id="pdt7y6-e72027-Hd1e516" type="question-title">
+  De quo principium dicatur per prius
+</head>
+               <p xml:id="pdt7y6-e72027-d1e519">
+                  <lb ed="#T" n="2"/>Articvlvs III. 
+      <lb ed="#T" n="3"/>De quo principium dicatur per prius. 
+</p>
+               <p xml:id="pdt7y6-e72027-d1e526">
+                  <lb ed="#T" n="4"/>AD tertium articulum sic proceditur. 1. 
+      Co<lb ed="#T" n="5" break="no"/>mune est ante proprium: ergo essentiale 
+      an<lb ed="#T" n="6" break="no"/>te personale: si ergo aliquid dicitur de vtroque, 
+      <lb ed="#T" n="7"/>per prius dicitur de essentiali quam de personali¬ 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e537">
+                  <lb ed="#T" n="8"/>2. Absolutum est ante relatiuum: ergo 
+      essen<lb ed="#T" n="9" break="no"/>tiale ante personale: ergo principium dictum 
+      <lb ed="#T" n="10"/>essentialiter prius principio dicto personaliter.  
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e547">
+                  <lb ed="#T" n="11"/>Contra. 1. Prius est aeternum temporali: ergo 
+      <lb ed="#T" n="12"/>principium. dictum ab aeterno, principio dicto ex 
+      <lb ed="#T" n="13"/>tempore: ergo principium personae 
+      principio<lb ed="#T" n="14" break="no"/>creaturae. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e558">
+                  <lb ed="#T" n="15"/>2. Sicut vult Anselmus &amp; Augustinus, 
+      proces<lb ed="#T" n="16" break="no"/>io personarum causa est, &amp; ratio processionis 
+      <lb ed="#T" n="17"/>creaturarum, vnde Gen. 1. Dixitque Deus fiat 
+      <lb ed="#T" n="18"/>lux &amp; facta ex lux: ergo ratio principij per prius 
+      <lb ed="#T" n="19"/>dicitur in Deo respectu personarum, quaim res 
+      <lb ed="#T" n="20"/>pectu creaturarum.
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e574">
+                  <lb ed="#T" n="21"/>Iuxta hoc quaeritur de quo dicatur per prius 
+      <lb ed="#T" n="22"/>aut secundum quod dicitur respectiu Filii, aut 
+      <lb ed="#T" n="23"/>secundum quod respectu Spiritus sancti. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e583">
+                  <lb ed="#T" n="24"/>Respondeo ad primum. De principio est 
+      <lb ed="#T" n="25"/>loqui dupliciter aut secundum id quod est 
+      prin<lb ed="#T" n="26" break="no"/>cipium, aut secundum ordinem ad id cuius est 
+      <lb ed="#T" n="27"/>principium: primo modo per prius, secundum 
+      <lb ed="#T" n="28"/>intellectum, dicitur principium respectu 
+      creatu<lb ed="#T" n="29" break="no"/>rarum quam personarum, sicut secundum 
+      mo<lb ed="#T" n="30" break="no"/>dum intelligendi prior est essentia quam persona: 
+      <lb ed="#T" n="31"/>secundo modo e conuerso. Secundum primam 
+      <lb ed="#T" n="32"/>viam concludunt duo prima argumenta: 
+      secun<lb ed="#T" n="33" break="no"/>dum alteram, duo vltima. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e607">
+                  <lb ed="#T" n="34"/>Ad secundum quaesitum. Resp. Principium 
+      <lb ed="#T" n="35"/>importat rationem originis communem: vnde 
+      <lb ed="#T" n="36"/>vniuoce &amp; aequaliter dicitur principium respectu 
+      <lb ed="#T" n="37"/>Filij &amp; Spiritus sancti secundum rationem 
+      prin<lb ed="#T" n="38" break="no"/>cipalem: quoad modum intelligendi solum per 
+      <lb ed="#T" n="39"/>prius dicitur respectu Filij, quia modus originis 
+      <lb ed="#T" n="40"/>Filij per modum naturae prior est &amp; principalior 
+      <lb ed="#T" n="41"/>secundum intellectum, non secundum rem, 
+      mo<lb ed="#T" n="42" break="no"/>do originis Spiritus sancti qui est semper per 
+      <lb ed="#T" n="43"/>modum voluntatis: cum hic sit a duobus: ille 
+      <lb ed="#T" n="44"/>ab vno solo: vnum vero prius est duobus. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e72027-Dd1e634">
+               <head xml:id="pdt7y6-e72027-Hd1e636">Articulus 4</head>
+               <head xml:id="pdt7y6-e72027-Hd1e638" type="question-title">
+  An vna notione Pater et Filius sint principium 
+  Spiritus sancti
+</head>
+               <p xml:id="pdt7y6-e72027-d1e641">
+                  <lb ed="#T" n="45"/>ARTICVLVS IV
+      <lb ed="#T" n="46"/>An vna notione Pater &amp; Filius sint principium 
+      <lb ed="#T" n="47"/>Spiritus sancti. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e650">
+                  <lb ed="#T" n="48"/>AD quartum articulum proceditur sic. 1. 
+      Pro<lb ed="#T" n="49" break="no"/>prietates trahunt numerum a suppositis: 
+      <lb ed="#T" n="50"/>ergo in duobus suppositis no est vna proprietas 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e659">
+                  <lb ed="#T" n="51"/>2. Nihil quod est principium distinctionis est 
+      <lb ed="#T" n="52"/>principium vnionis: sed proprietas est 
+      princi<lb ed="#T" n="53" break="no"/>pium in Diuinis distinctionis: non ergo vnionis: 
+      <lb ed="#T" n="54"/>ergo nulla proprietate vniuntur Pater &amp; Filius, 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e671">
+                  <lb ed="#T" n="55"/>3. Magis sunt vnum quae sunt vnum natura 
+      <lb ed="#T" n="56"/>&amp; proprietate, quam quae natura tantum: 
+      Pa<lb ed="#T" n="57" break="no"/>ter &amp; Filius non sunt magis vnum quam 
+      ipsi<lb ed="#T" n="58" break="no"/>cum Spiritu sancto: ergo non sunt vnum 
+      pro<lb ed="#T" n="59" break="no"/>prietate, sed natura solum. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e684">
+                  <lb ed="#T" n="60"/>t. Essentialier est comparatio proprietatis ad 
+      <lb ed="#T" n="61"/>substantiam, quam ad obiectum: si ergo pene 
+      <lb ed="#T" n="62"/>diuersa obiecta multiplicantur proprietates etia 
+      <lb ed="#T" n="63"/>vnius subjecti, vt propriatates Patris, multo 
+      <lb ed="#T" n="64"/>magis penes diuersa subjecta debet multiplicari 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0313.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="65"/>Contra. 1. Pater &amp; Filius in omnibus sunt,  
+      <lb ed="#T" n="66"/>vnum, vt ait Anselmus lib. de processione 
+      Spi<lb ed="#T" n="67" break="no"/>ritus sancti, in quibus relationis oppositio non 
+      <lb ed="#T" n="68"/>distinguit: sed in communi spiratione nulla 
+      op<lb ed="#T" n="69" break="no"/>positio eos distinguit: ergo in hac sunt vnum, 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e712">
+                  <lb ed="#T" n="70"/>2. Pater totum Filio communicat quicquid 
+      <lb ed="#T" n="71"/>eius proprietati personali non repugnat: sed 
+      ta<lb ed="#T" n="72" break="no"/>lis est communis spiratio: ergo &amp;c. 
+      <lb ed="#T" n="73"/>Resp. Multiplicatio formae alicuius non potest 
+      <lb ed="#T" n="74"/>esse nisi dupliciter: vel secundum specie, scilicet 
+      <lb ed="#T" n="75"/>per differentias formales, sicut diuisio generis in 
+      <lb ed="#T" n="76"/>species: vel secundum numerum per differentias 
+      <lb ed="#T" n="77"/>materiales, sicut sneciei in indiuidua, nam 
+      es<lb ed="#T" n="78" break="no"/>sentia speciei constituitur per vltimam formam 
+      <lb ed="#T" n="79"/>completiuam, sed per materiam multiplicatur  
+      <lb ed="#T" n="80"/>essentia speciei in indiuiduis. Secundo modo 
+      <lb ed="#T" n="81"/>nulla forma Diuina potest multiplicari, quia 
+      <lb ed="#T" n="82"/>nihil est in Diuinis materiale: primo modo 
+      mul<lb ed="#T" n="83" break="no"/>tiplicatur ratio proprietatis per speciales 
+      pro<lb ed="#T" n="84" break="no"/>prietates. Cum ergo communis spiratio in Patre. 
+      <lb ed="#T" n="85"/>&amp; Filio non multiplicetur primo modo, quia 
+      <lb ed="#T" n="86"/>eiusdem rationis est in vtroque, oportet quod 
+      <lb ed="#T" n="87"/>sit, vna numero. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e754">
+                  <lb ed="#T" n="88"/>Ad 1. De diuersis suppositis. Resp. Hoc 
+      ve<lb ed="#T" n="89" break="no"/>rum est in suppositis per essentiam, vintutem, 
+      <lb ed="#T" n="90"/>&amp; operationem differentibus. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e763">
+                  <lb ed="#T" n="91"/>Ad 2. De principio distinctionis. Resp. Nihil 
+      <lb ed="#T" n="92"/>est principium vnionis &amp; dictinctionis respectu 
+      <lb ed="#T" n="93"/>eorumdem: sed respectu diuersorum sic: nam 
+      <lb ed="#T" n="94"/>humanitas vnit Petrum, &amp; Paulum, &amp; 
+      vtrum<lb ed="#T" n="95" break="no"/>que distinguit ab asino. Similiter comunis 
+      spi<lb ed="#T" n="96" break="no"/>ratio vnit Patrem &amp; Filium, &amp; tamen 
+      vtrum<lb ed="#T" n="97" break="no"/>que distiuguit a Spiritu sancto. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e781">
+                  <lb ed="#T" n="98"/>Ad 3. Magis sunt vnum &amp;c. Resp. Non sunt 
+      <lb ed="#T" n="99"/>magis vnum intensiuue, nam secundum 
+      rela<lb ed="#T" n="100" break="no"/>tiua non attenditur in Diuinis magis &amp; auinus: 
+      <lb ed="#T" n="101"/>sed tamem pluribus modis sunt vnum. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e793">
+                  <lb ed="#T" n="102"/>Ad 4. De comparatione ad substantiam. 
+      <lb ed="#T" n="103"/>Resp. Proprietas in Diuinis non multiplicatur  
+      <lb ed="#T" n="104"/>secundum esse simpliciter, sed secundum esse 
+      <lb ed="#T" n="105"/>ad alterum: quamuis vero proprietas relatiua 
+      <lb ed="#T" n="106"/>secundum esse magis se teneat a parte suppositi, 
+      <lb ed="#T" n="107"/>quia accidentis esse est inesse; tamen secundum 
+      <lb ed="#T" n="108"/>naturam magis a parte objecti, &amp; ideo per 
+      re<lb ed="#T" n="109" break="no"/>spectum ad objecta multiplicatur, sed per 
+      re<lb ed="#T" n="110" break="no"/>spectum ad subjecta non, eo quod subjecta habent 
+      <lb ed="#T" n="111"/>idem esse, in quibus proprietas habet esse. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e72027-Dd1e818">
+               <head xml:id="pdt7y6-e72027-Hd1e820">Articulus 5</head>
+               <head xml:id="pdt7y6-e72027-Hd1e822" type="question-title">
+  An Pater et Filius sine unum principium spiritus sancti.
+</head>
+               <p xml:id="pdt7y6-e72027-d1e825">
+                  <lb ed="#T" n="112"/>ARTICVLVS V 
+      <lb ed="#T" n="113"/>An Pater &amp; Filius sine vnum principium 
+      <lb ed="#T" n="114"/>spiritus, sancti.
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e834">
+                  <lb ed="#T" n="115"/>AD quintum articulum sic proceditur. Si 
+      <lb ed="#T" n="116"/>Pater &amp; Filius sunt vnum principium 
+      Spi<lb ed="#T" n="117" break="no"/>ritus sancti, aut ergo principium quod est 
+      Pa<lb ed="#T" n="118" break="no"/>ter, aut quod non est Pater: si quod est Pater  
+      <lb ed="#T" n="119"/>ergo Filius est Pater: si quod non est Pater: ergo 
+      <lb ed="#T" n="120"/>Pater non est Pater.  
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e850">
+                  <lb ed="#T" n="121"/>2. Si sunt vnum principium Spiritus sancti. 
+      <lb ed="#T" n="122"/>aut ergo vnitate essentiae, aut personae, aut 
+      no<lb ed="#T" n="123" break="no"/>tio nis: si essentiae, ergo eadem ratione Spiritus 
+      <lb ed="#T" n="124"/>saactus est cum Patre &amp; Filio vnum principium 
+      <lb ed="#T" n="125"/>sui: si personae ergo sunt vna persona: si 
+      notio<lb ed="#T" n="126" break="no"/>nis, contra, si vnitas notionis faciat duas 
+      per<lb ed="#T" n="127" break="no"/>sonas esse vnum principium, e contrario 
+      duali<lb ed="#T" n="128" break="no"/>tas notionum faciet vnam personam esse duo 
+      <lb ed="#T" n="129"/>principia: ergo Pater poterit dici duo principia 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e873">
+                  <lb ed="#T" n="130"/>3. Non sigit vnus spirator Spiritus sancti: 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0314.xml-->
+      <pb ed="#T" n="239"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>nec sunt principium Spiritus sancti nisi 
+      inquan<lb ed="#T" n="2" break="no"/>tum spirant ipsum: ergo non sunt principium 
+      <lb ed="#T" n="3"/>vnum Spiritus sancti. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e891">
+                  <lb ed="#T" n="4"/>Contra. 1. Augustinus. Fatendum est Patrem 
+      <lb ed="#T" n="5"/>&amp; Filium esse vnum principium Spiritus sancti. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e898">
+                  <lb ed="#T" n="6"/>2. Propter eandem rationem principiandi 
+      <lb ed="#T" n="7"/>creaturam, tres personae dicuntur vnum 
+      prin<lb ed="#T" n="8" break="no"/>cipium creaturae: ergo a simili propter eandem 
+      <lb ed="#T" n="9"/>rationem principiandi Spiritum sanctum, 
+      Pa<lb ed="#T" n="10" break="no"/>ter &amp; Filius debent dici vnum principium 
+      Spi<lb ed="#T" n="11" break="no"/>ritus sancti. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e914">
+                  <lb ed="#T" n="12"/>3. Unius rei simplicis in eodem genere non 
+      <lb ed="#T" n="13"/>potest esse nisi vnum principium. Spiritus 
+      <lb ed="#T" n="14"/>sanctus simplex est: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e923">
+                  <lb ed="#T" n="15"/>Respondeo. Concedendum est secundum 
+      om<lb ed="#T" n="16" break="no"/>nes quod Pater &amp; Filius sunt vnum principium 
+      <lb ed="#T" n="17"/>Spiritus sancti: sed qua vnitate, diuersae sunt 
+      <lb ed="#T" n="18"/>opiniones. Quidam enim dixerunt quod 
+      vnita<lb ed="#T" n="19" break="no"/>te preportionis seu habitudinis simul ad 
+      Spiri<lb ed="#T" n="20" break="no"/>tum sanctum. Sed eadem ratione possent dici 
+      <lb ed="#T" n="21"/>esse vnum suppositum essentiae diuinae propter 
+      <lb ed="#T" n="22"/>vnitatem similis proportionis ad essetiam. Ideo 
+      <lb ed="#T" n="23"/>dicunt alij quod vnica re naturae: dicit enim 
+      <lb ed="#T" n="24"/>Anselmus quod ex eo quod vnus Deus sunt, 
+      <lb ed="#T" n="25"/>spirant Spiritum sanctum. Sed eadem ratione 
+      <lb ed="#T" n="26"/>ppiritus sanctus cum patre &amp; Filio esset vnum 
+      <lb ed="#T" n="27"/>principium sui. Ideo dicunt alij quod vnitate 
+      no<lb ed="#T" n="28" break="no"/>tionis. Sed eadem ratione dualitas notionum 
+      fa<lb ed="#T" n="29" break="no"/>teret duo principia. Ideo coniungendum est &amp; 
+      <lb ed="#T" n="30"/>dicendum quod sunt vnum principium vnitate 
+      <lb ed="#T" n="31"/>proportionis, &amp; essentiae simul &amp; notionis. Sunt 
+      <lb ed="#T" n="32"/>enim vnum vnitate spiratiuae potentiae, in qua 
+      <lb ed="#T" n="33"/>vtraque vnitas importatur. Unde sensus est, 
+      <lb ed="#T" n="34"/>sunt vnum principium Spiritus sancti id est 
+      <lb ed="#T" n="35"/>vnus Deus vniformiter spirans Spiritum 
+      san<lb ed="#T" n="36" break="no"/>ctum 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e973">
+                  <lb ed="#T" n="37"/>Ad 1. Aut ergo principium quod est pater.  
+      <lb ed="#T" n="38"/>Resp. Neutrum dandum est, quia non est 
+      di<lb ed="#T" n="39" break="no"/>uisio per contradictionem opposita: sed sic, aut 
+      <lb ed="#T" n="40"/>ergo sunt vnum principium quod est pater,  
+      <lb ed="#T" n="41"/>nut non sunt vnum principium quod est pater, 
+      <lb ed="#T" n="42"/>&amp; hoc verum est: quia vnum principium 
+      sup<lb ed="#T" n="43" break="no"/>ponit ibi consuse pro duabus personis, quae 
+      <lb ed="#T" n="44"/>non sunt pater. Et est instantia, nam petrus &amp; 
+      <lb ed="#T" n="45"/>paulus sunt vnus homo in specie non tamen 
+      <lb ed="#T" n="46"/>vnus homo qui est, aut qui non est 
+      pe<lb ed="#T" n="47" break="no"/>trus, sed sunt vnus homo qui est petrus &amp; 
+      pau<lb ed="#T" n="48" break="no"/>lus simul. Est autem in argumento fallacia 
+      di<lb ed="#T" n="49" break="no"/>ctionis a suppositione confusa ad determinatam. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e1005">
+                  <lb ed="#T" n="50"/>Ad 2. quod opponitur. Aut ergo vnitate 
+      es<lb ed="#T" n="51" break="no"/>sentiae &amp;c. Resp. Vnitate essentiae &amp; notionis 
+      <lb ed="#T" n="52"/>simul, quia nisi haberent vnum esse, nulla vna 
+      <lb ed="#T" n="53"/>proprietas posset eis inesse. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e1016">
+                  <lb ed="#T" n="54"/>Ad 3. De pluralitate notionis. Resp. Non 
+      <lb ed="#T" n="55"/>sola vnitas notionis facit vt possint dici vnum 
+      <lb ed="#T" n="56"/>principium, sed etiam vnitas essentiae. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e1025">
+                  <lb ed="#T" n="57"/>Ad 4. De spiratore. Resp. Non est simile, 
+      <lb ed="#T" n="58"/>quia spirator, cum sit nomen verbale, 
+      signi<lb ed="#T" n="59" break="no"/>ficat rem suam adiectiue per modum actus qui  
+      <lb ed="#T" n="60"/>in Deo numeratur secundum supposita: sed  
+      <lb ed="#T" n="61"/>principium significat rem suam substantiue. 
+      <lb ed="#T" n="62"/>vnde vnitatem recipit ab vnitate formae 
+      signi<lb ed="#T" n="63" break="no"/>ficatae.
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e72027-Dd1e1044">
+               <head xml:id="pdt7y6-e72027-Hd1e1046">Articulus 6</head>
+               <head xml:id="pdt7y6-e72027-Hd1e1048" type="question-title">
+  An Pater et Filius sunt idem principium spiritus sancti
+</head>
+               <p xml:id="pdt7y6-e72027-d1e1051">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0314.xml-->
+                  <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="64"/>ARTICVLVS VI. 
+      <lb ed="#T" n="65"/>An Pater &amp; Filius sunt idem principium 
+      <lb ed="#T" n="66"/>spiritus sancti 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e1064">
+                  <lb ed="#T" n="67"/>AD sextum articulum sic proceditur. Idem 
+      <lb ed="#T" n="68"/>&amp; diuersum sufficienter diuidunt ens: rater  
+      <lb ed="#T" n="69"/>&amp; Filius non sunt diuersa principia Spiritus 
+      <lb ed="#T" n="70"/>sancti: ergo idem principium. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e1075">
+                  <lb ed="#T" n="71"/>2. Ab vnitate notionis &amp; essentiae dicuntur 
+      <lb ed="#T" n="72"/>vnum principium: ergo ab identitate vtriusque 
+      <lb ed="#T" n="73"/>possunt dici idem principium.
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e1085">
+                  <lb ed="#T" n="74"/>3. Unitas alicuius rei non multiplicata facit 
+      <lb ed="#T" n="75"/>idem: vnitas principij est in patre &amp; Filio non 
+      <lb ed="#T" n="76"/>multiplicata: ergo facit idem principium. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e1094">
+                  <lb ed="#T" n="77"/>4. Relatio in Diuinis est substantia, non 
+      ac<lb ed="#T" n="78" break="no"/>cidens: vnitas vero in substantia facit idem: 
+      <lb ed="#T" n="79"/>ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e1103">
+                  <lb ed="#T" n="80"/>Contra. 1. Sequitur: Sortes &amp; plato sunt idem 
+      <lb ed="#T" n="81"/>an imal; ergo sunt idem: ergo a simili si pater &amp; 
+      <lb ed="#T" n="82"/>Filius sunt idem principium, ipsi sunt idem: sed  
+      <lb ed="#T" n="83"/>hoc falsum: ergo primum. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e1114">
+                  <lb ed="#T" n="84"/>2. Idem pronomen est relatiuum: pronomen aute 
+      <lb ed="#T" n="85"/>relatiuum refert idem suppositum, quia 
+      prono<lb ed="#T" n="86" break="no"/>men relatiuum, vt ait philosophus, facit 
+      secun<lb ed="#T" n="87" break="no"/>dam notitiam suppositorum: sed pater &amp; Filius 
+      <lb ed="#T" n="88"/>non sunt idem suppositum. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e1127">
+                  <lb ed="#T" n="89"/>Respondeo. Hoc pronomen idem refert idem 
+      <lb ed="#T" n="90"/>suppositum, non tamen eandem formam 
+      sup<lb ed="#T" n="91" break="no"/>positi: pater vero &amp; Filius non sunt idem 
+      sup<lb ed="#T" n="92" break="no"/>posito, quamuis sint idem forma, ideo non 
+      <lb ed="#T" n="93"/>possunt dici idem principium. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e1140">
+                  <lb ed="#T" n="94"/>Ad 1. Idem &amp;c. Resp. Quando idem &amp; 
+      diuer<lb ed="#T" n="95" break="no"/>sum referuntur ad idem, verum est: secus falsum, 
+      <lb ed="#T" n="96"/>vt in ente increato, quia ibi est eadem essentia 
+      <lb ed="#T" n="97"/>quae impedit diuersitatem, &amp; distinctio 
+      suppo<lb ed="#T" n="98" break="no"/>sitorum quae impedit identitatem, vnde idem 
+      <lb ed="#T" n="99"/>&amp; diuersum non referuntur ad idem. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e1157">
+                  <lb ed="#T" n="100"/>Ad 2. De vnitate essentiae. Resp. Non est 
+      simi<lb ed="#T" n="101" break="no"/>le, quia vnum non est relatiuum, vnde non 
+      <lb ed="#T" n="102"/>refert suppositum, sed ponit rem suam circa 
+      <lb ed="#T" n="103"/>formam sui substantiui: idem vero refert 
+      suppo<lb ed="#T" n="104" break="no"/>situm. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e1170">
+                  <lb ed="#T" n="105"/>Ad 3. De vnitate non multiplicata. Resp. 
+      <lb ed="#T" n="106"/>Hoc verum est, vbi vnitatem illius rei 
+      comita<lb ed="#T" n="107" break="no"/>tur vnitas suppositi illius, aliter non. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e1179">
+                  <lb ed="#T" n="108"/>Ad 4. De substantia. Resp. Ubi vnitas 
+      sub<lb ed="#T" n="109" break="no"/>stantiae concomitatur vnitatem suppositi, &amp; e 
+      <lb ed="#T" n="110"/>conuerso verum est, aliter non. Vel dicendum, 
+      <lb ed="#T" n="111"/>quod relatio in Diuinis quamuis sit substantia. 
+      <lb ed="#T" n="112"/>secundum rem, non tamen secundum modum. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e72027-Dd1e1193">
+               <head xml:id="pdt7y6-e72027-Hd1e1195">Articulus 7</head>
+               <head xml:id="pdt7y6-e72027-Hd1e1197" type="question-title">
+  Quid significet principium, cum principium de principio dicitur
+</head>
+               <p xml:id="pdt7y6-e72027-d1e1200">
+                  <lb ed="#T" n="113"/>ARTICVLVS VII. 
+      <lb ed="#T" n="114"/>Quid significet principium, cum principium de 
+      <lb ed="#T" n="115"/>principio dicitur.
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e1209">
+                  <lb ed="#T" n="116"/>D septimum articulum sic proceditur. 1. 
+      <lb ed="#T" n="117"/>posuit Augustinus pro regula, supra dist. 
+      <lb ed="#T" n="118"/>27. quod in solis terminis communibus dicitur  
+      <lb ed="#T" n="119"/>hoc de illo: ergo in substantialibus: ergo cum 
+      <lb ed="#T" n="120"/>dicitur principium de principio, principium 
+      <lb ed="#T" n="121"/>significat substantiam. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e1225">
+                  <lb ed="#T" n="122"/>2. Principium de principio commune est 
+      <lb ed="#T" n="123"/>Filio &amp; Soiritui sancto: principium autem 
+      di<lb ed="#T" n="124" break="no"/>ctum de Spiritu sancto significat substantiam: 
+      <lb ed="#T" n="125"/>ergo cum dicitur principium de principio, 
+      prin<lb ed="#T" n="126" break="no"/>cipium significat substantiam. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e1239">
+                  <lb ed="#T" n="127"/>Contra. Substantia non est de principio 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0315.xml-->
+      <pb ed="#T" n="240"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>nec principium personae: ergo principium ibi 
+      <lb ed="#T" n="2"/>non significat substantiam. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e1255">
+                  <lb ed="#T" n="3"/>2. Si significaret substantiam, ergo Pater potost 
+      <lb ed="#T" n="4"/>dici principium de principio: sed hoc est falsum: 
+      <lb ed="#T" n="5"/>ergo primum. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e1264">
+                  <lb ed="#T" n="6"/>Respondeo. Cum dicitur principium de 
+      prin<lb ed="#T" n="7" break="no"/>cipio, principium accipitur communiter, 
+      se<lb ed="#T" n="8" break="no"/>cundum significationem, ad substantiam &amp; 
+      <lb ed="#T" n="9"/>notionem: secundum suppositionem vero, 
+      ac<lb ed="#T" n="10" break="no"/>cipitur personaliter, aut pro persona Filij, aut 
+      <lb ed="#T" n="11"/>Spiritus sancti in recto: aut pro persona Patris. 
+      <lb ed="#T" n="12"/>aut Filij in obliquo. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e1282">
+                  <lb ed="#T" n="13"/>Ad 1. De regula. Resp. Augustinus dat 
+      re<lb ed="#T" n="14" break="no"/>gulam, non solum de terminis substantialibus; 
+      <lb ed="#T" n="15"/>sed de ijs qui dicuntur communiter de personis, 
+      <lb ed="#T" n="16"/>siue communitate rei, siue communitate 
+      ra<lb ed="#T" n="17" break="no"/>tionis: potest enim dici lumen de lumine 
+      <lb ed="#T" n="18"/>propter communitatemrei, &amp; persona de 
+      per<lb ed="#T" n="19" break="no"/>sona. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e1300">
+                  <lb ed="#T" n="20"/>Ad 2. De Spiritu sancto. Resp. Principium 
+      <lb ed="#T" n="21"/>de principio commune est Filio &amp; Spiritui 
+      san<lb ed="#T" n="22" break="no"/>cto, vnde significat communem rationem 
+      prin<lb ed="#T" n="23" break="no"/>cipi ad vtrumque, vel secundum rem, scilicet,  
+      <lb ed="#T" n="24"/>essentialem; vel secundum intellectum, sci¬  
+      <!--1652-gregPress-MichiganState-gbooks-v1-0315.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="25"/>licet abstrahentem a notionali &amp; essentiali, quae 
+      <lb ed="#T" n="26"/>per aliquid additum potest determinati ad 
+      sup<lb ed="#T" n="27" break="no"/>ponendum pro altero illorum. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e1324">
+                  <lb ed="#T" n="28"/>Ad 1. in contrarium. Resp. Quamuis 
+      substan<lb ed="#T" n="29" break="no"/>tia non sit principium de principio, potest 
+      ta<lb ed="#T" n="30" break="no"/>men ibi principium substantiam significare, sed  
+      <lb ed="#T" n="31"/>non supponere: sicut &amp; cum dicitur lumen de 
+      <lb ed="#T" n="32"/>lumine, Deus de Deo. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e1338">
+                  <lb ed="#T" n="33"/>Ad 2. Si significaret substantiam. Resp. Hoc 
+      <lb ed="#T" n="34"/>non est verum: nisi etiam substantiam 
+      suppo<lb ed="#T" n="35" break="no"/>neret. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e72027-Dd1e1349">
+               <head xml:id="pdt7y6-e72027-Hd1e1351">Expositio litterae</head>
+               <p xml:id="pdt7y6-e72027-d1e1353">
+                  <lb ed="#T" n="36"/>EXPOSITIO LITERAE. 
+      <lb ed="#T" n="37"/>[DAter est principium totius Diuinitatis,. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e1360">
+                  <lb ed="#T" n="38"/>Contra. Ergo Diuinitas habet piincipium. 
+      <lb ed="#T" n="39"/>Resp. Exponendum est, id est Filij &amp; Spiritus 
+      <lb ed="#T" n="40"/>sancti in quibus est tota Diuinitas. 
+    </p>
+               <p xml:id="pdt7y6-e72027-d1e1369">
+                  <lb ed="#T" n="41"/>[Vel si melius dicitur Deitatis.] Quaeritur  
+      <lb ed="#T" n="42"/>quare hoc melius dicitur. Resp. Quia Deitas 
+      <lb ed="#T" n="43"/>dicit quid diuinum per essentiam quasi 
+      princi<lb ed="#T" n="44" break="no"/>paliter: Diuinitas vero per participationem 
+      <lb ed="#T" n="45"/>quasi denominatiue. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0315.xml-->
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

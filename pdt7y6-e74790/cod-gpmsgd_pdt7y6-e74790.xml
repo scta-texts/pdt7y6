@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="245"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e74790"><!-- l1d31prae -->
+            <head xml:id="pdt7y6-e74790-Hd1e99">Praeambulum</head>
+            <head xml:id="pdt7y6-e74790-Hd1e101" type="question-title"/>
+            <p xml:id="pdt7y6-e74790-d1e103">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0320.xml-->
+               <cb ed="#T" n="c"/>
+               <lb ed="#T" n="21"/>QVOMODODICATVRFILIVS 
+      <lb ed="#T" n="22"/>AEqualis Patri, an secundum substantiam, an secundum 
+      <lb ed="#T" n="23"/>relationem: ita &amp; similis. Distinet. TXXI. 
+    </p>
+           <!-- <p xml:id="pdt7y6-e74790-d1e116">
+               <lb ed="#T" n="24"/>PRaeterea considerari oportet, cum tres personae coaequales sibi sint, vtrum 
+      <lb ed="#T" n="25"/>relatiue hoc dicatur, an secundum substantiam: &amp; si relatiue, vtrum 
+      se<lb ed="#T" n="26" break="no"/>cundum relationem, an secundum essentiam consideranda sit aequalitas: 
+      <lb ed="#T" n="27"/>deinde quid sit ipsa aequalitas. Ad quod dicimus, quia sicut simile nihil sibi 
+      <lb ed="#T" n="28"/>est: similitudo enim (vt ait Hylarius) sibi ipsi non est: ita &amp; aequale 
+      ali<lb ed="#T" n="29" break="no"/>quid sibi non dicitur: ac per hoc sicut simile, ita &amp; aequale relatiue dicitur.  
+      <lb ed="#T" n="30"/>Dicitur ergo relatiue Filius aequalis Patri, &amp; vtrique Spiritus sanctus: est tamen aequalis 
+      <lb ed="#T" n="31"/>Patri Filius &amp; vtrique Spiritus sanctus, propter summam simplicitatem essentiae &amp; 
+      vni<lb ed="#T" n="32" break="no"/>tatem. AEqualis est ergo Filius Patri secundum essentiam, non secundum relationem. 
+      <lb ed="#T" n="33"/>Vnde August. 5. lib de Trinitate ait, quaerimus secundum quid aequalis sit Patri Filius, 
+      <lb ed="#T" n="34"/>non secundum quod ad Patrem dicitur Filius, aequalis est Patri: restat ergo vt secundum 
+      <lb ed="#T" n="35"/>id aequalis sit, quod ad se dicitur. Quicquid autem ad se dicitur, secundum substantiam 
+      di<lb ed="#T" n="36" break="no"/>citur: restat ergo vt secundum substantiam sit aequalis, eadem ergo est vtriusque 
+      substan<lb ed="#T" n="37" break="no"/>tia. Item in 6. lib. Satis est videre nullo modo Filium aequalem esse Patri, si in aliquo 
+      sci<lb ed="#T" n="38" break="no"/>licet quod pertineat ad significandam eius substantiam, inaequalis inuenitur. In omnibus 
+      <lb ed="#T" n="39"/>ergo aequalis est Patri Filius &amp; est eiusdem substantiae. AEqualis est etiam Spiritus sanctus 
+      <lb ed="#T" n="40"/>Patri &amp; Filio, &amp; in omnibus aequalis propter summam simpl citatem illius substantiae. 
+      <lb ed="#T" n="41"/>Ex his perspicuum sit, quod secundum substantiam Filius est aequalis Patri, &amp; vtrique 
+      Spi<lb ed="#T" n="42" break="no"/>ritus sanctus, &amp; appeliatio tantum relatiua est. AEqualitas ergo Patris &amp; Filij non est 
+      re<lb ed="#T" n="43" break="no"/>latio vel notio, sed naturalis vnitas &amp; identitas. 
+    </p>
+            <p xml:id="pdt7y6-e74790-d1e162">
+               <lb ed="#T" n="44"/>Hic quaeritur quomodo dicatur similis, &amp; quid sit similitudo. 
+      <lb ed="#T" n="45"/>Hoc idem etiam dicimus de simili &amp; similitudine. Cum enim dicitur Filius similis Patri, 
+      <lb ed="#T" n="46"/>relatiue quidem dicitur: sed similis est Patri propter vnitatem essentiae. Est ergo 
+      appella<lb ed="#T" n="47" break="no"/>tio tantum relatiua, similitudo vero indiffei ens essentia. Unde quibusdam non indocte 
+      vi<lb ed="#T" n="48" break="no"/>detur nomine aequalitatis vel similitudinis non aliquid poni, sed remoueri: vt ea ratione 
+      <lb ed="#T" n="49"/>dicatur Filius aequalis Patri, quia nec maior est eo, nec minor, &amp; hoc propter vnitatem 
+      <lb ed="#T" n="50"/>essentiae. Ita &amp; similis dicitur, quia nec diuersus, nec alienus, nec in aliquo dissimilis, &amp; 
+      <lb ed="#T" n="51"/>hoc propter essentiae simplicitatem. Non ergo secundum quod: ilius est genitus a Patre, 
+      <lb ed="#T" n="52"/>aequalis vel inaequalis est Patri, nec similis secundum substantiam. 
+    </p>
+            <p xml:id="pdt7y6-e74790-d1e185">
+               <lb ed="#T" n="53"/>De sententia sancti Hylarij, qua in Trinitate personarum propria ostendit. 
+      <lb ed="#T" n="54"/>Non est igitur hic praetermittendum, quod vir illustris Hilarius proprietates 
+      persona<lb ed="#T" n="55" break="no"/>rum assignans, dicit in Patre esse aeternitatem, speciem inImagine, vsum in munere: quae 
+      tan<lb ed="#T" n="56" break="no"/>tae difficultatis sunt verba, vt in eorum intelligentia atque explanatione vehementer 
+      labo<lb ed="#T" n="57" break="no"/>rauerit August. vt ipse ostendit in 6. lib. de Trinit. ita dicens: Quidam cum vellet bre 
+      <lb ed="#T" n="58"/>uissime singularum in Trinitate personarum insinuare propria, AEternitas est, inquit, in 
+      <lb ed="#T" n="59"/>Patre, species in imagiue, vsus in munere. Et quia non mediocris authoritatis in 
+      tracta<lb ed="#T" n="60" break="no"/>tione Scripturarum, &amp; affertione fidei vir extitit (haec enim Hilarius in libris suis posuit 
+      <lb ed="#T" n="61"/>hocum verborum, id est, Patris &amp; imaginis, &amp; muneris, aeternitatis, speciei, &amp; vsus, 
+      <lb ed="#T" n="62"/>abditam scrutatus inteliigentiam, quantum valeo non cum secutum arbitror in aeternitatis 
+      <lb ed="#T" n="63"/>vocabulo, nisi quod Pater non habet Patrem de quo sit: Filius autem de Patre est vt sit, 
+      <lb ed="#T" n="64"/>atque vt illi coae: er: us sit. Imago enim, si perfecte implet illud cuius imago est, ipsa coae 
+      <lb ed="#T" n="65"/>quatur ei, non illud imagini suae, in qua imagine speciem nominauit. Credo propter pul¬ 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0321.xml-\->
+      <pb ed="#T" n="246"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>chritudinem, vbi tanta est congruentia &amp; prima aequalitas, &amp; prima similitudo nulla inres 
+      <lb ed="#T" n="2"/>dissidens, &amp; nullo modo inaequalis, &amp; nulla ex parte dissimilis: sed ad identitatem 
+      res<lb ed="#T" n="3" break="no"/>pondens ei cuius imago est, vbi ex prima &amp; summa vita, cui non aliud viuere &amp; aliud esse, 
+      <lb ed="#T" n="4"/>sed idem &amp; primus ac summus intellectus, cui non est aliud viuere &amp; aliud intelligere, sed  
+      <lb ed="#T" n="5"/>idem hoc vnum tanquam verbum perfectum, cui non desit aliquid: &amp; ars quaedam 
+      omni<lb ed="#T" n="6" break="no"/>potentis &amp; sapientis Dei plena omnium rationum viuentium incommutabilium: &amp; 
+      om<lb ed="#T" n="7" break="no"/>nes vnum in ea: sicut ipsa vnum de vno cum quo vnum: ibi nouit omnia Deus quae fecit 
+      <lb ed="#T" n="8"/>per ipsam. 
+      <lb ed="#T" n="9"/>imego est, sed eum, enius imago est, necesse est ut imago demonstret. Imago e rgo est rel ad rem coaequandam &amp; imaginata &amp; 
+      in<lb ed="#T" n="10" break="no"/>simititudo. Est ergo Pater, est etiam Filius: qui a imago Patris est Filiui, &amp; quia imago est, vt res imago sit, speciem, nice sse 
+      <lb ed="#T" n="11"/>naturam &amp; essentiam, secundum quod imago ist, in it habeat Ruiboris, 
+    </p>
+            <p xml:id="pdt7y6-e74790-d1e246">
+               <lb ed="#T" n="12"/>Hic de Spiritu sancto, quare usus dicatur,  
+      <lb ed="#T" n="13"/>Et autem ineffabilis quidam complexus Patris &amp; imaginis, qui non est sine 
+      perfruitio<lb ed="#T" n="14" break="no"/>ne, sine charitate, sine gaudio: illa ergo dilectio, delectatio, soelicitas, vel beatitudo (si 
+      ta<lb ed="#T" n="15" break="no"/>men aliqua hamana voce digne dicitur) vsus ab illo appellata est breuiter, &amp; est in 
+      Trini<lb ed="#T" n="16" break="no"/>tate Spiritus sanctus, non genitus, sed genitoris genitique suauitas, ingeniti largitate atque 
+      <lb ed="#T" n="17"/>vbertate perfundens omnes creaturas pro captu earum. Itaque illa tria &amp; a se inuicem de 
+      <lb ed="#T" n="18"/>terminati videntur, &amp; in se infinita sunt. Qui videt hoc vel ex parte, vel per speculum in 
+      <lb ed="#T" n="19"/>aenigmate, gaudeat cognoscens Deum, &amp; gratias agat. Qui vero non videt, tendat per 
+      <lb ed="#T" n="20"/>pietatem fidei ad vide idum, non per caecitatem ad calumniandum: quoniam vnus est 
+      <lb ed="#T" n="21"/>Deus, sed tamen Trinitas. Ecce habes qualiter verba Hylarij praemissa accipienda sint, 
+      <lb ed="#T" n="22"/>licet tantae sint profunditatis, vt etiam adhibita expositione vix aliquatenus ea 
+      intellige<lb ed="#T" n="23" break="no"/>re valeat humanus sensus, cum &amp; ipsa eorum explanatio, quam hic August. edidit, 
+      pluri<lb ed="#T" n="24" break="no"/>mum in se habeat difficultatis &amp; ambiguitatis. 
+    </p>
+            <p xml:id="pdt7y6-e74790-d1e277">
+               <lb ed="#T" n="25"/>Quod secundum hanc expositionem non distinguntur ibi proprietates personarum tres. 
+      <lb ed="#T" n="26"/>Non enim secundum praemissam expositionem distinguntur hic tres illae proprietates 
+      <lb ed="#T" n="27"/>superius assignatae, sed ipsae hypostases distinctae ab inuicem monstrantur: aeternitatis 
+      ta<lb ed="#T" n="28" break="no"/>men nomine eadem videtur designata proprietas, quam notat hoc nomen Ingenitus. 
+      <lb ed="#T" n="29"/>Sed videamus quid sit quod ait: Imago si perfecte implet, cuius imago est, ipsa coaequatur. 
+      <lb ed="#T" n="30"/>ei, non illud suae imagini. Videtur enim dicere, quod Filius qui est imago Patris, Patri. 
+      <lb ed="#T" n="31"/>coaequatur, non Pater Filio, cum &amp; Filius dicatur aequalis patri in Scriptura, &amp; pater Filio: 
+      <lb ed="#T" n="32"/>sed Filius hoc habet a patre vt sit aequalis, Pater autem non habet a Filio, &amp; tamen Filius, 
+      <lb ed="#T" n="33"/>plene ac perfecte aequalis est Patri, id est, imago ei cuius est imago. 
+    </p>
+            <p xml:id="pdt7y6-e74790-d1e299">
+               <lb ed="#T" n="34"/>Quare dicatur Hilarius propria personarum ajsignare in verbis praedictis, cum ibinon sint  
+    </p>
+            <p xml:id="pdt7y6-e74790-d1e304">
+               <lb ed="#T" n="35"/>expressae proprietates. 
+      <lb ed="#T" n="36"/>Propria ergo personarum in praedictis verbis assignasse dicitur Hilarius, quia relatiua 
+      no<lb ed="#T" n="37" break="no"/>mina personarum posuit, scilicet imaginis, &amp; muneris, quae relatiue dicuntur de 
+      perso<lb ed="#T" n="38" break="no"/>nis: &amp; proprietates notat, quibus distinguuntur personae. Ita enim dicitur Spiritus sanctus 
+      <lb ed="#T" n="39"/>munus relatiue sicut donum. Verumtamen ipsas proprietates alijs tribus nominibus non 
+      <lb ed="#T" n="40"/>significauit, iuxta praedictam Aug. expositionem, nisi solo nomine aeternitatis, quo non 
+      <lb ed="#T" n="41"/> ipsam paternitatem, sed eam voluit intelligi notionem, qua dicitur ingenitus. 
+      <lb ed="#T" n="42"/>(&amp; duo innascibilia &amp; duo innata dicens, duo factat deos auathema sit. Caput enim quod est principlum omnium Filius. Caput autem 
+      <lb ed="#T" n="43"/>t principium christi Deus Sic enim ad vnum initiabile omnium initium per Fltium uniuersa referimus. Filium innascibilem consitert 
+      <lb ed="#T" n="44"/>num est. Iam enim non erit unus Deus, quia Deum onum praedicari natura unius innascibilis Dei exigit. Cum ergo Deus onus sit, 
+      <lb ed="#T" n="45"/>taseibiles esse non possunt, cum idciveo Deus vnus sit, cum &amp; Pater Deus sit, &amp; Filius Dei, Deus sit, qua inuascioilitas sota penes 
+      <lb ed="#T" n="46"/>3 Filius autem idcirco Deus quia ex inuascibili essentia natus existat.  
+      <lb ed="#T" n="47"/>Quod carumdem personarum distinctionem notat Aug.alijs verbis sine expressionetrium personarum. &amp; 
+    </p>
+            <p xml:id="pdt7y6-e74790-d1e335">
+               <lb ed="#T" n="48"/>Illud etiam sciri oportet, quod earundem trium personarum distinctionem Aug. 
+      osten<lb ed="#T" n="49" break="no"/>dere volens sine ex pressione illarum trium proprietatum superius commemoratarum in 
+      <lb ed="#T" n="50"/>1. libro de Doctrina Christiana, sic ait: In Patre est vnitas, in Filio aequalitas, in Spiritu 
+      san<lb ed="#T" n="51" break="no"/>cto vnitatis aequalitatisque concordia. Et haec tria vnum omnia propter Patrem, aequalia 
+      <lb ed="#T" n="52"/>omnia propter Filium, connexa omnia propter Spiritum sanctum. Itaque Pater &amp; Filius, 
+      <lb ed="#T" n="53"/>&amp; Spiritus sanctus, &amp; singulus quisque horum Deus est, &amp; simul omnes vnus Deus: &amp; 
+      sin<lb ed="#T" n="54" break="no"/>gulus quisque horum plena substantia est, &amp; simul omnes vna substantia. Pater nec Filius, 
+      <lb ed="#T" n="55"/>est nec Spiritus sanctus: &amp; Filius nec Pater est nec Spiritus sanctus: Spiritus sanctus nec 
+      <lb ed="#T" n="56"/>Pater est, nec Filius, sed Pater tantum Pater, &amp; Filius tantum Filius, &amp; Spiritus sanctus 
+      <lb ed="#T" n="57"/>tantum Spiritus sanctus. Eadem tribus aeternitas, eadem incommutabilitas, eadem 
+      maje<lb ed="#T" n="58" break="no"/>stas, eadem potestas. In his verbis aporte insinuatur personarum trium distinctio. 
+    </p>
+            <p xml:id="pdt7y6-e74790-d1e362">
+               <lb ed="#T" n="59"/>Quare Patri attribuitur unitas, &amp; Filio aequalitas. 
+      <lb ed="#T" n="60"/>Sed plurimos mouet, quod Patri attribuit vnitatem, Filio aequalitatem. Cum enim vni¬ 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0322.xml-\->
+      <pb ed="#T" n="247"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>tas dicatur secundum substantiam, non tantum in Patre est, sed etiam in Filio &amp; in Spiritu 
+      <lb ed="#T" n="2"/>sancto, &amp; aequalitas vna est Patris &amp; Filij &amp; Spiritus sancti. Cur ergo Patri attribuitur 
+      vni<lb ed="#T" n="3" break="no"/>tas, &amp; Filio aequalitas: Forte eadem ratione attribuitur Patri vnitas secundum Aug. qua 
+      <lb ed="#T" n="4"/>sup: a cidem aeternitas secundum Hilarium: quia videlicet Pater ita est, vt ab alio non sit, 
+      <lb ed="#T" n="5"/>&amp; quia Filium genuit vnum secum Deum, &amp; Spiritus sanctus ab eo procedit vnus cum eo 
+      <lb ed="#T" n="6"/>Deus. Vnitas ergo in Patre esse dicitur, quia nec est aliquid aliud a quo sit. Non enim ab 
+      <lb ed="#T" n="7"/>alio est, nec ab eo aliquis vel aliquid est ab aeterno, quod vnum cum eo non sit: Filius, 
+      <lb ed="#T" n="8"/>enim &amp; Spiritus sanctus vnum sunt cum Patre. Unde veritas ait, Ego &amp; Pater vnum sumus. 
+      <lb ed="#T" n="9"/>Quare Pater &amp; Filius dicantur esse vnum, vel vnus Deus, sed non vnus: quia res eiusdem naturae recte 
+    </p>
+            <p xml:id="pdt7y6-e74790-d1e395">
+               <lb ed="#T" n="10"/>possunt dici vnum simpliciter esse, &amp; cum adiectione: res vero diuersae naturae non possunt. 
+    </p>
+            <p xml:id="pdt7y6-e74790-d1e400">
+               <lb ed="#T" n="11"/>dici vnum nisi dicatur quid vnum. 
+      <lb ed="#T" n="12"/>Hic dici oportet, quod Pater &amp; Filius &amp; Spiritus sanctus recte dicuntur esse vnum &amp; 
+      <lb ed="#T" n="13"/>vnus Deus, sed non vnus. Res enim duae vel plures recte possunt dici vnum esse, si sinte  
+      <lb ed="#T" n="14"/>vnius essentiae, &amp; earum vna sit natura: vnus autem vel vna non potest dici de diuersis rebus, 
+      <lb ed="#T" n="15"/>nisi addatur quid vnus vel vna, quo addito, recte potest dici de rebus &amp; vnius &amp; diuersae 
+      <lb ed="#T" n="16"/>substantiae. Unde Augustinus in 6. libro de Trinitate sic ait, Nescio vtrum 
+      inue<lb ed="#T" n="17" break="no"/>niatur in Scripturis dictum, vnum sunt, quorum est diuersa natura. Si autem &amp; aliqua 
+      <lb ed="#T" n="18"/>pluia sunt eiusdem naturae &amp; diuersa sentiant, non sunt vnum inquantum diuersa sentiunt. 
+      <lb ed="#T" n="19"/>Cum ergo sic dicitur vnim, vt non addatur quid vnum, &amp; plura vnum dicuntur, eadem 
+      <lb ed="#T" n="20"/>natura atque essentia non dissidens neque dissentiens significatur. Vnde Paulus &amp; Apollo. 
+      <lb ed="#T" n="21"/>qui &amp; ambo homines erant &amp; idem sentiebant, vnum esse dicuntur, cum dicitur: Et 
+    </p>
+            <p xml:id="pdt7y6-e74790-d1e426">
+               <lb ed="#T" n="22"/>
+      qui<lb ed="#T" n="23" break="no"/>plantat &amp; qui rigat vnum sunt. Cum vero additur quid vnum, potest significari aliquid ex 
+      <lb ed="#T" n="24"/>pluribus vnum factum, quamuis diuersa natura sit: sicut anima &amp; corpus non possunt 
+      vti<lb ed="#T" n="25" break="no"/>que dici vnum, quid enim tam diuersum? nisi addatur vel subintelligatur quid vnum, 
+      sci<lb ed="#T" n="26" break="no"/>licet vnus homo: Vnde Apostolus, Qui adhaeret, inquit, Domino, Spiritus vnuus est 
+      <lb ed="#T" n="27"/>Non dixit: vnus est, vel vnum sunt, sed addidit, Spiritus: diuersi sunt enim natura 
+      Spi<lb ed="#T" n="28" break="no"/>ritus hominis &amp; Spiritus Dei, sed inhaerendo sit Spiritus hominis vnus Spiritus cum Deo. 
+      <lb ed="#T" n="29"/>quia particeps sit veritatis &amp; beatitudinis illius. Si ergo de his quae diuersae substantiae sunt,  
+      <lb ed="#T" n="30"/>recte dicitur quod sint vnus Spiritus: quanto magis qui vnius substantiae sunt recte 
+      dicun<lb ed="#T" n="31" break="no"/>tur vnus Deus esse? Pater ergo &amp; Filius vnum sunt, vtique secundum vnitatem essentiae: 
+      <lb ed="#T" n="32"/>&amp; vnus Deus. In quo &amp; Arriana haeresis damnatur, quae Patrem &amp; Filium &amp; Spiritum 
+      san<lb ed="#T" n="33" break="no"/>ctum, vt ait Aug. in libro de Haeresib. non vult esse vnius eiusdemque substantiae atque 
+      na<lb ed="#T" n="34" break="no"/>turae, vel vt expressius dicatur, essentiae, quae Graece dicitur ousia, sed Filium esse creaturam. 
+      <lb ed="#T" n="35"/>Nec non &amp; Sabelliana, quae, vt ait Aug. in eodem lib. dicebat Christum enudem ipsum &amp; 
+      <lb ed="#T" n="36"/>Patrem &amp; Spiritum sanctum esse: vt esset Trinitas nominum sine subsistentia personarum. 
+      <lb ed="#T" n="37"/>vtramque pestem, vt ait Aug. super loannem, elidit veritas dicens, Ego &amp; pater vnum 
+      su<lb ed="#T" n="38" break="no"/>mus. Vtrumque audi &amp; aduerte, &amp; vnum &amp; sumus, &amp; a Charybdi &amp; a scylla liberaberis. 
+      <lb ed="#T" n="39"/>Quod enim dixit vnum liberat te ab Arrio, quod dixit Sumus, liberat a Sabellio. Si vnum, 
+      <lb ed="#T" n="40"/>ergo non diuerium: si sumus, ergo Pater &amp; Filius. Sumus enim non diceret de vno, nec 
+      <lb ed="#T" n="41"/>vnum de diuerso. Erubescant ergo Sabelliani, qui dicunt ipsum esse natrem qui est Filius, 
+      <lb ed="#T" n="42"/>confundentes personas: qui &amp; dicti sunt Patripassiani, qui dicunt patrem fuisse passum. 
+      <lb ed="#T" n="43"/>Arriani vero dicunt aliud Patrem esse, aliud Filium non vnam substantiam, sed duas: 
+      ra<lb ed="#T" n="44" break="no"/>trem maiorem, Filium minorem. Noli hoc dicere tu Catholice. In medio ergo nauiga, 
+      <lb ed="#T" n="45"/>vtrumque periculosum latus deuita, &amp; dic: Pater, Pater est: &amp; Filius, Filius est. Alius Pater,  
+      <lb ed="#T" n="46"/>alius Filius, sed nonaliud, imo hoc ipsum, quia vnus Deus. Ecce ostensum est quare vnitas 
+      <lb ed="#T" n="47"/>in Patre esse dicatur, cum tres illi vnum sint.  
+      <lb ed="#T" n="48"/>ergo congregata lanctorum synodus impietatem eam perimere que unitatem Patris &amp; Filij &amp; Spiritus sancti, nominum numero illud, 
+      <lb ed="#T" n="49"/>non subsiftente causa vniuscuiusque nominis triplix nuncupatio obtiueret sub falsitate nominum vnionem, &amp; Pater socus atque vnus 
+      <lb ed="#T" n="50"/>ipse haberet &amp; Spiritus sancti nomen &amp; Filij. Idctreo tres substantias esse dixerunt subsissentium personas, sed per substantiam edocentes. 
+      <lb ed="#T" n="51"/>substantiam Patris &amp; Filij diuer sitate dissimitis essentiae siparantes. Quod autem dictum est, vt sini quidem per substantiam tria, 
+      per<lb ed="#T" n="52" break="no"/>tiam uero enum, non habet calumuiam, quia cognominato Spiritu id est Paraclito, consonantiae potius quam essentiae per simititudinem. 
+      <lb ed="#T" n="53"/>uae praedicari conuenit pnitatem. 
+    </p>
+            <p xml:id="pdt7y6-e74790-d1e498">
+               <lb ed="#T" n="54"/>Quare dicatur esse aequalitas in Filio, cum sit una aequalitas trium. 
+      <lb ed="#T" n="55"/>Nunc videamus quare aequalitas dicatur esse in Filio, cum vna &amp; summa aequalitas sit 
+      <lb ed="#T" n="56"/>trium. Hoc ideo forte dictum est, quia Filius genitus est a Patre aequalis gignenti &amp; dono 
+      <lb ed="#T" n="57"/>quod ab vtroque procedit, &amp; ideo illa tria dicuntur esse aequalia propter Filium. Filius, 
+      <lb ed="#T" n="58"/>enim habet a Patre, vt ei sit aequalis &amp; Spiritui sancto, &amp; Spiritus sanctus ab vtroque habet  
+      <lb ed="#T" n="59"/>vt aequalis vtrique. Hoc autem sine assertionis supercilio &amp; maioris intelligentiae praeiudicio 
+      <lb ed="#T" n="60"/>dicimus, malentes in apertione tam clausorum sermonum peritiores audire, quam 
+      ali<lb ed="#T" n="61" break="no"/>quid alijs influere. 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0323.xml-\->
+      <pb ed="#T" n="248"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>Quare in Spiritu sancto dicatur esse vtriusque concordia vel connexio. 
+      <lb ed="#T" n="2"/>Quod autem in Spiritu sancto dicitur esse vtriusque concordia, &amp; per cum omnia 
+      con<lb ed="#T" n="3" break="no"/>nexa, facilior est intelligentia nobis praemissa ad mentem reuocantibus. Supra enim 
+      se<lb ed="#T" n="4" break="no"/>cundum authoritates sanctorum dictum est, quod Spiritus sanctus amor est quo Pater  
+      <lb ed="#T" n="5"/>diligit Filium, &amp; Filius patrem. Recte ergo Spiritus sanctus dicitur connexio, vel 
+      concor<lb ed="#T" n="6" break="no"/>dia Patris &amp; Filij, &amp; per eum omnia connexa. Vnde Augustinus in quinto libro de 
+      Trini<lb ed="#T" n="7" break="no"/>tate: Communio quaedam consubstantialis Patris &amp; Filij est amborum Spiritus sanctus. 
+      <lb ed="#T" n="8"/>Idem in sexto libro de Trinitate: Spiritus sanctus est summa charitas vtrumque 
+      coniun<lb ed="#T" n="9" break="no"/>gens, nosque subiungens.
+    </p>-->
+            <p xml:id="pdt7y6-e74790-d1e544">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0323.xml-->
+               <cb ed="#T" n="b"/>
+               <lb ed="#T" n="10" type="fixed=248"/>DIVISIO TEXTVS. 
+      <lb ed="#T" n="11"/>[DRaeterea considerari oportet &amp;c.] Egit de 
+    </p>
+            <p xml:id="pdt7y6-e74790-d1e556">
+               <lb ed="#T" n="12"/>proprietatibus personarum proprie 
+      pro<lb ed="#T" n="13" break="no"/>prijs, hic agit de appropriatis. Et primo ponit. 
+      <lb ed="#T" n="14"/>assignationem huiusmodi appropriatorum dist. 
+      <lb ed="#T" n="15"/>hac. Secundo soluit dubitationes quasdam ex 
+      <lb ed="#T" n="16"/>assignatione incidunt dist. 32. In prima parte 
+      <lb ed="#T" n="17"/>primo assignat significationes quorundam 
+      no<lb ed="#T" n="18" break="no"/>minum communium sed appropriabilium. 
+      Se<lb ed="#T" n="19" break="no"/>cundo quorundam nominum appropriatorum. 
+      <lb ed="#T" n="20"/>secundum B. Hylarium [Non est hic ] Tertio 
+      <lb ed="#T" n="21"/>appropriatorum aliorum secundum B. August. 
+      <lb ed="#T" n="22"/>[Illud etiam. 
+    </p>
+            <p xml:id="pdt7y6-e74790-d1e582">
+               <lb ed="#T" n="23"/>In prima parte ostendit primo quid 
+      signi<lb ed="#T" n="24" break="no"/>ficat aequale. Secundo quid significat simile 
+      <lb ed="#T" n="25"/>[Hic idem. 
+    </p>
+            <p xml:id="pdt7y6-e74790-d1e591">
+               <lb ed="#T" n="26"/>In secunda parte primo ponit quorumdam 
+      <lb ed="#T" n="27"/>appropriatorum ab Hylario explanationem. 
+      Se<lb ed="#T" n="28" break="no"/>cundo eorum, quae in explanatione erant dubie 
+      <lb ed="#T" n="29"/>dicta, determinationem [Non enim secundum 
+      <lb ed="#T" n="30"/>praemissa.1 
+    </p>
+            <p xml:id="pdt7y6-e74790-d1e604">
+               <lb ed="#T" n="31"/>In tertia parte primo agit de approprietatis) 
+      <lb ed="#T" n="32"/>trium personarum [Illud etiam) Secundo 
+      spe<lb ed="#T" n="33" break="no"/>cialiter de appropriato Patris [Sed plurimos 
+      <lb ed="#T" n="34"/>Tertio de appropriato Filij [Nunc videamus 
+      <lb ed="#T" n="35"/>Quarto de appropriato Spiritus sancti [Quod 
+      <lb ed="#T" n="36"/>aute. IIn secunda parte primo determinat quare 
+      <lb ed="#T" n="37"/>patri appropriatur vnitas cum sit communis trium. 
+      <lb ed="#T" n="38"/>[Sed plurimos; secundo ostendit qualis est vnitas 
+      <lb ed="#T" n="39"/>trium personarum [Hic opertet dici.] 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

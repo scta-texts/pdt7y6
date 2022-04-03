@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="27"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-ee7358"><!-- l1d3q1 -->
+            <head xml:id="pdt7y6-ee7358-Hd1e99">Quaestio 1</head>
+            <head xml:id="pdt7y6-ee7358-Hd1e101" type="question-title">De cognitio Dei</head>
+            <p xml:id="pdt7y6-ee7358-d1e104">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0102.xml-->
+               <cb ed="#T" n="c"/>
+               <lb ed="#T" n="60"/>QVESTIO PRIMA. 
+      <lb ed="#T" n="61"/>DECOCNITIONE DEI.
+    </p>
+            <p xml:id="pdt7y6-ee7358-d1e115">
+               <lb ed="#T" n="62"/>QVaeruntur hic tria.] 
+      <lb ed="#T" n="63"/>Primo de cognitione diuina creata. 
+      <lb ed="#T" n="64"/>Secundo de modo cognoscendi. 
+      <lb ed="#T" n="65"/>Tertio de medio.
+    </p>
+            <p xml:id="pdt7y6-ee7358-d1e126">
+               <lb ed="#T" n="66"/>Circa primum quaeruntur duo. 
+      <lb ed="#T" n="67"/>Primo, an Deus a creatura sit cognoscibilis. 
+      <lb ed="#T" n="68"/>Secundo, qualiter possit cognosci, &amp; 
+      proba<lb ed="#T" n="69" break="no"/>ri Deum esse. 
+    </p>
+            <div xml:id="pdt7y6-ee7358-Dd1e138">
+               <head xml:id="pdt7y6-ee7358-Hd1e140">Articulus 1</head>
+               <head xml:id="pdt7y6-ee7358-Hd1e142" type="question-title">An Deus a creatura sit cognoscibilis</head>
+               <p xml:id="pdt7y6-ee7358-d1e145">
+                  <lb ed="#T" n="70"/>Articvlvs I. 
+      <lb ed="#T" n="71"/>An Deus a creatura sit cognoscibilis.
+</p>
+               <p xml:id="pdt7y6-ee7358-d1e152">
+                  <lb ed="#T" n="72"/>AD primum sic proceditur 1. Plus distat,  
+      <lb ed="#T" n="73"/>intelligibile increatum ab intellectu nostro, 
+      <lb ed="#T" n="74"/>quam intelligibile quodcumque creatum a 
+      sen<lb ed="#T" n="75" break="no"/>su: sed nullum intelligibile creatum potest 
+      co<lb ed="#T" n="76" break="no"/>gnosci a sensu: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-ee7358-d1e165">
+                  <lb ed="#T" n="77"/>2. Inter cognoscentem intellectum, &amp; 
+      co<lb ed="#T" n="78" break="no"/>gnitum intelligibile requiritur proportio: 
+      opor<lb ed="#T" n="79" break="no"/>tet enim, quod cognitum capiatur a 
+      cognoscen<lb ed="#T" n="80" break="no"/>te: inter finitum &amp; infinitum nulla est 
+      propor<lb ed="#T" n="81" break="no"/>tio, propter quod &amp; dicit Philosophus, Quod  
+      <lb ed="#T" n="82"/>infinitum est ignotum: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-ee7358-d1e182">
+                  <lb ed="#T" n="83"/>3. Non sit cognitio sine iudicio cognoscentis 
+      <lb ed="#T" n="84"/>de recognita: sed iudicium secundum 
+      Augusti<lb ed="#T" n="85" break="no"/>num lib. de vera relig. non est, nisi de re 
+      inferio<lb ed="#T" n="86" break="no"/>ri, in quam iudicans habet potestatem: sed 
+      intel<lb ed="#T" n="87" break="no"/>lectus humanus non potest supra Deum: ergo &amp;c.
+    </p>
+               <p xml:id="pdt7y6-ee7358-d1e195">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0103.xml-->
+                  <pb ed="#T" n="28"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>4. Ad cognitionem requiritur informatio 
+      <lb ed="#T" n="2"/>intellectus: informari autem non potest nisi vel 
+      <lb ed="#T" n="3"/>per essentiam rei vel speciem; Deus vero non 
+      <lb ed="#T" n="4"/>potest esse forma inhaerens intellectui, quia 
+      com<lb ed="#T" n="5" break="no"/>positio sequeretur, nec ab illo potest abstrahi 
+      vl<lb ed="#T" n="6" break="no"/>la informans species, cum species sit simplicior 
+      <lb ed="#T" n="7"/>eo, cuius est: ergo Deus ab intellectu nostre 
+      <lb ed="#T" n="8"/>non potest cognoci. 
+    </p>
+               <p xml:id="pdt7y6-ee7358-d1e221">
+                  <lb ed="#T" n="9"/>5. Dicit Philosophus lib. de anima, Quod sicut  
+      <lb ed="#T" n="10"/>se habent colores ad visum, ita fantasmata ad 
+      in<lb ed="#T" n="11" break="no"/>tellectum: sed visus non apprehendit sine colore: 
+      <lb ed="#T" n="12"/>ergo nec intellectus sine fantasmate: sed de Deo 
+      <lb ed="#T" n="13"/>non potest formari fantasma, cum sit 
+      incorpo<lb ed="#T" n="14" break="no"/>reus: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-ee7358-d1e237">
+                  <lb ed="#T" n="15"/>6. Dionis. de diu nom. Deum neque dicere, 
+      <lb ed="#T" n="16"/>neque intelligere possibile est: si enim 
+      cognitio<lb ed="#T" n="17" break="no"/>nes existentium sunt, &amp; Deus est supra omnia. 
+      <lb ed="#T" n="18"/>existentia, ergo Deus est super cognitionem. 
+    </p>
+               <p xml:id="pdt7y6-ee7358-d1e248">
+                  <lb ed="#T" n="19"/>7. Idem in eodem cap. 1. sicut 
+      incomprehen<lb ed="#T" n="20" break="no"/>ibilia &amp; incognoscibilia sunt sensibus 
+      intelligi<lb ed="#T" n="21" break="no"/>bilia, sic mentibus nostris, quae est supra 
+      men<lb ed="#T" n="22" break="no"/>tem, vnitas: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-ee7358-d1e259">
+                  <lb ed="#T" n="23"/>Contra. Rom. 1. Quod enim notum, est Dei, 
+      <lb ed="#T" n="24"/>glossa, per rationem cognoscibile de Deo. 
+    </p>
+               <p xml:id="pdt7y6-ee7358-d1e267">
+                  <lb ed="#T" n="25"/>2. Vltimus finis intellectus humani 
+      contem<lb ed="#T" n="26" break="no"/>platio Dei est: vanum est autem &amp; frustra, quod 
+      <lb ed="#T" n="27"/>non potest attingere finem suum: ergo si non 
+      <lb ed="#T" n="28"/>posset Deum contemplari, frustra esset: quod 
+      <lb ed="#T" n="29"/>est inconueniens, vt nobilior mundi natura sit 
+      <lb ed="#T" n="30"/>frustra. 
+    </p>
+               <p xml:id="pdt7y6-ee7358-d1e283">
+                  <lb ed="#T" n="31"/>3. Differt sensibile ab intelligibili, vt dicit 
+      <lb ed="#T" n="32"/>Philosophus lib. de anima, quia excellens 
+      sen<lb ed="#T" n="33" break="no"/>sibile corrumpit sensum: excellens vero 
+      intelli<lb ed="#T" n="34" break="no"/>gibile non corrumpit, imo potius confortat 
+      in<lb ed="#T" n="35" break="no"/>tellectum: ergo excellantia obiecti non est 
+      cogni<lb ed="#T" n="36" break="no"/>tionis intellectualis impedimentum: ergo diuina 
+      <lb ed="#T" n="37"/>excellentia potest cognosci per intellectum. 
+    </p>
+               <p xml:id="pdt7y6-ee7358-d1e301">
+                  <lb ed="#T" n="38"/>4. Mens eo imago Dei est, quo capax eius 
+      <lb ed="#T" n="39"/>est, secundum Augustinum; sed non pro 
+      capa<lb ed="#T" n="40" break="no"/>citate sola communi per praesentiam: ergo 
+      pro<lb ed="#T" n="41" break="no"/>speciali, scilicet per notitiam. 
+    </p>
+               <p xml:id="pdt7y6-ee7358-d1e312">
+                  <lb ed="#T" n="42"/>5. Per quod caetera videntur, maxime est 
+      visibi<lb ed="#T" n="43" break="no"/>le, scilicet lux corporalis: ergo per quod caetera 
+      <lb ed="#T" n="44"/>intelliguntur, maxime est intelligibile, scilicet,  
+      <lb ed="#T" n="45"/>lux spiritualis. 
+    </p>
+               <p xml:id="pdt7y6-ee7358-d1e323">
+                  <lb ed="#T" n="46"/>Respondeo. Differunt cognitio 
+      apprehensio<lb ed="#T" n="47" break="no"/>nis, &amp; comprehensionis: quia apprehenditur  
+      <lb ed="#T" n="48"/>quod aliquo modo intellectu percipitur: 
+      com<lb ed="#T" n="49" break="no"/>prehenditur, cuius nil latet intelligentem, quin 
+      <lb ed="#T" n="50"/>totum &amp; totaliter intelligatur. Deus quamuis 
+      <lb ed="#T" n="51"/>cognoscatur totus, sed non totaliter, quia no toto 
+      <lb ed="#T" n="52"/>modo, quo est cognoscibilis: nam ab 
+      intel<lb ed="#T" n="53" break="no"/>ectu creato coguo scibilis est cognitione 
+      ap<lb ed="#T" n="54" break="no"/>prehensionis, non comprehensionis, sicut 
+      co<lb ed="#T" n="55" break="no"/>gnoscitur a seipso solo. Quia secundum Boentium 
+      <lb ed="#T" n="56"/>um lib. de cons. omne cognoscens habet 
+      cogni<lb ed="#T" n="57" break="no"/>tionem de re cognita secundum modum 
+      cognos<lb ed="#T" n="58" break="no"/>centis, non secundum modum rei coenitae: 
+      <lb ed="#T" n="59"/>modus autem finitae virtutis non attingit Sd 
+      mo<lb ed="#T" n="60" break="no"/>dum obiecti infiniti. 
+    </p>
+               <p xml:id="pdt7y6-ee7358-d1e358">
+                  <lb ed="#T" n="61"/>Ad 1. de Distantia intelligibilis creati &amp;c. 
+      <lb ed="#T" n="62"/>Resp. Magis distat secundum rationem entis 
+      <lb ed="#T" n="63"/>sed non magis, imo minus secundum rationem 
+      <lb ed="#T" n="64"/>ntelligibilis: siue, magis secundum proprietatem 
+      <lb ed="#T" n="65"/>naturae, minus secundum proprietatem 
+      cognos<lb ed="#T" n="66" break="no"/>centis, quia omne intelligibile oportet esse 
+      im<lb ed="#T" n="67" break="no"/>materiale, Deus immaterialis est omnino: 
+      vn<lb ed="#T" n="68" break="no"/>de vtrumque est intelligibile, scilicet Deus, &amp; 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0103.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="69"/>intellectus, seusibilia vero non. 
+    </p>
+               <p xml:id="pdt7y6-ee7358-d1e385">
+                  <lb ed="#T" n="70"/>Ad 2. De proportione. Resp. Quamuis non sit 
+      <lb ed="#T" n="71"/>ibi proportio, quae est secundum conuenientiam 
+      <lb ed="#T" n="72"/>naturae; est tamen proportio secundum 
+      conue<lb ed="#T" n="73" break="no"/>nientiam habitudinis in cognoscendo, quia 
+      in<lb ed="#T" n="74" break="no"/>tellectus immaterialis est, &amp; Deus immaterialis, &amp; 
+      <lb ed="#T" n="75"/>intellectus ordinatus est ad Deum cognoscendum. 
+    </p>
+               <p xml:id="pdt7y6-ee7358-d1e401">
+                  <lb ed="#T" n="76"/>Ad 3. De iudicij cognitione &amp;c. Resp. 
+      Iudi<lb ed="#T" n="77" break="no"/>cium de re duplex est; vel discutiendo, vtrum 
+      <lb ed="#T" n="78"/>ita sit, vel non; vel deffiniendo, vtrum esse 
+      de<lb ed="#T" n="79" break="no"/>beat, vel non; primo modo intellectus iudicat  
+      <lb ed="#T" n="80"/>de qualibet re, nec tale iudicium dicit posse 
+      ali<lb ed="#T" n="81" break="no"/>cuius auctoritatis, secundo modo non iudicat de 
+      <lb ed="#T" n="82"/>veritate, sed secundum illam, vt dicit 
+      Augusti<lb ed="#T" n="83" break="no"/>nus de vera religione 
+    </p>
+               <p xml:id="pdt7y6-ee7358-d1e421">
+                  <lb ed="#T" n="84"/>Ad 4. De informatione. Resp. Cognoscitur 
+      <lb ed="#T" n="85"/>Deus per speciem, tum creaturae quasi 
+      disponen<lb ed="#T" n="86" break="no"/>tem, tum Dei quasi informantem, quae tamen 
+      <lb ed="#T" n="87"/>ab eo non extrahitur, nec est eo simplicior, quia 
+      <lb ed="#T" n="88"/>species, per quam sit cognitio, est in ipso 
+      co<lb ed="#T" n="89" break="no"/>gnoscente secundum modum ipsius: vnde eorum, 
+      <lb ed="#T" n="90"/>quae sunt magis materialia, quam intellectus, 
+      <lb ed="#T" n="91"/>species est in intellectu simplicior, quam in 
+      re<lb ed="#T" n="92" break="no"/>bus, &amp; ideo talia dicuntur cognosci per modum 
+      <lb ed="#T" n="93"/>abstractionis: Deus vero, &amp; Angeli 
+      simplicio<lb ed="#T" n="94" break="no"/>res sunt nostro intellectu, &amp; ideo species eorum 
+      <lb ed="#T" n="95"/>quae sit in intellectu nostro, per quam 
+      cognos<lb ed="#T" n="96" break="no"/>cuntur, minus est simplex, vnde non dicimus 
+      <lb ed="#T" n="97"/>ta cognoscere per abstractionem, sed per 
+      impres<lb ed="#T" n="98" break="no"/>sionem &amp; irradiationem ipsorum in 
+      intelligen<lb ed="#T" n="99" break="no"/>tias nostras. 
+    </p>
+               <p xml:id="pdt7y6-ee7358-d1e458">
+                  <lb ed="#T" n="100"/>Ad 5. De fantasmate. Resp. Loquitur 
+      Philo<lb ed="#T" n="101" break="no"/>sophus de cognitione connaturali nobis 
+      secun<lb ed="#T" n="102" break="no"/>dum statum viae, quae sit per abstractionem; &amp; 
+      <lb ed="#T" n="103"/>sic Deus non cognoscitur sine fantasmate non 
+      <lb ed="#T" n="104"/>sui, sed suorum effectuum; non vero 
+      loqui<lb ed="#T" n="105" break="no"/>tur de cognitione alia secundum viam 
+      superio<lb ed="#T" n="106" break="no"/>rem, quae sit per inssuentiam vel irradiationem 
+      <lb ed="#T" n="107"/>naturae superioris. 
+    </p>
+               <p xml:id="pdt7y6-ee7358-d1e478">
+                  <lb ed="#T" n="108"/>Ad 6. De Dion. Resp. Negare intendit non 
+      <lb ed="#T" n="109"/>Dei cognitionem a nobis simpliciter, sed per 
+      <lb ed="#T" n="110"/>modum, quo alia cognoscuntur, scilicet 
+      com<lb ed="#T" n="111" break="no"/>prehendendo. 
+    </p>
+               <p xml:id="pdt7y6-ee7358-d1e489">
+                  <lb ed="#T" n="112"/>Ad 7. De vnitate quae est supra mentem. Resp. 
+      <lb ed="#T" n="113"/>Intendit negare cognitionem comprehensionis, 
+      <lb ed="#T" n="114"/>non apprehensionis. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-ee7358-Dd1e499">
+               <head xml:id="pdt7y6-ee7358-Hd1e501">Articulus 2</head>
+               <head xml:id="pdt7y6-ee7358-Hd1e503" type="question-title">Qualiter possit cognosci et probari Deum esse</head>
+               <p xml:id="pdt7y6-ee7358-d1e506">
+                  <lb ed="#T" n="115"/>Articvlvs II. 
+      <lb ed="#T" n="116"/>Qualiter possit cognosci &amp; probari Deum esse. 
+    </p>
+               <p xml:id="pdt7y6-ee7358-d1e513">
+                  <lb ed="#T" n="117"/>AD secundum sic proceditur. 1. Richard. 
+      <lb ed="#T" n="118"/>de sancto Victore. Omne quod habet esse, 
+      <lb ed="#T" n="119"/>aut habet esse ab aeterno, &amp; a semeripso, aut nec 
+      <lb ed="#T" n="120"/>ab aeterno, nec a semetipso; aut ab aeterno, sed 
+      <lb ed="#T" n="121"/>non a semetipso; aut a semetipso sed non ab 
+      <lb ed="#T" n="122"/>aeterno hoc vltimum est impossibile, quia 
+      quan<lb ed="#T" n="123" break="no"/>lo non fuit, per se incipere non potuit; si ergo 
+      <lb ed="#T" n="124"/>aliquidesse incoepit oportet, quod ab aliquo 
+      <lb ed="#T" n="125"/>esse acceperit, quod nunquam coepit.  
+    </p>
+               <p xml:id="pdt7y6-ee7358-d1e535">
+                  <lb ed="#T" n="126"/>2. Aut veritas fuit ab aeterno, aut non: si sic, 
+      <lb ed="#T" n="127"/>ergo aliquid est aeternum, &amp; hoc voco Deum; 
+      <lb ed="#T" n="128"/>si non, ergo verum erat veritatem non esse: ergo 
+      <lb ed="#T" n="129"/>veritas est aeterna, &amp; inde vt prius, 
+    </p>
+               <p xml:id="pdt7y6-ee7358-d1e547">
+                  <lb ed="#T" n="130"/>3. Secundum Philosophum in 8. lib. 
+      Physi<lb ed="#T" n="131" break="no"/>corum, si aliquid componitur ex duobus, 
+      quo<lb ed="#T" n="132" break="no"/>rum vnum inuenitur sine reliquo, oportet quoque 
+      <lb ed="#T" n="133"/>reliquum inueniri sine illo, &amp; ponit exemplum 
+      <lb ed="#T" n="134"/>in ydromells, quod componitur ex aqua &amp; melle: 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0104.xml-->
+      <pb ed="#T" n="29"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>videmus aliqua componi ex motore, &amp; moto; &amp; 
+      <lb ed="#T" n="2"/>inuenimus aliquid motum non mouens, sicut 
+      <lb ed="#T" n="3"/>vltimum motum: ergo erit aliquid inuenire 
+      mo<lb ed="#T" n="4" break="no"/>uens non motum, &amp; hoc voco Deum. 
+    </p>
+               <p xml:id="pdt7y6-ee7358-d1e575">
+                  <lb ed="#T" n="5"/>4. Omne, quod mouetur, exit de potentia in 
+      <lb ed="#T" n="6"/>actum: omne, quod exit de potentia in actum 
+      in<lb ed="#T" n="7" break="no"/>diget aliquo ente actu educente ipsum: 
+      multavi<lb ed="#T" n="8" break="no"/>demus moueri, &amp; exire de potentia in actum: 
+      <lb ed="#T" n="9"/>ergo aliquid est educens illa; illud autem habe 
+      <lb ed="#T" n="10"/>aliquid de potentia, &amp; sic indiget altero educente 
+      <lb ed="#T" n="11"/>ipsum, &amp; erit sic abire in infinitum, aut sistendum 
+      <lb ed="#T" n="12"/>in aliquo primo. &amp; tale oportet esse aeternum: 
+      <lb ed="#T" n="13"/>ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-ee7358-d1e597">
+                  <lb ed="#T" n="14"/>5. Aut omnia sunt generabilia, &amp; 
+      corrupti<lb ed="#T" n="15" break="no"/>bilia, aut nulla sunt generabilia, &amp; corruptibilia; 
+      <lb ed="#T" n="16"/>aut quaedam, &amp; quaedam non; si primo modo: 
+      <lb ed="#T" n="17"/>ergo per se aliquid esse incoepit, quod est 
+      impos<lb ed="#T" n="18" break="no"/>sibile; si secundo, ergo fallitur sensus, &amp; 
+      intelle<lb ed="#T" n="19" break="no"/>ctus; si tertio modo, ergo aliquid est aeternum. 
+    </p>
+               <p xml:id="pdt7y6-ee7358-d1e613">
+                  <lb ed="#T" n="20"/>6. Omne causatum siue creatum habet 
+      cau<lb ed="#T" n="21" break="no"/>sam: tota vniuersitas creatorum creata est: ergo 
+      <lb ed="#T" n="22"/>habet causam, &amp; illam impossibile est esse creata. 
+    </p>
+               <p xml:id="pdt7y6-ee7358-d1e622">
+                  <lb ed="#T" n="23"/>7. Secundum Ansel. Deus est, quo nil melius 
+      <lb ed="#T" n="24"/>cogitarispotest: melius autem est, quod est in res 
+      <lb ed="#T" n="25"/>non solum in cogitatione; quam quod in 
+      cogi<lb ed="#T" n="26" break="no"/>ratione sola: ergo Deus est in re. 
+    </p>
+               <p xml:id="pdt7y6-ee7358-d1e633">
+                  <lb ed="#T" n="27"/>Contra 1. Secundum Damasc. Omnibus 
+      exi<lb ed="#T" n="28" break="no"/>stendi Deum cognitio ab ipso naturaliter est 
+      in<lb ed="#T" n="29" break="no"/>ferta: cuius vero cognitio innata est, per se 
+      no<lb ed="#T" n="30" break="no"/>tum est: quod per se notum est, probari non 
+      po<lb ed="#T" n="31" break="no"/>test, quia principia per se nota non probantur. 
+      <lb ed="#T" n="32"/>ergo Deum esse probari non potest. 
+    </p>
+               <p xml:id="pdt7y6-ee7358-d1e650">
+                  <lb ed="#T" n="33"/>2. Secundum Augustinum lib. soliloq. 
+      Intelli<lb ed="#T" n="34" break="no"/>gibilis est Deus, intelligibilia sunt scientiarum. 
+      <lb ed="#T" n="35"/>spectamina, sed differenter; &amp; assignat 
+      differen<lb ed="#T" n="36" break="no"/>tiam: Deus per seipsum: illa per ipsum, sicut 
+      <lb ed="#T" n="37"/>terra per lucem illustrantem, &amp; Iux per seipsam 
+      <lb ed="#T" n="38"/>visibilis est. Ergo per Deum declarantur 
+      scien<lb ed="#T" n="39" break="no"/>tiarum spectamina. Ergo ipse per illa declararis 
+      <lb ed="#T" n="40"/>non potest, alias esset circulus, 
+    </p>
+               <p xml:id="pdt7y6-ee7358-d1e670">
+                  <lb ed="#T" n="41"/>3. Aut aliquid est in mundo non potens mala 
+      <lb ed="#T" n="42"/>quae siunt impedire, sed volens, aut nolens, sed  
+      <lb ed="#T" n="43"/>potens, aut non volens, nec potens, aut potens 
+      <lb ed="#T" n="44"/>&amp; volens: si primo modo, ergo nihil 
+      omnipo<lb ed="#T" n="45" break="no"/>tens; si secundo modo, ergo nihil summe iustum; 
+      <lb ed="#T" n="46"/>si tertio modo, ergo nec omnipotens, nec iustum; 
+      <lb ed="#T" n="47"/>si quarto modo, ergo mala non fierent: siunt 
+      au<lb ed="#T" n="48" break="no"/>tem: ergo nil est in mundo, quod sit summe potens, 
+      <lb ed="#T" n="49"/>&amp; summe iustum: ergo Deus non est in mundo. 
+    </p>
+               <p xml:id="pdt7y6-ee7358-d1e692">
+                  <lb ed="#T" n="50"/>4. Maius est, quod ita est, quod non potest 
+      <lb ed="#T" n="51"/>cogitari non esse, quam, quod potest: Deus 
+      au<lb ed="#T" n="52" break="no"/>tem secundum Ansel. est illud, quo nil inelius, 
+      <lb ed="#T" n="53"/>cogitari potest. Ergo non potest cogitari non 
+      es<lb ed="#T" n="54" break="no"/>se: sed nil tale est: ergo Deus non est. 
+    </p>
+               <p xml:id="pdt7y6-ee7358-d1e705">
+                  <lb ed="#T" n="55"/>Respondeo. Deum esse, vno modo est quasi 
+      <lb ed="#T" n="56"/>lux, &amp; causa cognoscibilitatis omnium 
+      cognos<lb ed="#T" n="57" break="no"/>cibilium siue principiorum, siue conclusionum; 
+      alte<lb ed="#T" n="58" break="no"/>ro modo est quasi principium per se uotum; altero 
+      <lb ed="#T" n="59"/>modo conclusio demonstrationis; altero modo 
+      <lb ed="#T" n="60"/>articulus fidei. Nam cognoscibile aliquid 
+      dupli<lb ed="#T" n="61" break="no"/>citer potest considerati: aut secundum se in 
+      pro<lb ed="#T" n="62" break="no"/>pria natura, sic Deus est per se notum, quia cum 
+      <lb ed="#T" n="63"/>sit immaterialis per se est intelligibilis, &amp; non 
+      fa<lb ed="#T" n="64" break="no"/>cit ipsum intellectus noster actu intelligibilem 
+      <lb ed="#T" n="65"/>abstrahendo, sicut caetera intelligibilia: aut in 
+      <lb ed="#T" n="66"/>comparatione ad nos, &amp; hoc dupliciter, aut in 
+      <lb ed="#T" n="67"/>ratione generali, secundum quam relucet in 
+      om<lb ed="#T" n="68" break="no"/>nibus suis effectibus, inquantum est veritas, bo¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0104.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="69"/>nitas, &amp; huiusmodi, &amp; sic etiam est per se notum; 
+      <lb ed="#T" n="70"/>aut in ratione propria, qua dicitur Deus, vel 
+      <lb ed="#T" n="71"/>summum bonum, &amp; hoc dupliciter; nam 
+      pro<lb ed="#T" n="72" break="no"/>pter elongationem sui a sensu, non statim 
+      occur<lb ed="#T" n="73" break="no"/>rit intellectui, sicut caetera principia, vt omne 
+      to<lb ed="#T" n="74" break="no"/>um maius est sua parte, huiusmodi enim 
+      princi<lb ed="#T" n="75" break="no"/>pia cognoscimus statim vbi terminos 
+      cognosci<lb ed="#T" n="76" break="no"/>mus, sicut dicit Philosophus in primo poster.  
+      <lb ed="#T" n="77"/>In cognitionem ergo diuini esse, est deuenire 
+      du<lb ed="#T" n="78" break="no"/>pliciter, vel ratiocinando, id est, ab effectibus in 
+      <lb ed="#T" n="79"/>cognitionem causae discurrendo, aut simpliciter 
+      <lb ed="#T" n="80"/>assentiendo; primo modo est conclusio 
+      demon<lb ed="#T" n="81" break="no"/>strationis, secundo modo est articulus fidei. 
+      Pri<lb ed="#T" n="82" break="no"/>mo modo harum quatuor considerationum 
+      illu<lb ed="#T" n="83" break="no"/>minat semper intellectum; secundo modo 
+      cogni<lb ed="#T" n="84" break="no"/>tio eius inserta est naturaliter; tertio modo 
+      in<lb ed="#T" n="85" break="no"/>tellectus per effectus eius intelligit eum, quarto 
+      <lb ed="#T" n="86"/>modo per fidem simpliciter assentit in eum. 
+    </p>
+               <p xml:id="pdt7y6-ee7358-d1e781">
+                  <lb ed="#T" n="87"/>Ad 1. In contrarium de cognitione inferta 
+      natu<lb ed="#T" n="88" break="no"/>raliter. Resp. Cognitio haec inserta dicitur esse 
+      <lb ed="#T" n="89"/>consuse, &amp; in generali inquantum inserta est 
+      no<lb ed="#T" n="90" break="no"/>tio veri, &amp; amor boni, vnde &amp; oninia bonum 
+      ap<lb ed="#T" n="91" break="no"/>petunt, &amp; sic dicuntur appetere Deum, non in 
+      <lb ed="#T" n="92"/>propria ratione.
+    </p>
+               <p xml:id="pdt7y6-ee7358-d1e797">
+                  <lb ed="#T" n="93"/>Ad 2. Spectam ina scientiarum per ipsum 
+      co<lb ed="#T" n="94" break="no"/>gnoscuntur. Resp. Verum est per ipsum 
+      secun<lb ed="#T" n="95" break="no"/>dum rationem generalem, qua veritas est; non 
+      <lb ed="#T" n="96"/>secundum propriam, qua Deus dicitur: vel per 
+      <lb ed="#T" n="97"/>psum effectiue, non per ipsum dispositiue, sicut  
+      <lb ed="#T" n="98"/>per cognitionem principiorum deuenitur in 
+      co<lb ed="#T" n="99" break="no"/>gnitionem conclulionis. 
+    </p>
+               <p xml:id="pdt7y6-ee7358-d1e816">
+                  <lb ed="#T" n="100"/>Ad 3. Aut aliquid est potens &amp;c. Resp. aliquid 
+      <lb ed="#T" n="101"/>est potens impedire mala, sed non volens; nec 
+      <lb ed="#T" n="102"/>ideo iniustum, quia scit, &amp; potest, &amp; vult de 
+      ma<lb ed="#T" n="103" break="no"/>lis, quae siunt, elicere maiora bona quam ipsa 
+      <lb ed="#T" n="104"/>sint imala, vt ex Iudaeorum malitia mundi 
+      re<lb ed="#T" n="105" break="no"/>demptionem. 
+    </p>
+               <p xml:id="pdt7y6-ee7358-d1e832">
+                  <lb ed="#T" n="106"/>Ad 4. Nihil est, quod non possit cogitari non 
+      <lb ed="#T" n="107"/>esse &amp;c. Resp. Cogitari Deum non esse potest 
+      intel<lb ed="#T" n="108" break="no"/>ligi dupliciter secundum Anselm. aut quod 
+      co<lb ed="#T" n="109" break="no"/>gitatur oratio hoc significans, aut quia cogitatur  
+      <lb ed="#T" n="110"/>res significata: &amp; hoc dupliciter, aut in ratione1 
+      <lb ed="#T" n="111"/>speciali, qua dicitur Deus, aut in ratione gene¬ e 
+      <lb ed="#T" n="112"/>rali, qua dicitur veritas, bonitas &amp; huiusmodi: 
+      <lb ed="#T" n="113"/>duobus primis modis Deus potest cogitari non 
+      <lb ed="#T" n="114"/>esse; vltimo modo non potest, ita quod 
+      intelli<lb ed="#T" n="115" break="no"/>gatur id, quod cogitatur: non enim potest 
+      cogi<lb ed="#T" n="116" break="no"/>tari veritas non esse: cum hoc cogitari non 
+      pos<lb ed="#T" n="117" break="no"/>sit, nisi veritate existente. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

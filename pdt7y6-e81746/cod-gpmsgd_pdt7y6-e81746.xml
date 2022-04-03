@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="268"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e81746"><!-- l1d33q4 -->
+            <head xml:id="pdt7y6-e81746-Hd1e99">Quaestio 4</head>
+            <head xml:id="pdt7y6-e81746-Hd1e101" type="question-title">De comparatione notionum ad adiectiva sive essentialia sive personalia</head>
+            <p xml:id="pdt7y6-e81746-d1e104">
+               <lb ed="#T" n="123"/>QVESTIO IV 
+      <lb ed="#T" n="124"/>DE COMPARATIONE NOTIONVM. 
+      <lb ed="#T" n="125"/>AD ADIECTIVA, SIVE PERSONALIA, 
+      <lb ed="#T" n="126"/>SIvn nSSENTIALIA. 
+</p>
+            <p xml:id="pdt7y6-e81746-d1e115">
+               <lb ed="#T" n="127"/>CIrca quartum articulum duo quaeruntur.  
+      <lb ed="#T" n="128"/>Primo an omnia adiectiua essentialia 
+      pos<lb ed="#T" n="129" break="no"/>sint praedicari de notionibus. 
+      <lb ed="#T" n="130"/>Secundo an omnia personalia.
+    </p>
+            <div xml:id="pdt7y6-e81746-Dd1e126">
+               <head xml:id="pdt7y6-e81746-Hd1e128">Articulus 1</head>
+               <head xml:id="pdt7y6-e81746-Hd1e130" type="question-title">
+  An omnia adiectiua essentialia possint praedicari de notionibus
+</head>
+               <p xml:id="pdt7y6-e81746-d1e133">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0344.xml-->
+                  <pb ed="#T" n="269"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>ARTICVLVS I. 
+      <lb ed="#T" n="2"/>An omnia adiectiua essentialia possint praedicari. 
+      <lb ed="#T" n="3"/>de notionibus.
+    </p>
+               <p xml:id="pdt7y6-e81746-d1e149">
+                  <lb ed="#T" n="4"/>AD primum sic proceditur. 1. Non 
+      contin<lb ed="#T" n="5" break="no"/>git idem affirmare &amp; negare de eodem: sed  
+      <lb ed="#T" n="6"/>essentia &amp; notio sunt idem: ergo quaecumque 
+      af<lb ed="#T" n="7" break="no"/>firmantur de essentia, possunt affirmari de 
+      no<lb ed="#T" n="8" break="no"/>tione. 
+    </p>
+               <p xml:id="pdt7y6-e81746-d1e162">
+                  <lb ed="#T" n="9"/>2. Essentialia attributa essentiam significant: 
+      <lb ed="#T" n="10"/>sed essentia praedicatur de notione: ergo &amp; ipsa. 
+    </p>
+               <p xml:id="pdt7y6-e81746-d1e170">
+                  <lb ed="#T" n="11"/>3. Quaedam sunt essentialia attributa quae 
+      prae<lb ed="#T" n="12" break="no"/>dicantur de notione, vt aeterna, immensa, 
+      increa<lb ed="#T" n="13" break="no"/>ta: ergo pari ratione omnia. 
+    </p>
+               <p xml:id="pdt7y6-e81746-d1e179">
+                  <lb ed="#T" n="14"/>4. Omne quod non est omnipotens, summe 
+      <lb ed="#T" n="15"/>sapiens, &amp; huiusmodi, non est Deus: sed notio 
+      <lb ed="#T" n="16"/>est Deus: ergo est omnipotens, summe sapiens 
+      <lb ed="#T" n="17"/>&amp; huiusmodi: ergo omnia attributa essentialia 
+      <lb ed="#T" n="18"/>de notione predicantur.  
+    </p>
+               <p xml:id="pdt7y6-e81746-d1e192">
+                  <lb ed="#T" n="19"/>Contra 1. Sicut se habent adiectiua notionalia 
+      <lb ed="#T" n="20"/>ad essentiam, sic e conuerso: sed notionalia non 
+      <lb ed="#T" n="21"/>praedicantur de essentia, quia non dicitur 
+      essen<lb ed="#T" n="22" break="no"/>tia generans, vel genita: ergo nec e conuerso. 
+    </p>
+               <p xml:id="pdt7y6-e81746-d1e203">
+                  <lb ed="#T" n="23"/>2. Vere dicitur Diuina essentia incariiata: sed  
+      <lb ed="#T" n="24"/>filiatio non dicitur incarnata: ergo non omne 
+      at<lb ed="#T" n="25" break="no"/>tributum essentiae praedicatur de notione. 
+    </p>
+               <p xml:id="pdt7y6-e81746-d1e212">
+                  <lb ed="#T" n="26"/>Respondeo, Essentia &amp; notio differunt 
+      ratio<lb ed="#T" n="27" break="no"/>ne &amp; modo significandi, &amp; conueniunt re: 
+      quae<lb ed="#T" n="28" break="no"/>cumque ergo praedicantur de essentia secundum 
+      <lb ed="#T" n="29"/>conditionem rei, absolute, praedicantur etiam de 
+      <lb ed="#T" n="30"/>notione: quaecumque vero praedicantur 
+      secun<lb ed="#T" n="31" break="no"/>dum conditionem rationis vel modi 
+      significan<lb ed="#T" n="32" break="no"/>di, in quo differunt, non: vnde huiusmodi 
+      adje<lb ed="#T" n="33" break="no"/>ctiua negatiua, immensa, aeterna, increata, 
+      con<lb ed="#T" n="34" break="no"/>uenienter praedicantur de notione, quia non 
+      im<lb ed="#T" n="35" break="no"/>portant modum aliquem proprium essentiae, sed  
+      <lb ed="#T" n="36"/>dicunt conditionem conuenientem aequaliter  
+      <lb ed="#T" n="37"/>siue notioni siue personae. Alia vero quae 
+      impor<lb ed="#T" n="38" break="no"/>tant huiusmodi modum essentiae siue personae. 
+      <lb ed="#T" n="39"/>dupliciter sunt: aut enim dant intelligere illum 
+      <lb ed="#T" n="40"/>modum ex principali significato, vt distingui, 
+      <lb ed="#T" n="41"/>communicari, &amp; huiusmodi, &amp; haec nullo modo 
+      <lb ed="#T" n="42"/>praedicantur de notione: aut ex modo 
+      signifi<lb ed="#T" n="43" break="no"/>candi, vt sunt illa quae significant essentiam, vel 
+      <lb ed="#T" n="44"/>per modum operationis vt creare, operatio enim 
+      <lb ed="#T" n="45"/>suppositi est non formae; vel per modum inhae 
+      <lb ed="#T" n="46"/>rentis, vt esse sapientem &amp; huiusmodi; vel per 
+      <lb ed="#T" n="47"/>se subsistentis, vt esse incarnatum: &amp; haec etiam 
+      <lb ed="#T" n="48"/>omnia non praedicantur de notionibus proprie. 
+    </p>
+               <p xml:id="pdt7y6-e81746-d1e264">
+                  <lb ed="#T" n="49"/>Ad 1. Essentia &amp; notio sunt idem. Resp. Idem 
+      <lb ed="#T" n="50"/>sunt re, differunt ratione: inquantum sunt idem, 
+      <lb ed="#T" n="51"/>quicquid praedicatur de vno praedicatur de 
+      alte<lb ed="#T" n="52" break="no"/>ro: sed non inquantum differunt, &amp; sic non 
+      con<lb ed="#T" n="53" break="no"/>tingit affirmare &amp; negare idem de eodem 
+      secun<lb ed="#T" n="54" break="no"/>dum idom. 
+    </p>
+               <p xml:id="pdt7y6-e81746-d1e281">
+                  <lb ed="#T" n="55"/>Ad 2. Essentialia attributa significant. Resp. 
+      <lb ed="#T" n="56"/>Impedimentum praedicationis non exit ex parte 
+      <lb ed="#T" n="57"/>significati, sed modi significandi, 
+    </p>
+               <p xml:id="pdt7y6-e81746-d1e290">
+                  <lb ed="#T" n="58"/>Ad 3. De his adiectiuis, aeterna, &amp; immensa, 
+      <lb ed="#T" n="59"/>&amp; similibus. Resp. Non est simile quia non 
+      im<lb ed="#T" n="60" break="no"/>portant modum aliquem proprium essentiae: sed  
+      <lb ed="#T" n="61"/>communem tam essentiae quam notioni &amp; 
+      per<lb ed="#T" n="62" break="no"/>sonae. 
+    </p>
+               <p xml:id="pdt7y6-e81746-d1e303">
+                  <lb ed="#T" n="63"/>Ad 4. Omne quod non est omnipotens, non 
+      <lb ed="#T" n="64"/>est Deus. Resp. Huiusmodi nomina, 
+      omnipo<lb ed="#T" n="65" break="no"/>tens, sapiens, &amp; huiusmodi, dupliciter possunt  
+      <lb ed="#T" n="66"/>accipi: vel substantiue, vel adiectiue: se¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0344.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>cundum quod accipiuntur substantiue, possunt,  
+      <lb ed="#T" n="68"/>praedicari de notione: non secundum quod 
+      adie<lb ed="#T" n="69" break="no"/>ctiue: &amp; primo modo vera est propositio illa, 
+      <lb ed="#T" n="70"/>non secundo. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e81746-Dd1e329">
+               <head xml:id="pdt7y6-e81746-Hd1e331">Articulus 2</head>
+               <head xml:id="pdt7y6-e81746-Hd1e333" type="question-title">
+  An omnia personalia possint praedicari de notionibus
+</head>
+               <p xml:id="pdt7y6-e81746-d1e336">
+                  <lb ed="#T" n="71"/>Articvlvs II. 
+      <lb ed="#T" n="72"/>An omnia personalia possint praedicari de notionibus. 
+    </p>
+               <p xml:id="pdt7y6-e81746-d1e343">
+                  <lb ed="#T" n="73"/>AD secundum sic proceditur. 1. Proprietas 
+      <lb ed="#T" n="74"/>&amp; persona sunt idem: ergo attributum 
+      <lb ed="#T" n="75"/>vnus potest de altera praedicari: ergo potest 
+      di<lb ed="#T" n="76" break="no"/>ci paternitas generat. 
+    </p>
+               <p xml:id="pdt7y6-e81746-d1e354">
+                  <lb ed="#T" n="77"/>2. Magis conueniunt personalia cum 
+      notio<lb ed="#T" n="78" break="no"/>nibus, quam essentialia: sed essentialia possunt,  
+      <lb ed="#T" n="79"/>praedicari aliquo modo de notione: ergo multo 
+      <lb ed="#T" n="80"/>magis personalia. 
+    </p>
+               <p xml:id="pdt7y6-e81746-d1e366">
+                  <lb ed="#T" n="81"/>3. In primis formis sit reflexio, vnde bonitas 
+      <lb ed="#T" n="82"/>seipsa est bona, &amp; vnitas seipsa vna: ergo cum 
+      <lb ed="#T" n="83"/>notiones sint primae formae possent reffecti in 
+      <lb ed="#T" n="84"/>se, &amp; seipsas denominare: ergo potest dici 
+      Pa<lb ed="#T" n="85" break="no"/>ternitas generat. 
+    </p>
+               <p xml:id="pdt7y6-e81746-d1e379">
+                  <lb ed="#T" n="86"/>4. Non minus conuenit actus notionalis cum 
+      <lb ed="#T" n="87"/>notione, re &amp; modo significandi, quam essentia 
+      <lb ed="#T" n="88"/>cum notione: sed essentia praedicatur de notione: 
+      <lb ed="#T" n="89"/>ergo multo magis actus notionalis: ergo pater.  
+      <lb ed="#T" n="90"/>nitas generat. 
+    </p>
+               <p xml:id="pdt7y6-e81746-d1e392">
+                  <lb ed="#T" n="91"/>Contra. 1. Relatio vna non denominat aliam, 
+      <lb ed="#T" n="92"/>nec seipsam, quia relationis non est referri: 
+      er<lb ed="#T" n="93" break="no"/>go nulla notio potest denominare vel aliam vel 
+      <lb ed="#T" n="94"/>leipsam. 
+    </p>
+               <p xml:id="pdt7y6-e81746-d1e403">
+                  <lb ed="#T" n="95"/>2. Actus sunt suppositorum vt agentium, non 
+      <lb ed="#T" n="96"/>formarum: ergo actus personales non possunt,  
+      <lb ed="#T" n="97"/>attribui personalibus formis. 
+    </p>
+               <p xml:id="pdt7y6-e81746-d1e412">
+                  <lb ed="#T" n="98"/>Respondeo, Essentia, persona, notio, inuicem 
+      <lb ed="#T" n="99"/>comparata non differunt re, sed ratione: 
+      perso<lb ed="#T" n="100" break="no"/>na vero comparata personae &amp; notio notioni, 
+      <lb ed="#T" n="101"/>cum habeant relatiuam oppositionem, differunt 
+      <lb ed="#T" n="102"/>re. Hinc est quod essentia, persona, notio, 
+      praedi<lb ed="#T" n="103" break="no"/>cantur de se inuicem: corum etiam attributa, 
+      <lb ed="#T" n="104"/>quae non determinant proprium modum 
+      signisi<lb ed="#T" n="105" break="no"/>candi vniuscuiusque illorum, praedicantur de 
+      <lb ed="#T" n="106"/>vnoquoque: persona vero non praedicatur de 
+      <lb ed="#T" n="107"/>persona alia, nec notio de notione, nec attributa 
+      <lb ed="#T" n="108"/>quae determinant proprium modumvnius 
+      perso<lb ed="#T" n="109" break="no"/>nae, praedicantur de alia, vel notionis de alia 
+      no<lb ed="#T" n="110" break="no"/>tione: sed nec attributa quae determinant 
+      pro<lb ed="#T" n="111" break="no"/>prium modum vnius personae in qua est 
+      notio<lb ed="#T" n="112" break="no"/>possunt praedicari de ipsa notione, vnde non 
+      po<lb ed="#T" n="113" break="no"/>test dici paternitas generat. Sed nunquid dicitur 
+      <lb ed="#T" n="114"/>bene, caliditas calefacit: ergo a simili videtur  
+      <lb ed="#T" n="115"/>quod possit dici, paternitas generat. Respondeo, 
+      <lb ed="#T" n="116"/>non est simile: tum quia Paternitas non dicit 
+      <lb ed="#T" n="117"/>formam absolutam, sed relatiuam, quae non est 
+      <lb ed="#T" n="118"/>etiam in inferioribus principium agendi, sed  
+      <lb ed="#T" n="119"/>magis relinquitur ex actione; tum quia 
+      gene<lb ed="#T" n="120" break="no"/>rare dicit actum productionis de sua substantia, 
+      <lb ed="#T" n="121"/>non de aliena: sic autem non potest agere forma, 
+      <lb ed="#T" n="122"/>scilicet de sua substantia. 
+    </p>
+               <p xml:id="pdt7y6-e81746-d1e469">
+                  <lb ed="#T" n="123"/>Ad 1. Notio &amp; persona sunt idem. Resp. 
+      <lb ed="#T" n="124"/>Quamuis sint idem re, differunt tamen ratione 
+    </p>
+               <p xml:id="pdt7y6-e81746-d1e477">
+                  <lb ed="#T" n="125"/>Ad 2. De maiori conuenientia. Resp. Non est. 
+      <lb ed="#T" n="126"/>verum, quia essentia notioni non opponitur; sed  
+      <lb ed="#T" n="127"/>notio notioni opponitur: a notionibus vero 
+      at<lb ed="#T" n="128" break="no"/>tributa personalia sumuntur. 
+    </p>
+               <p xml:id="pdt7y6-e81746-d1e488">
+                  <lb ed="#T" n="129"/>Ad 3. De reflexione. Resp. Quamuis forma 
+      <lb ed="#T" n="130"/>prima per modum formae significata reffecti 
+      pos<lb ed="#T" n="131" break="no"/>sit supra se, vt bonitas bona; non tamen 
+      signi<lb ed="#T" n="132" break="no"/>ficata per modum actus, quiaagere debetur sup¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0345.xml-->
+      <pb ed="#T" n="270"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>posito, non formae proprie, maxime relatiuae: 
+      <lb ed="#T" n="2"/>vnde non potest dici paternitas generat. Vel 
+      <lb ed="#T" n="3"/>illud intelligitur de primis formis, quae sunt 
+      pri<lb ed="#T" n="4" break="no"/>mae &amp; secundum rem, &amp; secundum 
+      intentio<lb ed="#T" n="5" break="no"/>nem; notiones vero sunt formae primae 
+      secun<lb ed="#T" n="6" break="no"/>dum rem, sed non secundum intentionem: 
+      prae<lb ed="#T" n="7" break="no"/>in: clligitur enim bonitas, veritas, &amp; huiusmodi. 
+    </p>
+               <p xml:id="pdt7y6-e81746-d1e521">
+                  <lb ed="#T" n="8"/>Ad 4. Non minus conuenit &amp;c. Resp. 
+      Con<lb ed="#T" n="9" break="no"/>uenientia causat praedicationem per modum 
+      <lb ed="#T" n="10"/>identitatis, sed non denominationis: vnde 
+      be<lb ed="#T" n="11" break="no"/>ne dicitur, quia paternitas est actus generandi in 
+      <lb ed="#T" n="12"/>Patre, sed non quod paternitas generat, quia 
+      <lb ed="#T" n="13"/>actus insunt supposito non formae. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e81746-Dd1e538">
+               <head xml:id="pdt7y6-e81746-Hd1e540">Expositio litterae</head>
+               <p xml:id="pdt7y6-e81746-d1e542">
+                  <lb ed="#T" n="14"/>EXPOSITIO LITERAE 
+      <lb ed="#T" n="15"/>[CIproprietates personae ipsae sunt, non eis 
+    </p>
+               <p xml:id="pdt7y6-e81746-d1e549">
+                  <lb ed="#T" n="16"/>Qdeterminantur. ] Resp. Non sequitur, quia 
+      <lb ed="#T" n="17"/>icet sint idem re, differunt ratione, quia dicunt,  
+      <lb ed="#T" n="18"/>modum se habendi ad alterum. 
+    </p>
+               <p xml:id="pdt7y6-e81746-d1e558">
+                  <lb ed="#T" n="19"/>[Quia etiam seipsis personae distinguntur.  
+      <lb ed="#T" n="20"/>Contra: ergo duplici distinctione distinguntur.  
+      <lb ed="#T" n="21"/>Resp. Non sequitur, quia seipsis dicuntur 
+      distin<lb ed="#T" n="22" break="no"/>gui, quia distinguntur proprietatibus quae sunt,  
+      <lb ed="#T" n="23"/>idem quod ipsae. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0345.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="24"/>[Quomodo Pater differt a Filio &amp;c.] 
+      Res<lb ed="#T" n="25" break="no"/>pondendum est quod non differt ab eo 
+      inquan<lb ed="#T" n="26" break="no"/>tum est essentia, sed inquantum secundum 
+      ra<lb ed="#T" n="27" break="no"/>tionem ab essentia differt: sicut homo &amp; afinus 
+      <lb ed="#T" n="28"/>conueniunt in esse animali, differunt in 
+      rationa<lb ed="#T" n="29" break="no"/>li, &amp; irrationali, cum tamen vterque sit animal. 
+    </p>
+               <p xml:id="pdt7y6-e81746-d1e589">
+                  <lb ed="#T" n="30"/>[In quo paternitas est Pater est,: Hoc verum 
+      <lb ed="#T" n="31"/>est de eo in quo tanquam in supposito. 
+    </p>
+               <p xml:id="pdt7y6-e81746-d1e597">
+                  <lb ed="#T" n="32"/>Quomodo in essentia Diuina esse possunt,  
+      <lb ed="#T" n="33"/>&amp;c.] Hoc est, quia non sunt in ea vt in 
+      suppo<lb ed="#T" n="34" break="no"/>sito. 
+    </p>
+               <p xml:id="pdt7y6-e81746-d1e606">
+                  <lb ed="#T" n="35"/>[Non eo quo Pater est, substantia est.] Ex 
+      <lb ed="#T" n="36"/>hoc concludunt quod paternitas non est 
+      sub<lb ed="#T" n="37" break="no"/>stantia. Resp. In argumento est fallacia 
+      acciden<lb ed="#T" n="38" break="no"/>tis, quia quamuis sint differentia ratione, sunt,  
+      <lb ed="#T" n="39"/>tamen idem re: sicut si dicatur, Sortes non eo 
+      <lb ed="#T" n="40"/>eo quo Sortes est, homo est: quia 
+      proprieta<lb ed="#T" n="41" break="no"/>te indiuiduali Sortes est, proprietate speciali &amp; 
+      <lb ed="#T" n="42"/>communicabili homo est: ergo Socratitas non 
+      <lb ed="#T" n="43"/>est forma humana. Vel, non eo quo album est 
+      <lb ed="#T" n="44"/>coloratum est, quia proprietate speciali album 
+      <lb ed="#T" n="45"/>est, preprietate generali coloratum est: ergo 
+      <lb ed="#T" n="46"/>albedo non est color.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

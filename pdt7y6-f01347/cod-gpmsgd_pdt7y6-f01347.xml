@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="331"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-f01347"><!-- l1d40q2 -->
+            <head xml:id="pdt7y6-f01347-Hd1e99">Quaestio 2</head>
+            <head xml:id="pdt7y6-f01347-Hd1e101" type="question-title">De certitudine praedestinationis</head>
+            <p xml:id="pdt7y6-f01347-d1e104">
+               <lb ed="#T" n="99"/>QVESTIO II. 
+      <lb ed="#T" n="100"/>DE 
+      <lb ed="#T" n="101"/>CERTITVDINE 
+      PRAEDESTINA<lb ed="#T" n="102" break="no"/>TIONIS IN PRAEDESTINATO. 
+</p>
+            <p xml:id="pdt7y6-f01347-d1e115">
+               <lb ed="#T" n="103"/>CIrca secundum articulum quaeruntur tria. 
+      <lb ed="#T" n="104"/>Primo an praedestinatio imponat 
+      neces<lb ed="#T" n="105" break="no"/>sitatem 
+      <lb ed="#T" n="106"/>Secundo an habeat certitudinem. 
+      <lb ed="#T" n="107"/>Tertio an numerus praedestinatorum possit.  
+      <lb ed="#T" n="108"/>augeri. 
+    </p>
+            <div xml:id="pdt7y6-f01347-Dd1e131">
+               <head xml:id="pdt7y6-f01347-Hd1e133">Articulus 1</head>
+               <head xml:id="pdt7y6-f01347-Hd1e135" type="question-title">An praedestinatio imponat necessitatem praedestinato</head>
+               <p xml:id="pdt7y6-f01347-d1e138">
+                  <lb ed="#T" n="109"/>Articvlvs I. 
+      <lb ed="#T" n="110"/>An praedestinatio imponat necessitatem praedestinato. 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e145">
+                  <lb ed="#T" n="111"/>AD primum sic proceditur. 1. Omnis causa 
+      <lb ed="#T" n="112"/>quae deficere non potest, imponit 
+      necessita<lb ed="#T" n="113" break="no"/>tem effectui: sed talis est diuina praedestinatio 
+      <lb ed="#T" n="114"/>ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e156">
+                  <lb ed="#T" n="115"/>2. Ubi duae causae concurrunt ad eundem 
+      effe<lb ed="#T" n="116" break="no"/>ctum, quas impossibile est discordare, si vna est 
+      <lb ed="#T" n="117"/>immutabilis, oportet esse effectum 
+      immutabi<lb ed="#T" n="118" break="no"/>lem: sed tales causae duae salutis sunt 
+      praedestina<lb ed="#T" n="119" break="no"/>tio Dei, &amp; liberum arbitrium hominis: ergo 
+      <lb ed="#T" n="120"/>cum diuina praedestinatio sit immutabilis, 
+      opor<lb ed="#T" n="121" break="no"/>tet effectum esse immutabilem. 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e175">
+                  <lb ed="#T" n="122"/>3. Maiori propositione existente de 
+      necessa<lb ed="#T" n="123" break="no"/>tio, minori de incile sequitur conclusio de 
+      <lb ed="#T" n="124"/>necessario, vt, Si omnis homo necessario est 
+      <lb ed="#T" n="125"/>animal, &amp; omne risibile est homo, ergo 
+      risibi<lb ed="#T" n="126" break="no"/>le necessario est animal: siat ergo talis similis, 
+      <lb ed="#T" n="127"/>Si omnis praedestinatus necessario saluabitur,  &amp; 
+      <lb ed="#T" n="128"/>Paulus est praedestinatus, ergo Paulus 
+      necessa<lb ed="#T" n="129" break="no"/>tio saluabitur: ergo praedestinatio imponit 
+      ne<lb ed="#T" n="130" break="no"/>cessitatem praedestinato. 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e197">
+                  <lb ed="#T" n="131"/>4. Praescitum esse &amp; damnari aequipossentised 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0407.xml-->
+      <pb ed="#T" n="332"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>Ad 4. Impossibile est praedestinatum esse 
+      prae<lb ed="#T" n="2" break="no"/>scitum: ergo impossibile est predestinatum 
+      dam<lb ed="#T" n="3" break="no"/>nari: ergo necesse est ipsum saluari. 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e215">
+                  <lb ed="#T" n="4"/>5. Si praedestinatus damnatur praedestinans 
+      <lb ed="#T" n="5"/>fillitur: sed impossibile est praedestinantem 
+      falli<lb ed="#T" n="6" break="no"/>ergo impossibile est praedestinatum damnari. 
+      <lb ed="#T" n="7"/>ergo necesse est ipsum saluari. 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e226">
+                  <lb ed="#T" n="8"/>6. In omini conditionali vera cuius antecedens. 
+      <lb ed="#T" n="9"/>est necellarium, necessarium est &amp; consequens: 
+      <lb ed="#T" n="10"/>sed in hac conditionali, Si praedestinatus est 
+      sal<lb ed="#T" n="11" break="no"/>uabitur, antecedens est necessarium quia 
+      prae<lb ed="#T" n="12" break="no"/>teritum, &amp; quia aeternum: ergo &amp; consequens. 
+      <lb ed="#T" n="13"/>est necessarium. 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e242">
+                  <lb ed="#T" n="14"/>7. Omne quod non est, si potest esse potest 
+      <lb ed="#T" n="15"/>incipere esse: illum, qui praedestinatus est: 
+      <lb ed="#T" n="16"/>esse damnandum, vel praescitum, non potest 
+      <lb ed="#T" n="17"/>incipere esse: ergo non potest esse 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e253">
+                  <lb ed="#T" n="18"/>8. Omnis forma quae non potest subjectum 
+      <lb ed="#T" n="19"/>deserere, aufert potentiam ad formam 
+      oppo<lb ed="#T" n="20" break="no"/>sitam, vt albedo in niue potentiam ad 
+      nigre<lb ed="#T" n="21" break="no"/>dinem: sed praedestinatio talis forma est in 
+      prae<lb ed="#T" n="22" break="no"/>destinante: eroo aufert potentiam ad oppositam 
+      <lb ed="#T" n="23"/>formam, id est ad praescientiam: ergo ad 
+      dam<lb ed="#T" n="24" break="no"/>nationem 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e272">
+                  <lb ed="#T" n="25"/>Contra. 1. Ex duabus causis concurrentibus 
+      <lb ed="#T" n="26"/>ad eundem effectum, si vna est contingens, 
+      ne<lb ed="#T" n="27" break="no"/>cesse est effectum esse contingentem: sed libe 
+      <lb ed="#T" n="28"/>rum arbitrium causa contingens est salutis 
+      prae<lb ed="#T" n="29" break="no"/>destinati: ergo salus eius 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e285">
+                  <lb ed="#T" n="30"/>2. Praedestinatio aut tollit libertatem arbitrij. 
+      <lb ed="#T" n="31"/>aut non: si tollit, ergo tollit meritum: si non 
+      <lb ed="#T" n="32"/>ergo non imponit necessitatem 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e294">
+                  <lb ed="#T" n="33"/>3. Ad ea quae necessaria sunt frustra oportet 
+      <lb ed="#T" n="34"/>laborare: sed non frustra laborat praedestinatus 
+      <lb ed="#T" n="35"/>ad suam salutem: ergo non est nec essatia. 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e303">
+                  <lb ed="#T" n="36"/>4. Quicumque saluandus est, saluandus est 
+      <lb ed="#T" n="37"/>cum libertate arbitrij: aut ergo ita saluandum. 
+      <lb ed="#T" n="38"/>praedestinauit eum Deus, aut non: si sic ergo 
+      <lb ed="#T" n="39"/>sine necessitate: si non ergo non vere 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e314">
+                  <lb ed="#T" n="40"/>5. Habenti liberttaeim arbitrij facilius est 
+      pec<lb ed="#T" n="41" break="no"/>care quam benefacere: ergo damnari quam 
+      sal<lb ed="#T" n="42" break="no"/>uari: ergo cum in praedestinato maneat libertas 
+      <lb ed="#T" n="43"/>arbitrij, facilius est praedestinatum damnari quam 
+      <lb ed="#T" n="44"/>saluari. 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e327">
+                  <lb ed="#T" n="45"/>Respondeo. Secundum Boetium duplex est 
+      <lb ed="#T" n="46"/>necessitas: aecessitas absoluta, &amp; necessita 
+      <lb ed="#T" n="47"/>conditionalis. Necessitate absolutam nullo 
+      mo<lb ed="#T" n="48" break="no"/>do imponit praedestinatioupsa enim ad effectum 
+      <lb ed="#T" n="49"/>suum se habet in duplici habitudine, scilicet 
+      <lb ed="#T" n="50"/>causae ad causatum, ratione propositi quod in 
+      <lb ed="#T" n="51"/>cludit; &amp; scientiae ad scitum, ratione 
+      praeuisio<lb ed="#T" n="52" break="no"/>nis: vnde dicitur esse scientia &amp; praeparatio be 
+      <lb ed="#T" n="53"/>neficiorum Dei. Quoad primum non imponit 
+      <lb ed="#T" n="54"/>necessitatem absolutam, quia non est tota causa 
+      <lb ed="#T" n="55"/>salutis, sed causa prima: liberum vero arbitrium 
+      <lb ed="#T" n="56"/>causa proxima; effectus vero magis sequitur 
+      co<lb ed="#T" n="57" break="no"/>ditiones causae proximae, quam primae, vt 
+      pa<lb ed="#T" n="58" break="no"/>tet in contingenti generatione inferiorum ex 
+      <lb ed="#T" n="59"/>motu necessario superiorum. Quoad secundum 
+      <lb ed="#T" n="60"/>item non imponit, quia nihil ponit in re vel 
+      tol<lb ed="#T" n="61" break="no"/>sit, sed tantum respicit effectum cum omni sua. 
+      <lb ed="#T" n="62"/>conditione, prouidet enim vnumquemque sali 
+      <lb ed="#T" n="63"/>uandum suo merito &amp; sua voluntate. Circa 
+      ne<lb ed="#T" n="64" break="no"/>cessitatem conditionalem videtur adhuc 
+      distin<lb ed="#T" n="65" break="no"/>guendum, quia conditio quaedam est quae 
+      poni<lb ed="#T" n="66" break="no"/>aliquid de praeterito vel de praesenti in eo 
+      cu<lb ed="#T" n="67" break="no"/>supponitui inesse, vt te sedere, si videote sede 
+      <lb ed="#T" n="68"/>re: &amp; haec conditio actum oppositum reddit in¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0407.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="69"/>compossibilem sibi, &amp; impossibilem in se: vnde 
+      <lb ed="#T" n="70"/>enunciabile oppositum tam de re quam de dicto 
+      <lb ed="#T" n="71"/>impossibile est, scilicet te non sedere, si video 
+      <lb ed="#T" n="72"/>te sedere. Nam in eo qui sedit non est potentia 
+      <lb ed="#T" n="73"/>ad non sedisse: &amp; in eo qui actu sedet non est 
+      <lb ed="#T" n="74"/>potentia ad non sedere in eodem tempore: talis 
+      <lb ed="#T" n="75"/>ergo conditio adiecta sic imponit necessitatem 
+      <lb ed="#T" n="76"/>conditionalem actui cui adijcitur. quod illi actui 
+      <lb ed="#T" n="77"/>oppositum est omnino impossibile per 
+      ac<lb ed="#T" n="78" break="no"/>cidens tamen non per se, &amp; incompossibile 
+      con<lb ed="#T" n="79" break="no"/>ditioni stanti. Quaedam vero est conditio quae 
+      <lb ed="#T" n="80"/>nihil actu ponit sed tantum in potentia in eo cui 
+      <lb ed="#T" n="81"/>supponitur inesse, vt te sedere cras, si praeuideo 
+      <lb ed="#T" n="82"/>te sessurum fore: haec conditio incompossibilis 
+      <lb ed="#T" n="83"/>est actui opposito &amp; potentiae actui coniuncte, 
+      <lb ed="#T" n="84"/>de qua est idem iudicium cum actu, non autem 
+      <lb ed="#T" n="85"/>potentiae remotae vel separatae ab actu de qua est 
+      <lb ed="#T" n="86"/>aliud iudicium quam de actu: vnde oppositum 
+      <lb ed="#T" n="87"/>reddit incompossibile conditioni stant, sed non 
+      <lb ed="#T" n="88"/>impossibile in se, nec per se, nec per accidens, nam 
+      <lb ed="#T" n="89"/>quem praeuideo sessurum cras, potest non 
+      sede<lb ed="#T" n="90" break="no"/>re; vtrumque tamen sinmul incompossibile est: 
+      <lb ed="#T" n="91"/>vnde enunciabile oppositum de re possibile est: 
+      <lb ed="#T" n="92"/>de dicto impossibile, scilicet te non sedere cras 
+      <lb ed="#T" n="93"/>si praeuideo te sessurum fore. Nam cum mea prae 
+      <lb ed="#T" n="94"/>uisione stat oppositum posse, sed non oppositum 
+      <lb ed="#T" n="95"/>agere: in eo enim quem piaeuideo sessurum est 
+      <lb ed="#T" n="96"/>potentia ad non sedere, eum tamen me praeui 
+      <lb ed="#T" n="97"/>disse sesturum &amp; non sedere simul est 
+      incompos<lb ed="#T" n="98" break="no"/>sibile: sicut etiam te cras peccare vel non 
+      pec<lb ed="#T" n="99" break="no"/>care, diuisim vtrumque per se accipiendo, 
+      pos<lb ed="#T" n="100" break="no"/>sib. le est, coniunctim vero, accipiendo 
+      vtrum<lb ed="#T" n="101" break="no"/>que simul incompossibile. Haec autem conditio 
+      <lb ed="#T" n="102"/>Paulum saluari si praedestinatus est, nihil de 
+      <lb ed="#T" n="103"/>praesenti sed de futuro ponit in eo, vnde non 
+      <lb ed="#T" n="104"/>excludit ab eo potentiam ad oppositum, sed  
+      <lb ed="#T" n="105"/>actum illius potentiae: vude quamuis sit 
+      prae<lb ed="#T" n="106" break="no"/>destinatus, nihilominus uamnari potest, sed  
+      <lb ed="#T" n="107"/>tamen nunquam damnabitur, quia actus isti 
+      <lb ed="#T" n="108"/>licet absolute sit possibilis, tamen conditioni 
+      <lb ed="#T" n="109"/>stanti est incompossibilis, &amp; ideo etiam 
+      condi<lb ed="#T" n="110" break="no"/>tione stante non est possibilis. Non enim 
+      pos<lb ed="#T" n="111" break="no"/>sibile quocumque modo, possibile est, vt 
+      con<lb ed="#T" n="112" break="no"/>tinuum diuidi in infinitum, vel infinita a Deo 
+      <lb ed="#T" n="113"/>fieri; sed possibile a potentia actui coniuncta, 
+      <lb ed="#T" n="114"/>id est compossibile. Haec ergo Paulum 
+      praede<lb ed="#T" n="115" break="no"/>stinatum, vel si praedestinatus est, non saluari, 
+      <lb ed="#T" n="116"/>de re possibilis est: de dicto, impossibilis: vnde 
+      <lb ed="#T" n="117"/>haec propositio, Praedestinatum saluari necesse, 
+      <lb ed="#T" n="118"/>vel damnari possibile, de dicto vera est, de re 
+      <lb ed="#T" n="119"/>falsa. 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e497">
+                  <lb ed="#T" n="120"/>Ad 1. De causa indeficiente. Resp. Hoc verum 
+      <lb ed="#T" n="121"/>est in causa tota &amp; proxima, non in ea cui est 
+      al<lb ed="#T" n="122" break="no"/>tera causa contingens in eodem effectu 
+      con<lb ed="#T" n="123" break="no"/>iuncta. 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e508">
+                  <lb ed="#T" n="124"/>Ad 2. De duabus causis. Resp. VUbi haec 
+      im<lb ed="#T" n="125" break="no"/>possibilitas discordandi fundatur super 
+      con<lb ed="#T" n="126" break="no"/>cordandi absoluta necessitate verum est hoc: 
+      <lb ed="#T" n="127"/>non vbi super conditionata vt hic. 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e519">
+                  <lb ed="#T" n="128"/>Ad 3. Maiori propositione existente de 
+      ne<lb ed="#T" n="129" break="no"/>cessario &amp;c. Resp. Hoc intelligitur quando 
+      mi<lb ed="#T" n="130" break="no"/>nor est de inesse simpliciter, sicut per se accidens 
+      <lb ed="#T" n="131"/>inest subjecto: non vt nunc, siue contingenter: 
+      <lb ed="#T" n="132"/>haec vero, Paulus est praedestinatus, est de inesse 
+      <lb ed="#T" n="133"/>vt nunc seu contingenter. Et est simile sicut 
+      si<lb ed="#T" n="134" break="no"/>siat talis similis omne quod currit necessatio 
+      <lb ed="#T" n="135"/>mouetur, Sortes currit: ergo Sortes necessaris 
+      <lb ed="#T" n="136"/>mouetur. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0408.xml-->
+      <pb ed="#T" n="333"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>Ad 4. Imposs ibile est praedestinatum esse prae 
+      <lb ed="#T" n="2"/>scitum. Resp. Coniunctim verum est hoc, non 
+      <lb ed="#T" n="3"/>diuisim, quia praedestinatum esse, vel praescitia 
+      <lb ed="#T" n="4"/>contingens est: similiter praedestinatum 
+      damna<lb ed="#T" n="5" break="no"/>ri coiunctim est impossibile, diuisim possibile. 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e558">
+                  <lb ed="#T" n="6"/>Ad 5. Impossibile est praedestinantem salli &amp;c. 
+      <lb ed="#T" n="7"/>Resp. Consequentia nulla est. Non enim sicut 
+      <lb ed="#T" n="8"/>se habet damnari ad falli, ita posse damnari ad 
+      <lb ed="#T" n="9"/>posse salli, nisi de posse iuncto actui intelligatur 
+      <lb ed="#T" n="10"/>nam Deus simul praeuidet ipsum posse damnari, 
+      <lb ed="#T" n="11"/>nec tamen damnari; vnde per hoc quod potest 
+      <lb ed="#T" n="12"/>damnari, potentia non coniuncta actui, 
+      prae<lb ed="#T" n="13" break="no"/>destinans non fallitur; sper posse coniunctum 
+      <lb ed="#T" n="14"/>actui falleretur.  
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e580">
+                  <lb ed="#T" n="15"/>Ad 6. De conditionali vera. Resp. Secundum 
+      <lb ed="#T" n="16"/>quosdam auctores non est necessarium, sed 
+      con<lb ed="#T" n="17" break="no"/>tingens: non enim est pure aeternum, nec pur 
+      <lb ed="#T" n="18"/>praeteritum, sed includit futurum contingens 
+      <lb ed="#T" n="19"/>Vel potest dici quod consequens est necessarium 
+      <lb ed="#T" n="20"/>necessitate consequendi, non essendi 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e596">
+                  <lb ed="#T" n="21"/>Ad 7. Illud omne quod non est &amp;c. Resp. 
+      <lb ed="#T" n="22"/>Hoc est verum de esse simpliciter &amp; absolute, 
+      <lb ed="#T" n="23"/>sed non de esse secundum quid, quale est esse 
+      <lb ed="#T" n="24"/>praescitum, vel esse praedestinatum, vel esse 
+      fu<lb ed="#T" n="25" break="no"/>turum: tale enim si ponitur esse, semper fuit: si 
+      <lb ed="#T" n="26"/>ponitur non esse, nunquam fuit, sine 
+      mutatio<lb ed="#T" n="27" break="no"/>ne &amp; incoeptione, quia esse eius non fundatur 
+      <lb ed="#T" n="28"/>totaliter super vnum absolute, sed super illuo 
+      <lb ed="#T" n="29"/>in comparatione ad alterum: ratione vnius 
+      po<lb ed="#T" n="30" break="no"/>test non esse, ratione alterius non potest incipe 
+      <lb ed="#T" n="31"/>re, nam esse praescitum est scitum a Deo esse 
+      fu<lb ed="#T" n="32" break="no"/>turum, ratione futuri potest noneesse, ratione 
+      <lb ed="#T" n="33"/>sciti a Deo non potest incipere esse 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e628">
+                  <lb ed="#T" n="34"/>Ad 8. De forma quae non potest subjectum 
+      de<lb ed="#T" n="35" break="no"/>serere. Resp. Hoc est verum de forma quae est 
+      <lb ed="#T" n="36"/>forma secundum rem, ita quod ponit aliquid 
+      <lb ed="#T" n="37"/>in subjecto; non quae secundum 
+      denomianatio<lb ed="#T" n="38" break="no"/>nem tantum, quae nihil ponit in denominato 
+      <lb ed="#T" n="39"/>sed in denominante, vt laudatio Caesaris qua 
+      <lb ed="#T" n="40"/>laudatur a me: &amp; talis est praedestinatio.  
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f01347-Dd1e648">
+               <head xml:id="pdt7y6-f01347-Hd1e650">Articulus 2</head>
+               <head xml:id="pdt7y6-f01347-Hd1e652" type="question-title">An praedestinatio habeat certitudinem</head>
+               <p xml:id="pdt7y6-f01347-d1e655">
+                  <lb ed="#T" n="41"/>Articvlvs II. 
+      <lb ed="#T" n="42"/>An praedestinatio habeat certitudinem.
+</p>
+               <p xml:id="pdt7y6-f01347-d1e662">
+                  <lb ed="#T" n="43"/>AD secundum sic proceditur. 1. Omnis 
+      co<lb ed="#T" n="44" break="no"/>gnitio quae respicit cognitum in eo statu 
+      <lb ed="#T" n="45"/>in quo non potest aliter se habere, certitudinem 
+      <lb ed="#T" n="46"/>habet: sed diuina praedestinatio praedestinatos 
+      <lb ed="#T" n="47"/>respicit in eo statu in quo non possunt aliter se 
+      <lb ed="#T" n="48"/>habere, quia vt praesentialiter saluatos: ergo 
+      <lb ed="#T" n="49"/>habet certitudinem. 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e680">
+                  <lb ed="#T" n="50"/>2. Certior est diuina cognitio quam humana: 
+      <lb ed="#T" n="51"/>sed scientia humana certitudinem habet quoad 
+      <lb ed="#T" n="52"/>omne suum scibile: ergo multo magis Diuina. 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e690">
+                  <lb ed="#T" n="53"/>3. Quicumque non potest sa li certus est: sec 
+      <lb ed="#T" n="54"/>Deus circa nullum a se praescitum vel 
+      praedesti<lb ed="#T" n="55" break="no"/>natum potest falli: ergo omnino certu, est circa 
+      <lb ed="#T" n="56"/>omne praescitum vel praedestinatum. 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e701">
+                  <lb ed="#T" n="57"/>4. Deus scit secundum Dionisium 
+      immuta<lb ed="#T" n="58" break="no"/>biliter mutabilia: ergo scit certitudinaliter 
+      in<lb ed="#T" n="59" break="no"/>certa 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e710">
+                  <lb ed="#T" n="60"/>Contra. 1. Deus scit hunc praedestinatum 
+      sal<lb ed="#T" n="61" break="no"/>uandum: aut ergo saluandum necessario, aut 
+      <lb ed="#T" n="62"/>contingenter: si necessario, ergo nescit vere, 
+      <lb ed="#T" n="63"/>quia non ita est in rei veritate: si contingenter, 
+      <lb ed="#T" n="64"/>ergo nescit cert: iudinaliter.  
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e723">
+                  <lb ed="#T" n="65"/>2. Deus praedestinat salua arbitrij libertate, 
+      <lb ed="#T" n="66"/>ergo salua vertibilitate: ergo salua incertitudine. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0408.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>3. Manente praedestinatione, praedestinatus 
+      <lb ed="#T" n="68"/>aut potest damnari, aut non: si non, ergo 
+      prae<lb ed="#T" n="69" break="no"/>destinatio repugnat libero arbitrio: si sic, ergo 
+      <lb ed="#T" n="70"/>nulla est certitudo de eius salute. 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e743">
+                  <lb ed="#T" n="71"/>4. Non est certa cognitio cuius cognitum 
+      ali<lb ed="#T" n="72" break="no"/>ter se habet: ergo non potest esse certa 
+      cogni<lb ed="#T" n="73" break="no"/>tio, cuius cognitum potest aliter se habere 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e752">
+                  <lb ed="#T" n="74"/>Respondeo. De certitudine diuinae 
+      praedestina<lb ed="#T" n="75" break="no"/>tionis est loqui dupliciter: vel a parte Dei 
+      prae<lb ed="#T" n="76" break="no"/>destinantis, vel a parte rei praedestinatae. A 
+      par<lb ed="#T" n="77" break="no"/>te Dei praedestinantis dupliciter: vel quoad 
+      cer<lb ed="#T" n="78" break="no"/>titudinem infallibilitatis, vel quoad 
+      certitudi<lb ed="#T" n="79" break="no"/>nem immobilitatis: vtroque modo certa est 
+      <lb ed="#T" n="80"/>Diuina praedestinatio a parte praedestinantis. 
+      <lb ed="#T" n="81"/>quia &amp; illi quos praedestinat, infallibiliter sali 
+      <lb ed="#T" n="82"/>uabuntur; &amp; semel ab eo praedestinati de eius 
+      <lb ed="#T" n="83"/>praedestinatione non delebuntur. A parte re 
+      <lb ed="#T" n="84"/>praedestinatae est loqui dupliciter: vel secundum 
+      <lb ed="#T" n="85"/>se in natura propria, sic non habet certitudinem: 
+      <lb ed="#T" n="86"/>vel in comparatione ad praedestinationem seu 
+      <lb ed="#T" n="87"/>cognitionem Diuinam, sic habet; nam diuine 
+      <lb ed="#T" n="88"/>aeterno totum tempus &amp; omne temporale est. 
+      <lb ed="#T" n="89"/>praesens, vnde omne quod est futurum in 
+      na<lb ed="#T" n="90" break="no"/>tura propria, respicit ut sibi praesens: ergo vt 
+      <lb ed="#T" n="91"/>iam determinatum. 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e795">
+                  <lb ed="#T" n="92"/>Ad 1. In contrarium. Deus scit hunc 
+      praede<lb ed="#T" n="93" break="no"/>stinatum saluandum &amp;c. Resp. Necessario &amp; 
+      co<lb ed="#T" n="94" break="no"/>tingenter possunt dupliciter determinate verbum 
+      <lb ed="#T" n="95"/>sciendi: aut a parte scientis, sic scit necessario 
+      <lb ed="#T" n="96"/>non contingenter: aut a parte rei scitae, sic scit 
+      <lb ed="#T" n="97"/>contingenter: nec sequitur, ergo nescit 
+      certitu<lb ed="#T" n="98" break="no"/>dinaliter, quia quamuis ipsum in se sit 
+      contin<lb ed="#T" n="99" break="no"/>gens, tamen in comparatione ad diuinam 
+      scien<lb ed="#T" n="100" break="no"/>tiam, prout substat illi, necessarium est: vnde 
+      <lb ed="#T" n="101"/>in argumento est fallacia amphibologiae 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e819">
+                  <lb ed="#T" n="102"/>Ad 2. Deus Praedestinat salua arbitrij 
+      liberta<lb ed="#T" n="103" break="no"/>te &amp;c. Resp. Deus praedestinat salua 
+      vertibilita<lb ed="#T" n="104" break="no"/>te a parte rei scitae, non scientis, &amp; salua 
+      simili<lb ed="#T" n="105" break="no"/>ter incertitudine 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e830">
+                  <lb ed="#T" n="106"/>Ad 3. Aut manente praedestinatione. Resp. 
+      <lb ed="#T" n="107"/>Potest damnari talis potentia remota ab actu: 
+      <lb ed="#T" n="108"/>sed non coniuncta actui, quia talis potentia res 
+      <lb ed="#T" n="109"/>pugnat conditioni stanti, sed remota non. Nec 
+      <lb ed="#T" n="110"/>sequitur ex hoc, quod incertitudinaliter sit 
+      prae<lb ed="#T" n="111" break="no"/>destinatus: quia ad certitudinem 
+      praedestinatio<lb ed="#T" n="112" break="no"/>nis hoc sufficit, scilicet quod nunquam aliter 
+      <lb ed="#T" n="113"/>euenit, quamuis aliter possit euenire, 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e850">
+                  <lb ed="#T" n="114"/>Ad 4. Non est certa cognitio &amp;c. Resp. 
+      Qua<lb ed="#T" n="115" break="no"/>uis secundum se possit aliter se habere, non 
+      ta<lb ed="#T" n="116" break="no"/>men vt cognitum (potentia, dico, couiuncta 
+      <lb ed="#T" n="117"/>actui, non remota) potest. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f01347-Dd1e862">
+               <head xml:id="pdt7y6-f01347-Hd1e864">Articulus 3</head>
+               <head xml:id="pdt7y6-f01347-Hd1e866" type="question-title">An numerus praedestinatorum possit augeri</head>
+               <p xml:id="pdt7y6-f01347-d1e869">
+                  <lb ed="#T" n="118"/>Articvlvs III. 
+      <lb ed="#T" n="119"/>An numerus praedestinatorum possit augeri.
+</p>
+               <p xml:id="pdt7y6-f01347-d1e876">
+                  <lb ed="#T" n="120"/>AD tertium articulum sicproceditur. 1. 
+      Au<lb ed="#T" n="121" break="no"/>gustinus dicit lib. de corrept. &amp; gratia 
+      <lb ed="#T" n="122"/>Certus est electorum numerus qui nec potes 
+      <lb ed="#T" n="123"/>minui nec augeri: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e887">
+                  <lb ed="#T" n="124"/>2. Determinatus est numerus mansionum in 
+      <lb ed="#T" n="125"/>coelo Ioan. 17. in domo Patris mei &amp;c. Sed 
+      <lb ed="#T" n="126"/>indecens est vt aliqua mansio vacua sit, vel 
+      <lb ed="#T" n="127"/>aliquis sine mansione sit, &amp; omne indecens Deo 
+      <lb ed="#T" n="128"/>est impossibile: ergo necesse est vt numerus 
+      man<lb ed="#T" n="129" break="no"/>sionariorum numero mansionum, ad quas 
+      prae<lb ed="#T" n="130" break="no"/>destinati sunt, aequalis sit: ergo non potest 
+      au<lb ed="#T" n="131" break="no"/>geri vel minur
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e908">
+                  <lb ed="#T" n="132"/>3. Electorum numerus in decentissima propor¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0409.xml-->
+      <pb ed="#T" n="334"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>tione a Deo est determinatus: sed illa 
+      propor<lb ed="#T" n="2" break="no"/>tio destrueretur per augmentum, vel 
+      diminutio<lb ed="#T" n="3" break="no"/>nem: ergo cum non possit destrui, non potest 
+      <lb ed="#T" n="4"/>numerus augeri vel minui. 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e928">
+                  <lb ed="#T" n="5"/>Contra. 1. Luc 5. Rumpebatur rete eorum 
+      <lb ed="#T" n="6"/>(Glos. Non tot intrant de Iudaeis quot sunt prae 
+      <lb ed="#T" n="7"/>destinati: ergo non impletur numerus Iudaeorum. 
+      <lb ed="#T" n="8"/>praedestinatorum. 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e939">
+                  <lb ed="#T" n="9"/>2. Deuteronomij 1. Addat Deus ad hunc 
+      <lb ed="#T" n="10"/>numerum. Glos. Ad hunc numerum praedefinitum 
+      <lb ed="#T" n="11"/>in Dei praescientia, qui nouit qui sunt eius: ergo 
+      <lb ed="#T" n="12"/>numero praedestinatorum potest addi 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e950">
+                  <lb ed="#T" n="13"/>3. Qui praedestinatus est potest damnari, &amp; qui  
+      <lb ed="#T" n="14"/>praescitus est potest saluari: ergo numerus 
+      prae<lb ed="#T" n="15" break="no"/>destinatorum potest augeri, &amp; iminui, &amp; mutari. 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e959">
+                  <lb ed="#T" n="16"/>4. Si omnes &amp; soli qui praedestinati sunt 
+      pos<lb ed="#T" n="17" break="no"/>sunt saluari, &amp; qui praescitidamnari: ergo 
+      quic<lb ed="#T" n="18" break="no"/>quid homines faciant, ita erit: ergo non 
+      opor<lb ed="#T" n="19" break="no"/>tet eis de sua salute vel damnatione sollicitari. 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e970">
+                  <lb ed="#T" n="20"/>5. Apoc. 1. Tene quod habes &amp;c. Ergo 
+      coro<lb ed="#T" n="21" break="no"/>nam vnius alter potest accipere: ergo potest ille. 
+      <lb ed="#T" n="22"/>numero praedestinatorum detrahi: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e980">
+                  <lb ed="#T" n="23"/>6. Super illud Iob 34. Conteres multos &amp;c. 
+      <lb ed="#T" n="24"/>Gregorius, locum vitae alijs cadentibus, 
+      ali<lb ed="#T" n="25" break="no"/>fortiuntur: ergo contingit aliquos de numero 
+      <lb ed="#T" n="26"/>praedestinatorum detrahi, &amp; alios addi: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e991">
+                  <lb ed="#T" n="27"/>Respondeo. Duplex est numerus 
+      praedestina<lb ed="#T" n="28" break="no"/>torum: scilicet numerus numerans siue 
+      forma<lb ed="#T" n="29" break="no"/>lis qui est in mente Diuina, quo tot puta decem 
+      <lb ed="#T" n="30"/>vel vigenti saluandi sunt: &amp; numerus numera 
+      <lb ed="#T" n="31"/>tus seu materialis qui est in praedestinatis, quo 
+      <lb ed="#T" n="32"/>isti decem vel viginti saluandi sunt. Vterque 
+      <lb ed="#T" n="33"/>numerus Deo certus est, sed primus ita certus 
+      <lb ed="#T" n="34"/>est quod nullo modo potest inutari, quia non 
+      <lb ed="#T" n="35"/>dependet a libero arbitrio huius vel illius: 
+      se<lb ed="#T" n="36" break="no"/>cundus ita certus, quod comparatione quidem 
+      <lb ed="#T" n="37"/>ad ipsum numerantem mutari non potest: sec 
+      <lb ed="#T" n="38"/>comparatione ad numeratos potest, sed 
+      nun<lb ed="#T" n="39" break="no"/>quam mutabitur.  
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e1022">
+                  <lb ed="#T" n="40"/>Ad 1. In contrarium. Non tot intrant. Resp. 
+      Lo<lb ed="#T" n="41" break="no"/>quitur pro statu primitiuae Ecclesiae, quo non 
+      <lb ed="#T" n="42"/>tot Iudaei intrauerunt quot sunt de toto genere 
+      <lb ed="#T" n="43"/>praedestinati. 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e1033">
+                  <lb ed="#T" n="44"/>Ad 2. Addat Deus &amp;c. Resp. Loquitur de 
+      nu<lb ed="#T" n="45" break="no"/>mero praedestinatorum secundum actum 
+      ele<lb ed="#T" n="46" break="no"/>ctionis temporalis, non aeternae tantum 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e1042">
+                  <lb ed="#T" n="47"/>Ad 3. Qui praedestinatus est, potest damnar 
+      <lb ed="#T" n="48"/>&amp;c. Resp. Quamuis accipiendo diuisim 
+      praede<lb ed="#T" n="49" break="no"/>stinatus possit damnari, non tamen coniunctim: 
+      <lb ed="#T" n="50"/>sic vero sequeretur mutatio numeri, sed no 
+      <lb ed="#T" n="51"/>diuisim, quia sicut potest damnari, ita potest 
+      <lb ed="#T" n="52"/>nunquam fuisse de numero praedestinatorum. 
+      <lb ed="#T" n="53"/>Haec enim Praedestinatus potest damnari, 
+      tri<lb ed="#T" n="54" break="no"/>plicem habet causam veritatis: aut quia forma 
+      <lb ed="#T" n="55"/>praedicati. potest inesse subjecto cum forma 
+      <lb ed="#T" n="56"/>implicita, vel post formam implicitam, vel 
+      <lb ed="#T" n="57"/>sine forma implicita: hoc vltimo modo vera est 
+      <lb ed="#T" n="58"/>secundum quosdam, quia potest esse vt nunqua 
+      <lb ed="#T" n="59"/>fuerit praedestinatus, &amp; ita erit ab aeterno 
+      prae<lb ed="#T" n="60" break="no"/>scitus, in Deo enim nihil transit, vnde sicut ab 
+      <lb ed="#T" n="61"/>aeterno potuit non praedestinare istum, ita potest 
+      <lb ed="#T" n="62"/>adhuc, &amp; hoc sine sui mutatione, mutatione 
+      <lb ed="#T" n="63"/>rei subjectae non scientiae. Sicut etiam si quis in 
+      <lb ed="#T" n="64"/>alta specula positus sic videt omnes vias 
+      regio<lb ed="#T" n="65" break="no"/>nis subtus se positae, vt nullus possit quocumqe 
+      <lb ed="#T" n="66"/>vadat oculos eius subterfugere; potest tamen 
+      <lb ed="#T" n="67"/>quilibet quocumque vult, ire. 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e1090">
+                  <lb ed="#T" n="68"/>Ad 4. Si omnes &amp; soli &amp;c. Resp. Non sequi¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0409.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="69"/>tur quod frustra sollicitentur, quia praeuisi sunt 
+      <lb ed="#T" n="70"/>saluandi sua sollicitudine 
+    </p>
+               <p xml:id="pdt7y6-f01347-d1e1104">
+                  <lb ed="#T" n="71"/>Ad 5. Tene quod habes &amp;c. Resp. Loquitur 
+      <lb ed="#T" n="72"/>de corona debita secundum statum praesentis 
+      iu<lb ed="#T" n="73" break="no"/>stitiae: non aeternae praedestinationis. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="196"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e59873"><!-- l1d24prae -->
+            <head xml:id="pdt7y6-e59873-Hd1e99">Praeambulum</head>
+            <head xml:id="pdt7y6-e59873-Hd1e101" type="question-title"/>
+            <p xml:id="pdt7y6-e59873-d1e103">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0271.xml-->
+               <pb ed="#T" n="196"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>QVID SIONIEICETVR HIS 
+      <lb ed="#T" n="2"/>nominibus, Vnus vel Vna, Duo vel Duae, Tres vel Tria, 
+      <lb ed="#T" n="3"/>Trinus vel Trinitas, Plures vel Pluralitas, Distinctio 
+      <lb ed="#T" n="4"/>vel Distinctae, cum his vtimur de Deo 
+      loquentes<lb ed="#T" n="5" break="no"/>Distinct. EXIIII.
+    </p>
+           <!-- <p xml:id="pdt7y6-e59873-d1e123">
+               <lb ed="#T" n="6"/>IC diligenter inquiri oportet, cum in Trinitate non sit diuersitas vel 
+      <lb ed="#T" n="7"/>singularitas, nec multiplicitas vel solitudo: quid significetur his 
+      nomini<lb ed="#T" n="8" break="no"/>bus, scilicet, Vnus vel Vna, Duo vel duae, Tres vel Tria, Trinus vel 
+      <lb ed="#T" n="9"/>Trinitas, Plures vel Pluralitas, Distinctae vel Distinctio: cum dicitur vnus 
+      <lb ed="#T" n="10"/>Deus, duae personae, vel tres personae, plures personae, distinctae sunt,  
+      <lb ed="#T" n="11"/>&amp; personae. Vel cum dicitur, distinctio personarum, pluralitas personarum, 
+      <lb ed="#T" n="12"/>Trinitas personarum, &amp; huiusmodi. Videmur enim hoc dicentes numerorum 
+      quantita<lb ed="#T" n="13" break="no"/>tes, &amp; rerum multitudinem vel multiplicitatem in Deo ponere. Quid ergo ista ibi 
+      signi<lb ed="#T" n="14" break="no"/>ficent, ipso de quo loquimur aperiente, insinuare curemus. 
+    </p>
+            <p xml:id="pdt7y6-e59873-d1e145">
+               <lb ed="#T" n="15"/>Magis illa dicuntur ad excludendum ea qua non sunt in Deo, quam ad ponendum aliqua. 
+      <lb ed="#T" n="16"/>Si diligenter praemissis authoritatum verbis intendimus, vt dictorum intelligentiam 
+      ca<lb ed="#T" n="17" break="no"/>piamus, magis videtur horum verborum vsus introductus ratione remouendi atque 
+      ex<lb ed="#T" n="18" break="no"/>cludendi a simplicitate Deitatis, quae ibi non sunt, quam ponendi aliqua. 
+    </p>
+            <p xml:id="pdt7y6-e59873-d1e157">
+               <lb ed="#T" n="19"/>Quid per vnum significetur cum dicitur vnus Deus. 
+      <lb ed="#T" n="20"/>Cum enim dicitur vnus Deus, multitudo Deorum excluditur, nec numeri quantitas in 
+      <lb ed="#T" n="21"/>Diuinitate ponitur: tanquam diceretur, Deus est, nec multi sunt vel plures Dij, vnde 
+      <lb ed="#T" n="22"/>Ambr. in lib. de Fide ait, Cum vnum dicimus Deum, vnitas excludit numerum Deorum: 
+      <lb ed="#T" n="23"/>nec quantitatem in Deo ponit, quia nec numerus, neque quantitas ibi est. 
+    </p>
+            <p xml:id="pdt7y6-e59873-d1e170">
+               <lb ed="#T" n="24"/>Quo sensu dicitur, vnus est Pater, vel vnus est Filius. 
+      <lb ed="#T" n="25"/>Similiter cum dicitur, Vnus est Pater, vel vnus est Filius &amp; huiusmodi: ratio dicti haec 
+      <lb ed="#T" n="26"/>est, quod non sunt multi Patres, vel multi Filij, ita &amp; de similibus. Item cum dicimus 
+      <lb ed="#T" n="27"/>plures esse personas, singularitatem atque solitudinem excludimus: nec diuersitatem nec 
+      <lb ed="#T" n="28"/>multiplicitatem ibi ponimus, quasi diceretur, sine solitudine ac singularitate personas 
+      <lb ed="#T" n="29"/>confitemur. Vnde Hilarius in 4. lib. de Trinit. sic ait, dixit Deus, Faciamus hominem ad 
+      <lb ed="#T" n="30"/>imaginem &amp; similitudinem nostram. Quaero nunc, an solum Deum sibi locutum existimes, 
+      <lb ed="#T" n="31"/>an hunc sermonem eius intelligas ad alterum extitisse?Si solum fuisse dicis, ipsius voce 
+      <lb ed="#T" n="32"/>argueris dicentis, Faciamus, &amp; nostram. Sustulit enim singularitatis ac solitudinis 
+      in<lb ed="#T" n="33" break="no"/>telligentiam professio confortij: quia aliquod confortium esse non potest ipsi solitario, 
+      ne<lb ed="#T" n="34" break="no"/>que solitudo solitarijrecipit, Faciamus: nec alieno a se diceret, Nostram. Attende lector 
+      <lb ed="#T" n="35"/>his verbis &amp; vide, quia nomine confortij pluralitatem significauit: professio ergo 
+      con<lb ed="#T" n="36" break="no"/>fortij est professio pluralitatis quam professus est, dicens, Faciamus, &amp; nostram: 
+      plura<lb ed="#T" n="37" break="no"/>liter enim vtrumque dicitur. Sed hac professione pluralitatis non diuersitatem vel 
+      multitu<lb ed="#T" n="38" break="no"/>dinem posuit, sed solitudinem &amp; singularitatem negauit. Sic ergo cum dicimus plures 
+      per<lb ed="#T" n="39" break="no"/>sonas vel pluralitatem personarum, singularitatis &amp; solitudinis intelligentiam 
+      exclu<lb ed="#T" n="40" break="no"/>dimus. 
+    </p>
+            <p xml:id="pdt7y6-e59873-d1e209">
+               <lb ed="#T" n="41"/>Quid per ternarium significetur, cum dicitur, Tres personae. 
+      <lb ed="#T" n="42"/>Ita etiam cum dicimus tres personas, nomine Ternarij non quantitatem numeri in Deo 
+      <lb ed="#T" n="43"/>ponimus, vel aliquam diuersitatem: sed intelligentiam non ad alium nisi ad Patrem &amp; 
+      <lb ed="#T" n="44"/>Filium &amp; Spiritum sanctum dirigendam significamus, vt sit huius dicti intelligentia, Tres 
+      <lb ed="#T" n="45"/>personae sunt, vel tres sunt, Pater, &amp; Filius &amp; Spiritus sanctus, id est, nec tantum pater,  
+      <lb ed="#T" n="46"/>nec tantum Filius: nec tantum Pater &amp; Filius in Deitate sunt, sed etiam Spiritus sanctus, 
+      <lb ed="#T" n="47"/>&amp; non alius ab his. Similiter, non tantum est ibi haec persona, vel illa, vel haec &amp; illa, sed  
+      <lb ed="#T" n="48"/>haec &amp; illa &amp; non alia. Et hoc fore ita intelligendum August. satis ostendit, vbi dicit quod 
+      <lb ed="#T" n="49"/>illo nomine non diuersitatem intelligi voluit, sed singularitatem noluit. 
+    </p>
+            <p xml:id="pdt7y6-e59873-d1e231">
+               <lb ed="#T" n="50"/>Quid per duo, cum dicitur, duae personae, vel Pater &amp; Filius duo sunt.  
+      <lb ed="#T" n="51"/>Similiter cum dicitur, duo sunt Pater &amp; Filius, non dualitatis quantitatem ibiponimus: 
+      <lb ed="#T" n="52"/>sed hoc significamus, quod non est tantum Pater, nec tantum Filius, sed Pater &amp; Filius, 
+      <lb ed="#T" n="53"/>&amp; hic non est ille: ita &amp; de alijs huiusmodi. Ita etiam cum dicimus, Pater &amp; Filius sunt,  
+      <lb ed="#T" n="54"/>duae personae, hoc significamus, quod non tantum Pater est persona, nec tantum Filius, 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0272.xml-\->
+      <pb ed="#T" n="197"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>est persona: sed Pater est persona, &amp; Filius est persona: &amp; haec non est illa. 
+    </p>
+            <p xml:id="pdt7y6-e59873-d1e253">
+               <lb ed="#T" n="2"/>Ex quo sensu dicitur in personis distinctio, vel personae distinctae. 
+      <lb ed="#T" n="3"/>Cum aute dicimus, distinctae sunt personae, vel distinctio est in personis, confusione atque 
+      <lb ed="#T" n="4"/>permixtione excludimus, &amp; hanc non esse illam significamus. Cumque addimus, distinctae 
+      <lb ed="#T" n="5"/>sunt personae proprietatibus, siue differentes proprietatibus, aliam esse hanc personam, &amp; 
+      <lb ed="#T" n="6"/>aliam illam suis proprietatibus significamus. Et cum dicimus aliam &amp; aliam, non 
+      diuersita<lb ed="#T" n="7" break="no"/>tem vel alignationem ibi ponimus, sed confusionem Sabellianam excludimus. 
+    </p>
+            <p xml:id="pdt7y6-e59873-d1e269">
+               <lb ed="#T" n="8"/>Quomodo ibi accipiatur discretio. 
+      <lb ed="#T" n="9"/>Ita &amp; cum dicuntur discretae personae, vel cum dicitur discretio in personis esse, 
+      ean<lb ed="#T" n="10" break="no"/>dem intelligentiam facimus. Eodem enim modo ibi accipitur distinctio, quo discretio. Et  
+      <lb ed="#T" n="11"/>congrue dicitur ibi esse discretio vel distinctio, non diuersitas vel diuisio siue separatio.  
+      <lb ed="#T" n="12"/>Vnde Ambr. in 1. lib. de Trinit. Non est ipse Pater qui Filius, sed inter Patrem &amp; Filium 
+      <lb ed="#T" n="13"/>expressa distinctio est. 
+    </p>
+            <p xml:id="pdt7y6-e59873-d1e286">
+               <lb ed="#T" n="14"/>Quomodo Trinitas ibi accipiatur.  
+      <lb ed="#T" n="15"/>Cum vero dicitur Trinitas, id significari vrdetur quod significatur, cum dicitur, Tres 
+      <lb ed="#T" n="16"/>personae: vt sicut non potest dici, Pater est tres personae, vel Filius est tres personae, ita 
+      <lb ed="#T" n="17"/>non debet dici, Pater est Trinitas, vel Filius est Trinitas, 
+    </p>
+            <p xml:id="pdt7y6-e59873-d1e297">
+               <lb ed="#T" n="18"/>Hoc videtur contrarium esse praedictis. 
+      <lb ed="#T" n="19"/>Hic non est praetermittendum, quod cum supra dictum sit Deum nec singularem nec 
+      <lb ed="#T" n="20"/>multiplicem esse confitendum, idque sanctorum authoritatibus sit confirmatum: in 
+      con<lb ed="#T" n="21" break="no"/>trarium videtur sentire Isidor. dicens: Distinguendum est inter Trinitatem &amp; vnitatem, est 
+      <lb ed="#T" n="22"/>enim vnitas simplex &amp; singularis, Trinitas vero multiplex &amp; numerabilis: quia Trinitas 
+      <lb ed="#T" n="23"/>est trium vnitas. Ecce vnitatem dicit esse singularem, &amp; Trinitatem multiplicem &amp; 
+      nu<lb ed="#T" n="24" break="no"/>merabilem. Sed ad hoc dicimus, quia singularem accepit sicut &amp; alij accipiunt vnum: 
+      <lb ed="#T" n="25"/>multiplicem vero &amp; numerabilem, sicut dicunt trinum.
+    </p>-->
+            <p xml:id="pdt7y6-e59873-d1e317">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0272.xml-->
+               <cb ed="#T" n="b"/>
+               <lb ed="#T" n="26" type="fixed=197"/>DIVISIO TEXTVS. 
+      <lb ed="#T" n="27"/>NNICdiligenter. ] Postqua egit de significa¬ 
+               <lb ed="#T" n="28"/>Atione huius nominis, persona, secundum 
+      <lb ed="#T" n="29"/>se: hic agit de significatione terminorum 
+      di<lb ed="#T" n="30" break="no"/>stinctiuorum quando adiunguntur ei. Vbi 
+      pri<lb ed="#T" n="31" break="no"/>mo mouet quaestionem. Secundo ponit 
+      quaestio<lb ed="#T" n="32" break="no"/>nis solutionem [Si diligenter] Tertio 
+      solutio<lb ed="#T" n="33" break="no"/>nis per exempla declarationem. [Cum enim 
+      <lb ed="#T" n="34"/>Quarto mouet &amp; soluit incidentem 
+      dubitatio<lb ed="#T" n="35" break="no"/>nem [Hic non est praetermittendum.] 
+    </p>
+            <p xml:id="pdt7y6-e59873-d1e348">
+               <lb ed="#T" n="36"/>Explificat autem primo in terminis 
+      signifi<lb ed="#T" n="37" break="no"/>cantibus principium numeri, id est, vnitatem, 
+      <lb ed="#T" n="38"/>Secundo, in significantibus numerum, id est 
+      <lb ed="#T" n="39"/>pluralitatem [Item cum plures ] Tertio in 
+      ter<lb ed="#T" n="40" break="no"/>minis significantibus causam numeri, scilicet,  
+      <lb ed="#T" n="41"/>distinctionem vel discretionem [Cum autem 
+      <lb ed="#T" n="42"/>dicimus] Quarto in termino significante haec 
+      <lb ed="#T" n="43"/>omnia simul, scilicet Trinitatem [Cum vero.] 
+    </p>
+            <p xml:id="pdt7y6-e59873-d1e368">
+               <lb ed="#T" n="44"/>In terminis significantibus principium 
+      nume<lb ed="#T" n="45" break="no"/>meri exemplificat dupliciter: primo secundum 
+      <lb ed="#T" n="46"/>quod adiunguntur termino essentiali [Cum 
+      <lb ed="#T" n="47"/>enim) Secundo secundum quod personali [
+      Si<lb ed="#T" n="48" break="no"/>militer.] 
+    </p>
+            <p xml:id="pdt7y6-e59873-d1e382">
+               <lb ed="#T" n="49"/>In terminis significantibus numerum 
+      du<lb ed="#T" n="50" break="no"/>pliciter exemplificat: primo in significantibus 
+      <lb ed="#T" n="51"/>numerum indeterminate [Item) Secundo in 
+      <lb ed="#T" n="52"/>significantibus speciem numeri determinatam 
+      <lb ed="#T" n="53"/>[Ita etiam cum dicimus. 
+    </p>
+            <p xml:id="pdt7y6-e59873-d1e395">
+               <lb ed="#T" n="54"/>In terminis significantibus causam numeri, 
+      <lb ed="#T" n="55"/>exemplificat dupliciter: primo in 
+      significan<lb ed="#T" n="56" break="no"/>tibus solam distinctionem [Cum autem] 
+      Secun<lb ed="#T" n="57" break="no"/>do in significantibus etiam separationem [
+      Ita<lb ed="#T" n="58" break="no"/>etiam. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

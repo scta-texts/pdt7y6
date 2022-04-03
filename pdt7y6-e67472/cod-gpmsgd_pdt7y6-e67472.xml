@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="221"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e67472"><!-- l1d27prae -->
+            <head xml:id="pdt7y6-e67472-Hd1e99">Praeambulum</head>
+            <head xml:id="pdt7y6-e67472-Hd1e101" type="question-title"/>
+            <p xml:id="pdt7y6-e67472-d1e103">
+       <!--1652-gregPress-MichiganState-gbooks-v1-0296.xml-->
+               <pb ed="#T" n="221"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>AN EASDEM PROPRIETATES 
+      <lb ed="#T" n="2"/>assignent Augustinus &amp; Hilarius, &amp; an istae sint quae 
+      <lb ed="#T" n="3"/>dicuntur paternitas, filiatio, &amp; processio. 
+      <lb ed="#T" n="4"/>Distinct. XXVII. 
+      </p>
+            <!--<p xml:id="pdt7y6-e67472-d1e121">
+               <lb ed="#T" n="5"/>Ic quaeri potest, vtrum proprietates, quas Hilarius supra assignauit, 
+      scili<lb ed="#T" n="6" break="no"/>&amp;cet quod Pater semper est Pater, &amp; Filius semper est Filius, sint ille eaedem 
+      <lb ed="#T" n="7"/>&amp; proprietates, quas Augustinus superius distinxit dicens: proprium esse 
+    </p>
+            <p xml:id="pdt7y6-e67472-d1e130">
+               <lb ed="#T" n="8"/>Patris quod genuit Filium, &amp; proprium Filij quod genitus est a Patre, &amp; 
+      <lb ed="#T" n="9"/>Spiritus sancti quod ab vroque procedit. Ac deinde vtrum &amp; istae sint illae 
+      <lb ed="#T" n="10"/>quae dicuntur paternitas, filiatio, processio. Videtur quod non sint eaedem 
+      <lb ed="#T" n="11"/>proprietates, quas ponit Hilarius, &amp; illae quas ponit Augustinus. Si enim eaedem sunt, 
+      <lb ed="#T" n="12"/>idem est ergo Patri esse Patrem, &amp; genuisse Filium: quod vtique quidam concedunt. Si 
+      au<lb ed="#T" n="13" break="no"/>tem hoc est, cui ergo conuenit vt sit Pater, ei conuenit genuisse Filium. Natura ergo 
+      <lb ed="#T" n="14"/>Diuina si Pater est, genuit Filium, si vero non genuit, Pater non est. Sed quis audeat 
+      dice<lb ed="#T" n="15" break="no"/>re, aut quod ipsa genuit Filium, aut quod ipsa Pater non sit. Si autem ipsa Pater est, nec 
+      <lb ed="#T" n="16"/>Filium genuit, non est ergo idem dicere aliquid esse Patrem, &amp; gignere filium. Et ita non 
+      <lb ed="#T" n="17"/>videbitur vna eademque esse proprietas. 
+    </p>
+            <p xml:id="pdt7y6-e67472-d1e155">
+               <lb ed="#T" n="18"/>Responsio ubi ostendit easdem esse proprietates. 
+      <lb ed="#T" n="19"/>Ad quod sine praeiudicio aliorum dicimus, quod easdem proprietates notauit vterque, 
+      <lb ed="#T" n="20"/>licet diuersis verbis. Quod enim Hilarius ait: ita intelligi debet: Proprium Patris est, quod 
+      <lb ed="#T" n="21"/>semper Pater est, id est proprietas Patris est, quia semperPater est: semper vero Pater est, 
+      <lb ed="#T" n="22"/>quia semper genuit Filium. Ita &amp; proprium Fllij est, quod semper Filius est, id est, 
+      proprie<lb ed="#T" n="23" break="no"/>tas Filij est, qua semper filius est. Filius vero semper est, quia semper genitus est, ergo 
+      pro<lb ed="#T" n="24" break="no"/>prietas qua Pater Pater est, est quia semper genuit &amp; haec eadem dicitur paternitas, vel 
+      ge<lb ed="#T" n="25" break="no"/>neratio. Et proprietas qua Filius semper est Filius, est quia semper genitus est a Patre: &amp; 
+      <lb ed="#T" n="26"/>&amp; haec eadem dicitur Filiatio, vel genitura, vel natiuitas, vel origo, vel nascibilitas. Sic &amp; 
+      <lb ed="#T" n="27"/>proprietas qua Spiritus sanctus est Spiritus sanctus vel donum, est quia procedit ab 
+      vtro<lb ed="#T" n="28" break="no"/>que: &amp; haec eadem dicitur processio. In praemissis ergo locutionibus eaedem significatae 
+      <lb ed="#T" n="29"/>sunt proprietates. 
+    </p>
+            <p xml:id="pdt7y6-e67472-d1e184">
+               <lb ed="#T" n="30"/>Quomodo non est omnino idem dicere esse patrem &amp; genuisse, vel habere filium, ita &amp; de alijs. 
+      <lb ed="#T" n="31"/>Nec tamen videtur nobis omnino esse idem dicer aliquid esse Patrem &amp; genuisse 
+      Fi<lb ed="#T" n="32" break="no"/>lium: vel aliquid esse Filium &amp; habere Patrem, vel esse Spiritum sanctum, &amp; procedere 
+      <lb ed="#T" n="33"/>ab vtroquo: alioquin Pater non esset nomen hypostasis, id est, personae, sed 
+      proprieta<lb ed="#T" n="34" break="no"/>tis tantum; similiter Filius, &amp; Spiritus sanctus: &amp; ita non, per tria nomina significarentur 
+      <lb ed="#T" n="35"/>tres personae. Ideoque dicimus, quia patris nomen non tantum relationem notat, sed  
+      <lb ed="#T" n="36"/>etiam hypostasim, id est, subsistentiam significat: ita &amp; Filius &amp; Spiritus sanctus. 
+    </p>
+            <p xml:id="pdt7y6-e67472-d1e202">
+               <lb ed="#T" n="37"/>Relationum vero vocabula sunt paternitas, siliatio, processio, nec personas significant.  
+      <lb ed="#T" n="38"/>Relationum vero vocabula, scilicet paternitas, filiatio, processio: vel gignere, gigni, 
+      <lb ed="#T" n="39"/>procedere, ipsas tantum relationes, non hypostases significant, siue habere Filium &amp; 
+      ha<lb ed="#T" n="40" break="no"/>bere Patrem: vt verbi gratia, cum dicimus: Deus est Paternomine Patris &amp; relationem 
+      <lb ed="#T" n="41"/>notamus &amp; Diuinam hypostasim significamus, vt sit intelligentia talis, Deus vel Diuina 
+      <lb ed="#T" n="42"/>essentia est Pater, id est, ille qui genuit, id est, hypostasis quae habet Filium: similiter Deus 
+      <lb ed="#T" n="43"/>est filius, id est, hypostasis genita vel habens Patrem: ita etiam Deus est Spiritus sanctus, 
+      <lb ed="#T" n="44"/>id est, hypostasis procedens ab vtroque, siue ille qui procedit. Cum vero nomina 
+      relatio<lb ed="#T" n="45" break="no"/>num ponimus in praedicatis, notiones ipsas tantum significamus, non hypostases, vt cum 
+      <lb ed="#T" n="46"/>dicimus, Deus genuit, id est, habet Filium, &amp; Deus genitus est, id est, habet Patrem. Et 
+      <lb ed="#T" n="47"/>tunc oportet intelligi in subjectis hypostases tantum non essentiam, quae illis 
+      proprietati<lb ed="#T" n="48" break="no"/>bus determinantur.  
+    </p>
+            <p xml:id="pdt7y6-e67472-d1e231">
+               <lb ed="#T" n="49"/>Quod proprietates determinant lnpostases, non substantiam, id est naturam. 
+      <lb ed="#T" n="50"/>Illae enim proprietates singulae singulis proprie conueniunt personis, &amp; per eas personae 
+      <lb ed="#T" n="51"/>determinantur, &amp; a se inuicem differunt, sed a se non secedunt. Vnde loannes Damascen. 
+      <lb ed="#T" n="52"/>Non differunt ab inuicem hypostases secundum substantiam, sed secundum 
+      characteristi<lb ed="#T" n="53" break="no"/>ca idiomata, id est: determinatiuas proprietates: Characteristica vero, id est, determi 
+      <lb ed="#T" n="54"/>natiua sunt hypostascon non naturae: etenim hypostases determinant. Item esse quidem 
+      <lb ed="#T" n="55"/>intemporaliter &amp; aeternaliter dicimus Diuinam verbi hypostasim simplice omnia haben 
+      <lb ed="#T" n="56"/>tem, quae habet Pater, vt eius homousion, id est consubstantialem, natiuitatis modo &amp; 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0297.xml-\->
+      <pb ed="#T" n="222"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>habitudine a paternali hypostasi differentem: nunquam vero a paternali hypostasi 
+      fece<lb ed="#T" n="2" break="no"/>dentem. Idem apertius exprimens personales proprietates, in eodem ait: Differentiam 
+      <lb ed="#T" n="3"/>hypostaseon, id est, personarum in tribus proprietatibus, id est, paternali &amp; filiali &amp; 
+      pro<lb ed="#T" n="4" break="no"/>cessibili recognoscimus: Insecessibiles autem ipsas hypostases &amp; indistabiles inuicem &amp; 
+      <lb ed="#T" n="5"/>vnitas quidem inconfusibiliter (tres enim sunt, etsi vnitae) diuisas autem indistanter. 
+      Ete<lb ed="#T" n="6" break="no"/>nim singula perfecta est hypostasis, &amp; propriam proprietatem, scilicet existentiae modum 
+      <lb ed="#T" n="7"/>proprium possidet: sed vnitae sunt substantia, &amp; non distant neque se cedunt a paternali 
+      hy<lb ed="#T" n="8" break="no"/>postasi. Ecce hic habes distinctas tres illas proprietates, quae supra diuersis significatae sunt,  
+      <lb ed="#T" n="9"/>modis. 
+    </p>
+            <p xml:id="pdt7y6-e67472-d1e277">
+               <lb ed="#T" n="10"/>Quod sunt alia nomina personarum easdem proprietates notuntia, scilicet Cenitus, Genitor, 
+    </p>
+            <p xml:id="pdt7y6-e67472-d1e282">
+               <lb ed="#T" n="11"/>Verbum, Imago. 
+      <lb ed="#T" n="12"/>Hic non est praetermittendum, quod sicut Pater &amp; Filius &amp; spiritus sanctus nomina 
+      per<lb ed="#T" n="13" break="no"/>sonarum sunt, &amp; proprietates personales designant: ita etiam sunt &amp; alia nomina 
+      perso<lb ed="#T" n="14" break="no"/>narum, id est, quae ipias personas significant, &amp; earum proprietates denotant, &amp; easdem 
+      <lb ed="#T" n="15"/>quas &amp; nomina praedicta: vnde &amp; relatiue dicuntur, scilicet genitor, genitus, verbum, 
+      <lb ed="#T" n="16"/>imago. Vnde August. in libro quinto de Trinitate ait: Videndum est, inquit hoc 
+      significa<lb ed="#T" n="17" break="no"/>ri cum dicitur genitus, quod significatur cum dicitur Filius. Ideo enim Filius quia genitus, 
+      <lb ed="#T" n="18"/>&amp; quia Filius vtique genitus. Sicut autem Filius ad Patrem, sic genitus ad genitorem 
+      re<lb ed="#T" n="19" break="no"/>fertur: &amp; sicut Pater ad Filium, ita genitor ad genitum. Idem in 6. libr. de Trinit. Verbum 
+      <lb ed="#T" n="20"/>quidem solus Filius accipitur, non simul Pater &amp; Filius, tanquam ambo sint vnum verbum. 
+      <lb ed="#T" n="21"/>Sic enim verbum dicitur, quomodo imago, non autem Pater &amp; Filius, simul ambo 
+      ima<lb ed="#T" n="22" break="no"/>go, sed Filius solus est imago Patris, quemadmodum Filius. Idem in 7. libro de Trinitate: 
+      <lb ed="#T" n="23"/>Verbum secundum quod sapientia est &amp; essentia, hoc est quod Pater: secundum quod 
+      <lb ed="#T" n="24"/>verbum, non hoc est, quod Pater: quia verbum non est Pater, &amp; verbum relatiue 
+      dici<lb ed="#T" n="25" break="no"/>tur sicut filius. Item in eodem: Sicut filius ad patrem refertur, ita &amp; verbum ad eum, 
+      cu<lb ed="#T" n="26" break="no"/>ius est verbum refertur, cum dicitur verbum. Et propterea non eo verbum, quo 
+      sapien<lb ed="#T" n="27" break="no"/>tia dicitur: quia verbum non ad se dicitur sed tantum relatiue dicitur ad eum, cuius est 
+      <lb ed="#T" n="28"/>verbum, sicut filius ad patrem. Eo quippe est Filius, quo Verbum, &amp; eo est verbum quo 
+      Fi<lb ed="#T" n="29" break="no"/>lius, saplentia vero, quo essentia: &amp; ideo, quia pater &amp; Filius sunt vna essentia &amp; vna 
+      sa<lb ed="#T" n="30" break="no"/>pientia. Item in eodem, Non est Pater ipse verbum sicut nec Filius, nec imago. Quid 
+      au<lb ed="#T" n="31" break="no"/>tem absurdius quam imaginem ad se dici? Item in 5. dicitur relatiue Filius, relariue 
+      dici<lb ed="#T" n="32" break="no"/>tur verbum, &amp; imago &amp; in omnibus his vocabulis ad Patrem refertur, nihil autem horum 
+      <lb ed="#T" n="33"/>Pater dicitur.  
+    </p>
+            <p xml:id="pdt7y6-e67472-d1e335">
+               <lb ed="#T" n="34"/>Breuiter summam colligit intelligentiae praedictorum. 
+      <lb ed="#T" n="35"/>Aperte ostensum est, quod sicut Filius vel genitus relatiue dicitur ad Patrem, ita verbum 
+      <lb ed="#T" n="36"/>&amp; imago: &amp; quod eo dicitur verbum siue imago quo Filius, id est, eadem proprietate sius 
+      <lb ed="#T" n="37"/>notione dicitur verbum &amp; imago qua Filius, sed non eo, quo verbum, dicitur sapientia 
+      <lb ed="#T" n="38"/>vel essentia: quia non notione qua dicitur verbum, dicitur sapientia. Nam sapientia 
+      dici<lb ed="#T" n="39" break="no"/>tur secundum essentiam, non secundum relationem. 
+    </p>
+            <p xml:id="pdt7y6-e67472-d1e351">
+               <lb ed="#T" n="40"/>(Generalis regula eorum, quae ad se, &amp; eorum quae relatiue dicuntur. Quicquid enim ad se, simid 
+    </p>
+            <p xml:id="pdt7y6-e67472-d1e356">
+               <lb ed="#T" n="41"/>ambo dicuntur, sed non ita in praedictis relatiuis. 
+      <lb ed="#T" n="42"/>Et est hic aduertenda quaedam generalis regula eorum quae ad se, &amp; eorum quae 
+      relati<lb ed="#T" n="43" break="no"/>ue dicuntur de Patre &amp; Filio. Quicquid enim ad se dicuntur, vt ait Aug. in 6. lib. de 
+      Trin<lb ed="#T" n="44" break="no"/>non dicitur alter sine altero, id est quicquid dicuntur quod substantiam eorum ostendat,  
+      <lb ed="#T" n="45"/>ambo simul dicuntur. Ergo nec Pater est Deus sine Filio, nec Filius sine Patre, sed ambo 
+      <lb ed="#T" n="46"/>simul Deus: sed non ambo simul Pater, non ambo simul Filius, vel verbum, vel imago, 
+    </p>
+            <p xml:id="pdt7y6-e67472-d1e372">
+               <lb ed="#T" n="47"/>An secundum substantiam dicatur Deus de Deo, &amp; huiusmodi. 
+      <lb ed="#T" n="48"/>Hic quaeritur cum dicitur Deus de Deo, lumen delumine, &amp; huiusmodi: vtrum 
+      dican<lb ed="#T" n="49" break="no"/>tur secundum substantiam: nam secundum relationem conitat ista non dici. Si vero 
+      se<lb ed="#T" n="50" break="no"/>cundum substantiam dicuntur simul ambo scilicet Pater &amp; Filius possunt dici Deus de 
+      <lb ed="#T" n="51"/>Deo, lumen delumine secundum praedictam regulam. Ad quod dicimus quia licet Deus 
+      <lb ed="#T" n="52"/>secundum substantiam dicatur &amp; lumen, &amp; sapientia, &amp; huiusmodi, &amp; nunquam relatiue 
+      <lb ed="#T" n="53"/>accipiatur: aliquando tamen pro relatiuis, id est, pro personis, sed non relatiue, 
+      acci<lb ed="#T" n="54" break="no"/>pitur: vt cum dicitur, Deus genuit Deum, alterum pro Patre, alterum pro Filio 
+      poni<lb ed="#T" n="55" break="no"/>mus: similiter cum dicimus, Deus de Deo, lumen delumine. In alijs quoque 
+      locutioni<lb ed="#T" n="56" break="no"/>bus saepe reperiuntur nomina essentiae ad significationem personarum deducta: vt cum 
+      di<lb ed="#T" n="57" break="no"/>citur, Deus natus, Deus mortuus, Deus passus, vbi Filius tantum significatur. Ita &amp; de 
+      <lb ed="#T" n="58"/>solo Filio intelligitur cum dicitur, Deus de Deo, &amp; huiusmodi. Vnde Augustinus quaerens 
+      <lb ed="#T" n="59"/>quomodo huiusmodi dicantur, in 6. libr. de Trinitate ait, Quomodo Deus de Deo, 
+      su<lb ed="#T" n="60" break="no"/>men de lumine dicitur? non enim simul ambo Deus de Deo, sed solus Filius de Deo scili¬ 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0298.xml-\->
+      <pb ed="#T" n="223"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>cet Patre, nec ambo simul lumen de lumine, sed solus Filius de lumine Patre. 
+    </p>
+            <p xml:id="pdt7y6-e67472-d1e414">
+               <lb ed="#T" n="2"/>Quod tantum secundum nomen substantiae dicitur, illud de illo, non secundum nomina personarum. 
+      <lb ed="#T" n="3"/>Et est sciendum quod secundum nomina substantiae tantum dicitur, illud de illo, licet ibi 
+      <lb ed="#T" n="4"/>illa nomina substantiam non significent. Secundum vero eadem nomina personarum 
+      nun<lb ed="#T" n="5" break="no"/>quam dicitur illud de illo, sicut verbum de verbo, vel Filius de Filio: quia 
+      huiusmodino<lb ed="#T" n="6" break="no"/>mina diuersis conuenire non possent. Quod August. licet obscure, in eodem lib. ira dicit, 
+      <lb ed="#T" n="7"/>Hoc solum, de eis dici non potest illud de illo, quod simul ambo non sunt, id est, illo solo: 
+      <lb ed="#T" n="8"/>nomine non possumus vti ad ostendendum vnum de vno, quod simul ambobus non 
+      con<lb ed="#T" n="9" break="no"/>uenit: sicut verbum de verbo dici non potest, quia non simul ambo verbum: nec imago 
+      <lb ed="#T" n="10"/>de imagine, nec Filius de Filio, quia non simul ambo Filius vel imago. Et sicut nomina 
+      <lb ed="#T" n="11"/>substantiae aliquando intelligentiam personarum distincte faciunt: ita etiam interdum to 
+      <lb ed="#T" n="12"/>tius Trinitatis simul. Vnde Aug. in eod. lib. ait, In Patris nomine ipse Pater per se 
+      pronun<lb ed="#T" n="13" break="no"/>ciatur: in Dei vero nomine, &amp; ipse Pater, &amp; Filius, &amp; Spiritus sanctus, vt cum dicitur,  
+      <lb ed="#T" n="14"/>Nemo bonus nisi solus Deus: quia Trinitas est vnus solus Deus.
+    </p>-->
+            <p xml:id="pdt7y6-e67472-d1e445">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0298.xml-->
+               <cb ed="#T" n="b"/>
+               <lb ed="#T" n="15" type="fixed=223"/>DIVISIO TEXTVS. 
+      <lb ed="#T" n="16"/>VTIc quaeri potest.] Egit de tribus 
+      proprie<lb ed="#T" n="17" break="no"/>tatibus personalibus secundum quod per 
+      <lb ed="#T" n="18"/>se nominibus propriis significantur: hic agit de 
+      <lb ed="#T" n="19"/>eis secundum quod significantur cum altero, 
+      sci<lb ed="#T" n="20" break="no"/>licet nominibus alijs. Et primo secundum quod 
+      <lb ed="#T" n="21"/>significantur cum terminis personalibus 
+      princi<lb ed="#T" n="22" break="no"/>palibus. Secundo prout significantur cum 
+      ter<lb ed="#T" n="23" break="no"/>minis personalibus aequipossentibus [Hic non 
+      <lb ed="#T" n="24"/>est] Tertio prout siguificantur cum terminis 
+      sub<lb ed="#T" n="25" break="no"/>stantialibus [Et est hic aduertenda] In prima 
+      <lb ed="#T" n="26"/>parte primo subdit quaestionem. Secundo ponit 
+      <lb ed="#T" n="27"/>solutionem [Ad quod fine] Tertio solutionis 
+      <lb ed="#T" n="28"/>explanationem [Nec tamen videtur.] In tertia 
+      <lb ed="#T" n="29"/>parte primo dat de terminis substantialibus &amp; 
+      <lb ed="#T" n="30"/>relatiuis regulam generalem [Et est hic] 
+      Secun<lb ed="#T" n="31" break="no"/>do mouet &amp; soluit incidentem dubitationem 
+      <lb ed="#T" n="32"/>[Hic quaeritur ] Tertio ponit solutionis ex 
+      <lb ed="#T" n="33"/>planationem [Et est sciendum.] 
+      <lb ed="#T" n="34"/>O 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

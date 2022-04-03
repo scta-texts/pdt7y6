@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="324"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e99172"><!-- l1d39q2 -->
+            <head xml:id="pdt7y6-e99172-Hd1e99">Quaestio 2</head>
+            <head xml:id="pdt7y6-e99172-Hd1e101" type="question-title">De numero scibilium a Deo</head>
+            <p xml:id="pdt7y6-e99172-d1e104">
+               <lb ed="#T" n="122"/>QVESTIO II. 
+      <lb ed="#T" n="123"/>DE NVMEROSITATE SCIBILIVM. 
+      <lb ed="#T" n="124"/>ADEO. 
+</p>
+            <p xml:id="pdt7y6-e99172-d1e113">
+               <lb ed="#T" n="125"/>CIrca secundum duo quaeruntur.  
+      <lb ed="#T" n="126"/>Primo an Deus habeat scientiam non 
+      <lb ed="#T" n="127"/>entium. 
+      <lb ed="#T" n="128"/>Secundo an habeat scientiam infinitorum.
+  </p>
+            <div xml:id="pdt7y6-e99172-Dd1e124">
+               <head xml:id="pdt7y6-e99172-Hd1e126">Articulus 1</head>
+               <head xml:id="pdt7y6-e99172-Hd1e128" type="question-title">An Deus habeat scientiam non entium</head>
+               <p xml:id="pdt7y6-e99172-d1e131">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0400.xml-->
+                  <pb ed="#T" n="325"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>ARTICVLVS I. 
+      <lb ed="#T" n="2"/>An Deus habeat scientiam non entium.
+    </p>
+               <p xml:id="pdt7y6-e99172-d1e144">
+                  <lb ed="#T" n="3"/>AD primum sic proceditur. 1. Scientia dicit 
+      <lb ed="#T" n="4"/>respectum ad scita: respectus ille, cum sit 
+      <lb ed="#T" n="5"/>relatio, requirit existentiam extremorum: ergo 
+      <lb ed="#T" n="6"/>non potest esse nisi entium 
+    </p>
+               <p xml:id="pdt7y6-e99172-d1e155">
+                  <lb ed="#T" n="7"/>2. Secundum Philosophum 1. Metaph. 
+      vnu<lb ed="#T" n="8" break="no"/>quodque sicut se habet ad esse, sic ad veritatem, 
+      <lb ed="#T" n="9"/>&amp; sicut ad veritatem ita ad scientiam: cum ergo 
+      <lb ed="#T" n="10"/>quod non est, non sit verum, nec est etiam 
+      <lb ed="#T" n="11"/>scitum. 
+    </p>
+               <p xml:id="pdt7y6-e99172-d1e169">
+                  <lb ed="#T" n="12"/>3. Scientia tantum verorum est, sed verum &amp; 
+      <lb ed="#T" n="13"/>ens conuertuntur: ergo tantum est entium. 
+    </p>
+               <p xml:id="pdt7y6-e99172-d1e176">
+                  <lb ed="#T" n="14"/>4. Dicit Philosophus, Quod non est non 
+      con<lb ed="#T" n="15" break="no"/>tingit scire: ergo non est scientia non entium. 
+    </p>
+               <p xml:id="pdt7y6-e99172-d1e183">
+                  <lb ed="#T" n="16"/>5. Prima intentio cadens in intellectu 
+      huma<lb ed="#T" n="17" break="no"/>no est ens, vt dicit Auicenna: ergo non est 
+      in<lb ed="#T" n="18" break="no"/>tellectus nisi entium: ergo nec scientia. 
+    </p>
+               <p xml:id="pdt7y6-e99172-d1e192">
+                  <lb ed="#T" n="19"/>Contra. 1. Deus scit totam suam potentiam: 
+      <lb ed="#T" n="20"/>ergo habet notitiam omnium sibi possibilium: 
+      <lb ed="#T" n="21"/>ergo multorum non entium. 
+    </p>
+               <p xml:id="pdt7y6-e99172-d1e201">
+                  <lb ed="#T" n="22"/>2. Artifex creatus multorum habet scientiam 
+      <lb ed="#T" n="23"/>quae facere non intendit: ergo multo magis 
+      in<lb ed="#T" n="24" break="no"/>creatus. 
+    </p>
+               <p xml:id="pdt7y6-e99172-d1e210">
+                  <lb ed="#T" n="25"/>3. Diuina electio aeterna est non entium, ad 
+      <lb ed="#T" n="26"/>Rom. 4. Qui vocat ea quae non sunt: sed non 
+      eli<lb ed="#T" n="27" break="no"/>git nisi quos nouit. 
+    </p>
+               <p xml:id="pdt7y6-e99172-d1e220">
+                  <lb ed="#T" n="28"/>4. Scientia Dei in nullo dependet ab 
+      existen<lb ed="#T" n="29" break="no"/>tia rerum: ergo ita potest esse non entium, sicut  
+      <lb ed="#T" n="30"/>entium.
+    </p>
+               <p xml:id="pdt7y6-e99172-d1e229">
+                  <lb ed="#T" n="31"/>Respondeo. Quod per se cognoscitur, 
+      cognosci<lb ed="#T" n="32" break="no"/>vt ens aliquo modo: sed hoc potest tribus 
+      mo<lb ed="#T" n="33" break="no"/>dis: vel vt ens in natura propria, vel vt ens in 
+      <lb ed="#T" n="34"/>causa sua, vel in intellectu cognoscentis. Primo 
+      <lb ed="#T" n="35"/>modo a Deo ab aeterno cognoscuntur aeterna: 
+      <lb ed="#T" n="36"/>secundo modo temporalia bona futura: tertio 
+      <lb ed="#T" n="37"/>modo possibilia quae non sunt futura 
+    </p>
+               <p xml:id="pdt7y6-e99172-d1e247">
+                  <lb ed="#T" n="38"/>Ad 1. De respectu. Resp. duplex est respectus, 
+      <lb ed="#T" n="39"/>scilicet rei &amp; rationis: primus requirit extrema, 
+      <lb ed="#T" n="40"/>secundus non. 
+    </p>
+               <p xml:id="pdt7y6-e99172-d1e256">
+                  <lb ed="#T" n="41"/>Ad 2. Vnumquodque sicut se habet &amp;c. Resp. 
+      <lb ed="#T" n="42"/>Loquitur de esse generaliter, &amp; de veritate siue 
+      <lb ed="#T" n="43"/>simpliciter, siue se cundum quid 
+    </p>
+               <p xml:id="pdt7y6-e99172-d1e265">
+                  <lb ed="#T" n="44"/>Ad 3. Verum &amp; ens conuertuntur. Resp. Ea 
+      <lb ed="#T" n="45"/>quae sunt in causa sua, habent esse secundum 
+      <lb ed="#T" n="46"/>quid non simpliciter similiter &amp; veritatem. 
+    </p>
+               <p xml:id="pdt7y6-e99172-d1e274">
+                  <lb ed="#T" n="47"/>Ad 4. Quod non est non contingit scire. Resp. 
+      <lb ed="#T" n="48"/>Hoc intelligitur de eo quod non est nec 
+      simpli<lb ed="#T" n="49" break="no"/>citer, nec secundum quid. 
+    </p>
+               <p xml:id="pdt7y6-e99172-d1e284">
+                  <lb ed="#T" n="50"/>Ad 5. Prima intentio est ens &amp;c. Resp. Accipit, 
+      <lb ed="#T" n="51"/>ibi ens generaliter ad ens simpliciter &amp; 
+      secun<lb ed="#T" n="52" break="no"/>dum quid. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e99172-Dd1e295">
+               <head xml:id="pdt7y6-e99172-Hd1e297">Articulus 2</head>
+               <head xml:id="pdt7y6-e99172-Hd1e299" type="question-title">An Deus habeat scientiam infinitorum</head>
+               <p xml:id="pdt7y6-e99172-d1e302">
+                  <lb ed="#T" n="53"/>Articvlvs II. 
+      <lb ed="#T" n="54"/>An Deus habeat scientiam infinitorum.
+</p>
+               <p xml:id="pdt7y6-e99172-d1e309">
+                  <lb ed="#T" n="55"/>AD secundum sic proceditur. 1. Deus habet  
+      <lb ed="#T" n="56"/>scientiam particularium: particularia sunt,  
+      <lb ed="#T" n="57"/>infinita ergo habet scientiam infinitorum. 
+    </p>
+               <p xml:id="pdt7y6-e99172-d1e318">
+                  <lb ed="#T" n="58"/>2. Augustinus 12. de Ciuit. Dei. Numeri quidem 
+      <lb ed="#T" n="59"/>infiniti sunt: &amp; ita si scientia Dei non est 
+      infini<lb ed="#T" n="60" break="no"/>torum, nescit omnes numeros Deus: &amp; ita vsque 
+      <lb ed="#T" n="61"/>ad quandam summam numerorum peruenit, &amp; 
+      <lb ed="#T" n="62"/>caeteros ignorat: sed quis hoc nisi dementissimus. 
+      <lb ed="#T" n="63"/>dixerit? 
+    </p>
+               <p xml:id="pdt7y6-e99172-d1e335">
+                  <lb ed="#T" n="64"/>3. Ibidem. Absit vt dubitemus vt ei nihilo¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0400.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="65"/>minus sit notus omnis numerus, cuius 
+      intelli<lb ed="#T" n="66" break="no"/>gentiae non est numerus: infinitas itaque 
+      nume<lb ed="#T" n="67" break="no"/>ri, quamuis infinitorum nullus sit numerus, non 
+      <lb ed="#T" n="68"/>est tamen incompossibilis ei cuius intelligentiae 
+      <lb ed="#T" n="69"/>non est numerus. 
+    </p>
+               <p xml:id="pdt7y6-e99172-d1e355">
+                  <lb ed="#T" n="70"/>4. Deus scit totum posse suum: ergo scit 
+      om<lb ed="#T" n="71" break="no"/>nia quae sunt in eius potentia: sed haec sunt 
+      in<lb ed="#T" n="72" break="no"/>finita. 
+    </p>
+               <p xml:id="pdt7y6-e99172-d1e364">
+                  <lb ed="#T" n="73"/>5. Deus nouit totum posse quod dedit 
+      crea<lb ed="#T" n="74" break="no"/>turae: sed dedit posse ad infinita, vt patet in 
+      di<lb ed="#T" n="75" break="no"/>uisione continui, &amp; additione numeri: ergo 
+      no<lb ed="#T" n="76" break="no"/>uit infinita. 
+    </p>
+               <p xml:id="pdt7y6-e99172-d1e375">
+                  <lb ed="#T" n="77"/>6. Maius est infinitum increatum omni 
+      in<lb ed="#T" n="78" break="no"/>finito creato, vel creabili: sed Deus 
+      compre<lb ed="#T" n="79" break="no"/>hendit infinitum increatum: ergo multo magis 
+      <lb ed="#T" n="80"/>comprehendit alia infinita. 
+    </p>
+               <p xml:id="pdt7y6-e99172-d1e386">
+                  <lb ed="#T" n="81"/>Contra. 1. Augustinus 12. de Ciuit. Omne 
+      <lb ed="#T" n="82"/>quod scitur, comprehensione scientis finitur: 
+      <lb ed="#T" n="83"/>sed infinitum non potest finiri: ergo non potest 
+      <lb ed="#T" n="84"/>sciri. 
+    </p>
+               <p xml:id="pdt7y6-e99172-d1e397">
+                  <lb ed="#T" n="85"/>2. Non sciuntur a Deo nisi vel quae sunt, vel 
+      <lb ed="#T" n="86"/>quae fuerunt, vel quae erunt, vel quae esse possunt: 
+      <lb ed="#T" n="87"/>sed infinita neque fuerunt, nec erunt, nec sunt,  
+      <lb ed="#T" n="88"/>neque esse possunt: ergo non finiuntur a Deo. 
+    </p>
+               <p xml:id="pdt7y6-e99172-d1e409">
+                  <lb ed="#T" n="89"/>3. Probat Philosophus 6. Phys. quod 
+      imind<lb ed="#T" n="90" break="no"/>tum non potest pertransiri nec a potentia finita, 
+      <lb ed="#T" n="91"/>nec ab ifinita, quia infinitum est cuius partes 
+      <lb ed="#T" n="92"/>accipienti semper est accipere aliquid vltra: ergo 
+      <lb ed="#T" n="93"/>infinitum non potest a diuina potentia quamuis 
+      <lb ed="#T" n="94"/>infinita pertransiri: ergo non potest comprehendi. 
+    </p>
+               <p xml:id="pdt7y6-e99172-d1e425">
+                  <lb ed="#T" n="95"/>4. Quaecumque sciuntur, sunt actu per suas 
+      <lb ed="#T" n="96"/>ideas in sciente: sed infinita nunquam sunt actu: 
+      <lb ed="#T" n="97"/>ergo nec sciuntur.  
+    </p>
+               <p xml:id="pdt7y6-e99172-d1e434">
+                  <lb ed="#T" n="98"/>Respondeo. Infinitum potest aliquid dici 
+      tri<lb ed="#T" n="99" break="no"/>plici modo: vel secundum modum virtualis 
+      <lb ed="#T" n="100"/>quantitatis: vel in genere quantitatis continuae: 
+      <lb ed="#T" n="101"/>vel in genere quantitatis discretae. Primo modo 
+      <lb ed="#T" n="102"/>aliquid est actu infinitum, scilicet Deus: 
+      secun<lb ed="#T" n="103" break="no"/>do modo nihil est actu infinitum, nec secundum 
+      <lb ed="#T" n="104"/>Philosophos esse potest, quia repugnat ei quod 
+      <lb ed="#T" n="105"/>est esse actu: tertio modo nihil est infinitum actu 
+      <lb ed="#T" n="106"/>sed in potentia, vel secundum potentiam 
+      diui<lb ed="#T" n="107" break="no"/>sionis in continuo, vel additionis in numero. 
+      <lb ed="#T" n="108"/>Primo modo Deus scit personas infinitas 
+      virtu<lb ed="#T" n="109" break="no"/>te: secundo modo infinita nescit, nec sic potest 
+      <lb ed="#T" n="110"/>dici scire possibilia: tertio modo scit infinita, 
+      <lb ed="#T" n="111"/>scientia scilicet simplicis intelligentiae, quae non 
+      <lb ed="#T" n="112"/>tantum est de entibus, sed de possibilibus; non 
+      <lb ed="#T" n="113"/>scientia visionis quae est de ijs quae habent esse 
+      <lb ed="#T" n="114"/>actuale extra videntem; nec scientia 
+      approba<lb ed="#T" n="115" break="no"/>tionis, quae est de bonis tantum: primo modo 
+      <lb ed="#T" n="116"/>scit infinitas species numerorum; secundo 
+      mo<lb ed="#T" n="117" break="no"/>do &amp; tertio, non, sed illas quae sunt, 
+      accipien<lb ed="#T" n="118" break="no"/>do esse communiter ad praeteritum, praesens, &amp; 
+      <lb ed="#T" n="119"/>futurum. 
+    </p>
+               <p xml:id="pdt7y6-e99172-d1e484">
+                  <lb ed="#T" n="120"/>Ad 1. In contrarium. Omne quod scitur &amp;c. 
+      <lb ed="#T" n="121"/>Resp. Finiri comprehensione non est finiri 
+      sim<lb ed="#T" n="122" break="no"/>pliciter, sed secundum quid: sicut esse in 
+      co<lb ed="#T" n="123" break="no"/>gnitione est esse secundum quid, non 
+      simplici<lb ed="#T" n="124" break="no"/>ter. Infinita ergo, quamuis Dei 
+      comprehensio<lb ed="#T" n="125" break="no"/>ne finiantur, non tamen simpliciter finiuntur.  
+    </p>
+               <p xml:id="pdt7y6-e99172-d1e500">
+                  <lb ed="#T" n="126"/>Ad 2. Non sciuntur a Deo nisi quae sunt &amp;c. 
+      <lb ed="#T" n="127"/>Resp. Quamuis infinita non sint, tamen esse 
+      <lb ed="#T" n="128"/>possunt, non potentia reducibili totaliter ad 
+      <lb ed="#T" n="129"/>actum, quae sic non esset infinita potentia, sed  
+      <lb ed="#T" n="130"/>reducibili in qualibet sui parte, non in toto. 
+    </p>
+               <p xml:id="pdt7y6-e99172-d1e513">
+                  <lb ed="#T" n="131"/>Ad 3. Infinitum non potest pertransiri. Resp. 
+      <lb ed="#T" n="132"/>Infinita cognoscere dupliciter potest intelligi, 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0401.xml-->
+      <pb ed="#T" n="326"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>aut per discursum de vno ad aliud, aut per 
+      <lb ed="#T" n="2"/>simplicem intuitum omrium: primo modo 
+      im<lb ed="#T" n="3" break="no"/>possibile est secundo modo possibile: primo 
+      <lb ed="#T" n="4"/>modo proprie dicitur pertransiri, non secundo: 
+      <lb ed="#T" n="5"/>Deus vero per vnam speciem suam vno 
+      simpli<lb ed="#T" n="6" break="no"/>ei intuitu videt infinita, non per discursum 
+      spe<lb ed="#T" n="7" break="no"/>cierum &amp; cogitationum ab vno in aliud, vnde 
+      <lb ed="#T" n="8"/>non pertransit nume rando, sed vno simplici &amp; 
+      <lb ed="#T" n="9"/>immobili aspectu videt infinita. 
+    </p>
+               <p xml:id="pdt7y6-e99172-d1e547">
+                  <lb ed="#T" n="10"/>Ad 4. Quaecumque sciuntur sunt actu &amp;c. 
+      <lb ed="#T" n="11"/>Resp. Esse actu in sciente non est actu esse 
+      simpli<lb ed="#T" n="12" break="no"/>citer, sed esse actu in genere proprio: infinita 
+      <lb ed="#T" n="13"/>veio quamuis non possint esse actu simpliciter  
+      <lb ed="#T" n="14"/>in natura, tamen possunt esse actu secundum 
+      <lb ed="#T" n="15"/>quid, scilicet in intellectu. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

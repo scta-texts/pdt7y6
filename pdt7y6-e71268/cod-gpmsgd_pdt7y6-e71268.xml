@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="233"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e71268"><!-- l1d28q3 -->
+            <head xml:id="pdt7y6-e71268-Hd1e99">Quaestio 3</head>
+            <head xml:id="pdt7y6-e71268-Hd1e101" type="question-title">De proprietate imaginis</head>
+            <p xml:id="pdt7y6-e71268-d1e104">
+               <lb ed="#T" n="121"/>QVESTIO III. 
+      <lb ed="#T" n="122"/>DE PROPRIETATE 
+      IMAGI<lb ed="#T" n="123" break="no"/>NIS IN EILIO. 
+</p>
+            <p xml:id="pdt7y6-e71268-d1e113">
+               <lb ed="#T" n="124"/>CIrca vltimum articulum de imagine, 
+      quae<lb ed="#T" n="125" break="no"/>runtur duo. 
+      <lb ed="#T" n="126"/>Primo si imago in Deo praedicatur 
+      essentia<lb ed="#T" n="127" break="no"/>liter, vel personaliter tantum. 
+      <lb ed="#T" n="128"/>Secundo si tantum conuenit Filio vel alteri 
+      <lb ed="#T" n="129"/>personae.
+    </p>
+  <div xml:id="pdt7y6-e71268-Dd1e129">
+               <head xml:id="pdt7y6-e71268-Hd1e131">Articulus 1</head>
+               <head xml:id="pdt7y6-e71268-Hd1e133" type="question-title">
+      An Imago in Deo praedicetur essentialiter vel personaliter tantam.
+    </head>
+               <p xml:id="pdt7y6-e71268-d1e136">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0309.xml-->
+                  <pb ed="#T" n="234"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>ARTICVLVS I. 
+      <lb ed="#T" n="2"/>An Imago in Deo praedicetur essentialiter vel 
+      per<lb ed="#T" n="3" break="no"/>sonaliter tantam. 
+    </p>
+               <p xml:id="pdt7y6-e71268-d1e152">
+                  <lb ed="#T" n="4"/>AD primum sic proceditur. 1. Augustinus 
+      <lb ed="#T" n="5"/>Quid absurdius quam imaginem ad se dici 
+      <lb ed="#T" n="6"/>ergo dicitur tantum relatiue: ergo non 
+      essen<lb ed="#T" n="7" break="no"/>tialiter.  
+    </p>
+               <p xml:id="pdt7y6-e71268-d1e163">
+                  <lb ed="#T" n="8"/>2. Imago de ratione sua importat imitationem 
+      <lb ed="#T" n="9"/>alterius, imitatio ordinem, ordo in Diuinis 
+      ori<lb ed="#T" n="10" break="no"/>ginem, origo relationem: ergo imago in 
+      Diui<lb ed="#T" n="11" break="no"/>nis semper dicit relationem: non ergo 
+      substan<lb ed="#T" n="12" break="no"/>tiam. 
+    </p>
+               <p xml:id="pdt7y6-e71268-d1e177">
+                  <lb ed="#T" n="13"/>3. Imago secundum Angustinum, est cuius 
+      <lb ed="#T" n="14"/>generatio est per imitationem: hoc autem non 
+      <lb ed="#T" n="15"/>conuenit essentiae, sed personae: ergo nunquam  
+      <lb ed="#T" n="16"/>accipitur essentialiter, sed personaliter, seu 
+      re<lb ed="#T" n="17" break="no"/>latiue tantum. 
+    </p>
+               <p xml:id="pdt7y6-e71268-d1e190">
+                  <lb ed="#T" n="18"/>Contra. Gen. 1. Faciamus hominem ad 
+      ima<lb ed="#T" n="19" break="no"/>ginem nostram. In hoc autem ostenditur, 
+      se<lb ed="#T" n="20" break="no"/>cundum Hylarium, vna communis imago in 
+      <lb ed="#T" n="21"/>Deo ad quam factus est homo: sed nihil est ibi 
+      <lb ed="#T" n="22"/>commune nisi essentia: ergo imago essentialiter 
+      <lb ed="#T" n="23"/>accipitur.  
+      <lb ed="#T" n="24"/>2. Sicut dicit Beda. In hoc quod dicit ad 
+      ima<lb ed="#T" n="25" break="no"/>gmem nostram, significatur vna communis 
+      sub<lb ed="#T" n="26" break="no"/>stantia trium: ergo accipitur essentialiter.  
+    </p>
+               <p xml:id="pdt7y6-e71268-d1e212">
+                  <lb ed="#T" n="27"/>3. Augustinus dicit hic cap. vlt. vna est: 
+      <lb ed="#T" n="28"/>sanctae Trinitatis essentialiter Diuinitas &amp; 
+      <lb ed="#T" n="29"/>imago. 
+    </p>
+               <p xml:id="pdt7y6-e71268-d1e221">
+                  <lb ed="#T" n="30"/>Respondeo. Imago dupliciter accipitur: vel 
+      <lb ed="#T" n="31"/>proprie, id quod ad alterius imaginationem 
+      <lb ed="#T" n="32"/>producitur: vel communiter, id ad cuius 
+      imi<lb ed="#T" n="33" break="no"/>tationem alterum producitur: sicut exemplum 
+      <lb ed="#T" n="34"/>aliquando accipitur proprie pro exemplato, 
+      <lb ed="#T" n="35"/>aliquando communiter pro exemplari. Primo 
+      <lb ed="#T" n="36"/>modo imago in Diuinis accipitur personaliter  
+      <lb ed="#T" n="37"/>solum, scilicet pro Filio: secundo modo 
+      acci<lb ed="#T" n="38" break="no"/>pitur vel essentialiter solum pro essentia Diuina 
+      <lb ed="#T" n="39"/>in qua tres personae sibi sunt similes, secundum 
+      <lb ed="#T" n="40"/>Hylarium: vel essentialiter &amp; personaliter simul 
+      <lb ed="#T" n="41"/>pro vnitate essentiae &amp; Trinitate personarum ad 
+      <lb ed="#T" n="42"/>quarum imitationem homo factus est. 
+    </p>
+               <p xml:id="pdt7y6-e71268-d1e252">
+                  <lb ed="#T" n="43"/>Ad 1. Quod nunquam dicitur imago ad: se. 
+      <lb ed="#T" n="44"/>Resp. Verum est, tantum, nam semper notat res 
+      <lb ed="#T" n="45"/>spectum vel personae ad personam, vel cteaturae 
+      <lb ed="#T" n="46"/>ad Deum. 
+    </p>
+               <p xml:id="pdt7y6-e71268-d1e263">
+                  <lb ed="#T" n="47"/>Ad 2. De imitatione. Resp. Imitatio, in illo 
+      <lb ed="#T" n="48"/>qui imicatur, importat originem, vel ordinem: 
+      <lb ed="#T" n="49"/>sed non in eo ad cuius imitationem producitur.  
+    </p>
+               <p xml:id="pdt7y6-e71268-d1e273">
+                  <lb ed="#T" n="50"/>Ad 3. De definitione. Resp. Describitur 
+      ima<lb ed="#T" n="51" break="no"/>go prout accipitur proprie, scilicet pro illo 
+      <lb ed="#T" n="52"/>quod imitatur, non pro illo ad cuius 
+      imitatio<lb ed="#T" n="53" break="no"/>nem producitur.  
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e71268-Dd1e286">
+               <head xml:id="pdt7y6-e71268-Hd1e288">Articulus 2</head>
+               <head xml:id="pdt7y6-e71268-Hd1e290" type="question-title">
+  An imago tantum conueniat Filio, an alteri personae
+</head>
+               <p xml:id="pdt7y6-e71268-d1e293">
+                  <lb ed="#T" n="54"/>Articvlvs II. 
+      <lb ed="#T" n="55"/>An imago tantum conueniat Filio, an alteri personae. 
+    </p>
+               <p xml:id="pdt7y6-e71268-d1e300">
+                  <lb ed="#T" n="56"/>AD secundum articulum sic proceditur. 1. 
+      <lb ed="#T" n="57"/>Dicit Damascenus quod Spiritus sanctus 
+      <lb ed="#T" n="58"/>est imago Christi: ergo imago non est proprium 
+      <lb ed="#T" n="59"/>Filij. 
+    </p>
+               <p xml:id="pdt7y6-e71268-d1e311">
+                  <lb ed="#T" n="60"/>2. Secundum Hylarium, imago est rei ad rom 
+      <lb ed="#T" n="61"/>coaequandam species indifferens: sed hoc 
+      <lb ed="#T" n="62"/>totum conuenit Spiritui sancto: ergo ipse est 
+      <lb ed="#T" n="63"/>imago. 
+    </p>
+               <p xml:id="pdt7y6-e71268-d1e323">
+                  <lb ed="#T" n="64"/>3. AEque similis est Patri Spiritus sanctus, sicut  
+      <!--1652-gregPress-MichiganState-gbooks-v1-0309.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="65"/>Filius, quia similitudo in essentialibus attenditur: 
+      <lb ed="#T" n="66"/>ergo aeque est eius imago. 
+    </p>
+               <p xml:id="pdt7y6-e71268-d1e336">
+                  <lb ed="#T" n="67"/>Contra. 1 Dicit Augustinus hic quod solus Fi 
+      <lb ed="#T" n="68"/>lius est imago, eo enim verbum quo imago. 
+    </p>
+               <p xml:id="pdt7y6-e71268-d1e343">
+                  <lb ed="#T" n="69"/>2. Filius est imago Patris, donum autem 
+      <lb ed="#T" n="70"/>non est dantis imago: cum ergo Filius procedat  
+      <lb ed="#T" n="71"/>vt Filius, Spiritus sanctus solum vt donum, 
+      <lb ed="#T" n="72"/>Filius est imago &amp; non Spiritus. 
+    </p>
+               <p xml:id="pdt7y6-e71268-d1e354">
+                  <lb ed="#T" n="73"/>3. Imago est cuius generatio est per 
+      imi<lb ed="#T" n="74" break="no"/>tationem: soli Filio conuenit generatio: ergo 
+      <lb ed="#T" n="75"/>imago. 
+    </p>
+               <p xml:id="pdt7y6-e71268-d1e363">
+                  <lb ed="#T" n="76"/>Respondeo. Ex tribus causis colligi potest 
+      ra<lb ed="#T" n="77" break="no"/>tio quare solus Filius dicatur imago proprie in 
+      <lb ed="#T" n="78"/>Trinitate, non Spiritus sanctus: vna est ex parte 
+      <lb ed="#T" n="79"/>eius a quo procedit, quia Filius ab vno, Spiritus 
+      <lb ed="#T" n="80"/>sanctus a duobus: vnus autem vnius magis 
+      po<lb ed="#T" n="81" break="no"/>test esse repraesentatiuum, quam vnus duorum 
+      <lb ed="#T" n="82"/>inquantum duo sunt. Altera ratio est ex parte 
+      <lb ed="#T" n="83"/>modi procedendi, quia Filius procedit per 
+      mo<lb ed="#T" n="84" break="no"/>dum naturae, Spiritus sanctus per modum 
+      vo<lb ed="#T" n="85" break="no"/>luntatis: intentio autem naturalis productionis 
+      <lb ed="#T" n="86"/>magis tendit de se ad assimilationem, quam 
+      vo<lb ed="#T" n="87" break="no"/>luntariae, qua muis voluntaria productio Spiritus 
+      <lb ed="#T" n="88"/>sancti, eo quod Diuina, omnino ratione eius quod 
+      <lb ed="#T" n="89"/>accipitur, non ex modo accipiendi ipsum 
+      assi<lb ed="#T" n="90" break="no"/>milet. Tertia ratio sumitur ex ratione alterum. 
+      <lb ed="#T" n="91"/>producendi, quia imago attenditur maxime 
+      cir<lb ed="#T" n="92" break="no"/>ca exteriorem habitudinem: Filius autem cum 
+      <lb ed="#T" n="93"/>Patre conuenit non solum in essentia interiori 
+      <lb ed="#T" n="94"/>sed in habitudine principij ad personam alteram 
+      <lb ed="#T" n="95"/>scilicet ad Spiritum sanctum. Haec est ratio 
+      Ri<lb ed="#T" n="96" break="no"/>chardi de sancto Victore. 
+    </p>
+               <p xml:id="pdt7y6-e71268-d1e411">
+                  <lb ed="#T" n="97"/>Ad 1. De Damasceno. Resp. Imaginem 
+      acci<lb ed="#T" n="98" break="no"/>pit large &amp; improprie pro similitudine. Vel 
+      lo<lb ed="#T" n="99" break="no"/>quitur causaliter, non formaliter, quia Spiritus 
+      <lb ed="#T" n="100"/>sanctus facit in nobis Christi imaginem. 
+    </p>
+               <p xml:id="pdt7y6-e71268-d1e423">
+                  <lb ed="#T" n="101"/>Ad 2. De Hylario. Resp. Intelligit de 
+      haben<lb ed="#T" n="102" break="no"/>te speciem indifferentem ex modo generali suae. 
+      <lb ed="#T" n="103"/>productionis: hoc autem non ita conuenit 
+      Spiri<lb ed="#T" n="104" break="no"/>tui sancto, sicut Filio. 
+    </p>
+               <p xml:id="pdt7y6-e71268-d1e434">
+                  <lb ed="#T" n="105"/>Ad 5. De aequali similitudine. Resp. Sola 
+      simi<lb ed="#T" n="106" break="no"/>litudo non facit rationem imaginis, non enim 
+      <lb ed="#T" n="107"/>omnium similium vnum est imago alterius, sed  
+      <lb ed="#T" n="108"/>productum ad imitationem: id vero ex modo 
+      <lb ed="#T" n="109"/>suae productionis videtur magis conuenire Filio 
+      <lb ed="#T" n="110"/>quam Spiritui sancto. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e71268-Dd1e451">
+               <head xml:id="pdt7y6-e71268-Hd1e453">Expositio litterae</head>
+               <p xml:id="pdt7y6-e71268-d1e455">
+                  <lb ed="#T" n="111"/>EXPOSITIO LITERAE 
+      <lb ed="#T" n="112"/>Tiamsi Filium non genuisset. Sed contra 
+      <lb ed="#T" n="113"/>Tunc non esset persona Patris. Resp. 
+      Intel<lb ed="#T" n="114" break="no"/>ligit remotione generationis non secundum rem. 
+      <lb ed="#T" n="115"/>sed secundum intellectum solum: vel 
+      intelligi<lb ed="#T" n="116" break="no"/>ligitur de Deo non de persona Patris. 
+    </p>
+               <p xml:id="pdt7y6-e71268-d1e471">
+                  <lb ed="#T" n="117"/>[Ingenitus porro quid est nisi non genitus. 
+      <lb ed="#T" n="118"/>Contra. Differt ratione iniustum &amp; non iustum: 
+      er<lb ed="#T" n="119" break="no"/>vo ingenitum &amp; non genitum. Resp. Loquitur  
+      <lb ed="#T" n="120"/>nic de ingenito prout dicitur in Deo, non 
+      vni<lb ed="#T" n="121" break="no"/>uersaliter: in Deo enim nihil potest dici 
+      priua<lb ed="#T" n="122" break="no"/>tiue proprie loquendo, sed negatiue, vel 
+      nega<lb ed="#T" n="123" break="no"/>tione simpliciter, vel negatione in genere, 
+    </p>
+               <p xml:id="pdt7y6-e71268-d1e489">
+                  <lb ed="#T" n="124"/>[AIterius substantiae esse Patrem. ] Videtur 
+      <lb ed="#T" n="125"/>quod bene probant, quia ingenitum &amp; genitum 
+      <lb ed="#T" n="126"/>differunt in Diuinis aut secundum substantiam, 
+      <lb ed="#T" n="127"/>aut secundum accidens. Resp Licet in inferioribus 
+      <lb ed="#T" n="128"/>sit diuisio haec sufficiens, non tamen in Diuinis 
+      <lb ed="#T" n="129"/>secundum August. quia non omne quod 
+      dici<lb ed="#T" n="130" break="no"/>tur de Deo, non secundum substantiam, necesse est 
+      <lb ed="#T" n="131"/>dici secundum accidens, sed secundum relatione. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0310.xml-->
+      <pb ed="#T" n="235"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>[Non est idem sed diuersum, esse Patrem 
+      <lb ed="#T" n="2"/>&amp; esse Filium. ] Contra. Esse est actus 
+      essen<lb ed="#T" n="3" break="no"/>tiae: non est nisi vna essentia in diuinis: ergo nec 
+      <lb ed="#T" n="4"/>est nisi vnum esse. Resp. Non est ibi nisi vnum 
+      <lb ed="#T" n="5"/>esse simpliciter, sed esse personale vel notionale 
+      <lb ed="#T" n="6"/>est ibi plurificatum. Idem est ergo Patrem esse 
+      <lb ed="#T" n="7"/>&amp; Filium esse secundum quod esse simpliciter 
+      <lb ed="#T" n="8"/>praedicatur. Sed non est idem Patrem esse 
+      Pa<lb ed="#T" n="9" break="no"/>trem, &amp; Filium esse Filium secundum quod re¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0310.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="10"/>latiue praedicantur.  
+    </p>
+               <p xml:id="pdt7y6-e71268-d1e541">
+                  <lb ed="#T" n="11"/>[Inuenitur secundum substantiam dici.] 
+      Con<lb ed="#T" n="12" break="no"/>tra. Inijs quae secundum substantiam dicuntur. 
+      <lb ed="#T" n="13"/>potest dici hoc de illo secundum Augustinum: 
+      <lb ed="#T" n="14"/>sed non potest dici imago de imagine. Resp. 
+      Re<lb ed="#T" n="15" break="no"/>gula Augustini intelligitur de ijs quae secundum 
+      <lb ed="#T" n="16"/>substantiam dicuntur pure, nec connotant 
+      rela<lb ed="#T" n="17" break="no"/>tionem.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

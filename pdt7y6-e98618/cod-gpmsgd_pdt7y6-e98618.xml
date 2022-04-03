@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="323"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e98618"><!-- l1d39q1 -->
+            <head xml:id="pdt7y6-e98618-Hd1e99">Quaestio 1</head>
+            <head xml:id="pdt7y6-e98618-Hd1e101" type="question-title">De invariabilitate scientiae divinae</head>
+            <p xml:id="pdt7y6-e98618-d1e104">
+               <lb ed="#T" n="33"/>QVESTIO I. 
+      <lb ed="#T" n="34"/>DE NNVARIABILITATE SCIENTIAE 
+      <lb ed="#T" n="35"/>DIVINAE¬ 
+</p>
+            <p xml:id="pdt7y6-e98618-d1e113">
+               <lb ed="#T" n="36"/>QIequaeruntur 
+      tria<lb ed="#T" n="37" break="no"/>Primo de inuariabilitate scientiae diuine. 
+      <lb ed="#T" n="38"/>Secundo de numerositate scibilium. 
+      <lb ed="#T" n="39"/>Tertio de vniuersalitatediuinae prouidentiae. 
+    </p>
+            <p xml:id="pdt7y6-e98618-d1e124">
+               <lb ed="#T" n="40"/>Circa primum duo quaeruntur.  
+      <lb ed="#T" n="41"/>Primo an Deus possit nescire id quod scit. 
+      <lb ed="#T" n="42"/>Secundo an possit scire quod nescit, vel 
+      plu<lb ed="#T" n="43" break="no"/>ra quam scit. 
+    </p>
+            <div xml:id="pdt7y6-e98618-Dd1e136">
+               <head xml:id="pdt7y6-e98618-Hd1e138">Articulus 1</head>
+               <head xml:id="pdt7y6-e98618-Hd1e140" type="question-title">An Deus possit nescire id quod sit</head>
+               <p xml:id="pdt7y6-e98618-d1e143">
+                  <lb ed="#T" n="44"/>Articvlvs I. 
+      <lb ed="#T" n="45"/>An Deus possit nescire id quod sit.
+</p>
+               <p xml:id="pdt7y6-e98618-d1e150">
+                  <lb ed="#T" n="46"/>AD primum sic proceditur. 1. Vt dicit 
+      Hie<lb ed="#T" n="47" break="no"/>ronymus. Deus de corrupta non potest 
+      Vir<lb ed="#T" n="48" break="no"/>ginem facere, cuius causa est quia Deus non 
+      po<lb ed="#T" n="49" break="no"/>test facere vt quod praeteritum est, non sit 
+      prae<lb ed="#T" n="50" break="no"/>teritum: ergo non potest facere vt quod scitum 
+      <lb ed="#T" n="51"/>est, non sit scitum. 
+    </p>
+               <p xml:id="pdt7y6-e98618-d1e166">
+                  <lb ed="#T" n="52"/>2. Omne scire Dei est aeternum: omne aeternum 
+      <lb ed="#T" n="53"/>inuariabile: ergo omne scire diuinum est 
+      inua<lb ed="#T" n="54" break="no"/>riabile: ergo non potest nescire id quod scit. 
+    </p>
+               <p xml:id="pdt7y6-e98618-d1e176">
+                  <lb ed="#T" n="55"/>3. Omne scire Dei est esse eius: sed eius esse 
+      <lb ed="#T" n="56"/>est immutabile: ergo &amp; omne scire. 
+    </p>
+               <p xml:id="pdt7y6-e98618-d1e183">
+                  <lb ed="#T" n="57"/>4. Non esse res, dum est, non potest: sed 
+      om<lb ed="#T" n="58" break="no"/>ne scire diuinum, cum sit aeternum, semper est: 
+      <lb ed="#T" n="59"/>ergo nunquam non essepotest. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0398.xml-->
+      <cb ed="#T" n="c"/>
+                  <lb ed="#T" n="60"/>Contra. 1. Deus operabitur omne quod scit 
+      <lb ed="#T" n="61"/>operandum: sed potest non operari quod 
+      opera<lb ed="#T" n="62" break="no"/>bitur: ergo potest non scire quod scit. 
+    </p>
+               <p xml:id="pdt7y6-e98618-d1e203">
+                  <lb ed="#T" n="63"/>2. Scire in Deo non addit, nisi respectum in 
+      <lb ed="#T" n="64"/>Deo secundum dici, vltra essentiam: sed 
+      subla<lb ed="#T" n="65" break="no"/>to eo, quod secundum dici inest, nulla sit 
+      mu<lb ed="#T" n="66" break="no"/>tatio in re: ergo sublato illo respectu nulla fit 
+      <lb ed="#T" n="67"/>mutatio circa Dei scientiam. 
+    </p>
+               <p xml:id="pdt7y6-e98618-d1e216">
+                  <lb ed="#T" n="68"/>3. Omne quod potest non esse, potest non 
+      <lb ed="#T" n="69"/>sciri a Deo: sed me lecturum cras potest non esse, 
+      <lb ed="#T" n="70"/>quamuis simlecturus, nam vt dicit Fhilosophus 
+      <lb ed="#T" n="71"/>2. de generatione, futurus quis incedere non 
+      <lb ed="#T" n="72"/>incedet: ergo potest non sciri a Deo. 
+    </p>
+               <p xml:id="pdt7y6-e98618-d1e229">
+                  <lb ed="#T" n="73"/>Respondeo. Duplex est actus diuinus: quidam 
+      <lb ed="#T" n="74"/>eius secundum se sine vllo ordine ad creaturam: 
+      <lb ed="#T" n="75"/>alius eius in ordine ad creaturam. Primus 
+      du<lb ed="#T" n="76" break="no"/>plex est, vnus notionalis, vt generare; alius 
+      <lb ed="#T" n="77"/>essentialis, vt intelligere se: horum vterque 
+      <lb ed="#T" n="78"/>tam suppositum a quo egreditur, quam obiectum 
+      <lb ed="#T" n="79"/>habet aeternum, vnde nullo modo potest non 
+      <lb ed="#T" n="80"/>esse. Secundus similiter duplex est: vnus 
+      inte<lb ed="#T" n="81" break="no"/>rior, qui ponit respectum ad creaturam solum, 
+      <lb ed="#T" n="82"/>vt scire vel disponere: alius exterior, qui ponit 
+      <lb ed="#T" n="83"/>effectum in creatura, vt creare, gubernare: 
+      <lb ed="#T" n="84"/>vterque habet suppositum aeternum, sed 
+      obje<lb ed="#T" n="85" break="no"/>ctum temporale: sed differenter. Nam creare &amp; 
+      <lb ed="#T" n="86"/>huiusmodi ponit obiectum suum actu in 
+      tenipo<lb ed="#T" n="87" break="no"/>re, &amp; ideo actus est temporalis, &amp; ideo subjacet  
+      <lb ed="#T" n="88"/>legibus temporis in praesentialitate, &amp; 
+      praeteri<lb ed="#T" n="89" break="no"/>tione, &amp; futuritione; ideo antequam sit, 
+      sim<lb ed="#T" n="90" break="no"/>pliciter potest non esse; postquam est vel fuit, 
+      <lb ed="#T" n="91"/>non. Unde hic non distinguitur, Deus potest 
+      <lb ed="#T" n="92"/>non creare quod creat, aut non creasse quod 
+      <lb ed="#T" n="93"/>creauit. Scire vero &amp; huiusmodi non ponit actu 
+      <lb ed="#T" n="94"/>objectum in tempore, sed in potentia, vnde 
+      <lb ed="#T" n="95"/>nullo modo mensuratur tempore, vel non 
+      sequi<lb ed="#T" n="96" break="no"/>tur leges temporis in prae sentialitate, vel 
+      praete<lb ed="#T" n="97" break="no"/>ritione, vel futuritione, sed aeternitatis: in 
+      <lb ed="#T" n="98"/>aeternitate vero est omnimoda libertas ad istos 
+      <lb ed="#T" n="99"/>actus cum immobilitate, &amp; hinc est quod 
+      pro<lb ed="#T" n="100" break="no"/>positiones de his actibus confectas oportet 
+      di<lb ed="#T" n="101" break="no"/>stinguere: nam in sensu quo notatur libertas ad 
+      <lb ed="#T" n="102"/>actum sine mut abilitate, concedendae sunt: in 
+      <lb ed="#T" n="103"/>sensu in quo notatur mobilitas, negandae. Cum 
+      <lb ed="#T" n="104"/>ergo quaeritur, an Deus possit nescire quod scit, 
+      <lb ed="#T" n="105"/>distinguendum: quia potest intelligi coniunctim 
+      <lb ed="#T" n="106"/>vel diuisim: accipiendo diuisim, concedendum 
+      <lb ed="#T" n="107"/>est; quia sicut abaeterno, po tuit, ita potest ab¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0399.xml-->
+      <pb ed="#T" n="324"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>aeterno aliquid scire vel nescire, aeternun enim 
+      <lb ed="#T" n="2"/>ide in semper &amp; eodem modo se habet, &amp; nullo 
+      <lb ed="#T" n="3"/>modo praeteriens: accipiendo coniunctim, 
+      ne<lb ed="#T" n="4" break="no"/>gandum est; quia non potest aliquid de nouo 
+      <lb ed="#T" n="5"/>scire, aut postquam nesciuit incipere scire. 
+      Po<lb ed="#T" n="6" break="no"/>test vtrumque per se, non vtrumque 
+      coniun<lb ed="#T" n="7" break="no"/>ctim: sicut ego possum cras peccare, &amp; non 
+      pec<lb ed="#T" n="8" break="no"/>care, per se, non tamen vtrumque simul. 
+    </p>
+               <p xml:id="pdt7y6-e98618-d1e331">
+                  <lb ed="#T" n="9"/>Ad 1. De praeterito. Resp. Aliquod futurum 
+      <lb ed="#T" n="10"/>esse a Deo scitum, non est praeteritum secundum 
+      <lb ed="#T" n="11"/>rem; nam quantum ad actum diuine scientiae 
+      <lb ed="#T" n="12"/>praesens est, quia aeternum: &amp; quantum ad 
+      ma<lb ed="#T" n="13" break="no"/>riam, in qua transit, futurum includit. 
+    </p>
+               <p xml:id="pdt7y6-e98618-d1e345">
+                  <lb ed="#T" n="14"/>Ad 2. Omne scire Dei aeternum. Resp. 
+      Qua<lb ed="#T" n="15" break="no"/>uis possit nescire quod scit diuisim, non tamen 
+      <lb ed="#T" n="16"/>coniunctim vnde nec variabiliter: quia 
+      varia<lb ed="#T" n="17" break="no"/>bilitas scientiae non sequitur nisi secundum 
+      sen<lb ed="#T" n="18" break="no"/>sum coniunctum, si enim nesciret quod scit 
+      nun<lb ed="#T" n="19" break="no"/>quam sciuisset illud 
+    </p>
+               <p xml:id="pdt7y6-e98618-d1e361">
+                  <lb ed="#T" n="20"/>Ad 3. Scire Dei est eius esse. Resp. Fallacia 
+      <lb ed="#T" n="21"/>est accidentis, nam quamuis scire sit esse quoad 
+      <lb ed="#T" n="22"/>principale significatum, addit tamen respectum 
+      <lb ed="#T" n="23"/>secundum dici ad temporale, qui respectus 
+      po<lb ed="#T" n="24" break="no"/>test desinere esse licet non ipsum significatum. 
+    </p>
+               <p xml:id="pdt7y6-e98618-d1e374">
+                  <lb ed="#T" n="25"/>Ad 4. Non esse res dum est &amp;c. Resp. 
+      Quam<lb ed="#T" n="26" break="no"/>uis non possit non esse dum est, potest tamen 
+      <lb ed="#T" n="27"/>non esse simpliciter.  
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e98618-Dd1e384">
+               <head xml:id="pdt7y6-e98618-Hd1e386">Articulus 2</head>
+               <head xml:id="pdt7y6-e98618-Hd1e388" type="question-title">An possit Deus scire quod nescit, vel plura quam scit</head>
+               <p xml:id="pdt7y6-e98618-d1e391">
+                  <lb ed="#T" n="28"/>Articvlvs II. 
+      <lb ed="#T" n="29"/>An possit Deus scire quod nescit, vel plura quam scit.
+</p>
+               <p xml:id="pdt7y6-e98618-d1e398">
+                  <lb ed="#T" n="30"/>AD secundum sic proceditur. 1. Deus nihil 
+      <lb ed="#T" n="31"/>dicit entium a se differentium nisi per idea 
+      <lb ed="#T" n="32"/>&amp; onia scit quorum habeat ideam: sed non 
+      po<lb ed="#T" n="33" break="no"/>test habere ideam quam non habet ab aeterno: 
+      <lb ed="#T" n="34"/>ergo non potest scire illud quod nescit. 
+    </p>
+               <p xml:id="pdt7y6-e98618-d1e411">
+                  <lb ed="#T" n="35"/>2. Scienitia dependet a scibili: sed Dei scientia 
+      <lb ed="#T" n="36"/>non recipit addit ionem: ergo nec scibile. 
+    </p>
+               <p xml:id="pdt7y6-e98618-d1e419">
+                  <lb ed="#T" n="37"/>3. Deus scit quicquid fuit, est, &amp; erit, &amp; esse 
+      <lb ed="#T" n="38"/>potest: ergo non potest scire aliquid quod nescit 
+    </p>
+               <p xml:id="pdt7y6-e98618-d1e426">
+                  <lb ed="#T" n="39"/>4. Deus nihil potest obliuisci: ergo si potest 
+      <lb ed="#T" n="40"/>scire quod nescit, potest fieri additio scientiae 
+      <lb ed="#T" n="41"/>suae praeexistenti: ergo potest eius scientia 
+      au<lb ed="#T" n="42" break="no"/>geri 
+    </p>
+               <p xml:id="pdt7y6-e98618-d1e437">
+                  <lb ed="#T" n="43"/>5. De quolibet scito habetur scientia: ergo de 
+      <lb ed="#T" n="44"/>nouo scito noua scientia: sed Deo non potest 
+      ad<lb ed="#T" n="45" break="no"/>uenire scientia noua: ergo nec nouum scitum. 
+    </p>
+               <p xml:id="pdt7y6-e98618-d1e446">
+                  <lb ed="#T" n="46"/>Contra. 1. Deus, potest facere quod non facit: 
+      <lb ed="#T" n="47"/>ergo potest scire esse futurum quod nescit. 
+    </p>
+               <p xml:id="pdt7y6-e98618-d1e453">
+                  <lb ed="#T" n="48"/>2. Potest peccare qui non peccabit: ergo Deus 
+      <lb ed="#T" n="49"/>potest scire peccaturum quem nescit. 
+    </p>
+               <p xml:id="pdt7y6-e98618-d1e460">
+                  <lb ed="#T" n="50"/>3. Potest velle quod non vult: ergo eadem 
+      ra<lb ed="#T" n="51" break="no"/>tione potest scire quod nescit. 
+    </p>
+               <p xml:id="pdt7y6-e98618-d1e468">
+                  <lb ed="#T" n="52"/>4. Deus de non creante potest fieri creans sine 
+      <lb ed="#T" n="53"/>sui mutatione: ergo a simili de non sciente sciens. 
+    </p>
+               <p xml:id="pdt7y6-e98618-d1e475">
+                  <lb ed="#T" n="54"/>Respondeo. Triplex in Deo distinguitur 
+      scie<lb ed="#T" n="55" break="no"/>tia: scilicet scientia simplicis intelligentiae, quae 
+      <lb ed="#T" n="56"/>est respectu omnium seu futurorum, seu 
+      pos<lb ed="#T" n="57" break="no"/>sibilium; hac non potest Deus scire aliquid quod 
+      <lb ed="#T" n="58"/>nescit: est alia scientia visionis, quae est respecti 
+      <lb ed="#T" n="59"/>eorum quae ordinata sunt ad esse existentiae in 
+      <lb ed="#T" n="60"/>actu; haec est omnium futurorum bonorum &amp; 
+      <lb ed="#T" n="61"/>malorum: est &amp; alia scienta approbationis quae est 
+      <lb ed="#T" n="62"/>bonorum futurorum tantum. Et circa hanc 
+      du<lb ed="#T" n="63" break="no"/>plicem scientiam distinguendum est, quod cum 
+      <lb ed="#T" n="64"/>quaeritur vtrum Deus possit scire quod nescit 
+      <lb ed="#T" n="65"/>potest intelligi quaestio coniunctim vel diuisim: 
+      <lb ed="#T" n="66"/>coniunctim accipiendo, dicendum quod non: 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0399.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>diuisim accipiendo, dicendum quod sic. Cum 
+      <lb ed="#T" n="68"/>vero quaeritur, an possit scire plura quam scit, 
+      <lb ed="#T" n="69"/>vel an eius scientia possit augeri, vel minui, vel 
+      <lb ed="#T" n="70"/>mutari, puto quod simpliciter negandum sit 
+      <lb ed="#T" n="71"/>quia nulla istarum distingui potest, sed semper 
+      <lb ed="#T" n="72"/>coniunctini accipitur quia praesupponit 
+      deter<lb ed="#T" n="73" break="no"/>minatum numerum, &amp; illi addit vel minuit. Si 
+      <lb ed="#T" n="74"/>quis vero vult hanc vt prius distiuguere, Deus 
+      <lb ed="#T" n="75"/>potest scire plura quam scit, potest: sed melius, 
+      <lb ed="#T" n="76"/>videtur neganda simpliciter.  
+    </p>
+               <p xml:id="pdt7y6-e98618-d1e532">
+                  <lb ed="#T" n="77"/>Ad 1. Non potest habere ideam quam non 
+      ha<lb ed="#T" n="78" break="no"/>bet ab aeterno. Resp. Coniunctim vera est, 
+      di<lb ed="#T" n="79" break="no"/>uisim falsa: nam idea importat duo, scilicet  
+      <lb ed="#T" n="80"/>essentiam diuinam, quae contingentiam non 
+      <lb ed="#T" n="81"/>habet; &amp; respectum ad creaturam, qui sine Dei 
+      <lb ed="#T" n="82"/>mutatione aduenire &amp; recedere potest 
+    </p>
+               <p xml:id="pdt7y6-e98618-d1e548">
+                  <lb ed="#T" n="83"/>aid 2. Scientia dependet a scibili. Resp. 
+      Scie<lb ed="#T" n="84" break="no"/>tia humana, cum sit causata a scibili, 
+      depen<lb ed="#T" n="85" break="no"/>det ab ipso: sed in diuina scientia e contrario, 
+      <lb ed="#T" n="86"/>quia scibile potius dependet a scientia, &amp; inde 
+      <lb ed="#T" n="87"/>est quod sicut mutari potest scientia humana 
+      <lb ed="#T" n="88"/>non mutato scibili, ita potest mutari scibile 
+      di<lb ed="#T" n="89" break="no"/>uinum non mutata eius scientia. 
+    </p>
+               <p xml:id="pdt7y6-e98618-d1e566">
+                  <lb ed="#T" n="90"/>Ad 3. Deus scit quicquid erit &amp;c. Concedo 
+      <lb ed="#T" n="91"/>quod Deus non potest scire quod nescit scientia 
+      <lb ed="#T" n="92"/>simplicis notitia, qua scit tam entia quam 
+      pos<lb ed="#T" n="93" break="no"/>sibilia: sed scientia visionis potest 
+    </p>
+               <p xml:id="pdt7y6-e98618-d1e577">
+                  <lb ed="#T" n="94"/>Ad 4. Deus nihil potest obliuisci &amp;c. Resp. 
+      <lb ed="#T" n="95"/>Quamuis possit Deus scire quod non scit, non 
+      <lb ed="#T" n="96"/>tamen sequitur quod eius scientiae possit addi, 
+      <lb ed="#T" n="97"/>quia sit processus a sensu diuiso ad coniunctum, 
+      <lb ed="#T" n="98"/>additio enim includit quod prius nesciretur &amp; 
+      <lb ed="#T" n="99"/>postea sciatur, augmentum similiter  
+    </p>
+               <p xml:id="pdt7y6-e98618-d1e594">
+                  <lb ed="#T" n="100"/>Ad 5. De quolibet scibili est scientia. Resp. 
+      <lb ed="#T" n="101"/>Concedo quod Deo non potest aduenire noua 
+      <lb ed="#T" n="102"/>scientia, nec nouum scitum: tamen potest 
+      sci<lb ed="#T" n="103" break="no"/>re aliud quod nescit, sed scientia aeterna, non 
+      <lb ed="#T" n="104"/>noua. Cum vero sic arguitur: potest scire aliquid 
+      <lb ed="#T" n="105"/>quod nescit ergo potest aliquid scire de nouos 
+      <lb ed="#T" n="106"/>fallacia sit compositionis &amp; diuisionis, quia 
+      pro<lb ed="#T" n="107" break="no"/>ceditur a diuisa ad coniunctam. 
+    </p>
+               <p xml:id="pdt7y6-e98618-d1e614">
+                  <lb ed="#T" n="108"/>Ad 1. In contrarium Deus facere poteit quod 
+      <lb ed="#T" n="109"/>non faciet &amp;c. Resp. Argumentum concludit de 
+      <lb ed="#T" n="110"/>scientia, diuisim accipiendo non coniunctim: 
+      <lb ed="#T" n="111"/>similiter 2. &amp; 3. 
+    </p>
+               <p xml:id="pdt7y6-e98618-d1e625">
+                  <lb ed="#T" n="112"/>Ad 4. Deus sine sui mutatione de non 
+      crean<lb ed="#T" n="113" break="no"/>te potest fieri creans: ergo de non sciente sciens. 
+      <lb ed="#T" n="114"/>Resp. Non est simile, quia creare connotat 
+      <lb ed="#T" n="115"/>effectum in creatura, ratione cuius Deus de non 
+      <lb ed="#T" n="116"/>creante potest fieri creans sine sui mutatione: 
+      <lb ed="#T" n="117"/>sed scire notat actum in Deo sine sui effectu in 
+      <lb ed="#T" n="118"/>creatura, ideo eius inutatio poneret mutationem. 
+      <lb ed="#T" n="119"/>in Deo: sicut &amp; nol de non illuminante potest 
+      <lb ed="#T" n="120"/>potest fieri illuminans sine sui mutatione, sed  
+      <lb ed="#T" n="121"/>non de non lucente lucens. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

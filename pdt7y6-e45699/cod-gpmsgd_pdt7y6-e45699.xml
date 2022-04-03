@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="149"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e45699"><!-- l1d18prae -->
+            <head xml:id="pdt7y6-e45699-Hd1e99">Praeambulum</head>
+            <head xml:id="pdt7y6-e45699-Hd1e101" type="question-title"/>
+            <p xml:id="pdt7y6-e45699-d1e103">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0224.xml-->
+               <cb ed="#T" n="c"/>
+               <lb ed="#T" n="91"/>VTRVM EADEM RATIONE 
+      <lb ed="#T" n="92"/>Spiritus sanctus dicatur donum &amp; datum siue donatum. 
+      <lb ed="#T" n="93"/>Distind. XyIiI. 
+    </p>
+         <!--   <p xml:id="pdt7y6-e45699-d1e116">
+               <lb ed="#T" n="94"/>PRAETEREA diligenter considerandum est, cum Spiritus sanctus 
+      dica<lb ed="#T" n="95" break="no"/>j tur donum &amp; datum, vtrum &amp; eadem ratione vtrumque nomen ei 
+      conue<lb ed="#T" n="96" break="no"/>Mniat: quod vtique videripotest. 
+    </p>
+            <p xml:id="pdt7y6-e45699-d1e125">
+               <lb ed="#T" n="97"/>Quareita esse videtur.  
+      <lb ed="#T" n="98"/>Cum enim idem sit Spiritum sanctum dari, &amp; Spiritum sanctum donari, 
+      <lb ed="#T" n="99"/>Vex eadem ratione videtur Spiritus sanctus dici datum &amp; donum. Hoc 
+      <lb ed="#T" n="100"/>etiam videtur Aug. significare in 15. lib. de Trinit: cum ait: Spiritus sanctus in tantum 
+      do<lb ed="#T" n="101" break="no"/>num Dei est, in quantum datur eis, quibus datur: apud se autem Deus est, etsi 
+      neminide<lb ed="#T" n="102" break="no"/>tur. Ecce aperte dicit Spiritum sanctum donum appellari, quia datur. Si autem ex eo 
+      <lb ed="#T" n="103"/>tantum appellatur donum, quia datur, non ab aeterno fuit donum, quia non datur nisi ex 
+      <lb ed="#T" n="104"/>tempore.
+    </p>
+            <p xml:id="pdt7y6-e45699-d1e146">
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0225.xml-\->
+               <pb ed="#T" n="150"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>Responsio quare datum siue donatum dicatur Spiritus sanctus. 
+      <lb ed="#T" n="2"/>Ad quod dicimus, quia Spiritus sanctus &amp; donum dicitur &amp; datum siue donatum: sed  
+      <lb ed="#T" n="3"/>datum siue donatum ex eo tantum dicitur, quia datur vel donatur, quod habet tantum ex 
+      <lb ed="#T" n="4"/>tempore. 
+    </p>
+            <p xml:id="pdt7y6-e45699-d1e164">
+               <lb ed="#T" n="5"/>Hic quare donum. 
+      <lb ed="#T" n="6"/>Donum vero dicitur non ex eo tantum quod donetur, sed ex proprietate quam habuit.  
+      <lb ed="#T" n="7"/>ab aeterno. Unde &amp; ab aeterno fuit donum. Sempiterne enim donum fuit, non quia 
+      dare<lb ed="#T" n="8" break="no"/>tur, sed quia processit a Patre &amp; Filio. Vnde August. in lib. 4. de Trinit. ait, sicut natum 
+      es<lb ed="#T" n="9" break="no"/>se, est Filio a Patre esse: ita Spiritui sancto donum Dei esse, est a Patre &amp; a Filio procedere. 
+      <lb ed="#T" n="10"/>Hic aperte ostenditur quod Spiritus sanctus eo donum est, quod procedit a Patre, &amp; a Filio, 
+      <lb ed="#T" n="11"/>sicut Filius eo est a Patre, quod natus est ab eo. Non enim idem est Filio esse a Patre, &amp; 
+      Spi<lb ed="#T" n="12" break="no"/>ritui sancto, id est, non ea proprietate Filius dicitur esse a Patre, qua Spiritus sanctus. Nam 
+      <lb ed="#T" n="13"/>Filius dicitur esse a Patre, quia genitus est ab eo: Spiritus sanctus vero dicitur esse a Patre &amp; 
+      <lb ed="#T" n="14"/>a Filio, quia Spiritus sanctus est donum Patris &amp; Filij, id est, quia procedit ab vtroque. Eo 
+      <lb ed="#T" n="15"/>enim dicitur Spiritus, quo donum: &amp; eo donum, quo procedens. Vnde Aug. in libro 
+      quin<lb ed="#T" n="16" break="no"/>to de Trinitate ait, Spiritus sanctus, qui non Trinitas, sed in Trinitate intelligitur, in eo quod 
+      <lb ed="#T" n="17"/>proprie dicitur Spiritus sanctus, relatiue dicitur, cum &amp; ad Patrem &amp; Filium refertur: quia 
+      <lb ed="#T" n="18"/>Spiritus sanctus, &amp; Patris &amp; Filij Spiritus est: sed ipsa relatio non apparet in hoc nomine. 
+      <lb ed="#T" n="19"/>Apparet autem cum dicitur donum Dei: donum est enim Patris &amp; Filij, quia &amp; a Patre 
+      pro<lb ed="#T" n="20" break="no"/>cedit, &amp; a Filio. Ecce his verbis aperte ostenditur, eadem relatione dici Spiritum sanctum 
+    </p>
+            <p xml:id="pdt7y6-e45699-d1e201">
+               <lb ed="#T" n="21"/>&amp; donum. Donum autem, quia procedit a Patre &amp; Filio. Proprietas ergo qua dicitur  
+      <lb ed="#T" n="22"/>Spiritus sanctus vel donum, processio ipsa est, de qua post plenius agemus cum alijs. Cum 
+      <lb ed="#T" n="23"/>ergo ab aeterno procesferit ab vtroque, &amp; ab aeterno donum fuit: non ergo Spiritus sanctus 
+      <lb ed="#T" n="24"/>eo tantum dicitur donum, quia donatur: nam &amp; ante fuit donum quam donaretur. Vnde 
+      <lb ed="#T" n="25"/>August. in 5. lib. de Trinit. Semper Spiritus sanctus procedit, &amp; non ex tempore, sed ab 
+      <lb ed="#T" n="26"/>aeternitate procedit. Sed quia sic procedebat, vt esset donabile, iam donum erat antequam 
+      <lb ed="#T" n="27"/>esset cui donaretur. Aliter enim intelligitur, cum dicitur donum, aliter cum dicitur 
+      dona<lb ed="#T" n="28" break="no"/>tum: nam donum potest esse etiam antequam detur, donatum autem, nisi datum fuerit, 
+      <lb ed="#T" n="29"/>nullo modo dici potest. Sempiterne ergo Spiritus sanctus est donum, temporaliter autem 
+      <lb ed="#T" n="30"/>donatum. His verbis aperte ostenditur, quod sicut Spiritus sanctus ab aeterno procedit: ita 
+      <lb ed="#T" n="31"/>ab aeterno donum est, non quia donaretur a Patre Filio, vel a Filio Patri, sed quia ab aeter  
+      <lb ed="#T" n="32"/>no processit donabilis. 
+    </p>
+            <p xml:id="pdt7y6-e45699-d1e230">
+               <lb ed="#T" n="33"/>Quaeritur cui donabilis. 
+      <lb ed="#T" n="34"/>Sed quaeritur cui donabilis, vtrum Patri &amp; Filio, an tantum nobis, qui nondum eramus. 
+      <lb ed="#T" n="35"/>Si autem non erat donabilis Patri &amp; Filio, sed tantum nobis, &amp; ex eo donum erat, quia sic 
+      <lb ed="#T" n="36"/>donabilis procedebat, videtur quod Filius semper eadem ratione donum fuerit: quia ab 
+      <lb ed="#T" n="37"/>aeterno processit a Patre donabilis nobis in tempore, nam &amp; de Filio legitur quod datus est 
+      <lb ed="#T" n="38"/>nobis. Ad quod dicimus, quia Spiritus sanctus nobis tantum, non Patri vel Filio donabilis 
+      <lb ed="#T" n="39"/>processit, sicut &amp; nobis tantum datus est. Et Filius vere datus est nobis, &amp; ab aeterno 
+      pro<lb ed="#T" n="40" break="no"/>cessit a Patre, non vt donabilis tantum, sed vt genitus qui &amp; donari posset. Processit ergo 
+      <lb ed="#T" n="41"/>vt genitus &amp; donabilis: sed Spiritus sanctus non procedit vt genitus, sed tantum vt donum. 
+      <lb ed="#T" n="42"/>Donum autem semper fuit: non solum quia donabilis, sed quia ab vtroque processit, &amp; 
+      <lb ed="#T" n="43"/>donabilis fuit. Vnde Aug. in 5. lib. de Trin. ait, Eo ipso quod daturus erat eum Deus, 
+      <lb ed="#T" n="44"/>iam donum erat, etiam antequam daretur, &amp; ideo donabilis est: sed aliter donabilis, quam 
+      <lb ed="#T" n="45"/>Filius, nam &amp; aliter datur, &amp; aliter processit quam Filius, Filij enim processio, genitura 
+      <lb ed="#T" n="46"/>est, vel natiuitas: Spiritus sancti vero processio, natiuitas non est, vtraque vero 
+      ineffabi<lb ed="#T" n="47" break="no"/>lis est. 
+    </p>
+            <p xml:id="pdt7y6-e45699-d1e265">
+               <lb ed="#T" n="48"/>Quod sicut Filius nascendo accepit non tantum vt esset Filius, sed etiam essentia: ita &amp; Spiritus sanctus 
+      <lb ed="#T" n="49"/>procedendo accepit non tantum vt esset donum, sed etiam vt esset essentia. 
+      <lb ed="#T" n="50"/>Et notandum, quod sicut Filius nascendo accepit non tantum vt Filius sit, sed omnino 
+      <lb ed="#T" n="51"/>vt sit, &amp; vt ipsa substantia sit: ita &amp; Spiritus sanctus a Patre &amp; Filio procedendo accepit, 
+      <lb ed="#T" n="52"/>non tantum vt Spiritus sanctus sit, vel donum: sed etiam vt omnino sit, &amp; vt substantia. 
+      <lb ed="#T" n="53"/>sit: quod vtique non accepit ex eo quod datur, nam cum non detur nisi ex tempore, sic 
+      <lb ed="#T" n="54"/>hoc haberet ex eo quod datur, accepisset ergo ex tempore vt esset. Vnde August. in 5. lib.  
+      <lb ed="#T" n="55"/>de Trinit. Filius non hoc tantum habet nascendo, vt sit Filius, sed omnino vt sit. 
+      Quaeri<lb ed="#T" n="56" break="no"/>tur ergo, vtrum Spiritus eo quod datur, habeat non tantum vt donum sit, sed omnino vt 
+      <lb ed="#T" n="57"/>sit? Quod si non est, nisi quia datur, id est, si non habet esse, nisi eo quod datur, sicut  
+      <lb ed="#T" n="58"/>Filius nascendo habet non tantum vt sit Filius, quod relatiue dicitur, sed omnino vt sit 
+      <lb ed="#T" n="59"/>ipsa substantia: quomodo iam Spiritus sanctus erat ipsa substantia, cum non prius daretur,  
+      <lb ed="#T" n="60"/>quam esset cui daretur? Non ergo eo quod datur, sed procedendo habet, vt sit donum, 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0226.xml-\->
+      <pb ed="#T" n="151"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>&amp; vt sit essentia: sicut Filius non eo quod datus est, sed nascendo accepit non tantum vt 
+      <lb ed="#T" n="2"/>sit Filius, sed vt sit essentia. Vnde August. in lib. de Trin. ait, sicut Filio praestat essentiam 
+      <lb ed="#T" n="3"/>sine initio temporis, sine mutabilitate naturae de Patre generatio: ita Spiritui sancto 
+      <lb ed="#T" n="4"/>praestat essentiam sine vllo initio temporis, sine vlla mutabilitate naturae, de vtroque 
+      pro<lb ed="#T" n="5" break="no"/>cessio. 
+    </p>
+            <p xml:id="pdt7y6-e45699-d1e313">
+               <lb ed="#T" n="6"/>Quod ex praedictis videtur, quod Filius non tantum sit Filius natiuitate, sed etiam Deus, vel essentia, 
+      <lb ed="#T" n="7"/>&amp; Spiritus sanctus processione. 
+    </p>
+            <p xml:id="pdt7y6-e45699-d1e321">
+               <lb ed="#T" n="8"/>Hic oritur quaestio: si Filius nascendo habet non tantum vt sit Filius, sed vt sit essentia, 
+      <lb ed="#T" n="9"/>&amp; Spiritus sanctus procedendo non tantum vt sit donum, sed etiam vt sit essentia: ergo &amp; 
+      <lb ed="#T" n="10"/>Filius natiuitate essentia est, &amp; Spiritus sanctus processione est essentia cum alibi dicatur,  
+      <lb ed="#T" n="11"/>quod nec Pater eo Pater est quo Deus, nec Filius eo Filius quo Deus, nec Spiritus sanctus 
+      <lb ed="#T" n="12"/>eo donum quo Deus: quia, vt ait Augustinus in septimo libro de Trinitate. His 
+      nomini<lb ed="#T" n="13" break="no"/>bus relatiua eorum ostenduntur, non essentia. Vnde post plenius agemus. Ad quod 
+      breui<lb ed="#T" n="14" break="no"/>ter respondentes dicimus, quia nec Filius natiuitate essentia est, sed tantum Filius: nec 
+      <lb ed="#T" n="15"/>Spiritus sanctus processione essentia est, sed donum tantum: &amp; tamen vterque, &amp; ille 
+      nas<lb ed="#T" n="16" break="no"/>cendo, &amp; iste procedendo accepit vt esset essentia. Non enim, vt ait Hilarius in libro 
+      <lb ed="#T" n="17"/>quinto de Trinitate, per defectionem aut protensionem, aut deriuationem ex Deo Deus 
+      <lb ed="#T" n="18"/>est, sed ex virtute naturae in naturam eandem natiuitate subsistit Filius: &amp; ex virtute 
+      natu<lb ed="#T" n="19" break="no"/>rae in naturam eandem processione subsistit Spiritus sanctus. 
+    </p>
+            <p xml:id="pdt7y6-e45699-d1e350">
+               <lb ed="#T" n="20"/>Exponit verba Hilanj. 
+      <lb ed="#T" n="21"/>Quod ita intelligi potest, Ex patre, qui est virtus ingenita, naturam quam habet eandem 
+      <lb ed="#T" n="22"/>Filius natiuitate, id est nascendo, &amp; Spiritus sanctus processione, id est procedendo 
+      <lb ed="#T" n="23"/>habet. Unde ipse idem apertius eloquens, quod dixerat aperit, dicens: Natiuitas, inquit, 
+      <lb ed="#T" n="24"/>Dei non potest non eam, de qua profecta est, tenere naturam. Non enim aliud quam 
+      <lb ed="#T" n="25"/>Deus subsistit, quod non aliunde quam de Deo subsistit. Ecce his verbis aperitur, quomo: 
+      <lb ed="#T" n="26"/>do intelligendum sit illud, De Patre generatio praestat essentiam Filio, &amp; de vtroque 
+      pro<lb ed="#T" n="27" break="no"/>cessio praestat essentiam Spiritui sancto: Non quia ille essentia sit Filius &amp; iste essentia sit 
+      <lb ed="#T" n="28"/>Spiritus sanctus, imo proprietate personali, sed quia &amp; ille nascendo, &amp; iste procedendo 
+      <lb ed="#T" n="29"/>essentiam habet eandem &amp; totam quae in Patre est. 
+    </p>
+            <p xml:id="pdt7y6-e45699-d1e374">
+               <lb ed="#T" n="30"/>Quod Spiritus sanctus dicitur donum &amp; donatum secundum duos praedictos modos processionis. I 
+      <lb ed="#T" n="31"/>Ex praedictis patet quod Spiritus sanctus sempiteine donum est, &amp; temporaliter datum 
+      <lb ed="#T" n="32"/>vel donatum. Ex quo apparet illa distinctio geminae processionis, de qua supra egimus 
+      <lb ed="#T" n="33"/>Nam secundum alteram processionem dicitur donatum vel datum, secundum alteram 
+      <lb ed="#T" n="34"/>vero dicitur donum. 
+    </p>
+            <p xml:id="pdt7y6-e45699-d1e387">
+               <lb ed="#T" n="35"/>Secundum hoc quod donum est, refertur ad Patrem &amp; Filium, secundum quod datum, &amp; ad 
+      <lb ed="#T" n="36"/>cum qui dedit, &amp; ad eos quibus datum est 
+    </p>
+            <p xml:id="pdt7y6-e45699-d1e394">
+               <lb ed="#T" n="37"/>Et secundum hoc quod sempiterne donum est, refertur ad Patrem &amp; Filium: secundum 
+      <lb ed="#T" n="38"/>hoc vero quod dicitur datum vel donatum, &amp; ad eum qui dederit refertur, &amp; ad eos quibus 
+      <lb ed="#T" n="39"/>datur: &amp; eius dicitur esse qui dat, &amp; illorum quibus datur. Vnde August. in lib. 5. de Trin. 
+      <lb ed="#T" n="40"/>ait. Quod datum est, &amp; ad cum qui dedit refertur, &amp; ad eos quibus dedit. Itaque Spiritus 
+      <lb ed="#T" n="41"/>sanctus non tantum Patris &amp; Filij qui dederunt, sed etiam noster dicitur qui accepimus. 
+      <lb ed="#T" n="42"/>Spiritus ergo &amp; Dei est qui dedit, &amp; noster qui accepimus: non ille Spiritus noster quo 
+      <lb ed="#T" n="43"/>sumus, quia ipse est Spiritus hominis, qui in ipso est: quamuis &amp; illum Spiritum qui 
+      ho<lb ed="#T" n="44" break="no"/>minis dicitur, vtique accepimus: sed aliter iste, aliter ille noster dicitur. Aliud est enim 
+      <lb ed="#T" n="45"/>quod accepimus vt essemus, aliud quod accepimus, vt sancti essemus. Quod autem 
+      Spiri<lb ed="#T" n="46" break="no"/>tus sanctus noster dicatur, Scriptura ostendit. Scriptum est enim de Ioanne, quod in 
+      Spiri<lb ed="#T" n="47" break="no"/>tu Heliae veniret. Ecce dictus est Heliae Spiritus, quem accepit Helias, scilicet Spiritus 
+      <lb ed="#T" n="48"/>sanctus. Et Moysi ait Dominus, Tollam de Spiritu tuo, &amp; dabo eis, id est, dabo illis de 
+      <lb ed="#T" n="49"/>Spiritu sancto quem iam deditibi. Ecce &amp; hic dictus est Spiritus Moysi. Patet igitur quia 
+      <lb ed="#T" n="50"/>Spiritus sanctus noster dicitur Spiritus quia nobis datus, &amp; datus vtique ad hoc vt sancti 
+      <lb ed="#T" n="51"/>essemus. Spiritus vero creatus ad hoc est datus vt essemus. 
+    </p>
+            <p xml:id="pdt7y6-e45699-d1e429">
+               <lb ed="#T" n="52"/>An Filius, cum sit nobis datus posset dicinoster: vt Spiritus sanctus, 
+      <lb ed="#T" n="53"/>Hic quaeritur, vtrum &amp; Filius cum sit nobis datus, dicatur vel possit dici noster? Ad  
+      <lb ed="#T" n="54"/>quod dicimus, quia Filius dicitur noster panis, noster redemptor &amp; huiusmodi, sed non 
+      <lb ed="#T" n="55"/>dicitur noster Filius, quia Filius dicitur tantum relatiue ad cum qui genuit. Et ideo noster 
+      <lb ed="#T" n="56"/>Filius non potest dici, sed Patris tantum. In eo autem quod dicitur datus, &amp; ad cum qui  
+      <lb ed="#T" n="57"/>dedit, &amp; ad eos quibus datus est, refertur, vt Spiritus sanctus, qui etiam cum in 
+      Scriptu<lb ed="#T" n="58" break="no"/>ra (vt supra dictum est) dicatur Spiritus noster, vel Spiritus tuus, velillius (vt de Moyse &amp; 
+      <lb ed="#T" n="59"/>Helia dictum est) nusquam tamen in scriptura occurit ita dici, Spiritus sanctus noster, vel 
+      <lb ed="#T" n="60"/>tuus, vel illius, sed Spiritus noster, vel tuus, vel illius, quia Spiritus sanctus eo dicitur.  
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0227.xml-\->
+      <pb ed="#T" n="152"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>quo donum &amp; vtrumque relatiue dicitur ad Patrem &amp; Filium, &amp; hoc sempiterna 
+      relatio<lb ed="#T" n="2" break="no"/>ne. Si tamen aliquando dicitur donum nostrum, accipitur donum pro donato, vel dato. 
+      <lb ed="#T" n="3"/>Cum vero donum accipitur eo modo, quo Spiritus sanctus donum Patris &amp; Filij dicitur,  
+      <lb ed="#T" n="4"/>non hominis: ita &amp; Filius sub hac appellatione non potest dici noster, vt dicatur Filius, 
+      <lb ed="#T" n="5"/>noster, sicut nec dicitur Spiritus sanctus noster: &amp; tamen de Filio dicitur panis noster, &amp; de 
+      <lb ed="#T" n="6"/>Spiritu, Spiritus noster. Ille noster panis, quia nos reficit nobis datus: iste noster Spiritus 
+      <lb ed="#T" n="7"/>quia nobis inspiratur a patre &amp; Filio &amp; in nobisspirat sicut vult. Vnde August, in 5. lib. de 
+      <lb ed="#T" n="8"/>Trin. ait. Quod de Patre natum est, ad Patrem solum refertur, cum dicitur Filius. Et ideo 
+      <lb ed="#T" n="9"/>Filius Patris est, &amp; non noster. Dicimus tamen &amp; panem nostrum da nobis, sicut dicimus 
+      <lb ed="#T" n="10"/>Spiritum nostrum. 
+    </p>
+            <p xml:id="pdt7y6-e45699-d1e480">
+               <lb ed="#T" n="11"/>Vtrum Spiritus sanctus ad seipsum referatur.  
+      <lb ed="#T" n="12"/>Post haec quaeritur vtrum Spiritus sanctus ad seipsum referatur: hoc enim videtur ex 
+      <lb ed="#T" n="13"/>praedictis posse probari. Si enim quod datur refertur ad eum qui dat, &amp; ad eum cui datur,  
+      <lb ed="#T" n="14"/>&amp; Spiritus sanctus datura seipso, vt praedictum est, ergo refertur ad seipsum. Huius 
+      quae<lb ed="#T" n="15" break="no"/>stionis determinationem in posterum differemus, donec tractemus de his quae relatiue 
+      <lb ed="#T" n="16"/>dicuntur de Deo ex tempore: in quibus datum &amp; donatum continentur.
+    </p>-->
+            <p xml:id="pdt7y6-e45699-d1e496">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0227.xml-->
+               <cb ed="#T" n="b"/>
+               <lb ed="#T" n="17" type="fixed=152"/>DIVISIO TEXTVS. 
+      <lb ed="#T" n="18"/>[DRaeterea diligenter Postquam egit de 
+      prin<lb ed="#T" n="19" break="no"/>cipio temporalis processionis Spiritus 
+      san<lb ed="#T" n="20" break="no"/>cti, &amp; de modo procedendi temporali: hic agit 
+      <lb ed="#T" n="21"/>de proprietate secundum quam conuenit ei 
+      tem<lb ed="#T" n="22" break="no"/>poraliter procedere, quae est proprietas doni. 
+      <lb ed="#T" n="23"/>Et primo ostendit quare dicitur donum, vel 
+      <lb ed="#T" n="24"/>datum. 
+      <lb ed="#T" n="25"/>Secundo vnde accepit vt sit vel dicatur 
+      do<lb ed="#T" n="26" break="no"/>num [Et natandum.] 
+      <lb ed="#T" n="27"/>Tertio ad quid refertur per hoc quod dicitur  
+      <lb ed="#T" n="28"/>donum [Ex praedictis] In prima parte primo 
+      <lb ed="#T" n="29"/>proponit quaestionem: secundo subdit 
+      solutio<lb ed="#T" n="30" break="no"/>nein [Ad quod dicimus ] Tertio opponit in 
+      <lb ed="#T" n="31"/>contrarium, &amp; soluit objectum [Sed quaeritur.  
+      <lb ed="#T" n="32"/>cui donabilis. 
+    </p>
+            <p xml:id="pdt7y6-e45699-d1e538">
+               <lb ed="#T" n="33"/>In secunda parte primo determinat veritatem 
+      <lb ed="#T" n="34"/>[Et notandum] Secundo soluit incidentem 
+      du<lb ed="#T" n="35" break="no"/>bitationem [Hic oritur quaestio. 
+    </p>
+            <p xml:id="pdt7y6-e45699-d1e547">
+               <lb ed="#T" n="36"/>In tertia parte primo ostendit quod Spiritus 
+      <lb ed="#T" n="37"/>sanctus donum est Patris &amp; Filij, &amp; eorum 
+      <lb ed="#T" n="38"/>quibus datur [Ex praedictis.] Secundo inquirit 
+      <lb ed="#T" n="39"/>an Filius similiter sit eorum quibus donatur.  
+      <lb ed="#T" n="40"/>[Hic quaeritur ] Tertio vtrum Spiritus sanctus 
+      <lb ed="#T" n="41"/>secundum rationem doni ad se referatur [ Post. 
+      <lb ed="#T" n="42"/>haec.] 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

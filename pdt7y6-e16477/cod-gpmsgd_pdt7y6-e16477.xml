@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="55"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e16477"><!-- l1d5q3 -->
+            <head xml:id="pdt7y6-e16477-Hd1e99">Quaestio 3</head>
+            <head xml:id="pdt7y6-e16477-Hd1e101" type="question-title">An generatio fiat de essentia</head>
+            <p xml:id="pdt7y6-e16477-d1e104">
+               <lb ed="#T" n="107"/>QVESTIO III. 
+      <lb ed="#T" n="108"/>AN GENERATIO FIAT DE 
+      <lb ed="#T" n="109"/>ESSENTIA 
+</p>
+            <p xml:id="pdt7y6-e16477-d1e113">
+               <lb ed="#T" n="110"/>CIrca tertium quaeruntur duo, 
+      <lb ed="#T" n="111"/>Primo, an filius sit de substantia Patris. 
+      <lb ed="#T" n="112"/>Secundo, an sit de nihilo. 
+    </p>
+            <div xml:id="pdt7y6-e16477-Dd1e122">
+               <head xml:id="pdt7y6-e16477-Hd1e124">Articulus 1</head>
+               <head xml:id="pdt7y6-e16477-Hd1e126" type="question-title">
+  Utrum filius sit de substantia Patris.
+</head>
+               <p xml:id="pdt7y6-e16477-d1e129">
+                  <lb ed="#T" n="113"/>ARTICVLVS. I. 
+      <lb ed="#T" n="114"/>Vtrum filius sit de substantia Patris.
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e136">
+                  <lb ed="#T" n="115"/>AD primum sic proceditur. 1. Dicit 
+      Damas<lb ed="#T" n="116" break="no"/>cenis quod gentrare est de sua substantia. 
+      <lb ed="#T" n="117"/>sibi similem in natura producere: sed silius vere 
+      <lb ed="#T" n="118"/>a Patre generatur: ergo vere de substantia eius 
+      <lb ed="#T" n="119"/>producitur.  
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e149">
+                  <lb ed="#T" n="120"/>2. Omne quod producitur ab aliquo sibi 
+      con<lb ed="#T" n="121" break="no"/>substantiali, producitur de substantia eius: sed  
+      <lb ed="#T" n="122"/>Filius sic producitur a Pater: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e159">
+                  <lb ed="#T" n="123"/>3. Pater homo, qui dat Filio partem 
+      fubstan<lb ed="#T" n="124" break="no"/>tiae, tere dicitur eum de substantia sua 
+      produ<lb ed="#T" n="125" break="no"/>cere: ergo multo fortius Pater Deus, quia dat 
+      <lb ed="#T" n="126"/>totam substantiam Filio, potest dici cum vero de 
+      <lb ed="#T" n="127"/>sua substantia producere. 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e172">
+                  <lb ed="#T" n="128"/>4. Pater peoduxit Fi lum, aut ergo de nihilo, 
+      <lb ed="#T" n="129"/>&amp; sic erit creatura, quod falsum est, aut de ali¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0131.xml-->
+      <pb ed="#T" n="56"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>quo, aut ergo de aliena substantia, &amp; ita non 
+      <lb ed="#T" n="2"/>erit consubstantialis Patri: aut de propria, &amp; sic 
+      <lb ed="#T" n="3"/>potest dici productus de Patris substantia. 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e192">
+                  <lb ed="#T" n="4"/>Contra. 1. Praepositiones transitiuae sunt,  &amp; 
+      <lb ed="#T" n="5"/>important diuersitatem aliquam: nulla vero est 
+      <lb ed="#T" n="6"/>diuersitas inter Filium, &amp; substantiam Patris: er 
+      <lb ed="#T" n="7"/>go Filius non est de substantia Patris. 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e203">
+                  <lb ed="#T" n="8"/>2. Haec praepositio de aut accipitur ibi 
+      mate<lb ed="#T" n="9" break="no"/>rialiter, vt cultellus de ferro; aut originaliter, vt 
+      <lb ed="#T" n="10"/>radius de sole, aut ordinaliter, vt de miane sit 
+      me<lb ed="#T" n="11" break="no"/>ridies: sed neutro horum modorum. Filius est de 
+      <lb ed="#T" n="12"/>substantia Patris: ergo non debet contedi, quod 
+      <lb ed="#T" n="13"/>sit de substantia Patris. 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e219">
+                  <lb ed="#T" n="14"/>3. Aut dicitur hoc propter originem, aut 
+      pro<lb ed="#T" n="15" break="no"/>pter consubstantialitatem: si propter originem, 
+      <lb ed="#T" n="16"/>ergo Filius habet ortum de substantia Patris; se 
+      <lb ed="#T" n="17"/>poopter consubstantialitatem, ergo similiter 
+      po<lb ed="#T" n="18" break="no"/>test dicj quod Pater est de substantia Filij; quod 
+      <lb ed="#T" n="19"/>falsum est. 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e235">
+                  <lb ed="#T" n="20"/>4. Anselmus. Nec intellectus capit nec natura. 
+      <lb ed="#T" n="21"/>permittit illum qui de aliquo est esse. illud, de 
+      <lb ed="#T" n="22"/>quo est: sed Filius est substantia Patris: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e245">
+                  <lb ed="#T" n="23"/>Respondeo. Hac praepositio de multipliciter  
+      <lb ed="#T" n="24"/>accipitur in oreaturis; aliquando pure 
+      materia<lb ed="#T" n="25" break="no"/>liter, vt cultelus de ferro; aliquando pure 
+      ori<lb ed="#T" n="26" break="no"/>ginaliter, vt lumen de sole; aliquando pure 
+      or<lb ed="#T" n="27" break="no"/>dinaliter, vt de mane sit meridies; aliquando 
+      ve<lb ed="#T" n="28" break="no"/>ro mixtim, materialiter simul &amp; originaliter, vt 
+      <lb ed="#T" n="29"/>Filius de substantia Patris. In Diuinis vero non 
+      <lb ed="#T" n="30"/>est materia, sed substantia, quae est purus actus: 
+      <lb ed="#T" n="31"/>vnde proportionaliter: loquendo in Diuinis 
+      <lb ed="#T" n="32"/>de <!-- line coord error -->
+      <lb ed="#T" n="33"/>aliquando accipitur substantialiter, vt filius, 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e274">
+                  <lb ed="#T" n="34"/>de 
+      <lb ed="#T" n="35"/>substantia diuina; aliquando ordinaliter, vt 
+      Chri<lb ed="#T" n="36" break="no"/>stus factus est de aeterno temporalis, aliquando 
+      <lb ed="#T" n="37"/>mixtim, substantialiter &amp; originaliter, vt de 
+      su<lb ed="#T" n="38" break="no"/>bstantia Patris: nam si tantum substantialiter 
+      ac<lb ed="#T" n="39" break="no"/>ciperetur, sicut dicitur Filius de substantia 
+      Pa<lb ed="#T" n="40" break="no"/>tris, ita Pater de substantia Filij. 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e292">
+                  <lb ed="#T" n="41"/>Ad 1. De transitione praepositionum. Resp. 
+      <lb ed="#T" n="42"/>Praepositio notat transitionem vel rei, vel 
+      ratio<lb ed="#T" n="43" break="no"/>nis, vel vtriusque: non tamen semper importat 
+      <lb ed="#T" n="44"/>transitionem respectu casus cui immediate 
+      ad<lb ed="#T" n="45" break="no"/>iungitur, sed vel respectu illius vel alterius qui  
+      <lb ed="#T" n="46"/>cum illo construitur: sic dico quod haec 
+      praepo<lb ed="#T" n="47" break="no"/>sitio, de transitionem notat respectu personae 
+      Pa<lb ed="#T" n="48" break="no"/>tris, non respectu substantiae. 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e312">
+                  <lb ed="#T" n="49"/>Ad 2. Aut accipitur materialiter. Resp. 
+      Insus<lb ed="#T" n="50" break="no"/>ficiens est diuisio, accipitur enim vtroque 
+      mo<lb ed="#T" n="51" break="no"/>do, videlicet substantialiter &amp; originaliter 
+      <lb ed="#T" n="52"/>simul. 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e323">
+                  <lb ed="#T" n="53"/>Ad 3. Aut propter originem &amp;c. Resp. Pro. 
+      <lb ed="#T" n="54"/>pter vtrumque simul, sed consubstantialiter 
+      ac<lb ed="#T" n="55" break="no"/>cipitur praepositio respectu naturae, originaliter  
+      <lb ed="#T" n="56"/>respectu personae: vnde non est diuisio sufficiens. 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e334">
+                  <lb ed="#T" n="57"/>Ad 4. de Ansel. Resp. Ibi accipitur de 
+      origi<lb ed="#T" n="58" break="no"/>naliter solum. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e16477-Dd1e343">
+               <head xml:id="pdt7y6-e16477-Hd1e345">Articulus 2</head>
+               <head xml:id="pdt7y6-e16477-Hd1e347" type="question-title">
+  An Filius sit de nihilo
+</head>
+               <p xml:id="pdt7y6-e16477-d1e350">
+                  <lb ed="#T" n="59"/>ARTICVLVS II 
+      <lb ed="#T" n="60"/>An Filius sit de nihilo.
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e357">
+                  <lb ed="#T" n="61"/>AD secundum sic proceditur. 1. Quia 
+      ma<lb ed="#T" n="62" break="no"/>teria prima non est de aliqua materia facta. 
+      <lb ed="#T" n="63"/>ideo dicitur esse facta de nihilo: ergo cum silius, 
+      <lb ed="#T" n="64"/>non sit de aliqua materia, potest dici esse de 
+      <lb ed="#T" n="65"/>nihilo. 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e370">
+                  <lb ed="#T" n="66"/>2. Omne, quod habet esse ab alio, de se est 
+      <lb ed="#T" n="67"/>non ens: ergo habet esse de nihilo: ergo cum 
+      <lb ed="#T" n="68"/>Filius sit ab alio, de nihilo est.
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e380">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0131.xml-->
+                  <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="69"/>Contra. 1. Si est de nihilo, ergo est creatura 
+      <lb ed="#T" n="70"/>2. Filius est de substantia Patris, non ergo 
+      <lb ed="#T" n="71"/>de nihilo. 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e393">
+                  <lb ed="#T" n="72"/>Iuxta hoc quaeritur An Pater sit de 
+      nihilo<lb ed="#T" n="73" break="no"/>Videtur quod sic. 1. Quia secundum 
+      Augusti<lb ed="#T" n="74" break="no"/>num, si Filius non esset de alia substantia, esset 
+      <lb ed="#T" n="75"/>de nihilo: sed Pater non est de alia substantia: 
+      <lb ed="#T" n="76"/>ergo de nihilo. 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e406">
+                  <lb ed="#T" n="77"/>2. Omne id, de quo aliud, est prius illo: 
+      <lb ed="#T" n="78"/>sed nihil prius est Patre: ergo ipse non est de 
+      <lb ed="#T" n="79"/>aliquo: ergo est de nihilo. 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e415">
+                  <lb ed="#T" n="80"/>3. Distinguntur personae, quia Filius a 
+      Pa<lb ed="#T" n="81" break="no"/>tre solo; Spiritus Sanctus a Patre. &amp; Filio; 
+      <lb ed="#T" n="82"/>Pater a nullo: ergo Pater de nullo est: ergo de 
+      <lb ed="#T" n="83"/>nihilo. 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e426">
+                  <lb ed="#T" n="84"/>Contra. 1. Esse de nihilo importat habere 
+      <lb ed="#T" n="85"/>esse post non esse? hoc autem non comienit 
+      <lb ed="#T" n="86"/>aeterno. 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e435">
+                  <lb ed="#T" n="87"/>2. In omni eo, quod est de nihilo, admixta 
+      <lb ed="#T" n="88"/>priuatio est, qua potest in nihilum tendere: sed  
+      <lb ed="#T" n="89"/>aeterno nulla est admixta priuatio. 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e445">
+                  <lb ed="#T" n="90"/>Respondeo. Esse de mhilo secundum Ansel. in 
+      <lb ed="#T" n="91"/>Monologio tripliciter accipitur: na negatio in 
+      <lb ed="#T" n="92"/>clusa in hoc termino, nihil, si explicetur, vel 
+      ca<lb ed="#T" n="93" break="no"/>dit super verbum, &amp; sic accipitur negatiue: aut 
+      <lb ed="#T" n="94"/>verbum super negationem, &amp; tunc dupliciter  
+      <lb ed="#T" n="95"/>potest accipi, aut materialiter: aut 
+      ordinali<lb ed="#T" n="96" break="no"/>ter. Primo modo quicquid non est de aliquo 
+      <lb ed="#T" n="97"/>potest dici de nihilo esse, sicut homo tacens 
+      <lb ed="#T" n="98"/>dlicitur loqui de nihilo, sed non est modus 
+      vsi<lb ed="#T" n="99" break="no"/>tatus in Scriptura sacra: secundo modo de 
+      <lb ed="#T" n="100"/>nihilo nihil sit: tertio modo omnis &amp; sola 
+      crea<lb ed="#T" n="101" break="no"/>tura est de nihilo, &amp; sic accipitur communiter: 
+      <lb ed="#T" n="102"/>nullo istorum modorum Filius potest dici esse 
+      <lb ed="#T" n="103"/>de nihilo 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e478">
+                  <lb ed="#T" n="104"/>Ad 1. De materia. Resp. Illa non est tota 
+      <lb ed="#T" n="105"/>causa, sed quia materia habet esse post non esse 
+      <lb ed="#T" n="106"/>simpliciter scilicet nec actu nec potentia. 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e487">
+                  <lb ed="#T" n="107"/>Ad 2. Omne quod habet esse ab aliquo. Resp. 
+      <lb ed="#T" n="108"/>Si haec praepositio, ab alio, dicat rationem 
+      <lb ed="#T" n="109"/>principij differentis essentialiter, verum est: 
+      <lb ed="#T" n="110"/>alias non: prout ergo Iy alio neutraliter 
+      accipi<lb ed="#T" n="111" break="no"/>tur, sic verum est, prout masculine non 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e500">
+                  <lb ed="#T" n="112"/>Ad id quod quaeritur de Patre. Resp. Primo 
+      <lb ed="#T" n="113"/>modo posset dici de nihilo esse: sed quia modus 
+      <lb ed="#T" n="114"/>iste non est vsitatus in scriptura, ideo non 
+      de<lb ed="#T" n="115" break="no"/>pet dici simpliciter sine explanatione. 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e511">
+                  <lb ed="#T" n="116"/>Ad 1. argumentum. Si Filius non esset de 
+      <lb ed="#T" n="117"/>alia substantia &amp;c. Resp. Non est similis ratio 
+      <lb ed="#T" n="118"/>in Patre, &amp; Filio, quia Filius est ab alio: 
+      <lb ed="#T" n="119"/>omnis vero producens producit, vel de alio, 
+      <lb ed="#T" n="120"/>vel de nihilo: Pater vero non est ab alio. 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e524">
+                  <lb ed="#T" n="121"/>Ad 2. Omne id de quo aliquid est &amp;c. Resp. 
+      <lb ed="#T" n="122"/>Secundum quod de nihilo accipitur pure 
+      nega<lb ed="#T" n="123" break="no"/>tiue, si aliquid non est de aliquo, sequitur esse de 
+      <lb ed="#T" n="124"/>nihilo; sed secundum alios duos modos, non, 
+      <lb ed="#T" n="125"/>quia equiuocatur esse. 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e538">
+                  <lb ed="#T" n="126"/>Ad vltimum. Pater est de nullo, ergo de 
+      ni<lb ed="#T" n="127" break="no"/>hilo. Resp. AEquiuocatur esse. de, quia in 
+      pri<lb ed="#T" n="128" break="no"/>ma propositione accipitur originaliter, in 
+      con<lb ed="#T" n="129" break="no"/>clusione vero ordinaliter.  
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e16477-Dd1e550">
+               <head xml:id="pdt7y6-e16477-Hd1e552">Expositio litterae</head>
+               <p xml:id="pdt7y6-e16477-d1e554">
+                  <lb ed="#T" n="130"/>EXPOSITIO 
+      LITTERAE<lb ed="#T" n="131" break="no"/>[C Trelatiue diceretur, vel pro relatiuo pone¬ 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e561">
+                  <lb ed="#T" n="132"/>Oretur, non indicaret essentiam) Contra. Hio 
+      <lb ed="#T" n="133"/>terminus Deus indicat essentiam, &amp; tamen 
+      pro<lb ed="#T" n="134" break="no"/>relatiuo ponitur, cum dicitur, Deus generat.
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e570">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0132.xml-->
+                  <pb ed="#T" n="57"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>Resp. Non indicaret essentiam solum, quia licet,  
+      <lb ed="#T" n="2"/>indicaret significando, non tamen etiam 
+      supo<lb ed="#T" n="3" break="no"/>nendo femper vt hoc nomen, Deus. Hoc autem 
+      <lb ed="#T" n="4"/>esset inconueniens &amp; al iemima: natura termini, 
+      <lb ed="#T" n="5"/>quia imponitur essentiae, &amp; ab essentia, 
+      termi<lb ed="#T" n="6" break="no"/>nus autem non supponit proprie, nisi pro eo 
+      <lb ed="#T" n="7"/>cui imponitur, vel pro eo a quo imponitur; &amp; 
+      <lb ed="#T" n="8"/>ab vsu, quia non esset aliquod nomen 
+      appro<lb ed="#T" n="9" break="no"/>priatum essentiae ad eam signifitandum, &amp; 
+      sup<lb ed="#T" n="10" break="no"/>ponandum pro illa sicut personis. 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e601">
+                  <lb ed="#T" n="11"/>Cum Deus Pater sit Diuina essentia) 
+      Con<lb ed="#T" n="12" break="no"/>tra. Eadem ratione non posset dici quod genuit 
+      <lb ed="#T" n="13"/>Deum, cum ipse sit Deus. Resp. Non est simile 
+      <lb ed="#T" n="14"/>quia essentia, cum sit nomen abstractum, sem 
+      <lb ed="#T" n="15"/>per supponit pro essentia, &amp; ipsam significat: 
+      <lb ed="#T" n="16"/>sed hoc nomen, Deus, aliquando supponit pro 
+      <lb ed="#T" n="17"/>persona; vnde ex hoc, quod genuit Deum, 
+      <lb ed="#T" n="18"/>non sequitur, quod genuit rem, quae est ipse, 
+      <lb ed="#T" n="19"/>quia Iy Deum, supponit pro persona alia a 
+      <lb ed="#T" n="20"/>persona generantis: sed ex hoc, quod essentiam 
+      <lb ed="#T" n="21"/>genuisset illud sequeretur.  
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e628">
+                  <lb ed="#T" n="22"/>TEo quod generat est.] Contra eadem ratione 
+      <lb ed="#T" n="23"/>videtur negandum, quod non genuit sapientiam 
+      <lb ed="#T" n="24"/>cum sapere sit esse vt dicit hic Augustinus. Resp. 
+      <lb ed="#T" n="25"/>Quamuis idem sint re, differunt tamen modo 
+      si<lb ed="#T" n="26" break="no"/>gnificandi, quia sapientia minus abstracte 
+      signi<lb ed="#T" n="27" break="no"/>ficat: vnde potest trahi ad supponendum pro 
+      <lb ed="#T" n="28"/>persona, sed essentia nullo modo, nisi 
+      improprirs<lb ed="#T" n="29" break="no"/>sime. 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e648">
+                  <lb ed="#T" n="30"/>[Gignenti genitum causa est.] Contra. Causa 
+      <lb ed="#T" n="31"/>est secundum Philosophum ad cuius esse 
+      sequi<lb ed="#T" n="32" break="no"/>tur aliud: sed in Diuinis personis nihil tale est. 
+      <lb ed="#T" n="33"/>Resp. Causa aliquando accipitur proprie, ad 
+      cn<lb ed="#T" n="34" break="no"/>ius esse sequitur aliud, aliquando large, quod est 
+      <lb ed="#T" n="35"/>alicui principium existendi; primo modo non 
+      <lb ed="#T" n="36"/>dicitur in dininis; secundo modo inuenitur esse 
+      <lb ed="#T" n="37"/>dictum a Sanctis, vt a Chrysost. in gsos. Hebr. 
+      <lb ed="#T" n="38"/>1. super illud [qui cum sit splendor. ] Glos. 
+      Pa<lb ed="#T" n="39" break="no"/>ter est causa Filij. Sed tamen minus proprie 
+      dici<lb ed="#T" n="40" break="no"/>tur. Sed nunquid Filius potest dici causatum. 
+      <lb ed="#T" n="41"/>Resp. Non, quia licet ea, quae perfectionis sunt 
+      <lb ed="#T" n="42"/>sub aliqua improprietate tolerentur in Diuinis 
+      <lb ed="#T" n="43"/>non tamen quae imperfectionis. 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e681">
+                  <lb ed="#T" n="44"/>[Hoc ad seipsum indicandum) Contra. 
+      Indi<lb ed="#T" n="45" break="no"/>catio temporalis est: temporale non est causa 
+      ae<lb ed="#T" n="46" break="no"/>terni. Resp. Haec praepositio ad, ponitur 
+      conse<lb ed="#T" n="47" break="no"/>cutiue, non finaliter.  
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e692">
+                  <lb ed="#T" n="48"/>[Cum vna &amp; summa quaedam res sit Diuina 
+      <lb ed="#T" n="49"/>essentia, eadem res seipsam genuit) Contra 
+      <lb ed="#T" n="50"/>obijciebat Abbas, Ioachim, si est in Diuinis 
+      <lb ed="#T" n="51"/>vna summa res, quae nec generatur, nec procedit: 
+      <lb ed="#T" n="52"/>ergo est ibi quaternitas rerum. Resp. Quam 
+      <lb ed="#T" n="53"/>uis non generet, vel generetur, vel procedat.  
+      <lb ed="#T" n="54"/>est tamen eadem cum re generante, &amp; cum 
+      <lb ed="#T" n="55"/>re genita, &amp; cum re procedente: vnde non facit 
+      <lb ed="#T" n="56"/>cum illis numerum. 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e714">
+                  <lb ed="#T" n="57"/>Item obijciebat, quod eadem ratione, cum 
+      sum<lb ed="#T" n="58" break="no"/>ma res sit Deus: si Deus generat Deum, idem 
+      <lb ed="#T" n="59"/>generat seipsum. Resp. Non est simile, quia 
+      es<lb ed="#T" n="60" break="no"/>sentia semper significat essentiam, &amp; supponit 
+      pro<lb ed="#T" n="61" break="no"/>ea, vnde vna &amp; eadem res est semper &amp; quoad 
+      si<lb ed="#T" n="62" break="no"/>gnificanum, &amp; quoad id pro quo supponit: sed 
+      <lb ed="#T" n="63"/>Deus licet sit res vna quoad significatum, tamen 
+      <lb ed="#T" n="64"/>multiplicatur quoad suppositum: &amp; ideo non 
+      <lb ed="#T" n="65"/>sequitur, quod eadem res seipsam gignat, quia 
+      <lb ed="#T" n="66"/>gignere, &amp; gigni attribuitur supposito eius, non 
+      <lb ed="#T" n="67"/>significato.  
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e740">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0132.xml-->
+                  <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="68"/>[Consilium, de consilio] Contra Damasc. 
+      <lb ed="#T" n="69"/>Cosilium non dicimus in Deo: ignorantis enim 
+      <lb ed="#T" n="70"/>naturae est consiliari. 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e754">
+                  <lb ed="#T" n="71"/>Respondeo. Consilium accipitur hic prout est 
+      <lb ed="#T" n="72"/>indante, id est, recta ratio agendorum; non prout 
+      <lb ed="#T" n="73"/>est inquaerente, id est deliberatio agendorum. 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e763">
+                  <lb ed="#T" n="74"/>(Geniti honoris &amp;c.] Id est mirabilis honor 
+      <lb ed="#T" n="75"/>geniti patet ex honore generantis. 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e770">
+                  <lb ed="#T" n="76"/>[Quod nascendo accepit) Contra. Quod 
+      ac<lb ed="#T" n="77" break="no"/>cipitur nascendo, nascitur. Resp. Non omne 
+      <lb ed="#T" n="78"/>tase nascitur, sed illud ad quod motus 
+      natiuitm<lb ed="#T" n="79" break="no"/>tis terminatur vel primo &amp; per se, vel per 
+      acci<lb ed="#T" n="80" break="no"/>dens &amp; ex consequenti. 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e783">
+                  <lb ed="#T" n="81"/>[Non refertur ad aliud) Contra. Filius 
+      refer<lb ed="#T" n="82" break="no"/>tur ad Spiritum Sanctum. Resp. Spiritus 
+      San<lb ed="#T" n="83" break="no"/>ctus non est aliud, sed alius: vel, per se 
+      loquen<lb ed="#T" n="84" break="no"/>do non refertur Filius ad Spiritum Sanctum, 
+      <lb ed="#T" n="85"/>scilicet sub nomine Filij. 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e796">
+                  <lb ed="#T" n="86"/>[Naturam sequitur indemutabilis Deus 
+      <lb ed="#T" n="87"/>Contra. Vbi est consecutio ibi est prius &amp; 
+      poste<lb ed="#T" n="88" break="no"/>rius. Resp. Exponendum est priuatiue, idest non 
+      <lb ed="#T" n="89"/>deferit: &amp; per hoc probat, quod genitor est in 
+      ge<lb ed="#T" n="90" break="no"/>nito, &amp; e conuerso: quia vterque in eo est, in 
+      <lb ed="#T" n="91"/>quo natura sua est. 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e812">
+                  <lb ed="#T" n="92"/>[Semel de sua substantia.] Contra semel 
+      <lb ed="#T" n="93"/>dicit infercisionem. Respondeo: Semel 
+      tem<lb ed="#T" n="94" break="no"/>poris dicit intercisionem, sed non semel 
+      aeter<lb ed="#T" n="95" break="no"/>nitatis, de quo loquitur hic. 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e824">
+                  <lb ed="#T" n="96"/>[Sine initio.] Contra. Hilar. Si quis dicat, 
+      <lb ed="#T" n="97"/>duo sine initio anathema sit. Respondeo Hic s 
+      <lb ed="#T" n="98"/>loquitur de initio durationis, ibi de initio 
+      ori<lb ed="#T" n="99" break="no"/>ginis. 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e835">
+                  <lb ed="#T" n="100"/>[Regnum Filij charitatis.] Contra. Aut  
+      <lb ed="#T" n="101"/>charitas accipitur hic essentialiter, &amp; erit 
+      Fi<lb ed="#T" n="102" break="no"/>lius essentiae; aut personaliter, &amp; erit Filius, 
+      <lb ed="#T" n="103"/>Spiritus Sancti. 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e846">
+                  <lb ed="#T" n="104"/>Respondeo, Essentialiter accipitur: non 
+      sequi<lb ed="#T" n="105" break="no"/>tur tamen quod sit Filius essentiae, quia 
+      geni<lb ed="#T" n="106" break="no"/>tiuus construitur in designatione essentiae, id est, 
+      <lb ed="#T" n="107"/>Filij chari, sicut mulier egregiae formae: non 
+      <lb ed="#T" n="108"/>in habitudine causae. 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e859">
+                  <lb ed="#T" n="109"/>[Natura coeterna.] Duplex est hic 
+      impro<lb ed="#T" n="110" break="no"/>prietas, &amp; quia dicitur natura de Deo esse, &amp; 
+      <lb ed="#T" n="111"/>quia dicitur esse coeterna. Sed exponendum est, 
+      <lb ed="#T" n="112"/>id est, ille qui est natura, &amp; coeternus 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e870">
+                  <lb ed="#T" n="113"/>[Nonest vere Filius, si quod est Pater non est 
+      Fi<lb ed="#T" n="114" break="no"/>lius] Cotra. Non est idem Filius, quod est Pater  
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e877">
+                  <lb ed="#T" n="115"/>Respondeo. Prout Iy quod, facit relationem 
+      <lb ed="#T" n="116"/>simplicem, quod est Pater est etiam Filius; 
+      <lb ed="#T" n="117"/>secundum quod facit personalem, non: vel 
+      di<lb ed="#T" n="118" break="no"/>cendum melius quod Filius cum Patre est idem 
+      <lb ed="#T" n="119"/>neutraliter, non masculine. 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e891">
+                  <lb ed="#T" n="120"/>Tres personas eiusdem essentiae.] Contra. 
+      <lb ed="#T" n="121"/>Ngn dicimus tres personas eiusdem Dei. 
+      <lb ed="#T" n="122"/>Respondeo. Non est simile, quia Deus dicit 
+      <lb ed="#T" n="123"/>naturam vt in supposito vnde significaretur 
+      <lb ed="#T" n="124"/>constructio possessiua: sed essentia abstractiue 
+      <lb ed="#T" n="125"/>quasi formam, vnde non est constructio 
+      pos<lb ed="#T" n="126" break="no"/>sessiua, sed quasi, in desigatione essentiae. 
+    </p>
+               <p xml:id="pdt7y6-e16477-d1e909">
+                  <lb ed="#T" n="127"/>[Natura Filius] Contra. Augustinus dicit 
+      <lb ed="#T" n="128"/>quod Pater est Deus natura, sed proprietate 
+      <lb ed="#T" n="129"/>Pater: ergo Filius similiter. Respondeo. Iy 
+      <lb ed="#T" n="130"/>natura construitur in, habitudine causae 
+      efficien<lb ed="#T" n="131" break="no"/>tis, non formalis. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0133.xml-->
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

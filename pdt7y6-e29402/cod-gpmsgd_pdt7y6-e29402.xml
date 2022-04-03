@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="97"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e29402"><!-- l1d11q1 -->
+            <head xml:id="pdt7y6-e29402-Hd1e99">Quaestio 1</head>
+            <head xml:id="pdt7y6-e29402-Hd1e101" type="question-title">De processione Spiritus sancti a Patre et Filio</head>
+            <p xml:id="pdt7y6-e29402-d1e104">
+               <lb ed="#T" n="33"/>QVESTIOVNICA. 
+      <lb ed="#T" n="34"/>DE PROCESSIONE SPIRITVS 
+      <lb ed="#T" n="35"/>SANCTI A PATRE ET FiLIO. 
+</p>
+            <p xml:id="pdt7y6-e29402-d1e113">
+               <lb ed="#T" n="36"/>QVaeruntur hic quinque. 
+      <lb ed="#T" n="37"/>Primo, an Spiritus sanctus procedat a 
+      <lb ed="#T" n="38"/>Patre &amp; Filio. 
+      <lb ed="#T" n="39"/>Secundo, an procedat ab illis secundum 
+      <lb ed="#T" n="40"/>quod vnum sunt, aut secundum quod sunt 
+      di<lb ed="#T" n="41" break="no"/>stincti. 
+      <lb ed="#T" n="42"/>Tertio, quae sit illa vnitas, an essentiae vel 
+      no<lb ed="#T" n="43" break="no"/>tionis. 
+      <lb ed="#T" n="44"/>Quarto, an propter illam vnitatem debeat 
+      di<lb ed="#T" n="45" break="no"/>ci vnus spirator vel plures. 
+      <lb ed="#T" n="46"/>Quinto, quid sit ipsa vis spiratiua in eis 
+    </p>
+            <div xml:id="pdt7y6-e29402-Dd1e139">
+               <head xml:id="pdt7y6-e29402-Hd1e141">Articulus 1</head>
+               <head xml:id="pdt7y6-e29402-Hd1e143" type="question-title">An spiritus sanctus procedat a Patre et Filio.</head>
+               <p xml:id="pdt7y6-e29402-d1e146">
+                  <lb ed="#T" n="47"/>Articvlvs I. 
+      <lb ed="#T" n="48"/>An spiritus sanctus procedat a Patre et Filio. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e153">
+                  <lb ed="#T" n="49"/>AD primum sic proceditur. 1. Damasc. lib. 1. 
+      <lb ed="#T" n="50"/>cap. 10. Spiritum ex Patre dicimus, &amp; 
+      <lb ed="#T" n="51"/>Spiritum Filij nominamus. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e162">
+                  <lb ed="#T" n="52"/>2. Greg. Nacian. Dicit quod sicut radij 
+      Sola<lb ed="#T" n="53" break="no"/>ris luminis non separantur a lumine, sed vsque 
+      <lb ed="#T" n="54"/>ad pos emicant, Filius &amp; Spiritus sanctus 
+      gemi<lb ed="#T" n="55" break="no"/>nus Patris radius vsque ad nos miserunt lumen 
+      <lb ed="#T" n="56"/>claritatis: sed duorum radiorum vnus non 
+      pro<lb ed="#T" n="57" break="no"/>cedit ab alteto: ergo a simili Spiritus non 
+      pro<lb ed="#T" n="58" break="no"/>cedit a Filio, nec &amp; conuerso. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0172.xml-->
+      <cb ed="#T" n="c"/>
+                  <lb ed="#T" n="59"/>3. Dyon. dediu, nominibus cap. 11. Dicit, quod 
+      <lb ed="#T" n="60"/>Pater est fontana Deitas, Filius &amp; Spiritus 
+      san<lb ed="#T" n="61" break="no"/>ctus sunt Deigenae pullulationes Diuinae naturae, 
+      <lb ed="#T" n="62"/>&amp; quasi flores: sed florum aut pullulationum vna 
+      <lb ed="#T" n="63"/>non procedit ab altera: ergo a simili &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e196">
+                  <lb ed="#T" n="64"/>4. In humanis spiritus non procedit a verbo, 
+      <lb ed="#T" n="65"/>sed cum verbo: ergo similiter in Diuinis. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e203">
+                  <lb ed="#T" n="66"/>5. Nihil omnino simplex potest esse a duobus, 
+      <lb ed="#T" n="67"/>alioquin effectus esset simplicior causa: ergo 
+      <lb ed="#T" n="68"/>Spiritus cum sit simplex non est aPatre &amp; Filio. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e212">
+                  <lb ed="#T" n="69"/>6. Aut Pater perfecte &amp; sufficienter spirat 
+      Spi<lb ed="#T" n="70" break="no"/>ritum sanctum, aut non: si non, ergo est ipse 
+      <lb ed="#T" n="71"/>in spirando imperfectus; si sic, ergo superfluit 
+      <lb ed="#T" n="72"/>Filius. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e223">
+                  <lb ed="#T" n="73"/>7. AEqualis honoris &amp; auctoritatis sunt Filius, 
+      <lb ed="#T" n="74"/>&amp; Spiritus sanctus: ergo sicut Filius non est a 
+      <lb ed="#T" n="75"/>Spiritu sancto, ita nec Spiritus sanctus a Filio. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e232">
+                  <lb ed="#T" n="76"/>Contra. 1. Ioan. 15. Cum venerit paraclitus 
+      <lb ed="#T" n="77"/>quem ego mittam: sed si non procederet ab eo, 
+      <lb ed="#T" n="78"/>non mitteret eum: ergo procedit ab ipso. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e241">
+                  <lb ed="#T" n="79"/>2. Ioan. 16. Ille me clarificabit, quia de meo 
+      <lb ed="#T" n="80"/>accipiet: ergo aliquid accipit a Filio: sed 
+      quic<lb ed="#T" n="81" break="no"/>quid est in illo totus est ipse: ergo se totum 
+      acci<lb ed="#T" n="82" break="no"/>pit a Filio: ergo procedit ab illo. 
+      <lb ed="#T" n="83"/>3. Scriptura Sacra saepe nominat eum Spiritum 
+      <lb ed="#T" n="84"/>Filij. Rom. 8. Galat. 2. Aut ergo ratione solius, 
+      <lb ed="#T" n="85"/>substantiae, &amp; sic eadem ratione dici posset Filius, 
+      <lb ed="#T" n="86"/>esse Spiritus sancti: aut ratione alicuius 
+      relatio<lb ed="#T" n="87" break="no"/>nis; ergo cum in Diuinis non sit relatio nisi 
+      ori<lb ed="#T" n="88" break="no"/>ginis, oportet quod vel Filius sit a Spiritu 
+      san<lb ed="#T" n="89" break="no"/>cto, quod nullus dicit; vel Spiritus sanctus a 
+      <lb ed="#T" n="90"/>Filio. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e271">
+                  <lb ed="#T" n="91"/>4. In trinitate potentiarum, quae est imago 
+      <lb ed="#T" n="92"/>Dei, amor procedita notitia: ergo in Trinitate 
+      <lb ed="#T" n="93"/>personarum, Spiritus sanctus a Filio. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e280">
+                  <lb ed="#T" n="94"/>5. Vt ait Anselmus lib. de processione 
+      Spiri<lb ed="#T" n="95" break="no"/>tus sancti, in Diuinis personae tres per omnia. 
+      <lb ed="#T" n="96"/>idem sunt ubi relationis oppositio non 
+      distin<lb ed="#T" n="97" break="no"/>guit: sed quoad actum spirandi nulla oppositio 
+      <lb ed="#T" n="98"/>relationis Filium a Patre distinguit: ergo quoad 
+      <lb ed="#T" n="99"/>hoc idem sunt.  
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e296">
+                  <lb ed="#T" n="100"/>6. Aut illarum personarum vna procedit ab 
+      <lb ed="#T" n="101"/>altera, aut non; si non, ergo non distinguit inter  
+      <lb ed="#T" n="102"/>eas oppositio relatiua, ergo sunt vna persona; sic 
+      <lb ed="#T" n="103"/>sic aut Filius a Spiritu sancto, aut e conuerso: 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0173.xml-->
+      <pb ed="#T" n="98"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>sed non Filius a Spiritu sancto: ergo e conuerso. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e316">
+                  <lb ed="#T" n="2"/>7. Aut inter tres personas est aequalis 
+      germa<lb ed="#T" n="3" break="no"/>nitas: aut non, si non: ergo nec aequalis dilectio: 
+      <lb ed="#T" n="4"/>si sic, ergo sicut Spiritus a Patrenita a Filio. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e325">
+                  <lb ed="#T" n="5"/>8. Filius proprie dicitur Patris imago; aut 
+      er<lb ed="#T" n="6" break="no"/>go ratione assimilationis in natura tantum, aut 
+      <lb ed="#T" n="7"/>etiam in notione: aliqua: non in natura tantum  
+      <lb ed="#T" n="8"/>quia similiter Spiritus esset Patris imago, quod 
+      <lb ed="#T" n="9"/>non dicitur aSanctis: ergo in notione aliqua; non 
+      <lb ed="#T" n="10"/>in notione innascibilitatis, nec paternitatis: ergo 
+      <lb ed="#T" n="11"/>in notione spirationis. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e343">
+                  <lb ed="#T" n="12"/>Respondeo. Concedendum est, quod Spiritus 
+      <lb ed="#T" n="13"/>sanctus procedit a Patre, &amp; Filio, quadruplicira 
+      <lb ed="#T" n="14"/>tione. Una est Filij perfectio: quia, vt esset 
+      per<lb ed="#T" n="15" break="no"/>fectus Filius, oportuit, quod assimilaretur Patr. 
+      <lb ed="#T" n="16"/>in omnibus, exceptis ijs per quae sit eorum 
+      per<lb ed="#T" n="17" break="no"/>sonalis distinctio, scilicet, quibus ratio Filij non 
+      <lb ed="#T" n="18"/>repugnat: sed talis non est spiratio. Altera ratio 
+      <lb ed="#T" n="19"/>est modus procedendi Spiritus sancti, quia 
+      pro<lb ed="#T" n="20" break="no"/>cedit vt amorliberalis amicitiae: huiusmodi 
+      ve<lb ed="#T" n="21" break="no"/>ro amor duorum est, non vnius tantum. Tertia 
+      <lb ed="#T" n="22"/>ratio est distinctio personae eius a Filio, quia per 
+      <lb ed="#T" n="23"/>sonas distinguit sola oppositio relationis 
+      secun<lb ed="#T" n="24" break="no"/>dum originem. Quarta ratio est totius 
+      Trinita<lb ed="#T" n="25" break="no"/>tis aequalis germanitas &amp; aequalis dilectio. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e377">
+                  <lb ed="#T" n="26"/>Ad 1. De Damasc. Resp. Damasc. non 
+      ne<lb ed="#T" n="27" break="no"/>gat ita esse, sed ita dici: vel quia ipse fuit 
+      tem<lb ed="#T" n="28" break="no"/>pore ortae controuersiae: vel quia forte 
+      secun<lb ed="#T" n="29" break="no"/>dum modum loquendi ipsorum per 
+      habitudi<lb ed="#T" n="30" break="no"/>nem praepositionis huius, ex, vel, a, notatur 
+      <lb ed="#T" n="31"/>non solum ratio principij sed principalitas: 
+      <lb ed="#T" n="32"/>sicut quando dicitur, quod feudus militis ma 
+      <lb ed="#T" n="33"/>nat a Rege, vel lacus a fonte, scilicet, primo 
+      <lb ed="#T" n="34"/>&amp; principaliter  
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e399">
+                  <lb ed="#T" n="35"/>Ad. 2. De duobus radijs. Resp. Similitudo est 
+      <lb ed="#T" n="36"/>quantum ad originem &amp; inseparabilitatem 
+      ra<lb ed="#T" n="37" break="no"/>diorum ab vno Sole, non quantum ad 
+      habitu<lb ed="#T" n="38" break="no"/>dinem eorum ad inuicem 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e410">
+                  <lb ed="#T" n="39"/>Ad 3. De pullulationibus &amp; floribus. Resp. 
+      <lb ed="#T" n="40"/>Similitudo est quoad habitudinem horum ad 
+      <lb ed="#T" n="41"/>vnum principium, non horum ad inuicem. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e419">
+                  <lb ed="#T" n="42"/>Ad 4. De verbo. Resp. Verbum Dei 
+      secu<lb ed="#T" n="43" break="no"/>dum aeternam generationem comparatur verbe 
+      <lb ed="#T" n="44"/>cordis, secundum temporalem generationem 
+      <lb ed="#T" n="45"/>verbo vocis: a verbo vero interiori procedit 
+      <lb ed="#T" n="46"/>spiritus interior, id est amor; verbum autem 
+      <lb ed="#T" n="47"/>exterius procedit a spiritu interiori: sic 
+      Spiri<lb ed="#T" n="48" break="no"/>tus sanctus est a verbo aeterno, sed verbum 
+      in<lb ed="#T" n="49" break="no"/>carnatum ab ipso inquantum incarnatum. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e439">
+                  <lb ed="#T" n="50"/>Ad 5. Nihil omnino simplex potest esse? 
+      <lb ed="#T" n="51"/>duobus. Resp. Verum est a duobus diuersis per 
+      <lb ed="#T" n="52"/>essentiam: quia quae differunt per essentiam, 
+      dif<lb ed="#T" n="53" break="no"/>ferunt per virtutem &amp; operationem. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e450">
+                  <lb ed="#T" n="54"/>Ad 6. Aut Pater perfecte spirat. Resp. 
+      Per<lb ed="#T" n="55" break="no"/>fecte spirat. Pater, nec tamen Filius superfluit 
+      <lb ed="#T" n="56"/>quia sunt vnum in spirando, &amp; hoc non est ex 
+      <lb ed="#T" n="57"/>imperfectione Patris, quiaimdigeat Filij 
+      adiu<lb ed="#T" n="58" break="no"/>torio, sed ex perfectione Filij qui in omnibus 
+      <lb ed="#T" n="59"/>assimilatur Patri, quae non 
+      repugnantpersona<lb ed="#T" n="60" break="no"/>li proprietati eiusdem. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e469">
+                  <lb ed="#T" n="61"/>Ad 7. AEqualis honoris &amp; auctoritatis &amp;c. 
+      <lb ed="#T" n="62"/>Resp. Per hoc non minuitur honor vel 
+      auctori<lb ed="#T" n="63" break="no"/>tas Spiritus sancti, cum aequalitas honoris &amp; 
+      <lb ed="#T" n="64"/>auctoritatis consistat in essentialibus, non im 
+      <lb ed="#T" n="65"/>relatiuis attributis, si procedat ab eis secundum 
+      <lb ed="#T" n="66"/>quod vnum.
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e29402-Dd1e487">
+               <head xml:id="pdt7y6-e29402-Hd1e489">Articulus 2</head>
+               <head xml:id="pdt7y6-e29402-Hd1e491" type="question-title">
+  An Spiritus sanctus procedat a Patre et Filio ut sunt unum
+</head>
+               <p xml:id="pdt7y6-e29402-d1e494">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0173.xml-->
+                  <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>ARTICVLVS II. 
+      <lb ed="#T" n="68"/>An Spiritus sanctus procedat a Patre &amp; Filio 
+      <lb ed="#T" n="69"/>vt sunt vnum. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e507">
+                  <lb ed="#T" n="70"/>D secundum sic proceditur. 1. Spiritus 
+      <lb ed="#T" n="71"/>sanctus procedit a Patre &amp; Filio, vt 
+      ne<lb ed="#T" n="72" break="no"/>xus amborum: nexus autem non est vnius, sed  
+      <lb ed="#T" n="73"/>plurium: ergo procedit ab eis vt plures, non 
+      <lb ed="#T" n="74"/>vt sunt vnum. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e520">
+                  <lb ed="#T" n="75"/>2. Actus spirandi amorem mutuum non est 
+      <lb ed="#T" n="76"/>vnius sed plurium: sed actus, quo procedit 
+      <lb ed="#T" n="77"/>Spiritus sanctus a Patre &amp; Filio, est actus 
+      spiran<lb ed="#T" n="78" break="no"/>di amorem mutuum: ergo est actus eorum 
+      secun<lb ed="#T" n="79" break="no"/>dum quod sunt plures non vnum, 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e534">
+                  <lb ed="#T" n="80"/>3. Actus personales sunt personarum, in 
+      qua<lb ed="#T" n="81" break="no"/>tum personae sunt: ergo actus spirandi est actus 
+      <lb ed="#T" n="82"/>Patris &amp; Filij secundum esse personale ipsorum: 
+      <lb ed="#T" n="83"/>ergo secundum esse distinctum. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e545">
+                  <lb ed="#T" n="84"/>Contra. 1. Nil vnum simplex procedit a 
+      plu<lb ed="#T" n="85" break="no"/>ribus vt plura sunt: Spiritus sanctus simplex est: 
+      <lb ed="#T" n="86"/>ergo non procedit a Patre &amp; Filio, vt plures Sunt. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e554">
+                  <lb ed="#T" n="87"/>2. Plures sunt suis personalibus 
+      proprietati<lb ed="#T" n="88" break="no"/>bus: si ergo procedit Spiritus ab eis, vt sunt 
+      plu<lb ed="#T" n="89" break="no"/>res; ergo procedit a Patre. vt Pater est, &amp; a 
+      <lb ed="#T" n="90"/>Filio vt Filius est: ergo Pater paternitate, &amp; 
+      <lb ed="#T" n="91"/>Filius filiatione refertur ad Spiritum sanctum, 
+      <lb ed="#T" n="92"/>quod falsum est, 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e570">
+                  <lb ed="#T" n="93"/>3. In eo, quod plures sunt differunt, in eo 
+      <lb ed="#T" n="94"/>quod differunt in nullo conueniunt: ergo in eo 
+      <lb ed="#T" n="95"/>quod plures sunt, non conueniunt in vno actu 
+      <lb ed="#T" n="96"/>spirandi Spiritum sanctum. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e581">
+                  <lb ed="#T" n="97"/>Respondeo. Sicut duorum amicitia procedit 
+      <lb ed="#T" n="98"/>ab eis non solum vt plures sunt, nec solum vt 
+      <lb ed="#T" n="99"/>vnum sunt, sed vt sunt plures propria eisdem 
+      <lb ed="#T" n="100"/>personalitate, &amp; vnum communi voluntate: 
+      <lb ed="#T" n="101"/>ita Spiritus sanctus procedit a Patre &amp; Filio non 
+      <lb ed="#T" n="102"/>solum vt plures sunt, nec solum vt vnum sunt,  
+      <lb ed="#T" n="103"/>sed vt ipsi propria personalitate plures sunt, vnum 
+      <lb ed="#T" n="104"/>concordi voluntate. Actus enim omnis 
+      essen<lb ed="#T" n="105" break="no"/>tialiter comparatur ad ipsum agentem, &amp; ad 
+      <lb ed="#T" n="106"/>principium quo agitagens est ipsum suppositum; 
+      <lb ed="#T" n="107"/>principium quo agit est forma aliqua in ipso. 
+      <lb ed="#T" n="108"/>Procedit ergo Spiritus sanctus ab eis, vt sunt,  
+      <lb ed="#T" n="109"/>plures agentes, sed tamen vt vnum in principio 
+      <lb ed="#T" n="110"/>quo agunt: cum enim vna operatio non exeat 
+      <lb ed="#T" n="111"/>nisi ab vno, oportet ponere aliquam formam 
+      <lb ed="#T" n="112"/>vnam in vtroque, qua producunt Spiritum 
+      <lb ed="#T" n="113"/>sanctum, secundum rationem intelligendi¬ 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e620">
+                  <lb ed="#T" n="114"/>Ad. 1. De nexu. Resp. Nexus non est vnius, 
+      <lb ed="#T" n="115"/>sed plurium; non tamen solum, vt plures sunt, 
+      <lb ed="#T" n="116"/>sed vt coniunguntur in aliquo vno. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e630">
+                  <lb ed="#T" n="117"/>Ad 2. De actu spirandi amorem mutuum. 
+      <lb ed="#T" n="118"/>Resp. Actus huiusmodi non est vnius vt 
+      agen<lb ed="#T" n="119" break="no"/>tis, sed plurium inquantum vniuntur in vno 
+      <lb ed="#T" n="120"/>principio actionis, scilicet in; vna voluntate 
+      <lb ed="#T" n="121"/>spirandi. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e643">
+                  <lb ed="#T" n="122"/>Ad 3. De actu personali. Resp. Actus: 
+      pro<lb ed="#T" n="123" break="no"/>prij personales sunt personarum solum vt 
+      di<lb ed="#T" n="124" break="no"/>stinctae sunt, &amp; secundum rationem agentis. 
+      <lb ed="#T" n="125"/>&amp; secundum rationem principij quo agunt: sed 
+      <lb ed="#T" n="126"/>actus communes quamuis sint personarum 
+      di<lb ed="#T" n="127" break="no"/>stinctarum vt agentium, oportet tamen quod 
+      <lb ed="#T" n="128"/>sint secundum rationem vnius communis 
+      prin<lb ed="#T" n="129" break="no"/>cipij quo agunt. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e663">
+                  <lb ed="#T" n="130"/>Ad 1. In contrarium. Nil vnum &amp;c. Resp. 
+      <lb ed="#T" n="131"/>Nil simplex procedit a pluribus vt plura sunt 
+      <lb ed="#T" n="132"/>solum, sed inquantum plura conueniunt in 
+      ali<lb ed="#T" n="133" break="no"/>quod vnum principium actionis: &amp; sic Spiritus 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0174.xml-->
+      <pb ed="#T" n="99"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>sanctus procedit a Patre &amp; Filio, in quantum 
+      <lb ed="#T" n="2"/>habent formam vnam, qua sunt actionis illius 
+      <lb ed="#T" n="3"/>principium, scilicet potentiam spiratiuam. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e687">
+                  <lb ed="#T" n="4"/>Ad 2. Plures sunt suis proprietatibus &amp;c. 
+      <lb ed="#T" n="5"/>Resp. Quamuis procedat ab eis, vt plures sunt,  
+      <lb ed="#T" n="6"/>secundum rationem agentium, non tamen 
+      se<lb ed="#T" n="7" break="no"/>cundum formam eos plurificantem, id est 
+      paterni<lb ed="#T" n="8" break="no"/>tatem &amp; filiationem vt actionis principium, 
+      <lb ed="#T" n="9"/>sed secundum formam vna, in qu aconueniunt, 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e703">
+                  <lb ed="#T" n="10"/>Ad 3. In eo quod plures sunt differunt &amp;c. 
+      <lb ed="#T" n="11"/>Resp. Inquantum plures sunt solum non 
+      con<lb ed="#T" n="12" break="no"/>ueniunt in spirando Spiritum sanctum, sed 
+      in<lb ed="#T" n="13" break="no"/>quantum sunt plures agentes per vnum actionis 
+      <lb ed="#T" n="14"/>principium in vtroque. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e29402-Dd1e717">
+               <head xml:id="pdt7y6-e29402-Hd1e719">Articulus 3</head>
+               <head xml:id="pdt7y6-e29402-Hd1e721" type="question-title">
+  An id in quo Pater et Filius sunt unum principium spiritus sancti, sit quid essentiale. 
+</head>
+               <p xml:id="pdt7y6-e29402-d1e724">
+                  <lb ed="#T" n="15"/>Articvlvs III. 
+      <lb ed="#T" n="16"/>An id in quo Pater &amp; Filius sunt vnum 
+      prin<lb ed="#T" n="17" break="no"/>cipium spiritus sancti, sit quid essentiale. 
+</p>
+               <p xml:id="pdt7y6-e29402-d1e733">
+                  <lb ed="#T" n="18"/>AD tertium sic proceditur. 1. Anselmus lib.  
+      <lb ed="#T" n="19"/>de process. Spiritus sancti. Nullus sensus 
+      <lb ed="#T" n="20"/>capit Spiritum sanctum esse Patris &amp; Filij, 
+      se<lb ed="#T" n="21" break="no"/>tundum quod alter est Pater, alter Filius, alter 
+      <lb ed="#T" n="22"/>Spiritus sanctus, sed secundum quod vterque 
+      <lb ed="#T" n="23"/>est Deus: ergo secundum quod sunt vnum in 
+      <lb ed="#T" n="24"/>essentia. Idem in Monologio. cap. 52. Non ex 
+      <lb ed="#T" n="25"/>eo procedit, in quo plures sunt, sed in eo, in 
+      <lb ed="#T" n="26"/>quo vnum sunt: nam non ex relationibus suis 
+      <lb ed="#T" n="27"/>quae plures sunt, sed ex ipsa sua essentia quae 
+      <lb ed="#T" n="28"/>luralitatem non admittit, emittunt Pater &amp; 
+      <lb ed="#T" n="29"/>Filius tantum pariter bonum. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e762">
+                  <lb ed="#T" n="30"/>2. Natura communicatur per actus naturae: ergo 
+      <lb ed="#T" n="31"/>cum per spirationem communicetur natura erit 
+      <lb ed="#T" n="32"/>natura ipsa principium: ergo Pater &amp; Filius, 
+      <lb ed="#T" n="33"/>in quantum sunt vnum in natura, spirant 
+      Spiri<lb ed="#T" n="34" break="no"/>tum sanctum. 
+      <lb ed="#T" n="35"/>3. Duo amantes se concordi voluntate spirant 
+      <lb ed="#T" n="36"/>amorem mutuum; concors autem voluntas in 
+      <lb ed="#T" n="37"/>Deo ad vnitatem essentiae pertinet: ergo Pater 
+      <lb ed="#T" n="38"/>&amp; Filius, in quantum sunt vnum in essentia spirat,  
+      <lb ed="#T" n="39"/>amorem matuum, scilicet, Spiritum sanctum. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e787">
+                  <lb ed="#T" n="40"/>4. Non potest inesse duobus suppositis 
+      distin<lb ed="#T" n="41" break="no"/>ctis vna proprietas, quia proprietas numeratur. 
+      <lb ed="#T" n="42"/>secundum suppositum: ergo non spirant vt sunt,  
+      <lb ed="#T" n="43"/>vnum in notione aliqua, sed in sola essentia. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e798">
+                  <lb ed="#T" n="44"/>Contra. 1. In vnitate conueniunt tres personae: 
+      <lb ed="#T" n="45"/>ergo quicquid conuenit duobus secundum quod 
+      <lb ed="#T" n="46"/>sunt in essentia vnum, conuenit &amp; tertiae personae. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e807">
+                  <lb ed="#T" n="47"/>2. Omnis actus proprius aliquorum egreditur 
+      <lb ed="#T" n="48"/>a forma aliqua, quae propria est ipsorum: 
+      vni<lb ed="#T" n="49" break="no"/>tas autem essentiae non est forma propria illorum 
+      <lb ed="#T" n="50"/>duorum: ergo non est in eis spirandi principiu. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e818">
+                  <lb ed="#T" n="51"/>Respondeo. Omnis actus egreditur ab aliquo 
+      <lb ed="#T" n="52"/>supposito tanquam agente, &amp; ab aliqua 
+      poten<lb ed="#T" n="53" break="no"/>tia tanquam forma, per quam agit: vnde actus 
+      <lb ed="#T" n="54"/>spirandi secundum rationem intelligendi a 
+      po<lb ed="#T" n="55" break="no"/>tentia spiratiua egreditur a Patre &amp; Filio: vnus 
+      <lb ed="#T" n="56"/>vero actus est immediate ab vna potentia: ergo 
+      <lb ed="#T" n="57"/>vnus actus spirandi est a Patre, &amp; Filio, vt sunt,  
+      <lb ed="#T" n="58"/>vnum in potentia spiratiua. In hac vero vnitate 
+      <lb ed="#T" n="59"/>intelligitur vnitas essentiae, in hoc quod dico: 
+      <lb ed="#T" n="60"/>potentia; &amp; vnitas notionis in hoc quod dico, 
+      <lb ed="#T" n="61"/>spiratiua. Videmus enim in inferioribus, in 
+      <lb ed="#T" n="62"/>quibus non differunt forma cobunis &amp; propria 
+      <lb ed="#T" n="63"/>realiter, quod vnus communis actus aliquorum. 
+      <lb ed="#T" n="64"/>suppositorum essentialis est ab vna essentiali 
+      for<lb ed="#T" n="65" break="no"/>ma, vt viuere ab anima in omnibus; actus vero 
+      <lb ed="#T" n="66"/>communis accidentalis ab vna communi 
+      acci<lb ed="#T" n="67" break="no"/>dentali forma, vt scire a scientia, ad cuius 
+      <lb ed="#T" n="68"/>tamen communitatem praeexigitur communsi 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0174.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="69"/>substantialis forma, scilicet vna anima in 
+      spe<lb ed="#T" n="70" break="no"/>cie, &amp; vna animae potentia: Actus vero 
+      pro<lb ed="#T" n="71" break="no"/>prius est a propria forma, ad quam tamen 
+      exi<lb ed="#T" n="72" break="no"/>gitur communis forma substantialis non 
+      acciden<lb ed="#T" n="73" break="no"/>alis. In superioribus vero &amp; Diuinis non est 
+      su<lb ed="#T" n="74" break="no"/>bstantialis &amp; accidentalis forma, sed essentialis 
+      <lb ed="#T" n="75"/>&amp; relatiua: haec autem est duplex, communis &amp; 
+      <lb ed="#T" n="76"/>propria: differunt autem solum ratione &amp; non 
+      <lb ed="#T" n="77"/>re forma essentialis &amp; relatiua: forma vero 
+      <lb ed="#T" n="78"/>comunis relatiua, &amp; propria differunt etiam 
+      ra<lb ed="#T" n="79" break="no"/>tione, sed non essentia. Est ergo in Diuinis 
+      repe<lb ed="#T" n="80" break="no"/>rire forma essentialem tribus communem; &amp; 
+      for<lb ed="#T" n="81" break="no"/>mam relatiuam communem duobus, &amp; 
+      for<lb ed="#T" n="82" break="no"/>mam relatiuam propriam vni: &amp; ad formam 
+      <lb ed="#T" n="83"/>relatiuam tam communem, quam propriam, 
+      <lb ed="#T" n="84"/>praesupponitur secundum rationem 
+      intelligen<lb ed="#T" n="85" break="no"/>di forma communis essentialis: &amp; secundum 
+      diffe<lb ed="#T" n="86" break="no"/>rentia harui formarum est reperire in Diuinis actus 
+      <lb ed="#T" n="87"/>differentes. Nam est ibi actus essentialis communrs 
+      <lb ed="#T" n="88"/>tribus vt intelligere, &amp; hic egreditur secundum 
+      <lb ed="#T" n="89"/>rationem intelligendi a forma communi essentiali. 
+      <lb ed="#T" n="90"/>Alius est actus comunis duobus notionalis, vt 
+      <lb ed="#T" n="91"/>spirare, &amp; hic secundum rationem intelligendi 
+      <lb ed="#T" n="92"/>egreditur ab vna communi forma relatiua, scilicet,  
+      <lb ed="#T" n="93"/>comuni spiratione, ad cuius tamen vnitate 
+      prae<lb ed="#T" n="94" break="no"/>intelligitur vna essentialis forma in spirantibus 
+      <lb ed="#T" n="95"/>ipsis, alioqui non posset in eis esse vna 
+      proprie<lb ed="#T" n="96" break="no"/>tas communis. Alius est actus proprius vni 
+      per<lb ed="#T" n="97" break="no"/>sonalis, vt generare, &amp; hic secundum rationem 
+      <lb ed="#T" n="98"/>intelligendi egreditur ab vna propria forma 
+      re<lb ed="#T" n="99" break="no"/>latiua, scilicet paternitate, ad cuius tamen esse 
+      <lb ed="#T" n="100"/>secundum rationem intelligendi praeintelligitur 
+      <lb ed="#T" n="101"/>ipsa essentialis forma. Et per hunc modum in 
+      <lb ed="#T" n="102"/>potentia spiratiua vna communi &amp; potentia 
+      ge<lb ed="#T" n="103" break="no"/>nerandi vna propria intelligitur vna communis 
+      <lb ed="#T" n="104"/>Diuina potentia seu essentia. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e942">
+                  <lb ed="#T" n="105"/>Ad 1. De Ansel. Resp. Tangit causam 
+      pri<lb ed="#T" n="106" break="no"/>mam, sed non proximam; ipsa enim essentia 
+      <lb ed="#T" n="107"/>prima causa est vnitatis huiusmodi actus, sed  
+      <lb ed="#T" n="108"/>commmunis spiratio causa proxima. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e953">
+                  <lb ed="#T" n="109"/>Ad 2. De communicatione naturae. Resp. 
+      <lb ed="#T" n="110"/>uamuis communicatio naturae in creaturis 
+      <lb ed="#T" n="111"/>non possit esse, nisi per actum naturae, quia 
+      de<lb ed="#T" n="112" break="no"/>terminata est virtus naturae &amp; voluntatis creatae, 
+      <lb ed="#T" n="113"/>tamen in creatore potest fieriper actum 
+      volun<lb ed="#T" n="114" break="no"/>atis: vnde Pater &amp; Filius Spiritum spirant, in 
+      <lb ed="#T" n="115"/>quantum vnum sunt in voluntate: tamen 
+      praexigi<lb ed="#T" n="116" break="no"/>ur vnitas naturae. Nec tamen huiusmodi vnitas 
+      <lb ed="#T" n="117"/>est tota causa secundum modum intelligendi; nisi 
+      <lb ed="#T" n="118"/>in quantum conungitur in eis cum forma 
+      deter<lb ed="#T" n="119" break="no"/>minante, scilicet cum communi spiratione 
+      <lb ed="#T" n="120"/>quae est vna de quinque notionibus, seu 
+      secun<lb ed="#T" n="121" break="no"/>dum quosdam cum foecunditate voluntatis, 
+      <lb ed="#T" n="122"/>quae non est notio proprie, sed per 
+      redu<lb ed="#T" n="123" break="no"/>ctionem, quia principium est notionis: 
+      simi<lb ed="#T" n="124" break="no"/>liter foecunditas naturae in Patre non est 
+      notio<lb ed="#T" n="125" break="no"/>vt dicunt, sed principium notionis, quae est 
+      <lb ed="#T" n="126"/>Paternitas; reducitur tamen ad genus notionis, 
+      <lb ed="#T" n="127"/>sicut punctus ad genus continuae quantitatis) 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e998">
+                  <lb ed="#T" n="128"/>Ad 3. De concordi voluntate. Resp. 
+      Quam<lb ed="#T" n="129" break="no"/>uis voluntas sit essentialis, tamen concordia in 
+      <lb ed="#T" n="130"/>actu notionali notionalis est; vnde oportet, 
+      <lb ed="#T" n="131"/>quod sit a communi notione aliqua. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e1009">
+                  <lb ed="#T" n="132"/>Ad 4. De duobus suppositis distinctis. Resp. 
+      <lb ed="#T" n="133"/>Duobus distinctis per essentiam non potest 
+      <lb ed="#T" n="134"/>nesse proprietas vna, sed duobus, quae idem 
+      <lb ed="#T" n="135"/>sunt in essentia, potest, quia conueniunt in aliqua 
+      <lb ed="#T" n="136"/>virtute &amp; oppositione vna, ex qua relinquitur in 
+      <lb ed="#T" n="137"/>eis vna forma relatiua. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0175.xml-->
+      <pb ed="#T" n="100"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>Ad aliud quod opponitur in contrarium 
+      vni<lb ed="#T" n="2" break="no"/>tas essentiae est tribus communis. Resp. Ipsa 
+      <lb ed="#T" n="3"/>vnitas essentiae non est tota causa, sed in 
+      quan<lb ed="#T" n="4" break="no"/>tum ipsa est coniuncta cum notione 
+      com<lb ed="#T" n="5" break="no"/>munis spirationis: haec vero non est in tertia 
+      <lb ed="#T" n="6"/>persona, vnde essentia non est coniuncta 
+      com<lb ed="#T" n="7" break="no"/>mum spirationi in ipsa. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e29402-Dd1e1047">
+               <head xml:id="pdt7y6-e29402-Hd1e1049">Articulus 4</head>
+               <head xml:id="pdt7y6-e29402-Hd1e1051" type="question-title">
+  An debeat dici unus spirator
+</head>
+               <p xml:id="pdt7y6-e29402-d1e1054">
+                  <lb ed="#T" n="8"/>ARTICVLVS IV 
+      <lb ed="#T" n="9"/>An debeat dici vnus spirator.
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e1061">
+                  <lb ed="#T" n="10"/>AD quartum proceditur sic. 1. Spirator 
+      di<lb ed="#T" n="11" break="no"/>citur ab actu spirandi: ergo ab vno actu 
+      <lb ed="#T" n="12"/>spirandi debet dici vnus spirator.  
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e1070">
+                  <lb ed="#T" n="13"/>2. Tres personae ab vno actu creandi dicuntur. 
+      <lb ed="#T" n="14"/>vnus creator: ergo duae personae ab vno actu 
+      <lb ed="#T" n="15"/>spiraudi debent dici vnus spirator. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e1080">
+                  <lb ed="#T" n="16"/>3. Eadem relatio importatur nomine 
+      princi<lb ed="#T" n="17" break="no"/>pij, cum Pater &amp; Filius dicuntur principium 
+      <lb ed="#T" n="18"/>Spiritus sancti, quae importatur nomine 
+      spira<lb ed="#T" n="19" break="no"/>toris: ergo sicut ab vna relatione dicuntur 
+      <lb ed="#T" n="20"/>vnum principium: ita ab eadem debent 
+      dici<lb ed="#T" n="21" break="no"/>vnus spirator.  
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e1096">
+                  <lb ed="#T" n="22"/>Contra. 1. Quicumque spirant sunt spirantes: 
+      <lb ed="#T" n="23"/>Pater &amp; Filius spirant: ergo sunt spirantes: ergo 
+      <lb ed="#T" n="24"/>spiratores 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e1105">
+                  <lb ed="#T" n="25"/>2. Actus numer antur secundum supposita 
+      <lb ed="#T" n="26"/>sed spirator dicit actum: ergo debet numerat 
+      <lb ed="#T" n="27"/>secundum supposita: ergo cum Pater &amp; Filius, 
+      <lb ed="#T" n="28"/>sint duo supposita spirantia, debent dici duo 
+      <lb ed="#T" n="29"/>spiratores 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e1118">
+                  <lb ed="#T" n="30"/>3. Spirator nomen est adiectiuum: 
+      adiecti<lb ed="#T" n="31" break="no"/>ua vero numerantur secundum sua subjecta: ergo 
+      <lb ed="#T" n="32"/>Pater &amp; Filius debent dici duo spiratores. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e1127">
+                  <lb ed="#T" n="33"/>Respondeo. Actus numerantur, quoad 
+      mo<lb ed="#T" n="34" break="no"/>dum significandi saltem, secundum supposita 
+      <lb ed="#T" n="35"/>sed plura sunt supposita huiusmodi actus, qui est 
+      <lb ed="#T" n="36"/>spirare, &amp; in quantum sunt plura aliquo modo: 
+      <lb ed="#T" n="37"/>ideo oportet quod illa, per quae significatur 
+      spi<lb ed="#T" n="38" break="no"/>ratio vt actus, numerentur secundum suppositas 
+      <lb ed="#T" n="39"/>hinc est, quod quia verbum significat actum, &amp; 
+      <lb ed="#T" n="40"/>participium similiter, &amp; nomen verbale, ideo 
+      <lb ed="#T" n="41"/>debet dici Pater &amp; Filius sunt duo qui spirant 
+      <lb ed="#T" n="42"/>Spiritum sanctum, sunt duo spirantes, sunt,  
+      <lb ed="#T" n="43"/>duo spiratores 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e1153">
+                  <lb ed="#T" n="44"/>Ad 1. Actus vnus est. Resp. Quamuis sit vnus 
+      <lb ed="#T" n="45"/>secundum rem, tamen significatur vt 
+      egre<lb ed="#T" n="46" break="no"/>diens a pluribus suppositis, &amp; ideo pluraliter: 
+      <lb ed="#T" n="47"/>sicut etia substantia vna quando significatur 
+      per<lb ed="#T" n="48" break="no"/>modum actus in hoc verbo, sunt, significatur 
+      <lb ed="#T" n="49"/>pluraliter  
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e1170">
+                  <lb ed="#T" n="50"/>Ad 2. De creatore. Resp. Non est simile 
+      <lb ed="#T" n="51"/>quia actus creandi egreditur ab eis vt sunt vnum. 
+      <lb ed="#T" n="52"/>omnino, non vt distincti sunt,  
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e1179">
+                  <lb ed="#T" n="53"/>Ad 3. De principio. Resp. Non est simile, 
+      <lb ed="#T" n="54"/>quia per hoc nomen, principium, significatur  
+      <lb ed="#T" n="55"/>relatio non vt actus, cum non sit nomen 
+      ver<lb ed="#T" n="56" break="no"/>bale; sed per hoc nomen spirator, vt actus 
+      <lb ed="#T" n="57"/>significatur.  
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e29402-Dd1e1193">
+               <head xml:id="pdt7y6-e29402-Hd1e1195">Articulus 5</head>
+               <head xml:id="pdt7y6-e29402-Hd1e1197" type="question-title">
+  Quid sit virtus spiratiua
+</head>
+               <p xml:id="pdt7y6-e29402-d1e1200">
+                  <lb ed="#T" n="58"/>ARTICVLVS V 
+      <lb ed="#T" n="59"/>Quid sit virtus spiratiua.
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e1207">
+                  <lb ed="#T" n="60"/>AD quintum proceditur sic. 1. Spiratiua 
+      <lb ed="#T" n="61"/>virtus reperitur in corporibus inanimatis, 
+      <lb ed="#T" n="62"/>&amp; sic spirare dicitur euaporare: &amp; in compositis 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0175.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="63"/>ex corpore &amp; anima, &amp; sic spirare est Spiritum. 
+      <lb ed="#T" n="64"/>emittere vel attrahere: item in spiritibus, &amp; sic 
+      <lb ed="#T" n="65"/>est vitam inspirare: sed nullo horum modorum 
+      <lb ed="#T" n="66"/>virtus spiratiua Deo conuenit: quia euaporatio  
+      <lb ed="#T" n="67"/>sit per rarefactionem; inspiratio &amp; respiratio  
+      <lb ed="#T" n="68"/>propter indigentiam; inspiratio vitae actus est 
+      <lb ed="#T" n="69"/>non res per se subsistens: ergo nullo modo 
+      con<lb ed="#T" n="70" break="no"/>uenit Deo virtus spiratiua. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e1238">
+                  <lb ed="#T" n="71"/>2. Virtus spiratiua, aut est essentia, &amp; sic est 
+      <lb ed="#T" n="72"/>in tribus, aut persona, &amp; sic non est nisi in vno. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e1246">
+                  <lb ed="#T" n="73"/>3. Potentia spiratiua, si est vlla potentia, aut 
+      <lb ed="#T" n="74"/>est eadem cum potentia generatiua, &amp; sic est in 
+      <lb ed="#T" n="75"/>solo Patre, aut non eadem, &amp; sic in Deo sunt,  
+      <lb ed="#T" n="76"/>diuersae potentiae: videtur ergo quod potentia 
+      <lb ed="#T" n="77"/>spiratiua non sit vlla potentia. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e1259">
+                  <lb ed="#T" n="78"/>Contra. Omnis actus egreditur ab aliqua 
+      <lb ed="#T" n="79"/>potentia: ergo &amp; actus spirandi: ergo est aliqua 
+      <lb ed="#T" n="80"/>potentia spiratiua. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e1268">
+                  <lb ed="#T" n="81"/>Respondeo. Sicut potentia generandi duo 
+      di<lb ed="#T" n="82" break="no"/>cit, rationem potentiae quae essentialis est, &amp; 
+      ra<lb ed="#T" n="83" break="no"/>tionem actus qui notionalis est, vnde dicit 
+      <lb ed="#T" n="84"/>quid essentiale tractum ad significationem 
+      per<lb ed="#T" n="85" break="no"/>sonalem: ita potentia spiratiua. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e1281">
+                  <lb ed="#T" n="86"/>Ad 1. De modo spirandi. Resp. Non dicitur ad 
+      <lb ed="#T" n="87"/>similitudinem alicuius illorum, sed sicut amans 
+      <lb ed="#T" n="88"/>dicitur spirare amorem, vnde &amp; conspiratio 
+      <lb ed="#T" n="89"/>dicitur concors aliquorum propositum: nec 
+      <lb ed="#T" n="90"/>tamen est omnimoda similitudo, sed quo ad 
+      <lb ed="#T" n="91"/>aliquid, scilicet quoad modum procedendi, non 
+      <lb ed="#T" n="92"/>quoad existentiam procedentis. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e1299">
+                  <lb ed="#T" n="93"/>Ad 2. Aut est essentia &amp;c. Resp. Notio est, 
+      <lb ed="#T" n="94"/>non personalis, sed personae: &amp; ideo personam 
+      <lb ed="#T" n="95"/>vnam non determinat nec distinguit, sed duas 
+      <lb ed="#T" n="96"/>personas a tertia. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e1310">
+                  <lb ed="#T" n="97"/>Ad 3. De potentia generatiua. Resp. 
+      Respi<lb ed="#T" n="98" break="no"/>ciendo ad potentiam ipsam secundum radicem 
+      <lb ed="#T" n="99"/>potentiae eadem est; respiciendo ipsam in 
+      com<lb ed="#T" n="100" break="no"/>paratione ad actum, &amp; vt actui coniunctam, sic 
+      <lb ed="#T" n="101"/>differt: sicut in Sole potentia liquefaciendi &amp; 
+      <lb ed="#T" n="102"/>restringendi secundum essentiam potentiae vna 
+      <lb ed="#T" n="103"/>est, secundum actum differens. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e29402-Dd1e1329">
+               <head xml:id="pdt7y6-e29402-Hd1e1331">Expositio litterae</head>
+               <p xml:id="pdt7y6-e29402-d1e1333">
+                  <lb ed="#T" n="104"/>EXPOSITIO LITERAE. 
+      <lb ed="#T" n="105"/>Isit Spiritum Filij sui.] Contra. Per hoc 
+      <lb ed="#T" n="106"/>Qnon probatur Spiritus sanctus esse a Filio 
+      <lb ed="#T" n="107"/>sed Filij, quod Graeci concedunt. Resp. Imo 
+      <lb ed="#T" n="108"/>quia notatur habitudo aliqua aeterna Filij ad 
+      <lb ed="#T" n="109"/>Spiritum sanctum, quae non potest esse nisi 
+      se<lb ed="#T" n="110" break="no"/>cundum originem. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e1351">
+                  <lb ed="#T" n="111"/>[Quem ego mittam.] Contra. Ibi loquitur 
+      <lb ed="#T" n="112"/>de processione temporali: ergo per hoc non 
+      pro<lb ed="#T" n="113" break="no"/>batur, quod aeternaliter procedat a Filio. Resp. 
+      <lb ed="#T" n="114"/>Quod in temporali includitur aeterna 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e1362">
+                  <lb ed="#T" n="115"/>[AIterum a Latinis est additum.] Sed 
+      quo<lb ed="#T" n="116" break="no"/>modo sine conuocatione Concilij. Resp. Quod  
+      <lb ed="#T" n="117"/>cum hoc ex intellectu Euangelij constaret 
+      <lb ed="#T" n="118"/>non erat propter hoc necesse Concilium 
+      con<lb ed="#T" n="119" break="no"/>gregari. 
+    </p>
+               <p xml:id="pdt7y6-e29402-d1e1375">
+                  <lb ed="#T" n="120"/>[Qui aliud docuerit) Id est contrarium: 
+      <lb ed="#T" n="121"/>ibi enim non tota plenitudo fidei continetur  
+      <lb ed="#T" n="122"/>cum de descensu ad Inferos nihil ibi 
+      tanga<lb ed="#T" n="123" break="no"/>tur.  
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

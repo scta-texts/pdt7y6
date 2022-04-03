@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="84"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e25260"><!-- l1d9q1 -->
+            <head xml:id="pdt7y6-e25260-Hd1e99">Quaestio 1</head>
+            <head xml:id="pdt7y6-e25260-Hd1e101" type="question-title">De distinctione geniti a generante</head>
+            <p xml:id="pdt7y6-e25260-d1e104">
+               <lb ed="#T" n="37"/>QVESTIO I. 
+      <lb ed="#T" n="38"/>DE DISTINCTIONE GENITI 
+      <lb ed="#T" n="39"/>A GENERANTE. 
+</p>
+            <p xml:id="pdt7y6-e25260-d1e113">
+               <lb ed="#T" n="40"/>QVaeruntur hic quatuor circa 
+      generatio<lb ed="#T" n="41" break="no"/>nem Filii.
+      <lb ed="#T" n="42"/>Primo de distinctione geniti a generante. 
+      <lb ed="#T" n="43"/>Secundo de ordine. 
+      <lb ed="#T" n="44"/>Tertio de aeternitate. 
+      <lb ed="#T" n="45"/>Quarto de coeternitatis significatione. 
+    </p>
+            <p xml:id="pdt7y6-e25260-d1e129">
+               <lb ed="#T" n="46"/>Circa primum duo quaeruntur.  
+      <lb ed="#T" n="47"/>Primo, an generatio distinguat personam 
+      ge<lb ed="#T" n="48" break="no"/>nitoris &amp; geniti. 
+      <lb ed="#T" n="49"/>Secundo, an propter huiusmodi 
+      distinctio<lb ed="#T" n="50" break="no"/>nem possit dicit genitus alius a genitore. 
+    </p>
+            <div xml:id="pdt7y6-e25260-Dd1e143">
+               <head xml:id="pdt7y6-e25260-Hd1e145">Articulus 1</head>
+               <head xml:id="pdt7y6-e25260-Hd1e147" type="question-title">
+  An generatio distinguat personam genitoris et geniti
+</head>
+               <p xml:id="pdt7y6-e25260-d1e150">
+                  <lb ed="#T" n="51"/>Articvlvs I. 
+      <lb ed="#T" n="52"/>An generatio distinguat personam genitoris &amp; geniti. 
+    </p>
+               <p xml:id="pdt7y6-e25260-d1e157">
+                  <lb ed="#T" n="53"/>D primum sic proceditur. 1. Pater 
+      generan<lb ed="#T" n="54" break="no"/>do Filium dat ei quicquid habet: ergo 
+      es<lb ed="#T" n="55" break="no"/>sentiam &amp; personam: ergo eadem est Patris &amp; 
+      <lb ed="#T" n="56"/>Filij persona. 
+    </p>
+               <p xml:id="pdt7y6-e25260-d1e168">
+                  <lb ed="#T" n="57"/>2. Quaecumque omnino sunt idem, vnum non 
+      <lb ed="#T" n="58"/>communicatur sine altero: essentia Patris, &amp; 
+      <lb ed="#T" n="59"/>persona eius omnino sunt idem: ergo &amp;c. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0159.xml-->
+      <cb ed="#T" n="c"/>
+                  <lb ed="#T" n="60"/>3. AEque simplex est essentia ac persona, &amp;e 
+      <lb ed="#T" n="61"/>conuerso: si ergo propter simplicitatem 
+      essen<lb ed="#T" n="62" break="no"/>tiae non potest Pater de se Filium generare, quin 
+      <lb ed="#T" n="63"/>communicet ei totam essentiam, similiter non 
+      <lb ed="#T" n="64"/>potest generare, quin communicet ei totam 
+      per<lb ed="#T" n="65" break="no"/>sonam. 
+    </p>
+               <p xml:id="pdt7y6-e25260-d1e195">
+                  <lb ed="#T" n="66"/>4. Secundum sanctos totus processus Filij a 
+      <lb ed="#T" n="67"/>Patre est sicut radij a sole; splendoris ab igne; 
+      <lb ed="#T" n="68"/>verbi a corde; notitiae a mente: sed hic 
+      proces<lb ed="#T" n="69" break="no"/>sus no facit distinctionem personae: ergo nec ille. 
+    </p>
+               <p xml:id="pdt7y6-e25260-d1e206">
+                  <lb ed="#T" n="70"/>Contra. 1. Nulla res seipsam gignit vt sit: 
+      er<lb ed="#T" n="71" break="no"/>go nulla persona gignit seipsam: ergo oportet 
+      <lb ed="#T" n="72"/>personam genitoris &amp; personam geniti esse aliam. 
+    </p>
+               <p xml:id="pdt7y6-e25260-d1e215">
+                  <lb ed="#T" n="73"/>2. Anselmus de process. Spiritus sancti: Nec 
+      <lb ed="#T" n="74"/>natura permittit, nec intellectus capit, qui ab 
+      <lb ed="#T" n="75"/>alio est, esse illum de quo est, 
+    </p>
+               <p xml:id="pdt7y6-e25260-d1e224">
+                  <lb ed="#T" n="76"/>3. In humanis bene sequitur: Plato est pater 
+      <lb ed="#T" n="77"/>Socratis: ergo non est filius eiusdem: ergo a 
+      <lb ed="#T" n="78"/>simili in diuinis. 
+    </p>
+               <p xml:id="pdt7y6-e25260-d1e233">
+                  <lb ed="#T" n="79"/>Respondeo. Generatio diuina dat genito esse 
+      <lb ed="#T" n="80"/>substantiale, non accidentale: non est ergo 
+      acci<lb ed="#T" n="81" break="no"/>dentalis sed substantialis: non substantiae quae 
+      <lb ed="#T" n="82"/>est essentia, quia essentia non generatur, licet per 
+      <lb ed="#T" n="83"/>generationem communicetur, sed substantiae, 
+      <lb ed="#T" n="84"/>quae est hypostasis, vel persona. Quia ergo 
+      nul<lb ed="#T" n="85" break="no"/>la res seipsam generat, oportet, quod 
+      distingua<lb ed="#T" n="86" break="no"/>tur in diuinis hypostasis generans ab hypostasi. 
+      <lb ed="#T" n="87"/>genita; non tamen in eo quod est absolute, quia 
+      <lb ed="#T" n="88"/>idem est esse vtriusque, sed in eo quod est haec 
+      <lb ed="#T" n="89"/>nita, illa generans. 
+    </p>
+               <p xml:id="pdt7y6-e25260-d1e259">
+                  <lb ed="#T" n="90"/>Ad 1. Pater dat Filio quicquid habet. Resp. 
+      <lb ed="#T" n="91"/>Figura dictionis est ex mutatione 
+      praedicamen<lb ed="#T" n="92" break="no"/>ti, quia sub quid assumitur ad aliquid. In 
+      Diui<lb ed="#T" n="93" break="no"/>nis enim est triplex praedicamentum: quid 
+      prae<lb ed="#T" n="94" break="no"/>dicat substantiam, quia quid secundum 
+      Philo<lb ed="#T" n="95" break="no"/>sophos quaerit de substantia, vt quid natat in 
+      <lb ed="#T" n="96"/>mariapiscis: quis praedicat personam, quia 
+      quae<lb ed="#T" n="97" break="no"/>rit de persona, vt quis est in foro? Socrates: 
+      qui<lb ed="#T" n="98" break="no"/>praedicat notionem, quae significatur vt forma 
+      <lb ed="#T" n="99"/>quaedam inhaerens. Ex horum trium 
+      praedica<lb ed="#T" n="100" break="no"/>mentorum commutatione sit in Diuinis figura 
+      <lb ed="#T" n="101"/>dictionis. 
+    </p>
+               <p xml:id="pdt7y6-e25260-d1e289">
+                  <lb ed="#T" n="102"/>Ad 2. Quaecumque omnino sunt idem. Resp. 
+      <lb ed="#T" n="103"/>Quando sunt idem re, &amp; ratione verum est; alias 
+      <lb ed="#T" n="104"/>non. Nam homo &amp; Socrates in persona 
+      Socra<lb ed="#T" n="105" break="no"/>tis sunt omnino idem re, vnde vnum 
+      praedica<lb ed="#T" n="106" break="no"/>tur de altero: tamen homo dicit quid 
+      commu<lb ed="#T" n="107" break="no"/>nicabile, Socrates vero incommunicabile: 
+      vn<lb ed="#T" n="108" break="no"/>de Socrates homo generando communicat 
+      ge<lb ed="#T" n="109" break="no"/>nito esse hominis, non esse Socratis. 
+    </p>
+               <p xml:id="pdt7y6-e25260-d1e309">
+                  <lb ed="#T" n="110"/>Ad 3. AEque simplex est &amp;c. Resp. Non 
+      fa<lb ed="#T" n="111" break="no"/>cit hoc simplicitas, sed communicabilitas, quia 
+      <lb ed="#T" n="112"/>essentia dicit esse absolutum; persona vero distinctum. 
+    </p>
+               <p xml:id="pdt7y6-e25260-d1e318">
+                  <lb ed="#T" n="113"/>Ad. 4. De radio &amp;c. Resp. Similitudo est in 
+      <lb ed="#T" n="114"/>ordine, &amp; modo procedendi, non in substantia. 
+      <lb ed="#T" n="115"/>distincta procedentis, quia illa generatio 
+      acci<lb ed="#T" n="116" break="no"/>dentalis est, haec substantialis. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e25260-Dd1e330">
+               <head xml:id="pdt7y6-e25260-Hd1e332">Articulus 2</head>
+               <head xml:id="pdt7y6-e25260-Hd1e334" type="question-title">
+  An genitus sit alius a genitore
+</head>
+               <p xml:id="pdt7y6-e25260-d1e337">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0160.xml-->
+                  <pb ed="#T" n="85"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>ARTICVLVS II. 
+      <lb ed="#T" n="2"/>An genitus sit alius a genitore.
+    </p>
+               <p xml:id="pdt7y6-e25260-d1e350">
+                  <lb ed="#T" n="3"/>AD secundum sic proceditur. 1. Alius est 
+      <lb ed="#T" n="4"/>relatiuum diuersitatis substantiae 
+      secun<lb ed="#T" n="5" break="no"/>dum Philosophos: inter Patrem vero &amp; Filium 
+      <lb ed="#T" n="6"/>nulla est diuersitas substantiae. 
+    </p>
+               <p xml:id="pdt7y6-e25260-d1e361">
+                  <lb ed="#T" n="7"/>2. Eiusdem significationis sunt alius, &amp; aliud, 
+      <lb ed="#T" n="8"/>quamuis differentis consignificationis: si ergo 
+      <lb ed="#T" n="9"/>cum dicitur Filius aliud a Patre falsa est, 
+      simili<lb ed="#T" n="10" break="no"/>ter cum dicitur alius. 
+    </p>
+               <p xml:id="pdt7y6-e25260-d1e373">
+                  <lb ed="#T" n="11"/>3. Proprietas, secundum Porphyrium, non 
+      <lb ed="#T" n="12"/>tacit alium, sed alterum: sed Pater &amp; Filius sola 
+      <lb ed="#T" n="13"/>proprietate differunt: ergo &amp;c. 
+      <lb ed="#T" n="14"/>4. Si est alius, aut est alius Deus, &amp; sic sut duo 
+      <lb ed="#T" n="15"/>Dij; aut alius non Deus, &amp; sic Filius non est Deus, 
+    </p>
+               <p xml:id="pdt7y6-e25260-d1e386">
+                  <lb ed="#T" n="16"/>Contra. 1. Athanasius. Alia est persona 
+      Pa<lb ed="#T" n="17" break="no"/>tris, alia Filij. 
+    </p>
+               <p xml:id="pdt7y6-e25260-d1e393">
+                  <lb ed="#T" n="18"/>2. Quicumque realiter distinguuntur, vnus est 
+      <lb ed="#T" n="19"/>alius ab alio: Pater &amp; Filius &amp; Spiritus sanctus 
+      <lb ed="#T" n="20"/>realiter distinguntur: quia sunt tres res: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e25260-d1e402">
+                  <lb ed="#T" n="21"/>Respondeo. Filius est alius a Patre, sed non 
+      <lb ed="#T" n="22"/>aliud: quia alius significat diuersitatem 
+      substan<lb ed="#T" n="23" break="no"/>tialem substantiae, quae est persona: aliud 
+      diuer<lb ed="#T" n="24" break="no"/>sitatem substantialem substantiae, quae est 
+      essen<lb ed="#T" n="25" break="no"/>tia. Ratio vero huius sumitur non a parte rei, 
+      <lb ed="#T" n="26"/>significatae, sed a parte modi significandi, qui 
+      <lb ed="#T" n="27"/>multum operatur in talibus. A parte modi 
+      signi<lb ed="#T" n="28" break="no"/>ficandi ratio sumitur duplex: vna a parte 
+      insti<lb ed="#T" n="29" break="no"/>tutionis, altera a parte vsus. A parte 
+      institutio<lb ed="#T" n="30" break="no"/>nis, quia in Diuinis tria sunt, essentia, persona, 
+      <lb ed="#T" n="31"/>&amp; notio, Essentia dicit quid nec distinctum 
+      <lb ed="#T" n="32"/>nec distinguens; persona quid distinctum, &amp; 
+      <lb ed="#T" n="33"/>per se subsistens; notio quid distinguens 
+      forma<lb ed="#T" n="34" break="no"/>liter, vnde quasi non per se subsistens sed in 
+      al<lb ed="#T" n="35" break="no"/>tero. Quia ergo neutrum genus quasi informe 
+      <lb ed="#T" n="36"/>est, non distinctum vllo sexu; genus vero 
+      mas<lb ed="#T" n="37" break="no"/>culinum distinctum &amp; perfectum; genus vero 
+      <lb ed="#T" n="38"/>foemininum distinctum quidem, sed quasi 
+      de<lb ed="#T" n="39" break="no"/>pendens ab altero: ideo nomina in neutro 
+      gene<lb ed="#T" n="40" break="no"/>re praedicant essentiam, in masculino personam, 
+      <lb ed="#T" n="41"/>in foeminino notionem, quando non 
+      adiungun<lb ed="#T" n="42" break="no"/>tur terminis alijs, a quibus trahant 
+      significa<lb ed="#T" n="43" break="no"/>tionem aliam. Secunda ratio videtur melior 
+      <lb ed="#T" n="44"/>a parte vsus, quia haec nomina adjectiua sunt,  
+      <lb ed="#T" n="45"/>non substantiua: adiectiuum vero 
+      substantiua<lb ed="#T" n="46" break="no"/>tur ex vsu in neutro genere, non in masculino 
+      <lb ed="#T" n="47"/>vel in foeminino, nisi raro, nec ita proprie: 
+      <lb ed="#T" n="48"/>ideo in neutro genere dicunt diuersitatem 
+      sim<lb ed="#T" n="49" break="no"/>pliciter, quae est diuersitas in substantia, vel 
+      <lb ed="#T" n="50"/>essentia: in alijs generibus dicunt 
+      diuersita<lb ed="#T" n="51" break="no"/>tem secundum exigentiam substantiui sui, 
+      <lb ed="#T" n="52"/>quia adiuncta terminis substantialibus, 
+      substan<lb ed="#T" n="53" break="no"/>tialem diuersitatem dicunt, vnde haec est 
+      falsa<lb ed="#T" n="54" break="no"/>Pater est alius Deus a Filio; adiuncta terminis 
+      <lb ed="#T" n="55"/>personalibus dicunt diuersitatem personalem 
+      <lb ed="#T" n="56"/>vel notionalem, vnde haec est vera, Pater est 
+      <lb ed="#T" n="57"/>alia persona, vel alius a Filio: vnde &amp; in neutro 
+      <lb ed="#T" n="58"/>genere, quando retinetur adiectiue, similiter  
+      <lb ed="#T" n="59"/>dicunt diuersitatem secundum exigentiam 
+      sub<lb ed="#T" n="60" break="no"/>stantiui, vnde vere dicitur, Pater est aliud 
+      sup<lb ed="#T" n="61" break="no"/>positum a Filio. 
+    </p>
+               <p xml:id="pdt7y6-e25260-d1e493">
+                  <lb ed="#T" n="62"/>Ad 1. Alius est relatiuum diuersitatis 
+      substan<lb ed="#T" n="63" break="no"/>tiae. Resp. Substantia accipitur ibi communiter  
+      <lb ed="#T" n="64"/>ad essentiam &amp; hypostasim. 
+    </p>
+               <p xml:id="pdt7y6-e25260-d1e502">
+                  <lb ed="#T" n="65"/>Ad 2. Eadem est significatio. Resp. Quamuis 
+      <lb ed="#T" n="66"/>eadem sit significatio, tamen propter differen¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0160.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>tem modum significandialtera est aliquado 
+      sun<lb ed="#T" n="68" break="no"/>positio vel copulatio: veritas vero &amp; falsitas 
+      <lb ed="#T" n="69"/>causatur in propositione non solum ex parte 
+      <lb ed="#T" n="70"/>significationis, sed etiam suppositionis vel 
+      co<lb ed="#T" n="71" break="no"/>pulationis. 
+    </p>
+               <p xml:id="pdt7y6-e25260-d1e525">
+                  <lb ed="#T" n="72"/>Ad 3. De proprietate. Resp. Secus est de 
+      pro<lb ed="#T" n="73" break="no"/>prietate in inferioribus, quia aduenit &amp; differt 
+      <lb ed="#T" n="74"/>a supposito distincto: sed in Diuinis distinguit 
+      <lb ed="#T" n="75"/>ipsum suppositum, &amp; est idem cum ipso¬ 
+    </p>
+               <p xml:id="pdt7y6-e25260-d1e536">
+                  <lb ed="#T" n="76"/>Ad 4. Aut alius Deus. Resp. Diuisio 
+      insuf<lb ed="#T" n="77" break="no"/>ficiens est, quia non est per immediata, scilicet, 
+      <lb ed="#T" n="78"/>per affirmationem &amp; negationem vnius totius 
+      <lb ed="#T" n="79"/>&amp; eiusdem: vnde sic debet dici: Aut alius Deus, 
+      <lb ed="#T" n="80"/>aut non alius Deus: vt si dicatur de monacho 
+      <lb ed="#T" n="81"/>nigro, qui est albus corpore: Iste est albus: aut 
+      <lb ed="#T" n="82"/>ergo albus monaclus, aut albus non monachus. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

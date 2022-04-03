@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="355"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-f08875"><!-- l1d43q1 -->
+            <head xml:id="pdt7y6-f08875-Hd1e99">Quaestio 1</head>
+            <head xml:id="pdt7y6-f08875-Hd1e101" type="question-title">De infinitate divinae potentiae</head>
+            <p xml:id="pdt7y6-f08875-d1e104">
+               <lb ed="#T" n="57"/>QuaEeSXIQE 
+      <lb ed="#T" n="58"/>DE ENEINITATE DIVINAE 
+      <lb ed="#T" n="59"/>POTENTIAE.
+    </p>
+            <p xml:id="pdt7y6-f08875-d1e113">
+               <lb ed="#T" n="60"/>LTIe duo quaeruntur.
+      <lb ed="#T" n="61"/>A Primo de infinitate diuinae potentiae. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0430.xml-->
+      <cb ed="#T" n="c"/>
+               <lb ed="#T" n="62"/>Secundo de necessitate operandi. 
+    </p>
+            <p xml:id="pdt7y6-f08875-d1e126">
+               <lb ed="#T" n="63"/>Circa primum quaeruntur quatuor.  
+      <lb ed="#T" n="64"/>Primo an essentia Dei sit infinita. 
+      <lb ed="#T" n="65"/>Secundo an potentia Dei sit infinita. 
+      <lb ed="#T" n="66"/>Tertio an sit in actum reducibilis illa infinitas. 
+      <lb ed="#T" n="67"/>Quarto an eius omnipotentia sit creaturae
+      <lb ed="#T" n="68"/>communicabilis. 
+    </p>
+            <div xml:id="pdt7y6-f08875-Dd1e143">
+               <head xml:id="pdt7y6-f08875-Hd1e145">Articulus 1</head>
+               <head xml:id="pdt7y6-f08875-Hd1e147" type="question-title">
+  An essentia Dei sit infinita
+</head>
+               <p xml:id="pdt7y6-f08875-d1e150">
+                  <lb ed="#T" n="69"/>Articvlvs I. 
+      <lb ed="#T" n="70"/>An essentia Dei sit infinita.
+</p>
+               <p xml:id="pdt7y6-f08875-d1e157">
+                  <lb ed="#T" n="71"/>AD primum sic proceditur. 1. Si aliqua duo 
+      <lb ed="#T" n="72"/>sunt idem, &amp; vnum est infinitum, reliquum 
+      <lb ed="#T" n="73"/>erit infinitum: sed potentia Dei &amp; essentia sunt,  
+      <lb ed="#T" n="74"/>idem: ergo cum ab omnibus Dei potentia 
+      po<lb ed="#T" n="75" break="no"/>natur infinita, &amp; essentia eius est infinita. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e170">
+                  <lb ed="#T" n="76"/>2. Nulla essentia finita potest esse vbique, 
+      ic<lb ed="#T" n="77" break="no"/>cundum Ambrosium: sed essentia Dei simul 
+      <lb ed="#T" n="78"/>potest esse vbique: ergo ipsa est infinita. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e180">
+                  <lb ed="#T" n="79"/>3. Essentia diuina est quo maius cogitari non 
+      <lb ed="#T" n="80"/>potest: sed omni finito maius cogitari potest: 
+      <lb ed="#T" n="81"/>ergo ipsa est infinita. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e189">
+                  <lb ed="#T" n="82"/>4. Omni finito aliud finitum multiplicatum 
+      <lb ed="#T" n="83"/>potest aequari, vt linea lineae: sed essentiae 
+      diui<lb ed="#T" n="84" break="no"/>nae nulla essentia quantumcumque multiplicata 
+      <lb ed="#T" n="85"/>aequari potest: ergo ipsa est infinita. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e200">
+                  <lb ed="#T" n="86"/>Contra. 1. Secundum Philosophum lib. 
+      <lb ed="#T" n="87"/>Physic. Finitum &amp; infinitum passiones sunt 
+      qua<lb ed="#T" n="88" break="no"/>titatis: sed essentia vt essentia nullo genere 
+      qua<lb ed="#T" n="89" break="no"/>titatis est quanta, quia nec quantitate molis 
+      <lb ed="#T" n="90"/>nec quantitate virtutis: ergo nullo modo est 
+      in<lb ed="#T" n="91" break="no"/>finita. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e216">
+                  <lb ed="#T" n="92"/>2. Omnis potentia quae potest vnum solum 
+      <lb ed="#T" n="93"/>&amp; non aliud est potentia finita: ergo a simili 
+      om<lb ed="#T" n="94" break="no"/>nis essentia quae est vnum solum &amp; non aliud est 
+      <lb ed="#T" n="95"/>essentia finita: sed talis est essentia diuiaa: ergo 
+      <lb ed="#T" n="96"/>est finita. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e229">
+                  <lb ed="#T" n="97"/>3. Nullum in se infinitum potest finire alia: 
+      <lb ed="#T" n="98"/>sed essentia diuina finit omnia: ergo ipsa non est 
+      <lb ed="#T" n="99"/>infinita. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e238">
+                  <lb ed="#T" n="100"/>4. Quod simpliciter est nobilius, Deo attria 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0431.xml-->
+      <pb ed="#T" n="356"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>buendum est: finitum dicit habitum, infinitum 
+      <lb ed="#T" n="2"/>priuationem; &amp; nobilior est semper habitus 
+      pri<lb ed="#T" n="3" break="no"/>uatione: ergo essentia Dei dici debet finita &amp; non 
+      <lb ed="#T" n="4"/>nfinita. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e259">
+                  <lb ed="#T" n="5"/>5. Sancti sunt beati in accipiendo per 
+      intelle<lb ed="#T" n="6" break="no"/>ctum diuinam essentiam: sed si infinita est, 
+      nun<lb ed="#T" n="7" break="no"/>quam accipiunt totam: ergo semper inhiant ad 
+      <lb ed="#T" n="8"/>amplius accipiendum: ergo nunquam 
+      termina<lb ed="#T" n="9" break="no"/>tur eorum desiderium: ergo nunquam sunt 
+      bea<lb ed="#T" n="10" break="no"/>ti videndo diuinam essentiam. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e275">
+                  <lb ed="#T" n="11"/>6. Quicquid sibi Deus est, illud vere est: sed  
+      <lb ed="#T" n="12"/>sibi ipsi secundum essentiam finitus est, quia 
+      to<lb ed="#T" n="13" break="no"/>tam suam essentiam comprehendit: ergo vere 
+      <lb ed="#T" n="14"/>finitus est, 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e286">
+                  <lb ed="#T" n="15"/>Respondeo. Circa hoc quidam dixerunt, quod 
+      <lb ed="#T" n="16"/>essentia Dei, vt essentia, finita est; sed vt virtus 
+      <lb ed="#T" n="17"/>infinita. Sed hoc non est verum, quia finitae essentiae 
+      <lb ed="#T" n="18"/>non potest esse virtus infinita. Alij dixerunt,  
+      <lb ed="#T" n="19"/>quod non est finita, nec infinita, quia finis est 
+      <lb ed="#T" n="20"/>omnium. Sed sanctoru auctoritates dicunt vbique 
+      <lb ed="#T" n="21"/>Deum infinitum, immensum. Ideo alij dixerunt  
+      <lb ed="#T" n="22"/>quod finita est quoad se, infinita quoad nos. Sed 
+      <lb ed="#T" n="23"/>contra hoc est, quia maius est quod est 
+      infini<lb ed="#T" n="24" break="no"/>tum simpliciter in seipso, quam quod ad alters 
+      <lb ed="#T" n="25"/>tantum: Deo vero nihil maius esse vel cogitar 
+      <lb ed="#T" n="26"/>potest. Ideo tenendum est quod essentia Dei vno 
+      <lb ed="#T" n="27"/>modo est infinita, id est negatiue: alio modo non 
+      <lb ed="#T" n="28"/>id est priuatiue. Infinita quidem est essentia Dei, 
+      <lb ed="#T" n="29"/>negatiue, quia nullo fine concluditur. Finis enim 
+      <lb ed="#T" n="30"/>multipliciter dici potest: vel terminus essentiae, 
+      <lb ed="#T" n="31"/>sic definitio terminus dicitur ab vltima 
+      differen<lb ed="#T" n="32" break="no"/>tia completiia, vel terminus quantitatis, siue 
+      di<lb ed="#T" n="33" break="no"/>mentisae, siue virtualis: vel terminus ordinis siue 
+      <lb ed="#T" n="34"/>ordinationis, inclinationis naturalis, sicut causa 
+      <lb ed="#T" n="35"/>finalis dicitur fins: essentia vero Diuina nullum 
+      <lb ed="#T" n="36"/>habat finein, nec esse: tialitatis, quia est esse 
+      pu<lb ed="#T" n="37" break="no"/>rnm sine additione determin:nte: nec virtutis, 
+      <lb ed="#T" n="38"/>quia habet esse vbique: nec ordinis, quia non 
+      <lb ed="#T" n="39"/>ordinatur ad aliud. Est ergo essentia diuina 
+      infini<lb ed="#T" n="40" break="no"/>ta, non tantum eius potentia, vel duratio: quia 
+      <lb ed="#T" n="41"/>essentia tam magna est quod nunquam est in tot 
+      <lb ed="#T" n="42"/>locis, quin possit esse in pluribus; nec potentia 
+      <lb ed="#T" n="43"/>potest in tot, quin possit in plura: nec duratio 
+      tan<lb ed="#T" n="44" break="no"/>tum durat, quin etiam plus, quia nec incipit nec 
+      <lb ed="#T" n="45"/>finitur.  
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e356">
+                  <lb ed="#T" n="46"/>Ad 1. In contrarium. Finitum &amp; infinitum funt 
+      <lb ed="#T" n="47"/>passiones quantitatis. Resp. Duplex est 
+      quanti<lb ed="#T" n="48" break="no"/>tas: quantitas scilicet molis in rebus 
+      corporali<lb ed="#T" n="49" break="no"/>bus &amp; virtutis in spiritualibus: essentia diuina 
+      <lb ed="#T" n="50"/>infinita est secundum quantitatem virtutis, non 
+      <lb ed="#T" n="51"/>molis: nec quantitas virtutis est idem quod 
+      qua<lb ed="#T" n="52" break="no"/>titas potentiae, sed vniuersalior; nam quantitas 
+      <lb ed="#T" n="53"/>virtutis attenditur siue in essendo, siue in 
+      ope<lb ed="#T" n="54" break="no"/>rando, siue in durando, quantitas vero potentiae 
+      <lb ed="#T" n="55"/>in operando tantum. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e380">
+                  <lb ed="#T" n="56"/>Ad 2. Potentia quae potest hoc &amp; non aliud. 
+      <lb ed="#T" n="57"/>Resp. Non est simile, quia potentia dicit 
+      respe<lb ed="#T" n="58" break="no"/>ctum ad possibile, vnde eius infinitas tota 
+      atten<lb ed="#T" n="59" break="no"/>ditur penes respectum ad possibilia: sed infinitas 
+      <lb ed="#T" n="60"/>essentiae non attenditur solum penes esse hoc &amp; 
+      <lb ed="#T" n="61"/>illud, sed penes esse in hoc, &amp; non in altero 
+      quo<lb ed="#T" n="62" break="no"/>libet ente, etiam in infinitis si essent infinita, 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e398">
+                  <lb ed="#T" n="63"/>Ad 3. Nullum infinitum &amp;c. Resp. De hoc 
+      <lb ed="#T" n="64"/>quod est infinitum priuatiue verum est, quia hoc 
+      <lb ed="#T" n="65"/>est infinitum potentia: sed de hoc quod est 
+      in<lb ed="#T" n="66" break="no"/>finitum negatiue solum, non: hoc enim cum sit 
+      <lb ed="#T" n="67"/>infinitum actu, infinitae virtutis est, vnde omnia 
+      <lb ed="#T" n="68"/>finit &amp; termi nat effectiue, non formaliter, sic 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0431.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="69"/>enim (id est formaliter) vnumquidque 
+      termina<lb ed="#T" n="70" break="no"/>tur proprio termino. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e423">
+                  <lb ed="#T" n="71"/>Ad 4. Quod nobilius est &amp;c. Resp. Infinitum 
+      <lb ed="#T" n="72"/>priuatiue non attribuitur Deo; sed infinitu 
+      nega<lb ed="#T" n="73" break="no"/>tiue: hoc autem nobilius est quam esse finitum. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e432">
+                  <lb ed="#T" n="74"/>Ad 5. De beatitudine Sanctorum. Resp. 
+      Qua<lb ed="#T" n="75" break="no"/>uis in se sit Dei essentia infinita, tamen in sanctis 
+      <lb ed="#T" n="76"/>est modo finito, &amp; sic accipiunt eam: vnde sic 
+      <lb ed="#T" n="77"/>terminatui desiderium eorum in ipsa. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e443">
+                  <lb ed="#T" n="78"/>Ad 6. Quicquid sibi Deus est vere est &amp;c. 
+      <lb ed="#T" n="79"/>Resp. Hoc intelligitur de ijs quae simpliciter est 
+      <lb ed="#T" n="80"/>secundum rem, vt bonus, sapiens, &amp; huialmodi; 
+      <lb ed="#T" n="81"/>non de ijs quae sibi est secundum modum 
+      intel<lb ed="#T" n="82" break="no"/>sigendi, vt finitus comprehensibilis: nam licet sibi 
+      <lb ed="#T" n="83"/>sit comprehensibilis, non tamen vere 
+      compre<lb ed="#T" n="84" break="no"/>hensibilis nisi a seipso¬ 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f08875-Dd1e462">
+               <head xml:id="pdt7y6-f08875-Hd1e464">Articulus 2</head>
+               <head xml:id="pdt7y6-f08875-Hd1e466" type="question-title">
+  An potentia Dei sit infinita
+</head>
+               <p xml:id="pdt7y6-f08875-d1e469">
+                  <lb ed="#T" n="85"/>Articvlvs II. 
+      <lb ed="#T" n="86"/>An potentia Dei sit infinita.
+</p>
+               <p xml:id="pdt7y6-f08875-d1e476">
+                  <lb ed="#T" n="87"/>AD secundum articulum proceditur sic. 1. 
+      <lb ed="#T" n="88"/>Infinitu est cuius partes accipienti semper 
+      <lb ed="#T" n="89"/>est sumere aliquid extra, vt dicit Philosophus Ar 
+      <lb ed="#T" n="90"/>3. Physicorum: partes potentiae determinantur Phr 
+      <lb ed="#T" n="91"/>non secundum se, sed secundum comparatio. tex 
+      <lb ed="#T" n="92"/>nem ad objecta; sed quamcumque quantitatem 
+      <lb ed="#T" n="93"/>obiectorum diuinae potentiae accipias, semper 
+      <lb ed="#T" n="94"/>est aliquid assutere extra: ergo diuina spotentia. 
+      <lb ed="#T" n="95"/>est infinita. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e498">
+                  <lb ed="#T" n="96"/>2. Omnis potentia quae potest in actum 
+      in<lb ed="#T" n="97" break="no"/>finitum, est infinita, sed potentia Dei potest in 
+      <lb ed="#T" n="98"/>actum infinitum, scilicet conseruandi se &amp; 
+      crea<lb ed="#T" n="99" break="no"/>turas aliquas in infinitum, ergo ipsa est infinita. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e510">
+                  <lb ed="#T" n="100"/>3. Omnis potentia quae potest supra extrema in 
+      <lb ed="#T" n="101"/>infinitum distantia, est infinita: sed potentia 
+      Di<lb ed="#T" n="102" break="no"/>uina, cum sit creatrix omnium de nihilo, potest 
+      <lb ed="#T" n="103"/>super ens &amp; non ens, quae sunt extrema in 
+      in<lb ed="#T" n="104" break="no"/>fini.um distantia: ergo est infinita. 
+      <lb ed="#T" n="105"/>4. Omnis potentia quae est idem cum essentia, sic 
+      <lb ed="#T" n="106"/>essentia est infinita, &amp; ipsa; quia vbicumque est 
+      <lb ed="#T" n="107"/>essentia ibi est principium &amp; quasi centrum 
+      dif<lb ed="#T" n="108" break="no"/>fusionis eius per affectus: sed talis est Diuina 
+      po<lb ed="#T" n="109" break="no"/>tentia: ergo est infinita. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e534">
+                  <lb ed="#T" n="110"/>5. Virtus quanto simplicior &amp; magis vnita 
+      <lb ed="#T" n="111"/>tanto magis infinita est, vt habetur lib. de causis: 
+      <lb ed="#T" n="112"/>sed virtus Diuina est simplicissima: ergo 
+      maxi<lb ed="#T" n="113" break="no"/>me infinita. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e545">
+                  <lb ed="#T" n="114"/>Contra. 1. Omne illud in quo est inuenire 
+      sta<lb ed="#T" n="115" break="no"/>tum ad aliquid, finitum est: sed in posse Diuino 
+      <lb ed="#T" n="116"/>est statas ad anquos effectus, non enim potest 
+      <lb ed="#T" n="117"/>ambulare, comedere, peccare, mori, &amp; 
+      huiusmo<lb ed="#T" n="118" break="no"/>di: ergo est finitum. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e558">
+                  <lb ed="#T" n="119"/>2. Omne illud quod ab aliquo exceditur 
+      fini<lb ed="#T" n="120" break="no"/>tum est: sed Diuinum posse exceditur ab eius 
+      sci<lb ed="#T" n="121" break="no"/>re, quia scit multa quae non potest, vt mala: ergo 
+      <lb ed="#T" n="122"/>diuinum posse est finitum. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e569">
+                  <lb ed="#T" n="123"/>3. In rebus videmus quod infinitas est a 
+      ma<lb ed="#T" n="124" break="no"/>teria, sed finitas ab actu &amp; complemento: sed  
+      <lb ed="#T" n="125"/>Diuinum posse est omnino completum: ergo 
+      <lb ed="#T" n="126"/>finitum. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e580">
+                  <lb ed="#T" n="127"/>4. Inter opposita contradictorie, vt currere 
+      <lb ed="#T" n="128"/>non currere est infinita distantia, nec tamen 
+      <lb ed="#T" n="129"/>potentia creata quae super vtrumque potest 
+      di<lb ed="#T" n="130" break="no"/>citur infinita: ergo non ideo, quia potest super 
+      <lb ed="#T" n="131"/>extrema in infinitum distantia, potest dici 
+      po<lb ed="#T" n="132" break="no"/>tentia diuina infinita. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e597">
+                  <lb ed="#T" n="133"/>5. Nec ideo potest dici infinita, quia facit actum 
+      <lb ed="#T" n="134"/>durationis infinitum, cum similiter hoo faciat,  
+      <!--1652-gregPress-MichiganState-gbooks-v1-0432.xml-->
+      <pb ed="#T" n="357"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>potentia creaturae alicuius, sicut creaturarum 
+      pe<lb ed="#T" n="2" break="no"/>petuarum: ergo nec quoad actum, nec quoad ob 
+      <lb ed="#T" n="3"/>jectum infinita est: ergo nullo modo 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e617">
+                  <lb ed="#T" n="4"/>6. Onine quod distinguitur ab alijs, habet  
+      <lb ed="#T" n="5"/>speciem qua distinguitur; &amp; omne quod habet 
+      <lb ed="#T" n="6"/>speciem habet modum, &amp; ordinem: ergo cum 
+      <lb ed="#T" n="7"/>diuina potentia distinguatur ab alijs, ipsa habet  
+      <lb ed="#T" n="8"/>hec tria: ergo habet modum: ergo mensuram 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e630">
+                  <lb ed="#T" n="9"/>Respondeo. Sicut quantitas molis penes tria 
+      <lb ed="#T" n="10"/>attenditur, scilicet longitudinem, latitudinem, &amp; 
+      <lb ed="#T" n="11"/>profundum: sic quantitas potentiae vel virtuti 
+      <lb ed="#T" n="12"/>in longitudine durationis, in latitudine 
+      extensio<lb ed="#T" n="13" break="no"/>nis, &amp; in altitudine seu profunditate vigoris. His 
+      <lb ed="#T" n="14"/>tribus modis Diuina potentia infinita: est, quia 
+      <lb ed="#T" n="15"/>caret terinino durationis, quia potest vsque in 
+      <lb ed="#T" n="16"/>aeternum; &amp; termino extensionis, quia potest 
+      in<lb ed="#T" n="17" break="no"/>finita tam specie quam numero; &amp; termino vigo 
+      <lb ed="#T" n="18"/>ris, quia potest vigore infinito, cuius signum est 
+      <lb ed="#T" n="19"/>quod non praesupponit imateriam. Item quod 
+      <lb ed="#T" n="20"/>non requirit moraim. Item quod non requirit 
+      <lb ed="#T" n="21"/>auxilium siue in efficiendo, siue in remouendo 
+      <lb ed="#T" n="22"/>prohibens, haec ominia enim per se facit, 
+      quomo<lb ed="#T" n="23" break="no"/>do vult. Per hoc ergo patet quod potentia Dei 
+      <lb ed="#T" n="24"/>omnino infinita est: 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e667">
+                  <lb ed="#T" n="25"/>Ad 1. In posse Diuino est status. Resp. Nor 
+      <lb ed="#T" n="26"/>est status in genere possibilium, quae posse ad 
+      po<lb ed="#T" n="27" break="no"/>tentiam pertinet; nam posse peccare non est 
+      po<lb ed="#T" n="28" break="no"/>tentiae, sed impotentiae: in genere vero 
+      corpora<lb ed="#T" n="29" break="no"/>lium actuum non eit status, quia quamuis illa 
+      <lb ed="#T" n="30"/>non potsit in se, potest tamen in altere 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e683">
+                  <lb ed="#T" n="31"/>Ad 2. Omne quod exceditur &amp;c. Resp. Hoc 
+      <lb ed="#T" n="32"/>verum est si exceditur in aliquo quod sit ens 
+      sim<lb ed="#T" n="33" break="no"/>pliciter; sed excessus quo scientia excedit 
+      po<lb ed="#T" n="34" break="no"/>tentiam non est secundum id quod sunt, sed se 
+      <lb ed="#T" n="35"/>cundum objecta, non tamen in obiecto quod sit 
+      <lb ed="#T" n="36"/>ens, sed quod sit priuatio entis, id est in malo. S 
+      <lb ed="#T" n="37"/>ergo excederetur in aliquo ente finita esset, sed  
+      <lb ed="#T" n="38"/>excessus in priuatione non facit ad diminutione 
+      <lb ed="#T" n="39"/>potentiae, quamuis faciat ad diminutionem 
+      scie<lb ed="#T" n="40" break="no"/>tiae: quia potentia non est nin de possibilibus 
+      <lb ed="#T" n="41"/>scientia vero etiam de priuationibus 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e709">
+                  <lb ed="#T" n="42"/>Ad 3. De infinitate. Resp. Infinitum priuatiue 
+      di<lb ed="#T" n="43" break="no"/>ctum a materia est, &amp; finitu illi oppositum a forma 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e717">
+                  <lb ed="#T" n="44"/>Ad 4. De infinita distantia &amp;c. Resp. Ens &amp; 
+      <lb ed="#T" n="45"/>non ens dicuntur etiam in infinitum distare, non 
+      <lb ed="#T" n="46"/>ideo quia sunt contradictorie opposita, sed qui  
+      <lb ed="#T" n="47"/>in nullo conueniunt; quia nec in genere subje. 
+      <lb ed="#T" n="48"/>cto, nec in genere praedicabili: sed currere &amp; non 
+      <lb ed="#T" n="49"/>currere conueniunt in genere subjecto, sicut  
+      <lb ed="#T" n="50"/>quiescere &amp; moueri 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e735">
+                  <lb ed="#T" n="51"/>Ad 5. De potentia creaturae. Resp. Pontentia 
+      <lb ed="#T" n="52"/>creaturae non inducit actum durationis per se. 
+      <lb ed="#T" n="53"/>sediconferuante altera potentia, scilicet diuina 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e744">
+                  <lb ed="#T" n="54"/>Ad 6. De specie. Resp. Habere speciem 
+      dici<lb ed="#T" n="55" break="no"/>tur dupliciter, vel intransitiue ita quod ipsum sit 
+      <lb ed="#T" n="56"/>species, vel transitiue ita quod ipsum sit 
+      specio<lb ed="#T" n="57" break="no"/>sum: primo modo potentia Diuina habet 
+      spe<lb ed="#T" n="58" break="no"/>ciem, &amp; modum, &amp; ordinem: secundo modo 
+      <lb ed="#T" n="59"/>non. Ex hoc autem non sequitur quod ipsa sit 
+      <lb ed="#T" n="60"/>mensurata, sed quod est omnium mensura. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f08875-Dd1e763">
+               <head xml:id="pdt7y6-f08875-Hd1e765">Articulus 3</head>
+               <head xml:id="pdt7y6-f08875-Hd1e767" type="question-title">
+  An infinitas potentiae Diuinae sit in actum reducibilis
+</head>
+               <p xml:id="pdt7y6-f08875-d1e770">
+                  <lb ed="#T" n="61"/>Articvlvs III. 
+      <lb ed="#T" n="62"/>An infinitas potentiae Diuinae sit in actum reducibilis. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e777">
+                  <lb ed="#T" n="63"/>AD tertium articulum sic proceditur 
+      <lb ed="#T" n="64"/>Omnis potentia quae se tota operatur 
+      indu<lb ed="#T" n="65" break="no"/>cit effectum sibi proportionatum: cum ergo 
+      po<lb ed="#T" n="66" break="no"/>tentia Diuina, eo quod simplex est, se tota opere¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0432.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>tur producit effectum sio, proportionatum: ergo 
+      <lb ed="#T" n="68"/>cum sitinfinita, producit infinitum, quin finitiad 
+      <lb ed="#T" n="69"/>infinitum nulla est proportio. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e799">
+                  <lb ed="#T" n="70"/>2. Frustra est potentia quae non reducitur ad 
+      <lb ed="#T" n="71"/>actum: sed potentia Dei infinita est: frustra ergo 
+      <lb ed="#T" n="72"/>est, nisi sit reducibilis in actum infinitum. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e809">
+                  <lb ed="#T" n="73"/>3. Frustra est potentia passiua cui non respom. 
+      <lb ed="#T" n="74"/>det potentia actiua producens eam in actum: sed 
+      <lb ed="#T" n="75"/>in creatura est infinita potentia passiua, vt patet,  
+      <lb ed="#T" n="76"/>in continuo &amp; in numero: ergo oportet quod sit 
+      <lb ed="#T" n="77"/>actiua potentia reducens cam in actum: non 
+      <lb ed="#T" n="78"/>nisi Diuina: ergo Diuina potentia potest in 
+      <lb ed="#T" n="79"/>actum infinitum 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e827">
+                  <lb ed="#T" n="80"/>4. Quaecumque potest aliquis facere, possunt 
+      <lb ed="#T" n="81"/>fieri; &amp; quae possunt fieri possunt esse: ergo cum 
+      <lb ed="#T" n="82"/>Deus possit facere infinita, infinita possunt esse. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e836">
+                  <lb ed="#T" n="83"/>5. Qui potest quod maius est, potest quod 
+      mi<lb ed="#T" n="84" break="no"/>nus: sed magis infinitus actus est generatio Fili 
+      <lb ed="#T" n="85"/>quam productio infinitarum creaturarum: ergo 
+      <lb ed="#T" n="86"/>cum potentia Diuina produxerit actum illum 
+      <lb ed="#T" n="87"/>infinitum, multo magis potest producere istum, 
+      <lb ed="#T" n="88"/>6. Potentia infinita non manifestatur sufficienter. 
+      <lb ed="#T" n="89"/>nisi per effectum infinitum: sed potentia Dei 
+      po<lb ed="#T" n="90" break="no"/>test se sufficienter manifestare: cum ergo sit 
+      in<lb ed="#T" n="91" break="no"/>finita potest in effectum infinitum. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e858">
+                  <lb ed="#T" n="92"/>7. Omne quod Deus potest, possibile est: 
+      er<lb ed="#T" n="93" break="no"/>go eo posito nullum sequitur inconueniens: ergo 
+      <lb ed="#T" n="94"/>cum possit infinita, nullum est inconueniens 
+      po<lb ed="#T" n="95" break="no"/>nere actu infinita. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e869">
+                  <lb ed="#T" n="96"/>8. Totum quod Deus potest facere ponatur 
+      <lb ed="#T" n="97"/>in actu: illud ergo aut est finitum, &amp; ita cum Deus 
+      <lb ed="#T" n="98"/>nihil amplius possit, habet posse finitum: aut 
+      in<lb ed="#T" n="99" break="no"/>finitum, ergo Deus potest prouucere actu 
+      infi<lb ed="#T" n="100" break="no"/>nitum. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e882">
+                  <lb ed="#T" n="101"/>9. Aut Deus potest diuidere actu continuum, 
+      <lb ed="#T" n="102"/>aut non: si non, ergo potentia continui 
+      exce<lb ed="#T" n="103" break="no"/>dit potentiam Dei: si sic, ergo possibile est actu 
+      <lb ed="#T" n="104"/>esse infinitas diuisiones. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e894">
+                  <lb ed="#T" n="105"/>Contra. 1. Infinito nihil est maius: sed Deo 
+      <lb ed="#T" n="106"/>nihil potest aequari: ergo effectus infinitus non 
+      <lb ed="#T" n="107"/>potest a Deo produci¬ 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e903">
+                  <lb ed="#T" n="108"/>2. Si producit infinita, ergo non potest plura: 
+      <lb ed="#T" n="109"/>ergo eius potentia est finita. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e910">
+                  <lb ed="#T" n="110"/>3. Nihil potest Deus facere confusum &amp; 
+      inor<lb ed="#T" n="111" break="no"/>dinatum: sed infinitas effectuum priuat ordinem 
+      <lb ed="#T" n="112"/>quia priuat primum, inedium, &amp; vltimum: ergo 
+      <lb ed="#T" n="113"/>Deus no potest producere actu infinitos effectus. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e921">
+                  <lb ed="#T" n="114"/>Respondeo. Triplex est infinitum: quoddam 
+      <lb ed="#T" n="115"/>secundum quantitatem virtutis, vt Deus: 
+      quod<lb ed="#T" n="116" break="no"/>da secundum quantitatem molis, vt si imaginemus 
+      <lb ed="#T" n="117"/>corpus aliquod infinitum: quoddam secundum 
+      <lb ed="#T" n="118"/>quantitatem numerositatis, vt infinitae 
+      numero<lb ed="#T" n="119" break="no"/>rum species. Deus potest actu producere 
+      infini<lb ed="#T" n="120" break="no"/>tum primo modo, quia Pater potest generare 
+      <lb ed="#T" n="121"/>Filium, &amp; vterque potest producere Spiritun, 
+      <lb ed="#T" n="122"/>sanctum. Infinitum secundo modo non potest 
+      <lb ed="#T" n="123"/>quia nihil potest facere immoderatum &amp; 
+      inordi<lb ed="#T" n="124" break="no"/>natum, &amp; quia omne esse creaturae in aliquo res 
+      <lb ed="#T" n="125"/>cipitur, vnde oportet quod sit terminatum. 
+      In<lb ed="#T" n="126" break="no"/>finitum tertio modo potest diuisim, id est 
+      quam<lb ed="#T" n="127" break="no"/>libetrem per se, sed non coniunctim quia si actu 
+      <lb ed="#T" n="128"/>fierent infinita, iam nec potentia infinita esset 
+      <lb ed="#T" n="129"/>nec effectus, haberent enim certum terminum. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e958">
+                  <lb ed="#T" n="130"/>Ad 1. De agente ex tota potentia. Resp. Hoc 
+      <lb ed="#T" n="131"/>potest esse duobus modis aut per naturam, &amp; ta 
+      <lb ed="#T" n="132"/>le producit effectum sibi proportionatum: 
+      au<lb ed="#T" n="133" break="no"/>per voluntatem, &amp; tale producit effectum quans 
+      <lb ed="#T" n="134"/>tum vult, magnum velparuum. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0433.xml-->
+      <pb ed="#T" n="358"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>Ad 2. Erustra est potentia &amp;c. Resp. Hoc est 
+      <lb ed="#T" n="2"/>verum de potentia quae non reducitur ad alique 
+      <lb ed="#T" n="3"/>actum: sed non oportet quod in totum, &amp; 
+      maxi<lb ed="#T" n="4" break="no"/>ine potentia infinita. Vel melius dicitur, quod 
+      <lb ed="#T" n="5"/>hoc est verum de potentia quae habet perfici per 
+      <lb ed="#T" n="6"/>actum suum, sed talis non est potentia Diuina 
+      <lb ed="#T" n="7"/>respectu actuum exteriorum. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e993">
+                  <lb ed="#T" n="8"/>Ad 3. Prustra est potentia passiua. &amp;c. Resp. 
+      <lb ed="#T" n="9"/>noc intelligitur de redu: tione in actum aliquem 
+      <lb ed="#T" n="10"/>non tamen oportet quod in totum 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e1003">
+                  <lb ed="#T" n="11"/>Ad 4. Quaecuque potest Deus facere &amp;c. Resp. 
+      <lb ed="#T" n="12"/>Commutatio est praedicati, quia commutatur 
+      <lb ed="#T" n="13"/>quid in quantum. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e1012">
+                  <lb ed="#T" n="14"/>Ad 5. Qui potest quod maius est &amp;c. Resp. 
+      <lb ed="#T" n="15"/>Quamuis illud sit maius, non tamen sequitur, 
+      si<lb ed="#T" n="16" break="no"/>actus ille est infinitus quod iste possit esse: quia 
+      <lb ed="#T" n="17"/>ille est de substantia sua, hic de nihilo; &amp; ideo 
+      <lb ed="#T" n="18"/>illi est essentiale esse infinitum. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e1025">
+                  <lb ed="#T" n="19"/>Ad 6. de manifestatione. Resp. Non solum 
+      <lb ed="#T" n="20"/>manifestatur potentia Dei per numerum 
+      creatu<lb ed="#T" n="21" break="no"/>rarum, sed per magnitudinem, &amp; producendi 
+      mo<lb ed="#T" n="22" break="no"/>dum, &amp; im proportionalem excellentiam 
+      respe<lb ed="#T" n="23" break="no"/>ctu aliorum agentium: nec tamen sufficienter 
+      <lb ed="#T" n="24"/>&amp; perfecte manifestari potest per aliquem 
+      effe<lb ed="#T" n="25" break="no"/>ctum, quod non est ex imperfectione potentiae. 
+      <lb ed="#T" n="26"/>sed ex immensitate. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e1045">
+                  <lb ed="#T" n="27"/>Ad 7. Possibile est quod potest &amp;c. Resp. Hoc 
+      <lb ed="#T" n="28"/>intelligitur de possibili a potentia finita, non a 
+      <lb ed="#T" n="29"/>potentia infinita quae non est ad actum totalem 
+      <lb ed="#T" n="30"/>reducibilis, 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e1056">
+                  <lb ed="#T" n="31"/>Ad 8. Aut est finitum, aut infinitum. Resp. 
+      <lb ed="#T" n="32"/>Est finitum actu, infinitum tamen in potentia, 
+      <lb ed="#T" n="33"/>nec potest poni in esse, quia poneretur infinitum 
+      <lb ed="#T" n="34"/>finibile, &amp; ita contradictio sequeretur. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e1067">
+                  <lb ed="#T" n="35"/>Ad 9. De continuo. Resp. Sicut continuum 
+      di<lb ed="#T" n="36" break="no"/>uisibile est infinitum potentia passiua, non actu: 
+      <lb ed="#T" n="37"/>sic Deus potest in infinitum diuidere potentia. 
+      <lb ed="#T" n="38"/>actiua, non actu: vnde patet quod nihilominus 
+      <lb ed="#T" n="39"/>potentia Dei excedit potentiam continui, sicut  
+      <lb ed="#T" n="40"/>posse actiuum excedit posse passiuum. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f08875-Dd1e1084">
+               <head xml:id="pdt7y6-f08875-Hd1e1086">Articulus 4</head>
+               <head xml:id="pdt7y6-f08875-Hd1e1088" type="question-title">
+  An Dei omnipotentia sit creaturae communicabilis
+</head>
+               <p xml:id="pdt7y6-f08875-d1e1091">
+                  <lb ed="#T" n="41"/>ARTICVLVS IV 
+      <lb ed="#T" n="42"/>An Dei omnipotentia sit creaturae communicabilis. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e1098">
+                  <lb ed="#T" n="43"/>AD quartum articulum sic proceditur. 1 
+      <lb ed="#T" n="44"/>Omnipotentia Dei non est dignior quam 
+      <lb ed="#T" n="45"/>bonitas Dei: sed bonitas potest communicari. 
+      <lb ed="#T" n="46"/>creaturae: ergo &amp; omnipotentia. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e1109">
+                  <lb ed="#T" n="47"/>2. Sicut omnipotentia est proprietas Diuina. 
+      <lb ed="#T" n="48"/>ita omniscientia: sed omniscientia potuit 
+      Chri<lb ed="#T" n="49" break="no"/>sto homini communicari: ergo &amp; omnipotentia. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e1119">
+                  <lb ed="#T" n="50"/>3. Matth. 27. Data est mihi omnis potestas: 
+      er<lb ed="#T" n="51" break="no"/>go omnipotentia data est Christo homini. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e1126">
+                  <lb ed="#T" n="52"/>4. Coloss. 1. Exhibere vos sanctos &amp;c. Glos. 
+      <lb ed="#T" n="53"/>it mortalis &amp; mortuus potest reconciliare, 
+      im<lb ed="#T" n="54" break="no"/>mortalis potest omnia facere: ergo Christus 
+      ho<lb ed="#T" n="55" break="no"/>mo habet omnipotentiam 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e1137">
+                  <lb ed="#T" n="56"/>5. Ibidem super illud. In illo complacuit &amp;c. 
+      <lb ed="#T" n="57"/>(Glossa. Omnia potest vt nihil si exceptum quod 
+      <lb ed="#T" n="58"/>per eum praestari non possit. Et soquitur de 
+      Chri<lb ed="#T" n="59" break="no"/>sto homine: ergo Christus habet omnipotentia. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e1148">
+                  <lb ed="#T" n="60"/>6. Matth. 11. Nihil impossibile erit vobis: 
+      er<lb ed="#T" n="61" break="no"/>go qui habet fidem habet omnipotentiam. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e1155">
+                  <lb ed="#T" n="62"/>7. Matth. 11. Omnia possibilia credenti: ergo 
+      <lb ed="#T" n="63"/>cred ens habet omnipotentiam. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e1162">
+                  <lb ed="#T" n="64"/>Contra. 1. Nulla potentia finita est 
+      omnipo<lb ed="#T" n="65" break="no"/>tentia: omnis potentia creaturae finita est: ergo 
+      <lb ed="#T" n="66"/>nulla pote ntia creaturae est omni potentia. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0433.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>2. Richardus lib. de Trinit. Impossibile est: 
+      <lb ed="#T" n="68"/>plures esse omnipotentes; qui enim omnipotens 
+      <lb ed="#T" n="69"/>fuerit, facile efficere poterit vt quilibet nihil 
+      pos<lb ed="#T" n="70" break="no"/>sit: ergo solus Deus est omnipotens 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e1185">
+                  <lb ed="#T" n="71"/>3. Impossibile est facturam aequari factori: sed 
+      <lb ed="#T" n="72"/>aesset omnipotens aequaretur ei: ergo hoc est 
+      <lb ed="#T" n="73"/>impossibile. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e1194">
+                  <lb ed="#T" n="74"/>Respondeo. Sicut nulli creaturae potest 
+      com<lb ed="#T" n="75" break="no"/>municari diuina essentia, ita nec Diuina 
+      omni<lb ed="#T" n="76" break="no"/>potentia, triplici ratione: scilicet quia 
+      omnipo<lb ed="#T" n="77" break="no"/>tentia habet causalitatis vniuersalitatem, &amp; 
+      infi<lb ed="#T" n="78" break="no"/>nitatem, &amp; sufficientiam: creatura vero non 
+      po<lb ed="#T" n="79" break="no"/>test esse causa sui ipsius, nec potest infinita cum 
+      <lb ed="#T" n="80"/>habeat essentiam finitam, nec potest per se 
+      se<lb ed="#T" n="81" break="no"/>peralterum. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e1214">
+                  <lb ed="#T" n="82"/>Ad 1. De omnipotentia. Resp. Non est simile 
+      <lb ed="#T" n="83"/>quia bonitas dicit Diuinam perfectionem, sed 
+      <lb ed="#T" n="84"/>non modum quo est in Deo: sed omnipotentia. 
+      <lb ed="#T" n="85"/>nominat vtrumque: quamuis autem Diuina 
+      per<lb ed="#T" n="86" break="no"/>fectio sit communicabilis creaturae participatiue, 
+      <lb ed="#T" n="87"/>non tamen comodo quo est in Deo. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e1230">
+                  <lb ed="#T" n="88"/>Ad. 2. De omniscientia. Resp. Non est 
+      simi<lb ed="#T" n="89" break="no"/>le, quia posse pertinet ad actionem, sed scire ad 
+      <lb ed="#T" n="90"/>receptionem: in creatura vero non potest esse 
+      <lb ed="#T" n="91"/>potentia actiua infinita, sed passiua potest, quae 
+      <lb ed="#T" n="92"/>potentia potest reduci in actum secundum quod 
+      <lb ed="#T" n="93"/>vnitur agenti infinito. Sed tamen opinio 
+      com<lb ed="#T" n="94" break="no"/>munior dicit, quod anima Christi non habet  
+      <lb ed="#T" n="95"/>omnem scientiam simplicis intelligentiae, quae 
+      <lb ed="#T" n="96"/>sola est infinitorum; sed visionis &amp; 
+      approbatio<lb ed="#T" n="97" break="no"/>nis tantum. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e1254">
+                  <lb ed="#T" n="98"/>Ad 3. 4. &amp; 5. De auctoritatibus quae probant  
+      <lb ed="#T" n="99"/>quod Christus omnia possit. Resp. Hoc dicitur  
+      <lb ed="#T" n="100"/>de persona Cniisti hominis, non de natura: &amp; 
+      li<lb ed="#T" n="101" break="no"/>cet habeat operationem a natura, tamen vt est 
+      <lb ed="#T" n="102"/>hominis habet a gratia. 
+    </p>
+               <p xml:id="pdt7y6-f08875-d1e1267">
+                  <lb ed="#T" n="103"/>Ad 6. &amp; 7. De fide. Resp. Loquitur ibi non 
+      <lb ed="#T" n="104"/>de potentia efficiendi, sed impetrandi: nec sit 
+      di<lb ed="#T" n="105" break="no"/>stributio generalis, sed accommoda pro 
+      effecti<lb ed="#T" n="106" break="no"/>bus miraculosis pertinentibus ad 
+      confirmatio<lb ed="#T" n="107" break="no"/>nem fidei. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

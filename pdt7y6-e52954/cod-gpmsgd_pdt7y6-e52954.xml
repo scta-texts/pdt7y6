@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="174"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e52954"><!-- l1d20q1 -->
+            <head xml:id="pdt7y6-e52954-Hd1e99">Quaestio 1</head>
+            <head xml:id="pdt7y6-e52954-Hd1e101" type="question-title">De aequalitate personarum in potentia</head>
+            <p xml:id="pdt7y6-e52954-d1e104">
+               <lb ed="#T" n="29"/>QVESTIO VNICA. 
+      <lb ed="#T" n="30"/>DE AEQVALITATE PERSONARVM. 
+      <lb ed="#T" n="31"/>DIVINARVMINPOTENTIA. 
+</p>
+            <p xml:id="pdt7y6-e52954-d1e113">
+               <lb ed="#T" n="32"/>Vaeruntur hic quinque. 
+      <lb ed="#T" n="33"/>QPrimo an Filius sicut Pater sit 
+      omni<lb ed="#T" n="34" break="no"/>potens. 
+      <lb ed="#T" n="35"/>Secundo an sit Patri aequalis in potentia. 
+      <lb ed="#T" n="36"/>Tertio an aliquid sit aequale Deo. 
+      <lb ed="#T" n="37"/>Quarto an in Deo cum aequalitate sit ordo. 
+      <lb ed="#T" n="38"/>guinto quis sit ille ordo. 
+    </p>
+            <div xml:id="pdt7y6-e52954-Dd1e131">
+               <head xml:id="pdt7y6-e52954-Hd1e133">Articulus 1</head>
+               <head xml:id="pdt7y6-e52954-Hd1e135" type="question-title">
+  An Filius sicut Pater sit omnipotens.
+</head>
+               <p xml:id="pdt7y6-e52954-d1e138">
+                  <lb ed="#T" n="39"/>Articvlvs I. 
+      <lb ed="#T" n="40"/>An Filius sicut Pater sit omnipotens.
+</p>
+               <p xml:id="pdt7y6-e52954-d1e145">
+                  <lb ed="#T" n="41"/>AD primum proceditur sic. 1. Aliquis est 
+      <lb ed="#T" n="42"/>actus quem potest Pater &amp; non Filius, 
+      <lb ed="#T" n="43"/>scilicet generare: ergo Filius non est 
+      omni<lb ed="#T" n="44" break="no"/>potens. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e156">
+                  <lb ed="#T" n="45"/>2. Maius posse est producere personam 
+      Di<lb ed="#T" n="46" break="no"/>uinam quam creaturam: ergo generare Filium, 
+      <lb ed="#T" n="47"/>quam creare caelum: sed si creare caelum 
+      detra<lb ed="#T" n="48" break="no"/>heretur Filio, non posset dici omnipotens: ergo 
+      <lb ed="#T" n="49"/>cum maius posse, scilicet generare Filium, 
+      de<lb ed="#T" n="50" break="no"/>trahatur ei, non potest dici omnipotens. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e173">
+                  <lb ed="#T" n="51"/>3. Pater potest in Filium &amp; Spiritum sanctum 
+      <lb ed="#T" n="52"/>&amp; in creaturam, Filius tantum in Spiritum 
+      <lb ed="#T" n="53"/>sanctum &amp; in creaturam: ergo Pater potest in 
+      <lb ed="#T" n="54"/>plura quam Filius: ergo Filius non est 
+      omni<lb ed="#T" n="55" break="no"/>potens. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e186">
+                  <lb ed="#T" n="56"/>4. Sub vniuersalitate entium continentur  
+      <lb ed="#T" n="57"/>etiam relatiua: sed cum dico, omnipotens, fit 
+      <lb ed="#T" n="58"/>distributio pro vniuersalitate entium: ergo 
+      pro<lb ed="#T" n="59" break="no"/>relatiuis: si ergo non potest omnes actus rela¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0249.xml-->
+      <cb ed="#T" n="c"/>
+                  <lb ed="#T" n="60"/>tiuos, non potest omnia. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e204">
+                  <lb ed="#T" n="61"/>5. Posse generare Filium aequalem, aut est 
+      <lb ed="#T" n="62"/>posse aliquid aut non: si sic, ergo cum Filius, 
+      <lb ed="#T" n="63"/>non possit illud, non potest omnia: ergo non 
+      <lb ed="#T" n="64"/>est omnipotens: si non, ergo per priuationem 
+      hu<lb ed="#T" n="65" break="no"/>iusmodi non potest dici Pater esse impotens, 
+      <lb ed="#T" n="66"/>ergo ratio Augustini nulla esset. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e220">
+                  <lb ed="#T" n="67"/>Contra. 1. Secundum Augustinum, indiuisa 
+      <lb ed="#T" n="68"/>sunt opera Trimtatis: ergo omnia opera quae 
+      <lb ed="#T" n="69"/>potest Pater, &amp; Filius: ergo est omnipotens 
+      <lb ed="#T" n="70"/>sicut ille. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e231">
+                  <lb ed="#T" n="71"/>2. Symbolum. Omnipotens Pater, 
+      omnipo<lb ed="#T" n="72" break="no"/>tens Filius, omnipotens Spiritus sanctus: ergo 
+      <lb ed="#T" n="73"/>omnipotens sicut Pater.  
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e240">
+                  <lb ed="#T" n="74"/>3. Filius potest infinita, quia non tot quin 
+      <lb ed="#T" n="75"/>plura: infinito autem nihil est maius: ergo. 
+      Pa<lb ed="#T" n="76" break="no"/>ter non potest plura quam Filius: ergo Filius est 
+      <lb ed="#T" n="77"/>omnipotens sicut ille. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e252">
+                  <lb ed="#T" n="78"/>Respondeo, Cum dicitur omnipotens, hoc 
+      <lb ed="#T" n="79"/>nomen componitur ex omni &amp; potente: 
+      distri<lb ed="#T" n="80" break="no"/>buit autem hoc signum omne, pro omnibus quae 
+      <lb ed="#T" n="81"/>posse potentiae est: non enim sequitur quod si 
+      <lb ed="#T" n="82"/>Deus est omnipotens, quod possit peccare vel 
+      <lb ed="#T" n="83"/>dormire: in omnibus enim talibus actibus 
+      quic<lb ed="#T" n="84" break="no"/>quid potest Pater potest Filius, similiter 
+      Spiri<lb ed="#T" n="85" break="no"/>tus sanctus: vnde dicendus est vterque 
+      omni<lb ed="#T" n="86" break="no"/>potens, vterque coomnipotens, omnipotentia 
+      <lb ed="#T" n="87"/>enim dicitur potentia ad omnes actus quos posse 
+      <lb ed="#T" n="88"/>potentiae est. Posse vero actus essentiales 
+      absolu<lb ed="#T" n="89" break="no"/>tos, vt intelligere, potentiae simpliciter est, &amp; posse 
+      <lb ed="#T" n="90"/>actus essentiales respectiuos, vt causare: 
+      notio<lb ed="#T" n="91" break="no"/>nales actus vero qui designant proprietates 
+      re<lb ed="#T" n="92" break="no"/>latiuas personales, quamuis potentiae sint in 
+      <lb ed="#T" n="93"/>persona agente, non tamen essent potentiae in 
+      <lb ed="#T" n="94"/>alia persona, sed impotentiae quia sequeretur  
+      <lb ed="#T" n="95"/>eius mutabilitas ab vna proprietate in aliam: 
+      <lb ed="#T" n="96"/>vnde in talibus non attenditur coomnipotentia: 
+      <lb ed="#T" n="97"/>esse enim Patrem in Patre potentiae est: sed non 
+      <lb ed="#T" n="98"/>posse esse Filium non est impotentiae sed 
+      pro<lb ed="#T" n="99" break="no"/>prietatis. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e302">
+                  <lb ed="#T" n="100"/>Ad 1. Aliquis est actus &amp;c. Resp. Quamuis 
+      <lb ed="#T" n="101"/>ille actus scilicet generare sit potentiae in Patre, 
+      <lb ed="#T" n="102"/>non esset tamen in Filio: vnde ex huius 
+      caren<lb ed="#T" n="103" break="no"/>tia non minus potest dici omnipotens. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e313">
+                  <lb ed="#T" n="104"/>Ad 2. Maius est producere personam. Resp. 
+      <lb ed="#T" n="105"/>Maius est simplicrter, non tamen maius esset in 
+      <lb ed="#T" n="106"/>Filio generare quam creare, quia primum 
+      im<lb ed="#T" n="107" break="no"/>portaret in ipso mutationem personae, secundum 
+      <lb ed="#T" n="108"/>non: vel dicendum quod hi actus non sunt 
+      com<lb ed="#T" n="109" break="no"/>patibiles, quia non sunt eiusdem rationis. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e329">
+                  <lb ed="#T" n="110"/>Ad 3. Pater potest in Filium &amp;c. Resp. 
+      Quam<lb ed="#T" n="111" break="no"/>uis Filius non possit in Filium, non tamen potest 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0250.xml-->
+      <pb ed="#T" n="175"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>in pauciora, quia posse in Filium generandum 
+      <lb ed="#T" n="2"/>non esset ei posse, sed non posse: sicut quamuis 
+      <lb ed="#T" n="3"/>creatura possit dormire, Deus vero non possit,  
+      <lb ed="#T" n="4"/>non tamen concludi potest quod creatura possit. 
+      <lb ed="#T" n="5"/>aliquid quod non potest Deus: hoc enim 
+      quam<lb ed="#T" n="6" break="no"/>uis respectu creaturae sit aliquid posse, tamen 
+      <lb ed="#T" n="7"/>respectu Dei non est ibi aliquod posse. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e358">
+                  <lb ed="#T" n="8"/>Ad 4. Quod sub vniuersalitate entium &amp;c. 
+      <lb ed="#T" n="9"/>Resp. Cum dico, omnipotens, non sit 
+      distribu<lb ed="#T" n="10" break="no"/>tio vniuersaliter pro omnibus entibus, sed pro 
+      <lb ed="#T" n="11"/>iis quae posse potentiae est in eo qui dicitur 
+      om<lb ed="#T" n="12" break="no"/>nipotens, scilicet pro omnibus possibilibus: 
+      <lb ed="#T" n="13"/>alioquin cum Pater non possit esse Filius non 
+      <lb ed="#T" n="14"/>esset omnipotens. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e376">
+                  <lb ed="#T" n="15"/>Ad 5. De argumento Augustini. Resp. 
+      Quam<lb ed="#T" n="16" break="no"/>uis cum Pater dicitur omnipotens, 
+      compre<lb ed="#T" n="17" break="no"/>hendatur ibi actus generandi, non tamen 
+      quan<lb ed="#T" n="18" break="no"/>do Filius dicitur omnipotens, quia generare in 
+      <lb ed="#T" n="19"/>Patre potentiae est cum conueniat personae suae. 
+      <lb ed="#T" n="20"/>&amp; proprietati personali, non autem in in Filio: &amp; 
+      <lb ed="#T" n="21"/>ideo defectus huius actus ponit infirmitatem in 
+      <lb ed="#T" n="22"/>Patre non in Filio, eo quod in Filio est relatio 
+      <lb ed="#T" n="23"/>opposita huic actui, non in Patre. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e52954-Dd1e400">
+               <head xml:id="pdt7y6-e52954-Hd1e402">Articulus 2</head>
+               <head xml:id="pdt7y6-e52954-Hd1e404" type="question-title">
+  An Filius sit Patri aequalis in potentia.
+</head>
+               <p xml:id="pdt7y6-e52954-d1e407">
+                  <lb ed="#T" n="24"/>ARTICVLVS II 
+      <lb ed="#T" n="25"/>An Filius sit Patri aequalis in potentia.
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e414">
+                  <lb ed="#T" n="26"/>AD secundum proceditur sic. 1. Nihil quod 
+      <lb ed="#T" n="27"/>solum agit ab alio, aequipotens est ei quod 
+      <lb ed="#T" n="28"/>per se agit &amp; a se: ergo Filius non est 
+      aequipo<lb ed="#T" n="29" break="no"/>tens Patri. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e425">
+                  <lb ed="#T" n="30"/>2 Patri appropriatur potentia &amp; non Filio: 
+      <lb ed="#T" n="31"/>ergo videtur quod aliqua praeeminentia 
+      poten<lb ed="#T" n="32" break="no"/>tiae sit in Patre quae non est in Filio. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e435">
+                  <lb ed="#T" n="33"/>3. Nihil recipiens ab altero, est aequipotens ei 
+      <lb ed="#T" n="34"/>a quo recipit, sicut nec aer illuminatus Soli: ergo 
+      <lb ed="#T" n="35"/>Filius non est aequipotens Patri. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e444">
+                  <lb ed="#T" n="36"/>4. Si Deus totum esse suum &amp; posse &amp; agere 
+      <lb ed="#T" n="37"/>haberet ab altero, impotentior esset quam sit 
+      <lb ed="#T" n="38"/>modo: ergo cum hoc conueniat Filio, &amp; non 
+      <lb ed="#T" n="39"/>Patri, Filius non est aequipotens Patri. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e455">
+                  <lb ed="#T" n="40"/>Contra. 1. Quorum vna est substantia &amp; 
+      ope<lb ed="#T" n="41" break="no"/>ratio, non potest esse inaequalis virtus: sed sic se 
+      <lb ed="#T" n="42"/>habent Pater &amp; Filius: ergo aequalis est eorum 
+      <lb ed="#T" n="43"/>virtus. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e466">
+                  <lb ed="#T" n="44"/>2. Nihil est sua virtute potentius: Filius 
+      au<lb ed="#T" n="45" break="no"/>tem est Patris virtus 1. Cor. 1. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e473">
+                  <lb ed="#T" n="46"/>3. Vt probant Philosophi &amp; sancti, omnis 
+      vir<lb ed="#T" n="47" break="no"/>tus in vno &amp; eodem homine est aequalis: ergo 
+      <lb ed="#T" n="48"/>multo magis in vno &amp; eodem Deo. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e482">
+                  <lb ed="#T" n="49"/>Respondeo. AEqualitas potentiae Diuinae non 
+      <lb ed="#T" n="50"/>attenditur per comparationem ad actus 
+      notio<lb ed="#T" n="51" break="no"/>nales, alioquin cum Pater non possit esse Filius, 
+      <lb ed="#T" n="52"/>Filius autem possit hoc, non esset aequalis in 
+      po<lb ed="#T" n="53" break="no"/>tentia Pater Filio: sed attenditur in 
+      compara<lb ed="#T" n="54" break="no"/>tione ad actum essentialem, seu interiorem vt 
+      in<lb ed="#T" n="55" break="no"/>telligere, seu exteriorem vt creare. Quoad hos 
+      <lb ed="#T" n="56"/>vero actus essentiales vna &amp; eadem est &amp; aequalis 
+      <lb ed="#T" n="57"/>Patris &amp; Filij potentia, sicut essentia: vnde 
+      sim<lb ed="#T" n="58" break="no"/>pliciter Filius est Patri aequipotens. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e507">
+                  <lb ed="#T" n="59"/>Ad 1. Nihil quod agit solum ab alio &amp;c. Resp. 
+      <lb ed="#T" n="60"/>Hoc verum est secundum quod Iy ab alio 
+      im<lb ed="#T" n="61" break="no"/>portat habitudinem principij essentialiter 
+      diffe<lb ed="#T" n="62" break="no"/>rentis, scilicet prout neutraliter accipitur: alias 
+      <lb ed="#T" n="63"/>non, quia vbi vna essentia ibi est vna 
+      essentiali<lb ed="#T" n="64" break="no"/>ter dicta potentia. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e523">
+                  <lb ed="#T" n="65"/>Ad 2. De appropriatione potentiae. Resp. 
+      <lb ed="#T" n="66"/>Haec appropriatio sit non propter inaequalita¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0250.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>tem, sed propter maiorem assimilationem cum 
+      <lb ed="#T" n="68"/>proprio Patris, eo quod potentia dicit rationem 
+      <lb ed="#T" n="69"/>principij actiui, Pater vero solus est principium 
+      <lb ed="#T" n="70"/>sine principio. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e543">
+                  <lb ed="#T" n="71"/>Ad 3. De recipiente &amp;c. Resp. Hoc verum est 
+      <lb ed="#T" n="72"/>quando id quod est in dante non recipitur 
+      tota<lb ed="#T" n="73" break="no"/>liter in recipiente, vel ex defectu dantis, vel res 
+      <lb ed="#T" n="74"/>cipientis, sic aer non potest perfecte recipere 
+      to<lb ed="#T" n="75" break="no"/>tum lumen solare: vbi vero perfecte recipitur 
+      <lb ed="#T" n="76"/>non est verum, vt patet in generatione vniuoca 
+      <lb ed="#T" n="77"/>ignis ab igne, nam aequipotens est ignis genitus 
+      <lb ed="#T" n="78"/>igni generant. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e563">
+                  <lb ed="#T" n="79"/>Ad 4. Si Deus totum posse &amp;c. Resp. Non est. 
+      <lb ed="#T" n="80"/>simile, quia tunc Iy ab alio diceret habitudinem 
+      <lb ed="#T" n="81"/>principij essentialiter differentis vnde diceret 
+      <lb ed="#T" n="82"/>habitudinem causae: sed cum Filius dicitur 
+      ha<lb ed="#T" n="83" break="no"/>bere ab alio personaliter, non dicit habitudinem 
+      <lb ed="#T" n="84"/>nisi solius originis: vnde ibi non esset vna 
+      essen<lb ed="#T" n="85" break="no"/>tia, virtus &amp; operatio vtriusque: hic vero vna est. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e52954-Dd1e582">
+               <head xml:id="pdt7y6-e52954-Hd1e584">Articulus 3</head>
+               <head xml:id="pdt7y6-e52954-Hd1e586" type="question-title">
+  An aliquid sit aequale Deo
+</head>
+               <p xml:id="pdt7y6-e52954-d1e589">
+                  <lb ed="#T" n="86"/>ARTICVLVS III 
+      <lb ed="#T" n="87"/>An aliquid sit aequale Deo.
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e596">
+                  <lb ed="#T" n="88"/>AD tertium articulum proceditur sic. 1. Deus 
+      <lb ed="#T" n="89"/>aliquam creaturam aequalem sibi facere aut 
+      <lb ed="#T" n="90"/>potuit sed noluit, ergo inuidus; aut voluit sed 
+      <lb ed="#T" n="91"/>non potuit, ergo infirmus, aut non potuit nec 
+      <lb ed="#T" n="92"/>voluit, ergo infirmus &amp; inuidus, aut voluit &amp; 
+      <lb ed="#T" n="93"/>potuit, ergo fecit. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e612">
+                  <lb ed="#T" n="94"/>2. Uniuersum aut caret aliquo bono, aut non: 
+      <lb ed="#T" n="95"/>si caret, ergo non est completum vniuersum: si 
+      <lb ed="#T" n="96"/>non, ergo est omne bonum: sed omini bono 
+      nul<lb ed="#T" n="97" break="no"/>lum bonum potest esse maius: ergo est aequale 
+      <lb ed="#T" n="98"/>summo bono. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e626">
+                  <lb ed="#T" n="99"/>3. Imago est secundum Hylarium rei ad rem 
+      <lb ed="#T" n="100"/>coaequandam imaginata &amp; indiscreta similitudo: 
+      <lb ed="#T" n="101"/>sed anima rationalis est imago Dei: ergo est 
+      coae<lb ed="#T" n="102" break="no"/>quata ei similitudo. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e637">
+                  <lb ed="#T" n="103"/>4. Numerus infinitus est secundum August. 
+      <lb ed="#T" n="104"/>infinito autem nihil est maius: ergo Deus non 
+      <lb ed="#T" n="105"/>est maior numero. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e646">
+                  <lb ed="#T" n="106"/>5. Hugo de S. Victore. Anima Christi aeque 
+      <lb ed="#T" n="107"/>sapiens est vt Deus: ergo eius scientia aequalis 
+      <lb ed="#T" n="108"/>est Diuinae scientiae: ergo aliqua creatura aequa 
+      <lb ed="#T" n="109"/>lis est creatori. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e657">
+                  <lb ed="#T" n="110"/>Contra. 1. Artificiatum non potest coaequari 
+      <lb ed="#T" n="111"/>suo, artifici, nec factura factori: creatura vero 
+      <lb ed="#T" n="112"/>omnis artificiatum est &amp; factura Dei. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e666">
+                  <lb ed="#T" n="113"/>2. Deus, vt ait Damascenus, nec tempore 
+      <lb ed="#T" n="114"/>nec loco, nec comprehensione finitur: omnis 
+      <lb ed="#T" n="115"/>vero creatura altero horum modorum finitur, &amp; 
+      <lb ed="#T" n="116"/>ideo probat Ambrosius Spiritum sanctum non 
+      <lb ed="#T" n="117"/>esse creaturam: ergo creatura Deo non aequatur. 
+      <lb ed="#T" n="118"/>3. Ens potentiale dependet a necessario, &amp; 
+      om<lb ed="#T" n="119" break="no"/>ne creatum dependet a causa prima: quod autem 
+      <lb ed="#T" n="120"/>dependet ab alio non est aequale illi. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e686">
+                  <lb ed="#T" n="121"/>4. Omnis creatus effectus continetur infra 
+      <lb ed="#T" n="122"/>ambitum coeli Empyrei: ergo finitus est: Deus 
+      <lb ed="#T" n="123"/>vero infinitus: ergo non aequatur ei, scilicet,  
+      <lb ed="#T" n="124"/>Deo. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e698">
+                  <lb ed="#T" n="125"/>Respondeo. Impossibile est creaturam 
+      aequa<lb ed="#T" n="126" break="no"/>ri creatori suo siue in natura, siue in virtute, 
+      <lb ed="#T" n="127"/>siue in operatione. Omnis enim creatura, vt ait 
+      <lb ed="#T" n="128"/>Hyeronimus, certis limitibus terminata est: 
+      <lb ed="#T" n="129"/>Deus vero termino caret. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e711">
+                  <lb ed="#T" n="130"/>Ad 1. Aut potuit &amp;c. Resp. Deus nec potuit, 
+      <lb ed="#T" n="131"/>nec voluit facere creaturam sibi aequalem: nec 
+      <lb ed="#T" n="132"/>tamen ex hoc impotens aut infirmus fuit. Crea¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0251.xml-->
+      <pb ed="#T" n="176"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>tura enim non potest recipere aequalitatem sui 
+      <lb ed="#T" n="2"/>creatoris propter essentialem differentiam eius 
+      <lb ed="#T" n="3"/>quod ergo non datur ei non est ex impotentia. 
+      <lb ed="#T" n="4"/>aut inuidia dantis, sed ex impotentia 
+      recipien<lb ed="#T" n="5" break="no"/>tis, Filius vero cum sit connaturalis genitori 
+      <lb ed="#T" n="6"/>potest eius aequalitatem recipere, ideo non dare 
+      <lb ed="#T" n="7"/>ei esset signum impotentiae generantis vel 
+      inui<lb ed="#T" n="8" break="no"/>diae: secus enim est in productione vniuoca de 
+      <lb ed="#T" n="9"/>propria substantia, &amp; in aequiuoca de substantia 
+      <lb ed="#T" n="10"/>extrinseca, vel de nihilo, quia vniuoca 
+      gene<lb ed="#T" n="11" break="no"/>ratio naturaliter tendit ad aequalitatem, 
+      aequiuo<lb ed="#T" n="12" break="no"/>ca non 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e753">
+                  <lb ed="#T" n="13"/>Ad 2. de vniuerso. Resp. Uniuersum non 
+      <lb ed="#T" n="14"/>caret aliquo bono quod sit de complemento 
+      vni<lb ed="#T" n="15" break="no"/>uersi, non tamen ex hoc aequatur summo bonot 
+      <lb ed="#T" n="16"/>quia de complemento vniuersi non est nisi bonum 
+      <lb ed="#T" n="17"/>creatum ordinatum ad esse secundum Diuinam 
+      <lb ed="#T" n="18"/>prouidentiam: a summo autem bono possunt,  
+      <lb ed="#T" n="19"/>multa alia bona produci quae nunquam 
+      produ<lb ed="#T" n="20" break="no"/>centur, &amp; idto non sunt sed esse possunt de 
+      com<lb ed="#T" n="21" break="no"/>plemento vniuersi. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e775">
+                  <lb ed="#T" n="22"/>Ad 3. De imagine. Resp. Describit Hylarius 
+      <lb ed="#T" n="23"/>increatam, non creatam imaginem. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e782">
+                  <lb ed="#T" n="24"/>Ad 4. De numero. Resp. Numerus infinitus 
+      <lb ed="#T" n="25"/>est secundum quid scilicet additione, sed non 
+      <lb ed="#T" n="26"/>simpliciter: quod autem dicitur, infinito nihil 
+      <lb ed="#T" n="27"/>est inaius, intelligitur de infinito actu. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e793">
+                  <lb ed="#T" n="28"/>Ad 3. De scientia animae Christi. Resp. Non 
+      <lb ed="#T" n="29"/>aequatur scientiae Diuinae, quia vel deficit in 
+      <lb ed="#T" n="30"/>numero scibilium a Deo, vel in modo sciendi, 
+      <lb ed="#T" n="31"/>vel in vtroque. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e52954-Dd1e805">
+               <head xml:id="pdt7y6-e52954-Hd1e807">Articulus 4</head>
+               <head xml:id="pdt7y6-e52954-Hd1e809" type="question-title">An in Deo cum aequalitate sit o lo.</head>
+               <p xml:id="pdt7y6-e52954-d1e812">
+                  <lb ed="#T" n="32"/>ATTICVLVS IV. 
+      <lb ed="#T" n="33"/>An in Deo cum aequalitate sit o lo.
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e819">
+                  <lb ed="#T" n="34"/>AD quartum articulum proceditur sic. 1. In 
+      <lb ed="#T" n="35"/>nomin itione person irum secundum fidem 
+      <lb ed="#T" n="36"/>Catnolicam &amp; Scripturam sacram. Matth. vlt. 
+      <lb ed="#T" n="37"/>Marci vlt. 1. Ioan. 5. nominatur primo 
+      Pa<lb ed="#T" n="38" break="no"/>ter, deinde Filius, deinde Spiritus sanctus: aut 
+      <lb ed="#T" n="39"/>ergo huic ordini nominali subest aliquis ordo 
+      <lb ed="#T" n="40"/>realis: aut nullus: si nullus, ergo ordo iste 
+      su<lb ed="#T" n="41" break="no"/>peruacuus est, cum ita bene posset aliter 
+      ordi<lb ed="#T" n="42" break="no"/>nari: si aliquis, ergo est ordo in Diuinis. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e841">
+                  <lb ed="#T" n="43"/>2. Pater dicitur prima persona in Trinitate, 
+      <lb ed="#T" n="44"/>Filius secunda persona Spiritus sanctus tertia: 
+      <lb ed="#T" n="45"/>primum autem secundum &amp; tertium dicunt 
+      or<lb ed="#T" n="46" break="no"/>dinem: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e853">
+                  <lb ed="#T" n="47"/>3. Secundum Augustinum Pater est 
+      princi<lb ed="#T" n="48" break="no"/>ium totius Deitatis: principium autem &amp; 
+      pri<lb ed="#T" n="49" break="no"/>mum, vt ait Philosophus. 1. Post. idem dice 
+      <lb ed="#T" n="50"/>vbicumque vero est ratio primi ibi ratio ordiuis: 
+      <lb ed="#T" n="51"/>ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e866">
+                  <lb ed="#T" n="52"/>4. Ordo in rebus attestatur perfectioni &amp; 
+      <lb ed="#T" n="53"/>complemento boni: in Deo vero perfectio est 
+      <lb ed="#T" n="54"/>&amp; complementum totius boni. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e875">
+                  <lb ed="#T" n="55"/>Vbicumque est pluralitas aliquarum reru 
+      <lb ed="#T" n="56"/>sine ordine ibi est confusio &amp; inordinatio: sed in 
+      <lb ed="#T" n="57"/>pluralitate Diuinarum personarum nulla est: 
+      <lb ed="#T" n="58"/>inordinatio vel confusio: ergo ordo 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e886">
+                  <lb ed="#T" n="59"/>Contra. 1. Eusebius dicit quod in Diuinis 
+      per<lb ed="#T" n="60" break="no"/>sonis est numerus sed non ordo. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e893">
+                  <lb ed="#T" n="61"/>2. A quocumque remouetur definitio, &amp; 
+      diffini<lb ed="#T" n="62" break="no"/>tum: definitio ordinis, secundum Augustinum 
+      <lb ed="#T" n="63"/>lib. de Ciuitate Dei, haec est: ordo est parium 
+      <lb ed="#T" n="64"/>dispariumque rerum sua cuique tribuens loca 
+      <lb ed="#T" n="65"/>dispositio: hoc autem non conuenit Deo: ergo 
+      <lb ed="#T" n="66"/>nec ordo.
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e909">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0251.xml-->
+                  <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>3. Vbicumque est ordo, ordinatur vnum ad 
+      <lb ed="#T" n="68"/>aliud: &amp; vbi sic est, inclinatio est vnius ad 
+      <lb ed="#T" n="69"/>aliud &amp; dependentia: sed in Diuinis nihil est: 
+      <lb ed="#T" n="70"/>tale: ergo nullus ordo. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e926">
+                  <lb ed="#T" n="71"/>4. Ordo dicit rationem prioris &amp; 
+      posterio<lb ed="#T" n="72" break="no"/>ris: in Deo nihil est prius &amp; posterius: ergo 
+      <lb ed="#T" n="73"/>nullus ordo. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e935">
+                  <lb ed="#T" n="74"/>5. Si ordo est in Diuinis, aut ergo significat  
+      <lb ed="#T" n="75"/>essentiam, aut personam, aut notionem: si 
+      essen<lb ed="#T" n="76" break="no"/>tiam, contra, in vno non est ordo: si personam, 
+      <lb ed="#T" n="77"/>quaeritur quam personam: si notionem, contra; 
+      <lb ed="#T" n="78"/>nulla notio est in tribus personis: ergo nullus, 
+      <lb ed="#T" n="79"/>ordo 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e951">
+                  <lb ed="#T" n="80"/>Respondeo. Sicut in Diuinis non est numerus 
+      <lb ed="#T" n="81"/>simpliciter sed cum determinatione: sic non est 
+      <lb ed="#T" n="82"/>ibi ordo simpliciter sed cum determinatione, 
+      <lb ed="#T" n="83"/>scilicet ordo originis: ordo enim importat 
+      sim<lb ed="#T" n="84" break="no"/>pliciter ordinatorum distinctionem, &amp; gradum 
+      <lb ed="#T" n="85"/>prioris &amp; posterioris, &amp; mutuam habitudinem 
+      <lb ed="#T" n="86"/>distinctorum: secundum non est in Deo scilicet, 
+      <lb ed="#T" n="87"/>gradus: sed primum &amp; tertium est ibi, scilicet,  
+      <lb ed="#T" n="88"/>mutua distinctio &amp; habitudo. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e973">
+                  <lb ed="#T" n="89"/>Ad 1. De nominatione. Resp. Nominatio illio 
+      <lb ed="#T" n="90"/>ordinata fundatur super ordinem originis, non 
+      <lb ed="#T" n="91"/>super ordinem simpliciter: similiter quod 
+      dici<lb ed="#T" n="92" break="no"/>tur persona prima, secunda, tertia similiter  
+      <lb ed="#T" n="93"/>quod Pater dicitur principium Deitatis 
+      per<lb ed="#T" n="94" break="no"/>quod patet ad 2. &amp; 3. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e989">
+                  <lb ed="#T" n="95"/>Ad 4. Ordo attestatur bonitati perfectae. 
+      <lb ed="#T" n="96"/>Resp. Vbi perfectio bonitatis integratur ex 
+      di<lb ed="#T" n="97" break="no"/>uersis bonitatibus, ibi perfectioni boni 
+      attesta<lb ed="#T" n="98" break="no"/>tur ordo, qui est ordo snimpliciter: sed vbi 
+      con<lb ed="#T" n="99" break="no"/>stat ex vno solo bono, non 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e1002">
+                  <lb ed="#T" n="100"/>Ad 5. De confusione. Resp. Ad tollendam 
+      <lb ed="#T" n="101"/>confusionem sufficit ordo originis, nec 
+      requi<lb ed="#T" n="102" break="no"/>tur ordo simpliciter.  
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e1012">
+                  <lb ed="#T" n="103"/>Ad illud quod in contrarium opponitur ex 
+      <lb ed="#T" n="104"/>Eusebio &amp; August. &amp; de dependentia, &amp; de 
+      <lb ed="#T" n="105"/>priori &amp; de posteriori. Resp. Omnia haec 
+      con<lb ed="#T" n="106" break="no"/>cludunt de ordine simpliciter.  
+      <lb ed="#T" n="107"/>Ad illud quod quaeritur quid significat ordo. 
+      <lb ed="#T" n="108"/>Resp. Notionem significat, non tamen distincte 
+      <lb ed="#T" n="109"/>hanc vel illam, sed indistincte omnes, sicut &amp; 
+      <lb ed="#T" n="110"/>hoc nomen notio. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e52954-Dd1e1033">
+               <head xml:id="pdt7y6-e52954-Hd1e1035">Articulus 5</head>
+               <head xml:id="pdt7y6-e52954-Hd1e1037" type="question-title">Quis sit ordo in Deo</head>
+               <p xml:id="pdt7y6-e52954-d1e1040">
+                  <lb ed="#T" n="111"/>ARTICVLVS V 
+      <lb ed="#T" n="112"/>Quis sit ordo in Deo.
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e1047">
+                  <lb ed="#T" n="113"/>AD vltimum articulum sic proceditur. Quis 
+      <lb ed="#T" n="114"/>sit ille ordo, Augustinus dicit contra 
+      Ma<lb ed="#T" n="115" break="no"/>ximinum. Cum dicitur Filius esse a Patre, non 
+      <lb ed="#T" n="116"/>significatur inaequalitas substantiae, sed ordo 
+      <lb ed="#T" n="117"/>naturae: ergo in Diuinis est ordo naturae. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e1060">
+                  <lb ed="#T" n="118"/>2. Vbicumque est naturalis origo vnius ab 
+      <lb ed="#T" n="119"/>altero, ibi est ordo naturae: ergo in Diuinis est 
+      <lb ed="#T" n="120"/>ordo naturae. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e1070">
+                  <lb ed="#T" n="121"/>3. Greg. Na2. dicit quod Pater est causa Filij: 
+      <lb ed="#T" n="122"/>inter causam vero &amp; id cuius est causa, est ordo 
+      <lb ed="#T" n="123"/>naturae. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e1079">
+                  <lb ed="#T" n="124"/>Contra. 1. In Deo natura &amp; essentia idem sunt: 
+      <lb ed="#T" n="125"/>sed in Deo no est ordo essentiae: ergo nec naturae. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e1086">
+                  <lb ed="#T" n="126"/>2. Natura vna est: in vno no potest esse ordo.
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e1091">
+                  <lb ed="#T" n="127"/>3. Vbicumque non est prius &amp; posterius 
+      se<lb ed="#T" n="128" break="no"/>cundum locum, aut tempus, aut dignitatem, 
+      <lb ed="#T" n="129"/>non dicitur esse ordo, aut temporis, aut 
+      dignita<lb ed="#T" n="130" break="no"/>tis: ergo a simili vbi non est prius &amp; posterius 
+      <lb ed="#T" n="131"/>secudum naturam, non est ordo naturae. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e1104">
+                  <lb ed="#T" n="132"/>4. Inter ea, quae sunt simul non est aliquis 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0252.xml-->
+      <pb ed="#T" n="177"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>ordo cum ergo relatiua sint simul natura, 
+      <lb ed="#T" n="2"/>inter relatiua non est ordo naturae ergo nec 
+      in<lb ed="#T" n="3" break="no"/>ter Patrem &amp; Filium. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e1122">
+                  <lb ed="#T" n="4"/>Respondeo. Ordo alicuius dupliciter dicitur: 
+      <lb ed="#T" n="5"/>vel vt subjecti quod ordinatur: vel vt rationis 
+      se<lb ed="#T" n="6" break="no"/>cundum quam ordo attenditur. Primo modo in 
+      <lb ed="#T" n="7"/>Diuinis non est ordo naturae, sed personarum 
+      <lb ed="#T" n="8"/>quae ordinantur: secundo modo ibi est ordo 
+      na<lb ed="#T" n="9" break="no"/>turae, quia secundum naturalem productionem 
+      <lb ed="#T" n="10"/>vnius ab altero ordinantur: primo modo ordo 
+      <lb ed="#T" n="11"/>naturae sumitur orationaliter, &amp; genitiuus 
+      <lb ed="#T" n="12"/>construitur in habitudine materiali: secundo 
+      <lb ed="#T" n="13"/>modo sumitur quasi dictionaliter, &amp; genitiuus 
+      <lb ed="#T" n="14"/>construitur in habitudine formali, id est ordo 
+      <lb ed="#T" n="15"/>naturalis. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e1152">
+                  <lb ed="#T" n="16"/>Ad 1. In contrarium. In Deo natura &amp; 
+      essen<lb ed="#T" n="17" break="no"/>tia idem sunt. Resp. Quamuis sint idem re, 
+      ta<lb ed="#T" n="18" break="no"/>men differunt ratione, nam essentia nominat in 
+      <lb ed="#T" n="19"/>ratione principij essendi: sed natura in ratione 
+      <lb ed="#T" n="20"/>principij agendi, secundum quod natura dicitur  
+      <lb ed="#T" n="21"/>vt ait Philosophus 5. Metaphis. quo primo 
+      pul<lb ed="#T" n="22" break="no"/>lulat pullulans, &amp; ideo bene dicitur ordo 
+      natu<lb ed="#T" n="23" break="no"/>rae vel originis, sed non ordo essentiae, 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e1172">
+                  <lb ed="#T" n="24"/>Ad 2. Natura vna est &amp;c. Resp. Non dicitur  
+      <lb ed="#T" n="25"/>ordo naturae quasi ipsa ordinetur, sed quasi ipsa 
+      <lb ed="#T" n="26"/>sit ratio ordinis: vnum vero, q iamuis non 
+      pos<lb ed="#T" n="27" break="no"/>sit esse ordinatum inter se poteit tamen esse 
+      ra<lb ed="#T" n="28" break="no"/>tio ordinis multorum. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e1185">
+                  <lb ed="#T" n="29"/>Ad 3. De priori &amp; posteriori secundum 
+      lo<lb ed="#T" n="30" break="no"/>cum &amp;c. Resp. Non est simile, quia ordo loci &amp; 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0252.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="31"/>temporis &amp; dignitatis est ordo simpliciter: ideo 
+      <lb ed="#T" n="32"/>ponit simpliciter prius &amp; posterius: sed ordo 
+      na<lb ed="#T" n="33" break="no"/>turae, prout hic accipitur, non est ordo 
+      simpli<lb ed="#T" n="34" break="no"/>citer, abstrahit enim a ratione antecessionis. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e1205">
+                  <lb ed="#T" n="35"/>Ad 4. De relatiuis. Resp. Inter ea, quae simul 
+      <lb ed="#T" n="36"/>sunt non potest esse ordo simpliciter: sed ordo 
+      <lb ed="#T" n="37"/>sine ratione antecessionis bene potest: sic autem 
+      <lb ed="#T" n="38"/>dicitur ordo naturae. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e52954-Dd1e1217">
+               <head xml:id="pdt7y6-e52954-Hd1e1219">Expositio litterae</head>
+               <p xml:id="pdt7y6-e52954-d1e1221">
+                  <lb ed="#T" n="39"/>EXPOSITIO LITTERAE 
+      <lb ed="#T" n="40"/>TOn potest qui accipit inaequalis esse ei, 
+      <lb ed="#T" n="41"/>qui dedit) Contra videtur potius esse 
+      op<lb ed="#T" n="42" break="no"/>positum, quia qui accipit a Deo gratiam vel 
+      sa<lb ed="#T" n="43" break="no"/>pientiam, non est aequalis danti. Resp. Loquitur 
+      <lb ed="#T" n="44"/>de acceptione naturali, illa enim, cum 
+      commu<lb ed="#T" n="45" break="no"/>nicet substantiam simplicem necesse est, quod 
+      <lb ed="#T" n="46"/>totam. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e1241">
+                  <lb ed="#T" n="47"/>[Si non potuit, vbi est omnipotentia] 
+      Con<lb ed="#T" n="48" break="no"/>tra. Filius non potuit hoc, non tamen ideo 
+      di<lb ed="#T" n="49" break="no"/>citur deficere in potentia. Resp. Non est simile, 
+      <lb ed="#T" n="50"/>quia hoc in persona Patris potentiae est, cum 
+      <lb ed="#T" n="51"/>non repugnet imo conueniat suae personali 
+      pro<lb ed="#T" n="52" break="no"/>prietati, in Filio vero non. 
+    </p>
+               <p xml:id="pdt7y6-e52954-d1e1257">
+                  <lb ed="#T" n="53"/>[Si dicis quia non voluit &amp;c.] Contra. Ergo 
+      <lb ed="#T" n="54"/>eadem ratione si non dat creaturae quicquid 
+      po<lb ed="#T" n="55" break="no"/>test, est inuidus. Resp. Non est simile in 
+      produ<lb ed="#T" n="56" break="no"/>ctione vniuoca &amp; naturali, quae tendit ad 
+      vnita<lb ed="#T" n="57" break="no"/>tem: &amp; in aequiuoca &amp; artificiali, quae non 
+      ten<lb ed="#T" n="58" break="no"/>dit ad vnitatem. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0252.xml-->
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="300"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e91088"><!-- l1d37q1 -->
+            <head xml:id="pdt7y6-e91088-Hd1e99">Quaestio 1</head>
+            <head xml:id="pdt7y6-e91088-Hd1e101" type="question-title">Qualiter Deus est in rebus</head>
+            <p xml:id="pdt7y6-e91088-d1e104">
+               <lb ed="#T" n="84"/>QVaEsTio¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0376.xml-->
+      <pb ed="#T" n="301"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>QVESTIO I. 
+      <lb ed="#T" n="2"/>QVALITER DEVS ESTIN REBVS. 
+    </p>
+            <p xml:id="pdt7y6-e91088-d1e120">
+               <lb ed="#T" n="3"/>TVIc quaeruntur quinque principaliter.  
+      <lb ed="#T" n="4"/> Primo qualiter Deus est in rebus. 
+      <lb ed="#T" n="5"/>Secundo qualiter Deus est vbique. 
+      <lb ed="#T" n="6"/>Tertio qualiter se habet ad locum &amp; motum. 
+      <lb ed="#T" n="7"/>Quarto qualiter spiritus creatus est in loco. 
+      <lb ed="#T" n="8"/>Quinto qualiter mouetur de loco ad locum. 
+    </p>
+            <p xml:id="pdt7y6-e91088-d1e136">
+               <lb ed="#T" n="9"/>Circa primum quaeruntur tria. 
+      <lb ed="#T" n="10"/>Primo vtrum Deus sit in omnibus rebus. 
+      <lb ed="#T" n="11"/>Seoundo vtrum aequaliter sit in rebus. 
+      <lb ed="#T" n="12"/>Tertio de modis quibus est in rebus. 
+    </p>
+            <div xml:id="pdt7y6-e91088-Dd1e148">
+               <head xml:id="pdt7y6-e91088-Hd1e150">Articulus 1</head>
+               <head xml:id="pdt7y6-e91088-Hd1e152" type="question-title">An Deus sit in omnibus rebus</head>
+               <p xml:id="pdt7y6-e91088-d1e155">
+                  <lb ed="#T" n="13"/>Articvlvs I. 
+      <lb ed="#T" n="14"/>An Deus sit in omnibus rebus.
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e162">
+                  <lb ed="#T" n="15"/>AD primum sic proceditur. 1. Nobilior 
+      <lb ed="#T" n="16"/>agens nobiliorem producit effectum: 
+      no<lb ed="#T" n="17" break="no"/>bilior est effectus qui potest confseruari in esse 
+      <lb ed="#T" n="18"/>per se sine praesentia suae causae, quam qui non 
+      <lb ed="#T" n="19"/>potest, sicut impressio sigilli in cera, quam in 
+      <lb ed="#T" n="20"/>adua: ergo cum agens creatum tam naturale vt 
+      <lb ed="#T" n="21"/>Sol, quam voluntarium vt artifex, possit 
+      huius<lb ed="#T" n="22" break="no"/>modi producere, multo magis Deus: ergo non 
+      <lb ed="#T" n="23"/>est necesse ipsum esse in omnibus effectibus suis. 
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e184">
+                  <lb ed="#T" n="24"/>2. Nobilior est agens qui potest operari vbi 
+      <lb ed="#T" n="25"/>est &amp; vbi non est, siue in absentia &amp; in 
+      praesen<lb ed="#T" n="26" break="no"/>tia, vt in coelo &amp; in inferioribus, quam qui in 
+      <lb ed="#T" n="27"/>praesentia tantum: sed Deus est agens 
+      nobilis<lb ed="#T" n="28" break="no"/>simum: ergo in absentia potest operari. 
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e198">
+                  <lb ed="#T" n="29"/>3. Potentior est natura naturans, quam 
+      na<lb ed="#T" n="30" break="no"/>tura naturata: sed natura naturata suis dat 
+      effe<lb ed="#T" n="31" break="no"/>ctibus per se manendi virtutem: ergo multo 
+      <lb ed="#T" n="32"/>magis natura naturans. 
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e209">
+                  <lb ed="#T" n="33"/>4. Duae tantum sunc causae rei intrinfecae 
+      <lb ed="#T" n="34"/>scilicet forma quae est pars rei, &amp; materia; &amp; 
+      <lb ed="#T" n="35"/>duae extrinsecae, scilicet efficiens &amp; finis: cum 
+      <lb ed="#T" n="36"/>ergo Deus non sit nec materia nec forma rerum, 
+      <lb ed="#T" n="37"/>sed tantum exemplar, &amp; efficiens, &amp; finis, ipse 
+      <lb ed="#T" n="38"/>causa est rebus extrinfeca non intrinfeca. 
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e225">
+                  <lb ed="#T" n="39"/>5. Impon:bile est vt duo agentia immediatem 
+      <lb ed="#T" n="40"/>operentur eundem effectum, quia vna operatio 
+      <lb ed="#T" n="41"/>terminatur ad vnum proprium operatum: ergo 
+      <lb ed="#T" n="42"/>imponsibile est in eodem effectu immediatem 
+      ope<lb ed="#T" n="43" break="no"/>rari creaturam &amp; Deum: ergo non adest Deus 
+      <lb ed="#T" n="44"/>immediate omnibus effectibus creaturae. 
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e241">
+                  <lb ed="#T" n="45"/>Contra. 1. Quicquid est in vna re, quod non 
+      <lb ed="#T" n="46"/>in alia, habet esse terminatum: sed Deus non 
+      <lb ed="#T" n="47"/>habet esse terminatum: ergo est in omni ro¬ 
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e250">
+                  <lb ed="#T" n="48"/>2. Si Deus est in vna re &amp; non in alia, aut 
+      er<lb ed="#T" n="49" break="no"/>go potest esse in illa, aut non potest: si, potest, 
+      <lb ed="#T" n="50"/>ergo est mobilis: si non potest, ergo impotens, 
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e259">
+                  <lb ed="#T" n="51"/>3. Omnis causa primaria plus est influens in 
+      <lb ed="#T" n="52"/>suum causatum, quam causa secundaria: sed  
+      <lb ed="#T" n="53"/>nullus effectus potest conseruari in esse sine 
+      im<lb ed="#T" n="54" break="no"/>mediata praesentia suae materiae &amp; suae formae: 
+      <lb ed="#T" n="55"/>ergo multo minus sine immediata praesentia 
+      <lb ed="#T" n="56"/>causae primae. 
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e276">
+                  <lb ed="#T" n="57"/>4. Dicit Comment. super lib. de causis, quod 
+      <lb ed="#T" n="58"/>nter causam quae agit per essentiam suam, &amp; 
+      <lb ed="#T" n="59"/>factum suum, non est continuatio, nec res 
+      ali<lb ed="#T" n="60" break="no"/>qua media: sed Deus est retam omnium 
+      huiusmo<lb ed="#T" n="61" break="no"/>di causa: ergo est immediate praesens omni rei. 
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e289">
+                  <lb ed="#T" n="62"/>5. Vbicumque est influentia immediata, 
+      <lb ed="#T" n="63"/>oportet esse immediat. coniunctionem agentis 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0376.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="64"/>&amp; suscipientis: inter Deum &amp; creaturam est 
+      <lb ed="#T" n="65"/>influentia immediata: ergo &amp;c Probatio mediae. 
+      <lb ed="#T" n="66"/>Nihil de nihilo tactum sufficit conseruare 
+      se<lb ed="#T" n="67" break="no"/>psum: ergo minus aliud a se: ergo oportet 
+      om<lb ed="#T" n="68" break="no"/>nem rem immediate conferuari per factorem &amp; 
+      <lb ed="#T" n="69"/>non factum. 
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e313">
+                  <lb ed="#T" n="70"/>6. Omnis causa posterior agit in virtute 
+      prio<lb ed="#T" n="71" break="no"/>ris causae concurrente in opere, vt virtus 
+      grani<lb ed="#T" n="72" break="no"/>in solari virtute creata in virtute creatrice: ergo 
+      <lb ed="#T" n="73"/>cum essentia &amp; virtus idem sint in Deo, 
+      requi<lb ed="#T" n="74" break="no"/>ritur praesentia diuinae essentiae. 
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e326">
+                  <lb ed="#T" n="75"/>Respondeo. In Deo propter omnimodam 
+      sim<lb ed="#T" n="76" break="no"/>plicitatem idem est essentia, virtus, &amp; operatio.  
+      <lb ed="#T" n="77"/>In omni ergo re, in qua est Dei operatio, 
+      opor<lb ed="#T" n="78" break="no"/>tet quod sit eius virtus, &amp; in qua est Dei virtus 
+      <lb ed="#T" n="79"/>oportet quod sit Dei essentia: in omnibus vero 
+      re<lb ed="#T" n="80" break="no"/>bus est Dei operatio, quia nulla res creata 
+      po<lb ed="#T" n="81" break="no"/>test seipsam vel aliam in esse conseruare, quia 
+      <lb ed="#T" n="82"/>cuius est dare esse immediate, eius est 
+      confer<lb ed="#T" n="83" break="no"/>uare: esse vero non potest conseruari sine 
+      prae<lb ed="#T" n="84" break="no"/>sente causa essendi, sicut nec motus sine causa 
+      <lb ed="#T" n="85"/>mouendi: oportet ergo in omni re Dei 
+      operatio<lb ed="#T" n="86" break="no"/>nem, &amp; Dei virtutem, &amp; Dei essentiam esse. Quod  
+      <lb ed="#T" n="87"/>ostenditur necessarium tam ex parte indigentiae 
+      <lb ed="#T" n="88"/>creaturae, quam ex parte perfectionis creatoris: 
+      <lb ed="#T" n="89"/>creatura enim, cum sit de nihilo, non potest se 
+      <lb ed="#T" n="90"/>conferuare in esse per se: creator vero, cum fit 
+      <lb ed="#T" n="91"/>infinitus &amp; incircumscriptibilis, non clauditur  
+      <lb ed="#T" n="92"/>aliquo definiente vel determinante. 
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e368">
+                  <lb ed="#T" n="93"/>Ad 1. Quod opponitur de effectu qui potest 
+      <lb ed="#T" n="94"/>conseruari sine praesentia causae. Resp. Quamuis 
+      <lb ed="#T" n="95"/>nuiusmodi effectum esse nobiliorem in effectibus. 
+      <lb ed="#T" n="96"/>causarum secundarum verum sit, sed non in 
+      effe<lb ed="#T" n="97" break="no"/>ctibus causae primae: ignobilitas enim est a 
+      plu<lb ed="#T" n="98" break="no"/>ribus causis secundarijs dependere, sed nona 
+      <lb ed="#T" n="99"/>causa prima. 
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e386">
+                  <lb ed="#T" n="100"/>Ad . De agente operante in absentia. Resp. 
+      <lb ed="#T" n="101"/>Hoc verum est de agente mediato finitae 
+      essen<lb ed="#T" n="102" break="no"/>tiae, &amp; virtutis, &amp; operationis, qui non potest 
+      <lb ed="#T" n="103"/>immediate per praesentiam operari in pluribus. 
+      <lb ed="#T" n="104"/>simul: sed non de immediato &amp; infinito agente 
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e400">
+                  <lb ed="#T" n="105"/>Ad 3. De natura naturante. Resp. Hoc non 
+      <lb ed="#T" n="106"/>contingit ex munere ipsius naturae naturatae, sed  
+      <lb ed="#T" n="107"/>ex natura causae primae conferuantis: ipsa vero 
+      <lb ed="#T" n="108"/>abstracta nihil est quod possit in permanendo 
+      <lb ed="#T" n="109"/>conferuare. 
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e413">
+                  <lb ed="#T" n="110"/>Ad 4. De duabus causis intrinfecis. Resp. 
+      <lb ed="#T" n="111"/>Quamuis illae solae sint intrinsecae vt partes, 
+      ta<lb ed="#T" n="112" break="no"/>men causam primam conseruatiuam illarum 
+      <lb ed="#T" n="113"/>pportet in agendo intimiorem esse: &amp; cum eius 
+      <lb ed="#T" n="114"/>pperatio sit eius virtus, virtus sit eius essentia, 
+      <lb ed="#T" n="115"/>portet essentiam Dei omni rei intimam esse. 
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e429">
+                  <lb ed="#T" n="116"/>Ad 5. De duobus agentibus. Resp. Hoc 
+      ve<lb ed="#T" n="117" break="no"/>rum est de duobus agentibus eodem modo, seu in 
+      <lb ed="#T" n="118"/>eodem genere, quorum vnumquodque agit per se: 
+      <lb ed="#T" n="119"/>sed agens creatum non agit nisi per virtutem 
+      <lb ed="#T" n="120"/>causae primae sibi coniunctam: virtus vero causae 
+      <lb ed="#T" n="121"/>primae, eius essentia est: ergo non agit nisi per 
+      <lb ed="#T" n="122"/>coniunctionem diuinae essentiae 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e91088-Dd1e448">
+               <head xml:id="pdt7y6-e91088-Hd1e450">Articulus 2</head>
+               <head xml:id="pdt7y6-e91088-Hd1e452" type="question-title">An Deus sit aequaliter in rebus</head>
+               <p xml:id="pdt7y6-e91088-d1e455">
+                  <lb ed="#T" n="123"/>Articvlvs II. 
+      <lb ed="#T" n="124"/>An Deus sit aequaliter in rebus.
+</p>
+               <p xml:id="pdt7y6-e91088-d1e462">
+                  <lb ed="#T" n="125"/>AD secundum articulum sic proceditur. A 
+      <lb ed="#T" n="126"/>Dicit Auctor in lib. de causis, quod 
+      pri<lb ed="#T" n="127" break="no"/>mum eodem modo se habet ad omnia: ergo 
+      aequa<lb ed="#T" n="128" break="no"/>iter est in omnibus rebus. 
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e473">
+                  <lb ed="#T" n="129"/>2. Simplex vbicumque est, totaliter est: 
+      er<lb ed="#T" n="130" break="no"/>go totaliter est in singulis rebus: ergo aequaliter.
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e481">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0377.xml-->
+                  <pb ed="#T" n="302"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>3. De ad quamEbet creaturam est distantia. 
+      <lb ed="#T" n="2"/>infinita: orgo aequalis, quia infinitum infinito 
+      <lb ed="#T" n="3"/>non est maius: ergo aequaliter se habet ad 
+      om<lb ed="#T" n="4" break="no"/>nes res: ergo aequaliter est in omnibus rebus. 
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e499">
+                  <lb ed="#T" n="5"/>Conera. 1. Vnumquodque est in recipiente 
+      <lb ed="#T" n="6"/>per modum suscipientis, non: per modum rei 
+      <lb ed="#T" n="7"/>receptae: sed non aequaliter receptibilitas Dei est 
+      <lb ed="#T" n="8"/>in omnibus: ergo nec Deus est aequaliter in 
+      om<lb ed="#T" n="9" break="no"/>nibus. 
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e512">
+                  <lb ed="#T" n="10"/>2. Diuina sapientia non est aequaliter in 
+      om<lb ed="#T" n="11" break="no"/>nibus sapientibus, nec bonitas in omnibus 
+      bo<lb ed="#T" n="12" break="no"/>nis: ergo nec essentia in omnibus. 
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e521">
+                  <lb ed="#T" n="13"/>3. Omne quod differenter a differentibus 
+      par<lb ed="#T" n="14" break="no"/>ticipatur non est in illis aequaliter, vt lux 
+      So<lb ed="#T" n="15" break="no"/>lis in omnibus illuminantibus: sed esse diuinum 
+      <lb ed="#T" n="16"/>differenter a diuersis participatur: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e532">
+                  <lb ed="#T" n="17"/>4. Non dicitur Deus esse in daemonibus, vel in 
+      <lb ed="#T" n="18"/>inferno: ergo non aequaliter in omnibus. 
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e539">
+                  <lb ed="#T" n="19"/>Respondeo, Esse Dei in rebus dupliciter 
+      po<lb ed="#T" n="20" break="no"/>test accipi: vel ita quod connotetur solus 
+      re<lb ed="#T" n="21" break="no"/>spectus praesentiae Dei ad creaturam: vel vt 
+      con<lb ed="#T" n="22" break="no"/>notetur effectus influentiae in ipsam: hoc vltimo 
+      <lb ed="#T" n="23"/>modoDeus est inaequaliter in omnibus creaturis, 
+      <lb ed="#T" n="24"/>quia non aequalia efficit in eis: primo modo 
+      <lb ed="#T" n="25"/>aequaliter est in omnibus rebus, sed non in 
+      om<lb ed="#T" n="26" break="no"/>nibus aequaliter dicitur esse. nam creaturae 
+      quae<lb ed="#T" n="27" break="no"/>dam sonant defectum &amp; vilitatem siue 
+      spiri<lb ed="#T" n="28" break="no"/>tualem, siue naturalem, siue vulgarem, vt 
+      dia<lb ed="#T" n="29" break="no"/>polus, peccator, infernus, Iatrina &amp; huiusmodi: 
+      <lb ed="#T" n="30"/>&amp; in his non dicitur Deus esse simpliciter, sed  
+      <lb ed="#T" n="31"/>cum determinatione, scilicet in quantum 
+      crea<lb ed="#T" n="32" break="no"/>turae sunt: quaedam vero sonant naturam sine 
+      <lb ed="#T" n="33"/>additione conditionis vilis, &amp; in his simpliciter  
+      <lb ed="#T" n="34"/>dicitur esse. 
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e577">
+                  <lb ed="#T" n="35"/>Ad argumenta omnia hinc &amp; inde per 
+      distin<lb ed="#T" n="36" break="no"/>ctionem hanc respondendum est, 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e91088-Dd1e585">
+               <head xml:id="pdt7y6-e91088-Hd1e587">Articulus 3</head>
+               <head xml:id="pdt7y6-e91088-Hd1e589" type="question-title">De modis quibus Deus est in rebus</head>
+               <p xml:id="pdt7y6-e91088-d1e592">
+                  <lb ed="#T" n="37"/>Articvlvs III. 
+      <lb ed="#T" n="38"/>De modis quibus Deus est in rebus. 
+</p>
+               <p xml:id="pdt7y6-e91088-d1e599">
+                  <lb ed="#T" n="39"/>AD tertium articulum sic proceditur. 
+      Magi<lb ed="#T" n="40" break="no"/>stro assignat hos tres modos generales, 
+      di<lb ed="#T" n="41" break="no"/>cens quod Deus inest omnibus rebus per 
+      na<lb ed="#T" n="42" break="no"/>turam seu per essentiam, per praesentiam, per 
+      <lb ed="#T" n="43"/>potentiam: item duos speciales quibus in 
+      crea<lb ed="#T" n="44" break="no"/>turis rationalibus solis, scilicet per gratiam 
+      <lb ed="#T" n="45"/>adoptionis in sanctis omnibus, &amp; per gratiam 
+      <lb ed="#T" n="46"/>vnionis in Christo: ergo videtur quod his 
+      quin<lb ed="#T" n="47" break="no"/>que modis tantum sit Deus in rebus. 
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e621">
+                  <lb ed="#T" n="48"/>Contra. 1. In Deo idem est essentia, 
+      praesen<lb ed="#T" n="49" break="no"/>sia, potentia: ergo idem est esse Dei in rebus 
+      per<lb ed="#T" n="50" break="no"/>essentiam praesentiam &amp; potentiam 
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e631">
+                  <lb ed="#T" n="51"/>2. Isti modi aut differunt a parte Dei, aut a 
+      <lb ed="#T" n="52"/>parte creaturae: si u parte Dei, contra, Deus 
+      eo<lb ed="#T" n="53" break="no"/>dem modo se habet ad omnes res: si a parte 
+      crea<lb ed="#T" n="54" break="no"/>turae multi sunt alij modi diuinae 
+      participa<lb ed="#T" n="55" break="no"/>tionis. 
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e644">
+                  <lb ed="#T" n="56"/>3. Omnes res vno tantum modo sunt in Deo, 
+      <lb ed="#T" n="57"/>quia in Deo non sunt nisi modo diuino: ergo 
+      <lb ed="#T" n="58"/>Deus est vno tantum modo in rebus. 
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e653">
+                  <lb ed="#T" n="59"/>4. Dionys. dicit quod Deus eodem modo se 
+      <lb ed="#T" n="60"/>habet ad res, licet res non eodem ad ipsum: 
+      er<lb ed="#T" n="61" break="no"/>go vno modo est in omnibus rebus. 
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e662">
+                  <lb ed="#T" n="62"/>5. Dicit Austinus lib. Confess. quod Deus est 
+      <lb ed="#T" n="63"/>in seipso vt A, &amp; O &amp; in mundo vt creator, 
+      <lb ed="#T" n="64"/>&amp; rector, in angelo vt decor &amp; sapor, in electis 
+      <lb ed="#T" n="65"/>vt liberator &amp; adiutor in reprobis vt terror &amp; 
+      <lb ed="#T" n="66"/>borror: ergo pluribus modis quam quinque. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0377.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>6 Modi isti quibus Deus est in rebus, 
+      sumun<lb ed="#T" n="68" break="no"/>tur penes habitudinem Dei ad creaturas: ergo 
+      <lb ed="#T" n="69"/>penes causalitatem aliquam: aut ergo per 
+      ratio<lb ed="#T" n="70" break="no"/>nem communem, aut per appropriationem ad 
+      <lb ed="#T" n="71"/>personas: si per rationem communem tribus 
+      <lb ed="#T" n="72"/>personis ergo cuin, quet sunt effectus, ot 
+      <lb ed="#T" n="73"/>sint habitudines causalitatis, plures sunt 
+      mo<lb ed="#T" n="74" break="no"/>di quam tres: si per appropriationem contra 
+      <lb ed="#T" n="75"/>essentia &amp; praesentia nulli persone appropriantur.  
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e699">
+                  <lb ed="#T" n="76"/>7. Essentia Dei nullum effectum connotat in 
+      <lb ed="#T" n="77"/>rebus, nec respectum ad res: ergo videtur quod 
+      <lb ed="#T" n="78"/>Deus per essentiam non debet dici in rebus esse. 
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e708">
+                  <lb ed="#T" n="79"/>8. Sicut potentia Dei est causa rerum, ta 
+      bo<lb ed="#T" n="80" break="no"/>nitas &amp; sapientia, ergo similiter per 
+      bonita<lb ed="#T" n="81" break="no"/>tem &amp; sapientiam debet dici Deus esse in rebus. 
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e718">
+                  <lb ed="#T" n="82"/>9. Inter naturam &amp; gratiam adoptionis est 
+      <lb ed="#T" n="83"/>gratia gratis data: ergo videtur debere facere 
+      <lb ed="#T" n="84"/>medium modum existentiae Dei in rebus. 
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e727">
+                  <lb ed="#T" n="85"/>Respondeo. Modi illi quibus Deus dicitur  
+      <lb ed="#T" n="86"/>esse in creatura distingui possunt &amp; a parte Dei, 
+      <lb ed="#T" n="87"/>&amp; a parte creaturae. A parte Dei secundum 
+      quos<lb ed="#T" n="88" break="no"/>dam distinguntur sic. Est enim considerare 
+      essen<lb ed="#T" n="89" break="no"/>tiam secundum se, &amp; personam secundum se, &amp; 
+      <lb ed="#T" n="90"/>essentiam in persona: essentiae secundum se 
+      ap<lb ed="#T" n="91" break="no"/>propriatur esse in rebus per essentiam; personae 
+      <lb ed="#T" n="92"/>Patris appropriatur esse per potentiam; 
+      perso<lb ed="#T" n="93" break="no"/>nae Filij esse per praesentiam, id est cognitione, 
+      <lb ed="#T" n="94"/>quia praesens dicitur quasi praesentiens; 
+      perso<lb ed="#T" n="95" break="no"/>nae Spiritus sancti esse per gratiam: essentiae 
+      ve<lb ed="#T" n="96" break="no"/>ro in persona attribuitur modus vltimus, esse 
+      <lb ed="#T" n="97"/>scillcet per vnionem. Ex parte vero creaturae 
+      <lb ed="#T" n="98"/>melius distinguntur, quia creaturae omnes a Deo 
+      <lb ed="#T" n="99"/>sunt: solae creaturae rationales in deum redeunt: 
+      <lb ed="#T" n="100"/>sola natura humana Deo personaliter vnitur.  
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e764">
+                  <lb ed="#T" n="101"/>uoad vltimum modum dicitur Deus esse in 
+      <lb ed="#T" n="102"/>Curisto per vnionem: quoad secundum in sanctis 
+      <lb ed="#T" n="103"/>per gratiam inhabitantem: quoad primum in 
+      om<lb ed="#T" n="104" break="no"/>nibus rebus secundum tria: nam ipse est intra 
+      <lb ed="#T" n="105"/>substantiam rei per essentiam, influit in virtute 
+      <lb ed="#T" n="106"/>rei per potentiam, cooperatur operationibus 
+      <lb ed="#T" n="107"/>eius per presentiam, quia operantem oportet esse 
+      <lb ed="#T" n="108"/>praesentem vbi operatur: vel melius per 
+      praesen<lb ed="#T" n="109" break="no"/>tiam inquantum extra assistit cuilibet rei; per 
+      <lb ed="#T" n="110"/>potentiam inquantum ipsam rem conferuat 
+      <lb ed="#T" n="111"/>totam &amp; in ipsam influit; per essentiam 
+      in<lb ed="#T" n="112" break="no"/>quantum ipsam rei totam existentiam intus 
+      pe<lb ed="#T" n="113" break="no"/>netrat. 
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e795">
+                  <lb ed="#T" n="114"/>Ad 1. Idem est in Deo &amp;c. Resp. Quamuis sit 
+      <lb ed="#T" n="115"/>idem in Deo secundum se, non tamen idem 
+      con<lb ed="#T" n="116" break="no"/>notatum respectu creaturae. 
+      <lb ed="#T" n="117"/>Ad 2. Aut differunt a parte Dei &amp;c. Resp. A 
+      <lb ed="#T" n="118"/>parte Dei differunt secundum rationem: a parte. 
+      <lb ed="#T" n="119"/>creaturae secundum rem. Et si sint alij multi 
+      mo<lb ed="#T" n="120" break="no"/>di speciales, isti tamen sunt modi generales 
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e813">
+                  <lb ed="#T" n="121"/>Ad 3. Omnes res in Deo vno modo sunt &amp;c. 
+      <lb ed="#T" n="122"/>Resp Non est simile, quia vnuquodque est in 
+      re<lb ed="#T" n="123" break="no"/>cipiente per modum recipientis: diuinus vero 
+      mo<lb ed="#T" n="124" break="no"/>dus vnus est, modus vero creaturae multiplex. 
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e824">
+                  <lb ed="#T" n="125"/>Ad 4. Ex pionysio. Resp. Eodem modo se 
+      ha<lb ed="#T" n="126" break="no"/>bet Deus ad omnia secundum rem, sed 
+      differen<lb ed="#T" n="127" break="no"/>ter secundum rationem. 
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e834">
+                  <lb ed="#T" n="128"/>Ad 5. Ex Augustino. Resp. Illi modi ad hos 
+      <lb ed="#T" n="129"/>reducuntur.  
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e841">
+                  <lb ed="#T" n="130"/>Ad 6. De causalitate. Resp. Hi modi 
+      sumun<lb ed="#T" n="131" break="no"/>tur vno modo ex parte creaturae per 
+      causalita<lb ed="#T" n="132" break="no"/>tem, sed non exprimuntur nisi generales modi: 
+      <lb ed="#T" n="133"/>alio modo sumuntur per appropriationem, non 
+      <lb ed="#T" n="134"/>ita quod essentia vel praesentia approprientur, 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0378.xml-->
+      <pb ed="#T" n="303"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>sed esse in rebus per essentiam &amp; esse praesentiam. 
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e863">
+                  <lb ed="#T" n="2"/>Ad 7. Essentia Dei nullum effectum 
+      conno<lb ed="#T" n="3" break="no"/>tat. Resp. Quamuis essentia effectum non 
+      con<lb ed="#T" n="4" break="no"/>notet, tamen esse in creatura per essentiam 
+      con<lb ed="#T" n="5" break="no"/>notat. 
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e874">
+                  <lb ed="#T" n="6"/>Ad 8. De sapientia &amp; bonitate. Resp. 
+      Mo<lb ed="#T" n="7" break="no"/>dus quo Deus per haec duo est in rebus per 
+      reprae<lb ed="#T" n="8" break="no"/>sentationem vestigij continetur in modo 
+      exi<lb ed="#T" n="9" break="no"/>stendi per naturam. 
+    </p>
+               <p xml:id="pdt7y6-e91088-d1e885">
+                  <lb ed="#T" n="10"/>Ad vltimum. Resp. Modus iste reducitur ad 
+      <lb ed="#T" n="11"/>modum existendi per gratiam, vt dispositio 
+      in<lb ed="#T" n="12" break="no"/>completa ad habitum completum, 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

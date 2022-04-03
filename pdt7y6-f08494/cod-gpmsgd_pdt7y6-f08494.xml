@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="353"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-f08494"><!-- l1d43prae -->
+            <head xml:id="pdt7y6-f08494-Hd1e99">Praeambulum</head>
+            <head xml:id="pdt7y6-f08494-Hd1e101" type="question-title"/>
+            <p xml:id="pdt7y6-f08494-d1e103">
+               <cb ed="#T" n="c"/>
+               <lb ed="#T" n="42"/>OPINIO QVORVNDAM 
+      DICEN<lb ed="#T" n="43" break="no"/>tium Deum nil posse nisi quod facit. 
+      <lb ed="#T" n="44"/>Distinct. XLIII. 
+      </p>
+           <!-- <p xml:id="pdt7y6-f08494-d1e114">
+               <lb ed="#T" n="45"/>VIDAMtamen de suo sensu gloriantes, Dei potentiam sub mensura 
+      <lb ed="#T" n="46"/>coarctate conati sunt. Cum enim dicunt, hucusque potest Deus, &amp; 
+      no<lb ed="#T" n="47" break="no"/>amplius, quid hoc est aliud quam eius potentiam, quae infinita est, 
+      con<lb ed="#T" n="48" break="no"/>cludere &amp; restringere ad mensuram? Aiunt enim, non potest Deus aliud 
+      <lb ed="#T" n="49"/>facere quam facit, nec melius facere id quod facit, nec aliquid 
+      praeter<lb ed="#T" n="50" break="no"/>mittere de his, quae facit. Istamque primam suam opinionem 
+      vorisimi<lb ed="#T" n="51" break="no"/>libus argumentis, causisque commentitiis, nec non &amp; sacrarum 
+      autho<lb ed="#T" n="52" break="no"/>ritatum testimoniis munire conantur dicentes. Non potest Deus facere nisi quod bonum 
+      <lb ed="#T" n="53"/>&amp; iustum est fieri: non est autem iustum &amp; bonum fieri ab eo, nisi quod facit. Si enim aliud 
+      <lb ed="#T" n="54"/>iustum est &amp; bonum cum facere quam facit, non ergo facit omne quod iustum est bonum 
+      <lb ed="#T" n="55"/>cum facere: sed quis audeat hoc dicere? 
+    </p>
+            <p xml:id="pdt7y6-f08494-d1e140">
+               <lb ed="#T" n="56"/>Secunda ratio. 
+      <lb ed="#T" n="57"/>Addunt etiam, Non potest facere, nisi quod iustitia eius exigit, sed non exigit eius 
+      iusti<lb ed="#T" n="58" break="no"/>tia, vt faciat nisi quod facit: non ergo potest facere, nisi quod facit. Eademque iustitia 
+      exi<lb ed="#T" n="59" break="no"/>git, vt id non faciat quod non facit, non autem potest facere contra iustitiam suam, non 
+      <lb ed="#T" n="60"/>ergo potest aliquid eorum facere, quae dimittit.  
+    </p>
+            <p xml:id="pdt7y6-f08494-d1e154">
+               <lb ed="#T" n="61"/>Responsio ad prius dictum. 
+      <lb ed="#T" n="62"/>His autem respondemus, duplicem verborum intelligentiam aperientes, &amp; ab eis 
+      in<lb ed="#T" n="63" break="no"/>uoluta euoluentes sic: Non potest Deus facere nisi quod bonum est &amp; iustum, id est, 
+      <lb ed="#T" n="64"/>non potest facere nisi illud quod si faceret bonum &amp; iustum esset, verum est: sed  
+      <lb ed="#T" n="65"/>multa potest facere quae non bona sunt, nec iusta, quia nec sunt, nec erunt, nec 
+      <lb ed="#T" n="66"/>bene siunt, nec fient, quia numquam fient. Item quod secundo oppositum fuit: 
+      <lb ed="#T" n="67"/>Non potest facere nisi quod iustitia sua exigit, &amp; non potest id facere quod iustitia 
+      <lb ed="#T" n="68"/>sna exigit, vt non fiat. Dicimus, quia exactionis verbum de Deo congrue non dicitur,  
+      <lb ed="#T" n="69"/>nec proprie accipitur &amp; in illis locutionibus duplex est sensus. Si enim intelligas, non 
+      po<lb ed="#T" n="70" break="no"/>test facere nisi quod sua iustitia sua exigit, id est, nisi quod voluntas sua iusta vult, falium 
+      <lb ed="#T" n="71"/>dicis. Iustitia enim ipsius Dei aequissima voluntas accipitur, qualiter accipit Augustinus il 
+      <lb ed="#T" n="72"/>la verba Domini in Genesi, loquentis ad Loth (Non possum quicquam facere donec illo 
+      <lb ed="#T" n="73"/>introeas) exponens: Non posse, inquit, se dixit, quod sine dubio poterat per potentiam, 
+      <lb ed="#T" n="74"/>sed non poterat per iustitiam: quod poterat quidem, sed non volebat, &amp; illa voluntas 
+      <lb ed="#T" n="75"/>iusta erat. Si vero per haec verba intelligis eum non posse facere, nisi illud quod si fieret, 
+      iu<lb ed="#T" n="76" break="no"/>stitiae eius conueniret, verum dicis. Similiter distingue illud: Non potest facere quod sua 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0429.xml-\->
+      <pb ed="#T" n="354"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>iustitia exigit vt non faciat, id est, non potest facere id quod ipse qui est summa iustitia, 
+      <lb ed="#T" n="2"/>non vult facere, falsum est. Si autem his verbis intelligas cum non posse facere id quod 
+      iu<lb ed="#T" n="3" break="no"/>stitiae eius conuenire non potest, verum dicis, 
+    </p>
+            <p xml:id="pdt7y6-f08494-d1e204">
+               <lb ed="#T" n="4"/>Tertia illorum ratio. 
+      <lb ed="#T" n="5"/>Addunt quoque &amp; alia dicentes: Non potest Deus facere nisi quod debet: non autem 
+      <lb ed="#T" n="6"/>debet facere nisi quod facit. Si enim debet alia facere, non ergo facit omne quod debet: sic 
+      <lb ed="#T" n="7"/>vero facit omne quod debet, nec potest facere nisi quod debet, non ergo potest facere nisi 
+      <lb ed="#T" n="8"/>quod facit. Item, Aut debet dimittere quod dimittit ne faciat, aut non debet. Si non 
+      de<lb ed="#T" n="9" break="no"/>bet, non recte dimittit: si vero debet dimittere, ergo non debet facere. Si autem non 
+      de<lb ed="#T" n="10" break="no"/>bet, nec decet, non oportet eum facere: &amp; si non decet, nec oportet cum facere, ergo non 
+      <lb ed="#T" n="11"/>potest facere: non ergo potest facere, nisi quod facit, nec potest illud dimittere quod 
+      fa<lb ed="#T" n="12" break="no"/>cit quin faciat, quia debet illud facere, &amp; quod debet facere, non potest illud dimittere. 
+      <lb ed="#T" n="13"/>Sed vt mihi videtur, hoc verbum debet, venenum habet. Multiplicem enim &amp; inuolutam 
+      <lb ed="#T" n="14"/>continet intelligentiam: nec Deo proprie competit, qui non est debitor nobis, nisi forte 
+      <lb ed="#T" n="15"/>ex promisso, nos vero ei debitores sumus ex commisso. Vt autem venenum euacuetur,  
+      <lb ed="#T" n="16"/>distingue verbi sensum: Non potest Deus facere nisi quod debet, id est, nisi quod vult 
+      fal<lb ed="#T" n="17" break="no"/>sum est: sic enim potest ipse dici debere aliquid, quia vult illud. Si autem dicatur, non 
+      po<lb ed="#T" n="18" break="no"/>test nisi quod debet, id est, non potest nisi illud, quod si faceret, ei bene conueniret, verum 
+      <lb ed="#T" n="19"/>est. Addunt, quoque illi dicentes, nihil facit aut dimittit nisi optima &amp; rationabili causa 
+      <lb ed="#T" n="20"/>licet nobis occulta sit, secundum quam oportet cum facere ac dimittere, quae facit vel 
+      di<lb ed="#T" n="21" break="no"/>mittit. Ratio enim penes eum est: quia illa facit, &amp; illa dimittit: quae ratio aeterna est, &amp; 
+      <lb ed="#T" n="22"/>semper manens, praeter quam non potest aliquid facere vel dimittere. Illa ergo manente, 
+      <lb ed="#T" n="23"/>non potest quod facit dimittere, nec quod dimittit facere: &amp; ita non potest facere, 
+      nisi<lb ed="#T" n="24" break="no"/>quod fecit. Et ad hoc respondemus, ambiguitatem locutionis determinantes. Cum enim 
+      <lb ed="#T" n="25"/>dicitur: Ratio vel causa optima penes Deum est, qua facit cuncta quae facit, &amp; dimittit ea 
+      <lb ed="#T" n="26"/>quae dimittit, verum quidem est: quia in eo voluntas est aequissima &amp; rectissima, qua facit 
+      <lb ed="#T" n="27"/>&amp; dimittit quae vult, contra quam facere non potest, nec praeter eam facere potest. Nec 
+      <lb ed="#T" n="28"/>vtique contra eam faceret, nec praeter eam; si ea quae facit dimitteret, vel quae dimittit 
+      fa<lb ed="#T" n="29" break="no"/>ceret: sed eadem manente ratione &amp; causa, alia potuit facere, &amp; ista dimittere. Licet ergo 
+      <lb ed="#T" n="30"/>ratio sit penes eum, qua alia facit, &amp; alia dimittit; potest tamen secundum eandem 
+      ratio<lb ed="#T" n="31" break="no"/>nem &amp; dimittere quae facit, &amp; facere quae dimittit. Ipsi etiam addunt: Ratio est eum 
+      fa<lb ed="#T" n="32" break="no"/>cere quae facit, &amp; non alia &amp; non potest facere nisi quod ratio est cum facere, &amp; ita non 
+      <lb ed="#T" n="33"/>potest facere, nisi quod facit. Item: Ratio est eum dimittere quae dimittit, &amp; non potest 
+      <lb ed="#T" n="34"/>non dimittere quod ratio est cum dimittere, &amp; ita non potest non dimittere quod dimittit. 
+      <lb ed="#T" n="35"/>Et ad hoc dicimus locutiones ambiguas esse, &amp; ideo determinandas. Si enim cum dicitur:  
+      <lb ed="#T" n="36"/>Non potest facere nisi quod ratio est cum facere, intelligas cum non posse facere nisi ea 
+      <lb ed="#T" n="37"/>quae rationabilia sunt &amp; ea quae si fierent, rationabilia essent, verus est sensus. Si autem 
+      in<lb ed="#T" n="38" break="no"/>telligas cum non posse facere alia rationabilia &amp; bona, nisi ea quae vult &amp; facit, falsus est 
+      <lb ed="#T" n="39"/>intellectus. Item aliud adiungunt dicentes: Si potest Deus aliud facere quam facit, potest 
+      <lb ed="#T" n="40"/>ergo facere, quod non praesciuit, &amp; si potest facere quod non praesciuit, potest sine 
+      prae<lb ed="#T" n="41" break="no"/>scientia operari: quia omne quod facturum se praesciuit facit: nec facit aliquid, quod non 
+      <lb ed="#T" n="42"/>praesciuit. Quod si praeter praescientiam eius aliquid fieri impossibile est: omne ergo quod 
+      <lb ed="#T" n="43"/>praescitum est, fieri necesse est: ergo aliud fieri, quam sit, nulla ratione possibile est: ergo 
+      <lb ed="#T" n="44"/>non potest a Deo fieri, nisi quod sit. Haec autem quaestio de praescientia facile determinati 
+      <lb ed="#T" n="45"/>potest per ea quae superius dicta sunt, cum de praescientia ageretur.  
+    </p>
+            <p xml:id="pdt7y6-f08494-d1e298">
+               <lb ed="#T" n="46"/>Authoritatibus vtuntur in assertionem suae opinionis. 
+      <lb ed="#T" n="47"/>His autem illi scrutatores, qui defecerunt scrutantes scrutinio Sanctorum annectunt 
+      te<lb ed="#T" n="48" break="no"/>. stimonia. Dicit enim Augustinus in libro de Symbolo: Hoc solum non potest Deus quod 
+    </p>
+            <p xml:id="pdt7y6-f08494-d1e307">
+               <lb ed="#T" n="49"/>non vult. Per quod videtur non posse facere aliquid nisi quod vult: sed non vult nisi quod 
+      <lb ed="#T" n="50"/>facit, &amp; ita videtur non posse nisi quod facit. Illud autem ita intelligendum est. Id solum 
+      <lb ed="#T" n="51"/>non potest Deus quod non vult, scilicet se posse. Idem in 7. lib. Confess. ad Deum loquens 
+      <lb ed="#T" n="52"/>ait: Non cogeris inuitus ad aliquid: quia voluntas tua non est maior quam potentia: esset 
+      <lb ed="#T" n="53"/>aute maior, si teipso, tuipse maior esses. Ex hoc videtur quod Deus non possit plura quam 
+      <lb ed="#T" n="54"/>vult, sicut non vult plura quam potest. Sicut enim voluntas non est maior potentia, ita 
+      <lb ed="#T" n="55"/>nec potentia maior est voluntate. Ideoque sicut plura non vult quam potest, ita eum non 
+      <lb ed="#T" n="56"/>plura posse quam velle dicunt. Sed adhoc dicimus, quia nec voluntas potentia, nec 
+      po<lb ed="#T" n="57" break="no"/>tentia voluntate maior est, quia vna &amp; eadem res est potentia &amp; voluntas, scilicet ipse 
+      <lb ed="#T" n="58"/>Deus: qui esset maior seipso, si voluntas maior esset potentia, vel potentia voluntate. 
+    </p>
+            <p xml:id="pdt7y6-f08494-d1e331">
+               <lb ed="#T" n="59"/>Nec hac authoritate negatur Deum plura posse quam velle, quia plura sunt subjecta 
+      <lb ed="#T" n="60"/>eius potentiae quam voluntati. rateamur itaque Deum plura posse facere quae non vult, &amp; 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0430.xml-\->
+      <pb ed="#T" n="355"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>posse dimittere quae facit. Quod vt certius firmiusque teneatur, scripturae testimonijs 
+      asse<lb ed="#T" n="2" break="no"/>ramus, Deum plura posse facere quam facit. Veritas ipsa secundum Matthaeum ait: an putas 
+      <lb ed="#T" n="3"/>quia non possum rogare Patrem meum, &amp; exhibebit mihi modo plus quam duodecim 
+      fe<lb ed="#T" n="4" break="no"/>giones Angelorum; Ex quibus verbis patenter innuitur, quia &amp; Filius poterat rogare quod 
+      <lb ed="#T" n="5"/>non rogabat, &amp; Pater exhibere quod non exhibebat. Vterque ergo poterat facere quod 
+      <lb ed="#T" n="6"/>non faciebat. August. etiam in Enchir. ait: Omnipotentis voluntas multa potest facere, 
+      <lb ed="#T" n="7"/>quao non vult, nec facit. Potuit enim facere vt duodecim legiones Angelorum pugnarent, 
+      <lb ed="#T" n="8"/>contra illos qui Christum ceperunt. Item in eodem: Cur apud quosdam non factae sunt,  
+      <lb ed="#T" n="9"/>virtutes, quae si factae fuissent, egissent illi homines poenitentiam: &amp; factae sunt apud eos 
+      <lb ed="#T" n="10"/>qui non erant credituri? tunc non latebit quod nonlatet. Nec vtique iniuste Deus noluit 
+      <lb ed="#T" n="11"/>saluos fieri, cum possent salui esse si vellet. Tunc in clarissima sapientiae luce videbitur, quod 
+      <lb ed="#T" n="12"/>nunc priorum fides habet, antequam manifesta cognitione videatur, quam certa &amp; 
+      im<lb ed="#T" n="13" break="no"/>mutabilis &amp; efficacissima sit voluntas Dei: quae multa possit &amp; non velit, nihil autem quod 
+      <lb ed="#T" n="14"/>non possit, velit. Idem in libro de natura &amp; gratia: Dominus Lazarum suscitauit in 
+      corpo<lb ed="#T" n="15" break="no"/>pore, Nunquid dicendum est, non potuit ludam suscitare in mente? Potuit quidem, sed  
+      <lb ed="#T" n="16"/>noluit. His authoritatibus aliisque multis: perte docetur quod Deus multa possit facere 
+      <lb ed="#T" n="17"/>quae non vult: quod etiam ratione probari potest: Non enim vult Deus omnes homines 
+      <lb ed="#T" n="18"/>iustificare, &amp; tamen quis dubitat eum posse? Potest ergo Deus aliud facere quam facit: &amp; 
+      <lb ed="#T" n="19"/>tamen si aliud faceret, alius ipse non esset. Et potest aliud velle quam vult, &amp; tamen eius 
+      <lb ed="#T" n="20"/>voluntas nec noua, nec mutabilis aliquo modo potest esse. Quod etsi possit velle quod 
+      <lb ed="#T" n="21"/>nunquam voluit non tamen nouiter, nec noua voluntate, sed sempiterna tantum 
+      volun<lb ed="#T" n="22" break="no"/>tate velle potest: potest enim velle quod ab aeterno potest voluisse: habet enim potentiam 
+      <lb ed="#T" n="23"/>volendi &amp; nunc ab ae terno, quod tamen nec modo vult, nec ab aeterno voluit.
+    </p>-->
+            <p xml:id="pdt7y6-f08494-d1e394">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0430.xml-->
+               <cb ed="#T" n="b"/>
+               <lb ed="#T" n="24" type="fixed=355"/>DIVISIO TEXTVS. 
+      <lb ed="#T" n="25"/>Vidam tamen de suo sensu.] Postquam 
+      <lb ed="#T" n="26"/>egit de vera ratione omnipotentiae 
+      Diui<lb ed="#T" n="27" break="no"/>nae, ostendendo quae opera Deus possit, hic 
+      <lb ed="#T" n="28"/>ostendit quanta possit, contra quosdam Dei 
+      po<lb ed="#T" n="29" break="no"/>tentiam ad ea quae facit limitantes. Quorum 
+      pri<lb ed="#T" n="30" break="no"/>mo tangit erroneam positionem. Secundo 
+      ratio<lb ed="#T" n="31" break="no"/>nes eorum, &amp; ipsorum solutionem [Non potest 
+      <lb ed="#T" n="32"/>Deus] Tertio authoritates pro eis facientes, &amp; 
+      <lb ed="#T" n="33"/>carum determinationem [His autem) Quarto 
+      <lb ed="#T" n="34"/>veritatis confirmationem [Fateamur autem. 
+    </p>
+            <p xml:id="pdt7y6-f08494-d1e426">
+               <lb ed="#T" n="35"/>In secunda parte primo respondet rationibus. 
+      <lb ed="#T" n="36"/>sumptis ex parte iustitiae [Non potest) Secundo 
+      <lb ed="#T" n="37"/>rationibus sumptis ex parte debiti. [Addunt  
+      <lb ed="#T" n="38"/>quoque &amp; alia ] Tertio rationibus sumptis ex 
+      <lb ed="#T" n="39"/>parte causae [Addunt quoque illi) Quarto 
+      ra<lb ed="#T" n="40" break="no"/>tionibus sumptis ex parte congruentiae etiam 
+      <lb ed="#T" n="41"/>Quinto rationibus sumptis ex parte praescientiae 
+      <lb ed="#T" n="42"/>IItem aliud. [In prima parte primo ponit 
+      ratio<lb ed="#T" n="43" break="no"/>nes duas, quarum prima sumitur ex iustitia 
+      ope<lb ed="#T" n="44" break="no"/>ris: secunda ex iustitia operantis. Secundo ponit. 
+      <lb ed="#T" n="45"/>earum solutionem] His autem respondemus. 
+      <lb ed="#T" n="46"/>In secunda parte primo ponit rationem [Addunt.  
+      <lb ed="#T" n="47"/>Secundo solutionem [Sed vt mihi.] In tertia 
+      <lb ed="#T" n="48"/>parte primo ponit rationem [Addunt) 
+      Secun<lb ed="#T" n="49" break="no"/>do solutionem [Et ad hoc resp.] In quarta parte 
+      <lb ed="#T" n="50"/>primo ponit rationem [Ipsi etiam] Secundo 
+      <lb ed="#T" n="51"/>solutionem [Et ad hoc. ] In quinta parte primo 
+      <lb ed="#T" n="52"/>ponit rationem [Item aliudj secundo 
+      solutio<lb ed="#T" n="53" break="no"/>nem) Haec autem quaestio. ]In tertia parte 
+      prin<lb ed="#T" n="54" break="no"/>cipali primo ponit authoritates [His autem illi. 
+      <lb ed="#T" n="55"/>Secundo authoritatum determinationem [Sed 
+      <lb ed="#T" n="56"/>ad hoc dicimus.]
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

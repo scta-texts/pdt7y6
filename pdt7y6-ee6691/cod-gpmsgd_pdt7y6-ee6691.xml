@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="23"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-ee6691"><!-- l1d3prae -->
+            <head xml:id="pdt7y6-ee6691-Hd1e99">Praeambulum</head>
+            <p xml:id="pdt7y6-ee6691-d1e101">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0098.xml-->
+               <cb ed="#T" n="c"/>
+               <lb ed="#T" n="94"/>NNCIPIT OSTENDERE QVoMoDo. 
+      <lb ed="#T" n="95"/>Per creaturam potuerit cognosci Creator. Distinct. III. 
+    </p>
+            <!--<p xml:id="pdt7y6-ee6691-d1e112">
+               <lb ed="#T" n="96"/>APOSTOLVS namque ait, quod inuisibilia Dei a creatura mundi, per 
+      <lb ed="#T" n="97"/>&amp; ea quae facta sunt intellecta conspiciuntur: sempiterna quoque virtus eius 
+      <lb ed="#T" n="98"/>&amp; diuinitas. Per creaturam mundi intelligitur homo, propter 
+      excellen<lb ed="#T" n="99" break="no"/>tiam, qua excellit inter alias creaturas: vel propter conuenientiam, 
+      <lb ed="#T" n="100"/>quam habet cum omni creatura Homo ergo inuisibilia Dei intellectu 
+      <lb ed="#T" n="101"/>mentis conspicere potuit, vel etiam conspexit, per ea quae facta sunt, id  
+      <lb ed="#T" n="102"/>est, per creaturas visibiles vel inuisibiles. Aduobus enim iuuabatur, 
+      sci<lb ed="#T" n="103" break="no"/>licet a natura quae rationalis erat, &amp; ab operibus a Deo factis, vt manifestaretur 
+      homini<lb ed="#T" n="104" break="no"/>veritas, ideoque Apostolus dixit: Quia Deus reuelauit, illis, scilicet dum fecit opera: in 
+      <lb ed="#T" n="105"/>quibus artificis aliquatenus relucet iudicium: 
+    </p>
+            <p xml:id="pdt7y6-ee6691-d1e136">
+               <lb ed="#T" n="106"/>Prima ratio vel modus quomodo potuit cognosci Deus. 
+      <lb ed="#T" n="107"/>Nam sicut ait Ambrosius, vt Deus, qui natura inuisibilis est, etiam a visibilibus posset: 
+      <lb ed="#T" n="108"/>sciri: opus fecit, quod opificem visibilitate sui manifestauit, vt per certum incertum,: 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0099.xml-\->
+      <pb ed="#T" n="24"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>posset sciri, &amp; ille Deus omnium esse crederetur, qui hoc fecit, quod ab homine 
+      impossibi<lb ed="#T" n="2" break="no"/>le est fieri. Potuerunt ergo cognoscere, siue cognouerunt vltra omnem creaturam esse illum 
+      <lb ed="#T" n="3"/>qui ea fecit, quae nulla creaturarum facere vel destruere valet. Accedat quaecumqueuis 
+      <lb ed="#T" n="4"/>creatura, &amp; faciat tale caelum &amp; terram: &amp; dicam quia Deus est. Sed quia nulla creatura 
+      <lb ed="#T" n="5"/>talia facere valet, constat super omnem creaturam esse illum, qui ea fecit: ac per hoc, 
+      <lb ed="#T" n="6"/>illum esse Deum humana mens cognoscere potuit. 
+    </p>
+            <p xml:id="pdt7y6-ee6691-d1e165">
+               <lb ed="#T" n="7"/>Secunda ratio qua potuit cognosci, vel modus quo nouerunt. 
+      <lb ed="#T" n="8"/>Alio etiam modo Dei veritatem ducturationis cognoscere potuerunt, vel etiam 
+      cogno<lb ed="#T" n="9" break="no"/>uerunt: vt enim Aug. ait in lib. de ciuitate Dei, Viderunt summi Philosophi nullum corpus 
+      <lb ed="#T" n="10"/>esse Deum, &amp; ideo cuncta corpora transcederunt quaerentes Deum: viderunt etiam 
+      quic<lb ed="#T" n="11" break="no"/>quid mutabile est, non esse summum Deum, omniumque principium: &amp; ideo, omnem 
+      <lb ed="#T" n="12"/>animam mutabilesque spiritus transcenderunt. Deinde viderunt omne, quod mutabile 
+      <lb ed="#T" n="13"/>est, non posse esse nisi ab illo, qui incommutabiliter &amp; simpliciter est. Intellexerunt ergo 
+      <lb ed="#T" n="14"/>cum &amp; omnia ista fecisse, &amp; a nullo fieri potuisse. 
+    </p>
+            <p xml:id="pdt7y6-ee6691-d1e186">
+               <lb ed="#T" n="15"/>Tertia ratio vel modus. 
+      <lb ed="#T" n="16"/>Considerauerunt etiam quicquid est in substantijs vel corpus esse, vel spiritum, 
+      melius<lb ed="#T" n="17" break="no"/>que aliquid spiritum esse quam corpus, sed longe meliorem, qui spiritum fecit &amp; corpus. 
+    </p>
+            <p xml:id="pdt7y6-ee6691-d1e195">
+               <lb ed="#T" n="18"/>Quartus modus vel ratio. 
+      <lb ed="#T" n="19"/>Intellexerunt etiam corporis speciem esse sensibilem, &amp; spiritus speciem intelligibilem, 
+      <lb ed="#T" n="20"/>&amp; intelligibilem speciem sensibili praetulerunt. Sensibilia dicimus, quae visu tactuque 
+      corpo<lb ed="#T" n="21" break="no"/>ris sentiri queunt, Intelligibilia, quae conspectu mentis possunt intelligi. Cum ergo in eorum 
+      <lb ed="#T" n="22"/>conspectu &amp; corpus &amp; animus magis minusque speciosa essent: si autem omni specie 
+      ca<lb ed="#T" n="23" break="no"/>rere possent, omnino null a essent: viderunt esse aliquid quo illa speciosa facta sunt, vbi  
+      <lb ed="#T" n="24"/>est prima &amp; incommutabilis species, ideoque incomparabilis: &amp; illud esse rerum 
+      prin<lb ed="#T" n="25" break="no"/>cipium rectissime crediderunt, quod factum non esset, &amp; ex quo cuncta facta essent. Ecce 
+      <lb ed="#T" n="26"/>tot modis potuit cognosci veritas Dei. Cum ergo Deus vna sit &amp; simplex essentia, quae ex 
+      <lb ed="#T" n="27"/>nulla diuersitate partium vel accidentium consistit, plurariter tamen dicit Apostolus, 
+      <lb ed="#T" n="28"/>Inuisibilia Dei: quia pluribus modis cognoscitur veritas Dei per ea quae facta sunt. Ex 
+      per<lb ed="#T" n="29" break="no"/>petuitate namque creaturarum intelligitur conditor aeternus: ex magnitudine 
+      creatura<lb ed="#T" n="30" break="no"/>rum, omnipotens: ex ordine &amp; dispositione, sapiens ex gubernatione, bonus. Haec 
+      <lb ed="#T" n="31"/>autem omnia ad vnitatem Deitatis pertinent monstrandam. 
+    </p>
+            <p xml:id="pdt7y6-ee6691-d1e228">
+               <lb ed="#T" n="32"/>Quomodo in creaturis apparet vestigium Trinitatis, 
+      <lb ed="#T" n="33"/>Nunc restat ostendere, vtrum per ea quae facta sunt, aliquod Trinitatis indicium vel 
+      <lb ed="#T" n="34"/>exiguum haberi potuerit. De hoc August. in lib 6. de Trinit. ait: oportet ut creatorem per ea 
+      <lb ed="#T" n="35"/>quae facta sunt, intellectu conspicientes, Trinitatem intelligamus. Huius enim Trinitatis vestigium 
+      <lb ed="#T" n="36"/>in creaturis apparet. Haec enim quae arte diuina facta sunt, &amp; vnitatem quandam in se 
+      <lb ed="#T" n="37"/>ostendunt, &amp; speciem &amp; ordinem. Nam quodque horum creatorum, &amp; vnum aliquid est, 
+      <lb ed="#T" n="38"/>sicut sunt naturae corporum, &amp; ingenia animarum: &amp; aliqua specie formatur, sicut sunt,  
+      <lb ed="#T" n="39"/>figurae vel qualitates corporum, ac doctrinae vel artes animarum: &amp; ordinem aliquem petit 
+      <lb ed="#T" n="40"/>aut tenet, sicut sunt pondera vel collocationes corporum, &amp; amores vel delectationes 
+      <lb ed="#T" n="41"/>animarum: &amp; ita in creaturis praelucet vestigium Trinitatis. In illa enim Trinitate summa 
+      <lb ed="#T" n="42"/>origo est omnium rerum, &amp; perfectissima pulchritudo, &amp; beatissima delectatio. Summa 
+      <lb ed="#T" n="43"/>autem origo, vt August. ostendit in lib. de Vera religione, intelligitur Deus Pater, a quo 
+      <lb ed="#T" n="44"/>sunt omnia: a quo Filius &amp; Spiritus Ssanctus. Perfectissima pulchritudo intelligitur Filius, 
+      <lb ed="#T" n="45"/>scilicet veritas Patris, nulla ex parte ei dissimilis: quem cum ipso, &amp; in ipso Patre 
+      venera<lb ed="#T" n="46" break="no"/>mur, quae forma est omnium, quae ab vno facta sunt, &amp; ad vnum referuntur: quae tamen 
+      <lb ed="#T" n="47"/>omnia nec fierent a Patre per Filium, neque suis finibus salua essent, nisi Deus summe 
+      <lb ed="#T" n="48"/>bonus esset: qui &amp; nulli naturae, quae ab illo bona esset, inuidit: &amp; vt in bono ipso 
+      ma<lb ed="#T" n="49" break="no"/>neret, alia quantum vellet, alia quantum posset, dedit: quae bonitas intelligitur Spiritus 
+      <lb ed="#T" n="50"/>Sanctus, qui est donum Patris &amp; Filij. Quare ipsum donum Dei cum Patre &amp; Filio aeque 
+      in<lb ed="#T" n="51" break="no"/>commutabile colere &amp; tenere nos conuenit. Per considerationem itaque creaturarum, 
+      <lb ed="#T" n="52"/>vnius substantiae Trinitatem intelligimus: scilicet vnum Deum Patrem, a quo sumus, &amp; 
+      <lb ed="#T" n="53"/>Flium, per quem sumus, &amp; Spiritum Sanctum, in quo sumus: scilicet principium ad quod 
+      <lb ed="#T" n="54"/>recurrimus, &amp; formam quam sequimur, &amp; gratiam qua reconciliamur: vnum scilicet, quo 
+      <lb ed="#T" n="55"/>authore conditi sumus: &amp; similitudinem eius, per quam ad vnitatem reformamur: &amp; 
+      pa<lb ed="#T" n="56" break="no"/>cem, qua vnitati adhaeremus, scilicet Deum qui dixit, Fiat lux: &amp; Verbum, per quod 
+      fa<lb ed="#T" n="57" break="no"/>ctum est omne, quod substantialiter &amp; naturaliter, est &amp; Donum benignitatis eius qua 
+      <lb ed="#T" n="58"/>placuit quod ab eo per Verbum factum est, &amp; reconciliatum est authori, vt non interiret. 
+      <lb ed="#T" n="59"/>Ecce ostensum est qualiter in creaturis aliquatenus imago Trinitatis indicatur: non enim 
+      <lb ed="#T" n="60"/>per creaturarum contemplationem sufficitis notitia Trinitatis potest haberi vel potuit, sine 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0100.xml-\->
+      <pb ed="#T" n="25"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>doctrinae vel interioris inspirationis reuelatione. Unde illi antiqui Philosophi quasi per 
+      <lb ed="#T" n="2"/>vmbram &amp; de longinquo viderunt veritatem, deficientes in contuitiu Trinitatis vt magi 
+      <lb ed="#T" n="3"/>Pharaonis in tertio signo. Adiuuamur tamen in fide inuisibilium per ea quae tacta sunt.  
+    </p>
+            <p xml:id="pdt7y6-ee6691-d1e306">
+               <lb ed="#T" n="4"/>Quomodo in anima sit imago Trinitatis, 
+      <lb ed="#T" n="5"/>Nunc vero ad eam iam perueniamus, disputationem, vbi in mente humana quae nouit 
+      <lb ed="#T" n="6"/>Deum, vel potest nosse, Trinitatis imagine reperiamus. Vt enim ait Augustin. in 14. libro 
+      <lb ed="#T" n="7"/>de Trinitate, Licet humana mens non sit eius naturae, cuius Deus est: imago tamen illius, 
+      <lb ed="#T" n="8"/>quo nihil melius est, ibi quaerenda &amp; inuenienda est, quo natura nostra nihil habet melius, 
+      <lb ed="#T" n="9"/>id est, in mente. In ipsa etiam mente antequam sit particeps Dei, eius imago reperitur: 
+      <lb ed="#T" n="10"/>etsi enim amissa Dei participatione deformis sit, imago Dei tamen permanet. Eo enim 
+      <lb ed="#T" n="11"/>ipso imago Dei est mens, quo capax eius est, eiusque particeps esse potest. Iam ergo in ea 
+      <lb ed="#T" n="12"/>Trinitatem, quae Deus est, inquiramus. Ecce enim mens meminit sui, intelligit se, diligit  
+      <lb ed="#T" n="13"/>se: hoc si cernimus, cernimus Trinitatem, nondum quidem Deum, sed imaginem Dei. 
+      <lb ed="#T" n="14"/>Hic enim quaedam apparet Trinitas, memoriae, intelligentiae, &amp; amoris. Haec ergo tria 
+      po<lb ed="#T" n="15" break="no"/>tissimum tractemus, memoriam, intelligentiam, voluntatem. Haec ergo tria vt August. 
+      <lb ed="#T" n="16"/>ait in lib. 10. de Trinitate non sunt tres vitae, sed vna vita, nec tres mentes, sed vna mens, 
+      <lb ed="#T" n="17"/>vna essentia. Memoria vero dicitur ad aliquid, &amp; intelligentia &amp; voluntas, siue dilectio 
+      <lb ed="#T" n="18"/>similiter ad aliquid dicitur: vita vero dicitur ad seipsam, &amp; mens &amp; essentia. Haec ergo 
+      <lb ed="#T" n="19"/>tria eo vnum sunt, quo vna vita, vna mens, vna essentia, &amp; quicquid aliud ad seipsa 
+      sin<lb ed="#T" n="20" break="no"/>gula dicuntur etiam simul non pluraliter, sed singulariter dicuntur. Eo vero tria sunt, quo 
+      <lb ed="#T" n="21"/>ad se inuicem referuntur.  
+    </p>
+            <p xml:id="pdt7y6-ee6691-d1e348">
+               <lb ed="#T" n="22"/>Quomodo aequalia sint, quia capiuntur a singulis omnia &amp; tota. 
+      <lb ed="#T" n="23"/>AEqualia etiam sunt non solum singula singulis, sed etiam singula omnibus, alioqui non 
+      <lb ed="#T" n="24"/>se inuicem caperent: se autem inuicem capiunt. Capiuntur enim &amp; a singulis singula, &amp; a 
+      <lb ed="#T" n="25"/>singulis omnia. Memini enim me habere memoriam, &amp; intelligentiam &amp; voluntatem: &amp; 
+      <lb ed="#T" n="26"/>intelligo me intelligere, &amp; velle atque meminisse: &amp; volo me velle, &amp; meminisse &amp; 
+      <lb ed="#T" n="27"/>intelligere. 
+    </p>
+            <p xml:id="pdt7y6-ee6691-d1e364">
+               <lb ed="#T" n="28"/>Quomodo tota illa tria memoriae capiat.  
+      <lb ed="#T" n="29"/>Totamque meam memoriam, &amp; intelligentiam, &amp; voluntatem simul memini. Quod  
+      <lb ed="#T" n="30"/>enim memoriae meae non memini, illud non est in memoria mea: nihil autem tam in 
+      me<lb ed="#T" n="31" break="no"/>moria est, quam ipsa memoria, totam ergo memini. Item quicquid intelligo, intelligere 
+      <lb ed="#T" n="32"/>me scio: &amp; scio me velle, quicquid autem scio, memini. Totam ergo intelligentiam 
+      to<lb ed="#T" n="33" break="no"/>tamque voluntatem meam memini. 
+    </p>
+            <p xml:id="pdt7y6-ee6691-d1e381">
+               <lb ed="#T" n="34"/>Quomodo illa tria tota capiat intelligentia. 
+      <lb ed="#T" n="35"/>Similiter cum haec tria intelligo, tota simul intelligo: neque enim quicquam 
+      intelli<lb ed="#T" n="36" break="no"/>gibilium est quod non intelligam, nisi quod ignoro. Quod autem ignoro, nec memini, 
+      <lb ed="#T" n="37"/>nec volo. Quicquid ergo intelligibilium non intelligo consequenter etiam nec memini, 
+      <lb ed="#T" n="38"/>nec volo. Quicquid ergo intelligibilium memini &amp; volo, consequenter intelligo. 
+    </p>
+            <p xml:id="pdt7y6-ee6691-d1e394">
+               <lb ed="#T" n="39"/>Quomodo illa tota capiat voluntas. 
+      <lb ed="#T" n="40"/>Voluntas etiam mea totam intelligentiam, totamque meam memoriam capit, dum 
+      <lb ed="#T" n="41"/>vtor toto eo, quod intelligo &amp; memini. Cum itaque inuicem a singulis &amp; omnia &amp; tota 
+      <lb ed="#T" n="42"/>capiantur, aequalia sunt tota singula totis singulis: &amp; tota singula simul omnibus tota: 
+      <lb ed="#T" n="43"/>&amp; haec tria vnum, vna vita, vna mens, vna essentia. Ecce illius summae vnitatis atque 
+      <lb ed="#T" n="44"/>Trinitatis, vbi vna essentia &amp; tres personae, imago est humana mens licet impar. Mens 
+      <lb ed="#T" n="45"/>autem hic pro animo ipso accipitur, vbi est illa imago Trinitatis. Proprie vero mens 
+      di<lb ed="#T" n="46" break="no"/>citur, vt ait Aug. non ipsa anima, sed quod in ea est excellentius, qualiter saepe accipitur.  
+      <lb ed="#T" n="47"/>Illud etiam sciendum est, quod memoria non solum est absentium &amp; praeteritorum, sed  
+      <lb ed="#T" n="48"/>eaiam praesentium, vt ait August. in 14. lib. de Trin. alioquin non se caperet.  
+    </p>
+            <p xml:id="pdt7y6-ee6691-d1e418">
+               <lb ed="#T" n="49"/>Ex quo sensa illa tria dicantur esse vnum &amp; una essentia quaeritur.  
+      <lb ed="#T" n="50"/>Hic attendendum est diligenter, ex quo sensu accipiendum sit quod supra dixit, illa tria 
+      <lb ed="#T" n="51"/>scilicet memoriam, intelligentiam, &amp; voluntatem, esse vnum, vnam mentem, vnam essentiam, 
+      <lb ed="#T" n="52"/>quod vtique, non videtur esse verum iuxta proprietatem sermonis. Mens enim, id est, 
+      <lb ed="#T" n="53"/>spiritus rationalis, essentia est spiritualis, &amp; incorporea: illa vero tria naturales 
+      pro<lb ed="#T" n="54" break="no"/>prietates seu vires sunt ipsius mentis, &amp; a se inuicem differunt: quia memoria non est 
+      <lb ed="#T" n="55"/>intelligentia, vel voluntas, nec intelligentia voluntas siue amor. 
+    </p>
+            <p xml:id="pdt7y6-ee6691-d1e436">
+               <lb ed="#T" n="56"/>Quod etiam ad se inuicem dicuntur relatiue. 
+      <lb ed="#T" n="57"/>Et haec tria etiam ad seipsa referuntur, vt ait Aug. in 9. lib. de Trinit. Mens enim 
+      ama<lb ed="#T" n="58" break="no"/>re seipsam vel meminisse non potest, nisi etiam nouerit se. Nam quomodo amat vel me¬ 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0101.xml-\->
+      <pb ed="#T" n="26"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>minit quod nescit. Miro itaque modo tria ista inseparabilia sunt a seipsis: &amp; tamen eorum. 
+      <lb ed="#T" n="2"/>singulum, &amp; simul omnia vna essentia est, cum &amp; relatiue dicantur adinuicem. 
+    </p>
+            <p xml:id="pdt7y6-ee6691-d1e456">
+               <lb ed="#T" n="3"/>Hic aperitur quod supra quaerebatur, scilicet quomodo haec tria dicantur vnum. 
+      <lb ed="#T" n="4"/>Sed iam videndum est quomodo haec tria dicantur vna substantia. Ideo quia scilicet in 
+      <lb ed="#T" n="5"/>ipsa anima vel mente substantialiter existunt, non sicut accidentia in subjectis quae possunt,  
+      <lb ed="#T" n="6"/>adesse vel abesse: vnde August. in 9. lib. de Trinit. ait, Admonemur, si vt cunque videre 
+      <lb ed="#T" n="7"/>possumus, haec in animo existere substantialiter, non tanquam in subjecto, vt color in 
+      cor<lb ed="#T" n="8" break="no"/>pore: quia etsi relatiue dicuntur ad inuicem, singula tamen substantialiter sunt in 
+      substan<lb ed="#T" n="9" break="no"/>tia sua. Ecce ex quo sensu illa tria dicantur esse vnum vel vna substantia. Quae tria, vt 
+      Au<lb ed="#T" n="10" break="no"/>gustin. ait in 15. libr. de Trinit. in mente naturaliter diuinitus instituta quisquis viuaciter  
+      <lb ed="#T" n="11"/>perspicit, &amp; quam magnum sit in ea, vnde potest etiam sempiterna immutabilisque 
+      natu<lb ed="#T" n="12" break="no"/>ra recoli, conspici, concupisci: Reminiscitur enim per memoriam, intuetur per 
+      intelligen<lb ed="#T" n="13" break="no"/>tiam, amplectitur per dilectionem: profecto reperit illius summae Trin. imaginem. 
+    </p>
+            <p xml:id="pdt7y6-ee6691-d1e482">
+               <lb ed="#T" n="14"/>Quod in illa similitudine est dissimilitudo. 
+      <lb ed="#T" n="15"/>Veruntamen caueat ne hanc imaginem ab eadem Trinitate factam ita ei comparet, vt 
+      <lb ed="#T" n="16"/>omnino existimet similem, sed potius in qualicunque ista similitudine magnam quoque 
+      <lb ed="#T" n="17"/>dissimilitudinem cernat. 
+    </p>
+            <p xml:id="pdt7y6-ee6691-d1e494">
+               <lb ed="#T" n="18"/>Prima dissimilitudo. 
+      <lb ed="#T" n="19"/>Quod breuiter ostendi potest. Homo vnus per ista tria meminit, intelligit, diligit: 
+      qui<lb ed="#T" n="20" break="no"/>nec memoria est, nec intelligentia, nec dilectio, sed haec habet. Vnus ergo homo est, 
+      <lb ed="#T" n="21"/>qui habet haec tria, non ipse est haec tria. In illius vero summae simplicitate naturae quae 
+      <lb ed="#T" n="22"/>Deus est, quamuis vnus sit Deus, tamen tres personae sunt, Pater, &amp; Filius &amp; Spiritus 
+      San<lb ed="#T" n="23" break="no"/>ctus, &amp; hae tres personae sunt vnus Deus. Aliud est itaque Trinitas res ipsa, aliud imago 
+      <lb ed="#T" n="24"/>Trinitatis in re alia: propter quam imagiuem etiam illud in quo sunt haec tria, imago 
+      dici<lb ed="#T" n="25" break="no"/>tur. 5. homo. Sicut imago dicitur &amp; tabula, &amp; pictura quae est in ea: sed tabula nomine 
+      Ima<lb ed="#T" n="26" break="no"/>ginis appellatur propter picturam quae est in ea. 
+    </p>
+            <p xml:id="pdt7y6-ee6691-d1e516">
+               <lb ed="#T" n="27"/>Altera dissimilitudo. 
+      <lb ed="#T" n="28"/>Rursus ista imago, quae est homo habens illa tria, vna persona est. Illa vero Trinitas non 
+      <lb ed="#T" n="29"/>vna persona est, sed tres personae, Pater Filij, &amp; Filius Patris, &amp; Spiritus Patris &amp; Filij. 
+      Ita<lb ed="#T" n="30" break="no"/>que in ista imagine Trinitatis non haec tria vnus homo, sed vnius hominis sunt. In illa vero 
+      <lb ed="#T" n="31"/>summa Trinitate, cuius haec imago est, non vnius Dei sunt illa tria, sed vnus Deus, &amp; tres 
+      <lb ed="#T" n="32"/>sunt illae personae, non vna persona. Illa enim tria non homo sunt, sed hominis sunt, vel in 
+      ho<lb ed="#T" n="33" break="no"/>mine sunt. Sed nunquid possumus dicere Trinitatem sic esse in Deo, vt aliquid Dei sit, nec ipsa sit 
+      <lb ed="#T" n="34"/>Deus? Absit vt hoc credamus. Dicamus ergo in mente nostra imagine Trinitatis, sed exigua, 
+      <lb ed="#T" n="35"/>&amp; qualem cunque esse: quae summae Trinitatis ita gerit similitudinem, vt ex maxima 
+      par<lb ed="#T" n="36" break="no"/>te sit dissimilis. Sciendum vero est quod haec Trinitas mentis, vt ait Aug. in 14. lib. de Trinit. 
+      <lb ed="#T" n="37"/>non propterea tantum imago Dei est, quia sui meminerit mens, &amp; intelligit, ac diligit se: 
+      <lb ed="#T" n="38"/>sed quia potest etiam meminisse, &amp; intelligere, &amp; amare illum a quo facta est. 
+    </p>
+            <p xml:id="pdt7y6-ee6691-d1e545">
+               <lb ed="#T" n="39"/>Alia assignatio Trinitatis in anima, scilicet mens, notitia, amor. 
+      <lb ed="#T" n="40"/>Potest etiam alio modo aliisque nominibus distingui Trinitas in anima, quae est imago 
+      <lb ed="#T" n="41"/>illius summae &amp; ineffabilis Trinitatis, vt enim ait August. in 9. lib. de Trinit. Mens, &amp; 
+      no<lb ed="#T" n="42" break="no"/>titia eius &amp; amor, tria quaedam sunt. Mens enim nouit se, &amp; amat se: nec amare se potest, 
+      <lb ed="#T" n="43"/>nisi etiam nouerit se. Duo quaedam sunt mens &amp; notitia eius. Item duo quaedam sunt mes, 
+      <lb ed="#T" n="44"/>&amp; amor eius. Cum ergo se nouit mens, &amp; amat se, manet Trinitas, scilicet, mens, amor 
+      <lb ed="#T" n="45"/>&amp; notitia. Mens autem hic accipitur non pro anima, sed pro eo quod in anima 
+      excellen<lb ed="#T" n="46" break="no"/>tius est. 
+    </p>
+            <p xml:id="pdt7y6-ee6691-d1e565">
+               <lb ed="#T" n="47"/>Haec autem tria cum sint distincta a se inuicem, dicuntur tamen esse vnum, quia in 
+      ani<lb ed="#T" n="48" break="no"/>ma substantialiter existunt. 
+    </p>
+            <p xml:id="pdt7y6-ee6691-d1e572">
+               <lb ed="#T" n="49"/>Quia meus, vice Patris, notitia Filij, amor Spiritus Sancti accipitur.  
+      <lb ed="#T" n="50"/>Et est ipsa mens quasi parens, &amp; notitia eius quasi proles eius. Mens enim cum se 
+      co<lb ed="#T" n="51" break="no"/>gnoscit, notitiam sui gignit, &amp; est sola parens suae notitiae. Tertius est amor, qui de ipsa 
+      <lb ed="#T" n="52"/>mente &amp; notitia procedit, dum mens cognoscit se &amp; diligit se: non enim posset se 
+      dilige<lb ed="#T" n="53" break="no"/>re, nisi cognosceret se. Amat etiam placitam prolem, id est, notitiam suam: &amp; ita amor 
+      <lb ed="#T" n="54"/>quidam complexus est parentis &amp; prolis. 
+    </p>
+            <p xml:id="pdt7y6-ee6691-d1e588">
+               <lb ed="#T" n="55"/>Quod non est minor mente notitia, nec amor utroque. 
+      <lb ed="#T" n="56"/>Nec est minor proles parente, dum tantam se nouit mens quanta est, nec minor est 
+      <lb ed="#T" n="57"/>amor parente &amp; prole, id est, mente &amp; notitia, dum tantum se diligit mens, quantum se 
+      <lb ed="#T" n="58"/>nouit, &amp; quanta est, 
+    </p>
+            <p xml:id="pdt7y6-ee6691-d1e600">
+               <lb ed="#T" n="59"/>d bi 
+    </p>
+            <p xml:id="pdt7y6-ee6691-d1e605">
+               <lb ed="#T" n="60"/>Oe 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0102.xml-\->
+      <pb ed="#T" n="27"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>Quod haec tria in seipsis sunt.  
+      <lb ed="#T" n="2"/>Sunt etiam haec singula in seipsis: quia &amp; mens amans in amore est, &amp; amor in 
+      aman<lb ed="#T" n="3" break="no"/>tis notitia: &amp; notitia in mente noscente est. Ecce in his tribus qualecunque vestigium 
+      <lb ed="#T" n="4"/>Trinitatis apparet. 
+    </p>
+            <p xml:id="pdt7y6-ee6691-d1e625">
+               <lb ed="#T" n="5"/>Quomodo mens per ista proficit ad intelligendum Deum. 
+      <lb ed="#T" n="6"/>Mens itaque rationalis considerans haec tria, &amp; illam vnam essentiam in qua ista sunt,  
+      <lb ed="#T" n="7"/>extendit se ad contemplationem Creatoris: &amp; videt vnitatem in Trinitate, &amp; Trinitatem 
+      <lb ed="#T" n="8"/>in vnitate. Intelligit enim vnum Deum esse vnam essentiam, vnum principium. Intelligit  
+      <lb ed="#T" n="9"/>enim, quia si duo essent vel vterque insufficiens esset, vel alter superflueret: quia si aliquid 
+      <lb ed="#T" n="10"/>deesset vni quod haberet alter, non esset ibi summa perfectio. Si vero nihil vni deesset 
+      <lb ed="#T" n="11"/>quod haberet alter, cum in vno essent omnia, alter superflueret. Intellexit ergo vnum esse 
+      <lb ed="#T" n="12"/>Deum omnium authorem: &amp; vidit quia absque sapientia non sit, quasi res fatua: &amp; ideo 
+      <lb ed="#T" n="13"/>intellexit cum habere sapientiam, quae ab ipso genita est: &amp; quia sapientiam suam diligit, 
+      <lb ed="#T" n="14"/>intellexit etiam ibi esse amorem. 
+    </p>
+            <p xml:id="pdt7y6-ee6691-d1e649">
+               <lb ed="#T" n="15"/>Hic de summa Trinitatis unitate. 
+      <lb ed="#T" n="16"/>Quapropter iuxta istam considerationem, vt ait August. in lib. de Trinit. credamus 
+      Pa<lb ed="#T" n="17" break="no"/>trem &amp; Filium &amp; Spiritum Sanctum vnum esse Deum vniuersae creaturae conditorem &amp; 
+      re<lb ed="#T" n="18" break="no"/>ctorem: nec Patrem esse Filium: nec Spiritum Sanctum, vel Patrem esse vel Filium: sed 
+      Tri<lb ed="#T" n="19" break="no"/>nitatem relatarum adinuicem personarum. Vt enim ait ipse in libro de fide ad Petrum, 
+      <lb ed="#T" n="20"/>vna est natura siue essentia Patris &amp; Filij &amp; Spiritus sancti, non vna persona. Si enim sic 
+      <lb ed="#T" n="21"/>esset vna persona, sicut est vna substantia Patris &amp; Filij &amp; Spiritus Sancti, veraciter Trinitas 
+      <lb ed="#T" n="22"/>non diceretur. Rursus quidem Trinitas esset vera, sed vnus Deus Trinitas ipsa non esset: si 
+      <lb ed="#T" n="23"/>quemadmodum Pater &amp; Filius &amp; Spiritus Sanctus personarum sunt adinuicem 
+      proprieta<lb ed="#T" n="24" break="no"/>te distincti, sic fuissent quaeque naturae diuersitate discreti. Fides autem Patriarcharum, 
+      <lb ed="#T" n="25"/>Prophetarum atque Apostolorum vnum Deum praedicat Trinitatem esse. In illa ergo 
+      san<lb ed="#T" n="26" break="no"/>cta Trinitate vnus est Deus Pater, qui solus essentialiter de seipso Filium vnum genuit: &amp; 
+      <lb ed="#T" n="27"/>vnus Filius est, qui de vno Patre solus essentialiter natus: &amp; vnus Spiritus Sanctus, qui solus, 
+      <lb ed="#T" n="28"/>essentialiter a Patre silioque procedit. Hoc autem totum non potest vna persona, id est, 
+      <lb ed="#T" n="29"/>gignere se, &amp; nasci de se, &amp; procedere de se: vt enim ait Aug. in 1. lib. de Trinit. nulla res 
+      <lb ed="#T" n="30"/>est, quae seipsam gignat vt sit.
+    </p>
+            -->
+            <p xml:id="pdt7y6-ee6691-d1e686">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0102.xml-->
+               <cb ed="#T" n="b"/>
+               <lb ed="#T" n="31" type="fixed=27"/>DIVISIO PRIME PARTIS 
+      <lb ed="#T" n="32"/>TEXTVS. 
+      <lb ed="#T" n="33"/>APostolus namque &amp;c.] Postquam ostendit 
+      <lb ed="#T" n="34"/>Avnitatem, &amp; Trinitatem per scripturas, 
+      <lb ed="#T" n="35"/>hic probat per creaturas. Et primo probat 
+      vni<lb ed="#T" n="36" break="no"/>tatem per se, per rationes naturales. Secundo 
+      <lb ed="#T" n="37"/>Trinitatem per se per vestigium 
+      creatura<lb ed="#T" n="38" break="no"/>rum. [Nunc restat] Tertio vnitatem &amp; 
+      Trinita<lb ed="#T" n="39" break="no"/>tem simul, per imaginem creaturarum 
+      rationa<lb ed="#T" n="40" break="no"/>bilium. [Nunc vero ad eam. 
+    </p>
+            <p xml:id="pdt7y6-ee6691-d1e715">
+               <lb ed="#T" n="41"/>In prima parte probat unitatem per quatuor.  
+      <lb ed="#T" n="42"/>rationes, quarum prima sumitur a creaturarum. 
+      <lb ed="#T" n="43"/>magnitudine: secunda a creaturarum 
+      mutabili<lb ed="#T" n="44" break="no"/>tate. [Alio etiam modo] Tertia a creaturarum. 
+      <lb ed="#T" n="45"/>differenti. bonitate. [Considerauerunt &amp;c. 
+      <lb ed="#T" n="46"/>Quarta a creaturarum speciositate. [
+      Intel<lb ed="#T" n="47" break="no"/>lexerunt &amp;c. ] Prima penes causam 
+      efficien<lb ed="#T" n="48" break="no"/>tem secunda penes materialem; ex qua 
+      <lb ed="#T" n="49"/>inest mutabilitas; tertia penes causam finalem; 
+      <lb ed="#T" n="50"/>quarta penes causam formalem: Per primam 
+      <lb ed="#T" n="51"/>ostenditur omni potentia Dei; per secundam 
+      <lb ed="#T" n="52"/>aeternitas Dei; per tertiam summa bonitas Dei; 
+      <lb ed="#T" n="53"/>per quartam summa sapientia Dei. 
+    </p>
+            <p xml:id="pdt7y6-ee6691-d1e747">
+               <lb ed="#T" n="54"/>[Nunc restat. ] In hac secunda parte 
+      princi<lb ed="#T" n="55" break="no"/>pali primo ostendit, qualiter est vestigium 
+      Tri<lb ed="#T" n="56" break="no"/>nitatis in creaturis: secundo qualiter per illud 
+      <lb ed="#T" n="57"/>cognoscatur Trinitas Creatoris [In illa enim 
+      <lb ed="#T" n="58"/>Trinitate summa] Tertio ostendit 
+      imperfe<lb ed="#T" n="59" break="no"/>ctionem huius cognitionis. [Ecce ostensum. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

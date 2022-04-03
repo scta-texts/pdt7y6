@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="83"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e24776"><!-- l1d9prae -->
+            <head xml:id="pdt7y6-e24776-Hd1e99">Praeambulum</head>
+            <head xml:id="pdt7y6-e24776-Hd1e101" type="question-title"/>
+            <p xml:id="pdt7y6-e24776-d1e103">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0156.xml-->
+               <cb ed="#T" n="c"/>
+               <lb ed="#T" n="65"/>DEDISTINOTIONE TRIVM. 
+      <lb ed="#T" n="66"/>personarum. Distinct. I&amp;. 
+    </p>
+         <!--   <p xml:id="pdt7y6-e24776-d1e114">
+               <lb ed="#T" n="67"/>VNCad distinctionem trium personarum accedamus. Teneamus 
+      <lb ed="#T" n="68"/>ergo, vt docet Augustinus in libro fide de ad Petrum, Patrem &amp; Filium 
+      <lb ed="#T" n="69"/>&amp; Spiritum Sanctum vnum esse Deum naturaliter: nec tamen ipsum 
+      <lb ed="#T" n="70"/>Patrem esse, qui Filius est, nec Filium esse ipsum, qui Pater est, nec 
+      Spi<lb ed="#T" n="71" break="no"/>ritum Sanctum esse ipsum, qui vater est aut Filius. Vna enim est essentia 
+      <lb ed="#T" n="72"/>Patris &amp; Filij &amp; Spiritus Sancti, in qua non est aliud Pater, aliud Filius, 
+      <lb ed="#T" n="73"/>aliud Spiritus Sanctus: quamuis personaliter alius sit Pater, alius Filius, alius Spiritus 
+      <lb ed="#T" n="74"/>Sanctus. 
+    </p>
+            <p xml:id="pdt7y6-e24776-d1e134">
+               <lb ed="#T" n="75"/>Hic de coeternitate Filij cum Patre. 
+      <lb ed="#T" n="76"/>(Genitus est enim a Patre Filius, &amp; ideo alius: nec tamen ante fuit Pater, quam 
+      <lb ed="#T" n="77"/>Filius: coaeternae enim sunt sibi tres Personae. 
+    </p>
+            <p xml:id="pdt7y6-e24776-d1e144">
+               <lb ed="#T" n="78"/>Argumentatio Arrianorum. 
+      <lb ed="#T" n="79"/>Sed contra hoc inquit haereticus, vt refert Ambros. in lib. 1. de fide ad Gratianum. 
+      <lb ed="#T" n="80"/>Omne quod natum est, principium habet: &amp; ideo quia Filius natus est, principium 
+      ha<lb ed="#T" n="81" break="no"/>bet, &amp; esse coepit: quod haereticorum ore sic dictum est. Nam ipse Arrius, vt meminit 
+      <lb ed="#T" n="82"/>August. in 6. lib. de Trinit. Dixisse fertur. SiFilius est, natus est: si natus est erat tempus 
+      <lb ed="#T" n="83"/>quando non erat Filius. 
+    </p>
+            <p xml:id="pdt7y6-e24776-d1e160">
+               <lb ed="#T" n="84"/>Responsio Augustini catholica. 
+      <lb ed="#T" n="85"/>Qui hoc dicit, non intelligit etiam natum esse de Deo sempiternum esse, vt sit 
+      coaeter<lb ed="#T" n="86" break="no"/>nus Patri Filius: sicut splendor qui gignitur ab igne atque diffunditur, coaeuus est illi, &amp; 
+      <lb ed="#T" n="87"/>esset coaeternus, si ignis esset.  
+    </p>
+            <p xml:id="pdt7y6-e24776-d1e171">
+               <lb ed="#T" n="88"/>oppositio Augustini contra haereticum. 
+      <lb ed="#T" n="89"/>Item, Si Dei Filius, inquit Augustinus, virtus &amp; sapientia Dei est, nec vnquam fuit 
+      <lb ed="#T" n="90"/>Deus sine virtute &amp; sapientia: coaeternus est ergo Deo Patri Filius: Dicit autem 
+      Aposto<lb ed="#T" n="91" break="no"/>lus Christum esse Dei virtutem, &amp; Dei sapientiam. Aut ergo non fuit, quando non fuit 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0157.xml-\->
+      <cb ed="#T" n="157"/>
+               <lb ed="#T" n="1"/>Filius, aut aliquando Deus non habuit virtutem &amp; sapientiam quod dementis est dicere. 
+      <lb ed="#T" n="2"/>Constat enim quia semper habuit sapientiam: semper ergo habuit Filium. 
+    </p>
+            <p xml:id="pdt7y6-e24776-d1e191">
+               <lb ed="#T" n="3"/>Responsio Ambrosij ad idem, authoritate fulta. 
+      <lb ed="#T" n="4"/>Idem quoque Arrianicae quaestioni Ambrosius in hunc modum respondet: Ego, inquam, 
+      <lb ed="#T" n="5"/>Filium esse natum confiteor: quod reliquum est impietatis, horresco. Scriptum est enim 
+      <lb ed="#T" n="6"/>in veteri Testamento, vt vel vnum e pluribus dicam: Ante me non fuit alius Deus, &amp; 
+      <lb ed="#T" n="7"/>post me non erit. Quis ergo hoc dicit: Pater an Filius? Si Filius ante me, inquit, non fuit 
+      <lb ed="#T" n="8"/>alius Deus. Si Pater post me, inquit, non erit: hic priorem, &amp; ille posteriorem non 
+      ha<lb ed="#T" n="9" break="no"/>bet. Inuicem enim in se, &amp; Pater in Filio, &amp; Filius in Patre cognoscitur. Cum enim 
+      Pa<lb ed="#T" n="10" break="no"/>trem dixeris, eius etiam Filium designasti, quia nemo ipse Pater est sibi: cum Filium 
+      no<lb ed="#T" n="11" break="no"/>minas, etiam Patrem fateris, quia nemo ipse sibi Filius est. Itaque nec Filius sine Patre, 
+      <lb ed="#T" n="12"/>nec Pater potest esse sine Filio: semper ergo Pater, semper &amp; Filius est. 
+    </p>
+            <p xml:id="pdt7y6-e24776-d1e215">
+               <lb ed="#T" n="13"/>Inuectio Ambrosij contra haereticum. 
+      <lb ed="#T" n="14"/>Item dic, inquam, mihi haeretice: suitne, quando omnipotens Deus Pater non erat, &amp; 
+      <lb ed="#T" n="15"/>Deus erat? Nam si Pater esse coepit, Deus ergo primo erat, &amp; postea Pater factus est. 
+      <lb ed="#T" n="16"/>Quomodo ergo immntabilis Deus est? Si enim ante Deus, postea Pater fuit, vtique 
+      ge<lb ed="#T" n="17" break="no"/>nerationis accessione mutatus est: sed auertat Deus hanc amentiam. 
+    </p>
+            <p xml:id="pdt7y6-e24776-d1e228">
+               <lb ed="#T" n="18"/>Ineffabile est quomodo Filius sit &amp; non habeat Patrem priorem: sicut mocus generationis inintelligi¬ 
+    </p>
+            <p xml:id="pdt7y6-e24776-d1e234">
+               <lb ed="#T" n="19"/>bilis, &amp; iniffabilis est. 
+      <lb ed="#T" n="20"/>Sed quaeris ame, inquit Ambrosius, quomodo si Filius sit, non priorem habeat Patrem: 
+      <lb ed="#T" n="21"/>Quaero item abs te, quando vel quomodo Filium putes esse generatum? Mihi enim 
+      im<lb ed="#T" n="22" break="no"/>possibile est generationis scire secretum. Mens deficit, vox silet; non mea tantum, sed &amp; 
+      <lb ed="#T" n="23"/>Angelorum: supra potestates, &amp; supra Angelos, &amp; supra Cherubin, &amp; supra Seraphin, &amp; 
+      <lb ed="#T" n="24"/>supra omnem sensum est, quia scriptum est: Pax Christilsupra omnem sensum est. Et si 
+      <lb ed="#T" n="25"/>pax Christi supra omnem senium est quomodo non est supra omnem sensum tanta 
+      gene<lb ed="#T" n="26" break="no"/>ratio? Tu ergo ori manum admoue: serutari non licet superna mysteria. Licet scire quod 
+      <lb ed="#T" n="27"/>natus sit, non licet discutere quomodo natus sit. Illud mihi negare nonlicet, hoc quaerere 
+      <lb ed="#T" n="28"/>metus est. Ineffabilis enim est illa generatio, vnde Esaias: Generationem eius quis enarrabit? 
+    </p>
+            <p xml:id="pdt7y6-e24776-d1e258">
+               <lb ed="#T" n="29"/>Quidam praesumunt discutere generationis seriem. 
+      <lb ed="#T" n="30"/>Quidam tamen de ingenio suo praesumentes, dicunt illam generationem posse 
+      intelli<lb ed="#T" n="31" break="no"/>gi, &amp; alia huiusmodi: inhaerentes illi authoritati Hieronymi super Ecclesiasten, in sacris 
+      <lb ed="#T" n="32"/>Scripturis quis saepissime non pro impossibili, sed pro difficili ponitur: vt ibi, 
+      generatio<lb ed="#T" n="33" break="no"/>nem eius quis enarrabit? Sed hoc non dicit Hieronymus ideo quod generatio Filij aeterna 
+      <lb ed="#T" n="34"/>plene intelligi, vel explicari possit a quoquam mortalium: sed quia de ea aliquid intelligi, 
+      <lb ed="#T" n="35"/>vel dici potest. Quicam tamen hoc accipiunt dictum de temporali Christi generatione. 
+    </p>
+            <p xml:id="pdt7y6-e24776-d1e276">
+               <lb ed="#T" n="36"/>An debeat dici, semper gignitur, vel semper genitus est Filius. 
+      <lb ed="#T" n="37"/>Hic quaeri potest, cum generatio Filij a Patre nec principium habeat, nec finem, quia aeterna 
+      <lb ed="#T" n="38"/>est, vtrum debeat dici: Filius semper gignitur, vel semper genitus est, vel seper gignetur. De 
+      <lb ed="#T" n="39"/>hoc Gregor. super Iob ait, Dominus Deus lesus in eo quod virtus &amp; sapientia Dei est, de 
+      Pa<lb ed="#T" n="40" break="no"/>tre ante tempora natus est: vel potius quia nec coepit nasci, nec desiit, dicamus verius 
+      <lb ed="#T" n="41"/>semper natus: non autem possumus dicere semper nascitur, ne imperfectus esse videatur.  
+      <lb ed="#T" n="42"/>At vero, vt aeternus designari valeat &amp; perfectus, &amp; semper dicamus, &amp; natus, quatenus &amp; 
+      <lb ed="#T" n="43"/>natus ad perfectionem pertineat, &amp; semper ad aeternitatem: quamuis per hoc ipsum quod 
+      <lb ed="#T" n="44"/>perfectum dicimus, multum ab illius veritatis expressione deuiamus: quia quod factum 
+      <lb ed="#T" n="45"/>non est, non potest diciproprie perfectum, sed balbutiendo, vt possumus excelsa Dei 
+      re<lb ed="#T" n="46" break="no"/>sonemus. Et Dominus nostrae infirmitatis verbis condescendens: Estote, inquit, perfecti, 
+      <lb ed="#T" n="47"/>sicue &amp; Pater vester caelestis perfectus est. Super illum locum etiam Psal. Ego hodie 
+      genui<lb ed="#T" n="48" break="no"/>te, de hac generatione Filij ita loquitur Aug. Quanquam per hoc quod dicit: Hodie, 
+      <lb ed="#T" n="49"/>possit intelligi dies ille quo Christus secundum hominem natus est: tamen quia hodie 
+      <lb ed="#T" n="50"/>praesentiam significat, atque in aeternitate neque praeteritum quicquam est, quasi esse 
+      <lb ed="#T" n="51"/>desierit: neque futurum, quasi nondum sit: sed praesens tantum, quia quicquid aeternum 
+      <lb ed="#T" n="52"/>est, semper est; diuinius tamen accipitur de sempiterna generatione Sapientiae Dei. Ecce 
+      <lb ed="#T" n="53"/>his verbis ostendit Augustinus, quod generatio Filij semper est, nec praeteriit, nec futura 
+      <lb ed="#T" n="54"/>est, quia aeterna est. Ideo dixit Genui ne nouum putaretur, scilicet ne videretur incoepisse: 
+      <lb ed="#T" n="55"/>Hodie dixit, ne praeterita generatio videretur. Ex his ergo verbis Prophetae, vt ait 
+      loan<lb ed="#T" n="56" break="no"/>Chrysost. nihil aliud manifestatur, nisi quia ex ipsa essentia Patris semper genitus est Filius, 
+    </p>
+            <p xml:id="pdt7y6-e24776-d1e324">
+               <lb ed="#T" n="57"/>Origenes videtur dicere contrarium: ait enim quod semper generatur Filius a Patre. 
+      <lb ed="#T" n="58"/>Origenes vero super Hieremiam dicit, quod Filius semper generatur a Patre his verbis: 
+      <lb ed="#T" n="59"/>Saluator noster est sapientia Dei: sapientia vero est splendor aeternae lucis: Saluator ergo 
+    </p>
+            <p xml:id="pdt7y6-e24776-d1e333">
+               <lb ed="#T" n="60"/>noster splendor est claritatis. Splendor autem non semel nascitur &amp; desinit, sed quoties ortum, 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0158.xml-\->
+      <cb ed="#T" n="158"/>
+               <lb ed="#T" n="1"/>fuerit lumen ex quo splendor oritur, toties oritur etiam splendor claritatis: sic ergo 
+      Sal<lb ed="#T" n="2" break="no"/>uator semper nascitur. Unde ait in lib. Sapient. Ante omnes colles generat me Dominus: 
+      <lb ed="#T" n="3"/>non, vt quidam malelegunt, generauit. His verbis aperte ostendit Origenes, sane posse 
+      <lb ed="#T" n="4"/>dici &amp; debere: Filius semper nascitur, quod videtur contrarium illi verbo Gregorij 
+      prae<lb ed="#T" n="5" break="no"/>misso, scilicet, non possumus dicere, semper nascitur.  
+    </p>
+            <p xml:id="pdt7y6-e24776-d1e353">
+               <lb ed="#T" n="6"/>Exponit praemissa verba Gregorij, ne putetur inter doctores esse contrarietas. 
+      <lb ed="#T" n="7"/>Sed ne tanti authores sibi contradicere in re tanta videantur, illa verba Gregorijbenigne 
+      <lb ed="#T" n="8"/>interpretemur: Dominus, inquit, Iesus ante tempora natus est de Patre: vel potius, quia 
+      <lb ed="#T" n="9"/>nec coepit nasci, nec dessit, dicamus verius: Semper natus. Sed quomodo verius dicitur  
+      <lb ed="#T" n="10"/>hoc, scilicet quod Filius semper natus est, quam illud, scilicet quod de Patre ante 
+      tem<lb ed="#T" n="11" break="no"/>pora natus est? llud enim syncera &amp; catholica fides tenet ac praedicat, vt istud: quare ergo 
+      <lb ed="#T" n="12"/>ait, dicamus verius, cum vtrumque pariter sit vnum? nisi quia volebat intelligi hoc ad 
+      <lb ed="#T" n="13"/>maiorem euidentiam &amp; expressionem veritatis dici, quam illud? His etenim verbis omnis 
+      <lb ed="#T" n="14"/>caluminiandi versutis haereticis obstruitur aditus, quibus Christi secundum Deitatem 
+      ge<lb ed="#T" n="15" break="no"/>neratio sine initio, &amp; sine fine esse, ac perfecta monstratur. Non autem adeo aperte semper 
+      <lb ed="#T" n="16"/>manifestatur veritas, cum dicitur: Filius ante tempora genitus est de Patre, vel Filius, 
+      <lb ed="#T" n="17"/>semper nascitur de de Patre. Et ideo dicit Gregor. quod non possumus dicere, Semper 
+      <lb ed="#T" n="18"/>nascitur. Non, inquam, ita conuenienter, non ita congrue ad explanationem veritatis. 
+      <lb ed="#T" n="19"/>potest tamen dici, si sane intelligatur, semper enim nascitur Filius de Patre, vt ait Origen. 
+      <lb ed="#T" n="20"/>non quod quotidie iteretur illa generatio, sed quia semper est, Semper ergo nascitur, id est 
+      <lb ed="#T" n="21"/>natiuitas eius sempitererna est. 
+    </p>
+            <p xml:id="pdt7y6-e24776-d1e391">
+               <lb ed="#T" n="22"/>Quod Filius semper generatur, confirmatur ex dictis Hilarij, 
+      <lb ed="#T" n="23"/>Hilarius quoque dicit Filium nasci ex Patre, in libro septimo. de Trinit. his verbis. 
+      <lb ed="#T" n="24"/>Viuens Deus, &amp; naturae aeternae viuentis potestas est: &amp; quod cum sacramento scientiae 
+      <lb ed="#T" n="25"/>suae ex eo nascitur, non potuit aliud esse, quam viuens. Nam cum ait, sicut misit me 
+      vi<lb ed="#T" n="26" break="no"/>uens Pater, &amp; ego viuo propter Patrem: docuit vitam in se per viuentem Patrem inesse. 
+      <lb ed="#T" n="27"/>Ecce hic habes, quia Filius nascitur ex Patre. Item in eodem, cum dicit Christus, sicut  
+      <lb ed="#T" n="28"/>Pater habet vitam in se: sic &amp; Filio dedit, vitam habere in semetipso: omnia viua sua 
+      <lb ed="#T" n="29"/>ex viuente testatus est. Quod autem ex viuo viuum natum est, habet natiuitatis 
+      profe<lb ed="#T" n="30" break="no"/>ctum sine nouitate naturae. Non enim nouum est quod ex viuo generatur in viuum, quia 
+      <lb ed="#T" n="31"/>nec ex nihilo est, &amp; vita quae natiuitatem sumit ex vita, necesse est per naturae vnitatem, 
+      <lb ed="#T" n="32"/>&amp; perfectae natiuitatis sacramentum, vt &amp; in viuente viuat, &amp; in se habeat vitam 
+      viuen<lb ed="#T" n="33" break="no"/>tem. Ecce &amp; hic habes quia generatur ex viuo viuens Filius. Item in eodem: In Deo 
+      <lb ed="#T" n="34"/>totum quod est viuit, Deus enim vita est, &amp; ex vita non potest quicquam esse nisi viuum: 
+      <lb ed="#T" n="35"/>neque ex deriuatione, sed ex virtute natiuitatis est. Ac sic dum totum quod est viuit, 
+      <lb ed="#T" n="36"/>&amp; dum totum quod ex eo nascitur virtus est, habet natiuitatem Filius, non de 
+      mutatio<lb ed="#T" n="37" break="no"/>ne. Et hic dicit, quia nascitur. Item in nono lib. de Trin. Donat Pater Filio tantum 
+      <lb ed="#T" n="38"/>esse, quantum est ipse cui innascibilitatis esse imaginem sacramento natiuitatis 
+      impar<lb ed="#T" n="39" break="no"/>tit, quem ex se in sua forma generat. Hic dicit quia generat Pater Filium. 
+    </p>
+            <p xml:id="pdt7y6-e24776-d1e433">
+               <lb ed="#T" n="40"/>Breuiter docet quid de hoc concedendum sit, 
+      <lb ed="#T" n="41"/>Dicamus ergo Filium natum de Patre ante tempora, &amp; semper nasci de Patre, sed  
+      <lb ed="#T" n="42"/>congruentius semper natum, &amp; eundem fateamur ab aeterno esse, &amp; Patri coaeternum: 
+      <lb ed="#T" n="43"/>id est, authori. Pater enim generatione author Filij est, vt in sequenti ostendetur. Vt 
+      <lb ed="#T" n="44"/>ergo Pater est aeternus, ita &amp; Filius aeternus est: sed Pater sine authore, Filius vero non, 
+      <lb ed="#T" n="45"/>quia Pater innascibilis, Filius natus. Et vt ait Hilarius in 12. lib. de Trinit. aliud est sine 
+      <lb ed="#T" n="46"/>authore semper esse aeternum, aliud Patri, id est, authori, esse coaeternum. Vbi autem 
+      Pa<lb ed="#T" n="47" break="no"/>ter author est, ibi &amp; natiuitas est: quia sicut natiuitas ab authore est, ita &amp; ab aeterno. 
+      <lb ed="#T" n="48"/>authore aeterna est natiuitas. Omne autem quod semper est, etiam aeternum est: sed  
+      <lb ed="#T" n="49"/>tamen non omne quod aeternum est, etiam innatum est, quia quod ab aeterno nascitur,  
+      <lb ed="#T" n="50"/>habet aeternum esse quod natum est. Quod autem non natum est id cum aeternitate non 
+      <lb ed="#T" n="51"/>natum est: quod vero ex aeterno natum est, id si non aeternum natum est, iam non erit, 
+      <lb ed="#T" n="52"/>&amp; Pater author aeternus. Si quid ergo ei, qui ab aeterno Patre natus est, ex aeternitate 
+      <lb ed="#T" n="53"/>defuerit, idipsum authori non est ambiguum defuisse: quia si gignenti est infinitum 
+      gigne<lb ed="#T" n="54" break="no"/>re, &amp; nascenti etiam infinitum nasci est. Medium enim quid inter natiuitatem Dei Filij, 
+      <lb ed="#T" n="55"/>&amp; generationem Dei Patris, nec sensus, nec ratio admittit: quia &amp; in generatione 
+      na<lb ed="#T" n="56" break="no"/>tiuitas est, &amp; in natiuitate generatio est, quia sine vtroque neutrum est: vtrumque ergo 
+      <lb ed="#T" n="57"/>sine interuallo sui estI Argumentatio haretici. 
+    </p>
+            <p xml:id="pdt7y6-e24776-d1e475">
+               <lb ed="#T" n="58"/>Sed inquiet haereticus, Omne quod natum est non semper fuit: quia in id natum est 
+      <lb ed="#T" n="59"/>vt esset. Nemo ambigit quin ea quae in rebus humanis nata sunt, aliquando non 
+      fue<lb ed="#T" n="60" break="no"/>rint. Sed aliud est ex conasci, quod semper non fuit: aliud est ex eo natum esse, quod 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0159.xml-\->
+      <pb ed="#T" n="84"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>semper est. Ibi nec semper fuit, qui Pater est: nec semper Pater est: &amp; qui non semper 
+      <lb ed="#T" n="2"/>Pater est, non semper genuit: vbi autem semper Pater est, sem per Filius est. Quod si 
+      sem<lb ed="#T" n="3" break="no"/>per Deo Patri proprium est quod semper est pater, necesse est Filio semper proprium 
+      <lb ed="#T" n="4"/>esse quod semper est Filius. Quomodo ergo cadet in intelligentiam nostram, vt non 
+      <lb ed="#T" n="5"/>fuerit semper cui proprium est semper esse quod natum est: Natum ergo vnigenitum 
+      <lb ed="#T" n="6"/>Deum confitemur, sed natum ante tempora, nec ante esse quam natum, nec ante natum 
+      <lb ed="#T" n="7"/>quam esse: quia nasci quod erat iam, non nasci est, sed seipsum demutare nascendo. 
+      <lb ed="#T" n="8"/>Hoc autem humanum sensum &amp; intelligentiam excedit mundi: non hoc capit ratio.  
+      <lb ed="#T" n="9"/>humanae intelligentiae, sed prudentiae fidelis professio est.
+    </p>-->
+            <p xml:id="pdt7y6-e24776-d1e510">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0159.xml-->
+               <cb ed="#T" n="b"/>
+               <lb ed="#T" n="10" type="fixed=84"/>DIVISIO TEXTVS. 
+      <lb ed="#T" n="11"/>LVVnc ad distinctionem] Egit determinis 
+      <lb ed="#T" n="12"/>Diuinae generationis, de virtute 
+      generan<lb ed="#T" n="13" break="no"/>tis, de conditionibus naturae de qua sit 
+      genera<lb ed="#T" n="14" break="no"/>tio. Hic agit de coenternitate genitoris, &amp; geniti: 
+      <lb ed="#T" n="15"/>&amp; primo quantum ad modum existendi: 
+      secun<lb ed="#T" n="16" break="no"/>do quantum ad modum significandi [Hic 
+      quae<lb ed="#T" n="17" break="no"/>ri potest.] 
+    </p>
+            <p xml:id="pdt7y6-e24776-d1e534">
+               <lb ed="#T" n="18"/>In prima parte primo determinat veritatem. 
+      <lb ed="#T" n="19"/>Secundo excludit errorem [Sed contra hoc. 
+      <lb ed="#T" n="20"/>Tertio confirmat determinationem [ Fidem 
+      <lb ed="#T" n="21"/>quoque.] Quarto refellit errantis 
+      praesumptio<lb ed="#T" n="22" break="no"/>nem[ Sed quaeris a me.] 
+    </p>
+            <p xml:id="pdt7y6-e24776-d1e547">
+               <lb ed="#T" n="23"/>In secunda parte principali circa modum 
+      <lb ed="#T" n="24"/>significandi coenternitatem genitoris &amp; geniti, 
+      <lb ed="#T" n="25"/>primo ponit dictorum apparentem 
+      contrarieta<lb ed="#T" n="26" break="no"/>tem: secundo contrarietatis distinctionem [Sed 
+      <lb ed="#T" n="27"/>ne tanti] Tertio determinationis 
+      confirmatio<lb ed="#T" n="28" break="no"/>nem [Hylarius quoque) Quarto concludit 
+      te<lb ed="#T" n="29" break="no"/>nendam veritatem ficei [Dicamus ergo.] In 
+      <lb ed="#T" n="30"/>prima parte primo ponit auctoritates, quae 
+      di<lb ed="#T" n="31" break="no"/>cunt, quod non semper nascitur Filius. 
+      Secun<lb ed="#T" n="32" break="no"/>do illas, quae dicunt, quod semper nascitur  
+      <lb ed="#T" n="33"/>[Origines. [In vltima parte primo ponit 
+      verita<lb ed="#T" n="34" break="no"/>tem ipsam [Dicamus.] Secundo mouet, &amp; 
+      so<lb ed="#T" n="35" break="no"/>luit haeretici objectionem contrariam [Sed 
+      in<lb ed="#T" n="36" break="no"/>quiet haereticus.] 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

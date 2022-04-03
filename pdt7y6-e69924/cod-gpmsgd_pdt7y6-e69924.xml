@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="230"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e69924"><!-- l1d28q1 -->
+            <head xml:id="pdt7y6-e69924-Hd1e99">Quaestio 1</head>
+            <head xml:id="pdt7y6-e69924-Hd1e101" type="question-title">De Differentia proprietatum in eadem persona</head>
+            <p xml:id="pdt7y6-e69924-d1e104">
+               <lb ed="#T" n="38"/>QVESTIO I. 
+      <lb ed="#T" n="39"/>DE DIEEERENTIA 
+      PROPRIE<lb ed="#T" n="40" break="no"/>TATVM IN EADEN PERSONA.
+</p>
+            <p xml:id="pdt7y6-e69924-d1e113">
+               <lb ed="#T" n="41"/>TVIc quaeruntur tria. 
+      <lb ed="#T" n="42"/>Q Primo de differentia proprietatum in 
+      <lb ed="#T" n="43"/>eademp ersona. 
+      <lb ed="#T" n="44"/>Secundo de proprietate innascibilitatis in 
+      <lb ed="#T" n="45"/>Patre. 
+      <lb ed="#T" n="46"/>Tertio de proprietate imaginis in Filio.
+  </p>
+            <p xml:id="pdt7y6-e69924-d1e129">
+               <lb ed="#T" n="47"/>Circa primum quaeruntur tria. 
+      <lb ed="#T" n="48"/>Primo an plures proprietates sint in persona 
+      <lb ed="#T" n="49"/>Patris. 
+      <lb ed="#T" n="50"/>Secundo an solum tres. 
+      <lb ed="#T" n="51"/>Tertio an propter eas possit dici Pater trinus. 
+    </p>
+            <div xml:id="pdt7y6-e69924-Dd1e143">
+               <head xml:id="pdt7y6-e69924-Hd1e145">Articulus 1</head>
+               <head xml:id="pdt7y6-e69924-Hd1e147" type="question-title">
+  An plures proprietates sine in persona Patris.
+</head>
+               <p xml:id="pdt7y6-e69924-d1e150">
+                  <lb ed="#T" n="52"/>Articvlvs I. 
+      <lb ed="#T" n="53"/>An plures proprietates sine in persona Patris. 
+    </p>
+               <p xml:id="pdt7y6-e69924-d1e157">
+                  <lb ed="#T" n="54"/>AD primum sic proceditur. 1. Sicut se habet  
+      <lb ed="#T" n="55"/>personae ad vnam essensiam, sic notiones 
+      <lb ed="#T" n="56"/>ad personam vnam: sed personae in vna 
+      essen<lb ed="#T" n="57" break="no"/>tia omnino sunt idem: ergo &amp; notiones in vna 
+      <lb ed="#T" n="58"/>persona. 
+    </p>
+               <p xml:id="pdt7y6-e69924-d1e170">
+                  <lb ed="#T" n="59"/>2. Quaecumque vni &amp; eidem sunt eadem, in¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0305.xml-->
+      <cb ed="#T" n="c"/>
+                  <lb ed="#T" n="60"/>ter se sunt eadem: sed quaelibet notio personae 
+      <lb ed="#T" n="61"/>alicuius est eadem cum ipsa persona: ergo 
+      no<lb ed="#T" n="62" break="no"/>tiones eiusdem personae inter se sunt idem. 
+    </p>
+               <p xml:id="pdt7y6-e69924-d1e187">
+                  <lb ed="#T" n="63"/>3. Aut sunt idem, aut diuersum: si idem, ergo 
+      <lb ed="#T" n="64"/>in ipsa nullam habent distinctionem: si 
+      diuer<lb ed="#T" n="65" break="no"/>sum, ergo ponunt in ipsa multitudinem: ergo 
+      <lb ed="#T" n="66"/>compositionem. 
+    </p>
+               <p xml:id="pdt7y6-e69924-d1e198">
+                  <lb ed="#T" n="67"/>Contra. 1. Dicit Augustinus, quod alia est 
+      <lb ed="#T" n="68"/>notio Patris qua dicitur ingenitus, alia qua 
+      di<lb ed="#T" n="69" break="no"/>citur Pater.  
+    </p>
+               <p xml:id="pdt7y6-e69924-d1e207">
+                  <lb ed="#T" n="70"/>2. Pater aut vno &amp; eodem modo se habet ad 
+      <lb ed="#T" n="71"/>Filium &amp; Spiritum sanctum, aut non: si sic, 
+      <lb ed="#T" n="72"/>ergo persona Filij &amp; Spiritus sancti non 
+      di<lb ed="#T" n="73" break="no"/>stinguntur penes modos emanationis a Patre: 
+      <lb ed="#T" n="74"/>si sic, ergo alia est habitudo Patris ad Filium, 
+      <lb ed="#T" n="75"/>alia ad Spiritum sanctum: ergo alia relatio. 
+      <lb ed="#T" n="76"/>Respondeo. Proprietates vnius personae, cum 
+      <lb ed="#T" n="77"/>sint proprietates relatiuae, dupliciter possunt 
+      co<lb ed="#T" n="78" break="no"/>siderari: vel per comparationem ad subjectum 
+      <lb ed="#T" n="79"/>in quo sunt, vel per comparationem ad 
+      obje<lb ed="#T" n="80" break="no"/>ctum respectu cuius sunt: primo modo 
+      compa<lb ed="#T" n="81" break="no"/>rantur ad idem, &amp; eodem modo: secundo 
+      mo<lb ed="#T" n="82" break="no"/>do ad diuersa &amp; modo diuerso, large, non 
+      ta<lb ed="#T" n="83" break="no"/>men proprie accipiendo diuersum. Primo 
+      mo<lb ed="#T" n="84" break="no"/>do, cum nullam retineant respectu subjecti 
+      na<lb ed="#T" n="85" break="no"/>turam relatiuae oppositionis, quae sola in 
+      Diui<lb ed="#T" n="86" break="no"/>nis distinguit, idem sunt cum ipso in quo sunt; 
+      <lb ed="#T" n="87"/>nec etiam abinuicem differunt: sicut etiam 
+      per<lb ed="#T" n="88" break="no"/>sonae comparatae ad essentiam non differunt, 
+      <lb ed="#T" n="89"/>comparatae ad se inuicem differunt; sed 
+      perso<lb ed="#T" n="90" break="no"/>nae differunt proprietatibus, proprietates vero 
+      <lb ed="#T" n="91"/>seipsis: sicut species differunt per suas 
+      diffe<lb ed="#T" n="92" break="no"/>rentias, differentiae per seipsas, nam homo &amp; 
+      <lb ed="#T" n="93"/>asinus differunt rationali, &amp; irrationali; 
+      ratio<lb ed="#T" n="94" break="no"/>nale vero &amp; irrationale seipsis. 
+    </p>
+               <p xml:id="pdt7y6-e69924-d1e264">
+                  <lb ed="#T" n="95"/>Ad 1. De personis. Resp. Sicut pesonae non 
+      <lb ed="#T" n="96"/>differunt in essentia, sed in seipsis: sic notiones 
+      <lb ed="#T" n="97"/>eiusdem personae in persona non differunt, sed  
+      <lb ed="#T" n="98"/>in seipsis. 
+    </p>
+               <p xml:id="pdt7y6-e69924-d1e275">
+                  <lb ed="#T" n="99"/>Ad 2. Quaecumque vni &amp; eidem sunt eadem 
+      <lb ed="#T" n="100"/>&amp;c. Resp. Hoc verum est vbi est omnimoda 
+      <lb ed="#T" n="101"/>identitas rei &amp; rationis, alias non: nam Petrus 
+      <lb ed="#T" n="102"/>&amp; Paulus homini sunt eadem, non tamen inter 
+      <lb ed="#T" n="103"/>se eadem: similiter principium &amp; finis puncto 
+      <lb ed="#T" n="104"/>continuanti sunt eadem, licet non inter se. 
+    </p>
+               <p xml:id="pdt7y6-e69924-d1e291">
+                  <lb ed="#T" n="105"/>Ad 3. Aut idem aut diuersum. Resp. Nec 
+      <lb ed="#T" n="106"/>omnino idem, nec omnino diuersum: nam per 
+      <lb ed="#T" n="107"/>comparationem ad personam in qua sunt, idem 
+      <lb ed="#T" n="108"/>sunt, quia sunt ipsa persona, &amp; ideo ipsam non 
+      <lb ed="#T" n="109"/>componunt: per cumparationem ad objectum 
+      <lb ed="#T" n="110"/>differunt. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e69924-Dd1e308">
+               <head xml:id="pdt7y6-e69924-Hd1e310">Articulus 2</head>
+               <head xml:id="pdt7y6-e69924-Hd1e312" type="question-title">
+  An solum sint tres proprietates in persona Patris.
+</head>
+               <p xml:id="pdt7y6-e69924-d1e315">
+                  <lb ed="#T" n="111"/>Articvlvs II. 
+      <lb ed="#T" n="112"/>An solum sint tres proprietates in persona Patris. 
+    </p>
+               <p xml:id="pdt7y6-e69924-d1e322">
+                  <lb ed="#T" n="113"/>AD secundum articulum proceditur sic. 1. 
+      <lb ed="#T" n="114"/>Sicut Pater est innascibilis, ita 
+      improces<lb ed="#T" n="115" break="no"/>sibilis: ergo sicut innascibilitas facit in ipso no¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0306.xml-->
+      <pb ed="#T" n="231"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>tionem, ita improcessibilitas. 
+    </p>
+               <p xml:id="pdt7y6-e69924-d1e340">
+                  <lb ed="#T" n="2"/>2. Sicut commune est Patri &amp; Filio spirare 
+      <lb ed="#T" n="3"/>alterum, ita alterum non spirari ab altero: ergo 
+      <lb ed="#T" n="4"/>sicut illud ponit in eis notionem vnam, ita istuo 
+      <lb ed="#T" n="5"/>debet ponere alteram. 
+    </p>
+               <p xml:id="pdt7y6-e69924-d1e352">
+                  <lb ed="#T" n="6"/>3. Sicut conditio nobilis distinguens Patrem 
+      <lb ed="#T" n="7"/>a Filio, est non nasci; ita conditio nobilis 
+      di<lb ed="#T" n="8" break="no"/>stinguens vtrumque a Spiritu sancto, est non 
+      <lb ed="#T" n="9"/>procedere: ergo sicut innascibilitas est 
+      notio<lb ed="#T" n="10" break="no"/>ita improcessibilitas. 
+    </p>
+               <p xml:id="pdt7y6-e69924-d1e365">
+                  <lb ed="#T" n="11"/>Contra. 1. Non sunt in Patre nisi tres 
+      notio<lb ed="#T" n="12" break="no"/>nes, nec in Filio nisi duae: ergo 
+      improcessibi<lb ed="#T" n="13" break="no"/>litas non est notio. 
+    </p>
+               <p xml:id="pdt7y6-e69924-d1e374">
+                  <lb ed="#T" n="14"/>2. Improcessibilitas aut priuat generaliter esse 
+      <lb ed="#T" n="15"/>ab alio, aut per modum doni, vel amoris: si 
+      <lb ed="#T" n="16"/>primo modo, vel est innascibilitas, vel ipsam 
+      <lb ed="#T" n="17"/>continet: si secundo modo, ergo consequitur in 
+      <lb ed="#T" n="18"/>nascibilitatem in Patre, &amp; filiationam in Filio: 
+      <lb ed="#T" n="19"/>ergo non constituit notionem, per se. 
+    </p>
+               <p xml:id="pdt7y6-e69924-d1e390">
+                  <lb ed="#T" n="20"/>Respondeo. Ad hoc quod aliqua proprietas 
+      <lb ed="#T" n="21"/>in Diuinis dicatur notio personalis, tria 
+      requi<lb ed="#T" n="22" break="no"/>runtur: quod sit proprietas relatiua originis 
+      <lb ed="#T" n="23"/>quod sit proprietas ad dignitatem pertinens: &amp; 
+      <lb ed="#T" n="24"/>quod sit proprietas determinata &amp; specialis. 
+      Im<lb ed="#T" n="25" break="no"/>processibilitas vero aut dicit negationem 
+      sim<lb ed="#T" n="26" break="no"/>pliciter, &amp; sic priuat esse ab alio generaliter: aut 
+      <lb ed="#T" n="27"/>negationem in genere, &amp; sic priuat esse ab alio 
+      <lb ed="#T" n="28"/>per modum doni: primo modo idem est quod 
+      <lb ed="#T" n="29"/>innascibilitas verumtamen melius significatu 
+      <lb ed="#T" n="30"/>nomine innascibilitatis, quia per hoc quod 
+      pri<lb ed="#T" n="31" break="no"/>uatur primus &amp; principalis modus essendi ab 
+      <lb ed="#T" n="32"/>alio, scilicet generatio, intelligitur alius 
+      priua<lb ed="#T" n="33" break="no"/>ri ex consequenti: secundo modo non est 
+      con<lb ed="#T" n="34" break="no"/>ditio nobilitatis, nec specialis &amp; determinata, 
+      <lb ed="#T" n="35"/>vnde non facit notionem aliquam  
+    </p>
+               <p xml:id="pdt7y6-e69924-d1e427">
+                  <lb ed="#T" n="36"/>Ad 1. De innascibilitate. Resp. Improcess 
+      bi<lb ed="#T" n="37" break="no"/>litas continetur sub innascibilitate, ideo non 
+      <lb ed="#T" n="38"/>facit notionem per se. 
+    </p>
+               <p xml:id="pdt7y6-e69924-d1e436">
+                  <lb ed="#T" n="39"/>Ad 2. Sicut commune est Patri &amp; Filio 
+      spira<lb ed="#T" n="40" break="no"/>re &amp;c. Resp. Non est similis communitas hinc 
+      <lb ed="#T" n="41"/>&amp; inde, quia illa est communitas rei, haec 
+      ra<lb ed="#T" n="42" break="no"/>tionis solum: non spirari enim non dicit aliquam 
+      <lb ed="#T" n="43"/>proprietatem specialem, sed generalem quae in 
+      <lb ed="#T" n="44"/>telligitur in innascibilitate Patris &amp; in 
+      natiui<lb ed="#T" n="45" break="no"/>tate Filij. 
+    </p>
+               <p xml:id="pdt7y6-e69924-d1e455">
+                  <lb ed="#T" n="46"/>Ad 3. De conditione nobili. Resp. Prout 
+      di<lb ed="#T" n="47" break="no"/>cit negationem simpliciter, conditio est nobilis; 
+      <lb ed="#T" n="48"/>sed sic non differt ab innascibilitate, nec 
+      con<lb ed="#T" n="49" break="no"/>uenit Filio: prout dicit negationem in genere, 
+      <lb ed="#T" n="50"/>non est conditio nobilis. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e69924-Dd1e469">
+               <head xml:id="pdt7y6-e69924-Hd1e471">Articulus 3</head>
+               <head xml:id="pdt7y6-e69924-Hd1e473" type="question-title">
+  An propter proprietates possit dici Pater trinus.
+</head>
+               <p xml:id="pdt7y6-e69924-d1e476">
+                  <lb ed="#T" n="51"/>Articvlvs III. 
+      <lb ed="#T" n="52"/>An propter proprietates possit dici Pater trinus. 
+    </p>
+               <p xml:id="pdt7y6-e69924-d1e483">
+                  <lb ed="#T" n="53"/>AD tertium articulum proceditur sic. 1. 
+      Pa<lb ed="#T" n="54" break="no"/>ter &amp; Filius dicuntur vnum principium, 
+      <lb ed="#T" n="55"/>propter notionem vnam communem: ergo a 
+      <lb ed="#T" n="56"/>simili videtur quod Pater possit dici trinum 
+      <lb ed="#T" n="57"/>principium, propter trinam notionem. 
+    </p>
+               <p xml:id="pdt7y6-e69924-d1e496">
+                  <lb ed="#T" n="58"/>2. Unitas essentiae trium personarum non 
+      im<lb ed="#T" n="59" break="no"/>pedit quin dicatur Deus Trinus propter 
+      trini<lb ed="#T" n="60" break="no"/>tatem personarum: ergo a simili vnitas persona 
+      <lb ed="#T" n="61"/>trium notionum non impedit quin dicatur 
+      Pa<lb ed="#T" n="62" break="no"/>ter trinus, propter trinitatem notionum 
+    </p>
+               <p xml:id="pdt7y6-e69924-d1e510">
+                  <lb ed="#T" n="63"/>3. Trinus dicitur quasi trium vnus, scilicet 
+      <lb ed="#T" n="64"/>vnum suppositum: ergo Pater est trinus. 
+    </p>
+               <p xml:id="pdt7y6-e69924-d1e517">
+                  <lb ed="#T" n="65"/>Contra. 1. Sicut trinitas est nomen 
+      collecti<lb ed="#T" n="66" break="no"/>uum, ita trinus: sed nomen collectiuum non 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0306.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>praedicatur de vno solo: ergo trinus non potest 
+      <lb ed="#T" n="68"/>praedicari de Patre solo. 
+    </p>
+               <p xml:id="pdt7y6-e69924-d1e533">
+                  <lb ed="#T" n="69"/>2. Proprietates accipiunt numerum a 
+      suppo<lb ed="#T" n="70" break="no"/>fitis, &amp; non numerant supposita: ergo propter 
+      <lb ed="#T" n="71"/>tres proprietates non potest dici suppositum 
+      <lb ed="#T" n="72"/>eorum trinum. 
+    </p>
+               <p xml:id="pdt7y6-e69924-d1e544">
+                  <lb ed="#T" n="73"/>Respondeo. In personis quaedam sunt 
+      pro<lb ed="#T" n="74" break="no"/>prietates personales, quaedam proprietates 
+      per<lb ed="#T" n="75" break="no"/>sonarum: proprietas personalis sola personam 
+      <lb ed="#T" n="76"/>constituit, vnde habet vim differentiae 
+      consti<lb ed="#T" n="77" break="no"/>tutiuae, seu formae substantialis, &amp; ideo 
+      nume<lb ed="#T" n="78" break="no"/>rat suppositum; aliae vero non. Cum ergo in 
+      Pa<lb ed="#T" n="79" break="no"/>tre non sit nisi vna proprietas personalis, 
+      scili<lb ed="#T" n="80" break="no"/>cet paternitas, non potest dici Pater trinus 
+    </p>
+               <p xml:id="pdt7y6-e69924-d1e564">
+                  <lb ed="#T" n="81"/>Ad 1. De communi spiratione. Resp. Nosi. 
+      <lb ed="#T" n="82"/>est tota ratio, quare Pater &amp; Filius dicuntur 
+      <lb ed="#T" n="83"/>vnum principium, vnitas notionis; sed cum 
+      <lb ed="#T" n="84"/>hoc vnitas essentiae, secundum Anselmum: 
+      <lb ed="#T" n="85"/>ex parte vero hac non est ternarius nisi 
+      notio<lb ed="#T" n="86" break="no"/>num, ideo non potest facere suppositum trinum 
+    </p>
+               <p xml:id="pdt7y6-e69924-d1e580">
+                  <lb ed="#T" n="87"/>Ad 2. De personis. Resp. Non est simile, quia 
+      <lb ed="#T" n="88"/>notiones habent esse in persona, ideo non 
+      nume<lb ed="#T" n="89" break="no"/>rant ipsam: sed personae non sic habent esse in 
+      es<lb ed="#T" n="90" break="no"/>sentia, sed per se, &amp; ideo habent numerum proprium. 
+    </p>
+               <p xml:id="pdt7y6-e69924-d1e592">
+                  <lb ed="#T" n="91"/>Ad 3. De trino. Resp. Interpretatio nominis 
+      <lb ed="#T" n="92"/>non semper conuertitur cum interpretato: non 
+      <lb ed="#T" n="93"/>enim omne quod laedit pedem est lapis. Vel 
+      di<lb ed="#T" n="94" break="no"/>cendum quod tres notiones non possunt dici tres 
+      <lb ed="#T" n="95"/>simpliciter sed tres notiones. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

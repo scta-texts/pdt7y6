@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="62"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e18562"><!-- l1d7prae -->
+            <head xml:id="pdt7y6-e18562-Hd1e99">Praeambulum</head>
+            <head xml:id="pdt7y6-e18562-Hd1e101" type="question-title"/>
+            <p xml:id="pdt7y6-e18562-d1e103">
+               <cb ed="#T" n="137"/>
+               <lb ed="#T" n="1"/>HIC QVAERITVRANPATER 
+      <lb ed="#T" n="2"/>potuerit vel voluerit gignere Filium. Distinet. VII. A 
+            </p>
+         <!--  <p>
+      <lb ed="#T" n="3"/>sc solet quaeri a quibusdam, vtrum Pater potuerit vel voluerit generare 
+      <lb ed="#T" n="4"/>Filium. Si enim inquiunt, potuit, vel voluit generare Filium: ergo 
+      <lb ed="#T" n="5"/>potuit aliquid &amp; voluit, quod nec voluit nec potuit Filius: nam Filius, 
+      <lb ed="#T" n="6"/>nec potuit nec voluit generare Filium. Cui versutiae facile 
+      responde<lb ed="#T" n="7" break="no"/>mus, dicentes: Posse vel velle generare Filium, non est aliquid posse 
+      <lb ed="#T" n="8"/>vel velle subjectum potentiae vel voluntati. Est tamen aliqua 
+      poten<lb ed="#T" n="9" break="no"/>tia vel voluntas, scilicet posse vel velle gignere Filium: &amp; ideo 
+      distin<lb ed="#T" n="10" break="no"/>guenda est intelligentia praepositi verbi, posse vel velle gignere Filium est posse vel velle 
+      <lb ed="#T" n="11"/>aliquid. Neque enim generatio Filij aliquid eorum est, quae subjecta sunt diuinae 
+      <lb ed="#T" n="12"/>potentiae &amp; voluntati, nec est aliquid inter omnia vel de omnibus, sed super omnia &amp; 
+      <lb ed="#T" n="13"/>ante omnia. Non enim ante voluit vel potuit, quam genuit, sicut nec ante fuit, quam 
+      <lb ed="#T" n="14"/>genuit quia ab aeterno fuit, &amp; ab aeterno genuit. Ex simili quoque hoc videre possumus. 
+      <lb ed="#T" n="15"/>Pater enim potest esse Pater, &amp; vult esse Pater: Filius autem non potest, nec vult esse 
+      <lb ed="#T" n="16"/>Pater: ergo Pater potest vel vult esse aliquid, quod non potest vel vult esse Filius. Non 
+      <lb ed="#T" n="17"/>sequitur: quia esse Patrem non est esse aliquid, sed est esse ad aliquid, vt in sequenti 
+      <lb ed="#T" n="18"/>ostendetur.  
+    </p>
+            <p xml:id="pdt7y6-e18562-d1e147">
+               <lb ed="#T" n="19"/>Ponit quaedam verba August, unde potest moueri auditor.  
+      <lb ed="#T" n="20"/>Sed vehementer nos mouet quod August. ait in lib. contra Maximinum, qui afferebat,  
+      <lb ed="#T" n="21"/>Patrem potentiorem esse Filio, eo quod Filium genuit deum creatorem, Filius autem 
+      <lb ed="#T" n="22"/>non: dicebatque Patrem potuisse gignere, non Filium, &amp; ideo potentiorem esse Filio. 
+      <lb ed="#T" n="23"/>Ad quod respondens Augustinus dicere videtur, quod Filius etiam potuit gignere, 
+      vo<lb ed="#T" n="24" break="no"/>lens ostendere Patrem non esse potentiorem Filio, his verbis: Absit vt ideo potentior 
+      <lb ed="#T" n="25"/>sit Pater Filio, sicut putas, quia Creatorem genuit Pater, Filius autem non genuit 
+      crea<lb ed="#T" n="26" break="no"/>torem: neque enim non potuit, sed non oportuit. Vide, &amp; diligenter attende haec 
+      ver<lb ed="#T" n="27" break="no"/>ba: Non enim non potuit, sed non oportuit. Videtur enim dicere quod Filius potuit 
+      <lb ed="#T" n="28"/>gignere, sed non oportuit, &amp; ita potuit quod non oportuit. Quare autem non 
+      opor<lb ed="#T" n="29" break="no"/>tuit, subdit dicens: Immoderata enim esset Diuina generatio, si genitus Filius nepotem 
+      <lb ed="#T" n="30"/>gigneret Patri, quia &amp; ipse nepos nisi auo suo pronepotem gigneret, secundum vestram 
+      <lb ed="#T" n="31"/>mirabilem sapientiam impotens diceretur. Similiter etiam ille si nepotem non gigneret 
+      <lb ed="#T" n="32"/>auo suo, &amp; pronepotem proauo suo, non a vobis appellaretur omnipotens, nec 
+      imple<lb ed="#T" n="33" break="no"/>retur generationis series, si semper alter ex altero nasceretur: nec eam perficeret vllus, sic 
+      <lb ed="#T" n="34"/>non sufficeret vnus omnipotens. Itaque omnipotentem genuit Filium Patris natura, non fecit. 
+    </p>
+            <p xml:id="pdt7y6-e18562-d1e184">
+               <lb ed="#T" n="35"/>Opponitur praedictis verbis Augustini. 
+      <lb ed="#T" n="36"/>Hoc autem videtur quibusdam non posse stare, scilicet, quod Filius potuerit gignere. 
+      <lb ed="#T" n="37"/>Si enim potuit Filius gignere, potuit esse Pater: &amp; si potuit esse Pater, potuit ergo esse 
+      <lb ed="#T" n="38"/>Pater vel sui, vel Patris, vel Spiritus Sancti, vel alicuius alius. Sed alius non: quia 
+      nul<lb ed="#T" n="39" break="no"/>lus alius semper fuit. Nec Patris: quia Pater est ingenitus &amp; innascibilis. Nec sui, quia 
+      <lb ed="#T" n="40"/>nulla res seipsam gignere potest. Nec Spiritus Sancti, quia nasci non potuit. Si enim 
+      <lb ed="#T" n="41"/>nasci potuit, potuit esse Filius, &amp; ita mutabilis esse potuit, 
+    </p>
+            <p xml:id="pdt7y6-e18562-d1e203">
+               <lb ed="#T" n="42"/>Hic quaeritur quomodo intelligenda sint. 
+      <lb ed="#T" n="43"/>Quomodo ergo accipietur quod supra dictum est. Non enim non potuit gignere, 
+      <lb ed="#T" n="44"/>sed non oportuit: quasi, potuit, sed non oportuit. Non est nobis perspicuum aperire 
+      <lb ed="#T" n="45"/>quomodo sit hoc verum: &amp; ideo sub silentio potius esset praetereundum, nisi me super 
+      <lb ed="#T" n="46"/>hoc aliquid loqui cogeret instantia quaerentium. 
+    </p>
+            <p xml:id="pdt7y6-e18562-d1e216">
+               <lb ed="#T" n="47"/>Hic aperitur ex quo sensu accipienda sint. 
+      <lb ed="#T" n="48"/>Potest ergo sic intelligi, non enim non potuit, sed non oportuit, id est, non ex 
+      <lb ed="#T" n="49"/>impotentia sui fuit, quod Filius non genuit: sed ei non conueniebat: sicut Deus Filius, 
+      <lb ed="#T" n="50"/>non est Deus Pater, nec tamen hoc ex impotentia sui est, nam &amp; Pater similiter non est 
+      <lb ed="#T" n="51"/>Filius, nec hoc est ex impotentia Patris. Sed quaerit Maximinus Arrianorum Episcopus. 
+      <lb ed="#T" n="52"/>Vnde ergo est quod Pater non potest esse Filius, vel Filius Pater? Non vtique ex 
+      impoten<lb ed="#T" n="53" break="no"/>tia: sed Pater proprietate generationis Pater est, qua oportet cum non esse Filium: &amp; Filius, 
+    </p>
+            <p xml:id="pdt7y6-e18562-d1e234">
+               <lb ed="#T" n="54"/>proprietate natiuitatis Filius est, qua oportet eum non esse Patrem. De quibus 
+      proprie<lb ed="#T" n="55" break="no"/>tatibus postea plenius tractabitur.  
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0138.xml-\->
+      <pb ed="#T" n="63"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>Vtrum Pater natura sit potens gignere Filium, &amp; an hoc sit aliqua potentia, quae sit in Filio. E 
+      <lb ed="#T" n="2"/>Item quaeritur a quibusdam. Si Pater potens sit natura gignere Filium, &amp; an hoc sit 
+      <lb ed="#T" n="3"/>aliqua potentia, quae sit in Filio? Ad quod dicimus, quia Pater non est potens nisi 
+      na<lb ed="#T" n="4" break="no"/>tura: eius enim potentia naturae est vel essentia. At, inquiunt illi, si potens est gignere, 
+      <lb ed="#T" n="5"/>habet ergo potentiam gignendi Filius autem non habet potentiam gignendi, si non 
+      <lb ed="#T" n="6"/>potest gignere: habet ergo aliquam potentiam Pater, quam non habet Filius. Non 
+      se<lb ed="#T" n="7" break="no"/>quitur, Eandem enim potentiam habet penitus Filius, quam &amp; Paten: qua. Pater 
+      po<lb ed="#T" n="8" break="no"/>tuis gignere, &amp; Filius gigni potuit. Eadem enim potentia est in Filio, qua potuit gignis 
+      <lb ed="#T" n="9"/>quae est inPatre, qua potuit gignere. Sed contra hoc opponitur, Aliud est posse 
+      gigne<lb ed="#T" n="10" break="no"/>re, aliud est posse gigni: quia aliud est gignere, &amp; aliud gigni. Hic distinguendum est, 
+      <lb ed="#T" n="11"/>Si enim cum dicitur, Aliud est posse gignere, aliud est posse gigni: aliam significas 
+      po<lb ed="#T" n="12" break="no"/>tentiam qua Pater potens est gignere, &amp; aliam qua Filius potens est gigni, falsus est 
+      <lb ed="#T" n="13"/>intellectus. Si autem dicas, Patrem posse habere aliam proprietatem siue notionem. 
+      <lb ed="#T" n="14"/>qua genitor est: &amp; Filium aliam, qua genitus est, verus est intellectus. Aliam enim 
+      <lb ed="#T" n="15"/>habet Pater proprietatem, qua Pater est: aliam Filius, qua Filius est, 
+    </p>
+            <p xml:id="pdt7y6-e18562-d1e280">
+               <lb ed="#T" n="16"/>Quomodo intelligendum sit, Filius habet uel non habet potentiam generandi, 
+      <lb ed="#T" n="17"/>Ita etiam cum dicitur, Filius non habet potentiam generandi quam Pater habet, 
+      <lb ed="#T" n="18"/>dupliciter intelligi potest. Si enim dicatur, Filius non habet potentiam generandi quam 
+      <lb ed="#T" n="19"/>&amp; Pater, scilicet, qua potens sit ad generandum, id est, vt genuerit vel vt generet sicut  
+      <lb ed="#T" n="20"/>Pater, verum est. Si vero intelligatur sic, Non habet potentiam qua possit gignivel 
+      ge<lb ed="#T" n="21" break="no"/>nitus esse, qua eadem Pater potens est vt genuerit vel vt generet, falsum est. Sicut 
+      di<lb ed="#T" n="22" break="no"/>citur, Pater habet potentiam qua potest esse Pater: Filius vero non habet potentiam 
+      <lb ed="#T" n="23"/>qua possit esse Pater: &amp; e conuerso, Filius habet potentiam qua potest esse Filius, 
+      <lb ed="#T" n="24"/>Pater vero non habet potentiam qua possit esse Filius: habet ergo aliquam potentiam 
+      <lb ed="#T" n="25"/>Pater quam non habet Filius, &amp; e conuerso? Absit, quia eadem est potentia Patris 
+      <lb ed="#T" n="26"/>qua potest esse Pater, &amp; Filij, qua potest esse Filius. Ita etiam eadem est voluntas qua 
+      <lb ed="#T" n="27"/>Pater vult esse Pater, non Filius, &amp; Filius vulc esse Filius non Pater: &amp; eadem est 
+      vo<lb ed="#T" n="28" break="no"/>luntas Filij qua vult esse genitus &amp; Patrem genuisse; &amp; Patris, qua vult esse genitor 
+      <lb ed="#T" n="29"/>&amp; Filium genitum esse.
+    </p>-->
+            <p xml:id="pdt7y6-e18562-d1e313">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0138.xml-->
+               <cb ed="#T" n="b"/>
+               <lb ed="#T" n="30" type="fixed=63"/>DIVISIO TEXTVS. 
+      <lb ed="#T" n="31"/>[VVIc quaeri solet.] Postquam egit de virtute 
+    </p>
+            <p xml:id="pdt7y6-e18562-d1e324">
+               <lb ed="#T" n="32"/>generantis intellectuali, hic agit de virtute 
+      <lb ed="#T" n="33"/>naturali. Et primo agit de actu ipsius, an possit,  
+      <lb ed="#T" n="34"/>Filius generare: secundo de potentia ipsa, an 
+      po<lb ed="#T" n="35" break="no"/>tentia ipsa generandi sit in Filio[Item quaeritur.  
+    </p>
+            <p xml:id="pdt7y6-e18562-d1e336">
+               <lb ed="#T" n="36"/>In prima parte primo determinat quaestionem 
+      <lb ed="#T" n="37"/>principalem: secundo opponit in contrarium ex 
+      <lb ed="#T" n="38"/>auctoritate [Sed vehementer) tertio ostendit 
+      <lb ed="#T" n="39"/>calumniam illius auctoritatis [Hoc autem non 
+      <lb ed="#T" n="40"/>videtur) quarto eiusdem expositionem [Potest 
+      <lb ed="#T" n="41"/>ergo sic intelligi. 
+    </p>
+            <p xml:id="pdt7y6-e18562-d1e352">
+               <lb ed="#T" n="42"/>In Secunda parte principali quaestionis ponit 
+      <lb ed="#T" n="43"/>objectionum contrariarum determinationem: 
+      <lb ed="#T" n="44"/>secundo subdiuidit determinationis 
+      explanatio<lb ed="#T" n="45" break="no"/>nem maiorem. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

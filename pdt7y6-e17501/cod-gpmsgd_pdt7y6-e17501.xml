@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="59"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e17501"><!-- l1d6q1 -->
+            <head xml:id="pdt7y6-e17501-Hd1e99">Quaestio 1</head>
+            <head xml:id="pdt7y6-e17501-Hd1e101" type="question-title">An Pater genuit filium necessitate vel voluntate</head>
+            <p xml:id="pdt7y6-e17501-d1e104">
+               <lb ed="#T" n="16"/>QVESTIO VNICA
+      <lb ed="#T" n="17"/>VTRVM PATER OENVERIT FILIVM 
+      NECESSI<lb ed="#T" n="18" break="no"/>TATE VEL VOLVNTATE, 
+</p>
+            <p xml:id="pdt7y6-e17501-d1e113">
+               <lb ed="#T" n="19"/>VVIc quaeruntur quinque 
+      <lb ed="#T" n="20"/>TPrimo, an Pater genuit Filium 
+      neces<lb ed="#T" n="21" break="no"/>sitate. 
+      <lb ed="#T" n="22"/>Secundo, an genuit eum voluntate. 
+      <lb ed="#T" n="23"/>Tertio, an genuit eum natura. 
+      <lb ed="#T" n="24"/>Quarto, an genuit eum secundum rationem 
+      <lb ed="#T" n="25"/>exemplaritatis vel ideae, 
+      <lb ed="#T" n="26"/>Quinto, in Pater &amp; Filius spirent Spiritum 
+      <lb ed="#T" n="27"/>Sanetum voluntate, vel necessitate. 
+    </p>
+            <div xml:id="pdt7y6-e17501-Dd1e135">
+               <head xml:id="pdt7y6-e17501-Hd1e137">Articulus 1</head>
+               <head xml:id="pdt7y6-e17501-Hd1e139" type="question-title">
+  An Pater genuit Filium necessitate.
+</head>
+               <p xml:id="pdt7y6-e17501-d1e142">
+                  <lb ed="#T" n="28"/>Articvlvs I. 
+      <lb ed="#T" n="29"/>An Pater genuit Filium necessitate.
+</p>
+               <p xml:id="pdt7y6-e17501-d1e149">
+                  <lb ed="#T" n="30"/>AD primum sic proceditur. 1. Necessarium, 
+      <lb ed="#T" n="31"/>&amp; contingens, seu possibile sufficienter 
+      di<lb ed="#T" n="32" break="no"/>uidunt ens secundum Philosophos: sed 
+      genera<lb ed="#T" n="33" break="no"/>tio Filij non est est contingens: ergo est 
+      neces<lb ed="#T" n="34" break="no"/>suria. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e162">
+                  <lb ed="#T" n="35"/>2. Omne quod impossibile est non esse, 
+      neces<lb ed="#T" n="36" break="no"/>se est esse: omne quod est ab aeterno, impossibile. 
+      <lb ed="#T" n="37"/>est non esse: ergo necesse est esse: sed generatio 
+      <lb ed="#T" n="38"/>est aeterna: ergo necessaria. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e174">
+                  <lb ed="#T" n="39"/>3. Magis est diffusiua sui lux aeterna, quam 
+      <lb ed="#T" n="40"/>temporalis: si ergo lux temporalis necessario 
+      <lb ed="#T" n="41"/>diffundit se, multo magis Iux aeterna, 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e183">
+                  <lb ed="#T" n="42"/>4. Impossibile est omnipotenti nobilissimam 
+      <lb ed="#T" n="43"/>potentiam deesse: nobilissima potentia videtur. 
+      <lb ed="#T" n="44"/>sibi similem posse producere: ergo necesse est: 
+      <lb ed="#T" n="45"/>hanc in omnipotente ponere: sed impossibile est. 
+      <lb ed="#T" n="46"/>nobilissimam omnipotentis potentiam actu suo 
+      <lb ed="#T" n="47"/>carere: ergo necesse est omnipotenti silium 
+      ge<lb ed="#T" n="48" break="no"/>nerare. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e201">
+                  <lb ed="#T" n="49"/>3. Non gignere filium sibi aequalem 
+      magnum<lb ed="#T" n="50" break="no"/>est inconueniens in Deo, vt probat Augustinus: 
+      <lb ed="#T" n="51"/>sed modicum etiam inconueniens Deo est 
+      im<lb ed="#T" n="52" break="no"/>possibile: ergo Deo non gignere silium erat 
+      <lb ed="#T" n="53"/>impossibile: ergo eius oppositum erat 
+      necessa<lb ed="#T" n="54" break="no"/>rium. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e217">
+                  <lb ed="#T" n="55"/>Contra. 1. Vbi est necessitas, non est perfecta 
+      <lb ed="#T" n="56"/>libertas: sed in Deo est perfecta libertas: ergo 
+      <lb ed="#T" n="57"/>nulla necessitas. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e226">
+                  <lb ed="#T" n="58"/>2. Ex eo, quod quis de necessitate facit, non 
+      <lb ed="#T" n="59"/>est laudabilis: ergo non necessitate cum genuit. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e233">
+                  <lb ed="#T" n="60"/>3. Nobilius est agens quod dominatur suae 
+      <lb ed="#T" n="61"/>actioni, quam quod subjacet; sed quod necessi¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0134.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="62"/>tate agit, subjacet suae actioni: ergo tale non est 
+      <lb ed="#T" n="63"/>nobilissimum agens: sed Deus est nobilissimum. 
+      <lb ed="#T" n="64"/>agens: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e252">
+                  <lb ed="#T" n="65"/>4. Anselmus diuidit necessitatem in 
+      coactio<lb ed="#T" n="66" break="no"/>nem &amp; prohibitionem: sed nihil horum cadit in 
+      <lb ed="#T" n="67"/>Deum: ergo nulla necessitas. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e261">
+                  <lb ed="#T" n="68"/>5. Omnis necessitas videtur esse ex 
+      praedomi<lb ed="#T" n="69" break="no"/>nantia alicuius fortioris, vel interius, vel 
+      exte<lb ed="#T" n="70" break="no"/>rius mouentis: sed Deo nihil fortius: ergo &amp;c. 
+      <lb ed="#T" n="71"/>Respondeo. Secundum Philosophum &amp; 
+      Com<lb ed="#T" n="72" break="no"/>ment. 5. Metaph. Necessarium dicitur 
+      duplici<lb ed="#T" n="73" break="no"/>ter, vno modo per se, secundum quod scilicet e 
+      <lb ed="#T" n="74"/>omnino per se est immutabile: alio modo per 
+      <lb ed="#T" n="75"/>aliud, &amp; haec necessitas accipitur quatuor 
+      mo<lb ed="#T" n="76" break="no"/>dis secundum quatuor genera causarum; vno 
+      <lb ed="#T" n="77"/>modo secundum rationem causae materialis, vt  
+      <lb ed="#T" n="78"/>necessitas indigentiae, sicut homini ad vitam 
+      ne<lb ed="#T" n="79" break="no"/>cessaria est respiratio, &amp; cibus; altero modo 
+      se<lb ed="#T" n="80" break="no"/>cundum rationem causae efficientis, vt necessitas 
+      <lb ed="#T" n="81"/>violentiae, seu coactionis, seu projectionis, vt 
+      la<lb ed="#T" n="82" break="no"/>pidem iactum necesse est ferri sursum, tertio 
+      mo<lb ed="#T" n="83" break="no"/>do secundum rationem causae finalis, vt 
+      necessi<lb ed="#T" n="84" break="no"/>tas expedientiae, seu vtilitatis, vt medicina est 
+      <lb ed="#T" n="85"/>necessaria ad consequendam sanitatem, &amp; nauis 
+      <lb ed="#T" n="86"/>ad eundem vstra mare, quarto modo secundum 
+      <lb ed="#T" n="87"/>rationem causae formalis, quando est necessitas 
+      <lb ed="#T" n="88"/>in essentia rei seu forma, vt necessitas 
+      immuta<lb ed="#T" n="89" break="no"/>bilitatis, sicut necesse est Solem lucere, &amp; hoc 
+      <lb ed="#T" n="90"/>dicitur per assimilationem ad id quod vere 
+      ne<lb ed="#T" n="91" break="no"/>cessarium est in perpetuis. Huius diuisionis 
+      ra<lb ed="#T" n="92" break="no"/>tio talis est: quia necessarium, est impossibile 
+      ali<lb ed="#T" n="93" break="no"/>ter esse: hoc autem in dupliciter, vel per ipsam rei, 
+      <lb ed="#T" n="94"/>essentiam, vt in causa prima; vel per aliud 
+      scili<lb ed="#T" n="95" break="no"/>cet per causam, aut ergo per comparationem ad 
+      <lb ed="#T" n="96"/>causas intrinfecas, aut extrinsecas; si ad 
+      intrin<lb ed="#T" n="97" break="no"/>fecas, aut ex parte materiae, sic est necessitas 
+      in<lb ed="#T" n="98" break="no"/>digentiae, aut formae, sic est necessitas 
+      immuta<lb ed="#T" n="99" break="no"/>bilitatis: si per comparationem ad extrinfecas; 
+      <lb ed="#T" n="100"/>aut ex parte efficientis, sic est necessitas 
+      coactio<lb ed="#T" n="101" break="no"/>nis, aut finis, sic est necessitas expedientiae. 
+      Acci<lb ed="#T" n="102" break="no"/>piendo ergo necessitatem immutabilitatis per se 
+      <lb ed="#T" n="103"/>&amp; non per aliud, Deus necessitate genuit Filium: 
+      <lb ed="#T" n="104"/>accipiendo alijs quatuor modis non: quia vero 
+      <lb ed="#T" n="105"/>necessitas communiter magis sonat necessitatem 
+      <lb ed="#T" n="106"/>coactionis vel indigentiae, &amp; sic accipiebant 
+      hae<lb ed="#T" n="107" break="no"/>retici, simpliciter negant sancti, quod Deus 
+      Pa<lb ed="#T" n="108" break="no"/>ter genuit Filium necessitate. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e352">
+                  <lb ed="#T" n="109"/>Ad ea quae opponuntur in contrarium. Resp. 
+      <lb ed="#T" n="110"/>Omnia concludunt de necessitate violentiae, seu 
+      <lb ed="#T" n="111"/>coactionis, non immutabilitatis 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e17501-Dd1e363">
+               <head xml:id="pdt7y6-e17501-Hd1e365">Articulus 2</head>
+               <head xml:id="pdt7y6-e17501-Hd1e367" type="question-title">An Pater genuit Filium voluntate</head>
+               <p xml:id="pdt7y6-e17501-d1e370">
+                  <lb ed="#T" n="112"/>Articvlvs II. 
+      <lb ed="#T" n="113"/>An Pater genuit Filium voluntate.
+</p>
+               <p xml:id="pdt7y6-e17501-d1e377">
+                  <lb ed="#T" n="114"/>AD secundum sic proceditur. 1. Hilarius libi 
+      <lb ed="#T" n="115"/>de Synodis. Eos qui dicunt, quod neque si 
+      <lb ed="#T" n="116"/>consilio, neque voluntate Deus Pater genuit 
+      <lb ed="#T" n="117"/>Filium, anathematieat sancta Ecclesia. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e388">
+                  <lb ed="#T" n="118"/>2. Deus vult bonum, ergo omne bonum quod 
+      <lb ed="#T" n="119"/>producit, voluntarie producit: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e396">
+                  <lb ed="#T" n="120"/>3. Si genuit Filium, aut voluntate, aut contra 
+      <lb ed="#T" n="121"/>voluntatem, aut praeter voluntatem: si contra 
+      <lb ed="#T" n="122"/>voluntatem, ergo coactus; si praeter 
+      volunta<lb ed="#T" n="123" break="no"/>tem, ergo vel ignorans, vel inuitus; si 
+      volunta<lb ed="#T" n="124" break="no"/>te, ergo habemus propositum. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e409">
+                  <lb ed="#T" n="125"/>4. In omni intellectuali natura generante 
+      vo<lb ed="#T" n="126" break="no"/>luntas mouet naturam ad generandum: ergo &amp; 
+      <lb ed="#T" n="127"/>in Deo.
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e418">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0135.xml-->
+                  <pb ed="#T" n="60"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>5. In Trinitatis imagine creata partum 
+      men<lb ed="#T" n="2" break="no"/>tis id est notitiam praecedit appetitus, vt dicit 
+      <lb ed="#T" n="3"/>Augustinus in lib. de Trinit. Ergo in 
+      Trinita<lb ed="#T" n="4" break="no"/>te partum Patris praecedit voluntas. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e436">
+                  <lb ed="#T" n="5"/>6. Nobilior est conimunicatio voluntaria, 
+      <lb ed="#T" n="6"/>quam inuoluntaria: communicatio vero, 
+      quam<lb ed="#T" n="7" break="no"/>essentiam suam Pater Filio communicat, est 
+      <lb ed="#T" n="8"/>nobilissima: ergo voluntaria. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e447">
+                  <lb ed="#T" n="9"/>Contra 1. Voluntas est principium libere se 
+      <lb ed="#T" n="10"/>habens ad opposita: si ergo Pater voluntate 
+      ge<lb ed="#T" n="11" break="no"/>nuit, oppositum velle &amp; facere potuit: ergo 
+      <lb ed="#T" n="12"/>potuit non generare. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e458">
+                  <lb ed="#T" n="13"/>2. Augustinus notat hic, quod Pater non 
+      <lb ed="#T" n="14"/>volens, nec nolens genuit Filium. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e466">
+                  <lb ed="#T" n="15"/>3. Cum Filius sit Dei sapientia, si voluntate 
+      <lb ed="#T" n="16"/>Filium genuit: ergo voluntas sapientiam 
+      prae<lb ed="#T" n="17" break="no"/>cessit. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e475">
+                  <lb ed="#T" n="18"/>4. Hilar. Omnibus creaturis essentiam 
+      vo<lb ed="#T" n="19" break="no"/>luntas Dei attulit: sed Filio essentiam dedit ex 
+      <lb ed="#T" n="20"/>nnascibili Deo perfecta natiuitas. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e484">
+                  <lb ed="#T" n="21"/>Respondeo. Respectu alicuius actus 
+      quadru<lb ed="#T" n="22" break="no"/>pliciter potest se habere voluntas agentis: vel 
+      <lb ed="#T" n="23"/>vt antecedens, vel vt accedens, vel vt 
+      concomi<lb ed="#T" n="24" break="no"/>tans, vel vt consequens: per primam placet,  
+      <lb ed="#T" n="25"/>opus fiendum, antequam fiat vnde inclinat ad 
+      <lb ed="#T" n="26"/>faciendum; per secundam producitur ipsum. 
+      <lb ed="#T" n="27"/>opus, vnde est causa coniuncta operi; per 
+      ter<lb ed="#T" n="28" break="no"/>tiam placet, &amp; delectat opus, dum sit, vnde 
+      <lb ed="#T" n="29"/>habet ad opus, non efficientiam sed 
+      concomi<lb ed="#T" n="30" break="no"/>tantiam; per quartam placet opus factum. Huius 
+      <lb ed="#T" n="31"/>vero diuisionis ratio haec est, quia voluntas 
+      <lb ed="#T" n="32"/>potest comparari ad aliquem actum dupliciter,  
+      <lb ed="#T" n="33"/>vel vt ad ob jectum solum, vel vt ad effectum; sic 
+      <lb ed="#T" n="34"/>vt ad effectum, dupliciter; vel vt causa remota, 
+      <lb ed="#T" n="35"/>sic est voluntas antecedens proposito operandi; 
+      <lb ed="#T" n="36"/>vel coniuncta, sic est voluntas accedens; si vt 
+      <lb ed="#T" n="37"/>ad objectum solum hoc est dupliciter; vel prout 
+      <lb ed="#T" n="38"/>est in fieri, sic est voluntas concomitans; vel 
+      <lb ed="#T" n="39"/>prout est in facto esse, sic est voluntas 
+      conse<lb ed="#T" n="40" break="no"/>quens. Loquendo ergo de voluntate 
+      concomi<lb ed="#T" n="41" break="no"/>tante, non antecedente, vel accedente, vel 
+      con<lb ed="#T" n="42" break="no"/>sequente, Pater voluntate genuit Filium: sed  
+      <lb ed="#T" n="43"/>quia magis proprie ablatiuus sumitur 
+      commu<lb ed="#T" n="44" break="no"/>niter in habitudine causae, &amp; quia sic 
+      accipie<lb ed="#T" n="45" break="no"/>bant haeretici, ideo non est dicendum sine 
+      de<lb ed="#T" n="46" break="no"/>terminatione, &amp; explanatione. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e543">
+                  <lb ed="#T" n="47"/>Ad 1. de Hylar. Resp. Loquitur de 
+      volun<lb ed="#T" n="48" break="no"/>tate concomitante. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e550">
+                  <lb ed="#T" n="49"/>Ad 2. Deus vult omne bonum. Resp. 
+      Argu<lb ed="#T" n="50" break="no"/>mentum concludit de voluntate concomitante. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e557">
+                  <lb ed="#T" n="51"/>Ad 3. Aut voluntate. Resp. Genuit 
+      volun<lb ed="#T" n="52" break="no"/>tate, non tamen antecedente, sed concomitante. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e565">
+                  <lb ed="#T" n="53"/>Ad 4. Voluntas mouet &amp;c. Resp. Hoc habet 
+      <lb ed="#T" n="54"/>locum, vbi potentia generandi praecedit suum 
+      <lb ed="#T" n="55"/>actum: hoc autem in Diuina geneiatione non 
+      <lb ed="#T" n="56"/>contingit. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e576">
+                  <lb ed="#T" n="57"/>Ad 5. Quod obijcitur de parta mentis &amp;c. 
+      <lb ed="#T" n="58"/>Resp. Ille appetitus non est voluntas 
+      rationa<lb ed="#T" n="59" break="no"/>lis de qua loquimur, sed inclinatio quaedam 
+      <lb ed="#T" n="60"/>naturalis. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e587">
+                  <lb ed="#T" n="61"/>Ad 6. Quod obijcitur de communicatione 
+      <lb ed="#T" n="62"/>voluntaria Resp. Communicatio voluntaria a 
+      <lb ed="#T" n="63"/>voluntate concomitante nobilior est, sed non a 
+      <lb ed="#T" n="64"/>voluntate antecedente, cum talis 
+      communica<lb ed="#T" n="65" break="no"/>tio possit non esse, sed sit totaliter a voluntate, 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e600">
+                  <lb ed="#T" n="66"/>Ad argumenta in contrarium Resp. Omnia 
+      <lb ed="#T" n="67"/>concludunt de voluntate altecedente.
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e17501-Dd1e608">
+               <head xml:id="pdt7y6-e17501-Hd1e610">Articulus 3</head>
+               <head xml:id="pdt7y6-e17501-Hd1e612" type="question-title">
+  Utrum Pater genuit Filium natura.
+</head>
+               <p xml:id="pdt7y6-e17501-d1e615">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0135.xml-->
+                  <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="68"/>ARTICVLVS III. 
+      <lb ed="#T" n="69"/>vtrum Pater genuit Filium natura.
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e626">
+                  <lb ed="#T" n="70"/>AD tertium sic proceditur. 1. Dicit Hylar.  
+      <lb ed="#T" n="71"/>lib. de Synodis, non necessitate 
+      naturali<lb ed="#T" n="72" break="no"/>ductus Pater genuit Filium, 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e635">
+                  <lb ed="#T" n="73"/>2. Per rationes naturales poterant 
+      Philoso<lb ed="#T" n="74" break="no"/>phi deuenire in cognitionem naturae Diuinae: 
+      <lb ed="#T" n="75"/>sed cognita natura cognoscitur eius naturalis 
+      <lb ed="#T" n="76"/>operatio cur ergo non potuerunt deuenire in 
+      <lb ed="#T" n="77"/>cognitionem generationis? Generatio enim est 
+      <lb ed="#T" n="78"/>opus naturae. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e652">
+                  <lb ed="#T" n="79"/>3. In Deo natura, &amp; voluntas idem sunt: 
+      <lb ed="#T" n="80"/>ergo si generatio non fuit opus voluntatis, nec 
+      <lb ed="#T" n="81"/>naturae actus suit. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e661">
+                  <lb ed="#T" n="82"/>4. Si natura produxit: ergo cum natura sit 
+      <lb ed="#T" n="83"/>eadem in Spiritu Sancto, Spiritus Sanctus 
+      pro<lb ed="#T" n="84" break="no"/>duxit. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e670">
+                  <lb ed="#T" n="85"/>Contra. 1. Damas. dicit quod creatio est opus 
+      <lb ed="#T" n="86"/>voluntatis, sed generatio opus naturae. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e677">
+                  <lb ed="#T" n="87"/>2. Si non est opus naturae, ergo non est 
+      na<lb ed="#T" n="88" break="no"/>turalis Filius: nec est Filius adoptiuus, quia 
+      <lb ed="#T" n="89"/>non est factus de non Filio Filius: ergo nullo 
+      <lb ed="#T" n="90"/>modo. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e688">
+                  <lb ed="#T" n="91"/>3. Potentia generandi potentia est naturalis: 
+      <lb ed="#T" n="92"/>ergo actus eius est naturalis. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e695">
+                  <lb ed="#T" n="93"/>Respondeo. Quamuis voluntas &amp; natura in 
+      <lb ed="#T" n="94"/>Deo sint idem re, differunt tamen ratione: 
+      vo<lb ed="#T" n="95" break="no"/>untas enim producens, quantum est de genere 
+      <lb ed="#T" n="96"/>productionis, non producit simile in natura, 
+      <lb ed="#T" n="97"/>quia operatur non de substantia: sed natura 
+      <lb ed="#T" n="98"/>semper producit simile, quia natura est vis 
+      in<lb ed="#T" n="99" break="no"/>sita rebus ex similibus similia procreans: cum 
+      <lb ed="#T" n="100"/>ergo Filius a Patre productus sit de substantia. 
+      <lb ed="#T" n="101"/>sua in omnimoda similitudine, vt imago Patris 
+      <lb ed="#T" n="102"/>habens naturam eandem, &amp; 
+      communicabilita<lb ed="#T" n="103" break="no"/>tem naturae, natura productus est. Nec obstat,  
+      <lb ed="#T" n="104"/>quod productus est non potens sibi alium 
+      simi<lb ed="#T" n="105" break="no"/>em, sicut Pater, generare, quia tunc non esset 
+      <lb ed="#T" n="106"/>similis, sed idem, quia non distingueretur 
+      per<lb ed="#T" n="107" break="no"/>sonaliter a Patre, &amp; conueniret cum eo tam in 
+      <lb ed="#T" n="108"/>essentia, quam in personali proprietate 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e733">
+                  <lb ed="#T" n="109"/>Ad 1. Ex Hylario. Resp. Hylarius intendit 
+      <lb ed="#T" n="110"/>concludere naturalem necessitatem indigentiae. 
+      <lb ed="#T" n="111"/>non immutabilitatis. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e742">
+                  <lb ed="#T" n="112"/>Ad 2. De Philosophis. Respondeo. 
+      Philo<lb ed="#T" n="113" break="no"/>sophi potuerunt deuenire in cognitionem 
+      Diui<lb ed="#T" n="114" break="no"/>nae essentiae, sed ductu rationis &amp; per creaturas 
+      <lb ed="#T" n="115"/>&amp; imperfecte quoad attributa essentialia, non 
+      <lb ed="#T" n="116"/>personalia, quia ergo Filij generatio, quamuis 
+      <lb ed="#T" n="117"/>sit naturalis, tamen videtur esse contra 
+      capa<lb ed="#T" n="118" break="no"/>citatem rationis, &amp; contra viam inferioris 
+      a<lb ed="#T" n="119" break="no"/>turae, ideo non plene relucet in creaturis; vnde 
+      <lb ed="#T" n="120"/>non poterant eam per rationem cognoscere. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e764">
+                  <lb ed="#T" n="121"/>Ad 3. De identitate naturae, &amp; voluntatis. 
+      <lb ed="#T" n="122"/>Resp. Quamuis idem sint re; tamen differunt 
+      <lb ed="#T" n="123"/>ratione, sicut scientia &amp; voluntas: vnde multa 
+      <lb ed="#T" n="124"/>scit Deus, quae non vult: vtramque enim 
+      ve<lb ed="#T" n="125" break="no"/>rissime in Deo est &amp; actus vtriusque. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e777">
+                  <lb ed="#T" n="126"/>Ad 4. Natura est eadem in &amp;c. Resp. 
+      Quam<lb ed="#T" n="127" break="no"/>uis eadem, non tamen eodem modo se habens. 
+      <lb ed="#T" n="128"/>quia in Patre coniuncta est paternitati, vel 
+      <lb ed="#T" n="129"/>potius est ipsa paternitas, in Spiritu Sancto 
+      <lb ed="#T" n="130"/>non: vnde non omnino eodem modo se habent 
+      <lb ed="#T" n="131"/>secundum rationem, licet eadem sit secundum rem. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e17501-Dd1e794">
+               <head xml:id="pdt7y6-e17501-Hd1e796">Articulus 4</head>
+               <head xml:id="pdt7y6-e17501-Hd1e798" type="question-title">
+  An Pater genuit Filium secundum rationem exemplaritatis, vel idea. 
+</head>
+               <p xml:id="pdt7y6-e17501-d1e801">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0136.xml-->
+                  <pb ed="#T" n="61"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>ARTICVLVS IV. 
+      <lb ed="#T" n="2"/>An Pater genuit Filium secundum rationem 
+      exem<lb ed="#T" n="3" break="no"/>plaritatis, vel idea. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e817">
+                  <lb ed="#T" n="4"/>AD quartum sic proceditur. 1. Omne, quod 
+      <lb ed="#T" n="5"/>Aprocedit ab alio secundum rationem 
+      sa<lb ed="#T" n="6" break="no"/>pientiae, procedit secundum rationem ideae: sed 
+      <lb ed="#T" n="7"/>Filius procedit secundum rationem sapientiae, 
+      <lb ed="#T" n="8"/>vnde dicitur sapientia genita: ergo per rationem 
+      <lb ed="#T" n="9"/>ideae. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e833">
+                  <lb ed="#T" n="10"/>2. Omne, quod procedit secundum rationem 
+      <lb ed="#T" n="11"/>artis, procedit secundum rationem ideae, sed 
+      Fi<lb ed="#T" n="12" break="no"/>ius procedit secundum rationem artis: quia vt 
+      <lb ed="#T" n="13"/>ait Augustinus, ipse est ars Patris plena 
+      om<lb ed="#T" n="14" break="no"/>nium rationum viuentium: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e847">
+                  <lb ed="#T" n="15"/>3. Verbum a corde seu ab intellectu procedit 
+      <lb ed="#T" n="16"/>secundum rationem ideae: Filius vero procedit 
+      <lb ed="#T" n="17"/>a Patre, vt verbum a corde secundum 
+      Augusti<lb ed="#T" n="18" break="no"/>num: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e858">
+                  <lb ed="#T" n="19"/>4. In Trinitate creata processus notitiae a 
+      men<lb ed="#T" n="20" break="no"/>te assimilatur processui Filij a Patre: sed ille est: 
+      <lb ed="#T" n="21"/>secundum rationem ideae: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e867">
+                  <lb ed="#T" n="22"/>Contra. 1. Ab artifice creato aliter procedit 
+      <lb ed="#T" n="23"/>arca, quia secundum rationem ideae, aliter Filius, 
+      <lb ed="#T" n="24"/>quia secundum rationem naturae non ideae: ergo 
+      <lb ed="#T" n="25"/>a simili in artifice increato aliter creatura, aliter 
+      <lb ed="#T" n="26"/>Filius, 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e880">
+                  <lb ed="#T" n="27"/>2. In his quae de propria substantia 
+      producun<lb ed="#T" n="28" break="no"/>tur secundum viam naturae, non habet locum 
+      ra<lb ed="#T" n="29" break="no"/>tio ideae: sed talis est productio Filij. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e889">
+                  <lb ed="#T" n="30"/>3. Filius est idea, vnde dicit Augustinus, quod 
+      <lb ed="#T" n="31"/>ui negat ideas esse, negat Filium Dei esse: ergo 
+      <lb ed="#T" n="32"/>non producitur secundum rationem ideae, 
+      alio<lb ed="#T" n="33" break="no"/>quin esset idea ideae, &amp; sic esset abire in infinitum 
+      <lb ed="#T" n="34"/>in idaeis. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e902">
+                  <lb ed="#T" n="35"/>4. Formae non est forma: ergo ideae non est 
+      <lb ed="#T" n="36"/>idea. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e910">
+                  <lb ed="#T" n="37"/>5. Quod est ab aliquo per essentiam, non est 
+      <lb ed="#T" n="38"/>in eo per ideam: Filius est in Patre per essentiam: 
+      <lb ed="#T" n="39"/>non ergo per ideam. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e919">
+                  <lb ed="#T" n="40"/>Respondeo. Sicut per modum liberalitatis 
+      po<lb ed="#T" n="41" break="no"/>test dici aliquid a Deo procedere dupliciter: vel 
+      <lb ed="#T" n="42"/>vt effectus liberalitatis, sicut procedunt dona 
+      crea<lb ed="#T" n="43" break="no"/>ta: vel vt ratio liberalitatis, sicut procedit 
+      do<lb ed="#T" n="44" break="no"/>num in creatum, scilicet amor, qui est Spiritus 
+      <lb ed="#T" n="45"/>sanctus: ita secundum rationem ideae vel 
+      exem<lb ed="#T" n="46" break="no"/>plaris potest dici aliquid procedere dupliciter: 
+      <lb ed="#T" n="47"/>vel vt exemplatum, vel vt ratio exemplandi alia: 
+      <lb ed="#T" n="48"/>primo modo procedit creatura secundum 
+      ratio<lb ed="#T" n="49" break="no"/>nem ideae, id est, per ideam; secundo modo 
+      Fi<lb ed="#T" n="50" break="no"/>lius, ita vt sit idea. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e945">
+                  <lb ed="#T" n="51"/>Ad 1. &amp; 2. De eo quod procedit secundum 
+      <lb ed="#T" n="52"/>rationem sapientiae vel artis. Resp. Procedere 
+      <lb ed="#T" n="53"/>secundum rationem sapientiae, vel secundum 
+      ra<lb ed="#T" n="54" break="no"/>tionem artis est dupliciter, vel vt effectus 
+      sapien<lb ed="#T" n="55" break="no"/>tiae, vel artis; vel vt sapientia, &amp; ars. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e958">
+                  <lb ed="#T" n="56"/>Ad 3. De verbo. Resp. Primum verbum non 
+      <lb ed="#T" n="57"/>procedit secundum rationem ideae vt effectus, 
+      <lb ed="#T" n="58"/>sed vt idea ipsa. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e967">
+                  <lb ed="#T" n="59"/>Ad 4. De notitia. Resp. Non procedit, vt 
+      es<lb ed="#T" n="60" break="no"/>fectus ideae, sed vt idea, vel dicendum quod in 
+      <lb ed="#T" n="61"/>hoc est dissimilitudo.
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e17501-Dd1e977">
+               <head xml:id="pdt7y6-e17501-Hd1e979">Articulus 5</head>
+               <head xml:id="pdt7y6-e17501-Hd1e981" type="question-title">
+  An Pater et Filius spirent Spiritum sanctum voluntate, vel necessitate.
+</head>
+               <p xml:id="pdt7y6-e17501-d1e984">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0136.xml-->
+                  <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="62"/>ARTICVLVS V 
+      <lb ed="#T" n="63"/>An Pater &amp; Filius spirent Spiritum sanctum 
+      volun<lb ed="#T" n="64" break="no"/>tate, vel necessitate.
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e997">
+                  <lb ed="#T" n="65"/>AD quintum sic proceditur. 1. Secundum 
+      <lb ed="#T" n="66"/>Augustinum Spiritus Sanctus procedit a 
+      <lb ed="#T" n="67"/>Patre &amp; Filio quomodo datus, non quomodo 
+      <lb ed="#T" n="68"/>natus: ergo voluntate non necessitate, sicut donum. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e1008">
+                  <lb ed="#T" n="69"/>2. Secundum Richard. de S. Victore Spiritus 
+      <lb ed="#T" n="70"/>Sanctus procedit vt amor gratuitus: ergo 
+      volun<lb ed="#T" n="71" break="no"/>ate, non necessitate: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e1018">
+                  <lb ed="#T" n="72"/>Contra. 1. Si spiratur voluntate, non 
+      necessita<lb ed="#T" n="73" break="no"/>te, ergo cum per hoc habeat esse Deus, Deus est 
+      <lb ed="#T" n="74"/>voluntate, non necessitate: ergo possibile fuit eis 
+      <lb ed="#T" n="75"/>non spirare: ergo Spiritum sanctum fuit 
+      possi<lb ed="#T" n="76" break="no"/>pile non esse: ergo non habet esse necessarium, 
+      <lb ed="#T" n="77"/>sed posi. bile. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e1034">
+                  <lb ed="#T" n="78"/>2. Distinguitur productio Spiritus sancti a 
+      pro<lb ed="#T" n="79" break="no"/>ductione creaturae: cum ergo illae producantur  
+      <lb ed="#T" n="80"/>voluntate, non necenitate; Spiritus sanctus non 
+      <lb ed="#T" n="81"/>sic producitur.  
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e1045">
+                  <lb ed="#T" n="82"/>Respondeo. In Deo idem est secundum rem 
+      <lb ed="#T" n="83"/>natura &amp; voluntas, sed differunt ratione, vnde 
+      <lb ed="#T" n="84"/>aliud attribuitur naturae, aliud voluntati. 
+      Secun<lb ed="#T" n="85" break="no"/>dum hoc est duplex productio diuina, quaedam 
+      <lb ed="#T" n="86"/>per modum naturae quae appellatur generatio: 
+      <lb ed="#T" n="87"/>quaedam per modum voluntatis: sed haec potest 
+      <lb ed="#T" n="88"/>esse dupliciter, aut de natura producentis, &amp; haec 
+      <lb ed="#T" n="89"/>dicitur spiratio: aut non de natura, &amp; haec dicitur  
+      <lb ed="#T" n="90"/>factio &amp; creatio, potest aute productio a natura &amp; 
+      <lb ed="#T" n="91"/>voluntate tripliciter intelligi: quia vel a natura 
+      <lb ed="#T" n="92"/>solum, vel a voluntate solum, vel a natura 
+      <lb ed="#T" n="93"/>&amp; voluntate: primo modo procedit Filius; 
+      se<lb ed="#T" n="94" break="no"/>cundo modo creatura; tertio modo Spiritus 
+      san<lb ed="#T" n="95" break="no"/>ctus: vnde &amp; voluntate spirante eum, &amp; 
+      naturali<lb ed="#T" n="96" break="no"/>necessitate, loquendo de necessitate 
+      immutabili<lb ed="#T" n="97" break="no"/>tatis, non indigentiae, vel violentiae, vel 
+      expe<lb ed="#T" n="98" break="no"/>dientiae. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e1084">
+                  <lb ed="#T" n="99"/>Ad 1. De dono. Resp. Donum est duplex: 
+      <lb ed="#T" n="100"/>aliud connaturale, idem cum donante, dictum ab 
+      <lb ed="#T" n="101"/>aptitudine donandi: &amp; aliud donum differens 
+      es<lb ed="#T" n="102" break="no"/>sentialiter a donante, dictum ab actu donandi: 
+      <lb ed="#T" n="103"/>primum procedit voluntate &amp; natura, secundum 
+      <lb ed="#T" n="104"/>voluntate tantum 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e1100">
+                  <lb ed="#T" n="105"/>Ad 2. Procedit vt amor &amp;c. Resp. Necessitas 
+      <lb ed="#T" n="106"/>immutabilitatis non opponitur processuiamoris 
+      <lb ed="#T" n="107"/>sed necessitas coactionis. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e17501-Dd1e1110">
+               <head xml:id="pdt7y6-e17501-Hd1e1112">Expositio Litterae</head>
+               <p xml:id="pdt7y6-e17501-d1e1114">
+                  <lb ed="#T" n="108"/>EXPOSITIO LITTERAE. 
+      <lb ed="#T" n="109"/>TOn necessitate, nec voluntate.] Contra. 
+      <lb ed="#T" n="110"/>DDe necessitate immutabilitatis verum est: 
+      <lb ed="#T" n="111"/>ergo male interimit vniuersaliter, sed debuit 
+      di<lb ed="#T" n="112" break="no"/>stinguere. 
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e1127">
+                  <lb ed="#T" n="113"/>Respondeo. Ille cui loquebatur, intendebat,  
+      <lb ed="#T" n="114"/>de necessitate coactionis, vel ineuitabilitatis 
+      so<lb ed="#T" n="115" break="no"/>um, sicut &amp; communius, &amp; quasi vulgariter 
+      ac<lb ed="#T" n="116" break="no"/>cipitur, &amp; ideo simpliciter interimit,  
+    </p>
+               <p xml:id="pdt7y6-e17501-d1e1138">
+                  <lb ed="#T" n="117"/>Aut volens aut nolens.] Contra videtur 
+      di<lb ed="#T" n="118" break="no"/>uisio per affirmationem &amp; negationem: ergo per 
+      <lb ed="#T" n="119"/>immediata. Resp. Nolens &amp; volens non 
+      oppo<lb ed="#T" n="120" break="no"/>nuntur, vt affirmatio, &amp; negatio; quia vtrumque 
+      <lb ed="#T" n="121"/>affirmat &amp; dicit actum voluntatis: sed volens &amp; 
+      <lb ed="#T" n="122"/>non volens. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0137.xml-->
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

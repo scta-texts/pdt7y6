@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="391"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-f20319"><!-- l1d48prae -->
+            <head xml:id="pdt7y6-f20319-Hd1e99">Praeambulum</head>
+            <head xml:id="pdt7y6-f20319-Hd1e101" type="question-title"/>
+            <p xml:id="pdt7y6-f20319-d1e103">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0466.xml-->
+               <cb ed="#T" n="c"/>
+               <lb ed="#T" n="51"/>QVOD ALIQVANDO HOMO 
+      <lb ed="#T" n="52"/>bona voluntate aliud vult quam Deus: &amp; aliquando mala 
+      <lb ed="#T" n="53"/>id quod Deus bona voluntate vult. 
+      <lb ed="#T" n="54"/>Distindt. XLVIII. 
+    </p>
+           <!-- <p xml:id="pdt7y6-f20319-d1e119">
+               <lb ed="#T" n="55"/>CIINDVS quoque est quod aliquando mala est voluntas hominis idem 
+      <lb ed="#T" n="56"/>volentis quod Deus vult fieri, &amp; aliquando bona est voluntas hominis 
+      <lb ed="#T" n="57"/>aliud volentis quam Deus. Vt enim bona sit hominis voluntas, oportet 
+      <lb ed="#T" n="58"/>attendere quid congruat ei velle, &amp; quo fine. Tantum enim interest 
+      in<lb ed="#T" n="59" break="no"/>ter voluntatem Dei, &amp; voluntatem hominis, vt in quibusdam aliud 
+      con<lb ed="#T" n="60" break="no"/>gruat Deo velle, aliud homini. Vnde August. in Enchir. Aliquando bo 
+      <lb ed="#T" n="61"/>na voluntate homo vult aliquid quod Deus non vult bona multo 
+      am<lb ed="#T" n="62" break="no"/>plius multoque certius voluntate (nam illius mala voluntas esse 
+      nun<lb ed="#T" n="63" break="no"/>quam potest) tanquam si bonus filius patrem velit viuere, quem Deus bona voluntate 
+      <lb ed="#T" n="64"/>vultmori. Et rursus fieri potest, vt hoc velit homo voluntate mala quod Deus vult bonas 
+      <lb ed="#T" n="65"/>velut si malus filius velit mori patrem, velit etiam hoc Deus. Nempe ille vult quod non 
+      <lb ed="#T" n="66"/>vult Deus: iste vero id vult quod vult &amp; Deus: &amp; tamen bonae Dei voluntati pietas illius, 
+      <lb ed="#T" n="67"/>potius consonat, quamuis aliud volentis, quam huius idem volentis, impietas. Multum 
+      <lb ed="#T" n="68"/>enim interest quid velle homini, quid velle Deo congruat: &amp; ad quem finem suam quisque 
+      <lb ed="#T" n="69"/>referat voluntatem, vt approbetur vel improbetur. Potest enim velle bonum quod non 
+      <lb ed="#T" n="70"/>congruat ei velle, &amp; potest velle bonum quod congruit, sed non refert ad finem rectum, &amp; 
+      <lb ed="#T" n="71"/>ideo non est bona voluntas. 
+    </p>
+            <p xml:id="pdt7y6-f20319-d1e158">
+               <lb ed="#T" n="72"/>Quod bona Dei voluntas mala hominum voluntate impletur, vt in Passione Christi centigit, 
+      <lb ed="#T" n="73"/>vbi quiddam factum est quod Deus bona, &amp; Iudaei mala voluntate voluerunt: 
+      <lb ed="#T" n="74"/>voluerunt tamen &amp; aliquid quod Deus non voluit. 
+    </p>
+            <p xml:id="pdt7y6-f20319-d1e168">
+               <lb ed="#T" n="75"/>Illud quoque non est praetermittendum, quod aliquando Dei voluntas bona per malam 
+      <lb ed="#T" n="76"/>hominis voluntatem impletur, vt in crucifixione Christi factum est, quem Deus bona 
+      vo<lb ed="#T" n="77" break="no"/>luntate mori voluit: Iudaei vero impia voluntate cum crucifixerunt. Et volebant ludaei 
+      <lb ed="#T" n="78"/>male voluntate quoddam quod Deus bona voluntate volebat. 1. vt Christus pateretur, &amp; 
+      <lb ed="#T" n="79"/>moreretur: sed volebant &amp; aliquid aliud quod Deus nolebat, scilicet occidere Christum, 
+      <lb ed="#T" n="80"/>quod fuit mala actio &amp; peccatum. Actum quippe ludaeorum non voluit Deus, passionem 
+      <lb ed="#T" n="81"/>vero Christi voluit: sicut &amp; in ipso Psalm. Christus ad Patrem ait, Tu cognouisti sessionem 
+      <lb ed="#T" n="82"/>meam, id est, voluisti &amp; approbasti passionem meam, tibi enim placuit. Voluit itaque tota 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0467.xml-\->
+      <pb ed="#T" n="392"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>Trinitas vt Christus pateretur, nec tamen voluit vt ludaei occiderent, quia voluit poenam 
+      <lb ed="#T" n="2"/>Christi, sed non voluit culpam Iudaeorum: nec tamen noluit, si enim noluisset, nec fuisset. 
+      <lb ed="#T" n="3"/>oppositio. 
+    </p>
+            <p xml:id="pdt7y6-f20319-d1e201">
+               <lb ed="#T" n="4"/>Sed ad hoc opponitur sic: si voluit Deus vt Christus pateretur, voluit vtique vt 
+      patere<lb ed="#T" n="5" break="no"/>tur aludaeis, vel non: si voluit vt non pateretur a ludaeis, cum passus sit, factum est itaque 
+      <lb ed="#T" n="6"/>quod voluit Deus non fieri. Si autem voluit cum pati a ludaeis, ergo voluit cum occidi a 
+      <lb ed="#T" n="7"/>ludaeis: voluit itaque vt ludaei occiderent eum. Ad quod respondentes dicimus, simpliciter  
+      <lb ed="#T" n="8"/>concedendum esse, quod Deus voluit Christum pati, &amp; mori: quia eius passio bonum fuit, 
+      <lb ed="#T" n="9"/>&amp; causa nostrae salutis. Cum autem dicitur volebat cum pati, vel occidi a ludaeis: hic 
+      distin<lb ed="#T" n="10" break="no"/>guendum est. Si enim intelligitur sic, Volebat eum sustinere passionem siue crucifixionem 
+      <lb ed="#T" n="11"/>aludaeis illatam, verus est sensus. Si vero intelligitur sic, Volebat vt ludaei occiderent eum, 
+      <lb ed="#T" n="12"/>falsum est. Non enim volebat Deus actionem fudaeorum, quae mala erat, sed volebat 
+      pas<lb ed="#T" n="13" break="no"/>sionem bonam: &amp; haec voluntas per malas Iudaeorum voluntates impleta est. Vnde 
+      Aug<lb ed="#T" n="14" break="no"/>in Enchir. Deus quasdam voluntates suas vtique bonas implet per malorum hominum 
+      <lb ed="#T" n="15"/>voluntates malas: sicut per maleuolos Iudaeos bona voluntate patris Christus pro nobis 
+      <lb ed="#T" n="16"/>pccisus est: quod tantum bonum fuit, vt Apostolus Petrus, quando id fieri nolebat, 
+      Sata<lb ed="#T" n="17" break="no"/>nas ab ipso qui occisus est, diceretur. Ecce manifeste habes magnum bonum Eesre quod 
+      <lb ed="#T" n="18"/>Christus occisus est: &amp; hoc bonum quia Petrus nolebat redargutus est. 
+    </p>
+            <p xml:id="pdt7y6-f20319-d1e236">
+               <lb ed="#T" n="19"/>Vtrum placuerit viris bonis, quod Christus pateretur &amp; moreretur: placuit quidem intuita strae 
+    </p>
+            <p xml:id="pdt7y6-f20319-d1e241">
+               <lb ed="#T" n="20"/>redemptionis, sed non ipsius cruciatus. 
+      <lb ed="#T" n="21"/>Ex quo soluitur quaestio qua quaerisolet, vtrum viris sanctis placere debuerit quod 
+      Chri<lb ed="#T" n="22" break="no"/>stus pateretur, vel occideretur: debuit enim eis placere intuitu nostrae redemptionis, sed  
+      <lb ed="#T" n="23"/>non intuitu ipsius cruciatus. Voluerunt ergo ac vehementer cupierunt Christum 
+      mori<lb ed="#T" n="24" break="no"/>propter liberationem hominis &amp; impletionem diuinae voluntatis: sed non voluerunt 
+      de<lb ed="#T" n="25" break="no"/>lectatione ipsius afflictionis. De eodem ergo laetabantur &amp; tristabantur: sed ob aliud 
+      gau<lb ed="#T" n="26" break="no"/>debant, &amp; propter aliud dolebant. Volebant ergo Christum mori pro hominis 
+      redem<lb ed="#T" n="27" break="no"/>ptione: &amp; tamen de morte ipsius diuersis de causis corda eorum varie mouebantur.  
+    </p>
+            <p xml:id="pdt7y6-f20319-d1e261">
+               <lb ed="#T" n="28"/>Quomodo sentiendum sit de passionibus Sanctorum, an velle an nolle debeamus. 
+      <lb ed="#T" n="29"/>Si vero quaeritur vtrum eodem modo sentiendum sit de passionibus &amp; martyrijs 
+      San<lb ed="#T" n="30" break="no"/>ctorum, dicimus aliquam esse differentiam inter passionem Capitis &amp; membrorum. 
+      Chri<lb ed="#T" n="31" break="no"/>sti namque passio causa est nostrae salutis, quod non est passio alicuius Sancti. Nullius 
+      <lb ed="#T" n="32"/>enim passione redempti sumus, nisi Christi. Profuerunt quidem non modo eis qui passi. 
+      <lb ed="#T" n="33"/>sunt, verum etiam alijs fidelibus ipsorum passiones, verumtamen nostra redemptio non 
+      <lb ed="#T" n="34"/>sunt: hoc enim passio illius sola potuit qui Deus est &amp; homo. Illius ergo passionem 
+      cre<lb ed="#T" n="35" break="no"/>dentium piae mentes voluerunt, &amp; optauerunt fieri, sicut futurum credebant. Passiones 
+      <lb ed="#T" n="36"/>vero Sanctorum possumus velle &amp; nolle, &amp; vtrumque bona voluntate, si rectos nobis 
+      pro<lb ed="#T" n="37" break="no"/>ponamus fines. Cui enim placuit Pauli passio, eo fine, quia praemium eius per hoc actum 
+      <lb ed="#T" n="38"/>&amp; paratum cernebat, bonam videtur habuisse voluntatem, quae voluntati eius congruebat,  
+      <lb ed="#T" n="39"/>qua cupiebat dissolui &amp; osse cum Christo. Qui autem voluit eum declinare passionem &amp; 
+      <lb ed="#T" n="40"/>effugere manus iniquorum compassione pietatis, &amp; ille habuit bonam voluntatem. Vnde 
+      <lb ed="#T" n="41"/>Augustinus in Enchir. Bonae apparebant voluntates piorum fidelium, qui nolebant 
+      Apo<lb ed="#T" n="42" break="no"/>stolum Paulum Hierusalem pergere, ne ibi pareretur mala, quae Agabus Propheta 
+      praedi<lb ed="#T" n="43" break="no"/>xerat: &amp; tamen hoc illum Deus pati volebat pro annuncianda fide Christi, exercens 
+      mar<lb ed="#T" n="44" break="no"/>tyrem Christi: neque ipse bonam voluntatem suam impleuit per Christianorum 
+      volunta<lb ed="#T" n="45" break="no"/>tes bonas, sed per Iudaeorum malas: &amp; ad cum potius pertinebant qui nolebant quod 
+      <lb ed="#T" n="46"/>volebat, quam illi per quos volentes factum est quod volebat: quia idipsum mala 
+      volunta<lb ed="#T" n="47" break="no"/>te fecerunt, quod Deus bona voluntate voluit. Ita &amp; in passione Christi factum est: quod 
+      <lb ed="#T" n="48"/>enim Deus voluit, hoc idem Iudaei &amp; Diabolus: sed illi mala voluntate, Deus vero bona 
+      <lb ed="#T" n="49"/>voluntate, scilicet, vt Christus moreretur. Veruntamen illi actum voluerunt, quem Deus 
+      <lb ed="#T" n="50"/>non voluit. 
+    </p>-->
+            <p xml:id="pdt7y6-f20319-d1e313">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0467.xml-->
+               <cb ed="#T" n="b"/>
+               <lb ed="#T" n="51" type="fixed=392"/>DIVISIO TEXTVS. 
+      <lb ed="#T" n="52"/>[CCiendum quoque est. ] Postquam egit de 
+      <lb ed="#T" n="53"/>Qvoluntate Dei in se, &amp; per comparationem 
+      <lb ed="#T" n="54"/>ad effectum, hic agit de ea per comparationem 
+      <lb ed="#T" n="55"/>ad voluntatem humanam, agens de 
+      conformi<lb ed="#T" n="56" break="no"/>tate voluntatis humanae ad Diuinam. Ubi 
+      pri<lb ed="#T" n="57" break="no"/>mo determinat veritatem. Secundo soluit 
+      quas<lb ed="#T" n="58" break="no"/>dam dubitationes incidentes [Ex quo soluitur  
+    </p>
+            <p xml:id="pdt7y6-f20319-d1e338">
+               <lb ed="#T" n="59"/>In prima parte primo ostendit quod confor¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0467.xml-->
+      <cb ed="#T" n="c"/>
+               <lb ed="#T" n="60"/>mitas in volito non semper efficit voluntatem 
+      <lb ed="#T" n="61"/>hominis bonam. Secundo ostendit quod bona 
+      <lb ed="#T" n="62"/>voluntas Dei aliquando impletur per hominis 
+      <lb ed="#T" n="63"/>voluntatem malam[ Illud quoque] Tertio 
+      mo<lb ed="#T" n="64" break="no"/>uet &amp; soluit obiectionem contrariam [Sed ad 
+      <lb ed="#T" n="65"/>hoc opponitur. ] 
+    </p>
+            <p xml:id="pdt7y6-f20319-d1e360">
+               <lb ed="#T" n="66"/>In secunda parte primo mouet &amp; soluit 
+      dubi<lb ed="#T" n="67" break="no"/>tationem de passione capitis [Ex quo] 
+      secun<lb ed="#T" n="68" break="no"/>do de passionibus membrorum [Si vero 
+      quaeri<lb ed="#T" n="69" break="no"/>tur ] Tertio ostendit qualiter possumus velle 
+      <lb ed="#T" n="70"/>passiones Sanctorum [Passiones.]
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

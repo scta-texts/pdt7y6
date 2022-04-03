@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="212"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e64578"><!-- l1d26q1 -->
+            <head xml:id="pdt7y6-e64578-Hd1e99">Quaestio 1</head>
+            <head xml:id="pdt7y6-e64578-Hd1e101" type="question-title">De hypostasi </head>
+            <p xml:id="pdt7y6-e64578-d1e104">
+               <lb ed="#T" n="73"/>QVESTIO I. 
+      <lb ed="#T" n="74"/>DE HTPOSTASI. 
+      <lb ed="#T" n="75"/>TVIc quaeruntur duo. 
+    </p>
+            <p xml:id="pdt7y6-e64578-d1e113">
+               <lb ed="#T" n="76"/>Primo de hypostasi. 
+      <lb ed="#T" n="77"/>Secundo de proprietatibus. 
+    </p>
+            <p xml:id="pdt7y6-e64578-d1e120">
+               <lb ed="#T" n="78"/>Circa primum quatuor quaeruntur.  
+      <lb ed="#T" n="79"/>Primo an hypostasis sit in Deo. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0288.xml-->
+      <pb ed="#T" n="213"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>Secundo. An idem sit hypostasis &amp; persona. 
+      <lb ed="#T" n="2"/>Tertio. An significet substantia vel notionem. 
+      <lb ed="#T" n="3"/>Quarto. An circumscriptis proprietatibus 
+      <lb ed="#T" n="4"/>remanerent in Diuinis hypostafes distinctae. 
+    </p>
+            <div xml:id="pdt7y6-e64578-Dd1e143">
+               <head xml:id="pdt7y6-e64578-Hd1e145">Articulus 1</head>
+               <head xml:id="pdt7y6-e64578-Hd1e147" type="question-title">An hypostasis sit in Deo</head>
+               <p xml:id="pdt7y6-e64578-d1e150">
+                  <lb ed="#T" n="5"/>Articvlvs I. 
+      <lb ed="#T" n="6"/>An hypostasis sit in Deo.
+</p>
+               <p xml:id="pdt7y6-e64578-d1e157">
+                  <lb ed="#T" n="7"/>AD primum sic proceditur. 1. Dicit 
+      Hiero<lb ed="#T" n="8" break="no"/>nymus hic, quod nomen hypostasis malae 
+      <lb ed="#T" n="9"/>suspicionis est &amp; nouellum, &amp; quod venenum 
+      <lb ed="#T" n="10"/>sub melle latet: sed talibus nominibus in 
+      Diui<lb ed="#T" n="11" break="no"/>nis non est vtendum: ergo non est vtendum in 
+      <lb ed="#T" n="12"/>Diuinis nomine hypostalis. 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e173">
+                  <lb ed="#T" n="13"/>2. Sicut Dicit Boetius super praedicamenta, 
+      <lb ed="#T" n="14"/>hypostasis est substantia accidentibus subjecta: 
+      <lb ed="#T" n="15"/>sed in Deo non est substantia subjecta 
+      acciden<lb ed="#T" n="16" break="no"/>tibus: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e185">
+                  <lb ed="#T" n="17"/>3. Substantia dicitur a substando: Deus vero 
+      <lb ed="#T" n="18"/>nulli substat: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e192">
+                  <lb ed="#T" n="19"/>4. Omne quod est in Diuinis, vel est 
+      absolu<lb ed="#T" n="20" break="no"/>tum, vel ad aliquid: sed hypostasis non est 
+      abso<lb ed="#T" n="21" break="no"/>lutum quia recipit pluritatem, nec ad aliquid, 
+      <lb ed="#T" n="22"/>quia non refectur ad aliud: ergo hypostasis non 
+      <lb ed="#T" n="23"/>est in Diuinis 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e205">
+                  <lb ed="#T" n="24"/>Contra. 1. Sicut patet per Damascenum, 
+      Gre<lb ed="#T" n="25" break="no"/>ci dicunt in Deo vnam substantiam, tres 
+      hypo<lb ed="#T" n="26" break="no"/>stases: ergo vtuntur indiuinis nomine hypostasis. 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e214">
+                  <lb ed="#T" n="27"/>2. Magister in praecedenti distinctione cap. 
+      <lb ed="#T" n="28"/>Sciendum. Dicit quod Graeci vtuntur nomine 
+      <lb ed="#T" n="29"/>hypostasis pro persona: &amp; ipse idem concedit 
+      <lb ed="#T" n="30"/>hic eap. 1. quod nomine hypostasis sit 
+      vten<lb ed="#T" n="31" break="no"/>dum in Diuinis. 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e227">
+                  <lb ed="#T" n="32"/>Iuxta hoc quaeritur, cum hypostasis 
+      nomine<lb ed="#T" n="33" break="no"/>tur in substantijs Diuinis &amp; in creatis, vbi prius 
+      <lb ed="#T" n="34"/>&amp; verius inueniatur hypostasis 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e236">
+                  <lb ed="#T" n="35"/>Respondeo. In genere substantiae creatae est 
+      <lb ed="#T" n="36"/>inuemre substantiam secundam vniuersalem, &amp; 
+      <lb ed="#T" n="37"/>substantiam primam particularem. In Diuinit 
+      <lb ed="#T" n="38"/>vero, non est vniuersale&amp; particulare: sed ad 
+      ho<lb ed="#T" n="39" break="no"/>rum similitudinem est inuenire substantiam 
+      co<lb ed="#T" n="40" break="no"/>munem quae appellatur essentia, substantiam 
+      sin<lb ed="#T" n="41" break="no"/>gularem quae appellatur hypostasis. In hoc 
+      ve<lb ed="#T" n="42" break="no"/>ro nomine duo sunt considerare, rem 
+      significa<lb ed="#T" n="43" break="no"/>tam cui nomen imponitur, quae est res per se 
+      <lb ed="#T" n="44"/>subsistens; &amp; modum significandi siue rationem 
+      <lb ed="#T" n="45"/>impositionis nominis, scilicet ab actu substandi. 
+      <lb ed="#T" n="46"/>Quoad veritatem rei significatae, per prius est in 
+      <lb ed="#T" n="47"/>Deo &amp; verius: quoad rationem ipsius impositios 
+      <lb ed="#T" n="48"/>nis nominis, per prius &amp; verius in creatura, quia 
+      <lb ed="#T" n="49"/>in creatura est aliquid quod vere substat 
+      pro<lb ed="#T" n="50" break="no"/>prietatibus distinguentibus: in Deo vero nihil 
+      <lb ed="#T" n="51"/>est quod substet alicui nisi per modum intelligendi 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e276">
+                  <lb ed="#T" n="52"/>Ad 1. De Hieronymo. Resp. Loquitur 
+      pro<lb ed="#T" n="53" break="no"/>tempore quo vocabulum erat ambiguum ad 
+      sub<lb ed="#T" n="54" break="no"/>stantiam primam, vel secundam, secundum 
+      <lb ed="#T" n="55"/>vsum &amp; acceptionem haereticorum, non 
+      secun<lb ed="#T" n="56" break="no"/>dum proprietatem nominis 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e289">
+                  <lb ed="#T" n="57"/>Ad 2. De Boetio. Resp. Describit hypostasim 
+      <lb ed="#T" n="58"/>prout reperitur in creatura, non vniuersaliter.  
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e296">
+                  <lb ed="#T" n="59"/>Ad 3. Hypostasis dicitur a substando. Rosp. 
+      <lb ed="#T" n="60"/>Etymon nominis non semper cum eo 
+      conuer<lb ed="#T" n="61" break="no"/>titur: quamuis enim lapidis nomen sit 
+      imposi<lb ed="#T" n="62" break="no"/>tum a laedendo pedem, non tamen omnis 
+      la<lb ed="#T" n="63" break="no"/>pis laedit pedem, vt sapphirus vel smaragdus. 
+      <lb ed="#T" n="64"/>Vel potest dici quod nil in diuinis substat 
+      secun<lb ed="#T" n="65" break="no"/>dum actum existendi, substat tamen secundum 
+      <lb ed="#T" n="66"/>modum intelligendi.
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e316">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0288.xml-->
+                  <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>4. Ad vltimum. Resp. Nomen hppostasis 
+      re<lb ed="#T" n="68" break="no"/>ratium est, sicut nomen personae, a significatione 
+      <lb ed="#T" n="69"/>peoprietatis distinguentis in generali &amp; 
+      indeter<lb ed="#T" n="70" break="no"/>minate, non in speciali &amp; determinate. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e64578-Dd1e333">
+               <head xml:id="pdt7y6-e64578-Hd1e335">Articulus 2</head>
+               <head xml:id="pdt7y6-e64578-Hd1e337" type="question-title">
+  An idem sit hypostasis et persona.
+</head>
+               <p xml:id="pdt7y6-e64578-d1e340">
+                  <lb ed="#T" n="71"/>Articvlvs II. 
+      <lb ed="#T" n="72"/>An idem sit hypostasis &amp; persona.
+</p>
+               <p xml:id="pdt7y6-e64578-d1e347">
+                  <lb ed="#T" n="73"/>AD secundum sic proceditur. 1. <name xml:id="pdt7y6-e64578-Nd1e351" ref="#Boethius">Boetius</name> lib.  
+      <lb ed="#T" n="74"/>de duab. nat. dicit. Longe Graeci 
+      significan<lb ed="#T" n="75" break="no"/>tius naturae rationalis indiuiduam substantiam 
+      <lb ed="#T" n="76"/>hypostasimj appellauerunt: sed huiusmodi 
+      sub<lb ed="#T" n="77" break="no"/>stantia idem est quod persona: ergo hypostasis 
+      <lb ed="#T" n="78"/>idem est quod persona. 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e366">
+                  <lb ed="#T" n="79"/>2. Dicit Magister dist. praecedenti, quod 
+      Grae<lb ed="#T" n="80" break="no"/>ci vtuntur hocnomine hypostasis pro persona: 
+      <lb ed="#T" n="81"/>ergo idem sunt.  
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e376">
+                  <lb ed="#T" n="82"/>3. Hypostasis dicit quid distinctum: sed in 
+      di<lb ed="#T" n="83" break="no"/>uinis nihil est distinctum nisi persona. 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e383">
+                  <lb ed="#T" n="84"/>4. Quaecumque sic se habent quod quicquid 
+      <lb ed="#T" n="85"/>potest praedicari de vno potest praedicari de 
+      al<lb ed="#T" n="86" break="no"/>tero, sunt omnino idem: sed hypostasis &amp; 
+      per<lb ed="#T" n="87" break="no"/>sona sic se habent, vt patet per inductionem: 
+      er<lb ed="#T" n="88" break="no"/>go omnino idem sunt.  
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e396">
+                  <lb ed="#T" n="89"/>Contra. 1. Magistri definiunt sic personam 
+      <lb ed="#T" n="90"/>persona est hypostasis distinctapr oprietate: 
+      ni<lb ed="#T" n="91" break="no"/>hil autem definitur per se ipsum: ergo persona 
+      <lb ed="#T" n="92"/>&amp; hypostasis non est idem. 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e407">
+                  <lb ed="#T" n="93"/>2. Hypostasis dicit generaliter quam cunque 
+      <lb ed="#T" n="94"/>indiuiduam substantiam, persona vero dicit 
+      sub<lb ed="#T" n="95" break="no"/>stantiam indiuiduam naturae rationalis solum: 
+      <lb ed="#T" n="96"/>ergo non sunt idem. 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e418">
+                  <lb ed="#T" n="97"/>Iuxta hoc quaeritur, qualiter differunt in Deo 
+      <lb ed="#T" n="98"/>res naturae, suppositum, hypostasis, &amp; persona. 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e425">
+                  <lb ed="#T" n="99"/>Respondeo. In genere substantiae, substantia. 
+      <lb ed="#T" n="100"/>prima respectum habet ad naturam communem 
+      <lb ed="#T" n="101"/>&amp; ad proprietates quibus substat: nmiliter in 
+      <lb ed="#T" n="102"/>Deo id quod est loco primae substantiae respectum 
+      <lb ed="#T" n="103"/>habet ad naturam communem, &amp; ad 
+      proprieta<lb ed="#T" n="104" break="no"/>tes quibus distinguitur. Secundum respectum ad 
+      <lb ed="#T" n="105"/>naturam communeis potest significari 
+      duplici<lb ed="#T" n="106" break="no"/>ter: vel secundum esse rei, sic dicitur res naturae: 
+      <lb ed="#T" n="107"/>vel secundum esse rationis &amp; intentionis, sic 
+      di<lb ed="#T" n="108" break="no"/>citur suppositumi quia res naturae est nonien 
+      <lb ed="#T" n="109"/>primae intentionis, sed suppositum nomen 
+      se<lb ed="#T" n="110" break="no"/>cund aeintentionis. Secundum respectum vero ad 
+      <lb ed="#T" n="111"/>proprietates potest significari dupliciter: vel vt 
+      <lb ed="#T" n="112"/>distinctum proprietatibus cuiuscumque naturae 
+      <lb ed="#T" n="113"/>generaliter: vel vt distinctum proprietatibus 
+      per<lb ed="#T" n="114" break="no"/>tirnentibus ad dignitatem naturae rationalis 
+      spe<lb ed="#T" n="115" break="no"/>cialiter: primo modo significatur nomine 
+      hypo<lb ed="#T" n="116" break="no"/>stasis: secundo modo nomine personae. Persona 
+      <lb ed="#T" n="117"/>ergo &amp; hypostasis idem sunt in Diuinis ex parte 
+      <lb ed="#T" n="118"/>rei significatae, sed non modi significandi 
+      omni<lb ed="#T" n="119" break="no"/>no. Nomine vero indiuidui, particularis, 
+      singu<lb ed="#T" n="120" break="no"/>laris, non vtimur proprie in diuinis, quia sunt,  
+      <lb ed="#T" n="121"/>nomina secundae intentionis quae circumeunt. 
+      <lb ed="#T" n="122"/>quodlibet genus, non tantum genus substantiae: 
+      <lb ed="#T" n="123"/>vniuersale enim totum quoddam est respectu 
+      <lb ed="#T" n="124"/>suorum inferiorum, &amp; in illis diuiditur, non 
+      ta<lb ed="#T" n="125" break="no"/>men ab illis, quia non habet esse praeter illa: e 
+      co<lb ed="#T" n="126" break="no"/>tra insimum in vnoquoque genere dicitur 
+      par<lb ed="#T" n="127" break="no"/>ti culare contra primam conditionem, indiuiduum, 
+      <lb ed="#T" n="128"/>contra secundam, &amp; singulare contrae tertiam. 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e494">
+                  <lb ed="#T" n="129"/>Ad 1. De Graecis. Resp. Quia idem sunt 
+      se<lb ed="#T" n="130" break="no"/>eundum rem significatam, ideo Graeci 
+      commu<lb ed="#T" n="131" break="no"/>niter vtuntur hypostasipeo persona: 
+      nihilomi<lb ed="#T" n="132" break="no"/>nus tamen differunt secundum modum signi¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0289.xml-->
+      <pb ed="#T" n="214"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>ficandi, vt dictum est, 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e514">
+                  <lb ed="#T" n="2"/>Ad argumenta alia similiter respondendum: 
+      <lb ed="#T" n="3"/>concludunt enim quod res significata est eadem 
+      <lb ed="#T" n="4"/>in diuinis, non tamen modus significandi, 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e523">
+                  <lb ed="#T" n="5"/>Ad argumenta, in contrarium 
+      responden<lb ed="#T" n="6" break="no"/>dum est quod concludunt differentiam in modo 
+      <lb ed="#T" n="7"/>significandi, non in re significata 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e64578-Dd1e533">
+               <head xml:id="pdt7y6-e64578-Hd1e535">Articulus 3</head>
+               <head xml:id="pdt7y6-e64578-Hd1e537" type="question-title">
+  An hypostasis significet substantiam vel relationem
+</head>
+               <p xml:id="pdt7y6-e64578-d1e540">
+                  <lb ed="#T" n="8"/>Articvlvs III. 
+      <lb ed="#T" n="9"/>An hypostasis significet substantiam vel relationem. 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e547">
+                  <lb ed="#T" n="10"/>AD tertium sic proceditur. 1. Inijs quae 
+      <lb ed="#T" n="11"/>sunt eiusdem generis, maius commune 
+      <lb ed="#T" n="12"/>est de intellectu minus communis, vt 
+      ani<lb ed="#T" n="13" break="no"/>mal de intellectu hominis: ergo substantia est 
+      <lb ed="#T" n="14"/>de intellectu hypostasis: sed omnis terminus 
+      si<lb ed="#T" n="15" break="no"/>gnificat id quod est de intellectu suo: ergo 
+      hy<lb ed="#T" n="16" break="no"/>postasis significat substantiam. 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e565">
+                  <lb ed="#T" n="17"/>2. Secundum Philosophum, qui dicit vnum, 
+      <lb ed="#T" n="18"/>quodammodo dicit multa, dicit enim omnia 
+      <lb ed="#T" n="19"/>quae sunt in ipso essentialiter, vnde qui dicit 
+      ho<lb ed="#T" n="20" break="no"/>mine dicit animal, dicit substantiam: cum ergo 
+      <lb ed="#T" n="21"/>substantia essentialiter sit in hypostasi, qui dicit 
+      <lb ed="#T" n="22"/>hypostasim dicit substantiam. 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e582">
+                  <lb ed="#T" n="23"/>3. Substantia secunda est de essentia prima 
+      <lb ed="#T" n="24"/>substantiae, &amp; de eius intellectu, vt homo de es 
+      <lb ed="#T" n="25"/>sentia Sortis: ergo qui dicit primam substantiam, 
+      <lb ed="#T" n="26"/>dicit substantiam secundam: cum ergo 
+      substan<lb ed="#T" n="27" break="no"/>tia in Deo significet quasi substantiam secunda 
+      <lb ed="#T" n="28"/>hypostasis quasi primam, qui dicit hypostasim 
+      <lb ed="#T" n="29"/>dicit substantiam: ergo hypostasis significat  
+      <lb ed="#T" n="30"/>substantiam. 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e602">
+                  <lb ed="#T" n="31"/>4. Dicit Damascenus, quod hypostasis est 
+      sub<lb ed="#T" n="32" break="no"/>stantia distincta proprietatibus: ergo hypostasis 
+      <lb ed="#T" n="33"/>significat substantiam. 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e611">
+                  <lb ed="#T" n="34"/>5. Omne absolutum in diuinis significat 
+      sub<lb ed="#T" n="35" break="no"/>stantiam: sed hoc nomen, hypostasis, absolutum 
+      <lb ed="#T" n="36"/>est vt videtur: ergo significat substantiam. 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e620">
+                  <lb ed="#T" n="37"/>Contra. 1. Omne nomen significans 
+      substan<lb ed="#T" n="38" break="no"/>tiam dicitur in singulari de tribus: hypostasis 
+      ve<lb ed="#T" n="39" break="no"/>ro dicitur in plurali, vt patet hic perHieronymum. 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e629">
+                  <lb ed="#T" n="40"/>2. Si significat substantiam, aut ergo solam, aut 
+      <lb ed="#T" n="41"/>aliquo addito: si solam, ergo sicut non potest 
+      <lb ed="#T" n="42"/>dici, tres substantiae, ita nec tres hypostases: sic 
+      <lb ed="#T" n="43"/>aliquo ad dito: ergo dicit quid compositum. 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e640">
+                  <lb ed="#T" n="44"/>3. Illud quod addit hypostasis supra 
+      intelle<lb ed="#T" n="45" break="no"/>ctum substantiae, aut est idem omnino cum 
+      sub<lb ed="#T" n="46" break="no"/>stantia, re &amp; ratione: aut diuersum vtroque 
+      mo<lb ed="#T" n="47" break="no"/>do: aut differens ratione solum, sed idem re: si 
+      <lb ed="#T" n="48"/>primo modo, ergo quicquid conuenit hypostasi 
+      <lb ed="#T" n="49"/>conuenit essentiae, &amp; e conuerso, quod falsum 
+      <lb ed="#T" n="50"/>est, quia hypostasis distinguitur &amp; multiplicatur.  
+      <lb ed="#T" n="51"/>&amp; non essentia: si vero secundo modo, ergo in 
+      <lb ed="#T" n="52"/>hypostasi est realis diuersitas &amp; compositio: sic 
+      <lb ed="#T" n="53"/>tertio modo, aut illi rationi subest aliquid a parte 
+      <lb ed="#T" n="54"/>rei, ant nihil: si aliquid, ergo realis 
+      diuersitasali<lb ed="#T" n="55" break="no"/>qua est in hypostasi. Tuihil, ergo cassa est ratio. 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e670">
+                  <lb ed="#T" n="56"/>4. Quamuis abstrahe. itium non sit mendacium, 
+      <lb ed="#T" n="57"/>quia intellectus abstrahens fundatur aliquo 
+      mo<lb ed="#T" n="58" break="no"/>do super quidditates rei, licet non super esse, id  
+      <lb ed="#T" n="59"/>est, super naturam quidditatis in generali, non 
+      <lb ed="#T" n="60"/>prout est in materia: tamen si nullo modo 
+      fun<lb ed="#T" n="61" break="no"/>daretur super naturam rei, mendaciu esset: ergo 
+      <lb ed="#T" n="62"/>similiter, intellectus distinguens id quod 
+      hypo<lb ed="#T" n="63" break="no"/>stasis addit supra substantiam, ab ipsa substantia. 
+      <lb ed="#T" n="64"/>secundum rationem, si non fundatur super 
+      na<lb ed="#T" n="65" break="no"/>turam rei falsus est; sed si fundatur, ergo ibi est 
+      <lb ed="#T" n="66"/>realis diuersitas: ergo videtur quod nihil omni¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0289.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>no addat.
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e703">
+                  <lb ed="#T" n="68"/>Respondeo. Hypostasis significat primam 
+      sub<lb ed="#T" n="69" break="no"/>stantiam: prima vero substantia respectum 
+      ha<lb ed="#T" n="70" break="no"/>bet ad naturam communem cuius suppositum 
+      <lb ed="#T" n="71"/>est, &amp; ad proprietates quibus distinguitur. 
+      Se<lb ed="#T" n="72" break="no"/>cundum hoc, intellectu suo claudit &amp; naturam 
+      <lb ed="#T" n="73"/>communem, &amp; proprietatem: non ita quod vnum 
+      <lb ed="#T" n="74"/>horum insit alteri, sed ita quod vtrumque sibi. 
+      <lb ed="#T" n="75"/>Haec tamen tria, quamuis in creaturis differant 
+      <lb ed="#T" n="76"/>re, in creatore tamen non differunt nisi ratione. 
+      <lb ed="#T" n="77"/>Quia tamen ipsa proprietas respectu hypostasis 
+      <lb ed="#T" n="78"/>se habet quasi forma vltima &amp; completiua: 
+      no<lb ed="#T" n="79" break="no"/>men autem dicitur simpliciter significare forma 
+      <lb ed="#T" n="80"/>completiuam rei ad quam significandam 
+      impo<lb ed="#T" n="81" break="no"/>nitur, vt homo humauitatem; ideo hypostasis in 
+      <lb ed="#T" n="82"/>diuinis simpliciter notionem significat, &amp; non 
+      <lb ed="#T" n="83"/>substantiam 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e740">
+                  <lb ed="#T" n="84"/>Sciendum tamen quod aliter significatur 
+      notio<lb ed="#T" n="85" break="no"/>hoc nomine, hypostasis: aliter hoc nomine, 
+      per<lb ed="#T" n="86" break="no"/>sona: aliter hoc nomine, Pater: quia hoc nomine 
+      <lb ed="#T" n="87"/>hypostasis vt non terminata, nec in genere, nec 
+      <lb ed="#T" n="88"/>in specie: hoc nomine persona, vt 
+      determina<lb ed="#T" n="89" break="no"/>ta in genere naturae rationalis: hoc nomine, 
+      <lb ed="#T" n="90"/>Pater, vt determinata in specie. 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e758">
+                  <lb ed="#T" n="91"/>Ad 1. Omne nomen significans substantiam 
+      <lb ed="#T" n="92"/>dicitur in singulari. Resp. Hoc verum est de 
+      <lb ed="#T" n="93"/>nomine quod significat substantiam tantum, 
+      <lb ed="#T" n="94"/>non de eo quod significat cum proprietate, vt 
+      <lb ed="#T" n="95"/>patet in his nominibus, aequalis, &amp; similis. 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e771">
+                  <lb ed="#T" n="96"/>Ad 2. Aut aliquo addito. Resp. Aliquid addit 
+      <lb ed="#T" n="97"/>hypostasis, scilicet proprietatem indetermin: 
+      <lb ed="#T" n="98"/>tam: &amp; quia indeterminata est, ideo videtur 
+      di<lb ed="#T" n="99" break="no"/>ci absolute, cum tamen dicatur relatiue. Ad 
+      <lb ed="#T" n="100"/>illud quod obijcitur de compositione. Resp. 
+      <lb ed="#T" n="101"/>Non sequitur compositio, ex hoc quod illud 
+      <lb ed="#T" n="102"/>additum idem est cum substantia re, sed non 
+      <lb ed="#T" n="103"/>ratione. 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e791">
+                  <lb ed="#T" n="104"/>Ad 3. Aut illi rationi subest aliquid 
+      Sc<lb ed="#T" n="105" break="no"/>Resp. Aliquid subest, non tamen per modum 
+      <lb ed="#T" n="106"/>diuersitatis: nam quae in creaturis sunt 
+      secun<lb ed="#T" n="107" break="no"/>dum differentiam, in Deo sunt vere, sed tamen 
+      <lb ed="#T" n="108"/>per indifferentiam; sicut illa quae homo 
+      apprehe<lb ed="#T" n="109" break="no"/>dit per multas vires apprehensiuas, 
+      apprehen<lb ed="#T" n="110" break="no"/>dit Angelus nobiliori modo per vnicam, scificet,  
+      <lb ed="#T" n="111"/>intellectiuam. 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e812">
+                  <lb ed="#T" n="112"/>Ad 4. De intellectu abstrahente. Resp. 
+      In<lb ed="#T" n="113" break="no"/>tellectus abstrahens fundatur super naturam rei 
+      <lb ed="#T" n="114"/>quoad veritatem rei quam accipit, sed non 
+      <lb ed="#T" n="115"/>quoad modum quo accipit: quia accipit per 
+      <lb ed="#T" n="116"/>modum compositionis quae in Deo sunt per 
+      <lb ed="#T" n="117"/>modum simplicitatis. Intellectus enim noster,  
+      <lb ed="#T" n="118"/>sicut respectu inferiorum simplex est, ita 
+      res<lb ed="#T" n="119" break="no"/>pectu superiorum compositus: vnde sicut 
+      infe<lb ed="#T" n="120" break="no"/>riora composita accipit modo nobiliori quam 
+      <lb ed="#T" n="121"/>sint, scilicet modo simplici; ita superiora 
+      sim<lb ed="#T" n="122" break="no"/>plicia accipit modo ignobiliori quam sint, 
+      sci<lb ed="#T" n="123" break="no"/>licet composito modo: vniuersaliter enim verum 
+      <lb ed="#T" n="124"/>est quod illud quod recipitur in aliquo, 
+      recipi<lb ed="#T" n="125" break="no"/>tur in eo per modum recipientis &amp; non per 
+      <lb ed="#T" n="126"/>modum rei receptae. 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e847">
+                  <lb ed="#T" n="127"/>Ad ea quae obijciuntur in contrarium, quod 
+      <lb ed="#T" n="128"/>significet substantiam. Resp. Significat sub¬ 
+      <!-- line coord error -->
+      <lb ed="#T" n="129"/>sed substantiam. 
+      <lb ed="#T" n="130"/>stantiam primam in recto,
+      <!-- line coord error -->
+      <lb ed="#T" n="131"/>quae est essentia in obliquo.
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e64578-Dd1e866">
+               <head xml:id="pdt7y6-e64578-Hd1e868">Articulus 4</head>
+               <head xml:id="pdt7y6-e64578-Hd1e870" type="question-title">
+  An circumscriptis proprietatibus remoneant in Diuinis
+  hypostases distincta
+</head>
+               <p xml:id="pdt7y6-e64578-d1e873">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0290.xml-->
+                  <pb ed="#T" n="215"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="65"/>ARTICVLVS IV <!-- line coord order error -->
+      <lb ed="#T" n="1"/>An circumscriptis proprietatibus remoneant in Diuinis
+    <lb ed="#T" n="66"/>hypostases distincta. <!-- line coord order error -->
+  </p>
+               <p xml:id="pdt7y6-e64578-d1e893">
+                  <lb ed="#T" n="2"/>AD quartum articulum proceditur fie. 
+      Pa<lb ed="#T" n="3" break="no"/>ter enim habet a paternitate, vt sit Pater 
+      <lb ed="#T" n="4"/>&amp; vt sit aliquis per se subsistens, aut non, si sic, 
+      <lb ed="#T" n="5"/>cum in Filio non sit paternitas, Filius non est 
+      <lb ed="#T" n="6"/>quis per se subsistens: si non, erge 
+      circumscri<lb ed="#T" n="7" break="no"/>pta paternitate remanet quis per se subsistens: 
+      <lb ed="#T" n="8"/>similitei Filius &amp; Spiritus sanctus: ergo 
+      cir<lb ed="#T" n="9" break="no"/>cumscriptis proprietatibus remanent tres per se 
+      <lb ed="#T" n="10"/>subsistentes: ergo tres hypostases. 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e915">
+                  <lb ed="#T" n="11"/>2. Omne quod cadit in definitionem 
+      afi<lb ed="#T" n="12" break="no"/>cuius vt pars eius, altera parte remota potest 
+      <lb ed="#T" n="13"/>intelligi manens, vt patet in hominis 
+      defini<lb ed="#T" n="14" break="no"/>tione, a qua remoto rationali, potest intelligi 
+      <lb ed="#T" n="15"/>animal manens: ergo cum hypostasis cadat in 
+      <lb ed="#T" n="16"/>intellectu personae vt pars definitionis personae, 
+      <lb ed="#T" n="17"/>quia persona est hypostasis proprietate distincta, 
+      <lb ed="#T" n="18"/>circumscripta proprietate personali potest 
+      in<lb ed="#T" n="19" break="no"/>telligi manens: ergo circumscriptis 
+      personali<lb ed="#T" n="20" break="no"/>bus proprietatibus trium personarum possunt. 
+      <lb ed="#T" n="21"/>intelligi tres hypostases manentes. 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e942">
+                  <lb ed="#T" n="22"/>3. Augustinus 7. de Trinit. cap. 1. dicit. 
+      Om<lb ed="#T" n="23" break="no"/>nis essentia quae relatiue dicitur est aliquid, 
+      ex<lb ed="#T" n="24" break="no"/>cepto eo quod relatiue dicitur, vt arrha 
+      excep<lb ed="#T" n="25" break="no"/>to eo quod arrha dicitur similiter praetium 
+      <lb ed="#T" n="26"/>ergo Pater est aliquid, excepto eo quod 
+      rela<lb ed="#T" n="27" break="no"/>tiue dicitur: si ergo hypostasis Patris ad 
+      ali<lb ed="#T" n="28" break="no"/>quid dicitur, &amp; similiter hypostasis Filij &amp; 
+      Spi<lb ed="#T" n="29" break="no"/>ritus sancti ergo circumscriptis personalibus 
+      <lb ed="#T" n="30"/>proprietatibus manent tres aliqui: ergo 
+      vide<lb ed="#T" n="31" break="no"/>tur quod maneant tres hypostases. 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e966">
+                  <lb ed="#T" n="32"/>4. In omni distinctione aliquid est quod 
+      distin<lb ed="#T" n="33" break="no"/>guitur, &amp; aliquid quo disinguitur, &amp; vnum 
+      <lb ed="#T" n="34"/>non est de ratione alterius: ergo remoto 
+      prin<lb ed="#T" n="35" break="no"/>cipio distinguente nihilominus intelligi potest 
+      <lb ed="#T" n="36"/>manere quod distinguitur: ergo circumscriptis 
+      <lb ed="#T" n="37"/>proprietatibus personarum, nihilominus possunt 
+      <lb ed="#T" n="38"/>intelligi manere aliqui qui distinguuntur.  
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e984">
+                  <lb ed="#T" n="39"/>5. In ad aliquid non est motus secundum quod 
+      <lb ed="#T" n="40"/>dicit Philosophus lib. 5. phys. &amp; patet hoc 
+      in<lb ed="#T" n="41" break="no"/>spicienti per omnes species motus &amp; 
+      mutatio<lb ed="#T" n="42" break="no"/>nis: ergo oportet quod ad aliquid absolutum 
+      <lb ed="#T" n="43"/>terminetur per se motus: ergo productio Filij &amp; 
+      <lb ed="#T" n="44"/>Spiritus sancti terminatur ad aliquid absolutum. 
+      <lb ed="#T" n="45"/>super quod fundatur relatio: sed non ad 
+      essen<lb ed="#T" n="46" break="no"/>tia, quia super essentiam non fundantur 
+      relatio<lb ed="#T" n="47" break="no"/>nes: ergo ad hypostasim: ergo cum omne quod 
+      <lb ed="#T" n="48"/>est fundamentum alicuius, illo circumscripto 
+      <lb ed="#T" n="49"/>manere possit, circumscriptis proprietatibus 
+      <lb ed="#T" n="50"/>manerent nihilominus hypostases. 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e1013">
+                  <lb ed="#T" n="51"/>6. Perfectius subsistit hypostasis Diuina quam 
+      <lb ed="#T" n="52"/>humana: si ergo in humanis, circumscriptis res 
+      <lb ed="#T" n="53"/>lationibus quibus ad se referuntur pater &amp; 
+      fi<lb ed="#T" n="54" break="no"/>lius, nihilominus manent hypostases per se 
+      sub<lb ed="#T" n="55" break="no"/>sistentes, ergo multo magis in Diuiuis 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e1026">
+                  <lb ed="#T" n="56"/>Contra. 1. Boetius. Essentia continet 
+      unita<lb ed="#T" n="57" break="no"/>em, relatio multiplicat Trinitatem: ergo nulla 
+      <lb ed="#T" n="58"/>est in Deo multiplicatio circumscriptis 
+      relatio<lb ed="#T" n="59" break="no"/>nibus. 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e1037">
+                  <lb ed="#T" n="60"/>2. Secundum Augustinum. Tres personae in 
+      om<lb ed="#T" n="61" break="no"/>nibus, quae non dicuntur ad aliquid, sunt vnum: 
+      <lb ed="#T" n="62"/>ergo circumscripto ad aliquid non remanet 
+      nisi<lb ed="#T" n="63" break="no"/>vnum. 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e1049">
+                  <lb ed="#T" n="64"/>3. In Diuinis. Nulla est distinctio penes formas 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0290.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>absolutas sed relatiuas circumscripta vero 
+      for<lb ed="#T" n="68" break="no"/>nia, quae est principium distinctionis, nihil 
+      <lb ed="#T" n="69"/>manet distinctum: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e1065">
+                  <lb ed="#T" n="70"/>Respondeo. Circa hoc sunt duae opiniones. 
+      <lb ed="#T" n="71"/>Quidam enim dicunt, &amp; bene, quod in 
+      crea<lb ed="#T" n="72" break="no"/>turis hypostasis distinguitur non solum suis 
+      re<lb ed="#T" n="73" break="no"/>lationibus aut proprietatibus accidentalibus, 
+      <lb ed="#T" n="74"/>sed etiam suis essentialibus principijs &amp; differunt. 
+      <lb ed="#T" n="75"/>a proprietatibus suis: hinc est quod 
+      circum<lb ed="#T" n="76" break="no"/>scriptis proprietatibus vel actu, vel intellectu, 
+      <lb ed="#T" n="77"/>nihilominus manent distinctae in seipsis. In 
+      Di<lb ed="#T" n="78" break="no"/>uinis vero hypostases non distinguntur nisi 
+      pro<lb ed="#T" n="79" break="no"/>prietatibus relatiuis, &amp; ipsae sunt omnino ident 
+      <lb ed="#T" n="80"/>cum ipsis: nam sicut Deus &amp; Deitas idem sunt, ita 
+      <lb ed="#T" n="81"/>Pater &amp; paternitas. Quia ergo idem sunt, 
+      cir<lb ed="#T" n="82" break="no"/>cumpscriptis eis secundum actum 
+      existendi<lb ed="#T" n="83" break="no"/>hypostases manere non possunt: sed nec etiam 
+      <lb ed="#T" n="84"/>secundum intellectum ab eis abstrahi possunt, 
+      <lb ed="#T" n="85"/>quia nec abstractione vniuersalis a 
+      particulari<lb ed="#T" n="86" break="no"/>bus, sicut vinuersale hominis a suis 
+      singulari<lb ed="#T" n="87" break="no"/>bus, sic enim extrahitur commune a proprio &amp; 
+      <lb ed="#T" n="88"/>non e conuerso: nec abstractione formae a 
+      ma<lb ed="#T" n="89" break="no"/>teria, vt quantitas a quanto, color a colorato; 
+      <lb ed="#T" n="90"/>quia propter omnimodam simplicitatem 
+      pro<lb ed="#T" n="91" break="no"/>prietas idem est cum eo in quo est, vnde non 
+      <lb ed="#T" n="92"/>est forma inhaerens, sed per se subsistens. Unde 
+      <lb ed="#T" n="93"/>sicut non potest abstrahi Deitas a Deo, ita nec 
+      <lb ed="#T" n="94"/>paternitas a Patre. Sic ergo patet quod nullo 
+      <lb ed="#T" n="95"/>modo circumscriptis proprietatibus manet in 
+      <lb ed="#T" n="96"/>Diuinis aliqua hypostasis distinctio: nihilominiss 
+      <lb ed="#T" n="97"/>tamen eis non intellectis potest intelligi Deus 
+      <lb ed="#T" n="98"/>vnus personalitate sed non relatione a quohbet 
+      <lb ed="#T" n="99"/>alio ente distinctus. 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e1133">
+                  <lb ed="#T" n="100"/>Ad 1. De paternitate. Resp. Pater 
+      paternita<lb ed="#T" n="101" break="no"/>e est Pater, &amp; quis, &amp; hypostasis, &amp; persona, 
+      <lb ed="#T" n="102"/>quia nullum est in eo principium aliud persenalis 
+      <lb ed="#T" n="103"/>distinctionis: nihilominus tamen Filius similiter 
+      <lb ed="#T" n="104"/>siliatione est quis nam esse quem commune est 
+      Pa<lb ed="#T" n="105" break="no"/>tri &amp; Filio communitate non rei, sed rationis, 
+      <lb ed="#T" n="106"/>nam Pater paternitate Pater est, inquantum 
+      <lb ed="#T" n="107"/>est haec proprietas determinata: est autem eadem 
+      <lb ed="#T" n="108"/>aliquis, in quantum est proprietas personalis, 
+      <lb ed="#T" n="109"/>&amp; in hoc conuenit cum ea siliatio, &amp; ideo facit 
+      <lb ed="#T" n="110"/>similiter quem. 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e1159">
+                  <lb ed="#T" n="111"/>Ad 2. De definitione. Resp. Proprietas &amp; est de 
+      <lb ed="#T" n="112"/>intellectu seu definitione personae, &amp; hypostasis, 
+      <lb ed="#T" n="113"/>&amp; Patris, seu Filij vel Spiritus sancti: sed aliter 
+      <lb ed="#T" n="114"/>&amp; aliter: de intellectu hypostalis, secundum 
+      inde<lb ed="#T" n="115" break="no"/>terminatam rationem de intellectu personae, 
+      se<lb ed="#T" n="116" break="no"/>cundum rationem determinatam in genere; de 
+      <lb ed="#T" n="117"/>intellectu Patris vel alterius personae secundum 
+      <lb ed="#T" n="118"/>rationem determinatam in specie: non sic 
+      ra<lb ed="#T" n="119" break="no"/>tionale de intellectu animalis: &amp; ideo non 
+      ma<lb ed="#T" n="120" break="no"/>net circumscripta proprietate nec Pater nec 
+      <lb ed="#T" n="121"/>persona nec hypostasis, sicut manet animai 
+      cir<lb ed="#T" n="122" break="no"/>cumscripto rationali. 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e1188">
+                  <lb ed="#T" n="123"/>Ad 3. De Augustino. Resp. Hoc intelligitur 
+      <lb ed="#T" n="124"/>de creaturis, vbi sit distinctio rerum formis 
+      ab<lb ed="#T" n="125" break="no"/>solutis, non tantum relatiuis. 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e1197">
+                  <lb ed="#T" n="126"/>Ad 4. In omni distinctione &amp;c. Resp. Hoc 
+      <lb ed="#T" n="127"/>locum habet in rebus compositis, in quibus 
+      <lb ed="#T" n="128"/>differt realiter distinguens &amp; id quod 
+      distingui<lb ed="#T" n="129" break="no"/>tur: non est sic in Diuinis. 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e1209">
+                  <lb ed="#T" n="130"/>Ad 5. In ad aliquid non est motus &amp;c. Resp. 
+      <lb ed="#T" n="131"/>Productio personae non dicit motum, sed 
+      exi<lb ed="#T" n="132" break="no"/>stendi modum aeternum. 
+    </p>
+               <p xml:id="pdt7y6-e64578-d1e1218">
+                  <lb ed="#T" n="133"/>Ad 6. De hypostasibus humanis. Resp. 
+      Quam<lb ed="#T" n="134" break="no"/>uis perfectius subsistant diuinae hupostases, 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0291.xml-->
+      <pb ed="#T" n="216"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>tamen propter omnimodam simplicitatem &amp; 
+      <lb ed="#T" n="2"/>modum distinctionis non possunt manere 
+      cin<lb ed="#T" n="3" break="no"/>cumscriptis proprietatibus relatiuis, quia 
+      di<lb ed="#T" n="4" break="no"/>stinguntur solum proprietatibus relatiuis; &amp; funt 
+      <lb ed="#T" n="5"/>idem cum eis: non sic autem est in hypostasibus, 
+      <lb ed="#T" n="6"/>humanis. Alij vero dicunt quod sicut in 
+      huma<lb ed="#T" n="7" break="no"/>nis Pater &amp; Filius distinguntur, non tamen 
+      <lb ed="#T" n="8"/>proprietatibus relatiuis, sed hypostasibus suis 
+      <lb ed="#T" n="9"/>quibus relationes insunt: sic in Diuinis Pater 
+      <lb ed="#T" n="10"/>&amp; Filius distinguntur hypostasibus, sed indeter 
+      <lb ed="#T" n="11"/>minatem, &amp; relationibus, ita quod eis hypostalis 
+      <lb ed="#T" n="12"/>distinctio determinatur &amp; notificatur. Unde 
+      <lb ed="#T" n="13"/>circumscriptis proprietatibus relatiuis, 
+      nihilo<lb ed="#T" n="14" break="no"/>minus remanerent hypostases distinctae 
+      indeter<lb ed="#T" n="15" break="no"/>minate, id est, tres aliqui subsistentes, quia 
+      di<lb ed="#T" n="16" break="no"/>stinguerentur seipsis; sed non tres huius 
+      nomi<lb ed="#T" n="17" break="no"/>nis, Pater &amp; Filius &amp; Spiritus sanctus. Sed  
+      <lb ed="#T" n="18"/>quomodo distinguerentur seipsis cum sola 
+      rela<lb ed="#T" n="19" break="no"/>tio multiplicet Trinitatem. Resp. De intellectu 
+      <lb ed="#T" n="20"/>hypostasis est respectus duplex, scilicet ad 
+      na<lb ed="#T" n="21" break="no"/>turam cui substat, &amp; ad proprietates quibus. 
+      <lb ed="#T" n="22"/>apta nata est substare: distinguerentur autem 
+      <lb ed="#T" n="23"/>seipsis per respectum ad proprietates, non ad 
+      <lb ed="#T" n="24"/>naturam. Circumscriptis ergo proprietatibus 
+      se<lb ed="#T" n="25" break="no"/>cundum actum &amp; aptitudinem siue respectum 
+      <lb ed="#T" n="26"/>non distinguerentur: sed circumscriptis eis 
+      se<lb ed="#T" n="27" break="no"/>cundum actum nihilominus distinguntur 
+      in<lb ed="#T" n="28" break="no"/>complete.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

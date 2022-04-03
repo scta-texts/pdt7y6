@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="383"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-f17795"><!-- l1d46q2 -->
+            <head xml:id="pdt7y6-f17795-Hd1e99">Quaestio 2</head>
+            <head xml:id="pdt7y6-f17795-Hd1e101" type="question-title">De utilitate mali</head>
+            <p xml:id="pdt7y6-f17795-d1e104">
+               <lb ed="#T" n="90"/>QVESTIO II. 
+      <lb ed="#T" n="91"/>DE VTILITATE MALI. 
+      <lb ed="#T" n="92"/>Irca secundum problema quaeruntur 
+      qua<lb ed="#T" n="93" break="no"/>tuor.  
+      <lb ed="#T" n="94"/>Primo si mala fieri est bonum simpliciter.  
+      <lb ed="#T" n="95"/>Secundo si est bonum facienti. 
+      <lb ed="#T" n="96"/>Tertio si malum est de perfectione vniuersi. 
+      <lb ed="#T" n="97"/>Quarto si malum est ordinabile. 
+    </p>
+            <div xml:id="pdt7y6-f17795-Dd1e124">
+               <head xml:id="pdt7y6-f17795-Hd1e126">Articulus 1</head>
+               <head xml:id="pdt7y6-f17795-Hd1e128" type="question-title">An mala fieri sit bonum simpliciter</head>
+               <p xml:id="pdt7y6-f17795-d1e131">
+                  <lb ed="#T" n="98"/>Articvlvs I. 
+      <lb ed="#T" n="99"/>An mala fieri sit bonum simpliciter.
+</p>
+               <p xml:id="pdt7y6-f17795-d1e138">
+                  <lb ed="#T" n="100"/>AD primum sic proceditur. 1. Id quod Deo 
+      <lb ed="#T" n="101"/>bonum est, simpliciter est bonum: sed 
+      ma<lb ed="#T" n="102" break="no"/>lum fieri Deo bonum est, dicit enim Boetius libi 
+      <lb ed="#T" n="103"/>de consol. quod sola Diuina vis est, cui mala 
+      <lb ed="#T" n="104"/>quoque bona sunt: ergo mala fieri simpliciter 
+      <lb ed="#T" n="105"/>bonum est, 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e154">
+                  <lb ed="#T" n="106"/>2. Quod nulli malum est simpliciter est 
+      bo<lb ed="#T" n="107" break="no"/>num: sed malum est huiusmodi, vnde dicit 
+      Au<lb ed="#T" n="108" break="no"/>gustinus Deo loquens lib. Confess. Tu inqui  
+      <lb ed="#T" n="109"/>cui nihil malum est, sed nec vniuersae creaturae 
+      <lb ed="#T" n="110"/>tuae, nihil enim est quod corrumpat ordinem 
+      <lb ed="#T" n="111"/>quem tu imposuisti: ergo mala fieri simpliciter  
+      <lb ed="#T" n="112"/>bonum est 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e173">
+                  <lb ed="#T" n="113"/>3. Cuius vsus bonus est, ipsum quoque 
+      bo<lb ed="#T" n="114" break="no"/>est: sed Deus malefactis bene vtitur, nec enim, 
+      <lb ed="#T" n="115"/>vt ait Augustinus 11 de Ciuit. Dei, crearet Deus 
+      <lb ed="#T" n="116"/>quos malos esse praesciret, nisi pariter nosset qui  
+      <lb ed="#T" n="117"/>bus eos bonorum vsibus commodaret: ergo 
+      ma<lb ed="#T" n="118" break="no"/>la fieri est bonum. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e189">
+                  <lb ed="#T" n="119"/>4. Mala fieri est iustum, Deus enim iuste 
+      per<lb ed="#T" n="120" break="no"/>mittit mala fieri: sed omne iustum est bonum: 
+      <lb ed="#T" n="121"/>ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e198">
+                  <lb ed="#T" n="122"/>5. Oppositum non est causa sui oppositi: sed  
+      <lb ed="#T" n="123"/>mala fieri est causa boni, vt Christum erucifigi 
+      <lb ed="#T" n="124"/>causa redemptionis mundi: ergo mala fieri est 
+      <lb ed="#T" n="125"/>bonum. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e209">
+                  <lb ed="#T" n="126"/>6. Secundum Dionysium, malum est praeter,  
+      <lb ed="#T" n="127"/>voluntatem: ergo nihil est volitum nisi bonum: 
+      <lb ed="#T" n="128"/>sed mala fieri est volitum: ergo bonum. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e218">
+                  <lb ed="#T" n="129"/>Contra. 1. Cuius generatio est bona, ipsum 
+      <lb ed="#T" n="130"/>quoque bonum: sed malum non est bonum: 
+      er<lb ed="#T" n="131" break="no"/>go malum fieri non est bonum.
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e227">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0459.xml-->
+                  <pb ed="#T" n="384"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>2. Cuius corruptio bona, ipsum quoque 
+      ma<lb ed="#T" n="2" break="no"/>lum: sed bonum non est malum: ergo 
+      corrum<lb ed="#T" n="3" break="no"/>piibonum est malum: sed hoc est malum fieri: 
+      <lb ed="#T" n="4"/>ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e246">
+                  <lb ed="#T" n="5"/>3. Vt dicit Philosophus lib. Topic. si 
+      oppo<lb ed="#T" n="6" break="no"/>litum in opposito, &amp; propositum in proposito: 
+      <lb ed="#T" n="7"/>sed bona fieri est bonum non malum: ergo mala 
+      <lb ed="#T" n="8"/>fieri est m alum non bonum. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e257">
+                  <lb ed="#T" n="9"/>4. Peccatum est motus quidam conuersionis: 
+      <lb ed="#T" n="10"/>ergo eius esse est in fieri: sed esse peccati non est 
+      <lb ed="#T" n="11"/>bonum, alioquin peccare esset essentialiter 
+      bo<lb ed="#T" n="12" break="no"/>num, quod falsum est: ergo peccatum fieri non 
+      <lb ed="#T" n="13"/>est bonum: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e270">
+                  <lb ed="#T" n="14"/>5. Si bonum est mala fieri, aut per se, aut per 
+      <lb ed="#T" n="15"/>accidens in quantum ordinabile ad aliquod 
+      bo<lb ed="#T" n="16" break="no"/>num: si per se, ergo inalum est bonum, quia 
+      mo<lb ed="#T" n="17" break="no"/>tus recipit speciem &amp; denominationem a 
+      termi<lb ed="#T" n="18" break="no"/>no: si per accidens, ergo bene facit qui facit 
+      ma<lb ed="#T" n="19" break="no"/>lum propter aliquod consequens bonum, contra 
+      <lb ed="#T" n="20"/>illud Apostoli, Non faciamus mala vt veniant 
+      <lb ed="#T" n="21"/>bona Rom. 4. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e290">
+                  <lb ed="#T" n="22"/>Respondeo. In rebus &amp; operibus bonum ex 
+      <lb ed="#T" n="23"/>fine ad quem inducit consideratur: ad finem 
+      ve<lb ed="#T" n="24" break="no"/>ro inducit aliquid duobus modis: aut sicut 
+      cau<lb ed="#T" n="25" break="no"/>sa mouens &amp; operans: aut solum sicut occasio 
+      <lb ed="#T" n="26"/>ex qua sumitur aliqua ratio operandi. Sicut 
+      cau<lb ed="#T" n="27" break="no"/>sa dupliciter: aut per se, vt est mouens illud quod 
+      <lb ed="#T" n="28"/>per se ordinatur ad effectum, vt medicatio causa 
+      <lb ed="#T" n="29"/>est sanitatis: aut per accidens, vt mouens illud 
+      <lb ed="#T" n="30"/>quod non per se ordinatur ad effectum, ssed 
+      prae<lb ed="#T" n="31" break="no"/>ter intentionem, vt fossio sepulchri causa est in 
+      <lb ed="#T" n="32"/>uentionis thesauri. Sicut occasio dupliciter, aut 
+      <lb ed="#T" n="33"/>directa quae habet aliquo modo rationem actiui. 
+      <lb ed="#T" n="34"/>sicut malum exemplum est occasio mali, 
+      insi<lb ed="#T" n="35" break="no"/>pienti: aut indirecta quae habet rationem passiui. 
+      <lb ed="#T" n="36"/>tantum, sicut malum est occasio boni, sapienti. 
+      <lb ed="#T" n="37"/>Quod autem tale est, nullo modo ordinatur 
+      <lb ed="#T" n="38"/>ex se, aut ducit in bonum: ideo nullo modo 
+      de<lb ed="#T" n="39" break="no"/>bet simpliciter a bono denominari. Et quia mala 
+      <lb ed="#T" n="40"/>fieri sic ducit ad bonum, &amp; non aliter, ideo 
+      sim<lb ed="#T" n="41" break="no"/>pliciter malum est &amp; non bonum mala fieri: sec 
+      <lb ed="#T" n="42"/>cum additione boni quod inde consequitur, 
+      po<lb ed="#T" n="43" break="no"/>test bonum dici: vnde mala fieri bonum est Deo 
+      <lb ed="#T" n="44"/>ordinanti, &amp; bonum est sapienti bene vtenti. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e342">
+                  <lb ed="#T" n="45"/>Ad 1. Quod est Deo bonum est simpliciter 
+      <lb ed="#T" n="46"/>bonum. Resp. Falsum est, nam sicut futura sunt,  
+      <lb ed="#T" n="47"/>Deo praesentia, non tamen simpliciter: sic mala 
+      <lb ed="#T" n="48"/>fieri bonum est Deo ordinanti, non tamen 
+      sim<lb ed="#T" n="49" break="no"/>pliciter bonum. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e355">
+                  <lb ed="#T" n="50"/>Ad 2. Quod nulli est malum &amp;c. Resp. 
+      Ma<lb ed="#T" n="51" break="no"/>lum quamuis malum non sit Deo nec vniuerso. 
+      <lb ed="#T" n="52"/>est ta men malum alicui parti vniuersi. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e365">
+                  <lb ed="#T" n="53"/>Ad 3. Cuius est vsus bonus. Resp. Hoc 
+      ve<lb ed="#T" n="54" break="no"/>rum est de vsu rei naturali ad quem ordinatur 
+      <lb ed="#T" n="55"/>res vtibilis de se: non de vsu consequenti &amp; 
+      <lb ed="#T" n="56"/>accidentali ad quem ordinatur ex voluntate 
+      <lb ed="#T" n="57"/>vtentis: nam bono potest quis male vti, &amp; 
+      malo<lb ed="#T" n="58" break="no"/>bene; potest enim aliquis male vti vino, &amp; bene 
+      <lb ed="#T" n="59"/>veneno. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e383">
+                  <lb ed="#T" n="60"/>Ad 4. Mala fieri est iustum. Resp. Cum 
+      dici<lb ed="#T" n="61" break="no"/>tur, Omne iustum est bonum, intelligitur de eo 
+      <lb ed="#T" n="62"/>quod est iustum perse &amp; simpliciter, scilicet 
+      or<lb ed="#T" n="63" break="no"/>dine qui est in ipso: sed mala fieri iustu est 
+      secun<lb ed="#T" n="64" break="no"/>dum quid, &amp; per accidens ordine qui est in altero. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e396">
+                  <lb ed="#T" n="65"/>Ad 5. Oppositum non est causa sui oppositi. 
+      <lb ed="#T" n="66"/>Resp. Quamuis non sit causa per se, est tamen 
+      <lb ed="#T" n="67"/>causa per accidens: sicut frigus per accidens est 
+      <lb ed="#T" n="68"/>causa calefactionis fugando calorem &amp; quasi 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0459.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="69"/>adunando, qua adunatione fortificatur. Mala 
+      ve<lb ed="#T" n="70" break="no"/>ro actio causa est boni, non per se inquantum 
+      <lb ed="#T" n="71"/>mala, sed per accidens in quantum actio: non 
+      <lb ed="#T" n="72"/>enim ipsa mala intentio Iudaeorum causa est: 
+      <lb ed="#T" n="73"/>Passionis Christi inquantum bonae; sed bona 
+      in<lb ed="#T" n="74" break="no"/>tentio Christi patientis: subest :enim eius Passio. 
+      <lb ed="#T" n="75"/>duplici voluntariae actioni, Iudaeorum 
+      inferen<lb ed="#T" n="76" break="no"/>tium, &amp; Christi sustinentis. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e429">
+                  <lb ed="#T" n="77"/>Ad 6. Malum est praeter voluntatem. Resp. 
+      <lb ed="#T" n="78"/>Quamuis sit praeter intentionem voluntatis, sed  
+      <lb ed="#T" n="79"/>non praeter actionem: vnde a voluntate est vt a 
+      <lb ed="#T" n="80"/>causa per accidens non per se. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f17795-Dd1e441">
+               <head xml:id="pdt7y6-f17795-Hd1e443">Articulus 2</head>
+               <head xml:id="pdt7y6-f17795-Hd1e445" type="question-title">An mala fieri sit bonum facienti</head>
+               <p xml:id="pdt7y6-f17795-d1e448">
+                  <lb ed="#T" n="81"/>Articvlvs II. 
+      <lb ed="#T" n="82"/>An mala fieri sit bonum facienti.
+</p>
+               <p xml:id="pdt7y6-f17795-d1e455">
+                  <lb ed="#T" n="83"/>AD secundum articulum sic proceditur. 1. 
+      <lb ed="#T" n="84"/>Augustinus. Audeo dicere expedire 
+      super<lb ed="#T" n="85" break="no"/>bis cadere in aliquod manifestum peccatum, vt 
+      <lb ed="#T" n="86"/>ita sibi displiceant qui iam sibi placendo 
+      cecide<lb ed="#T" n="87" break="no"/>runt: salubrius enim sibi Petrus displicuit 
+      quan<lb ed="#T" n="88" break="no"/>do fleuit, quam antea placuerat quando 
+      prae<lb ed="#T" n="89" break="no"/>sumpsit: ergo malum potest esse bonum facienti. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e473">
+                  <lb ed="#T" n="90"/>2. Rom. 8. Diligentibus Deum omnia 
+      coope<lb ed="#T" n="91" break="no"/>rantur in bonum, Gloss. Etiam casus in mortale 
+      <lb ed="#T" n="92"/>peccatum: ergo malum potest esse bonum facienti. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e483">
+                  <lb ed="#T" n="93"/>3. Damascenus. Conceditur quis aliquando 
+      <lb ed="#T" n="94"/>cadere in nefariam operationem, in directionem 
+      <lb ed="#T" n="95"/>alterius, vt cum quis elatus de virtutibus 
+      con<lb ed="#T" n="96" break="no"/>ceditur in adulterium cadere: ergo potest etiam 
+      <lb ed="#T" n="97"/>in bonum &amp; instructionem facientis: ergo 
+      ma<lb ed="#T" n="98" break="no"/>lum potest esse bonum facienti. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e499">
+                  <lb ed="#T" n="99"/>Contra. 1. Non est malum nisi quia nocet, vt 
+      <lb ed="#T" n="100"/>dicit Augustinus, nec nocet nisi quia adimit 
+      bo<lb ed="#T" n="101" break="no"/>num: ergo si est malum semper nocet &amp; adimit 
+      <lb ed="#T" n="102"/>aliquid facienti: ergo non est bonum ei, sed 
+      pri<lb ed="#T" n="103" break="no"/>natio boni. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e512">
+                  <lb ed="#T" n="104"/>2. A summo bono auerti nulli potest esse 
+      bo<lb ed="#T" n="105" break="no"/>num: sed malum est auersio a summo bono: ergo 
+      <lb ed="#T" n="106"/>nulli est bonum. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e521">
+                  <lb ed="#T" n="107"/>Respondeo. Bonum alicui vel expediens 
+      du<lb ed="#T" n="108" break="no"/>plicirer dici potest: vel simpliciter &amp; per se, vel 
+      <lb ed="#T" n="109"/>secundum quid &amp; per acidens: primo modo 
+      ma<lb ed="#T" n="110" break="no"/>lum nunquam est bonum facienti, &amp; sic 
+      proce<lb ed="#T" n="111" break="no"/>dunt duae rationes vltimae: secundo modo 
+      po<lb ed="#T" n="112" break="no"/>test esse bonum facienti, &amp; sic procedunt tres 
+      ra<lb ed="#T" n="113" break="no"/>tiones praedictae. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f17795-Dd1e541">
+               <head xml:id="pdt7y6-f17795-Hd1e543">Articulus 3</head>
+               <head xml:id="pdt7y6-f17795-Hd1e545" type="question-title">An malum sit de perfectione uniuersi</head>
+               <p xml:id="pdt7y6-f17795-d1e548">
+                  <lb ed="#T" n="114"/>Articvlvs III. 
+      <lb ed="#T" n="115"/>An malum sit de perfectione uniuersi. 
+</p>
+               <p xml:id="pdt7y6-f17795-d1e555">
+                  <lb ed="#T" n="116"/>AD tertium articulum proceditur, sic. 1. 
+      Bo<lb ed="#T" n="117" break="no"/>num perfectum vniuersi consistit in 
+      boni<lb ed="#T" n="118" break="no"/>tate ordinis: sed malum est de perfectione 
+      ordi<lb ed="#T" n="119" break="no"/>nis vniuersi, opposita namque omnia sunt de 
+      <lb ed="#T" n="120"/>perfectione huius ordinis, secundum illud Eccl. 
+      <lb ed="#T" n="121"/>33. Contra malum bonum &amp;c. ergo est de 
+      per<lb ed="#T" n="122" break="no"/>fectione vniuersi. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e573">
+                  <lb ed="#T" n="123"/>2. Illud sine quo multae &amp; magnae 
+      perfectio<lb ed="#T" n="124" break="no"/>nes deessent est de perfectione vniuersi: sed non 
+      <lb ed="#T" n="125"/>existente malo omnes perfectiones quae actione 
+      <lb ed="#T" n="126"/>mali proueniunt vt Christi incarnatio, victoriae 
+      <lb ed="#T" n="127"/>martyrum &amp; huiusmodi vniuerso deessent: ergo 
+      <lb ed="#T" n="128"/>ipsum est de perfectione vniuersi. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e590">
+                  <lb ed="#T" n="129"/>3. Numer. 21. Venit Deus ad Balaam. Glossa 
+      <lb ed="#T" n="130"/>Origenis, Deus malitiam non facit, quam tamen 
+      <lb ed="#T" n="131"/>cum prohibere possit non prohibet, sed vtitur ea 
+      <lb ed="#T" n="132"/>ad causas necessarias: sed cuius vsus est ad cau¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0460.xml-->
+      <pb ed="#T" n="385"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>sas necessarias, illud est de perfectione vniuersi: 
+      <lb ed="#T" n="2"/>ergo malum. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e612">
+                  <lb ed="#T" n="3"/>4. Omnis bonitas est de perfectione vniuersi 
+      <lb ed="#T" n="4"/>sed ordinatio malorum ad bona, quae ex eis 
+      eli<lb ed="#T" n="5" break="no"/>ciuntur, bona est: ergo est de perfectione 
+      vni<lb ed="#T" n="6" break="no"/>uersi: sed si ordo est de perfectione, oportet quod 
+      <lb ed="#T" n="7"/>extrema sin: de perfectione eius: ergo mala 
+      simi<lb ed="#T" n="8" break="no"/>liter de perfectione vniuersi. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e628">
+                  <lb ed="#T" n="9"/>Contra. 1. Quicquid est de perfectione vniuersu 
+      <lb ed="#T" n="10"/>est vel existens vt substantia; vel in 
+      existentibu<lb ed="#T" n="11" break="no"/>vt accidens: malum nec est existens, nec in 
+      exi<lb ed="#T" n="12" break="no"/>stentibus, vt dici: Dionysius lib. de Diu. 
+      nom<lb ed="#T" n="13" break="no"/>ergo malum non est de perfectione vniuersi¬ 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e641">
+                  <lb ed="#T" n="14"/>2. Illud sine quo res esset perfectior, non est de 
+      <lb ed="#T" n="15"/>perfectione rei: sed sine malo vniuersum esset 
+      <lb ed="#T" n="16"/>perfectius; quia sicut albius dicitur quod nigro 
+      <lb ed="#T" n="17"/>est impermixtius, ita melius quod malo 
+      imper<lb ed="#T" n="18" break="no"/>mixtius: ergo malum non est de perfectione 
+      <lb ed="#T" n="19"/>vniuersi. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e657">
+                  <lb ed="#T" n="20"/>3. Defectus nullus est de perfectione alicuius 
+      <lb ed="#T" n="21"/>sed malum est defectus, est enim priuatio modi, spe 
+      <lb ed="#T" n="22"/>ciei, &amp; ordinis, in quibus consistit rei perfectio 
+      <lb ed="#T" n="23"/>secundum Augustinum: ergo non est de 
+      perfe<lb ed="#T" n="24" break="no"/>ctione vniuersi. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e670">
+                  <lb ed="#T" n="25"/>Respondeo. Circa hanc quaestionem quidam 
+      <lb ed="#T" n="26"/>dixerunt quod malum in potentia agentis de 
+      <lb ed="#T" n="27"/>perfectione vniuersi est, quia potentiae malorum 
+      <lb ed="#T" n="28"/>bonae sunt: sed malum in actu, non, quia cor 
+      <lb ed="#T" n="29"/>rumpit aliquod bonum vniuersi. Contra han 
+      <lb ed="#T" n="30"/>opinionem est, quia potentia mali ex ea part 
+      <lb ed="#T" n="31"/>qua mali est, non est potentia, sed impotentia: 
+      <lb ed="#T" n="32"/>ergo non est de perfectione, sed de imperfectione 
+      <lb ed="#T" n="33"/>vniuersi. Item, quia malum in actu est occasit 
+      <lb ed="#T" n="34"/>boni, &amp; commendat bona eminentius: ergo dat 
+      <lb ed="#T" n="35"/>decorem aliquem vniuerso. Alij dicunt melius, 
+      <lb ed="#T" n="36"/>quod perfectio vniuersi consistit in duobus: in 
+      <lb ed="#T" n="37"/>perfectione eius, scilicet essentiali; &amp; sic malum 
+      <lb ed="#T" n="38"/>non est de perfectione vniuersi vllo modo, quia 
+      <lb ed="#T" n="39"/>sine malo vniuersum esset perfectum: &amp; in 
+      per<lb ed="#T" n="40" break="no"/>fectione accidentali, hoc modo malum est de 
+      <lb ed="#T" n="41"/>perfectione vniuersi, non tamen per se quia non 
+      <lb ed="#T" n="42"/>est aliquod accidens bonum, sed per accidens 
+      <lb ed="#T" n="43"/>quia est occasio alicuius boni accidentalis 
+      vni<lb ed="#T" n="44" break="no"/>uerso: sicut vulnus in corpore Martyris resui 
+      <lb ed="#T" n="45"/>gentis, vel sicut fractio in scypho circulis aureis 
+      <lb ed="#T" n="46"/>religato. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e721">
+                  <lb ed="#T" n="47"/>Si vero quaerttur, an esset perfectius 
+      vniuer<lb ed="#T" n="48" break="no"/>sum sine malo. Resp. Si consideretur malum 
+      se<lb ed="#T" n="49" break="no"/>cundum se, perfectius esset sine malo: si cum 
+      bo<lb ed="#T" n="50" break="no"/>no quod ex malo occasionatum est, non: imo 
+      <lb ed="#T" n="51"/>melius &amp; perfectius est sic, quia cum Deus sit 
+      <lb ed="#T" n="52"/>malo potentior, maius est bonum quod Deus ex 
+      <lb ed="#T" n="53"/>malo elicit, bono illo quod malum corrumpit. 
+      <lb ed="#T" n="54"/>Et ponitur simile, sicut scyphus ligneus fractus, 
+      <lb ed="#T" n="55"/>&amp; circulis aureis religatus melior est &amp; pulchrior 
+      <lb ed="#T" n="56"/>occasione quidem fractionis, sed ratione 
+      reli<lb ed="#T" n="57" break="no"/>gionis. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e747">
+                  <lb ed="#T" n="58"/>Ad 1. Malum est de perfectione ordinis 
+      vni<lb ed="#T" n="59" break="no"/>uersi. Resp. Quamuis oppositio mali &amp; boni sit 
+      <lb ed="#T" n="60"/>de perfectione vniuersi, non tamen ipsum 
+      ma<lb ed="#T" n="61" break="no"/>lum est de perfectione eius per se, sed per 
+      acci<lb ed="#T" n="62" break="no"/>dens solum in comparatione ad bonum. Nec est 
+      <lb ed="#T" n="63"/>necesse si oppositio est de perfectione vniuersi, 
+      <lb ed="#T" n="64"/>quod opposita sint de perfectione eius: quia 
+      op<lb ed="#T" n="65" break="no"/>positio quaedam est rei, vt quando vtrumque 
+      ha<lb ed="#T" n="66" break="no"/>bet esse in rerum natura: quaedam vero rationis 
+      <lb ed="#T" n="67"/>vt entis ad non ens. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e771">
+                  <lb ed="#T" n="68"/>Ad 2. Sine malo multae perfectiones deessent 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0460.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="69"/>Resp. Illud sine quo, vt causa, non vt 
+      occasio<lb ed="#T" n="70" break="no"/>ne tantum, multae perfectiones deessent 
+      vniuer<lb ed="#T" n="71" break="no"/>so, est de perfectione vniuersi: sed malum non 
+      <lb ed="#T" n="72"/>est huiusmodi, nam non est causa perfectionum 
+      <lb ed="#T" n="73"/>prouenientium, sed occasio tantum. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e791">
+                  <lb ed="#T" n="74"/>Ad 3. De Origene. Resp. Illud cuius vsus ex 
+      <lb ed="#T" n="75"/>se est ad causas necessarias, est de perfectione 
+      <lb ed="#T" n="76"/>vniuersi: sed non illud cuius vsus ex altero 
+      or<lb ed="#T" n="77" break="no"/>dinante reducitur ad causas necessarias: tale vero 
+      <lb ed="#T" n="78"/>est malum. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e804">
+                  <lb ed="#T" n="79"/>Ad 4. Omnis bonitas &amp;c. Resp. Ordinatio 
+      <lb ed="#T" n="80"/>boni &amp; mali fundatur super bono per se, super 
+      <lb ed="#T" n="81"/>malo vero non nisi per accidens: vnde per 
+      acci<lb ed="#T" n="82" break="no"/>dens confert ad perfectionem vniuersi, non per se. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f17795-Dd1e816">
+               <head xml:id="pdt7y6-f17795-Hd1e818">Articulus 4</head>
+               <head xml:id="pdt7y6-f17795-Hd1e820" type="question-title">An malum sit ordinabile</head>
+               <p xml:id="pdt7y6-f17795-d1e823">
+                  <lb ed="#T" n="83"/>ARTICVLVS IV 
+      <lb ed="#T" n="84"/>An malum sit ordinabile.
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e830">
+                  <lb ed="#T" n="85"/>AD vltimum sic proceditur. 1. Dicit 
+      Augu<lb ed="#T" n="86" break="no"/>stinus in Enchir. Malum bene ordinatum 
+      <lb ed="#T" n="87"/>&amp; suo loco positum eminentius commendat 
+      bo<lb ed="#T" n="88" break="no"/>na: ergo malum est ordinabile. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e841">
+                  <lb ed="#T" n="89"/>2. Super illud Psal. Domine Deus meus in te 
+      <lb ed="#T" n="90"/>speraui Gloss. Qui videt merita animarum sic 
+      <lb ed="#T" n="91"/>ordinari a Deo, vt pulchritudo vniuersitatis ex 
+      <lb ed="#T" n="92"/>nulla parte violetur, in omnibus laudat Deum, 
+      <lb ed="#T" n="93"/>distinguens aliud fecisse Deum, &amp; ordinasse vt 
+      <lb ed="#T" n="94"/>malum: ergo malum est ordinabile. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e858">
+                  <lb ed="#T" n="95"/>3. Augustinus 11. de Ciuit. Dei. Sicut pectura 
+      <lb ed="#T" n="96"/>cum colore nigro suo loco posita, sic vniuersitas 
+      <lb ed="#T" n="97"/>rerum etiam cum peccatoribus pulchra est, qua 
+      <lb ed="#T" n="98"/>uis per seipsos consideratos (peccatores) sua de 
+      <lb ed="#T" n="99"/>formitas turpet: ergo malum est ad decorem 
+      vni<lb ed="#T" n="100" break="no"/>uersi ordinabile. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e874">
+                  <lb ed="#T" n="101"/>4. Idem in eodem. Deus ordinem saeculorum 
+      <lb ed="#T" n="102"/>tanquam quoddam pulcherrimum carmen, quas 
+      <lb ed="#T" n="103"/>ex quibusdam autithetis honestauit quae Latine 
+      <lb ed="#T" n="104"/>appellantur opposita. Sicut enim contraria 
+      con<lb ed="#T" n="105" break="no"/>trariis opposita secundum motus 
+      pulchritudi<lb ed="#T" n="106" break="no"/>nem reddunt: ita quaedam non verborum sed 
+      re<lb ed="#T" n="107" break="no"/>rum eloquentia contrariorum oppositione 
+      pul<lb ed="#T" n="108" break="no"/>chritudo componitur: ergo cum malum sit 
+      op<lb ed="#T" n="109" break="no"/>positum bono, ipsum est ad 
+      pulchritudinemvni<lb ed="#T" n="110" break="no"/>nersi ordinabile. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e898">
+                  <lb ed="#T" n="111"/>5. Sicut dicit Augustinus de lib. arb. Iustitia 
+      <lb ed="#T" n="112"/>Dei in vniuerso nihil inordinatum relinquit: 
+      <lb ed="#T" n="113"/>ergo malum est in vi iaerso ordinabile. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e907">
+                  <lb ed="#T" n="114"/>Contra. 1. Quod est priuatio ordinis, non est 
+      <lb ed="#T" n="115"/>ordinabile: sed malum est priuatio ordinis: ergo 
+      <lb ed="#T" n="116"/>non est ordinabile, quia priuatio non est 
+      susce<lb ed="#T" n="117" break="no"/>ptibilis habitus oppositi, 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e918">
+                  <lb ed="#T" n="118"/>2. Ordo praesupponit esse: ergo quod non est 
+      <lb ed="#T" n="119"/>non est ordinabile: sed malum non est: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e925">
+                  <lb ed="#T" n="120"/>3. Si malum est ordinabile, aut ergo ordine 
+      <lb ed="#T" n="121"/>partium in toto, aut partium in finem: si primo 
+      <lb ed="#T" n="122"/>modo, contra, non est pars vniuersi: si 
+      secun<lb ed="#T" n="123" break="no"/>do modo, contra, deordinat a sine: ergo nullo 
+      <lb ed="#T" n="124"/>modo est ordinabile. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e939">
+                  <lb ed="#T" n="125"/>Respondeo. Sicut sanum potest dici aliquid 
+      <lb ed="#T" n="126"/>tripliciter: vel vt subjectum sanitatis, sicut 
+      cor<lb ed="#T" n="127" break="no"/>pus: vel vt dispositio, sicut medicina: vel vt 
+      <lb ed="#T" n="128"/>signum, vt vrina: sic ordinabile tripliciter cici 
+      <lb ed="#T" n="129"/>potest, vel vt subjectum ordinis, vel vt disposi. 
+      <lb ed="#T" n="130"/>tio, vel vt signum. Primo modo malum non 
+      <lb ed="#T" n="131"/>est ordinabile ordine rei, sed rationis tantum: se 
+      <lb ed="#T" n="132"/>cundo modo ordinabile est ordine iustitiae, non 
+      <lb ed="#T" n="133"/>naturae: tertio modo ordinabile est ordine 
+      sa<lb ed="#T" n="134" break="no"/>pientiae, quia ex eius comparatione eminentius 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0461.xml-->
+      <pb ed="#T" n="386"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>elucescunt bona. Primo modo, secundum 
+      <lb ed="#T" n="2"/>ordinem rationis, ordinabile est ratione brini. 
+      <lb ed="#T" n="3"/>quod ei fubsternitur: secundo modo ratione 
+      bo<lb ed="#T" n="4" break="no"/>ni quod inde elicitur: tertio modo ratione boni. 
+      <lb ed="#T" n="5"/>quod ei opponitur. Ordo vero iste non in 
+      malo<lb ed="#T" n="6" break="no"/>ipso per se, sed in bono fundatur: sicut ordo 
+      can<lb ed="#T" n="7" break="no"/>tus ex pausa &amp; nota, non in pausa, sed in nota, 
+      <lb ed="#T" n="8"/>in comparatione tamen ad pausam, fundatur.  
+      <lb ed="#T" n="9"/>Sic ergo malum non per se sed per accidens 
+      or<lb ed="#T" n="10" break="no"/>dinabile est ratione alicuius, boni quod ei 
+      sub<lb ed="#T" n="11" break="no"/>sternitur (vnde dicit Augustinus, quod malum 
+      <lb ed="#T" n="12"/>in supplicijs bene ordinatur) aut quod ei 
+      oppo<lb ed="#T" n="13" break="no"/>nitur (vnde idem dicit, quod malum bene 
+      or<lb ed="#T" n="14" break="no"/>dinatum eminentius commendat bona) aut 
+      <lb ed="#T" n="15"/>quod inde elicitur(vnde dicit Augustinus quod 
+      <lb ed="#T" n="16"/>no permitteret fieri mala, nisi eliceret inde bona.) 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e1004">
+                  <lb ed="#T" n="17"/>Ad 1. in contrarium. Malum est priuatio 
+      or<lb ed="#T" n="18" break="no"/>dinis. Resp. Hoc est verum de ordine 
+      particula<lb ed="#T" n="19" break="no"/>ri huius rei in finem suum, sed tamen cadit sub 
+      <lb ed="#T" n="20"/>vniuersali ordine prouidentiae Diuinae. Ordo 
+      <lb ed="#T" n="21"/>enim prouidentiae vt dicit Boetius de 
+      consola<lb ed="#T" n="22" break="no"/>tione, cuncta eoplectitur: ita vt si quis ab assigna 
+      <lb ed="#T" n="23"/>ta sibi ratione ordinis dissenferit, in alteram 
+      rela<lb ed="#T" n="24" break="no"/>batur. Et ponit exemplum, sicut qui elongat se 
+      <lb ed="#T" n="25"/>ab vna parte citcumferentiae propinquat ad 
+      al<lb ed="#T" n="26" break="no"/>teram. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e1028">
+                  <lb ed="#T" n="27"/>Ad 2. Ordo praesupponit esse. Resp. Hoc est. 
+      <lb ed="#T" n="28"/>verum in eo quod per se ordinatur, &amp; in se, vt 
+      <lb ed="#T" n="29"/>bonum: non in eo quod per accidens, &amp; in altero 
+      <lb ed="#T" n="30"/>vt malum. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e1039">
+                  <lb ed="#T" n="31"/>Ad 3. Aut ordine partium &amp;c. Resp. 
+      Vtro<lb ed="#T" n="32" break="no"/>que modo est malum ordinabile, non tamen per 
+      <lb ed="#T" n="33"/>se, sed per accidens, scilicet ratione boni 
+      ordi<lb ed="#T" n="34" break="no"/>nabilis vtroque modo.
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f17795-Dd1e1051">
+               <head xml:id="pdt7y6-f17795-Hd1e1053">Expositio litterae</head>
+               <p xml:id="pdt7y6-f17795-d1e1055">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0461.xml-->
+                  <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="35"/>EXPOSITIO LITERAE. 
+      <lb ed="#T" n="36"/>[VEne faceret etiam de malo.] Contra. Ma 
+      <lb ed="#T" n="37"/>Dlum non est materia boni nec origo. Resp. 
+      <lb ed="#T" n="38"/>Haec prepositio de notat ordinem, non materiam 
+      <lb ed="#T" n="39"/>vel causam. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e1073">
+                  <lb ed="#T" n="40"/>[Suo loco positum.] Contra. Quod nihil est: 
+      <lb ed="#T" n="41"/>non habet locum. Resp. Quamuis malum 
+      abstra<lb ed="#T" n="42" break="no"/>cte nihil sit, tamen malum concretiue aliquid est 
+      <lb ed="#T" n="43"/>quod ratione materiae congrue in suo loco 
+      col<lb ed="#T" n="44" break="no"/>locatur.  
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e1086">
+                  <lb ed="#T" n="45"/>[Hoc ipsum eis faciet proficere.] Contra. 
+      <lb ed="#T" n="46"/>Quod nocet non prodest, sed malum hocet 
+      fa<lb ed="#T" n="47" break="no"/>cienti. Resp. Nocet per causam, proficit per 
+      oc<lb ed="#T" n="48" break="no"/>casionem. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e1097">
+                  <lb ed="#T" n="49"/>[Quod Augustinus astruit a minori.] Contra. 
+      <lb ed="#T" n="50"/>Locus a minori constructiuus est non 
+      destructi<lb ed="#T" n="51" break="no"/>uus. Resp. Secundum quod haec negatio 
+      reduci<lb ed="#T" n="52" break="no"/>tur in affirmationem, a minori est locus: minus 
+      <lb ed="#T" n="53"/>enim videtur quod impossibilitas malefaciendi, 
+      <lb ed="#T" n="54"/>insit homini sapienti quam Deo. Vel a 
+      minori<lb ed="#T" n="55" break="no"/>intelligitur secundum rem, non secundum 
+      lo<lb ed="#T" n="56" break="no"/>calem habitudinem. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e1118">
+                  <lb ed="#T" n="57"/>[Deus non est causa tendendi ad non esse.] 
+      <lb ed="#T" n="58"/>Contra Deuteron. 32. Ego occidam &amp;c. Resp. 
+      <lb ed="#T" n="59"/>Loquitur de non esse moris, non naturae. Vel 
+      <lb ed="#T" n="60"/>non est causa proprie, quia non efficiendo 
+      de<lb ed="#T" n="61" break="no"/>ducit rem ad non esse, sed non conferuando. 
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e1131">
+                  <lb ed="#T" n="62"/>[Malum est tendere ad non esse.] Contra. 
+      Se<lb ed="#T" n="63" break="no"/>cundum Dionys. per malum nihil existentium i 
+      <lb ed="#T" n="64"/>corrumpitur. Resp. Esse naturae absolutum non e 
+      <lb ed="#T" n="65"/>corrumpitur: sed esse ordinis ad gratiam, id est: 
+      <lb ed="#T" n="66"/>humilitas naturalis: numquam tamen totaliter,  
+      <lb ed="#T" n="67"/>quia in natura corruptibili fundatur.  
+    </p>
+               <p xml:id="pdt7y6-f17795-d1e1147">
+                  <lb ed="#T" n="68"/>[ASpiritu sancto estj? Contra. Ergo 
+      detra<lb ed="#T" n="69" break="no"/>tio &amp; contumelia quae vera est, a Spiritu 
+      san<lb ed="#T" n="70" break="no"/>cto est.? Resp. Quamuis sit a Spiritu illustrante 
+      <lb ed="#T" n="71"/>inquantum vera: non tamen ab ipso mouente 
+      <lb ed="#T" n="72"/>inquantum detractio vel contumelia. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0461.xml-->
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

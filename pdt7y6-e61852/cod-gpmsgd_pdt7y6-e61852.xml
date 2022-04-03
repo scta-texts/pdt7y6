@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="202"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e61852"><!-- l1d25prae -->
+            <head xml:id="pdt7y6-e61852-Hd1e99">Praeambulum</head>
+            <head xml:id="pdt7y6-e61852-Hd1e101" type="question-title"/>
+            <p xml:id="pdt7y6-e61852-d1e103">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0277.xml-->
+               <cb ed="#T" n="c"/>
+               <lb ed="#T" n="22"/>VDSICNIFICATVRCVMDICITVR 
+      <lb ed="#T" n="23"/>Pluraliter, Tres personae, vel duae Personae. 
+      <lb ed="#T" n="24"/>Distintt. XXV. 
+    </p>
+           <!-- <p xml:id="pdt7y6-e61852-d1e116">
+               <lb ed="#T" n="25"/>PRaeterea considerandum est, cum hoc nomen persona (vt praedictum est, 
+      <lb ed="#T" n="26"/>Asecundum substantiam dicatur, quae sit intelligentia dicti cum pluraliter 
+      <lb ed="#T" n="27"/>r&amp; profertur, Tres personae, vel duae personae: &amp; cum dicitur, Alia est 
+      per<lb ed="#T" n="28" break="no"/>Aa sona Patris, alia est persona Filij, alia est persona Spiritus sancti. Si enim 
+      <lb ed="#T" n="29"/>ui in his locutionibus, personae vocabulum essentiae intelligentiam facit, 
+      <lb ed="#T" n="30"/> plures essentias confiteri videmur, &amp; ita plures Deos. Si vero essentiae 
+      <lb ed="#T" n="31"/>significationem ibi non tenet, alia est huius nominis ratio, cum dicitur, Pater est persona, 
+      <lb ed="#T" n="32"/>vel Filius est persona: &amp; alia, cum dicitur Pater &amp; Filius &amp; Spiritus sanctus sunt tres 
+      per<lb ed="#T" n="33" break="no"/>sonae: &amp; cum dicitur, Alia est persona Patris, alia Filij, &amp; huiusmodi. 
+      <lb ed="#T" n="34"/>Quod videtur secundum essentiam dici, Alia est persona Patris, alia Filij; siue, tres personae: vt cum dici¬ 
+    </p>
+            <p xml:id="pdt7y6-e61852-d1e140">
+               <lb ed="#T" n="35"/>tur, Pater est persona, Filius est persona. 
+      <lb ed="#T" n="36"/>Persona enim, vt supra ait. August. ad se dicitur, &amp; idem est Deo esse personam, quod 
+      <lb ed="#T" n="37"/>esse: sicut idem est ei esse: quod Deum esse. Vnde manifeste colligitur quod essentiam 
+      <lb ed="#T" n="38"/>Diuinam praedicamus, dicentes, Pater est persona, Filius est persona, Spiritus sanctus est 
+      <lb ed="#T" n="39"/>petsona, id est, essentia Diuina: &amp; omnino vnum &amp; idem significatur nomine personae, 
+      <lb ed="#T" n="40"/>id est, essentia Diuina, cum dicitur, Pater est persona, &amp; Filius est persona; quod 
+      signi<lb ed="#T" n="41" break="no"/>ficatur nomine Dei, cum dicitur, Pater est Deus, Filius est Deus. Ita etiam idem 
+      signi<lb ed="#T" n="42" break="no"/>ficatur, cum dicitur Deus est Deus, &amp; Deus est persona. Vtroque enim nomine essentia 
+      <lb ed="#T" n="43"/>Diuina intelligitur, quia vtrumque secundum substantiam dicitur. Cum vero dicitur, 
+      Pa<lb ed="#T" n="44" break="no"/>ter &amp; Filius &amp; Spiritus sanctus sunt tres personae, quid nomine Personae significamus? an 
+      <lb ed="#T" n="45"/>essentiam: hoc enim videtur, si supra posita verba August. diligenter scrutemur. Supra 
+      <lb ed="#T" n="46"/>enim dixit, quod ideo tres personas dicimus, quia id quod persona est, commune est 
+      <lb ed="#T" n="47"/>tribus. Et item, quia Pater est persona, &amp; Filius est persona, &amp; Spiritus sanctus est 
+      per<lb ed="#T" n="48" break="no"/>sona, ideo tres personae dicuntur. Videtur ergo eandem tenere significationem hoc 
+      no<lb ed="#T" n="49" break="no"/>men persona, cum dicitur, tres personae, quam habet cum dicitur, Pater est persona, 
+      <lb ed="#T" n="50"/>Filius est persona, Spiritus sanctus est persona. Quia, vt ostendit August. hoc dicitur, id est, 
+      <lb ed="#T" n="51"/>tres personae, propter illud, quia id quod persona est commune est eis: id ergo quod 
+      <lb ed="#T" n="52"/>commune est eis, id est, Patri &amp; Filio &amp; Spiritui sancto, videtur significari nomine 
+      per<lb ed="#T" n="53" break="no"/>sonae, cum dicitur, tres personae. 
+      <lb ed="#T" n="54"/>Aliter etiam videtur posse ostendi, quod secundum essentiam dicatur, etiam cum pluraliter profertur.  
+    </p>
+            <p xml:id="pdt7y6-e61852-d1e187">
+               <lb ed="#T" n="55"/>Aliter etiam videtur posse ostendi, quod ibi nomine persone significetur essentia, cum 
+      <lb ed="#T" n="56"/>dicitur, tres personae. Vt enim supra dixit August. Ea necessitate dicimus tres personas, vt 
+      <lb ed="#T" n="57"/>responderemus quaerentibus, quid tres, vel quid tria. Cum ergo quaeritur quid tres vel 
+      <lb ed="#T" n="58"/>quid tria, conuenienter respondetur, cum dicitur Tres personae. At cum quaeritur, quid  
+      <lb ed="#T" n="59"/>tres vel quid tria? per quid de essentia quaeritur: non enim inuenitur, quid illi tres sint nisi 
+      <lb ed="#T" n="60"/>essentia. Si ergo quaestioni recte respondemus, oportet vt respondendo essentiam 
+      signi<lb ed="#T" n="61" break="no"/>ficemus: alioquin non ostendemus quid tres sint. Si vero respondentes essentiam 
+      signi<lb ed="#T" n="62" break="no"/>ficamus, ipsam essentiam personae nomine intelligrmus, cum dicitur, tres personae. 
+    </p>
+            <p xml:id="pdt7y6-e61852-d1e207">
+               <lb ed="#T" n="63"/>Opinio quorundam, qui putant essentiam significari, nomine personae, cum dicimus tres personas. 
+    </p>
+            <p xml:id="pdt7y6-e61852-d1e212">
+               <lb ed="#T" n="64"/>Quibusdam videtur quod nomine personae significetur essentia cum dicitur, tres 
+      perso<lb ed="#T" n="65" break="no"/>nae, propterea quia August. dicit ideo dici tres personas, quia commune est eis id quod 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0278.xml-\->
+      <pb ed="#T" n="203"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>est persona, vt sit talis intelligentia, Pater &amp; Filius &amp; Spiritus sanctus sunt tres personae, 
+      <lb ed="#T" n="2"/>id est, sunt tres id habentes commune quod est persona, id est, tres sunt, quorum 
+      quis<lb ed="#T" n="3" break="no"/>que est persona, id est, essentia. Sed quomodo iuxta hanc intelligentiiam dicetur, alia est 
+      <lb ed="#T" n="4"/>persona Patris, alia Filij? Et hoc etiam ita volunt intelligere, scilicet alius est Pater, &amp; 
+      <lb ed="#T" n="5"/>alius est Filius, id tamen commune habentes, quod est persona. Et hoc confirmant 
+      au<lb ed="#T" n="6" break="no"/>thoritate August. qui in 7. libro de Trinitate ait, tres personas eiusdem essentiae, vel tres 
+      <lb ed="#T" n="7"/>personas vnam essentiam dicimus. Tres autem personas ex eadem essentia non dicimus: 
+      <lb ed="#T" n="8"/>quasi aliud ibi sit quod essentia est, aliud quod persona est. Hac authoritate &amp; praemissis 
+      <lb ed="#T" n="9"/>conantur asserere in praedictis locutionibus nomen personae essentiam significare. Sed quid 
+      <lb ed="#T" n="10"/>respondebunt ad id quod ipse August. in lib. de Fide ad Petrum dicit, scilicet, quod alius, 
+      <lb ed="#T" n="11"/>est Pater in persona, siue personaliter, alius personaliter Filius, alius personaliter Spiritus 
+      <lb ed="#T" n="12"/>sanctus? Quomodo enim alius personaliter Pater, alius personaliter Filius, alius 
+      persona<lb ed="#T" n="13" break="no"/>liter Spiritus sanctus, si in esse personam omnino conueniunt, id est, si persona essentiae 
+      <lb ed="#T" n="14"/>tantum intelligentiam facit?Ideo nobis videtur aliter hoc posse dici congruentius iuxta 
+      <lb ed="#T" n="15"/>catholicorum Doctorum authoritates. 
+    </p>
+            <p xml:id="pdt7y6-e61852-d1e258">
+               <lb ed="#T" n="16"/>Quod hoc nomen, Persona tripliciter in Trinitate accipitur, &amp; haec est utilis &amp; catholica doctrina 
+      <lb ed="#T" n="17"/>de persona &amp; personis.
+    </p>
+            <p xml:id="pdt7y6-e61852-d1e265">
+               <lb ed="#T" n="18"/>Sciendum est igitur, quod hoc nomen Persona multiplicem intelligentiam facit, non 
+      <lb ed="#T" n="19"/>vnam tantum. Et vt Hilarius ait in lib. 4. de Trinit. intelligentia dictorum ex causis est 
+      <lb ed="#T" n="20"/>assumenda dicendi, quia non sermoni res, sed rei sermo subjectus est. Discernentes ergo 
+      <lb ed="#T" n="21"/>dicendi causas huius nominis, scilicet persona, significationem distinguimus dicentes, 
+      <lb ed="#T" n="22"/>quod hoc nomen, scilicet Persona, proprie secundum substantiam dicitur &amp; essentiam 
+      <lb ed="#T" n="23"/>significat, sicut supra ostendit August. cum dicitur, Deus est persona, Pater est persona. 
+      <lb ed="#T" n="24"/>Quadam tamen necessitate (vt supra dixit August.) transsatum est hoc nomen, vt 
+      plura<lb ed="#T" n="25" break="no"/>liter diceretur tres personae, cum quaereretur, quid tres, vel quid tria: vbi non significat  
+      <lb ed="#T" n="26"/>essentiam, id est, naturam piuinam, quae communis est tribus personis, sed subsistentias 
+      <lb ed="#T" n="27"/>vel hypostases secundum Graecos. Graeci quippe (vt supra dicit Aug.) aliter accipiunt sub 
+      <lb ed="#T" n="28"/>stantiam, id est, hypostasim, aliter nos. Nos enim substantiam dicimus essentiam siue 
+      na<lb ed="#T" n="29" break="no"/>turam: personas autem dicimus sicut illi dicunt substantias, id est, hypostases. Sic ergo 
+      <lb ed="#T" n="30"/>nos ita accipimus personas, vt illi accipiunt substantias vel hypostases. At illi aliter 
+      acci<lb ed="#T" n="31" break="no"/>piunt hypostases, quam nos substantiam: aliter ergo nos accipimus personas quam 
+      sub<lb ed="#T" n="32" break="no"/>stantiam. Cum ergo dicimus tres personas, non ibi personae nomine essentiam 
+      significa<lb ed="#T" n="33" break="no"/>mus. Quid ergo dicimus? Dicimus, quia tres personae sunt, id est, tres substantiae, 
+      scili<lb ed="#T" n="34" break="no"/>cet, tres entes: pro quo Graeci dicunt tres hypostasese 
+    </p>
+            <p xml:id="pdt7y6-e61852-d1e304">
+               <lb ed="#T" n="35"/>Ostendit verba Augustini conuenire huic sententiae. 
+      <lb ed="#T" n="36"/>Et hic sensus adiuuatur ex verbis August. praemissis, si interius intelligantur. Quia enim 
+      <lb ed="#T" n="37"/>Pater est persona, id est, essentia, &amp; Filius persona, &amp; Spiritus sanctus persona: ideo 
+      di<lb ed="#T" n="38" break="no"/>cuntur tres personae, tres subsistentiae, tres entes. Non enim possunt dici tres subsistentiae. 
+      <lb ed="#T" n="39"/>vel entes, nisi singulus eorum esset persona, id est, essentia. Quia ergo eis commune est 
+      <lb ed="#T" n="40"/>id quod est persona, id est, essentia: ideo recte dicuntur tres personae, id est, subsistentiae 
+      <lb ed="#T" n="41"/>vel subsistentes, vt sicut essentia, quae est eis communis, vere ac proprie est, ita illi tres 
+      <lb ed="#T" n="42"/>vere ac proprie subsistentiae vel entes intelligantur. Ideoque August. causas dictorum disi 
+      <lb ed="#T" n="43"/>cernens, dicit tres personas esse vnam essentiam vel eiusdem essentiae, non ex eadem 
+      <lb ed="#T" n="44"/>essentia: ne aliud intelligatur ibi esse persona aliud essentia. Tres enim personae, id est, 
+      <lb ed="#T" n="45"/>subsistentiae vna sunt essentia &amp; vnius essentiae: non autem sunt vna persona vel vnius 
+      per<lb ed="#T" n="46" break="no"/>sonae, licet persona secundum substantiam dicatur aliquando. Nam si hoc diceretur, 
+      con<lb ed="#T" n="47" break="no"/>fusio fieret in personis. 
+    </p>
+            <p xml:id="pdt7y6-e61852-d1e336">
+               <lb ed="#T" n="48"/>Obiectioni illorum hic respondet, qua nituntur probare personas secundum essentiam accipi: quia 
+    </p>
+            <p xml:id="pdt7y6-e61852-d1e341">
+               <lb ed="#T" n="49"/>respondemus quaerentibus quid tres, velquia tria. 
+      <lb ed="#T" n="50"/>Ad hoc autem quod illi dicunt: cum quaeritur, quid tres, vel tria, de essentia 
+      quaeri<lb ed="#T" n="51" break="no"/>tur, quia non inuenitur quid illi tres sint nisi essentia: per hoc volentes nos inducere vt 
+      no<lb ed="#T" n="52" break="no"/>mine personae essentiam intelligamus, cum respondemus tres personas. Ita dicimus. 
+      In<lb ed="#T" n="53" break="no"/>dubitabiliter verum est, quia non inuenitur vnum aliquid quod illi tres sint, nisi essentia. 
+      <lb ed="#T" n="54"/>Vnum enim sunt illi tres, id est, essentia Diuina. Vnde Veritas ait, ego &amp; rater vnum 
+      su<lb ed="#T" n="55" break="no"/>mus. Veruntamen cum quaeritur, Quid tres, vel quid tria, non de essentia quaeritur, nec 
+      <lb ed="#T" n="56"/>ibi quid ad essentiam refertur. Sed cum fides catholica tres esse profiteretur, sicut Ioannes 
+      <lb ed="#T" n="57"/>in epistola canonica ait, tres sunt qui testimonium perhibent in coelo: quaerebatur quid 
+      <lb ed="#T" n="58"/>illi tres essent, id est, an essent tres res, &amp; quae tres res, &amp; quo nomine illae tres res 
+      signi<lb ed="#T" n="59" break="no"/>ficarentur. Et ideo loquendi necessitate inuentum est hoc nomen, Persona, ad 
+      respon<lb ed="#T" n="60" break="no"/>dendum, &amp; dictum est, Tres personae. 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0279.xml-\->
+      <pb ed="#T" n="204"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>Quid tres res, &amp; quid vna res hic dicitur.
+      <lb ed="#T" n="2"/>Non autem te moueat quod dicimus tres res. Non enim hoc dicentes diuersarum 
+      re<lb ed="#T" n="3" break="no"/>rum numerum ponimus in Trinitate, sed ita tres res dicimus, vt easdem esse vnam 
+      quan<lb ed="#T" n="4" break="no"/>dam summam rem confiteamur. Vnde August. in 1. lib. de Doctrina Christiana sic ait, 
+      <lb ed="#T" n="5"/>Res quibus fruendum est, nos beatos faciunt. [Res ergo quibus fruendum est, sunt,  
+      <lb ed="#T" n="6"/>Pater &amp; Filius &amp; Spiritus sanctus, eademque Trinitas vna quaedam summa res est 
+      com<lb ed="#T" n="7" break="no"/>munisque fruentibus ea, si tamen res &amp; non rerum omnium causa sit. Non enim facile 
+      <lb ed="#T" n="8"/>potest inueniri nomen, quod tantae excellentiae conueniat: nisi quod melius dicitur 
+      Tri<lb ed="#T" n="9" break="no"/>nitas haec vnus Deus. Sicut ergo tres res dicuntur, &amp; hae sunt vna res, ita tres substantiae 
+      di<lb ed="#T" n="10" break="no"/>cuntur, &amp; hae sunt vna essentia. Ecce, ostensum est quae sit intelligentia huius nominis 
+      <lb ed="#T" n="11"/>Persona, cum dicimus tres personas. 
+    </p>
+            <p xml:id="pdt7y6-e61852-d1e400">
+               <lb ed="#T" n="12"/>Ex quo sensu dicatur, Alia est persona Patris, alia Filij, alia Spiritus sanctus. 
+      <lb ed="#T" n="13"/>Nunc inspiciamus, vtrum secundum eandem rationem &amp; causam dicatur: alia est 
+      per<lb ed="#T" n="14" break="no"/>sona Patris, alia Filij, alia Spiritus sancti? Quod vtique sane intelligi potest, vt sit sensus 
+      <lb ed="#T" n="15"/>talis: alia est subsistentia vel hypostasis Patris, alia subsistentia Filij, alia subsistentia 
+      Spiri<lb ed="#T" n="16" break="no"/>tus sancti. Et alia subsistentia Pater, alia Filius, alius Spiritus sanctus. 
+    </p>
+            <p xml:id="pdt7y6-e61852-d1e413">
+               <lb ed="#T" n="17"/>Quomodo haec intelligantur: Alius in persona Pater, alius Filius, alius Spiritus sanctus: 
+      <lb ed="#T" n="18"/>Deinde quaeritur, vtrum secundum eandem rationem accipiatur cum dicitur, Alius est 
+      <lb ed="#T" n="19"/>Pater in persona, alius in persona Filius, alius in persona Spiritus sanctus: siue, Alius, 
+      <lb ed="#T" n="20"/>personaliter Pater, alius personaliter Filius, alius personaliter Spiritus sanctus? Ad quod 
+      <lb ed="#T" n="21"/>dicimus, quia etsi possit eodem modo accipi: congruentius tamen ex ratione dicti alia 
+      va<lb ed="#T" n="22" break="no"/>riatur intelligentia, vt hic personae nomine proprietas personae intelligatur: vt sit sensus 
+      <lb ed="#T" n="23"/>talis: Alius est in persona vel personaliter Pater: id est, proprietate sua Pater alius est 
+      <lb ed="#T" n="24"/>quam Filius, &amp; Filius proprietate sua alius quam Pater: paternali enim proprietate 
+      distin<lb ed="#T" n="25" break="no"/>guitur hypostasis Patris ab hypostasi Filij, &amp; hypostasis Filij Filiali proprietate discernitur 
+      <lb ed="#T" n="26"/>a Patre, &amp; Spiritus sanctus ab vtroque processibili proprietate distinguitur.  
+    </p>
+            <p xml:id="pdt7y6-e61852-d1e437">
+               <lb ed="#T" n="27"/>Quomodo secundum hunc modum etiam in praedictis locutionibus potest accipi. 
+      <lb ed="#T" n="28"/>Hoc etiam modo sane potest accipi Persona in praemissis locutionibus, cum dicitur: Alia 
+      <lb ed="#T" n="29"/>est persona Patris, alia Filij, id est, alia est proprietas, qua Pater est Pater: alia, qua 
+      <lb ed="#T" n="30"/>Filius est Filius: alia, qua Spiritus sanctus est Spiritus sanctus. Ita etiam nomine personae 
+      <lb ed="#T" n="31"/>quidam proprietates intelligere volunt, cum dicuntur tres personae: sed melius est vt 
+      subsi<lb ed="#T" n="32" break="no"/>stentias vel hypostases intelligamus, cum dicimus tres personas. Ex praedictis colligitur,  
+      <lb ed="#T" n="33"/>quod nomen personae in Trinitate triplicem tenet rationem. Est enim vbi facit 
+      intelligen<lb ed="#T" n="34" break="no"/>tiam essentiae, &amp; est vbi facit intelligentiam hypostasis, &amp; est vbi facit intelligentiam 
+      pro<lb ed="#T" n="35" break="no"/>prietatis. 
+    </p>
+            <p xml:id="pdt7y6-e61852-d1e459">
+               <lb ed="#T" n="36"/>Authoritatibus Sanctorum ostendit, quod dixit. 
+      <lb ed="#T" n="37"/>Quod autem secundum substantiam dicatur, &amp; essentiam aliquando significet, supra 
+      <lb ed="#T" n="38"/>ex dictis Augustini aperte ostendimus. Quod vero pro hypostasi atque proprietate 
+      accipi<lb ed="#T" n="39" break="no"/>piatur, ex authoritatibus Sanctorum ostendi oportet, ne conjecturis nostris aliquid ausi 
+      <lb ed="#T" n="40"/>dicere videamur. De hoc Hieronymus in expositione fidei catholicae ad Damasum ita ait, 
+      <lb ed="#T" n="41"/>Non est prorsus aliquis in Trinitate gradus, nihilque quod inferius superiusve dici possit, 
+      <lb ed="#T" n="42"/>sed tota Diuinitas sui perfectione aequalis est, vt exceptis vocabulis, quae proprietatem 
+      in<lb ed="#T" n="43" break="no"/>dicant personarum, quicquid de vna persona dicitur, de tribus possit dignissime 
+      intelligi<lb ed="#T" n="44" break="no"/>Atque vt confutantes Arrium, vnam eademque Trinitatem dicimus esse essentiam vel 
+      <lb ed="#T" n="45"/>substantiam, &amp; Deum vnum in tribus personis fatemur: ita etiam impietatem Sabelli 
+      de<lb ed="#T" n="46" break="no"/>clinantes, tres personas expressas sub proprietate distinguimus, non ipsum sibi Patrem, 
+      <lb ed="#T" n="47"/>sibi Filium, ipsum sibi Spiritum sanctum esse dicentes, sed aliam Patris, aliam Filij, aliam 
+      <lb ed="#T" n="48"/>Spiritus sancti esse personam. Non enim nomina tautummodo, sed etiam nominum 
+      <lb ed="#T" n="49"/>proprietates, id est, personas, vel (vt Graeci exprimunt) hypostases, id est, 
+      subsisten<lb ed="#T" n="50" break="no"/>tias confitemur. Nec Pater Filij vel Spiritus sancti personam aliquando excludit: nec 
+      <lb ed="#T" n="51"/>Filius vel Spiritus sanctus Patris nomen personamque recipit: sed Pater semper Pater, &amp; 
+      <lb ed="#T" n="52"/>Filius semper Filius, &amp; Spiritus sanctus semper Spiritus sanctus. Itaque substantia vnum 
+      <lb ed="#T" n="53"/>sunt, sed personis ac nominibus distinguntur. Ecce hic aperte dicit Hieronymus 
+      proprie<lb ed="#T" n="54" break="no"/>tates esse personas, &amp; personas esse susibstentias. Vnde manifestum sit quod diximus, 
+      sci<lb ed="#T" n="55" break="no"/>licet, Personae nomine significari &amp; hypostasim &amp; proprietatem. Ioannes etiam 
+      Damas<lb ed="#T" n="56" break="no"/>cenus personas dicit esse hypostases, &amp; eas dicit entes, ita inquiens: Deitate vnam 
+      natu<lb ed="#T" n="57" break="no"/>turam confitemur, &amp; tres hypostases secundum veritatem entes, id est, personas.
+    </p>-->
+            <p xml:id="pdt7y6-e61852-d1e510">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0280.xml-->
+               <pb ed="#T" n="205"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>DIVISIO TEXTVS. 
+      <lb ed="#T" n="2"/>DRaeterea considerandum est] Postquam 
+      <lb ed="#T" n="3"/>egit de significatione personae secundum se, 
+      <lb ed="#T" n="4"/>&amp; terminorum distinctiuorum quando 
+      adiungun<lb ed="#T" n="5" break="no"/>tur eidem: hic agit de signincatione personae 
+      <lb ed="#T" n="6"/>quando adiungitur huiusmodi terminis 
+      distin<lb ed="#T" n="7" break="no"/>ctiuis. Et primo agit principaliter de 
+      significa<lb ed="#T" n="8" break="no"/>tione eius quando adiungitur terminis 
+      numera<lb ed="#T" n="9" break="no"/>libus. Secundo quando adiungitur relatiuis 
+      di<lb ed="#T" n="10" break="no"/>uersitatis [Nunc inspiciamus. 
+      <lb ed="#T" n="11"/>In prima parte primo mouet quaestionem. 
+      Se<lb ed="#T" n="12" break="no"/>cundo opponit ad alteram partem [Persona 
+      <lb ed="#T" n="13"/>enim) Tertio mouet quorundam circa hoc 
+      opi<lb ed="#T" n="14" break="no"/>nionem [Quibus] Quarto subdit suam solus 
+      <lb ed="#T" n="15"/>tionem [Sciendum] Et primo soluit 
+      principa<lb ed="#T" n="16" break="no"/>lem quaestionem. Secundo contrariam 
+      obiectio<lb ed="#T" n="17" break="no"/>nem [Ad hoc autem quod illij Tertio 
+      inciden<lb ed="#T" n="18" break="no"/>tem ex verbis suis dubitationem [Non autem 
+      <lb ed="#T" n="19"/>moueat. 
+    </p>
+            <p xml:id="pdt7y6-e61852-d1e560">
+               <lb ed="#T" n="20"/>In secunda parte principali primo ostendit 
+      <lb ed="#T" n="21"/>quid significet personae nomen quando dicitur 
+      <lb ed="#T" n="22"/>alia persona [Nunc inspiciamus] Secundo quid 
+      <lb ed="#T" n="23"/>significet quando dicitur alius in persona [
+      Dein<lb ed="#T" n="24" break="no"/>de quaeritur; Tertio ad intellectum praemisso. 
+      <lb ed="#T" n="25"/>rum, distinguit multiplicem acceptionem huius 
+      <lb ed="#T" n="26"/>nominis, persona [Quod autem secundum 
+      sub<lb ed="#T" n="27" break="no"/>stantiam.] 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

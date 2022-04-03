@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="316"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e96284"><!-- l1d38q1 -->
+            <head xml:id="pdt7y6-e96284-Hd1e99">Quaestio 1</head>
+            <head xml:id="pdt7y6-e96284-Hd1e101" type="question-title">De causalitate scientiae Dei</head>
+            <p xml:id="pdt7y6-e96284-d1e104">
+               <lb ed="#T" n="22"/>QVESTIO I. 
+      <lb ed="#T" n="23"/>DECAVSALITATE SCiENTIAEDEI. 
+    </p>
+            <p xml:id="pdt7y6-e96284-d1e111">
+               <lb ed="#T" n="24"/>TIc quaeruntur duo. 
+      <lb ed="#T" n="25"/>TPrimo de causalitate scientiae Dei. 
+      <lb ed="#T" n="26"/>Secundo de eius infallibilitate. 
+    </p>
+            <p xml:id="pdt7y6-e96284-d1e120">
+               <lb ed="#T" n="27"/>Circa primum quaeruntur tria. 
+      <lb ed="#T" n="28"/>Primo an scientia Dei sit causa rerum. 
+      <lb ed="#T" n="29"/>Secundo an praescientia Dei sit causata a 
+      <lb ed="#T" n="30"/>rebus. 
+      <lb ed="#T" n="31"/>Tertio an scientia Dei sit rerum tantum, vel 
+      <lb ed="#T" n="32"/>enunciabilium etiam. 
+    </p>
+            <div xml:id="pdt7y6-e96284-Dd1e137">
+               <head xml:id="pdt7y6-e96284-Hd1e139">Articulus 1</head>
+               <head xml:id="pdt7y6-e96284-Hd1e141" type="question-title">An scientia Dei sit causa rerum</head>
+               <p xml:id="pdt7y6-e96284-d1e144">
+                  <lb ed="#T" n="33"/>Articvlvs I. 
+      <lb ed="#T" n="34"/>An scientia Dei sit causa rerum.
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e151">
+                  <lb ed="#T" n="35"/>AD primum sic proceditur. 1. Dicit 
+      Augu<lb ed="#T" n="36" break="no"/>stbinus 15. de Trinit. Ideo res futurae sunt,  
+      <lb ed="#T" n="37"/>quia Deus nouit: ergo eius notitia est causa 
+      re<lb ed="#T" n="38" break="no"/>rum futurarum. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e162">
+                  <lb ed="#T" n="39"/>2. Oisne quod scitur, aut scitur per causam, 
+      <lb ed="#T" n="40"/>aut per effectum, aut per signum: inter hos 
+      mo<lb ed="#T" n="41" break="no"/>dos scientia per causam est nobilissima: ergo 
+      <lb ed="#T" n="42"/>Deo tribuenda est: ergo scitorum per suam. 
+      <lb ed="#T" n="43"/>scientiam sua scientia est causa. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e176">
+                  <lb ed="#T" n="44"/>3. Scientia Dei respectu rerum est quasi 
+      scie<lb ed="#T" n="45" break="no"/>tia artificis: sed scientia artificis est causa rerum. 
+      <lb ed="#T" n="46"/>ab eo scitarum: ergo &amp; scientia Dei. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e185">
+                  <lb ed="#T" n="47"/>4. Scientia Dei est assimilatio cum rebus 
+      sci<lb ed="#T" n="48" break="no"/>tis: sed similiuin, vel vnum ab altero 
+      produci<lb ed="#T" n="49" break="no"/>tur, vel ambo ab eodem sed scientia Dei &amp; 
+      <lb ed="#T" n="50"/>res non ab eodem producuntur, nec scientia. 
+      <lb ed="#T" n="51"/>producitur a rebus: ergo res producuntur a 
+      <lb ed="#T" n="52"/>scientia. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e201">
+                  <lb ed="#T" n="53"/>5. Sicut se habet potentia Dei ad possibilia, &amp; 
+      <lb ed="#T" n="54"/>voluntas ad voluntaria, sic scientia ad scibilia: 
+      <lb ed="#T" n="55"/>sed potentia est causa possibilium suorum, &amp; 
+      <lb ed="#T" n="56"/>voluntas volitorum: ergo &amp; scientia scitorum. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e212">
+                  <lb ed="#T" n="57"/>6. Dicit Anselmus, quod vnaquaeque res 
+      ve<lb ed="#T" n="58" break="no"/>ritatem habet ad quam in mente diuina 
+      ordina<lb ed="#T" n="59" break="no"/>ta est: ergo intelngentia diuina mensura est 
+      om<lb ed="#T" n="60" break="no"/>nium veritatum: ergo causa earum, quia vnum: 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0391.xml-->
+      <cb ed="#T" n="c"/>
+                  <lb ed="#T" n="61"/>quodque mensuratur primo sui generis vt 
+      nu<lb ed="#T" n="62" break="no"/>merus vnitate, vel magnitudo puncto. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e232">
+                  <lb ed="#T" n="63"/>Contra. 1. Non omne scitum a Deo est 
+      cau<lb ed="#T" n="64" break="no"/>satum ab eo, vt malum: ergo scientia Dei non 
+      <lb ed="#T" n="65"/>est causa rerum. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e241">
+                  <lb ed="#T" n="66"/>2. Posita causa ponitur effectus: sed posita 
+      <lb ed="#T" n="67"/>Dei scientia non ponitur esse rerum: ergo 
+      scien<lb ed="#T" n="68" break="no"/>tia Dei non est causa esse rerum. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e251">
+                  <lb ed="#T" n="69"/>3. Multa icit Deus quae nunquam erunt: ergo 
+      <lb ed="#T" n="70"/>scientia Dei non est causa scitorum, quia causa 
+      <lb ed="#T" n="71"/>est cuius esse sequitur aliud. 
+      <lb ed="#T" n="72"/>Respondeo. Duplex est Dei scientia, sicut 
+      artifi<lb ed="#T" n="73" break="no"/>cis citati: quaedam quasi speculatiua, siue simplex 
+      <lb ed="#T" n="74"/>qua scit ea quorum non est causa: quaedam 
+      au<lb ed="#T" n="75" break="no"/>tem practica siue approbatiua ordinata ad opus, 
+      <lb ed="#T" n="76"/>qua scit opera sua: haec sola causa est rerum, 
+      <lb ed="#T" n="77"/>quae importat beneplacitum, &amp; quoad scientiam 
+      <lb ed="#T" n="78"/>causa exemplaris, quoad beneplacitum efficiens. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e275">
+                  <lb ed="#T" n="79"/>Ad 1. Dicendum, quod Augustinus loquitur  
+      <lb ed="#T" n="80"/>de notitia practica, non speculatiua. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e282">
+                  <lb ed="#T" n="81"/>Ad 2. De scientia per causam. Resp. Eorum 
+      <lb ed="#T" n="82"/>quae causam habent, scientia per causam 
+      nobi<lb ed="#T" n="83" break="no"/>lissima est, scilicet entium: sed eorum quae non 
+      <lb ed="#T" n="84"/>habent, vt malorum, non: possibilia vero quae non 
+      <lb ed="#T" n="85"/>sunt futura causam habent potentem, sed non 
+      <lb ed="#T" n="86"/>operantem, &amp; sic sciuntur a Deo. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e298">
+                  <lb ed="#T" n="87"/>Ad 3. De scientia artificis. Resp. Scientia Dei, 
+      <lb ed="#T" n="88"/>approbatiua comparatur scientiae artificis, qua 
+      <lb ed="#T" n="89"/>scit &amp; proponit aliquid facere, quae causa est 
+      re<lb ed="#T" n="90" break="no"/>rum: non simplex notitia. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e309">
+                  <lb ed="#T" n="91"/>Ad 4. De assimilatione. Resp. Scientia rei per 
+      <lb ed="#T" n="92"/>specie propriam, est assimilatio: non quae per 
+      spe<lb ed="#T" n="93" break="no"/>cie alienam, vt scientia priuationum &amp; malorum. 
+      <lb ed="#T" n="94"/>a parte scienti, quia peressentiam suam. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e320">
+                  <lb ed="#T" n="95"/>Ad 5. De potentia &amp; voluntate. Resp. Non 
+      <lb ed="#T" n="96"/>est verum vniuersaliter, quia scientia est entium. 
+      <lb ed="#T" n="97"/>&amp; priuationum: sed potentia &amp; voluntas non. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e330">
+                  <lb ed="#T" n="98"/>Ad 6. Anselmi. Resp. Intelligentia Dei 
+      pra<lb ed="#T" n="99" break="no"/>ctica seu approbatiua causa est rerum, 
+      specula<lb ed="#T" n="100" break="no"/>tiua vero non. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e339">
+                  <lb ed="#T" n="101"/>Ad 1. In contrarium de malo. Resp. Malum 
+      <lb ed="#T" n="102"/>scitur a Deo scientia simplici, non approbatiua; 
+      <lb ed="#T" n="103"/>per speciem alienam, scilicet boni, non per 
+      pro<lb ed="#T" n="104" break="no"/>priam: vnde quasi per accidens, non per se: per 
+      <lb ed="#T" n="105"/>accidens dico a parte scibilis, non per accidens 
+      <lb ed="#T" n="106"/>a parte scientis, quia per essentiam suam. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e355">
+                  <lb ed="#T" n="107"/>Ad 2. Pofita causa. Resp. Hoc verum est de 
+      <lb ed="#T" n="108"/>causa naturali, non de voluntaria. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e362">
+                  <lb ed="#T" n="109"/>Ad 3. Multa scit &amp;c. Resp. Illa quae 
+      nun<lb ed="#T" n="110" break="no"/>quam erunt sciuntur a Deo scientia simplici, non 
+      <lb ed="#T" n="111"/>approbatiua. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e96284-Dd1e372">
+               <head xml:id="pdt7y6-e96284-Hd1e374">Articulus 2</head>
+               <head xml:id="pdt7y6-e96284-Hd1e376" type="question-title">An praescientia Dei sit causata a rebus</head>
+               <p xml:id="pdt7y6-e96284-d1e379">
+                  <lb ed="#T" n="112"/>Articvlvs II. 
+      <lb ed="#T" n="113"/>An praescientia Dei sit causata a rebus.
+</p>
+               <p xml:id="pdt7y6-e96284-d1e386">
+                  <lb ed="#T" n="114"/>D secundum sic proceditur. 1. Dicit 
+      Ori<lb ed="#T" n="115" break="no"/>genes supra Epistolam ad Romanos, quod &amp; 
+      <lb ed="#T" n="116"/>non propterea aliquid erit quia Deus id scit, sed:1 
+      <lb ed="#T" n="117"/>quia aliquid est futurum ideo scitur a Deo 
+      aute<lb ed="#T" n="118" break="no"/>quam siat: ergo res futurae causa sunt praescientiae: 
+      <lb ed="#T" n="119"/>aut ergo in connotando solum, aut in essendo: fi¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0392.xml-->
+      <pb ed="#T" n="317"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>connotando ergo similiter praescientia Dei, 
+      <lb ed="#T" n="2"/>posset dici causa rerum, quod negat Origenes: 
+      <lb ed="#T" n="3"/>sunt ergo causa in essendo 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e415">
+                  <lb ed="#T" n="4"/>2. Illud quo posito aliud ponitur, &amp; remoto 
+      <lb ed="#T" n="5"/>remouetur, causa est illius, quia causa est cuias 
+      <lb ed="#T" n="6"/>esse sequitur aliud: sed posita rerum futuritione, 
+      <lb ed="#T" n="7"/>praescientia ponitur, &amp; remota remouetur: 
+      er<lb ed="#T" n="8" break="no"/>go &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e429">
+                  <lb ed="#T" n="9"/>3. Quando aliqua duo se consequuntur, hoc 
+      <lb ed="#T" n="10"/>comangit aut quia vnum est causa alterius vt 
+      <lb ed="#T" n="11"/>proprium sequitur spocem: aut quia ambo 
+      ha<lb ed="#T" n="12" break="no"/>bent eandem causam, vt ribile &amp; susceptibile 
+      <lb ed="#T" n="13"/>discipsinae consequuntur se, quia causantur ab 
+      <lb ed="#T" n="14"/>eadem specie hominis: praescientia Dei &amp; 
+      futu<lb ed="#T" n="15" break="no"/>ritio, praescitorum consequuntur se: non vt 
+      effe<lb ed="#T" n="16" break="no"/>ctus eiusdem causae ergo vt causa &amp; causatum: 
+      <lb ed="#T" n="17"/>sed praescientia non esti causa futuritionis 
+      prae<lb ed="#T" n="18" break="no"/>scitorum, quia non est causa malorum: ergo 
+      <lb ed="#T" n="19"/>futuritio praescitorum causa est praescientiae: 
+      er<lb ed="#T" n="20" break="no"/>go &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e458">
+                  <lb ed="#T" n="21"/>4. Bene sequitur: Deus scit hoc futurum, ergo 
+      <lb ed="#T" n="22"/>hoc erit: ergo ibi est aliqua habitudo localis: sed  
+      <lb ed="#T" n="23"/>non nisi causae ad effectum, vel e conuerso: sed  
+      <lb ed="#T" n="24"/>non causae, quia similiter sequitur in malis: ergo 
+      <lb ed="#T" n="25"/>effectu 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e471">
+                  <lb ed="#T" n="26"/>Contra. 1. Nobilioi est causa causato: sed res 
+      <lb ed="#T" n="27"/>non sunt nobiliores quam praescientia: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e478">
+                  <lb ed="#T" n="28"/>2. Diuina praescientia est aeterna: temporale non 
+      <lb ed="#T" n="29"/>est causa aeterni: ergo res praescitae non sunt 
+      cau<lb ed="#T" n="30" break="no"/>sa praescientiae. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e487">
+                  <lb ed="#T" n="31"/>3 Non ens non est causa entis: diuina 
+      prae<lb ed="#T" n="32" break="no"/>scientia ab aeterno fuit ens res vero non, ab 
+      <lb ed="#T" n="33"/>aeterno: ergo non sunt causa praescientiae Dei. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e496">
+                  <lb ed="#T" n="34"/>4. Si sunt causa praescientiae, aut ratione 
+      prin<lb ed="#T" n="35" break="no"/>cipalis significati, aut ratione connotati: si 
+      ra<lb ed="#T" n="36" break="no"/>tione significati, ergo sunt causa intellectus 
+      di<lb ed="#T" n="37" break="no"/>mni: si ratione connotati, ergo sunt causa sui 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e508">
+                  <lb ed="#T" n="38"/>Respondeo. Est loqui de causa praescientiae 
+      <lb ed="#T" n="39"/>tripliciter: vel de causa essendi, vel de causa 
+      <lb ed="#T" n="40"/>consequendi, vel de de causa nominandi. Primo 
+      <lb ed="#T" n="41"/>modo res non sunt causa praescientiae, nisi forte 
+      <lb ed="#T" n="42"/>causa sine qua non, vt dicit Magister: quod 
+      in<lb ed="#T" n="43" break="no"/>telligi debet de causa scibilitatis ex parte 
+      scito<lb ed="#T" n="44" break="no"/>rum, non ex parte scientis vllo modo, sic enim 
+      <lb ed="#T" n="45"/>non sunt causa praescientiae, nec praescientia 
+      re<lb ed="#T" n="46" break="no"/>rum, nisi praescientia approbatiua. Secundo 
+      mo<lb ed="#T" n="47" break="no"/>do vnum est causa alterius. Tertio modo res 
+      fu<lb ed="#T" n="48" break="no"/>turae sunt causa praescientiae, quia praescientia 
+      <lb ed="#T" n="49"/>nominatur ex ordine ad res futuras. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e537">
+                  <lb ed="#T" n="50"/>Ad 1. De Origene. Resp. Loquitur de causa 
+      <lb ed="#T" n="51"/>nominandi non essendi. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e544">
+                  <lb ed="#T" n="52"/>Ad 2. Causa est cuius esse sequitur &amp;c. 
+      <lb ed="#T" n="53"/>Resp. Hoc verum est de sequela in essendo, non 
+      <lb ed="#T" n="54"/>in inferendo. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e553">
+                  <lb ed="#T" n="55"/>Ad 3. De consecutione duorum. Resp. Haec 
+      <lb ed="#T" n="56"/>consecutio est non ratione principalis 
+      significa<lb ed="#T" n="57" break="no"/>ti, sed? ratione connotati, seu respectus quem 
+      <lb ed="#T" n="58"/>habet praescientia ad futurum praescitum siue 
+      bo<lb ed="#T" n="59" break="no"/>num siue malum: huiusmodi vero respectus 
+      scie<lb ed="#T" n="60" break="no"/>tiae Dei ad malumr fundatur super bonum cuius 
+      <lb ed="#T" n="61"/>Deus est causa, per cuius boni speciem scit 
+      <lb ed="#T" n="62"/>malum. Quamuis ergo non causentur ab eodem. 
+      <lb ed="#T" n="63"/>nec vnum sit causa alterius generaliter, tamen 
+      <lb ed="#T" n="64"/>vel est causa eius, vel eius supra quod fundatur.  
+      <lb ed="#T" n="65"/>illud, sicut malum in bono. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e579">
+                  <lb ed="#T" n="66"/>Ad 4. De habitudine locali. Resp. Locus est 
+      <lb ed="#T" n="67"/>a conuertibili, non a causa, nam ita sequitur e 
+      <lb ed="#T" n="68"/>conuerso.
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e96284-Dd1e589">
+               <head xml:id="pdt7y6-e96284-Hd1e591">Articulus 3</head>
+               <head xml:id="pdt7y6-e96284-Hd1e593" type="question-title">
+  An scientia Dei sit rerum santum vel enunciabilium etiam
+</head>
+               <p xml:id="pdt7y6-e96284-d1e596">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0392.xml-->
+                  <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="69"/>ARTICVLVS III. 
+      <lb ed="#T" n="70"/>An scientia Dei sit rerum santum, vel 
+      <lb ed="#T" n="71"/>enunciabilium etiam.
+  </p>
+               <p xml:id="pdt7y6-e96284-d1e609">
+                  <lb ed="#T" n="72"/>TErtio quaeritur an scientia diuina sit entium. 
+      <lb ed="#T" n="73"/>complexorum scilicet enunciabilium. 
+      Vi<lb ed="#T" n="74" break="no"/>detur quod non. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e618">
+                  <lb ed="#T" n="75"/>1 Quia scientia Diuina est per ideam, idea 
+      <lb ed="#T" n="76"/>vero rerum est, non enunciabilium. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e626">
+                  <lb ed="#T" n="77"/>2. Vt ait Philosophus 3. de anima, quando 
+      <lb ed="#T" n="78"/>intellectus intelligit affirmationem &amp; 
+      negatio<lb ed="#T" n="79" break="no"/>nem, sit in eo quaedam compositio intellectuum: 
+      <lb ed="#T" n="80"/>sed in Deo non potest fieri compositio intellea 
+      <lb ed="#T" n="81"/>ctuum: ergo non intelligit affirmationem &amp; 
+      ne<lb ed="#T" n="82" break="no"/>gationem: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e642">
+                  <lb ed="#T" n="83"/>3. In intellectu simplici, qui accipit 
+      quiddi<lb ed="#T" n="84" break="no"/>tates rerum, non ad miscetur falsitas: intellectus 
+      <lb ed="#T" n="85"/>componenti &amp; diuidenti admiscetur, vt dicit 
+      <lb ed="#T" n="86"/>Philosophus in 3. de anima: sed nobilior est 
+      in<lb ed="#T" n="87" break="no"/>tellectus cui non admiscetur falsitas quam cui 
+      <lb ed="#T" n="88"/>admiscetur: ergo ille solus Deo triouendus: non 
+      <lb ed="#T" n="89"/>habet ergo intellectum complexorum. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e660">
+                  <lb ed="#T" n="90"/>4. Operationi intellectus qua affirmat aliquid, 
+      <lb ed="#T" n="91"/>aut negat, admiscetur tempus vt dicit 
+      Philo<lb ed="#T" n="92" break="no"/>sophus in de anima, vnde omnis enunciatio fit 
+      <lb ed="#T" n="93"/>sub certa differentia temporis: sed intellectus 
+      <lb ed="#T" n="94"/>biuino non admiscetur tempus: ergo non 
+      intel<lb ed="#T" n="95" break="no"/>ligit affirmando vel negando. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e676">
+                  <lb ed="#T" n="96"/>Contra. 1. Quicquid Deus per Prophetas 
+      pre<lb ed="#T" n="97" break="no"/>dixit, ipse praesciuit: sed multa enunciabilia per 
+      <lb ed="#T" n="98"/>Prophetas praedixit, vt Virginem parituram, &amp; 
+      <lb ed="#T" n="99"/>huiusmodi: ergo praesciuit, 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e687">
+                  <lb ed="#T" n="100"/>2. Nostra scientia non tantum est de rebus, 
+      <lb ed="#T" n="101"/>sed etiam de enunciabilibus: sed scientia Dei 
+      <lb ed="#T" n="102"/>maior est: ergo est etiam de vtrisque. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e696">
+                  <lb ed="#T" n="103"/>Iuxta hoc quaeritur, an vniformiter sit 
+      scien<lb ed="#T" n="104" break="no"/>tia Dei de omnibus. Videtur quod non. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e704">
+                  <lb ed="#T" n="105"/>1. Quia scire res eo modo quo non sunt, non 
+      <lb ed="#T" n="106"/>est vera scientia: sed res non eodem modo sunt: 
+      <lb ed="#T" n="107"/>ergo scire eas eode modo, non est vera scientia. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e713">
+                  <lb ed="#T" n="108"/>2. Alius est modus cognitionis per essentiam, 
+      <lb ed="#T" n="109"/>&amp; per similitudinem: sed Deus cognoscit se per 
+      <lb ed="#T" n="110"/>essentium, alia per similitudinem: ergo alio 
+      <lb ed="#T" n="111"/>modo. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e724">
+                  <lb ed="#T" n="112"/>3 Deus cognouit omnia per rationes eorum: 
+      <lb ed="#T" n="113"/>sed alia ratio est qua conditus est homo, quam 
+      <lb ed="#T" n="114"/>equus, secundum Augustinum: ergo altero 
+      mo<lb ed="#T" n="115" break="no"/>do cognoscitur.  
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e735">
+                  <lb ed="#T" n="116"/>Contra. 1. Modus cognitionis proprie 
+      atten<lb ed="#T" n="117" break="no"/>ditur penes medium cognoscendi: sed Deus 
+      eo<lb ed="#T" n="118" break="no"/>dem medio, scilicet per seipsum, cognoscit 
+      om<lb ed="#T" n="119" break="no"/>nia: ergo eodem modo. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e746">
+                  <lb ed="#T" n="120"/>2. Dei non est nisi vna scientia: sed vnius 
+      <lb ed="#T" n="121"/>scientiae vnus est modus. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e753">
+                  <lb ed="#T" n="122"/>3. Secundum Dionisium, Deus eodem 
+      mo<lb ed="#T" n="123" break="no"/>do se habet ad res: ergo eodem modo scit eas 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e761">
+                  <lb ed="#T" n="124"/>Respondeo. Ad primam quaest. dicendum quod 
+      <lb ed="#T" n="125"/>Deus habet scientiam rerum siue 
+      incomplexa<lb ed="#T" n="126" break="no"/>rum &amp; simplicium, siue enunciabilium &amp; 
+      com<lb ed="#T" n="127" break="no"/>plexarum, sed tamen modo simplici, non 
+      com<lb ed="#T" n="128" break="no"/>plexo: ipse enim per idem est idea, &amp; 
+      quiddita<lb ed="#T" n="129" break="no"/>tis rerum cuius apprehensio pertinet ad 
+      intel<lb ed="#T" n="130" break="no"/>lectum formalem, &amp; esse rerum cuius 
+      apprehen<lb ed="#T" n="131" break="no"/>sio pertinet ad intellectum componentem: quia 
+      <lb ed="#T" n="132"/>quidditas &amp; esse in Deo sunt idem 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e783">
+                  <lb ed="#T" n="133"/>Ad 1. Idea non est enunciabilium. Resp. 
+      Quam<lb ed="#T" n="134" break="no"/>uis idea in mente artificis creati non sit idea co¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0393.xml-->
+      <pb ed="#T" n="318"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>plexorum, quia non est causa nisi fornae, vnde 
+      <lb ed="#T" n="2"/>nescit hanc arcam esse, nisi cum ampliatione 
+      co<lb ed="#T" n="3" break="no"/>gnitionis sensibilis: tamen Deus per ideam sua, 
+      <lb ed="#T" n="4"/>quae est causa totius rei, scit ipsam esse &amp; esse 
+      <lb ed="#T" n="5"/>eius. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e807">
+                  <lb ed="#T" n="6"/>Ad 2. Philosophi. Resp. Secus est de 
+      intelle<lb ed="#T" n="7" break="no"/>ctu nostro qui intelligit per species acceptas a 
+      <lb ed="#T" n="8"/>rebus, vnde per aliam speciem intelligit formam 
+      <lb ed="#T" n="9"/>rei, per aliam eius esse actuale; ideo quando 
+      in<lb ed="#T" n="10" break="no"/>telligit rem esse, vel non esse, est in eo 
+      compo<lb ed="#T" n="11" break="no"/>sitio intellectuum: Deus vero per formam vnam 
+      <lb ed="#T" n="12"/>simplicem intelligit totum quod in re est, 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e825">
+                  <lb ed="#T" n="13"/>Ad. 3. De falsitate. Resp. Quamuis in nostra 
+      <lb ed="#T" n="14"/>apprehensione complexorum incidat falsitas 
+      <lb ed="#T" n="15"/>non tamen in Deo, quia nouit omnia per seipsum 
+      <lb ed="#T" n="16"/>vt causam certissimam 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e836">
+                  <lb ed="#T" n="17"/>Ad 4. De tempore. Resp. In scientia nostra 
+      <lb ed="#T" n="18"/>incidit tempus a parte scientis, &amp; a parte rei, 
+      <lb ed="#T" n="19"/>scilicet quia apprehendimus mediante 
+      phantas<lb ed="#T" n="20" break="no"/>mate, &amp; rem temporalem: sed in scientia Dei. 
+      <lb ed="#T" n="21"/>non incidit tempus a parte scientis, sed rei 
+      sci<lb ed="#T" n="22" break="no"/>ae solum. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e852">
+                  <lb ed="#T" n="23"/>Ad secundam quaest. Resp. Modus 
+      cogni<lb ed="#T" n="24" break="no"/>tionis duplex est, alius a parte cognoscentis, 
+      <lb ed="#T" n="25"/>alius a parte rei cognitae: sicut modus visionis a 
+      <lb ed="#T" n="26"/>parte videntis est per speciem immaterialem, id  
+      <lb ed="#T" n="27"/>est ime materia; a parte rei visae, per specie, n 
+      <lb ed="#T" n="28"/>materialem, id est in materia. Modus vero a 
+      <lb ed="#T" n="29"/>parte cognoscentis magis est modus cognitionis 
+      <lb ed="#T" n="30"/>quam modus rei cognitae, quia cognitum est 
+      <lb ed="#T" n="31"/>in cognoscente per modum cognoscentis, non 
+      <lb ed="#T" n="32"/>per modum sui. Deus ergo scit omnia eodem 
+      <lb ed="#T" n="33"/>modo a parte scientis: sed non eodem a parte 
+      <lb ed="#T" n="34"/>rerum scitarum: quia Dei, cum sit simplex, 
+      <lb ed="#T" n="35"/>vnus est modus rerum autem, cum sint plures, 
+      <lb ed="#T" n="36"/>diuersi sunt modi. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e886">
+                  <lb ed="#T" n="37"/>Ad 1. Scire rem alio modo quam est &amp;c. Reip. 
+      <lb ed="#T" n="38"/>Hoc verum est secundum quod Iy alio modo 
+      <lb ed="#T" n="39"/>determinat verbum sciendi ex parte rei scitae, 
+      <lb ed="#T" n="40"/>non ex parte scientis. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e897">
+                  <lb ed="#T" n="41"/>Ad 2. Deus se cognoscit per essentiam. Reps. 
+      <lb ed="#T" n="42"/>Omnia cognoscit per essentiam propriam, quae 
+      <lb ed="#T" n="43"/>tamen respectu sui non est idea, sed veritas ipsa: 
+      <lb ed="#T" n="44"/>respectu rerum est idea: differentia ergo est a 
+      par<lb ed="#T" n="45" break="no"/>te cognitorum non ex parte conoscentis. 
+    </p>
+               <p xml:id="pdt7y6-e96284-d1e910">
+                  <lb ed="#T" n="46"/>Ad 3. De rationibus. Resp. Eadem est ratio ex 
+      <lb ed="#T" n="47"/>parte Dei cognoscentis, sed alia a parte 
+      cogni<lb ed="#T" n="48" break="no"/>torum. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

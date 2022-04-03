@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="197"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e60185"><!-- l1d24q1 -->
+            <head xml:id="pdt7y6-e60185-Hd1e99">Quaestio 1</head>
+            <head xml:id="pdt7y6-e60185-Hd1e101" type="question-title">De uno in divinis</head>
+            <p xml:id="pdt7y6-e60185-d1e104">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0272.xml-->
+               <cb ed="#T" n="c"/>
+               <lb ed="#T" n="59"/>QVESTIO I. 
+      <lb ed="#T" n="60"/>DE TERMINOSIONIFICANTE 
+      <lb ed="#T" n="61"/>VNITATEMINDIVINIS.
+    </p>
+            <p xml:id="pdt7y6-e60185-d1e117">
+               <lb ed="#T" n="62"/>TVIc quaeruntur tria. 
+      <lb ed="#T" n="63"/> Primo de termino significante vnitatem. 
+    </p>
+            <p xml:id="pdt7y6-e60185-d1e124">
+               <lb ed="#T" n="64"/>Secundo de termino significante numerum. 
+      <lb ed="#T" n="65"/>Tertio de termino significante vtrumque 
+      <lb ed="#T" n="66"/>simul. 
+    </p>
+            <p xml:id="pdt7y6-e60185-d1e134">
+               <lb ed="#T" n="67"/>Circa primum quaeruntur tria. 
+      <lb ed="#T" n="68"/>Primo an vnum vere possit dici de Deo. 
+      <lb ed="#T" n="69"/>Secundo vtrum secundum positionem, vel 
+      <lb ed="#T" n="70"/>secundum priuationem. 
+    </p>
+            <p xml:id="pdt7y6-e60185-d1e145">
+               <lb ed="#T" n="71"/>Tertio vtrum secundum substantiam vel 
+      se<lb ed="#T" n="72" break="no"/>cundum relationem. 
+    </p>
+            <div xml:id="pdt7y6-e60185-Dd1e152">
+               <head xml:id="pdt7y6-e60185-Hd1e154">Articulus 1</head>
+               <head xml:id="pdt7y6-e60185-Hd1e156" type="question-title">
+  An unum vere possit dici de Deo
+</head>
+               <p xml:id="pdt7y6-e60185-d1e159">
+                  <lb ed="#T" n="73"/>Articvlvs I. 
+      <lb ed="#T" n="74"/>An vnum vere possit dici de Deo.
+</p>
+               <p xml:id="pdt7y6-e60185-d1e166">
+                  <lb ed="#T" n="75"/>AD primum sic proceditur. 1. Principium 
+      <lb ed="#T" n="76"/>determinatum alicuius generis, non 
+      inue<lb ed="#T" n="77" break="no"/>nitur nisi in habentibus naturam generis, vt 
+      <lb ed="#T" n="78"/>anima in rebus animatis: vnitas est principium 
+      <lb ed="#T" n="79"/>numeri: ergo non inuenitur nisi in habentibus. 
+      <lb ed="#T" n="80"/>naturam numeri: sed in Deo, vt ait <name xml:id="pdt7y6-e60185-Nd1e181" ref="#Boethius">Boetius</name>, 
+      <lb ed="#T" n="81"/>nullus est numerus: ergo nec vnitas. 
+    </p>
+               <p xml:id="pdt7y6-e60185-d1e187">
+                  <lb ed="#T" n="82"/>2. Sicut punctus se habet ad quantitatem 
+      <lb ed="#T" n="83"/>continuam, ita vnitas ad discretam: sed punctus 
+      <lb ed="#T" n="84"/>non inuenitur nisi in habentibus quantitatem 
+      <lb ed="#T" n="85"/>continuam: ergo nec vnitas nisi in habentibus, 
+      <lb ed="#T" n="86"/>discretam. 
+    </p>
+               <p xml:id="pdt7y6-e60185-d1e201">
+                  <lb ed="#T" n="87"/>3. Vnitas secundum rationem consequitur. 
+      <lb ed="#T" n="88"/>actum formae terminantis &amp; distinguentis, quia 
+      <lb ed="#T" n="89"/>vnum est indiuisum in se &amp; diuisum ab alijs: sed  
+      <lb ed="#T" n="90"/>in Deo non est forma vlla terminans, quia 
+      in<lb ed="#T" n="91" break="no"/>terminabilis est: ergo nec vnitas. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0273.xml-->
+      <pb ed="#T" n="198"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>4. Omne vnum est alteri communicabile: 
+      <lb ed="#T" n="2"/>Deus non est alteri rei communicabilis, quia 
+      <lb ed="#T" n="3"/>cum totum sit maius parte, esset aliquid maius 
+      <lb ed="#T" n="4"/>Deo: ergo Deus non est vnus. 
+    </p>
+               <p xml:id="pdt7y6-e60185-d1e229">
+                  <lb ed="#T" n="5"/>Contra. 1. Deuteron. 6. Audi Israel Dominus 
+      <lb ed="#T" n="6"/>Deus tuus, Deus vnus est. 
+    </p>
+               <p xml:id="pdt7y6-e60185-d1e236">
+                  <lb ed="#T" n="7"/>2. <name xml:id="pdt7y6-e60185-Nd1e240" ref="#Boethius">Boetius</name> quocirca hoc vere est vnum in 
+      <lb ed="#T" n="8"/>quo nullus est numerus. 
+    </p>
+               <p xml:id="pdt7y6-e60185-d1e246">
+                  <lb ed="#T" n="9"/>3. Principium omnis multitudinis est vnitas: in 
+      <lb ed="#T" n="10"/>Deo est principium multitudinisomnis: ergo vnitas 
+    </p>
+               <p xml:id="pdt7y6-e60185-d1e253">
+                  <lb ed="#T" n="11"/>Respondeo. Secundum Philosophum libi 
+      <lb ed="#T" n="12"/>Metaph. Ens dicitur vnum in eo quod non 
+      di<lb ed="#T" n="13" break="no"/>uiditur, vnde describitur sic vnitas: vnitas est 
+      <lb ed="#T" n="14"/>indiuisio essentiae &amp; eius quod est: Deus autem 
+      <lb ed="#T" n="15"/>maxime indiuisus est: ergo maxime vnus. 
+      Ma<lb ed="#T" n="16" break="no"/>gis enim est vnum quod est vnum per se, vt 
+      <lb ed="#T" n="17"/>Sortes, quam quod est vnum per accidens vt  
+      <lb ed="#T" n="18"/>album &amp; Sortes. Item in ijs quae sunt vnum 
+      <lb ed="#T" n="19"/>per se, magis est vnum quod est vnum 
+      simplici<lb ed="#T" n="20" break="no"/>ter, scilicet vnum numero, quam quod 
+      res<lb ed="#T" n="21" break="no"/>pectu alicuius vt vnum genere, &amp; specie, &amp; 
+      <lb ed="#T" n="22"/>proportione. In ijs vero quae sunt vnum per se 
+      <lb ed="#T" n="23"/>simpliciter, magis est vnum quod est indiuisum 
+      <lb ed="#T" n="24"/>actu &amp; potentia, vt simplicia; quam quod actu 
+      <lb ed="#T" n="25"/>indiuisum, tamen potentia diuisibile actu 
+      ve<lb ed="#T" n="26" break="no"/>intellectu, siue sit diuisibile diuisione essentiae 
+      <lb ed="#T" n="27"/>vt omne compositum ex materia &amp; forma, ve 
+      <lb ed="#T" n="28"/>ex quo est &amp; esse; siue diuisione quantitatis, vt 
+      <lb ed="#T" n="29"/>omne continuum; siue vtroquo modo vt corpus 
+      <lb ed="#T" n="30"/>In ijs vero quae sunt indiuisa actu &amp; potentia, 
+      <lb ed="#T" n="31"/>magis est vnum quod nihil habet in se praeter 
+      <lb ed="#T" n="32"/>rationem suae indiuisibilitatis vt vnitas; quam 
+      <lb ed="#T" n="33"/>quod habet, vt punctus, positionem scilicet.  
+      <lb ed="#T" n="34"/>In ijs vero quae: nihil habent in se praeter ratio 
+      <lb ed="#T" n="35"/>nem suae indiuisibilitatis, magis est vnum quod 
+      <lb ed="#T" n="36"/>nec in se componitur, nec alteri, vt vnitas 
+      in<lb ed="#T" n="37" break="no"/>creata, quam quod alteri componitur, a quo 
+      <lb ed="#T" n="38"/>&amp; diuidi potest, vt vnitas creata. 
+    </p>
+               <p xml:id="pdt7y6-e60185-d1e316">
+                  <lb ed="#T" n="39"/>Ad primum de principio numeri. Resp. Vnum 
+      <lb ed="#T" n="40"/>dupliciter accipitur est enim vnum quod 
+      con<lb ed="#T" n="41" break="no"/>uertitur cum ente &amp; est vnum quod est 
+      prin<lb ed="#T" n="42" break="no"/>cipium numeri: primum non est determinatum. 
+      <lb ed="#T" n="43"/>in aliquo genere, sicut nec ens, sed inuenitur in 
+      <lb ed="#T" n="44"/>omnibus: secundum est in genere quantitatis) 
+      <lb ed="#T" n="45"/>Primo modo vnum verissime inuenitur in Deo, 
+      <lb ed="#T" n="46"/>vnde sicut verissime &amp; simpliciter Deus est ens: 
+      <lb ed="#T" n="47"/>non alio quam seipso; ita vnus: secundo modo 
+      <lb ed="#T" n="48"/>vnum non ponitur in Deo simpliciter, sed quoad 
+      <lb ed="#T" n="49"/>aliquam conditionem eius ad perfectionem 
+      per<lb ed="#T" n="50" break="no"/>tinentem, vt distinguere vel mensurare omnia, 
+      <lb ed="#T" n="51"/>&amp; huiusmodi. 
+    </p>
+               <p xml:id="pdt7y6-e60185-d1e348">
+                  <lb ed="#T" n="52"/>Ad 2. De puncto. Resp. Vnum, vt est 
+      prin<lb ed="#T" n="53" break="no"/>cipium numeri, non ponitur in Deo simpliciter: 
+      <lb ed="#T" n="54"/>sic nec punctus. 
+    </p>
+               <p xml:id="pdt7y6-e60185-d1e357">
+                  <lb ed="#T" n="55"/>Ad 3. Unitas consequitur actum formae 
+      ter<lb ed="#T" n="56" break="no"/>minantis Resp. Hoc verum est de vnitate 
+      acci<lb ed="#T" n="57" break="no"/>dentali, quae est in genere quantitatis; non de 
+      <lb ed="#T" n="58"/>essentiali secundum quod vnum conuertitur 
+      <lb ed="#T" n="59"/>cum ente: vnitas vero accidentalis in Deo non est. 
+      <lb ed="#T" n="60"/>Vel dicendum, quod quamuis in Deo non sit 
+      <lb ed="#T" n="61"/>forma terminans ipsum, est tamen forma eiu 
+      <lb ed="#T" n="62"/>non terminata ad aliud, sed terminans omnia. 
+      <lb ed="#T" n="63"/>vnde hoc ipso sufficienter ab alijs distinguitur 
+      <lb ed="#T" n="64"/>quia omnia terminans a nullo terminatur. 
+    </p>
+               <p xml:id="pdt7y6-e60185-d1e381">
+                  <lb ed="#T" n="65"/>Ad 4. De communicabilitate Resp. Vnum 
+      <lb ed="#T" n="66"/>vnitate numerali est alteri communicabile: sec 
+      <lb ed="#T" n="67"/>Deus non est vnum huiusmodi vnitate. Vel 
+      di<lb ed="#T" n="68" break="no"/>cendum quod est communicabile, large acci 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0273.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="69"/>piendo communicabile, non tamen proprie 
+      <lb ed="#T" n="70"/>quia non communicat aliquid vnum cum a 
+      <lb ed="#T" n="71"/>tero vniuoce, sed analogice tantum, ita quod 
+      <lb ed="#T" n="72"/>ipse habet illud per essentiam, alia vero 
+      partici<lb ed="#T" n="73" break="no"/>patiue: ex quo non sequitur quod aliquid sit 
+      <lb ed="#T" n="74"/>maius Deo 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e60185-Dd1e411">
+               <head xml:id="pdt7y6-e60185-Hd1e413">Articulus 2</head>
+               <head xml:id="pdt7y6-e60185-Hd1e415" type="question-title">
+  An secundum positionem vel secundum priuationem unum possit dici de Deo.
+</head>
+               <p xml:id="pdt7y6-e60185-d1e418">
+                  <lb ed="#T" n="75"/>Articvlvs II. 
+      <lb ed="#T" n="76"/>An secundum positionem vel secundum 
+      priua<lb ed="#T" n="77" break="no"/>tionem unum possit dici de Deo. 
+</p>
+               <p xml:id="pdt7y6-e60185-d1e427">
+                  <lb ed="#T" n="78"/>AD secundum articulum sic proceditur. Dicit 
+      <lb ed="#T" n="79"/>Philosophus in Metaph. Vnum est quod 
+      <lb ed="#T" n="80"/>non diuiditur: &amp; alibi dicit, quod vnum 
+      <lb ed="#T" n="81"/>est indiuisum in se &amp; diuisum ab alijs: indiuisio 
+      <lb ed="#T" n="82"/>vero dicit priuationem: ergo vnum dicitur 
+      se<lb ed="#T" n="83" break="no"/>cundum priuationem tantum 
+    </p>
+               <p xml:id="pdt7y6-e60185-d1e443">
+                  <lb ed="#T" n="84"/>2. Secundum Philosophum lib. Metaphy. Vnum 
+      <lb ed="#T" n="85"/>opponitur multitudini, sicut priuatio habitui: 
+      <lb ed="#T" n="86"/>ergo dicitur secundum priuationem. 
+    </p>
+               <p xml:id="pdt7y6-e60185-d1e453">
+                  <lb ed="#T" n="87"/>3. Si dicitur secundum positionem: ergo bene 
+      <lb ed="#T" n="88"/>potest dici, Deus &amp; creatura sunt duo: ergo 
+      <lb ed="#T" n="89"/>Deus est pars alicuius totius, quod falsum est, 
+    </p>
+               <p xml:id="pdt7y6-e60185-d1e462">
+                  <lb ed="#T" n="90"/>4. Vnum dictum positiue est principium 
+      nu<lb ed="#T" n="91" break="no"/>meri: sed in Deo non est numerus. 
+    </p>
+               <p xml:id="pdt7y6-e60185-d1e469">
+                  <lb ed="#T" n="92"/>Contra. 1. Vnum naturaliter prius est multo 
+      <lb ed="#T" n="93"/>&amp; constituit multitudinem: priuatio vero 
+      <lb ed="#T" n="94"/>non est prior habitu, nec constituit habitum: 
+      <lb ed="#T" n="95"/>ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e60185-d1e480">
+                  <lb ed="#T" n="96"/>2. Quicquid dicitur de Deo &amp; de 
+      creatu<lb ed="#T" n="97" break="no"/>ra, nobiliori modo dicitur de Deo quam de 
+      <lb ed="#T" n="98"/>creatura: ergo cum vnum dicatur de 
+      vtro<lb ed="#T" n="99" break="no"/>que, &amp; de creatura dicatur per modum 
+      positio<lb ed="#T" n="100" break="no"/>nis quia conuertitur cum ente, de creatore 
+      di<lb ed="#T" n="101" break="no"/>cetur per modum positionis. 
+    </p>
+               <p xml:id="pdt7y6-e60185-d1e496">
+                  <lb ed="#T" n="102"/>3. Vnumquodque quanto magis vnum, tanto 
+      <lb ed="#T" n="103"/>magis perfectum: perfectio consistit in 
+      positio<lb ed="#T" n="104" break="no"/>ne non in priuatione: ergo &amp; vnitas 
+    </p>
+               <p xml:id="pdt7y6-e60185-d1e505">
+                  <lb ed="#T" n="105"/>Respondeo. De vno est loqui dupliciter: vno 
+      <lb ed="#T" n="106"/>modo quoad rem intellecta: altero modo quoad 
+      <lb ed="#T" n="107"/>principium intelligendi vel innotescendi, sicut de 
+      <lb ed="#T" n="108"/>puncto. Punctus quidem secundum rationem 
+      <lb ed="#T" n="109"/>essendi dicit positionem: secundum rationem 
+      <lb ed="#T" n="110"/>innotescendi priuationem dicit: quia punctus 
+      <lb ed="#T" n="111"/>est cuius pars non est; eo enim quod simplex 
+      <lb ed="#T" n="112"/>est &amp; principium, ideo minus notum sensui, 
+      <lb ed="#T" n="113"/>ideo habet describi per abnegationem partis 
+      <lb ed="#T" n="114"/>quantitatis quasi rei notioris. Similiter vnitas 
+      <lb ed="#T" n="115"/>secundum rationem essendi ponit aliquid: 
+      se<lb ed="#T" n="116" break="no"/>cundum rationem vero innotescendi dicit 
+      priua<lb ed="#T" n="117" break="no"/>tionem, quia diuisio notior sensui, ideo 
+      noti<lb ed="#T" n="118" break="no"/>ficatur vnitas per priuationem diuisionis. Est 
+      <lb ed="#T" n="119"/>autem vnum duplex vnum conuertibile cum 
+      <lb ed="#T" n="120"/>ente, &amp; vnum principium numeri: nam idem 
+      <lb ed="#T" n="121"/>non potest esse aliquid contentum sub inferiori. 
+      <lb ed="#T" n="122"/>&amp; esse differentia diuisiua superioris: vnde cum 
+      <lb ed="#T" n="123"/>ens diuidatur in vnum &amp; multa, oportet quod 
+      <lb ed="#T" n="124"/>sit aliud vnum praeter id quod est principium 
+      <lb ed="#T" n="125"/>quantitatis. (Licet Auicenna dixerit quod non 
+      <lb ed="#T" n="126"/>est vnitas alia, nisi accidentalis forma adueniens 
+      <lb ed="#T" n="127"/>formae substantiali, quae facit vnum, sicur 
+      al<lb ed="#T" n="128" break="no"/>bedo album: &amp; est principium numeri. ) 
+      Pri<lb ed="#T" n="129" break="no"/>ma vnitas est idem cum forma substantiali 
+      quo<lb ed="#T" n="130" break="no"/>ad actum suae distinctionis ab alijs, vel 
+      proprie<lb ed="#T" n="131" break="no"/>tas immediatem &amp; inseparabiliter consequens eam: 
+      <lb ed="#T" n="132"/>ipsa enim forma secundum actum 
+      perficiendi<lb ed="#T" n="133" break="no"/>dicitur essentia; secundum actum distinguendi 
+      <lb ed="#T" n="134"/>dicitur vnitas; secundum actum declarandi di¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0274.xml-->
+      <pb ed="#T" n="199"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>citur veritas; secundum actum ordinandi in finem 
+      <lb ed="#T" n="2"/>dicitur bonitas: vel est horum causa essentialis 
+      <lb ed="#T" n="3"/>sicut proprietatum essentialium, quod verius 
+      vi<lb ed="#T" n="4" break="no"/>detur. Vnitas vero accidentalis quaedam forma 
+      <lb ed="#T" n="5"/>est causata ex actu formae substantialis, cuius 
+      <lb ed="#T" n="6"/>actus est mensurare. Secundum hunc modum 
+      <lb ed="#T" n="7"/>duplicem vnitatis, vnitas duplex est in Diuinis: 
+      <lb ed="#T" n="8"/>vna substantialis quae fundatur super vnam 
+      es<lb ed="#T" n="9" break="no"/>sentiam: altera personalis quae fundatur super 
+      <lb ed="#T" n="10"/>proprietate vna personae constitutiua. 
+    </p>
+               <p xml:id="pdt7y6-e60185-d1e602">
+                  <lb ed="#T" n="11"/>Ad 1. De descriptione. Resp. Licet 
+      secun<lb ed="#T" n="12" break="no"/>dum rationem innotescendi, vnum dicat 
+      priua<lb ed="#T" n="13" break="no"/>tionem: tamen secundum rationem essendi 
+      ali<lb ed="#T" n="14" break="no"/>quid ponit. 
+    </p>
+               <p xml:id="pdt7y6-e60185-d1e613">
+                  <lb ed="#T" n="15"/>Ad 2. Vnum opponitur multitudini vt 
+      priua<lb ed="#T" n="16" break="no"/>tio habitui. Resp. Philosophus loquitur 
+      secun<lb ed="#T" n="17" break="no"/>dum rationem inuotescendi, quia per 
+      priuatio<lb ed="#T" n="18" break="no"/>nem multitudinis innotescit: non secundum 
+      ra<lb ed="#T" n="19" break="no"/>tionem essendi; sic enim pars est multitudinis 
+      <lb ed="#T" n="20"/>&amp; eius mensura: &amp; priuatio non est pars habitus 
+      <lb ed="#T" n="21"/>&amp; inquantum pars non opponitur ei, 
+      inquan<lb ed="#T" n="22" break="no"/>tum vero mensura opponitur ei relatiue. 
+    </p>
+               <p xml:id="pdt7y6-e60185-d1e633">
+                  <lb ed="#T" n="23"/>Ad 3. Ergo potest dici Deus &amp; creatura sunt 
+      <lb ed="#T" n="24"/>duo. Resp. Licet possit dici large loquendo 
+      <lb ed="#T" n="25"/>non tamen proprie, quia vnitas diuina non est 
+      <lb ed="#T" n="26"/>vnitas numeralis. 
+    </p>
+               <p xml:id="pdt7y6-e60185-d1e644">
+                  <lb ed="#T" n="27"/>Ad 4. Vnum dictum positiue est principium 
+      nume<lb ed="#T" n="28" break="no"/>ri. Resp. Non est hoc verum de vno 
+      vniuersali<lb ed="#T" n="29" break="no"/>ter, sed de vnoin genere quantitatis. Est enim 
+      <lb ed="#T" n="30"/>vnum quod conuertitur cum ente, nec est 
+      prin<lb ed="#T" n="31" break="no"/>cipium numeri; &amp; est vnum accidentale quod 
+      <lb ed="#T" n="32"/>mensurat ens, &amp; hoc est principium numeri 
+      <lb ed="#T" n="33"/>vel numerati prout est in reipsa, vel 
+      numeran<lb ed="#T" n="34" break="no"/>tis prout prout est in anima, vel prout 
+      conside<lb ed="#T" n="35" break="no"/>deratur in natura propria: nam secundum 
+      Aui<lb ed="#T" n="36" break="no"/>cennam vnaquaeque formarum huiusmodi 
+      tri<lb ed="#T" n="37" break="no"/>plex esse habet, &amp; secundum hoc triplicem 
+      con<lb ed="#T" n="38" break="no"/>siderationem, scilicet in natura propria, &amp; in 
+      <lb ed="#T" n="39"/>materia, &amp; in anima, 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e60185-Dd1e676">
+               <head xml:id="pdt7y6-e60185-Hd1e678">Articulus 3</head>
+               <head xml:id="pdt7y6-e60185-Hd1e680" type="question-title">
+  An unum possit dici de Deo secundum substantiam, vel secundum relationem.
+</head>
+               <p xml:id="pdt7y6-e60185-d1e683">
+                  <lb ed="#T" n="40"/>Articvlvs III. 
+      <lb ed="#T" n="41"/>An vnum possit dici de Deo secundum substantiam, 
+      <lb ed="#T" n="42"/>vel secundum relationem. 
+</p>
+               <p xml:id="pdt7y6-e60185-d1e692">
+                  <lb ed="#T" n="43"/>AD tertium sic proceditur. dicit <name xml:id="pdt7y6-e60185-Nd1e696" ref="#Boethius">Boetius</name> &amp; 
+      <lb ed="#T" n="44"/>Augustinus de Trinitate, quod quicquid 
+      <lb ed="#T" n="45"/>in diuinis dicitur ad se, dicitur substantialiter &amp; 
+      <lb ed="#T" n="46"/>significat esientiam: vnum dicitur ad se: ergo 
+      <lb ed="#T" n="47"/>vnum substantialiter dicitur.  
+    </p>
+               <p xml:id="pdt7y6-e60185-d1e709">
+                  <lb ed="#T" n="48"/>2. Nulla relatio communis est tribus: ergo &amp;c. 
+      <lb ed="#T" n="49"/>3. Omnia praedicamenta, cum de Deo 
+      praedi<lb ed="#T" n="50" break="no"/>cantur, mutantur in substantiam, praeterquam 
+      <lb ed="#T" n="51"/>ad aliquid: ergo totum quod est de 
+      praedica<lb ed="#T" n="52" break="no"/>mento quantitatis, de Deo dictum mutatur in 
+      <lb ed="#T" n="53"/>substantiam: ergo vnum. 
+    </p>
+               <p xml:id="pdt7y6-e60185-d1e726">
+                  <lb ed="#T" n="54"/>4. Cum dicitur Pater est vnus aut hoc 
+      <lb ed="#T" n="55"/>dicitur secundum substantiam, aut secundum 
+      <lb ed="#T" n="56"/>notionem: si secundum substantiam, ergo 
+      si<lb ed="#T" n="57" break="no"/>gnificat substantiam: si secundum notionem, 
+      <lb ed="#T" n="58"/>ergo cuot sunt in Patre notiones tot vnitates 
+    </p>
+               <p xml:id="pdt7y6-e60185-d1e739">
+                  <lb ed="#T" n="59"/>5. Eadem est significatio termini in 
+      masculi<lb ed="#T" n="60" break="no"/>no &amp; in neutro: sed vnum in neutro significat  
+      <lb ed="#T" n="61"/>essentiam, vnde bene dicitur Pater &amp; Filius, 
+      <lb ed="#T" n="62"/>sunt vnum: ergo similiter in masculino: 
+    </p>
+               <p xml:id="pdt7y6-e60185-d1e750">
+                  <lb ed="#T" n="63"/>Contra. 1. Esse vnum importat esse distinctum 
+      <lb ed="#T" n="64"/>&amp; diuisum ab alijs: distinctio vero ad notionem 
+      <lb ed="#T" n="65"/>pertinet, non ad substantiam in diuinis: ergo 
+      <lb ed="#T" n="66"/>vnum in diuinis significat notionem, non sub¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0274.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>stantiam 
+    </p>
+               <p xml:id="pdt7y6-e60185-d1e768">
+                  <lb ed="#T" n="68"/>2. Duo &amp; tres multiplicant significatum vnius: 
+      <lb ed="#T" n="69"/>sed non multiplicant substantiam: ergo vnum 
+      <lb ed="#T" n="70"/>non significat substantiam. 
+    </p>
+               <p xml:id="pdt7y6-e60185-d1e777">
+                  <lb ed="#T" n="71"/>3. Non potest dici Pater &amp; Filius sunt vnus: 
+      <lb ed="#T" n="72"/>erro non significat substantiam. 
+    </p>
+               <p xml:id="pdt7y6-e60185-d1e784">
+                  <lb ed="#T" n="73"/>Respondeo. Vnum dicit rationem 
+      distinctio<lb ed="#T" n="74" break="no"/>nis ab alijs, &amp; indiuisionis in seipso: essentia 
+      <lb ed="#T" n="75"/>vero diuina in se indiuisa est, &amp; distincta ab alijs 
+      <lb ed="#T" n="76"/>essentijs: similiter persona ab alijs personis: &amp; 
+      <lb ed="#T" n="77"/>ideo vtrique conuenit ratio vnitatis: vnde in 
+      <lb ed="#T" n="78"/>diuinis vnitas est essentialis &amp; personalis. 
+      Scien<lb ed="#T" n="79" break="no"/>dum tamen quod aliud est iudiciumde his 
+      ter<lb ed="#T" n="80" break="no"/>minis per se acceptis, aliud secundum quod 
+      ad<lb ed="#T" n="81" break="no"/>iunguntur alteri. Nam ratione significandi 
+      <lb ed="#T" n="82"/>vnum in neutro per se acceptum supponit 
+      essen<lb ed="#T" n="83" break="no"/>tiam, in masculino vero personam: secundum 
+      <lb ed="#T" n="84"/>vero quod alijs terminis adiunguntur, 
+      vtrum<lb ed="#T" n="85" break="no"/>que supponit secundum exigentiam termini cui 
+      <lb ed="#T" n="86"/>adiungitur. Si vero quaeritur quid principaliter 
+      <lb ed="#T" n="87"/>&amp; per se significet. Resp. Sicut ens, per se 
+      sim<lb ed="#T" n="88" break="no"/>pliciter significat substantiam, cum 
+      determina<lb ed="#T" n="89" break="no"/>tione significat rem alterius generis: sic vnum 
+      <lb ed="#T" n="90"/>Si quaeritur, an illae duae vnitates, scilicet,  
+      <lb ed="#T" n="91"/>essentialis &amp; personalis, ponant in numerum. 
+      <lb ed="#T" n="92"/>Resp. Non, quia non differunt re, sed ratione 
+      <lb ed="#T" n="93"/>solum. 
+    </p>
+               <p xml:id="pdt7y6-e60185-d1e833">
+                  <lb ed="#T" n="94"/>Ad 1. Omne quod dicitur ad se &amp;c. Resp. 
+      <lb ed="#T" n="95"/>Quamuis vnum per se dictum dicatur ad se 
+      <lb ed="#T" n="96"/>tamen ex adiuncto potest dici ad aliud, vt si 
+      <lb ed="#T" n="97"/>dicatur quod Pater &amp; Filius sunt vnum 
+      princi<lb ed="#T" n="98" break="no"/>pium Spiritus sancti. 
+    </p>
+               <p xml:id="pdt7y6-e60185-d1e846">
+                  <lb ed="#T" n="99"/>Ad 2. Nulla ratio communis &amp;c. Resp. Vnus 
+      <lb ed="#T" n="100"/>non significat notionem vel relationem aliquam  
+      <lb ed="#T" n="101"/>determinate, sed quamlibet indeterminate. 
+    </p>
+               <p xml:id="pdt7y6-e60185-d1e855">
+                  <lb ed="#T" n="102"/>Ad 3. De mutatione praedicamentorum. Resp. 
+      <lb ed="#T" n="103"/>Vnum in Deo non dicit rem de genere 
+      quanti<lb ed="#T" n="104" break="no"/>tatis, quia dicit distinctionem sine separatione 
+    </p>
+               <p xml:id="pdt7y6-e60185-d1e864">
+                  <lb ed="#T" n="105"/>Ad 4. Cum dicitur Pater est vnus. Resp. 
+      Di<lb ed="#T" n="106" break="no"/>citur vnus de Patre secundum notionem eius 
+      <lb ed="#T" n="107"/>non tamen secundum quamlibet notionem eius, 
+      <lb ed="#T" n="108"/>sed secundum personalem quae vnica est, scilicet  
+      <lb ed="#T" n="109"/>paternitas: similiter de Filio &amp; Spiritu sancto 
+      di<lb ed="#T" n="110" break="no"/>cendum est 
+    </p>
+               <p xml:id="pdt7y6-e60185-d1e880">
+                  <lb ed="#T" n="111"/>Ad 5. Eadem significatio termini in masculino 
+      <lb ed="#T" n="112"/>&amp; in neutro &amp;c. Resp. Quamuis eadem sit 
+      signi<lb ed="#T" n="113" break="no"/>ficatio termini secundum se: tamen modus 
+      signi<lb ed="#T" n="114" break="no"/>ficandi, seu consignificatio non est eadem, 
+      ratio<lb ed="#T" n="115" break="no"/>ne cuius potest fieri appropriatio ad 
+      supponen<lb ed="#T" n="116" break="no"/>dum personaliter in masculino, substantialiter  
+      <lb ed="#T" n="117"/>in neutro: quia masculinum genus significat 
+      <lb ed="#T" n="118"/>idem cum sexus distinctione, sed neutrum 
+      in<lb ed="#T" n="119" break="no"/>distincte. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

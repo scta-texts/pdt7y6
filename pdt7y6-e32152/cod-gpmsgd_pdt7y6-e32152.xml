@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="106"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e32152"><!-- l1d13q1 -->
+            <head xml:id="pdt7y6-e32152-Hd1e99">Quaestio 1</head>
+            <head xml:id="pdt7y6-e32152-Hd1e101" type="question-title">De processione</head>
+            <p xml:id="pdt7y6-e32152-d1e104">
+               <lb ed="#T" n="65"/>QVESTIO I. 
+      <lb ed="#T" n="66"/>DE PROCESSIONE.
+</p>
+            <p xml:id="pdt7y6-e32152-d1e111">
+               <lb ed="#T" n="67"/>QVaeruntur hic tria. 
+      <lb ed="#T" n="68"/>Primum est de processione. 
+      <lb ed="#T" n="69"/>Secundum de generationis &amp; processionis 
+      <lb ed="#T" n="70"/>comparatione. 
+      <lb ed="#T" n="71"/>Tertium de ratione ingeniti. 
+    </p>
+            <p xml:id="pdt7y6-e32152-d1e124">
+               <lb ed="#T" n="72"/>Circa primum quaeruntur duo. 
+      <lb ed="#T" n="73"/>Primo an processio sit in Diuinis. 
+      <lb ed="#T" n="74"/>Secundo an procedere sit proprium Spiritui 
+      <lb ed="#T" n="75"/>sancto. 
+      
+    </p>
+            <div xml:id="pdt7y6-e32152-Dd1e136">
+               <head xml:id="pdt7y6-e32152-Hd1e138">Articulus 1</head>
+               <head xml:id="pdt7y6-e32152-Hd1e140" type="question-title">An processio sit in Diuinis</head>
+               <p xml:id="pdt7y6-e32152-d1e143">
+    <!--1652-gregPress-MichiganState-gbooks-v1-0182.xml-->
+                  <pb ed="#T" n="107"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>ARTICVLVS I. 
+      <lb ed="#T" n="2"/>An processio sit in Diuinis. 
+  </p>
+               <p xml:id="pdt7y6-e32152-d1e156">
+                  <lb ed="#T" n="3"/>AD primum sic proceditur. 1. Processio dicit 
+      <lb ed="#T" n="4"/>quendam motum: sed in Deo nullus est 
+      <lb ed="#T" n="5"/>motus: ergo nulla processio. 
+    </p>
+               <p xml:id="pdt7y6-e32152-d1e165">
+                  <lb ed="#T" n="6"/>2. Processio importat separationem 
+      proce<lb ed="#T" n="7" break="no"/>dentis ab eo, vnde procedit: sed in Diuinis nulla 
+      <lb ed="#T" n="8"/>est separatio: ergo. 
+    </p>
+               <p xml:id="pdt7y6-e32152-d1e175">
+                  <lb ed="#T" n="9"/>3. Omnis processio est egressio ab alio in aliud 
+      <lb ed="#T" n="10"/>sed emanatio rei per se subsistentis non est vt in 
+      <lb ed="#T" n="11"/>aliud: ergo non est processio: talis autem est 
+      <lb ed="#T" n="12"/>emanatio personae a persona: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e32152-d1e186">
+                  <lb ed="#T" n="13"/>Contra. 1. Damasc. lib. 1. Credimus Patrem 
+      <lb ed="#T" n="14"/>&amp; Filium &amp; Spiritum sanctum a Patre 
+      proce<lb ed="#T" n="15" break="no"/>dentem &amp; in Filio requiescentem. 
+    </p>
+               <p xml:id="pdt7y6-e32152-d1e195">
+                  <lb ed="#T" n="16"/>2. Ioan. 16. Spiritus Paraclitus qui a patre 
+      <lb ed="#T" n="17"/>procedit. 
+    </p>
+               <p xml:id="pdt7y6-e32152-d1e202">
+                  <lb ed="#T" n="18"/>3. Dicitur procedere amor ab amante, 
+      quam<lb ed="#T" n="19" break="no"/>uis non distet, nec separetur ab ipso: ergo 
+      con<lb ed="#T" n="20" break="no"/>uenienter dici potest Spiritus procedere 
+      quam<lb ed="#T" n="21" break="no"/>uis non separetur a Patre &amp; Filio. 
+    </p>
+               <p xml:id="pdt7y6-e32152-d1e213">
+                  <lb ed="#T" n="22"/>Respondeo. Duplex est in inferioribus proces 
+      <lb ed="#T" n="23"/>sio, vna localis, sicut motus animalis 
+      progressi<lb ed="#T" n="24" break="no"/>uus appellatur processiuus motus: altera causa 
+      <lb ed="#T" n="25"/>lis, sicut dicitur procedere splendor ab igne, lus 
+      <lb ed="#T" n="26"/>a sole. Ab hac duplici similitudine transfertur 
+      <lb ed="#T" n="27"/>ad Diuinam nomen processionis, quoad 
+      determi<lb ed="#T" n="28" break="no"/>nationem &amp; distinctionem originis non quoa d 
+      <lb ed="#T" n="29"/>essentiae diuersitatem, quia primum perfectionis 
+      <lb ed="#T" n="30"/>est, sed secundum imperfectionis: sed processio 
+      <lb ed="#T" n="31"/>Filij videtur magis assimilari causali, quam 
+      lo<lb ed="#T" n="32" break="no"/>cali; processio Spiritus vtrique, quia ab alio in 
+      <lb ed="#T" n="33"/>alium: processio etiam aeterna Spiritus sancti 
+      mi<lb ed="#T" n="34" break="no"/>nus assimilatur locali, quam processio 
+      tempo<lb ed="#T" n="35" break="no"/>ralis 
+    </p>
+               <p xml:id="pdt7y6-e32152-d1e246">
+                  <lb ed="#T" n="36"/>Ad 1. Processio dicit motum &amp;c. Resp. 
+      Pro<lb ed="#T" n="37" break="no"/>cessus rei a re, a qua differt essentialiter, motus 
+      <lb ed="#T" n="38"/>est &amp; mutatio in producente, vel in producto: 
+      <lb ed="#T" n="39"/>sed talis processio non est in Deo. 
+    </p>
+               <p xml:id="pdt7y6-e32152-d1e258">
+                  <lb ed="#T" n="40"/>Ad 2. De separatione &amp; distantia. Resp. Hoc 
+      <lb ed="#T" n="41"/>habet locum in processione per differentiam es 
+      <lb ed="#T" n="42"/>sentialem 
+    </p>
+               <p xml:id="pdt7y6-e32152-d1e267">
+                  <lb ed="#T" n="43"/>Ad 3. Processio est ab alio in aliud. Resp. Hoc 
+      <lb ed="#T" n="44"/>licet verum sit in processione locali, non tamen 
+      <lb ed="#T" n="45"/>semper in causali, vt patet in processione prolis 
+      <lb ed="#T" n="46"/>a parente. Nihilominus tamen Spiritus sanctus, 
+      <lb ed="#T" n="47"/>vt est amor, procedit a Patre in Filium vt in 
+      <lb ed="#T" n="48"/>objectum, &amp; e conuerso, inquantum est amor 
+      <lb ed="#T" n="49"/>vtriusque: requiescere vero dicitur in Filio, quia 
+      <lb ed="#T" n="50"/>Filius non datalteri personae, vt de se producat 
+      <lb ed="#T" n="51"/>Spiritum sanctum, 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e32152-Dd1e290">
+               <head xml:id="pdt7y6-e32152-Hd1e292">Articulus 2</head>
+               <head xml:id="pdt7y6-e32152-Hd1e294" type="question-title">
+  An procedere sit proprium Spiritus sancto.
+</head>
+               <p xml:id="pdt7y6-e32152-d1e297">
+                  <lb ed="#T" n="52"/>Articvlvs II. 
+      <lb ed="#T" n="53"/>An procedere sit proprium Spiritus sancto.
+</p>
+               <p xml:id="pdt7y6-e32152-d1e304">
+                  <lb ed="#T" n="54"/>AD secundum sic proceditur. 1. Hylar. lib. d 
+      <lb ed="#T" n="55"/>Trinit. Ex virtute naturae in eandem 
+      natu<lb ed="#T" n="56" break="no"/>ram natiuitate subsistit Filius, ex virtute naturae 
+      <lb ed="#T" n="57"/>in eadem naturam processione subsistit Spiritu 
+      <lb ed="#T" n="58"/>sanctus: ergo sicut natiuitas est proprietas 
+      per<lb ed="#T" n="59" break="no"/>sonalis Filij,i taprocessio Spiritus sancti. Et 
+      Au<lb ed="#T" n="60" break="no"/>gustinus 15. de Trinit. Sicut Filio praestat essen¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0182.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="61"/>tiam sine vllo vitio temporis, sine vila 
+      mutatio<lb ed="#T" n="62" break="no"/>ne naturae, de Patre generatio: ita Spiritui sancto 
+      <lb ed="#T" n="63"/>praestat essentiam sine vllo vitio tenmporis, sine 
+      <lb ed="#T" n="64"/>vlla mutatione naturae, ab vtroque processio: ergo 
+      <lb ed="#T" n="65"/>processio est personalis proprietas Spiritus sanctis 
+      <lb ed="#T" n="66"/>ergo procedere conuenit ei soli. 
+    </p>
+               <p xml:id="pdt7y6-e32152-d1e339">
+                  <lb ed="#T" n="67"/>2. Si conuenit sibi &amp; alteri personae: aut ergo 
+      <lb ed="#T" n="68"/>aequiuoce, ergo solo nomine, non re conuenit 
+      <lb ed="#T" n="69"/>eis esse ab alio: aut vniuoce, ergo vterque 
+      pro<lb ed="#T" n="70" break="no"/>cedit vno &amp; eodem modo: aut analogice, ergo 
+      <lb ed="#T" n="71"/>prius &amp; posterius est in Deo: sed omnia haec 
+      <lb ed="#T" n="72"/>sunt inconuenientia: ergo procedere conuenit 
+      <lb ed="#T" n="73"/>soli Spiritui sancto. 
+    </p>
+               <p xml:id="pdt7y6-e32152-d1e358">
+                  <lb ed="#T" n="74"/>3. Per commune non sit personalis dictinctio: 
+      <lb ed="#T" n="75"/>sed per processionem sit personae Spiritus sancti 
+      <lb ed="#T" n="76"/>distinctio: ergo proprium est procedere 
+      Spiritu<lb ed="#T" n="77" break="no"/>sancto. 
+    </p>
+               <p xml:id="pdt7y6-e32152-d1e369">
+                  <lb ed="#T" n="78"/>Contra 1. Ioan. 8. Ego enim, ait Filius, ex 
+      <lb ed="#T" n="79"/>Deo processi, &amp; veni¬ 
+    </p>
+               <p xml:id="pdt7y6-e32152-d1e376">
+                  <lb ed="#T" n="80"/>2. Richard. de sancto Victore lib. de Trinit. 
+      <lb ed="#T" n="81"/>duabus personis constat esse commune non esse 
+      <lb ed="#T" n="82"/>a semetipsis, sed aliunde procedere 
+    </p>
+               <p xml:id="pdt7y6-e32152-d1e385">
+                  <lb ed="#T" n="83"/>3. In imagine Trinitatis commune est noti 
+      <lb ed="#T" n="84"/>tiae &amp; amori procedere a mente: ergo in 
+      Trinita<lb ed="#T" n="85" break="no"/>te commune est Filio &amp; Spiritui sancto 
+      pro<lb ed="#T" n="86" break="no"/>cedere a Patre. 
+    </p>
+               <p xml:id="pdt7y6-e32152-d1e396">
+                  <lb ed="#T" n="87"/>Respondeo. Procedere vno modo accipitur  
+      <lb ed="#T" n="88"/>communiter, &amp; sic idem est quod emanare ab 
+      <lb ed="#T" n="89"/>altero, &amp; sic est commune secundum rationem 
+      <lb ed="#T" n="90"/>Filio &amp; Spiritui sancto: altero modo appropriate, 
+      <lb ed="#T" n="91"/>&amp; sic dicitur procedere emanate ab altero in 
+      <lb ed="#T" n="92"/>alterum, sicut procedit amor ab amante in 
+      ama<lb ed="#T" n="93" break="no"/>tum; sic est proprium Spiritui sancto. 
+      Appro<lb ed="#T" n="94" break="no"/>priatur autem nomen Spiritui sancto, 
+      quam<lb ed="#T" n="95" break="no"/>uis commune sit Filio. Et ratio vna est, quia 
+      <lb ed="#T" n="96"/>procedit a duobus, Filius ab vno solo, vnde 
+      vi<lb ed="#T" n="97" break="no"/>detur magis procedere. Altera ratio est, quia 
+      <lb ed="#T" n="98"/>procedit ab vno in alium, vnde plus videtur 
+      <lb ed="#T" n="99"/>habere de ratione processionis. Tertia ratio est, 
+      <lb ed="#T" n="100"/>quia differentia, quam addit processio Spiritus 
+      <lb ed="#T" n="101"/>sancti supra processionem communiter dictam, 
+      <lb ed="#T" n="102"/>non est ibi nota &amp; euidens, ideo nominatur 
+      no<lb ed="#T" n="103" break="no"/>mine generali, sicut accidens commune retinet 
+      <lb ed="#T" n="104"/>nomen sui generis, proprium vero habet 
+      no<lb ed="#T" n="105" break="no"/>men speciale. 
+    </p>
+               <p xml:id="pdt7y6-e32152-d1e440">
+                  <lb ed="#T" n="106"/>Ad 1. Proprietas personalis est. Resp. Verum 
+      <lb ed="#T" n="107"/>est secundum quod accipitur appropriate non 
+      <lb ed="#T" n="108"/>communiter, scilicet modo secundo: non primo, 
+      <lb ed="#T" n="109"/>sicut Spiritus sanctus nomen proprium est 
+      Spi<lb ed="#T" n="110" break="no"/>ritus sancti vnomodo: toti tamen Trinitati 
+      <lb ed="#T" n="111"/>commune est altero modo. 
+    </p>
+               <p xml:id="pdt7y6-e32152-d1e457">
+                  <lb ed="#T" n="112"/>Ad 2. Aut dicitur vniuoce Resp. Secundum 
+      <lb ed="#T" n="113"/>quod primo modo accipitur, vniuoce dicitur  
+      <lb ed="#T" n="114"/>quia secundum vnam communem rationem, 
+      <lb ed="#T" n="115"/>quae est esse ab altero de eius substantia. 
+    </p>
+               <p xml:id="pdt7y6-e32152-d1e468">
+                  <lb ed="#T" n="116"/>Ad id quod contra hoc opponitur: ergo 
+      pro<lb ed="#T" n="117" break="no"/>cedunt eodem modo. Resp. Non sequitur, quia 
+      <lb ed="#T" n="118"/>hoc generale per differentias additas 
+      contrahi<lb ed="#T" n="119" break="no"/>tur &amp; specificatur, quamuis secundum hoc 
+      no<lb ed="#T" n="120" break="no"/>men, sit eadem vtriusque ratio. 
+    </p>
+               <p xml:id="pdt7y6-e32152-d1e481">
+                  <lb ed="#T" n="121"/>Ad 3. Per processionem sit dictinctio. Resp. 
+      <lb ed="#T" n="122"/>Verum est secundum quod accipitur 
+      appro<lb ed="#T" n="123" break="no"/>priate, non communiter.  
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

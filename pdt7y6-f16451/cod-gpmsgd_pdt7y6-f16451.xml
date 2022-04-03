@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="380"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-f16451"><!-- l1d46q1 -->
+            <head xml:id="pdt7y6-f16451-Hd1e99">Quaestio 1</head>
+            <head xml:id="pdt7y6-f16451-Hd1e101" type="question-title">De voluntate Dei per comparationem ad effectum</head>
+            <p xml:id="pdt7y6-f16451-d1e104">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0455.xml-->
+               <pb ed="#T" n="380"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>QVESTIO I. 
+      <lb ed="#T" n="2"/>DEVOLVNTATE DEI PER CoM
+      <lb ed="#T" n="3"/>PARATIONEM AD EETECTVM.
+    </p>
+            <p xml:id="pdt7y6-f16451-d1e120">
+               <lb ed="#T" n="4"/>VTIc quaeruntur duo 
+      <lb ed="#T" n="5"/>TPrimo de voluutate Dei. 
+      <lb ed="#T" n="6"/>Secundo de vtilitate mali.
+    </p>
+            <p xml:id="pdt7y6-f16451-d1e129">
+               <lb ed="#T" n="7"/>Circa primum quaeruntur quatuor.  
+      <lb ed="#T" n="8"/>Primo an Deus velit omnes homines saluari. 
+      <lb ed="#T" n="9"/>Secundo an velit mala fieri 
+      <lb ed="#T" n="10"/>Tertio an iuste permittat Deus mala fieri. 
+      <lb ed="#T" n="11"/>Quarto an verum sit mala fier 
+    </p>
+            <div xml:id="pdt7y6-f16451-Dd1e143">
+               <head xml:id="pdt7y6-f16451-Hd1e145">Articulus 1</head>
+               <head xml:id="pdt7y6-f16451-Hd1e147" type="question-title">An Deus velit omnes homines saluari</head>
+               <p xml:id="pdt7y6-f16451-d1e150">
+                  <lb ed="#T" n="12"/>Articvlvs I. 
+      <lb ed="#T" n="13"/>An Deus velit omnes homines saluari.
+</p>
+               <p xml:id="pdt7y6-f16451-d1e157">
+                  <lb ed="#T" n="14"/>D primum sic proceditur. 1. Timoth. 2. 
+      <lb ed="#T" n="15"/>dicit Apostolus: <quote xml:id="pdt7y6-f16451-Qd1e163">Qui vult omnes 
+      homi<lb ed="#T" n="16" break="no"/>nes saluos fieri</quote> &amp;c. Aut ergo intelligit de 
+      volun<lb ed="#T" n="17" break="no"/>tate absoluta, aut conditionata: si de 
+      condi<lb ed="#T" n="18" break="no"/>tionata, contra, voluntas conditionata est 
+      vo<lb ed="#T" n="19" break="no"/>luntas imperfecta, nihil vero imperfectum est in 
+      <lb ed="#T" n="20"/>Deo: si de absoluta, ergo Deus absolute vult 
+      <lb ed="#T" n="21"/>omnes homines saluari. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e180">
+                  <lb ed="#T" n="22"/>2. Deus omnem hominem creauit ad 
+      salu<lb ed="#T" n="23" break="no"/>tem: omnis vero sapiens vult quod opus suum. 
+      <lb ed="#T" n="24"/>assequatur finem: ergo Deus vult quod homo 
+      <lb ed="#T" n="25"/>assequatur finem: ergo Deus vult quod homo 
+      <lb ed="#T" n="26"/>assequatur salutem. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e194">
+                  <lb ed="#T" n="27"/>3. Voluntas habentis charitate conformis est 
+      vo<lb ed="#T" n="28" break="no"/>luntati Diuinae: sed omnis homo habens 
+      charita<lb ed="#T" n="29" break="no"/>tem vult saluari omnem hominem: ergo &amp; Deus. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e203">
+                  <lb ed="#T" n="30"/>4. Nullus potest saluari nisi quem Deus vuli 
+      <lb ed="#T" n="31"/>saluari. si ergo Deus non vult saluari hominem 
+      <lb ed="#T" n="32"/>non omnis homo in hoc quod damnatur 
+      vitupe<lb ed="#T" n="33" break="no"/>randus est, 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e214">
+                  <lb ed="#T" n="34"/>Contra. 1. Augustinus lib. de praedest. sanct 
+      <lb ed="#T" n="35"/>praedestinatio est propositum miserendi: sed Deus 
+      <lb ed="#T" n="36"/>non omnes praedestinat: ergo non omnibus vult. 
+      <lb ed="#T" n="37"/>misereri: ergo non omnes vult saluari. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e225">
+                  <lb ed="#T" n="38"/>2. Vt dicit Augustinus, voluntas Dei est 
+      sum<lb ed="#T" n="39" break="no"/>ma &amp; sufficiens causa omnium: posita causa 
+      suf<lb ed="#T" n="40" break="no"/>ficienti ponitur effectus statim, vt in causis 
+      na<lb ed="#T" n="41" break="no"/>turalibus, aut saltem aliquando vt in causis 
+      vo<lb ed="#T" n="42" break="no"/>luntariis: sed non omnes saluantur: ergo 
+      vo<lb ed="#T" n="43" break="no"/>luntas Dei non est vt omnes saluentur.  
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e241">
+                  <lb ed="#T" n="44"/>Respondeo Sicut dicit Damasc. duplex est 
+      <lb ed="#T" n="45"/>Dei voluntas: antecedens, qua vult omnes 
+      ho<lb ed="#T" n="46" break="no"/>mines in vniuersali saluari: &amp; consequens, qua 
+      <lb ed="#T" n="47"/>nonvult omnes, sed praedestinatos solum in 
+      par<lb ed="#T" n="48" break="no"/>ticulari: vult saluari quidem omnem hominem 
+      <lb ed="#T" n="49"/>inquantum homo est: sed non vult saluari istum 
+      <lb ed="#T" n="50"/>hominem reprobum inquantum iste est. Sicu 
+      <lb ed="#T" n="51"/>enim contingit aliquem scire in vniuersali, quod 
+      <lb ed="#T" n="52"/>nescit in particulari: ita velle. Haec autem 
+      dif<lb ed="#T" n="53" break="no"/>ferentia voluntatis accipitur non ex parte 
+      vo<lb ed="#T" n="54" break="no"/>sentis sed ex parte voliti: quia voluntas 
+      ante<lb ed="#T" n="55" break="no"/>cedens respicit ordinem naturae in finem, prout 
+      <lb ed="#T" n="56"/>a Deo condita est: voluntas vero consequens 
+      res<lb ed="#T" n="57" break="no"/>picit ordinem personae, prout libero arbitrio suo 
+      <lb ed="#T" n="58"/>vel alieno in finem disposita est. Ordo quidem 
+      <lb ed="#T" n="59"/>naturae a solo Deo est institutus, &amp; totus est 
+      bo<lb ed="#T" n="60" break="no"/>nus, &amp; ideo ad illum respiciendo Deus dicitur  
+      <lb ed="#T" n="61"/>velle saluari omnem hominem, hoc enim est 
+      <lb ed="#T" n="62"/>iustum. Sed ordo personae partim est a libero 
+      <lb ed="#T" n="63"/>arbitrio, in quo incidit malum: &amp; ideo secun¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0455.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="64"/>dum hunc ordinem non est iustum saluari 
+      o<lb ed="#T" n="65" break="no"/>nem hominem, nec bonum; iustum enim &amp; 
+      bo<lb ed="#T" n="66" break="no"/>num est saluari se disponentem &amp; obedientem, 
+      <lb ed="#T" n="67"/>ideo secundum hunc ordinem non vult Deus 
+      <lb ed="#T" n="68"/>saluari omnem hominem. Ratio vero huius 
+      de<lb ed="#T" n="69" break="no"/>nominationis sumitur per comparationem ad 
+      <lb ed="#T" n="70"/>prius &amp; posterius ex parte nostra, quia 
+      volun<lb ed="#T" n="71" break="no"/>tas Dei ad merita nostra seu ad praescientiam 
+      <lb ed="#T" n="72"/>meritorum potest comparari dupliciter: vel 
+      an<lb ed="#T" n="73" break="no"/>tecedenter, &amp; sic dicitur antecedens, &amp; eius 
+      ob<lb ed="#T" n="74" break="no"/>jectum est bonum debitum naturae: vel 
+      conse<lb ed="#T" n="75" break="no"/>quenter, &amp; sic dicitur consequens, &amp; eius 
+      ob<lb ed="#T" n="76" break="no"/>jectum est debitum personae seu voluntati. 
+      Effe<lb ed="#T" n="77" break="no"/>ctus voluntatis antecedentis)est ordinatio 
+      natu<lb ed="#T" n="78" break="no"/>rae in salutemr: effectus verbo consequentis. 
+      <lb ed="#T" n="79"/>actualis saluatio. Exemplum vero huius 
+      distin<lb ed="#T" n="80" break="no"/>ctionis patet in Rege iusto, qui omnes homines 
+      <lb ed="#T" n="81"/>regni sui vult saluari, respiciendo ad 
+      conformi<lb ed="#T" n="82" break="no"/>tatem naturae: vnde emnibus necessaria salutis 
+      <lb ed="#T" n="83"/>prouidet quantum in se est: sed tansen maleficos 
+      <lb ed="#T" n="84"/>vult damuari prepter defermitatem culpae. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e337">
+                  <lb ed="#T" n="85"/>Ad 1. Vult on.nes homines saiuos fieri. Resp. 
+      <lb ed="#T" n="86"/>Secundum Damascenum hoc intelligitur de 
+      vo<lb ed="#T" n="87" break="no"/>luntate antecedente, non consequente: secun 
+      <lb ed="#T" n="88"/>dum Augustinum hoc intelligitui de 
+      omnibu<lb ed="#T" n="89" break="no"/>qui saluantur, vt fiat distributio accemmoda, 
+      si<lb ed="#T" n="90" break="no"/>cut cum dicitur omnis homo illuminari a Deo 
+      <lb ed="#T" n="91"/>Ioan. 1. non generaliter. Secundum alios sit 
+      di<lb ed="#T" n="92" break="no"/>stributio pro generibus singulorum, non 
+      pro<lb ed="#T" n="93" break="no"/>singulis generum, de quolibet genere hominum 
+      <lb ed="#T" n="94"/>vult saluari aliquos, licet non singulos. 
+      Secun<lb ed="#T" n="95" break="no"/>dum alios intelligitur de voluntate 
+      conditiona<lb ed="#T" n="96" break="no"/>ta, non de voluntate absoluta, id est vellem, sic 
+      <lb ed="#T" n="97"/>ipsu vellent. Ad illud voluntas conditionata 
+      im<lb ed="#T" n="98" break="no"/>perfecta est. Resp. Si conditio esset ex parte 
+      vo<lb ed="#T" n="99" break="no"/>lentis, imperfecta esset tunc: sed non ponitur nisi 
+      <lb ed="#T" n="100"/>ex parte voliti. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e375">
+                  <lb ed="#T" n="101"/>Ad 2. De sapiente. Resp. Sapiens vult vt 
+      <lb ed="#T" n="102"/>opus suum assequatur finem, non 
+      qualitercum<lb ed="#T" n="103" break="no"/>que, sed ordine debito, scilicet remotis 
+      disposi<lb ed="#T" n="104" break="no"/>tionibus contrariis: ille vero qui damnatur, 
+      per<lb ed="#T" n="105" break="no"/>manet sub dispositionibus contrariis, ideo Deus 
+      <lb ed="#T" n="106"/>voluntate consequente non vult cum saluari. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e391">
+                  <lb ed="#T" n="107"/>Ad 3. De habente charitatem. Resp. Habens 
+      <lb ed="#T" n="108"/>charitatem conformat se voluntati antecedenti, 
+      <lb ed="#T" n="109"/>quia non potest consequenti: eo quod nouit 
+      <lb ed="#T" n="110"/>conditiones naturae in vnoquoque ad 
+      beatitudi<lb ed="#T" n="111" break="no"/>nem ordinatae: sed non personae, quibus deor 
+      <lb ed="#T" n="112"/>dinatur quis a fine. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e407">
+                  <lb ed="#T" n="113"/>Ad 4. Nullus potest saluari &amp;c. Resp. 
+      Pro<lb ed="#T" n="114" break="no"/>positio haec duplex est: quia hoc verbum, vult 
+      <lb ed="#T" n="115"/>potest copulare voluntatem antecedentem, sic 
+      <lb ed="#T" n="116"/>vera est simpliciter: vel consequentem, &amp; tunc 
+      <lb ed="#T" n="117"/>iterum distinguenda est: quia potest copulare 
+      <lb ed="#T" n="118"/>praesens vt nunc, sic falsa est: vel praesens 
+      sim<lb ed="#T" n="119" break="no"/>pliciter, sic est vera 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e425">
+                  <lb ed="#T" n="120"/>Ad 1. in contrarium. Praedestinatio est 
+      pro<lb ed="#T" n="121" break="no"/>positum miserendi &amp;c. Resp. Differunt 
+      propo<lb ed="#T" n="122" break="no"/>situm &amp; voluntas, quia voluntas quid 
+      commu<lb ed="#T" n="123" break="no"/>ne est ad voluntatem antecedentem &amp; 
+      conse<lb ed="#T" n="124" break="no"/>quentem: sed propositum dicit voluntatem 
+      con<lb ed="#T" n="125" break="no"/>sequentem, quia dicit voluntatem simplicitei, 
+      <lb ed="#T" n="126"/>&amp; praesupponit praescientiam meritorum, non 
+      <lb ed="#T" n="127"/>vt causam a parte volentis sed vt rationem a 
+      <lb ed="#T" n="128"/>parte voliti. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e447">
+                  <lb ed="#T" n="129"/>Ad 2. Posita causa sufficienti&amp;c. Resp. Effectu 
+      <lb ed="#T" n="130"/>voluntatis antecedentis non est saluari praecise: 
+      <lb ed="#T" n="131"/>sed ordinari naturaliter in salutem.
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e456">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0456.xml-->
+                  <pb ed="#T" n="381"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>Ad 3. Omne quod Deus vult, sit. Resp. Hoc 
+      <lb ed="#T" n="2"/>intelligitur de eo quod Deus vult simpliciter 
+      <lb ed="#T" n="3"/>Vel dicendum, quod per modum illum quoDeus 
+      <lb ed="#T" n="4"/>vult, sit omne quod vult: vnde si vult simplicit 
+      <lb ed="#T" n="5"/>ter, sit simpliciter: si vult quantum in se est, fit 
+      <lb ed="#T" n="6"/>quantum in eo est: illud aut quod vult 
+      volun<lb ed="#T" n="7" break="no"/>tate consequente dicitur velle simpliciter: sec 
+      <lb ed="#T" n="8"/>non illud quod vult voluntate antecedente. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f16451-Dd1e483">
+               <head xml:id="pdt7y6-f16451-Hd1e485">Articulus 2</head>
+               <head xml:id="pdt7y6-f16451-Hd1e487" type="question-title">An Deus velit mala fieri</head>
+               <p xml:id="pdt7y6-f16451-d1e490">
+                  <lb ed="#T" n="9"/>ARTCVLVS II. 
+      <lb ed="#T" n="10"/>An Deus velit mala fieri.
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e497">
+                  <lb ed="#T" n="11"/>AD secundum articulum sic proceditur. 1. 
+      <lb ed="#T" n="12"/>Quod Deus non vult impossibile est fieri 
+      <lb ed="#T" n="13"/>sed possibile est mala fieri: ergo Deus vult mala 
+      <lb ed="#T" n="14"/>fieri. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e508">
+                  <lb ed="#T" n="15"/>2. Apocalypsis vltimo, Iustum est vt qui in 
+      <lb ed="#T" n="16"/>fordibus est fordescat adhuc &amp;c. ergo iustum est 
+      <lb ed="#T" n="17"/>mala sieri: sed Deus vult omnem iustum: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e518">
+                  <lb ed="#T" n="18"/>3. Omnis sapiens si vult aliquid, vult &amp; omne 
+      <lb ed="#T" n="19"/>id sine quo illud esse non potest: sed Deus vult 
+      <lb ed="#T" n="20"/>sanctos mala ab iniquis pati: ergo vult ea ab 
+      ind<lb ed="#T" n="21" break="no"/>quis fieri. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e529">
+                  <lb ed="#T" n="22"/>4. Augustinus in Enchir. dicit. Nihil sit nisi 
+      <lb ed="#T" n="23"/>omnipotens fieri velit, vel sinendo vt fiat, 
+      ve<lb ed="#T" n="24" break="no"/>ipse faciendo: ergo cum mala siant, Deus vult 
+      <lb ed="#T" n="25"/>mala fieri. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e540">
+                  <lb ed="#T" n="26"/>5. De quolibet vera est affirmatio vel 
+      nega<lb ed="#T" n="27" break="no"/>tio: aut ergo vult mala fieri, aut non vuit mala 
+      <lb ed="#T" n="28"/>fieri: si non vult, ergo cum fiant, aliquid sit 
+      con<lb ed="#T" n="29" break="no"/>trarium suae voluntati: sed hoc est salsum: ergo 
+      <lb ed="#T" n="30"/>vult mala fieri. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e553">
+                  <lb ed="#T" n="31"/>6. Aut vult fieri aut vult non fieri: si primo 
+      <lb ed="#T" n="32"/>modo, ergo siunt Deo volente: si secundo 
+      mo<lb ed="#T" n="33" break="no"/>do, ergo, cum fiant, aliquid sit contra 
+      volunta<lb ed="#T" n="34" break="no"/>tem Dei. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e564">
+                  <lb ed="#T" n="35"/>Contra. 1. Augustinus lib. 83. quaest. Idem est 
+      <lb ed="#T" n="36"/>fieri Deo auctore, quod Deo volente: sed mala 
+      <lb ed="#T" n="37"/>non siunt Deo auctore: ergo nec Deo volente, 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e573">
+                  <lb ed="#T" n="38"/>2. Omnis voluntas aut denominatur a volito 
+      <lb ed="#T" n="39"/>bona vel mala, aut denominat ipsum volitum 
+      <lb ed="#T" n="40"/>vt sit bonum vel malum: sed voluntas Dei non 
+      <lb ed="#T" n="41"/>denominatur a malo, vt dicatur mala; nec 
+      deno<lb ed="#T" n="42" break="no"/>minat malum vt dicatur esse bonum: ergo Deus 
+      <lb ed="#T" n="43"/>non vult malum. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e590">
+                  <lb ed="#T" n="44"/>3. Omnis qui vult quod non potest miser est: 
+      <lb ed="#T" n="45"/>sed Deus, beatus existens, mala non potest: ergo 
+      <lb ed="#T" n="46"/>non vult ea 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e599">
+                  <lb ed="#T" n="47"/>4. Voluntas bene ordinata non est nisi finis 
+      <lb ed="#T" n="48"/>vel eorum quae sunt ad finem: sed voluntas Dei 
+      <lb ed="#T" n="49"/>bene ordinata est, malum veronec est finis, nec 
+      <lb ed="#T" n="50"/>ad finem: ergo non vult malum. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e610">
+                  <lb ed="#T" n="51"/>Respondeo. Circa hanc quaestionem tangit 
+      <lb ed="#T" n="52"/>hic Magister opinionem duplicem. Quidam 
+      <lb ed="#T" n="53"/>enim dixerunt quod Deus non vult mala, quia 
+      <lb ed="#T" n="54"/>malum non est bonum: vult tamen mala esse ve 
+      <lb ed="#T" n="55"/>fieri, quia mala esse vel fieri est bonum, quia est 
+      <lb ed="#T" n="56"/>occasio multorum bonorum: sicut Deus nescit 
+      <lb ed="#T" n="57"/>falsa, quia falsum non est verum, &amp; scientia non 
+      <lb ed="#T" n="58"/>est nisiverorum, scit tamen aliqua esse falsa, quia 
+      <lb ed="#T" n="59"/>aliqua esse falsa est verum. Alij dicunt verius 
+      <lb ed="#T" n="60"/>quod Deus non vult mala, nec vult mala esse ver 
+      <lb ed="#T" n="61"/>fieri: sed vult ea ordinare in bonum, vt sint 
+      occa<lb ed="#T" n="62" break="no"/>siones bonorum. Mala enim esse vel fieri, dicit  
+      <lb ed="#T" n="63"/>comparationem mali, &amp; sic mala sunt: sed mala 
+      <lb ed="#T" n="64"/>esse occasiones bonorum dicit comparationem 
+      <lb ed="#T" n="65"/>adbonum, quae bona est. Nec est simile de vero 
+      <lb ed="#T" n="66"/>&amp; falso, &amp; bono &amp; malo; quia secundum Phi¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0456.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>losophum verum &amp; falsum sunt in anima, sec 
+      <lb ed="#T" n="68"/>bonum &amp; malum sunt in rebus: id est verum &amp; 
+      <lb ed="#T" n="69"/>falsum sunt in rebus per comparationem ad 
+      ani<lb ed="#T" n="70" break="no"/>mam, sed bonum &amp; malum absolute. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e660">
+                  <lb ed="#T" n="71"/>Ad 1. Quod Deus non vult, impossibile est 
+      fie<lb ed="#T" n="72" break="no"/>ri. Resp. Non velle accipitur dupliciter: vel 
+      ne<lb ed="#T" n="73" break="no"/>gatiue &amp; quasi orationaliter: vel priuatiue &amp; quasi 
+      <lb ed="#T" n="74"/>dictionaliter: primo modo dicit negationem 
+      vo<lb ed="#T" n="75" break="no"/>luntatis, secundo modo voluntatem negationis. 
+      <lb ed="#T" n="76"/>Primo modo falsa est propositio; secundo modo 
+      <lb ed="#T" n="77"/>vera: primo modo Deus non vult mala fieri, &amp; 
+      <lb ed="#T" n="78"/>tamen siunt: secundo modo si non vellet fieri, id  
+      <lb ed="#T" n="79"/>est si vellet non fieri, numquam fierent. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e682">
+                  <lb ed="#T" n="80"/>Ad 2. Iustum est mala fieri. Resp. Deus vult 
+      <lb ed="#T" n="81"/>simpliciter omne quod iustum est simpliciter: 
+      <lb ed="#T" n="82"/>mala vero fieri non est iustum simpliciter, sed 
+      se<lb ed="#T" n="83" break="no"/>cundum quid: vnde nec est volitum a Deo 
+      sim<lb ed="#T" n="84" break="no"/>pliciter, sed secundum quid inquantum iustum. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e695">
+                  <lb ed="#T" n="85"/>Ad 3. Omnis sapiens si vult aliquid &amp;c. Resp. 
+      <lb ed="#T" n="86"/>Omnis sapiens si vult aliquid, vult &amp; illud 
+      si<lb ed="#T" n="87" break="no"/>ne quo esse non potest causaliter: tamen sine quo 
+      <lb ed="#T" n="88"/>occasionaliter, non est verum; nam quamuis 
+      sa<lb ed="#T" n="89" break="no"/>pienti ex peccato suo vel alieno aliquando 
+      pro<lb ed="#T" n="90" break="no"/>ueniat bonum, non tamen vult illud 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e712">
+                  <lb ed="#T" n="91"/>Ad 4. Augustini. Resp. Velle sinendo aliquid 
+      <lb ed="#T" n="92"/>non est velle illud, vel velle sinere. Vel loquitur  
+      <lb ed="#T" n="93"/>ibi generaliter de voluntate signi &amp; beneplaciti, 
+      <lb ed="#T" n="94"/>non de voluntate beneplaciti solum 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e723">
+                  <lb ed="#T" n="95"/>Ad 5. Aut vult aut non vult. Resp. Non 
+      vel<lb ed="#T" n="96" break="no"/>le dupliciter accipitur vt dictum est: vel 
+      negati<lb ed="#T" n="97" break="no"/>ue, &amp; sic dicit negationem voluntatis: vel 
+      pri<lb ed="#T" n="98" break="no"/>uatiue, sic dicit voluntatem negationis. Primo 
+      <lb ed="#T" n="99"/>modo opponitur ad velle contradictorie, &amp; hoc 
+      <lb ed="#T" n="100"/>modo concedendum est quod Deus non vult 
+      <lb ed="#T" n="101"/>mala fieri: nec sequitur fieri aliquid contra 
+      vo<lb ed="#T" n="102" break="no"/>luntatem eius, sed praeter. Secundo modo 
+      op<lb ed="#T" n="103" break="no"/>ponitur quasi contrarie, &amp; sic non est dicendum 
+      <lb ed="#T" n="104"/>quod Deus non velit mala fieri, id est velit non 
+      <lb ed="#T" n="105"/>fieri, quia nec fierent 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e749">
+                  <lb ed="#T" n="106"/>Ad 6. Aut vult fieri aut vult non fieri. Resp. 
+      <lb ed="#T" n="107"/>Quamuis fieri &amp; non fieri opponantur 
+      contra<lb ed="#T" n="108" break="no"/>dictorie, non tamen velle fieri &amp; velle non fieri, 
+      <lb ed="#T" n="109"/>quia vtraque propositio affirmatiua est, quamuis 
+      <lb ed="#T" n="110"/>sit de praedicato negatiuo. Unde neutrum 
+      con<lb ed="#T" n="111" break="no"/>cedendum est, sed concedendum est quod non 
+      <lb ed="#T" n="112"/>vult fieri mala. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f16451-Dd1e768">
+               <head xml:id="pdt7y6-f16451-Hd1e770">Articulus 3</head>
+               <head xml:id="pdt7y6-f16451-Hd1e772" type="question-title">An iuste permittat Deus mala fieri</head>
+               <p xml:id="pdt7y6-f16451-d1e775">
+                  <lb ed="#T" n="113"/>Articvlvs III. 
+      <lb ed="#T" n="114"/>An iuste permittat Deus mala fieri.
+</p>
+               <p xml:id="pdt7y6-f16451-d1e782">
+                  <lb ed="#T" n="115"/>AD tertium articulum sic proceditur. 1. 
+      <lb ed="#T" n="116"/>Quicquid Deus facit vel permittit, iuste 
+      <lb ed="#T" n="117"/>facit vel permittit: ergo iuste permittit mala fieri. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e791">
+                  <lb ed="#T" n="118"/>2. Psalmista vniuersae viae Domini misericordia 
+      <lb ed="#T" n="119"/>&amp; veritas: ergo &amp; in opere permissionis malorum 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e799">
+                  <lb ed="#T" n="120"/>3. Super illud Iob. 12. abundant tabernacul 
+      <lb ed="#T" n="121"/>praedonum &amp;c. dicit glos. Greg. Omnipotens 
+      <lb ed="#T" n="122"/>Deus quod iuste fieri prohibet, iustum est vt 
+      fie<lb ed="#T" n="123" break="no"/>ri sinat: ergo iuste permittitmala fieri¬ 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e810">
+                  <lb ed="#T" n="124"/>4. Iustumest, vt liberumarbitrium 
+      relinqua<lb ed="#T" n="125" break="no"/>tur suae libertati: sed non relinqueretur suae 
+      li<lb ed="#T" n="126" break="no"/>bertati, nisi permitterentur mala fieri. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e819">
+                  <lb ed="#T" n="127"/>Contra. 1. Nullus Rex in regno suo potens 
+      im<lb ed="#T" n="128" break="no"/>pedire mala ne fiant, iuste ea fieri permittit: sed  
+      <lb ed="#T" n="129"/>Deus in regno suo potest imped ire ne fiant 
+      ma<lb ed="#T" n="130" break="no"/>la: ergo non iuste fieri permittit.  
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e830">
+                  <lb ed="#T" n="131"/>2. Si iuste fieri permittit, aut iustitia, quae est 
+      <lb ed="#T" n="132"/>exigentia meritorum, aut quae est condecentia 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0457.xml-->
+      <pb ed="#T" n="382"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>Diuinae bonitatis: si primo modo, contra, 
+      pri<lb ed="#T" n="2" break="no"/>mum malum nulla exigentia meritorum 
+      prae<lb ed="#T" n="3" break="no"/>cessit ergo illud non iuste fieri permittit: si 
+      se<lb ed="#T" n="4" break="no"/>cundo modo, contra, mala non decent bonita 
+      <lb ed="#T" n="5"/>tem Diuinam: ergo non iuste ea fieri permittit.  
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e854">
+                  <lb ed="#T" n="6"/>3. Prohibere &amp; permittere videntur opposita: 
+      <lb ed="#T" n="7"/>ergo quod iuste prohibetur, non iuste 
+      per<lb ed="#T" n="8" break="no"/>mittitur.  
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e863">
+                  <lb ed="#T" n="9"/>4. Permissio signum est voluntatis: sed non 
+      <lb ed="#T" n="10"/>iuste significat quis se velle quod non vult: ergo 
+      <lb ed="#T" n="11"/>cum Deus mala non velit, non iuste ea 
+      per<lb ed="#T" n="12" break="no"/>mittit.  
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e875">
+                  <lb ed="#T" n="13"/>5. Dicit Canon. Tacere, perturbare cum 
+      pos<lb ed="#T" n="14" break="no"/>sis peruersos, nihil aliud est quam fouere: ergo 
+      <lb ed="#T" n="15"/>cum Deus possit mala perturbare, non iuste 
+      ta<lb ed="#T" n="16" break="no"/>cendo ea fieri permittit.  
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e886">
+                  <lb ed="#T" n="17"/>Respondeo. Deus quamuis mala non faciat  
+      <lb ed="#T" n="18"/>tamen iuste ea fieri permittit, tam iustitia quae 
+      <lb ed="#T" n="19"/>est exigentia meritorum; siue de condigno, siue 
+      <lb ed="#T" n="20"/>de congruo; de condigno, inquantum de pecca 
+      <lb ed="#T" n="21"/>to in peccatum ruere permittit; de congruo 
+      <lb ed="#T" n="22"/>inquantum volentem primo peccare sibi ipsi res 
+      <lb ed="#T" n="23"/>linquit: quam etiam iustitia quae est exigentia 
+      <lb ed="#T" n="24"/>Diuinae bonitatis; &amp; in comparatione ad malos 
+      <lb ed="#T" n="25"/>inquantum eos ad penitentiam expectando 
+      diu<lb ed="#T" n="26" break="no"/>tius viuere in sua libertate, permittit; &amp; in 
+      com<lb ed="#T" n="27" break="no"/>paratione ad bonos inquantum eis de malis 
+      bo<lb ed="#T" n="28" break="no"/>na elicit. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e915">
+                  <lb ed="#T" n="29"/>Ad 1. in contrarium de Rege. Resp. Non est. 
+      <lb ed="#T" n="30"/>simile, quia Rex terrenus non sic potest &amp; 
+      no<lb ed="#T" n="31" break="no"/>uit maiorade malis elicere bona, sicut Deus, 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e924">
+                  <lb ed="#T" n="32"/>Ad 2. Aut iustitiae quae est exigentia 
+      merito<lb ed="#T" n="33" break="no"/>rum. Resp. Vtraque iustitia iuste permittit: &amp; 
+      <lb ed="#T" n="34"/>quamuis primum malum non praecesferit 
+      imeri<lb ed="#T" n="35" break="no"/>tum de condigno, praecessit tamen de congruo 
+      <lb ed="#T" n="36"/>scilicet non conuerti ad suum creatorem: &amp; 
+      <lb ed="#T" n="37"/>quamuis mala non decerant bonitatem, tamen 
+      <lb ed="#T" n="38"/>mala permittere vt ex eis maiora bona 
+      elician<lb ed="#T" n="39" break="no"/>ur, decet eam. 
+      <lb ed="#T" n="40"/>Ad 3. Prohibere &amp; permittere opposita sunt,  
+      <lb ed="#T" n="41"/>Resp. Permissio multipliciter accipitur: vno 
+      mo<lb ed="#T" n="42" break="no"/>do pro concessione, &amp; sic opponitur 
+      prohibitio<lb ed="#T" n="43" break="no"/>ni: alio modo pro non punitione, sic Deus mala 
+      <lb ed="#T" n="44"/>non permittit: tertio modo pro non 
+      cohibitio<lb ed="#T" n="45" break="no"/>ne, &amp; sic Deus mala permittit,  
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e957">
+                  <lb ed="#T" n="46"/>Ad 4. Permissio est signum voluntatis. Resp. 
+      <lb ed="#T" n="47"/>Non est signum voluntatis quae sit de mala 
+      fa<lb ed="#T" n="48" break="no"/>ciendo, sed de ordinando in aliquod bonum. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e966">
+                  <lb ed="#T" n="49"/>Ad 5. De Canone. Resp. Hoc intelligitur in 
+      <lb ed="#T" n="50"/>illo cui competit ex officio perturbare, &amp; qui  
+      <lb ed="#T" n="51"/>non potest ex malis peruersorum bona maiora 
+      <lb ed="#T" n="52"/>elicere, sicut Deus, 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f16451-Dd1e978">
+               <head xml:id="pdt7y6-f16451-Hd1e980">Articulus 4</head>
+               <head xml:id="pdt7y6-f16451-Hd1e982" type="question-title">An verum sit mala fieri</head>
+               <p xml:id="pdt7y6-f16451-d1e985">
+                  <lb ed="#T" n="53"/>ARTICVLVS IV 
+      <lb ed="#T" n="54"/>An verum sit mala fieri.
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e992">
+                  <lb ed="#T" n="55"/>AD quartum articulum sic proceditur. 1. 
+      <lb ed="#T" n="56"/>Mala non fieri est falsum: ergo ab 
+      opposi<lb ed="#T" n="57" break="no"/>tis mala fieri est verum. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e1001">
+                  <lb ed="#T" n="58"/>2. Veritas dicti causatur a veritate rei: sed 
+      di<lb ed="#T" n="59" break="no"/>ctum hoc, mala fieri, est verum: ergo &amp; res 
+      di<lb ed="#T" n="60" break="no"/>cta est vera 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e1011">
+                  <lb ed="#T" n="61"/>3. Si Sortes currit, Sortem currere est verum: 
+      <lb ed="#T" n="62"/>ergo a simili si malum sit, malum fieri est verum. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e1018">
+                  <lb ed="#T" n="63"/>Contra. 1. Ens, &amp; bonum, &amp; verum 
+      conuer<lb ed="#T" n="64" break="no"/>tuntur: sed mala fieri non est ens, nec bonum: 
+      <lb ed="#T" n="65"/>ergo non est verum. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e1027">
+                  <lb ed="#T" n="66"/>2. Dicit Ambrosius, quod omne verum a 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0457.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>quocumque dicatur, a Spiritu sancto est. Et 
+      <lb ed="#T" n="68"/>August. lib. 83. quaest. dicit quod a veritate 
+      <lb ed="#T" n="69"/>prima verum est: sed mala fieri non est a 
+      Spi<lb ed="#T" n="70" break="no"/>ritu sancto, nec a prima veritate: ergo non est 
+      <lb ed="#T" n="71"/>verum. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e1047">
+                  <lb ed="#T" n="72"/>3. Omne quod est, a Deo est, verum est id 
+      <lb ed="#T" n="73"/>quod est, vt dicit Augustinus lib. Soliloq. ergo 
+      <lb ed="#T" n="74"/>omne verum a Deo est: sed mala fieri, a Deo non 
+      <lb ed="#T" n="75"/>est: ergo non est verum. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e1058">
+                  <lb ed="#T" n="76"/>4. Omne quod in tempore verum est, verum 
+      <lb ed="#T" n="77"/>fuit ab aeterno: sed nullum verum fuit tunc, nisi 
+      <lb ed="#T" n="78"/>veritas prima quae summum bonum est: ergo 
+      ma<lb ed="#T" n="79" break="no"/>la fieri non est verum in tempore. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e1069">
+                  <lb ed="#T" n="80"/>5. Mala fieri nihil est, alioquin a Deo esset: quod 
+      <lb ed="#T" n="81"/>autem nihil est, verum non est: ergo mala fieri 
+      <lb ed="#T" n="82"/>non est verum. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e1079">
+                  <lb ed="#T" n="83"/>6. Abeo quod res est vel non est, dicitur 
+      ora<lb ed="#T" n="84" break="no"/>tio vera vel falsa, vt ait Philosophus: cum ergo 
+      <lb ed="#T" n="85"/>mala fieri nulla res sit, oratio significans mala 
+      fie<lb ed="#T" n="86" break="no"/>ri non est vera 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e1090">
+                  <lb ed="#T" n="87"/>Respondeo. Est veritas prima: &amp; est veritas rei: 
+      <lb ed="#T" n="88"/>&amp; est veritas signi. Veritate prima verum fuit 
+      <lb ed="#T" n="89"/>ab aeterno mala in tempore futura esse, vel fieri: 
+      <lb ed="#T" n="90"/>sed quodammodo per accidens non per se, quia 
+      <lb ed="#T" n="91"/>per speciem bonorum oppositotum. Veritas rei, 
+      <lb ed="#T" n="92"/>duplex est: quaedam simpliciter, quae fundatur. 
+      <lb ed="#T" n="93"/>in re naturae, vt veritas affirmationum: quaedam 
+      <lb ed="#T" n="94"/>secundum quid, quae fundatur in re rationis, vt 
+      <lb ed="#T" n="95"/>veritas priuationum &amp; negationum: nam verum 
+      <lb ed="#T" n="96"/>est id quod natum est de se facere veram 
+      appre<lb ed="#T" n="97" break="no"/>hensionem, hoc autem facit res naturae 
+      simpli<lb ed="#T" n="98" break="no"/>citer; sed res rationis non facit, sed ipsa anima 
+      <lb ed="#T" n="99"/>de ea veram apprehensionem sibi facit: primo 
+      <lb ed="#T" n="100"/>modo non est verum mala fieri: secundo modo 
+      <lb ed="#T" n="101"/>verum est secundum quid, non simpliciter. 
+      Ve<lb ed="#T" n="102" break="no"/>ritas aute signi consistit in adaequatione signi ad 
+      <lb ed="#T" n="103"/>signatum, non in essendo, sed in significando, vel 
+      <lb ed="#T" n="104"/>repraesentando: adaequatio vero haec non 
+      requi<lb ed="#T" n="105" break="no"/>rit existentiam rei simpliciter; quia quod non est 
+      <lb ed="#T" n="106"/>potest perfecte fignificari non esse, sicut virga non 
+      <lb ed="#T" n="107"/>mortua perfecte mesuratur corpus mortui. Hac 
+      <lb ed="#T" n="108"/>veritate simpliciter verum est mala fieri. 
+      Veri<lb ed="#T" n="109" break="no"/>tate ergo rei simpliciter non est verum, sed 
+      se<lb ed="#T" n="110" break="no"/>cundum quid est verum; veritate signi 
+      simplici<lb ed="#T" n="111" break="no"/>ter verum est mala fieri. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e1147">
+                  <lb ed="#T" n="112"/>Ad 1. in contrarium. Ens, verum, &amp; bonum. 
+      <lb ed="#T" n="113"/>conuertuntur. Resp. Hoc intelligitur de ente 
+      <lb ed="#T" n="114"/>simpliciter quod est ens naturae: non de ente 
+      ra<lb ed="#T" n="115" break="no"/>tionis. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e1158">
+                  <lb ed="#T" n="116"/>Ad 2. Omne verum est a Spiritu sancto, vel 
+      <lb ed="#T" n="117"/>a veritate prima, vel a Deo. Resp. Ad hoc diuersi 
+      <lb ed="#T" n="118"/>diuersimode dicunt. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e1167">
+                  <lb ed="#T" n="119"/>Quidam enim assignant fallaciam 
+      aequiuoca<lb ed="#T" n="120" break="no"/>tionis, quod cum dicitur: Omne quod verum 
+      <lb ed="#T" n="121"/>est a Deo est, intelligitur de vero veritate rei, non 
+      <lb ed="#T" n="122"/>de veritate signi. Sed contra, picit enim 
+      Ambro<lb ed="#T" n="123" break="no"/>sius: Omne verum a quorumque dicatur a 
+      Spiri<lb ed="#T" n="124" break="no"/>tu sancto est: &amp; Augustinus dicit quod veritas, 
+      <lb ed="#T" n="125"/>scilicet significationis, a veritate prima est, 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e1185">
+                  <lb ed="#T" n="126"/>Ideo alij assignant fallaciam secundum quid &amp; 
+      <lb ed="#T" n="127"/>simpliciter, dicentes quod veritas signi triplex 
+      <lb ed="#T" n="128"/>est: quaedam positionis, vt Caesar est homo: 
+      quae<lb ed="#T" n="129" break="no"/>dam negationis, vt Caesar non est: quaedam 
+      pri<lb ed="#T" n="130" break="no"/>uationis, vt Caesar est homo mortuus. Prima 
+      sim<lb ed="#T" n="131" break="no"/>pliciter a Deo est, quia fundatur super ens 
+      sim<lb ed="#T" n="132" break="no"/>pliciter: secunda non est a Deo simpliciter, 
+      fun<lb ed="#T" n="133" break="no"/>datur enim supra non ens simpliciter: tertia 
+      se<lb ed="#T" n="134" break="no"/>cundum quid est a Deo, fundatur enim super ens 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0458.xml-->
+      <pb ed="#T" n="383"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>secundum quid, quia priuatio remouet actum &amp; 
+      <lb ed="#T" n="2"/>ponit aptitudinem. Cum ergo dicitur, Omne 
+      <lb ed="#T" n="3"/>verum est a Deo, hoc intelligitur de veritate 
+      po<lb ed="#T" n="4" break="no"/>sitionis quae est veritas simpliciter: sed cum 
+      di<lb ed="#T" n="5" break="no"/>citur, Mala fieri, vel Istum fornicari est verum 
+      <lb ed="#T" n="6"/>intelligitur de veritate priuationis quae est veri 
+      <lb ed="#T" n="7"/>tas secundum quid: cum ergo infertur, Ergo 
+      Ma<lb ed="#T" n="8" break="no"/>la fieri est a Deo, proceditur a dicto secundum 
+      <lb ed="#T" n="9"/>quid, ad dictum simpliciter. Sed contra hoc 
+      op<lb ed="#T" n="10" break="no"/>ponitur, quod conditio signi non sequitur 
+      con<lb ed="#T" n="11" break="no"/>ditiones signati in essendo, vnde falsum potest 
+      <lb ed="#T" n="12"/>vere significari. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e1241">
+                  <lb ed="#T" n="13"/>Ideo dicunt alij quod ibi est fallacia 
+      composi<lb ed="#T" n="14" break="no"/>tionis &amp; diuisionis. Cum enim dico, Verum est 
+      <lb ed="#T" n="15"/>mala fieri, intelligitur hoc de veritate 
+      composi<lb ed="#T" n="16" break="no"/>tionis seu dicti, non de veritate attributiouis set 
+      <lb ed="#T" n="17"/>rei; nec enim malo inest veritas, sed 
+      compositio<lb ed="#T" n="18" break="no"/>ni huic, Mala fieri: cum autem infertur, ergo 
+      Ma<lb ed="#T" n="19" break="no"/>la fieri est a Deo, proceditur a veritare dicti ad ve 
+      <lb ed="#T" n="20"/>ritatem rei. Sic soluit Magister, &amp; bene. Et est 
+      <lb ed="#T" n="21"/>simile, Deus prohibet furtum fieri, sed furtum 
+      <lb ed="#T" n="22"/>fieri est verum, ergo prohibet verum, Non se 
+      <lb ed="#T" n="23"/>quitur. Prohibet enim Deus rem ipsam, scilicet,  
+      <lb ed="#T" n="24"/>actionem furti, non compositionem huius dicti, 
+      <lb ed="#T" n="25"/>Simile est si dico sic, Omne quod ego dico tu 
+      au<lb ed="#T" n="26" break="no"/>dis, sed ego dico angelos canere, ergo tu audis 
+      <lb ed="#T" n="27"/>angelos canere. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e1276">
+                  <lb ed="#T" n="28"/>Alij vero dicunt quod in argumento illo est 
+      <lb ed="#T" n="29"/>fallacia accidentis: nam cum dico, Verum est 
+      ma<lb ed="#T" n="30" break="no"/>la fieri, additur accidens quoddam, scilicet 
+      quae<lb ed="#T" n="31" break="no"/>dam deformitas, veritati, ratione cuius non 
+      po<lb ed="#T" n="32" break="no"/>test concludi: Ergo mala fieri est a Deo. Et est 
+      si<lb ed="#T" n="33" break="no"/>mile si dicatur, Omne agere est a Deo, furari est. 
+      <lb ed="#T" n="34"/>agere, ergo furari est a Deo. Item, Omnis aqua est 
+      <lb ed="#T" n="35"/>naturalis, sed balneum est aqua, ergo balueum 
+      <lb ed="#T" n="36"/>est naturale. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e1298">
+                  <lb ed="#T" n="37"/>Ad 3. Verum est id quod est. Resp. Hoc 
+      in<lb ed="#T" n="38" break="no"/>telligitur de veritate rei simpliciter, non rationis. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e1305">
+                  <lb ed="#T" n="39"/>Ad 4. Omne quod est verum in tempore &amp;c. 
+      <lb ed="#T" n="40"/>Resp. Mala esse futura in tempore, fuit verum ab 
+      <lb ed="#T" n="41"/>aeterno; sed per accidens, non per se, quia per 
+      spe<lb ed="#T" n="42" break="no"/>ciem sui oppositi quod est bona fieri: vnde sicut, 
+      <lb ed="#T" n="43"/>licet mala sciantur a Deo, non tamen sunt in Deo 
+      <lb ed="#T" n="44"/>sciente, quia sciuntur per speciem sui opposit,  
+      <lb ed="#T" n="45"/>non per se: ita quamuis mala fieri esset verum al 
+      <lb ed="#T" n="46"/>aeterno, &amp; veritate aeterna, non tamen erat ipsa 
+      <lb ed="#T" n="47"/>veritas aeterna; quia verum erat veritate, aeterna. 
+      <lb ed="#T" n="48"/>non per se, sed per accidens. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e1329">
+                  <lb ed="#T" n="49"/>Ad 5. Mala fieri nihil est. Resp. Falsa est 
+      se<lb ed="#T" n="50" break="no"/>cundum quid: quamuis enim non sit simpliciter,  
+      <lb ed="#T" n="51"/>est tamen secundum quid, sicut priuatio dicitur 
+      <lb ed="#T" n="52"/>esse, &amp; sic habet veritatem, scilicet secundum esse 
+      <lb ed="#T" n="53"/>rationis non naturae. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e1342">
+                  <lb ed="#T" n="54"/>Sed super quid fundatur illa veritas? Resp. 
+      Su<lb ed="#T" n="55" break="no"/>per hoc distingunt quidam veritatem triplicem, 
+      <lb ed="#T" n="56"/>positionis vt Caesar est homo; priuationis, vt 
+      Cae<lb ed="#T" n="57" break="no"/>sar est homo mortuus; &amp; negationis vt Cesat 
+      <lb ed="#T" n="58"/>non est. Veritas ergo positionis fundatur super 
+      <lb ed="#T" n="59"/>ens simpliciter: veritas priuationis super ens 
+      se<lb ed="#T" n="60" break="no"/>cundum quid: veritas negationis super non ens, 
+      <lb ed="#T" n="61"/>quia nihil ponit. Sed non videtur hoc sufficere, 
+      <lb ed="#T" n="62"/>quia verum praedicat aliquam conditione entis. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e1365">
+                  <lb ed="#T" n="63"/>Ideo dicunt alij quod fundatur haec veritas 
+      <lb ed="#T" n="64"/>super principia rei. Sed posito quod principia res 
+      <lb ed="#T" n="65"/>omnino corrupta sint, nihilominus verum est 
+      <lb ed="#T" n="66"/>Caesarem non esse. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e1376">
+                  <lb ed="#T" n="67"/>Ideo alij dicunt quod fundatur super 
+      appre<lb ed="#T" n="68" break="no"/>hensionem animae. Sed contra. Posito enim quod 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0458.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="69"/>nullus sit intellectus apprehendens, adhuc 
+      pro<lb ed="#T" n="70" break="no"/>positio haec, Caesar non est, scripta in pariete 
+      <lb ed="#T" n="71"/>vera est. 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e1394">
+                  <lb ed="#T" n="72"/>Ideo dicunt alij quod haec veritas non est 
+      ab<lb ed="#T" n="73" break="no"/>soluta, sed respectiua: nec potest fundari 
+      omnino<lb ed="#T" n="74" break="no"/>super apprehensionem animae, nec omnino super 
+      <lb ed="#T" n="75"/>non ens: sed super ens quod est, &amp; non ens quod 
+      <lb ed="#T" n="76"/>fuit, in relatione ad animae apprehensionem 
+      ap<lb ed="#T" n="77" break="no"/>titudinalem hon actualem 
+    </p>
+               <p xml:id="pdt7y6-f16451-d1e1410">
+                  <lb ed="#T" n="78"/>Ad 6. Ab eo quod res est vel non est &amp;c. Resp. 
+      <lb ed="#T" n="79"/>Propositio illa sic intelligenda est. Ab eo quod 
+      <lb ed="#T" n="80"/>res est vel non est dicitur propositio significans 
+      <lb ed="#T" n="81"/>eam esse vel non esse, vera vel salsa: si enim 
+      signi<lb ed="#T" n="82" break="no"/>ficat esse quod est, vel non esse quod non est, 
+      ve<lb ed="#T" n="83" break="no"/>ra; si vero e contrario, falsa. Cum autem dico, 
+      <lb ed="#T" n="84"/>Mala fieri, quamuis secundum vocem 
+      significe<lb ed="#T" n="85" break="no"/>tur aliquid esse, scilicet malum; tamen 
+      secun<lb ed="#T" n="86" break="no"/>dum rem significatur potius non esse, quia 
+      signi<lb ed="#T" n="87" break="no"/>ficatur priuatio boni: &amp; hinc est quod quamuis, 
+      <lb ed="#T" n="88"/>Mala fieri, non sit simpliciter: tamen Mala fieri 
+      <lb ed="#T" n="89"/>est verum simpliciter.  
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

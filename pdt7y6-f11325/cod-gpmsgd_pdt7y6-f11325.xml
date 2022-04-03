@@ -1,0 +1,972 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="362"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-f11325"><!-- l1d44q1 -->
+            <head xml:id="pdt7y6-f11325-Hd1e99">Quaestio 1</head>
+            <head xml:id="pdt7y6-f11325-Hd1e101" type="question-title">Qualia possit Deus et qualiter</head>
+            <p xml:id="pdt7y6-f11325-d1e104">
+               <lb ed="#T" n="63"/>QVESTIO VNICA
+      <lb ed="#T" n="64"/>QVALIA POSSIT DEVS EST 
+      <lb ed="#T" n="65"/>QVALITER
+</p>
+            <p xml:id="pdt7y6-f11325-d1e113">
+               <lb ed="#T" n="66"/>QIc quaeruntur sex. 
+      <lb ed="#T" n="67"/>Primo an Deus singulas partes vniuersi 
+      <lb ed="#T" n="68"/>potuerit facere meliores. 
+      <lb ed="#T" n="69"/>Secundo an totum potuerit facere melius. 
+      <lb ed="#T" n="70"/>Tertio an creaturas excellentissimas vniuersi 
+      <lb ed="#T" n="71"/>potuerit facere meliores. 
+      <lb ed="#T" n="72"/>Quarto an vniuersum po tuerit facere ante 
+      <lb ed="#T" n="73"/>quam fecit. 
+      <lb ed="#T" n="74"/>Quinto an aliud vniuersum facere possit.  
+      <lb ed="#T" n="75"/>Sexto an easdem huius vniuersi partes facere 
+      <lb ed="#T" n="76"/>possit. 
+  </p>
+            <div xml:id="pdt7y6-f11325-Dd1e139">
+               <head xml:id="pdt7y6-f11325-Hd1e141">Articulus 1</head>
+               <head xml:id="pdt7y6-f11325-Hd1e143" type="question-title">
+  An Deus singulas partes uniuersi potuerit facere meliores
+</head>
+               <p xml:id="pdt7y6-f11325-d1e146">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0438.xml-->
+                  <pb ed="#T" n="363"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>ARTICVLVS I. 
+      <lb ed="#T" n="2"/>An Deus singulas partes uniuersi potuerit 
+      <lb ed="#T" n="3"/>facere meliores.
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e162">
+                  <lb ed="#T" n="4"/>AD primum sic proceditur. 1. Dicit Dion. 
+      <lb ed="#T" n="5"/>Optimi est producere optima: sed optimo. 
+      <lb ed="#T" n="6"/>nihil potest esse melius: ergo ijs quae Deus 
+      opti<lb ed="#T" n="7" break="no"/>mus produxit, non potuerunt esse meliora: ergo 
+      <lb ed="#T" n="8"/>nec fieri. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e175">
+                  <lb ed="#T" n="9"/>2. Plato in Timaeo. Porro quia optimus erat, 
+      <lb ed="#T" n="10"/>ab optimo vero omnis inuidia relegata est, ideo 
+      <lb ed="#T" n="11"/>vnicuique rei quod capere potuit dedit: ergo 
+      <lb ed="#T" n="12"/>cum nulla creatura posset plus capere, nulla 
+      fie<lb ed="#T" n="13" break="no"/>ri melior potuit. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e189">
+                  <lb ed="#T" n="14"/>3. Augustinus contra Maximin. Si bona 
+      face<lb ed="#T" n="15" break="no"/>re non posset, nulla esset potentia; si posset, sed  
+      <lb ed="#T" n="16"/>nollet, magna esset inuidia: sed nulla est in Deo 
+      <lb ed="#T" n="17"/>inuidia: ergo non potuit facere meliora 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e200">
+                  <lb ed="#T" n="18"/>4. Effectus qui producitur a causa secundum 
+      <lb ed="#T" n="19"/>totam potentiam, non potuit fieri melior: sed  
+      <lb ed="#T" n="20"/>omnis effectus Diuinus producitut a Deo 
+      se<lb ed="#T" n="21" break="no"/>cundum tota suam potentiam, quia est simplex 
+      <lb ed="#T" n="22"/>ergo non potest fieri melior.  
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e213">
+                  <lb ed="#T" n="23"/>5. Vnaquaeque res non deficit a bonitate 
+      al<lb ed="#T" n="24" break="no"/>terius, nisi per hoc quod deficit a participatione 
+      <lb ed="#T" n="25"/>Diuinae bonitatis: sed iste defectus non est a 
+      <lb ed="#T" n="26"/>parte agentis, cum se habeat vniformiter ad 
+      om<lb ed="#T" n="27" break="no"/>nia: ergo est a parte capacitatis rei: ergo plus 
+      <lb ed="#T" n="28"/>de bonitate rei capere non potuit: ergo non 
+      po<lb ed="#T" n="29" break="no"/>tuit fieri melior.  
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e231">
+                  <lb ed="#T" n="30"/>Contra. 1. Augustinus de lib. arb. Potuit, 
+      <lb ed="#T" n="31"/>Deus facere talem hominem, qui nec peccare 
+      <lb ed="#T" n="32"/>vellet, nec posset; &amp; si talem fecisset quis 
+      dubi<lb ed="#T" n="33" break="no"/>tat meliorem fuisse: ergo homo fieri potuit 
+      me<lb ed="#T" n="34" break="no"/>lior: ergo similiter res quaelibet. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e244">
+                  <lb ed="#T" n="35"/>2. Si non potuerunt creaturae fieri meliores, 
+      <lb ed="#T" n="36"/>aut ergo quia plus dare Deus non potuit: aut 
+      <lb ed="#T" n="37"/>quia plus creatura capere non potuit: si primo 
+      <lb ed="#T" n="38"/>modo, contra, Dei potentia non est limitata 
+      <lb ed="#T" n="39"/>ad aliquid quin semper plus possit: si secundo 
+      <lb ed="#T" n="40"/>modo, contra, tanta est creaturae capacitas 
+      qua<lb ed="#T" n="41" break="no"/>tam dedit, ipse vero maiorem dare potuit: ergo 
+      <lb ed="#T" n="42"/>creatura quaelibet tam a parte Dei, quam a parte 
+      <lb ed="#T" n="43"/>sui melior fieri potuit, 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e266">
+                  <lb ed="#T" n="44"/>3. Quicquid potest natura, potest Deus &amp; 
+      <lb ed="#T" n="45"/>amplius: sed natura suis operibus bonitatem 
+      ad<lb ed="#T" n="46" break="no"/>dere potuit. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e276">
+                  <lb ed="#T" n="47"/>Respondeo. Vniuscuiusque rei absolute in se 
+      <lb ed="#T" n="48"/>consideratae duplex est bonitas, sicut duplex esse, 
+      <lb ed="#T" n="49"/>quia ens &amp; bonum conuertuntur: est enim 
+      bo<lb ed="#T" n="50" break="no"/>nitas essentialis, &amp; bonitas accidentalis, vt 
+      ho<lb ed="#T" n="51" break="no"/>minis bonitas essentialis est intellectus, 
+      boni<lb ed="#T" n="52" break="no"/>tas accidentalis, scientia. Loquendo de 
+      bonita<lb ed="#T" n="53" break="no"/>te accidentali, Deus vnamquamque rem eandem 
+      <lb ed="#T" n="54"/>numero meliorem facere potuit: loquendo de 
+      <lb ed="#T" n="55"/>bonitate essentiali, qualibet re creata Deus aliam 
+      <lb ed="#T" n="56"/>meliorem facere potuit, sed non eandem: quia 
+      si<lb ed="#T" n="57" break="no"/>cutvnitas addita vnitati speciem numeri mutat. 
+      <lb ed="#T" n="58"/>sic gradus bonitatis essentialis additus mutat 
+      es<lb ed="#T" n="59" break="no"/>sentiam. Propter quod secundum Philosophum 
+      <lb ed="#T" n="60"/>7. Metaph. definitio rei numero comparatur,  
+      <lb ed="#T" n="61"/>quia vnius differentiae additione mutatur. Sicut 
+      <lb ed="#T" n="62"/>ergo Deus non potest facere vt ternarius manens 
+      <lb ed="#T" n="63"/>siat quaternatius, ita nec quod eade res manens 
+      <lb ed="#T" n="64"/>fiat essentialiter melior, quia ex vtroque 
+      contra<lb ed="#T" n="65" break="no"/>dictio seduitur.  
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e320">
+                  <lb ed="#T" n="66"/>Ad 1. Dionysij. Resp. Singula per se, vt ait 
+      <lb ed="#T" n="67"/>Augustinus, sunt bona, sed simul omnia valde 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0438.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="68"/>bona id est optima: vnde quaelibet res per se non 
+      <lb ed="#T" n="69"/>est optima, sed in ordine huius vniuersi. Vel fit 
+      <lb ed="#T" n="70"/>comparatio operum agentis increati ad opera 
+      <lb ed="#T" n="71"/>aliorum agentium, non operum eiusdem ad 
+      in<lb ed="#T" n="72" break="no"/>uicem. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e342">
+      <!-- line coord order error ?? -->
+                  <lb ed="#T" n="73"/>Platonis. Resp. Plato intendit dicere 
+      <lb ed="#T" n="74"/>Ad 2. 
+      <lb ed="#T" n="75"/>quod in Deo non est inuidia, nec inuidiae signum. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e353">
+                  <lb ed="#T" n="76"/>Ad 3. Augustini. Resp. Augustinus accipit,  
+      <lb ed="#T" n="77"/>Iy esset non secundum veritatem, sed secundum 
+      <lb ed="#T" n="78"/>ignum seu apparentiam, id est, videri posset.  
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e362">
+                  <lb ed="#T" n="79"/>Vel melius dicendum, quod vterque (Plato, 
+      <lb ed="#T" n="80"/>&amp; Augustinus) loquitur supposito quod Deus 
+      <lb ed="#T" n="81"/>operetur, &amp; intendit probare quod oportet 
+      ope<lb ed="#T" n="82" break="no"/>ra eius esse bona. Nec est simile de bono &amp; 
+      me<lb ed="#T" n="83" break="no"/>liori, quia esse bona naturale est operibus a bono 
+      <lb ed="#T" n="84"/>procedentibus, sed non meliora 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e378">
+                  <lb ed="#T" n="85"/>Ad 4. De tota potentia &amp;c. Resp. Locum 
+      <lb ed="#T" n="86"/>habet in potentia quae operatur per necessitatem 
+      <lb ed="#T" n="87"/>naturae, non in ea quae per libertatem voluntatis. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e388">
+                  <lb ed="#T" n="88"/>Ad illud de rerum capacitate &amp;c. Resp. 
+      Di<lb ed="#T" n="89" break="no"/>uersitas capacitatum non tantum oritur ex 
+      di<lb ed="#T" n="90" break="no"/>uersitate naturarum, imo primo &amp; principaliter  
+      <lb ed="#T" n="91"/>ex ordine Diuinae dispositionis, quae eodem 
+      mo<lb ed="#T" n="92" break="no"/>do se habens ad res ordinat vt ipsae diuersimode 
+      <lb ed="#T" n="93"/>se habeant ad Deum. Nec hoc est inuida sed 
+      sa<lb ed="#T" n="94" break="no"/>pientia: non enim res natae sunt aequari Deo; sed ad 
+      <lb ed="#T" n="95"/>eius imitatione differenter ab ipso de nihilo fieri. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f11325-Dd1e410">
+               <head xml:id="pdt7y6-f11325-Hd1e412">Articulus 2</head>
+               <head xml:id="pdt7y6-f11325-Hd1e414" type="question-title">
+  An Deus totum uniuersum potuerit facere melius
+</head>
+               <p xml:id="pdt7y6-f11325-d1e417">
+                  <lb ed="#T" n="96"/>Articvlvs II. 
+      <lb ed="#T" n="97"/>An Deus totum uniuersum potuerit facere melius. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e424">
+                  <lb ed="#T" n="98"/>D secundum, ticulum sic proceditur. 1. 
+      Di<lb ed="#T" n="99" break="no"/>cit Aug. intischiridio. Vidit super illud, Deus 
+      <lb ed="#T" n="100"/>cuncta quae fecerat &amp;c. Singula enim quaeque 
+      <lb ed="#T" n="101"/>per se bona sunt, sed simul omnia valde bona, 
+      <lb ed="#T" n="102"/>ad est optima: ergo vniuersum est optimum: sed  
+      <lb ed="#T" n="103"/>optimo non potest esse melius: ergo non potuit 
+      <lb ed="#T" n="104"/>fieri melius vniuersum. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e442">
+                  <lb ed="#T" n="105"/>2. Uniuersum includit omne bonum: sed 
+      ni<lb ed="#T" n="106" break="no"/>hil potest esse melius omni bono: ergo nihil 
+      po<lb ed="#T" n="107" break="no"/>test esse melius vniuerso. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e452">
+                  <lb ed="#T" n="108"/>3. August. 2. de lib. arbitr. Quicquid vera 
+      ra<lb ed="#T" n="109" break="no"/>rione tibi melius occurrerit, scias fecisse Deum 
+      <lb ed="#T" n="110"/>bonorum omnium conditorem: ergo non potest 
+      <lb ed="#T" n="111"/>vera ratione aliquid melius cogitari vniuerso: 
+      <lb ed="#T" n="112"/>ergo nihil melius fieri potuit, 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e465">
+                  <lb ed="#T" n="113"/>4. Augustinus lib. Confess. duo fecisti tu 
+      Do<lb ed="#T" n="114" break="no"/>mine, vnum prope te, &amp; aliud prope nihil, 
+      scili<lb ed="#T" n="115" break="no"/>cet angelum &amp; materiam primam: sed non est 
+      <lb ed="#T" n="116"/>gradus bonitatis superior eo qui prope Deum 
+      <lb ed="#T" n="117"/>est, nec inferior eo qui prope nihil: ergo nullus 
+      <lb ed="#T" n="118"/>gradus bonitatis potest deesse vniuerso. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e481">
+                  <lb ed="#T" n="119"/>5. Bonum est diffusiuum sui: ergo summe 
+      <lb ed="#T" n="120"/>bonum, summe diffusiuum: ergo cum tota 
+      dif<lb ed="#T" n="121" break="no"/>susio summi boni sit invniuerso, ipsa est summa: 
+      <lb ed="#T" n="122"/>ergo non potest esse maior diffusio. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e492">
+                  <lb ed="#T" n="123"/>Contra. 1. Albius est quod est nigro 
+      imper<lb ed="#T" n="124" break="no"/>mixtius: ergo &amp; melius quod malo 
+      impermix<lb ed="#T" n="125" break="no"/>tius: sed vniuersum potuit fieri non permixtum 
+      <lb ed="#T" n="126"/>malo, sicut modo est: ergo potuit fieri melius, 
+      <lb ed="#T" n="127"/>quam sit modo. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e505">
+                  <lb ed="#T" n="128"/>2. Omni finito potest esse additio a potentia 
+      <lb ed="#T" n="129"/>infinita: sed bonum vniuersi finitum est, 
+      poten<lb ed="#T" n="130" break="no"/>tia Dei infinita: ergo vniuersum potuit fieri 
+      me<lb ed="#T" n="131" break="no"/>lius a Deo. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e516">
+                  <lb ed="#T" n="132"/>3. Secundum Augustinum, quod est maius in 
+      <lb ed="#T" n="133"/>corporibus, est hoc melius in spiritibus: sed si 
+      <lb ed="#T" n="134"/>parti maiori additur aequale, totum sit maius:¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0439.xml-->
+      <pb ed="#T" n="364"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>ergo si meliori additur aequale, totum sit melius, 
+      <lb ed="#T" n="2"/>sed cuilibet creaturae potuit addi aequale: ergo 
+      <lb ed="#T" n="3"/>totum potuit fieri melius. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e539">
+                  <lb ed="#T" n="4"/>4. Supremi gradus bonitatum vniuersi in 
+      infi<lb ed="#T" n="5" break="no"/>nitum distant a Deo: ergo inter eos &amp; Deum 
+      <lb ed="#T" n="6"/>possunt adhuc infiniti gradus alij esse: ergo 
+      to<lb ed="#T" n="7" break="no"/>tum vniuersum potest melius esse. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e550">
+                  <lb ed="#T" n="8"/>5. Forma nobilior &amp; melior causat melius esse: 
+      <lb ed="#T" n="9"/>sed sicut pars materiae recipit formam animae 
+      ra<lb ed="#T" n="10" break="no"/>tionalis a Deo, ita tota potuit recipere: ergo 
+      to<lb ed="#T" n="11" break="no"/>tum potuit melius esse. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e561">
+                  <lb ed="#T" n="12"/>Respondeo. De vniuerso est loqui dupliciter  
+      <lb ed="#T" n="13"/>aut in generali, sic extra vniuersum nullum 
+      bo<lb ed="#T" n="14" break="no"/>num relinquitur secundum intellectum, imo ipsum 
+      <lb ed="#T" n="15"/>bonum summum includitur, &amp; tali vniuerso 
+      <lb ed="#T" n="16"/>nullum potest esse melius: aut in particulari de 
+      <lb ed="#T" n="17"/>hoc vniuerso creato. Huius autem vniuersi 
+      bo<lb ed="#T" n="18" break="no"/>num consistit in duobus, scilicet in relatione 
+      par<lb ed="#T" n="19" break="no"/>tium ad inuicem, &amp; earum in finem: sicut 
+      bo<lb ed="#T" n="20" break="no"/>num exercitus consistit in ordine partium 
+      exer<lb ed="#T" n="21" break="no"/>citus ad inuicem, &amp; partium ad Ducem vt dicit 
+      <lb ed="#T" n="22"/>Philosophus 12. Metaphys. Meliorari ergo 
+      vni<lb ed="#T" n="23" break="no"/>uersum potest intelligi tribus modis, sicut &amp; 
+      <lb ed="#T" n="24"/>exercitum: vel melioratione partium 
+      ordinata<lb ed="#T" n="25" break="no"/>rum: vel solius ordinis earum adinuicem &amp; in 
+      <lb ed="#T" n="26"/>finem: vel melioratione finis. Finis totius non 
+      <lb ed="#T" n="27"/>potest meliorari, quia summum bonum est. 
+      Or<lb ed="#T" n="28" break="no"/>do carum partium manentium sine mutatione 
+      <lb ed="#T" n="29"/>meliorari non potest, quia ab optimo artifice 
+      <lb ed="#T" n="30"/>secundum propriam vniuscuiusque capacitatem 
+      <lb ed="#T" n="31"/>optime ordinatae sunt. Partes ipsae ordinatae 
+      me<lb ed="#T" n="32" break="no"/>liorari possunt intelligi tribus modis: aut per 
+      <lb ed="#T" n="33"/>aliquarum partium ex ijs meliorationem: aut 
+      <lb ed="#T" n="34"/>per omnium partium in melius 
+      transmutatio<lb ed="#T" n="35" break="no"/>nem: aut per aliquam partium meliorum 
+      addi<lb ed="#T" n="36" break="no"/>tionem. Primo modo vniuersum non siet 
+      me<lb ed="#T" n="37" break="no"/>lius, sed deterius: nam quamuis augeretur 
+      bo<lb ed="#T" n="38" break="no"/>num partis, tamen minueretur bonum 
+      vniuersi<lb ed="#T" n="39" break="no"/>tatis, vt si Luna ita fieret clara sicut Sol: &amp; est 
+      <lb ed="#T" n="40"/>exemplum in cythara, cuius aliquibus chordis 
+      <lb ed="#T" n="41"/>melioratis deterioratur sonus cytharae, cuius 
+      bo<lb ed="#T" n="42" break="no"/>nitas consistit non in singularum chordarum 
+      so<lb ed="#T" n="43" break="no"/>nis sed in harmonia consonantiae vniuersalis. 
+      <lb ed="#T" n="44"/>Vltimo modo vniuersum fieret melius, sed non 
+      <lb ed="#T" n="45"/>maneret omnino idem, nec tamen omnino 
+      di<lb ed="#T" n="46" break="no"/>uersum, quia se haberet hoc vniuersum ad illuo 
+      <lb ed="#T" n="47"/>vt pars ad totum. Secundo modo partes 
+      om<lb ed="#T" n="48" break="no"/>nes possunt intelligi meliorari dupliciter: aut 
+      <lb ed="#T" n="49"/>per meliorationem essentialem, aut per 
+      me<lb ed="#T" n="50" break="no"/>liorationem accidentalem: primo modo non 
+      <lb ed="#T" n="51"/>potuit melius fieri hoc idem numero 
+      vni<lb ed="#T" n="52" break="no"/>uersum; quia non esset iam idem, sed aliud, 
+      essen<lb ed="#T" n="53" break="no"/>tiali mutatione partium integralium: secundo 
+      <lb ed="#T" n="54"/>modo potuit melius fieri hoc idem numero 
+      vni<lb ed="#T" n="55" break="no"/>uersum. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e659">
+                  <lb ed="#T" n="56"/>Ad 1. August. Simul omnia &amp;c Resp. August. 
+      <lb ed="#T" n="57"/>loquitur de bonitate vniuersi secundum 
+      com<lb ed="#T" n="58" break="no"/>parationem suarum partium adinuicem &amp; in 
+      fi<lb ed="#T" n="59" break="no"/>nem, sic enim vniuersum est optimum: non 
+      sim<lb ed="#T" n="60" break="no"/>pliciter.  
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e672">
+                  <lb ed="#T" n="61"/>Ad 2. Uniuersum includit omne bonum. 
+      <lb ed="#T" n="62"/>Resp. Hoc intelligitur de vniuerso in generali, 
+      <lb ed="#T" n="63"/>&amp; sic non potest esse melius: non de vniuerse 
+      <lb ed="#T" n="64"/>hoc in particulari, sic enim potuit esse 
+      me<lb ed="#T" n="65" break="no"/>lius quam nunc sit. Vel dicendum quod 
+      vni<lb ed="#T" n="66" break="no"/>uersum includit omne bonum actuale quod est 
+      <lb ed="#T" n="67"/>pars eius: sed non bonum possibile. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e690">
+                  <lb ed="#T" n="68"/>Ad 3. August. de lib. arbitr. Resp. Quamuis 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0439.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="69"/>qui cquid melius occurrit rationi rectae fecerit 
+      <lb ed="#T" n="70"/>Deus, tamen multa potest facere quae non 
+      oc<lb ed="#T" n="71" break="no"/>currunt rationi, plus enim potest Deus facere 
+      <lb ed="#T" n="72"/>quam nos intelligere, 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e709">
+                  <lb ed="#T" n="73"/>Ad 4. De angelo &amp; materia prima. Resp. 
+      <lb ed="#T" n="74"/>prope Deum potest intelligi dupliciter: aut 
+      <lb ed="#T" n="75"/>quoad immediatam ordinationem actualem: aut 
+      <lb ed="#T" n="76"/>quoad summam assimilationem possibilem: 
+      pri<lb ed="#T" n="77" break="no"/>mo modo intellectualis creatura est prope Deum. 
+      <lb ed="#T" n="78"/>tota: secundo modo, non: vnde inter ipsam &amp; 
+      <lb ed="#T" n="79"/>Deum possunt esse gradus infiniti bonitatis. 
+      Si<lb ed="#T" n="80" break="no"/>militer prope nihil potest esse dupliciter: aut ita 
+      <lb ed="#T" n="81"/>quod sit in potentia ad vnum solum ens, aut ad 
+      <lb ed="#T" n="82"/>infinita: primo modo nihil est prope nihil, quo 
+      <lb ed="#T" n="83"/>non esset gradus inferior: secundo modo 
+      ma<lb ed="#T" n="84" break="no"/>teria prima est prope nihil. Patet ergo quod &amp; a 
+      <lb ed="#T" n="85"/>superiori &amp; ab inferiori possunt esse gradus 
+      in<lb ed="#T" n="86" break="no"/>numerabiles alij. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e742">
+                  <lb ed="#T" n="87"/>Ad 5. Bonum est diffusiuum &amp;c. Resp. 
+      Diffu<lb ed="#T" n="88" break="no"/>sio summi boni duplex est: vna intrinseca in 
+      pro<lb ed="#T" n="89" break="no"/>ductione personarum, haec est supra vniuersum 
+      <lb ed="#T" n="90"/>de quo loquimur, tanquam vniuersi principium 
+      <lb ed="#T" n="91"/>&amp; finis ipsius: alia extrinseca in productione 
+      <lb ed="#T" n="92"/>creaturarum, &amp; haec duplex: vel in actu, vel in 
+      <lb ed="#T" n="93"/>potentia: prima tota continetur in hoc 
+      vniuer<lb ed="#T" n="94" break="no"/>so, sed non secunda: vnde patet quod potest 
+      <lb ed="#T" n="95"/>fieri melius. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f11325-Dd1e765">
+               <head xml:id="pdt7y6-f11325-Hd1e767">Articulus 3</head>
+               <head xml:id="pdt7y6-f11325-Hd1e769" type="question-title">
+  An Deus creaturas excellentissimas universi potuerit facere meliores
+</head>
+               <p xml:id="pdt7y6-f11325-d1e772">
+                  <lb ed="#T" n="96"/>ARTIOVLVS III. 
+      <lb ed="#T" n="97"/>An Deus creaturas excellentissimas universi potuerit 
+      <lb ed="#T" n="98"/>facere meliores. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e781">
+                  <lb ed="#T" n="99"/>D tertium articulum proceditur sic. 1. 
+      Tan<lb ed="#T" n="100" break="no"/>to vnumquodque melius est, quanto Deo 
+      <lb ed="#T" n="101"/>propinquius: sed Christi hnmanitate nihil 
+      po<lb ed="#T" n="102" break="no"/>test esse Deo propinquius, cum sit Deo vnita 
+      <lb ed="#T" n="103"/>in persona: ergo nihil melius. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e794">
+                  <lb ed="#T" n="104"/>2. Ioan. 3. Non ad mensuram dat Deus 
+      spi<lb ed="#T" n="105" break="no"/>ritum: ergo spiritus Christo datus fuit 
+      immen<lb ed="#T" n="106" break="no"/>sus: ergo, cum immenso nihil maius esse possit,  
+      <lb ed="#T" n="107"/>non potuit ei dari plus de spiritu: ergo nec fieri 
+      <lb ed="#T" n="108"/>melior.  
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e808">
+                  <lb ed="#T" n="109"/>3. Dicit Anselm. lib. de conceptu virginali 
+      <lb ed="#T" n="110"/>Decebat vt ea puritate niteret Virgo quam 
+      <lb ed="#T" n="111"/>Deus Filio suo matrem eligebat, qua maior sub 
+      <lb ed="#T" n="112"/>Deo nequit intelligi: ergo cum omnis factura 
+      <lb ed="#T" n="113"/>sit sub factore, purior creaturabeata virgine 
+      fie<lb ed="#T" n="114" break="no"/>ri non potuit: ergo nec melior.  
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e824">
+                  <lb ed="#T" n="115"/>4. Beata Virgo exaltata est super choros 
+      an<lb ed="#T" n="116" break="no"/>gelorum: sed vltra hunc gradum nullus gradus 
+      <lb ed="#T" n="117"/>altitudinis est: ergo nihil amplius exaltari 
+      po<lb ed="#T" n="118" break="no"/>test: ergo nec melius fieri¬ 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e835">
+                  <lb ed="#T" n="119"/>5. Beatitudo creata est status omnium 
+      bono<lb ed="#T" n="120" break="no"/>rum aggregatione perfectus, secundum 
+      Boe<lb ed="#T" n="121" break="no"/>tium: sed t ali bono nihil potest esse melius: 
+      er<lb ed="#T" n="122" break="no"/>go nec potest a Deo fieri aliquid melius ea. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e846">
+                  <lb ed="#T" n="123"/>6. Quanto aliquid Deo coniunctius, tanto 
+      me<lb ed="#T" n="124" break="no"/>lius: immediata coniunctione nulla potest esse 
+      <lb ed="#T" n="125"/>maior: ergo nec melior. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e855">
+                  <lb ed="#T" n="126"/>Contra. 1. Omne bonum creatum est finitum: 
+      <lb ed="#T" n="127"/>omni bono finito est possibilis additio: ergo 
+      nul<lb ed="#T" n="128" break="no"/>lum bonum creatum ita bonum est, quin possit,  
+      <lb ed="#T" n="129"/>fieri melius eo. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e866">
+                  <lb ed="#T" n="130"/>2. Infinita non est pertransire: posse Dei 
+      infi<lb ed="#T" n="131" break="no"/>nitum est: ergo pertransiri non potest: ergo de 
+      <lb ed="#T" n="132"/>nullo effectu suo potest vere dici, Deus potest 
+      <lb ed="#T" n="133"/>hoc &amp; non amplius, 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e878">
+                  <lb ed="#T" n="134"/>3. Chrysost. Ideo Dene dicitur omnipotens 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0440.xml-->
+      <pb ed="#T" n="365"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>quia posse eius non potest inuenire non posse: 
+      er<lb ed="#T" n="2" break="no"/>go numque potest tantum, quin possit amplius, 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e894">
+                  <lb ed="#T" n="3"/>Respondeo. Est loqui de bono increato per 
+      <lb ed="#T" n="4"/>se, &amp; de bono creato per se, aut de vtroque 
+      <lb ed="#T" n="5"/>simul: bonum increatum per se omnino 
+      infini<lb ed="#T" n="6" break="no"/>um est, ideo nihil potest esse melius: bonum 
+      <lb ed="#T" n="7"/>creatum per se finitum est, ideo potest fieri 
+      <lb ed="#T" n="8"/>a. Deo aliquid melius: vtrumque simul 
+      sum<lb ed="#T" n="9" break="no"/>ptum ex ea parte qua creatum est, melius 
+      <lb ed="#T" n="10"/>fieri potest; &amp; ex ea parte qua increatum 
+      bo<lb ed="#T" n="11" break="no"/>num continet, non potest. Humanitas ergo 
+      <lb ed="#T" n="12"/>Christi conniuerari potest, vel secundum se 
+      <lb ed="#T" n="13"/>vel secundum. quod vnita: primo modo aliquid 
+      <lb ed="#T" n="14"/>melius fieri potest, secundo modo non. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e923">
+                  <lb ed="#T" n="15"/>Ad 1. Nihil potest esse Deo propinquius. 
+      <lb ed="#T" n="16"/>Resp. Quamuis natura humana vnita sit Deo in 
+      <lb ed="#T" n="17"/>persona, &amp; secundum hoc non possit fieri me 
+      <lb ed="#T" n="18"/>lior: tamen secundum naturam propriam 
+      con<lb ed="#T" n="19" break="no"/>siderata ad huc distat in infinitum, vnde potest 
+      <lb ed="#T" n="20"/>fieri melior.  
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e939">
+                  <lb ed="#T" n="21"/>Ad 2. De spiritu immenso. Resp. Spiritus seu 
+      <lb ed="#T" n="22"/>gratia Christi non dicitur immensa simpliciter.  
+      <lb ed="#T" n="23"/>sed secundum quid; id est non in actu, sed in 
+      <lb ed="#T" n="24"/>potentia ad effectus infinitos: vel potius non in 
+      <lb ed="#T" n="25"/>se absolute, sed in comparatione ad alias crea 
+      <lb ed="#T" n="26"/>turas: sicui linea in comparatione ad punctum 
+      <lb ed="#T" n="27"/>est infinita. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e957">
+                  <lb ed="#T" n="28"/>Ad 3. De Beata Virgine. Resp. Dupliciter est 
+      <lb ed="#T" n="29"/>eam considerare, vel secundum se, vel 
+      secun<lb ed="#T" n="30" break="no"/>dum conditionem qua dicitur mater Dei: 
+      pri<lb ed="#T" n="31" break="no"/>mo modo simpliciter potest fieri melior: 
+      secun<lb ed="#T" n="32" break="no"/>do modo dicendum, quod secundum hanc 
+      con<lb ed="#T" n="33" break="no"/>ditionem in specie melior esse non potest, quia 
+      <lb ed="#T" n="34"/>non potest esse mater melionis. Ad illud de 
+      pu<lb ed="#T" n="35" break="no"/>ritate. Resp. Non est simile, quia puritas 
+      in<lb ed="#T" n="36" break="no"/>tenditur per recessum a contrario quod non est 
+      <lb ed="#T" n="37"/>infinitum vnde potest perueniri ad terminum. 
+      <lb ed="#T" n="38"/>eius: sed bonitas per accessum ad bonum infinitum. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e983">
+                  <lb ed="#T" n="39"/>Ad 4. De exaltatione. Resp. Quamuis non 
+      <lb ed="#T" n="40"/>sit gr adus purae creaturae actu superior, potest 
+      <lb ed="#T" n="41"/>tamen esse, quia infiniti sunt gradus vsque ad 
+      Di<lb ed="#T" n="42" break="no"/>uinam altitudinem possibiles propter infinitam. 
+      <lb ed="#T" n="43"/>distantiam. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e997">
+                  <lb ed="#T" n="44"/>Ad 5. De beatitudine creata Resp. Beatitudo 
+      <lb ed="#T" n="45"/>creata dupliciter potest intelligi recipere aug 
+      <lb ed="#T" n="46"/>mentum bonitatis: aut ex parte boni 
+      partici<lb ed="#T" n="47" break="no"/>pati, sic non potest esse melior: aut ex parte 
+      mo<lb ed="#T" n="48" break="no"/>di participandi, sic potest. Ad illud quod 
+      oppo<lb ed="#T" n="49" break="no"/>nitur, Beatitudo est status &amp;c. Resp. Hanc 
+      de<lb ed="#T" n="50" break="no"/>scriptionem dat Boetius de beatitudine increata 
+      <lb ed="#T" n="51"/>cui conuenit simpliciter, beatitudo vero creata 
+      <lb ed="#T" n="52"/>status est omnium bonorum aggregatione 
+      per<lb ed="#T" n="53" break="no"/>fectus, non vniuersaliter, sed in genere, vnde 
+      <lb ed="#T" n="54"/>potest esse aliquid melius. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1023">
+                  <lb ed="#T" n="55"/>Ad 6. Nulla est meior coniunctio quam 
+      im<lb ed="#T" n="56" break="no"/>mediata. Resp. Coniunctio dupliciter potest 
+      in<lb ed="#T" n="57" break="no"/>telligi immediata: aut quod priuet medium 
+      in<lb ed="#T" n="58" break="no"/>terpositionis, aut medium distantiae: primo 
+      mo<lb ed="#T" n="59" break="no"/>do beatitudo est coniunctio immediata, non 
+      se<lb ed="#T" n="60" break="no"/>cundo: vnde potest adhuc esse propinquior &amp; 
+      <lb ed="#T" n="61"/>maior. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f11325-Dd1e1042">
+               <head xml:id="pdt7y6-f11325-Hd1e1044">Articulus 4</head>
+               <head xml:id="pdt7y6-f11325-Hd1e1046" type="question-title">
+  An Deus uniuersum potuerit fatere ante quam fecit
+</head>
+               <p xml:id="pdt7y6-f11325-d1e1049">
+                  <lb ed="#T" n="62"/>ARTICVLVS IV 
+      <lb ed="#T" n="63"/>An Deus uniuersum potuerit fatere ante quam fecit. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1056">
+                  <lb ed="#T" n="64"/>AD quartum articulum sic proceditur. 1. 
+      <lb ed="#T" n="65"/>Ante primam instans quo mundus factus 
+      <lb ed="#T" n="66"/>est, nihil erat nisi aeternitas: sed non potuit fien 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0440.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>in aeternitate: ergo non potuit fieri ante quam 
+      <lb ed="#T" n="68"/>factus est. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1074">
+                  <lb ed="#T" n="69"/>2. Si potuit fieri ante per centum annos, 
+      ea<lb ed="#T" n="70" break="no"/>dem ratione ante alios centum annos &amp; sic in 
+      <lb ed="#T" n="71"/>infinitum: ergo potuit facere mundum ab 
+      aeter<lb ed="#T" n="72" break="no"/>no: sed hoc falsum: ergo non potuit facere 
+      an<lb ed="#T" n="73" break="no"/>te quam fecit. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1088">
+                  <lb ed="#T" n="74"/>3. Oportet stare in aliquo anteriori finito: ergo 
+      <lb ed="#T" n="75"/>pari ratione potest stari in isto durationis 
+      termi<lb ed="#T" n="76" break="no"/>no, in quo mundus est factus. 
+      <lb ed="#T" n="77"/>4. Principio antiquitatis totius nihil potest esse 
+      <lb ed="#T" n="78"/>antiquius: sed primum instans temporis est 
+      prin<lb ed="#T" n="79" break="no"/>cipium antiquitatis, quia totius prioritatis &amp; 
+      <lb ed="#T" n="80"/>posterioritatis successiuae: ergo eo nihil potest 
+      <lb ed="#T" n="81"/>esse antiquiue. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1108">
+                  <lb ed="#T" n="82"/>Contra. 1. Tempus ipsum a Deo factum est, 
+      <lb ed="#T" n="83"/>non necessitate sed voluntate: ergo potuit fieri 
+      <lb ed="#T" n="84"/>aliud tempus: sed non cum isto tempore, quia 
+      <lb ed="#T" n="85"/>superflueret: ergo aute tempus illud. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1119">
+                  <lb ed="#T" n="86"/>2. Mille anni ante Deum sicut vna dies. 2. Pet. 2. a 
+      <lb ed="#T" n="87"/>sed nullus dubitat quin facere potuerit mundum 
+      <lb ed="#T" n="88"/>ante per vnam diem: ergo aeque bene poterat 
+      an<lb ed="#T" n="89" break="no"/>te per misse annos. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1130">
+                  <lb ed="#T" n="90"/>3. Diuina potentia non arctatur ad aliquem 
+      <lb ed="#T" n="91"/>locum: ergo nec ad aliquod tempus. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1137">
+                  <lb ed="#T" n="92"/>4. Diuina operatio non dependet a tempore 
+      <lb ed="#T" n="93"/>sed tempus ab ipsa: ergo non arctatur in alique 
+      <lb ed="#T" n="94"/>tempore quin possit operari ita in altero. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1146">
+                  <lb ed="#T" n="95"/>5. Diuina essentia erat ante tempus, &amp; 
+      Diui<lb ed="#T" n="96" break="no"/>na potentia: aut ergo potens exire in actum 
+      <lb ed="#T" n="97"/>creationis mundi, aut non: si non, ergo ex 
+      tem<lb ed="#T" n="98" break="no"/>pore accessit ei posse aliquod: si sic, ergo potuit 
+      <lb ed="#T" n="99"/>facere mundum ante quam fecit. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1160">
+                  <lb ed="#T" n="100"/>Respondeo. Cum quaeritur vtrum Deus po¬ e 
+      <lb ed="#T" n="101"/>tuerit mundum facere antequam fecenit, 
+      propo<lb ed="#T" n="102" break="no"/>sitio duplex est: quia haec determinatio [
+      ante<lb ed="#T" n="103" break="no"/>quam spotest cadere sub possibilitate, &amp; sic 
+      am<lb ed="#T" n="104" break="no"/>pliatur ad supponendum pro duratione quae 
+      <lb ed="#T" n="105"/>esse potuit: vel extra, &amp; sic supponit pro 
+      dura<lb ed="#T" n="106" break="no"/>tione quae fuit: primo modo Deus potuit facere 
+      <lb ed="#T" n="107"/>mundum antequam fecerit quia potuit facere 
+      <lb ed="#T" n="108"/>tempus mille annorum prius ilto tempore quod 
+      <lb ed="#T" n="109"/>fecit, &amp; in principio illius temporis creare 
+      mun<lb ed="#T" n="110" break="no"/>dum: secundo modo non potuit, quia ante non 
+      <lb ed="#T" n="111"/>fuit nisi aeternitas, &amp; in aeternitate mundus crearit 
+      <lb ed="#T" n="112"/>non potuit, non enim potuit habere principium 
+      <lb ed="#T" n="113"/>pure voluntariae causalitatis quin haberet 
+      prin<lb ed="#T" n="114" break="no"/>cipium durationis. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1195">
+                  <lb ed="#T" n="115"/>Ad 1. Ante primum instans &amp;c. Resp. 
+      Qua<lb ed="#T" n="116" break="no"/>uis nihil aliud fuerit, tamen aliquid esse potuit, 
+      <lb ed="#T" n="117"/>quia Deus mille annos alios ante primum 
+      in<lb ed="#T" n="118" break="no"/>stans huius temporis facere potuit. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1206">
+                  <lb ed="#T" n="119"/>Ad 2. Si potuit ante per centum annos &amp;c. 
+      <lb ed="#T" n="120"/>Resp. Per centum potuit &amp; per centum alios, &amp; 
+      <lb ed="#T" n="121"/>sic in infinitum in potentia, sed non in actu: est 
+      <lb ed="#T" n="122"/>enim infinitum hoc additione, scilicet in 
+      acci<lb ed="#T" n="123" break="no"/>piendo: non in infinitum in terminis, id est in 
+      <lb ed="#T" n="124"/>accepto esse. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1222">
+                  <lb ed="#T" n="125"/>Ad 3. Oportet stare in aliquo finito. Resp. 
+      <lb ed="#T" n="126"/>Verum est, sed non in hoc vel illo, quia 
+      infini<lb ed="#T" n="127" break="no"/>ta sunt talia finita in quorum quolibet potest esse 
+      <lb ed="#T" n="128"/>status. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1233">
+                  <lb ed="#T" n="129"/>Ad 4. De principio antiquitatis. Resp. 
+      Pri<lb ed="#T" n="130" break="no"/>mum instans huius temporis est principium 
+      <lb ed="#T" n="131"/>totius antiquitatis quae est, non totius quae esse 
+      <lb ed="#T" n="132"/>potuit: antiquitatis vero totius, quae est, 
+      prin<lb ed="#T" n="133" break="no"/>cipio aliquid potuit esse antiquius, quamuis non 
+      <lb ed="#T" n="134"/>fuerit.
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f11325-Dd1e1250">
+               <head xml:id="pdt7y6-f11325-Hd1e1252">Articulus 5</head>
+               <head xml:id="pdt7y6-f11325-Hd1e1254" type="question-title">
+  An Deus aliud uniuersum facere possit
+</head>
+               <p xml:id="pdt7y6-f11325-d1e1257">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0441.xml-->
+                  <pb ed="#T" n="366"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>ARTICVLVS V 
+      <lb ed="#T" n="2"/>An Deus aliud uniuersum facere possit.
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1270">
+                  <lb ed="#T" n="3"/>AD quintum articulum proceditur sic. 1. 
+      <lb ed="#T" n="4"/>Deus nihil potest supersluum: sed aliuo 
+      <lb ed="#T" n="5"/>vniuersum fieri esset superfluum, cum istud 
+      suf<lb ed="#T" n="6" break="no"/>ficienter ostendat nobis suum principium, 
+      sci<lb ed="#T" n="7" break="no"/>licet Deum: ergo non potuit Deus facere aliud 
+      <lb ed="#T" n="8"/>vniuersum. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1286">
+                  <lb ed="#T" n="9"/>2. Si potuit, aut in eodem loco, aut in alio: 
+      <lb ed="#T" n="10"/>si in eodem, contra, duo corpora impossibile est 
+      <lb ed="#T" n="11"/>simul esse in eodem loco: si in altero, contra 
+      <lb ed="#T" n="12"/>alter locus non erat. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1298">
+                  <lb ed="#T" n="13"/>3. Probat Damascenus, quod non potuerunt 
+      <lb ed="#T" n="14"/>esse duo Dij, quia neuter esset perfectus, &amp; 
+      <lb ed="#T" n="15"/>neuter Deus: sed si duo fuerint vniuersa neutrum 
+      <lb ed="#T" n="16"/>esset vniuersum: ergo Deus non potuit facere 
+      <lb ed="#T" n="17"/>aliud vniuersum. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1311">
+                  <lb ed="#T" n="18"/>4. Plato in Timaeo. Vnum mundum recte 
+      di<lb ed="#T" n="19" break="no"/>cimus, quoniam iuxta exemplum formatus est, 
+      <lb ed="#T" n="20"/>id enim quod vniuersa continet intelligibilia. 
+      <lb ed="#T" n="21"/>cum alio simul esse non poterat: ergo non potuit. 
+      <lb ed="#T" n="22"/>facere aliud vniuersum. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1324">
+                  <lb ed="#T" n="23"/>5. Si fieret aliud, aut ex rebus eiusdem 
+      gene<lb ed="#T" n="24" break="no"/>ris, aut non: si eiusdem, contra, ergo eiusdem 
+      <lb ed="#T" n="25"/>naturae &amp; eiusdem motus; ergo partes terra 
+      <lb ed="#T" n="26"/>mundi alterius mouerentur ad centrum existens 
+      <lb ed="#T" n="27"/>extra suam circunferentiam; ergo simul 
+      moueren<lb ed="#T" n="28" break="no"/>tur a medio &amp; ad medium, quia a centro &amp; ad 
+      <lb ed="#T" n="29"/>centrum, quod est impossibile: si ex rebus 
+      alte<lb ed="#T" n="30" break="no"/>rius generis, contra, ergo mundus iste deficit in 
+      <lb ed="#T" n="31"/>aliquibus generibus rerum: sed hoc est falsum, 
+      <lb ed="#T" n="32"/>quia, perfectus est: ergo non potuit aliud fieri 
+      <lb ed="#T" n="33"/>vniuersum. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1350">
+                  <lb ed="#T" n="34"/>Contra 1. Infinita potentia non finitur ad 
+      <lb ed="#T" n="35"/>aliquem effectum suum: ergo cum Dei potentia. 
+      <lb ed="#T" n="36"/>sit infinita, non finitur ad hoc vniuersum, quid  
+      <lb ed="#T" n="37"/>aliud possit facere 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1361">
+                  <lb ed="#T" n="38"/>2. Eccles. 42. Omnia duplicia vnum contra 
+      <lb ed="#T" n="39"/>vnum &amp;c. ergo sicut in rebus particularibus, ita 
+      <lb ed="#T" n="40"/>debet duplex fieri vniuersum. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1370">
+                  <lb ed="#T" n="41"/>3. Non est Deo difficilius facere totum 
+      vni<lb ed="#T" n="42" break="no"/>uersum, quam facere hominem, vel angelum 
+      <lb ed="#T" n="43"/>vnum: ergo sicut potest facere plures homines 
+      <lb ed="#T" n="44"/>&amp; plures angelos, ita multiplex vniuersum. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1382">
+                  <lb ed="#T" n="45"/>Respondeo. De vniuerso est loqui dupliciter  
+      <lb ed="#T" n="46"/>aut secundum rationem nominis, id est inquantum, 
+      <lb ed="#T" n="47"/>vniuersum: aut secundum id quod vniuersum. 
+      <lb ed="#T" n="48"/>est: primo modo Deus non potuit coniunctim 
+      <lb ed="#T" n="49"/>facere aliud vniuersum ita quod duo essent 
+      vni<lb ed="#T" n="50" break="no"/>uersa, quia nentrum esset vniuersum; sed diuisim 
+      <lb ed="#T" n="51"/>potuit, ita quod illud non esset, sed aliud 
+      vni<lb ed="#T" n="52" break="no"/>uersum: secundo modo potuit Deus, &amp; potest 
+      <lb ed="#T" n="53"/>etiam cum isto aliud facere vniuersum, id est 
+      <lb ed="#T" n="54"/>alium mundum, &amp; infinitos mundos siue ex 
+      <lb ed="#T" n="55"/>rebus eiusdem generis siue alterius. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1408">
+                  <lb ed="#T" n="56"/>Ad 1. Istud superfluum esset. Resp. Quamuis 
+      <lb ed="#T" n="57"/>istud sit sufficiens vt nunc, tamen Deus posset 
+      <lb ed="#T" n="58"/>aliud facere: quod si faceret esset vtile, non 
+      su<lb ed="#T" n="59" break="no"/>perfluum: quamuis enim creaturis huius vniuersi. 
+      <lb ed="#T" n="60"/>non esset necessarium, esset tamen creaturis 
+      in<lb ed="#T" n="61" break="no"/>clusis intra illud vniuersum. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1424">
+                  <lb ed="#T" n="62"/>Ad 2. Aut in eodem. Resp. Posse aliud 
+      vni<lb ed="#T" n="63" break="no"/>uersum fieri in altero loco, dupliciter potest 
+      in<lb ed="#T" n="64" break="no"/>telligi: aut ita quod hoc quod dico, in alio, 
+      am<lb ed="#T" n="65" break="no"/>plietur ad supponendum pro alio loco possibili; 
+      <lb ed="#T" n="66"/>aut ita quod cadat extra possibilitatem, &amp; sup¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0441.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>ponat pro alio loco existenti. Primo potuit fieri 
+      <lb ed="#T" n="68"/>aliud in alio loco ita quod fieret alius locus: 
+      se<lb ed="#T" n="69" break="no"/>cundo modo non potuit quia non erat alius, 
+      <lb ed="#T" n="70"/>locus. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1450">
+                  <lb ed="#T" n="71"/>Ad 3. Neutrum esset vniuersum. Resp. 
+      Lo<lb ed="#T" n="72" break="no"/>quendo de vniuerso secundum rationem 
+      nomi<lb ed="#T" n="73" break="no"/>nis, simul cum isto non potuit esse aliud 
+      vni<lb ed="#T" n="74" break="no"/>uersum, quia contradictio implicatur: 
+      loquen<lb ed="#T" n="75" break="no"/>do secundum id quod est, potest. Nec est 
+      simi<lb ed="#T" n="76" break="no"/>le de duobus Dijs, quia Deus ex natura sua 
+      <lb ed="#T" n="77"/>comprehendit in se vniuersitatem bonorum, ita 
+      <lb ed="#T" n="78"/>quod sibi non potest fieri additio, vel 
+      augmen<lb ed="#T" n="79" break="no"/>cum: non sic autem vniuersum: quamuis enim 
+      <lb ed="#T" n="80"/>contineat aggregationem bonorum actu 
+      exi<lb ed="#T" n="81" break="no"/>stentium, non tamen possibilium fore. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1476">
+                  <lb ed="#T" n="82"/>Ad 4. Platonis. Resp. Loquitur de vniuerso 
+      <lb ed="#T" n="83"/>secundum rationem nominis, id est inquantum 
+      <lb ed="#T" n="84"/>vniuersum: non secundum id quod est. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1485">
+                  <lb ed="#T" n="85"/>Ad 5. Aut ex rebus eiusdem generis. Resp. 
+      <lb ed="#T" n="86"/>Vtroque modo fieri potuit. Si tamen fieret ex 
+      <lb ed="#T" n="87"/>rebus eiusdem generis, non sequeretur quod 
+      <lb ed="#T" n="88"/>mouerentur partes terrae alterius ad idem 
+      cen<lb ed="#T" n="89" break="no"/>trum numero, sed ad idem specie &amp; natura: nunc 
+      <lb ed="#T" n="90"/>vero omnes mouentur ad idem numero, quia 
+      <lb ed="#T" n="91"/>non est nisi vnum. Et si fiereti aliud ex rebus 
+      al<lb ed="#T" n="92" break="no"/>terius generis, non ideo istud imperfectum esset, 
+      <lb ed="#T" n="93"/>perfectio enim vniuersi non est perfectio 
+      vniuer<lb ed="#T" n="94" break="no"/>saliter, sed in genere suo, quando res habet  
+      <lb ed="#T" n="95"/>quicquid debetur ei secundum genus suum. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1512">
+                  <lb ed="#T" n="96"/>Ad 1. In contrarium de potentia infinita. 
+      <lb ed="#T" n="97"/>Resp. Deus potest facere aliud vniuersum quam 
+      <lb ed="#T" n="98"/>hoc, sed non ita quod vtrumque habeant 
+      ratio<lb ed="#T" n="99" break="no"/>nem vniuersi: hoc autem contingit non ex 
+      de<lb ed="#T" n="100" break="no"/>fectu potentiae Dei, sed possibilitatis, quia 
+      im<lb ed="#T" n="101" break="no"/>plicatur contradictio quae tollit rationem poss 
+      <lb ed="#T" n="102"/>sibilitatis. Et est simile in Sole, Sol enim dicitur  
+      <lb ed="#T" n="103"/>quasi solus: si ergo quaeras vtrum potuit facere 
+      <lb ed="#T" n="104"/>alium solem.: Resp. Loquendo de Sole 
+      secun<lb ed="#T" n="105" break="no"/>dum rationem nominis, impossibile est simul 
+      <lb ed="#T" n="106"/>cum isto: sed diuisim, possibile: loquendo vero 
+      <lb ed="#T" n="107"/>de eo secundum id quod est, possibile est. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1541">
+                  <lb ed="#T" n="108"/>Ad 2. de Eccl. Resp. Non est simile de rebus 
+      <lb ed="#T" n="109"/>singularibus, &amp; de vniuerso: quia contrarietas 
+      <lb ed="#T" n="110"/>singularium pertinet ad conieruationem vniuersi 
+      <lb ed="#T" n="111"/>inquantum corruptio vnius est generatio 
+      alte<lb ed="#T" n="112" break="no"/>rius, sed contrarietas vniuersi, non, sed potius 
+      <lb ed="#T" n="113"/>ad destructionem vniuersalem omnium entium. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1557">
+                  <lb ed="#T" n="114"/>Ad illud de duobus hominibus. Resp. 
+      Secun<lb ed="#T" n="115" break="no"/>dum id quod est, Deus potuit facere aliud 
+      vni<lb ed="#T" n="116" break="no"/>uersum: non tamen ita quod vtrumque esset 
+      <lb ed="#T" n="117"/>vniuersum secundum rationem nominis. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f11325-Dd1e1569">
+               <head xml:id="pdt7y6-f11325-Hd1e1571">Articulus 6</head>
+               <head xml:id="pdt7y6-f11325-Hd1e1573" type="question-title">
+  An Deus adhuc easdem uniuersi partes facere possit
+</head>
+               <p xml:id="pdt7y6-f11325-d1e1576">
+                  <lb ed="#T" n="118"/>ARTICVLVS VI. 
+      <lb ed="#T" n="119"/>An Deus adhuc easdem uniuersi partes facere possit. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1583">
+                  <lb ed="#T" n="120"/>AD sextum articulum sic proceditur. 1. Idem 
+      <lb ed="#T" n="121"/>est Deo esse &amp; posse: sed Deus est adhuo 
+      <lb ed="#T" n="122"/>quicquid semel fuit: ergo adhuc potest quicquid 
+      <lb ed="#T" n="123"/>semel potuit. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1594">
+                  <lb ed="#T" n="124"/>2. Infinitae potentiae, cum semper sit respectu 
+      <lb ed="#T" n="125"/>infinitorum, nihil suorum possibilium accrescit 
+      <lb ed="#T" n="126"/>vel decrescit: ergo semper potest quiequid semel 
+      <lb ed="#T" n="127"/>potuit. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1606">
+                  <lb ed="#T" n="128"/>3. Omne quod in Deo fuit, seper est: ergo 
+      om<lb ed="#T" n="129" break="no"/>nis poteria quae in ipso fuit aliquando, adhuc est 
+      <lb ed="#T" n="130"/>in eo: ergo potest quicquid aliquando potuit. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1615">
+                  <lb ed="#T" n="131"/>4. Omnis potentia, quae non potest quicquid 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0442.xml-->
+      <pb ed="#T" n="367"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>aliquando potuit minorata est: sed Dei 
+      poten<lb ed="#T" n="2" break="no"/>tia non potest minui: ergo adbuc potest quicquid 
+      <lb ed="#T" n="3"/>aliquando potuit. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1633">
+                  <lb ed="#T" n="4"/>Contra. 1. Substantia vel esse eiusdem rei non 
+      <lb ed="#T" n="5"/>potest bis fieri: ergo non potest adhuc facere 
+      <lb ed="#T" n="6"/>quod femel fecit. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1642">
+                  <lb ed="#T" n="7"/>2. Antequam incarnaretur potuit non 
+      incar<lb ed="#T" n="8" break="no"/>nari, modo non potest fore non incarnatus: ergo 
+      <lb ed="#T" n="9"/>non potest quicquad aliqando potuit. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1651">
+                  <lb ed="#T" n="10"/>3. Si dicatur quod potest quicquid potuis 
+      <lb ed="#T" n="11"/>quia potest fecisse quicquid fecit. Contra. Non 
+      <lb ed="#T" n="12"/>dicitur caecus posse quicquid potuit, cum tamen 
+      <lb ed="#T" n="13"/>possit vidisse: ergo a simili nec Deus potesc nac 
+      <lb ed="#T" n="14"/>ratione quicquid potuit. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1664">
+                  <lb ed="#T" n="15"/>4. Deus antequam moreretur &amp; resurgeret 
+      <lb ed="#T" n="16"/>mori &amp; resurgere potuit: sed modo non potest: 
+      <lb ed="#T" n="17"/>eroo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1674">
+                  <lb ed="#T" n="18"/>Respondeo. Aliquis negatur posse aliquid 
+      du<lb ed="#T" n="19" break="no"/>plici ratione: aut defectu potentiae, vt caecus 
+      <lb ed="#T" n="20"/>non potest videre lucem: aut ex defectu 
+      possibi<lb ed="#T" n="21" break="no"/>lis, vt videns non potest videre tenebras, vel 
+      <lb ed="#T" n="22"/>sonum: primo modo ninil potest Deus dici non 
+      <lb ed="#T" n="23"/>posse, cum eius potentia ad omnia sufficiens 
+      <lb ed="#T" n="24"/>sit: secundo modo dicitur aliqua non posse, vt 
+      <lb ed="#T" n="25"/>quod idem sit &amp; non sit. Similiter quod aliquis 
+      <lb ed="#T" n="26"/>non possit quicquid aliquando potuit, potest 
+      di<lb ed="#T" n="27" break="no"/>ci duplici ratione: aut quia non habet omnem 
+      <lb ed="#T" n="28"/>potentiam quam aliquando habuit: aut quia 
+      <lb ed="#T" n="29"/>factum est impossibile quod prius possibile fuit, 
+      <lb ed="#T" n="30"/>vnde vsus potentiae non se extendit ad illud: 
+      <lb ed="#T" n="31"/>sicut enim videre dicitur dupliciter, scilicet vel 
+      <lb ed="#T" n="32"/>habere visum, vel vti visu; sic posse dupliciter  
+      <lb ed="#T" n="33"/>dicitur, vel habere potentiam, vel vti potentia: 
+      <lb ed="#T" n="34"/>primo modo dicit Magister quod Deus potest 
+      <lb ed="#T" n="35"/>quicquid potuit: secundo modo non potest 
+      <lb ed="#T" n="36"/>quicquid potuit, quia non est possibile quicquid 
+      <lb ed="#T" n="37"/>possibile fuit, possibile enim est respectu futuri 
+      <lb ed="#T" n="38"/>temporis, vnde quod actu praesens est aut 
+      prae<lb ed="#T" n="39" break="no"/>teritum rationem possibilis perdit. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1724">
+                  <lb ed="#T" n="40"/>Ad 1. Deus est quicquid semel fuit. Resp. 
+      <lb ed="#T" n="41"/>Fallacia accidentis est, quia quamuis esse &amp; 
+      <lb ed="#T" n="42"/>posse sint idem re, differunt tamen ratione, quia 
+      <lb ed="#T" n="43"/>posse dicit respectum ad possibile. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1735">
+                  <lb ed="#T" n="44"/>Ad 2. De potentia infinita. Resp. Quamuis 
+      <lb ed="#T" n="45"/>semper sit respectu infinitorum, tamen non 
+      <lb ed="#T" n="46"/>oportet quod respectu eorumdem: nec per hoc 
+      <lb ed="#T" n="47"/>numerus possibilium minuitur, sicut nec linea 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0442.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="48"/>detractione puncti, quia quod detrahitur 
+      im<lb ed="#T" n="49" break="no"/>proportionale est ei quod remanet. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1755">
+                  <lb ed="#T" n="50"/>Ad 3. Omne quod in Deo est &amp;c. Resp. 
+      <lb ed="#T" n="51"/>Quamuis in Deo sit omnis potentia quae 
+      ali<lb ed="#T" n="52" break="no"/>quando fuit; non tamen sequitur cum posse 
+      <lb ed="#T" n="53"/>omne quod semel potuit: quia non posse aliquid 
+      <lb ed="#T" n="54"/>quod potuit, potest contingere vel mutatione 
+      <lb ed="#T" n="55"/>potentiae, vel mutatione objecti possibilis. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1771">
+                  <lb ed="#T" n="56"/>Ad 4. Omnis potentia quae non potest &amp;c. 
+      <lb ed="#T" n="57"/>Resp. Si hoc contuigit ex defectu potentiae, tunc 
+      <lb ed="#T" n="58"/>potentia minoratur: sed quando est ex defectu 
+      <lb ed="#T" n="59"/>possibilium, non oportet minorari potentiam. 
+      <lb ed="#T" n="60"/>Vel dicendum, quod licet secundo modo non 
+      <lb ed="#T" n="61"/>possit quicquid potuit, tamen non minus 
+      po<lb ed="#T" n="62" break="no"/>test, nec pauciora, sed totidem, licet non 
+      <lb ed="#T" n="63"/>eadem: quia semper potest infinita, subtractio. 
+      <lb ed="#T" n="64"/>enim aliquorum possibilium, quamuis possit  
+      <lb ed="#T" n="65"/>minuere potentiam finitan, non tamen 
+      infini<lb ed="#T" n="66" break="no"/>tam, sicut nec subtractio puncti lineam. 
+      Pro<lb ed="#T" n="67" break="no"/>positio ergo tenet in potentia finita tantum. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1800">
+                  <lb ed="#T" n="68"/>Ad 1. In contrarium de substantia eiusdem rei, 
+      <lb ed="#T" n="69"/>&amp;c. Resp. Quamuis res non sit possibilis, tamen 
+      <lb ed="#T" n="70"/>eadem est in Deo potentia quae fuit, vnde in hoc 
+      <lb ed="#T" n="71"/>sensu potest dici adhuc posse quicquid potuit. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1812">
+                  <lb ed="#T" n="72"/>Ad 2. Modo non potost fore non incarnatus 
+      <lb ed="#T" n="73"/>&amp;c. Resp. Quamuis actus possibilis esse defierit, 
+      <lb ed="#T" n="74"/>tamen potentia in Deo eadem mansit. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1821">
+                  <lb ed="#T" n="75"/>Ad 3. De caeco. Resp. Non est simile, quia in 
+      <lb ed="#T" n="76"/>caeco non manet omnis potentia quae prius fuit: 
+      <lb ed="#T" n="77"/>vnde neutro modo potest dici posse quicquid 
+      <lb ed="#T" n="78"/>ante potuit. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1832">
+                  <lb ed="#T" n="79"/>Ad 4. Demori &amp; resurgere. Resp. Licet actus 
+      <lb ed="#T" n="80"/>possibilis esse desierit, tamen potentia in Deo 
+      <lb ed="#T" n="81"/>mansit. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f11325-Dd1e1842">
+               <head xml:id="pdt7y6-f11325-Hd1e1844">Expositio litterae</head>
+               <p xml:id="pdt7y6-f11325-d1e1846">
+                  <lb ed="#T" n="82"/>EXPOSITIO LITERAE 
+      <lb ed="#T" n="83"/>Vis dubitat cum meliorem fore.] Contra. 
+      <lb ed="#T" n="84"/>Augustinus. Melior est substantia quae 
+      <lb ed="#T" n="85"/>peccare potest, quam quae non potest. Resp. 
+      Me<lb ed="#T" n="86" break="no"/>lior esset homini simpliciter non posse peccare, 
+      <lb ed="#T" n="87"/>sed posse peccare melius est secundum quid, 
+      in<lb ed="#T" n="88" break="no"/>quantum est occasio maioris gloriae. 
+    </p>
+               <p xml:id="pdt7y6-f11325-d1e1864">
+                  <lb ed="#T" n="89"/>Non potest incarnari.] Contra, lib. 4. dist. 
+      <lb ed="#T" n="90"/>9. Dicit quod potest Pater incarnari. Resp. Hic 
+      <lb ed="#T" n="91"/>loquitur de eadem incarnatione numero ex 
+      par<lb ed="#T" n="92" break="no"/>te assumentis &amp; assumpti, ibi de alia.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

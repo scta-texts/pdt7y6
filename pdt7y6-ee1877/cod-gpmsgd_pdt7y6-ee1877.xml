@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="7"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-ee1877"><!-- l1prolprae -->
+            <head xml:id="pdt7y6-ee1877-Hd1e99">Praeambulum</head>
+            <p xml:id="pdt7y6-ee1877-d1e101">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0082.xml-->
+               <pb ed="#T" n="7"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/><!-- line coord error --> 
+      <lb ed="#T" n="2"/>PETRILOMBARDI EpISCOPI 
+               <lb ed="#T" n="3"/>Parisiensis in Libros Sententiarum, 
+               <lb ed="#T" n="4"/>PROLOCVS.
+            </p>
+           <!--<p xml:id="pdt7y6-ee1877-d1e119">
+      <lb ed="#T" n="5"/>eX VPIINTES aliquid de penuria ac tenuitate nostra cum paupercula in 
+      ga<lb ed="#T" n="6" break="no"/>zophylacium Domini mittere; ardua scandere, opus vltra vires nostras 
+      <lb ed="#T" n="7"/>agere praesumpsimus, consummationis fiduciam laborisque mercedem in 
+      <lb ed="#T" n="8"/>Samaritano statuentes, qui prolatis in curationem semiuiui duobus 
+      dena<lb ed="#T" n="9" break="no"/>riis, supereroganti cuncta reddere professus est. Delectat nos veritas 
+      pol<lb ed="#T" n="10" break="no"/>Queu licentis: sed terret immensitas laboris. Desiderium hortatur proficiendi, 
+      <lb ed="#T" n="11"/>sed dehortatur infirmitas deficiendi, quam vincit zelus domus Dei. Quo inardescentes 
+      <lb ed="#T" n="12"/>fidem nostram aduersus errores carnalium atque animalium hominum Dauidicae turris 
+      <lb ed="#T" n="13"/>clypeis munire, vel potius munitam ostendere, ac Theologicarum inquisitionum abdita 
+      <lb ed="#T" n="14"/>aperire, nec non &amp; sacramentorum Ecclesiasticorum pro modulo intelligentiae nostrae 
+      no<lb ed="#T" n="15" break="no"/>titiam tradere studuimus: non valentes studiosorum Fratrum votis iure resistere, eorum 
+      <lb ed="#T" n="16"/>in Christo laudabilibus studiis, lingua ac stylo nos seruire flagitantium, quas bigas in nobis 
+      <lb ed="#T" n="17"/>agitat Christi charitas. Quamuis non ambigamus omnem humani eloquij sermonem 
+      ca<lb ed="#T" n="18" break="no"/>lumniae atque contradictioni aemulorum semper fuisse obnoxium: quia dissentientibus 
+      vo<lb ed="#T" n="19" break="no"/>luntatum moribus, dissentiens quoque sit animorum sensus: vt, cum omne dictum veri 
+      ra<lb ed="#T" n="20" break="no"/>tione perfectum sit, tamen dum aliud aliis aut videtur, aut complacet, veritati vel non 
+      in<lb ed="#T" n="21" break="no"/>tellectae, vel offendenti, &amp; impietatis error obnitatur, ac voluntatis inuidia resistat: quam 
+      <lb ed="#T" n="22"/>Deus saeculi huius operatur in illis diffidentiae filijs, qui non rationi voluntatem subijciunt, 
+      <lb ed="#T" n="23"/>nec doctrinae studium impendunt, sed his quae somniarunt sapientiae verba coaptare 
+      nitun<lb ed="#T" n="24" break="no"/>tur, non veri, sed placiti rationem fectantes, quos iniqua voluntas non ad intelligentiam 
+      <lb ed="#T" n="25"/>veritatis, sed ad defensionem placentium incitat, non desiderantes doceri veritatem, sed  
+      <lb ed="#T" n="26"/>ab ea ad fabulas conuertentes auditum. Quorum professio est magis placita quam docenda 
+      <lb ed="#T" n="27"/>conquirere: nec docenda desiderare, sed desideratis doctrinam coaptare, quae habent 
+      ratio<lb ed="#T" n="28" break="no"/>nem sapientiae inr superstitione. Quia fidei defectionem sequitur hypocrisis mendax, vt sit 
+      <lb ed="#T" n="29"/>in verbis pietas, quam amifserit conscientia: ipsamque simulatam pietatem omni verborum. 
+      <lb ed="#T" n="30"/>mendacio impiam reddunt, falsae doctrinae institutis fidei sanctitatem corrumpere molientes, 
+      <lb ed="#T" n="31"/>auriumque pruriginem sub nouello sui desiderij dogmate aliis ingerentes, qui contentionis 
+      <lb ed="#T" n="32"/>studentes contra veritatem sine foedere bellant. Inter veri namque assertionem &amp; placiti 
+      <lb ed="#T" n="33"/>defensionem pertinax pugna est: dum se &amp; veritas tenet, &amp; se voluntas erroris tuetur.  
+      <lb ed="#T" n="34"/>Horum igitur &amp; Deo odibilem Ecclesiam euertere, atque ora opilare (ne virus nequitiae 
+      <lb ed="#T" n="35"/>in alios effundere queant) &amp; lucernam veritatis in candelabro exaltare volentes, in labore 
+      <lb ed="#T" n="36"/>multo ac sudore hoc volumen (Deo praestante) compegimus, ex testimoniis veritatis in 
+      <lb ed="#T" n="37"/>aeternum fundatis in quatuor libris distinctum. In quo maiorum exempla doctrinamque 
+      re<lb ed="#T" n="38" break="no"/>peries: in quo per Dominicae fidei synceram professionem vipereae doctrinae fraudulentiam 
+      <lb ed="#T" n="39"/>prodidimus, aditum demonstrandae veritatis complexi, nec periculo impiae professionis 
+      in<lb ed="#T" n="40" break="no"/>sferti, temperato inter vtrumque moderamine vtentes. Sicubi vero parum vox nostra 
+      inso<lb ed="#T" n="41" break="no"/>nuit, non a paternis discessit limitibus. Non igitur debet hic labor cuiquam pigro, vel 
+      mul<lb ed="#T" n="42" break="no"/>tum docto videri superfluus: cum multis impigris multisque indoctis, inter quos etiam &amp; 
+      <lb ed="#T" n="43"/>mihi sit necessarius: breui volumine complicans Patrum sententias, appositis eorum 
+      testi<lb ed="#T" n="44" break="no"/>moniis: vt non sit necesse quaerenti librorum numerositatem euoluere, cui breuitas collecta 
+      <lb ed="#T" n="45"/>quod quaeritur, offert sine labore. In hoc autem Tractatu non solum pium Lectorem, sed etia 
+      <lb ed="#T" n="46"/>liberum Correctorem desidero, maxime vbi profunda versatur veritatis quaestio, quae 
+      vti<lb ed="#T" n="47" break="no"/>nam, tot haberet inuentores, quot habet contradictores. Vt autem quod quaeritur facilius, 
+      <lb ed="#T" n="48"/>occurrat: Titulos, quibus singulorum librorum capitula distinguuntur, praemisimus.
+    </p>-->
+            <p xml:id="pdt7y6-ee1877-d1e219">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0082.xml-->
+               <cb ed="#T" n="b"/>
+               <lb ed="#T" n="49" type="fixed=7"/>DIVISIO TEXTVS. 
+      <lb ed="#T" n="50"/>Ibro suo Magister praemittit procemium, in 
+      <lb ed="#T" n="51"/>Iquo primo ponitur excusatio Auctoris, 
+      secu<lb ed="#T" n="52" break="no"/>do reprehensio detractoris, [Quamuis non 
+      am<lb ed="#T" n="53" break="no"/>bigamus. ] Tertio commendatio Operis. [Horum 
+      <lb ed="#T" n="54"/>igitur odibilem.] Quarto excitatio auditoris, 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0082.xml-->
+      <cb ed="#T" n="c"/>
+               <lb ed="#T" n="55"/>[Non igitur debet. 
+    </p>
+            <p xml:id="pdt7y6-ee1877-d1e246">
+               <lb ed="#T" n="56"/>In prima parte excusat se a praesumptione 
+      tan<lb ed="#T" n="57" break="no"/>ti. Operis agendi dupliciter 1. Per causas 
+      mouen<lb ed="#T" n="58" break="no"/>tes ab intrinseco. 2. Per mouentes ab extrinseco. 
+      <lb ed="#T" n="59"/>Quo inardescentes.] Ab intrinseco triplicem 
+      <lb ed="#T" n="60"/>bonit causa mouentem; prima est confidentia spei. 
+      <lb ed="#T" n="61"/>Secunda est dilectio praemij promissi. Laborisqe 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0083.xml-->
+      <pb ed="#T" n="8"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>mercedem.] Tertia, desiderium proficiendi. [
+      De<lb ed="#T" n="2" break="no"/>siderium &amp;c.] Quibus singulis adiungit singulas 
+      <lb ed="#T" n="3"/>causas retrahentes 1. Difficultatem in 
+      aggre<lb ed="#T" n="4" break="no"/>diendo. 2. Laborem in prosequendo. 3. 
+      Timo<lb ed="#T" n="5" break="no"/>rem de deficiendo. Causas mouentes ab 
+      extrinse<lb ed="#T" n="6" break="no"/>co ponit duas, prima est haereticorum error. [Quo 
+      <lb ed="#T" n="7"/>inardescentes.] Secunda petitio Catholicorum 
+      <lb ed="#T" n="8"/>[Non valentes. 
+    </p>
+            <p xml:id="pdt7y6-ee1877-d1e285">
+               <lb ed="#T" n="9"/>In secunda parte principali ponitur 
+      reprehen<lb ed="#T" n="10" break="no"/>sio detractoris duplex, prima de impugnatione 
+      <lb ed="#T" n="11"/>veritatis [Quamuis non ambigamus.] Secunda 
+      <lb ed="#T" n="12"/>de doctrina falsitatis, [Quorum professio.] 
+    </p>
+            <p xml:id="pdt7y6-ee1877-d1e296">
+               <lb ed="#T" n="13"/>In tertia parte principali comendat Opus 1. A 
+      <lb ed="#T" n="14"/>causa finali. [Horum igitur. ]2. Ab efficiente,[ 
+      <lb ed="#T" n="15"/>Cum labore.] 3. A materiali, [Ex testimonijs.] 
+      <lb ed="#T" n="16"/>4. A formali, [In quo. 
+    </p>
+            <p xml:id="pdt7y6-ee1877-d1e307">
+               <lb ed="#T" n="17"/>In parte vltima primum, excitat auditorem 
+      <lb ed="#T" n="18"/>triplici ratione 1. Ab vtili beatae vitae [Non 
+      er<lb ed="#T" n="19" break="no"/>go. ]2. Ab humili veritate, [In hoc autem 
+      tra<lb ed="#T" n="20" break="no"/>ctatu. ] 3. Adistincta claritate [Vt autem quod 
+      <lb ed="#T" n="21"/>quaeritur &amp;c.] 
+    </p>
+            <p xml:id="pdt7y6-ee1877-d1e320">
+               <lb ed="#T" n="22"/>EXPOSITIO LITERAE. 
+      <lb ed="#T" n="23"/>DEnuria dicit defectum substantiae exterioris, 
+      <lb ed="#T" n="24"/>tenuitas defectum interioris, ideo transumitur  
+      <lb ed="#T" n="25"/>primum ad significandum defectum scientiae 
+      ac<lb ed="#T" n="26" break="no"/>quisitae, secundo ad significandum naturalis 
+      in<lb ed="#T" n="27" break="no"/>telligentiae defectum. 
+    </p>
+            <p xml:id="pdt7y6-ee1877-d1e336">
+               <lb ed="#T" n="28"/>[Ardua scandere ] Triplici gradu, relinquendo 
+      <lb ed="#T" n="29"/>species sensibilium, &amp; phantasias imaginabilium, 
+      <lb ed="#T" n="30"/>&amp; sophismata pugnantium rationum naturalium. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0083.xml-->
+      <cb ed="#T" n="b"/>
+               <lb ed="#T" n="31"/>Praesumimus.] Contra, quia praesumpuo es, 
+      <lb ed="#T" n="32"/>peccatum. Resp. Praesumptio confidentiae de Deo 
+      <lb ed="#T" n="33"/>est bona, praesumptio arrogantiae, scilicet de 
+      se<lb ed="#T" n="34" break="no"/>ipso, mala. 
+    </p>
+            <p xml:id="pdt7y6-ee1877-d1e359">
+               <lb ed="#T" n="35"/>[Supereroganti.] Contra Apoc. vlt. Si quis 
+      <lb ed="#T" n="36"/>apposuerit &amp;c. Resp. Non debet apponi 
+      dissimi<lb ed="#T" n="37" break="no"/>le, quia corrumpit, id est, falsum vero; sed simile 
+      <lb ed="#T" n="38"/>potest apponi, id est, verum vero, sicut aliter 
+      ap<lb ed="#T" n="39" break="no"/>ponitur aqua vino, aliter vinum vino. 
+    </p>
+            <p xml:id="pdt7y6-ee1877-d1e372">
+               <lb ed="#T" n="40"/>[Christi charitas.] Contra nemo scit se ha¬ 1 
+      <lb ed="#T" n="41"/>bere charitatem. Eccl. 9. Nemo scit &amp;c. Resp. 4 
+      <lb ed="#T" n="42"/>Charitatem accipit hic pro amore feruente, non 
+      <lb ed="#T" n="43"/>pro amore gratificante. 
+    </p>
+            <p xml:id="pdt7y6-ee1877-d1e383">
+               <lb ed="#T" n="44"/>Veritati offendenti.] Contra 1. 
+      Metaphy<lb ed="#T" n="45" break="no"/>sicae. Omnes homines natura scire desiderant. 
+      <lb ed="#T" n="46"/>Resp. Veritas per se desiderabilis est, &amp; dilecta, 
+      <lb ed="#T" n="47"/>per accidens odibilis, &amp; contristans ratione 
+      ali<lb ed="#T" n="48" break="no"/>cuius dispositionis in subjecto contrariae, sicut  
+      <lb ed="#T" n="49"/>secundum Augustinum oculis egris odiosa lux 
+      <lb ed="#T" n="50"/>est, quae puris est amabilis. 
+    </p>
+            <p xml:id="pdt7y6-ee1877-d1e401">
+               <lb ed="#T" n="51"/>Omni verborum mendacio.] Contra. 
+      Au<lb ed="#T" n="52" break="no"/>gustinus; Nulla adeo doctrina est falsa, quae non 
+      <lb ed="#T" n="53"/>aliqua vera intermisceat. Resp. Omnia dicuntur 
+      <lb ed="#T" n="54"/>falsa vel a falsitate signi, vel a falsitate intentionis 
+      <lb ed="#T" n="55"/>significantis. 
+    </p>
+            <p xml:id="pdt7y6-ee1877-d1e414">
+               <lb ed="#T" n="56"/>[Veritatem sine foedere.] Contra libro Esd. 3. 
+      <lb ed="#T" n="57"/>Omnis terra veritatem inuocat. Resp. Veritas 
+      ge<lb ed="#T" n="58" break="no"/>neralis semper diligitur: veritas autem in specialis 
+      <lb ed="#T" n="59"/>impugnatur, non tamen per se, inquantum 
+      ve<lb ed="#T" n="60" break="no"/>ritas; sed per accidens, inquantum contraria 
+      ali<lb ed="#T" n="61" break="no"/>cui dispositioni in audiente existenti.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

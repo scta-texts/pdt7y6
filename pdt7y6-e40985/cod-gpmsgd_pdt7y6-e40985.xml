@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="134"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e40985"><!-- l1d17prae -->
+            <head xml:id="pdt7y6-e40985-Hd1e99">Praeambulum</head>
+            <head xml:id="pdt7y6-e40985-Hd1e101" type="question-title"/>
+            <p xml:id="pdt7y6-e40985-d1e103">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0209.xml-->
+               <cb ed="#T" n="c"/>
+               <lb ed="#T" n="49"/>DE MSSIONE SPIRITVS SANCTI, 
+      <lb ed="#T" n="50"/>qua inuisibiliter mittitur.  Distinet. TVTI. A 
+    </p>
+           <!-- <p xml:id="pdt7y6-e40985-d1e114">
+               <lb ed="#T" n="51"/>AM nunc accedamus ad assignandam missionem Spiritus sancti, qua 
+      <lb ed="#T" n="52"/>inuisibiliter mittitur in corda fidelium. Nam ipse Spiritus sanctus, 
+      qui<lb ed="#T" n="53" break="no"/>Deus est, ac tertia in Trinitate persona (vt supra ostensum est) a 
+      Pa<lb ed="#T" n="54" break="no"/>tre &amp; Filio ac semetipso temporaliter procedit, id est, mittitur ac 
+      dona<lb ed="#T" n="55" break="no"/>tur fidelibus. Sed quae sit ista missio, siue donatio, vel quomodo fiat, 
+      <lb ed="#T" n="56"/>considerandum est, 
+    </p>
+            <p xml:id="pdt7y6-e40985-d1e130">
+               <lb ed="#T" n="57"/>Praemittitur quiddam ad hanc ostensionem necessarium, scilicet quod Spiritus 
+      <lb ed="#T" n="58"/>sanctus est charitas, qua diligimus Deum &amp; proximum.
+    </p>
+            <p xml:id="pdt7y6-e40985-d1e138">
+               <lb ed="#T" n="59"/>Hoc autem vt intelligibilius doceri, ac plenius perspici valeat, praemittendum est 
+      <lb ed="#T" n="60"/>quiddam ad hoc valde necessarium. Dictum: quidem est: supra, &amp; sacris authoritatibus 
+      <lb ed="#T" n="61"/>ostensum quod Spiritus sanctus amor est Patris &amp; Filij, quo se inuicem amant &amp; nos. 
+      <lb ed="#T" n="62"/>His autem addendum est, quod ipse idem Spiritus sanctus est amor, siue charitas, qua nos 
+      <lb ed="#T" n="63"/>diligimus Deum &amp; proximum: quae charitas cum ita est in nobis, vt nos faciat diligere 
+      <lb ed="#T" n="64"/>Deum &amp; proximum, tunc Spiritus sanctus dicitur mitti vel dari nobis: &amp; qui diligit ipsam 
+      <lb ed="#T" n="65"/>dilectionem, qua diligit proximum, in eo ipso Deum diligit quia ipsa dilectio Deus est, 
+      <lb ed="#T" n="66"/>id est, Spiritus sanctus. 
+    </p>
+            <p xml:id="pdt7y6-e40985-d1e158">
+               <lb ed="#T" n="67"/>Authoritatibus ita esse confirmat. 
+      <lb ed="#T" n="68"/>Ne autem in re tanta aliquid de nostro influere videamur, sacris autnoritatibus quod 
+      <lb ed="#T" n="69"/>dictum est corroboremus. De hoc Augusi in 8. lib. de Trinitate ait: Qui proximum 
+      di<lb ed="#T" n="70" break="no"/>ligit, consequens est, vt ipsam praecipue dilectionem diligat. Deus autem dilectio est, 
+      <lb ed="#T" n="71"/>consequens ergo est, vt praecipue Deum diligat. Item in eodem: Deus dilectio est, vt ait 
+      <lb ed="#T" n="72"/>Ioannes Apostolus: vt quid ergo imus &amp; currimus in sublimia caelorum &amp; ima terrarum, 
+      <lb ed="#T" n="73"/>quaerentes cum qui est apud nos, si nos apud eum esse velimus? Nemo dicat: non 
+      noui<lb ed="#T" n="74" break="no"/>quid diligam, diligat fratrem, &amp; diligat eandem dilectionem. Magis enim nouit dilectio: 
+      <lb ed="#T" n="75"/>nem qua diligit, quam fratrem quem diligit. Ecce iam potes notiorem Deum habere 
+      <lb ed="#T" n="76"/>quam fratrem. Plane notiorem, quia praesentiorem, quia interiorem, quia certiorem. 
+      <lb ed="#T" n="77"/>Amplectere dilectionem Deum, &amp; dilectione amplectore Deum. Ipsa est dilectio, quae 
+      <lb ed="#T" n="78"/>omnes bonos Angelos, &amp; omnes Dei seruos consociat vinculo sanctitatis. Quanto ergo 
+      <lb ed="#T" n="79"/>saniores sumus a tumore superbiae, tanto sumus dilectione pleniores: &amp; quo, nisi Deo, 
+    </p>
+            <p xml:id="pdt7y6-e40985-d1e189">
+               <lb ed="#T" n="80"/>plenus est qui plenus est dilectione? His verbis satis ostendit Augustinus quod dilectio ipsa 
+      <lb ed="#T" n="81"/>qua diligimus Deum vel proximum Deus est. Sed adhuc apertius in eodem libro subdit, 
+      <lb ed="#T" n="82"/>dicens: pilectionem quantum commendat loannes Apostolus, attendamus. Qui diligit, 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0210.xml-\->
+      <pb ed="#T" n="135"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>inquit, fratrem, in lumine manet, &amp; scandalum in eo non est. Manifestum est quod 
+      iusti<lb ed="#T" n="2" break="no"/>tiae perfectionem in fratris dilectione posuerit. Nam in quo scandalum non est, vtique 
+      <lb ed="#T" n="3"/>perfectus est. Et tamen videtur dilectionem Dei ta cuisse: quod nunquam faceret, nisi quia 
+      <lb ed="#T" n="4"/>in ipsa fraterna dilectione vult intelligidaeum. Apertissime enim in eadem epistosa paulo 
+      <lb ed="#T" n="5"/>post ait ita: dilectissimi diligamus inuicem, quia dilectio ex Deo est: &amp; omnis qui diligit, 
+      <lb ed="#T" n="6"/>ex Deo natus est, &amp; cognouit Deum. Qui non diligit, non cognouit Deum, quia Deus 
+      di<lb ed="#T" n="7" break="no"/>lectio est. Ista contextio satis aperte declarat, eandem ipsam fraternam dilectionem (nam 
+      <lb ed="#T" n="8"/>fraterna dilectio est, qua diligimus inuicem) non solum ex Deo, sed etiam Deum esse, 
+      tan<lb ed="#T" n="9" break="no"/>ta authoritate praedicari, scilicet Ioannis. Cum ergo de dilectione diligimus fratrem, de 
+      <lb ed="#T" n="10"/>Deo diligimus fratrem, nec fieri potest vt eandem dilectionem non praecipue diligamus, 
+      <lb ed="#T" n="11"/>qua fratrem diligimus, quoniam, Deus difectio est. Item, Qui non diligit fratrem, non est 
+      <lb ed="#T" n="12"/>in dilectione: &amp; qui non est in dilectione, non est in Deo, quiae Deus dilectio est. Ecce aper 
+      <lb ed="#T" n="13"/>te dicit fraternam dilectionem Deum esse. 
+    </p>
+            <p xml:id="pdt7y6-e40985-d1e233">
+               <lb ed="#T" n="14"/>Quod fraterna dilectio, cum sit Deus, non est Pater vel Filius sed tantum Spiritus sanctus. 
+      <lb ed="#T" n="15"/>Cum aute fraterna dilectio sit Deus, nec Pater est, nec Filius sed tantum Spiritus sanctus, 
+      qui<lb ed="#T" n="16" break="no"/>proprie in Trin. dilectio vel charitas dicitur. Vnde Aug. in 15. lib. de Trin. Si in donis Dei nihil 
+      <lb ed="#T" n="17"/>est maius charitate, &amp; nullum est maius donum Dei quam Spiritus sanctus, quid cosequentius 
+      <lb ed="#T" n="18"/>est qua vt ipse sit charitas, quae dicitur &amp; Deus &amp; ex Deo ? sta enim nit loannes: dilectio ex 
+      <lb ed="#T" n="19"/>Deo est. Et paulo post: Deus dilectio est. Vbi manifestat ea se dilectionem dixisse Deum, quam 
+      <lb ed="#T" n="20"/>dixit ex Deo. Deus ergo ex Deo est dilectio. Ite in eodem: Ioanses volens de hac re apertius 
+      <lb ed="#T" n="21"/>loqui. In hoc, inquit, cognoscimus quia in ipsomanemus, &amp; spse in nobis, quia de Spiritu 
+      <lb ed="#T" n="22"/>suo dedit nobis. Spiritus itaque sanctus, de quo dedit nobis, facit nos in Deo manere, &amp; 
+      <lb ed="#T" n="23"/>ipsum in nobis, hoc autem facit dilectio. Ipse est ergo Deus dilectio. Ipse igitur significatur  
+      <lb ed="#T" n="24"/>vbilegitur: Deus dilectio est. Ex his ergo apparet quod Spiritus sanctus charitas est. 
+    </p>
+            <p xml:id="pdt7y6-e40985-d1e259">
+               <lb ed="#T" n="25"/>Quod non est dictum per causam illud, Deus charitas est: sicut illud: Tu es patientia. 
+      <lb ed="#T" n="26"/>mea, &amp; spes meu. 
+    </p>
+            <p xml:id="pdt7y6-e40985-d1e266">
+               <lb ed="#T" n="27"/>Sed ne forte aliquis dicat illud esse dictum per expressionem causae, Deus charitas est, 
+      <lb ed="#T" n="28"/>eo scilicet quod charitas sit ex Deo, &amp; non sit ipse Deus: sicut dicitur, Deus nostra 
+      patien<lb ed="#T" n="29" break="no"/>tia est, &amp; spes: non quod ipse sit ista, sed quia ista ex Deo sunt: occurrit Augustin. 
+      osten<lb ed="#T" n="30" break="no"/>dens hoc non esse dictum per causam, sicut illa, in 15. lib. de Trinit. dicens: non dicturi 
+      <lb ed="#T" n="31"/>sumus charitatem non propterea esse dictam Deum, quod ipsa charitas sit vlla substantia, 
+      <lb ed="#T" n="32"/>quae Dei digna sit nomine, sed quod donum sit Dei, sicut dictum est de Deo: Tues 
+      patien<lb ed="#T" n="33" break="no"/>tia mea, non vtique ideo dictum est, Tu es patientia mea, quod Dei substantia est nostra 
+      <lb ed="#T" n="34"/>patientia, sed quia ab ipso nobis est. Vnde alibi. Ab ipso est patientia inea. Hunc enim 
+      <lb ed="#T" n="35"/>sensum facile refellit scripturarum ipsa locutio. Tale est enim: Tues patientia mea: quale 
+      <lb ed="#T" n="36"/>est: Domine spes mea, &amp;, Deus mens, mifericordia mea: &amp; multa similia. Non est autem 
+      <lb ed="#T" n="37"/>dictum, Domine charitas mea, aut tu es charitas mea, aut Deus charitas mea, sed ita 
+      <lb ed="#T" n="38"/>dictum est: Deus charitas est, sicut dictum est: Deus Spiritus est. Hoc qui non discernit, 
+      <lb ed="#T" n="39"/>intellectum a Domino, non expositionem quaerat a nobis. Non enim apertius quicquam  
+      <lb ed="#T" n="40"/>possumus dicere. Deus ergo charitas est. Ex praedictis clarescit, quod Spiritus sanctus 
+      <lb ed="#T" n="41"/>charitas est, qua diligimus Deum &amp; proximum: vnde facilius est nobis ostendere 
+      quomo<lb ed="#T" n="42" break="no"/>do Spiritus sanctus mittatur, siue detur nobis. 
+    </p>
+            <p xml:id="pdt7y6-e40985-d1e304">
+               <lb ed="#T" n="43"/>Quomodo Spiritus sanctus mittatur vel detur nobis. 
+      <lb ed="#T" n="44"/>Tunc enim mitti vel dari dicitur, cum ita in nobis est vt faciat nos diligere Deum &amp; 
+      <lb ed="#T" n="45"/>proximum: per quod manemus in Deo &amp; Deus in nobis. Vnde August. hunc missionis 
+      <lb ed="#T" n="46"/>modum insinuans in 15. lib. de Trinit. ait, Deus Spiritus sanctus, qui procedit ex Deo, 
+      <lb ed="#T" n="47"/>cum datus fuerit homini, accendit eum ad diligendum Deum &amp; proximum, &amp; ipse 
+      di<lb ed="#T" n="48" break="no"/>lectio est Non enim habet homo vnde diligat Deum, nisi ex Deo. Ecce quomodo datur.  
+      <lb ed="#T" n="49"/>vel mittitur nobis Spiritus sanctus, secundum quod dicitur datum, sine donum. Quod 
+      <lb ed="#T" n="50"/>donum commendat August. explanans apertius quomodo detur, in eodem libro: dilectio: 
+      <lb ed="#T" n="51"/>inquit, Dei diffusa est in cordibus nostris, vt ait Apostolus, per Spiritum sanctum qui 
+      da<lb ed="#T" n="52" break="no"/>tus est nobis. Nullum est isto dono Dei excellentius. Solum est quod diuidit inter filios 
+      <lb ed="#T" n="53"/>regni, &amp; filios perditionis. Dantur &amp; alia per Spiritum munera, sed sine charitate nil 
+      pro<lb ed="#T" n="54" break="no"/>sunt. Nisi ergo in tantum impartiatur cuiquam Spiritus sanctus, vt eum Dei &amp; proximi 
+      <lb ed="#T" n="55"/>faciat amatorem, a sinistra non transfertur ad dexteram. Neque Spiritus sanctus proprie, 
+      <lb ed="#T" n="56"/>dicitur donum, nisi propter dilectionem, quam qui non habuerit, etsi loquatur omnibus 
+      <lb ed="#T" n="57"/>linguis, &amp; habuerit prophetiam, &amp; omnem scientiam, &amp; omnem fidem, &amp; distribuerit 
+      <lb ed="#T" n="58"/>omnem substantiam suam, &amp; tradiderit corpus suum ita vt ardeat, non ei prodest. 
+      Quan<lb ed="#T" n="59" break="no"/>tum ergo bonum est sine quo ad aeternam vitam neminem tanta bona perducunt? Ipsa 
+      <lb ed="#T" n="60"/>vero dilectio vel charitas (nam vnius rei nomen est vtrumque) perducit ad iregnum. Di¬ 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0211.xml-\->
+      <pb ed="#T" n="136"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>lectio ergo quae ex Deo est &amp; Deus est proprie Spiritus sanctus est, per quem diffunditur 
+      <lb ed="#T" n="2"/>in cordibus nostris Deus charitas, per quam nos tota inhabitat Trinitas. Quocirca 
+      re<lb ed="#T" n="3" break="no"/>ctissime Spiritussanctus, cum sit Deus, vocatur etiam donum Dei. Quod donum propine 
+      <lb ed="#T" n="4"/>quid nifi charitas intelligendum est, quae perducit ad Deum: &amp; sine qua quodlibet aliud 
+      <lb ed="#T" n="5"/>nei donum non parducibad Deum? Ecce hic aperitur quod supradictum erat, scilicet quod 
+      <lb ed="#T" n="6"/>charitas sit Spirirus sanctua &amp; donum excellentius: &amp; quomodo hoc donum, id est, 
+      Spi<lb ed="#T" n="7" break="no"/>ritus sanctus detur nobis Lilicet cum ita impartitur alicui, id est, ita habet esse in aliquo: 
+      <lb ed="#T" n="8"/>vt cum faciat Dei, &amp; proximi amatorem. Quod cum facit, tunc dari dicitur, siue mittt 
+      ali<lb ed="#T" n="9" break="no"/>cui: &amp; tunc illa dicitur proprie habene Spiritum sanctum. 
+    </p>
+            <p xml:id="pdt7y6-e40985-d1e372">
+               <lb ed="#T" n="10"/>Vtrum concedendum sit, quod Spiritus sanctus augeatur in homine, vel magis, 
+      <lb ed="#T" n="11"/>velminus habeatur vel detur.
+    </p>
+            <p xml:id="pdt7y6-e40985-d1e379">
+               <lb ed="#T" n="12"/>Hic quaeritur si charitas Spiritus sanctus est, cum ipsa augeatur &amp; minuatur in 
+      homi<lb ed="#T" n="13" break="no"/>ne, &amp; magis &amp; minus per diuersa tempora habeatur, vtrum concedendum sit, quod 
+      Spi<lb ed="#T" n="14" break="no"/>ritus sanctus augeatur, vel minuatur in homine, vel magis &amp; minus habeatur. Si enim in 
+      <lb ed="#T" n="15"/>homine augetur, &amp; magis vel minus datur &amp; habetur, mutabilis esse videtur, Deus 
+      <lb ed="#T" n="16"/>iutem omnino immutabilis est. Videtur erge quod vel Spiritus sanctus non sit charitas, 
+      <lb ed="#T" n="17"/>vel charitas non augeatur, vel minuatur in homine. Item, charitas &amp; non habenti datur  
+      <lb ed="#T" n="18"/>vt habeat, &amp; habenti vt plenius habeat. Si ergo Spiritus sanctus charitas est, &amp; non 
+      ha<lb ed="#T" n="19" break="no"/>benti datur vt habeat, &amp; habenti vt plenius habeat. Sed quomodo datur non habenti, 
+      <lb ed="#T" n="20"/>cum ipse vt Deus sit vbique, &amp; in omnibus creaturis totus? &amp; quomodo plenius datur, 
+      <lb ed="#T" n="21"/>vel habetur, sine sui mutatione¬ 
+    </p>
+            <p xml:id="pdt7y6-e40985-d1e403">
+               <lb ed="#T" n="22"/>Responsio ad primam quaestionem. 
+      <lb ed="#T" n="23"/>His itaque respondemus, dicentes quod Spiritus sanctus siue charitas penitus 
+      immuta<lb ed="#T" n="24" break="no"/>bilis est, nec in se augetur vel minuitur, nec in se recipit magis vel minus, sed in homine: 
+      <lb ed="#T" n="25"/>vel potius homini augetur &amp; minuitur, &amp; magis vel minus datur vel habetur. Sicut Deus 
+      <lb ed="#T" n="26"/>dicitur magnificati &amp; exaltari in nobis, qui tamen in se nec magnificatur nec exaltatur.  
+      <lb ed="#T" n="27"/>Vnde Propheta: Accedat homo ad cor altum, &amp; exaltabitur Deus. Super quem locum 
+      <lb ed="#T" n="28"/>ait autfforitas. Deus non in se, sed in corde hominis grandescit. Sic ergo Spiritus sanctus 
+      <lb ed="#T" n="29"/>homini datur &amp; datus amplius datur, id est, augetur, &amp; magis &amp; minus habetur: &amp; 
+      <lb ed="#T" n="30"/>tamen immutabilis existit.  
+    </p>
+            <p xml:id="pdt7y6-e40985-d1e425">
+               <lb ed="#T" n="31"/>Responsio ad secundam. 
+      <lb ed="#T" n="32"/>Cumque vbique sit, &amp; in omni creatura totus, sunt tamen multi qui cum non habent.  
+      <lb ed="#T" n="33"/>Non enim omnes Spiritum sanctum habent, in quibus est: alioquin &amp; irrationabiles 
+      crea<lb ed="#T" n="34" break="no"/>turae haberent Spiritum sanctum, quod fidei pietas non admittit.  
+    </p>
+            <p xml:id="pdt7y6-e40985-d1e436">
+               <lb ed="#T" n="35"/>Authoritate confirmat utranque responsionem. 
+      <lb ed="#T" n="36"/>Vt autem certius siat quod diximus, authoritate confirmemus. Quod Spiritus sanctus 
+      <lb ed="#T" n="37"/>magis ac minus percipiatur &amp; homini augeatur, &amp; non habenti detur, &amp; habenti vt plus, 
+      <lb ed="#T" n="38"/>vel plenius habeatur, August. ostendit super loannem, dicens: sine Spiritu sancto constat 
+      <lb ed="#T" n="39"/>nos Christum diligere, &amp; eius mandata seruare non posse: &amp; id nos posse atque agere 
+      <lb ed="#T" n="40"/>tanto minus quanto illum percipimus minus: tanto vero amplius quanto illum 
+      percipi<lb ed="#T" n="41" break="no"/>mus amplius. Ideoque non solum non habenti, verum etiam habenti non in cassum 
+      pro<lb ed="#T" n="42" break="no"/>mittitur: non habenti quidem, vt habeatur: habenti autem, vt amplius habeatur. Nam 
+      <lb ed="#T" n="43"/>si ab alio minus, &amp; ab alio amplius non haberetur, sanctus Helisaeus, sancto Heliae non 
+      <lb ed="#T" n="44"/>diceret: Spiritus qui est in te, duplo sit in me. Christo autem, qui est Dei Filius, non ad 
+      <lb ed="#T" n="45"/>mensuram datus est Spiritus. Neque enim sine gratia Spiritus sancti est mediator Dei &amp; 
+      <lb ed="#T" n="46"/>hominum homo Christus. Quod enim est vnigenitus Dei Filius aequalis Patri, non est 
+      gra<lb ed="#T" n="47" break="no"/>tiae, sed naturae: quod autem in vnitatem personae vnigeniti assumptus est homo gratiae est, 
+      <lb ed="#T" n="48"/>non naturae. Caeteris autem ad mensuram datur, &amp; datus additur: donec vnicuique 
+      pro<lb ed="#T" n="49" break="no"/>modo suae perfectionis propria mensura compleatur. Ecce expresse habes quod Spiritus 
+      <lb ed="#T" n="50"/>sanctus magis &amp; minus datur vel accipitur, &amp; homini datus augetur, &amp; habenti &amp; non 
+      <lb ed="#T" n="51"/>habenti datur: quia Spiritus sanctus est charitas, quae non habenti datur, &amp; in habente 
+      <lb ed="#T" n="52"/>augetur &amp; proficit. Imo, vt verius &amp; magis proprie loquar, homo in ea proficit &amp; deficit 
+      <lb ed="#T" n="53"/>aliquando: &amp; tunc ipsa dicitur proficere vel deficere, quae tamen nec proficit, nec deficit, 
+      <lb ed="#T" n="54"/>in se, quia Deus est: vnde Aug. in homilia 9. super epistolam Ioan. ait: Probet se quisque 
+      <lb ed="#T" n="55"/>quantum in illo profecerit charitas, vel potius quantum ipse in charitate profecerit. Nam 
+      <lb ed="#T" n="56"/>si charitas Deus est, nec deficit, nec proficit. Sic ergo in te proficere dicitur charitas, quia 
+      <lb ed="#T" n="57"/>tu in ea proficis. Ecce quomodo intelligendum sit cum dicitur Spiritus sanctus augeri in 
+      <lb ed="#T" n="58"/>nobis, quia nos in eo scilicet proficimus, sic &amp; alia huiusmodi. 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0212.xml-\->
+      <pb ed="#T" n="137"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>Quod aliqui dicunt Spiritum sanctum non esse charitatem, qua diligimus Deum &amp; proximum. I. 
+      <lb ed="#T" n="2"/>Supra dictum est, quod Spiritus sanctus charitas est Patris &amp; Filij, qua se inuicem 
+      dili<lb ed="#T" n="3" break="no"/>gunt &amp; nos: &amp; ipse idem est charitas quae diffunditur in cordibus nostris ad diligendum 
+      <lb ed="#T" n="4"/>Deum &amp; proximum. Horum alterum omnes Catholici concedunt, scilicet quod Spiritus 
+      <lb ed="#T" n="5"/>sanctus sit charitas Patris &amp; Filij. Quod autem ipse idem sit charitas, qua diligimus Deum 
+      <lb ed="#T" n="6"/>&amp; proximum, a plerisque negatur. Dicunt enim: Si spiritus sanctus charitas est Patris &amp; 
+      <lb ed="#T" n="7"/>Filij &amp; nostra, eadem ergo charitas est, qua Deus diligit nos, &amp; qua nos diligimus cum. 
+      <lb ed="#T" n="8"/>Hoc autem sanctorum auctoritates negare videntur. Dicit enim August. in lib. de Spiritu 
+      <lb ed="#T" n="9"/>&amp;litera: Vnde est dilectio, nisi vnde &amp; ipsa fides, id est, a Spiritu sancto? Non esset enim 
+      <lb ed="#T" n="10"/>in nobis nisi diffnderetur in cordibus nostris per Spiritum. Charitas autem Dei dicta est 
+      <lb ed="#T" n="11"/>diffundi in cordibus nostris, non qua nos ipse diligit, sed qua nos facit dilectores suos. 
+      <lb ed="#T" n="12"/>Sicut iustitia Dei dicitur, qua nos iusti eius munere efficimur: &amp; Domini salus qua nos 
+      <lb ed="#T" n="13"/>saluat: &amp; fides Christi qua nos fiddeles facit. His verbis videtur monstrari distinctio inter 
+      <lb ed="#T" n="14"/>charitatem, qua nos Deus diligit, &amp; qua nos diligimus. Et sicut iustitia nostra dicitur Dei, 
+      <lb ed="#T" n="15"/>non quod ipse sit ea iustus, sed quia ea nos iustos facit: similiter &amp; fides, &amp; salus: Sic vide 
+      <lb ed="#T" n="16"/>tur dicta Dei charitas quae est in nobis, non quod ipse ea diligat, sed quia ea nos diligere 
+      <lb ed="#T" n="17"/>facit. De hoc etiam idem August. in lib. 15. de Trinit. ait: Cum Ioannes commemorasset. 
+      <lb ed="#T" n="18"/>Dei dilectionem, non qua nos eum, sed qua ipse dilexit nos, &amp; misit Filium suum 
+      libera<lb ed="#T" n="19" break="no"/>torem pro peccatis nostris. Ecce &amp; hic videtur manifeste diuidere dilectionem, qua nos 
+      <lb ed="#T" n="20"/>diligimus Deum, ab ea quam ipse diligit nos. Si ergo, inquiunt, Spiritus sanctus dilectio est 
+      <lb ed="#T" n="21"/>qua Deus diligit, &amp; qua nos diligimus, duplex dilectio est, immo duo diuersa est, quod 
+      <lb ed="#T" n="22"/>absurdum &amp; a veritate longe est. Non est ergo dilectio qua diligimus, sed qua Deus 
+      tan<lb ed="#T" n="23" break="no"/>tum diligit nos. 
+    </p>
+            <p xml:id="pdt7y6-e40985-d1e548">
+               <lb ed="#T" n="24"/>Responsio ad praedicta determmans auctoritates. 
+      <lb ed="#T" n="25"/>His respondemus praedictarum auctoritatum verba determinantes hoc modo Charitas 
+      <lb ed="#T" n="26"/>Dei dicta est diffundi in cordibus nostris; non qua ipse nos diligit, sed qua nos dilige: e facit, 
+      <lb ed="#T" n="27"/>&amp;c. His verbis non diuiditur nec diuersa ostenditur charitas, qua Deus nos diligit, ab ea 
+      <lb ed="#T" n="28"/>qua nos diligimus, sed potius cum sit vna &amp; eadem charitas, &amp; dicatur ipsa Dei charitas 
+      <lb ed="#T" n="29"/>diuersis de causis &amp; rationibus Dei charitas appellari in scriptura ostenditur. Dicitur enim 
+      <lb ed="#T" n="30"/>Dei charitas, vel quia Deus ea diligit nos, vel quia nos ea suos dilectores facit. 
+    </p>
+            <p xml:id="pdt7y6-e40985-d1e566">
+               <lb ed="#T" n="31"/>Determinatio primae authoritatis) 
+      <lb ed="#T" n="32"/>Cum ergo ab Apostolo dicitur charitas Dei diffundi in cordibus nostris, non est dicta 
+      <lb ed="#T" n="33"/>charitas Dei qua diligit nos, sed qua facit nos diligere: id est, non ibi appellatur charitas 
+      <lb ed="#T" n="34"/>Dei, eo quod Deus nos ea diligit, sed eo quod nos ea sui dilectores facit. Et quod ea 
+      ratio<lb ed="#T" n="35" break="no"/>ne possit dici charitas qei, quia nos ea diligere facit, ex simili genere locutionis ostenditur.  
+      <lb ed="#T" n="36"/>sicut dicitur iustitia Dei, qua nos iustificat, &amp; Domini salus, qua nos saluat, &amp; fides 
+      Chri<lb ed="#T" n="37" break="no"/>sti, qua nos fideles facit. 
+    </p>
+            <p xml:id="pdt7y6-e40985-d1e584">
+               <lb ed="#T" n="38"/>Determinatio secunda. 
+      <lb ed="#T" n="39"/>Similiter &amp; aliam exponimus authoritatem, vbi ait dilectionem Dei commemorati non 
+      <lb ed="#T" n="40"/>qua nos eum, sed qua ipse dilexit nos: ac si diceret commemorat dilectionem Dei, non 
+      se<lb ed="#T" n="41" break="no"/>cundum quod ea nos diligimus Deum, sed secundum quod ipse ea diligit nos. 
+    </p>
+            <p xml:id="pdt7y6-e40985-d1e595">
+               <lb ed="#T" n="42"/>Aliud obijciunt. 
+      <lb ed="#T" n="43"/>Sed aliud est, induiunt, quod magis vrget, dixit enim supra Aug. quod dilectio est a 
+      Spi<lb ed="#T" n="44" break="no"/>ritu sancto, a quo est fides: Sicut ergo fides non est Spiritus sanctus a quo est: ita nec 
+      cha<lb ed="#T" n="45" break="no"/>ritas Quomodo ergo Spiritus sanctus est, si ab ipso est; Nam si ab ipso est, &amp; ipse est, ergo 
+      <lb ed="#T" n="46"/>Spiritus sanctus a seipso est. Ad quod dicimus: Spiritus sanctus quidem a seipso non est, sed  
+      <lb ed="#T" n="47"/>tamen a seipso datur nobis, vt supra dictum est: dat enim seipsum nobis Spiritus sanctus 
+      <lb ed="#T" n="48"/>Ex hoc sensu dictum est, quod charitas, ab ipso est in nobis, &amp; tamen ipsa Spiritus sanctu 
+      <lb ed="#T" n="49"/>est. Fides autem est a spiritu sancto, &amp; non est Spiritus sanctus, quia donum vel datum 
+      so<lb ed="#T" n="50" break="no"/>lummodo est, non Deus dans. 
+    </p>
+            <p xml:id="pdt7y6-e40985-d1e617">
+               <lb ed="#T" n="51"/>Quod alias inducunt rationes &amp; cauthoritates ad idem probandum. 
+      <lb ed="#T" n="52"/>Alias quoque inducunt rationes ad idem ostendendum, scilicet quod charitas non sit 
+      <lb ed="#T" n="53"/>Spiritus sanctus, quia charitas affectio mentis est &amp; motus animi: Spiritus sanctus vero non 
+      <lb ed="#T" n="54"/>est affectio animi vel motus mentis, quia Spiritus sanctus immutabilis est &amp; increatus: non 
+      <lb ed="#T" n="55"/>ergo charitas. 
+    </p>
+            <p xml:id="pdt7y6-e40985-d1e630">
+               <lb ed="#T" n="56"/>Quod charitas est motus vel affectio animi. 
+      <lb ed="#T" n="57"/>Quod autem charitas sit affectio animi, &amp; motus mentis authoritatibus confirmant. 
+      Di<lb ed="#T" n="58" break="no"/>cit enim: Augustinus in libro tertio de doctrina Christiana: Charitatem voco motum 
+      ani<lb ed="#T" n="59" break="no"/>mi ad fruendum Deo propter ipsum, &amp; se ac proximo propter Deum. Idem in lib. de 
+      mo<lb ed="#T" n="60" break="no"/>ribus Ecclesiae Catholicae: tracrans illud verbum Apostoli. Nec mors, nec vita poterit, 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0213.xml-\->
+      <pb ed="#T" n="138"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>nos separare a charitate Dei. Charitas Dei, inquit, hic dicta est virtus quae animi 
+      nostrire<lb ed="#T" n="2" break="no"/>ctissima affectio est, quae coniungit nos Deo, qua eum diligimus. Ecce his verbis 
+      expri<lb ed="#T" n="3" break="no"/>mitur, quod charitas est affectio &amp; motus animi: ac per hoc non videtur esse Spiritus 
+      <lb ed="#T" n="4"/>sanctus. 
+    </p>
+            <p xml:id="pdt7y6-e40985-d1e659">
+               <lb ed="#T" n="5"/>Responsio determinans authoritates. 
+      <lb ed="#T" n="6"/>Ad quod dicimus hoc it a dictum esse, sicut dicitur Deus est spes nostra &amp; patientia 
+      no<lb ed="#T" n="7" break="no"/>stra, quia fecit nos sperare &amp; pati. Ita charitas dicitur esse motus, siue affectio animi, quia 
+      <lb ed="#T" n="8"/>per eam mouetur &amp; afficitur animus ad diligendum Deum. Non autem miteris si charitas 
+      <lb ed="#T" n="9"/>cum sit Spiritus sanctus, dicatur motus mentis, cum etiam in lib. Sap. dicatur de spiritu 
+      sa<lb ed="#T" n="10" break="no"/>pientiae, Quod attingit a fine vsque ad finem, quod est actus mobilis, certus, 
+      incoinquina<lb ed="#T" n="11" break="no"/>tus. Quod non ideo dicitur, quod sapientia sit mobile aliquid vel actus aliquis: sed quia 
+      <lb ed="#T" n="12"/>sui immobilitate omnia attingit, non locali motu, sed vt vbique semper sit, &amp; nusquam 
+      in<lb ed="#T" n="13" break="no"/>clusa teneatur. Sic ergo charitas dicitur motus animi, non quod ipsa sit motus vel affectio 
+      <lb ed="#T" n="14"/>vel virtus animi: sed quia per eam quasi esset virtus afficitur mens &amp; mouetur. Sed si 
+      cha<lb ed="#T" n="15" break="no"/>ritas Spiritus sanctus est, qui operatur in singulis prout vult, cum per eum mens hominis 
+      <lb ed="#T" n="16"/>afficiatur &amp; moueatur ad credendum vel sperandum, &amp; huiusmodi, sicut ad diligendum, 
+      <lb ed="#T" n="17"/>quare non sic dicitur charitas motus vel affectio mentis ad credendum vel sperandum sicut  
+      <lb ed="#T" n="18"/>ad diligendum? Ad quod sane dici potest, quia alios actus atque motus virtutum operatur. 
+      <lb ed="#T" n="19"/>charitas, id est, Spiritus sanctus mediantibus virtutibus, quarum actus sunt: vtpote actum 
+      <lb ed="#T" n="20"/>fidei, id est, credere fide media, vt actum spei, id est, sperare media spe. Per fidem enim &amp; 
+      <lb ed="#T" n="21"/>spem praedictos operatur actus. Diligendi vero actum per se tantum, sine alicuius virtutis 
+      <lb ed="#T" n="22"/>medio operatur, id est, diligere. Aliter ergo hunc actum operatur, quam alios virtutum 
+      <lb ed="#T" n="23"/>actus: ideoque differenter de hoc &amp; de alijs loquitur scriptura, quae istum specialiter 
+      chari<lb ed="#T" n="24" break="no"/>tati tribuit. Est ergo charitas vere Spiritus sanctus. Vnde August. praemissum verbum 
+      apo<lb ed="#T" n="25" break="no"/>postoli tractans in eodem lib. charitatem dicit esse bonum quo nil melius est: &amp; per hoc 
+      <lb ed="#T" n="26"/>ipsam esse Deum significat, dicens: Si nulla res ab eius charitate nos separat, quid esse non 
+      <lb ed="#T" n="27"/>solum melius, sed etiam certius hoc bono potest: Ecce dicit, quia charitate nihil melius, 
+      <lb ed="#T" n="28"/>est. Charitas ergo Spiritus sanctus est, qui Deus est, &amp; donum Dei siue datum, qui diuidit 
+      <lb ed="#T" n="29"/>singulis fidelibus dona, nec ipse diuiditur, sed indiuisus singulis datur. Vnde Aug. vbi 
+      loan<lb ed="#T" n="30" break="no"/>nes dicit non ad mensuram Christo dari spiritum, ait, Caeteris vero diuiditur non quidem 
+      <lb ed="#T" n="31"/>ipse spiritus, sed dona eius. 
+    </p>
+            <p xml:id="pdt7y6-e40985-d1e720">
+               <lb ed="#T" n="32"/>An concedendum sit quod per donum dentur dona. 
+      <lb ed="#T" n="33"/>Hic quaeritur, cum Spiritus sanctus, per quem diuiduntur dona, ipse sit donum, vtrum 
+      <lb ed="#T" n="34"/>concedendum sit, quod per donum diuidantur ac dentur dona? Ad quod dicimus, quia 
+      <lb ed="#T" n="35"/>per donum quod est Spiritus sanctus, singulis propria diuiduntur, &amp; ipsum communiter 
+      <lb ed="#T" n="36"/>omnes bonis habent. Vnde Aug. in lib. 1. de Trin. ait, per donum quod est Spiritus sanctus: 
+      <lb ed="#T" n="37"/>in commune omnibus membris Christi multa dona, quae sunt quibusque propria, 
+      diuidun<lb ed="#T" n="38" break="no"/>tur. Non enim singuli quique habent omnia, sed hi illa, alij alia. Quamuis ipsum donum, 
+      <lb ed="#T" n="39"/>a quo cuique propria diuiduntur, omnes habeant, id est, Spiritum sanctum. Ecce aperte 
+      <lb ed="#T" n="40"/>dicit, per donum dona dari.
+    </p>-->
+            <p xml:id="pdt7y6-e40985-d1e742">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0213.xml-->
+               <cb ed="#T" n="b"/>
+               <lb ed="#T" n="41" type="fixed=138"/>DIVISIO TEXTVS. 
+      <lb ed="#T" n="42"/>VAm nunc accedamus.] Postquam egit de 
+      <lb ed="#T" n="43"/>Imodo missionis Spiritus sancti visibili, hic 
+      <lb ed="#T" n="44"/>agit de missionis modo inuisibili, scilicet per 
+      in<lb ed="#T" n="45" break="no"/>fusionem charitatis. Et primo ponit 
+      confirma<lb ed="#T" n="46" break="no"/>tionem opinionis suae secundo determinationem 
+      <lb ed="#T" n="47"/>objectionum opinionis contrariae. [Supra 
+      di<lb ed="#T" n="48" break="no"/>ctum est, 
+    </p>
+            <p xml:id="pdt7y6-e40985-d1e766">
+               <lb ed="#T" n="49"/>In prima purte opinionem suam ostendit, 
+      pri<lb ed="#T" n="50" break="no"/>mo de essentia charitatis, secundo de eius auga 
+      <lb ed="#T" n="51"/>niento. [Hic quaeritur] In prima sparte primo 
+      <lb ed="#T" n="52"/>ponit quod charitas fraterna essentialiter est ipse 
+      <lb ed="#T" n="53"/>Deus &amp; Spiritus sanctus: Secundo probat quod 
+      <lb ed="#T" n="54"/>sit Deus. [Ne autem. ] Tertio quod sit Spiritus 
+      <lb ed="#T" n="55"/>sanctus. [Cum autem superna.] Quarto quod 
+      <lb ed="#T" n="56"/>essentialiter non causaliter sit Deus. [Sed ne 
+      <lb ed="#T" n="57"/>forte) Vbi primo ostendit quod charitas dicitur  
+      <lb ed="#T" n="58"/>Deus essentialiter, quod secundo ex hoc 
+      mani<lb ed="#T" n="59" break="no"/>festat quod ideo per charitatem dicitur Spiritus 
+      <lb ed="#T" n="60"/>sanctus dari vel mitti inuisibiliter. [
+      Expraemis<lb ed="#T" n="61" break="no"/>sis.] In secunda parte primo ponit dubitatio¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0213.xml-->
+      <cb ed="#T" n="c"/>
+               <lb ed="#T" n="62"/>nem, secundo solutionem. [His itaque] Tertio 
+      <lb ed="#T" n="63"/>solutionis confirmationem [Vt auteim caeteri.] 
+    </p>
+            <p xml:id="pdt7y6-e40985-d1e805">
+               <lb ed="#T" n="64"/>In secunda parte principali primo opponit ex 
+      <lb ed="#T" n="65"/>differentia essentiuli cnaritatis Diuinae &amp; 
+      huma<lb ed="#T" n="66" break="no"/>nae [Supra dictum Secundo ex causa effectiua 
+      <lb ed="#T" n="67"/>charitatis nostrael Sed aliud est; Tertio ex ipsius 
+      <lb ed="#T" n="68"/>charitatis descriptione [Alias quoque] In 
+      pri<lb ed="#T" n="69" break="no"/>ma parte primo ponit objectionem [
+      Supradi<lb ed="#T" n="70" break="no"/>ctum] Secundo solutionem THi, itaque]  
+      <lb ed="#T" n="71"/>secunda parte primo opponit. [Sed aliud) 
+      Sae<lb ed="#T" n="72" break="no"/>cundo soluit [Ad quod dicimus.] In tertia 
+      par<lb ed="#T" n="73" break="no"/>te primo ponitobiectionem [Alias quoque; 
+      Se<lb ed="#T" n="74" break="no"/>cundo solutionem [Ad quod dicimus] Tertio 
+      <lb ed="#T" n="75"/>mouet &amp; soluit dubitationem incidentem [Hic. 
+      <lb ed="#T" n="76"/>quaeritur cum Spiritus.] 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

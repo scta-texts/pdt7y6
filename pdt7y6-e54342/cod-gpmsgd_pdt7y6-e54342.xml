@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="178"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e54342"><!-- l1d21q1 -->
+            <head xml:id="pdt7y6-e54342-Hd1e99">Quaestio 1</head>
+            <head xml:id="pdt7y6-e54342-Hd1e101" type="question-title">De dictionibus exclusivis</head>
+            <p xml:id="pdt7y6-e54342-d1e104">
+               <lb ed="#T" n="50"/>QVESTIO VNICA. 
+      <lb ed="#T" n="51"/>DE DICTIONiBvs ExCLVSivis.
+</p>
+            <p xml:id="pdt7y6-e54342-d1e111">
+               <lb ed="#T" n="52"/>VVIc quaeruntur septem de dictionibus 
+      exclu<lb ed="#T" n="53" break="no"/>His. 
+      <lb ed="#T" n="54"/>Primo an subjecto essentiali possit addi 
+      exclu<lb ed="#T" n="55" break="no"/>siua dictio cum praedicato essentiali. 
+      <lb ed="#T" n="56"/>Secundo an cum praedicato personali. 
+      <lb ed="#T" n="57"/>Tertio an subjecto personali simplici possit,  
+      <lb ed="#T" n="58"/>addi cum praedicato essentiali. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0253.xml-->
+      <cb ed="#T" n="c"/>
+               <lb ed="#T" n="59"/>Quarto an subjecto personali simplici possit,  
+      <lb ed="#T" n="60"/>addi cum praedicato personali. 
+      <lb ed="#T" n="61"/>Quinto an cum termino personali collectiuo. 
+      <lb ed="#T" n="62"/>possit addi praedicato essentiali. 
+      <lb ed="#T" n="63"/>Sexto an praedicato essentiali possit addi cum 
+      <lb ed="#T" n="64"/>termino personali. 
+      <lb ed="#T" n="65"/>Septimo an de subjecto essentiali possit 
+      praedi<lb ed="#T" n="66" break="no"/>ri per se. 
+    </p>
+            <div xml:id="pdt7y6-e54342-Dd1e150">
+               <head xml:id="pdt7y6-e54342-Hd1e152">Articulus 1</head>
+               <head xml:id="pdt7y6-e54342-Hd1e154" type="question-title">
+  An subjecto essentiali possit addi exclusiva dictio cum 
+  praedicato essentiali. 
+</head>
+               <p xml:id="pdt7y6-e54342-d1e157">
+                  <lb ed="#T" n="67"/>Articvlvs I. 
+      <lb ed="#T" n="68"/>An subjecto essentiali possit addi exclusiua dictio cum 
+      <lb ed="#T" n="69"/>praedicato essentiali. 
+</p>
+               <p xml:id="pdt7y6-e54342-d1e166">
+                  <lb ed="#T" n="70"/>AD prinmum sic proceditur. Quaeritur 
+      pri<lb ed="#T" n="71" break="no"/>Amo, anpossit dici, solus Deus est creator.  
+      <lb ed="#T" n="72"/>Videtur quod non. 1. Quia omne adiectiuum 
+      <lb ed="#T" n="73"/>ponit rem suam circa substantiuum suum: ergo 
+      <lb ed="#T" n="74"/>solus, ponit solitudinem circa deum: sed vt ait 
+      <lb ed="#T" n="75"/>Hilarius Deus non est confitendus nobis 
+      singu<lb ed="#T" n="76" break="no"/>laris, aut solitarius: ergo non potest dici solus, 
+      <lb ed="#T" n="77"/>Deus. 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e186">
+                  <lb ed="#T" n="78"/>2. Nullus est Deus nisi Pater aut Filius aut 
+      <lb ed="#T" n="79"/>Spiritus sanctus: si ergo solus Deus est creator, 
+      <lb ed="#T" n="80"/>aut solus Deus Pater, aut solus Deus Filius, 
+      <lb ed="#T" n="81"/>aut solus Deus Spiritus sanctus: sed hoc totum 
+      <lb ed="#T" n="82"/>falsum est: ergo non potest dici solus Deus est 
+      <lb ed="#T" n="83"/>creator.  
+      <!--1652-gregPress-MichiganState-gbooks-v1-0254.xml-->
+      <pb ed="#T" n="179"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>sali negatiuae, scilicet, nullus alius est Pater: sed 
+      <lb ed="#T" n="2"/>vtraque conuertitur simpliciter: ergo &amp; illa quae 
+      <lb ed="#T" n="3"/>cunm vtraque conuertitur: sed couersa eius est 
+      falsa<lb ed="#T" n="4" break="no"/>haec scilicet, solus Pater est Deus: ergo &amp; ipsa¬ 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e218">
+                  <lb ed="#T" n="5"/>Respondeo. Distinguenda est haec 
+      propo<lb ed="#T" n="6" break="no"/>sitio sicut praecedens: aut enim sit exclusio 
+      respe<lb ed="#T" n="7" break="no"/>ctu subjecti in se, scilicet in comparatione ad res 
+      <lb ed="#T" n="8"/>eiusdem generis, sicut dicitur incedere homo 
+      <lb ed="#T" n="9"/>solus, licet cum equo; &amp; sic notatur Deo inesse 
+      <lb ed="#T" n="10"/>solitudo, cum in Deo sit confortium trium 
+      per<lb ed="#T" n="11" break="no"/>sonarum: aut in comparatione ad alterum; &amp; 
+      <lb ed="#T" n="12"/>hoc dupliciter, aut ita quod alter excludatur a 
+      <lb ed="#T" n="13"/>forma subjecti, aut a forma praedicati: primo 
+      <lb ed="#T" n="14"/>modo propositio falsa est, secundo modo &amp; 
+      <lb ed="#T" n="15"/>tertio vera 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e244">
+                  <lb ed="#T" n="16"/>Ad 1. In contrarium de homine. Resp. Pater 
+      <lb ed="#T" n="17"/>potest accipi communiter, &amp; sic praedicatur de 
+      <lb ed="#T" n="18"/>quolibet cui inest paternitas: aut restringitur ex 
+      <lb ed="#T" n="19"/>vsu pro persona Patris aeterni: &amp; sic solus Deus 
+      <lb ed="#T" n="20"/>est Pater.  
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e257">
+                  <lb ed="#T" n="21"/>Ad 2. De simplici conuersa. Resp. Cum de 
+      <lb ed="#T" n="22"/>praedicato debeat in conuersione fieri subjectum 
+      <lb ed="#T" n="23"/>&amp; e conuerso, haec propositio: solus Pater est 
+      <lb ed="#T" n="24"/>Deus: non est conuersa huius: solus Deus 
+      <lb ed="#T" n="25"/>est Pater, secundum quod vera est, imo haec: 
+      <lb ed="#T" n="26"/>Pater est solus Deus, id est, Pater est Deus, 
+      <lb ed="#T" n="27"/>&amp; nil aliud praeter Deum. 
+    </p>
+            </div>
+            <!-- order problem ? -->
+            <div xml:id="pdt7y6-e54342-Dd1e279">
+               <head xml:id="pdt7y6-e54342-Hd1e281">Articulus 3</head>
+               <head xml:id="pdt7y6-e54342-Hd1e283" type="question-title">
+  An subjecto personali simplici possit addi dictio exclusivae cum praedicato essentiali. 
+</head>
+               <p xml:id="pdt7y6-e54342-d1e286">
+                  <lb ed="#T" n="28"/>Articvlvs III. 
+      <lb ed="#T" n="29"/>An subjecto personali simplici possit addi dictio 
+      exclu<lb ed="#T" n="30" break="no"/>siuae cum praedicato essentiali. 
+</p>
+               <p xml:id="pdt7y6-e54342-d1e295">
+                  <lb ed="#T" n="31"/>AD tertium sic proceditur. Videtur quod haec 
+      <lb ed="#T" n="32"/>sit vera. Solus Pater est Deus. 1. Naim de 
+      Fi<lb ed="#T" n="33" break="no"/>sio dicit Canticum, Tu solus altissimus: ergo 
+      <lb ed="#T" n="34"/>eadem ratione de Patre potest dici, quod ipse 
+      <lb ed="#T" n="35"/>solus est Deus: nam, hoc nomen altissimus 
+      <lb ed="#T" n="36"/>essentiale est sicut hoc nomen Deus 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e311">
+                  <lb ed="#T" n="37"/>2. Secundum Augustinum hic, cum de 
+      Pa<lb ed="#T" n="38" break="no"/>tre solo aliquid dicitur, non excluditur inde e 
+      <lb ed="#T" n="39"/>Filius aut Spiritus sanctus: sed omne aliud e 
+      <lb ed="#T" n="40"/>vere potest excludi: ergo haec est vera, solus 
+      Pa<lb ed="#T" n="41" break="no"/>ter est Deus. 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e325">
+                  <lb ed="#T" n="42"/>3. Maior est identitas Filij &amp; Spiritus sancti 
+      <lb ed="#T" n="43"/>ad Patrem, quam partis ad totum: sed dictio 
+      ex<lb ed="#T" n="44" break="no"/>clusiua addita toti non excludit partem: non 
+      <lb ed="#T" n="45"/>enim sequitur, solus fortes est albus non ergo 
+      <lb ed="#T" n="46"/>pes fortis est albus: ergo per dictionem 
+      exclu<lb ed="#T" n="47" break="no"/>siuam additam Patri non excluditur Filius aut 
+      <lb ed="#T" n="48"/>Spiritus sanctus: sed omne aliud vere 
+      excludi<lb ed="#T" n="49" break="no"/>tur ab hoc praedicato: ergo vere dicitur, solus 
+      <lb ed="#T" n="50"/>Pater est Deus 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e347">
+                  <lb ed="#T" n="51"/>4. Dictio exclusiua addita antecedenti non 
+      <lb ed="#T" n="52"/>excludit consequens, non enim sequitur: solus 
+      <lb ed="#T" n="53"/>homo non currit, ergo animal non currit: sed 
+      <lb ed="#T" n="54"/>in relatiuis vnum sequitur ad aliud: cum ergo 
+      <lb ed="#T" n="55"/>personae diuinae correlatiue dicantur dictio 
+      ex<lb ed="#T" n="56" break="no"/>clusiua addita vni non excludit alteram: ergo 
+      <lb ed="#T" n="57"/>vt prius. 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e365">
+                  <lb ed="#T" n="58"/>5. Matt. 11. Nemo nouit Filium nisi Pater:  
+      <lb ed="#T" n="59"/>sed nosse actus est essentialis: ergo qua ratione, 
+      <lb ed="#T" n="60"/>solus Pater nouit Filium, potest dici solus 
+      Pa<lb ed="#T" n="61" break="no"/>ter est Deus. 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e376">
+                  <lb ed="#T" n="62"/>6. Dictio exclusiua addita termino non 
+      ex<lb ed="#T" n="63" break="no"/>cludit quod est de intellectu eius: ergo addita 
+      <lb ed="#T" n="64"/>vni relatiu ononexcludit alterum. 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e385">
+                  <lb ed="#T" n="65"/>Contra. 1. Aliquis alius a Patre est Deus: ergo 
+      <lb ed="#T" n="66"/>non solus Pater est Deus 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0254.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>3. Implicatio falsi reddit locutionem falsam: 
+      <lb ed="#T" n="68"/>sed in hac propositione implicatur falsum, 
+      sci<lb ed="#T" n="69" break="no"/>licet deum esse solum: ergo locutio est falsa. 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e403">
+                  <lb ed="#T" n="70"/>Contra. 1. Nullus alius praeter Deum est crea 
+      <lb ed="#T" n="71"/>tor: ergo solus Deus est creator. 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e411">
+                  <lb ed="#T" n="72"/>2. Proprium conuenit ei soli, cuius est 
+      pro<lb ed="#T" n="73" break="no"/>prium: esse creaturem est proprium Dei: ergo 
+      con<lb ed="#T" n="74" break="no"/>uenit Deo soli: ergo vere potest dici solus Deus 
+      <lb ed="#T" n="75"/>est creator.  
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e422">
+                  <lb ed="#T" n="76"/>Respondeo. Propositio haec, solus Deus est 
+      <lb ed="#T" n="77"/>creator, duplex est: haec enim dictio exclusiua, 
+      <lb ed="#T" n="78"/>solus, priuat associationem a subjecto: aut ergo 
+      <lb ed="#T" n="79"/>simpliciter, &amp; sic ponit solitudinem circa deum: 
+      <lb ed="#T" n="80"/>aut respectu alicuius, &amp; tunc iterum duplex 
+      <lb ed="#T" n="81"/>est: aut enim intelligitur fieri exclusio aliorum 
+      <lb ed="#T" n="82"/>a participatione formae subjecti, ratione 
+      subin<lb ed="#T" n="83" break="no"/>tellectae implicationis, sub hoc sensu: ille qui 
+      <lb ed="#T" n="84"/>est Deus ita quod nullus praeter ipsum est Deus 
+      <lb ed="#T" n="85"/>est creator: aut a participatione formae 
+      praedi<lb ed="#T" n="86" break="no"/>cati sub hoc sensu, solus ille, qui est Deus, est 
+      <lb ed="#T" n="87"/>creator: primo modo propositio falsa est: 
+      se<lb ed="#T" n="88" break="no"/>cundo &amp; tertio modo vera. 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e453">
+                  <lb ed="#T" n="89"/>Ad 1. Adiectiuum &amp;c. Resp. Quamuis sit 
+      <lb ed="#T" n="90"/>adiectiuum &amp; determinet subjectum, tamen 
+      <lb ed="#T" n="91"/>potest determinate ipsum secundum se, vt hoc 
+      <lb ed="#T" n="92"/>adiectiuum albus: vel respectu alicuius rei deter 
+      <lb ed="#T" n="93"/>minatae: primo modo est dictio 
+      cathegore<lb ed="#T" n="94" break="no"/>matica; secundo modo, inquantum habet 
+      in<lb ed="#T" n="95" break="no"/>clusam negationem, syncathegorematica: 
+      pri<lb ed="#T" n="96" break="no"/>mo modo falsa est propositio, secundo modo 
+      <lb ed="#T" n="97"/>vera. 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e475">
+                  <lb ed="#T" n="98"/>Ad 2. Si solus Deus, ergo aut solus Pater &amp;c. 
+      <lb ed="#T" n="99"/>Resp. Fallacia figurae dictionis est ab immobili 
+      <lb ed="#T" n="100"/>suppositione ad mobilem: nam dictio 
+      exclu<lb ed="#T" n="101" break="no"/>silia addita termino communi quasi immobilitat.  
+      <lb ed="#T" n="102"/>ipsum ratione negationis inclusae: vnde si dicam 
+      <lb ed="#T" n="103"/>solus homo currit, non potest inferri: ergo aut 
+      <lb ed="#T" n="104"/>solus fortes, aut solus Plato currit,  
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e493">
+                  <lb ed="#T" n="105"/>Ad 3. De implicatione falsi. Resp. Prout 
+      de<lb ed="#T" n="106" break="no"/>terminat exclusionem suam circa subjectum, 
+      <lb ed="#T" n="107"/>sic implicat falsum, scilicet Deum esse solitas 
+      <lb ed="#T" n="108"/>rium: vnde falsa est, habet enim Deus confor 
+      <lb ed="#T" n="109"/>tium in se trium personarum: secundum vero 
+      <lb ed="#T" n="110"/>quod determinat comparationem, sic non 
+      im<lb ed="#T" n="111" break="no"/>plicat, &amp; est vera. 
+    </p>
+            </div>
+            <!-- order problem? -->
+            <div xml:id="pdt7y6-e54342-Dd1e514">
+               <head xml:id="pdt7y6-e54342-Hd1e516">Articulus 2</head>
+               <head xml:id="pdt7y6-e54342-Hd1e518" type="question-title">'
+  An subjecto essentiali possit addi exclusivae dictio cum 
+  praedicato personali.</head>
+               <p xml:id="pdt7y6-e54342-d1e521">
+                  <lb ed="#T" n="112"/>Articvlvs II. 
+      <lb ed="#T" n="113"/>An subjecto essentiali possit addi exclusiuae dictio cum 
+      <lb ed="#T" n="114"/>praedicato personali. 
+</p>
+               <p xml:id="pdt7y6-e54342-d1e530">
+                  <lb ed="#T" n="115"/>AD secundum sic proceditur. Videtur quod 
+      <lb ed="#T" n="116"/>possit dici solus Deus est Pater. 1. Quia 
+      <lb ed="#T" n="117"/>Deus est Pater, &amp; nullus alius praeter cum est 
+      <lb ed="#T" n="118"/>Pater  
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e541">
+                  <lb ed="#T" n="119"/>2. A quocumque remouetur communius, &amp; 
+      <lb ed="#T" n="120"/>minus commune: cum ergo esse Deum sit 
+      com<lb ed="#T" n="121" break="no"/>munius ad esse Patrem, a quocumque 
+      remoue<lb ed="#T" n="122" break="no"/>tur Deus, remouetur Pater: sicut ergo verum 
+      <lb ed="#T" n="123"/>est dicere solus Deus est Deus, ita solus Deus 
+      <lb ed="#T" n="124"/>est Pater.  
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e558">
+                  <lb ed="#T" n="125"/>3. Solus Deus idem est quod non cum alio: 
+      <lb ed="#T" n="126"/>sed Deus non cum alio est Pater: ergo solus 
+      <lb ed="#T" n="127"/>Deus est Pater 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e567">
+                  <lb ed="#T" n="128"/>Contta. 1. Homini conuenit esse Patrem: 
+      <lb ed="#T" n="129"/>non ergo solus Deus est Pater.  
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e574">
+                  <lb ed="#T" n="130"/>2. Haec, solus Deus est Pater, aequiposset 
+      <lb ed="#T" n="131"/>duabus propositionibus, vni particulari assir 
+      <lb ed="#T" n="132"/>matiuae, scilicet Deus est Pater; alteri vniuer 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e583">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0255.xml-->
+                  <pb ed="#T" n="180"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>2. Bene sequitur: si solus homo currit, ergo 
+      <lb ed="#T" n="2"/>quicquid currit est homo: ergo eadem ratione: 
+      <lb ed="#T" n="3"/>si solus Pater est Deus, ergo quicumque est 
+      <lb ed="#T" n="4"/>Deus, est Pater: sed Filius est Deus: ergo 
+      Fi<lb ed="#T" n="5" break="no"/>lius est Pater.
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e603">
+                  <lb ed="#T" n="6"/>3. Dictio exclusiua excludit diuersum: ergo 
+      <lb ed="#T" n="7"/>magis oppositum: ergo correlatiuum. 
+      <lb ed="#T" n="8"/>Respondeo. Quidam dicunt quod respectu 
+      <lb ed="#T" n="9"/>praedicati essentialis dictio exclusiua addita vni 
+      <lb ed="#T" n="10"/>personae non exeludit alteram quia in illo sunt,  
+      <lb ed="#T" n="11"/>vnum: sed respectu praedicati personalis solum. 
+      <lb ed="#T" n="12"/>Sed melius dicendum quod propositio praedicta 
+      <lb ed="#T" n="13"/>duplex est: ex eo quod haec dictio solus potest 
+      <lb ed="#T" n="14"/>priuare associationem vel respectu subjecti 
+      sim<lb ed="#T" n="15" break="no"/>pliciter sic falsa est: vel respectu formae 
+      deter<lb ed="#T" n="16" break="no"/>minatae, &amp; fic est duplex, quia solus significat 
+      <lb ed="#T" n="17"/>non cum alio; hoc autem potest intelligi 
+      du<lb ed="#T" n="18" break="no"/>pliciter: aut non cum alio neutraliter, &amp; sic 
+      ex<lb ed="#T" n="19" break="no"/>cludit aliam essentiam: aut masculine, &amp; sic 
+      <lb ed="#T" n="20"/>excludit aliam personam: primo modo vera est 
+      <lb ed="#T" n="21"/>propositio, secundo modo falsa. 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e640">
+                  <lb ed="#T" n="22"/>Ad 1. Tu solus Altissimus. Resp. Solus 
+      ex<lb ed="#T" n="23" break="no"/>cludit aliud neutraliter, non masculine. 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e648">
+                  <lb ed="#T" n="24"/>Ad 2. De Augustino. Resp. Augustinus 
+      intelli<lb ed="#T" n="25" break="no"/>git secundum quod Iy solus excludit aliud 
+      neu<lb ed="#T" n="26" break="no"/>traliter.  
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e657">
+                  <lb ed="#T" n="27"/>Ad 3. Maior est identitas &amp;c. Resp. 
+      Quam<lb ed="#T" n="28" break="no"/>uis maior sit identitas in essentia, tamen maior 
+      <lb ed="#T" n="29"/>distinctio in personis: vnde quamuis dictio 
+      ex<lb ed="#T" n="30" break="no"/>clusiua addita toti non excludat partem: addita 
+      <lb ed="#T" n="31"/>tamen vni personae excludit alteram aliquando. 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e670">
+                  <lb ed="#T" n="32"/>Ad 4. De antecedente. Resp. Non est simile 
+      <lb ed="#T" n="33"/>de consequentia relatiuae oppositionis, &amp; 
+      vni<lb ed="#T" n="34" break="no"/>uersalitatis: quia consequens primo modo 
+      <lb ed="#T" n="35"/>non est in ipso antecedente idem in supposito: 
+      <lb ed="#T" n="36"/>sed con sequens vniuersale est idem in supposito 
+      <lb ed="#T" n="37"/>cum suo antecedente. 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e686">
+                  <lb ed="#T" n="38"/>Ad 5. Nemo nouit &amp;c. Resp. Haec dictio nemo, 
+      <lb ed="#T" n="39"/>remouet omne aliud ens: ergo aequiposset cum 
+      <lb ed="#T" n="40"/>hac dictione solus, secundum quod excludit 
+      <lb ed="#T" n="41"/>aliud neutraliter, &amp; sic vera est: non autem 
+      se<lb ed="#T" n="42" break="no"/>cundum quod excludit alium masculine, &amp; sic 
+      <lb ed="#T" n="43"/>falsa. 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e702">
+                  <lb ed="#T" n="44"/>Ad 6. Dictio exclusiua non excludit quod est 
+      <lb ed="#T" n="45"/>de intellectu &amp;c. Resp. De intellectu alicuius 
+      <lb ed="#T" n="46"/>aliquid est dupliciter: vel vt principium 
+      intrin<lb ed="#T" n="47" break="no"/>secum intelligendi ipsum, vt animal de 
+      intelle<lb ed="#T" n="48" break="no"/>ctu hominis: vel vt principium extrinsecum, v 
+      <lb ed="#T" n="49"/>vnum oppositorum de intellectu alterinis: primo 
+      <lb ed="#T" n="50"/>modo verum est illud, non secundo: 
+      correla<lb ed="#T" n="51" break="no"/>tiuum, aute de intellectu correlatiui sui est 
+      secun<lb ed="#T" n="52" break="no"/>do modo, non primo. Vel posset dici, quod 
+      <lb ed="#T" n="53"/>Pater &amp; Filius possunt considerari dupliciter:  
+      <lb ed="#T" n="54"/>aut inquantum relatiua: aut inquaatum 
+      relati<lb ed="#T" n="55" break="no"/>ue opposita, &amp; secundum hoc in illis contingit 
+      <lb ed="#T" n="56"/>dupliciter arguere: aut per locum a relatis, vt 
+      <lb ed="#T" n="57"/>Pater est, ergo Filius est: aut per locum a res 
+      <lb ed="#T" n="58"/>latiue oppositis vt Plato, est Pater Socratis 
+      <lb ed="#T" n="59"/>ergo non est Filius eiusdem: primo modo 
+      intel<lb ed="#T" n="60" break="no"/>ligitur in alio, secundo modo non, inquantum  
+      <lb ed="#T" n="61"/>scilicet sunt opposita. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e54342-Dd1e745">
+               <head xml:id="pdt7y6-e54342-Hd1e747">Articulus 4</head>
+               <head xml:id="pdt7y6-e54342-Hd1e749" type="question-title">
+  An subjecto personali simplici possit addi dictio exclusiuae cum praedicato personali.
+</head>
+               <p xml:id="pdt7y6-e54342-d1e752">
+                  <lb ed="#T" n="62"/>Articvlvs IV. 
+      <lb ed="#T" n="63"/>An subjecto personali simplici possit addi dictio 
+      ex<lb ed="#T" n="64" break="no"/>clusiuae cum praedicato personali. 
+</p>
+               <p xml:id="pdt7y6-e54342-d1e761">
+                  <lb ed="#T" n="65"/>D quartum sic proceditur. Videtur quod 
+      <lb ed="#T" n="66"/>haec sit falsa, solus Pater est Pater. Locutio. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0255.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>aliquando dicitur falsa ratione falsae 
+      implicatio<lb ed="#T" n="68" break="no"/>nis, aliquando ratione falsae attributionis: 
+      pri<lb ed="#T" n="69" break="no"/>mo modo loquendo de homine nigro, haec est 
+      <lb ed="#T" n="70"/>falsa, homo albus currit: secundo modo haec, 
+      <lb ed="#T" n="71"/>homo est albus: sed in hac propositione sit 
+      im<lb ed="#T" n="72" break="no"/>plicatio falsificans, quia impficatur solitudo 
+      <lb ed="#T" n="73"/>circa Patrem qui solus non est ergo propositio 
+      <lb ed="#T" n="74"/>est falsa. 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e790">
+                  <lb ed="#T" n="75"/>2. Vbicumque est oppositio in adiectio, 
+      locu<lb ed="#T" n="76" break="no"/>tio est falsa: vt si dicatur, album nigrum 
+      cur<lb ed="#T" n="77" break="no"/>rit: sed cum dico, solus Pater est Pater, ibi est 
+      <lb ed="#T" n="78"/>oppositio in adiecto, quia Pater dicitur cum 
+      <lb ed="#T" n="79"/>alio, eo quod Pater non est sine Filio: solus sine 
+      <lb ed="#T" n="80"/>alio: ergo locutio est falsa. 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e807">
+                  <lb ed="#T" n="81"/>3. Solus dicit non cum alio: sed secundum 
+      <lb ed="#T" n="82"/>Augustinum Pater alio est Deus, alio Pater: 
+      <lb ed="#T" n="83"/>ergo exclusiua addita Patri excludit deum: ergo 
+      <lb ed="#T" n="84"/>sequitur ex hac, solus Pater est Pater: ergo Deus 
+      <lb ed="#T" n="85"/>non est Pater: sed haec est falsa: ergo prima. 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e820">
+                  <lb ed="#T" n="86"/>Contra. 1. Nullus alius praeter Patrem est 
+      <lb ed="#T" n="87"/>Pater: ergo solus Pater est Pater.  
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e827">
+                  <lb ed="#T" n="88"/>2. Proprium est Patri esse Patrem: ergo 
+      con<lb ed="#T" n="89" break="no"/>uenit ei soli. 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e834">
+                  <lb ed="#T" n="90"/>3. August. 7. De Trin. in sola Trinitate solus 
+      <lb ed="#T" n="91"/>Pater dicitur Pater, quia nullus nisi ipse est 
+      <lb ed="#T" n="92"/>Pater  
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e843">
+                  <lb ed="#T" n="93"/>Respondeo. Propositio haec sicut praecedens 
+      <lb ed="#T" n="94"/>distingui debet: quia aut fit exclusio respectu 
+      <lb ed="#T" n="95"/>subjecti simpliciter, &amp; sic priuatur ab eo 
+      confor<lb ed="#T" n="96" break="no"/>tium; &amp; sic propositio est falsa: aut respectu 
+      <lb ed="#T" n="97"/>sormae determinatae, aut ergo respectu formae 
+      <lb ed="#T" n="98"/>subjecti, sub hoc sensu, ille qui est Pater. &amp; 
+      nul<lb ed="#T" n="99" break="no"/>lus alius est Pater; vel respectu formae praedicatis 
+      <lb ed="#T" n="100"/>sub hoc sensu, Pater est Pater, &amp; nullus alius 
+      <lb ed="#T" n="101"/>praeter ipsum est Pater: &amp; vtroque modo vera est. 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e865">
+                  <lb ed="#T" n="102"/>Ad 1. &amp; 2. De falsa implicatione &amp; 
+      oppositio<lb ed="#T" n="103" break="no"/>ne in adiecto. Resp. Argumenta illa concludunt 
+      <lb ed="#T" n="104"/>secundum quod sit exclusio respectu subjecti 
+      <lb ed="#T" n="105"/>simpliciter &amp; absolute, non respectu formae 
+      de<lb ed="#T" n="106" break="no"/>terminatae. 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e879">
+                  <lb ed="#T" n="107"/>Ad3. Solus dicit non cum alio &amp;c. Resp. 
+      <lb ed="#T" n="108"/>Solus excludit id quod est aliud re non ratione 
+      <lb ed="#T" n="109"/>tantum: August, autem intelligit de alietate 
+      ra<lb ed="#T" n="110" break="no"/>iois, . n rei. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e54342-Dd1e891">
+               <head xml:id="pdt7y6-e54342-Hd1e893">Articulus 5</head>
+               <head xml:id="pdt7y6-e54342-Hd1e895" type="question-title">
+  An cum termino personali collectiuo possit addi 
+  praedicato essentiali dictio exclusiua.
+</head>
+               <p xml:id="pdt7y6-e54342-d1e898">
+                  <lb ed="#T" n="111"/>ARTICVLVS V 
+      <lb ed="#T" n="112"/>An cum termino personali collectiuo possit addi 
+      <lb ed="#T" n="113"/>praedicato essentiali dictio exclusiua. 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e907">
+                  <lb ed="#T" n="114"/>AD quintum sic proceditur. Videtur quod 
+      <lb ed="#T" n="115"/>haec sit vera: Trinitas est solus Deus. dicit 
+      <lb ed="#T" n="116"/>enim Augustinus contra Maximinum, 
+      Trinita<lb ed="#T" n="117" break="no"/>est solus Deus. 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e918">
+                  <lb ed="#T" n="118"/>2. Subjectum hoc non substat alteri praedicato: 
+      <lb ed="#T" n="119"/>ergo praedicatum hoc cum exclusione alterium, 
+      <lb ed="#T" n="120"/>vere praedicatur de ipso. 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e928">
+                  <lb ed="#T" n="121"/>Contra. 1. Omne praedicatum essentiale de 
+      na<lb ed="#T" n="122" break="no"/>tura sua remouet aliud, sequitur enim fortes est 
+      <lb ed="#T" n="123"/>homo ergo non est aliud ab homine: ergo 
+      su<lb ed="#T" n="124" break="no"/>perfluit addita exclusio 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e939">
+                  <lb ed="#T" n="125"/>2. Dictio exclusiua importat negationem: sed  
+      <lb ed="#T" n="126"/>negatio debet praecedere compositionem quam 
+      <lb ed="#T" n="127"/>negat, in hac vero propositione sequitur: ergo 
+      <lb ed="#T" n="128"/>propositio est falsa. 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e950">
+                  <lb ed="#T" n="129"/>4. Formae communicabili non conuenit 
+      soli<lb ed="#T" n="130" break="no"/>tudo: sed terminus in praedicato tenetur 
+      forma<lb ed="#T" n="131" break="no"/>liter: ergo male additur haec dictio solus 
+      praedi<lb ed="#T" n="132" break="no"/>cato. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0256.xml-->
+      <pb ed="#T" n="181"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>Respondeo. Distingunt hic aliqui, quod haec 
+      <lb ed="#T" n="2"/>dictio solas addita huic termino Deus a parte 
+      prae<lb ed="#T" n="3" break="no"/>dicati, aut additur fine altera determinatione, 
+      au<lb ed="#T" n="4" break="no"/>cum altera determinatione: si cum 
+      determina<lb ed="#T" n="5" break="no"/>tione, vt si dicatur: Trinitas est vnus solus Deus 
+      <lb ed="#T" n="6"/>vel solus verus Deus: propositio vera est &amp; 
+      <lb ed="#T" n="7"/>propria, quia sit exclusio aliorum a 
+      participatio<lb ed="#T" n="8" break="no"/>ne huiusmodi formarum: si sine determinatione, 
+      <lb ed="#T" n="9"/>aut ergo haec dictio solus ponitur aduerbialiter  
+      <lb ed="#T" n="10"/>pro solum, aut nominaliter: si aduerbialiter, 
+      lo<lb ed="#T" n="11" break="no"/>cutio vera est &amp; propria, quia aduerbium cum 
+      <lb ed="#T" n="12"/>sit adiectum verbi fertur ad compositionem, 
+      co<lb ed="#T" n="13" break="no"/>positio autem indifferenter respicit subjectum: &amp; 
+      <lb ed="#T" n="14"/>praedicatum sicut extrema sua, vnde potest 
+      addi<lb ed="#T" n="15" break="no"/>haec dictio solus vel tantum subjecto vel 
+      praedica<lb ed="#T" n="16" break="no"/>to: si nominaliter, locutio falsa est &amp; impropria 
+      <lb ed="#T" n="17"/>&amp; superslua. Secundum alios vero dicendum 
+      <lb ed="#T" n="18"/>quod terminus hic Deus habet naturam 
+      termini<lb ed="#T" n="19" break="no"/>communis &amp; singularis: vnde vbicumque 
+      po<lb ed="#T" n="20" break="no"/>natur significat rem per se subsistentem, ideo ei 
+      <lb ed="#T" n="21"/>potest fieri associatio, &amp; associationis exclusio: 
+      <lb ed="#T" n="22"/>alijs terminis communibus in praedicato non 
+      <lb ed="#T" n="23"/>potest, quia significant in praedicato formam 
+      <lb ed="#T" n="24"/>communem, formae vero non sit associatio, sedin 
+      <lb ed="#T" n="25"/>forma: aut ergo sit exclusio aliorum a confortio 
+      <lb ed="#T" n="26"/>praedicati simpliciter, &amp; sic est falsa: vel respe 
+      <lb ed="#T" n="27"/>ctu alicuius rei determinatae, aut ergo aliorum 
+      <lb ed="#T" n="28"/>subjectorum ab eodem praedicato, aut aliorum 
+      <lb ed="#T" n="29"/>subjectorum ab eodem subjecto, &amp; vtroque 
+      mo<lb ed="#T" n="30" break="no"/>do vera est propositio. 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e1033">
+                  <lb ed="#T" n="31"/>Ad 1. In contrarium de praedicato essentiali 
+      <lb ed="#T" n="32"/>&amp;c. Resp. Secus est de hoc termino Deus &amp; de 
+      <lb ed="#T" n="33"/>alijs. 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e1042">
+                  <lb ed="#T" n="34"/>Ad 2. De negatione &amp;c. Resp. In hac 
+      pro<lb ed="#T" n="35" break="no"/>positione intelligitur duplex compositio, scilicet, 
+      <lb ed="#T" n="36"/>principalis praedicati cum subjecto significata 
+      <lb ed="#T" n="37"/>per hoc verbum est: &amp; alia non principalis for 
+      <lb ed="#T" n="38"/>mae praedicati cum suo supposito, secundum quod 
+      <lb ed="#T" n="39"/>Deus exponitur habens Deitatem: potest ergo 
+      <lb ed="#T" n="40"/>negatio ferri vel ad primam vel ad secundam: sed 
+      <lb ed="#T" n="41"/>ad primam secundum quod haec dictio tenetur 
+      <lb ed="#T" n="42"/>quasi aduerbialiter: ad secundam vero 
+      secun<lb ed="#T" n="43" break="no"/>dum quod tenetur nominaliter.  
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e1066">
+                  <lb ed="#T" n="44"/>Ad 3. De forma communicabili. Resp. 
+      Argu<lb ed="#T" n="45" break="no"/>mentum concludit secundum quod priuatur 
+      as<lb ed="#T" n="46" break="no"/>sociatio a praedicato absolute 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e54342-Dd1e1076">
+               <head xml:id="pdt7y6-e54342-Hd1e1078">Articulus 6</head>
+               <head xml:id="pdt7y6-e54342-Hd1e1080" type="question-title">
+  An praedicato essentiali possit addi dictio exclusiua cum termino personali.
+</head>
+               <p xml:id="pdt7y6-e54342-d1e1083">
+                  <lb ed="#T" n="47"/>ARTICVLVS VI. 
+      <lb ed="#T" n="48"/>An praedicato essentiali possit addi dictio 
+      exclu<lb ed="#T" n="49" break="no"/>siua cum termino personali. 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e1092">
+                  <lb ed="#T" n="50"/>AD sextum sic proceditur. Videtur quod 
+      <lb ed="#T" n="51"/>haec sit vera, Pater est solus Deus. 1. Quia 
+      <lb ed="#T" n="52"/>Pater est Deus, &amp; non aliud praeter Deum: ergo 
+      <lb ed="#T" n="53"/>est solus Deus. 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e1103">
+                  <lb ed="#T" n="54"/>2. Matth. 17. Dicit Filius ad Patrem, vt 
+      co<lb ed="#T" n="55" break="no"/>gnoscant Te solum verum Deum. 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e1111">
+                  <lb ed="#T" n="56"/>3. Omne praedicatum quod praedicatur de 
+      tri<lb ed="#T" n="57" break="no"/>bus simul, essentiale est: sed hoc praedicatum, 
+      so<lb ed="#T" n="58" break="no"/>lus Deus, dicitur de Trinitate, vt ait 
+      Augusti<lb ed="#T" n="59" break="no"/>nus hic: ergo est essentiale: ergo praedicatur de 
+      <lb ed="#T" n="60"/>qualibet persona. 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e1124">
+                  <lb ed="#T" n="61"/>Contra. 1. Si dicatur: Sortes est homo &amp; non 
+      <lb ed="#T" n="62"/>aliud, locutio est superflua; quia eo quod homo 
+      <lb ed="#T" n="63"/>est, sequitur quod non sit aliud ab homine: ergo 
+      <lb ed="#T" n="64"/>a simili locutio haec est superflua, Pater est solus 
+      <lb ed="#T" n="65"/>Deus. 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e1137">
+                  <lb ed="#T" n="66"/>2. Solus dicit non cum alio: sed Pater alio est 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0256.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>Pater alio Deus, secundum August. vnde 
+      se<lb ed="#T" n="68" break="no"/>quitur: solus Deus, non ergo Pater: sed haec est 
+      <lb ed="#T" n="69"/>falsa: ergo prima. 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e1153">
+                  <lb ed="#T" n="70"/>Respondeo. Haec propositio duplex est, vt 
+      <lb ed="#T" n="71"/>praecedens: ex eo quod dictio solus potest 
+      pon<lb ed="#T" n="72" break="no"/>quasi aduerbialiter, &amp; sic est vera &amp; propria: aut 
+      <lb ed="#T" n="73"/>nominaliter, aut ergo vt est terminus communis, 
+      <lb ed="#T" n="74"/>sic vera est sed impropria: aut vt terminus 
+      sin<lb ed="#T" n="75" break="no"/>gularis, sic est vera &amp; propria 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e1169">
+                  <lb ed="#T" n="76"/>Ad 1. In contrarium de homine. Resp. Nor 
+      <lb ed="#T" n="77"/>est simile, quia hic terminus, homo, communis 
+      <lb ed="#T" n="78"/>est non singularis: sed hic terminus, Deus: 
+      com<lb ed="#T" n="79" break="no"/>munis est gratia suppositorum, singularis gratia 
+      <lb ed="#T" n="80"/>formae significatae 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e1182">
+                  <lb ed="#T" n="81"/>Ad 2. De alietate. Resp. Augustinus intelligit 
+      <lb ed="#T" n="82"/>de alietate rationis, non rei: dictio vero exclus 
+      <lb ed="#T" n="83"/>siua excludit aliud re non ratione solum. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e54342-Dd1e1193">
+               <head xml:id="pdt7y6-e54342-Hd1e1195">Articulus 7</head>
+               <head xml:id="pdt7y6-e54342-Hd1e1197" type="question-title">
+  An de subjecto essentiali possit praedicari per
+  se dictio exclusiua.
+</head>
+               <p xml:id="pdt7y6-e54342-d1e1200">
+                  <lb ed="#T" n="84"/>ARTICVLVS VII. 
+      <lb ed="#T" n="85"/>An de subjecto essentiali possit praedicari per
+      <lb ed="#T" n="86"/>se dictio exclusiua. 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e1209">
+                  <lb ed="#T" n="87"/>AD vltimum sic proceditur videtur quod 
+      <lb ed="#T" n="88"/>potest dici: Deus est solus. Deuter. 32 
+      <lb ed="#T" n="89"/>Videte quod ego sim solus, 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e1218">
+                  <lb ed="#T" n="90"/>2. Vno solo homine existente in mundo, bene 
+      <lb ed="#T" n="91"/>diceretur: Homo est solus: ergo similiter vno 
+      <lb ed="#T" n="92"/>solo Deo existente, 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e1228">
+                  <lb ed="#T" n="93"/>3. Ante mundum Deus erat non cum alio 
+      <lb ed="#T" n="94"/>quia nec cum alio Deo, nec cum alio non Deo: 
+      <lb ed="#T" n="95"/>ergo erat solus. 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e1237">
+                  <lb ed="#T" n="96"/>Contra. 1 Omne quod remouetur a Patre &amp; 
+      <lb ed="#T" n="97"/>Filio &amp; Spiritu sancto, remouetur a Deo: sed 
+      so<lb ed="#T" n="98" break="no"/>lum esse remouetur a quolibet illorum: ergo a Deo. 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e1246">
+                  <lb ed="#T" n="99"/>2. Numquam est solus qui semper habet 
+      con<lb ed="#T" n="100" break="no"/>fortium: Deus semper habuit confortium, 
+      scili<lb ed="#T" n="101" break="no"/>cet trium personarum inuicem: ergo numquam  
+      <lb ed="#T" n="102"/>fuit solus, 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e1257">
+                  <lb ed="#T" n="103"/>3. Modo habet confortium creaturarum in 
+      es<lb ed="#T" n="104" break="no"/>sendo: ergo non potest dici solus 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e1264">
+                  <lb ed="#T" n="105"/>4. Hylarius, Deus nobis nec solitarius nec 
+      sin<lb ed="#T" n="106" break="no"/>gularis est confitendus. 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e1271">
+                  <lb ed="#T" n="107"/>Respondeo. In Deo est vnitas essentiae &amp; 
+      plu<lb ed="#T" n="108" break="no"/>ralitas personarum: ergo semper est confortium 
+      <lb ed="#T" n="109"/>siue creaturae sint, siue non sint: ergo numquam  
+      <lb ed="#T" n="110"/>est solitudo in eo: ergo numquam potest dici 
+      <lb ed="#T" n="111"/>solus simpliciter, quamuis respectu alicuius 
+      at<lb ed="#T" n="112" break="no"/>tributi determinati possit dici solus, 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e1288">
+                  <lb ed="#T" n="113"/>Ad 1. Videte quia ego sim solus. Resp. 
+      Sub<lb ed="#T" n="114" break="no"/>intelligitur Deus, ex eo quod sequitur, &amp; non sit 
+      <lb ed="#T" n="115"/>alius Deus praeter me. 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e1297">
+                  <lb ed="#T" n="116"/>Ad 2. De homine solo. Resp. Non est simile. 
+      <lb ed="#T" n="117"/>quia in homine ad singularitatem essentiae 
+      sequi<lb ed="#T" n="118" break="no"/>tur singularitas suppositi, vnde sequitur solitudo: 
+      <lb ed="#T" n="119"/>sed non sic in Deo. 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e1308">
+                  <lb ed="#T" n="120"/>Ad 3. Erat non cum alio. Resp. Secundum 
+      <lb ed="#T" n="121"/>quod accipitur aliud neutraliter, verum est: sed  
+      <lb ed="#T" n="122"/>non secundum quod accipitur masculine, sic enim 
+      <lb ed="#T" n="123"/>diuersum reffert suppositum non significatum. 
+      <lb ed="#T" n="124"/>Nec valet diuisio: aut ergo cum alio Deo, aut 
+      <lb ed="#T" n="125"/>cum alio non Deo: quia diuisio est insufficiens 
+      <lb ed="#T" n="126"/>nec per immediata. Sed debet sic diuidi: si erat 
+      <lb ed="#T" n="127"/>cum alio, aut ergo cum alio Deo: aut non cum 
+      <lb ed="#T" n="128"/>alio Deo: quorum vltimum verum est: diuisio 
+      <lb ed="#T" n="129"/>ergo est insufficiens, quia persona Filij nec est 
+      <lb ed="#T" n="130"/>alius Deus a Patre, nec alius non Deus, eo quod 
+      <lb ed="#T" n="131"/>est idem in essentia, distinctus in persona
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e54342-Dd1e1338">
+               <head xml:id="pdt7y6-e54342-Hd1e1340">Expositio litterae</head>
+               <p xml:id="pdt7y6-e54342-d1e1342">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0257.xml-->
+                  <pb ed="#T" n="182"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>LITERAE EXPOSITIO. 
+      <lb ed="#T" n="2"/>[REmo nouit Patrem.] Contra. Hic termi¬ 
+    </p>
+               <p xml:id="pdt7y6-e54342-d1e1355">
+                  <lb ed="#T" n="3"/>Nnus, nemo, aut supponit pro ente creato, 
+      <lb ed="#T" n="4"/>aut pro increato: si pro creato, ergo male 
+      exci<lb ed="#T" n="5" break="no"/>pitur ab illo Filius qui est ens increatum: si 
+      pro<lb ed="#T" n="6" break="no"/>increato, aut ergo pro essentia, aut pro persona: 
+      <lb ed="#T" n="7"/>si pro essentia, ergo persona Patris non nouit 
+      Pa<lb ed="#T" n="8" break="no"/>trem: si pro persona, ergo Pater non nouit se. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0257.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="9"/>Respondeo. Quamuis ex proprietate 
+      institu<lb ed="#T" n="10" break="no"/>tionis supponat pro creato, vnde sensus est, 
+      ne<lb ed="#T" n="11" break="no"/>mo id est nullus nomo; tamen ex ampliatione 
+      <lb ed="#T" n="12"/>vsus supponit pro omni ente intellectiuo seu 
+      co<lb ed="#T" n="13" break="no"/>gnoscitiuo siue creato siue increato, sit enim 
+      <lb ed="#T" n="14"/>exclusio gratia essentiae non personae: vnde 
+      sen<lb ed="#T" n="15" break="no"/>sus est, nullum ens intellectiuum nouit Patrem, 
+      <lb ed="#T" n="16"/>nisi illud quod est Filius: &amp; sic est vera, idem 
+      <lb ed="#T" n="17"/>enim ens est Pater &amp; Filius. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

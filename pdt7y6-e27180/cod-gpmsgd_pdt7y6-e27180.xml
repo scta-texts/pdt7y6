@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="89"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e27180"><!-- l1d10prae -->
+            <head xml:id="pdt7y6-e27180-Hd1e99">Praeambulum</head>
+            <head xml:id="pdt7y6-e27180-Hd1e101" type="question-title"/>
+            <p xml:id="pdt7y6-e27180-d1e103">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0164.xml-->
+               <cb ed="#T" n="c"/>
+               <lb ed="#T" n="63"/>HICDE SPIRITVSANOTO. 
+      <lb ed="#T" n="64"/>agitur, &amp; primo quod sit amor Patris &amp; Filij dicitur.  
+      <lb ed="#T" n="65"/>Distinct. X. 
+    </p>
+        <!--    <p xml:id="pdt7y6-e27180-d1e116">
+               <lb ed="#T" n="66"/>NVNC post Filij aeternitatem, de Spiritu ancto, quantum Deo donante 
+      <lb ed="#T" n="67"/>Qy videre conceditur, disseramus. Spiritus sanctus amor est, siue charitas, 
+      <lb ed="#T" n="68"/>&amp; siue dilectio Patris &amp; Filij. Vnde Aug. in 15. lib. de Trinit. ait, Spiritus 
+      <lb ed="#T" n="69"/>&amp; Sanctus nec Patris est solius, nec Filij est solius, sed amborum: &amp; ideo 
+      <lb ed="#T" n="70"/>IV, communem, qua inuicem se diligunt Pater &amp; Filius, nobis insinuat cha¬ 
+    </p>
+            <p xml:id="pdt7y6-e27180-d1e129">
+               <lb ed="#T" n="71"/>&amp; ritatem. 
+      <lb ed="#T" n="72"/>Quod Spiritus Sanctus proprie dilectio dicatur, &amp; tamen Trinitas sit dilectio. 
+      <lb ed="#T" n="73"/>Ioannes autem in epistola Canonica ait; Deus charitas est, non dixit: Spiritus Sanctus 
+      <lb ed="#T" n="74"/>charitas est. Quod si dixisset, absolutior esset sermo, &amp; non parua pars quaestionis deeisa. 
+      <lb ed="#T" n="75"/>sed quia dixit: Deus charitas est, incertum est, &amp; ideo quaerendum est: vtrum Deus 
+      Pa<lb ed="#T" n="76" break="no"/>ter sit charitas, an Filius, an Spiritus Sanctus, an Deus ipsa Trinitas, quia &amp; ipsa non 
+      <lb ed="#T" n="77"/>tres Dij, sed vnus est Deus. Ad hoc Augustinus in eodem libro ita dicit, Nescio cur sicut  
+      <lb ed="#T" n="78"/>sapientia &amp; Pater dicitur, &amp; Filius, &amp; Spiritus Sanctus, &amp; simul omnes non tres sed 
+      vna<lb ed="#T" n="79" break="no"/>sapientia: non ita, &amp; charitas dicatur Pater, &amp; Filius, &amp; Spiritus sanctus, simul omnes 
+      <lb ed="#T" n="80"/>vna charitas. Non ideo tamen quisquam nos inconuenienter aestimet charitatem 
+      appella<lb ed="#T" n="81" break="no"/>re Spiritum Sanctum: quia &amp; Deus Pater, &amp; Deus Filius potest charitas nuncupari: sicut  
+      <lb ed="#T" n="82"/>proprie verbum Dei etiam sapientia Dei dicitur, cum &amp; Pater &amp; spiritus Sanctus sit 
+      sa<lb ed="#T" n="83" break="no"/>pientia. 
+    </p>
+            <p xml:id="pdt7y6-e27180-d1e161">
+               <lb ed="#T" n="84"/>Sicut verbum Dei proprie dicitur sapientia, &amp; tamen tota Trinitat dicitur sapientia, ita &amp; Spiritus. 
+    </p>
+            <p xml:id="pdt7y6-e27180-d1e166">
+               <lb ed="#T" n="85"/>Sanctus proprie dicitur charitas, &amp; tamen Pater &amp; Filius &amp; Spiritus sanctus aicum. 
+    </p>
+            <p xml:id="pdt7y6-e27180-d1e171">
+               <lb ed="#T" n="86"/>charitas. 
+      <lb ed="#T" n="87"/>Si ergo proprie aliquis horum trium charitas nuncupari debet, quis aptius quam 
+      spi<lb ed="#T" n="88" break="no"/>ritus sanctus? Vt scilicet in illa summa simplicique natura non sit aliud substantia, &amp; aliud 
+      <lb ed="#T" n="89"/>charitas: sed substantia ipsa sit charitas, &amp; charitas ipsa sit substantia, siue in Patre, siue 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0165.xml-\->
+      <pb ed="#T" n="90"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>in Filio, siue in Spiritu Sancto: &amp; tamen Spiritus Sanctus proprie charitas nuncupetur.  
+      <lb ed="#T" n="2"/>Ecce his verbis aperte dicit August. quod in Trinitate charitas aliquando refertur ad 
+      sub<lb ed="#T" n="3" break="no"/>stantiam, quae communis est trium personarum: &amp; tota in singulis: aliquando specialiter  
+      <lb ed="#T" n="4"/>ad personam Spiritus Sancti, sicut sapientia Dei aliquando pro substantia diuina, 
+      aliquan<lb ed="#T" n="5" break="no"/>do pro Filio proprie accipitur, &amp; hoc in multis fieri teperitur  
+    </p>
+            <p xml:id="pdt7y6-e27180-d1e200">
+               <lb ed="#T" n="6"/>Exemplis firmat eadem nomina proprie &amp; uniuersaliter accipi. 
+      <lb ed="#T" n="7"/>Pluribus enim txemplis doceri potest, multa rerum vocabula, &amp; vniuersaliter poni, &amp; 
+      <lb ed="#T" n="8"/>proprie quibusdam rebus adhiberi: sicut legis nomine aliquando simul omnia veteris 
+      Te<lb ed="#T" n="9" break="no"/>stamenti significantur eloquia: aliquando autem proprie vocatur lex quae data est 
+      per<lb ed="#T" n="10" break="no"/>Moysen. Multa alia suppetunt exempla, sed in re aperta vitanda est longitudo fermonis. 
+      <lb ed="#T" n="11"/>Sicut ergo vnicum Dei verbum proprie vocanus nomine Sapientiae, cum sit vniuersaliter  
+      <lb ed="#T" n="12"/>&amp; Spiritus Sanctus &amp; Pater ipsa sapientia: ita Spiritus Sanctus proprio vocabulo charitas 
+      <lb ed="#T" n="13"/>nuncupatur, cum sit Pater &amp; Filius vniuersaliter charitas. 
+    </p>
+            <p xml:id="pdt7y6-e27180-d1e220">
+               <lb ed="#T" n="14"/>Authoritatem ponit, quod Filius proprie. dicitur sapientia. 
+      <lb ed="#T" n="15"/>Sed Dei verbum, id est, vnigenitus Dei Filius, aperte dictus est Dei sapientia, ore 
+      Apo<lb ed="#T" n="16" break="no"/>stoli dicentis: Christum Dei virtutem &amp; Dei sapientiam. Spiritus autem sanctus vbi sit 
+      <lb ed="#T" n="17"/>dictus charitas, inuenimus si diligenter loannis Apostoli eloquium scrutemur, qui cum 
+      <lb ed="#T" n="18"/>dixisset: Diligamus inuicem, quia ex Deo est dilectio, adiunxit: Et omnis qui diligit, ex 
+      <lb ed="#T" n="19"/>Deo natus est, quia Deus dilectio est. Hic manifestauit se dixisse eam dilectionem esse 
+      <lb ed="#T" n="20"/>Deum, quam dixit ex Deo. Deus ego ex Deo est dilectio: sed quia &amp; Filius ex Deo Patre. 
+      <lb ed="#T" n="21"/>natus est, &amp; Spiritus Sanctus ex Deo Patre procedit, quem potius eorum hic debeamus 
+      <lb ed="#T" n="22"/>accipere dictum esse dilectionem, merito quaeritur. Pater enim solus ita Deus est, vt non 
+      <lb ed="#T" n="23"/>sit ex Deo: &amp; ideo dilectio, quae ita Deus est vt ex Deo sit, non ipse Pater est, sed aut 
+      <lb ed="#T" n="24"/>Filius aut Spiritus Sanctus. Sed in consequentibus cum Dei dilectionem commemorasset. 
+      <lb ed="#T" n="25"/>Ioannes qua dilexit nos, &amp; hinc hortatus esset, vt &amp; nos inuicem diligamus, atque ita 
+      <lb ed="#T" n="26"/>Deus in nobis maneat: quia vtique dilectionem Deum dixerat, statim volens de hac re 
+      <lb ed="#T" n="27"/>apertius aliquid eloqui, inquit: In hoc cognoscimus, quia in ipso manemus, &amp; ipse in 
+      <lb ed="#T" n="28"/>nobis, quia de suo Spiritu de dit nobis. Spiritus itaque Sanctus, de quo dedit nobis, facit 
+      <lb ed="#T" n="29"/>nos in Deo manere: &amp; ipsum in nobis. Hoc autem facit dilectio. Ipse ergo Deus est 
+      di<lb ed="#T" n="30" break="no"/>lectio: Deus ergo Spiritus Sanctus qui procedit ex Deo, significatur vbi legitur Deus 
+      dile<lb ed="#T" n="31" break="no"/>ctio, &amp; dilectio ex Deo est. Ecce his verbis aperte dicit Aug. Spiritum Sanctum esse 
+      <lb ed="#T" n="32"/>charitatem Patris &amp; Filij: &amp; in tantum quoque sermonem produxit, vt videatur dixisse 
+      <lb ed="#T" n="33"/>Spiritum Sanctum non solum esse dilectionem Patris &amp; Filij, qua se inuicem &amp; nos 
+      di<lb ed="#T" n="34" break="no"/>ligunt, sed etiam qua diligimus Deum. Sed vtrum ipse sit charitas, qua nos diligamus 
+      <lb ed="#T" n="35"/>Deum, in sequenti explicatur.  
+      <lb ed="#T" n="36"/>Redit ostendere quod propositerat, scilicet, quod Spiritus Sanctus sit amor, quo Pater a Filio, &amp; Filius, 
+    </p>
+            <p xml:id="pdt7y6-e27180-d1e272">
+               <lb ed="#T" n="37"/>d Patre diligitur,  
+      <lb ed="#T" n="38"/>Nunc vero quod incoepimus ostendere curemus, scilicet Spiritum Sanctum 
+      dilectio<lb ed="#T" n="39" break="no"/>nem esse, siue amorem Patris &amp; Filij, quo scilicet Pater diligit Filium &amp; Filius Patrem. 
+      <lb ed="#T" n="40"/>De hoc Hieron. super 17. Psalm. ait, Spiritus Sanctus nec Pater est nec Filius: sed 
+      dile<lb ed="#T" n="41" break="no"/>ctio quam habet Pater in Filium, &amp; Filius in Patrem. Aug. quoque in 6. lib. de Trinitate 
+      <lb ed="#T" n="42"/>ait, In omnibus aequalis est Patri Filius, &amp; est vnius eiusdemque substantiae. 
+      Quapro<lb ed="#T" n="43" break="no"/>pter etiam Spiritus Sanctus in eadem vnitate substantiae &amp; aequalitate consistit. 
+    </p>
+            <p xml:id="pdt7y6-e27180-d1e291">
+               <lb ed="#T" n="44"/>Quid sit Spiritus Sanctus hic aperitur.  
+      <lb ed="#T" n="45"/>Siue enim sit vnitas amborum, siue sanctitas, siue charitas, manifestum est quod non 
+      <lb ed="#T" n="46"/>aliquis duorum est, quo vterque coniungitur: quo genitus a gignente diligatur, 
+      geni<lb ed="#T" n="47" break="no"/>toremque suum diligat, sintque non participatione, sed essentia sua; neque dono 
+      supe<lb ed="#T" n="48" break="no"/>rioris alicuius, sed suo proprio feruantes vnitatem Spiritus in vinculo pacis. Ecce hic 
+      ha<lb ed="#T" n="49" break="no"/>bes Spiritum sanctum esse, quo Filius diligitur a Patre, &amp; Pater a Filio: &amp; quo illi duo 
+      <lb ed="#T" n="50"/>feruant vnitatem pacis. Spiritus ergo sanctus, vt ait Aug. in eodem, commune est aliquid 
+      <lb ed="#T" n="51"/>Patris &amp; Filij, quicquid illud est. At ipsa communio consubstantialis, &amp; coaeterna est: 
+      <lb ed="#T" n="52"/>quae si amicitia conuenienter dici potest, dicatur: sed aptius dicitur charitas, &amp; haec 
+      quo<lb ed="#T" n="53" break="no"/>que substantia: quia Deus substantia est, &amp; Deus charitas est. Tria ergo sunt, &amp; non 
+      <lb ed="#T" n="54"/>amplius: vnus diligens eum qui de illo est: &amp; vnus diligens cum de quo est, &amp; ipsa 
+      dile<lb ed="#T" n="55" break="no"/>ctio, quae si nihil est, quomodo Deus substantia est? 
+      <lb ed="#T" n="56"/>Quod Spiritus Sanctus, sicut communis est Patri &amp; Filio, ita commune nomen habet proprium. Hi 
+    </p>
+            <p xml:id="pdt7y6-e27180-d1e322">
+               <lb ed="#T" n="57"/>Hic notandum est quod sicut Spiritus Sanctus in Trinitate specialiter dicitur charitas 
+      <lb ed="#T" n="58"/>quae est Patris &amp; Filij vnio: ita &amp; nomen tenet proprie quod Patri &amp; Filio communiter  
+      <lb ed="#T" n="59"/>quodammodo congruit. Vnde August. in 15. lib. de Trinitate, Si charitas, inquir, qua 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0166.xml-\->
+      <pb ed="#T" n="91"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>Pater diligit Filium, &amp; Patrem diligit Filius, ineffabilem communionem demonstrat 
+    </p>
+            <p xml:id="pdt7y6-e27180-d1e340">
+               <lb ed="#T" n="2"/>amborum; quid conuenientius, quam vt ille proprie dicatur charitas, qui Spiritus est 
+      <lb ed="#T" n="3"/>communis ambobus: Hoc enim fanius creditur &amp; intelligitur, vt non solum Spiritus 
+      <lb ed="#T" n="4"/>Sanctus charitas sit in illa Trinitate, sed non frustra proprie charitas nuncupetur, 
+      pro<lb ed="#T" n="5" break="no"/>pter illa quae dicta sunt: sicut non solus in illa Trinitate vel Spiritus est vel Sanctus, quia 
+      <lb ed="#T" n="6"/>&amp; Pater Spiritus, &amp; Filius Spiritus: &amp; pater Sanctus, &amp; rlius Sanctus: &amp; tamem ipse. 
+      <lb ed="#T" n="7"/>non frustra dicitur Spiritus Sanctus. Qui enim est communisambobus, id vocatur ipse 
+      <lb ed="#T" n="8"/>proprie quod ambo communiter. Alioquin si in illa Trinitate solus Spiritus Sanctus est 
+      <lb ed="#T" n="9"/>charitas, profecto &amp; Filius non solius Patris, sed etiam Spiritus Sancti Filius inuenitur.  
+      <lb ed="#T" n="10"/>Ait enim Apostolus de Deo Patre, Transtulit nos in regnum Filij charitatis suae. Si ergo 
+      <lb ed="#T" n="11"/>non est in ista Trinitate charitas Dei nisi Spiritus Sanctus, Filius est etiam Spiritus tans 
+      <lb ed="#T" n="12"/>cti. Sed quia hoc absurdissimum est, restat vt non solus ibi sit charitas Spiritue. Sans 
+      <lb ed="#T" n="13"/>ctus: sed propter illa, de quibussatis differui, proprie sic vocutur.
+    </p>-->
+            <p xml:id="pdt7y6-e27180-d1e369">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0166.xml-->
+               <cb ed="#T" n="b"/>
+               <lb ed="#T" n="14" type="fixed=91"/>DIVISIO TEXTVS. 
+      <lb ed="#T" n="15"/>TRVnc post Filij aeternitatem.] Egitaquarta 
+      <lb ed="#T" n="16"/>Ndistinctione vsque huc, de generatione 
+      <lb ed="#T" n="17"/>Filij a Patre. Hic incipit agere de processione 
+      <lb ed="#T" n="18"/>Spiritus Sancti ab vtroque. Et primo de 
+      pro<lb ed="#T" n="19" break="no"/>cessione aeterna, vsque ad decimam quartam 
+      <lb ed="#T" n="20"/>distinctionem. Secundo de temporali vsque ad 
+      <lb ed="#T" n="21"/>decimam nonam. In prima parte circa aeternam 
+      <lb ed="#T" n="22"/>processionem, primo agit de modo procedendi, 
+      <lb ed="#T" n="23"/>dest. hac. Secundo de principio, a quo procedit 
+      <lb ed="#T" n="24"/>dist. 11. Tertio de ordine processionis dist. 12. 
+      <lb ed="#T" n="25"/>Quarto de differentia processionis a generatione 
+      <lb ed="#T" n="26"/>dist. 13. 
+    </p>
+            <p xml:id="pdt7y6-e27180-d1e404">
+               <lb ed="#T" n="27"/>In prima parte, primo ostendit, quod Spiritus 
+      <lb ed="#T" n="28"/>Sanctus est amor Patris &amp; Filij. Secundo 
+      pro<lb ed="#T" n="29" break="no"/>bat, quod est amor non tantum appropriate sed 
+      <lb ed="#T" n="30"/>proprie [Pluribus enim. ] Tertio quod 
+      nihilo<lb ed="#T" n="31" break="no"/>minus est amor communis vtrique[Nunc vero. 
+      <lb ed="#T" n="32"/>Quarto ostendit, quod ideo habet nomen 
+      com<lb ed="#T" n="33" break="no"/>mune. [Hic notandum. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

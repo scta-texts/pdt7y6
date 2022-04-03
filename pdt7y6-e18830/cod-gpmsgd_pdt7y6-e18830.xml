@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="63"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e18830"><!-- l1d7q1 -->
+            <head xml:id="pdt7y6-e18830-Hd1e99">Quaestio 1</head>
+            <head xml:id="pdt7y6-e18830-Hd1e101" type="question-title">De potentia generandi in comparatione ad generantem</head>
+            <p xml:id="pdt7y6-e18830-d1e104">
+               <lb ed="#T" n="46"/>QVESTIO I. 
+      <lb ed="#T" n="47"/>DE POTENTIA GENERANDI 
+      <lb ed="#T" n="48"/>INCOMPARATIONE AD OENERANTEM. 
+    </p>
+            <p xml:id="pdt7y6-e18830-d1e113">
+               <lb ed="#T" n="49"/>QVaeritur hic de potentia generandi. 
+      <lb ed="#T" n="50"/>Primo in comparatione ad generantem. 
+      <lb ed="#T" n="51"/>Secundo in comparatione ad genitum. 
+      <lb ed="#T" n="52"/>Tertio, in comparatione ad potentiam 
+      <lb ed="#T" n="53"/>creandi. 
+      <lb ed="#T" n="54"/>Circa primum quaeruntur duo. 
+      <lb ed="#T" n="55"/>Primo, anin patre sit potentia generandi. 
+      <lb ed="#T" n="56"/>Secundo quid sit illa potentia, an sit quid, vel 
+      <lb ed="#T" n="57"/>ad aliquid.
+  </p>
+            <div xml:id="pdt7y6-e18830-Dd1e135">
+               <head xml:id="pdt7y6-e18830-Hd1e137">Articulus 1</head>
+               <head xml:id="pdt7y6-e18830-Hd1e139" type="question-title">
+  Utrum in Patre sit potentia generandi.
+</head>
+               <p xml:id="pdt7y6-e18830-d1e142">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0138.xml-->
+                  <cb ed="#T" n="c"/>
+                  <lb ed="#T" n="58"/>ARTICVLVS I. 
+      <lb ed="#T" n="59"/>Vtrum in Patre sit potentia generandi.
+  </p>
+               <p xml:id="pdt7y6-e18830-d1e153">
+                  <lb ed="#T" n="60"/>AD primum sic proceditur. 1. Quicquid exit 
+      <lb ed="#T" n="61"/>ab aliqua potentia naturaliter prius est in 
+      <lb ed="#T" n="62"/>potentia, quam in actu: si ergo Filius exit a 
+      po<lb ed="#T" n="63" break="no"/>tentia generandi, quae sit in Patre naturaliter, 
+      <lb ed="#T" n="64"/>prius fuit in potentia, quam in actu: sed hoc 
+      fal<lb ed="#T" n="65" break="no"/>sum est, quia aeternum non est prius in potentia. 
+      <lb ed="#T" n="66"/>quam in actu: ergo &amp; primum. 
+    </p>
+               <p xml:id="pdt7y6-e18830-d1e171">
+                  <lb ed="#T" n="67"/>2. Omnis potentia, aut est actiua aut passiua: 
+      <lb ed="#T" n="68"/>potentia actiua secundum Philosophum 5. 
+      Me<lb ed="#T" n="69" break="no"/>taphys. est principium transmutationis in aliud; 
+      <lb ed="#T" n="70"/>potentia passiua est principium transmutationis 
+      <lb ed="#T" n="71"/>ab alio: sed tale principium ad generandum 
+      nul<lb ed="#T" n="72" break="no"/>lum est in Patre: ergo nulla potentia. 
+    </p>
+               <p xml:id="pdt7y6-e18830-d1e188">
+                  <lb ed="#T" n="73"/>Contra. 1. Probat August. ducendo ad 
+      incon<lb ed="#T" n="74" break="no"/>conueniens, quia Pater potuit generare Filium 
+      <lb ed="#T" n="75"/>sibi aequalem: ergo fuit in eo generandi potentia. 
+    </p>
+               <p xml:id="pdt7y6-e18830-d1e197">
+                  <lb ed="#T" n="76"/>2 Cuius est actus, eius est potentia: Pater 
+      Fi<lb ed="#T" n="77" break="no"/>lium genuit: ergo potentia generandi in eo fuit. 
+    </p>
+               <p xml:id="pdt7y6-e18830-d1e204">
+                  <lb ed="#T" n="78"/>Iuxta hoc quaeritur, an sit in eo potentia 
+      gene<lb ed="#T" n="79" break="no"/>randi alterum filium. Videtur quod sic. 1. Quia, 
+      <lb ed="#T" n="80"/>incomparabiliter perfectior est Pater caelestis pa¬ s 
+      <lb ed="#T" n="81"/>tre carnali: sed inPatre carnali, vno genito, 
+      rema<lb ed="#T" n="82" break="no"/>net potentia ad alios generandos: ergo multo 
+      <lb ed="#T" n="83"/>fortius in Patre caelesti. 
+    </p>
+               <p xml:id="pdt7y6-e18830-d1e220">
+                  <lb ed="#T" n="84"/>2. Filio genito, aut remanet in eo adhuc 
+      poten<lb ed="#T" n="85" break="no"/>tia generandi, aut non: si sic, ergo adhuc potest 
+      <lb ed="#T" n="86"/>generare alterum Filium; si non, ergo per 
+      gene<lb ed="#T" n="87" break="no"/>rationem, Filij aliquam potentiam perdit, quod 
+      <lb ed="#T" n="88"/>est inconueniens. 
+    </p>
+               <p xml:id="pdt7y6-e18830-d1e233">
+                  <lb ed="#T" n="89"/>Contra. 1. Sicut paternitas est proprietas 
+      Pa<lb ed="#T" n="90" break="no"/>tris personalis, ita filiatio Filij: ergo sicut illa non 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0139.xml-->
+      <pb ed="#T" n="64"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>potest communicari alteri, ita sniec ista: oportet 
+      <lb ed="#T" n="2"/>enim esse principium distinetionis personarum. 
+      <lb ed="#T" n="3"/>aliquod: hoc autem non potest esse natura, quae 
+      <lb ed="#T" n="4"/>communicatur: ergo oportet quod sit modus, 
+      <lb ed="#T" n="5"/>qui non cominunicatur.  
+    </p>
+               <p xml:id="pdt7y6-e18830-d1e257">
+                  <lb ed="#T" n="6"/>2. Qui tutum se manifestat sufficienter, 
+      pro<lb ed="#T" n="7" break="no"/>ferendo vnum verbum, superssue proferet 
+      se<lb ed="#T" n="8" break="no"/>cundum: sed sic fecit Pater generando vnum 
+      <lb ed="#T" n="9"/>Filium, 
+    </p>
+               <p xml:id="pdt7y6-e18830-d1e269">
+                  <lb ed="#T" n="10"/>Respondeo ad primum. Quicquid nobilitatis 
+      <lb ed="#T" n="11"/>est in bono creato multo nobilius est in bono 
+      <lb ed="#T" n="12"/>increato: sed in bono creato duplex est sui 
+      diffu<lb ed="#T" n="13" break="no"/>sio, scilicet naturalis per assimilatione naturae, &amp; 
+      <lb ed="#T" n="14"/>voluntaria per assimilationem artis: vtraque 
+      <lb ed="#T" n="15"/>vero nobilitatis est: ergo in Deo ponenda: 
+      prio<lb ed="#T" n="16" break="no"/>ma vero nobilior: ergo maxime ponenda. 
+      Hu<lb ed="#T" n="17" break="no"/>iusmodi vero diffusio per generationem est, quae 
+      <lb ed="#T" n="18"/>est actus procedens a potentia generandi, quae 
+      <lb ed="#T" n="19"/>quia imperfecta esse non potest, coniuncta est 
+      <lb ed="#T" n="20"/>semiper suo actiui: vnde in Deo ab aeterno fuit. 
+      <lb ed="#T" n="21"/>potentia, &amp; actus generandi. 
+    </p>
+               <p xml:id="pdt7y6-e18830-d1e298">
+                  <lb ed="#T" n="22"/>Ad 1. De prioritate naturali. Resp. Hoc habet  
+      <lb ed="#T" n="23"/>locum vbi potentia differt realiter ab actu &amp; 
+      <lb ed="#T" n="24"/>objecto suo, quod hic non contingit. 
+    </p>
+               <p xml:id="pdt7y6-e18830-d1e307">
+                  <lb ed="#T" n="25"/>Ad 2. de potentia actiua. Resp. Philosophus 
+      <lb ed="#T" n="26"/>diuidit &amp; definit potentiam quae est respectu 
+      <lb ed="#T" n="27"/>actus &amp; objecti differentis, vnde dicit in aliude 
+      <lb ed="#T" n="28"/>vnde non includit potentiam generandi 
+      diui<lb ed="#T" n="29" break="no"/>nam: cum enim generatio in diuinis proprie 
+      <lb ed="#T" n="30"/>non sit actio, sed relatio vel modus existendi; 
+      <lb ed="#T" n="31"/>potentia generandi, nec est actiua, nec passiuas 
+      <lb ed="#T" n="32"/>sed continet formaliter vtramque: vnde habet  
+      <lb ed="#T" n="33"/>similitudinem secundum rationem intelligendi. 
+      <lb ed="#T" n="34"/>cum actiua in generante, cum passiua in genito, 
+      <lb ed="#T" n="35"/>quantum ad illud quod in vtraque est 
+      perfe<lb ed="#T" n="36" break="no"/>ctionis, non imperfectionis 
+    </p>
+               <p xml:id="pdt7y6-e18830-d1e336">
+                  <lb ed="#T" n="37"/>Ad 2. Quaestionem. Resp. Quod in 
+      Pa<lb ed="#T" n="38" break="no"/>tre carnali potentia est ad plures generationes 
+      <lb ed="#T" n="39"/>partim ex parte generantis qui non potest 
+      ge<lb ed="#T" n="40" break="no"/>nerare vnum perfectum, &amp; sufficientem; partim 
+      <lb ed="#T" n="41"/>ex parte eius, de quo sit generatio, quia non 
+      <lb ed="#T" n="42"/>de tota substantia est; partim ex parte geniti. 
+      <lb ed="#T" n="43"/>quia distinguitur essentialiter, non tantum 
+      <lb ed="#T" n="44"/>per oppositas relationes originis. In Deo ve 
+      <lb ed="#T" n="45"/>ro secus est, quia &amp; Pater potestsemel 
+      gene<lb ed="#T" n="46" break="no"/>rare perfectum, &amp; generat de tota 
+      substan<lb ed="#T" n="47" break="no"/>esia, &amp; non est ibi distinctio, nisi, per oppositas 
+      <lb ed="#T" n="48"/> relationes originis. Cum enim ea, quae in 
+    </p>
+               <p xml:id="pdt7y6-e18830-d1e365">
+                  <lb ed="#T" n="49"/>forma &amp; natura conueniunt, oporteat 
+      distin<lb ed="#T" n="50" break="no"/>gui vel per materiam, vel per originem seu 
+      <lb ed="#T" n="51"/>causam: &amp; Pater cum Filio in forma &amp; natura 
+      <lb ed="#T" n="52"/>conueniat, nec in diuinis possit esse materiale. 
+      <lb ed="#T" n="53"/>aliquid, oportet quod distinguantur penes 
+      ori<lb ed="#T" n="54" break="no"/>ginem: non enim possunt distingui per aliquid 
+      <lb ed="#T" n="55"/>absolutum, ergo oportet, quod per 
+      habitudi<lb ed="#T" n="56" break="no"/>nem oppositam originis vnius ad alterum 
+      di<lb ed="#T" n="57" break="no"/>stinguantur: sed si similis esset origo plurium, 
+      <lb ed="#T" n="58"/>iam non esset distinctio secundum originem 
+      <lb ed="#T" n="59"/>quia inter illos nulla esset oppositio relationis 
+      <lb ed="#T" n="60"/>quae sola distinguit in diuinis secundum Ansel. 
+      <lb ed="#T" n="61"/>non potest ergo eadem &amp; similis esse origo 
+      <lb ed="#T" n="62"/>plurium: vnde quamuis sit potentia in Patre ad 
+      <lb ed="#T" n="63"/>generandum vnum Filium, non tamen ad 
+      <lb ed="#T" n="64"/>lures 
+      <lb ed="#T" n="65"/>Ad 1. Quod objicitur de Patre carnali. Resp. 
+      <lb ed="#T" n="66"/>Non est argumentum a minore, quia quod 
+      Pa<lb ed="#T" n="67" break="no"/>ter carnalis potest generare plures, non est ex 
+      <lb ed="#T" n="68"/>eius perfectione, sed quia nullum perfectum 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0139.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="69"/>generat, &amp; quia distinguntur genitum a 
+      gene<lb ed="#T" n="70" break="no"/>rante penes materiam singularem, &amp; 
+      proprie<lb ed="#T" n="71" break="no"/>tates absolutas, non tantum penes originem: 
+      <lb ed="#T" n="72"/>quae duo in Patre caelesti propter suam 
+      perfe<lb ed="#T" n="73" break="no"/>ctionem non habent locum 
+    </p>
+               <p xml:id="pdt7y6-e18830-d1e426">
+                  <lb ed="#T" n="74"/>Ad 2. Aut remanet in eo potentia. Resp. 
+      Po<lb ed="#T" n="75" break="no"/>tentia ad generandum vnicum semper in eo 
+      <lb ed="#T" n="76"/>manet, quia non est generatio transiens, sed  
+      <lb ed="#T" n="77"/>permanens: potentia vero ad generandum plures 
+      <lb ed="#T" n="78"/>nunquam fuit in eo, &amp; sic patet, quod nullam 
+      <lb ed="#T" n="79"/>potentiam perdit in generando Filium. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e18830-Dd1e444">
+               <head xml:id="pdt7y6-e18830-Hd1e446">Articulus 2</head>
+               <head xml:id="pdt7y6-e18830-Hd1e448" type="question-title">
+  An potentia generandi sit quid, vel ad aliquid.
+</head>
+               <p xml:id="pdt7y6-e18830-d1e451">
+                  <lb ed="#T" n="80"/>Articvlvs II. 
+      <lb ed="#T" n="81"/>An potentia generandi sit quid, vel ad aliquid. 
+    </p>
+               <p xml:id="pdt7y6-e18830-d1e458">
+                  <lb ed="#T" n="82"/>AD secundum sic proceditur. 1. Potentiae 
+      <lb ed="#T" n="83"/>distinguntur per actus: sed actus 
+      generan<lb ed="#T" n="84" break="no"/>di est ad aliud: ergo &amp; potentia. 
+    </p>
+               <p xml:id="pdt7y6-e18830-d1e467">
+                  <lb ed="#T" n="85"/>2. Omnis operatio propria egreditur a 
+      pro<lb ed="#T" n="86" break="no"/>pria forma agentis: generare est actus proprius 
+      <lb ed="#T" n="87"/>Patris, &amp; egreditur a potentia generandi: ergo 
+      <lb ed="#T" n="88"/>ipsa est forma propria: ergo est ad aliquid, non 
+      <lb ed="#T" n="89"/>quid. 
+    </p>
+               <p xml:id="pdt7y6-e18830-d1e481">
+                  <lb ed="#T" n="90"/>3. Quamuis in creaturis differant virtus &amp; 
+      <lb ed="#T" n="91"/>operatio, tamen in Deo sunt idem: ergo idem 
+      <lb ed="#T" n="92"/>est in Deo posse generare, &amp; generare: sed 
+      ge<lb ed="#T" n="93" break="no"/>nerare est ad aliud: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e18830-d1e492">
+                  <lb ed="#T" n="94"/>4. Remoto intellectu relatiouum 
+      distinguen<lb ed="#T" n="95" break="no"/>tium adhue manet in Deo intellectus 
+      essentia<lb ed="#T" n="96" break="no"/>lium attributorum omnium: sed non remanet. 
+      <lb ed="#T" n="97"/>potentia generandi: ergo ipsa relatiuum est, 
+      <lb ed="#T" n="98"/>non essentiale attributum. 
+    </p>
+               <p xml:id="pdt7y6-e18830-d1e505">
+                  <lb ed="#T" n="99"/>5. Potentia generandi inest Deo Patri, non 
+      <lb ed="#T" n="100"/>vnde Deus, quia sic etiam inesset Spiritui 
+      San<lb ed="#T" n="101" break="no"/>cto: ergo vnde Pater: Sed omne quod inest 
+      <lb ed="#T" n="102"/>Patri vnde Pater est, ad aliquid est: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e18830-d1e516">
+                  <lb ed="#T" n="103"/>Contra. 1. Generare est actus naturae: ergo 
+      <lb ed="#T" n="104"/>potentia generandi, potentia naturalis: sed  
+      <lb ed="#T" n="105"/>potentia naturalis est de naturalibus attributis, 
+      <lb ed="#T" n="106"/>non de personalibus: ergo potentia generandi, 
+    </p>
+               <p xml:id="pdt7y6-e18830-d1e527">
+                  <lb ed="#T" n="107"/>2. Omnis scientia, &amp; voluntas in diuinis 
+      <lb ed="#T" n="108"/>essentialis est non relatiua: ergo &amp; omnis 
+      po<lb ed="#T" n="109" break="no"/>tentia. 
+    </p>
+               <p xml:id="pdt7y6-e18830-d1e536">
+                  <lb ed="#T" n="110"/>3. Vt dicit Philosophus in lib. Physic. In 
+      <lb ed="#T" n="111"/>aeternis non differunt esse &amp; posse: erg omne 
+      <lb ed="#T" n="112"/>posse aeternum est essentiale. 
+    </p>
+               <p xml:id="pdt7y6-e18830-d1e546">
+                  <lb ed="#T" n="113"/>Respondeo. Quamuis aliqui dicant, quod 
+      <lb ed="#T" n="114"/>ipsa potentia secundum se in radice considerata 
+      <lb ed="#T" n="115"/>essentialis est, &amp; secundum inclinationem ad 
+      <lb ed="#T" n="116"/>actum personalis. Alij vero dicant, quod 
+      so<lb ed="#T" n="117" break="no"/>lum personalis est, cum dicat rationem originis 
+      <lb ed="#T" n="118"/>personae a persona, sicut principium dictum de 
+      <lb ed="#T" n="119"/>Patre &amp; Filio respectu Spiritus Sancti. Tamen 
+      <lb ed="#T" n="120"/>verius videtur quod dicunt alij, quod cum 
+      <lb ed="#T" n="121"/>dico, potentia generandi, duo dico: quod dice 
+      <lb ed="#T" n="122"/>potentia, pertinet ad essentiam; quod dico, 
+      <lb ed="#T" n="123"/>generandi, pertinet ad relationem, sicut cum 
+      di<lb ed="#T" n="124" break="no"/>co Deus generans. Ipsum ergo coniunctum est 
+      <lb ed="#T" n="125"/>essentiale tractum ad proprium, &amp; quia 
+      pro<lb ed="#T" n="126" break="no"/>prium additum determinat ipsum, non e 
+      con<lb ed="#T" n="127" break="no"/>uerso, potius habet naturam attributi 
+      persona<lb ed="#T" n="128" break="no"/>lis, quam essentialis. Notandum ergo quod 
+      at<lb ed="#T" n="129" break="no"/>tributorum diuinorum quaedam significant 
+      pu<lb ed="#T" n="130" break="no"/>re substantiam, sicut nomina pure essentialia; 
+      <lb ed="#T" n="131"/>quaedam pure relationem, vt nomina pure 
+      <lb ed="#T" n="132"/>personalia, quaedam vtrumque simul, vt ea quae 
+      <lb ed="#T" n="133"/>aciunt intellectum ex vtroque compositum, 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0140.xml-->
+      <pb ed="#T" n="65"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>vt cum dicitur Deus generans, vel potentia 
+      <lb ed="#T" n="2"/>generandi: &amp; sicut homo albus attributum est 
+      <lb ed="#T" n="3"/>distinctiuum hominis albi a nigro, quamuis homo 
+      <lb ed="#T" n="4"/>commune sit vtrique: sic potentia generandi 
+      <lb ed="#T" n="5"/>proprietas est distinctiua generantis a generato. 
+      <lb ed="#T" n="6"/>quamuis ratio potentiae sit communis vtrique. 
+    </p>
+               <p xml:id="pdt7y6-e18830-d1e614">
+                  <lb ed="#T" n="7"/>Ad 1. Potentiae distinguntur per actus Resp. 
+      <lb ed="#T" n="8"/>Quamuis per actus distinguantur quoad nos vna 
+      <lb ed="#T" n="9"/>ab alia, non tamen per actus in genere 
+      consti<lb ed="#T" n="10" break="no"/>tuuntur: nam in altero genere est potentia, quia 
+      <lb ed="#T" n="11"/>in genere qualitatis: in altero actus, scilicet in 
+      <lb ed="#T" n="12"/>genere actionis 
+    </p>
+               <p xml:id="pdt7y6-e18830-d1e630">
+                  <lb ed="#T" n="13"/>Ad 2. De propria forma. Resp. Sicut in 
+      crea<lb ed="#T" n="14" break="no"/>turis, quamuis sit natura communis de se, 
+      ope<lb ed="#T" n="15" break="no"/>ratur tamen in vnoquoque secundum propriam 
+      <lb ed="#T" n="16"/>conditionem ipsius, quia contrahitur &amp; deter 
+      <lb ed="#T" n="17"/>minatur secundum proprietates inuentas in illo. 
+      <lb ed="#T" n="18"/>vt anima sensibilis in diuersis organis operatur. 
+      <lb ed="#T" n="19"/>diuersa, vnde appropriatur ad actum aliquem 
+      <lb ed="#T" n="20"/>mediante aliqua forma propria: sic potentia 
+      di<lb ed="#T" n="21" break="no"/>uina, quamuis de se sit communis, tamen 
+      ap<lb ed="#T" n="22" break="no"/>propriatur ad suppositum, vel ad aliquem actum. 
+      <lb ed="#T" n="23"/>in quantum secundum rationem 
+      intelligendi<lb ed="#T" n="24" break="no"/>adiungitur ei forma in eodem supposito, scilicet,  
+      <lb ed="#T" n="25"/>proprietas relatiua: vnde quamuis potentia 
+      se<lb ed="#T" n="26" break="no"/>cundum se communis sit, tamen potentia 
+      ge<lb ed="#T" n="27" break="no"/>nerandi actiue propriae est Patris, non ratione 
+      <lb ed="#T" n="28"/>potentiae secundum se, sed ratione ordinis ad 
+      <lb ed="#T" n="29"/>actum notionalem: haec vero additio secundum 
+      <lb ed="#T" n="30"/>rationem est: nam realiter non differunt in Deo 
+      <lb ed="#T" n="31"/>essentia, &amp; proprietas; potentia, &amp; actus 
+    </p>
+               <p xml:id="pdt7y6-e18830-d1e674">
+                  <lb ed="#T" n="32"/>Ad 3. In Deo sunt idem posse, &amp; agere. 
+      <lb ed="#T" n="33"/>Resp. Quamuis idem sint re, tamen differunt 
+      <lb ed="#T" n="34"/>ratione. 
+    </p>
+               <p xml:id="pdt7y6-e18830-d1e683">
+                  <lb ed="#T" n="35"/>Ad 4. Remoto intellectu &amp;c. Resp. Ex hoc 
+      <lb ed="#T" n="36"/>non sequitur, quod non sit aliquo modo 
+      essen<lb ed="#T" n="37" break="no"/>tiale, sed quod non sit pure essentiale. 
+    </p>
+               <p xml:id="pdt7y6-e18830-d1e692">
+                  <lb ed="#T" n="38"/>Ad 5. Potentia generandi &amp;c. Resp. 
+      Poten<lb ed="#T" n="39" break="no"/>tia generandi inest Deo Patri, non vnde Deus 
+      <lb ed="#T" n="40"/>tantum, sed vnde Deus Pater coniunctim. 
+    </p>
+               <p xml:id="pdt7y6-e18830-d1e702">
+                  <lb ed="#T" n="41"/>AI. In contrarium. Generare est actus 
+      natu<lb ed="#T" n="42" break="no"/>rae. Resp. Quamuis sit naturae secundum 
+      ratio<lb ed="#T" n="43" break="no"/>nem principij, non tamen secundum rationem 
+      <lb ed="#T" n="44"/>subjecti agentis. Nam natura. non agit, sed supi 
+      <lb ed="#T" n="45"/>positum per naturam: potest autem actus 
+      ali<lb ed="#T" n="46" break="no"/>quis esse naturae, vt est in aliquo supposito 
+      <lb ed="#T" n="47"/>qui non est eius secundum se, sicut lux solis sus 
+      <lb ed="#T" n="48"/>cepta in luna secundum sui augmentum &amp; 
+      de<lb ed="#T" n="49" break="no"/>crementum mouet mare augendo &amp; 
+      diminuen<lb ed="#T" n="50" break="no"/>do, quod non facit secundum se. 
+    </p>
+               <p xml:id="pdt7y6-e18830-d1e726">
+                  <lb ed="#T" n="51"/>Ad 2. De scientia &amp; voluntate. Resp. Non est. 
+      <lb ed="#T" n="52"/>simile, quia scientiae &amp; voluntati non additur  
+      <lb ed="#T" n="53"/>determinans ipsam ad actum personalem, sicut  
+      <lb ed="#T" n="54"/>additur potentiae, quando dicitur potentia 
+      ge<lb ed="#T" n="55" break="no"/>nerandi; si tamen diceretur voluntas generandi 
+      <lb ed="#T" n="56"/>idem esset dicendum. Nec sequitur, omnis 
+      vo<lb ed="#T" n="57" break="no"/>luntas in Deo est essentialis, sed voluntas 
+      gene<lb ed="#T" n="58" break="no"/>randi est voluntas: ergo &amp;c. Vel de potentia 
+      ge<lb ed="#T" n="59" break="no"/>nerandi similiter: imo committitur in 
+      argumen<lb ed="#T" n="60" break="no"/>to fallacia accidentis; sicut hic, esse ens est 
+      natu<lb ed="#T" n="61" break="no"/>rale: statua est ens: ergo statua est naturalis. 
+    </p>
+               <p xml:id="pdt7y6-e18830-d1e752">
+                  <lb ed="#T" n="62"/>Ad. 3. Non differunt esse &amp; posse. Resp. Non 
+      <lb ed="#T" n="63"/>differunt re, sed ratione, siue modo 
+      significan<lb ed="#T" n="64" break="no"/>di Vel melius dicendum, quod differe 
+      accipi<lb ed="#T" n="65" break="no"/>tur pro distare, quia simul sunt.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

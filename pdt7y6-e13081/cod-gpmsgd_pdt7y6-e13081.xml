@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="44"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e13081"><!-- l1d4q2 -->
+            <head xml:id="pdt7y6-e13081-Hd1e99">Quaestio 2</head>
+            <head xml:id="pdt7y6-e13081-Hd1e101" type="question-title">De veritate propositionum generationum Diuinam significantium</head>
+            <p xml:id="pdt7y6-e13081-d1e104">
+               <lb ed="#T" n="49"/>QVESTIO II. 
+      <lb ed="#T" n="50"/>DE VERITATE PRoOPOSITIONVM. 
+      <lb ed="#T" n="51"/>OENERATIONEM DIVINAM 
+      <lb ed="#T" n="52"/>SIONIEICANTIVM. 
+</p>
+            <p xml:id="pdt7y6-e13081-d1e115">
+               <lb ed="#T" n="53"/>SEcundo quaeritur de veritate propositionum 
+      <lb ed="#T" n="54"/>generationem diuinam significantium. 
+    </p>
+            <p xml:id="pdt7y6-e13081-d1e122">
+               <lb ed="#T" n="55"/>Circa ista quaeruntur tria. 
+      <lb ed="#T" n="56"/>Primo, An concedendum sit, Quod Deus 
+      <lb ed="#T" n="57"/>genuit Deum. 
+      <lb ed="#T" n="58"/>Secundo, An se Deum. 
+      <lb ed="#T" n="59"/>Tertio, An Deum, qui est Deus Pater, vel 
+      <lb ed="#T" n="60"/>non. 
+    </p>
+            <div xml:id="pdt7y6-e13081-Dd1e139">
+               <head xml:id="pdt7y6-e13081-Hd1e141">Articulus 1</head>
+               <head xml:id="pdt7y6-e13081-Hd1e143" type="question-title">
+  An concedendum sit, quod Deus genuit Deum
+</head>
+               <p xml:id="pdt7y6-e13081-d1e146">
+                  <lb ed="#T" n="61"/>Articvlvs I. 
+      <lb ed="#T" n="62"/>An concedendum sit, quod Deus genuit Deum. 
+    </p>
+               <p xml:id="pdt7y6-e13081-d1e153">
+                  <lb ed="#T" n="63"/>D primum sic proceditur. 1. Deus 
+      signifi<lb ed="#T" n="64" break="no"/>eat essentiam: essentia non gonerat nec ge 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0119.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="65"/>neratur: ergo nec Deus, 
+    </p>
+               <p xml:id="pdt7y6-e13081-d1e166">
+                  <lb ed="#T" n="66"/>2. Generari in diuinis est distingui, vel referri: 
+      <lb ed="#T" n="67"/>sed Deus a Deo non distinguitur, nec refertur 
+      <lb ed="#T" n="68"/>ad Deum: ergo nec veneratur.  
+    </p>
+               <p xml:id="pdt7y6-e13081-d1e176">
+                  <lb ed="#T" n="69"/>3. Hic terminus, Deus, cum dicitur Deus 
+      ge<lb ed="#T" n="70" break="no"/>nerat, aut supponit pro essentia, &amp; ita propositio  
+      <lb ed="#T" n="71"/>falsa est, aut pro persona; ergo cum aliqua 
+      per<lb ed="#T" n="72" break="no"/>sona sit, quae non generat, sicut est aliqua quae 
+      <lb ed="#T" n="73"/>generat; Ita vere poterit dici, Deus non genuit 
+      <lb ed="#T" n="74"/>Deum, sicut Deus genuit Deum. 
+    </p>
+               <p xml:id="pdt7y6-e13081-d1e192">
+                  <lb ed="#T" n="75"/>4. In personis humanis vna currente, &amp; 
+      alte<lb ed="#T" n="76" break="no"/>ra non currente vera est vtraque propositio, 
+      Ho<lb ed="#T" n="77" break="no"/>mo currit, homo non currit: ergo a simili in 
+      per<lb ed="#T" n="78" break="no"/>sonis Diuinis vna generante, altera non 
+      gene<lb ed="#T" n="79" break="no"/>tante, vera erit vtraque propositio. 
+    </p>
+               <p xml:id="pdt7y6-e13081-d1e205">
+                  <lb ed="#T" n="80"/>Contra 1. generare est sibi simile in natura 
+      pro<lb ed="#T" n="81" break="no"/>ducere secundum Damasc. vnde equus generat 
+      <lb ed="#T" n="82"/>equum, homo hominem: ergo Deus Deum a 
+      <lb ed="#T" n="83"/>simili. 
+    </p>
+               <p xml:id="pdt7y6-e13081-d1e216">
+                  <lb ed="#T" n="84"/>2. Tam genitus, quam generans Deus est: 
+      er<lb ed="#T" n="85" break="no"/>go vere potest dici Deus generat Deum. 
+    </p>
+               <p xml:id="pdt7y6-e13081-d1e223">
+                  <lb ed="#T" n="86"/>Respondeo. Aliter significant abstracta 
+      nomi<lb ed="#T" n="87" break="no"/>na, aliter concreta: quia abstracta significant 
+      <lb ed="#T" n="88"/>quid vt in altero existens; concreta, vt ens 
+      com<lb ed="#T" n="89" break="no"/>let im per se subsistens: abstracta enim 
+      impo<lb ed="#T" n="90" break="no"/>nuntur formae, &amp; a forma; vnde numquam 
+      <lb ed="#T" n="91"/>supponunt, nisi pro forma: concreta vero a 
+      <lb ed="#T" n="92"/>forma &amp; supposito formae, &amp; ideo possunt 
+      sup<lb ed="#T" n="93" break="no"/>ponere pro vtroque, sed naturaliter pro sup. 
+      <lb ed="#T" n="94"/>posito, accidentaliter pro forma ex adiuncto, 
+      <lb ed="#T" n="95"/>quod verum est, vbi differt suppositum, &amp; 
+      for<lb ed="#T" n="96" break="no"/>ma, sicut in rebus compositis, vt in homine: 
+      <lb ed="#T" n="97"/>sed vbi non differt, vt in diuinis, naturaliter pro 
+      <lb ed="#T" n="98"/>vtroque. Quia ergo essentia diuina ens 
+      comple<lb ed="#T" n="99" break="no"/>tum est per se subsistens, etiam abstractis per 
+      <lb ed="#T" n="100"/>in tellectum distinctis personis, ideo hoc nomen, 
+      <lb ed="#T" n="101"/>Deus, institutum est principaliter ad 
+      significan<lb ed="#T" n="102" break="no"/>dum eam vt per se subsistentem, &amp; ideo 
+      suppo<lb ed="#T" n="103" break="no"/>nit primo &amp; principaliter ex intentione 
+      insti<lb ed="#T" n="104" break="no"/>tuentis pro essentia: &amp; quia tam res, quam 
+      mo<lb ed="#T" n="105" break="no"/>lus significandi est idem cum persona; ideo 
+      po<lb ed="#T" n="106" break="no"/>test supponere pro persona: quia vero ipsa 
+      es<lb ed="#T" n="107" break="no"/>sentia vna &amp; eadem est in persona vna vel 
+      plu<lb ed="#T" n="108" break="no"/>ibus, ideo potest supponere pro persona vna 
+      <lb ed="#T" n="109"/>vel pluribus simul: Quia vero licet 
+      concomite<lb ed="#T" n="110" break="no"/>ur, tamen remanet indiuisa, ideo hic terminus 
+      <lb ed="#T" n="111"/>Deus, retinet natura isingularis secundum 
+      Prae<lb ed="#T" n="112" break="no"/>posituum: In termino vero singulari aequiposlet 
+      <lb ed="#T" n="113"/>negatio praeposita, &amp; postposita: quia cum habeat 
+      <lb ed="#T" n="114"/>vnica formam indiuisibilem, non potest negari, 
+      <lb ed="#T" n="115"/>quin negetur tota, &amp; ideo pro diuersis personis 
+      <lb ed="#T" n="116"/>no potest aliquid idem affirmari, &amp; negaride ipsa: 
+      <lb ed="#T" n="117"/>determinatio vero huiusmodi suppositionis fit 
+      <lb ed="#T" n="118"/>ex adiuncto: na si adiunctum est essentiale, 
+      sup<lb ed="#T" n="119" break="no"/>ponit pro essentia; si personale proprium vnius, 
+      <lb ed="#T" n="120"/>pro vna persona; si personale, commune trium, 
+      <lb ed="#T" n="121"/>pro tribus in propositione affirmatiua. Hicn est 
+      <lb ed="#T" n="122"/>ergo, quod in hac propositione, Deus genuit 
+      <lb ed="#T" n="123"/>Deum, Deus in subjecto positus supponit 
+      pro<lb ed="#T" n="124" break="no"/>persona generante; in praedicatio, pro persona 
+      <lb ed="#T" n="125"/>genita, ratione verbi notionaliter determinantis, 
+      <lb ed="#T" n="126"/>&amp; ideo locutio est vera 
+    </p>
+               <p xml:id="pdt7y6-e13081-d1e314">
+                  <lb ed="#T" n="127"/>Ad 1. Significat essentiam. Resp. Quamuis 
+      <lb ed="#T" n="128"/>eadem sit significatio, non tamen idem modus 
+      <lb ed="#T" n="129"/>significandi: quia essentia significat in 
+      abstractio<lb ed="#T" n="130" break="no"/>ne, non vt in supposito; Deus concretiue vt in 
+      <lb ed="#T" n="131"/>supposito per se subsistenti, &amp; ideo essentia non 
+      <lb ed="#T" n="132"/>supponit pro persona, sicut Deus: quia in signi¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0120.xml-->
+      <pb ed="#T" n="45"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>Ad 2. De actu distinguendi, &amp; referendi. 
+      <lb ed="#T" n="2"/>Resp. Distingui, &amp; referri non exprimit 
+      deter<lb ed="#T" n="3" break="no"/>minate actum personalem: conuenire enim 
+      pos<lb ed="#T" n="4" break="no"/>sunt tam essentiae, quam personae: generare 
+      ve<lb ed="#T" n="5" break="no"/>ro exprimit: hinc est, quod verbuni, generandi, 
+      <lb ed="#T" n="6"/>determinat suppositionem termini, vt supponat 
+      <lb ed="#T" n="7"/>pro persona: distingui vero &amp; referri, non: 
+      vn<lb ed="#T" n="8" break="no"/>de adhuc supponit pro essentia; licet ergo idem 
+      <lb ed="#T" n="9"/>sint re, differunt tamen modo sigmficandi. Fit  
+      <lb ed="#T" n="10"/>ergo in argumento commutatio suppositionis 
+      <lb ed="#T" n="11"/>essentialis seu simplicis in personalem, cum 
+      di<lb ed="#T" n="12" break="no"/>citur, Deus a Deo non distinguitur: ergo nec 
+      <lb ed="#T" n="13"/>generatur.  
+    </p>
+               <p xml:id="pdt7y6-e13081-d1e365">
+                  <lb ed="#T" n="14"/>Ad 3. Aut supponit pro essentia. Resp. In hac 
+      <lb ed="#T" n="15"/>propositione supponit pro persona, &amp; quamuis 
+      <lb ed="#T" n="16"/>sit alia persona non generans, non tamen vere 
+      <lb ed="#T" n="17"/>potest dici, Deus non generat, quia propter 
+      for<lb ed="#T" n="18" break="no"/>mam indiuisibilem significatam habet naturam 
+      <lb ed="#T" n="19"/>termini singularis, seu discreti, in quo 
+      aequipos<lb ed="#T" n="20" break="no"/>let negatio praeposita &amp; postposita: Idem enim 
+      <lb ed="#T" n="21"/>valet, si dicatur, non Socrates currit, vel 
+      So<lb ed="#T" n="22" break="no"/>crates non currit. 
+    </p>
+               <p xml:id="pdt7y6-e13081-d1e387">
+                  <lb ed="#T" n="23"/>Ad 4. De personis humanis. Resp. Non est 
+      si<lb ed="#T" n="24" break="no"/>mile: quia humanitas est forma in suppositis 
+      <lb ed="#T" n="25"/>multiplicata, vnde pro alio hominepotest 
+      vtra<lb ed="#T" n="26" break="no"/>que propositio esse vera; non sic Deitas, vt 
+      di<lb ed="#T" n="27" break="no"/>ctum est. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e13081-Dd1e401">
+               <head xml:id="pdt7y6-e13081-Hd1e403">Articulus 2</head>
+               <head xml:id="pdt7y6-e13081-Hd1e405" type="question-title">
+  An concedendum quod Deus genuit se Deum, vel alium Deum.
+</head>
+               <p xml:id="pdt7y6-e13081-d1e408">
+                  <lb ed="#T" n="28"/>Articvlvs II. 
+      <lb ed="#T" n="29"/>An concedendum quod Deus genuit se Deum, vel 
+      <lb ed="#T" n="30"/>alium Deum. 
+</p>
+               <p xml:id="pdt7y6-e13081-d1e417">
+                  <lb ed="#T" n="31"/>AD secundum sic proceditur 1. Idem &amp; 
+      di<lb ed="#T" n="32" break="no"/>uersa diuidunt ens sufficienter: ergo 
+      sequi<lb ed="#T" n="33" break="no"/>tur, si Deus genuit Deum: ergo eundem, vel 
+      <lb ed="#T" n="34"/>alium Deum. 
+    </p>
+               <p xml:id="pdt7y6-e13081-d1e428">
+                  <lb ed="#T" n="35"/>2. Bene sequitur. Homo generat hominem: 
+      <lb ed="#T" n="36"/>ergo se hominem, vel alterum: ergo a 
+      simi<lb ed="#T" n="37" break="no"/>li &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e13081-d1e438">
+                  <lb ed="#T" n="38"/>3. Haec est vera, Deus pater genuit alium; aut 
+      <lb ed="#T" n="39"/>ergo alium Deuni, aut alium non Deum, quia 
+      <lb ed="#T" n="40"/>de quolibet affirmatio vel negatio &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e13081-d1e447">
+                  <lb ed="#T" n="41"/>4. Ex hac quae est falsa, Deus generans est 
+      <lb ed="#T" n="42"/>Deus genitus, sequitur quod idem est generans. 
+      <lb ed="#T" n="43"/>&amp; genitus: ergo per oppositionem ex hac, quae 
+      <lb ed="#T" n="44"/>est vera, Deus generans non est Deus genitus, 
+      <lb ed="#T" n="45"/>sequitur quod alius est Deus generans, &amp; alius, 
+      <lb ed="#T" n="46"/>genitus. 
+    </p>
+               <p xml:id="pdt7y6-e13081-d1e463">
+                  <lb ed="#T" n="47"/>5. Augustinus 15. de urinit. Tanquam 
+      seip<lb ed="#T" n="48" break="no"/>sum dicens pater verbum genuit per omnia 
+      aequa<lb ed="#T" n="49" break="no"/>le: non enim seipsum integre perfecteque 
+      dixis<lb ed="#T" n="50" break="no"/>set, si minus esset in verbo quam in seipso: ergo 
+      <lb ed="#T" n="51"/>leipsum dixit: ergo se genuit. 
+    </p>
+               <p xml:id="pdt7y6-e13081-d1e476">
+                  <lb ed="#T" n="52"/>6. August. super Ioan. Pater mittens filium, 
+      <lb ed="#T" n="53"/>se alterum misit: ergo eadem ratione se alterum. 
+      <lb ed="#T" n="54"/>genuit: ergo vtrumque verum est. 
+    </p>
+               <p xml:id="pdt7y6-e13081-d1e485">
+                  <lb ed="#T" n="55"/>Contra. Si genuit se Deum, cum se sit 
+      relati<lb ed="#T" n="56" break="no"/>uum reciprocum, ergo refert idem suppositum: 
+      <lb ed="#T" n="57"/>ergo genuit seipsum, quod est contra 
+      Augusti<lb ed="#T" n="58" break="no"/>num dicentem, quod nulla res seipsam gignit, vt 
+      <lb ed="#T" n="59"/>sit: si genuit alium Deum: ergo alius Deus est 
+      <lb ed="#T" n="60"/>praeter ipsum: ergo non est vnus Deus 
+      tan<lb ed="#T" n="61" break="no"/>tum. 
+    </p>
+               <p xml:id="pdt7y6-e13081-d1e503">
+                  <lb ed="#T" n="62"/>Respondeo. Vtraque neganda est, quia hoc 
+      <lb ed="#T" n="63"/>prononien se, cum sit relatiuum identitatis 
+      reci<lb ed="#T" n="64" break="no"/>procum, refert idem suppositum: ergo refert 
+      <lb ed="#T" n="65"/>personam Patris. Alius vero cum sit nomen 
+      re<lb ed="#T" n="66" break="no"/>latiuum diuersitatis, &amp; importet diuersitatem in 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0120.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>generali, determinari habet per terminum 
+      ad<lb ed="#T" n="68" break="no"/>iunctum; cum ergo terminus sit substantialis, 
+      <lb ed="#T" n="69"/>ponit in substantia diuersum: est ergo idem ac si 
+      <lb ed="#T" n="70"/>diceret: Deus genuit Deum, aut ergo eundem in 
+      <lb ed="#T" n="71"/>persona, aut alterum in substantia, quorum 
+      <lb ed="#T" n="72"/>vtrumque est falsum. 
+    </p>
+               <p xml:id="pdt7y6-e13081-d1e535">
+                  <lb ed="#T" n="73"/>Ad 1. Idem &amp; diuersum sufficienter diuidunm 
+      <lb ed="#T" n="74"/>ens. Resp. Verum est, quando referuntur ad 
+      <lb ed="#T" n="75"/>idem; sed hic referuntur ad diuersa. 
+    </p>
+               <p xml:id="pdt7y6-e13081-d1e544">
+                  <lb ed="#T" n="76"/>Ad 2. De homine. Resp. Non est simile da 
+      <lb ed="#T" n="77"/>Deo &amp; homine: quia homo significat formam 
+      <lb ed="#T" n="78"/>multiplicabilem in suppositis; vnde cum homo 
+      <lb ed="#T" n="79"/>generat hominem, oportet, quod generet alium 
+      <lb ed="#T" n="80"/>hominem in persona, &amp; substantia: sed Deus 
+      si<lb ed="#T" n="81" break="no"/>gnificat forma non multiplicabile 
+      multiplica<lb ed="#T" n="82" break="no"/>tione suppositorum; &amp; ideo, cum generat Deum, 
+      gene<lb ed="#T" n="83" break="no"/>rat alium in persona, sed eundem in 
+      substan<lb ed="#T" n="84" break="no"/>tia. 
+    </p>
+               <p xml:id="pdt7y6-e13081-d1e566">
+                  <lb ed="#T" n="85"/>Ad 3. Aut ergo alium Deum. Resp. Non est. 
+      <lb ed="#T" n="86"/>diuisio sufficiens, nec per opposita contradicto. 
+      <lb ed="#T" n="87"/>rie: quia affirmatio &amp; negatio debet esse eiusdem 
+      <lb ed="#T" n="88"/>totius. Sed debet sic diuidi, aut alium Deum, 
+      <lb ed="#T" n="89"/>aut non alium Deum. Et est simile, sicut si, 
+      de<lb ed="#T" n="90" break="no"/>monstrato aliquo qui est albus, &amp; est niger 
+      mo<lb ed="#T" n="91" break="no"/>nachus, dicatur, iste est albus, aut ergo albus 
+      <lb ed="#T" n="92"/>monachus, aut albus non monachus: quorum 
+      <lb ed="#T" n="93"/>vtrumque falsum est, 
+    </p>
+               <p xml:id="pdt7y6-e13081-d1e588">
+                  <lb ed="#T" n="94"/>Ad 4. Ex hac, quae est salsa &amp;c. Resp. 
+      <lb ed="#T" n="95"/>Cum dicitur, idem est Deus generans &amp; 
+      <lb ed="#T" n="96"/>genitus, vel, alius est Deus generans &amp; 
+      geni<lb ed="#T" n="97" break="no"/>tus, dup lex potest esse vtraque propositio: si 
+      <lb ed="#T" n="98"/>enim vtrumque relatiuum, scilicet idem &amp; 
+      <lb ed="#T" n="99"/>alius, accipiatur substantiue 2 sic prima est 
+      <lb ed="#T" n="100"/>salsa, &amp; secunda vera; &amp; vtraque sequitur ex 
+      <lb ed="#T" n="101"/>praemissis: si vero adiectiue, sic prima 
+      propo<lb ed="#T" n="102" break="no"/>sitio est vera, secunda falsa; &amp; neutra sequituir 
+      <lb ed="#T" n="103"/>ex praemissis. Nec sequitur. Alius, substantius 
+      <lb ed="#T" n="104"/>accipiendo, est Deus generans, &amp; alius Deus 
+      <lb ed="#T" n="105"/>genitus: ergo alius Deus. Quia mutatur suppo 
+      <lb ed="#T" n="106"/>sitio personalis in simplicem. 
+    </p>
+               <p xml:id="pdt7y6-e13081-d1e619">
+                  <lb ed="#T" n="107"/>Ad 5. Ex Aug. Pater seipsum dixit. Resp. 
+      <lb ed="#T" n="108"/>Seipsum dixit vt obiectum cognitum &amp; 
+      expres<lb ed="#T" n="109" break="no"/>sum per suum verbum, quod non est genuisse se 
+      <lb ed="#T" n="110"/>sed ipsum verbum quod dixit vt termmum 
+      pro<lb ed="#T" n="111" break="no"/>ductum. 
+    </p>
+               <p xml:id="pdt7y6-e13081-d1e632">
+                  <lb ed="#T" n="112"/>Ad 6. Ex eodem Aug. Quod Pater, se 
+      alte<lb ed="#T" n="113" break="no"/>rum &amp;c. Resp. Emphatice loquitur non proprie, 
+      <lb ed="#T" n="114"/>&amp; exponendus est, se alterum, id est, alterum 
+      <lb ed="#T" n="115"/>qui est idem neutraliter quod ipse, sed non iden 
+      <lb ed="#T" n="116"/>masculine. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e13081-Dd1e646">
+               <head xml:id="pdt7y6-e13081-Hd1e648">Articulus 3</head>
+               <head xml:id="pdt7y6-e13081-Hd1e650" type="question-title">
+  Utrum Deus genuit Deum qui est Pater, aut qui non 
+  est Pater.
+</head>
+               <p xml:id="pdt7y6-e13081-d1e653">
+                  <lb ed="#T" n="117"/>Articvlvs III. 
+      <lb ed="#T" n="118"/>Vtrum Deus genuit Deum qui est Pater, aut qui non 
+      <lb ed="#T" n="119"/>est Pater.
+</p>
+               <p xml:id="pdt7y6-e13081-d1e662">
+                  <lb ed="#T" n="120"/>AD tertium sic proceditur 1. Si Deus genuit 
+      <lb ed="#T" n="121"/>Deum, qui non est pater, vel qui non est 
+      <lb ed="#T" n="122"/>Deus pater: ergo aliquis est Deus, qui est Pater,  
+      <lb ed="#T" n="123"/>aliquis qui non est Pater: ergo sunt duo Dij. 
+    </p>
+               <p xml:id="pdt7y6-e13081-d1e673">
+                  <lb ed="#T" n="124"/>2. Negatio remouet totum quod sequitur: 
+      <lb ed="#T" n="125"/>ergo cum dicitur, genuit Deum qui non est 
+      <lb ed="#T" n="126"/>Deus Pater, remouetur, a Deo genito &amp; forma 
+      <lb ed="#T" n="127"/>Deitatis, &amp; forma Paternitatis, 
+    </p>
+               <p xml:id="pdt7y6-e13081-d1e685">
+                  <lb ed="#T" n="128"/>Contra. Qui est relatiuum identitatis, quod 
+      <lb ed="#T" n="129"/>refert Filium: sed haec est vera, Filius non est 
+      <lb ed="#T" n="130"/>Deus Pater: cum opposita sit falsa: ergo haec 
+      <lb ed="#T" n="131"/>ficato, &amp; in modo significandi idem est cum 
+      <lb ed="#T" n="132"/>persona. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0121.xml-->
+      <pb ed="#T" n="46"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>erit vera, genuit Deum, qui non est Deus Pater.  
+      <lb ed="#T" n="2"/>Respondeo naec propositio, Deus genuit Deus 
+      <lb ed="#T" n="3"/>qui est Pater, distinguenda est: quia hoc 
+      no<lb ed="#T" n="4" break="no"/>men qui cum sit relatiuum, potest facere 
+      rela<lb ed="#T" n="5" break="no"/>uonem perfonalem, id est: ad suppositum; vel 
+      <lb ed="#T" n="6"/>relationem simplicem, id est, ad significatum: 
+      <lb ed="#T" n="7"/>modo vera est, modo falsa. fic est simile si dicam, 
+      <lb ed="#T" n="8"/>ego: video hominem, qui est dignissima 
+      creatu<lb ed="#T" n="9" break="no"/>rarum: nam, fifiat relatio simplex ad 
+      significa<lb ed="#T" n="10" break="no"/>tum, vera est; si personalis ad suppositum, salsa 
+      <lb ed="#T" n="11"/>Haec vero propositio: Deus genuit Deum qui 
+      <lb ed="#T" n="12"/>ust Deus Pater, in fensu quo sit personalis 
+      sup<lb ed="#T" n="13" break="no"/>positio, iterum distinguenda est; quia enim duo 
+      <lb ed="#T" n="14"/>nomina construuntur appositiue &amp; immediate, 
+      <lb ed="#T" n="15"/>subintelligitur, qui est, vnde sensus est, genuit 
+      <lb ed="#T" n="16"/>Deum qui est Deus, qui est Pater: &amp; tunc hoc 
+      <lb ed="#T" n="17"/>nomen, qui, aut tenetur implicatiue, &amp; est 
+      con<lb ed="#T" n="18" break="no"/>structio appositiua, &amp; quasi vna dictio Deus 
+      Pa<lb ed="#T" n="19" break="no"/>ter; &amp; sic est falsu: aut tenetur relatiue, &amp; sic 
+      <lb ed="#T" n="20"/>est vera. Et planius secundum Magistrum: aut 
+      <lb ed="#T" n="21"/>enim Deus apponitur patri, &amp; sic est falsa: aut e 
+      <lb ed="#T" n="22"/>conuerso, &amp; sic vera. 
+    </p>
+               <p xml:id="pdt7y6-e13081-d1e752">
+                  <lb ed="#T" n="23"/>Ad 1. Arg. Resp. Argumentum procedit 
+      se<lb ed="#T" n="24" break="no"/>cundum quod hoc pronomen, qui, facit relatior 
+      <lb ed="#T" n="25"/>nem simplicem, non personalem 
+    </p>
+               <p xml:id="pdt7y6-e13081-d1e761">
+                  <lb ed="#T" n="26"/>Ad 2. Negatio remouet totum. Resp. 
+      Con<lb ed="#T" n="27" break="no"/>iunctim, verum est, sed non diuisim: cum enim 
+      <lb ed="#T" n="28"/>dico, Socrates non est homo albus, negatio 
+      remo<lb ed="#T" n="29" break="no"/>uet coniunctionem horum duorum, non autem 
+      <lb ed="#T" n="30"/>oportet, quod remoueat vtrumque: non enim 
+      <lb ed="#T" n="31"/>sequitur: non est homo albus: ergo non est 
+      ho<lb ed="#T" n="32" break="no"/>mo, aut ergo non est albus. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

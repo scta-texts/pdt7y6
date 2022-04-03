@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="170"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e51818"><!-- l1d19q4 -->
+            <head xml:id="pdt7y6-e51818-Hd1e99">Quaestio 4</head>
+            <head xml:id="pdt7y6-e51818-Hd1e101" type="question-title">De exclusione numeri a personis quo impugnatur earum aequalitas</head>
+            <p xml:id="pdt7y6-e51818-d1e104">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0245.xml-->
+               <cb ed="#T" n="b"/>
+               <lb ed="#T" n="61"/>QVESTIO IV 
+      <lb ed="#T" n="62"/>DE EXCLVSIONE NVMERIA 
+      <lb ed="#T" n="63"/>PERSONIS DIVINIS QVO IMPVONATVR 
+      <lb ed="#T" n="64"/>EARVM AEQVALITAS.
+    </p>
+            <p xml:id="pdt7y6-e51818-d1e120">
+               <lb ed="#T" n="65"/>CIrca quartum quaeruntur duo. 
+      <lb ed="#T" n="66"/>COPrimo an in Deo sit numerus personarum. 
+      <lb ed="#T" n="67"/>Secundo an sit in ipso numerus veritatum ab 
+      <lb ed="#T" n="68"/>aeterno. 
+    </p>
+            <div xml:id="pdt7y6-e51818-Dd1e131">
+               <head xml:id="pdt7y6-e51818-Hd1e133">Articulus 1</head>
+               <head xml:id="pdt7y6-e51818-Hd1e135" type="question-title">An in Deo sit numerus personarum.</head>
+               <p xml:id="pdt7y6-e51818-d1e138">
+                  <lb ed="#T" n="69"/>Articvlvs I. 
+      <lb ed="#T" n="70"/>An in Deo sit numerus personarum.
+</p>
+               <p xml:id="pdt7y6-e51818-d1e145">
+                  <lb ed="#T" n="71"/>AD primum sic proceditur. 1. Quaecumque 
+      <lb ed="#T" n="72"/>differunt re, differunt vel genere vel specie, 
+      <lb ed="#T" n="73"/>vel numero: tres personae differunt re, nec 
+      dif<lb ed="#T" n="74" break="no"/>ferunt genere vel specie: ergo differunt numero. 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e156">
+                  <lb ed="#T" n="75"/>2. Damascenus dicit quod numero non naturae 
+      <lb ed="#T" n="76"/>differunt hae tres hypostases. 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e164">
+                  <lb ed="#T" n="77"/>3. Vnitas secundum numerum respicit 
+      suppo<lb ed="#T" n="78" break="no"/>sita non formas suppositorum, nam in vno 
+      sup<lb ed="#T" n="79" break="no"/>posito sunt plures formae: ergo pluralitas 
+      secun<lb ed="#T" n="80" break="no"/>dum numerum respicit supposita non formam: 
+      <lb ed="#T" n="81"/>sed inbiuinis sunt plura supposita: ergo ibi est 
+      <lb ed="#T" n="82"/>pluralitas secundum numerum. 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e180">
+                  <lb ed="#T" n="83"/>4. Idem &amp; diuersum sufficienter diuidunt,. 
+      <lb ed="#T" n="84"/>ens: Pater ergo &amp; Filius aut idem sunt numero, 
+      <lb ed="#T" n="85"/>aut non: si idem numero, ergo non sunt duo 
+      <lb ed="#T" n="86"/>sed vnus: si non idem, ergo faciunt numerum. 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e191">
+                  <lb ed="#T" n="87"/>Contra. 1. Boetius lib. de Trinit. quocirca 
+      <lb ed="#T" n="88"/>hoc vere vnum in quo nullus numerus: Deus 
+      <lb ed="#T" n="89"/>est vere vnum: ergo nullus in eo numerus. 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e200">
+                  <lb ed="#T" n="90"/>2. Secundum Philosophum diuersitas 
+      secun<lb ed="#T" n="91" break="no"/>dum numerum attenditur ex parte materiae: in 
+      <lb ed="#T" n="92"/>Deo nulla materia: ergo nec numerus. 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e209">
+                  <lb ed="#T" n="93"/>3. Numeratis aliquibus numerantur 
+      quaecum<lb ed="#T" n="94" break="no"/>que sunt in eis, vt numerato homine numeratur 
+      <lb ed="#T" n="95"/>animal, substantia, &amp; huiusmodi: sed aliquid est 
+      <lb ed="#T" n="96"/>in personis quod numerari non potest: ergo 
+      per<lb ed="#T" n="97" break="no"/>sonae non numerantur.  
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e222">
+                  <lb ed="#T" n="98"/>Iuxta hoc quaeritur, an possit dici ternarius 
+      <lb ed="#T" n="99"/>personarumsicut Trinitas. 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e230">
+                  <lb ed="#T" n="100"/>Videtur quod sic. 1. Nam in omnibus rebus tres 
+      <lb ed="#T" n="101"/>faciunt numerum ternarium: ergo in personis 
+      <lb ed="#T" n="102"/>Diuinis tres personae faciunt ternarium. 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e239">
+                  <lb ed="#T" n="103"/>2. In Diuinis est numerus personarum: ergo 
+      <lb ed="#T" n="104"/>aliqua species numeri: sed non alius quam 
+      ter<lb ed="#T" n="105" break="no"/>narius: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e248">
+                  <lb ed="#T" n="106"/>Contra. Ternarius dicit proprie pluralitatem 
+      <lb ed="#T" n="107"/>sine vlla vnitate: in Deo vero non est pluralitas 
+      <lb ed="#T" n="108"/>sune vnitate. 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e257">
+                  <lb ed="#T" n="109"/>Iuxta hoc quaeritur an possit Deus dici triplex 
+      <lb ed="#T" n="110"/>sicut trinus. 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e264">
+                  <lb ed="#T" n="111"/>Videtur quod sic. Sap. 8. dicitur spiritus 
+      mul<lb ed="#T" n="112" break="no"/>tiplex ratione effectuum qui sunt extra ipsum: 
+      <lb ed="#T" n="113"/>ergo multo magis potest dici triplex ratione 
+      per<lb ed="#T" n="114" break="no"/>sonarum quae sunt in ipso¬ 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e275">
+                  <lb ed="#T" n="115"/>2. Isidorus, Essentia est simplex, &amp; singularis; 
+      <lb ed="#T" n="116"/>Trinitas multiplex &amp; numerabilis: sed non alia 
+      <lb ed="#T" n="117"/>multiplicitate quam ternarij: ergo potest 
+      dici<lb ed="#T" n="118" break="no"/>triplex. 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e287">
+                  <lb ed="#T" n="119"/>Contra. Dicit hic Magister quod Deus potest 
+      <lb ed="#T" n="120"/>dici trinus, sed non triplex. 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e294">
+                  <lb ed="#T" n="121"/>Iuxta hoc quaeritur: cum Deus dicitur trinus, 
+      <lb ed="#T" n="122"/>pro quo supponit hic terminus Deus? aut enim 
+      <lb ed="#T" n="123"/>pro essentia, &amp; sic essentia est trina: aut pro per¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0246.xml-->
+      <pb ed="#T" n="171"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>sona, &amp; sic persona est trium vna: quorum 
+      <lb ed="#T" n="2"/>vtrumque falsum. 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e314">
+                  <lb ed="#T" n="3"/>Respondeo. Ad primum. Numerus secundum 
+      <lb ed="#T" n="4"/>quod proprie accipitur est quantitas discreta: 
+      <lb ed="#T" n="5"/>quantitas discreta in hoc differt a continua vt 
+      di<lb ed="#T" n="6" break="no"/>cit Philosophus lib. praedicamentorum, quia 
+      par<lb ed="#T" n="7" break="no"/>tes quantitatis continuae copulantur ad aliquem 
+      <lb ed="#T" n="8"/>communem terminum, vt partes lineae ad 
+      pun<lb ed="#T" n="9" break="no"/>ctum, temporis ad instans: quantitas vero dis 
+      <lb ed="#T" n="10"/>creta est cuius partes non copulantur ad aliquem 
+      <lb ed="#T" n="11"/>communem terminum. Imporuit ergo numerus 
+      <lb ed="#T" n="12"/>&amp; distinctionem &amp; separationem: Pater vero 
+      <lb ed="#T" n="13"/>&amp; Filius &amp; Spiritus sanctus distinctionem habent.  
+      <lb ed="#T" n="14"/>non separationem, vt ait Ambrosius: ideo non 
+      <lb ed="#T" n="15"/>differunt simpliciter numero, sed numeto cum 
+      <lb ed="#T" n="16"/>additione determinante, scilicet numero 
+      perso<lb ed="#T" n="17" break="no"/>narum qui importat distinctionem solam non 
+      <lb ed="#T" n="18"/>separationem. 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e351">
+                  <lb ed="#T" n="19"/>Ad 1. Quaecumque differunt re &amp;c. Resp. 
+      Se<lb ed="#T" n="20" break="no"/>cundum quod res dicitur ens simpliciter, scilicet 
+      <lb ed="#T" n="21"/>in genere substantiae siue ens absolutum, verum 
+      <lb ed="#T" n="22"/>est: secundum quod dicitur communiter quod. 
+      <lb ed="#T" n="23"/>cumque genus entis siue accidentale, siue sub 
+      <lb ed="#T" n="24"/>stantiale, siue absolutum, siue relatiuum, non 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e367">
+                  <lb ed="#T" n="25"/>Ad 2. De Damasceno. Resp. Damascenus 
+      in<lb ed="#T" n="26" break="no"/>telligit de numero personarum, non de numere 
+      <lb ed="#T" n="27"/>simpliciter  
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e376">
+                  <lb ed="#T" n="28"/>Ad 3. Vnitas secundum numerum 
+      respici<lb ed="#T" n="29" break="no"/>supposita non formas &amp;c. Resp. Hoc intelligi 
+      <lb ed="#T" n="30"/>tur de formis accidentalibus quae non dant esse 
+      <lb ed="#T" n="31"/>non de formis substantialibus: in tribus vero sup. 
+      <lb ed="#T" n="32"/>positis Diuinis est vna forma substantialis. 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e390">
+                  <lb ed="#T" n="33"/>Ad 4. Idem &amp; diuersum. Resp. In creaturis 
+      <lb ed="#T" n="34"/>verum est vbi non inuenitur eadem essentia in 
+      <lb ed="#T" n="35"/>pluribus suppositis, quia essentia creata 
+      termina<lb ed="#T" n="36" break="no"/>ta est &amp; composita: sed non in Deo. 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e401">
+                  <lb ed="#T" n="37"/>Ad secundam quaest. Resp. Vt iam dictum 
+      <lb ed="#T" n="38"/>est, in Diuinis non est numerus simpliciter, sed  
+      <lb ed="#T" n="39"/>cum determinatione: ideo nulla species numer 
+      <lb ed="#T" n="40"/>ibi potest poni: sic autem nominat speciem 
+      nu<lb ed="#T" n="41" break="no"/>meri hoc nomen Trinitas quod dicit 
+      distinctio<lb ed="#T" n="42" break="no"/>nem sed cum vnitate: ternarius vero dicit 
+      distin<lb ed="#T" n="43" break="no"/>ctionem sine vnitate: ideo Trinitas bene dicitur 
+      <lb ed="#T" n="44"/>non ternarius. 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e421">
+                  <lb ed="#T" n="45"/>Ad 1. Quod opponitur. In omnibus rebus 
+      tre<lb ed="#T" n="46" break="no"/>faciunt ternarium. Resp. Secundum quod res 
+      <lb ed="#T" n="47"/>supponit pro creaturis tantum, verum est: si 
+      ve<lb ed="#T" n="48" break="no"/>ro accipiatur vt commune per analogiam ad 
+      <lb ed="#T" n="49"/>Creatorem &amp; Creaturam, non est verum, 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e434">
+                  <lb ed="#T" n="50"/>Ad 2. In Diuinis est numerus personarum 
+      <lb ed="#T" n="51"/>Resp. Ille numerus non est numerus simplicite 
+      <lb ed="#T" n="52"/>vnde non oportet quod sit ibi aliqua species 
+      nu<lb ed="#T" n="53" break="no"/>meri: imo in argumento est fallacia secundum 
+      <lb ed="#T" n="54"/>quid &amp; simpliciter.  
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e447">
+                  <lb ed="#T" n="55"/>Ad tertiam quaest. Resp. In Deo est distinctio 
+      <lb ed="#T" n="56"/>personarum cum vnitate essentiae ideo bene 
+      dici<lb ed="#T" n="57" break="no"/>tur, Deus est trinus, non triplex: quia trinus 
+      <lb ed="#T" n="58"/>significat pluralitatem cum vnitate: triplex 
+      ve<lb ed="#T" n="59" break="no"/>ro pluralitatem simpliciter.  
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e460">
+                  <lb ed="#T" n="60"/>Ad 1. Quod opponitur. Quod dicitur 
+      multi<lb ed="#T" n="61" break="no"/>plex ratione effectuum. Resp. Argumentum es 
+      <lb ed="#T" n="62"/>maiori affirmatiue, non a minori. Magis enim 
+      <lb ed="#T" n="63"/>videtur quod debeat dici multiplex ratione 
+      effe<lb ed="#T" n="64" break="no"/>ctuum qui sunt extra, quam personarum quae 
+      <lb ed="#T" n="65"/>sunt intra: quia multiplicitas quae est extra in 
+      <lb ed="#T" n="66"/>nullo repugnat simplicitati, altera vero repu 
+      <lb ed="#T" n="67"/>gnat: nam ratione effectuum dicitur multiplex 
+      <lb ed="#T" n="68"/>effectiue solum, sed ratione personarum dicere¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0246.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="69"/>tur multiplex formaliter.  
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e490">
+                  <lb ed="#T" n="70"/>Ad 2. Trinitas multiplex. Resp. Improprie 
+      <lb ed="#T" n="71"/>loquitur, &amp; est exponendus id est, multas 
+      per<lb ed="#T" n="72" break="no"/>sonas continens. 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e499">
+                  <lb ed="#T" n="73"/>Ad quartam quest. De suppositione termin 
+      <lb ed="#T" n="74"/>huius Deus. Resp. Trinus importat simul 
+      distin<lb ed="#T" n="75" break="no"/>ctionem &amp; vnitatem, quorum vnum refertur ad 
+      <lb ed="#T" n="76"/>personam, alterum ad essentiam. Ideo secundum 
+      <lb ed="#T" n="77"/>exigentiam predicati hic terminus Deus 
+      suppo<lb ed="#T" n="78" break="no"/>nit communiter pro essentia &amp; persona quando 
+      <lb ed="#T" n="79"/>dicitur Deus trinus. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e51818-Dd1e519">
+               <head xml:id="pdt7y6-e51818-Hd1e521">Articulus 2</head>
+               <head xml:id="pdt7y6-e51818-Hd1e523" type="question-title">An sit in Deo numerus veritatum ab aeterno</head>
+               <p xml:id="pdt7y6-e51818-d1e526">
+                  <lb ed="#T" n="80"/>Articvlvs II. 
+      <lb ed="#T" n="81"/>An sit in Deo numerus veritatum ab aeterno. 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e533">
+                  <lb ed="#T" n="82"/>AD secundum articulum sic proceditur. 1. 
+      <lb ed="#T" n="83"/>Ab eterno fuit verum hominem esse 
+      futu<lb ed="#T" n="84" break="no"/>rum, &amp; alinum esse futurum, &amp; hoc verum non 
+      <lb ed="#T" n="85"/>est illud: ergo plures veritates fuerunt ab aeternos 
+      <lb ed="#T" n="86"/>sed non extra Deum: ergo in Deo. 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e546">
+                  <lb ed="#T" n="87"/>2. Deus ab aeterno praesciuit omnia quae 
+      fue<lb ed="#T" n="88" break="no"/>rant futura in tempore: ergo sciunt ea ab aeterno 
+      <lb ed="#T" n="89"/>ergo cum nihil sciatur nisi verum ab aeterno 
+      <lb ed="#T" n="90"/>erant vera: ergo plures veritates ab eterno. 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e558">
+                  <lb ed="#T" n="91"/>3. Verum &amp; ens &amp; aliquid siue aliqua res 
+      con<lb ed="#T" n="92" break="no"/>uertuntur: sed plures res fuerunt ab aeterno: ergo 
+      <lb ed="#T" n="93"/>plura vera: ergo plures veritates 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e567">
+                  <lb ed="#T" n="94"/>4. Patrem esse Patrem est verum ab aeterno, &amp; 
+      <lb ed="#T" n="95"/>Filium esse Filium est verum ab aetemo: ergo 
+      <lb ed="#T" n="96"/>cum hoc verum non sit illud, plura vera fuerunt 
+      <lb ed="#T" n="97"/>ab aeterio: ergo plures veritate 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e578">
+                  <lb ed="#T" n="98"/>5. Augustinus lib. 2. Soliloquiorum, 
+      com<lb ed="#T" n="99" break="no"/>probat animam immortalem per hoc quod est 
+      <lb ed="#T" n="100"/>subjectum veritatis quae est aeterna: sed plures 
+      <lb ed="#T" n="101"/>sunt veritates in pluribus animabus nec sunt 
+      <lb ed="#T" n="102"/>Deus: ergo si huiusmodi veritates sunt aeternae 
+      <lb ed="#T" n="103"/>plures veritates sunt ab aeterno. 
+      <lb ed="#T" n="104"/>6. Esse illud ad cuius negationem sequitur 
+      po<lb ed="#T" n="105" break="no"/>sitio, est aeternum &amp; necessarium: sed veritas est 
+      <lb ed="#T" n="106"/>huiusmodi secundum Augustinum &amp; Anselmum 
+      <lb ed="#T" n="107"/>quia si veritas non fuit ab aeterno, veritatem non 
+      <lb ed="#T" n="108"/>esse erat verum, &amp; omne verum veritate est 
+      ve<lb ed="#T" n="109" break="no"/>rum: ergo veritas aeterna: sed quicquid conue 
+      <lb ed="#T" n="110"/>nit generi, conuenit cuilibet speciei: ergo om 
+      <lb ed="#T" n="111"/>nis veritas est aeterna. 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e611">
+                  <lb ed="#T" n="112"/>7. August. Nihil tam aeternum quam ratio 
+      cir<lb ed="#T" n="113" break="no"/>culi, &amp; duo &amp; tria esse quinque: ergo haec veri 
+      <lb ed="#T" n="114"/>tas est aeterna: sed haec veritas non est Deus: 
+      er<lb ed="#T" n="115" break="no"/>go aliqua veritas praeter Deum est aeterna 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e622">
+                  <lb ed="#T" n="116"/>Contra. 1. Veritas est id quod est vt ait 
+      Augu<lb ed="#T" n="117" break="no"/>stinus: sed ab aeterno non fuit nisi vnum id quod 
+      <lb ed="#T" n="118"/>est: ergo vnum solum verum: ergo vna sola ve 
+      <lb ed="#T" n="119"/>ritas. 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e633">
+                  <lb ed="#T" n="120"/>2. Verum &amp; ens conuertuntur: ergo veritas 
+      <lb ed="#T" n="121"/>&amp; essentia: sed non fuit ab aeterno nisi vna sola 
+      <lb ed="#T" n="122"/>essentia: ergo vna sola veritas 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e643">
+                  <lb ed="#T" n="123"/>Respondeo. Eorum quae significantur in 
+      no<lb ed="#T" n="124" break="no"/>minibus, inuenitur triplex diuersitas: quaedam 
+      <lb ed="#T" n="125"/>enim sunt quae secundum esse totum 
+      comple<lb ed="#T" n="126" break="no"/>tum sunt extra animam, &amp; huiusmodi sunt,  
+      <lb ed="#T" n="127"/>entia completa, vt homo, lapis &amp; huiusmodi 
+      <lb ed="#T" n="128"/>quaedam quae nullum esse habent extra animam 
+      <lb ed="#T" n="129"/>vt sominia &amp; imaginationes falsae: quaedam 
+      <lb ed="#T" n="130"/>sunt quae habent fundamentum in re extra 
+      <lb ed="#T" n="131"/>animam, sed complementum rationis eorum, 
+      <lb ed="#T" n="132"/>secundum id quod formaliter est, per animae 
+      <lb ed="#T" n="133"/>operationem est, sicut vniuersale: nam 
+      huma<lb ed="#T" n="134" break="no"/>nitas formaliter aliquid est in rebus, sed non 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0247.xml-->
+      <pb ed="#T" n="172"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>vnum in pluribus; sed secundum quod 
+      accipi<lb ed="#T" n="2" break="no"/>tur in intellectu, adiungitur ei per operationem 
+      <lb ed="#T" n="3"/>intellectus intentio communis a qua dicitur 
+      vni<lb ed="#T" n="4" break="no"/>uersale. Similiter tempus habet fundamentum 
+      <lb ed="#T" n="5"/>in motu, sed secundum quod est numerus 
+      per<lb ed="#T" n="6" break="no"/>ficitur operatione animae numerantis. Similiter  
+      <lb ed="#T" n="7"/>veritas fundatur super esse rei, quia veritas est 
+      <lb ed="#T" n="8"/>in diuino esse, &amp; eius quod est, tamen in 
+      com<lb ed="#T" n="9" break="no"/>paratione ad intellectum tam increatum qui est: 
+      <lb ed="#T" n="10"/>tius mensura quam imitari debet, quam 
+      crea<lb ed="#T" n="11" break="no"/>tum eius est mensura. Unde veritas est 
+      rectitu<lb ed="#T" n="12" break="no"/>do sola mente perceptibilis secundum 
+      Ansel<lb ed="#T" n="13" break="no"/>mum: quia medium eius, scilicet esse in re, non 
+      <lb ed="#T" n="14"/>deuiat ab extremis, scilicet ab esse in intellectu 
+      <lb ed="#T" n="15"/>diuino a quo informatur, &amp; in intellectu creato 
+      <lb ed="#T" n="16"/>quem nata est informare. Unde ratio veritatis 
+      <lb ed="#T" n="17"/>inchoat ab intellectu exemplaris, &amp; completur  
+      <lb ed="#T" n="18"/>in adaequatione ad intellectum exemplatum, 
+      ve<lb ed="#T" n="19" break="no"/>actuali quando actu apprehenditur eo modo quo 
+      <lb ed="#T" n="20"/>est, vel habituali quando apta est sic 
+      apprehen<lb ed="#T" n="21" break="no"/>di. Et quia ratio eius completur in quadam adae¬ 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e724">
+                  <lb ed="#T" n="22"/>quatione intellectus, ideo dicit Philosophus &amp; 
+      <lb ed="#T" n="23"/>Metaph. quod verum &amp; falsum sunt in anima, 
+      <lb ed="#T" n="24"/>sed bonum &amp; malum in rebus. Veritas ergo per 
+      <lb ed="#T" n="25"/>prius est intellectu diuino, consequenter in esse 
+      <lb ed="#T" n="26"/>rei, consequenter in intellectu apprehendente, 
+      <lb ed="#T" n="27"/>consequenter in signo enunciante: &amp; secundum 
+      <lb ed="#T" n="28"/>hoc quadruplex veritas potest distingui: veritas 
+      <lb ed="#T" n="29"/>prima veritas rei, veritas apprehensionis, 
+      ve<lb ed="#T" n="30" break="no"/>ritas signi seu enunciationis: quarum omnium 
+      <lb ed="#T" n="31"/>vna dependet ab altera per ordinem. Cum ergo 
+      <lb ed="#T" n="32"/>ratio veritatis fundamentum habeat in esse rei, 
+      <lb ed="#T" n="33"/>&amp; compleatur in actione intellectus, iudicium 
+      <lb ed="#T" n="34"/>de veritate sequitur iudicium de esse rei &amp; de 
+      in<lb ed="#T" n="35" break="no"/>tellectu: cum ergo non sit esse aeternum nec 
+      in<lb ed="#T" n="36" break="no"/>tellectus aeternus nisi vnus, non : est veritas 
+      <lb ed="#T" n="37"/>aeterna nisi vna, nec veritas simplex 
+      immuta<lb ed="#T" n="38" break="no"/>bilis nisi vna. 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e763">
+                  <lb ed="#T" n="39"/>Ad 1. Hominem esse futurum &amp;c. Resp. Haec 
+      <lb ed="#T" n="40"/>veritas ab aeterno fundatur super rationes 
+      idea<lb ed="#T" n="41" break="no"/>les: illae autem vnitatem habent rei, 
+      distinctio<lb ed="#T" n="42" break="no"/>nem rationis a parte rerum quarum sunt ideae: 
+      <lb ed="#T" n="43"/>veritas autem fundatur super ipsum esse, non 
+      <lb ed="#T" n="44"/>super respectum: vnde vna est veritas, licet,  
+      <lb ed="#T" n="45"/>respectu plurium rerum. 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e781">
+                  <lb ed="#T" n="46"/>Ad 2. Deus praesciuit &amp;c. Resp. Quamuis 
+      <lb ed="#T" n="47"/>haec Deus ab aeterno praesciuerit &amp; ab aeterno 
+      <lb ed="#T" n="48"/>fuerint vera, tamen vna veritate, quia haec in 
+      <lb ed="#T" n="49"/>Deo vnum erant secundum rem, quamuis 
+      dif<lb ed="#T" n="50" break="no"/>ferant secundum rationem. 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e794">
+                  <lb ed="#T" n="51"/>Ad 3. Plures res fuerunt &amp;c. Resp. Secundum 
+      <lb ed="#T" n="52"/>quod res accipitur communiter ad essentiam &amp; 
+      <lb ed="#T" n="53"/>personam, plures res fuerunt ab aeterno, 
+      scili<lb ed="#T" n="54" break="no"/>cet plures personae: nec tamen erant plura vera 
+      <lb ed="#T" n="55"/>quia verum essential e est. 
+      <lb ed="#T" n="56"/>Ad 4. Patrem esse Patrem. Resp. Horum vna est 
+      <lb ed="#T" n="57"/>veritas realis, quamuis veritas enunciationum 
+      <lb ed="#T" n="58"/>quae formantur a nobis de ijs sit multiplex. 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e814">
+                  <lb ed="#T" n="59"/>Ad 5. quod opponitur de probatione August. 
+      <lb ed="#T" n="60"/>Resp. Ratio Aug. fundatur super incorruptibili 
+      <lb ed="#T" n="61"/>intentione veritatis quam apprehendit anima: 
+      <lb ed="#T" n="62"/>ex quo patet quod habet potentiam aliquam &amp; 
+      <lb ed="#T" n="63"/>operationem non dependentem a corpore, vnde 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0247.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="64"/>&amp; substantia: ipsa enim intentio veritatis incor. 
+      <lb ed="#T" n="65"/>ruptibilis est de se, quamuis res veritatem 
+      ha<lb ed="#T" n="66" break="no"/>bens sit corruptibilis: accipit ergo etiam 
+      aeter<lb ed="#T" n="67" break="no"/>num pro incorruptibili. 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e841">
+                  <lb ed="#T" n="68"/>Ad 6. Omne illud ad cuius negationem &amp;c. 
+      <lb ed="#T" n="69"/>Resp. Ad negationem veritatis sequitur positio 
+      <lb ed="#T" n="70"/>veritatis, non tamen eiusdem sed veritatis 
+      sim<lb ed="#T" n="71" break="no"/>pliciter: vnde veritas simpliciter aeternae est, sed  
+      <lb ed="#T" n="72"/>non omnis veritas imo increata tantum quae 
+      <lb ed="#T" n="73"/>nullius veritatis creatae est genus vel species. 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e857">
+                  <lb ed="#T" n="74"/>Ad 7. Nihil tam aeternum. Resp. Vel loquitur 
+      <lb ed="#T" n="75"/>de circulo secundum quod habet esse in niente 
+      di<lb ed="#T" n="76" break="no"/>uina, vel aeternum dicit inuariabile, non id quod 
+      <lb ed="#T" n="77"/>caret principio quamuis enim veritas secundum 
+      <lb ed="#T" n="78"/>quod fundatur super esse rei corrumpi possit, 
+      <lb ed="#T" n="79"/>remaneret tamen veritas prout fundatur in 
+      ani<lb ed="#T" n="80" break="no"/>ma, &amp; si anima deficeret, remaneret veritas in 
+      <lb ed="#T" n="81"/>mente diuina. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e51818-Dd1e878">
+               <head xml:id="pdt7y6-e51818-Hd1e880">Expositio litterae</head>
+               <p xml:id="pdt7y6-e51818-d1e882">
+                  <lb ed="#T" n="82"/>EXPOSITIO. LITERAE 
+      <lb ed="#T" n="83"/>[INgeneratione &amp; generationem anni sui &amp;c.] 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e889">
+                  <lb ed="#T" n="84"/>Contra. AEternitas simplex est: ergo non 
+      <lb ed="#T" n="85"/>est ibi annorum pluralitas. Resp. Verum est 
+      se<lb ed="#T" n="86" break="no"/>cundum se, sed in comparatione ad annos 
+      in<lb ed="#T" n="87" break="no"/>terioris mensurae, id est, temporis quos 
+      con<lb ed="#T" n="88" break="no"/>tinet.  
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e902">
+                  <lb ed="#T" n="89"/>[Nec exemplum aliquod in diuinis.] 
+      Con<lb ed="#T" n="90" break="no"/>tra. Multa exempla inducuntur ab humanis in 
+      <lb ed="#T" n="91"/>diuina. Resp. Loquitur de exemplo perfecto 
+      <lb ed="#T" n="92"/>vniuersaliter sufficienti. 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e913">
+                  <lb ed="#T" n="93"/>Quod in Patre est, &amp; hoc &amp; in Filio est.] 
+      <lb ed="#T" n="94"/>Contra. Pateinitas est in Patre sed non in Filio. 
+      <lb ed="#T" n="95"/>Resp. Paternitas non est quid, sed ad aliquide 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e923">
+                  <lb ed="#T" n="96"/>Nihil in his est nouum) Tempore. [Nihil 
+      <lb ed="#T" n="97"/>alienum) Natura. [Nihil separabile] Loco¬ 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e930">
+                  <lb ed="#T" n="98"/>Nisi credideritis non intelligetis. Contra. Non 
+      <lb ed="#T" n="99"/>potest credi quod nullo modo intelligi. Resp. 
+      <lb ed="#T" n="100"/>oportet praeiutelligi quid est quod dicitur 
+      per<lb ed="#T" n="101" break="no"/>nomen, non quia est, 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e941">
+                  <lb ed="#T" n="102"/>[Si ergo in vna persona Patris &amp; illa inuenis 
+      <lb ed="#T" n="103"/>quae plura esse videntur. ] Videtur esse 
+      argu<lb ed="#T" n="104" break="no"/>mentum a maiori affirmatiue, nam magis 
+      vi<lb ed="#T" n="105" break="no"/>dentur ponere in Deo compositionem diuersae 
+      <lb ed="#T" n="106"/>personae quae differunt re, quam diuersa 
+      attri<lb ed="#T" n="107" break="no"/>buta quae differunt ratione tantum. Resp. 
+      quam<lb ed="#T" n="108" break="no"/>uis personae magis differant, tamen videntur 
+      <lb ed="#T" n="109"/>minus habere rationem partis, eo quod 
+      quaeli<lb ed="#T" n="110" break="no"/>bet persona continet in se totum esse diuinum 
+      <lb ed="#T" n="111"/>sed quodlibet attributum non videtur continere 
+      <lb ed="#T" n="112"/>totum secundum rationem nominis, sed parte. 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e967">
+                  <lb ed="#T" n="113"/>[Diceremus tres statuas vnum aurum.] 
+      Con<lb ed="#T" n="114" break="no"/>tra. Materia non praedicatur de composito, cum 
+      <lb ed="#T" n="115"/>sit pars. Resp. In naturalibus materia non est 
+      to<lb ed="#T" n="116" break="no"/>ta eorum substantia: sed in artificialibus sic, 
+      se<lb ed="#T" n="117" break="no"/>cundum Philosophum lib. Phisic. Ordinatur  
+      <lb ed="#T" n="118"/>enim in genere per suam naturam. Et ideo in 
+      na<lb ed="#T" n="119" break="no"/>turalibus materia non praedicatur, sed in 
+      artifi<lb ed="#T" n="120" break="no"/>cialibus sic. 
+    </p>
+               <p xml:id="pdt7y6-e51818-d1e987">
+                  <lb ed="#T" n="121"/>Nullo modo triplex. ] Ratio est vna, quia 
+      <lb ed="#T" n="122"/>triplex species est proportionis multiplicis, quae 
+      <lb ed="#T" n="123"/>est proportio inaequalitatis.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

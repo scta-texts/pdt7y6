@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="339"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-f03798"><!-- l1d41q2 -->
+            <head xml:id="pdt7y6-f03798-Hd1e99">Quaestio 2</head>
+            <head xml:id="pdt7y6-f03798-Hd1e101" type="question-title">De causa praedestinationis</head>
+            <p xml:id="pdt7y6-f03798-d1e104">
+               <lb ed="#T" n="91"/>QVESTIO II. 
+      <lb ed="#T" n="92"/>DE PRAEDESTINATIONE 
+</p>
+            <p xml:id="pdt7y6-f03798-d1e111">
+               <lb ed="#T" n="93"/>CIrca secundum articulum quaeruntur duo 
+      <lb ed="#T" n="94"/>Primo an praedestinatio possit habere in 
+      <lb ed="#T" n="95"/>homine praedestinato vel altero causam 
+      me<lb ed="#T" n="96" break="no"/>ritoriam 
+      <lb ed="#T" n="97"/>Secundo an possit habere in Deo causam 
+      mo<lb ed="#T" n="98" break="no"/>tiuam. 
+    </p>
+            <div xml:id="pdt7y6-f03798-Dd1e127">
+               <head xml:id="pdt7y6-f03798-Hd1e129">Articulus 1</head>
+               <head xml:id="pdt7y6-f03798-Hd1e131" type="question-title">
+  An praedestinatio possit habere in homine praedestinato, 
+  vel altero causam meritoriam
+</head>
+               <p xml:id="pdt7y6-f03798-d1e134">
+                  <lb ed="#T" n="99"/>Articvlvs I. 
+      <lb ed="#T" n="100"/>An praedestinatio possit habere in homine praedestinato, 
+      <lb ed="#T" n="101"/>vel altero causam meritoriam. 
+</p>
+               <p xml:id="pdt7y6-f03798-d1e143">
+                  <lb ed="#T" n="102"/>AD primum sic proceditur. 1. Finalis 
+      per<lb ed="#T" n="103" break="no"/>seuerentia in bono, &amp; praedestinatio 
+      con<lb ed="#T" n="104" break="no"/>uertuntur: ergo quod potest esse causa vnius 
+      po<lb ed="#T" n="105" break="no"/>test esse causa alterius: sed meritum hominis 
+      <lb ed="#T" n="106"/>potest esse causa perseuerantiae finalis: ergo &amp; 
+      <lb ed="#T" n="107"/>praedestinationis. 
+    </p>
+               <p xml:id="pdt7y6-f03798-d1e159">
+                  <lb ed="#T" n="108"/>2. Duorum aequalium qui potest in vnum 
+      <lb ed="#T" n="109"/>potest in aliud: saluari &amp; praedestinatum esse 
+      <lb ed="#T" n="110"/>aequalia sunt: ergo cum homo possit esse causa 
+      <lb ed="#T" n="111"/>suae salutis, potest esse causa suae 
+      praedestinatio<lb ed="#T" n="112" break="no"/>nis. 
+    </p>
+               <p xml:id="pdt7y6-f03798-d1e173">
+                  <lb ed="#T" n="113"/>3. Gen. 25. Deprecatus est Isaac, facta est, 
+      <lb ed="#T" n="114"/>promissio: ergo Sanctorum precibus adiuuanda 
+      <lb ed="#T" n="115"/>est Dei praefinitio: ergo potest, ad hoc quod 
+      <lb ed="#T" n="116"/>sit praedestinatus, iuuari quis merito alieno: sec 
+      <lb ed="#T" n="117"/>multo plus valet vnicuique suum meritum 
+      quam<lb ed="#T" n="118" break="no"/>alienum: ergo potest &amp; iuuari proprio. 
+    </p>
+               <p xml:id="pdt7y6-f03798-d1e189">
+                  <lb ed="#T" n="119"/>4. Augustiuus lib. de bono perseuer. Si non 
+      <lb ed="#T" n="120"/>dum vocati sunt, pro illis vt vocentur oremus 
+      <lb ed="#T" n="121"/>fortasse enim sic praedestinati sunt vt nostris ora 
+      <lb ed="#T" n="122"/>tionibus concedantur: ergo praedestinatio 
+      po<lb ed="#T" n="123" break="no"/>test iuuari merito alieno: ergo magis proprio. 
+    </p>
+               <p xml:id="pdt7y6-f03798-d1e202">
+                  <lb ed="#T" n="124"/>Contra. 1. Omne meritum tempore vel natus 
+      <lb ed="#T" n="125"/>ra praecedit id cuius est meritum: sed opus 
+      ho<lb ed="#T" n="126" break="no"/>minis cum sit temporale, nullo modo potest 
+      <lb ed="#T" n="127"/>praedestinationem praecedere, cum sit aeterna, 
+      <lb ed="#T" n="128"/>ergo non potest esse meritum praedestinationis 
+    </p>
+               <p xml:id="pdt7y6-f03798-d1e215">
+                  <lb ed="#T" n="129"/>2. Omne meritum causa est eius quod per 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0415.xml-->
+      <pb ed="#T" n="340"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>meritum acquiritur: sed temporale non potest 
+      <lb ed="#T" n="2"/>esse causa aeterni: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-f03798-d1e231">
+                  <lb ed="#T" n="3"/>3. Praedestinatio est causa primae gratiae: 
+      pri<lb ed="#T" n="4" break="no"/>ma gratia est causa omnis meriti: ergo &amp; 
+      prae<lb ed="#T" n="5" break="no"/>destinatio, quia quicquid est causa causae est 
+      <lb ed="#T" n="6"/>causa causati: ergo nullum meritum potest esse 
+      <lb ed="#T" n="7"/>causa illius, 
+    </p>
+               <p xml:id="pdt7y6-f03798-d1e244">
+                  <lb ed="#T" n="8"/>4. Praedestinatio Dei omnino gratuita est: 
+      <lb ed="#T" n="9"/>ergo sine meritis. 
+    </p>
+               <p xml:id="pdt7y6-f03798-d1e252">
+                  <lb ed="#T" n="10"/>Respondeo. In praedestinatione tria 
+      intelligun<lb ed="#T" n="11" break="no"/>tur, propositum Dei, collatio gratiae in praesenti, 
+      <lb ed="#T" n="12"/>&amp; collatio gloriae in futuro: primi nullum 
+      <lb ed="#T" n="13"/>meritum hominis potest esse causa meritoria: 
+      se<lb ed="#T" n="14" break="no"/>cundi meritum hominis potest esse causa 
+      dispo<lb ed="#T" n="15" break="no"/>sitiua de congruo non de condigno, siue 
+      pro<lb ed="#T" n="16" break="no"/>prium meritum siue alienum: vltimi vero meri 
+      <lb ed="#T" n="17"/>tum hominis est causa meritoria. Quia vero 
+      esse<lb ed="#T" n="18" break="no"/>tia praedestinationis in primo consistit quod est 
+      <lb ed="#T" n="19"/>principale eius significatum, efficacia vero eius 
+      <lb ed="#T" n="20"/>in duobus vltimis, ideo meritum hominis non 
+      <lb ed="#T" n="21"/>potest simpliciter dici esse causa 
+      praedestinatio<lb ed="#T" n="22" break="no"/>nis, sed secundum quid quoad connotatum 
+    </p>
+               <p xml:id="pdt7y6-f03798-d1e283">
+                  <lb ed="#T" n="23"/>Ad 1. quod opponitur de finali perscuerentia 
+      <lb ed="#T" n="24"/>Resp. Non sunt idem, quamuis sint 
+      conuerti<lb ed="#T" n="25" break="no"/>bilia: &amp; non in omnibus quod est causa vnius, 
+      <lb ed="#T" n="26"/>est causa alterius, nam vnum conuertibrlium est 
+      <lb ed="#T" n="27"/>causa alterius frequenter non tamen sui ipsius: 
+      <lb ed="#T" n="28"/>vt veritas rei causa est veritatis propositionis, &amp; 
+      <lb ed="#T" n="29"/>homo causa risibilis 
+    </p>
+               <p xml:id="pdt7y6-f03798-d1e301">
+                  <lb ed="#T" n="30"/>Ad 2. De duobus aequalibus. Resp. Hoc est 
+      ve<lb ed="#T" n="31" break="no"/>rum quotiescumque ordinatus est ad vtrumque 
+      <lb ed="#T" n="32"/>merendum, alioquin non: meretur enim homo 
+      <lb ed="#T" n="33"/>gloria, non tameu gratiam quae minus quid est, 
+      <lb ed="#T" n="34"/>quia ordinatus est ad merendam gloriam, sed  
+      <lb ed="#T" n="35"/>non gratiam. 
+    </p>
+               <p xml:id="pdt7y6-f03798-d1e317">
+                  <lb ed="#T" n="36"/>Ad3. Gen. 25. Resp. Iuuari dicitur 
+      praede<lb ed="#T" n="37" break="no"/>stinatio quoad executionem, non quoad 
+      inten<lb ed="#T" n="38" break="no"/>tionem, in effectu non in se. 
+    </p>
+               <p xml:id="pdt7y6-f03798-d1e326">
+                  <lb ed="#T" n="39"/>Ad 4. Augustini. Resp. Loquitur de 
+      con<lb ed="#T" n="40" break="no"/>cessione per electionem temporalem, non aeter 
+      <lb ed="#T" n="41"/>nam: sicut Paulus concessus est orationibus 
+      <lb ed="#T" n="42"/>Stephani. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f03798-Dd1e339">
+               <head xml:id="pdt7y6-f03798-Hd1e341">Articulus 2</head>
+               <head xml:id="pdt7y6-f03798-Hd1e343" type="question-title">
+  An praedestinatio possit habere in Deo causam motivam
+</head>
+               <p xml:id="pdt7y6-f03798-d1e346">
+      <!-- line coord order errror -->
+                  <lb ed="#T" n="65"/>Articvlvs II. 
+      <lb ed="#T" n="43"/>An praedestinatio possit habere in Deo causam.
+      <lb ed="#T" n="66"/>motiuam.
+      <!-- line coord order errror -->
+    </p>
+               <p xml:id="pdt7y6-f03798-d1e359">
+                  <lb ed="#T" n="44"/>AD secundum articulum proceditur sic. 1. 
+      <lb ed="#T" n="45"/>Rom. 9. Miscrebor cuius &amp;c. Glos. dabe 
+      <lb ed="#T" n="46"/>illi gratiam quem scio toto corde ad me reuer 
+      <lb ed="#T" n="47"/>surum, hic est cui danda est: ergo praescientia 
+      <lb ed="#T" n="48"/>meritorum causa est in Deo motiua ad praede 
+      <lb ed="#T" n="49"/>stinandum. 
+    </p>
+               <p xml:id="pdt7y6-f03798-d1e375">
+                  <lb ed="#T" n="50"/>2. Dicit Augustinus quod voluntas Dei 
+      in<lb ed="#T" n="51" break="no"/>iusta esse non potest, venit enim de occultissimis 
+      <lb ed="#T" n="52"/>meritis: ergo voluntas qua istum praedestinat, 
+      <lb ed="#T" n="53"/>alium reprobat venit de meritis: sed non in 
+      <lb ed="#T" n="54"/>actu existentibus: ergo in praescientia. 
+    </p>
+               <p xml:id="pdt7y6-f03798-d1e389">
+                  <lb ed="#T" n="55"/>3. Sine ratione istum saluare vel reprobare, 
+      <lb ed="#T" n="56"/>videtur acceptio personarum, &amp; crudelitatis, &amp; 
+      <lb ed="#T" n="57"/>irrationabile: ergo Deus ex aliqua ratione facit 
+      <lb ed="#T" n="58"/>hoc: sed ratio illa non est ex parte sui cum a 
+      <lb ed="#T" n="59"/>parte eius nulla sit differentia: ergo est a parte. 
+      <lb ed="#T" n="60"/>illorum: sed non in actu existens: ergo in 
+      prae<lb ed="#T" n="61" break="no"/>scientia. 
+    </p>
+               <p xml:id="pdt7y6-f03798-d1e407">
+                  <lb ed="#T" n="62"/>4. Homo sapiens &amp; bonus ad suum seruitium 
+      <lb ed="#T" n="63"/>vel officium iuste &amp; rationabiliter, propter ea 
+      <lb ed="#T" n="64"/>quae in eis videt vel praeuidet, aliquos assumit, 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0415.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>aliquos repellit: cum ergo in eo quod iustus, 
+      <lb ed="#T" n="68"/>Deum imitetur, &amp; Deus similiter facit. 
+    </p>
+               <p xml:id="pdt7y6-f03798-d1e425">
+                  <lb ed="#T" n="69"/>5. Aut huiusmodi electio quorundam, &amp; 
+      alio<lb ed="#T" n="70" break="no"/>rum reprobatio causam habet solam 
+      volunta<lb ed="#T" n="71" break="no"/>tem Dei, aut etiam meritum hominis: si primo 
+      <lb ed="#T" n="72"/>modo, ergo causa damnationis non est nisi quia 
+      <lb ed="#T" n="73"/>Deus non vult homines saluari, cuius contrarium 
+      <lb ed="#T" n="74"/>dicit Apostolus. 1. Timoth. 1. si secundo, sed  
+      <lb ed="#T" n="75"/>non habet causam merita existentia in actu: ergo 
+      <lb ed="#T" n="76"/>in praescientia. 
+    </p>
+               <p xml:id="pdt7y6-f03798-d1e445">
+                  <lb ed="#T" n="77"/>Contra. 1. Augustinus de praedestinatione 
+      <lb ed="#T" n="78"/>Sanctorum, Non quia tales futuros nouit Deus 
+      <lb ed="#T" n="79"/>ideo elegit, sed vt tales essemus: ergo 
+      praescien<lb ed="#T" n="80" break="no"/>tia meritorum non est causa praedestinationis 
+    </p>
+               <p xml:id="pdt7y6-f03798-d1e456">
+                  <lb ed="#T" n="81"/>2. Ad Rom. 9. An non habet potestatem 
+      figu<lb ed="#T" n="82" break="no"/>lus &amp;c. Ergo secundum apostolum sicut causa 
+      <lb ed="#T" n="83"/>assumptionis vasorum ex edem massa ad ministeria 
+      <lb ed="#T" n="84"/>vilia, vel honorabilia, non est causa nisi 
+      volun<lb ed="#T" n="85" break="no"/>tas figuli: ita electionis hominis &amp; 
+      reprobatio<lb ed="#T" n="86" break="no"/>nis ex eadem massa, non est causa nisi voluntas 
+      <lb ed="#T" n="87"/>Dei. 
+    </p>
+               <p xml:id="pdt7y6-f03798-d1e474">
+                  <lb ed="#T" n="88"/>3. Bona voluntas Dei ad nos est causa prima 
+      <lb ed="#T" n="89"/>omnis nostri meriti: ergo nullo modo meritum 
+      <lb ed="#T" n="90"/>nostrum potest esse causa, vel ratio bonae 
+      volun<lb ed="#T" n="91" break="no"/>tatis Dei, quia eius nulla alia debet causa quaeri. 
+    </p>
+               <p xml:id="pdt7y6-f03798-d1e486">
+                  <lb ed="#T" n="92"/>4. Quare creaturas has, &amp; non alias 
+      praeordi<lb ed="#T" n="93" break="no"/>nauerit Deus ad esse naturae, nulla est ratio a 
+      par<lb ed="#T" n="94" break="no"/>te creaturarum: ergo a simili quare ad esse 
+      gra<lb ed="#T" n="95" break="no"/>tiae &amp; gloriae. 
+    </p>
+               <p xml:id="pdt7y6-f03798-d1e497">
+                  <lb ed="#T" n="96"/>5. Praeparatio mercedis propter merita 
+      prae<lb ed="#T" n="97" break="no"/>uisa, non pure est gratuita: sed praedestinatio 
+      <lb ed="#T" n="98"/>Dei est pure gratuita: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-f03798-d1e506">
+                  <lb ed="#T" n="99"/>Respondeo. Agens voluntarium duplex est 
+      <lb ed="#T" n="100"/>quoddam cuius voluntas est sua rectitudo, vt 
+      <lb ed="#T" n="101"/>creator: quoddam cuius voluntas non est sua 
+      <lb ed="#T" n="102"/>rectitudo, vt creatura. In primo agente nulla 
+      <lb ed="#T" n="103"/>potest esse causa motiua sue voluntatis nisi ipsa: 
+      <lb ed="#T" n="104"/>potest tamen esse ratio aliqua, id est, congrua 
+      <lb ed="#T" n="105"/>ordinatio ad suum effectum. In secundo vero est 
+      <lb ed="#T" n="106"/>causa motiua suae voluntatis &amp; ratio. Quia ergo 
+      <lb ed="#T" n="107"/>praedestinatio dicit actum voluntatis diuine quae 
+      <lb ed="#T" n="108"/>est ipsa rectitudo, ideo eius nulla potest esse 
+      <lb ed="#T" n="109"/>causa motiua: est tamen eius ratio aliqua, id est 
+      <lb ed="#T" n="110"/>congrua ordinatio ad suum volitum. dicendum 
+      <lb ed="#T" n="111"/>ergo quod praescientia ineritorum non est causa 
+      <lb ed="#T" n="112"/>motiua voluntatis Diuinae ad praedestinandum, 
+      <lb ed="#T" n="113"/>sed tamen est ratio secundum quam congrue 
+      fer<lb ed="#T" n="114" break="no"/>tur voluntas Dei ad praeparandum illi gratiam 
+      <lb ed="#T" n="115"/>&amp; gloriam cuius praescit futura merita: non 
+      ta<lb ed="#T" n="116" break="no"/>men ipse mouetur ad hoc propter merita, sed  
+      <lb ed="#T" n="117"/>mera voluntate sua. 
+    </p>
+               <p xml:id="pdt7y6-f03798-d1e550">
+                  <lb ed="#T" n="118"/>Ad 1. Ambrosij. Resp. Ly Danda dicit 
+      ratio<lb ed="#T" n="119" break="no"/>nem a parte suscipientis, de congruo, non a 
+      par<lb ed="#T" n="120" break="no"/>te dantis. 
+    </p>
+               <p xml:id="pdt7y6-f03798-d1e559">
+                  <lb ed="#T" n="121"/>Ad 2. Augustini. Resp. Loquitur de 
+      volunta<lb ed="#T" n="122" break="no"/>te Dei quoad effectum, non quoad propositum. 
+    </p>
+               <p xml:id="pdt7y6-f03798-d1e566">
+                  <lb ed="#T" n="123"/>Ad 3. De personarum acceptione. Resp. 
+      Sal<lb ed="#T" n="124" break="no"/>uare &amp; reprobare dicunt duo; scilicet 
+      principa<lb ed="#T" n="125" break="no"/>le significatum, &amp; connotatum: sine ratione, 
+      <lb ed="#T" n="126"/>quae sit ratio significati, non tantum 
+      connota<lb ed="#T" n="127" break="no"/>ti, hunc saluare &amp; illum reprobare non est 
+      ac<lb ed="#T" n="128" break="no"/>ceptio personarum, Deus enim mera voluntate, 
+      <lb ed="#T" n="129"/>rationabiliter dati gratiam bene vsuro, &amp; non 
+      <lb ed="#T" n="130"/>dat male vsuro. Vel dicendum, quod in ijs 
+      <lb ed="#T" n="131"/>quae impenduntur ex debito, subtrahere 
+      vni<lb ed="#T" n="132" break="no"/>quod alteri datur, acceptio personarum est: sed  
+      <lb ed="#T" n="133"/>non ijs quae impenduntur ex indebito. 
+    </p>
+               <p xml:id="pdt7y6-f03798-d1e593">
+                  <lb ed="#T" n="134"/>Ad 4. De homine sapiente. Resp. Non est. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0416.xml-->
+      <pb ed="#T" n="341"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>simile, quia eius voluntas non est rectitudo sua 
+      <lb ed="#T" n="2"/>vnde mouet mota, sed Dei non. 
+    </p>
+               <p xml:id="pdt7y6-f03798-d1e609">
+                  <lb ed="#T" n="3"/>Ad 5. Aut habet causam solam voluntatem 
+      <lb ed="#T" n="4"/>Dei. Resp. Non habet causam aliam, sed ratio: 
+      <lb ed="#T" n="5"/>nem: quae autem sit ratio, potest dici quod rati 
+      <lb ed="#T" n="6"/>in speciali est scientia meritorum huius, &amp; illius, 
+      <lb ed="#T" n="7"/>Assignat autem Augustinus in Enchyr. ratio 
+      <lb ed="#T" n="8"/>nem generalem, quia si remanerent omnes in 
+      <lb ed="#T" n="9"/>poena, non appareret gratia redimentis: si omnes 
+      <lb ed="#T" n="10"/>transferrentur ad lucem de tenebris, non 
+      appare<lb ed="#T" n="11" break="no"/>ret seueritas vltionis, in qua propterea plures 
+      <lb ed="#T" n="12"/>quam in illa sunt, vt sic appareret quod 
+      omni<lb ed="#T" n="13" break="no"/>nibus debebatur.  
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

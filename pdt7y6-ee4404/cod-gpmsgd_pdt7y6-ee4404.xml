@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="15"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-ee4404"><!-- l1d2prae -->
+            <head xml:id="pdt7y6-ee4404-Hd1e99">Praeambulum</head>
+            <p xml:id="pdt7y6-ee4404-d1e101">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0090.xml-->
+               <cb ed="#T" n="c"/>
+               <lb ed="#T" n="94"/>DEMISTERIO 
+      <lb ed="#T" n="95"/>TRINITATIS, 
+      <lb ed="#T" n="96"/>ETVNITATIS Distinctio II. A¬ 
+    </p>
+          <!--  lombard text could be moved to witness to lombard text 
+            <p xml:id="pdt7y6-ee4404-d1e114">
+               <lb ed="#T" n="97"/>OCquoque vera ac pia fide tenendum est, quod Trinitas vnus sit &amp; 
+      so<lb ed="#T" n="98" break="no"/>lus verus Deus, vt ait Aug. in 1. lib. de Trin. scilicet Pater &amp; Filius &amp; 
+      <lb ed="#T" n="99"/>Spiritus Sanctus: &amp; haec Trinitas vnius eiusdemque substantiae vel 
+      essen<lb ed="#T" n="100" break="no"/>tiae dicitur, creditur, &amp; intelligitur: quae est summum bonum quod 
+      pur<lb ed="#T" n="101" break="no"/>gatissimis mentibus cernitur. Mentis enim humanae acies inualida in tam. 
+      <lb ed="#T" n="102"/>excellentiluce non figitur, nisi per iustitiam fidei emundetur. Item in lib.  
+      <lb ed="#T" n="103"/>1. Retract, cap. 4. Non approbo quod in oratione dixi, Deus qui non nisi mundos verum 
+      <lb ed="#T" n="104"/>scire voluisti: responderi enim potest, multos etiam non mundos multa scire vera. De hac 
+      <lb ed="#T" n="105"/>re ergo summa &amp; excellentissima cum modestia &amp; timore agendum est, &amp; attentissimis 
+      <lb ed="#T" n="106"/>auribus atque deuotis audiendum, vbi quaeritur vnitas Trinitatis, Patris. s. &amp; Filij, &amp; 
+      Spiri<lb ed="#T" n="107" break="no"/>tus Sancti, quia nec periculosius alicubi erratur, nec laboriosius aliquid quaeritur, nec 
+      fru<lb ed="#T" n="108" break="no"/>ctuosius aliquid inuenitur. Proinde omnis, qui audit &amp; legit ea quae de ineffabili &amp; inacces¬ 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0091.xml-\->
+      <pb ed="#T" n="16"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>sibililuce diuinitatis dicuntur, studeat imitari atque seruare quod venerabilis doct. 
+      Aug<lb ed="#T" n="2" break="no"/>in primo lib. de Trin. de seipso ait, Non pigebit me, inquit, sicubi haesito quaerere: nec 
+      pu<lb ed="#T" n="3" break="no"/>debit sicubi erro, discere. Quisquis ergo audit haec, vel legit, vbi pariter certus est, pergat 
+      <lb ed="#T" n="4"/>mecum: vbi pariter haesitat, quaerat mecum: vbi errorem suum cognoscit, redeat ad me, 
+      <lb ed="#T" n="5"/>vbi meum, reuocet me. Ita ingrediamur simul charitatis viam, tendentes ad eum, de quo 
+      <lb ed="#T" n="6"/>dictum est: Quaerite faciem eius semper.  
+    </p>
+            <p xml:id="pdt7y6-ee4404-d1e162">
+               <lb ed="#T" n="7"/>Quae fuerit intentio scribentium de Trinitate. 
+      <lb ed="#T" n="8"/>QuNES autem catholici Tractatores, vt in eodem primo lib. de Trin. . 4. Aug. ait, 
+      <lb ed="#T" n="9"/>qui de Trinitate, quae Deus est, scripserunt, hoc intenderunt secundum scripturas docere, 
+      <lb ed="#T" n="10"/>quod Pater &amp; Filius, &amp; Spiritus Sanctus vnius sint substantiae, &amp; inseparabili aequalitate 
+      <lb ed="#T" n="11"/>vnus sint Deus: vt sit vnitas in essentia, &amp; pluralitas in personis: ideoque non sunt tres dij, 
+      <lb ed="#T" n="12"/>sed vnus Deus, licet Pater Filium genuerit, &amp; ideo Filius non sit qui pater est: Filiusque a 
+      pa<lb ed="#T" n="13" break="no"/>tre sit genitus &amp; ideo Pater non sit qui Filius est: &amp; Spiritus Sanctus, nec Pater sit nec Filius, 
+      <lb ed="#T" n="14"/>sed tantum Patris &amp; Filij Spiritus, vtrique coaequalis, &amp; ad Trinitatis pertinens unitatem. 
+      <lb ed="#T" n="15"/>Teneamus ergo Patrem &amp; Filium &amp; Spiritum Sanctum vnum esse naturaliter Deum, vt ait 
+      <lb ed="#T" n="16"/>Aug in lib. de fide ad Petrum: neque tamen ipsum Eatrem esse, qui Filius est: nec Filium 
+      <lb ed="#T" n="17"/>ipsum esse, qui Pater est: nec Spiritum Sanctum ipsum esse, qui Pater est aut Filius. Vna est 
+      <lb ed="#T" n="18"/>enim Patris &amp; Filij &amp; Spiritus Sancti essentia, quam Craeci: eoiar vocant: in qua non est 
+      <lb ed="#T" n="19"/>aliud Pater, aliud Filius, aliud Spiritus Sanctus, quamuis sit personaliter alius Pater, alius 
+      <lb ed="#T" n="20"/>Filius, alius Spiritus Sanctus, 
+    </p>
+            <p xml:id="pdt7y6-ee4404-d1e195">
+               <lb ed="#T" n="21"/>Quis ordo sit seruandus cum de Trinitate agitur.  
+      <lb ed="#T" n="22"/>CaE TERVI, vt in primo libro de Trinit. Aug. docet, primo secundum auctoritates 
+      san<lb ed="#T" n="23" break="no"/>ctarum Scripturarum, vtrum fides ita se habeat, demonstrandum est. Deinde aduersus 
+      gar<lb ed="#T" n="24" break="no"/>rulos raciocinatores, elatiores magis quam capaciores, rationibus catholicis &amp; 
+      similitudi<lb ed="#T" n="25" break="no"/>nibus congruis ad defensionem &amp; asfertionem fidei vtendum est: vt eorum 
+      inquisitioni<lb ed="#T" n="26" break="no"/>bus satisfacientes, mansuetos plenius instruamus; &amp; illi si nequiuerint inuenire quod 
+      quae<lb ed="#T" n="27" break="no"/>runt, de suis mentibus potius quam de ipsa veritate, vel de nostra asfertione conquerantur.  
+    </p>
+            <p xml:id="pdt7y6-ee4404-d1e214">
+               <lb ed="#T" n="28"/>Testimonia Sanctorum de Trinitate. 
+      <lb ed="#T" n="29"/>PROPONAMVS ergo in medium veteris ac noui Testamenti auctoritates, quibus 
+      diui<lb ed="#T" n="30" break="no"/>nae vnitatis atque Trinitatis veritas demonstretur. Ac primum ipsa legis exordia occurrant 
+      <lb ed="#T" n="31"/>vbi Moses ait, Audi Israci, Dominus Deus tuus, Deus vnus est. Item, Ego sum Dominus 
+      <lb ed="#T" n="32"/>Deus ruus, qui eduxi te de terra AEgypti, non erunt tibi alij dij praeter me. Ecce hic 
+      signifi<lb ed="#T" n="33" break="no"/>cauit vnitatem diuinae naturae, Deus enim, vt ait Amb. in 1. lib. de Trin. nomen est naturae: 
+      <lb ed="#T" n="34"/>Dominus vero nomen est potestatis. Item alibi Deus loquens ad Moysen, ait: Ego sum 
+      qui<lb ed="#T" n="35" break="no"/>sum: &amp; si quaesierint nomen meum, vade &amp; dic eis, Qui est, misit me ad vos. 
+      Di<lb ed="#T" n="36" break="no"/>cens enim, Ego sum: non, Nos sumus: &amp;, qui est: non, Qui sumus: apertissime declarauit, 
+      <lb ed="#T" n="37"/>vnum solum Deum esse. In Cantico etiam Exodi legitur, Dominus omnipotnes nomen 
+      <lb ed="#T" n="38"/>eius: non ait Domini, vnitatem volens significare. Personarum quoque pluralitatem &amp; 
+      <lb ed="#T" n="39"/>naturae vnitatem simul ostendit Dominus in Gen. dicens. Faciamus hominem ad 
+      imagi<lb ed="#T" n="40" break="no"/>nem &amp; similitudinem nostram. Dicens enim, Faciamus, &amp;, nostram, pluralitatem 
+      persona<lb ed="#T" n="41" break="no"/>rum ostendit: dicens vero, Imaginom, vnitatem essentiae. Vt enim dicit Aug. in lib. de 
+      Fi<lb ed="#T" n="42" break="no"/>de ad Petrum, Si in illa natura Patris &amp; Filij &amp; Spiritus Sancti vna esset tantum persona, non 
+      <lb ed="#T" n="43"/>diceretur, Faciamus hominem ad imaginem &amp; similitudinem nostram. Cum enim dicit, 
+      <lb ed="#T" n="44"/>Ad imaginem, ostendit vnam naturam esse, ad cuius imaginem homo fieret: cum vero 
+      <lb ed="#T" n="45"/>dicit, Nostram, ostendit eundem Deum non vnam, sed plures esse personas. 
+    </p>
+            <p xml:id="pdt7y6-ee4404-d1e256">
+               <lb ed="#T" n="46"/>Aperte ostendit quod nec solitudo, nec diuersitas, nec sincularitas ibi est, sed similitudo. 
+      <lb ed="#T" n="47"/>HiARIVS quoque in libro tertio de Trinit. dicit his verbis significari, quod in 
+      Trini<lb ed="#T" n="48" break="no"/>tate nec diuersitas est, nec singularitas vel solitudo: sed similitudo, &amp; pluralitas, siue 
+      distin<lb ed="#T" n="49" break="no"/>ctio: ait enim sic. Qui dixit: Faciamus hominem ad imaginem &amp; similitudinem nostram: 
+      <lb ed="#T" n="50"/>inuicem esse sui similes, in eo quod dicit, imaginem &amp; similitudinem nostram, ostendit. 
+      <lb ed="#T" n="51"/>Imago enim sola non est, &amp; similitudo sibi non est: neque diuersitatem duobus admisceri 
+      <lb ed="#T" n="52"/>alterius ad alterum similitudo permittit. Item idem in quarto lib. absolutius voluit 
+      intelli<lb ed="#T" n="53" break="no"/>gi significationem hanc non ad se tantum esse referendam dicendo: Faciamus hominem 
+      <lb ed="#T" n="54"/>ad imaginem &amp; similitudinem nostram: professio enim confortij sustulit intelligentiam 
+      sin<lb ed="#T" n="55" break="no"/>gularitatis, quia confortium aliquod nec potest esse sibi ipsi solitario, neque rursum 
+      solitu<lb ed="#T" n="56" break="no"/>do solitarij recipit. Faciamus. Neque quisquam alieno a se loquitur Nostram: Vterque ergo 
+      <lb ed="#T" n="57"/>sermo, scilicet Faciamus Qunostram, vt solitarium eundemque non patitur, ita neque 
+      diuer<lb ed="#T" n="58" break="no"/>sum a se alienumque significat. Solitario conuenit, Faciam &amp; meam, non solitario vero 
+      <lb ed="#T" n="59"/>conuenit dicere, Faciamus &amp; nostram, vterque sermo vt non solitatium tantum, ita neque 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0092.xml-\->
+      <pb ed="#T" n="17"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>differentem esse, vel diuersum esse significat. Nobis quoque nec solitarius, nec diuersus est 
+      <lb ed="#T" n="2"/>confitendus. Ita ergo Deus ad communem sibi cum Deo imaginem eandemque 
+      similitu<lb ed="#T" n="3" break="no"/>dinem hominem reperitur operari: vt nec significatio efficientis admittat intelligentiam 
+      <lb ed="#T" n="4"/>solitudinis, nec operatio constituta ad eandem imaginem vel similitudinem patiatur 
+      di<lb ed="#T" n="5" break="no"/>uersitatem Diuinitatis. In his verbis Hilar, pluralita tem personarum voluit intelligi 
+      nomi<lb ed="#T" n="6" break="no"/>ne confortij: atque significauit nomine confortij, vel pluralitatis, non poni aliquid, sed  
+      <lb ed="#T" n="7"/>remoueri. Pluralitas enim vel confortium personarum cum dicitur, solitudo vel 
+      singula<lb ed="#T" n="8" break="no"/>ritas negatur: cum dicimus plures esse personas, significamus quod non est vna sola. Ideo 
+      <lb ed="#T" n="9"/>Hilarius volens ista subtiliter &amp; sane intelligi, ait: Professio confortij sustulit 
+      intelligen<lb ed="#T" n="10" break="no"/>tiam singularitatis: non dicit, posuit aliquid. Ita etiam cum dicimus tres personas, 
+      sin<lb ed="#T" n="11" break="no"/>gularitatem &amp; solitudinem tollimus: &amp; quod Pater non est solus, nec Filius est solus, nec 
+      <lb ed="#T" n="12"/>Spiritus Sanctus est solus, significamuns: &amp; quod nec Pater tantum est &amp; Filius, nec Pater  
+      <lb ed="#T" n="13"/>tantum &amp; Spiritus Sanctus, nec Filius tantum &amp; Spiritus Sanctus. De hoc autem in sequenti 
+      <lb ed="#T" n="14"/>plenius agetur, vbi etiam secundum quid similes dicantur tres personae, &amp; vtrum aliquo 
+      <lb ed="#T" n="15"/>modo sit ibi diuersitas vel differentia, ostendetur.  
+    </p>
+            <p xml:id="pdt7y6-ee4404-d1e328">
+               <lb ed="#T" n="16"/>Ad idem quod coeperat, redit, vt alias scilicet authoritates supponat. 
+      <lb ed="#T" n="17"/>Nunc vero ad propositum redeamus, &amp; ad ostendendum personarum pluralitatem, 
+      at<lb ed="#T" n="18" break="no"/>que essentiae diuinae vnitatem, alias sanctorum authoritates inducamus. Moyses dicit: In 
+      <lb ed="#T" n="19"/>principio creauit Deus coelum &amp; terram perDeum significans Patrem, per Principium, Filium. 
+      <lb ed="#T" n="20"/>Et pro eo quod apud nos Deus dicitur, Hebraica veritas habet Heloym, quod est plurale 
+      <lb ed="#T" n="21"/>huius singularis, quod est Hel. Quod ergo non est dictum Hel, quod est Deus: sed Heloym, 
+      <lb ed="#T" n="22"/>quod interpretari potest Dij siue ludices: ad pluralitatem personarum refertur. Ad quam 
+      <lb ed="#T" n="23"/>etiam illud attinere videtur, quod diabolus per serpentem dixit: Eritis sicut Dij. Pro quo 
+      <lb ed="#T" n="24"/>in Hebraico habetur Heloym: ac si diceret; Eritis sicut Diuinae Personae. Ille etiam 
+      ma<lb ed="#T" n="25" break="no"/>ximus Prophetarum &amp; regum Dauid, qui suam caeteris praefert intelligentiam, dicens: 
+      <lb ed="#T" n="26"/>Super senes intellexi, vnitatem diuinae naturae ostendens, ait: Dominus nomen est illi: 
+      <lb ed="#T" n="27"/>non dicit, Domini. Alibi etiam eiusdem vnitatem &amp; aeternitatem simul ostendens ait ex 
+      <lb ed="#T" n="28"/>persona Dei Israel. Si me audieris, non erit in te Deus recens, neque adorabis Deum 
+      alienun<lb ed="#T" n="29" break="no"/>Aliud horum, vt dicit Ambr. in lib. 1. de Trinit. significat aeternitatem: aliud vnitatem 
+      <lb ed="#T" n="30"/>substantiae indifferentis: vt neque posteriorem Patre, neque alterius diuinitatis Filium, vel 
+      <lb ed="#T" n="31"/>Spiritum Sanctum esse credamus: nam si Patre posterior est Filius, vel Spiritus Sanctus, 
+      re<lb ed="#T" n="32" break="no"/>cens est: &amp; si vnius non est diuinitatis, alienus est: sed nec posterior est, quia recens non 
+      <lb ed="#T" n="33"/>est: nec alienus, quia ex Patre natus est Filius, ex patre procedit Spiritus Sanctus. Alibi 
+      <lb ed="#T" n="34"/>quoque distinctionem personarum insinuans ait, Verbo Domini caeli formati sunt, &amp; 
+      <lb ed="#T" n="35"/>Spiritu oris eius omnis virtus eorum. Alibi etiam ait, Benedicat nos Deus, Deus noster,  
+      <lb ed="#T" n="36"/>benedicat nos Deus, &amp; metuant cum omnes fines terrae. Trina enim confessio Dei, 
+      Trinita<lb ed="#T" n="37" break="no"/>atem exprimit personarum: vnitate vero essentiae aperit, cum singulariter subiungit (eum. 
+    </p>
+            <p xml:id="pdt7y6-ee4404-d1e378">
+               <lb ed="#T" n="38"/>Esaias quoque dicit se audisse Seraphim clamantia, Sanctus, Sanctus, Sanctus Dominus 
+      <lb ed="#T" n="39"/>Deus. Per hoc quod dicit ter Sanctus, Trinitatem significat: per hoc quod subdit, Dominus 
+      <lb ed="#T" n="40"/>Deus, vnitatem essentiae. Dauid quoque aeternam Filij generationem aperte insinuat, exper 
+      <lb ed="#T" n="41"/>sona Flij dicens: Dominus dixit ad me: Filius meus es tu: ego hodie genui te. De hac 
+      <lb ed="#T" n="42"/>generatione ineffabili Esaias ait: Generationem eius quis enatrabit e In lib. quoque 
+      Sa<lb ed="#T" n="43" break="no"/>pient. aeternitas Filij cum Patre monstratur, vbi Sapientia italoquitur, Dominus possedit 
+      <lb ed="#T" n="44"/>me ab in itio viarum suarum, ant equam quicquam faceret a principio, ab aeterno 
+      ordina<lb ed="#T" n="45" break="no"/>ta sum, antequam terra fieret: necdum erant abyssi, &amp; ego iam concepta eram: necdum 
+      <lb ed="#T" n="46"/>fontes, necdum montes, aut colles, &amp; ego parturiebar: adhuc terram non fecerat, &amp; 
+      <lb ed="#T" n="47"/>cardines orbis terrae: quando praeparabat caelos, aderam: quando appendebat 
+      fundamen<lb ed="#T" n="48" break="no"/>ta terae, cum eo eram cuncta componens, &amp; delectabar per singulos dies ludens coram 
+      <lb ed="#T" n="49"/>eo. Ecce apertum de aeterna genitura testimonium: quo ipsa sapientia perhibet se 
+      ante<lb ed="#T" n="50" break="no"/>niundum conceptam esse &amp; parturiri, id est genitam, &amp; apud Patrem aeternaliter 
+      existe<lb ed="#T" n="51" break="no"/>re. Ipsa etiam alibi ait, Ego ex ore altissimi prodij primogenita ante omnem creaturam. 
+      <lb ed="#T" n="52"/>Micheas quoque Propheta aeternam Verbi generationem &amp; temporalem ex Maria, simul 
+      <lb ed="#T" n="53"/>insinuauit, dicens: Et tu Bethlcem Ephrata paruulus es in millibus Iuda: ex te egredietur,  
+      <lb ed="#T" n="54"/>qui sit dominator inIfraci, &amp; egressus eius ab initio a diebus aeternitatis. 
+    </p>
+            <p xml:id="pdt7y6-ee4404-d1e417">
+               <lb ed="#T" n="55"/>Specialia testimonia de Spiritusancto. 
+      <lb ed="#T" n="56"/>DeSpiritu Sancto etiam expressa documenta in veteri Testamento habemus. In Gen. &amp; 
+      <lb ed="#T" n="57"/>enim legitur, Spiritus Domini ferebatur super aquas. Et Dauid dicit, Quo ibo a Spiritu 
+      <lb ed="#T" n="58"/>tuo? In libr. Sapient. dicitur, Spiritus Sanctus disciplinae effugiet fictum: benignus est 
+      <lb ed="#T" n="59"/>enim Spiritus sapientiae. Esaias quoque ait, Spiritus Domini super me. 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0093.xml-\->
+      <pb ed="#T" n="18"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>De testimonis noui restamenti. 
+      <lb ed="#T" n="2"/>Nunc vero post testimonia veteris Testamenti de fide sanctae Trinitatis &amp; vnitatis, ad 
+      <lb ed="#T" n="3"/>noui Testamenti authoritates acccedamus: vt in medio duum animalium, id est, 
+      Testamen<lb ed="#T" n="4" break="no"/>torum, cognoscatur veritas: &amp; forcipe de altari sumatur culculus, quo tangantur ora 
+      <lb ed="#T" n="5"/>fidelium. Dominus itaque Christus, vnitatem diuinae essentiae, ac personarum Trinitatem 
+      <lb ed="#T" n="6"/>aperte insinuat, dicens Apostolis: Ite, baptixate omnes gentes in nomine Patris &amp; Filij. 
+      <lb ed="#T" n="7"/>&amp; Spiritus sancti. In nomine vtique ait, vt Ambros. ait in lib. 1. de Trinit. non in 
+      nomi<lb ed="#T" n="8" break="no"/>nibus, vt vnitas essentiae ostendatur. Per nomina tria quae supposuit, tres esse personas 
+      de<lb ed="#T" n="9" break="no"/>clarauit. Ipse etiam ait, Ego &amp; Pater vnum sumus: Vnum dixit, vt ait Ambros. in eodem, 
+      <lb ed="#T" n="10"/>ne siat discretio potestatis naturae: &amp; addidit, Sumus, vt patrem filiumque cognoscas, 
+      sci<lb ed="#T" n="11" break="no"/>licet, vt perfectus pater silium perfectum genuisse credatur: &amp; quod pater &amp; filius vnum 
+      <lb ed="#T" n="12"/>sint, non confusione personae, sed vnitate naturae. Ioannes quoque in Epistola Canonica ait, 
+      <lb ed="#T" n="13"/>Tres sunt qui testimonium perhibent in caelo. Pater, Verbum, &amp; Spiritus Sanctus: &amp; 
+      hi<lb ed="#T" n="14" break="no"/>tres vnum sunt. Ipse etiam in initio Euangelij sui ait, In principio erat verbum, &amp; verbum 
+      <lb ed="#T" n="15"/>erat apud Deum, &amp; Deus erat verbum: vbi aperte ostendit Filium semper &amp; aeternaliter  
+      <lb ed="#T" n="16"/>fuisse apud Patrem, vt alium apud alium. Apostolus quoque aperte Trinitatem distinguit, 
+      <lb ed="#T" n="17"/>dicens: Misit Deus spiritum filij sui in corda nostra: &amp; alibi, Si spiritus eius qui suscitauit 
+      <lb ed="#T" n="18"/>lesum, habitat in nobis &amp;c. Item alibi Trinitatem atque vnitatem euidentissime 
+      com<lb ed="#T" n="19" break="no"/>mendat, dicens: Quoniam exipso, &amp; per ipsum, &amp; in ipso sunt omnia, ipsi gloria. Ex 
+      <lb ed="#T" n="20"/>ipso ait, vt August. in lib. de Trinit. dicit, propter Patrem: per ipsum dicit, propter Filium: 
+      <lb ed="#T" n="21"/>in ipso, propter Spiritum Sanctum. Per hoc vero quod non ait, Ex ipsis, per ipsos, &amp; in 
+      ip<lb ed="#T" n="22" break="no"/>sis: nec ait, Ipsis gloria, sed ipsi: insinuauit hanc Trinitatem vnum Deum esse. Sed quia 
+      <lb ed="#T" n="23"/>singulae pene syllabae noui Testamenti hanc ineffabilis vnitatis atque Trinitatis veritatem 
+      <lb ed="#T" n="24"/>concorditer insinuant, inductioni testimoniorum super hac re supersedeamus: &amp; rationibus, 
+      <lb ed="#T" n="25"/>congruisque similitudinibus ita esse, prout infirmitas nostra valet, ostendamus.
+    </p>
+          -->
+            <p xml:id="pdt7y6-ee4404-d1e491">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0093.xml-->
+               <cb ed="#T" n="b"/>
+               <lb ed="#T" n="26" type="fixed=18"/>DIVISIO TEXTVS. 
+      <lb ed="#T" n="27"/>[VVOCquoque vera ac pia fide) Inquisiuit 
+      ma<lb ed="#T" n="28" break="no"/>teriam, de qua vult agere, scilicet de rebus 
+      <lb ed="#T" n="29"/>si Libilibus. Hic prosequitur tractando eam, agens 
+      <lb ed="#T" n="30"/>scilicet de Deo secundum se, siue se cundum 
+      ra<lb ed="#T" n="31" break="no"/>tionem suae perfectionis. Et primo de attributis 
+      <lb ed="#T" n="32"/>quibus eius perfectiones ostenduntur in essendo, 
+      <lb ed="#T" n="33"/>vsque ad distinct. 35. Deinde de attributis, quibus 
+      <lb ed="#T" n="34"/>perfectiones eius ostenduntur etiam in 
+      cau<lb ed="#T" n="35" break="no"/>sando, scilicet de potentia, sapientia, &amp; bonitate 
+      <lb ed="#T" n="36"/>ajs. distinctione. In prima parte, de attributis 
+      per<lb ed="#T" n="37" break="no"/>ficientibus in essendo agit primo secundum rem, 
+      <lb ed="#T" n="38"/>agendo de diuinis rebus: in quo ostendit quid 
+      cor<lb ed="#T" n="39" break="no"/>de credendum, vsque ad 22. dist. Secundo secundum 
+      <lb ed="#T" n="40"/>modum loquendi, agendo de diuinis nominibus: 
+      <lb ed="#T" n="41"/>in quo ostendit, quid ore confitendum, a 22. dist. 
+      <lb ed="#T" n="42"/>In prima parte, primo quidem fidei fundamentum 
+      <lb ed="#T" n="43"/>iaciendo, declarat in Deo essentiae vnitatem, &amp; 
+      per<lb ed="#T" n="44" break="no"/>sonarum Trinitatem, vsque ad 4. dist. Secundo 
+      <lb ed="#T" n="45"/>vero partes erigendo, ostendit personarum ad 
+      in<lb ed="#T" n="46" break="no"/>uicem originem, &amp; personalem distinctionem, a 
+      <lb ed="#T" n="47"/>4. distinctione vsque ad 10. Tertio tectum 
+      apponen<lb ed="#T" n="48" break="no"/>doc ostendit earum omnimodam perfectionem &amp; 
+      <lb ed="#T" n="49"/>essentialem aequalitatem, a 10. distinct. vsque ad 
+      <lb ed="#T" n="50"/>22. In prima parte, quia auctoritas diuina 
+      huma<lb ed="#T" n="51" break="no"/>nae rationi praeponitur, primo vnitatem &amp; 
+      Tri<lb ed="#T" n="52" break="no"/>nita tem declarat per scripturas distinct. hac: 
+      <lb ed="#T" n="53"/>secundo per creaturas, distinctione 3. 
+    </p>
+            <p xml:id="pdt7y6-ee4404-d1e560">
+               <lb ed="#T" n="54"/>In prima parte, primo praemittit modum 
+      pro<lb ed="#T" n="55" break="no"/>cedendi, secundo incipit processum [
+      Propona<lb ed="#T" n="56" break="no"/>mus.] Prima pars est quasi procemium; secunda 
+      <lb ed="#T" n="57"/>quasi tractatus. Modum procedendi determinat 
+      <lb ed="#T" n="58"/>quantum ad conditionem inquirentium capitulo 
+      <lb ed="#T" n="59"/>primo: secundo quantum ad intentionem 
+      inqui<lb ed="#T" n="60" break="no"/>endi [Omnes autem. ] Tertio quantum ad 
+      ordi<lb ed="#T" n="61" break="no"/>ne inquisitionis [Caeterum.] Conditionem 
+      inqui<lb ed="#T" n="62" break="no"/>rentium determinat in tribus, scilicet fideliter  
+      <!--1652-gregPress-MichiganState-gbooks-v1-0093.xml-->
+      <cb ed="#T" n="c"/>
+               <lb ed="#T" n="63"/>item reuerenter [De hac ergo rej Item humiliter  
+    </p>
+            <p xml:id="pdt7y6-ee4404-d1e589">
+               <lb ed="#T" n="64"/>Proinde omnis. ]In secunda ostendit primo quid 
+      <lb ed="#T" n="65"/>Doctores intendunt docere[Omnes autem] 
+      secun<lb ed="#T" n="66" break="no"/>do quid nos oporteat tenere [Teneamus. 
+    </p>
+            <p xml:id="pdt7y6-ee4404-d1e598">
+               <lb ed="#T" n="67"/>Proponamus. ]Hic incipit tractatum, seu 
+      pro<lb ed="#T" n="68" break="no"/>cessum probans per scripturas vnitatem, &amp; 
+      Trinita<lb ed="#T" n="69" break="no"/>te: &amp; primo per auctoritates veteris Testamentis 
+      <lb ed="#T" n="70"/>secundo per auctoritates noui Testamenti [Nunc 
+      <lb ed="#T" n="71"/>vero post testimonia. ]In prima parte, primo 
+      pro<lb ed="#T" n="72" break="no"/>bat vnitate &amp; Trinitate generaliter&amp; indistincte, 
+      <lb ed="#T" n="73"/>hoc est sine vlla personarum distincta 
+      nomina<lb ed="#T" n="74" break="no"/>tione, secundo specialiter &amp; distincte [Nunc vero 
+      <lb ed="#T" n="75"/>ad propositum.] In 1. parte primo determinat sola 
+      <lb ed="#T" n="76"/>essentiae vnitatem: secundo personarum in vna 
+      es<lb ed="#T" n="77" break="no"/>sentia pluralitatem [Personarum quoque 
+      plurali<lb ed="#T" n="78" break="no"/>tatem) Circa qua ponitur primo expositio August. 
+      <lb ed="#T" n="79"/>secundo expositio Hilarij [Hilarius] Tertio 
+      ex<lb ed="#T" n="80" break="no"/>positio quaedam Magistri ex verbis eiusdem [In 
+      <lb ed="#T" n="81"/>his verbis Hilarius. 
+    </p>
+            <p xml:id="pdt7y6-ee4404-d1e633">
+               <lb ed="#T" n="82"/>Nunc vero.] Hic ostendit vnitatem &amp; 
+      Trinita<lb ed="#T" n="83" break="no"/>tem specialiter &amp; distinctem, primo ostendens, cum 
+      <lb ed="#T" n="84"/>essentiae vnitate personarum plurium 
+      distinctio<lb ed="#T" n="85" break="no"/>nem: secundo Filij spiritualem 
+      generatio<lb ed="#T" n="86" break="no"/>nem. [Dauid quoque tertio] Spiritus sancti 
+      pro<lb ed="#T" n="87" break="no"/>cessionem [de Spiritu sancto. 
+      <lb ed="#T" n="88"/>[Nunc post testimonia. ] Hic probat per 
+      aucto<lb ed="#T" n="89" break="no"/>ritates noui Testamenti: primo per verba Christi. 
+      <lb ed="#T" n="90"/>in Euangelio: secundo per verba Apostolorum 
+      <lb ed="#T" n="91"/>de ipso [Ioannes quoque.] 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

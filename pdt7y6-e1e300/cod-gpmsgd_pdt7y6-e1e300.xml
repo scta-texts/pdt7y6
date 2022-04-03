@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="1"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e1e300"><!-- l1prooemium -->
+            <head xml:id="pdt7y6-e1e300-Hd1e99">Prooemium</head>
+            <p xml:id="pdt7y6-e1e300-d1e101">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0076.xml-->
+               <pb ed="#T" n="1"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>INNOCENTII QVINTI 
+      <lb ed="#T" n="2"/>PONTIFICIS MAXIMI 
+      <lb ed="#T" n="3"/>EX ORDINE PRAEDICATORVM. 
+      <lb ed="#T" n="4"/>ASSVMPTI, QVI ANTEA PETRVS DE 
+      <lb ed="#T" n="5"/>TARANTASIA VOCABATVR, 
+      <lb ed="#T" n="6"/>In Primum Sententiarum Commentaria. 
+      <lb ed="#T" n="7"/>PROOEMIVM 
+  </p>
+            <p xml:id="pdt7y6-e1e300-d1e125">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0076.xml-->
+               <cb ed="#T" n="b"/>
+               <lb ed="#T" n="8"/>VNQVID nosti ordinem 
+      <lb ed="#T" n="9"/>caeli, &amp; pones rationem eius in 
+      <lb ed="#T" n="10"/>terra? Nunquid eleuabis in 
+      ne<lb ed="#T" n="11" break="no"/>bula vocem tuam, &amp; impetus 
+      <lb ed="#T" n="12"/>aquarum operiet te? Iob 38. 
+      <lb ed="#T" n="13"/>Verba ista sunt Domini ad 
+      bea<lb ed="#T" n="14" break="no"/>tum Iob, ipsum sicut magistri discipulum 
+      exa<lb ed="#T" n="15" break="no"/>minantis, ne superbiat de perfectione virtutis 
+      <lb ed="#T" n="16"/>per defectum scientiae humiliantis. Hoc autem 
+      <lb ed="#T" n="17"/>fecit propositis ei quatuor quaestionibus 
+      difficili<lb ed="#T" n="18" break="no"/>bus, &amp; arduis, quarum prima est de ordinatione 
+      <lb ed="#T" n="19"/>caelorum. [Nunquid nosti.] Secunda est de 
+      dispo<lb ed="#T" n="20" break="no"/>sitione terrarum. [Et pones rationem. ] Tertia 
+      <lb ed="#T" n="21"/>de eleuatione nubium a terra ad caelum 
+      ascenden<lb ed="#T" n="22" break="no"/>tium. [Nunquid eleuabis.] Quarta de impetu 
+      <lb ed="#T" n="23"/>aquarum de caelo ad terram descedentium. [Et 
+      im<lb ed="#T" n="24" break="no"/>petus aquarum.] In quibus verbis spiritualiter 
+      in<lb ed="#T" n="25" break="no"/>tellectis notari potest quadruplex causa huius 
+      <lb ed="#T" n="26"/>Operis, scilicet Libri Sententiarum, qua cognita 
+      <lb ed="#T" n="27"/>patet aliquatenus notitia huius voluminis, seu 
+      <lb ed="#T" n="28"/>compilationis. Scire enim arbitramur, ait 
+      Philo<lb ed="#T" n="29" break="no"/>sophus, vnumquodque, cum causas cognoscimus 
+      <lb ed="#T" n="30"/>eius. Notatur ergo causa efficiens in potestate 
+      in<lb ed="#T" n="31" break="no"/>terrogantis; causa vero finalis, in vtilitate 
+      respon<lb ed="#T" n="32" break="no"/>dentis; causa vero materialis, in problemate 
+      in<lb ed="#T" n="33" break="no"/>quisitionis; causa formalis, id est, modus agendi, 
+      <lb ed="#T" n="34"/>in ordine interrogantis. 
+    </p>
+            <p xml:id="pdt7y6-e1e300-d1e190">
+               <lb ed="#T" n="35"/>Causa quidem efficiens Deus est, qui beato 
+      <lb ed="#T" n="36"/>Iob quaestiones has proposuit. Iob 38. Ipse enim 
+      <lb ed="#T" n="37"/>est auctor principalis totius Theologicae 
+      facul<lb ed="#T" n="38" break="no"/>tatis, Homo vero minister, vnde Psalmista; 
+      Lin<lb ed="#T" n="39" break="no"/>gua mea calamus scribae velociter scribentis. 
+      <lb ed="#T" n="40"/>Exodi 32. Descendit Moyses portans, (vt 
+      mini<lb ed="#T" n="41" break="no"/>ster scilicet) duas tabulas testimonij (in signum 
+      <lb ed="#T" n="42"/>duorum testamentorum) scriptas vtrasque digito 
+      <lb ed="#T" n="43"/>Dei, vt auctoris principalis. Notandum enim, 
+      <lb ed="#T" n="44"/>quod sicut aedificij matenalis, ita quadruplex est 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0076.xml-->
+      <cb ed="#T" n="c"/>
+               <lb ed="#T" n="45"/>causa huius Operis: Causa enim prima, &amp; 
+      princi<lb ed="#T" n="46" break="no"/>palis Deus est, intellectum compilatoris, sicut &amp; 
+      <lb ed="#T" n="47"/>cuiuslibet artificis illustrando, &amp; affectum 
+      mo<lb ed="#T" n="48" break="no"/>uendo ad operandum. Causa secundaria &amp; 
+      re<lb ed="#T" n="49" break="no"/>mota Prophetae, &amp; Apostoli, &amp; alij auctores 
+      <lb ed="#T" n="50"/>Sacri Canonis, materiam &amp; fundamentum Operis, 
+      <lb ed="#T" n="51"/>scilicet Scripturae sacrae verba ministrado. Causa 
+      <lb ed="#T" n="52"/>propinqua, sed non immediata expositores 
+      Ca<lb ed="#T" n="53" break="no"/>tholici, Hieronymus, Augustinus, &amp; caeteri, 
+      <lb ed="#T" n="54"/>materiam praeparando, &amp; quasi poliendo, id est, 
+      <lb ed="#T" n="55"/>Sacrae Scripturae verba exponendo. Causa vero 
+      <lb ed="#T" n="56"/>proxima &amp; immediata Magister Petrus 
+      Lombar<lb ed="#T" n="57" break="no"/>dus, Doctor Theologiae, postmodum Episcopus 
+      <lb ed="#T" n="58"/>Parisiensis, formam vltimam &amp; complementum 
+      <lb ed="#T" n="59"/>introducendo, id est, volumen compilando. Has 
+      <lb ed="#T" n="60"/>quatuor causas Magister tangit in Prologo suo 
+      <lb ed="#T" n="61"/>dicens, [Volumen Deo praestante, ecce causa 
+      pri<lb ed="#T" n="62" break="no"/>ma, [Copegimus,] ecce causa immediata; [Ex 
+      te<lb ed="#T" n="63" break="no"/>stimonio veritatis,] ecce causa secundaria &amp; 
+      remo<lb ed="#T" n="64" break="no"/>ta; [In qua maiorum,] ecce causa propinqua, sed non 
+      <lb ed="#T" n="65"/>immediata. Haec etiam quadruplex causa 
+      tangi<lb ed="#T" n="66" break="no"/>tur Cant. 4. Sicut turris Dauid collum tuum &amp;c. 
+      <lb ed="#T" n="67"/>collum quippe Ecclesiae est eius doctrina, quia 
+      <lb ed="#T" n="68"/>collum instrumentum est emittendae voci, quod 
+      <lb ed="#T" n="69"/>conformati debet turri Dauid, id est, sacrae 
+      Scri<lb ed="#T" n="70" break="no"/>pturae, cuius firmitas ex quatuor ostenditur, 
+      sci<lb ed="#T" n="71" break="no"/>licet ex auctoritate Christi inspirantis, quia [
+      tur<lb ed="#T" n="72" break="no"/>ris Dauid;] ex Auctorum sacrorum perfectis 
+      sen<lb ed="#T" n="73" break="no"/>tentijs, quia [mille clypei;] ex Catholicorum 
+      ex<lb ed="#T" n="74" break="no"/>positorum irrefragabilibus documentis, quia [
+      om<lb ed="#T" n="75" break="no"/>nis armatura fortium;] ex magistrorum rationibus. 
+      <lb ed="#T" n="76"/>&amp; argumentis, qui a [aedificata est cum 
+      propu<lb ed="#T" n="77" break="no"/>gnaculis;] Et haec etiam quadruplex causa 
+      tangi<lb ed="#T" n="78" break="no"/>tur tertij Reg. 5. Praecepit itaque Rex, vt 
+      tolle<lb ed="#T" n="79" break="no"/>rent lapides grandes &amp;c. quos dolauerunt 
+      caemen<lb ed="#T" n="80" break="no"/>tarij Hiram &amp; Salomonis. Porro Giblij 
+      praepara<lb ed="#T" n="81" break="no"/>uerunt ligna &amp; lapides &amp;c. In praecepto namque 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0077.xml-->
+      <pb ed="#T" n="2"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>Regis intelligitur inspiratio Saluatoris: in his 
+      qui<lb ed="#T" n="2" break="no"/>tulerunt lapides grandes, firmitas sententiarum in 
+      <lb ed="#T" n="3"/>Apostolis, &amp; Prophetis; in dolatione 
+      caementa<lb ed="#T" n="4" break="no"/>riorum, expositio Scripturae mediantibus 
+      exposi<lb ed="#T" n="5" break="no"/>toribus sacris, in praeparatione Gibliorum, qui  
+      <lb ed="#T" n="6"/>interpretantur librarij vel literati, diligentia 
+      <lb ed="#T" n="7"/>quae adhibetur a Magistris. Haec ergo est 
+      quadru<lb ed="#T" n="8" break="no"/>plex causa efficiens huius Operis; sed quia omnis 
+      <lb ed="#T" n="9"/>causa primaria, plus est influens in suum causatum, 
+      <lb ed="#T" n="10"/>quam secundaria, vt habetur lib. de causis, ideo 
+      <lb ed="#T" n="11"/>Deo tribuimus principaliter efficaciam huius 
+      <lb ed="#T" n="12"/>Operis: voluntas quippe Dei, vt ait Augustinus 
+      <lb ed="#T" n="13"/>lib. de Trinitate, causa est omnium specierum. 
+      <lb ed="#T" n="14"/>atque formarum, actionum, atque motionum. In 
+      <lb ed="#T" n="15"/>essendo quidem causa est specierum 
+      substantia<lb ed="#T" n="16" break="no"/>lium, formarum accidentalium, &amp; actionum 
+      spi<lb ed="#T" n="17" break="no"/>ritualium, &amp; motionum corporalium; in 
+      cognos<lb ed="#T" n="18" break="no"/>cendo etiam causa est specierum in habitu scientis; 
+      <lb ed="#T" n="19"/>formarum in actu cogitantis, quibus, secundum 
+      <lb ed="#T" n="20"/>Augustinum libro de Trinitate, informatur acies 
+      <lb ed="#T" n="21"/>cogitantis; actionum in proposito, vel 
+      imagina<lb ed="#T" n="22" break="no"/>tione scribere vel proferre volentis; &amp; motionum 
+      <lb ed="#T" n="23"/>in corporali motu scribentis vel proferentis. 
+    </p>
+            <p xml:id="pdt7y6-e1e300-d1e355">
+               <lb ed="#T" n="24"/>Causa vero finalis intelligitur in vtilitate 
+      re<lb ed="#T" n="25" break="no"/>spondentis. Non enim quaerit magister a 
+      discipu<lb ed="#T" n="26" break="no"/>lo, vt sciat, sed vt suppleat defectum discipuli 
+      <lb ed="#T" n="27"/>ignorantis. Nunquid, ait, nosti? quasi dicat per 
+      <lb ed="#T" n="28"/>teipsum nosse non potes, per doctrinam meam 
+      <lb ed="#T" n="29"/>nosse poteris. Inspiratio enim omnipotentis dat 
+      in<lb ed="#T" n="30" break="no"/>telligentiam, Iob 32. In quadruplici vero defectu 
+      <lb ed="#T" n="31"/>supplendo notatur quadruplex finis, siue vtilitas 
+      <lb ed="#T" n="32"/>huius Operis, imo totius Theologicae facultatis. 
+      <lb ed="#T" n="33"/>Omnis enim Scriptura diuinitus inspirata vtilis 
+      <lb ed="#T" n="34"/>est, vt ait Apostolus 2. Timoth. 3. ad docendum, 
+      <lb ed="#T" n="35"/>(Glossa, ignorantes) ad arguendum (Glossa, 
+      negli<lb ed="#T" n="36" break="no"/>gentes) ad corripiendum, (Glossa, contumaces 
+      <lb ed="#T" n="37"/>ad erudiendum in iustitia (Glossa, rudes &amp; 
+      insipien<lb ed="#T" n="38" break="no"/>tes.) Quae quatuor vtilitates huius Operis in 
+      ver<lb ed="#T" n="39" break="no"/>bo proposito intelliguntur. Prima est, vt caelestia. 
+      <lb ed="#T" n="40"/>nouerimus per fidei auctoritatem, Ioan. 20. Haec 
+      <lb ed="#T" n="41"/>scripta sunt, vt credatis; quod notatur, cum ait, 
+      <lb ed="#T" n="42"/>Nunquid nosti ordinem caeli? Caeli namque 
+      or<lb ed="#T" n="43" break="no"/>dinem nouit, qui caelestia caelesti fidei lumine 
+      <lb ed="#T" n="44"/>conspicit. Secunda est, vt credita intelligamus 
+      <lb ed="#T" n="45"/>per rationem, secundum illud ad Rom. 1. 
+      Inuisi<lb ed="#T" n="46" break="no"/>bilia Dei &amp;c. quod notatur, cum ait, Et pones 
+      <lb ed="#T" n="47"/>rationem eius in terra: rationem namque ordinis 
+      <lb ed="#T" n="48"/>caeli in terra ponit, qui ad intelligenda caelestia de 
+      <lb ed="#T" n="49"/>terrenis congruas similitudines, &amp; rationes 
+      indu<lb ed="#T" n="50" break="no"/>cit. Tertia est, vt credita, &amp; intellecta principia 
+      <lb ed="#T" n="51"/>fidei contra fidei aduersarios defendamus per 
+      ra<lb ed="#T" n="52" break="no"/>tionem probabilem. Nam, sic ut ait Augustinus 
+      <lb ed="#T" n="53"/>libro de Trin. Aduersus garrulos ratiocinatores, 
+      <lb ed="#T" n="54"/>elatiores quam capaciores rationibus Catholicis, 
+      <lb ed="#T" n="55"/>&amp; similitudinibus congruis est vtendum. Quae 
+      <lb ed="#T" n="56"/>vtilitas notatur, cum ait; Nunquid eleuabis 
+      vo<lb ed="#T" n="57" break="no"/>cem, vocem quippe in nebula tonando eleute 
+      <lb ed="#T" n="58"/>qui contra fidei aduersarios de caelestibus 
+      con<lb ed="#T" n="59" break="no"/>stanter docet, &amp; praedicat. Quarta est, vt circa 
+      ea<lb ed="#T" n="60" break="no"/>dem caelestia credita, &amp; intellecta afficiamur 
+      per<lb ed="#T" n="61" break="no"/>mentis deuotionem, sicut anima, quae dicebat,  
+      <lb ed="#T" n="62"/>Cant. 5. Anima mea liquefacta est &amp;c. Qui 
+      vlti<lb ed="#T" n="63" break="no"/>mus finis notatur, cum ait: Et impetus aquarum. 
+      <lb ed="#T" n="64"/>Illum quippe impetus aquarum caelestium operit,  
+      <lb ed="#T" n="65"/>qui circa verba coelestia affectum in lacrymas 
+      com<lb ed="#T" n="66" break="no"/>punctionis, vel deuotionis prorumpentem 
+      conci<lb ed="#T" n="67" break="no"/>pit. Ordinem vero caeli nosse, pertinet ad actum, 
+      <lb ed="#T" n="68"/>seu finem docendi: Rationem vero eius in terra 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0077.xml-->
+      <cb ed="#T" n="b"/>
+               <lb ed="#T" n="69"/>ponere, ad actum arguendi; In nebula vocem 
+      ele<lb ed="#T" n="70" break="no"/>uare, ad actum corripiendi; Aquarum impetu 
+      per<lb ed="#T" n="71" break="no"/>feruorem deuotionis operiri, ad actum in iustita 
+      <lb ed="#T" n="72"/>erudiendi. 
+    </p>
+            <p xml:id="pdt7y6-e1e300-d1e469">
+               <lb ed="#T" n="73"/>Causa vero materialis tangitur in quatuor 
+      pro<lb ed="#T" n="74" break="no"/>blematibus quaestionis secundum quatuor libros 
+      <lb ed="#T" n="75"/>partiales huius totius compilationis. Primum 
+      <lb ed="#T" n="76"/>problema est de ordine caeli, in quo intelligitur  
+      <lb ed="#T" n="77"/>ordo diuinae hicratchiae: caelum quippe significat  
+      <lb ed="#T" n="78"/>altitudinem diuinae naturae secundum illud 
+      Isa<lb ed="#T" n="79" break="no"/>14. In caelum conscendam &amp;c. Ordo caeli 
+      signifi<lb ed="#T" n="80" break="no"/>cat ordinem originis, qui attenditur in personarum 
+      <lb ed="#T" n="81"/>distinctione, quo vnus est ex altero, &amp; quo vnus 
+      <lb ed="#T" n="82"/>est prior altero; de hoc vero ordine caeli est 
+      ma<lb ed="#T" n="83" break="no"/>teria primi libri. Secundum problema est de 
+      dis<lb ed="#T" n="84" break="no"/>positione terrae, in quo intelligitur productio 
+      <lb ed="#T" n="85"/>creaturae: terra enim accipitur loco primae 
+      mate<lb ed="#T" n="86" break="no"/>riae, Gen. 1. Terra (id est, prima materia in se 
+      con<lb ed="#T" n="87" break="no"/>siderata) erat inanis (a carentia formae 
+      substan<lb ed="#T" n="88" break="no"/>tialis) &amp; vacua (a carentia formae quantitatis) 
+      <lb ed="#T" n="89"/>(&amp; tenebrae) a carentia sormae qualitatis illustrantis, 
+      <lb ed="#T" n="90"/>&amp; notificantis: ordinem vero caeli in terra ponere, 
+      <lb ed="#T" n="91"/>est vestigia Trinitatis &amp; Vnitatis in materia 
+      im<lb ed="#T" n="92" break="no"/>primere disponendo ominia in mensura, qua 
+      de<lb ed="#T" n="93" break="no"/>monstratur Patris potentia; in numero, quo 
+      sa<lb ed="#T" n="94" break="no"/>pientia Filij; in pondere, quo bonitas 
+      Spiritus<lb ed="#T" n="95" break="no"/>sancti: Sap. 11. Omne namque, quod est, habet  
+      <lb ed="#T" n="96"/>terminatum, &amp; distinctum, &amp; ordinatum esse: de 
+      <lb ed="#T" n="97"/>hoc autem agit in lib. 2. Tertium problema est 
+      <lb ed="#T" n="98"/>de eleuatione nebulae, in quo intelligitur 
+      assum<lb ed="#T" n="99" break="no"/>ptio naturae humanae: haec est enim nebula, in 
+      <lb ed="#T" n="100"/>qua dixit Dominus se habitare 3. Reg. 8. Haec 
+      <lb ed="#T" n="101"/>est nebula parua, quasi vestigium hominis, quae 
+      <lb ed="#T" n="102"/>apparuit Heliae 3. Reg. 18. quam nebulam leuem 
+      <lb ed="#T" n="103"/>ascendens Dominus dignatus est AEgyptum 
+      in<lb ed="#T" n="104" break="no"/>trare, Isaiae 20. Hanc nebulam calor Solaris, id  
+      <lb ed="#T" n="105"/>est, Spiritus Sanctus depurauit a terrena 
+      grauita<lb ed="#T" n="106" break="no"/>te, &amp; obscuritate sanctificando: Ad caelum 
+      leua<lb ed="#T" n="107" break="no"/>uit personae Filij vniendo, secundum illud 
+      Eze<lb ed="#T" n="108" break="no"/>chiel. 32. Solem nube tegam, &amp; sic Solem nobis 
+      <lb ed="#T" n="109"/>contemperauit, Deum in mundo visibilem 
+      facien<lb ed="#T" n="110" break="no"/>do Bar. 3. Post haec in terris visus est. De hac 
+      <lb ed="#T" n="111"/>eleuatione nebulae agitur in 3. libro. Quartum 
+      <lb ed="#T" n="112"/>problema est de impetu aquarum, in quo 
+      intelli<lb ed="#T" n="113" break="no"/>gitur abundantia Sacramentalis gratiae fluens de 
+      <lb ed="#T" n="114"/>fontibus Saluatoris, secundum illud Isa. 12. 
+      Han<lb ed="#T" n="115" break="no"/>rietis aquas in gaudio de fontibus &amp;c. Ad 
+      munda<lb ed="#T" n="116" break="no"/>tionem &amp; ablutionem totius Ecclesiae, secundum 
+      <lb ed="#T" n="117"/>illud Ephes. 5. Mundans eam lauacro aduae in 
+      <lb ed="#T" n="118"/>verbo vitae, vt exhiberet sibi gloriosam 
+      Eccle<lb ed="#T" n="119" break="no"/>siam, non habentem maculam, culpae originalis, 
+      <lb ed="#T" n="120"/>aut rugam, id est, vetustatem culpae venialis. Et  
+      <lb ed="#T" n="121"/>de hoc impetu aquarum agitur in 4. lib.  
+    </p>
+            <p xml:id="pdt7y6-e1e300-d1e578">
+               <lb ed="#T" n="122"/>Causa vero formalis siue modus agendi 
+      tangi<lb ed="#T" n="123" break="no"/>tur in ordine interrogationis. Prima si quidem 
+      in<lb ed="#T" n="124" break="no"/>terrogatio est de caelo. Secunda de terra. Tertia 
+      <lb ed="#T" n="125"/>de nebula. Quarta de aqua. Hic est congruus 
+      or<lb ed="#T" n="126" break="no"/>do naturae, de caelo namque ad terram radius 
+      So<lb ed="#T" n="127" break="no"/>lis dirigitur, quo recepto in terra calor generatur,  
+      <lb ed="#T" n="128"/>quo calore vapor nebulae eleuatur, quae nebula 
+      <lb ed="#T" n="129"/>frigore congrauata in aquam resoluitur, secundum 
+      <lb ed="#T" n="130"/>illud Sap. 2. Sicut nebula dissoluitur, quae fugata 
+      <lb ed="#T" n="131"/>est a radijs Solis. &amp;c. Hic etiam est congruus 
+      <lb ed="#T" n="132"/>ordo huius doctrinae. Primo enim ordinem caeli 
+      <lb ed="#T" n="133"/>describit, qui duplex est; vnus, quo ipsum 
+      cae<lb ed="#T" n="134" break="no"/>lum in se est ordinatum, scilicet distinctio 
+      perso<lb ed="#T" n="135" break="no"/>narum; alter, quo ordinat alia, scilicet 
+      poten<lb ed="#T" n="136" break="no"/>sia, &amp; sapientia, &amp; voluntas Dei, per quam fit 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0078.xml-->
+      <pb ed="#T" n="3"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>productio, &amp; ordinatio creaturarum. Et de his 
+      <lb ed="#T" n="2"/>per ordinem agit in primo libro. Secundo 
+      ratio<lb ed="#T" n="3" break="no"/>nem caeli in terra ponit, quia rationem vestigij in 
+      <lb ed="#T" n="4"/>creaturis irrationalibus, &amp; rationem imaginis in 
+      <lb ed="#T" n="5"/>creaturis rationalibus describit, de quibus agitur  
+      <lb ed="#T" n="6"/>in 2. libro. Denique eleuationem nebulae 
+      descri<lb ed="#T" n="7" break="no"/>bit: Per nebulam namque eleuatam caelum 
+      obum<lb ed="#T" n="8" break="no"/>bratur, in quo figuratur Christi Incarnatio, &amp; 
+      <lb ed="#T" n="9"/>Passio; terra pluuijs irrigata faecundatur, in quo 
+      <lb ed="#T" n="10"/>significatur virtutum, &amp; donorum collatio, &amp; 
+      <lb ed="#T" n="11"/>praeceptorum impletio; de his vero agitur in 
+      3<lb ed="#T" n="12" break="no"/>libro. Impetum vero aquarum operientium 
+      vlti<lb ed="#T" n="13" break="no"/>mo describit, quando duplicem effectum 
+      Sacra<lb ed="#T" n="14" break="no"/>mentorum, scilicet stolam gratiae &amp; stolam 
+      glo<lb ed="#T" n="15" break="no"/>riae prosequitur, &amp; exponit, de quibus agitur in 
+      A<lb ed="#T" n="16" break="no"/>Liber enim iste in quatuor partiales libros 
+      diui<lb ed="#T" n="17" break="no"/>ditur, sicut fons Paradisi in quatuor capita, 
+      Gene<lb ed="#T" n="18" break="no"/>sis 2. quo e caelo scilicet irrigemur, vt aqua 
+      Sa<lb ed="#T" n="19" break="no"/>pientiae salutaris potati ordinem caeli nosse per 
+      <lb ed="#T" n="20"/>fidem, &amp; rationem eius in terra ponere per sidei 
+      <lb ed="#T" n="21"/>declarationem, &amp; vocem in nebula eleuare per 
+      <lb ed="#T" n="22"/>fidei defensionem, &amp; impetu aquarum operiri per 
+      <lb ed="#T" n="23"/>ndei deuotionem valeamus prestante Domino 
+      <lb ed="#T" n="24"/>lesu Christo. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

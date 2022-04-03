@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="393"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-f20596"><!-- l1d48q1 -->
+            <head xml:id="pdt7y6-f20596-Hd1e99">Quaestio 1</head>
+            <head xml:id="pdt7y6-f20596-Hd1e101" type="question-title">De conformitate voluntatis nostrae ad divinam</head>
+            <p xml:id="pdt7y6-f20596-d1e104">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0468.xml-->
+               <pb ed="#T" n="393"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>QVESTIO I. 
+      <lb ed="#T" n="2"/>DECONE ORMITATE 
+      VO<lb ed="#T" n="3" break="no"/>LVNTATISNOSTRAEAbDIVINAM 
+      <lb ed="#T" n="4"/>IN OENERALI. 
+    </p>
+            <p xml:id="pdt7y6-f20596-d1e122">
+               <lb ed="#T" n="5"/>TI sueruntur tria. 
+      <lb ed="#T" n="6"/> Primo de conformtate voluntatis 
+      no<lb ed="#T" n="7" break="no"/>strae ad piuinom in generali. 
+      <lb ed="#T" n="8"/>Secundo in quo teneamur conformati ei. 
+      <lb ed="#T" n="9"/>Tertio de quibussam tasibus spiritualibus 
+      <lb ed="#T" n="10"/>circa huiusmod conforfnitatem. 
+    </p>
+            <p xml:id="pdt7y6-f20596-d1e138">
+               <lb ed="#T" n="11"/>Circa primum quaeruntur duo. 
+      <lb ed="#T" n="12"/>Pritao an voluntas humrna possit 
+      conforma<lb ed="#T" n="13" break="no"/>ri Diuinae.
+      <lb ed="#T" n="14"/>Secundo an omnes teneantur ad huiusmodi 
+      <lb ed="#T" n="15"/>conformitatem. 
+    </p>
+            <div xml:id="pdt7y6-f20596-Dd1e152">
+               <head xml:id="pdt7y6-f20596-Hd1e154">Articulus 1</head>
+               <head xml:id="pdt7y6-f20596-Hd1e156" type="question-title">
+  An voluntas humana possit conformati Divinae
+</head>
+               <p xml:id="pdt7y6-f20596-d1e159">
+                  <lb ed="#T" n="16"/>Articvlvs I. 
+      <lb ed="#T" n="17"/>An voluntas humana possit conformati Diuinae.
+</p>
+               <p xml:id="pdt7y6-f20596-d1e166">
+                  <lb ed="#T" n="18"/>AD primum sic proceditur. 1. Isa. Sicut  
+      <lb ed="#T" n="19"/>exaltantur coeli a terra &amp;c. Sed terra non 
+      <lb ed="#T" n="20"/>potest conformati coelo: ergo nec cogitatio 
+      ho<lb ed="#T" n="21" break="no"/>minis cogitationi Diuinae: ergo nec voluntas 
+      <lb ed="#T" n="22"/>voluntata. 
+    </p>
+               <p xml:id="pdt7y6-f20596-d1e179">
+                  <lb ed="#T" n="23"/>2. Super illud Psal. Exultate iusti in Domino. 
+      <lb ed="#T" n="24"/>Gloss. Quantum distant Deus &amp; homo, tantum 
+      <lb ed="#T" n="25"/>voluntas Dei &amp; voluntas hominis: sed hominis 
+      <lb ed="#T" n="26"/>natura non potest esse conformis naturae 
+      diui<lb ed="#T" n="27" break="no"/>nae: ergo nec voluntas volunitati. 
+    </p>
+               <p xml:id="pdt7y6-f20596-d1e193">
+                  <lb ed="#T" n="28"/>3. Omnis conformitas est per aliquam 
+      appro<lb ed="#T" n="29" break="no"/>ximationem: sed distantium in infinitum nulla 
+      <lb ed="#T" n="30"/>est approximatio: ergo nulla est conformatio. 
+    </p>
+               <p xml:id="pdt7y6-f20596-d1e202">
+                  <lb ed="#T" n="31"/>4. Conformitas sit per conuenientiam in 
+      for<lb ed="#T" n="32" break="no"/>ma vna: sed inter Deum &amp; homines non potest 
+      <lb ed="#T" n="33"/>esse conuenientia in forma vna: ergo nec 
+      con<lb ed="#T" n="34" break="no"/>formatio. 
+    </p>
+               <p xml:id="pdt7y6-f20596-d1e213">
+                  <lb ed="#T" n="35"/>5. Conformitas est relatio aequiparantiae: ergo 
+      <lb ed="#T" n="36"/>aequaliter denominat vtrumque extremum: sed 
+      <lb ed="#T" n="37"/>biuina voluntas non conformatur humanae: 
+      er<lb ed="#T" n="38" break="no"/>go nec humana diuinae. 
+    </p>
+               <p xml:id="pdt7y6-f20596-d1e224">
+                  <lb ed="#T" n="39"/>6. Si voluntas humana conformatur Diuinae 
+      <lb ed="#T" n="40"/>aut ergo seipsa &amp; quasi per essentiam, aut per 
+      <lb ed="#T" n="41"/>conuenientiam in altero &amp; quasi per 
+      participa<lb ed="#T" n="42" break="no"/>tionem: si primo modo ergo nunquam potest 
+      <lb ed="#T" n="43"/>esse non conformis: si secundo modo, ergo 
+      <lb ed="#T" n="44"/>Deus &amp; lomo conueniunt in aliquo 
+      commu<lb ed="#T" n="45" break="no"/>hi, quod falsum est: ergo videtur quod non 
+      <lb ed="#T" n="46"/>possit conformati. 
+    </p>
+               <p xml:id="pdt7y6-f20596-d1e244">
+                  <lb ed="#T" n="47"/>Contra. 1. Nihil indigens regula 
+      rectifican<lb ed="#T" n="48" break="no"/>te potest fieri rectum nisi per conformitatem ad 
+      <lb ed="#T" n="49"/>regulam: voluntas humana voluntate diuina 
+      <lb ed="#T" n="50"/>indiget vt regula rectificante: ergo non sit recta 
+      <lb ed="#T" n="51"/>nisi per conformitatem ad ipsam: sed voluntas 
+      <lb ed="#T" n="52"/>humana potest rectificari: ergo potest piuihae 
+      <lb ed="#T" n="53"/>voluntati conformati. 
+    </p>
+               <p xml:id="pdt7y6-f20596-d1e262">
+                  <lb ed="#T" n="54"/>2. Omnis obediens alteri voluntarie, 
+      confor<lb ed="#T" n="55" break="no"/>mat voluntatem suam eius voluntati: sed sancti 
+      <lb ed="#T" n="56"/>obediunt Deo voluntarie: ergo conformant. 
+      <lb ed="#T" n="57"/>voluntatem suam diuinae voluntati. 
+    </p>
+               <p xml:id="pdt7y6-f20596-d1e274">
+                  <lb ed="#T" n="58"/>3. Quascumque voluntates contingit velle 
+      <lb ed="#T" n="59"/>idem &amp; eodem fine contingit conformati: sed 
+      <lb ed="#T" n="60"/>voluntatem diuinam &amp; humanam contingit 
+      vel<lb ed="#T" n="61" break="no"/>le idem &amp; eodem fine, scilicet propter Deum: 
+      <lb ed="#T" n="62"/>ergo contingit eas conformati. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0468.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="63"/>4. Prim. Cor. 6. Dicit Apostolus, quod qui  
+      <lb ed="#T" n="64"/>adhaeret Deo vnus spiritus est &amp;c. Et Matth. 12. 
+      <lb ed="#T" n="65"/>Dicit pominus, quod qui facit voluntatem 
+      <lb ed="#T" n="66"/>Patris, frater &amp; soror eius est &amp;c. Sed haec non 
+      <lb ed="#T" n="67"/>dicuntur nisi propter conformitatem 
+      volun<lb ed="#T" n="68" break="no"/>tatis. 
+    </p>
+               <p xml:id="pdt7y6-f20596-d1e305">
+                  <lb ed="#T" n="69"/>Respondeo. Conformia aliqua contingit esse 
+      <lb ed="#T" n="70"/>dupliciter vel dici: aut quia ambo participant 
+      <lb ed="#T" n="71"/>formum vnam, sicut album albo conforme est: 
+      <lb ed="#T" n="72"/>aut quia in vno est per participationem quod in 
+      <lb ed="#T" n="73"/>altero per essentiam, sicut album est conforme 
+      <lb ed="#T" n="74"/>albedini. Primo modo conformatur compositu 
+      <lb ed="#T" n="75"/>composito, quia in vtroque est duo reperire, 
+      <lb ed="#T" n="76"/>vnum in quo cum altero conuenit; &amp; alterum 
+      <lb ed="#T" n="77"/>in quo differt. Secundo modo conformatur 
+      com<lb ed="#T" n="78" break="no"/>positum simplici. Primo modo non 
+      conforma<lb ed="#T" n="79" break="no"/>tur creatura creatori: secundo modo 
+      conforma<lb ed="#T" n="80" break="no"/>ri petest, quid rectitudinem quam habet 
+      volun<lb ed="#T" n="81" break="no"/>tas dinina per essentiam, habet voluntas 
+      creatu<lb ed="#T" n="82" break="no"/>sae per participationem. Haec vero participatio 
+      <lb ed="#T" n="83"/>est secundum conuenientiam seu habitudinem 
+      <lb ed="#T" n="84"/>proportionalitatis, non proportionis. 
+      Propor<lb ed="#T" n="85" break="no"/>tio quippe est habitudo certa vnius ad vnum, vt 
+      <lb ed="#T" n="86"/>dualitatis ad quaternarium, subdupla scilicet,  
+      <lb ed="#T" n="87"/>&amp; hoc modo voluntas humana non habet 
+      con<lb ed="#T" n="88" break="no"/>uenientiam cum diuina, quia finiti ad infinitum 
+      <lb ed="#T" n="89"/>nulla est proportio. Proportionalitas vero est 
+      <lb ed="#T" n="90"/>duorum ad duo: est enim comparatio propora 
+      <lb ed="#T" n="91"/>tionum: sicut cum dicitur eadem est 
+      proportio<lb ed="#T" n="92" break="no"/>duorum ad quatuor, quae est sex ad duodecim, 
+      <lb ed="#T" n="93"/>scilicet subdupla: haec enim conuenientia in 
+      ha<lb ed="#T" n="94" break="no"/>pitudine subduplae proportionis, 
+      proportionali<lb ed="#T" n="95" break="no"/>tas dicitur. Et hoc modo voluntas humana 
+      ha<lb ed="#T" n="96" break="no"/>bet conuenientiam cum voluntate diuina, quia 
+      <lb ed="#T" n="97"/>icut volusitas dei comparatur ad suum volitum, 
+      <lb ed="#T" n="98"/>sic humana ad suum: proportionalitas enim 
+      be<lb ed="#T" n="99" break="no"/>ne potest esse finitorum ad infinita: sicut enim 
+      <lb ed="#T" n="100"/>se habet infinitum ad finitum, sic potest dici 
+      sinm<lb ed="#T" n="101" break="no"/>tum ad infinitum. 
+    </p>
+               <p xml:id="pdt7y6-f20596-d1e379">
+                  <lb ed="#T" n="102"/>Ad 1. Sicut exaltantur coeli &amp;c. Resp. Illud 
+      <lb ed="#T" n="103"/>intelligitur de cogitationibus inalis, non de 
+      <lb ed="#T" n="104"/>ponis. Vel dicendum quod terra conformari 
+      <lb ed="#T" n="105"/>potest coelo secundo modo conformitatis, non 
+      <lb ed="#T" n="106"/>primo: nam quamuis non conueniat cum eo in 
+      <lb ed="#T" n="107"/>forma, tamen potest participare accidentaliter  
+      <lb ed="#T" n="108"/>qualitatem luminosatis, quam coelum habet  
+      <lb ed="#T" n="109"/>e lentialiter.  
+    </p>
+               <p xml:id="pdt7y6-f20596-d1e399">
+                  <lb ed="#T" n="110"/>Ad 2. De infinita distantia. Resp. Infinita 
+      di<lb ed="#T" n="111" break="no"/>stanitia impedit conformitatem proportionis, sed  
+      <lb ed="#T" n="112"/>non proportionalitatis: sicut punctus a linea in 
+      <lb ed="#T" n="113"/>infinitum distat, vnde eius ad lineam non potest 
+      <lb ed="#T" n="114"/>esse proportio; sed tamen potest esse 
+      propor<lb ed="#T" n="115" break="no"/>tionalitas: nam sicut se habet linea ad lineam, 
+      <lb ed="#T" n="116"/>sic punctus ad punctum. Vel dicendum, quod 
+      <lb ed="#T" n="117"/>in infinitum distat secundum ordinem haturae 
+      <lb ed="#T" n="118"/>sed non secundum ordinen rationis: quia 
+      in<lb ed="#T" n="119" break="no"/>tellectus humanus natus est perfici prima 
+      verita<lb ed="#T" n="120" break="no"/>te, &amp; voluntas humana prima bonitate. 
+    </p>
+               <p xml:id="pdt7y6-f20596-d1e425">
+                  <lb ed="#T" n="121"/>Ad 3. Omnis conformitas est per 
+      approxima<lb ed="#T" n="122" break="no"/>tionem. Resp. Infinita distantia impedit 
+      approxi<lb ed="#T" n="123" break="no"/>mationem secundum couuenientiam 
+      proportio<lb ed="#T" n="124" break="no"/>nis, sed non proportionalitatis: vel secundum 
+      <lb ed="#T" n="125"/>conformitatem participationis, non 
+      imita<lb ed="#T" n="126" break="no"/>tionis. 
+    </p>
+               <p xml:id="pdt7y6-f20596-d1e441">
+                  <lb ed="#T" n="127"/>Ad 4. Conformitas sit per conuenientiam in 
+      <lb ed="#T" n="128"/>forma vna. Resp. Verum est de conformitate 
+      <lb ed="#T" n="129"/>participationis, non imitationis 
+    </p>
+               <p xml:id="pdt7y6-f20596-d1e451">
+                  <lb ed="#T" n="130"/>Ad 5. Conformitas est relatio aequiparantiae. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0469.xml-->
+      <pb ed="#T" n="394"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>Resp. Quamuis conformitas sit de se relatio 
+      <lb ed="#T" n="2"/>quiparantiae, tamen prout fundatur super 
+      ha<lb ed="#T" n="3" break="no"/>pitudinem causa &amp; causati non recipit 
+      recipro<lb ed="#T" n="4" break="no"/>cationem, quia vt dicit Dionysius in causalibus 
+      <lb ed="#T" n="5"/>&amp; causatis non recipimus reciprocationem. 
+    </p>
+               <p xml:id="pdt7y6-f20596-d1e473">
+                  <lb ed="#T" n="6"/>Ad O Aut seipsa conformatur &amp;c. Resp. 
+      Con<lb ed="#T" n="7" break="no"/>formatur diuinae voluntas humana non seipsa, 
+      <lb ed="#T" n="8"/>sed per conaenientiam in altero, id est in gratia 
+      <lb ed="#T" n="9"/>quae est forma perfectiua inhaerens voluntati 
+      hu<lb ed="#T" n="10" break="no"/>manae, &amp; est forma exemplata siue similitudo: 
+      <lb ed="#T" n="11"/>voluntatis Diuinae: haec autem conuenientia 
+      <lb ed="#T" n="12"/>non est comparationis sed imitationis. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f20596-Dd1e492">
+               <head xml:id="pdt7y6-f20596-Hd1e494">Articulus 2</head>
+               <head xml:id="pdt7y6-f20596-Hd1e496" type="question-title">
+  An omnes teneantur conformari voluntati Divinae
+</head>
+               <p xml:id="pdt7y6-f20596-d1e499">
+                  <lb ed="#T" n="13"/>Articvlvs II. 
+      <lb ed="#T" n="14"/>An omnes teneantur conformari voluntati Diuinae. 
+    </p>
+               <p xml:id="pdt7y6-f20596-d1e506">
+                  <lb ed="#T" n="15"/>AD secundum articulum proceditur sic. 1. 
+      <lb ed="#T" n="16"/>Sicut se habet intellectus noster ad diuinu, 
+      <lb ed="#T" n="17"/>sic voluntas nostra ad voluntatem Dei: sed non 
+      <lb ed="#T" n="18"/>omnes tenentur conformate intellectum suum. 
+      <lb ed="#T" n="19"/>Diuino, alioquin nullus cum falsa opinione 
+      <lb ed="#T" n="20"/>saluaretur: ergo nec voluntatem voluntati. 
+    </p>
+               <p xml:id="pdt7y6-f20596-d1e522">
+                  <lb ed="#T" n="21"/>2. Nullus tenetur ad impossibile: voluntati. 
+      <lb ed="#T" n="22"/>vero obstinatae in malo, conformari Diuina 
+      <lb ed="#T" n="23"/>voluntati est impossibile: ergo non tenetur 
+      con<lb ed="#T" n="24" break="no"/>formari voluntatidiuinae. 
+    </p>
+               <p xml:id="pdt7y6-f20596-d1e534">
+                  <lb ed="#T" n="25"/>3. Si omnes tenentur ad hoc, ergo peccator  
+      <lb ed="#T" n="26"/>in ipso actu peccati tenetur conformate se 
+      diui<lb ed="#T" n="27" break="no"/>nae voluntati: ergo tenetur ad impossibile. 
+    </p>
+               <p xml:id="pdt7y6-f20596-d1e543">
+                  <lb ed="#T" n="28"/>4. Qui peccat venialiter non conformat se: 
+      <lb ed="#T" n="29"/>ergo peccat omissione. 
+    </p>
+               <p xml:id="pdt7y6-f20596-d1e550">
+                  <lb ed="#T" n="30"/>5. Omuis obligatio ab aliquo praecepto 
+      ori<lb ed="#T" n="31" break="no"/>tur: sed nullum praeceptum datum legitur de 
+      <lb ed="#T" n="32"/>huiusmodi conformitate: ergo non tenemur &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-f20596-d1e559">
+                  <lb ed="#T" n="33"/>Contra. 1. Super illud Psal. Non adhaesit 
+      mili<lb ed="#T" n="34" break="no"/>cor prauum, dicit Gloss. Voluntas Dei est 
+      re<lb ed="#T" n="35" break="no"/>gula cui nos oportet conformare: ergo tenemur. 
+      <lb ed="#T" n="36"/>ad conformitatem voluntatis Diuinae: ergo. 
+    </p>
+               <p xml:id="pdt7y6-f20596-d1e570">
+                  <lb ed="#T" n="37"/>2. Tenemur Deo obedire: ergo tenemur 
+      vo<lb ed="#T" n="38" break="no"/>luntatem nostram voluntati Dei conformare, 
+    </p>
+               <p xml:id="pdt7y6-f20596-d1e577">
+                  <lb ed="#T" n="39"/>3. Omnes tenentur ad rectitudinem ordinis 
+      <lb ed="#T" n="40"/>sui, quantum in eis est: sed rectitudo consistit,  
+      <lb ed="#T" n="41"/>in Diuinae voluntatis conformitate: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-f20596-d1e587">
+                  <lb ed="#T" n="42"/>Respondeo. Differunt obligatio praeceptorum 
+      <lb ed="#T" n="43"/>affirmatiuorum, &amp; negatiuorum: quia, illa 
+      obli<lb ed="#T" n="44" break="no"/>gant semper sed non ad semper: negatiua vero 
+      <lb ed="#T" n="45"/>semper &amp; ad semper. Praeceptum vero de 
+      con<lb ed="#T" n="46" break="no"/>formando, praeceptum est ad vtrumque 
+      genera<lb ed="#T" n="47" break="no"/>le non speciale, nam in vtrisque tenemur 
+      con<lb ed="#T" n="48" break="no"/>formari. Quoad conformitatem ergo in 
+      affirma<lb ed="#T" n="49" break="no"/>tiuis obligat seimper sed non ad semper. Quoad 
+      <lb ed="#T" n="50"/>conformitatem in negatiuis, semper&amp; ad semper. 
+      <lb ed="#T" n="51"/>Quia vero genus non facit numerum cum 
+      spe<lb ed="#T" n="52" break="no"/>cie, ideo tran sgressio vel omissio huius 
+      prae<lb ed="#T" n="53" break="no"/>cepti generalis non facit numerum cum alterius. 
+      <lb ed="#T" n="54"/>praecepti specialis transgressione vel omissione. 
+    </p>
+               <p xml:id="pdt7y6-f20596-d1e618">
+                  <lb ed="#T" n="55"/>Ad 1. De inteilectu. Resp. Non est simile 
+      <lb ed="#T" n="56"/>quia conformati secundum voluntatem magis 
+      <lb ed="#T" n="57"/>est in nostra potestate: intellectus enim cogi 
+      <lb ed="#T" n="58"/>tur rationibus. Praeterea rectitudo voluntatis 
+      <lb ed="#T" n="59"/>magis est de necessitate salutis, quam 
+      intelle<lb ed="#T" n="60" break="no"/>ctus: nihilominus tamen in intelligibilibus 
+      ne<lb ed="#T" n="61" break="no"/>cessariijs ad salutem tenemur intellectum etiam 
+      <lb ed="#T" n="62"/>conformate, vt in articulis fidei. 
+    </p>
+               <p xml:id="pdt7y6-f20596-d1e638">
+                  <lb ed="#T" n="63"/>Ad 2. De volufitate obstinata. Resp. Duplex 
+      <lb ed="#T" n="64"/>est obstinatio voluntatis; quaedam voluntaria; 
+      <lb ed="#T" n="65"/>&amp; haec deponi potest, ideo non absoluit a 
+      con<lb ed="#T" n="66" break="no"/>formitate: quaedam necessaria in termino viae, vt 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0469.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>in damnatis: haec absoluit: nihilominus tamen 
+      <lb ed="#T" n="68"/>perpetuam obtinet peenam, quia non 
+      confor<lb ed="#T" n="69" break="no"/>nauit suo tempore, vnde non reportat lucrum 
+      <lb ed="#T" n="70"/>de sua malitia¬ 
+    </p>
+               <p xml:id="pdt7y6-f20596-d1e662">
+                  <lb ed="#T" n="71"/>Ad 3. De eo qui actu peccat &amp;c. Resp. Ad  
+      <lb ed="#T" n="72"/>impossibile per accidens potest quis teneri, sed  
+      <lb ed="#T" n="73"/>non ad impossibile per se: peccans enim in 
+      ipso<lb ed="#T" n="74" break="no"/>actu peccati tenetur non peccare, licet non 
+      pec<lb ed="#T" n="75" break="no"/>care sit ei impossibile per accidens, non per se. 
+    </p>
+               <p xml:id="pdt7y6-f20596-d1e675">
+                  <lb ed="#T" n="76"/>Ad 4. De eo qui peccat venialiter &amp;c. Resp. 
+      <lb ed="#T" n="77"/>Non semper tenemur conformate in praeceptis 
+      <lb ed="#T" n="78"/>affirmatiuis actu, sed sufficit habitu: tamen 
+      te<lb ed="#T" n="79" break="no"/>nemur etiam actu pro loco &amp; tempore. 
+    </p>
+               <p xml:id="pdt7y6-f20596-d1e686">
+                  <lb ed="#T" n="80"/>Ad 5. Quo praecepto tenemur. Resp. 
+      Secun<lb ed="#T" n="81" break="no"/>dum quosdam tenemur praecepto vno speciali, 
+      <lb ed="#T" n="82"/>scilicet illo de quiete sabbati in quo specialiter  
+      <lb ed="#T" n="83"/>praecipitur quies conscientiae, quae non est sine 
+      <lb ed="#T" n="84"/>conformitate voluntatis Diuinae. Secundum 
+      <lb ed="#T" n="85"/>alios non tenemur praecepto aliquo speciali, sed  
+      <lb ed="#T" n="86"/>in qualibet materia cuiuslibet praecepti, illo 
+      <lb ed="#T" n="87"/>eodem praecepto tenemur conformare. 
+      Secun<lb ed="#T" n="88" break="no"/>dum alios tenemur illo praecepto quo 
+      praecipi<lb ed="#T" n="89" break="no"/>tur nobis Deum ex toto corde diligere Deut. 6. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

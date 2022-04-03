@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="85"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e25720"><!-- l1d9q2 -->
+            <head xml:id="pdt7y6-e25720-Hd1e99">Quaestio 2</head>
+            <head xml:id="pdt7y6-e25720-Hd1e101" type="question-title">De ordine Patris Filii</head>
+            <p xml:id="pdt7y6-e25720-d1e104">
+               <lb ed="#T" n="83"/>QVESTIO II. 
+      <lb ed="#T" n="84"/>DE ORDINE PATRIS ET TILII.
+</p>
+            <p xml:id="pdt7y6-e25720-d1e111">
+               <lb ed="#T" n="85"/>CIrca secundum quaeruntur duo. 
+      <lb ed="#T" n="86"/>Primo, an Pater sit prior Filio. 
+      <lb ed="#T" n="87"/>Secundo, an Filius sit prior Spiritu Sancto. 
+    </p>
+            <div xml:id="pdt7y6-e25720-Dd1e120">
+               <head xml:id="pdt7y6-e25720-Hd1e122">Articulus 1</head>
+               <head xml:id="pdt7y6-e25720-Hd1e124" type="question-title">
+  An Pater sit prior Filio
+</head>
+               <p xml:id="pdt7y6-e25720-d1e127">
+                  <lb ed="#T" n="88"/>Articvlvs I. 
+      <lb ed="#T" n="89"/>An Pater sit prior Filio.
+</p>
+               <p xml:id="pdt7y6-e25720-d1e134">
+                  <lb ed="#T" n="90"/>AD primum sic Proceditur. 1. Principiuiu 
+      <lb ed="#T" n="91"/>naturaliter praecedit id, cuius est 
+      princi<lb ed="#T" n="92" break="no"/>pium: Pater est principium Filij: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e25720-d1e143">
+                  <lb ed="#T" n="93"/>2. Causa naturaliter praecedit causatum: sed  
+      <lb ed="#T" n="94"/>Pater est causa Filij secundum Chrysost. in 
+      <lb ed="#T" n="95"/>gloss. sup. Hebrae. 1. ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e25720-d1e153">
+                  <lb ed="#T" n="96"/>3. Dare esse prius est dignitate, quam 
+      suscipe<lb ed="#T" n="97" break="no"/>re: ergo cum Pater det esse Filio, dignitate 
+      <lb ed="#T" n="98"/>saltem prior est eo. 
+    </p>
+               <p xml:id="pdt7y6-e25720-d1e162">
+                  <lb ed="#T" n="99"/>4. Secundum Hilar. Pater etiam secundum 
+      <lb ed="#T" n="100"/>Deitatem maior est Filio, non maioritate 
+      vir<lb ed="#T" n="101" break="no"/>tutis, sed auctoritatis: ergo dignior eo. 
+    </p>
+               <p xml:id="pdt7y6-e25720-d1e171">
+                  <lb ed="#T" n="102"/>Contra 1. Id, quo aliquid est prius, non est 
+      pri<lb ed="#T" n="103" break="no"/>mum simpliciter nec vniuersaliter: ergo non est 
+      <lb ed="#T" n="104"/>Deus: sed Filius est Deus: ergo nihil est prius eo. 
+      <lb ed="#T" n="105"/>2. Prius secundum Augustinum lib. 12. Confest. 
+      <lb ed="#T" n="106"/>quadrupliciter dicitur, natura, tempore, 
+      ele<lb ed="#T" n="107" break="no"/>ctione aeternitate: natura, vt sonus praecedit 
+      <lb ed="#T" n="108"/>cantum; tempore, vt flos fructum; electione, 
+      <lb ed="#T" n="109"/>vt fructus florem; aeternitate, vt Deus 
+      mum<lb ed="#T" n="110" break="no"/>dum: Pater vero non est prior tempore, quia 
+      <lb ed="#T" n="111"/>vtriusque esse non est in tempore; nec natura, seu 
+      <lb ed="#T" n="112"/>electione, seu aeternitate, quia vna est vtriusque 
+      <lb ed="#T" n="113"/>natura, bonitas, aeternitas: ergo nullo modo 
+    </p>
+               <p xml:id="pdt7y6-e25720-d1e200">
+                  <lb ed="#T" n="114"/>Respondeo. In Patre &amp; Filio tria sunt secundum 
+      <lb ed="#T" n="115"/>intellectum, scilicet essentia communis, &amp; relatio 
+      <lb ed="#T" n="116"/>distinguens, &amp; hypostasis distinguibilis; quoad 
+      <lb ed="#T" n="117"/>primum non potest esse prioritas, quia idem in 
+      <lb ed="#T" n="118"/>vtroque; quoad secundum non potest, quia 
+      <lb ed="#T" n="119"/>correlatiua sunt simul natura, tempore, &amp; 
+      in<lb ed="#T" n="120" break="no"/>tellectu; quoad tertium est in solo intellectu. 
+      <lb ed="#T" n="121"/>Dicendum ergo quod Pater in quantum est 
+      <lb ed="#T" n="122"/>Pater, nullo modo est prior Filio natura, 
+      du<lb ed="#T" n="123" break="no"/>ratione, dignitate, vel intellectu seu ratione: 
+      <lb ed="#T" n="124"/>licet ipse qui Pater est, prior sit intellectu 
+      <lb ed="#T" n="125"/>quia prius intelligitur in se, quam in relatione 
+      <lb ed="#T" n="126"/>ad alterum. 
+    </p>
+               <p xml:id="pdt7y6-e25720-d1e231">
+                  <lb ed="#T" n="127"/>Ad 1. De principio Resp. Principium est 
+      <lb ed="#T" n="128"/>considerare dupliciter: vel secundum id quod 
+      <lb ed="#T" n="129"/>est, vel in ratione principij; primo modo prius 
+      <lb ed="#T" n="130"/>est co cuius est principium in inferioribus; se¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0161.xml-->
+      <pb ed="#T" n="86"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>cundo modo non, cum sint correlatiua: in Deo 
+      <lb ed="#T" n="2"/>vero nullo modo, quia secundum id quod sunt,  
+      <lb ed="#T" n="3"/>idem sunt, scilicet eadem essentia; secundum 
+      <lb ed="#T" n="4"/>quod ad se referuntur, simul natura: sic illa 
+      <lb ed="#T" n="5"/>propositio veritatem habet vbi principium 
+      <lb ed="#T" n="6"/>differt essentialiter, non tantum relatiue 
+    </p>
+               <p xml:id="pdt7y6-e25720-d1e262">
+                  <lb ed="#T" n="7"/>Ad 2. De causa. Resp. Ubi proprie causa 
+      <lb ed="#T" n="8"/>dicitur, sic enim differt essentialiter a causato 
+      <lb ed="#T" n="9"/>verum est quod est prior; sed hic non dicitur 
+      <lb ed="#T" n="10"/>proprie quia importat solam distinctionem 
+      <lb ed="#T" n="11"/>originis, non essentiae, &amp; ideo non potest esse 
+      <lb ed="#T" n="12"/>prior eo cuius est causa, sicut nec principium. 
+    </p>
+               <p xml:id="pdt7y6-e25720-d1e279">
+                  <lb ed="#T" n="13"/>Ad 3. De dignitate. Resp. Cum differt esse 
+      <lb ed="#T" n="14"/>dantis &amp; accipientis, dignius est dare quam 
+      <lb ed="#T" n="15"/>accipere, sed hic non differt. 
+    </p>
+               <p xml:id="pdt7y6-e25720-d1e288">
+                  <lb ed="#T" n="16"/>Ad 4. De maioritate. Resp. Maioritas illa 
+      <lb ed="#T" n="17"/>proprie accipitur pro sola ratione principij: 
+      <lb ed="#T" n="18"/>ratio vero principij indifferentis per essentiam 
+      <lb ed="#T" n="19"/>&amp; esse non facit esse dignius: sed idem. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e25720-Dd1e301">
+               <head xml:id="pdt7y6-e25720-Hd1e303">Articulus 2</head>
+               <head xml:id="pdt7y6-e25720-Hd1e305" type="question-title">
+  An Filius sit prior Spiritu Sancto
+</head>
+               <p xml:id="pdt7y6-e25720-d1e308">
+                  <lb ed="#T" n="20"/>Articvlvs II. 
+      <lb ed="#T" n="21"/>An Filius sit prior Spiritu Sancto. 
+</p>
+               <p xml:id="pdt7y6-e25720-d1e315">
+                  <lb ed="#T" n="22"/>AD secundum sic proceditur. 1. Processus 
+      <lb ed="#T" n="23"/>personarum sic est, sicut partium imaginis 
+      <lb ed="#T" n="24"/>creatae secundum August. sed ibi naturaliter 
+      <lb ed="#T" n="25"/>prior est notitia voluntate, quia non potest 
+      <lb ed="#T" n="26"/>amari bonum, nisi cognitum: ergo Filius, cui 
+      <lb ed="#T" n="27"/>appropriatur notitia, prior est natura Spiritu 
+      <lb ed="#T" n="28"/>Sancto, cui appropriatur voluntas. 
+    </p>
+               <p xml:id="pdt7y6-e25720-d1e333">
+                  <lb ed="#T" n="29"/>2. Naturaliter prior est agens sua actione, &amp; 
+      <lb ed="#T" n="30"/>actio ipso acto: sed Filius producit Spiritum  
+      <lb ed="#T" n="31"/>Sanctum: ergo naturaliter prior est eo. 
+    </p>
+               <p xml:id="pdt7y6-e25720-d1e343">
+                  <lb ed="#T" n="32"/>3. Natura prior est voluntate: ergo productio 
+      <lb ed="#T" n="33"/>naturalis voluntaria: ergo productum 
+      naturali<lb ed="#T" n="34" break="no"/>ter producto voluntarie: ergo Filius, qui 
+      pro<lb ed="#T" n="35" break="no"/>cedit per modum naturae, Spiritu Sancto 
+      qui<lb ed="#T" n="36" break="no"/>per modum doni¬ 
+    </p>
+               <p xml:id="pdt7y6-e25720-d1e356">
+                  <lb ed="#T" n="37"/>Contra. 1. Athanasius. Nihil prius aut 
+      poste<lb ed="#T" n="38" break="no"/>rius &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e25720-d1e363">
+                  <lb ed="#T" n="39"/>2. Spiritus Sanctus est Deus aeternus: Deo 
+      <lb ed="#T" n="40"/>aeterno non potest aliquid esse vel intelligi 
+      <lb ed="#T" n="41"/>prius 
+    </p>
+               <p xml:id="pdt7y6-e25720-d1e372">
+                  <lb ed="#T" n="42"/>Respondeo. In persona Filij tria sunt 
+      con<lb ed="#T" n="43" break="no"/>siderare, substantiam, notionem personalem 
+      <lb ed="#T" n="44"/>qua refertur ad Patrem, &amp; notionem personae 
+      <lb ed="#T" n="45"/>qua refertur ad;Spiritum Sanctum: ratione 
+      <lb ed="#T" n="46"/>naturae non potest dici prior Spiritu Sancto: 
+      <lb ed="#T" n="47"/>quia eadem natura est in vtroque: nec ratione 
+      <lb ed="#T" n="48"/>spirat onis, quia sic correlatiue dicitur ad 
+      Spi<lb ed="#T" n="49" break="no"/>ritum Sanctum, correlatiua vero simul sunt,  
+      <lb ed="#T" n="50"/>omnino: nec ratione filiationis duplici de causa: 
+      <lb ed="#T" n="51"/>vna, quia filiatio dicit habitudinem eius ad 
+      Pa<lb ed="#T" n="52" break="no"/>trem, non ad Spiritum Sanctum: altera, quia 
+      <lb ed="#T" n="53"/>a filiatione non separatur spiratio, eo enim di 
+      <lb ed="#T" n="54"/>citur Filius quo imago, imago vero quiacum 
+      <lb ed="#T" n="55"/>Patre conuenit in natura, &amp; modo naturae 
+      al<lb ed="#T" n="56" break="no"/>terum de se spirando: hinc ergo patet, quod 
+      <lb ed="#T" n="57"/>nec actu, nec potentia, nec natura Pater est. 
+      <lb ed="#T" n="58"/>prior Filio, aut vterque Spiritu Sancto, cum 
+      <lb ed="#T" n="59"/>simul sint paternitas, filiatio, processio, &amp; per 
+      <lb ed="#T" n="60"/>has proprietates constituantur personae in esse 
+      <lb ed="#T" n="61"/>personali distincto. 
+    </p>
+               <p xml:id="pdt7y6-e25720-d1e418">
+                  <lb ed="#T" n="62"/>Ad 1. De imagine creata. Resp. Non est per 
+      <lb ed="#T" n="63"/>omnia similis processio partium imaginis, &amp; 
+      <lb ed="#T" n="64"/>personarum: quia partes imaginis differunt non 
+      <lb ed="#T" n="65"/>solum relatiue sed essentialiter, non essentia 
+      <lb ed="#T" n="66"/>animae sed potentiae: personae vero solum rela¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0161.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>tiue, vnde ibi est causalitas vere hic non. 
+    </p>
+               <p xml:id="pdt7y6-e25720-d1e438">
+                  <lb ed="#T" n="68"/>Ad 2. De agente. Resp. Vbi differunt 
+      essen<lb ed="#T" n="69" break="no"/>tialiter agens a sua actione, &amp; actio ab ipso quod 
+      <lb ed="#T" n="70"/>agitur, prior est agens actione, &amp; actio acto: 
+      <lb ed="#T" n="71"/>sed hic sunt idem essentialiter.  
+    </p>
+               <p xml:id="pdt7y6-e25720-d1e450">
+                  <lb ed="#T" n="72"/>Ad 3. De natura &amp; voluntate. Resp. Ubi 
+      pu<lb ed="#T" n="73" break="no"/>re voluntaria est productio, verum est, quia 
+      <lb ed="#T" n="74"/>voluntas producit de extrinseca natura, non de 
+      <lb ed="#T" n="75"/>natura ipsius agentis, vnde productum differt 
+      <lb ed="#T" n="76"/>essentialiter a producente: sed hic non est 
+      pro<lb ed="#T" n="77" break="no"/>ductio pure voluntaria, imo de ipsa natura 
+      pro<lb ed="#T" n="78" break="no"/>ducentis. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

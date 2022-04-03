@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="348"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-f06783"><!-- l1d42q2 -->
+            <head xml:id="pdt7y6-f06783-Hd1e99">Quaestio 2</head>
+            <head xml:id="pdt7y6-f06783-Hd1e101" type="question-title">De iis quae subiecta sunt omnipotentiae Dei</head>
+            <p xml:id="pdt7y6-f06783-d1e104">
+               <lb ed="#T" n="84"/>QVESTIO II. 
+      <lb ed="#T" n="85"/>DEIISQVESVBIECTASVNT 
+      <lb ed="#T" n="86"/>OMNIPOTENTIAE DIVINAE.
+</p>
+            <p xml:id="pdt7y6-f06783-d1e113">
+               <lb ed="#T" n="87"/>CIrca secundum articulum quaeruntur 
+      qua<lb ed="#T" n="88" break="no"/>tuor 
+      <lb ed="#T" n="89"/>Primo an Deus possit mala. 
+      <lb ed="#T" n="90"/>Secundo an possit quaecumque bona 
+      creatu<lb ed="#T" n="91" break="no"/>rae possibilia. 
+      <lb ed="#T" n="92"/>Tertio an possit etiam: creaturae impossibilia. 
+      <lb ed="#T" n="93"/>Quarto secundum quid dicatur aliquid 
+      pos<lb ed="#T" n="94" break="no"/>sibile vel impossibile, an secundum causas 
+      su<lb ed="#T" n="95" break="no"/>periores vel inferiores. 
+    </p>
+            <div xml:id="pdt7y6-f06783-Dd1e135">
+               <head xml:id="pdt7y6-f06783-Hd1e137">Articulus 1</head>
+               <head xml:id="pdt7y6-f06783-Hd1e139" type="question-title">An Deus possit mala</head>
+               <p xml:id="pdt7y6-f06783-d1e142">
+                  <lb ed="#T" n="96"/>Articvlvs I. 
+      <lb ed="#T" n="97"/>An Deus possit mala.
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e149">
+                  <lb ed="#T" n="98"/>D primum sic proceditur. 1. Dicit 
+      Philo<lb ed="#T" n="99" break="no"/>sophus lib. Topic. quod potentiae malorum 
+      <lb ed="#T" n="100"/>bonae sunt: sed omnis bona potentia includitur 
+      <lb ed="#T" n="101"/>in omnipotentia: ergo cum Deus sit 
+      omnipo<lb ed="#T" n="102" break="no"/>tens, potest mala, 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e162">
+                  <lb ed="#T" n="103"/>2. Ibidem dicit Philosophus. Potest enim 
+      <lb ed="#T" n="104"/>Deus &amp; studiosus praua agere: ergo Deus potest 
+      <lb ed="#T" n="105"/>facere mala. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e172">
+                  <lb ed="#T" n="106"/>3. Aut Deus potest proferre propositionem 
+      <lb ed="#T" n="107"/>hanc, Non est Deus, aut non: si non potest 
+      <lb ed="#T" n="108"/>ergo cum homo hoc possit, impotentior est 
+      ho<lb ed="#T" n="109" break="no"/>mine: si potest, sed scienter proferre falsum est 
+      <lb ed="#T" n="110"/>mentiri, &amp; hoc est peccare: ergo Deus potest 
+      <lb ed="#T" n="111"/>peccare 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e188">
+                  <lb ed="#T" n="112"/>4. Potentia rationalis potest ad opposita, &amp; 
+      <lb ed="#T" n="113"/>hoc est de nobilitate sua: ergo cum in Deo sit 
+      <lb ed="#T" n="114"/>potentia rationalis nobilissima, potest ad 
+      oppo<lb ed="#T" n="115" break="no"/>sita: ergo potest non solum in bona, sed etiam in 
+      <lb ed="#T" n="116"/>mala, 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e201">
+                  <lb ed="#T" n="117"/>5. Quicquid est causa causae, est causa 
+      causa<lb ed="#T" n="118" break="no"/>ti: Deus est causa nostri liberi arbitrij, &amp; nostrum 
+      <lb ed="#T" n="119"/>liberum arbitrium causa mali: ergo Deus est 
+      <lb ed="#T" n="120"/>causa mali: ergo Deus potest facere mala. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e212">
+                  <lb ed="#T" n="121"/>6. Augustinus in Enchyridio, Melior est 
+      na<lb ed="#T" n="122" break="no"/>tura quae peccare potest, quam quae peccare non 
+      <lb ed="#T" n="123"/>potest: sed Dei natura est optima: ergo potest 
+      <lb ed="#T" n="124"/>peccare. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e223">
+                  <lb ed="#T" n="125"/>Contra. 1. Augustinus. Deus non potest 
+      face<lb ed="#T" n="126" break="no"/>re aliqua iniusta, quia ipse est summa bonitas 
+      <lb ed="#T" n="127"/>&amp; iustitia: ergo non potest facere mala 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e232">
+                  <lb ed="#T" n="128"/>2. Anselmus. Qui potest quod non decet nec 
+      <lb ed="#T" n="129"/>expedit, quanto magis id potest, tanto magis 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0424.xml-->
+      <pb ed="#T" n="349"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>peruersitas potest in illum: sed malum nec 
+      de<lb ed="#T" n="2" break="no"/>cet nec expedit, &amp; in Deum nulla potest 
+      peruer<lb ed="#T" n="3" break="no"/>sitas: ergo Deus non potest malum. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e253">
+                  <lb ed="#T" n="4"/>3. Posse malum, secundum Sanctos, inest 
+      <lb ed="#T" n="5"/>creaturae eo quod ex nihilo est: Deus non est ex 
+      <lb ed="#T" n="6"/>nihilo: ergo non potest malum. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e262">
+                  <lb ed="#T" n="7"/>4. Oppositum non est causa oppositi: ergo 
+      <lb ed="#T" n="8"/>summum &amp; vniuersale bonum, cum sit 
+      opposi<lb ed="#T" n="9" break="no"/>tum omnis mali, non est causa vllius mali: ergo 
+      <lb ed="#T" n="10"/>non potest malum. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e273">
+                  <lb ed="#T" n="11"/>Respondeo. Sicut distinguit Augustinus lib. 
+      <lb ed="#T" n="12"/>de lib. arbitrio, duplex est malum: est enim 
+      <lb ed="#T" n="13"/>malum quod agimus, scilicet malum culpae: &amp; 
+      <lb ed="#T" n="14"/>est malum quod patimur, scilicet malum poene 
+      <lb ed="#T" n="15"/>Primum cum sit defectus voluntarius &amp; auersio 
+      <lb ed="#T" n="16"/>a summo bono, peccatum est: Deus autem non 
+      <lb ed="#T" n="17"/>potest esse causa auersionis a se nec auerti a se 
+      <lb ed="#T" n="18"/>vnde non potest peccare. Secundum vero iusti 
+      <lb ed="#T" n="19"/>est: &amp; oinne iustum, inquantum iustum est 
+      <lb ed="#T" n="20"/>bonum est, vnde potest esse a summo bono. 
+      Po<lb ed="#T" n="21" break="no"/>test ergo Deus mala poenae, non mala culpae. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e299">
+                  <lb ed="#T" n="22"/>Ad 1. Potentiae malorum bonae sunt &amp;c. 
+      <lb ed="#T" n="23"/>Resp. Verum est per accidens, inquantum eae 
+      <lb ed="#T" n="24"/>dem sunt bonorum: inquantum vero malorum 
+      <lb ed="#T" n="25"/>sunt, sic non; quia potentiae defectiuae sunt, seu 
+      <lb ed="#T" n="26"/>impotentiae: vnde non sunt in Deo. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e312">
+                  <lb ed="#T" n="27"/>Ad 2. Potest Deus &amp; studiosus &amp;c. Resp. Vel 
+      <lb ed="#T" n="28"/>intelligit de malis poenae, non culpaet vel potius 
+      <lb ed="#T" n="29"/>de Deo nuncupatiue dicto, id est de angelo 
+      lo<lb ed="#T" n="30" break="no"/>quitur; non de Deo proprie: sicut &amp; Porphyrius 
+      <lb ed="#T" n="31"/>dicit quod mortale separat nos a dijs. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e325">
+                  <lb ed="#T" n="32"/>Ad 3. De mendacio. Resp. Orationem falsam 
+      <lb ed="#T" n="33"/>proferre materialiter per se, vel per alium potest 
+      <lb ed="#T" n="34"/>Deus; sed significatiue non, afferendo scilicet,  
+      <lb ed="#T" n="35"/>quia hoc posse esset impotentia. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e337">
+                  <lb ed="#T" n="36"/>Ad 4. De potentia rationali. Resp. Potentia 
+      <lb ed="#T" n="37"/>rationalis posse dicitur ad opposita contradicto. 
+      <lb ed="#T" n="38"/>rie, id est ad facere, vel non facere: sed non ad 
+      <lb ed="#T" n="39"/>quodlibet oppositum, maxime priuatiue vt bo 
+      <lb ed="#T" n="40"/>num &amp; malum. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e350">
+                  <lb ed="#T" n="41"/>Ad 5. Quicquid est caui. causae &amp;c. Resp. In 
+      <lb ed="#T" n="42"/>causis coordinatis &amp; necessarijs verum est hoc: 
+      <lb ed="#T" n="43"/>sed liberum arbitrium est causa mali voluntatia. 
+      <lb ed="#T" n="44"/>nec coordinata, non enim est causa mali in 
+      <lb ed="#T" n="45"/>quantum causatur a Deo, sed inquantum defici. 
+      <lb ed="#T" n="46"/>a causalitate diuina 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e366">
+                  <lb ed="#T" n="47"/>Ad 6. Augustini. Melior est natura &amp;c. Resp. 
+      <lb ed="#T" n="48"/>Augustinus loquitur in natura creata, &amp; per ad 
+      <lb ed="#T" n="49"/>cidens, non enim eo quod potest peccare, me 
+      <lb ed="#T" n="50"/>lior est: sed eo quod habet liberum arbitrium 
+      <lb ed="#T" n="51"/>quod ex eo quod de nihilo, consequitur vt 
+      <lb ed="#T" n="52"/>etiam peccare possit. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f06783-Dd1e384">
+               <head xml:id="pdt7y6-f06783-Hd1e386">Articulus 2</head>
+               <head xml:id="pdt7y6-f06783-Hd1e388" type="question-title">
+  An Deus possit quaecumque bona creaturae possibilia
+</head>
+               <p xml:id="pdt7y6-f06783-d1e391">
+        <!-- line coord order error -->
+                  <lb ed="#T" n="65"/>ARTICVLVS II 
+        <lb ed="#T" n="53"/>An Deus possit quaecumque bona creaturae
+        <lb ed="#T" n="66"/>possibilia.
+        <!-- line coord order error -->
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e404">
+                  <lb ed="#T" n="54"/>AD secundum sic proceditur. 1. Quicquid  
+      <lb ed="#T" n="55"/>est in extracto verius est in exemplari: sed 
+      <lb ed="#T" n="56"/>omnis potentia creaturae ad bonum, est a 
+      po<lb ed="#T" n="57" break="no"/>tentia diuina exemplata: ergo Deus potest omne 
+      <lb ed="#T" n="58"/>bonum quod potest creatura. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e417">
+                  <lb ed="#T" n="59"/>2. Sicut est in Deo omniscientia, sic 
+      omni<lb ed="#T" n="60" break="no"/>potentia: sed propter omniscientiam, vel om 
+      <lb ed="#T" n="61"/>nium scientiam quam habet Deus, ipse scit 
+      <lb ed="#T" n="62"/>quicquid verum scit creatura: ergo propter om. 
+      <lb ed="#T" n="63"/>nipotentiam, potest quicquid boni potest 
+      crea<lb ed="#T" n="64" break="no"/>tura. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e434">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0424.xml-->
+                  <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>3. In nullo potentior est creatura quam 
+      crea<lb ed="#T" n="68" break="no"/>tor: ergo creator potest quicquid potest 
+      crea<lb ed="#T" n="69" break="no"/>tura. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e447">
+                  <lb ed="#T" n="70"/>4. Non dicitur Deus omniuolens, quia non 
+      <lb ed="#T" n="71"/>vult omnia: ergo si non potest omnia, non 
+      po<lb ed="#T" n="72" break="no"/>test dici omnipotens. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e456">
+                  <lb ed="#T" n="73"/>Contra 1. Materia potest formam recipere, &amp; 
+      <lb ed="#T" n="74"/>hoc non est, impotentia: cum ergo Deus hoc non 
+      <lb ed="#T" n="75"/>possit, non potest omnia bona quae potest 
+      crea<lb ed="#T" n="76" break="no"/>tura. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e467">
+                  <lb ed="#T" n="77"/>2. Posse proficere in gratia, virtute, &amp; 
+      scien<lb ed="#T" n="78" break="no"/>tia, bona potentia est, non impotentia: sed hoc 
+      <lb ed="#T" n="79"/>Deus non potest, creatura vero potest: ergo non 
+      <lb ed="#T" n="80"/>potest ominia quae potest creatura. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e478">
+                  <lb ed="#T" n="81"/>3. Moueri de loco ad locum, generare alios 
+      <lb ed="#T" n="82"/>homines sibi similes, bona potentia est in 
+      crea<lb ed="#T" n="83" break="no"/>tura, &amp; hoc non potest Deus: ergo non potest 
+      <lb ed="#T" n="84"/>omnia bona quae potest creaturae. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e489">
+                  <lb ed="#T" n="85"/>Respondeo. Quadruplex est actuum 
+      differen<lb ed="#T" n="86" break="no"/>tia: quidam actus pertinent ad posse simpliciter,  
+      <lb ed="#T" n="87"/>sine imperfectione aliqua, vt posse viuere, &amp; 
+      in<lb ed="#T" n="88" break="no"/>telligere, &amp; huiusmodi: quidam vero cum 
+      im<lb ed="#T" n="89" break="no"/>perfectione aliqua naturali, non tamen poenali, 
+      <lb ed="#T" n="90"/>nec vitiosa,; vt posse currere, comedere, &amp; 
+      huius<lb ed="#T" n="91" break="no"/>modi, quae siunt mediante organo corporeo: 
+      <lb ed="#T" n="92"/>quidam cum imperfectione poenali, sed non 
+      vi<lb ed="#T" n="93" break="no"/>tiosa, vt posse mori: quidam cum 
+      imperfectio<lb ed="#T" n="94" break="no"/>ne vitiosa, vt posse peccare. Primum posse est 
+      <lb ed="#T" n="95"/>in Deo, &amp; totaliter a Deo in creatura: vnde Deo 
+      <lb ed="#T" n="96"/>potest attribui &amp; in se in &amp; creatura. Secundum 
+      <lb ed="#T" n="97"/>posse non est in Deo, sed est totaliter a Deo in 
+      <lb ed="#T" n="98"/>creatura: vnde non potest Deo attribui in se, sed  
+      <lb ed="#T" n="99"/>in creatura: hos enim actus Deus efficit non in 
+      <lb ed="#T" n="100"/>se sed in creatura. Tertium posse in Deo non est, 
+      <lb ed="#T" n="101"/>sed est a Deo in creatura, sed non totaliter, ime 
+      <lb ed="#T" n="102"/>partim ab aliqua causa quae non est a Deo, 
+      scili<lb ed="#T" n="103" break="no"/>cet a peccato: ideo Deo in se nunquam 
+      attribui<lb ed="#T" n="104" break="no"/>tur, in creatura vero aliquando attribuitur, 
+      ali<lb ed="#T" n="105" break="no"/>quado non. Quartum posse nec in Deo est, nec a Deo 
+      <lb ed="#T" n="106"/>in creatura vllo modo secundum quod vitium 
+      <lb ed="#T" n="107"/>habet aunexum, sed secundum id solum quod 
+      <lb ed="#T" n="108"/>habet de potentia: ideo non attribuitur Deo 
+      sim<lb ed="#T" n="109" break="no"/>pliciter nec in se nec in creatura, sed cum 
+      deter<lb ed="#T" n="110" break="no"/>minatione potest ei attribui non in se sed in 
+      crea<lb ed="#T" n="111" break="no"/>tura. Loquendo ergo de posse primo modo Deus 
+      <lb ed="#T" n="112"/>potest per se quicquid potest creatura: 
+      loquen<lb ed="#T" n="113" break="no"/>do de posse secundo modo &amp; tertio, Deus 
+      po<lb ed="#T" n="114" break="no"/>test non per se &amp; immediate, sed per creaturam 
+      <lb ed="#T" n="115"/>quicquid potest creaturae 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e560">
+                  <lb ed="#T" n="116"/>Ad 1. De exemplari. Resp. Quicquid est in 
+      <lb ed="#T" n="117"/>exemplato perfectionis simpliciter, illud est 
+      <lb ed="#T" n="118"/>verius in exemplari; sed non in gradu 
+      imperfe<lb ed="#T" n="119" break="no"/>ctionis in quo est in creatura; quia quamuis esse 
+      <lb ed="#T" n="120"/>prius sit in Deo quam in creatura non tamen esse 
+      <lb ed="#T" n="121"/>lapidis 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e576">
+                  <lb ed="#T" n="122"/>Ad 2. Quod opponitur de omniscientia. Resp. 
+      <lb ed="#T" n="123"/>Non est simile, quia imperfectum scibile nullam 
+      <lb ed="#T" n="124"/>imperfectionem ponit in scientia, cum scientia 
+      <lb ed="#T" n="125"/>non sit omnis scibilis sui causa, sed possibile 
+      po<lb ed="#T" n="126" break="no"/>nit imperfectionem in potentia. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e589">
+                  <lb ed="#T" n="127"/>Ad 3. In nullo potentior est creatura &amp;c. Resp. 
+      <lb ed="#T" n="128"/>Quamuis creator sit potentior, non tamen 
+      po<lb ed="#T" n="129" break="no"/>test per se quicquid potest creatura, quia illud 
+      <lb ed="#T" n="130"/>posse non est posse perfectum, sed cum 
+      imperfe<lb ed="#T" n="131" break="no"/>ctione aliqua: vnde non auget posse simpliciter,  
+      <lb ed="#T" n="132"/>quamuis augeat posse creaturae quod 
+      imperfe<lb ed="#T" n="133" break="no"/>ctum est. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e607">
+                  <lb ed="#T" n="134"/>Ad 4. Non dicitur Deus omniuolens &amp;c. Resp. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0425.xml-->
+      <pb ed="#T" n="350"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>Non est si nile, quia Deus non vult omnia 
+      <lb ed="#T" n="2"/>quae velle vcluntatis est, nec in se nec in 
+      creatu<lb ed="#T" n="3" break="no"/>ra, quia non vult mala: potest autem omnia 
+      <lb ed="#T" n="4"/>quae posse potentiae est, vel in se, vel in creatura. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f06783-Dd1e628">
+               <head xml:id="pdt7y6-f06783-Hd1e630">Articulus 3</head>
+               <head xml:id="pdt7y6-f06783-Hd1e632" type="question-title">An Deus possit creaturae impossibilia</head>
+               <p xml:id="pdt7y6-f06783-d1e635">
+                  <lb ed="#T" n="5"/>ARTICVLVS III 
+      <lb ed="#T" n="6"/>An Deus possit creaturae impossibilia. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e642">
+                  <lb ed="#T" n="7"/>AD tertium articulum nroceditur sic. 
+      Vi<lb ed="#T" n="8" break="no"/>detur quod Deus non possit impossibilia. 
+      <lb ed="#T" n="9"/>per se seu secundum naturam.
+  </p>
+               <p xml:id="pdt7y6-f06783-d1e651">
+                  <lb ed="#T" n="10"/>1. Quia, vt dicit Augustinus lib. de vera 
+      in<lb ed="#T" n="11" break="no"/>nocentia, sic est Deus omnipotens, vt nunquam  
+      <lb ed="#T" n="12"/>suae rationis instituta conuellat: ergorcum 
+      insti<lb ed="#T" n="13" break="no"/>tuta Diuinae rationis sint statuta naturae: 
+      omni<lb ed="#T" n="14" break="no"/>potenti Dei non extendit se ad illa quibus 
+      euellunm<lb ed="#T" n="15" break="no"/>tu. Iat trae instituta: ergo nec ad impossibilia. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e668">
+                  <lb ed="#T" n="16"/>2. Roro. 11. Contra naturam infertus est &amp;c. 
+      <lb ed="#T" n="17"/>Glos. Deis conditor naturarum non facit contra 
+      <lb ed="#T" n="18"/>na, etam: ergo ad impossibilia contra naturam 
+      <lb ed="#T" n="19"/>non se extendit Dei operatio: ergo nec Dei 
+      om<lb ed="#T" n="20" break="no"/>nipotentia. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e681">
+                  <lb ed="#T" n="21"/>3. Sicut scibile est obiectum scientiae ita 
+      pos<lb ed="#T" n="22" break="no"/>sibile obiectum potentiae: sed scientia Dei nihil 
+      <lb ed="#T" n="23"/>scit nisi scibilia: ergo potentia Dei nihil potest 
+      <lb ed="#T" n="24"/>nisi possibilia. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e692">
+                  <lb ed="#T" n="25"/>4. Ratio recta non est contraria naturae: ergo 
+      <lb ed="#T" n="26"/>cum Deus operari non possit nisi secundum 
+      ra<lb ed="#T" n="27" break="no"/>tionem rectam, non potest operari naturae 
+      con<lb ed="#T" n="28" break="no"/>traria: ergo nec impossibilia. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e703">
+                  <lb ed="#T" n="29"/>Contra 1. Virgam florere, Virginem parere, 
+      <lb ed="#T" n="30"/>asinam loqui, mortuos resur gere, &amp; huiusmodi, 
+      <lb ed="#T" n="31"/>contra naturam sunt &amp; impossibilia per se: &amp; 
+      <lb ed="#T" n="32"/>haec omnia fecit Deus: ergo impossibilia potest 
+      <lb ed="#T" n="33"/>contra naturam. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e716">
+                  <lb ed="#T" n="34"/>2. Rom. 11. Contra naturam mifertus es. Glos 
+      <lb ed="#T" n="35"/>Non incongrue dicitur Deus facere contra 
+      natu<lb ed="#T" n="36" break="no"/>ram, quando facit aliquid contra id quod in 
+      na<lb ed="#T" n="37" break="no"/>tura nouimus: sed multa facit talia: ergo multa 
+      <lb ed="#T" n="38"/>facit contra naturam: ergo impossibilia. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e729">
+                  <lb ed="#T" n="39"/>3. Si aliquid impossibile Deus non potest 
+      fa<lb ed="#T" n="40" break="no"/>cere aut hoc est propter positionem aliquam, 
+      <lb ed="#T" n="41"/>aut propter priuationem: si propter positionem 
+      <lb ed="#T" n="42"/>contra, quia Deus potest supra omne quod 
+      ali<lb ed="#T" n="43" break="no"/>quid est in rerum natura: si propter priuationem 
+      <lb ed="#T" n="44"/>contra, nulla est maior priuatio quam non ens 
+      <lb ed="#T" n="45"/>&amp; tamen Deus potest supra non en 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e748">
+                  <lb ed="#T" n="46"/>4. Minor est distantia inter ens &amp; non ens 
+      <lb ed="#T" n="47"/>quam inter truncum &amp; vitulum: sed Deus 
+      po<lb ed="#T" n="48" break="no"/>test facere de non ente ens: ergo multo magis 
+      <lb ed="#T" n="49"/>de trunco vitulum: ergo potest ea quae sunt 
+      con<lb ed="#T" n="50" break="no"/>tra naturam &amp; impossibilia. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e761">
+                  <lb ed="#T" n="51"/>Quaeritur, an possit incompossibilia, id est 
+      <lb ed="#T" n="52"/>opposita simul. Videtur fic 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e768">
+                  <lb ed="#T" n="53"/>1. Quia magis distant creator &amp; creatura, quam 
+      <lb ed="#T" n="54"/>album &amp; nigrum: sed Deus potuit facere vt 
+      crea<lb ed="#T" n="55" break="no"/>tor simul esset creatura secundum quod homo: 
+      <lb ed="#T" n="56"/>ergo multo magis potest facere vt album sit 
+      <lb ed="#T" n="57"/>simul nigrum. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e781">
+                  <lb ed="#T" n="58"/>2. Virgo &amp; pariens non minus repugnant, 
+      <lb ed="#T" n="59"/>quam duo opposita: si ergo potuit illa duo Deus 
+      <lb ed="#T" n="60"/>coniungere, potest &amp; duo opposita. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e790">
+                  <lb ed="#T" n="61"/>3. Basilius dicit quod plus potest Deus facere 
+      <lb ed="#T" n="62"/>quam nos intelligere: sed nos possumus 
+      intelli<lb ed="#T" n="63" break="no"/>gere, &amp; dicere simul eidem inesse opposita: ergo 
+      <lb ed="#T" n="64"/>Deus potest hoc facere. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e801">
+                  <lb ed="#T" n="65"/>4. Hilarius lib. de Trinit. dicit, Perfectae 
+      po<lb ed="#T" n="66" break="no"/>testatis est id naturam posse facientis, quod po¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0425.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>test significare sermo dicentis: ergo cum Dei. 
+      <lb ed="#T" n="68"/>potestas sit perfectissima, &amp; noster sermo possit.  
+      <lb ed="#T" n="69"/>significare simul eidem inesse opposita, Deus 
+      <lb ed="#T" n="70"/>potest hoc facere 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e822">
+                  <lb ed="#T" n="71"/>Contra. 1. Sicut Deus non potest facere 
+      con<lb ed="#T" n="72" break="no"/>tra ordinem iustitiae, ita nec contra ordinem 
+      sa<lb ed="#T" n="73" break="no"/>pientiae: sed secundum ordinem sapientiae 
+      op<lb ed="#T" n="74" break="no"/>posita semper sunt diuisa: ergo Deus non potest 
+      <lb ed="#T" n="75"/>coniungere ea 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e835">
+                  <lb ed="#T" n="76"/>2. Deus non potest facere idem simul esse &amp; 
+      <lb ed="#T" n="77"/>falsum &amp; verum: ergo nec amul album &amp; 
+      ni<lb ed="#T" n="78" break="no"/>grum: ergo nec alia quaelibet opposita. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e844">
+                  <lb ed="#T" n="79"/>3. Omnis oppositio reducitur ad oppositionem 
+      <lb ed="#T" n="80"/>contradictionis: sed Deus non potest facere 
+      <lb ed="#T" n="81"/>simul contradictorie opposita, quia sic esset 
+      <lb ed="#T" n="82"/>simul causa constructiua eiusdem &amp; destructiua: 
+      <lb ed="#T" n="83"/>ergo non potest facere simul opposita. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e857">
+                  <lb ed="#T" n="84"/>Item quaeritur an possit facere imposcibilia 
+      <lb ed="#T" n="85"/>per accidens, vt mundum non fuisse. Videtur. 
+      <lb ed="#T" n="86"/>quod sic. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e866">
+                  <lb ed="#T" n="87"/>1. Qui potest quod maius est, potest &amp; quod 
+      <lb ed="#T" n="88"/>minus est: sed Deus potest facere impossibilia 
+      <lb ed="#T" n="89"/>per se, quae plus habent de impossibilitate: ergo 
+      <lb ed="#T" n="90"/>multo magis impossibilia per accidens. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e877">
+                  <lb ed="#T" n="91"/>2. Veritas huius enunciabilis, mundum fuisse, 
+      <lb ed="#T" n="92"/>&amp; aliorum enunciabilium de praeterito veritas 
+      <lb ed="#T" n="93"/>creata est: ergo nisi Deus conseruet eam, 
+      de<lb ed="#T" n="94" break="no"/>sinit esse: sed Deus potest non conferuare, quia 
+      <lb ed="#T" n="95"/>voluntarie conferuat: eroo potest facere vt 
+      ve<lb ed="#T" n="96" break="no"/>rum sit mundum non fuisse 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e894">
+                  <lb ed="#T" n="97"/>3. AEque praesens est &amp; subjacet Deo 
+      praeteri<lb ed="#T" n="98" break="no"/>tum tempus, sicut praesens &amp; futurum: ergo aeque 
+      <lb ed="#T" n="99"/>subjacent diuinae potentiae praeterita, vt 
+      prae<lb ed="#T" n="100" break="no"/>sentia &amp; futura: ergo sicut praesentia non esse, 
+      futu<lb ed="#T" n="101" break="no"/>ra non fore, ita praeterita potest facere non fuisse. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e907">
+                  <lb ed="#T" n="102"/>4. Potentius est quod potest omnia possibilia, 
+      <lb ed="#T" n="103"/>&amp; omnia impossibilia, quam quod quaedam 
+      <lb ed="#T" n="104"/>potest &amp; quaedam non: potentia autem Dei est 
+      <lb ed="#T" n="105"/>qua maior excogitari non potest: ergo potest 
+      <lb ed="#T" n="106"/>omnia possibilia &amp; impossibilia. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e920">
+                  <lb ed="#T" n="107"/>5. Quantitas potentiae ex quantitate 
+      possibi<lb ed="#T" n="108" break="no"/>lium attenditur: sed Dei potentia non est 
+      mino<lb ed="#T" n="109" break="no"/>rata: cum ergo ab aeterno potuerit facere 
+      mun<lb ed="#T" n="110" break="no"/>dum nunquam esse adhuc potest facere 
+      mun<lb ed="#T" n="111" break="no"/>dum nunquam fuisse. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e933">
+                  <lb ed="#T" n="112"/>6. Plus potest Deus facere quam nos 
+      possu<lb ed="#T" n="113" break="no"/>mus intelligere, aut dicere, aut etiam fingere, 
+      se<lb ed="#T" n="114" break="no"/>cundum illud Ephes. Ei autem qui potest facere 
+      <lb ed="#T" n="115"/>superabundanter quam petimus, aut 
+      intelligi<lb ed="#T" n="116" break="no"/>mus secundum &amp;c. Sed praeterita non fuisse 
+      pos<lb ed="#T" n="117" break="no"/>sumus dicere &amp; fingere &amp; intelligere: ergo 
+      po<lb ed="#T" n="118" break="no"/>test Deus hoc facere. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e951">
+                  <lb ed="#T" n="119"/>Contra. 1. Hieronymus. Audacter dico, cum 
+      <lb ed="#T" n="120"/>Deus omnia possit, non potest de corrupta 
+      Vir<lb ed="#T" n="121" break="no"/>ginem facere: ergo non potest facere vt non fueri 
+      <lb ed="#T" n="122"/>corrupta: ergo non potest de praeterito non prae 
+      <lb ed="#T" n="123"/>teritum facere. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e964">
+                  <lb ed="#T" n="124"/>2. Augustinus contra Faustum. Scientia qui 
+      <lb ed="#T" n="125"/>dicimus aliquid fuisse, ideo vera est quia de quo 
+      <lb ed="#T" n="126"/>dicimus, fuit, &amp; non est, hanc sententiam Deus 
+      <lb ed="#T" n="127"/>faltam facere non potest, quia non est 
+      contra<lb ed="#T" n="128" break="no"/>rius veritati: ergo noi potest facere praeteritum 
+      <lb ed="#T" n="129"/>non fuisse. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e981">
+                  <lb ed="#T" n="130"/>3. Deus non potest sibi ipsi esse contrarius: sed  
+      <lb ed="#T" n="131"/>si quod fecit faceret se non fecisse, esset 
+      contra<lb ed="#T" n="132" break="no"/>rius: ergo non potest hoc facere, 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e990">
+                  <lb ed="#T" n="133"/>Respondeo. Posse dicit quid medium 
+      secun<lb ed="#T" n="134" break="no"/>dum intellectum inter subjectum potentiae &amp; 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0426.xml-->
+      <pb ed="#T" n="351"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>objectum eius, id est, inter potentem &amp; 
+      possibi<lb ed="#T" n="2" break="no"/>le: non posse ergo aliquid potest dici aliquis 
+      du<lb ed="#T" n="3" break="no"/>plici ratione, aut ex parte potentis ex defectu 
+      <lb ed="#T" n="4"/>cuius potentia imperfecta est, aut ex defectu a 
+      <lb ed="#T" n="5"/>parte rei: primo modo Deo nihil est impossibile, 
+      <lb ed="#T" n="6"/>quia omnia potest quae posse potentiae est: 
+      secun<lb ed="#T" n="7" break="no"/>do modo dicitur quaedam non posse. Deus enim 
+      <lb ed="#T" n="8"/>nihil potest operari nisi secundum exigentiam 
+      <lb ed="#T" n="9"/>suae potentiae, sapientiae, &amp; bonitatis: quae 
+      er<lb ed="#T" n="10" break="no"/>go repugnant alicui vel omnibus istorum, non 
+      <lb ed="#T" n="11"/>potest Deus: quia ergo posse bona perfecta, vt 
+      <lb ed="#T" n="12"/>intelligere &amp; huiusmodi, non repugnat ijs nec 
+      <lb ed="#T" n="13"/>in se nec in altero, ideo potest hoc simpliciter  
+      <lb ed="#T" n="14"/>quia vero posse bona imperfecta, vt actus 
+      cor<lb ed="#T" n="15" break="no"/>porales, repugnat ijs in se, sed non in altero, 
+      <lb ed="#T" n="16"/>ideo potest hoc in altero efficere, sed non in se: 
+      <lb ed="#T" n="17"/>quia vero posse mala repugnat ijs &amp; in se &amp; in 
+      <lb ed="#T" n="18"/>altero, ideo Deus nullo modo potest hoc 
+      face<lb ed="#T" n="19" break="no"/>re: quia vero impossibilium quaedam repugnant 
+      <lb ed="#T" n="20"/>iis quaedam non, ideo quaedam impossibilia 
+      <lb ed="#T" n="21"/>potest facere, quaedam non. Impossibilia enim 
+      <lb ed="#T" n="22"/>sunt quaedam quatuor modis: aut quia nullo 
+      <lb ed="#T" n="23"/>modo sunt in vlla potentia susceptiua, vt 
+      oppo<lb ed="#T" n="24" break="no"/>sita contradictorie, omnis enim potentia est ve 
+      <lb ed="#T" n="25"/>ad esse vel ad non esse, ens vero &amp; non ens simul 
+      <lb ed="#T" n="26"/>non habent esse, nec non esse: aut quia sunt in 
+      <lb ed="#T" n="27"/>potentia actiua contraria indeficienti, vt 
+      virtu<lb ed="#T" n="28" break="no"/>tum &amp; scientiarum principia omnia, quae 
+      ratio<lb ed="#T" n="29" break="no"/>nem exemplarem expresse habent in mente 
+      Di<lb ed="#T" n="30" break="no"/>uina, vt iustitiam esse malam, duo &amp; tria non 
+      <lb ed="#T" n="31"/>esse quinque: aut quia excedunt terminos 
+      poten<lb ed="#T" n="32" break="no"/>tiae, vt de trunco fieri vitulum, vel idem in pluribus 
+      <lb ed="#T" n="33"/>locis esse, vel hominem volare: aut quia sunt 
+      <lb ed="#T" n="34"/>termini contrarij &amp; incompossibiles seu 
+      diuersa<lb ed="#T" n="35" break="no"/>rum potentiarum, seu eiusdemim potentiae susce 
+      <lb ed="#T" n="36"/>ptiuae vt contraria simul inesse, quorum quidem 
+      <lb ed="#T" n="37"/>vtrumque per se est possibile, sed non ambe 
+      <lb ed="#T" n="38"/>simul. Primo modo impossibilia non poteir 
+      <lb ed="#T" n="39"/>Deus, vt facere idem simul esse &amp; non esse, fuisse 
+      <lb ed="#T" n="40"/>&amp; non fuisse, futurum esse &amp; non futurum esse: 
+      <lb ed="#T" n="41"/>quia nulla potentia est nisi ad esse vel non esse 
+      <lb ed="#T" n="42"/>sed ens &amp; non ens nec habet esse, nec habet non 
+      <lb ed="#T" n="43"/>esse. Secundo modo impossibilia non potest 
+      <lb ed="#T" n="44"/>Deus, quia non potest sibi ipsi &amp; suis aeternis 
+      ra<lb ed="#T" n="45" break="no"/>tionibus contrarius esse. Tertio modo impos 
+      <lb ed="#T" n="46"/>sibilia simpliciter potest, quia eius potentia 
+      in<lb ed="#T" n="47" break="no"/>terminata est, &amp; excedit terminos cuiuscumque 
+      <lb ed="#T" n="48"/>potentiae: potest ergo de trunco vitulum facere 
+      <lb ed="#T" n="49"/>non quod idem secundum quod idem simul &amp; 
+      <lb ed="#T" n="50"/>semel sit truncus &amp; vitulus, quia sequeretur 
+      op<lb ed="#T" n="51" break="no"/>positio contradictionis, sequeretur enim idem 
+      <lb ed="#T" n="52"/>esse viuens &amp; non viuens. Quarto modo 
+      impos<lb ed="#T" n="53" break="no"/>sibilia simul non potest Deus, vt communiter 
+      <lb ed="#T" n="54"/>dicitur: quia cum contrariorum vnum sit de 
+      <lb ed="#T" n="55"/>structiuum alterius, sequeretur oppositio 
+      contra<lb ed="#T" n="56" break="no"/>dictionis, scilicet idem esse &amp; non esse, vnd 
+      <lb ed="#T" n="57"/>non potest facere contraria eidem simul inesse; 
+      <lb ed="#T" n="58"/>per modum concretionis dico, sed per modum 
+      <lb ed="#T" n="59"/>vnionis, scilicet eidem non secundum idem. 
+      No<lb ed="#T" n="60" break="no"/>tandum ergo quod impossibile dicitur a 
+      priua<lb ed="#T" n="61" break="no"/>tione potentiae: aut ergo passiuae, aut actiuae 
+      <lb ed="#T" n="62"/>passiuae dupliciter, vel remotae, sic coniunctio 
+      <lb ed="#T" n="63"/>contradictorieoppositorum &amp; priuatiue est 
+      im<lb ed="#T" n="64" break="no"/>possibilis; vel propioquae seu coniunctae actui 
+      <lb ed="#T" n="65"/>sic coniunctio contrariorum impossibilis est:  
+      <lb ed="#T" n="66"/>priuatione actiuae potest dupliciter, vel 
+      destru<lb ed="#T" n="67" break="no"/>ctiuae, vt principiorum ralsificatio est 
+      impossibi<lb ed="#T" n="68" break="no"/>lis in scientijs &amp; moribus propter assimilatione 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0426.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="69"/>Diuinam: vel constructiuae, vt transmutatio 
+      spe<lb ed="#T" n="70" break="no"/>cierum naturalium est impossibilis, vt reditus a 
+      <lb ed="#T" n="71"/>priuatione ad habitum, quia non potest ad hoc 
+      <lb ed="#T" n="72"/>actiua virtus naturae. Dico ergo ad primam quae 
+      <lb ed="#T" n="73"/>stionem quod Deus potest facere impossibilia 
+      <lb ed="#T" n="74"/>secundum naturam quae sunt contraria cursus 
+      <lb ed="#T" n="75"/>naturae, sed non naturali obedientiae naturae a 
+      <lb ed="#T" n="76"/>creatore inditae. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e1172">
+                  <lb ed="#T" n="77"/>Ad 1. Sic est Deus omnipotens &amp;c. Resp. 
+      <lb ed="#T" n="78"/>Non dicuntur conuelli statuta quando sit 
+      con<lb ed="#T" n="79" break="no"/>trarium ex speciali dispensatione, sed quando 
+      <lb ed="#T" n="80"/>sit ex generali statutorum reuocatione 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e1183">
+                  <lb ed="#T" n="81"/>Ad 2. Deus conditor &amp;c. Resp Contra 
+      natu<lb ed="#T" n="82" break="no"/>ram fieri dupliciter dicitur: aut contra cursum 
+      <lb ed="#T" n="83"/>naturae, id est, contra potentiam eius 
+      dispositi<lb ed="#T" n="84" break="no"/>uam: aut contra obedientiam naturae, id est 
+      <lb ed="#T" n="85"/>contra potentiam eius nudam: primo modo 
+      <lb ed="#T" n="86"/>Deus multa facit contra naturam, secundo 
+      mo<lb ed="#T" n="87" break="no"/>do nihil. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e1201">
+                  <lb ed="#T" n="88"/>Ad 3. De scibili. Resp. Similitudo tenet de 
+      <lb ed="#T" n="89"/>scibili comparato ad Diuinam scientiam, &amp; de 
+      <lb ed="#T" n="90"/>possibili comparato ad Dei potentiam; non de 
+      <lb ed="#T" n="91"/>scibili &amp; possibili simpliciter: sicut enim Dei, 
+      <lb ed="#T" n="92"/>scientia multorum est quae non sunt scibilia 
+      sim<lb ed="#T" n="93" break="no"/>pliciter sed diuinae scientiae, vt infinitorum: ita 
+      <lb ed="#T" n="94"/>potentia Dei multorum est quae non sunt 
+      pos<lb ed="#T" n="95" break="no"/>sibilia simpliciter, sed potentiae Diuinae 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e1221">
+                  <lb ed="#T" n="96"/>Ad 4. Ratio recta non est contraria naturae 
+      <lb ed="#T" n="97"/>Resp. Quauis ratio recta no sit contraria naturae 
+      <lb ed="#T" n="98"/>vniuersaliter, tamen potest esse cursui naturae 
+      <lb ed="#T" n="99"/>contraria in casu speciali ex speciali causa 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e1233">
+                  <lb ed="#T" n="100"/>Ad secanda quaest. Resp. Opposita 
+      coniunge<lb ed="#T" n="101" break="no"/>re non potest Deus, no ex defectu suae potentiae 
+      <lb ed="#T" n="102"/>sed quia nulla potentia potest esse vtriusque simul 
+      <lb ed="#T" n="103"/>susceptibilis, quia sequeretur idem nec esse nec 
+      <lb ed="#T" n="104"/>no esse: omnis vero potentia est ad esse vel non esse. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e1246">
+                  <lb ed="#T" n="105"/>Ad 1. De creatore &amp; creatura. Resp. Quam 
+      <lb ed="#T" n="106"/>uis imagis distent, tamen vnum est 
+      conferuati<lb ed="#T" n="107" break="no"/>uum alterius, non destructiuum, scilicet creator 
+      <lb ed="#T" n="108"/>creaturae: oppositorum vero vnum est alteriu. 
+      <lb ed="#T" n="109"/>destructiuum. Causa ergo impossibilis 
+      coniun<lb ed="#T" n="110" break="no"/>ctionis oppositorum, inquantum opposita sunt,  
+      <lb ed="#T" n="111"/>non est distantia sed repugnantia. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e1264">
+                  <lb ed="#T" n="112"/>Ad 2. Virgo &amp; pariens non minus repugnant. 
+      <lb ed="#T" n="113"/>Resp. Falsum est quia aibum &amp; nigrum 
+      causan<lb ed="#T" n="114" break="no"/>tur ex principijs contrarijs: sed virgo &amp; pariens 
+      <lb ed="#T" n="115"/>non: quamuis repugnanit secundum cursum 
+      na<lb ed="#T" n="116" break="no"/>turae qui nunc est 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e1277">
+                  <lb ed="#T" n="117"/>Ad 3. Basilij. Resp. Loquitur de intellectu 
+      <lb ed="#T" n="118"/>recto, non phantastico 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e1284">
+                  <lb ed="#T" n="119"/>Ad 4. Hilarij. Resp. Loquitur de sermone 
+      ra<lb ed="#T" n="120" break="no"/>tionali qui procedit ab intellectu recto, non de 
+      <lb ed="#T" n="121"/>irrationali qui ab intellectu fantastico: quamuis 
+      <lb ed="#T" n="122"/>enim insipiens possit dicere &amp; cogitare, non est 
+      <lb ed="#T" n="123"/>Deus, non tamen Deus potest hoc facere. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e1297">
+                  <lb ed="#T" n="124"/>Ad tertiam quaest Resp. Deus non potest 
+      im<lb ed="#T" n="125" break="no"/>possibilia per accidens, quamuis possit 
+      impossi<lb ed="#T" n="126" break="no"/>bilia per se: non quia maior sit oppositio 
+      impos<lb ed="#T" n="127" break="no"/>sibilium per accidens, sed quia nihil relinquitur 
+      <lb ed="#T" n="128"/>ibi de potentia in quam Deus possit agere. Unde 
+      <lb ed="#T" n="129"/>quamuis Gilibertus Porretanus dixerit quod 
+      <lb ed="#T" n="130"/>Deus poterat facere praeteritum non fuisse, 
+      diui<lb ed="#T" n="131" break="no"/>sim, id est quod nunquam fuerit; non coniunctim 
+      <lb ed="#T" n="132"/>id est ita quod fuerit simul &amp; non fuerit, &amp; quod 
+      <lb ed="#T" n="133"/>auctoritas Hyeronymi de corrupta 
+      intelligeba<lb ed="#T" n="134" break="no"/>tur quantum ad: ostensionem potentiae: tamen 
+      <lb ed="#T" n="135"/>communiter tenetur oppositum quod Deus non 
+      <lb ed="#T" n="136"/>potentfacere praeteritum non fuisse, quia in prae¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0427.xml-->
+      <pb ed="#T" n="352"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>terito non est aliquod ens super quod fundar. 
+      <lb ed="#T" n="2"/>possit actio Diuina destructiua praeteriti: veritas 
+      <lb ed="#T" n="3"/>enim praeteritorum non fundatur super ens quod 
+      <lb ed="#T" n="4"/>sit, sed quod non est &amp; aliquando fuit. In 
+      prae<lb ed="#T" n="5" break="no"/>teritum enim Deus, vt faceret illud non fuisse, 
+      <lb ed="#T" n="6"/>non potest intelligi agere nisi tribus modis: 
+      au<lb ed="#T" n="7" break="no"/>cessando a conferuatione, aut efficiendo aliquid 
+      <lb ed="#T" n="8"/>in eo, aut solum destruendo illud, sed illud quod 
+      <lb ed="#T" n="9"/>nihil est, ad hoc vt nihil sit, non indiget 
+      conser<lb ed="#T" n="10" break="no"/>uatione: &amp; in illud quod nihil est, nihil potest 
+      <lb ed="#T" n="11"/>effici; &amp; illud quod nihil est non potest destrui: 
+      <lb ed="#T" n="12"/>nullo modo ergo illud quod praeteritum est 
+      <lb ed="#T" n="13"/>subjiacet Diuinae potentiae ad hoc vt faciat illud 
+      <lb ed="#T" n="14"/>non fuisse. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e1366">
+                  <lb ed="#T" n="15"/>Ad 1. Deus potest facere impossibilia per se. 
+      <lb ed="#T" n="16"/>Resp. Hoc non est maius sed minus, quia 
+      quam<lb ed="#T" n="17" break="no"/>uis habeant actus contrarios potentiae, tamen 
+      im<lb ed="#T" n="18" break="no"/>possibilibus per se aliqua potentia subest 
+      susce<lb ed="#T" n="19" break="no"/>ptibilis operationis Diuinae: sed hic nulla est 
+      <lb ed="#T" n="20"/>nec potest subesse, quia omnis potentia est vel 
+      <lb ed="#T" n="21"/>ad esse, vel non ad esse, ens vero &amp; non ens simul 
+      <lb ed="#T" n="22"/>aggregatum nec habet esse,, nec habet non esse, 
+      <lb ed="#T" n="23"/>quia vnum destruit alterum. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e1388">
+                  <lb ed="#T" n="24"/>Ad 2. De veritate propositionis &amp;c. Resp. 
+      <lb ed="#T" n="25"/>Quamuis veritas creata huius enunciabilis, 
+      mun<lb ed="#T" n="26" break="no"/>dum fuisse, possit desinere, quia esse creatum 
+      po<lb ed="#T" n="27" break="no"/>test desinere: non tamen sequitur quod 
+      opposi<lb ed="#T" n="28" break="no"/>tum, possit verum esse, quia si mundus desineret, 
+      <lb ed="#T" n="29"/>desineret contradictio: vnde non esset iam lex 
+      <lb ed="#T" n="30"/>contradictionis qua oportet alteram 
+      contra<lb ed="#T" n="31" break="no"/>dictoriarum veram, &amp; alteramfalsamesse. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e1408">
+                  <lb ed="#T" n="32"/>Ad 3. AEque praesens est &amp;c. Resp. Hoc 
+      ve<lb ed="#T" n="33" break="no"/>rum est quantum ad cognitioneni, non 
+      quan<lb ed="#T" n="34" break="no"/>tum ad operationem: quia cognitio est circa non 
+      <lb ed="#T" n="35"/>entia in rerum natura, sed operatio non. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e1419">
+                  <lb ed="#T" n="36"/>Ad 4. Potentius est quod potest omnia &amp;c. 
+      <lb ed="#T" n="37"/>Resp. Non est verum vniuersaliter, sed de illis 
+      <lb ed="#T" n="38"/>solis quae posse potentiae alicuius est: sed talia non 
+      <lb ed="#T" n="39"/>sunt impossibilia per accidens. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e1430">
+                  <lb ed="#T" n="40"/>Ad 5. De quantitate potentiae. Resp. 
+      Quam<lb ed="#T" n="41" break="no"/>uis non sit minorata quantitas possibilium 
+      sim<lb ed="#T" n="42" break="no"/>pliciter, id est eorum quae secundum aliquod 
+      <lb ed="#T" n="43"/>tempus subsunt Diuinae potentiae: tamen 
+      quan<lb ed="#T" n="44" break="no"/>titas possibilium futurorum minorata est sine 
+      <lb ed="#T" n="45"/>minoritate potentiae. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e1446">
+                  <lb ed="#T" n="46"/>Ad 6. Plus potest Deus &amp;c. Resp. Quamuis 
+      <lb ed="#T" n="47"/>multa possit quae nos non possumus dicere, nec 
+      <lb ed="#T" n="48"/>fingere, nec intelligere, non tamen potest omnia 
+      <lb ed="#T" n="49"/>quae nos possumus singere, scilicet illa quae non 
+      <lb ed="#T" n="50"/>habent rationem possibilis: &amp; hoc propter 
+      pri<lb ed="#T" n="51" break="no"/>itionem non tantum existedi, sed etiam 
+      poten<lb ed="#T" n="52" break="no"/>tiae ad existendum, quam non ens per se dictum 
+      <lb ed="#T" n="53"/>non priuat, sed ens &amp; non ens simul dictu priuat 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f06783-Dd1e1467">
+               <head xml:id="pdt7y6-f06783-Hd1e1469">Articulus 4</head>
+               <head xml:id="pdt7y6-f06783-Hd1e1471" type="question-title">
+      An aliquid dicatur possibile vel impossibile simpliciter 
+      secundum causas superiore vel inferiores
+    </head>
+               <p xml:id="pdt7y6-f06783-d1e1474">
+                  <lb ed="#T" n="54"/>ARTICVLVS IV 
+      <lb ed="#T" n="55"/>An aliquid dicatur possibile vel impossibile. 
+      <lb ed="#T" n="56"/>simpliciter secundum causas superiore. 
+      <lb ed="#T" n="57"/>vel inferiores. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e1485">
+                  <lb ed="#T" n="58"/>AD vltimum articulum proceditur sic. 1. ab 
+      <lb ed="#T" n="59"/>eodem est in rebus possibilitas &amp; 
+      impossi<lb ed="#T" n="60" break="no"/>bilitas, a quo est necessitas &amp; contingentia: sed 
+      <lb ed="#T" n="61"/>necessitas &amp; contingentia iudicatur in rebus 
+      se<lb ed="#T" n="62" break="no"/>cundum causas inferiores: ergo &amp; possibilitas &amp; 
+      <lb ed="#T" n="63"/>&amp; impossibilitas. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e1501">
+                  <lb ed="#T" n="64"/>2. Sicut potens dicitur a potentia actiua, ita 
+      <lb ed="#T" n="65"/>possibile a potentia passiua: sed potentia passiua. 
+      <lb ed="#T" n="66"/>est causa inferiorum, radicatur enim in materia: 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0427.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>ergo possibile iudicandum est secundum causam 
+      <lb ed="#T" n="68"/>inferiorem. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e1520">
+                  <lb ed="#T" n="69"/>3. Causae superiori non est impossibile: ergo si 
+      <lb ed="#T" n="70"/>impossibile iudicatur secundum causam 
+      superio<lb ed="#T" n="71" break="no"/>rem, nihil iudicandum est impossibile: ergo 
+      pos<lb ed="#T" n="72" break="no"/>sibile est virginem parere, coecum videre, 
+      mor<lb ed="#T" n="73" break="no"/>tuum resurgere, quod falsumost. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e1533">
+                  <lb ed="#T" n="74"/>4. Effectus magis denominatur a causa 
+      proxi<lb ed="#T" n="75" break="no"/>ma quam a causa prima: ergo magis debet 
+      iudi<lb ed="#T" n="76" break="no"/>cari possibilis vel impossibilis a causa inferiori 
+      <lb ed="#T" n="77"/>proxima, quam acausa superiori prima. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e1544">
+                  <lb ed="#T" n="78"/>Contra. 1. Possibile dicitur a potentia: ergo 
+      <lb ed="#T" n="79"/>possibile simpliciter a potentia simpliciter: ergo 
+      <lb ed="#T" n="80"/>a potentia perfecta Diuina. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e1553">
+                  <lb ed="#T" n="81"/>2. Mundum fieri, &amp; animas quotidie creari, 
+      <lb ed="#T" n="82"/>&amp; gratiam infundi simpliciter est possibile; non 
+      <lb ed="#T" n="83"/>tamen a potentia inferioris causae, sed superioris: 
+      <lb ed="#T" n="84"/>ergo secundum causam superiorem debet 
+      iudi<lb ed="#T" n="85" break="no"/>cari possibile simpliciter vel impossibile. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e1566">
+                  <lb ed="#T" n="86"/>3. Prim. Corinth. primo. Nonne stultam 
+      fe<lb ed="#T" n="87" break="no"/>cit Deus &amp;c. Glos. possibile iaciendo quod 
+      hu<lb ed="#T" n="88" break="no"/>mana sapientia iudicat impossibile, vt virginem 
+      <lb ed="#T" n="89"/>parere, &amp; huiusmodi quae sapientia mundi 
+      iudi<lb ed="#T" n="90" break="no"/>cat stulte impossibilia. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e1579">
+                  <lb ed="#T" n="91"/>4. Quaecumque fieri possunt possibilia sunt: 
+      <lb ed="#T" n="92"/>sed quaecumque potest Deus facere, fieri possunt: 
+      <lb ed="#T" n="93"/>ergo possibilia sunt simpliciter.  
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e1589">
+                  <lb ed="#T" n="94"/>Respondeo. Impossibile dicitur a priuatione 
+      <lb ed="#T" n="95"/>potentiae: sunt autem quaedam impossibilia ex 
+      <lb ed="#T" n="96"/>natura propria, vt praeteritum non fuisse, aliquid 
+      <lb ed="#T" n="97"/>simul esse &amp; non esse, &amp; haec dicuntur 
+      impossibi<lb ed="#T" n="98" break="no"/>lia absolute ex priuatione omnis potentiae, siue 
+      <lb ed="#T" n="99"/>actiuae, siue passiuae: quaedam vero non sunt 
+      im<lb ed="#T" n="100" break="no"/>possibilia ex natura propria nam secundum se 
+      <lb ed="#T" n="101"/>habent rationem possibilis vt solem stare, vel 
+      re<lb ed="#T" n="102" break="no"/>trocedere, vel alia huiusmodi; tamen per 
+      com<lb ed="#T" n="103" break="no"/>parationem ad potentiam aliquam dicuntur 
+      im<lb ed="#T" n="104" break="no"/>possibilia. Et circa hoc distinguendum est, quia 
+      <lb ed="#T" n="105"/>quidam sunt effectus qui sunt a Diuina potentia. 
+      <lb ed="#T" n="106"/>immediate, vt creatio mundi: quidam a Deo. 
+      <lb ed="#T" n="107"/>mediante potentia passiua creaturae, vt 
+      iustifica<lb ed="#T" n="108" break="no"/>tio impij, &amp; creatio animarum: quidam vero a 
+      <lb ed="#T" n="109"/>Deo mediante potentia actiua&amp; passiua creaturae. 
+      <lb ed="#T" n="110"/>vt effectus naturalis. In primis ergo secundum 
+      <lb ed="#T" n="111"/>causas superiores iudicatur simpliciter possibile: 
+      <lb ed="#T" n="112"/>in secundis secundum vtrasque simul: sed in 
+      ter<lb ed="#T" n="113" break="no"/>tiis secundum causas inferiores. Id enim 
+      simpli<lb ed="#T" n="114" break="no"/>citer possibile dicitur quod potest educi in 
+      <lb ed="#T" n="115"/>actum naturali motore vel voluntario, vt de 
+      <lb ed="#T" n="116"/>aere, vel de ferro fieri statua, &amp; de fogno vitrum. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e1641">
+                  <lb ed="#T" n="117"/>Ad 1. In contrarium. Possibile dicitur a 
+      po<lb ed="#T" n="118" break="no"/>tentia. Resp. Verum est, sed aliquandoa 
+      poten<lb ed="#T" n="119" break="no"/>tia actiua tantum &amp; tunc secundum causam 
+      su<lb ed="#T" n="120" break="no"/>periorem iudicandum est possibile: aliquando 
+      <lb ed="#T" n="121"/>vero ab actiua Diuina &amp; passiua creata, &amp; tunc 
+      <lb ed="#T" n="122"/>secundum vtramque: aliquando ab actiua &amp; 
+      <lb ed="#T" n="123"/>passiua creata, &amp; tunc secundum causam 
+      infe<lb ed="#T" n="124" break="no"/>riorem iudicandum est possibile simpliciter vel 
+      <lb ed="#T" n="125"/>impossibile. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e1663">
+                  <lb ed="#T" n="126"/>Ad 2. De creatione mundi &amp;c. Resp. In 
+      es<lb ed="#T" n="127" break="no"/>fectibus qui sunt immediate a potentia superiori. 
+      <lb ed="#T" n="128"/>secundum causam superiorem iudicatur 
+      possi<lb ed="#T" n="129" break="no"/>bile &amp; impossibile. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e1674">
+                  <lb ed="#T" n="130"/>Ad 3. De Glos. Resp. Sapientia humana non 
+      <lb ed="#T" n="131"/>in hoc erat stulta quod iudicabat simpliciter 
+      im<lb ed="#T" n="132" break="no"/>possibile, sed quia iudicabat omnino 
+      simplici<lb ed="#T" n="133" break="no"/>ter &amp; alicui impossibile, scilicet tam Deo quam 
+      <lb ed="#T" n="134"/>creaturae.
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e1687">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0428.xml-->
+                  <pb ed="#T" n="353"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>Ad 4. Quaecumque fieri possunt possibilia. 
+      <lb ed="#T" n="2"/>sunt &amp;c. Resp. Si possibile accipiatur ab eadem 
+      <lb ed="#T" n="3"/>potentia verum est, sed tunc non sequitur, ergo 
+      <lb ed="#T" n="4"/>simpliciter sunt possibilia: si vero accipiatur ab 
+      <lb ed="#T" n="5"/>alia potentia scilicet a potentia quae sit in ipsa 
+      <lb ed="#T" n="6"/>re, non agente, falsum est; multa enim fieri 
+      pos<lb ed="#T" n="7" break="no"/>sunt a Deo quae non sunt possibilia aliqua 
+      po<lb ed="#T" n="8" break="no"/>tentia in se existente, sed possibilia dicuntur a 
+      <lb ed="#T" n="9"/>potentia solius agentis, nec differt re 
+      possibili<lb ed="#T" n="10" break="no"/>tas eorum a potentia agentis, sed tantum modo 
+      <lb ed="#T" n="11"/>intelligendi. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f06783-Dd1e1721">
+               <head xml:id="pdt7y6-f06783-Hd1e1723">Expositio litterae</head>
+               <p xml:id="pdt7y6-f06783-d1e1725">
+                  <lb ed="#T" n="12"/>EXPOSITIO LITERAE 
+      <lb ed="#T" n="13"/>TOn prohibuit.] Contra. Posse prohiberi 
+      <lb ed="#T" n="14"/>Dest impotentiae: sed Deus est omnipotens. 
+      <lb ed="#T" n="15"/>ergo non potest prohiberi. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e1736">
+                  <lb ed="#T" n="16"/>Item illa ratio aut dicit quid creatum, aut 
+      <lb ed="#T" n="17"/>quid increatum: si primo modo, ergo quid 
+      crea<lb ed="#T" n="18" break="no"/>tum potest resistere: si secundo, ergo idem 
+      po<lb ed="#T" n="19" break="no"/>test seipsum prohibere. Resp. Ratio intelligitur 
+      <lb ed="#T" n="20"/>hic voluntas Dei rationabilis, &amp; quamuis ratio 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0428.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="21"/>non sit aliud a voluntate, connotat tamen 
+      ali<lb ed="#T" n="22" break="no"/>quid in volito, scilicet congruitatem aliquam 
+      <lb ed="#T" n="23"/>quae non est in eius opposito: Prohibitionem 
+      <lb ed="#T" n="24"/>vero intelligit respectu effectus, non respectu 
+      <lb ed="#T" n="25"/>potentiae, 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e1764">
+                  <lb ed="#T" n="26"/>[Omnia tam ample accepit. &amp;c. ] Contra. 
+      <lb ed="#T" n="27"/>Malum ratione actionis substratae includitur  
+      <lb ed="#T" n="28"/>proprie ratione vero deformitatis nullo modo 
+      <lb ed="#T" n="29"/>cum sit nihil: ergo non includitur. Resp. Potest 
+      <lb ed="#T" n="30"/>proprie dici a potentia quae est potentia 
+      secun<lb ed="#T" n="31" break="no"/>dum rem; sic includitur actio, non deformitas: 
+      <lb ed="#T" n="32"/>aut a potentia quae est potentia secundum 
+      mo<lb ed="#T" n="33" break="no"/>dum non secundum rem, quae est potentia 
+      defe<lb ed="#T" n="34" break="no"/>ctiua; sic includitur malum ratione deformitatis. 
+    </p>
+               <p xml:id="pdt7y6-f06783-d1e1786">
+                  <lb ed="#T" n="35"/>[Homo &amp; Angelus gratuitam habet 
+      poten<lb ed="#T" n="36" break="no"/>tiam.] Contra. Multae potentiae hominis &amp; 
+      An<lb ed="#T" n="37" break="no"/>geli sunt naturales &amp;c. Resp. Quamuis sint 
+      na<lb ed="#T" n="38" break="no"/>turales per comparationem ad subjectum, vel 
+      <lb ed="#T" n="39"/>causam proximam, quia insunt a natura: tamen 
+      <lb ed="#T" n="40"/>gratuitae sunt per comparationem ad causam 
+      <lb ed="#T" n="41"/>primam, quia insunt a voluntate Diuina, 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0428.xml-->
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

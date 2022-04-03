@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="235"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e71732"><!-- l1d29prae -->
+            <head xml:id="pdt7y6-e71732-Hd1e99">Praeambulum</head>
+            <head xml:id="pdt7y6-e71732-Hd1e101" type="question-title"/>
+            <p xml:id="pdt7y6-e71732-d1e103">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0310.xml-->
+               <cb ed="#T" n="c"/>
+               <lb ed="#T" n="18"/>DE PRINCIPIO QVOD REIATIVE 
+      <lb ed="#T" n="19"/>dicitur, &amp; multiplicem notat relationem. 
+      <lb ed="#T" n="20"/>Distinst. Exix. 
+    </p>
+          <!--  <p xml:id="pdt7y6-e71732-d1e116">
+               <lb ed="#T" n="21"/>ST praeterea aliud nomen multiplicem notans relationem, scilicet 
+      prin<lb ed="#T" n="22" break="no"/>cipium. Dicitur enim principium semper ad aliquid: &amp; dicitur Pater 
+      prin<lb ed="#T" n="23" break="no"/>A cipium, &amp; Filius principium, &amp; Spiritus sanctus principium: sed differen¬ 
+    </p>
+            <p xml:id="pdt7y6-e71732-d1e125">
+               <lb ed="#T" n="24"/>ter. Nam Pater dicitur principium ad Filium, &amp; ad Spiritum sanctum. Vnde 
+      <lb ed="#T" n="25"/>August. in 4. lib. de Trinit. ait, Pater est principium totius Diuinitatis, vel &amp; 
+      <lb ed="#T" n="26"/>si melius dicitur, Deitatis, quia ipse a nullo est. Non enim haber de quo sit 
+      <lb ed="#T" n="27"/>vel de quo procedat, sed ab eo &amp; Filius est genitus, &amp; Spiritus sanctus procedit. Non ergo 
+      <lb ed="#T" n="28"/>dicitur principium totius Deitatis, quod vel sui, vel Diuinae essentiae principium sit, sed quia 
+      <lb ed="#T" n="29"/>principium est Filij, &amp; Spiritus sancti, in quibus singulis tota Diuinitas est. Filius ad 
+      Spiri<lb ed="#T" n="30" break="no"/>tum sanctum dicitur principium: Spiritus vero sanctus non dicitur principium nisi ad 
+      crea<lb ed="#T" n="31" break="no"/>turas: ad quas Pater etiam dicitur principium, &amp; Filius, &amp; Trinitas ipsa simul, &amp; singula 
+      <lb ed="#T" n="32"/>personarum principium dicitur creaturarum. Pater ergo principium est sine principio, 
+      Fi<lb ed="#T" n="33" break="no"/>lius principium de principio, Spiritus sanctus principium de vtroque, id est, de Patre. 
+      <lb ed="#T" n="34"/>&amp; Filio. 
+    </p>
+            <p xml:id="pdt7y6-e71732-d1e152">
+               <lb ed="#T" n="35"/>Quod ab aeterno Pater est principium, &amp; Filius, sed Spiritus sanctus non imo¬ 
+    </p>
+            <p xml:id="pdt7y6-e71732-d1e157">
+               <lb ed="#T" n="36"/>coepit esse principium. 
+      <lb ed="#T" n="37"/>Et Pater ab aeterno principium est Filij, &amp; Pater &amp; Filius principium Spiritus sancti: 
+      <lb ed="#T" n="38"/>quia Filius est a Patre, &amp; Spiritus sanctus ab vtroque. Spiritus vero sanctus non ab aeterno. 
+      <lb ed="#T" n="39"/>principium est, sed esse coepit: quia non dicitur principium nisi ad creaturas. Cum ergo 
+      <lb ed="#T" n="40"/>creaturae esse coeperint, &amp; Spiritus sanctus esse coepit principium earum. Ita etiam Pater  
+      <lb ed="#T" n="41"/>&amp; Filius esse coepit cum Spiritu sancto vnum principium creaturarum, quia creaturae esse 
+      <lb ed="#T" n="42"/>coeperunt a Patre &amp; Filio &amp; Spiritu sancto: &amp; dicuntur hi tres non tria sed vnum 
+      princi<lb ed="#T" n="43" break="no"/>pium omnium creaturarum, quia vno eodemque modo principium rerum sunt. Non enim 
+      <lb ed="#T" n="44"/>aliter sunt res a Patre, &amp; aliter a Filio, sed penitus eodem modo. Ideo Apostolus 
+      intelli<lb ed="#T" n="45" break="no"/>gens hanc Trinitatem esse vnum principium rerum ait, Ex ipso, per ipsum, &amp; in ipso sunt,  
+      <lb ed="#T" n="46"/>omnia. Cum vero audimus omnia esse ex Deo, vt ait Augustinus de Natura boni, omnes 
+      <lb ed="#T" n="47"/>vtique naturas intelligere debemus, &amp; omnia, quae naturalia sunt Non enim ex ipso sunt 
+      <lb ed="#T" n="48"/>peccata, quae naturam non seruant, sed vitiant, quae ex voluntate peccantium nascuntur.  
+      <lb ed="#T" n="49"/>Omnium ergo quae naturaliter sunt, vnum principium est Pater cum Filio &amp; Spiritu 
+      san<lb ed="#T" n="50" break="no"/>cto: &amp; hoc esse coepit. Ab aeterno autem Pater principium est Filij generatione, &amp; Pater  
+      <lb ed="#T" n="51"/>&amp; Filius vnum principium Spiritus sancti. Vnde Augustinus in quinto libro de Trinitate 
+      <lb ed="#T" n="52"/>ait, Dicitur relatiue Pater, idemque relatiue dicitur principium. Sed Pater ad Filium 
+      di<lb ed="#T" n="53" break="no"/>citur, principium vero ad omnia quae ab ipso sunt. Et principium dicitur Filius: cum enim 
+      <lb ed="#T" n="54"/>diceretur ei, Tuqui es? respondit Principium, qui &amp; loquor vobis. Sed nunquid Patris? 
+      <lb ed="#T" n="55"/>principium est? imo creatorem se voluit ostendere, cum se dixit esse principium sicut &amp; 
+      <lb ed="#T" n="56"/>Pater Principium est creaturae, quia ab illo sunt omnia. Cum vero dicimus &amp; Patrem 
+      prin<lb ed="#T" n="57" break="no"/>cipium, &amp; Filium principium, non duo principia creaturae dicimus, quia Pater &amp; Filius, 
+      <lb ed="#T" n="58"/>simul ad creaturam vnum principium est, sicut vnus creator. Si autem quicquid in se 
+      ma<lb ed="#T" n="59" break="no"/>net &amp; gignit vel operatur aliquid, principium est eius rei quam gignit, vel eius quam 
+      ope<lb ed="#T" n="60" break="no"/>ratur: non possumus negare etiam Spiritum sanctum recte dici principium. quia non cum 
+      <lb ed="#T" n="61"/>separamus ab appellatione creatoris, quia scriptum est de illo, quod operetur, &amp; vtique 
+      <lb ed="#T" n="62"/>in se manens operatur. Non enim in aliqui d eorum quae operatur ipse mutatur &amp; vertitur.  
+      <lb ed="#T" n="63"/>Vnum ergo principium ad creaturam cum Parre &amp; Filio est Spiritus sanctus, non duo vel 
+      <lb ed="#T" n="64"/>tria principia. Ecce aperte ostendit Augustinus Patrem &amp; Filium &amp; Spiritum sanctum esse 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0311.xml-\->
+      <pb ed="#T" n="236"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>vnum principium rerum creataium id est, vno eodemque modo esse principium: &amp; illum 
+      <lb ed="#T" n="2"/>modum satis aperit, quia scilicet operantur omnia, &amp; quia similiter operantur hi tres, 
+      <lb ed="#T" n="3"/>ideo vnum principium esse dicuntur.  
+    </p>
+            <p xml:id="pdt7y6-e71732-d1e235">
+               <lb ed="#T" n="4"/>Hic ostendit quomodo Pater sit principium Filij, &amp; ipse &amp; Filius principium Spiritus sancti. 
+      <lb ed="#T" n="5"/>Deinde in eodem libro continue ostendit quomodo Pater dicatur principium ad Filium, 
+      <lb ed="#T" n="6"/>&amp; ad Spiritum sanctum ipse &amp; Filius, dicens ideo esse Patrem principium Filij, quia genuit 
+      <lb ed="#T" n="7"/>cum: &amp; Patrem &amp; Filium esse principium Spiritus sancti: quia Spiritus sanctus procedit vel 
+      <lb ed="#T" n="8"/>datur ab v troque: ait enim ita, Si gignens ad id quod gignitur, principium est, Pater ad Filium, 
+      <lb ed="#T" n="9"/>principium est, quia genuit cum. Vtrum autem &amp; ad Spiritum sanctum principium sit Pater, quia 
+      <lb ed="#T" n="10"/>dictum est, de ratre procedit, non Parua quaestio est. quod si ita est, non iam principium eius 
+      tan<lb ed="#T" n="11" break="no"/>tum erit rei quam gignit vel facit, sed &amp; eius quam dat, &amp; quae procedit ab ipso. Si ergo quod 
+      <lb ed="#T" n="12"/>datur vel quod procedit, principium habet a quo datur vel procedit, fatendum est 
+      Pa<lb ed="#T" n="13" break="no"/>trem vel Filium vnum principium esse Spiritus sancti, non duo principia. Sed sicut Pater  
+      <lb ed="#T" n="14"/>&amp; Filius ad creaturam relatiue vnus creator &amp; vnus Dominus dicitur, sic relatiue ad 
+      Spi<lb ed="#T" n="15" break="no"/>ritum sanctum vnum principium. Ad creaturam vero Pater &amp; Filius &amp; Spiritus sanctus 
+      <lb ed="#T" n="16"/>vnum principium sunt, sicut vnus creator &amp; vnus Dominus. Ecce habes quod Pater 
+      prin<lb ed="#T" n="17" break="no"/>cipium Filij dicitur: quia genuit eum: qua ergo notione est Pater, ea principium Filij 
+      di<lb ed="#T" n="18" break="no"/>citur, id est generatione, secundum quam etiam dicitur author Filij. Vnde Hylarius in 
+      <lb ed="#T" n="19"/>quarto libro de Trinitate ita ait, Ipso quo Pater dicitur, eius quem genuit, author 
+      osten<lb ed="#T" n="20" break="no"/>ditur: id nomen habens, quod neque ex alio profectum intelligatur, &amp; ex quo is qui 
+      ge<lb ed="#T" n="21" break="no"/>nitus est substitisse doceatur. Nouit Ecclesia vnum innascibilem Deum: nouit vnigenitum 
+      <lb ed="#T" n="22"/>Dei Filium. Confitetur Patrem ab origine liberum: confitetur &amp; Filij originem ab initio, 
+      <lb ed="#T" n="23"/>non ipsum ab initio, sed ab initiabili: non per seipsum, sed ab eo qui a nemine est, natum 
+      <lb ed="#T" n="24"/>ab aeterno: natiuitatem. S. ex paterna aeternitate sumentem. Edita est hic fidei professio, 
+      <lb ed="#T" n="25"/>sed professionis ratio nondum exposita est: &amp; ideo quaerenda, scilicet quomodo 
+      intel<lb ed="#T" n="26" break="no"/>ligendum sit quod ait, Filij originem esse ab initio, &amp; non ipsum esse ab initio, sed ab 
+      <lb ed="#T" n="27"/>initiabili. Hoc vtique, subdens determinauit quomodo acceperit initium, inquiens 
+      ori<lb ed="#T" n="28" break="no"/>ginem Filij esse ab initio: ac si diceret, non ita intelligas originem Filij esse ab initio, quasi 
+      <lb ed="#T" n="29"/>ipse Filius habeat initium, sed quia ipse est ab initiabili, id est a Patre, a quo sunt omnia. 
+      <lb ed="#T" n="30"/>Namlicet Filius sit principium de principio, non est tamen concedendum quod Filius 
+      ha<lb ed="#T" n="31" break="no"/>beat principium. Cumque Filius sit principium de principio, &amp; Pater principium non de 
+      <lb ed="#T" n="32"/>principio: non est principium de principio, principium sine principio, sicut Filius non est 
+      <lb ed="#T" n="33"/>Pater: neque tamen duo principia sed vnum: sicut Pater &amp; Filius, non duo creatores, sed  
+      <lb ed="#T" n="34"/>vnus creator. 
+    </p>
+            <p xml:id="pdt7y6-e71732-d1e305">
+               <lb ed="#T" n="35"/>Cum Pater &amp; Filius sint vnum principium Spiritus sancti, quaeritur an eadem notione. 
+      <lb ed="#T" n="36"/>Vnum autem principium sunt Pater &amp; Filius, non tantum creaturarum, vt dictum est 
+      <lb ed="#T" n="37"/>supra, sed etiam Spiritus sancti: ideo quaeri solet, vtrum eadem notione Pater sit 
+      princi<lb ed="#T" n="38" break="no"/>pium Spiritus sancti, &amp; Filius: an sit alia notio, qua Pater dicatur principium Spiritus 
+      <lb ed="#T" n="39"/>sancti, &amp; alia qua Filius. Ad quod dicimus, cum Pater dicatur principium Spiritus sancti, 
+      <lb ed="#T" n="40"/>&amp; Filius: quia Spiritus sanctus procedit vel datur ab vtroque: nec aliter procedit vel datur.  
+      <lb ed="#T" n="41"/>a Patre quam a Filio: sane intelligi potest Patrem &amp; Filium eadem relatione, vel notione 
+      <lb ed="#T" n="42"/>principium dici Spiritus sancti. Si vero quaeritur quae sit illa notio quam ibi notat 
+      princi<lb ed="#T" n="43" break="no"/>pium, nomen eius non habemus: sed non est ipsa paternitas vel filiatio, imo notio 
+      quae<lb ed="#T" n="44" break="no"/>dam Patris est &amp; Filij, qua ab aeterno Pater &amp; Filius vnum principium est Spiritus sancti. 
+      <lb ed="#T" n="45"/>Donator autem (vt praedictum est) dicitur Pater, vel Filius ex tempore, sicut Spiritus 
+      <lb ed="#T" n="46"/>sanctus datum vel donatum. 
+    </p>-->
+            <p xml:id="pdt7y6-e71732-d1e334">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0311.xml-->
+               <cb ed="#T" n="b"/>
+               <lb ed="#T" n="47" type="fixed=236"/>DIVISIO TEXTVS. 
+      <lb ed="#T" n="48"/>[DSt praeterea aliud.] Postquam egit de 
+      in<lb ed="#T" n="49" break="no"/>Anascibilitate; hic agit de communi 
+      spira<lb ed="#T" n="50" break="no"/>tione prout significatur nomine principij. Et  
+      <lb ed="#T" n="51"/>primo agit de principio secundum quod 
+      accipi<lb ed="#T" n="52" break="no"/>tur siue essentialiter siue personaliter. Secundo 
+      <lb ed="#T" n="53"/>agit de ipso secundum quod accipitur 
+      persona<lb ed="#T" n="54" break="no"/>liter tantum [Deinde in eodem. 
+    </p>
+            <p xml:id="pdt7y6-e71732-d1e358">
+               <lb ed="#T" n="55"/>In prima parte primo ostendit quod 
+      princi<lb ed="#T" n="56" break="no"/>pium multipliciter accipitur. Secundo qualiter 
+      <lb ed="#T" n="57"/>&amp; respectu quorum dicatur [Et Pater. ] Tertio 
+      <lb ed="#T" n="58"/>ostendit specialiter quomodo de Spiritu sancto 
+      <lb ed="#T" n="59"/>dicatur [Sic autem.] 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0311.xml-->
+      <cb ed="#T" n="c"/>
+               <lb ed="#T" n="60"/>In secunda parte primo ostendit qualiter 
+      Pa<lb ed="#T" n="61" break="no"/>ter ad Filium &amp; vterque ad Spiritum sanctum 
+      <lb ed="#T" n="62"/>dicitur principium [Deinde) Secundo quod 
+      <lb ed="#T" n="63"/>vna est notio secundum quam vterque est 
+      Spi<lb ed="#T" n="64" break="no"/>ritu sancti principium [Vnum autem ] Tertio 
+      <lb ed="#T" n="65"/>qua sit illa notio se cundum quam dicuntur  
+      <lb ed="#T" n="66"/>vnim Spiritus sancti principium [Si vero. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

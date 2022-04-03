@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="91"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e27506"><!-- l1d10q1 -->
+            <head xml:id="pdt7y6-e27506-Hd1e99">Quaestio 1</head>
+            <head xml:id="pdt7y6-e27506-Hd1e101" type="question-title">De modo quo Spiritus Sanctus procedit</head>
+            <p xml:id="pdt7y6-e27506-d1e104">
+               <lb ed="#T" n="34"/>QVESTIO I. 
+      <lb ed="#T" n="35"/>DE MODO QVOSPIRITVS 
+      <lb ed="#T" n="36"/>SANCTVS PROCEDIT 
+</p>
+            <p xml:id="pdt7y6-e27506-d1e113">
+               <lb ed="#T" n="37"/>Vaeruntur hic tria. 
+      <lb ed="#T" n="38"/>QPrimo de modo procedendi. 
+      <lb ed="#T" n="39"/>Secundo de proprietate procedentis. 
+      <lb ed="#T" n="40"/>Tertio de comniunitate nominis. 
+    </p>
+            <p xml:id="pdt7y6-e27506-d1e124">
+               <lb ed="#T" n="41"/>Circa primum quaeruntur duo. 
+      <lb ed="#T" n="42"/>Primo, au sint in Diuinis plures modi 
+      proce<lb ed="#T" n="43" break="no"/>dendi, quam duo 
+      <lb ed="#T" n="44"/>Secundo, an Spiritus Sanctus procedat vt 
+      <lb ed="#T" n="45"/>anior Patris &amp; Filij. 
+    </p>
+            <div xml:id="pdt7y6-e27506-Dd1e138">
+               <head xml:id="pdt7y6-e27506-Hd1e140">Articulus 1</head>
+               <head xml:id="pdt7y6-e27506-Hd1e142" type="question-title">An sint in Diuinis plures modi procedendi quum duo</head>
+               <p xml:id="pdt7y6-e27506-d1e145">
+                  <lb ed="#T" n="46"/>Articvlvs I. 
+      <lb ed="#T" n="47"/>An sint in Diuinis plures modi procedendi quum duo. 
+    </p>
+               <p xml:id="pdt7y6-e27506-d1e152">
+                  <lb ed="#T" n="48"/>D primum sic proceditur. 1. In Diuinis 
+      <lb ed="#T" n="49"/>tantum distat natura &amp; intellectus, 
+      quan<lb ed="#T" n="50" break="no"/>tum natura &amp; voluntas, &amp; aeque potens est 
+      in<lb ed="#T" n="51" break="no"/>tellectus, sicut natura &amp; voluntas: si ergo 
+      po<lb ed="#T" n="52" break="no"/>nuntur duae personae distinctae, vna per 
+      produ<lb ed="#T" n="53" break="no"/>ctionem naturae, altera per productionem 
+      volun<lb ed="#T" n="54" break="no"/>tatis, aliqua similiter tertia poni debet per 
+      pro<lb ed="#T" n="55" break="no"/>ductionem intellectus. 
+    </p>
+               <p xml:id="pdt7y6-e27506-d1e172">
+                  <lb ed="#T" n="56"/>2. Sicut Pater diligit Filium, ita Spiritum 
+      san<lb ed="#T" n="57" break="no"/>ctum: ergo sicut modus procedendi quo diligit 
+      <lb ed="#T" n="58"/>Filium, constituit vnam personam; sic modus 
+      <lb ed="#T" n="59"/>quo diligit Spiritum sanctum debet constituere 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0166.xml-->
+      <cb ed="#T" n="c"/>
+                  <lb ed="#T" n="60"/>alterum. 
+    </p>
+               <p xml:id="pdt7y6-e27506-d1e191">
+                  <lb ed="#T" n="61"/>3. Sicut est perfectio naturae &amp; liebrmlitium on 
+      <lb ed="#T" n="62"/>Patre &amp; Filio, siciin Spiritu sanctort: si 
+      otgcapro<lb ed="#T" n="63" break="no"/>pter perfectionem naturae &amp; liberabitatis 
+      conun<lb ed="#T" n="64" break="no"/>nit Patri &amp; Filio, vet spirent tertram spersonam, 
+      <lb ed="#T" n="65"/>similiter spirare quartam tonuenitat Sparitui 
+      <lb ed="#T" n="66"/>sancto. 
+    </p>
+               <p xml:id="pdt7y6-e27506-d1e207">
+                  <lb ed="#T" n="67"/>4. In Deo non solum: est natura &amp; voluntas, 
+      <lb ed="#T" n="68"/>sed multa alia attributa: ergo qua ratione penes 
+      <lb ed="#T" n="69"/>haec duo accipiuntur aliqui modi propcessoonum 
+      <lb ed="#T" n="70"/>personalium: ita penes alia debent redipi. 
+    </p>
+               <p xml:id="pdt7y6-e27506-d1e218">
+                  <lb ed="#T" n="71"/>5. Probat Ricard. de S. Victore quod opos 
+      <lb ed="#T" n="72"/>tet esse tres personas, quia oportot in summo 
+      <lb ed="#T" n="73"/>bono non deesse summam charitatem, &amp; 
+      sum<lb ed="#T" n="74" break="no"/>ma charitas requirit summe dilectum, &amp; summe 
+      <lb ed="#T" n="75"/>condilectum, quod vtrumque esse non potest 
+      <lb ed="#T" n="76"/>sine Trinitate personarum: sed sicut cheritatis 
+      <lb ed="#T" n="77"/>perfectio est velle habere condilectum; ita 
+      ma<lb ed="#T" n="78" break="no"/>ior perfectio est velle habere plures condilectos: 
+      <lb ed="#T" n="79"/>ergo ad perfectionem requiritur multitudo 
+      mae<lb ed="#T" n="80" break="no"/>ior personarum. 
+    </p>
+               <p xml:id="pdt7y6-e27506-d1e242">
+                  <lb ed="#T" n="81"/>Contra. 1. Processus personarum accipitur 
+      pe<lb ed="#T" n="82" break="no"/>nes modos communicationis: sed non est nisi 
+      <lb ed="#T" n="83"/>duplex modus communicationis, scilicet per 
+      <lb ed="#T" n="84"/>modum naturae, &amp; per modum voluntatis: ergo 
+      <lb ed="#T" n="85"/>nec nisi duplex modus processionis personalis. 
+    </p>
+               <p xml:id="pdt7y6-e27506-d1e255">
+                  <lb ed="#T" n="86"/>2. Germanitas est conditio pertinens ad 
+      per<lb ed="#T" n="87" break="no"/>fectionem mutuae charitatis, &amp; iucunditatis: si 
+      <lb ed="#T" n="88"/>essent plures personae, quam tres, non posset 
+      fer<lb ed="#T" n="89" break="no"/>nari germanitas, vt probat Richard. de sancto 
+      <lb ed="#T" n="90"/>Vict ergo nec summa charitas: ergo 
+      noratio<lb ed="#T" n="91" break="no"/>nem summae charitatis requiritur, quod non 
+      <lb ed="#T" n="92"/>sint nisi tres personae: ergo requiritur quod 
+      <lb ed="#T" n="93"/>non sint plures modi processionis. 
+    </p>
+               <p xml:id="pdt7y6-e27506-d1e275">
+                  <lb ed="#T" n="94"/>Respondeo. Personarum Diuinarum distinctio 
+      <lb ed="#T" n="95"/>sit per proprietates personales: personalis autem 
+      <lb ed="#T" n="96"/>proprirtas non potest esse absoluta seu 
+      essentia<lb ed="#T" n="97" break="no"/>lis, quia omne tale commune est ibi, non 
+      pro<lb ed="#T" n="98" break="no"/>prium: oportet ergo quod sit proprietas relatiun: 
+      <lb ed="#T" n="99"/>non autem Dei ad creaturas, quia illa non est 
+      rea<lb ed="#T" n="100" break="no"/>latio in Deo, sed in creaturis &amp; est tribus 
+      com<lb ed="#T" n="101" break="no"/>munis: ergo Dei ad Deum, scilicet vnius 
+      Per<lb ed="#T" n="102" break="no"/>sonae ad alteram: relatio vero vnius personae ad 
+      <lb ed="#T" n="103"/>alteram non potest fundari super 
+      communi<lb ed="#T" n="104" break="no"/>catione alicuius accidentis, quia nil tale est: 
+      <lb ed="#T" n="105"/>in Diuinis: ergo oportet, quod fundetur 
+      im<lb ed="#T" n="106" break="no"/>mediate (causaliter dico non objectiue) super 
+      <lb ed="#T" n="107"/>communicatione essentiae: sed relatio secundum 
+      <lb ed="#T" n="108"/>communicationem essentiae eiusdem non est 
+      <lb ed="#T" n="109"/>nisi relatio originis: ergo oportet, quod sit ibi 
+      <lb ed="#T" n="110"/>sola relatio originis: relatio vero in generali 
+      <lb ed="#T" n="111"/>non distinguit: oportet ergo, quod sit deter¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0167.xml-->
+      <pb ed="#T" n="92"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>minata, &amp; specialis; relatio vero specialis, nisi 
+      <lb ed="#T" n="2"/>pertineat ad dignitatem, non est personalis, 
+      <lb ed="#T" n="3"/>oportet ergo quod proprietas distinctiua 
+      per<lb ed="#T" n="4" break="no"/>sonarum sit proprietas originis determinata 
+      ha<lb ed="#T" n="5" break="no"/>bens perfectionem alicuius dignitatis. Hinc est 
+      <lb ed="#T" n="6"/>quod penes procedere ab alio, quod est 
+      com<lb ed="#T" n="7" break="no"/>mune Filio &amp; Spiritui Sancto, non sit sufficiens 
+      <lb ed="#T" n="8"/>distinctio, quia cum hoc possit esse multis 
+      mo<lb ed="#T" n="9" break="no"/>dis, &amp; modo nobili, seu ignobili, non est 
+      pro<lb ed="#T" n="10" break="no"/>prietas determinata, nec continens de se 
+      mo<lb ed="#T" n="11" break="no"/>dum dignitatis. Oportet ergo quod addatur  
+      <lb ed="#T" n="12"/>modus processionis ab alio. Hic autem duplex 
+      <lb ed="#T" n="13"/>est tantum, scilicet per modum agentis 
+      natura<lb ed="#T" n="14" break="no"/>lis vel per modum agentis voluntarij, &amp; vter 
+      <lb ed="#T" n="15"/>que perfectus: ergo hic duplex modus solus 
+      <lb ed="#T" n="16"/>ponendus est in Diuinis. Quilibet vero horums 
+      <lb ed="#T" n="17"/>in plures secundum numerum multiplicari non 
+      <lb ed="#T" n="18"/>potest, quia non est in Deo materia, vel 
+      ali<lb ed="#T" n="19" break="no"/>quid loco materiae per quam sit indiuiduatio, 
+      <lb ed="#T" n="20"/>nec esset inter procedentes modo consimili 
+      op<lb ed="#T" n="21" break="no"/>positio relationis, ergo nec distinctio, cum 
+      <lb ed="#T" n="22"/>omnis distinctio habeat fieri per modum 
+      op<lb ed="#T" n="23" break="no"/>positionis. Hine ergo patet quod non possunt,  
+      <lb ed="#T" n="24"/>esse in Diuinis nisi duae personae procedentes, 
+      <lb ed="#T" n="25"/>&amp; duo modi processionis 
+    </p>
+               <p xml:id="pdt7y6-e27506-d1e378">
+                  <lb ed="#T" n="26"/>Ad 1. De intellectu. Resp. Intellectus agit 
+      <lb ed="#T" n="27"/>per modum naturae, vnde vtraque productio 
+      <lb ed="#T" n="28"/>Filio appropriatur, in quantum idem est &amp; 
+      <lb ed="#T" n="29"/>Filius &amp; verbum Patris 
+    </p>
+               <p xml:id="pdt7y6-e27506-d1e389">
+                  <lb ed="#T" n="30"/>Ad 2. De dilectione Spiritus Sancti. Resp. In 
+      <lb ed="#T" n="31"/>potentijs immaterialibus actus idem fertur in 
+      <lb ed="#T" n="32"/>objectum &amp; reffectitur supra seipsum: vndo 
+      <lb ed="#T" n="33"/>eodem actu intelligo aliquid, &amp; intelligo ine 
+      in<lb ed="#T" n="34" break="no"/>telligere. Idem ergo potest esse amor quo Pater 
+      <lb ed="#T" n="35"/>amat Filium, &amp; quo amat amorem ipsum 
+      scili<lb ed="#T" n="36" break="no"/>ppiritum sanctum, nec requiritur duplex amor: 
+      <lb ed="#T" n="37"/>nam huiusmodi secundus amor personam non 
+      <lb ed="#T" n="38"/>constitueret, cum non differet a primo nisi 
+      se<lb ed="#T" n="39" break="no"/>cundum numerum, non secundum speciem 
+    </p>
+               <p xml:id="pdt7y6-e27506-d1e413">
+                  <lb ed="#T" n="40"/>Ad 3. De perfectione. Resp. Cum liberalitas 
+      <lb ed="#T" n="41"/>sit essentiale attributum, &amp; essentia non sit 
+      prin<lb ed="#T" n="42" break="no"/>cipium actuum notionalium per se, nisi prout 
+      <lb ed="#T" n="43"/>coniuncta cum proprietatibus personarum; 
+      pa<lb ed="#T" n="44" break="no"/>tet, quod non ideo minor est liberalitas in 
+      Spi<lb ed="#T" n="45" break="no"/>ritu sancto, quia liberalitas non est principium 
+      <lb ed="#T" n="46"/>primum &amp; immediatum productionis, sed 
+      spi<lb ed="#T" n="47" break="no"/>ratio communis secundum rationem intelligendi 
+    </p>
+               <p xml:id="pdt7y6-e27506-d1e433">
+                  <lb ed="#T" n="48"/>Ad 4. De alijs attributis. Resp. Illorum 
+      attri<lb ed="#T" n="49" break="no"/>torum principalitas non est in ratione agentis 
+      <lb ed="#T" n="50"/>de se, sed exemplaris solum: vnde respectu rei 
+      <lb ed="#T" n="51"/>alterius essentiae est, non respectu rei 
+      consub<lb ed="#T" n="52" break="no"/>stantialis. 
+    </p>
+               <p xml:id="pdt7y6-e27506-d1e446">
+                  <lb ed="#T" n="53"/>Ad 5. De pluribus condilectis. Resp. 
+      Quam<lb ed="#T" n="54" break="no"/>uis ratio charitatis admitteret plures 
+      condile<lb ed="#T" n="55" break="no"/>ctos, non tamen ratio summae charitatis, quia 
+      <lb ed="#T" n="56"/>si non esset aequalis germanitas, non esset 
+      aequa<lb ed="#T" n="57" break="no"/>lis dilectio: ergo nec summa. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e27506-Dd1e460">
+               <head xml:id="pdt7y6-e27506-Hd1e462">Articulus 2</head>
+               <head xml:id="pdt7y6-e27506-Hd1e464" type="question-title">
+  An Spiritus sanctus procedat vt amor Patris et Filii 
+</head>
+               <p xml:id="pdt7y6-e27506-d1e467">
+                  <lb ed="#T" n="58"/>Articvlvs II. 
+      <lb ed="#T" n="59"/>An Spiritus sanctus procedat vt amor Patris &amp; 
+      <lb ed="#T" n="60"/>Filij. 
+</p>
+               <p xml:id="pdt7y6-e27506-d1e476">
+                  <lb ed="#T" n="61"/>AD secundum sic proceditur. 1. Amor non 
+      <lb ed="#T" n="62"/>significat aliquid subsistens, sed per modum 
+      <lb ed="#T" n="63"/>formae inhaerentis: persona vero Spiritus Sancti 
+      <lb ed="#T" n="64"/>res subsistens est: ergo eius processio non est per 
+      <lb ed="#T" n="65"/>modum amoris. 
+    </p>
+               <p xml:id="pdt7y6-e27506-d1e489">
+                  <lb ed="#T" n="66"/>Nulla natura communicatur, nisi per actum 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0167.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>naturae: amor vero actus est voluntatis, non 
+      na<lb ed="#T" n="68" break="no"/>turae: ergo non communicatur natura Diuina 
+      <lb ed="#T" n="69"/>Spiritui sancto per modum amoris. 
+    </p>
+               <p xml:id="pdt7y6-e27506-d1e506">
+                  <lb ed="#T" n="70"/>3. Non est idem modus processionis aeternae 
+      <lb ed="#T" n="71"/>personae, &amp; temporalis creaturae: cum ergo 
+      crea<lb ed="#T" n="72" break="no"/>tura procedat per actum voluntatis, nulla 
+      per<lb ed="#T" n="73" break="no"/>sona procedit per actuin voluntatis: ergo nec 
+      <lb ed="#T" n="74"/>per modum amoris 
+    </p>
+               <p xml:id="pdt7y6-e27506-d1e519">
+                  <lb ed="#T" n="75"/>4. Amor ab amante procedit in alterum: sed  
+      <lb ed="#T" n="76"/>Spiritus sanctus a Patre &amp; Filio non procedit in 
+      <lb ed="#T" n="77"/>alterum ab aeterno: ergo processione aeterna non 
+      <lb ed="#T" n="78"/>procedit per nmodum amoris 
+    </p>
+               <p xml:id="pdt7y6-e27506-d1e530">
+                  <lb ed="#T" n="79"/>Contra. 1. Imago creata in anima 
+      repraesen<lb ed="#T" n="80" break="no"/>tat Trinitatem increatam: sed in imagine 
+      crea<lb ed="#T" n="81" break="no"/>ta est aliquid procedens per modum notitiae, 
+      ali<lb ed="#T" n="82" break="no"/>quid per modum amoris: ergo in Trinitate 
+      simi<lb ed="#T" n="83" break="no"/>liter: cum ergo Filius procedat per modum 
+      no<lb ed="#T" n="84" break="no"/>titiae, quia verbum est, Spiritus sanctus 
+      proce<lb ed="#T" n="85" break="no"/>det per modum amoris. 
+    </p>
+               <p xml:id="pdt7y6-e27506-d1e548">
+                  <lb ed="#T" n="86"/>2. Non est perfecta boni cognitio sine 
+      adiun<lb ed="#T" n="87" break="no"/>ctione amoris: ergo vbi est processus aliquis 
+      per<lb ed="#T" n="88" break="no"/>modum perfectae cognitionis, oportet quod sit 
+      <lb ed="#T" n="89"/>aliquis per modum perfecti amoris: ergo vt 
+      <lb ed="#T" n="90"/>prius. 
+    </p>
+               <p xml:id="pdt7y6-e27506-d1e561">
+                  <lb ed="#T" n="91"/>3. In substantijs abstractis duae sunt praecipuae 
+      <lb ed="#T" n="92"/>potentiae, scilicet ratio &amp; voluntas: ergo &amp; in 
+      <lb ed="#T" n="93"/>Deo: sed non minus efficax est voluntas erus 
+      <lb ed="#T" n="94"/>quam ratio: cum ergo sit ibi vnus processus per 
+      <lb ed="#T" n="95"/>actum rationis seu intellectus, scilicet 
+      proces<lb ed="#T" n="96" break="no"/>sus verbi, erit &amp; alius per actum voluntatis 
+      <lb ed="#T" n="97"/>scilicet amoris: ergo vt prius. 
+    </p>
+               <p xml:id="pdt7y6-e27506-d1e579">
+                  <lb ed="#T" n="98"/>4. Spiritus Sanctus procedit vt donum, 
+      se<lb ed="#T" n="99" break="no"/>cundum Augustinum: ergo per modum amoris. 
+    </p>
+               <p xml:id="pdt7y6-e27506-d1e587">
+                  <lb ed="#T" n="100"/>. Vbicumque sunt duo se diligentes, ibi est 
+      <lb ed="#T" n="101"/>aliquis ab vno in alterum processus amoris: in 
+      <lb ed="#T" n="102"/>Deo sunt Pater &amp; Filius se diligentes: ergo 
+      <lb ed="#T" n="103"/>aliquid ab vtroque procedit per modum amoris: 
+      <lb ed="#T" n="104"/>sed non nisi Spiritus Sanctus: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e27506-d1e600">
+                  <lb ed="#T" n="105"/>Respondeo. Omnis redundantia sit ex 
+      ple<lb ed="#T" n="106" break="no"/>nitudine boni, &amp; ex maiori plenitudine 
+      boni<lb ed="#T" n="107" break="no"/>maior redundantia, quia natura boni est 
+      diffun<lb ed="#T" n="108" break="no"/>dere se: bonum autem creatum dupliciter 
+      re<lb ed="#T" n="109" break="no"/>dundat, &amp; diffundit se, scilicet per modum 
+      na<lb ed="#T" n="110" break="no"/>turae, &amp; per modum voluntatis: ergo multo 
+      <lb ed="#T" n="111"/>magis bonum increatum. Increato ergo 
+      du<lb ed="#T" n="112" break="no"/>plex est boni plenitudo: vna est naturae 
+      pleni<lb ed="#T" n="113" break="no"/>tudo, qua, cum sit omni bono plenus, potest de 
+      <lb ed="#T" n="114"/>sua plenitudine alijs diffundere secundum 
+      mo<lb ed="#T" n="115" break="no"/>dum capacitatis eorum: altera est bonae 
+      volun<lb ed="#T" n="116" break="no"/>tatis plenitudo, qua ex mera liberalitate 
+      bonita<lb ed="#T" n="117" break="no"/>tem suam vult alijs communicare. Secundum 
+      <lb ed="#T" n="118"/>hoc duplex debet esse redundantia vel diffufio 
+      <lb ed="#T" n="119"/>sui in creatore, scilicet per modum naturae, &amp; 
+      <lb ed="#T" n="120"/>per modum voluntatis, nec potest dici quod illa 
+      <lb ed="#T" n="121"/>attendatur solum in rerum productione: 
+      redun<lb ed="#T" n="122" break="no"/>dantia enim &amp; diffuio, qua se diffundit in 
+      crea<lb ed="#T" n="123" break="no"/>turas, aequiuoca est &amp; imperfecta, quia extra 
+      <lb ed="#T" n="124"/>suam speciem &amp; participatiue, &amp; in tempore. 
+      <lb ed="#T" n="125"/>Oportet ergo ante illam esse aliam quae sit 
+      vni<lb ed="#T" n="126" break="no"/>uoca, scilicet in eadem specie; &amp; perfecta, 
+      <lb ed="#T" n="127"/>scilicet de tota essentia; &amp; aeterna sine 
+      tem<lb ed="#T" n="128" break="no"/>pore, cum omne imperfectum reducatur  
+      <lb ed="#T" n="129"/>ad aliquod perfectum primum. Oportet 
+      er<lb ed="#T" n="130" break="no"/>go duplicem modum perfectae diffusionis in 
+      <lb ed="#T" n="131"/>Deo reperire, qui est ratio diffusionis omnis in 
+      <lb ed="#T" n="132"/>creaturas, vnum per modum naturae, scilicet in 
+      <lb ed="#T" n="133"/>Filio, alterum per modum voluntatis seu amoris 
+      <lb ed="#T" n="134"/>scilicet in Spiritu sancto: vnde Filius procedit 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0168.xml-->
+      <pb ed="#T" n="93"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>vt verbum, &amp; ars, qua Pater potest omnia 
+      pro<lb ed="#T" n="2" break="no"/>ducere; Spiritus sanctus, vt amor quo vult ea 
+      <lb ed="#T" n="3"/>producere. 
+    </p>
+               <p xml:id="pdt7y6-e27506-d1e681">
+                  <lb ed="#T" n="4"/>Ad 1. De amore. Resp. Licet amor 
+      secun<lb ed="#T" n="5" break="no"/>dum genus suum non dicat quid perfectum: 
+      <lb ed="#T" n="6"/>tamen amor Diuinus dicit quid perfectum, sicut  
+      <lb ed="#T" n="7"/>&amp; verbum Diuinum. 
+    </p>
+               <p xml:id="pdt7y6-e27506-d1e692">
+                  <lb ed="#T" n="8"/>Ad 2. De communicatione naturae. Resp. 
+      <lb ed="#T" n="9"/>Sicut per primum processum naturae perfectum 
+      <lb ed="#T" n="10"/>commnnicatur tota natura, ita per processum 
+      <lb ed="#T" n="11"/>voluntatis tota voluntas, &amp; quia voluntas idem 
+      <lb ed="#T" n="12"/>est cum natura, ideo &amp; tota natura 
+      communi<lb ed="#T" n="13" break="no"/>catur: voluntas enim infinita non nisi ad 
+      infini<lb ed="#T" n="14" break="no"/>tum objectum &amp; actu seu amore infinito 
+      termi<lb ed="#T" n="15" break="no"/>nata, perfecta est. Quamuis ergo in 
+      inferiori<lb ed="#T" n="16" break="no"/>bus non nisi per actum naturae communicetur: 
+      <lb ed="#T" n="17"/>tamen in diuinis potest communicari per actum 
+      <lb ed="#T" n="18"/>voluntatis, quia voluntas ipsa natura est, &amp; 
+      <lb ed="#T" n="19"/>quia perfecta est. 
+    </p>
+               <p xml:id="pdt7y6-e27506-d1e721">
+                  <lb ed="#T" n="20"/>Ad 3. Non est idem modus. Resp. Quamuis 
+      <lb ed="#T" n="21"/>sit processus per modum amoris, non tamen 
+      <lb ed="#T" n="22"/>est idem modus quia creatura procedit: vt 
+      <lb ed="#T" n="23"/>imatum solum &amp; volitum, sed Spiritus Sanctus 
+      <lb ed="#T" n="24"/>vt ratio amandi &amp; volendi: sicut creatura 
+      pro<lb ed="#T" n="25" break="no"/>cedit a Deo vt exemplatum, sed Filius vt 
+      <lb ed="#T" n="26"/>exemplar: sicut aliter procedit ab homine 
+      ami<lb ed="#T" n="27" break="no"/>citia, &amp; aliter donum extrinsecum. 
+    </p>
+               <p xml:id="pdt7y6-e27506-d1e741">
+                  <lb ed="#T" n="28"/>Ad 4. Amor ab amante &amp;c. Resp. Spiritus 
+      <lb ed="#T" n="29"/>Sanctus ab aeterno procedit actu ab vno amante 
+      <lb ed="#T" n="30"/>in alterum vt in objectum amoris; aptitudine 
+      <lb ed="#T" n="31"/>vero etiam in creaturam, quia procedit ab 
+      aeter<lb ed="#T" n="32" break="no"/>no, vt donum ab aptitudine donandi dictum 
+      <lb ed="#T" n="33"/>non ab actu. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="158"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e48251"><!-- l1d19prae -->
+            <head xml:id="pdt7y6-e48251-Hd1e99">Praeambulum</head>
+            <head xml:id="pdt7y6-e48251-Hd1e101" type="question-title"/>
+            <p xml:id="pdt7y6-e48251-d1e103">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0233.xml-->
+               <pb ed="#T" n="158"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>HICDE EQVALITATE TRIVM. 
+      <lb ed="#T" n="2"/>Pessonarum. Distinet. XIX. 
+            </p>
+         <!--  <p xml:id="pdt7y6-e48251-d1e121">
+      <lb ed="#T" n="3"/>VNC postquam coaeternitatem trium personarum pro modulo 
+      faculta<lb ed="#T" n="4" break="no"/>tis nostrae insinuauimus, iam de earundem aequalitate aliquid eloqui su¬ 
+               <lb ed="#T" n="5"/>perest. Fides enim catholica sicut coaeternas, ita &amp; coaequales tres 
+      perso<lb ed="#T" n="6" break="no"/>nas asferit. AEqualis est enim in omnibus Patri Filius, &amp; Patri &amp; Filio 
+      Spi<lb ed="#T" n="7" break="no"/>ritus sanctus. Quia (vt Augustinus in lib. de Fide ad Petrum, breuiter  
+      <lb ed="#T" n="8"/>aperiens quomodo intelligatur aequalitas, docet) nullus horum alium aut 
+      <lb ed="#T" n="9"/>praecedit aeternitate, aut excedit magnitudine, aut superat potestate: quia nec Filio, nec 
+      <lb ed="#T" n="10"/>Spiritu sancto, quantum ad naturae Diuinae vnitatem pertinet, aut anterior, aut maior est 
+      <lb ed="#T" n="11"/>Pater: nec Filius Spiritu sancto. AEternum quippe &amp; sine initio est, quod Filius de natura 
+      <lb ed="#T" n="12"/>Patris extitit: &amp; aeternum ac sine initio est, quod Spiritus sanctus de natura Patris Filiique 
+      <lb ed="#T" n="13"/>procedit. Ob hoc ergo tres vnum recte credimus, &amp; dicimus Deum: quia vna prorsus 
+      <lb ed="#T" n="14"/>aeternitas, vna immenfitas, vna naturaliter est trium personarum Diuinitas. Ecce breuiter  
+      <lb ed="#T" n="15"/>assignauit Augustinus in quo trium personarum consistat aequalitas, scilicet, quia aliam 
+      <lb ed="#T" n="16"/>non excellit, aut aeternitate, aut magnitudine, aut potestate. 
+    </p>
+            <p xml:id="pdt7y6-e48251-d1e150">
+               <lb ed="#T" n="17"/>Quod aeternitas, &amp; magnitudo, &amp; potestas in Deo sunt vnum, licet ponantur quasi diuersa. B 
+      <lb ed="#T" n="18"/>Cumque enumerentur ista quasi diuersa, in Deo tamen vnum &amp; idem sunt, scilicet,  
+      <lb ed="#T" n="19"/>. essentia Diuina, simplex &amp; incommutabilis. Vnde August. in lib. 7. de Trinit. Non alio 
+    </p>
+            <p xml:id="pdt7y6-e48251-d1e160">
+               <lb ed="#T" n="20"/>magnus, alio Deus est: sed eo magnus quo Deus: quia non est illi aliud magnum esse, 
+      <lb ed="#T" n="21"/>aliud Deum esse. Eadem quippe eius magnitudo est, quae virtus: &amp; eadem essentia, quae 
+      <lb ed="#T" n="22"/>magnitudo. Pater ergo &amp; Filius simul vna essentia, &amp; vna magnitudo. Ita etiam &amp; 
+      poten<lb ed="#T" n="23" break="no"/>tia Dei, essentia diuina est. Vnde Augustinus in libro septimo Confessionum: Voluntas &amp; 
+      <lb ed="#T" n="24"/>potentia Dei Deus est. AEternitas quoque Dei, essentia diuina est. Quod Augustinus 
+      osten<lb ed="#T" n="25" break="no"/>dit super illum locum Psalmi, in generatione &amp; generationem anni tui, dicens: Est 
+      gene<lb ed="#T" n="26" break="no"/>ratio generationum quae non transit, collecta de omnibus generationibus, id est, Sancti. 
+      <lb ed="#T" n="27"/>In illa erunt anniDei, qui non transcunt, id est, aeternitas Dei. Non enim sunt aliud 
+      anni<lb ed="#T" n="28" break="no"/>Dei, aliud ipse: sed anni Dei, aeternitas Dei est. AEternitas vero ipsa Dei substantia est, 
+      <lb ed="#T" n="29"/>nihil habens mutabile. Inconcusse ergo teneamus quod vnum &amp; idem est, scilicet, 
+      essen<lb ed="#T" n="30" break="no"/>tia Diuina, Dei aeternitas, potentia, magnitudo: &amp; tamen consueuit Scriptura haec &amp; his 
+      <lb ed="#T" n="31"/>similia quasi distincta ponere. In his ergo verbis trium personarum aequalitatem breuiter  
+      <lb ed="#T" n="32"/>complexus est Augustinus. Quia alius alium nec aeternitate, nec magnitudine, nec 
+      poten<lb ed="#T" n="33" break="no"/>tia superat. Quod autem aeternitate aliqua trium personarum aliam non excedat, supra 
+      <lb ed="#T" n="34"/>ostensum est, vbi coaeternitas trium personarum insinuata est. 
+    </p>
+            <p xml:id="pdt7y6-e48251-d1e195">
+               <lb ed="#T" n="35"/>Hic de magnitudine, quod ea aliqua personarum aliam non excedit. 
+      <lb ed="#T" n="36"/>Nunc igitur superest ostendere, quod magnitudine, vel potentia alius alium non 
+      exce<lb ed="#T" n="37" break="no"/>dat: &amp; prius de magnitudine videamus. 
+      <lb ed="#T" n="38"/>Quod non est maior una persona alia: nec maius aliquid duae quam una: nec tres velduae quam una. D 
+    </p>
+            <p xml:id="pdt7y6-e48251-d1e206">
+               <lb ed="#T" n="39"/>Sciendum est ergo, quia Pater non est maior Filio, nec Pater vel Filius maior 
+      Spiritu<lb ed="#T" n="40" break="no"/>sancto, nec maius aliquid duae personae simul sunt, quam vna, nec tres simul maius aliquid 
+    </p>
+            <p xml:id="pdt7y6-e48251-d1e213">
+               <lb ed="#T" n="41"/>quam duae: nec maior est essentia in tribus quam in duabus, nec in duabus quam in vna, 
+      <lb ed="#T" n="42"/>uia tota est in singulis. Vnde Ioannes Damascenus ait: Confitemur Deitatis naturam 
+      om<lb ed="#T" n="43" break="no"/>nem perfecte esse in singula suarum hypostascon, id est personarum: omnem in Patre, 
+      <lb ed="#T" n="44"/>omnem in Filio, omnem in Spiritu sancto. Ideoque perfectus Deus Pater, perfectus Deus 
+      <lb ed="#T" n="45"/>Filius, perfectus Deus Spiritus sanctus. 
+    </p>
+            <p xml:id="pdt7y6-e48251-d1e226">
+               <lb ed="#T" n="46"/>Quomodo dicitur esse Deus Pater in Filio, &amp; Filius in Patre, &amp; Spiritus sanctus in vtroque, &amp; 
+    </p>
+            <p xml:id="pdt7y6-e48251-d1e231">
+               <lb ed="#T" n="47"/>singulus in singulis. 
+      <lb ed="#T" n="48"/>Et inde est, quod Pater dicitur esse in Filio, &amp; Filius in Patre, &amp; Spiritus sanctus in 
+      <lb ed="#T" n="49"/>vtroque, &amp; singulus in singulis: Vnde Augustinus in libro de fide ad Petrum: propter 
+      <lb ed="#T" n="50"/>vnitatem naturalem totus Pater in Filio &amp; Spiritu sancto est, totus quoque Spiritus sanctus 
+      <lb ed="#T" n="51"/>in Patre &amp; Filio est. Nullus horum extra quemlibet ipsorum est, propter Diuinae naturae 
+      <lb ed="#T" n="52"/>vnitatem. Ecce hic aperit aliquatenus (non enim plene potest tantum ab homine reserari 
+      <lb ed="#T" n="53"/>arcanum) ex qua intelligentia dicatur singula personarum tota esse in alijs. Unde etiam 
+      <lb ed="#T" n="54"/>Hilarius ista interius perquirens in lib. 3. de Trinit. ait: Affert plerisque obscuritatem 
+      ser<lb ed="#T" n="55" break="no"/>mo Domini cum dicit: Ego in Patre, &amp; Pater in me est: nec immerito. Natura enim 
+      in<lb ed="#T" n="56" break="no"/>telligentiae humanae rationem dicti huius non capit: nec exemplum aliquod rebus diuinis 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0234.xml-\->
+      <pb ed="#T" n="159"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>comparatio humana praestabit. Sed quod non intelligibile est homini, Deo possibile est. 
+      <lb ed="#T" n="2"/>Cognoscendum itaque atque intelligendum est quid sit illud: Ego in Patre, &amp; Pater in me 
+      <lb ed="#T" n="3"/>est: si tamen comprehendere hoc ita vt est, valebimus, vt quod natura rerum pati non 
+      <lb ed="#T" n="4"/>posse aestimatur, id Diuinae veritatis ratio consequatur. Patrem ergo in Filio, &amp; Filium in 
+      <lb ed="#T" n="5"/>Patre esse, plenitudo in vtroque Diuinitatis perfecta est, quia plenitudo diuinitatis est in 
+      <lb ed="#T" n="6"/>Filio: quod in Patre est, hoc &amp; in Filio est: quod in ingenito est, hoc in genito: alter ab 
+      <lb ed="#T" n="7"/>altero, &amp; vterque vnum. Is scilicet qui est nihil habens, quod non sit etiam in eo a quo 
+      <lb ed="#T" n="8"/>est, non duo vnus, sed alius in alio: quia non aliud in vtroque, vnum sint in fide nostra 
+      <lb ed="#T" n="9"/>vterque, non vnus: nec eundem vtrumque, nec aliud confitemur, quia deum ex Deo 
+      na<lb ed="#T" n="10" break="no"/>tum, nec eundem natiuitas, nec aliud esse permittit. Eandem ergo in vtroque &amp; virtutis 
+      <lb ed="#T" n="11"/>similitudinem, &amp; Deitatis plenitudinem confitemur, quia veritas dicit: Ego in Patre, &amp;  
+      <lb ed="#T" n="12"/>Pater in me est. Omnia enim Filius accepit a Patre: nam si partem eiusdem qui genuit 
+      ac<lb ed="#T" n="13" break="no"/>cepit, neuter ergo perfectus est: deesset enim ei vnde decessit: nec plenitudo in eo erit, qui  
+      <lb ed="#T" n="14"/>ex portione constiterit. Neuter ergo perfectus est, si plenitudinem suam &amp; qui genuit, 
+      <lb ed="#T" n="15"/>amittit: nec qui natus est consequitur. Fateamur ergo quod Pater est in Filio, &amp; Filius in 
+      <lb ed="#T" n="16"/>Patre, Deus in Deo, vt idem Hilarius ait in 7. lib. de Trinit. non per duplicem 
+      conuenien<lb ed="#T" n="17" break="no"/>tium generum coniunctionem, nec per insitam, capacioris substantiae naturam, sed per 
+      <lb ed="#T" n="18"/>naturae vnitam similitudinem, per natiuitatem viuentis ex viuente natura: dum res non 
+      <lb ed="#T" n="19"/>differt, dum naturam Dei non degenerat natiuitas, dum non aliud aliquid ex Deo quam 
+      <lb ed="#T" n="20"/>Deus nascitur, dum nihil in his nouum est, nihil alienum, nihil separabile. Ecce his verbis, 
+      <lb ed="#T" n="21"/>prout humana permittit infirmitas, aperitur ex quo sensu Christus dixerit se esse in 
+      Pa<lb ed="#T" n="22" break="no"/>tre, &amp; Patrem in se. Ex eodem etiam sensu intelligitur Spiritus sanctus esse in vtroque, &amp; 
+      <lb ed="#T" n="23"/>singula personarum in singulis: quia scilicet in singulis est eadem plenitudo Diuinitatis, &amp; 
+      <lb ed="#T" n="24"/>vnita similitudo naturae, quia non est maior Diuina natura in aliqua harum personarum, 
+      <lb ed="#T" n="25"/>sed vnius &amp; indifferentis naturae sunt hae tres personae. Ideoque altera in altera esse dicitur,  
+      <lb ed="#T" n="26"/>vt praedictum est. Vnde Ambrosius praedictorum verborum sententiam nobis aperiens 
+      su<lb ed="#T" n="27" break="no"/>per epistolam 2. ad Corinth. 5. ait: Per hoc intelligitur Pater esse in Filio, &amp; Filius in 
+      Pa<lb ed="#T" n="28" break="no"/>tre, quia vna est eorum substantia. Ibi enim est vnitas ubi nulla diuersitas. Ecce tribus 
+      il<lb ed="#T" n="29" break="no"/>lustrium virorum testimonijs, scilicet Augustini, Hilarij, atque Ambrosij in eodem 
+      con<lb ed="#T" n="30" break="no"/>curentibus reuelatione Spiritus sancti in eis loquentis, pie credere volentibus 
+      ostendi<lb ed="#T" n="31" break="no"/>tur (tamen quasi per speculum &amp; in aenigmate) qualiter accipiendum sit, cum dicitur 
+      Pa<lb ed="#T" n="32" break="no"/>ter in Filio esse, vel Filius in Patre, vel Spiritus sanctus in vtroque. 
+    </p>
+            <p xml:id="pdt7y6-e48251-d1e332">
+               <lb ed="#T" n="33"/>Ad id quod caeperat redit, scilicet ut ostendat quod magnitudine alius alium non superat. 
+      <lb ed="#T" n="34"/>Sed iam nunc ad propositum redeamus, coeptoque insistamus, ostendentes quod 
+      ma<lb ed="#T" n="35" break="no"/>gnitudine nulla trium personarum aliam superat: quia nulla maior alijs, nec maius aliquid 
+      <lb ed="#T" n="36"/>sunt duae quam vna, nec tres quam duae, nec maior Deus quam singuli horum: quia 
+      sin<lb ed="#T" n="37" break="no"/>gulus horum perfectus est, nec est quo crescat illa perfectio. 
+    </p>
+            <p xml:id="pdt7y6-e48251-d1e345">
+               <lb ed="#T" n="38"/>Quod nulla personarum pars est in Trinitate. 
+      <lb ed="#T" n="39"/>Nec est aliqua trium personarum pars Dei, vel Diuinae essentiae: quia singula harum 
+      ve<lb ed="#T" n="40" break="no"/>rus &amp; plenus Deus est, &amp; tota &amp; plena Diuina essentia est: &amp; ideo nulla istarum in 
+      Trini<lb ed="#T" n="41" break="no"/>tate pars est. Vnde August in lib. 4. contra Maximinum haereticum sic ait: putas Deum 
+      <lb ed="#T" n="42"/>Patrem cum Filio &amp; Spiritu sancto vnum Deum esse non posse. Times enim ne Pater sit 
+      <lb ed="#T" n="43"/>pars vnius Dei qui constet ex tribus. Noli hoc timere: nulla enim sit partium in Deitatis 
+      <lb ed="#T" n="44"/>vnitate diuisio: vnus est Deus Pater, &amp; Filius, &amp; Spiritus sanctus, id est, ipsa Trinitas vnus 
+      <lb ed="#T" n="45"/>est Deus. Ergo, inquis, Deus Pater est pars Dei: absit. Tres enim personae sunt Pater,  &amp; 
+      <lb ed="#T" n="46"/>Filius, &amp; Spiritus sanctus: &amp; hi tres quia vnius substantiae sunt, vnum sunt, &amp; summe 
+      <lb ed="#T" n="47"/>vnum sunt, vbi nulla naturarum, nulla est diuersitas voluntatum. Si enim natura vnum 
+      <lb ed="#T" n="48"/>essent, &amp; consensione vnum non essent, non summe vnum essent. Si vero natura dispares 
+      <lb ed="#T" n="49"/>essent, non summe vnum essent. Hi ergo tres, quia vnum sunt propter ineffabilem 
+      coniun<lb ed="#T" n="50" break="no"/>ctionem Deitatis qua ineffabiliter copulantur, vnus Deus est. Pars ergo Trinitatis esse non 
+      <lb ed="#T" n="51"/>potest, quicunque vnus est in tribus. In Trinitate ergo quae Deus est, &amp; Pater Deus est, &amp; 
+      <lb ed="#T" n="52"/>Filius Deus est, &amp; Spiritus sanctus Deus est: simul hi tres, vnus Deus. Nec huius 
+      Trinita<lb ed="#T" n="53" break="no"/>tis tertia pars est vnus, nec maius aliquid duo quam vnus est ibi, nec maius aliquid sunt 
+      <lb ed="#T" n="54"/>omnes quam singuli: quia spiritualis, non corporalis est magnitudo. Qui potest capere, 
+      <lb ed="#T" n="55"/>capiat: qui autem non potest, credat, &amp; oret vt quod credit, intelligat. Verum est enim 
+      <lb ed="#T" n="56"/>quod per Prophetam dicitur: Nisi credideritis, non intelligetis. His verbis aperte ostendit 
+      <lb ed="#T" n="57"/>indifferentem magnitudinem trium personarum. Item in eodem capite: tu nempe dixisti 
+      <lb ed="#T" n="58"/>vnum Deum non ex partibus esse compositum, &amp; hoc de Patre tantum vis intelligi. Ille, 
+      <lb ed="#T" n="59"/>inquis, virtus est ingenita simplex: &amp; tamen in hac simplici virtute multa videris 
+      com<lb ed="#T" n="60" break="no"/>memorare, cum dicis: Deus Deum genuit, bonus bonum genuit, sapiens sapientem, 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0235.xml-\->
+      <pb ed="#T" n="160"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>clemens clementem, potens potentem. Nunquid ergo bonitas &amp; sapientia, &amp; 
+      clemen<lb ed="#T" n="2" break="no"/>tia, &amp; potentia partes sunt vnius virtutis, quam simplicem esse dixisti. Si dixeris, partes 
+      <lb ed="#T" n="3"/>sunt, simplex ergo virtus ex partibus constat, &amp; simplex illa virtus, te definiente, vnus est 
+      <lb ed="#T" n="4"/>Deus: ergo deum ex partibus compositum esse dicis. Non dico, inquis: non sunt ergo 
+      par<lb ed="#T" n="5" break="no"/>tes. Si ergo in vna persona Patris, &amp; illa inuenis quae plura videntur, &amp; partes non 
+      inue<lb ed="#T" n="6" break="no"/>neris, quia vna virtus simplex est: quanto magis Pater &amp; Filius &amp; Spiritus sanctus, &amp; 
+      <lb ed="#T" n="7"/>propter indiuiduam Deitatem vnus Deus est, &amp; propter vniuscuiusque proprietatem tres 
+      <lb ed="#T" n="8"/>personae sunt, &amp; propter singulorum perfectionem partes vnius Dei non sunt? Virtus est 
+      <lb ed="#T" n="9"/>Pater, virtus est Filius, virtus est Spiritus sanctus. Hoc verum dicis: sed quod virtutem de 
+      <lb ed="#T" n="10"/>virtute genitam, &amp; virtutem de virtute procedentem non vis eandem habere naturam, 
+      <lb ed="#T" n="11"/>hoc falium dicis, hoc contra fidem rectam &amp; Catholicam dicis. His verbis aperte 
+      doce<lb ed="#T" n="12" break="no"/>tur, quod tres personae illae non sunt partes Dei, vel diuinae essentiae. Nullaque illarum 
+      Tri<lb ed="#T" n="13" break="no"/>nitatis pars dicenda est, nec vna maior est alijs.
+    </p>
+            <p xml:id="pdt7y6-e48251-d1e432">
+               <lb ed="#T" n="14"/>Cum dicimus tres personas esse vnam essentiam, nec vt genus de speciebus, nec vt speciem de 
+      <lb ed="#T" n="15"/>indiuiduis praedicamus, quia non est essentia genus, &amp; persona species: vel essentia species, 
+      <lb ed="#T" n="16"/>&amp; persona indiuiduum. 
+    </p>
+            <p xml:id="pdt7y6-e48251-d1e441">
+               <lb ed="#T" n="17"/>His adiiciendum est, quod tanta est aequalitas trium personarum atque indifferens 
+      ma<lb ed="#T" n="18" break="no"/>gnitudo, quod cum dicamus tres personas vnam essentiam vel substantiam, neque vt 
+      ge<lb ed="#T" n="19" break="no"/>nus de speciebus, neque vt speciem de indiuiduis praedicamus. Non enim essentia Diuina 
+      <lb ed="#T" n="20"/>genus est, &amp; tres personae species: vel essentia diuina species, &amp; tres personae indiuidua. 
+      <lb ed="#T" n="21"/>Quod August. rationibus probabilibus atque irrefragabilibus aperte demonstrat in lib. de 
+      <lb ed="#T" n="22"/>Trinit. dicens: Si essentia genus est, species autem persona (vt nonnulli sentiunt) oportet 
+      <lb ed="#T" n="23"/>appellari tres substantias, vt appellantur tres personae. Sicut cum sit animal genus, &amp; 
+      <lb ed="#T" n="24"/>equus species, appellantur tres equi, ijdemque tria animalia. Non enim ibi species 
+      plura<lb ed="#T" n="25" break="no"/>liter dicitur &amp; genus singulariter, vt si diceretur, tres equi sunt vnum animal: sed sicut tres 
+      <lb ed="#T" n="26"/>equi speciali nomine, ita tria animalia nomine generali dicuntur. Cum ergo tres personas 
+      <lb ed="#T" n="27"/>vnam fateamur esse essentiam, non tres esse essentias, cum tres equi tria animalia 
+      dican<lb ed="#T" n="28" break="no"/>tur, non vnum: patet nomine essentiae non significari genus, nec nomine personae 
+      <lb ed="#T" n="29"/>speciem. 
+    </p>
+            <p xml:id="pdt7y6-e48251-d1e472">
+               <lb ed="#T" n="30"/>Hic probat quod non dicitur, vt species de indiuiduis, 
+      <lb ed="#T" n="31"/>Si vero dicunt nomine personae non speciem significari, sed aliquid singulare atque 
+      in<lb ed="#T" n="32" break="no"/>diuiduum, &amp; nomine essentiae speciem intelligi, vt persona non dicatur sicut homo, sed  
+      <lb ed="#T" n="33"/>quomodo dicitur hic homo, velut Abraham, Isaac, Iacob, vel quis alius, qui etiam 
+      digi<lb ed="#T" n="34" break="no"/>to praesens demonstrari possit: sic quoque illos eadem ratio confutabit. Sicut enim 
+      dicun<lb ed="#T" n="35" break="no"/>tur Abraham, Isaac, Iacob, tria indiuidua: ita tres homines, &amp; tria animalia. Cur ergo 
+      <lb ed="#T" n="36"/>Pater, &amp; Filius, &amp; Spiritus sanctus, si secundum genus &amp; speciem &amp; indiuiduum ista 
+      disse<lb ed="#T" n="37" break="no"/>rimus, non ita dicuntur tres essentiae, vt tres personae? 
+    </p>
+            <p xml:id="pdt7y6-e48251-d1e492">
+               <lb ed="#T" n="38"/>Alio modo probat idem. 
+      <lb ed="#T" n="39"/>Alio quoque modo idem probat Augustin. scilicet quod essentia Diuina non est genus, 
+      <lb ed="#T" n="40"/>nec personae species: vel essentia non est species, nec personae indiuidua. Vna, inquit, 
+      essen<lb ed="#T" n="41" break="no"/>tia non habet species, sicut quia genus est animal, vnum animal non habet species. Pater  
+      <lb ed="#T" n="42"/>ergo &amp; Filius, &amp; Spiritus sanctus non sunt tres species vnius essentiae: Diuina ergo 
+      essen<lb ed="#T" n="43" break="no"/>tia genus non est. Sed nec species est essentia Diuina, &amp; personae indiuidua, sicut homo 
+      <lb ed="#T" n="44"/>species est, indiuidua autem Abraham, Isaac, &amp; lacob. Si enim essentia species est, vt 
+      <lb ed="#T" n="45"/>homo: sicut non dicitur vnus homo esse Abraham, Isaac, &amp; Iacob, ita non dicetur vna 
+      <lb ed="#T" n="46"/>essentia esse tres personae. Non itaque secundum genus &amp; species ista dicimus. 
+    </p>
+            <p xml:id="pdt7y6-e48251-d1e515">
+               <lb ed="#T" n="47"/>Nec secundum materialem causam dicuntur tres personae una essentia. 
+      <lb ed="#T" n="48"/>Notandum etiam quod essentia diuina non est materia trium personarum, vt August. 
+      <lb ed="#T" n="49"/>in eodem lib. docet, tanquam secundum communem eandemque materiam tres personae 
+      <lb ed="#T" n="50"/>dicantur esse vna essentia: sicut ex eodem auto, si fierent tres statuae, diceremus tres statuas 
+      <lb ed="#T" n="51"/>vnum aurum. Non autem sic Trinitatem, id est, tres personas dicimus vnam essentiam 
+      <lb ed="#T" n="52"/>&amp; Deum vnum, tanquam ex vna materia tria quaedam subsistant. In statuis enim 
+      aequali<lb ed="#T" n="53" break="no"/>bus, plus auri est tres simul, quam singulae: &amp; minus auri est vna, quam duae. In illa vero 
+      <lb ed="#T" n="54"/>essentia Trinitatis nullo modo est ita. Non ergo secundum materialem causam tres 
+      perso<lb ed="#T" n="55" break="no"/>nas vnam dicimus esse substantiam vel essentiam, sicut tres statuae dicuntur vnum aurum. 
+    </p>
+            <p xml:id="pdt7y6-e48251-d1e537">
+               <lb ed="#T" n="56"/>Nec ita dicuntur tres personae una essentia, vt tres homines una natura, vel unius naturae. M 
+      <lb ed="#T" n="57"/>His quoque addendum est, quod tres personas non ita dicimus esse vnam essentiam, 
+      <lb ed="#T" n="58"/>vt Augustinus in eodem ait, vel vnius essentiae, sicut dicimus aliquos tres homines eiusdem 
+      <lb ed="#T" n="59"/>sexus, &amp; eiusdem temperationis corporis, eiusdemque animi, vnam esse naturam vel 
+      <lb ed="#T" n="60"/>vnius naturae. Nam in his rebus non tantum est vnus homo, quantum tres homines simuls, 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0236.xml-\->
+      <pb ed="#T" n="161"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>&amp; plus aliquid sunt homines duo, quam vnus homo, sicut in statuis esse diximus. At in 
+      <lb ed="#T" n="2"/>Deo non est ita: non enim maior essentia est Pater &amp; Filius simul, quam solus Pater vel 
+      <lb ed="#T" n="3"/>solus Filius, sed tres simul illae personae aequales sunt singulis. Ex praemissis patet quod tres 
+      <lb ed="#T" n="4"/>personae dicuntur Diuina essentia, nec secundum materialem causam vt tres statuae vnum 
+      <lb ed="#T" n="5"/>aurum, nec secundum complexionis similitudinem, vt tres homines vnius naturae, nec vt 
+      <lb ed="#T" n="6"/>genus praedicatur de speciebus, vel vt species de indiuiduis, id est, continens de 
+      conten<lb ed="#T" n="7" break="no"/>tis, maius de minoribus. 
+    </p>
+            <p xml:id="pdt7y6-e48251-d1e572">
+               <lb ed="#T" n="8"/>Quae videntur aduersaripraedictis. 
+      <lb ed="#T" n="9"/>His autem videntur aduersari, quae quidem sacrae scripturae tractatores Catholici in suis 
+      <lb ed="#T" n="10"/>scriptis tradiderunt, in quibus significare videntur, quod essentia Diuina sit quiddam 
+      com<lb ed="#T" n="11" break="no"/>mune &amp; vniuersale velut species: tres vero personae sint tria particularia, tria indinidua 
+      <lb ed="#T" n="12"/>numero differentia. Vnde loannes Damascenus inter doctores Graecorum maximus in 
+      <lb ed="#T" n="13"/>libro, quem de Trinitate scripsit, quem &amp; Papa Eugenius transferri fecit, ait: Communia 
+      <lb ed="#T" n="14"/>&amp; vniuersalia praedicantur de subjectis sibi ipsis particularibus. Commune ergo substantia. 
+      <lb ed="#T" n="15"/>est, particulare vero hypostasis, id est, persona. Particulare autem dicitur, non quod 
+      par<lb ed="#T" n="16" break="no"/>tem naturae habet: sed particulare nume: o, vt atomus, id est, indiuiduum. Numero 
+      <lb ed="#T" n="17"/>enim non natura differre videntur hypostases. Item in eodem: Substantia significat 
+      com<lb ed="#T" n="18" break="no"/>munem &amp; circumplectiuam speciem homoideon, id est, similium specie hypostaseon, id  
+      <lb ed="#T" n="19"/>est, personarum, vt puta Deus, homo: hypostasis autem indiuiduum demonstrat, id est, 
+      <lb ed="#T" n="20"/>Patrem, Filium, &amp; Spiritum sanctum, Petrum, Paulum, &amp; huiusmodi. Ecce aperte 
+      <lb ed="#T" n="21"/>dicit substantiam esse vniuersale, hypostasim vero particulare, &amp; quod Deus est species vt 
+      <lb ed="#T" n="22"/>homo, &amp; quod Pater &amp; Filius &amp; Spiritus sanctus sunt indiuidua, sicut Petrus &amp; Paulus, 
+      <lb ed="#T" n="23"/>eo quod numero differunt, quae praemissae sententiae August. penitus contradicere 
+      viden<lb ed="#T" n="24" break="no"/>tur. Quid ergo dicimus ad haec? Hoc vtique dicere possumus atque debemus, quod ea 
+      <lb ed="#T" n="25"/>quae August. tradidit superius, sine omni haesitatione tenenda sunt.  
+    </p>
+            <p xml:id="pdt7y6-e48251-d1e614">
+               <lb ed="#T" n="26"/>Quod sane possunt intelligi quae Ioannes Damascenus dicit, &amp; quomodo ostendit. 
+      <lb ed="#T" n="27"/>Haec autem quae hic dicuntur, licet in sermonis superficie aliud a fide alienum resonare 
+      <lb ed="#T" n="28"/>videantur, sane tamen intelligiqueunt, piumque lectorem atque intellectorem plurimum 
+      <lb ed="#T" n="29"/>esssagitant, in quorum explanatione mallem silens alios audire, quam loquendo 
+      maleuo<lb ed="#T" n="30" break="no"/>lis detrahendi occasionem praestare. Videtur tamen mihi ita posse accipi, cum ait: 
+      Substan<lb ed="#T" n="31" break="no"/>tia est commune, &amp; hypostasis est particulare: Non ita haec accipicum de Deo dicuntur.  
+      <lb ed="#T" n="32"/>vt accipiuntur in Philosophica disciplina. Sed per similitudinem eorum quae a Philosophis 
+      <lb ed="#T" n="33"/>dicuntur, locutus est: vt sicut ibi commune vel vniuersale dicitur, quod praedicatur de 
+      <lb ed="#T" n="34"/>pluribus, particulare vero vel indiuiduum, quod de vno solo: ita haec essentia Diuina dicta 
+      <lb ed="#T" n="35"/>est vniuersale, quia de omnibus personis simul, &amp; de singulis separatim dicitur: 
+      particula<lb ed="#T" n="36" break="no"/>re vero singula quaelibet personarum: quia nec de alijs communiter, nec de aliqua aliarum 
+      <lb ed="#T" n="37"/>singulariter praedicatur. Propter similitudinem ergo praedicationis, substantiam Dei dixit 
+      <lb ed="#T" n="38"/>vniuersale, &amp; personas particularia vel indiuidua. Propter hoc idem eandem Diuinam 
+      <lb ed="#T" n="39"/>essentiam dixit esse speciem communem, &amp; circumplectiuam similium specie personarum, 
+      <lb ed="#T" n="40"/>quia sicut haec species, homo, de suis praedicatur indiuiduis, velut de Petro &amp; Paulo &amp; alijs, 
+      <lb ed="#T" n="41"/>nec ista specie differunt, sed couueniunt per omnia: ita Deus de tribus praedicatur 
+      perso<lb ed="#T" n="42" break="no"/>nis, quae in Diuinitate non differunt, sed per omnia conueniunt. Hanc ergo similitudinem 
+      <lb ed="#T" n="43"/>inter res sempiternas &amp; res temporales perpendens loannes vniuersalitatis &amp; 
+      particula<lb ed="#T" n="44" break="no"/>ritatis nomina, quae rebus temporalibus proprie conueniunt, ad res aeternas transtulit: 
+      <lb ed="#T" n="45"/>August. vero maiorem videns dissimilitudinem quam similitudinem inter res praedictas, 
+      <lb ed="#T" n="46"/>ab excellentia Trinitatis praedicta nomina remouit. 
+    </p>
+            <p xml:id="pdt7y6-e48251-d1e662">
+               <lb ed="#T" n="47"/>Ex quo sensu dixerit personas differre numero. 
+      <lb ed="#T" n="48"/>Quod autem Ioannes dicit hypostases differre numero non natura: in eo quod non differre 
+      <lb ed="#T" n="49"/>natura ait, verissime &amp; sine scrupulo loquitur. Quod vero dicit differre numero, cauendum 
+      <lb ed="#T" n="50"/>est quomodo intelligatur. diueisis enim modis dicuntur aliqua differre numero. 
+    </p>
+            <p xml:id="pdt7y6-e48251-d1e673">
+               <lb ed="#T" n="51"/>Quibus modis dicantur differe numero, &amp; secundum quem modum possit conuenire personis. Q. 
+      <lb ed="#T" n="52"/>Dicuntur enim aliqua differre numero, quando ita differunt, vt hoc non sit illud, nec 
+      <lb ed="#T" n="53"/>aliquid quod illud est vel in ipso est, qualiter differunt Socrates, &amp; Plato, &amp; huiusmodi, 
+      <lb ed="#T" n="54"/>quae apud Philosophos dicuntur indiuidua vel particularia: iuxta quem modum non 
+      <lb ed="#T" n="55"/>possunt dici tres personae differre numero. Dicuntur quoque differre numero, quae in 
+      enu<lb ed="#T" n="56" break="no"/>meratione, siue computatione non sibi adiunguntur, sed a se inuicem discernuntur: vt cum 
+      <lb ed="#T" n="57"/>de aliquibus rebus loquentes dicimus. Vna, duae, tres: &amp; secundum hunc modum forte 
+      <lb ed="#T" n="58"/>dixit Ioan. hypostases, id est, personas differre numero. Possumus enim dicere, 
+      Pa<lb ed="#T" n="59" break="no"/>ter est vnus, &amp; Pater &amp; Filius sunt duo, &amp; Pater &amp; Filius &amp; Spiritus sanctus sunt tres. Et  
+      <lb ed="#T" n="60"/>item: Haec persona est vna, &amp; haec &amp; illa sunt duae, &amp; haec &amp; illa &amp; alia sunt tres. Con¬ 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0237.xml-\->
+      <pb ed="#T" n="162"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>uenientius tamen illae tres personae proprietatibus tantum distingui dicuntur, de quarum 
+      <lb ed="#T" n="2"/>distinctione secundum proprietates in sequenti tractabitur. Nunc vero ad incaeptum 
+      re<lb ed="#T" n="3" break="no"/>deamus, quae dicta sunt repetentes, vt saepius versando familiarius innotescant.  
+    </p>
+            <p xml:id="pdt7y6-e48251-d1e711">
+               <lb ed="#T" n="4"/>Quod vna persona non est maior alia, nec tres simulquam una: &amp; hoc ratione ostendit Catholica. R 
+    </p>
+            <p xml:id="pdt7y6-e48251-d1e716">
+               <lb ed="#T" n="5"/>Sciendum est ergo tantam aequalitatem esse in Trinitate, vt ait August. in 8. lib. de Trin. 
+      <lb ed="#T" n="6"/>vt non solum Pater non sit maior quam Filius, sed nec Pater &amp; Filius simul maius aliquid 
+      <lb ed="#T" n="7"/>sint quam Spiritus sanctus, aut quaelibet persona minus aliquid sit quam ipsa Trinitas, 
+      <lb ed="#T" n="8"/>Quod autem ita sit, aliquo modo, si fieri potest, demonstrandum est. Quantum ergo 
+      Crea<lb ed="#T" n="9" break="no"/>tor ipse adiuuat, attendamus, inquit August. in eodem, quomodo in hac Trinitate duae 
+      <lb ed="#T" n="10"/>vel tres personae non sunt maius aliquid quam vna earum. 
+    </p>
+            <p xml:id="pdt7y6-e48251-d1e732">
+               <lb ed="#T" n="11"/>Ratione utitur subtilissima ad ostendendum, quod ita sit, 
+      <lb ed="#T" n="12"/>Quod ibi magnum dicitur, aliunde magnum non est, quam eo quo vere est: quia ibi  
+      <lb ed="#T" n="13"/>magnitudo ipsa veritas est, &amp; veritas essentia: non ergo ibi maius est, quod verius non 
+      <lb ed="#T" n="14"/>est. Non autem verius est Pater &amp; Filius simul quam Pater solus vel Filius. Non ergo maius 
+      <lb ed="#T" n="15"/>est aliquid vterque simul, quam singulus eorum. Et quia aeque vere est etiam Spiritus 
+      <lb ed="#T" n="16"/>sanctus, ideo Pater &amp; Filius simul non sunt aliquid maius quam ipse: quia nec verius sunt.  
+      <lb ed="#T" n="17"/>Item in essentia veritatis, hoc est verum esse quod est esse, &amp; hoc est esse, quod est magnum 
+      <lb ed="#T" n="18"/>esse. Hoc est ergo magnum esse, quod verum esse. Quod igitur ibi aeque verum est, &amp; 
+      <lb ed="#T" n="19"/>aeque magnum est. Quod ergo ibiplus veritatis non habet, non plus habet magnitudinis. 
+      <lb ed="#T" n="20"/>Plus autem veritatis non habet quod verius non est. Non est autem verius vna persona 
+      <lb ed="#T" n="21"/>quam alia, vel duae quam vna, vel tres simul quam singula. Non ergo plus veritatis habet  
+      <lb ed="#T" n="22"/>vna quam alia, vel quae quam vna, vel tres simul quam singula. Sic ergo &amp; ipsa Trinitas 
+      <lb ed="#T" n="23"/>non est maius aliquid, quam vnaquaeque ibi persona, sed tam magnum quam singula. 
+      <lb ed="#T" n="24"/>Non enim ibi maior est quae verior non est, vbi ipsa veritas est magnitudo. Ecce modo 
+      <lb ed="#T" n="25"/>conuenienti &amp; ratione Catholica ostensum est quomodo indifferens sit magnitudo trium 
+      <lb ed="#T" n="26"/>personarum: quia nec vna maior est alia, nec duae maius aliquid quam vna, nec tres simul 
+      <lb ed="#T" n="27"/>maius aliquid quam singula. 
+    </p>
+            <p xml:id="pdt7y6-e48251-d1e771">
+               <lb ed="#T" n="28"/>Quod Deus non est dicendus triplex, sed trinus. 
+      <lb ed="#T" n="29"/>Praeterea cum Deus dicatur trinus, non tamen debet dici triplex. Ibi enim non est 
+      tri<lb ed="#T" n="30" break="no"/>. plicitas, vbi summa est vnitas &amp; indifferens aequalitas. Vnde August. in lib. 6. de Trinit. 
+      <lb ed="#T" n="31"/>ait. Non quoniam Deus Trinitas est, ideo triplex putandus est: alioquin minor esset 
+      Pa<lb ed="#T" n="32" break="no"/>ter solus, vel Filius solus, quam simul Pater &amp; Filius. Cum itaque tantus est Pater solus, 
+      <lb ed="#T" n="33"/>vel solus Filius, vel solus. Spiritus sanctus, quantus est simul Pater &amp; Filius &amp; Spiritus 
+      <lb ed="#T" n="34"/>sanctus, nullo modo triplex dicendus est Deus. Non enim Pater cum Filio &amp; Spiritu sancto 
+      <lb ed="#T" n="35"/>maior Deus est quam singuli eorum: quia non est quo crescat illa perfectio. Perfectus 
+      <lb ed="#T" n="36"/>autem est &amp; Pater &amp; Filius &amp; Spiritus sanctus, &amp; perfectus dicirur Deus singulus eorum. 
+      <lb ed="#T" n="37"/>Et ideo Trinitas potius quam triplex dici debet.  
+    </p>
+            <p xml:id="pdt7y6-e48251-d1e795">
+               <lb ed="#T" n="38"/>Quod non est ita in rebus corporeis, vt in Trinitate. 
+      <lb ed="#T" n="39"/>In rebus corporeis non tantum est vna, quantum tres simul, &amp; plus sunt duae quam 
+      <lb ed="#T" n="40"/>vna res. In Trinitate vero summa, tantum est vna persona, quantum tres simul, &amp; tantum 
+    </p>
+            <p xml:id="pdt7y6-e48251-d1e804">
+               <lb ed="#T" n="41"/>sunt duae, quantum vna: &amp; in se infinitae sunt, quia non est finis magnitudinis earum. Ac 
+      <lb ed="#T" n="42"/>per hoc aperitur quod superius dictum est, quomodo singula sunt in singulis, &amp; omnia in 
+      <lb ed="#T" n="43"/>singulis, &amp; singula in omnibus, &amp; omnia in omnibus, &amp; vnum in omnibus est, &amp; vnum 
+      <lb ed="#T" n="44"/>omnia. Ecce iam ostendimus sufficienter, qualiter in Trinitate aliqua persona aliam non 
+      <lb ed="#T" n="45"/>superet magnitudine. 
+    </p>-->
+            <p xml:id="pdt7y6-e48251-d1e818">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0237.xml-->
+               <cb ed="#T" n="b"/>
+               <lb ed="#T" n="46" type="fixed=162"/>DIVISIO TEXTVS. 
+      <lb ed="#T" n="47"/>TVnc postquam] Egit de vnitate essentiae 
+      <lb ed="#T" n="48"/>&amp; Trinitate personarum a dist. 2. Usqur 
+      <lb ed="#T" n="49"/>ad 4. De distinctione &amp; origine ipsarum a 4. dist. 
+      <lb ed="#T" n="50"/>vsque ad hanc. Hic incipit agere de aequalitate 
+      <lb ed="#T" n="51"/>carum vsque ad 22. dist. Et primo ostendit 
+      prin<lb ed="#T" n="52" break="no"/>cipaliter earum aequalem magnitudinem in 
+      es<lb ed="#T" n="53" break="no"/>sendo dist. hac. Secundo aequalem potestatem in 
+      <lb ed="#T" n="54"/>operando dist. 20. Tertio incidenter ostendit 
+      ea<lb ed="#T" n="55" break="no"/>rum inseparabilitatem in confortio mutuo, dist. 
+      <lb ed="#T" n="56"/>21. In prima parte (id est in haec distinctione) 
+      <lb ed="#T" n="57"/>primo ostendit in quibus consistit aequalitas in 
+      <lb ed="#T" n="58"/>communi: secundo prosequitur de aequalitate 
+      <lb ed="#T" n="59"/>magnitudinis in speciali (Nunc igitur. ) 
+    </p>
+            <p xml:id="pdt7y6-e48251-d1e855">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0237.xml-->
+               <cb ed="#T" n="c"/>
+               <lb ed="#T" n="60"/>In prima parte primo ostendit quod aequalitas 
+      <lb ed="#T" n="61"/>personarum in tribus consistit, scilicet 
+      aeternita<lb ed="#T" n="62" break="no"/>te, magnitudine, potestate: secundo ostendit quod 
+      <lb ed="#T" n="63"/>haec tria in Deo differunt ratione, sed non re 
+      <lb ed="#T" n="64"/>[Cumque enumerentur. ] 
+    </p>
+            <p xml:id="pdt7y6-e48251-d1e873">
+               <lb ed="#T" n="65"/>In secunda parte principali ostendit 
+      aequali<lb ed="#T" n="66" break="no"/>tatem magnitudinis, triplici ratione. Primo 
+      pro<lb ed="#T" n="67" break="no"/>pter identitatem perfectae consubstantialitatis. 
+      <lb ed="#T" n="68"/>Secundo propter exclusionem omnis totalitatis) 
+      <lb ed="#T" n="69"/>[Sed iam nunc] Tertio propter indifferentiam 
+      <lb ed="#T" n="70"/>omnimodae simplicitatis [Sciendum est ergo.] 
+      <lb ed="#T" n="71"/>In prima parte primo intendit probare 
+      aequali<lb ed="#T" n="72" break="no"/>tatem magnitudinis quasi per causam ipsius, 
+      sci<lb ed="#T" n="73" break="no"/>licet per consubstantialitatem perfectam[ 
+      Scien<lb ed="#T" n="74" break="no"/>dum: secundo quasi per signum, scilicet 
+      perper<lb ed="#T" n="75" break="no"/>sonarum inhaesionem mutuam [Et inde est.] 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0238.xml-->
+      <pb ed="#T" n="163"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>In secunda parte primo probat veritatem 
+      <lb ed="#T" n="2"/>[Sed iam nunc] Secundo soluit obiectione 
+      <lb ed="#T" n="3"/>contrarias [His autem videntur aduersari. In 
+      <lb ed="#T" n="4"/>prima parte primo ostendit quod essentia ad 
+      per<lb ed="#T" n="5" break="no"/>sonas non se habet in ratione totius integralis: 
+      <lb ed="#T" n="6"/>secundo quod non in ratione totius vniuersali 
+      <lb ed="#T" n="7"/>[His adijciendum.] Tettio quia nec in ratione 
+      <lb ed="#T" n="8"/>partis alicuius [Notandum etiam. ] In prima 
+      <lb ed="#T" n="9"/>parte primo proponit probandum: secundo 
+      <lb ed="#T" n="10"/>prosequitur propontum [Nec est] In secunda 
+      <lb ed="#T" n="11"/>parte primo probat quod essentia non est 
+      genu<lb ed="#T" n="12" break="no"/>[His adijciendum) Secundo quod non est spe: 
+      <lb ed="#T" n="13"/>cies [Si vero ] Tertio simul quod nec 
+      genu<lb ed="#T" n="14" break="no"/>nec species [Alio quoque.] In tertia parte 
+      pri<lb ed="#T" n="15" break="no"/>mo ostendit quod non se habet in ratione 
+      com<lb ed="#T" n="16" break="no"/>munis materiae [Notandum] Secundo quod 
+      <lb ed="#T" n="17"/>nec in ratione communis proprietatis vel formae 
+      <lb ed="#T" n="18"/>[His quoque] In parte qua soluit objectiones 
+      <lb ed="#T" n="19"/>contrarias, primo contra praedeterminata ex 
+      au<lb ed="#T" n="20" break="no"/>ctoritate opponit [His autem] Secundo scluit 
+      <lb ed="#T" n="21"/>[Haec autem ] Tertio quaedam quae in 
+      auctori<lb ed="#T" n="22" break="no"/>tate illa dubia videntur, exponit [Quod autem 
+      <lb ed="#T" n="23"/>Ioan. 
+    </p>
+            <p xml:id="pdt7y6-e48251-d1e956">
+               <lb ed="#T" n="24"/>In vltima parte primo ostendit propter 
+      omni<lb ed="#T" n="25" break="no"/>modam simplicitatem quod vna persona non est 
+      <lb ed="#T" n="26"/>minor pluribus [Sciendum] Secundo ostendit 
+      <lb ed="#T" n="27"/>quod ideo non debet dici Deus triplex sed 
+      tri<lb ed="#T" n="28" break="no"/>nus [Praeterea ] Tertio ostendit quod aliter est 
+      <lb ed="#T" n="29"/>in rebus corporalibus [In rebus corporalibus. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

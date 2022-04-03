@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="201"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e61502"><!-- l1d24q3 -->
+            <head xml:id="pdt7y6-e61502-Hd1e99">Quaestio 3</head>
+            <head xml:id="pdt7y6-e61502-Hd1e101" type="question-title">De termino significante unitatem et numerum in Divinis</head>
+            <p xml:id="pdt7y6-e61502-d1e104">
+      <!-- line cord order error -->
+               <lb ed="#T" n="60"/>QVESTIO III. 
+      <lb ed="#T" n="35"/>DE TERMINO SIONIFICANTE 
+      <lb ed="#T" n="36"/>SIMVL VNITATEM ETNVMERVM.
+      <lb ed="#T" n="62"/>INDIVINIS.
+      <!-- line cord order error -->
+       
+    </p>
+            <p xml:id="pdt7y6-e61502-d1e119">
+               <lb ed="#T" n="37"/>CIrca tertium principale quaeritur de hoc 
+      <lb ed="#T" n="38"/>Cnomine, Trinitas, vtrum dicatur secundum 
+      <lb ed="#T" n="39"/>substantiam; vel secundum relationem. 
+    </p>
+            <div xml:id="pdt7y6-e61502-Dd1e128">
+               <head xml:id="pdt7y6-e61502-Hd1e130">Articulus 1</head>
+               <head xml:id="pdt7y6-e61502-Hd1e132" type="question-title">
+  An hoc nomen Trinitas dicatur secundum substantiam
+  vel secundum relationem
+</head>
+               <p xml:id="pdt7y6-e61502-d1e135">
+                  <lb ed="#T" n="40"/>ARTICVLVS VNICVS. 
+      <lb ed="#T" n="41"/>An hoc nomen Trinitas dicatur secundum substantiam
+      <lb ed="#T" n="61"/>vel secundum relationem.
+      <!-- line cord order error -->
+    </p>
+               <p xml:id="pdt7y6-e61502-d1e146">
+                  <lb ed="#T" n="42"/>VIdetur quod secundum substantiam. 1. Quia 
+      <lb ed="#T" n="43"/>Trinitas est trium vnitas, sed vnitas triun 
+      <lb ed="#T" n="44"/>est essentia: ergo Trinitas significat essentiam. 
+    </p>
+               <p xml:id="pdt7y6-e61502-d1e155">
+                  <lb ed="#T" n="45"/>2. Omne nomen quod dicitur ad se, non ad 
+      <lb ed="#T" n="46"/>aliud, essentiale est: Trinitas non dicitur ad aliud 
+      <lb ed="#T" n="47"/>sed ad se: ergo est nomen essentiale. 
+    </p>
+               <p xml:id="pdt7y6-e61502-d1e165">
+                  <lb ed="#T" n="48"/>3. Omne nomen, quod dicitur de personis 
+      om<lb ed="#T" n="49" break="no"/>nibus simul in singulari, essentiale est: sed tale 
+      <lb ed="#T" n="50"/>est hoc nomen Trinitas: ergo est nomen 
+      essen<lb ed="#T" n="51" break="no"/>tiale. 
+    </p>
+               <p xml:id="pdt7y6-e61502-d1e176">
+                  <lb ed="#T" n="52"/>Contra. 1. Relatio vt ait <name xml:id="pdt7y6-e61502-Nd1e180" ref="#Boethius">Boetius</name>, muiciplicat 
+      <lb ed="#T" n="53"/>Trinitatem, &amp; essentia continet unitatem: erg 
+      <lb ed="#T" n="54"/>Trinitas non significat essentiam sed relatione 
+    </p>
+               <p xml:id="pdt7y6-e61502-d1e188">
+                  <lb ed="#T" n="55"/>2. Nomen essentiale vere praedicatur de 
+      qua<lb ed="#T" n="56" break="no"/>libet persona per se: sed Trinitas non sic praedi 
+      <lb ed="#T" n="57"/>catur: ergo non est nomen essentiale. 
+    </p>
+               <p xml:id="pdt7y6-e61502-d1e197">
+                  <lb ed="#T" n="58"/>Item in nulla re Diuina simul est vnitas &amp; 
+      <lb ed="#T" n="59"/>oluralitas: ergo si Trinitas simul significat 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0276.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="63"/>vtrumque, de nulla re Diuina praedicari potest. 
+    </p>
+               <p xml:id="pdt7y6-e61502-d1e210">
+                  <lb ed="#T" n="64"/>Item. Si importat vtrumque, ergom ale 
+      dici<lb ed="#T" n="65" break="no"/>tur Deus trinus &amp; vnus, 
+    </p>
+               <p xml:id="pdt7y6-e61502-d1e217">
+                  <lb ed="#T" n="66"/>Item. Quamuis ex tribus personis creatis fiat 
+      <lb ed="#T" n="67"/>aliquid vnum secundum quid, scilicet per 
+      aggre<lb ed="#T" n="68" break="no"/>gationem, non tamen possunt dici trinitas: 
+      er<lb ed="#T" n="69" break="no"/>go multo fortius, cum ex tribus personis Diuinis 
+      <lb ed="#T" n="70"/>nihil siat vnum, non potest dici Trinitas 
+    </p>
+               <p xml:id="pdt7y6-e61502-d1e231">
+                  <lb ed="#T" n="71"/>Respondeo. Trinitas claudit in suo intellectu 
+      <lb ed="#T" n="72"/>tam vnitatem essentiae quam pluralitatem 
+      perso<lb ed="#T" n="73" break="no"/>narum, quia secundum Isidorum trinitas dic 
+      <lb ed="#T" n="74"/>tur quasi trium vnitas. Licet vero quantum ad 
+      <lb ed="#T" n="75"/>etymologiae expositionem vnitas significetur ibi 
+      <lb ed="#T" n="76"/>principaliter &amp; quasi in recto tamen quantum  
+      <lb ed="#T" n="77"/>ad nominis impositionem e conuerso est: vnde 
+      <lb ed="#T" n="78"/>sensus est: Trinitas, id est, tres personae vnius 
+      es<lb ed="#T" n="79" break="no"/>sentiae. Et ideo quamuis non sit terminus pure 
+      <lb ed="#T" n="80"/>personalis, principaliter tamen pertinet ad 
+      per<lb ed="#T" n="81" break="no"/>sonas, &amp; significat relationem, non tamen 
+      ex<lb ed="#T" n="82" break="no"/>trinsecam &amp; explicite, sed implicite &amp; 
+      intrin<lb ed="#T" n="83" break="no"/>secam  
+    </p>
+               <p xml:id="pdt7y6-e61502-d1e262">
+                  <lb ed="#T" n="84"/>Ad 1. Trium vnitas est essentia. Resp. 
+      Li<lb ed="#T" n="85" break="no"/>cet secundum etymologiam vnitas ibi cadat in 
+      <lb ed="#T" n="86"/>recto, tamen secundum nominis impositionem 
+      <lb ed="#T" n="87"/>ad distinctionem personarum principaliter 
+      im<lb ed="#T" n="88" break="no"/>positum est nomen. Prima enim etymologia 
+      no<lb ed="#T" n="89" break="no"/>minis non semper praedicatur couuertibiliter 
+      <lb ed="#T" n="90"/>cum ipso, non enim omne quod laedit pedem 
+      <lb ed="#T" n="91"/>lapis est 
+    </p>
+               <p xml:id="pdt7y6-e61502-d1e282">
+                  <lb ed="#T" n="92"/>Ad 2. De dici ad se &amp;c. Resp. Dici ad aliud 
+      <lb ed="#T" n="93"/>est duplex, vel ratione explicita &amp; extrinseca; 
+      <lb ed="#T" n="94"/>vel implicita &amp; intrinseca: sic Trinitas dicitur  
+      <lb ed="#T" n="95"/>ad aliquid relatione intrinseca quae aterminatur 
+      <lb ed="#T" n="96"/>intra personarum ipsarum ad inuicem relaterum 
+      <lb ed="#T" n="97"/>collectionem, sicut cum dicitur, isti sunt simi 
+      <lb ed="#T" n="98"/>les: non extrinseca, quae terminatur ad aliquid 
+      <lb ed="#T" n="99"/>extra, sicut cum dicitur iste est similis illi. 
+    </p>
+               <p xml:id="pdt7y6-e61502-d1e302">
+                  <lb ed="#T" n="100"/>Ad 3. Dicitur de omnibus simul in singulari 
+      <lb ed="#T" n="101"/>Resp. Hoc non sufficit ad rationem termini 
+      es<lb ed="#T" n="102" break="no"/>sentialis, sed cum hoc exigitur quod dicatur de 
+      <lb ed="#T" n="103"/>qualibet persona singulariter.  
+    </p>
+               <p xml:id="pdt7y6-e61502-d1e313">
+                  <lb ed="#T" n="104"/>Ad id quod obijcitur. In nulla re Diuina &amp;c. 
+      <lb ed="#T" n="105"/>Resp. Quamuis non sit simul vnitas &amp; 
+      plurali<lb ed="#T" n="106" break="no"/>tas in vna re secundum idem, potest tamen 
+      signi<lb ed="#T" n="107" break="no"/>ficari eodem nomine &amp; dici de eodem, 
+      secun<lb ed="#T" n="108" break="no"/>dum diuersa tamen: vnde de hoc nomine, Deus, 
+      <lb ed="#T" n="109"/>vtrumque dici potest: sed vnum gratia formae 
+      <lb ed="#T" n="110"/>significatae, scilicet vnitas: alterum gratia 
+      suppo<lb ed="#T" n="111" break="no"/>sitorum scilicet pluralitas 
+    </p>
+               <p xml:id="pdt7y6-e61502-d1e333">
+                  <lb ed="#T" n="112"/>Ad illud quod obijcitur, quod male dicatur 
+      <lb ed="#T" n="113"/>trinus &amp; vnus. Resp. Cum additur vnus, tunc 
+      <lb ed="#T" n="114"/>hic terminus, vnus, cadit a parte significationis; 
+      <lb ed="#T" n="115"/>sicut cum dicitur, cede locum, &amp; hoc siat 
+      cau<lb ed="#T" n="116" break="no"/>sa maioris expressionis. 
+    </p>
+               <p xml:id="pdt7y6-e61502-d1e347">
+                  <lb ed="#T" n="117"/>Ad illud quod opponitur de Trinitate 
+      perso<lb ed="#T" n="118" break="no"/>narum. Resp. Non est simile. Nam tres persona 
+      <lb ed="#T" n="119"/>creatae nec vere sunt vnum, nec vere 
+      faciun<lb ed="#T" n="120" break="no"/>vnum: tres vero personae Diuinae quamuis non 
+      <lb ed="#T" n="121"/>faciant vnum, tamen vere sunt vnum, 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e61502-Dd1e362">
+               <head xml:id="pdt7y6-e61502-Hd1e364">Expositio litterae</head>
+               <p xml:id="pdt7y6-e61502-d1e366">
+                  <lb ed="#T" n="122"/>EITERAE EXPOSITIO. 
+    </p>
+               <p xml:id="pdt7y6-e61502-d1e371">
+                  <lb ed="#T" n="123"/>[QIngularitatem excludimus.] Contra. 
+      Isi<lb ed="#T" n="124" break="no"/>dorus, Essentia simplex &amp; singularis: 
+      Tri<lb ed="#T" n="125" break="no"/>nitas multipiex &amp; numerabilis. Resp. Intelligit 
+      <lb ed="#T" n="126"/>hoc de singularitate personae non essentiae 
+    </p>
+               <p xml:id="pdt7y6-e61502-d1e382">
+                  <lb ed="#T" n="127"/>Non diuersitas, vel diuisio, vel separatio. ] 
+      <lb ed="#T" n="128"/>scilicet in essentia, in virtute, in operatione 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0277.xml-->
+      <pb ed="#T" n="202"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>[Trinitas trium vnitas.] Contra. Pater est 
+      <lb ed="#T" n="2"/>trium vnitas, quia est Diuina essentia: ergo est 
+      <lb ed="#T" n="3"/>Trinitas. Resp. Fallacia accidentis est: sicut hic, 
+      <lb ed="#T" n="4"/>Pater est Diuina essentia, &amp; Diuina essentia est: 
+      <lb ed="#T" n="5"/>ipse Filius, ergo Pater est ipse Filius. Vel 
+      falla<lb ed="#T" n="6" break="no"/>cia consequentis, quia non semper 
+      interpreta<lb ed="#T" n="7" break="no"/>tio conuertitur cum interpretato. 
+    </p>
+               <p xml:id="pdt7y6-e61502-d1e411">
+                  <lb ed="#T" n="8"/>Notandum ergo quod fides medium tenet 
+      in<lb ed="#T" n="9" break="no"/>ter errorem Arrij &amp; Sabellij, recedens ab 
+      vtro<lb ed="#T" n="10" break="no"/>que: contra Arrium ponit quatuor, essentiae 
+      <lb ed="#T" n="11"/>vnitatem, simplicitatem, similitudiuem, aeterni¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0277.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="12"/>tatem, ideo remouet a Deo diuisum, separabile. 
+      <lb ed="#T" n="13"/>alienum, nouum. Contra Sabellium quatuor 
+      po<lb ed="#T" n="14" break="no"/>nit, scilicet naturae communicabilitatem, 
+      perso<lb ed="#T" n="15" break="no"/>narum realem distinctionem, earum ordinem 
+      se<lb ed="#T" n="16" break="no"/>cundum originem, earum concordem societatem: 
+      <lb ed="#T" n="17"/>ideo negat singularem, &amp; vnicum, &amp; indiscretum, 
+      <lb ed="#T" n="18"/>&amp; solitarium: Arrius enim posuit in Patre &amp; 
+      Fi<lb ed="#T" n="19" break="no"/>lio &amp; Spiritu sancto essentiae diuersitatem, &amp; 
+      an<lb ed="#T" n="20" break="no"/>tecessionis ordinem; Sabellius vero personae 
+      vni<lb ed="#T" n="21" break="no"/>tatem &amp; confusionem.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

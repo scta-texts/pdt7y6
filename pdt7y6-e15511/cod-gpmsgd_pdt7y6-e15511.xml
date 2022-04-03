@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="53"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e15511"><!-- l1d5q1 -->
+            <head xml:id="pdt7y6-e15511-Hd1e99">Quaestio 1</head>
+            <head xml:id="pdt7y6-e15511-Hd1e101" type="question-title">An essentia Divina sit generans</head>
+            <p xml:id="pdt7y6-e15511-d1e104">
+               <lb ed="#T" n="23"/>QVESTIO I. 
+      <lb ed="#T" n="24"/>AN ESSENTIA DIVINA SIT 
+      <lb ed="#T" n="25"/>GENERANS.
+</p>
+            <p xml:id="pdt7y6-e15511-d1e113">
+               <lb ed="#T" n="26"/>TVIc quaeritur primo, an essentia diuina sit 
+      <lb ed="#T" n="27"/>Agenerans. 
+      <lb ed="#T" n="28"/>Secundo, an sit genita, 
+      <lb ed="#T" n="29"/>Tertio, an de ipsa siat generatio.
+  </p>
+            <p xml:id="pdt7y6-e15511-d1e124">
+               <lb ed="#T" n="30"/>Circa primum quaeruntur duo 
+      <lb ed="#T" n="31"/>Primo, an concedendum sit quod essentia 
+      <lb ed="#T" n="32"/>generat. 
+      <lb ed="#T" n="33"/>Secundo, an concedendum sit quod essentia 
+      <lb ed="#T" n="34"/>diuina est Pater.  
+    </p>
+            <div xml:id="pdt7y6-e15511-Dd1e138">
+               <head xml:id="pdt7y6-e15511-Hd1e140">Articulus 1</head>
+               <head xml:id="pdt7y6-e15511-Hd1e142" type="question-title">
+  An concedendum sit quod essentia generat.
+</head>
+               <p xml:id="pdt7y6-e15511-d1e145">
+                  <lb ed="#T" n="35"/>Articvlvs I. 
+      <lb ed="#T" n="36"/>An concedendum sit quod essentia generat. 
+</p>
+               <p xml:id="pdt7y6-e15511-d1e152">
+                  <lb ed="#T" n="37"/>AD primum sic proceditur. 1. Generare 
+      <lb ed="#T" n="38"/>in Diuinis est distingui: essentia diuina non 
+      <lb ed="#T" n="39"/>distinguitur, quia vna est in pluribus: ergo non 
+      <lb ed="#T" n="40"/>generat 
+    </p>
+               <p xml:id="pdt7y6-e15511-d1e163">
+                  <lb ed="#T" n="41"/>2. Si essentia generat, ergo refertur ad genitum: 
+      <lb ed="#T" n="42"/>ergo relatiue ei opponitur; ergo de genito non 
+      <lb ed="#T" n="43"/>praedicatur, quod falsum est 
+    </p>
+               <p xml:id="pdt7y6-e15511-d1e173">
+                  <lb ed="#T" n="44"/>3. Secundum Aug. duo sunt praedicamenta in 
+      <lb ed="#T" n="45"/>Diuinis, scilicet secundum substantiam, &amp; ad 
+      ali<lb ed="#T" n="46" break="no"/>quideessentia secundum substantiam dicitur; non 
+      <lb ed="#T" n="47"/>ergo ad aliquid: sed quod generat ad aliquid 
+      di<lb ed="#T" n="48" break="no"/>citur: ergo non generat. 
+    </p>
+               <p xml:id="pdt7y6-e15511-d1e186">
+                  <lb ed="#T" n="49"/>4. In creaturis etiam actus suppositorum sunt,  
+      <lb ed="#T" n="50"/>non formarum, non enim conuenienter dicitur,  
+      <lb ed="#T" n="51"/>humanitas generat, sed homo: ergo a simili &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e15511-d1e195">
+                  <lb ed="#T" n="52"/>Cotra si aliqua duo sunt idem, quod inest vni, 
+      <lb ed="#T" n="53"/>&amp; alteri: essentia &amp; Persona in Deo sunt idem: 
+      <lb ed="#T" n="54"/>ergo si actus igenerandi inest Personae, inest &amp; 
+      <lb ed="#T" n="55"/>essentiae. 
+    </p>
+               <p xml:id="pdt7y6-e15511-d1e206">
+                  <lb ed="#T" n="56"/>2. Essentia aut est res generans, aut non; si non 
+      <lb ed="#T" n="57"/>ergo eadem ratione nec generata, nec procedens: 
+      <lb ed="#T" n="58"/>ergo praeter rem generantem, &amp; rem generatam, 
+      <lb ed="#T" n="59"/>&amp; rem procedentem est inuenire in Diuinis rem 
+      <lb ed="#T" n="60"/>vnam nec generantem, nec genitam, nec 
+      proce<lb ed="#T" n="61" break="no"/>dentem, ergo quaternitatem: sed hoc est 
+      fal<lb ed="#T" n="62" break="no"/>sum: ergo essentia est res generans, ergo est 
+      ge<lb ed="#T" n="63" break="no"/>nerans. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0128.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="64"/>3. Sic se habet essentia ad Personam, sicut 
+      Per<lb ed="#T" n="65" break="no"/>sona ad essentiam, &amp; se conuerso: ergo sicut de 
+      <lb ed="#T" n="66"/>Persona praedicantur actus essentiales, vt creare, 
+      <lb ed="#T" n="67"/>ita de essentia possunt praedicari actus personales 
+      <lb ed="#T" n="68"/>vt generare. 
+    </p>
+               <p xml:id="pdt7y6-e15511-d1e241">
+                  <lb ed="#T" n="69"/>4. Quicquid praedicatur de aliquo potest 
+      sup<lb ed="#T" n="70" break="no"/>ponere pro illo: ergo sicut vere dicitur, Deus 
+      ge<lb ed="#T" n="71" break="no"/>nerat, ita potest dici essentia generat. 
+    </p>
+               <p xml:id="pdt7y6-e15511-d1e250">
+                  <lb ed="#T" n="72"/>Respondeo. Cum in Deo sit vna essentia &amp; 
+      <lb ed="#T" n="73"/>Personae distinctae, proprietas distinguens non 
+      <lb ed="#T" n="74"/>determinat essentiam, sed Personam. Hinc est 
+      <lb ed="#T" n="75"/>quod actus qui imponuntur ab huiusmodi 
+      pro<lb ed="#T" n="76" break="no"/>prietatibus significandis non praedicantur de 
+      es<lb ed="#T" n="77" break="no"/>fentia, sed de Persona. Nec obstat quod idem 
+      <lb ed="#T" n="78"/>sunt re essentia &amp; Persona, nam differunt 
+      ratio<lb ed="#T" n="79" break="no"/>ne. In creaturis quippe propter compositionem 
+      <lb ed="#T" n="80"/>differunt realiter essentia &amp; suppositum eius: non 
+      <lb ed="#T" n="81"/>enim homo est humanitas, nec e conuerso: ideo 
+      <lb ed="#T" n="82"/>quod vere praedicatur de vno, non praedicatur  
+      <lb ed="#T" n="83"/>de altero, nisi improprie; Quia ergo actus sunt,  
+      <lb ed="#T" n="84"/>suppositorum per essentiam, non essentiae: non 
+      <lb ed="#T" n="85"/>enim humanitas agit, sed homo per 
+      humanita<lb ed="#T" n="86" break="no"/>tem: ideo actus omnes attribuuntur supposito: 
+      <lb ed="#T" n="87"/>no essentiae, nisi causaliter. In Deo vero essentia 
+      <lb ed="#T" n="88"/>&amp; suppositum non differunt re, sed ratione, quia 
+      <lb ed="#T" n="89"/>essentia dicit ens absolutum, persona distinctum 
+      <lb ed="#T" n="90"/>&amp; relatum: vnde ratio essentiae non obuiat 
+      com<lb ed="#T" n="91" break="no"/>municabilitati, sed ratio personae: hinc est, quod 
+      <lb ed="#T" n="92"/>actus, qui attribuuntur alicui illorum secundum 
+      <lb ed="#T" n="93"/>quod idem sunt, dicuntur de altero, vt actus 
+      es<lb ed="#T" n="94" break="no"/>sentiales; qui vero attribuuntur, secundum quod 
+      <lb ed="#T" n="95"/>differunt, non, vt actus personales; sicut licet sint,  
+      <lb ed="#T" n="96"/>potentia Dei &amp; scientia idem re, non tamen 
+      dici<lb ed="#T" n="97" break="no"/>tur posse mala, sed scire, quia differunt ratione. 
+      <lb ed="#T" n="98"/>Sicut etiamlicet Socrates &amp; homo sint idem re, 
+      <lb ed="#T" n="99"/>vnde vnum praedicatur de altero, tamen quia 
+      difa<lb ed="#T" n="100" break="no"/>ferunt ratione, quod attribuitur vni secundum 
+      <lb ed="#T" n="101"/>quod differt ab altero, id est secundum rationem, 
+      <lb ed="#T" n="102"/>non attribuitur alteri: nam Socrates est 
+      indiui<lb ed="#T" n="103" break="no"/>duum, homo vero species: quod vero attribuitur 
+      <lb ed="#T" n="104"/>alteri secundum quod idem est cum alio, id est 
+      <lb ed="#T" n="105"/>secundum rem, attribuitur &amp; alteri, vt crescere. 
+    </p>
+               <p xml:id="pdt7y6-e15511-d1e327">
+                  <lb ed="#T" n="106"/>Ad 1. In contrarium. Si aliqua duo sunt idem 
+      <lb ed="#T" n="107"/>&amp;c. Resp. Hoc verum est quando omnino sunt,  
+      <lb ed="#T" n="108"/>idem, &amp; re &amp; ratione, vel quando attributio 
+      <lb ed="#T" n="109"/>sit secundum quod idem. 
+    </p>
+               <p xml:id="pdt7y6-e15511-d1e338">
+                  <lb ed="#T" n="110"/>Ad 2. Aut est res generans &amp;c. Resp. Quod  
+      <lb ed="#T" n="111"/>Iy res cum sit de transcendentibus, potest 
+      suppo<lb ed="#T" n="112" break="no"/>uere pro essentia, vel persona, vel notione: cum 
+      <lb ed="#T" n="113"/>ergo determinetur attributo personali, supponit 
+      <lb ed="#T" n="114"/>pro persona, pro qua reddit locutionem veram: 
+      <lb ed="#T" n="115"/>essentia enim est persona generans scilicet Pater: 
+      <lb ed="#T" n="116"/>nec sequitur, ergo generans: quia prius 
+      notaba<lb ed="#T" n="117" break="no"/>tur proprietas generationis inesse personae, 
+      mo<lb ed="#T" n="118" break="no"/>do concluditur inesse essentiae, &amp; est fallacia 
+      ac<lb ed="#T" n="119" break="no"/>cidentis, sicut si dicatur, iste est monachus albus, 
+      <lb ed="#T" n="120"/>ergo iste est albus: vel iste est Grammaticus 
+      <lb ed="#T" n="121"/>bonus, ergo iste est bonus. 
+    </p>
+               <p xml:id="pdt7y6-e15511-d1e367">
+                  <lb ed="#T" n="122"/>Ad 3. Sicut se habet essentia ad Personam. 
+      <lb ed="#T" n="123"/>Resp. Non est hoc verum vniuersaliter: nam 
+      es<lb ed="#T" n="124" break="no"/>sentia est de ratione personae, sed persona non est 
+      <lb ed="#T" n="125"/>de ratione essentiae: vnde quia in esse personae 
+      <lb ed="#T" n="126"/>clauditur essentia, non e conuerso, ideo de 
+      per<lb ed="#T" n="127" break="no"/>sona possunt praedicari attributa essentiae, non &amp; 
+      <lb ed="#T" n="128"/>conuerso. Vel dicendum, quod sicut proprie 
+      at<lb ed="#T" n="129" break="no"/>tributa personae non paedicantur de essentia, sic 
+      <lb ed="#T" n="130"/>nec de persona propria attributa essentiae, quae 
+      <lb ed="#T" n="131"/>conueniunt vtrique secundum quod differunt. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0129.xml-->
+      <pb ed="#T" n="54"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>ratione, sicut communicabile proprie conuenit. 
+      <lb ed="#T" n="2"/>essentiae, vnde non praedicatur de persom: 
+      in<lb ed="#T" n="3" break="no"/>communicabile vero personae, vnde non 
+      praedi<lb ed="#T" n="4" break="no"/>catur de essentia. 
+    </p>
+               <p xml:id="pdt7y6-e15511-d1e406">
+                  <lb ed="#T" n="5"/>Ad 4. Quicquid praedicatur &amp;c. Resp. De 
+      <lb ed="#T" n="6"/>bo, quod praedicatur praedicatione per 
+      indifferen<lb ed="#T" n="7" break="no"/>tiam rei &amp; rationis, verum est; non de eo, quod 
+      <lb ed="#T" n="8"/>altero modo tantum. Vel dicendum, quod 
+      ta<lb ed="#T" n="9" break="no"/>lium quamuis vnum possit supponere pro 
+      alte<lb ed="#T" n="10" break="no"/>ro aliquando, non tamen respectu cumflibet 
+      <lb ed="#T" n="11"/>attributi. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e15511-Dd1e425">
+               <head xml:id="pdt7y6-e15511-Hd1e427">Articulus 2</head>
+               <head xml:id="pdt7y6-e15511-Hd1e429" type="question-title">
+  Utrum concedendum sit quod essentia diuina est Pater.
+</head>
+               <p xml:id="pdt7y6-e15511-d1e432">
+                  <lb ed="#T" n="12"/>Articvlvs II. 
+      <lb ed="#T" n="13"/>vtrum concedendum sit quod essentia diuina est Pater. 
+    </p>
+               <p xml:id="pdt7y6-e15511-d1e439">
+                  <lb ed="#T" n="14"/>AD, secundum sic proceditur. 1. In diuinis 
+      <lb ed="#T" n="15"/>omnia idem sunt vbi relationis oppositio 
+      <lb ed="#T" n="16"/>non distinguit, secundum Ansel. inter essentiam 
+      <lb ed="#T" n="17"/>&amp; Patrem oppositio relationis non distinguit, 
+      <lb ed="#T" n="18"/>quia non dicuntur adinuicem relatiue: ergo 
+      <lb ed="#T" n="19"/>omnino sunt idem: ergo essentia est Pater.  
+    </p>
+               <p xml:id="pdt7y6-e15511-d1e455">
+                  <lb ed="#T" n="20"/>2. Si essentia non est Pater, eadem ratione nec 
+      <lb ed="#T" n="21"/>Filius, nec Spiritus Sanctus: ergo est 
+      quaterni<lb ed="#T" n="22" break="no"/>tas in diuinis. 
+    </p>
+               <p xml:id="pdt7y6-e15511-d1e465">
+                  <lb ed="#T" n="23"/>Contra. 1. De quocumque praedicatur 
+      defini<lb ed="#T" n="24" break="no"/>tum, &amp; definitio: definitio Patris est, quo Pater 
+      <lb ed="#T" n="25"/>est Filij Pater: ergo si essentia est Pater ipsa 
+      <lb ed="#T" n="26"/>est Pater Filij: ergo genuit Filium, 
+    </p>
+               <p xml:id="pdt7y6-e15511-d1e476">
+                  <lb ed="#T" n="27"/>2 De quocumque praedicatur subjectum, 
+      <lb ed="#T" n="28"/>praedicatur eius proprietas; ergo a quo 
+      remoue<lb ed="#T" n="29" break="no"/>tur eius proprietas &amp; subjectum: sed proprietas 
+      <lb ed="#T" n="30"/>Patris scilicet generare, remouetur ab essentia, 
+      <lb ed="#T" n="31"/>ergo &amp; Pater.  
+    </p>
+               <p xml:id="pdt7y6-e15511-d1e489">
+                  <lb ed="#T" n="32"/>3. Maior est oppositio contradictionis, quam 
+      <lb ed="#T" n="33"/>correlatiouis: Pater Filio opponitur correlatiue, 
+      <lb ed="#T" n="34"/>essentia vero Patri opponitur contradictorie, quia 
+      <lb ed="#T" n="35"/>Pater est res non communicabilis, essentia 
+      com<lb ed="#T" n="36" break="no"/>municabilis: ergo si Pater non praedicatur de 
+      <lb ed="#T" n="37"/>Filio, multo minus de essentia. 
+    </p>
+               <p xml:id="pdt7y6-e15511-d1e505">
+                  <lb ed="#T" n="38"/>3. Non potest esse eadem res generans &amp; non 
+      <lb ed="#T" n="39"/>generans; si ergo essentia est non generans, Pater  
+      <lb ed="#T" n="40"/>est generans, essentia non est Pater.  
+    </p>
+               <p xml:id="pdt7y6-e15511-d1e514">
+                  <lb ed="#T" n="41"/>Respondeo, noc nomen, Pater, dupliciter 
+      po<lb ed="#T" n="42" break="no"/>test accipi, vel substantiue, vel adiectiue: primo 
+      <lb ed="#T" n="43"/>modo habet in se intellectum suppofiti cui inest 
+      <lb ed="#T" n="44"/>paternitas vnde non notatur paternitas inesse 
+      <lb ed="#T" n="45"/>essentiae secundo modo non, vnde copulat forma 
+      <lb ed="#T" n="46"/>paternitatis circa subjectum, quod est 
+      substanti<lb ed="#T" n="47" break="no"/>uum suum, vnde notatur inesse paternitas 
+      essen<lb ed="#T" n="48" break="no"/>tiae. Primomodo sit praedicatio peridentitatem: 
+      <lb ed="#T" n="49"/>secundo per inhaerentiam: vnde primo modo 
+      <lb ed="#T" n="50"/>propositio haec essentia est Pater vera est; 
+      se<lb ed="#T" n="51" break="no"/>cundo modo falsa est, 
+    </p>
+               <p xml:id="pdt7y6-e15511-d1e540">
+                  <lb ed="#T" n="52"/>Ad 1. Quod obijcitur de definitione. Rosp. 
+      <lb ed="#T" n="53"/>Illa definitio est Patris, secundum quod sumitur. 
+      <lb ed="#T" n="54"/>adiectiue, non secundum quod sumitur 
+      substan<lb ed="#T" n="55" break="no"/>tiue, hoc est non eius quod est Pater, sed 
+      ratio<lb ed="#T" n="56" break="no"/>ms secundum quam dicitur Pater.  
+    </p>
+               <p xml:id="pdt7y6-e15511-d1e554">
+                  <lb ed="#T" n="57"/>Ad 2. De subjecto &amp; proprietate. Resp. Vbi 
+      <lb ed="#T" n="58"/>proprietas inest subjecto secundum eandem 
+      ra<lb ed="#T" n="59" break="no"/>tionem quae praedicatur verum est; vbi 
+      secun<lb ed="#T" n="60" break="no"/>dum alteram, non: nametsi praedicatur homo 
+      <lb ed="#T" n="61"/>de Soemte, non tamen proprietas, qua homo est 
+      <lb ed="#T" n="62"/>species, praedicatur deipso; nam praedicatur de 
+      <lb ed="#T" n="63"/>homine, non fecundum quod est idem realiter  
+      <lb ed="#T" n="64"/>cum Socrate, sed secundum quod differt ab eo 
+      <lb ed="#T" n="65"/>ratione: similiter paternitas praedicatur de Patre 
+      <lb ed="#T" n="66"/>non realiter fecundum quod est idem cum 
+      <lb ed="#T" n="67"/>essentia, sed secundum mod differt ab essentia 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0129.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="68"/>ratione. 
+    </p>
+               <p xml:id="pdt7y6-e15511-d1e587">
+                  <lb ed="#T" n="69"/>Ad 3. Maior est oppositio contradictionis &amp;c. 
+      <lb ed="#T" n="70"/>Resp. Verum est circa irdem, &amp; secundum idem: 
+      <lb ed="#T" n="71"/>sed oppositio contradictionis inter essentiam &amp; 
+      <lb ed="#T" n="72"/>Personam secundum rationem est, non secuti 
+      <lb ed="#T" n="73"/>dum rem: quia attenditumnota parte rei 
+      signi<lb ed="#T" n="74" break="no"/>ficatae, sed modi signifinandi, sunt rationis: vnde 
+      <lb ed="#T" n="75"/>non sequitur, quod haec res nosin illa, sad quod 
+      <lb ed="#T" n="76"/>hic modus non est ille: sicut non sequitur, 
+      siSo<lb ed="#T" n="77" break="no"/>etates est res incomnminicabilis, homo est nes 
+      <lb ed="#T" n="78"/>communicablis: ergo Soerates non est: homo. 
+      <lb ed="#T" n="79"/>Oppositio vero Personae ad Personam rei est, 
+      <lb ed="#T" n="80"/>non tantum rationis; non est autem maior 
+      op<lb ed="#T" n="81" break="no"/>positio contuadictoria, ex parte modi quam 
+      rela<lb ed="#T" n="82" break="no"/>tionis ex parte rei. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

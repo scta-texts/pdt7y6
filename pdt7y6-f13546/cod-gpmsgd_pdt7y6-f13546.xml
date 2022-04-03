@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="370"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-f13546"><!-- l1d45q1 -->
+            <head xml:id="pdt7y6-f13546-Hd1e99">Quaestio 1</head>
+            <head xml:id="pdt7y6-f13546-Hd1e101" type="question-title">De voluntate Dei generaliter</head>
+            <p xml:id="pdt7y6-f13546-d1e104">
+               <lb ed="#T" n="34"/>QVESTIO I 
+      <lb ed="#T" n="35"/>DE VOLVNTATE DEI 
+      <lb ed="#T" n="36"/>OENERALITER, 
+</p>
+            <p xml:id="pdt7y6-f13546-d1e113">
+               <lb ed="#T" n="37"/>TIc de voluntate Dei quaeruntur tria. 
+      <lb ed="#T" n="38"/>RPrimode voluntate Dei, generaliter.
+      <lb ed="#T" n="39"/>Secundo de causalitate voluntatis Dei. 
+      <lb ed="#T" n="40"/>Tertio de multiplicitate voluntatis Dei. 
+    </p>
+            <p xml:id="pdt7y6-f13546-d1e124">
+               <lb ed="#T" n="41"/>Circa primum queruntur tria. 
+      <lb ed="#T" n="42"/>Primo an voluntas sit in Deo, &amp; quid sit. 
+      <lb ed="#T" n="43"/>Secundo respectu cuius objecti sit.  
+      <lb ed="#T" n="44"/>Tertio an Deus possit dici omniuolens sicut  
+      <lb ed="#T" n="45"/>omnipotens. 
+    </p>
+            <div xml:id="pdt7y6-f13546-Dd1e138">
+               <head xml:id="pdt7y6-f13546-Hd1e140">Articulus 1</head>
+               <head xml:id="pdt7y6-f13546-Hd1e142" type="question-title">
+  An voluntas sit in Deo, et quid sit
+</head>
+               <p xml:id="pdt7y6-f13546-d1e145">
+                  <lb ed="#T" n="46"/>Articvlvs I. 
+      <lb ed="#T" n="47"/>An voluntas sit in Deo, &amp; quid sit.
+</p>
+               <p xml:id="pdt7y6-f13546-d1e152">
+                  <lb ed="#T" n="48"/>AD primum sic proceditur. 1. Augustinus 
+      <lb ed="#T" n="49"/>de lib. arbitrio, Voluntas est motus 
+      ra<lb ed="#T" n="50" break="no"/>tionalis sensui praesidens &amp; appetitui: sed in Deo 
+      <lb ed="#T" n="51"/>non est motus, nec sensus, ergo nec appetitus, 
+      <lb ed="#T" n="52"/>quia appetitus est rei non habitae: ergo nec 
+      vo<lb ed="#T" n="53" break="no"/>luntas. 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e168">
+                  <lb ed="#T" n="54"/>2. August. lib. de duab. animabus, Voluntas 
+      <lb ed="#T" n="55"/>est animimotus, cogente nullo, ad aliquid non 
+      <lb ed="#T" n="56"/>admittendum vel adipiscendum: sed nullus 
+      ta<lb ed="#T" n="57" break="no"/>lis motus est in Deo, quia nihil potest 
+      admitte<lb ed="#T" n="58" break="no"/>re, &amp; nihil adipisci: ergo nec voluntas. 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e182">
+                  <lb ed="#T" n="59"/>3. Actus voluntatis est tendere in finem: sed  
+      <lb ed="#T" n="60"/>Deo, qui est vltimus finis, non conuenit tendere 
+      <lb ed="#T" n="61"/>in finem: ergo nec voluntas.
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e191">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0445.xml-->
+                  <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="62"/>4. Non est principium determinatum 
+      volun<lb ed="#T" n="63" break="no"/>tas, sed principium vertibile: sed in Deo nihil 
+      <lb ed="#T" n="64"/>est vertibile: ergo nec voluntas. 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e204">
+                  <lb ed="#T" n="65"/>5. Secundum Philosophum 3. de anima, 
+      Vo<lb ed="#T" n="66" break="no"/>luntas est mouens motum, quia mouetur a 
+      vo<lb ed="#T" n="67" break="no"/>lito: sed in Deo nihil est mouens motum: ergo 
+      <lb ed="#T" n="68"/>nec voluntas. 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e215">
+                  <lb ed="#T" n="69"/>Contra. 1. Ephes. 1. Qui omnia operatur 
+      se<lb ed="#T" n="70" break="no"/>cundum consilium voluntatissuae: ergo in Deo 
+      <lb ed="#T" n="71"/>est voluntas. 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e224">
+                  <lb ed="#T" n="72"/>2. Nobilius est agere per voluntatem quam 
+      <lb ed="#T" n="73"/>per necessitatem: sed Deus est agens 
+      nobilissi<lb ed="#T" n="74" break="no"/>mum: ergo agit per voluntatem. 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e233">
+                  <lb ed="#T" n="75"/>5. In eo quod in nobis est nobilissimum, 
+      ma<lb ed="#T" n="76" break="no"/>time assimilamur Deo: sed voluntas, cum 
+      fitli<lb ed="#T" n="77" break="no"/>bera &amp; respectu vltimi finis, &amp; motor vniuersalis 
+      <lb ed="#T" n="78"/>omnium quae sunt in nobis, nobilissimum est 
+      <lb ed="#T" n="79"/>quod est in nobis: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e247">
+                  <lb ed="#T" n="80"/>4. Non potest esse iustitia nisi vbi est 
+      volun<lb ed="#T" n="81" break="no"/>tas, quia iustitia est rectitudo voluntatis, secundum 
+      <lb ed="#T" n="82"/>Ansel,: sed in Deo est iustitia: ergo voluntas. 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e256">
+                  <lb ed="#T" n="83"/>5. Non potest esse beatitudo fine voluntate, 
+      <lb ed="#T" n="84"/>quia beatus est qui habet quicquid vult, &amp; 
+      ni<lb ed="#T" n="85" break="no"/>nil vult mali, vt dicit Augustinus: sed in Deo 
+      <lb ed="#T" n="86"/>est beatitudo: ergo voluntas. 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e267">
+                  <lb ed="#T" n="87"/>Iuxta hoc quaeritur quid sit. Videtur quod fit 
+      <lb ed="#T" n="88"/>idem quod essentia Diuina. 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e274">
+                  <lb ed="#T" n="89"/>1. Quia vt dicit Augustinus, non est aliud Deo 
+      <lb ed="#T" n="90"/>velle quam esse: ergo nec voluntas est aliud 
+      <lb ed="#T" n="91"/>quam essentia. 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e283">
+                  <lb ed="#T" n="92"/>2. Potentia Dei non est aliud quam eius 
+      essen<lb ed="#T" n="93" break="no"/>tia, scientia Dei similiter non est aliud quam 
+      es<lb ed="#T" n="94" break="no"/>sentia, quia quicquid est in Deo Deus est: ergo 
+      <lb ed="#T" n="95"/>nec voluntas est aliud quam essentia. 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e294">
+                  <lb ed="#T" n="96"/>Contra. 1. Non omnis voluntas Dei Deus est, 
+      <lb ed="#T" n="97"/>nam praeceptum Dei dicitur voluntas Dei, non 
+      <lb ed="#T" n="98"/>tamen Deus: ergo voluntas Dei non est eius 
+      <lb ed="#T" n="99"/>essentia. 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e306">
+                  <lb ed="#T" n="100"/>2. Voluntas Dei dicitur relatiue ad volitum, 
+      <lb ed="#T" n="101"/>essentia absolute: ergo non sunt idem. 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e313">
+                  <lb ed="#T" n="102"/>3. Si voluntas Dei est idem quod essentia, &amp; 
+      <lb ed="#T" n="103"/>Deus vult omne bonum: ergo ipse est omne 
+      bo<lb ed="#T" n="104" break="no"/>num: ergo bonum creatum: sed hoc falsum est: 
+      <lb ed="#T" n="105"/>ergo non est idem. 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e324">
+                  <lb ed="#T" n="106"/>Respondeo. In omni natura in qua inuenitur  
+      <lb ed="#T" n="107"/>cognitio, inuenitur etiam aliqua voluntas &amp; 
+      de<lb ed="#T" n="108" break="no"/>lectatio: quia omnis talis natura dijudicat 
+      con<lb ed="#T" n="109" break="no"/>ueniens &amp; disconueniens; conueniens vero non 
+      <lb ed="#T" n="110"/>habitum appetitum mouet ad consequendum, 
+      <lb ed="#T" n="111"/>habitu generat delectationem in appetitu. Ideo 
+      <lb ed="#T" n="112"/>secundum duplicem apprehensionem duplex 
+      <lb ed="#T" n="113"/>est in nobis appetitus siue voluntas: nam 
+      ap<lb ed="#T" n="114" break="no"/>prehensionem sensibilem sequitur appetitus seu 
+      <lb ed="#T" n="115"/>voluntas sensibilis: apprehensionem 
+      intellectua<lb ed="#T" n="116" break="no"/>em, appetitus intellectualis. Cum ergo in natura 
+      <lb ed="#T" n="117"/>Diuina sit cognitto intellectualis, quia omnino 
+      <lb ed="#T" n="118"/>immaterialis est, est etiam in eo voluntas 
+      intel<lb ed="#T" n="119" break="no"/>lectualis, sed modo nobiliori quam sit in nobis. 
+      <lb ed="#T" n="120"/>In nobis enim voluntas potentia differt a 
+      sub<lb ed="#T" n="121" break="no"/>stantia in qua est, &amp; a sua regula, scilicet habitu 
+      <lb ed="#T" n="122"/>quo rectificatur, &amp; a suo actu, &amp; a suo fine: sed  
+      <lb ed="#T" n="123"/>voluntas Diuina propter omnimodam 
+      simplici<lb ed="#T" n="124" break="no"/>tatem, idem est cum substantia in qua est, &amp; cum 
+      <lb ed="#T" n="125"/>rectitudine sua, &amp; cum actu suo, &amp; cum fine suo, 
+      <lb ed="#T" n="126"/>quia ipsa est finis. 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e372">
+                  <lb ed="#T" n="127"/>Ad 1. Augustini de lib. arb. Resp. Describit 
+      <lb ed="#T" n="128"/>voluntatem actum non potentiam; &amp; prout est 
+      <lb ed="#T" n="129"/>in homine, non vniuersaliter.
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e381">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0446.xml-->
+                  <pb ed="#T" n="371"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>Ad 2. Augustini de duabus animabus. Resp. 
+      <lb ed="#T" n="2"/>Describit voluntatem quae differt a suo fine 
+      <lb ed="#T" n="3"/>non quae idem est cum fine suo, scilicet 
+      huma<lb ed="#T" n="4" break="no"/>nam voluntatem de qua loquebatur, non 
+      Di<lb ed="#T" n="5" break="no"/>uinam. 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e401">
+                  <lb ed="#T" n="6"/>Ad 3. Actus voluntatis est tendere in finem 
+      <lb ed="#T" n="7"/>&amp;c. Resp. Hoc accidit voluntati distanti a fine 
+      <lb ed="#T" n="8"/>vnde non conuenit voluntati quae iam 
+      coniun<lb ed="#T" n="9" break="no"/>cta est suo fini, &amp; multo minus voluntati qua 
+      <lb ed="#T" n="10"/>est finis 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e415">
+                  <lb ed="#T" n="11"/>Ad 4. Voluntas est principium vertibile. 
+      <lb ed="#T" n="12"/>Resp. Vertibile esse non est essentiale voluntati 
+      <lb ed="#T" n="13"/>inquantum est voluntas: sed accidit ei in 
+      quan<lb ed="#T" n="14" break="no"/>tum ex nihilo est: sed esse liberum essentiale est 
+      <lb ed="#T" n="15"/>voluntati, &amp; hoc conuenit voluntati diuinae 
+      <lb ed="#T" n="16"/>quamuis inuertibili per naturam &amp; voluntati 
+      <lb ed="#T" n="17"/>Angelicae confirmatae per gratiam. 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e433">
+                  <lb ed="#T" n="18"/>Ad 5. Voluntas est mouens motum &amp;c. Resp. 
+      <lb ed="#T" n="19"/>Hoc locum habet in voluntate ordinata ad ale 
+      <lb ed="#T" n="20"/>terum finem, sed non in voluntate quae est 
+      sfi<lb ed="#T" n="21" break="no"/>nis suus. 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e444">
+                  <lb ed="#T" n="22"/>Ad secundam quaest. Resp. Voluntas Dei 
+      <lb ed="#T" n="23"/>accipitur dupliciter: proprie pro voluntate 
+      be<lb ed="#T" n="24" break="no"/>neplaciti: &amp; improprie pro voluntate signi. 
+      Pri<lb ed="#T" n="25" break="no"/>mo modo idem est re quod essentia, sed 
+      diffe<lb ed="#T" n="26" break="no"/>runt ratione intelligendi, quia dicit essentiam 
+      <lb ed="#T" n="27"/>per modum potentiae, &amp; cum respectu ad 
+      voli<lb ed="#T" n="28" break="no"/>tum: secundo modo differunt etiam re. 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e462">
+                  <lb ed="#T" n="29"/>Ad 1. in contrarium. Non omnis voluntas 
+      <lb ed="#T" n="30"/>&amp;c. Resp. Si voluntas accipitur large pro 
+      vo<lb ed="#T" n="31" break="no"/>luntate beneplaciti &amp; signi vt comprehendat 
+      <lb ed="#T" n="32"/>propriam acceptionem &amp; impropriam, verum 
+      <lb ed="#T" n="33"/>est: sed secundum quod accipitur proprie, 
+      fal<lb ed="#T" n="34" break="no"/>sum: sic enim omnis voluntas Dei est Deus 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e478">
+                  <lb ed="#T" n="35"/>Ad 2. Voluntas Dei dicitur relatiue Resp. 
+      <lb ed="#T" n="36"/>Haec relatio non est secundumrem, sed 
+      secun<lb ed="#T" n="37" break="no"/>dum dici solum. 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e487">
+                  <lb ed="#T" n="38"/>Ad 3. Deus vult omne bonum, ergo est 
+      om<lb ed="#T" n="39" break="no"/>ne bonum. Resp. Fallacia est accidentis, 
+      quam<lb ed="#T" n="40" break="no"/>uis enim esse &amp; velle idem sint re, tamen 
+      diffe<lb ed="#T" n="41" break="no"/>runt modo significandi: quia velle significat vt 
+      <lb ed="#T" n="42"/>actum in alterum, sed esse vt actum absolutum, 
+      <lb ed="#T" n="43"/>&amp; ideo quamuis velit aliud a se, non oportet ex 
+      <lb ed="#T" n="44"/>hoc quod sit aliud a se. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f13546-Dd1e506">
+               <head xml:id="pdt7y6-f13546-Hd1e508">Articulus 2</head>
+               <head xml:id="pdt7y6-f13546-Hd1e510" type="question-title">Respectu cuius obiecti sit Dei voluntas</head>
+               <p xml:id="pdt7y6-f13546-d1e513">
+                  <lb ed="#T" n="45"/>Articvlvs II. 
+      <lb ed="#T" n="46"/>Respectu cuius obiecti sit Dei voluntas.
+</p>
+               <p xml:id="pdt7y6-f13546-d1e520">
+                  <lb ed="#T" n="47"/>AD secundum articulum proceditur sic. 1. 
+      <lb ed="#T" n="48"/>Dicit Philosophus in Ethic. quod volun 
+      <lb ed="#T" n="49"/>tas est finis, electio vero eorum quae sunt ad 
+      fi<lb ed="#T" n="50" break="no"/>nem: cum ergo solus Deus sit finis ad quem 
+      om<lb ed="#T" n="51" break="no"/>nia alia sunt, voluntas eius respectu sui solius est 
+      <lb ed="#T" n="52"/>non aliorum. 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e536">
+                  <lb ed="#T" n="53"/>. Velle aliquid extra se importat 
+      indigen<lb ed="#T" n="54" break="no"/>tiam: sed in Deo nulla est indigentia: ergo nec 
+      <lb ed="#T" n="55"/>voluntas alicuius extra se. 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e546">
+                  <lb ed="#T" n="56"/>3. Habito fine cessat voluntas eorum quae sunt,  
+      <lb ed="#T" n="57"/>ad finem, nam in termino cessat voluntas 
+      am<lb ed="#T" n="58" break="no"/>bulandi: sed Deus semper habet finem: ergo 
+      <lb ed="#T" n="59"/>semper cessat in eo voluntas eorum quae sunt ad 
+      <lb ed="#T" n="60"/>finem: ergo omnium rerum aliarum praeter ipsum. 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e559">
+                  <lb ed="#T" n="61"/>4. Voluntas est appetitus alicuius boni: sed 
+      <lb ed="#T" n="62"/>Deus nullum bonum appetit, nisi se ipsum: 
+      er<lb ed="#T" n="63" break="no"/>go non vult nisi seipsum. 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e568">
+                  <lb ed="#T" n="64"/>5. Voluntas mouetur a volito: sed voluntas 
+      <lb ed="#T" n="65"/>Dei non mouetur nisi a seipso: ergo non vult 
+      <lb ed="#T" n="66"/>nisi seipsum.
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e577">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0446.xml-->
+                  <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>Contra. 1. Sap. 11. Diligis omnia quae sunt,  
+      <lb ed="#T" n="68"/>sed diligere est quoddam velle: ergo vult 
+      om<lb ed="#T" n="69" break="no"/>nia quae sunt,  
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e590">
+                  <lb ed="#T" n="70"/>2. Sicut se habet scientia Dei ad verum, ita 
+      <lb ed="#T" n="71"/>voluntas ad bonum: sed scit omne verum: 
+      er<lb ed="#T" n="72" break="no"/>go vult omne bonum. 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e599">
+                  <lb ed="#T" n="73"/>3. Voluntas Dei est causa vniuersalis rerum. 
+      <lb ed="#T" n="74"/>ergo omne creatum est ab ipso volitum 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e607">
+                  <lb ed="#T" n="75"/>Respondeo. Sicut in Dei scientia d uplex est 
+      <lb ed="#T" n="76"/>intellectum; scilicet primum quod est 
+      intelle<lb ed="#T" n="77" break="no"/>ctum &amp; ratio intelligendi caetera; &amp; secundum 
+      <lb ed="#T" n="78"/>quod est intellectum, sed non ratio intelligendi 
+      <lb ed="#T" n="79"/>caetera; &amp; primum est verum increatum, 
+      secun<lb ed="#T" n="80" break="no"/>dum quodlibet verum creatum, inquantum 
+      par<lb ed="#T" n="81" break="no"/>ticipat eius similitudinem: sic in voluntate Dei 
+      <lb ed="#T" n="82"/>duplex est volitum; scilicet primum quod est 
+      <lb ed="#T" n="83"/>ratio volendi caetera, &amp; hoc est naturaliter 
+      vo<lb ed="#T" n="84" break="no"/>litum, vt bonum increatum; alterum quod est 
+      <lb ed="#T" n="85"/>volitum tantum non ratio volendi, &amp; hoc est 
+      li<lb ed="#T" n="86" break="no"/>beraliter volitum, vt quodlibet bonum creatum 
+      <lb ed="#T" n="87"/>inquantum participat similitudinem boni 
+      in<lb ed="#T" n="88" break="no"/>creati: sicut ergo Deus cognoscendo veritatem 
+      <lb ed="#T" n="89"/>suam primo &amp; principaliter, cognoscit omne 
+      <lb ed="#T" n="90"/>verum consequenter: sic diligendo primo &amp; 
+      <lb ed="#T" n="91"/>&amp; principaliter bonitatem suam, diligit omne 
+      <lb ed="#T" n="92"/>bonum consequenter.  
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e649">
+                  <lb ed="#T" n="93"/>Ad 1. Voluntas est finis. Resp. Hoc verum 
+      <lb ed="#T" n="94"/>est vt voliti primo &amp; principaliter: est tamen 
+      <lb ed="#T" n="95"/>etiam aliorum vt volitorum consequenter 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e658">
+                  <lb ed="#T" n="96"/>Ad 2. Velle aliquid extra se &amp;c. Resp. Velle 
+      <lb ed="#T" n="97"/>aliquid extra se dupliciter est: vel voluntate 
+      <lb ed="#T" n="98"/>concupiscentie vt insit: vel voluntate 
+      compla<lb ed="#T" n="99" break="no"/>centiae seu beneuolentiae vt sit: primo modo 
+      im<lb ed="#T" n="100" break="no"/>portat indigentiam, nec est in Deo: secundo 
+      <lb ed="#T" n="101"/>modo non, sed beneuolentiam, &amp; est in Deo. 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e674">
+                  <lb ed="#T" n="102"/>Ad 3. Habito fine cessat voluntas &amp;c. Resp. 
+      <lb ed="#T" n="103"/>Voluntas eorum quae sunt ad finem, dupliciter 
+      <lb ed="#T" n="104"/>potest esse: vel ad acquirendum per ea 
+      bonita<lb ed="#T" n="105" break="no"/>tem finis: vel ad influendum eis bonitatem finis: 
+      <lb ed="#T" n="106"/>primo modo quae appetuntur propter finem, eo 
+      <lb ed="#T" n="107"/>adepto non appetuntur, nisi inquantum forte 
+      <lb ed="#T" n="108"/>per ea finis conferuatur: secundo modo sic. 
+      Pri<lb ed="#T" n="109" break="no"/>mo modo nos volumus ea quae sunt ad finem, 
+      <lb ed="#T" n="110"/>secundo modo Deus vult ea¬ 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e696">
+                  <lb ed="#T" n="111"/>Ad 4. Deus nullum bonum aliud a se appetit  
+      <lb ed="#T" n="112"/>Resp. Appetere bonum dupliciter est, vel sibi 
+      <lb ed="#T" n="113"/>vel alteri: primo modo Deus nullum bonum 
+      <lb ed="#T" n="114"/>aliud a se appetit: sed secundo modo sici 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e707">
+                  <lb ed="#T" n="115"/>Ad 5. Voluntas mouetur a volito. Resp. 
+      Vo<lb ed="#T" n="116" break="no"/>litum aliquid dupliciter est: vel vt ratio 
+      volen<lb ed="#T" n="117" break="no"/>di, vel vt effectus voluntatis: primum mouet 
+      <lb ed="#T" n="118"/>voluntatem in ijs in quibus differunt huiusmodi 
+      <lb ed="#T" n="119"/>volitum &amp; voluntas ipsa: sed secundum non 
+      mo<lb ed="#T" n="120" break="no"/>uet: finis enim seu ratio faciendi domum 
+      mo<lb ed="#T" n="121" break="no"/>uet artificis voluntatem, sed domus effecta non 
+      <lb ed="#T" n="122"/>mouet: sic autem comparatur ad voluntatem 
+      <lb ed="#T" n="123"/>Dei omne aliud volitum praeter ipsum. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f13546-Dd1e730">
+               <head xml:id="pdt7y6-f13546-Hd1e732">Articulus 3</head>
+               <head xml:id="pdt7y6-f13546-Hd1e734" type="question-title">An Deus possit dici omnivolens sicut omnipotens</head>
+               <p xml:id="pdt7y6-f13546-d1e737">
+                  <lb ed="#T" n="124"/>Articvlvs III. 
+      <lb ed="#T" n="125"/>An Deus possit dici omniuolens sicut omnipotens. 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e744">
+                  <lb ed="#T" n="126"/>AD tertium articulum proceditur sic. 1. Deus 
+      <lb ed="#T" n="127"/>dicitur omnipotens quia potest omne 
+      <lb ed="#T" n="128"/>quod decet cum posse: ergo eadem ratione 
+      de<lb ed="#T" n="129" break="no"/>bet dici omniuolens quia vult omne quod 
+      de<lb ed="#T" n="130" break="no"/>cet cum velle. 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e757">
+                  <lb ed="#T" n="131"/>2. Sicut se habet scientia ad verum, sic 
+      volun<lb ed="#T" n="132" break="no"/>tas ad bonum: sed quia scit omne verum dicitur 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0447.xml-->
+      <pb ed="#T" n="372"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>omnisciens: ergo quia vult omne bonum, 
+      de<lb ed="#T" n="2" break="no"/>pet dici omniuolens. 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e776">
+                  <lb ed="#T" n="3"/>3. Dicitur omnipotens &amp; omnisciens quia 
+      <lb ed="#T" n="4"/>eius potentia &amp; scientia est infinita: ergo 
+      simi<lb ed="#T" n="5" break="no"/>liter debet dici omniuolens, quia eius voluntas 
+      <lb ed="#T" n="6"/>est infinita. 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e787">
+                  <lb ed="#T" n="7"/>4. Deus vult omne bonum: sed non potest 
+      <lb ed="#T" n="8"/>nisi bonum: ergo vult omne quod potest: ergo 
+      <lb ed="#T" n="9"/>qua ratione dicitur omnipotens, debet dici 
+      om<lb ed="#T" n="10" break="no"/>niuolens. 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e798">
+                  <lb ed="#T" n="11"/>Contra. 1. Omnina quaecumque voluit Deus 
+      <lb ed="#T" n="12"/>facere, fecit: sed multa potest facere quae non 
+      fa<lb ed="#T" n="13" break="no"/>cit: ergo multa potest velle quae non vult. 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e807">
+                  <lb ed="#T" n="14"/>2. Si Deus nesciret quicquid scit creatura, non 
+      <lb ed="#T" n="15"/>posset dici omnisciens: ergo cum nolit quicquid 
+      <lb ed="#T" n="16"/>vult creatura, quia non vult malum, non 
+      po<lb ed="#T" n="17" break="no"/>test dici omniuolens. 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e818">
+                  <lb ed="#T" n="18"/>3. Si potentia Dei &amp; scientia non se 
+      extende<lb ed="#T" n="19" break="no"/>rent ad infinita, non diceretur omnipotens, nec 
+      <lb ed="#T" n="20"/>omnisciens: ergo cum voluntas Dei non se 
+      ex<lb ed="#T" n="21" break="no"/>tendat ad infinita, non debet dici omniuolens. 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e829">
+                  <lb ed="#T" n="22"/>Respondeo. Dei potentia ponit causalitatem 
+      <lb ed="#T" n="23"/>possibilem, non actualem: scientia Dei de se nec 
+      <lb ed="#T" n="24"/>possibilem, nec actualem: voluntas vero ponit 
+      <lb ed="#T" n="25"/>causalitatem actualem in tempore illo in quo 
+      <lb ed="#T" n="26"/>vult rem fieri, vel esse. Quia vero causalitas 
+      <lb ed="#T" n="27"/>possibilis in Deo non est nisi bonorum, &amp; tamen 
+      <lb ed="#T" n="28"/>infinitorum: apprehensio, etiam fine 
+      causalita<lb ed="#T" n="29" break="no"/>te possibili, non tantum bonorum sed etiam 
+      ma<lb ed="#T" n="30" break="no"/>lorum, eorumque infinitorum: causalitas vero 
+      <lb ed="#T" n="31"/>actualis bonorum, &amp; finitorum tantum, quia 
+      <lb ed="#T" n="32"/>non possunt esse actu infinita: ideo potentia Dei, 
+      <lb ed="#T" n="33"/>est omnipotentia, &amp; scientia Dei est 
+      omniscien<lb ed="#T" n="34" break="no"/>tia, sed voluntas Dei non est omniuoluntas: 
+      <lb ed="#T" n="35"/>non enim vult omne volibile, siue sit volitum 
+      <lb ed="#T" n="36"/>actu vt mala, siue habitu vt bona possibilia: 
+      <lb ed="#T" n="37"/>quamuis sciat omne scibile &amp; possit omne 
+      pos<lb ed="#T" n="38" break="no"/>sibile. 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e869">
+                  <lb ed="#T" n="39"/>Ad 1. Deus dicitur omnipotens. Resp. Non 
+      <lb ed="#T" n="40"/>est simile, quia posse simpliciter, &amp; posse quod 
+      <lb ed="#T" n="41"/>decet conuertuntur: sed velle simpliciter,  &amp; 
+      <lb ed="#T" n="42"/>velle quod decet, non; quia malum potest esse 
+      <lb ed="#T" n="43"/>simpliciter volitum, sed non decens. Vei 
+      dicen<lb ed="#T" n="44" break="no"/>dum, quod non ideo dicitur Deus omnipotens 
+      <lb ed="#T" n="45"/>quia potest omne quod decet actu, sed quia 
+      po<lb ed="#T" n="46" break="no"/>test omne quod decere potest: sed Deus licet 
+      ve<lb ed="#T" n="47" break="no"/>lit omne quod decet cum actu, non tamen vult 
+      <lb ed="#T" n="48"/>omne quod decere cum potest. 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e893">
+                  <lb ed="#T" n="49"/>Ad 2. Sicut se habet scientia ad verum &amp;c. 
+      <lb ed="#T" n="50"/>Resp. Quamuis ita se habeat scientia ad verum. 
+      <lb ed="#T" n="51"/>sicut voluntas ad bonum: non tamen ita se 
+      ha<lb ed="#T" n="52" break="no"/>bet scientia ad oppositum veri, quia illud non 
+      <lb ed="#T" n="53"/>est scibile, sicut voluntas ad oppositum boni, 
+      <lb ed="#T" n="54"/>quia illud potest esse volitum: &amp; ideo qui scit 
+      <lb ed="#T" n="55"/>omne verum est omnisciens, quia scit omne 
+      sci<lb ed="#T" n="56" break="no"/>bile, sed non qui vult oedne bonum 
+      omniuo<lb ed="#T" n="57" break="no"/>lens est, quia non vult omne volibile. 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e915">
+                  <lb ed="#T" n="58"/>Ad 3. de infinitate. Resp. Non dicitur 
+      om<lb ed="#T" n="59" break="no"/>nipotens quia eius potentia sit in se infinita 
+      so<lb ed="#T" n="60" break="no"/>lum, vel omnisciens quia scientia sit in se 
+      infini<lb ed="#T" n="61" break="no"/>ta; sed quia est de infinitis: sed voluntas Dei licet,  
+      <lb ed="#T" n="62"/>sit infinita in se, non tamen quoad objecta 
+    </p>
+               <p xml:id="pdt7y6-f13546-d1e928">
+                  <lb ed="#T" n="63"/>Ad 4. Deus vult omne bonum &amp;c. Resp. 
+      Fal<lb ed="#T" n="64" break="no"/>lacia est figurae dictionis ab ampliata 
+      suppositio<lb ed="#T" n="65" break="no"/>ne ad restrictam: quia hic terminus, bonum, 
+      <lb ed="#T" n="66"/>cum verbo volendi quod non habet vim 
+      am<lb ed="#T" n="67" break="no"/>pliandi, supponit pro bona actuali: sed cum 
+      ver<lb ed="#T" n="68" break="no"/>bo possendi, eo quod habet vim ampliandi, sup¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0447.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="69"/>ponit pro bono possibili. Praeterea quamuis 
+      <lb ed="#T" n="70"/>vellet omne quod potest, non ideo posset dici 
+      <lb ed="#T" n="71"/>omniuolens: quia objecta potentiae sunt sola 
+      <lb ed="#T" n="72"/>possibilia, sed objecta voluntatis sunt etiam 
+      im<lb ed="#T" n="73" break="no"/>possibilia, quia impossibilia velle possumus &amp; 
+      <lb ed="#T" n="74"/>etiam mala 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

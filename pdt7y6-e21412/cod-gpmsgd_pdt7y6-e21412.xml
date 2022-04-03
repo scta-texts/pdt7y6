@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="72"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e21412"><!-- l1d8q2 -->
+            <head xml:id="pdt7y6-e21412-Hd1e99">Quaestio 2</head>
+            <head xml:id="pdt7y6-e21412-Hd1e101" type="question-title">De veritate divinae essentiae</head>
+            <p xml:id="pdt7y6-e21412-d1e104">
+               <lb ed="#T" n="47"/>QVESTIO II. 
+      <lb ed="#T" n="48"/>DE VERITATE DIVINAE ESSENTIAE 
+</p>
+            <p xml:id="pdt7y6-e21412-d1e111">
+               <lb ed="#T" n="49"/>CIrca secundum de veritate quaeruntur duo. 
+      <lb ed="#T" n="50"/>Primo an veritas sit propria soli Deo. 
+      <lb ed="#T" n="51"/>Secundo an vna sola sit veritas in omnibus. 
+      <lb ed="#T" n="52"/>veris. 
+    </p>
+            <div xml:id="pdt7y6-e21412-Dd1e122">
+               <head xml:id="pdt7y6-e21412-Hd1e124">Articulus 1</head>
+               <head xml:id="pdt7y6-e21412-Hd1e126" type="question-title">
+  An veritas sit propria soli Deo.
+</head>
+               <p xml:id="pdt7y6-e21412-d1e129">
+                  <lb ed="#T" n="53"/>Articvlvs I. 
+      <lb ed="#T" n="54"/>An veritas sit propria soli Deo.
+</p>
+               <p xml:id="pdt7y6-e21412-d1e136">
+                  <lb ed="#T" n="55"/>AD primum sic proceditur. 1. Hyeron. Solus 
+      <lb ed="#T" n="56"/>Deus vere est, cuius essentiae comparatum  
+      <lb ed="#T" n="57"/>esse nostrum non est. 
+    </p>
+               <p xml:id="pdt7y6-e21412-d1e145">
+                  <lb ed="#T" n="58"/>2. Veritas &amp; vanitas opponuntur: opposita 
+      <lb ed="#T" n="59"/>vero non sunt in eodem: cum ergoin omni 
+      crea<lb ed="#T" n="60" break="no"/>tura sit vanitas, in solo creatore erit veritas 
+    </p>
+               <p xml:id="pdt7y6-e21412-d1e155">
+                  <lb ed="#T" n="61"/>3. Augustinus in lib. Soliloq. dicit quod lux 
+      <lb ed="#T" n="62"/>increata est ratio cognoscendi se, &amp; omnia 
+      co<lb ed="#T" n="63" break="no"/>gnoscibilia: cum ergo sola veritas sit ratio co¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0147.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="64"/>gnoscendi, non est veritas nisi in luce prima 
+    </p>
+               <p xml:id="pdt7y6-e21412-d1e171">
+                  <lb ed="#T" n="65"/>4. Sola veritas prima est vera per essentiam: 
+      <lb ed="#T" n="66"/>sed nulla veritas est, quae non sit vera per 
+      essen<lb ed="#T" n="67" break="no"/>tiam, alioquin esset abire in infinitum: ergo 
+      nul<lb ed="#T" n="68" break="no"/>la est veritas quae non sit veritas prima: ergo non 
+      <lb ed="#T" n="69"/>est veritas, nisi in solo Deo. 
+    </p>
+               <p xml:id="pdt7y6-e21412-d1e184">
+                  <lb ed="#T" n="70"/>Contra. 1. Si veritas est Deo propria, aut 
+      com<lb ed="#T" n="71" break="no"/>plexa, aut incomplexa: non complexa, quia 
+      ni<lb ed="#T" n="72" break="no"/>hil in Deo compositum; nec imcomplexa, quia 
+      <lb ed="#T" n="73"/>illa est conuertibilis cum ente: ergo nulla. 
+    </p>
+               <p xml:id="pdt7y6-e21412-d1e195">
+                  <lb ed="#T" n="74"/>2. Ens, verum, &amp; bonum conuertuntur: ergo 
+      <lb ed="#T" n="75"/>aeque communia sunt: ergo si nec entitas est Deo 
+      <lb ed="#T" n="76"/>propria, nec bonitas nec veritas est Deo 
+      pro<lb ed="#T" n="77" break="no"/>pria. 
+    </p>
+               <p xml:id="pdt7y6-e21412-d1e206">
+                  <lb ed="#T" n="78"/>Respondeo. Veritas dupliciter accipitur, vno 
+      <lb ed="#T" n="79"/>modo prout opponitur falsitati; altero modo 
+      <lb ed="#T" n="80"/>prout opponitur permixtioni: primo modo 
+      di<lb ed="#T" n="81" break="no"/>citur vera propositio, secundo modo verum 
+      au<lb ed="#T" n="82" break="no"/>rum: primo modo veritas essentiae non est Deo 
+      <lb ed="#T" n="83"/>propria, sed est in qualibet creatura: secundo 
+      mo<lb ed="#T" n="84" break="no"/>do veritas est Deo propria: quia in suo esse 
+      ni<lb ed="#T" n="85" break="no"/>hil priuationis aut defectus admixtum est 
+    </p>
+               <p xml:id="pdt7y6-e21412-d1e226">
+                  <lb ed="#T" n="86"/>Ad 1. De Hyeron. Resp. Verum esse dicit 
+      <lb ed="#T" n="87"/>impermixtum &amp; purum, secundum quod veritas 
+      <lb ed="#T" n="88"/>opponitur permixtioni, non falsitati 
+    </p>
+               <p xml:id="pdt7y6-e21412-d1e236">
+                  <lb ed="#T" n="89"/>Ad 2. In omni creatura est vanitas Resp. In 
+      <lb ed="#T" n="90"/>omini creatura est vanitas, secundum quod est 
+      <lb ed="#T" n="91"/>ex nihilo, nihilominus est ibi veritas secundum 
+      <lb ed="#T" n="92"/>quod est aliqua Dei similitudo, nec est 
+      inconue<lb ed="#T" n="93" break="no"/>niens, vt, non secundum idem, insint opposita 
+      <lb ed="#T" n="94"/>eidem. 
+    </p>
+               <p xml:id="pdt7y6-e21412-d1e252">
+                  <lb ed="#T" n="95"/>Ad 3. De luce increata. Resp. Lux increata 
+      <lb ed="#T" n="96"/>est ratio cognoscendi omnia tanquam efficiens, 
+      <lb ed="#T" n="97"/>non tanquam forma objecti: veritas autem 
+      cu<lb ed="#T" n="98" break="no"/>uslibet rei est ratio cognoscendi ipsam tamquam  
+      <lb ed="#T" n="99"/>forma objecti: sicut lux &amp; color, vtrumque est 
+      <lb ed="#T" n="100"/>ratio cognoscendi coloratum, sed differenter,  
+      <lb ed="#T" n="101"/>quia lux effectiue, color vero formaliter.  
+    </p>
+               <p xml:id="pdt7y6-e21412-d1e270">
+                  <lb ed="#T" n="102"/>Ad 4. De veritate per essentiam. Resp. Omnis 
+      <lb ed="#T" n="103"/>veritas est vera per essentiam loquendo, 
+      formali<lb ed="#T" n="104" break="no"/>ter, sed sola prima veritas est vera per essentiam 
+      <lb ed="#T" n="105"/>effectiue. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e21412-Dd1e283">
+               <head xml:id="pdt7y6-e21412-Hd1e285">Articulus 2</head>
+               <head xml:id="pdt7y6-e21412-Hd1e287" type="question-title">
+  An una sola sit veritas in omnibus
+</head>
+               <p xml:id="pdt7y6-e21412-d1e290">
+                  <lb ed="#T" n="106"/>Articvlvs II. 
+      <lb ed="#T" n="107"/>An una sola sit veritas in omnibus.
+</p>
+               <p xml:id="pdt7y6-e21412-d1e297">
+                  <lb ed="#T" n="108"/>AD secundum sic proceditur. 1. Dicit 
+      Ansel<lb ed="#T" n="109" break="no"/>mus lib. De veritate, quod sicut est vnum 
+      <lb ed="#T" n="110"/>tempus omnium temporalium, sic est vna veritas 
+      <lb ed="#T" n="111"/>omnium verorum. 
+    </p>
+               <p xml:id="pdt7y6-e21412-d1e308">
+                  <lb ed="#T" n="112"/>2. Idem probat sic. Pereunte vero non perit 
+      ve<lb ed="#T" n="113" break="no"/>ritas, quia verum est perijsse verum &amp; omne 
+      <lb ed="#T" n="114"/>verum a veritate verum est: ergo esse eius non 
+      <lb ed="#T" n="115"/>dependet ab esse verorum. 
+    </p>
+               <p xml:id="pdt7y6-e21412-d1e320">
+                  <lb ed="#T" n="116"/>Contra. 1. Vnumquodque, ait Philosophus 
+      <lb ed="#T" n="117"/>2. Metaphys. Sicut se habet ad esse, ita ad veri 
+      <lb ed="#T" n="118"/>tatem, vnde Augustinus lib. Soliloq. dicit, 
+      ve<lb ed="#T" n="119" break="no"/>rum est illud quod est: sed esse omnium rerun 
+      <lb ed="#T" n="120"/>non est vnum: ergo nec vna veritas. 
+    </p>
+               <p xml:id="pdt7y6-e21412-d1e333">
+                  <lb ed="#T" n="121"/>2. Veritas est ratio discernendi, &amp; 
+      cognoscen<lb ed="#T" n="122" break="no"/>di vnumquodque: non est eadem ratio 
+      discer<lb ed="#T" n="123" break="no"/>nendi, &amp; cognoscendi in diuersis: ergo nec 
+      ea<lb ed="#T" n="124" break="no"/>dem veritas 
+    </p>
+               <p xml:id="pdt7y6-e21412-d1e344">
+                  <lb ed="#T" n="125"/>3. Veritas est adaequatio rei &amp; intellectus 
+      se<lb ed="#T" n="126" break="no"/>cundum Philosophos: sed non est eadem 
+      diuer<lb ed="#T" n="127" break="no"/>forum adaequatio, cum sint inaequalia: ergo nec 
+      <lb ed="#T" n="128"/>eadem veritas. 
+    </p>
+               <p xml:id="pdt7y6-e21412-d1e355">
+                  <lb ed="#T" n="129"/>Respondeo. Veritas comparatur ad tria, ad 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0148.xml-->
+      <pb ed="#T" n="73"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>subjectum quod informat; ad principium quod 
+      <lb ed="#T" n="2"/>imitatur &amp; repraesentat, scilicet intellectum 
+      di<lb ed="#T" n="3" break="no"/>uinum; &amp; ad intellectum humanum quem 
+      ex<lb ed="#T" n="4" break="no"/>citat &amp; illuminat. Cum ergo sit quasi forma 
+      <lb ed="#T" n="5"/>quaedam intelligibilis media inter duplicem 
+      in<lb ed="#T" n="6" break="no"/>tellectum, diuinum scilicet a quo mensuratur,  
+      <lb ed="#T" n="7"/>&amp; creatum quem mesurat: potest veritas 
+      intel<lb ed="#T" n="8" break="no"/>ligi numerari, vel per comparationem ad 
+      subje<lb ed="#T" n="9" break="no"/>ctum, &amp; sic sunt plures simpliciter veritates; vel 
+      <lb ed="#T" n="10"/>per comparationem ad intellectum diuinum, &amp; 
+      <lb ed="#T" n="11"/>sic est vna veritas omnium, secundum quid, 
+      <lb ed="#T" n="12"/>quia attenditur in comparatione adaequationis 
+      <lb ed="#T" n="13"/>ad vnum; vel ad intellectum creatum, &amp; sic sunt,  
+      <lb ed="#T" n="14"/>plures, quia res diuersae aptae natae sunt facere 
+      <lb ed="#T" n="15"/>diuersas conceptiones in intellectu. 
+    </p>
+               <p xml:id="pdt7y6-e21412-d1e399">
+                  <lb ed="#T" n="16"/>Ad 1. Ex Anselmo. Resp. Vna est veritas 
+      <lb ed="#T" n="17"/>omnium efficiens &amp; exemplaris, non creata, 
+    </p>
+               <p xml:id="pdt7y6-e21412-d1e406">
+                  <lb ed="#T" n="18"/>Ad 2. De veritate. Resp. Quamuis pereunte 
+      <lb ed="#T" n="19"/>vero non pareat veritas simpliciter &amp; 
+      vniuersa<lb ed="#T" n="20" break="no"/>liter, perit tamen vt est veritas huius: &amp; est 
+      in<lb ed="#T" n="21" break="no"/>tentio Anselmi probare, quod veritas 
+      vniuersa<lb ed="#T" n="22" break="no"/>liter non potest perire, licet aliqua veritas 
+      par<lb ed="#T" n="23" break="no"/>ticularis pereat. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

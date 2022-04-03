@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="321"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e98328"><!-- l1d39prae -->
+            <head xml:id="pdt7y6-e98328-Hd1e99">Praeambulum</head>
+            <head xml:id="pdt7y6-e98328-Hd1e101" type="question-title"/>
+            <p xml:id="pdt7y6-e98328-d1e103">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0396.xml-->
+               <cb ed="#T" n="c"/>
+               <lb ed="#T" n="93"/>VTRVMSCIENTIA DEI Posorr 
+      <lb ed="#T" n="94"/>augeri vel minui, vel aliquo modo mutari: vtrumque 
+      <lb ed="#T" n="95"/>enim videtur posse probari. 
+      <lb ed="#T" n="96"/>Distinct. REXIX.
+    </p>
+           <!-- <p xml:id="pdt7y6-e98328-d1e119">
+               <lb ed="#T" n="97"/>RAXTERIA quaeri solet, vtrum scientia Dei possit augeri, vel minui: 
+      <lb ed="#T" n="98"/>vtrunque enim videtur posse probari. Quod enim Diuina scientia possit,  
+      <lb ed="#T" n="99"/>augeri vel mutari, hoc modo probatur: quia potest Deus scire quod 
+      <lb ed="#T" n="100"/>nunquam scit: est enim aliquis qui non est lecturus hodie, &amp; tamen 
+      po<lb ed="#T" n="101" break="no"/>test esse vt legat hodie, potest enim hodie legere: nihil autem potest 
+      <lb ed="#T" n="102"/>fieri, quod non possit a Deo sciri; potest ergo Deus scire hunclecturum 
+      <lb ed="#T" n="103"/>hodie: potest ergo aliquid scire quod non scit: ergo potest eius scientia 
+      <lb ed="#T" n="104"/>augeri vel mutari. 
+    </p>
+            <p xml:id="pdt7y6-e98328-d1e139">
+               <lb ed="#T" n="105"/>Eademque videtur posse minui: est enim aliquis hodie lecturus, quem 
+      <lb ed="#T" n="106"/>Deus scit lecturum. 
+    </p>
+            <p xml:id="pdt7y6-e98328-d1e147">
+               <lb ed="#T" n="107"/>:at potest esse, vt non legat: ergo potest Deus non scire hunclecturum, 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0397.xml-\->
+      <pb ed="#T" n="322"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>potest ergo non scire aliquid quod scit: ergo potest minui eius scientia, vel mutari. Ad  
+      <lb ed="#T" n="2"/>quod dicimus, quia Dei scientia omnino immutabilis est, nec augeri potest vel minui. Nam, 
+      <lb ed="#T" n="3"/>vt ait Augustinus in 15. libro de Trinitate: Scientia Dei est ipsa sapientia, &amp; sapientia est 
+      <lb ed="#T" n="4"/>ipsa essentia, siue substantia Dei: quia in illius naturae simplicitate mirabili non est aliud 
+      <lb ed="#T" n="5"/>lapere, &amp; aliud esse, sed quod est sapere hoc est &amp; esse. Ideoque nouit omnia verbum, quae 
+      <lb ed="#T" n="6"/>nouit Pater: sed ei nosse de Patre est, sicut esse: Nosse enim &amp; esse ibi vnum est. Et ideo 
+      <lb ed="#T" n="7"/>Patri sicut esse non est a Filio, ita nec nosse. Proinde tanquam seipsum dicens, Pater genuit 
+      <lb ed="#T" n="8"/>verbum sibi coaequale per omnia. Non enim seipsum integre perfecteque dixisset, si 
+      ali<lb ed="#T" n="9" break="no"/>quid minus aut amplius esset in eius verbo, quam in seipso. Hoc est ergo omnino 
+      ver<lb ed="#T" n="10" break="no"/>bum quod Pater, non tamen est Pater, quia iste Filius, ille Pater. Sciunt ergo inuicem 
+      <lb ed="#T" n="11"/>Pater &amp; Filius, sed ille gignendo, iste nascendo. Et omnia quae sunt in eorum 
+      <lb ed="#T" n="12"/>scientia, in eorum sapientia, in eorum essentia, vnusquisque eorum simul videt, 
+      <lb ed="#T" n="13"/>non particulatim aut sigillatim velut alternante conspectu hinc illinc, &amp; inde huc, 
+      <lb ed="#T" n="14"/>&amp; rursum inde, vel inde in aliud atque aliud, vt aliqua videre non possit, nisi non 
+      <lb ed="#T" n="15"/>videns alia: sed omnia simni videt, quorum nullum est quod non semper videat &amp; 
+      <lb ed="#T" n="16"/>sciat. Eius itaque scientia inamissibilis &amp; inuariabilis est. Nostra vero scientia &amp; 
+      amissi<lb ed="#T" n="17" break="no"/>bilis, &amp; variabilis, &amp; receptibilis est: quia non hoc est nobis esse, quod sapere vel scire. 
+      <lb ed="#T" n="18"/>Propter hoc sicut nostra scientia illi scientiae Dei dissimilis est, sic &amp; nostrum verbum quod 
+      <lb ed="#T" n="19"/>nascitur de scientia nostra, dissimile est illi verbo quod natum est de Patre scientia. Ex hac 
+      <lb ed="#T" n="20"/>authoritate clare ostenditur scientiam Dei omnino inuariabilem esse, sicut ipsa essentia 
+      <lb ed="#T" n="21"/>Dei omnino inuariabilis est: &amp; quod Pater &amp; Filius cum Spiritu sancto simul omnia sciunt 
+      <lb ed="#T" n="22"/>&amp; vident. Sicut ergo non potest augeri, vel minui Diuina essentia, ita nec Diuina essentia, 
+      <lb ed="#T" n="23"/>&amp; tamen conceditur posse scire quod non scit, &amp; posse non scire quod scit, quia posset 
+      ali<lb ed="#T" n="24" break="no"/>quid esse subjectum eins scientiae, quod non est: &amp; posset non esse subjectum aliquid quod 
+      <lb ed="#T" n="25"/>est, sine permutatione ipsius scientiae. 
+    </p>
+            <p xml:id="pdt7y6-e98328-d1e212">
+               <lb ed="#T" n="26"/>Oppositio, an Deus possit nouiter, vel ex tempore scire, vel praescire aliquid. D 
+      <lb ed="#T" n="27"/>Hic opponitur a quibusdam ita: Si Deus potest aliquid scire vel praescire quod nunquam  
+      <lb ed="#T" n="28"/>sciuit vel praesciuit, potest ergo ex tempore aliquid scire vel praescire. Ad quod dicimus: 
+      <lb ed="#T" n="29"/>Potest quidem Deus scire vel praescire omne quod potest facere, &amp; potest facere quod 
+      nun<lb ed="#T" n="30" break="no"/>quam fiet. Potest ergo scire vel praescire quod nunquam fiet, nec est nec fuit, nec illud scit 
+      <lb ed="#T" n="31"/>vel sciuit, neque praescit, vel praesciuit, quia scientia eius non est nisi de his quae sunt, vel 
+      <lb ed="#T" n="32"/>fuerunt, vel erunt: praescientia non est nisi de futuris. Et licet possit scire vel praescire quod 
+      <lb ed="#T" n="33"/>nunquam est vel erit: non tamen potest aliquid scire vel praescire ex tempore. Potest 
+      vti<lb ed="#T" n="34" break="no"/>que scire vel praescire quod nunquam est, nec erit, nec illud scicum vel praescitum est ab 
+      <lb ed="#T" n="35"/>aeterno: nec tamen potest incipere scire vel praescire illud: sed ita potest modo scire vel 
+      <lb ed="#T" n="36"/>praescire, sicut potest scisse vel praescisse ab aeterno. Si enim dicatur cum modo posse scire 
+      <lb ed="#T" n="37"/>vel praescire quod ab aeterno non sciuit vel praesciuit,. id est, ita quod ab aeterno non 
+      sciue<lb ed="#T" n="38" break="no"/>rit vel praesciuerit, quasi vtrumque simul esse possit, falsum est. Si vero dicas cum posse 
+      mo<lb ed="#T" n="39" break="no"/>do scire vel praescire quod ab aeterno non sciuit, vel praesciuit. 3. habere potentiam sciendi 
+      <lb ed="#T" n="40"/>vel praesciendi ab aeterno &amp; modo aliquid, nec tamen illud praescitum est vel futurum, 
+      ve<lb ed="#T" n="41" break="no"/>rum est. Non potest ergo nouiter, vel ex tempore scire vel praescire aliquid: sicut non 
+      po<lb ed="#T" n="42" break="no"/>test nouiter vel ex tempore velle aliquid, &amp; tamen potest velle quod nunquam voluit. 
+    </p>
+            <p xml:id="pdt7y6-e98328-d1e251">
+               <lb ed="#T" n="43"/>Vtrum Deus possit scire plura quam scit. 
+      <lb ed="#T" n="44"/>Item a quibusdam dicitur Deus posse plura scire quam sciat, quia potest omnia scire 
+      <lb ed="#T" n="45"/>quae scit, &amp; pot est aliqua facere quae nunquam erunt, &amp; illa potest scire: non enim aliqua 
+      <lb ed="#T" n="46"/>incognita facere potest. Si vero omnia essent quae modo sunt, &amp; alia quaedam faceretquae 
+      <lb ed="#T" n="47"/>non sunt, nec erunt, &amp; illa omnia sciret, pro certo plura sciret quam modo sciat, nec tamen 
+      <lb ed="#T" n="48"/>eius scientia augeri potest, quia hoc totum fieri posset sine mut abilitate scientiae. Costat  
+      <lb ed="#T" n="49"/>ergo Dei scientiam omnino esse immutabile, nec augeri posse vel minui, sed ei subjecta. 
+    </p>
+            <p xml:id="pdt7y6-e98328-d1e269">
+               <lb ed="#T" n="50"/>Quod videtur aduersum illi sententiae qua supra dictum est, Deum semper &amp; simul scire omnia. D 
+      <lb ed="#T" n="51"/>Ei vero quod praedictum est, scilicet quod Deus omnia semper videt &amp; simul, videtur.  
+      <lb ed="#T" n="52"/>obuiare quod ait Hieron. in expositione Abacuc. Absurdum est, inquit, ad hoc deducere 
+      <lb ed="#T" n="53"/>Dei maiestatem, vt sciat per momenta singula, quot culices nascantur, quotve moriantur: 
+      <lb ed="#T" n="54"/>quota pulicum &amp; muscarum sit multitudo, quotve pisces natent in aquis, &amp; similia. Non 
+      <lb ed="#T" n="55"/>simus tam fatui adulatores Dei, vt dum prouidentiam eius etiam ad ima retrudimus, in 
+      <lb ed="#T" n="56"/>nosipsos iniuriosi simus, eandem irrationabilium &amp; rationabilium prouidentiam esse 
+      di<lb ed="#T" n="57" break="no"/>centes. Hic videtur dicere Hieron. quod Deus illorum minimorum scientiam, siue 
+      proui<lb ed="#T" n="58" break="no"/>dentiam non habeat: quod si hoc est, tunc non omnia simul scit &amp; semper. Ex tali itaque 
+      <lb ed="#T" n="59"/>sensu illud dictum esse nouerimus, vtDeum illa alternatim vel particulatim scire neget, nec 
+      <lb ed="#T" n="60"/>per diuersa temporum momenta sic illa cognouit, sicut per varia momenta illorum quae¬ 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0398.xml-\->
+      <pb ed="#T" n="323"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>dam deficiunt, quaedam incipiunt. Neque illis aliisque irrationabilibus ita prouidet, 
+      quem<lb ed="#T" n="2" break="no"/>. admodum rationabil ibus: nunquid enim, vt ait Apostolus, cura est Deo de bobus? &amp; sicut  
+      <lb ed="#T" n="3"/>non est cura de bobus, ita nec de alijs irrationabilibus. Dicit tamen Scriptura: quia 
+      ipsi<lb ed="#T" n="4" break="no"/>est cura de omnibus. Prouidentiam ergo &amp; curam vniuersaliter de cunctis quae condidit, 
+      <lb ed="#T" n="5"/>habet, vt habeat vnumquodque quod sibi debetur &amp; conuenit. Sed specialem 
+      prouiden<lb ed="#T" n="6" break="no"/>tiam atque curam habet de rationalibus, quibus praecepta tradidit eisque recte 
+      viuendile<lb ed="#T" n="7" break="no"/>gem praescripsit, ac praemia promisit. Hanc prouidentiam &amp; curam de irrationalibus non 
+      <lb ed="#T" n="8"/>habet. Ideo dicit Apostolus, quia non est cura Deo de bobus: prouidet tamen omnibus, 
+      <lb ed="#T" n="9"/>&amp; curat, id est, gubernat omnia, qui omnibus Solem suum facit oriri, &amp; pluuia dat. Scit 
+      ita<lb ed="#T" n="10" break="no"/>que Deus quanta sit multitudo pulicum, culicum, &amp; muscarum, &amp; piscium, &amp; quot 
+      nas<lb ed="#T" n="11" break="no"/>cantur, quotve moriantur: sed non scit hoc per momenta singula, imo simul&amp; semel 
+      om<lb ed="#T" n="12" break="no"/>nia. Neque ita scit, vt eandem habeat prouidentiam irrationabilium &amp; rationabilium, id  
+      <lb ed="#T" n="13"/>est, vt eodem modo penitus prouideat irrationabilibus &amp; rationabilibus. Rationabilibus 
+      <lb ed="#T" n="14"/>enim &amp; praecepta dedit, &amp; angelos ad custodiam delegauit. 
+    </p>
+            <p xml:id="pdt7y6-e98328-d1e332">
+               <lb ed="#T" n="15"/>Braeuis summa praedictorum cum additione quorundam. 
+      <lb ed="#T" n="16"/>Simul itaque &amp; immutabiliter scit Deus omnia quae fuerunt, &amp; sunt, &amp; erunt, tam bona 
+      <lb ed="#T" n="17"/>quam mala: praescit quoque omnia futura, tam bona quam mala.
+    </p>-->
+            <p xml:id="pdt7y6-e98328-d1e341">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0398.xml-->
+               <cb ed="#T" n="b"/>
+               <lb ed="#T" n="18" type="fixed=323"/>DIVISIO TEXTVS. 
+      <lb ed="#T" n="19"/>[D Raeterca quaeri solet. ] Egit de causalitate 
+      <lb ed="#T" n="20"/>scientiae diuinae respectu rerum scitarum, 
+      <lb ed="#T" n="21"/>hic agit de eius immutabilitate ex rebus scitis. 
+      <lb ed="#T" n="22"/>Vbi primo inquirit utrum eius scientia possit. 
+      <lb ed="#T" n="23"/>esse de pluribus vel paucioribus. Secundo 
+      <lb ed="#T" n="24"/>vtrum sit simul de omnibus [Ei vero quod 
+      prae<lb ed="#T" n="25" break="no"/>dictum est.] 
+    </p>
+            <p xml:id="pdt7y6-e98328-d1e366">
+               <lb ed="#T" n="26"/>In prima parte primo proponit &amp; soluit 
+      quae<lb ed="#T" n="27" break="no"/>stionem. Secundo opponit contra solutionen, 
+      <lb ed="#T" n="28"/>[Hic opponitur] Tertio subdit quorundam 
+      <lb ed="#T" n="29"/>circa hoc opinionem [Idem a quibusdam. 
+    </p>
+            <p xml:id="pdt7y6-e98328-d1e377">
+               <lb ed="#T" n="30"/>In secunda parte primo mouet &amp; soluit 
+      dubi<lb ed="#T" n="31" break="no"/>tationem [Ei vero] secundo subdit 
+      praemisso<lb ed="#T" n="32" break="no"/>rum recapitulationem [Simul itaque.] 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

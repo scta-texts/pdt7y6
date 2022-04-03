@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="248"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e75320"><!-- l1d31q1 -->
+            <head xml:id="pdt7y6-e75320-Hd1e99">Quaestio 1</head>
+            <head xml:id="pdt7y6-e75320-Hd1e101" type="question-title">De significatione cuiusdam appropriabilis, nempe aequalitate</head>
+            <p xml:id="pdt7y6-e75320-d1e104">
+               <lb ed="#T" n="40"/>QVESTIO I. 
+      <lb ed="#T" n="41"/>DE SICNIFICATIONE CVIVSDAM. 
+      <lb ed="#T" n="42"/>APPROPRIABILIS NEMPE 
+      <lb ed="#T" n="43"/>AEQVALITATIS. 
+</p>
+            <p xml:id="pdt7y6-e75320-d1e115">
+               <lb ed="#T" n="44"/>TVIc quaeruntur tria. 
+      <lb ed="#T" n="45"/>I Primo de significatione aequalitatis. 
+      <lb ed="#T" n="46"/>Secundo de appropriatione Hylarij. 
+      <lb ed="#T" n="47"/>Tertio de appropriatione Augustini. 
+    </p>
+            <p xml:id="pdt7y6-e75320-d1e126">
+               <lb ed="#T" n="48"/>Circa primum duo quaeruntur.  
+      <lb ed="#T" n="49"/>Primo an aequalitas aliquid ponat in Deo. 
+      <lb ed="#T" n="50"/>Secundo quid significet, vtrum relationem 
+      <lb ed="#T" n="51"/>vel substantiam. 
+    </p>
+            <div xml:id="pdt7y6-e75320-Dd1e138">
+               <head xml:id="pdt7y6-e75320-Hd1e140">Articulus 1</head>
+               <head xml:id="pdt7y6-e75320-Hd1e142" type="question-title">
+  An aequalitas aliquid ponat in Deo
+</head>
+               <p xml:id="pdt7y6-e75320-d1e145">
+                  <lb ed="#T" n="52"/>Articvlvs I. 
+      <lb ed="#T" n="53"/>An aequalitas aliquid ponat in Deo. 
+</p>
+               <p xml:id="pdt7y6-e75320-d1e152">
+                  <lb ed="#T" n="54"/>D primum articulum sic proceditur. 
+      AEqua<lb ed="#T" n="55" break="no"/>le est, vt ait Euclides, quod alteri 
+      super<lb ed="#T" n="56" break="no"/>positum nec excedit nec exceditur: ergo dicitur 
+      se<lb ed="#T" n="57" break="no"/>cundum priuationem non secundum 
+      positio<lb ed="#T" n="58" break="no"/>nem.
+</p>
+               <p xml:id="pdt7y6-e75320-d1e165">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0323.xml-->
+                  <cb ed="#T" n="c"/>
+                  <lb ed="#T" n="59"/>2. AEqualitas positiue dicta est commensuratio  
+      <lb ed="#T" n="60"/>quaedam: sed in Diuinis non est 
+      commensura<lb ed="#T" n="61" break="no"/>tio, quia est ibi imniensitas: ergo nec 
+      aequa<lb ed="#T" n="62" break="no"/>litas positiue dicta. 
+    </p>
+               <p xml:id="pdt7y6-e75320-d1e182">
+                  <lb ed="#T" n="63"/>3. Dicit hic Magister, hoc quibusdam non 
+      <lb ed="#T" n="64"/>indocte videri: ergo videtur hoc rationale. 
+    </p>
+               <p xml:id="pdt7y6-e75320-d1e189">
+                  <lb ed="#T" n="65"/>Contra. 1. Omne quod reperitur in Deo 
+      <lb ed="#T" n="66"/>&amp; in creatura verius est in Deo in creatura: ergo 
+      <lb ed="#T" n="67"/>aequalitas verius est in Deo quam in creatura: 
+      <lb ed="#T" n="68"/>sed in creatura ponit aliquid: ergo multo magis 
+      <lb ed="#T" n="69"/>in Deo. 
+    </p>
+               <p xml:id="pdt7y6-e75320-d1e202">
+                  <lb ed="#T" n="70"/>2. Si nihil ponit, ergo posset dici quod 
+      chi<lb ed="#T" n="71" break="no"/>mera est aequalis Deo: sed hoc falsum: ergo 
+      po<lb ed="#T" n="72" break="no"/>nit aliquid. 
+    </p>
+               <p xml:id="pdt7y6-e75320-d1e211">
+                  <lb ed="#T" n="73"/>3. Arrius iudicatur haereticus, quia negauit 
+      <lb ed="#T" n="74"/>nihil Filium aequale Patri: sed negando id quod 
+      <lb ed="#T" n="75"/>ponit in Deo, non esset haereticus: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e75320-d1e220">
+                  <lb ed="#T" n="76"/>4. Si nihil ponit in Deo, ergo ita potest 
+      prae<lb ed="#T" n="77" break="no"/>dicari de persona, sicut de essentia:, sed hoc 
+      <lb ed="#T" n="78"/>falsum est: ergo ponit aliquid. 
+    </p>
+               <p xml:id="pdt7y6-e75320-d1e229">
+                  <lb ed="#T" n="79"/>5. Vt dicit Gregorius, in majestate debet 
+      ado<lb ed="#T" n="80" break="no"/>rari aequalitas: sed quod nihil est, non debet 
+      <lb ed="#T" n="81"/>adorari. 
+    </p>
+               <p xml:id="pdt7y6-e75320-d1e239">
+                  <lb ed="#T" n="82"/>Respondeo. Sicut ab vno in substantia 
+      causa<lb ed="#T" n="83" break="no"/>tur ideintitatis relatio, &amp; ab vno in qualitate 
+      re<lb ed="#T" n="84" break="no"/>latio similitudinis; sic ab vno in quantitate 
+      re<lb ed="#T" n="85" break="no"/>latio aequalitatis. Haec autem in in Deo, quamuis 
+      <lb ed="#T" n="86"/>sint idem secundum rem, differunt tamen 
+      se<lb ed="#T" n="87" break="no"/>cundum rationem. In ratione ergo aequalitatis 
+      <lb ed="#T" n="88"/>personarum Diuinarum, duo intelliguntur: 
+      <lb ed="#T" n="89"/>scilicet id super quod respectus fundatur, id est 
+      <lb ed="#T" n="90"/>vna quantitas virtualis: &amp; ipse respectus: 
+      pri<lb ed="#T" n="91" break="no"/>mum significat tanquam illud a quo imponitur,  
+      <lb ed="#T" n="92"/>secundum significat principaliter tanquam illud 
+      <lb ed="#T" n="93"/>ad quod significandum imponitur: sicut securis 
+      <lb ed="#T" n="94"/>significat fectionem &amp; instrumentum secans. 
+      <lb ed="#T" n="95"/>Quoad primum, licet secundum illos qui 
+      di<lb ed="#T" n="96" break="no"/>cunt quod vnitas in Deo nihil ponit, aequalitas 
+      <lb ed="#T" n="97"/>etiam nihil ponat; tamen secundum alios, 
+      qui<lb ed="#T" n="98" break="no"/>dicunt communius &amp; verius quod ponat 
+      ali<lb ed="#T" n="99" break="no"/>quid, aliquid ponit aequalitas. Quoad 
+      secun<lb ed="#T" n="100" break="no"/>dum nihil ponit, quia non ponit aliquem 
+      res<lb ed="#T" n="101" break="no"/>pectum realem, quia nec in essentia, nec in 
+      per<lb ed="#T" n="102" break="no"/>sona: quia relatio realis: (praeter personales) &amp; 
+      <lb ed="#T" n="103"/>nulla inest essentiae &amp; nulla est communis tribus: 
+      <lb ed="#T" n="104"/>vnde per hoc nulla ponitur in Deo relatio rei, 
+      <lb ed="#T" n="105"/>vt dicit hic Magister, sed solius rationis: quae a 
+      <lb ed="#T" n="106"/>tamen ratio quia fundatur super rem aliquam in: 
+      <lb ed="#T" n="107"/>Deo, scilicet essentiae unitatem; ideo qui 
+      ne<lb ed="#T" n="108" break="no"/>gat aequalitatem haereticus est, sicut qui negat 
+      <lb ed="#T" n="109"/>Deum esse dominum, vel creatorem, vel 
+      vni<lb ed="#T" n="110" break="no"/>tum naturae humanae. 
+    </p>
+               <p xml:id="pdt7y6-e75320-d1e304">
+                  <lb ed="#T" n="111"/>Ad 1. De Euclide. Resp. Sicut negatio 
+      nega<lb ed="#T" n="112" break="no"/>tionis aliquid ponit, quia aequipollet 
+      affirma<lb ed="#T" n="113" break="no"/>tioni, ita negatio priuationis. Euclides vero 
+      des<lb ed="#T" n="114" break="no"/>scribit aequale per negationem priuationis, id est 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0324.xml-->
+      <pb ed="#T" n="249"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>excessus. 
+    </p>
+               <p xml:id="pdt7y6-e75320-d1e324">
+                  <lb ed="#T" n="2"/>Ad 2. De commensuratione. Resp. Vbi aequa 
+      <lb ed="#T" n="3"/>litas radicatur super diuersas quantitates, ibi 
+      <lb ed="#T" n="4"/>solum aequalitas est commensuratio: in Diuinis 
+      <lb ed="#T" n="5"/>vero radicatur super eandem. 
+    </p>
+               <p xml:id="pdt7y6-e75320-d1e335">
+                  <lb ed="#T" n="6"/>Ad 3. De Magistro. Resp. Opinio Magistri 
+      <lb ed="#T" n="7"/>fuit, quod vnitas &amp; aequalitas &amp; huiusmodi 
+      <lb ed="#T" n="8"/>nihil ponunt in Deo: sed communior opinio 
+      <lb ed="#T" n="9"/>aliter dicit. Vel dic quod Magister attendit in 
+      <lb ed="#T" n="10"/>dicto suo respectum ipsum, qui nihil est in Deo 
+      <lb ed="#T" n="11"/>secundum rem, sed secundum intellectum: non 
+      <lb ed="#T" n="12"/>vero illud super quod respectus fundatur, 
+      sci<lb ed="#T" n="13" break="no"/>licet eandem quantitatem virtualem. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e75320-Dd1e356">
+               <head xml:id="pdt7y6-e75320-Hd1e358">Articulus 2</head>
+               <head xml:id="pdt7y6-e75320-Hd1e360" type="question-title">
+  Quid significet in Deo aequalitas vtrum relationem vel substantiam
+</head>
+               <p xml:id="pdt7y6-e75320-d1e363">
+                  <lb ed="#T" n="14"/>Articvlvs II. 
+      <lb ed="#T" n="15"/>Quid significet in Deo aequalitas vtrum relationem 
+      <lb ed="#T" n="16"/>vel substantiam.
+</p>
+               <p xml:id="pdt7y6-e75320-d1e372">
+                  <lb ed="#T" n="17"/>D secundum articulum sic proceditur. 1. 
+      <lb ed="#T" n="18"/>AEquale significat vnum in quantitate: sed  
+      <lb ed="#T" n="19"/>vnum in quantitate significat substantiam in 
+      <lb ed="#T" n="20"/>Deo: ergo &amp; aequale 
+    </p>
+               <p xml:id="pdt7y6-e75320-d1e383">
+                  <lb ed="#T" n="21"/>2. AEquale dicit conuenientiam: relatio vero 
+      <lb ed="#T" n="22"/>facit oppositionem: ergo non significatrelationem 
+    </p>
+               <p xml:id="pdt7y6-e75320-d1e391">
+                  <lb ed="#T" n="23"/>3. Nihil quod significat relationem, dicitur 
+      <lb ed="#T" n="24"/>de tribus personis: sed aequale dicitur de tribus 
+      <lb ed="#T" n="25"/>personis: ergo non importat relationem 
+    </p>
+               <p xml:id="pdt7y6-e75320-d1e400">
+                  <lb ed="#T" n="26"/>Contra 1. AEqualitate refertur persona ad per 
+      <lb ed="#T" n="27"/>sonam: essentia vero non refert personam ad 
+      <lb ed="#T" n="28"/>personam: ergo aequalitas non significat essen 
+      <lb ed="#T" n="29"/>tiam 
+    </p>
+               <p xml:id="pdt7y6-e75320-d1e411">
+                  <lb ed="#T" n="30"/>2. Omne quod significat substantiam, 
+      dici<lb ed="#T" n="31" break="no"/>tur ad se non ad alterum: aequale vero ad alterum. 
+    </p>
+               <p xml:id="pdt7y6-e75320-d1e418">
+                  <lb ed="#T" n="32"/>3. Omne quod significat essentiam potest prae 
+      <lb ed="#T" n="33"/>dicari de essentia: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e75320-d1e425">
+                  <lb ed="#T" n="34"/>Respondeo. AEqualitas dicitur plurium 
+      diffe<lb ed="#T" n="35" break="no"/>rentium eadem quantitas, &amp; aequales plures 
+      ha<lb ed="#T" n="36" break="no"/>bentes eandem quantitatem: ergo importa 
+      <lb ed="#T" n="37"/>distinctionem personalem, &amp; essentiae vnitatem 
+      <lb ed="#T" n="38"/>Dicunt ergo quidam quod huiusmodi nomina 
+      <lb ed="#T" n="39"/>in concreto principaliter significant 
+      distinctio<lb ed="#T" n="40" break="no"/>nem personarum, secundario vnitatem 
+      substan<lb ed="#T" n="41" break="no"/>tiae: in abstracto e conuerso. Sed contra hoc 
+      op<lb ed="#T" n="42" break="no"/>ponitur, quia nomina in abstracto &amp; concrete 
+      <lb ed="#T" n="43"/>idem significant, vt albedo &amp; album. Alij 
+      di<lb ed="#T" n="44" break="no"/>cunt quod vtrumque principaliter significa 
+      <lb ed="#T" n="45"/>substantiae unitatem, &amp; secundario distinctio 
+      <lb ed="#T" n="46"/>nem personarum, quod principaliter respicit 
+      <lb ed="#T" n="47"/>illud in quo conueniunt. Sed contra hoc 
+      oppo<lb ed="#T" n="48" break="no"/>nitur, quia penes essentia personae non referuntur 
+      <lb ed="#T" n="49"/>referuntur autem penes aequalitatem. Alij dicunt 
+      <lb ed="#T" n="50"/>melius, quod aequalitas significat vnitatem 
+      sub<lb ed="#T" n="51" break="no"/>stantiae indirecte, tanquam illud a quo 
+      imponi<lb ed="#T" n="52" break="no"/>tur, scilicet tanquam causam suam: sed 
+      princi<lb ed="#T" n="53" break="no"/>paliter significat relationem quandam 
+      essentia<lb ed="#T" n="54" break="no"/>lem, non personalem, ab huiusmodi vnitat 
+      <lb ed="#T" n="55"/>causatam, qua personae referuntur ad inuicem: 
+      <lb ed="#T" n="56"/>praesupponit tamen personalem distinctionem 
+    </p>
+               <p xml:id="pdt7y6-e75320-d1e477">
+                  <lb ed="#T" n="57"/>Ad 1. AEquale significat vnum in quantitate, 
+      <lb ed="#T" n="58"/>Resp. Significare dicitur terminus, vel id ad 
+      <lb ed="#T" n="59"/>quod significandum imponitur, vel ad a quo 
+      im<lb ed="#T" n="60" break="no"/>ponitur: primo modo significat relationem 
+      cau<lb ed="#T" n="61" break="no"/>satam ab vnitate quantitatis: secundo modo 
+      ip<lb ed="#T" n="62" break="no"/>sam vnitatem. 
+    </p>
+               <p xml:id="pdt7y6-e75320-d1e494">
+                  <lb ed="#T" n="63"/>Ad 2. De conuenientia &amp;c. Resp. Relatio 
+      <lb ed="#T" n="64"/>quae causatur ab origine oppositionem facit 
+      in<lb ed="#T" n="65" break="no"/>ter personas, sed quae causatur ab essentia 
+      con<lb ed="#T" n="66" break="no"/>uenientiam. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0324.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>Ad 3. Nil quod significat relationem. &amp;c. 
+      <lb ed="#T" n="68"/>Resp. Hoc intelligitur de relationibus quae 
+      fun<lb ed="#T" n="69" break="no"/>dantur super originem personae ad personam, 
+      <lb ed="#T" n="70"/>non quae super essentiam. Vel intelligitur de 
+      re<lb ed="#T" n="71" break="no"/>lationibus secundum rem, non secundum 
+      in<lb ed="#T" n="72" break="no"/>tellectum tantum. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

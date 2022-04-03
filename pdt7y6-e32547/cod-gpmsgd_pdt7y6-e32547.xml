@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="108"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e32547"><!-- l1d13q2 -->
+            <head xml:id="pdt7y6-e32547-Hd1e99">Quaestio 2</head>
+            <head xml:id="pdt7y6-e32547-Hd1e101" type="question-title">De comparatione generationis et processionis</head>
+            <p xml:id="pdt7y6-e32547-d1e104">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0183.xml-->
+               <pb ed="#T" n="108"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>QVESTIO II. 
+      <lb ed="#T" n="2"/>DE COMPARATIONE 
+      <lb ed="#T" n="3"/>QENERATIONIS ET 
+      PROCES<lb ed="#T" n="4" break="no"/>SIORIS. 
+    </p>
+            <p xml:id="pdt7y6-e32547-d1e122">
+               <lb ed="#T" n="5"/>CIrca secundum duo quaeruntur.  
+      <lb ed="#T" n="6"/>Primo, vtrum realiter diuersae 
+      proces<lb ed="#T" n="7" break="no"/>siones sint generatio &amp; processio. 
+      <lb ed="#T" n="8"/>Secundo, an processio Spiritus sancti possit, 
+      <lb ed="#T" n="9"/>dici generatio.  
+    </p>
+            <div xml:id="pdt7y6-e32547-Dd1e135">
+               <head xml:id="pdt7y6-e32547-Hd1e137">Articulus 1</head>
+               <head xml:id="pdt7y6-e32547-Hd1e139" type="question-title">
+  An generatio et processio sint diuersae processiones. 
+</head>
+               <p xml:id="pdt7y6-e32547-d1e142">
+                  <lb ed="#T" n="10"/>Articvlvs I. 
+      <lb ed="#T" n="11"/>An generatio &amp; processio sint diuersae processiones. 
+    </p>
+               <p xml:id="pdt7y6-e32547-d1e149">
+                  <lb ed="#T" n="12"/>AD primum, articulum proceditur sic. 
+      <lb ed="#T" n="13"/>1. In omni natura communicabili est 
+      <lb ed="#T" n="14"/>vnus modus quo communicatur: vnde etiam 
+      <lb ed="#T" n="15"/>dicit Comment. 1. de generatione 
+      anima<lb ed="#T" n="16" break="no"/>lium, quod vermes qui nascuntur ex semine 
+      <lb ed="#T" n="17"/>&amp; qui ex putrefactione, non sunt eiusdem 
+      spe<lb ed="#T" n="18" break="no"/>ciei: cum ergo tam generatio, quam 
+      proces<lb ed="#T" n="19" break="no"/>sio dicant modum quo communicatur natura 
+      <lb ed="#T" n="20"/>vna Diuina, vnus est modus generatio &amp; 
+      pro<lb ed="#T" n="21" break="no"/>cessio. 
+    </p>
+               <p xml:id="pdt7y6-e32547-d1e173">
+                  <lb ed="#T" n="22"/>2. Si differunt; aut ergo differentia 
+      substan<lb ed="#T" n="23" break="no"/>tiali, aut accidentali: si substantiali, ergo, 
+      qui<lb ed="#T" n="24" break="no"/>generatur, &amp; qui procedit differunt 
+      substantia<lb ed="#T" n="25" break="no"/>liter, quia differentia motus penes terminos 
+      ac<lb ed="#T" n="26" break="no"/>cipitur: si differentia accidentali, ergo 
+      acciden<lb ed="#T" n="27" break="no"/>est in Deo. 
+    </p>
+               <p xml:id="pdt7y6-e32547-d1e190">
+                  <lb ed="#T" n="28"/>3. Si differunt, aut ergo seipsis, aut alio: si 
+      sei<lb ed="#T" n="29" break="no"/>psis, contra. Quae seipsis non sunt, seipsis non 
+      <lb ed="#T" n="30"/>differunt: si alio, aut ergo essentia, aut relatione: 
+      <lb ed="#T" n="31"/>si essentia, contra, Essentia communis est omnis 
+      <lb ed="#T" n="32"/>no; si relatione: ergo relationis est relatio, quod 
+      <lb ed="#T" n="33"/>falsum est 
+    </p>
+               <p xml:id="pdt7y6-e32547-d1e206">
+                  <lb ed="#T" n="34"/>4. Ab vno simplici, inquantum simplex est, 
+      <lb ed="#T" n="35"/>non exeunt actus diuersi, quia, vnius simplici. 
+      <lb ed="#T" n="36"/>vnus est motus secundum Philosophum: ergo 
+      <lb ed="#T" n="37"/>cum tam actus generationis, quam actus 
+      pro<lb ed="#T" n="38" break="no"/>cessionis exeant a Patre, erunt ambo vnus actu 
+      <lb ed="#T" n="39"/>non plures. 
+    </p>
+               <p xml:id="pdt7y6-e32547-d1e222">
+                  <lb ed="#T" n="40"/>5. Si generatio &amp; processio differunt, ergo 
+      <lb ed="#T" n="41"/>cum vtraque sit in persona Patris, in persona 
+      <lb ed="#T" n="42"/>Patris est actuum vel potentiarum diuersitas; 
+      <lb ed="#T" n="43"/>ergo compositio. 
+    </p>
+               <p xml:id="pdt7y6-e32547-d1e233">
+                  <lb ed="#T" n="44"/>6. Motus distinguitur penes terminos: sed  
+      <lb ed="#T" n="45"/>vtraque processio terminatur ad substantiam: 
+      <lb ed="#T" n="46"/>ergo funt eadem processio secundum speciem. 
+    </p>
+               <p xml:id="pdt7y6-e32547-d1e242">
+                  <lb ed="#T" n="47"/>Contra 1. Secundum vnum modum 
+      proce<lb ed="#T" n="48" break="no"/>dendi est vnus procedens in Diuinis: ergo cum 
+      <lb ed="#T" n="49"/>sint duo distincti procedentes, sunt &amp; duae 
+      di<lb ed="#T" n="50" break="no"/>stinctae processiones 
+    </p>
+               <p xml:id="pdt7y6-e32547-d1e253">
+                  <lb ed="#T" n="51"/>2. Quamuis natura &amp; voluntas in Deo sit 
+      <lb ed="#T" n="52"/>idem, tamen alius actus attribuitur naturae, 
+      <lb ed="#T" n="53"/>alius voluntati: cum ergo generatio sit actus 
+      na<lb ed="#T" n="54" break="no"/>turae, processio actus voluntatis, diuersi sunt,  
+      <lb ed="#T" n="55"/>actus generatio &amp; processio. 
+    </p>
+               <p xml:id="pdt7y6-e32547-d1e267">
+                  <lb ed="#T" n="56"/>3. In humanis actus diuersi sunt secundum 
+      <lb ed="#T" n="57"/>speciem generatio Filij, &amp; amoris in ipsum 
+      spi<lb ed="#T" n="58" break="no"/>ratio: ergo similiter in diuinis. 
+    </p>
+               <p xml:id="pdt7y6-e32547-d1e276">
+                  <lb ed="#T" n="59"/>Respondeo. Ad hoc dicunt aliqui quod sicut 
+      <lb ed="#T" n="60"/>primae differentiae seipsis differunt, &amp; ex his aliae 
+      <lb ed="#T" n="61"/>oriuntur, vt rationale &amp; irrationabile differunt 
+      se<lb ed="#T" n="62" break="no"/>ipsis, risibile vero &amp; non risibile ex his oriuntur: 
+      <lb ed="#T" n="63"/>ita diuinae relationes personales, cum sint quasi 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0183.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="64"/>primae differentiae seu formae, quibus 
+      per<lb ed="#T" n="65" break="no"/>sonae distinguutur, seipsis differunt, &amp; ex 
+      <lb ed="#T" n="66"/>eis omnes aliae differentiae causantur, per 
+      <lb ed="#T" n="67"/>quas harum diuersitas manifestatur, sicut  
+      <lb ed="#T" n="68"/>quod vnus dicitur Filius, alter Spiritus: 
+      <lb ed="#T" n="69"/>vnus verbum, alter amor: vnus imago, alter 
+      <lb ed="#T" n="70"/>donum. Alijs e contra videtur quod sicut actus 
+      <lb ed="#T" n="71"/>differunt penes principia agendi, scilicet 
+      sup<lb ed="#T" n="72" break="no"/>posita, &amp; formas suppositorum agentium: ita 
+      <lb ed="#T" n="73"/>hae duae processiones, quia generatio est 
+      pro<lb ed="#T" n="74" break="no"/>cessus ab vno solo, qui non procedit ab alio, &amp; 
+      <lb ed="#T" n="75"/>per propriam formam: processius est processio 
+      a<lb ed="#T" n="76" break="no"/>duobus, quorum vnus non procedit, alter vero 
+      <lb ed="#T" n="77"/>pocedit ab altero, &amp; per formam communem: 
+      <lb ed="#T" n="78"/>duo vero ab vno differunt re. Non enim, 
+      secun<lb ed="#T" n="79" break="no"/>dumeos, differentia sumi potest ex parte modi 
+      pro<lb ed="#T" n="80" break="no"/>cedendi, scilicet quia generatio est processus 
+      <lb ed="#T" n="81"/>per modum naturae, processio Spiritus sancti est 
+      <lb ed="#T" n="82"/>processus per modum voluntatis seu amicitiae: 
+      <lb ed="#T" n="83"/>eo quod natura &amp; voluntas in Deo non 
+      diffe<lb ed="#T" n="84" break="no"/>runt nisi ratione, nec aliquid potest 
+      distingue<lb ed="#T" n="85" break="no"/>re alterum maiori distinctione, quam ipsum 
+      <lb ed="#T" n="86"/>differat. Ratio vero, quae mouet eos, haec est: si 
+      <lb ed="#T" n="87"/>hae duae processiones seipsis differunt: ergo 
+      po<lb ed="#T" n="88" break="no"/>sito, quod Spiritus non procederet a Filio, 
+      ad<lb ed="#T" n="89" break="no"/>huc ipsi essent personae distinctae, quod negatur.  
+      <lb ed="#T" n="90"/>Ad hoc respondent alij. Quod tunc non esset 
+      <lb ed="#T" n="91"/>processio secundum quod dicitur de Spiritu 
+      <lb ed="#T" n="92"/>sancto, per modum communis amicitiae, ad 
+      <lb ed="#T" n="93"/>quam requiritur processus ab amante in amatum, 
+      <lb ed="#T" n="94"/>vnde nec esset persona Spiritus sancti. Potest 
+      <lb ed="#T" n="95"/>ergo, concordando vtramque opinionem 
+      tan<lb ed="#T" n="96" break="no"/>quam veram, dici quod differunt formaiiter 
+      sei<lb ed="#T" n="97" break="no"/>psis sed non seipsis originaliter, sed penes 
+      sup<lb ed="#T" n="98" break="no"/>positas formas, a quibus actus hi egrediuntur  
+      <lb ed="#T" n="99"/>scilicet paternitatem, &amp; comunem 
+      spiratio<lb ed="#T" n="100" break="no"/>nem, quas oportet differre seipsis vtroque modo. 
+    </p>
+               <p xml:id="pdt7y6-e32547-d1e374">
+                  <lb ed="#T" n="101"/>Ad 1. De omini natura communicabili &amp;c. 
+      <lb ed="#T" n="102"/>Resp. Determinatio ad vnicum modum 
+      com<lb ed="#T" n="103" break="no"/>municandi est ex imperfectione naturae, quae 
+      <lb ed="#T" n="104"/>communicatur: in natura enim creata differunt. 
+      <lb ed="#T" n="105"/>essentialiter voluntas &amp; natura: nec natura 
+      po<lb ed="#T" n="106" break="no"/>test communicare eandem, voluntatem, nec 
+      <lb ed="#T" n="107"/>voluntas eandem naturam: sic autem non est 
+      <lb ed="#T" n="108"/>in natura Diuina 
+    </p>
+               <p xml:id="pdt7y6-e32547-d1e394">
+                  <lb ed="#T" n="109"/>Ad 2. De differentia substantiali. Resp. 
+      Insuf<lb ed="#T" n="110" break="no"/>ficiens est diuisio, quia in Diuinis nec 
+      substan<lb ed="#T" n="111" break="no"/>tia distinguit nec accidens, sed relatio 
+    </p>
+               <p xml:id="pdt7y6-e32547-d1e403">
+                  <lb ed="#T" n="112"/>Ad 3. Aut seipsis &amp;c. Resp. Seipsis differunt 
+      <lb ed="#T" n="113"/>formaliter, non tamen seipsis originaliter quia 
+      <lb ed="#T" n="114"/>ortum habent ab hypostasi vna vel pluribus. 
+    </p>
+               <p xml:id="pdt7y6-e32547-d1e412">
+                  <lb ed="#T" n="115"/>Ad 4. De vno simplici. Resp. Licet actus 
+      <lb ed="#T" n="116"/>absoluti ab vno simplici non exeant: diuersi 
+      <lb ed="#T" n="117"/>tamen actus relatiui, qui potius sunt relationes 
+      <lb ed="#T" n="118"/>quam actus, bene exeunt ab vno simplici, sicut  
+      <lb ed="#T" n="119"/>actus a centro producendi diuersas lineas. 
+    </p>
+               <p xml:id="pdt7y6-e32547-d1e426">
+                  <lb ed="#T" n="120"/>Ad 5. Vtraque est in persona Patris. Resp. 
+      <lb ed="#T" n="121"/>Quamuis inuicem differant, tamen in 
+      compara<lb ed="#T" n="122" break="no"/>tione ad personam in qua sunt, non differunt, 
+      <lb ed="#T" n="123"/>quia vtrumque illorum est ipsa persona. 
+      Pa<lb ed="#T" n="124" break="no"/>tris: sed differunt per comparationem ad id. ad 
+      <lb ed="#T" n="125"/>quod referuntur. 
+    </p>
+               <p xml:id="pdt7y6-e32547-d1e442">
+                  <lb ed="#T" n="126"/>Ad 6. Idem est terminus. Resp. Non est 
+      ve<lb ed="#T" n="127" break="no"/>rum, quia terminus processionis est substantia. 
+      <lb ed="#T" n="128"/>quae est hypostasis; non substantia, quae est 
+      <lb ed="#T" n="129"/>essentia.
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e32547-Dd1e455">
+               <head xml:id="pdt7y6-e32547-Hd1e457">Articulus 2</head>
+               <head xml:id="pdt7y6-e32547-Hd1e459" type="question-title">
+  An Processio Spiritus sancti possit dici generatio
+</head>
+               <p xml:id="pdt7y6-e32547-d1e462">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0184.xml-->
+                  <pb ed="#T" n="109"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>ARTICVLVS II. 
+      <lb ed="#T" n="2"/>An Processio Spiritus sancti possit dici generatio.
+      </p>
+               <p xml:id="pdt7y6-e32547-d1e475">
+                  <lb ed="#T" n="3"/>AD secundum articulum sic proceditur. 1 
+      <lb ed="#T" n="4"/>Generatio est motus ad substantiam, vel 
+      <lb ed="#T" n="5"/>actus quo producitur substantia: sed 
+      proces<lb ed="#T" n="6" break="no"/>sio est actus ad producendam substantiam, 
+      sci<lb ed="#T" n="7" break="no"/>licet hypostasim Spiritus sancti: ergo est 
+      ge<lb ed="#T" n="8" break="no"/>neratio. 
+    </p>
+               <p xml:id="pdt7y6-e32547-d1e491">
+                  <lb ed="#T" n="9"/>2. Damasc. Generare est de sua substantis 
+      <lb ed="#T" n="10"/>similem sibi in natura oroducere: sed processio 
+      <lb ed="#T" n="11"/>producit de substantia Patris similem ei in 
+      na<lb ed="#T" n="12" break="no"/>tura: ergo processio est generatio 
+    </p>
+               <p xml:id="pdt7y6-e32547-d1e503">
+                  <lb ed="#T" n="13"/>3. Splendor &amp; calor, vtrumque dicitur ab 
+      <lb ed="#T" n="14"/>igne generari; similiter notitia &amp; amor a 
+      men<lb ed="#T" n="15" break="no"/>te: Filius vero &amp; Spiritus sanctus procedunt a 
+      <lb ed="#T" n="16"/>Patre, vt splendor &amp; calor ab igne, &amp; vt 
+      no<lb ed="#T" n="17" break="no"/>titia &amp; amor a mente: ergo vterque potest dici 
+      <lb ed="#T" n="18"/>ab eo generari. 
+    </p>
+               <p xml:id="pdt7y6-e32547-d1e519">
+                  <lb ed="#T" n="19"/>Contra. 1. August. assignans hic differentiam 
+      <lb ed="#T" n="20"/>dicit, quod Spiritus procedit, quomodo datus 
+      <lb ed="#T" n="21"/>non quomodo natus: ergo eius processio non est 
+      <lb ed="#T" n="22"/>generatio.  
+    </p>
+               <p xml:id="pdt7y6-e32547-d1e530">
+                  <lb ed="#T" n="23"/>2. Generatio est emanatio per modum 
+      natu<lb ed="#T" n="24" break="no"/>rae: sed Spiritns sanctus emanat per modum 
+      <lb ed="#T" n="25"/>amicitiae, non naturae: ergo eius emanatio non 
+      <lb ed="#T" n="26"/>est generatio. 
+    </p>
+               <p xml:id="pdt7y6-e32547-d1e541">
+                  <lb ed="#T" n="27"/>3. Non est vna proprietas secundum speciem 
+      <lb ed="#T" n="28"/>distinctiua duarum personarum: cum ergo ge 
+      <lb ed="#T" n="29"/>neratio sit proprietas distinctiua personae Filij. 
+      <lb ed="#T" n="30"/>non erit distinctiua personae Spiritus sancti: 
+      <lb ed="#T" n="31"/>ergo eius processio non est generatio. 
+    </p>
+               <p xml:id="pdt7y6-e32547-d1e554">
+                  <lb ed="#T" n="32"/>Respondeo. In Diuinis quamuis non sit 
+      ge<lb ed="#T" n="33" break="no"/>nus &amp; species, seu vniuersale &amp; particulare, eo 
+      <lb ed="#T" n="34"/>quod horum differentia fundatur super aliqua 
+      <lb ed="#T" n="35"/>absoluta &amp; reali diuersitate: tamen est ibi 
+      com<lb ed="#T" n="36" break="no"/>mune &amp; proprium: commune vero dicitur, aut 
+      <lb ed="#T" n="37"/>secundum rem, vt essentia ad tres Personas; 
+      <lb ed="#T" n="38"/>aut secundum rationem, vt processio ad Filij 
+      <lb ed="#T" n="39"/>generationem &amp; processionem appropriatam 
+      <lb ed="#T" n="40"/>Spiritui sancto: hoc ergo modo cum processio 
+      <lb ed="#T" n="41"/>condiuidatur contra generationem, processio 
+      <lb ed="#T" n="42"/>non est generatio, quia generatio est emanatio 
+      <lb ed="#T" n="43"/>per modum naturae, processio per modum 
+      vo<lb ed="#T" n="44" break="no"/>luntatis seu amicitiae: natura vero non impor 
+      <lb ed="#T" n="45"/>tat nisi vnum principium, sed amicitia est 
+      plu<lb ed="#T" n="46" break="no"/>rium, quorum quilibet est principium eius. 
+    </p>
+               <p xml:id="pdt7y6-e32547-d1e589">
+                  <lb ed="#T" n="47"/>Ad 1. De productione substantiae. Resp. Non 
+      <lb ed="#T" n="48"/>quaecunque productio de substantia sua, vel 
+      su<lb ed="#T" n="49" break="no"/>bstantiae potest dici generatio: sed illa quae sit 
+      <lb ed="#T" n="50"/>per actum naturae: vnde Eua non est filia Adae:. 
+      <lb ed="#T" n="51"/>processio vero Spiritus sancti est per actum 
+      <lb ed="#T" n="52"/>amicitiae. 
+    </p>
+               <p xml:id="pdt7y6-e32547-d1e606">
+                  <lb ed="#T" n="53"/>Ad 2. Generare est de sua substantia &amp;c. Resp. 
+      <lb ed="#T" n="54"/>Hoc quod dico, in natura, determinare 
+      po<lb ed="#T" n="55" break="no"/>test tantum hoc adiectiuum, similem: vel etiam 
+      <lb ed="#T" n="56"/>hoc verbum, producere. Primo modo non est 
+      <lb ed="#T" n="57"/>proprie generare, sed secundo: sic autem non 
+      <lb ed="#T" n="58"/>conuenit Spiritui sancto, qui non producitur 
+      <lb ed="#T" n="59"/>per actum naturae. Secundum quosdam tamer 
+      <lb ed="#T" n="60"/>natura non dicit ibi essentiam absolute, sed vt 
+      <lb ed="#T" n="61"/>est principium productionis consubstantialis, 
+      <lb ed="#T" n="62"/>&amp; sic importat relationem, sic autem conuenit 
+      <lb ed="#T" n="63"/>cum eo Filius; non Spiritus sanctus. Sed hoc 
+      <lb ed="#T" n="64"/>falsum est, quia nec Filius similior est Patri in 
+      <lb ed="#T" n="65"/>natura, quam Spiritus sanctus, nec Filius est 
+      <lb ed="#T" n="66"/>principium Spiritus sancti per modum naturae.
+    </p>
+               <p xml:id="pdt7y6-e32547-d1e639">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0184.xml-->
+                  <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>Ad 3. De splendore &amp; calore. Resp. Non est. 
+      <lb ed="#T" n="68"/>simile, quia vtraque productio mortua est. Quod  
+      <lb ed="#T" n="69"/>opponitur de notitia &amp; mente. Resp. Non est 
+      si<lb ed="#T" n="70" break="no"/>mile, quia mens naturaliter nouit se &amp; amat set 
+      <lb ed="#T" n="71"/>vnde vtrumque naturaliter gignit de se, 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

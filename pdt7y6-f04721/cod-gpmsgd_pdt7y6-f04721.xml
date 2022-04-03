@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="342"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-f04721"><!-- l1d41q4 -->
+            <head xml:id="pdt7y6-f04721-Hd1e99">Quaestio 4</head>
+            <head xml:id="pdt7y6-f04721-Hd1e101" type="question-title">De praescientia Dei</head>
+            <p xml:id="pdt7y6-f04721-d1e104">
+               <lb ed="#T" n="8"/>QVESTIO IV 
+      <lb ed="#T" n="9"/>DE PRAESCIENTIA DEI. 
+</p>
+            <p xml:id="pdt7y6-f04721-d1e111">
+               <lb ed="#T" n="10"/>CIrca quartum articulum quaeruntur duo.
+      <lb ed="#T" n="11"/>CPrimo an Deus semper Vciat quicquid 
+      <lb ed="#T" n="12"/>semel sciuit, 
+      <lb ed="#T" n="13"/>Secundo an sciat omnia praesentialiter tantum. 
+    </p>
+            <div xml:id="pdt7y6-f04721-Dd1e122">
+               <head xml:id="pdt7y6-f04721-Hd1e124">Articulus 1</head>
+               <head xml:id="pdt7y6-f04721-Hd1e126" type="question-title">An Deus semper sciat quicquid semel scivit</head>
+               <p xml:id="pdt7y6-f04721-d1e129">
+                  <lb ed="#T" n="14"/>Articvlvs I. 
+      <lb ed="#T" n="15"/>An Deus semper sciat quicquid semel sciuit.
+</p>
+               <p xml:id="pdt7y6-f04721-d1e136">
+                  <lb ed="#T" n="16"/>AD primum sic proceditur. 1. Quicquid Deus 
+      <lb ed="#T" n="17"/>scit, scit, legendo in libro vitae: sed de ille. 
+      <lb ed="#T" n="18"/>libro secundum existentiam nihil est delebile. 
+      <lb ed="#T" n="19"/>ergo semper scit quicquid semel sciuit. 
+    </p>
+               <p xml:id="pdt7y6-f04721-d1e147">
+                  <lb ed="#T" n="20"/>2. Omnis scientia quae scit modo aliquid, &amp; 
+      <lb ed="#T" n="21"/>nescit modo illud; &amp; aliquando sciuit aliquid 
+      <lb ed="#T" n="22"/>&amp; modo nescit, variatur: sed Dei scientia est 
+      in<lb ed="#T" n="23" break="no"/>uariabilis: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-f04721-d1e159">
+                  <lb ed="#T" n="24"/>3. Non potest mutari scientia nisi aut 
+      muta<lb ed="#T" n="25" break="no"/>tione facta a parte scientis, vel medij, vel obiecti: 
+      <lb ed="#T" n="26"/>sed scientia Diuina non petest mutari mutatione 
+      <lb ed="#T" n="27"/>facta a parte scientis, quia Deus est immutabilis 
+      <lb ed="#T" n="28"/>nec a parte medij, quia ominia scit per medium. 
+      <lb ed="#T" n="29"/>inuariabile, id est seipsum; nec a parte objecti 
+      <lb ed="#T" n="30"/>quia scientia quae nihil accipit a rebus, non 
+      mu<lb ed="#T" n="31" break="no"/>tatur mutatione rerum: ergo nullo modo 
+      po<lb ed="#T" n="32" break="no"/>test mutari. 
+    </p>
+               <p xml:id="pdt7y6-f04721-d1e181">
+                  <lb ed="#T" n="33"/>4. Deus scit omne verum: sed omne quod 
+      se<lb ed="#T" n="34" break="no"/>mel est verum, semper erit verum: ergo sempe 
+      <lb ed="#T" n="35"/>a Deo scitum erit. 
+    </p>
+               <p xml:id="pdt7y6-f04721-d1e190">
+                  <lb ed="#T" n="36"/>5. Omne verum veritate aeterna est 
+      immuta<lb ed="#T" n="37" break="no"/>biliter verum: omne verum est verum veritate 
+      <lb ed="#T" n="38"/>aeterna: ergo omne verum est immutabiliter 
+      ve<lb ed="#T" n="39" break="no"/>rum: ergo immutabiliter a Deo scitum. 
+    </p>
+               <p xml:id="pdt7y6-f04721-d1e201">
+                  <lb ed="#T" n="40"/>6. Veritas rei causa est veritas enunciabilium 
+      <lb ed="#T" n="41"/>sed veritas rei vna est in omni tempore, siue 
+      se<lb ed="#T" n="42" break="no"/>cundum tempus praeteritum, siue praesens, siui 
+      <lb ed="#T" n="43"/>futurum: ergo &amp; veritas enunciabilium eadem 
+      <lb ed="#T" n="44"/>est de eadem veritate rei: ergo idem est scire te nas 
+      <lb ed="#T" n="45"/>citurum, &amp; natum: ergo idem est scitum 
+    </p>
+               <p xml:id="pdt7y6-f04721-d1e217">
+                  <lb ed="#T" n="46"/>7. Tempus vnum aut est de essentia 
+      enuncia<lb ed="#T" n="47" break="no"/>bilis, aut non: si est ergo cum tria enunciabi 
+      <lb ed="#T" n="48"/>lia de praeterito, praesenti, &amp; futuro referantur ad 
+      <lb ed="#T" n="49"/>tempus vnum ipsa sunt vnum: si non, ergo cum 
+      <lb ed="#T" n="50"/>dicta enunciabilia non differant nisi per 
+      diuer<lb ed="#T" n="51" break="no"/>sam consignificationem temporum diuersorum, 
+      <lb ed="#T" n="52"/>diuersitas vero accidentalis non variet rei essen 
+      <lb ed="#T" n="53"/>tia, nihilominus adhuc sunt enunciabile vnum 
+      <lb ed="#T" n="54"/>ergo idem est scire vnum vel alterum: cum ergo 
+      <lb ed="#T" n="55"/>Deus de qualibet re sciat semper alterum 
+      illo<lb ed="#T" n="56" break="no"/>rum, ergo ipse scit semper quicquid sciuit. 
+    </p>
+               <p xml:id="pdt7y6-f04721-d1e243">
+                  <lb ed="#T" n="57"/>Contra. 1. Non est scientia nisi verorum: non 
+      <lb ed="#T" n="58"/>omne quod fuit verum aliquando, est modo 
+      ve<lb ed="#T" n="59" break="no"/>rum, quia eadem oratio, secundum Aristotelem. 
+      <lb ed="#T" n="60"/>susceptibilis est contrariorum, scilicet veritatis 
+      <lb ed="#T" n="61"/>&amp; fallitatis: ergo non omne quod aliquando 
+      sci<lb ed="#T" n="62" break="no"/>tum est a Deo, modo est scitum. 
+    </p>
+               <p xml:id="pdt7y6-f04721-d1e260">
+                  <lb ed="#T" n="63"/>2. Si Deus scit quicquid sciuit, cum sciuerit 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0417.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="64"/>te esse nasciturum, ergo scit modo te esse 
+      nasci<lb ed="#T" n="65" break="no"/>turum: ergo tu es nasciturus. 
+    </p>
+               <p xml:id="pdt7y6-f04721-d1e273">
+                  <lb ed="#T" n="66"/>3. Omne quod scitur est verum: mundus 
+      <lb ed="#T" n="67"/>creandus non est verum: ergo non est scitum a 
+      <lb ed="#T" n="68"/>Deo: sed aliquando fuit scitum: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-f04721-d1e282">
+                  <lb ed="#T" n="69"/>4. Opposita non possunt simul verificari: 
+      er<lb ed="#T" n="70" break="no"/>go nec simul sciri: te esse &amp; non esse sunt 
+      opposi<lb ed="#T" n="71" break="no"/>ta: ergo cum Deus sciat te esse, nescit te non 
+      <lb ed="#T" n="72"/>esse: sed hoc aliquando sciuit: ergo nescit 
+      mo<lb ed="#T" n="73" break="no"/>do quicquid aliquando sciuit. 
+    </p>
+               <p xml:id="pdt7y6-f04721-d1e295">
+                  <lb ed="#T" n="74"/>Respondeo. Scire dupliciter accipitur: 
+      ali<lb ed="#T" n="75" break="no"/>quando pro actu simplicis cognitionis, prout 
+      di<lb ed="#T" n="76" break="no"/>citur quis scire quidditatem rei, &amp; hic est actus 
+      <lb ed="#T" n="77"/>intellectus formalis; &amp; de hoc non sequitur, hoc 
+      <lb ed="#T" n="78"/>est scitum, ergo hoc est verum, imo sit fallacia 
+      <lb ed="#T" n="79"/>consequentis; &amp; hoc modo Deus semper scit 
+      <lb ed="#T" n="80"/>quicquid sciuit, siue sit res siue enunciabile: 
+      ali<lb ed="#T" n="81" break="no"/>quando pro actu cognitionis assertiuae prout quis 
+      <lb ed="#T" n="82"/>dicitur scire aliquid quando scit illud esse vel 
+      <lb ed="#T" n="83"/>non esse, &amp; hoc est in nobis actus intellectus 
+      co<lb ed="#T" n="84" break="no"/>ponentis, &amp; de hoc sequitur; Scitur, ergo est 
+      ve<lb ed="#T" n="85" break="no"/>rum. Et circa hoc distinguendum est, quia 
+      du<lb ed="#T" n="86" break="no"/>plex est veritas, scilicet enunciandae rei, &amp; 
+      signi<lb ed="#T" n="87" break="no"/>enunciantis. Veritas rei semper est vna sub 
+      tri<lb ed="#T" n="88" break="no"/>bus enunciabilibus, sicut tangit Magister: &amp; de 
+      <lb ed="#T" n="89"/>hac veritate concedendum est, quicquid semel 
+      <lb ed="#T" n="90"/>sciuit semper scit; sed non scit eodem modo a 
+      <lb ed="#T" n="91"/>parte rei scitae. Veritas signi est veritas 
+      essentia<lb ed="#T" n="92" break="no"/>lis: &amp; circa hanc fuit duplex opinio, vna 
+      Nomi<lb ed="#T" n="93" break="no"/>natiuum qui ideo Nominales dicti sunt quod 
+      po<lb ed="#T" n="94" break="no"/>nebant quod ab vnitate rei significatae, licet sub 
+      <lb ed="#T" n="95"/>diuerso modo significandi secundum diuersas 
+      <lb ed="#T" n="96"/>temporis differentias, causatur vnitas 
+      enunciabi<lb ed="#T" n="97" break="no"/>lis, vnde de eodem cursu idem est enuntiabile. 
+      <lb ed="#T" n="98"/>Sortem currere, cursurum fore, &amp; cucurrisse; 
+      <lb ed="#T" n="99"/>sicut idem est nomen, albus, alba, album, ab 
+      vni<lb ed="#T" n="100" break="no"/>tate significationis: &amp; secundum istos omne 
+      <lb ed="#T" n="101"/>enunciabile quod semel sciuit semper scit. Et si 
+      <lb ed="#T" n="102"/>opponitur: ergo scit te nasciturum. Respondent 
+      <lb ed="#T" n="103"/>quod no sequitur, sit enim figura dictionis, quia 
+      <lb ed="#T" n="104"/>sit processus ab vnitate rei, ad identitatem modi 
+      si<lb ed="#T" n="105" break="no"/>gnificandi, cum deberet potius concludi, ergo 
+      <lb ed="#T" n="106"/>scit te esse natum. Alia fuit opinio Realium (quae 
+      <lb ed="#T" n="107"/>communiter tenetur) sic dictorum, quia ponunt 
+      <lb ed="#T" n="108"/>quod ab vna re propter diuersum modum rei fit 
+      <lb ed="#T" n="109"/>triplex enunciabile secundum tres differentias 
+      <lb ed="#T" n="110"/>temporum, quia non omne enunciabile quod 
+      <lb ed="#T" n="111"/>semel est verum, semper erit verum. Haec 
+      opi<lb ed="#T" n="112" break="no"/>nio communis &amp; vera est, quia alias non posset 
+      <lb ed="#T" n="113"/>fieri contradictio, quia non esset idem 
+      enuncia<lb ed="#T" n="114" break="no"/>bile. Item quia Aristoteles lib. praedicam. dicit 
+      <lb ed="#T" n="115"/>quod eadem otatio est susceptibilis contrariorum. 
+      <lb ed="#T" n="116"/>veritatis &amp; falsitatis, &amp; quia albus alba album 
+      li<lb ed="#T" n="117" break="no"/>cet sint vnum nomen secundum Grammaticos 
+      <lb ed="#T" n="118"/>ab vnitate significandi, sunt tamen diuersa 
+      se<lb ed="#T" n="119" break="no"/>cundum Logicum a diuersitate signi. Hi dicunt,  
+      <lb ed="#T" n="120"/>quod Deus nescit semper idem enunciabile, quod 
+      <lb ed="#T" n="121"/>semel scit: sciuit enim Christum passurum, &amp; 
+      mo<lb ed="#T" n="122" break="no"/>do nescit: hoc autem sit mutatione rei scitae, non 
+      <lb ed="#T" n="123"/>scientiae, quia non mutatur modus scientiae ex 
+      <lb ed="#T" n="124"/>parte Dei, sed ex parte rei scitae modus 
+      mu<lb ed="#T" n="125" break="no"/>tatur. 
+    </p>
+               <p xml:id="pdt7y6-f04721-d1e410">
+                  <lb ed="#T" n="126"/>Ad 1. De libro vitae. Resp. Quamuis non 
+      mu<lb ed="#T" n="127" break="no"/>tetur medium, tamen mutatur objectum, vnde 
+      <lb ed="#T" n="128"/>excidit a scientia, sui mutatione, non scientis. 
+    </p>
+               <p xml:id="pdt7y6-f04721-d1e419">
+                  <lb ed="#T" n="129"/>Ad 2. Omnis scientia &amp;c. Resp. Hoc habet  
+      <lb ed="#T" n="130"/>locum in scientia quae causatur a rebus, non quae 
+      <lb ed="#T" n="131"/>causat res. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0418.xml-->
+      <pb ed="#T" n="343"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>Ad 3. Non potest matari &amp;c. Resp. Concedo 
+      <lb ed="#T" n="2"/>quod scientia noni nutatur, sed res scita, sicut  
+      <lb ed="#T" n="3"/>non mutatur lux so lis subtractione rei 
+      illumina<lb ed="#T" n="4" break="no"/>bilis, &amp; tamen de ill umnante sit non illuminans 
+    </p>
+               <p xml:id="pdt7y6-f04721-d1e444">
+                  <lb ed="#T" n="5"/>Ad 4. &amp; 5. Om ne verum &amp;c. Resp. Omne 
+      <lb ed="#T" n="6"/>quod est verum v eritate prima formaliter, 
+      sem<lb ed="#T" n="7" break="no"/>per verum est: sec [non omne verum veritate 
+      pri<lb ed="#T" n="8" break="no"/>ma effec tiue vele xemplariter  
+    </p>
+               <p xml:id="pdt7y6-f04721-d1e455">
+                  <lb ed="#T" n="9"/>Ad 6. De ver itate rei. Resp. Veritas rei 
+      cau<lb ed="#T" n="10" break="no"/>sa est v eritatis emunciabilium, non solum 
+      secun<lb ed="#T" n="11" break="no"/>dum id quod est, sed secundum modum quo est 
+      <lb ed="#T" n="12"/>ille autem modus diuersus est, vnde &amp; enuncia 
+      <lb ed="#T" n="13"/>bilia, &amp; erum diuersificatur veritas. 
+    </p>
+               <p xml:id="pdt7y6-f04721-d1e468">
+                  <lb ed="#T" n="14"/>Ad 7. De tempore. Resp. Tempus ipsum non 
+      <lb ed="#T" n="15"/>est de su bstantia enunciabilis, sed 
+      consignifica<lb ed="#T" n="16" break="no"/>tio temj poris; &amp; licet consignificatio haec sit 
+      ac<lb ed="#T" n="17" break="no"/>cidental is verbo, &amp; accidentalis significato 
+      per<lb ed="#T" n="18" break="no"/>verbum, est tamen essentialis enunciabili, quia 
+      <lb ed="#T" n="19"/>enuncia bile non tantum actum, sed modum 
+      <lb ed="#T" n="20"/>actus si gnificat.  
+    </p>
+               <p xml:id="pdt7y6-f04721-d1e486">
+                  <lb ed="#T" n="21"/>Veru ntamen quia non sufficienter apparet, 
+      <lb ed="#T" n="22"/>quod Mlagister fuerit de Nominalibus, &amp; ipse 
+      as<lb ed="#T" n="23" break="no"/>ferit inidubitanter credendum quod quicquid 
+      <lb ed="#T" n="24"/>Deus se mel sciuit semper scit, &amp; quia oppositum 
+      <lb ed="#T" n="25"/>videtur ponere prima facie mutationem in 
+      scien<lb ed="#T" n="26" break="no"/>tia Dei, posset dici secundum alios quod Deus 
+      <lb ed="#T" n="27"/>scit sem, per quicquid aliquando sciuit siue sit 
+      <lb ed="#T" n="28"/>res, siue enunciabile, sed nescit quomodo sciuit 
+      <lb ed="#T" n="29"/>ita quo Iy quomodo determinet verbum a parte 
+      <lb ed="#T" n="30"/>appositi non a parte suppositi, quia modus rei 
+      sci<lb ed="#T" n="31" break="no"/>tae mutatur, sed non modus scientis. 
+    </p>
+               <p xml:id="pdt7y6-f04721-d1e512">
+                  <lb ed="#T" n="32"/>Ad 1. In contrarium. Non omne quod semel 
+      <lb ed="#T" n="33"/>est verum &amp;c. Resp. Quamuis non sit verum 
+      <lb ed="#T" n="34"/>simpliciter, est tamen verum prout est in Diuina 
+      <lb ed="#T" n="35"/>scientia: nam modus rei diuersus est in Deo per 
+      <lb ed="#T" n="36"/>eundemimodum, nec aliter nouit presens, 
+      praete<lb ed="#T" n="37" break="no"/>ritum, &amp; futurum. 
+    </p>
+               <p xml:id="pdt7y6-f04721-d1e528">
+                  <lb ed="#T" n="38"/>Ad 2. Sciuit te esse nasciturum. Resp. 
+      Muta<lb ed="#T" n="39" break="no"/>tur quid in quomodo vel quando. 
+    </p>
+               <p xml:id="pdt7y6-f04721-d1e536">
+                  <lb ed="#T" n="40"/>Ad 3. Omne quod scitur &amp;c. Resp. In 
+      scien<lb ed="#T" n="41" break="no"/>tia causata a rebus verum est hoc simpliciter, sed  
+      <lb ed="#T" n="42"/>non in scientia causante res, nisi secundum quid 
+      <lb ed="#T" n="43"/>scilicet inquantum scitum: sicut omne quod 
+      sci<lb ed="#T" n="44" break="no"/>tur scientia causata a rebus est necessarium 
+      sim<lb ed="#T" n="45" break="no"/>pliciter, sed non omne quod scitur scientia 
+      cau<lb ed="#T" n="46" break="no"/>sante res 
+    </p>
+               <p xml:id="pdt7y6-f04721-d1e554">
+                  <lb ed="#T" n="47"/>Ad 4. Opposita &amp;c. Resp. Non sunt 
+      opposi<lb ed="#T" n="48" break="no"/>ta, te non esse ab aeterno vel in praeterito 
+      tempo<lb ed="#T" n="49" break="no"/>re, &amp; te esse in hoc tempore: sic autem sunt vera 
+      <lb ed="#T" n="50"/>&amp; a Deo scita. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f04721-Dd1e567">
+               <head xml:id="pdt7y6-f04721-Hd1e569">Articulus 2</head>
+               <head xml:id="pdt7y6-f04721-Hd1e571" type="question-title">An Deus sciat omnia praesentialiter tantum</head>
+               <p xml:id="pdt7y6-f04721-d1e574">
+                  <lb ed="#T" n="51"/>Articvlvs II. 
+      <lb ed="#T" n="52"/>An Deus sciat omnia praesentialiter tantum.
+</p>
+               <p xml:id="pdt7y6-f04721-d1e581">
+                  <lb ed="#T" n="53"/>AD secundum articulum proceditur sic. 1. 
+      <lb ed="#T" n="54"/>Primae Petri vit. Mille anni &amp;c. Glos. in 
+      <lb ed="#T" n="55"/>agnitione Diuinae veritatis &amp; praeterita, &amp; 
+      prae<lb ed="#T" n="56" break="no"/>sentia, &amp; futura aequaliter praesentia sunt: ergo 
+      <lb ed="#T" n="57"/>omnia cognoscit praesentialiter.  
+    </p>
+               <p xml:id="pdt7y6-f04721-d1e594">
+                  <lb ed="#T" n="58"/>2. Augustinus super Ioan. In veritatao 
+      qua<lb ed="#T" n="59" break="no"/>manet, praeteritum &amp; futurum non inuenio, sed  
+      <lb ed="#T" n="60"/>solum praesens. 
+    </p>
+               <p xml:id="pdt7y6-f04721-d1e604">
+                  <lb ed="#T" n="61"/>3. Nobilius &amp; certius cognoscitur, quod 
+      co<lb ed="#T" n="62" break="no"/>gnoscitur praesentialiter, quam quod altero 
+      mo<lb ed="#T" n="63" break="no"/>do: sed Deus omnia cognoscit modo certissimo. 
+      <lb ed="#T" n="64"/>&amp; nobilissimo: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-f04721-d1e615">
+                  <lb ed="#T" n="65"/>4. Si non omnia cognoscit praesentialiter, ergo 
+      <lb ed="#T" n="66"/>non omnia simul: ergo non aeternaliter.  
+      <!--1652-gregPress-MichiganState-gbooks-v1-0418.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>Contra. 1. Praescientia respectu futurorum est: 
+      <lb ed="#T" n="68"/>ergo non omnia cognoscit praesentialiter.  
+    </p>
+               <p xml:id="pdt7y6-f04721-d1e631">
+                  <lb ed="#T" n="69"/>2. Quod praesentialiter est, necessarium est: 
+      <lb ed="#T" n="70"/>si ergo Deus scit omnia praesentialiter, scit 
+      om<lb ed="#T" n="71" break="no"/>nia vt necessaria: ergo non potest nescire: ergo 
+      <lb ed="#T" n="72"/>non possunt non esse. 
+    </p>
+               <p xml:id="pdt7y6-f04721-d1e642">
+                  <lb ed="#T" n="73"/>3. Si scit omnia praesentialiter, ergo scit simul 
+      <lb ed="#T" n="74"/>contradictorie opposita, scilicet aliquid esse &amp; 
+      <lb ed="#T" n="75"/>non esse, quia in rebus temporalibus, quae est 
+      <lb ed="#T" n="76"/>aliquando non erit. 
+    </p>
+               <p xml:id="pdt7y6-f04721-d1e653">
+                  <lb ed="#T" n="77"/>Iuxta hoc quaeritur, an sciat immutabiliter.  
+      <lb ed="#T" n="78"/>Videtur quod non. 1. Quia Deus rem, quam 
+      <lb ed="#T" n="79"/>scit hodie praesentem esse, cras nescit praesentem 
+      <lb ed="#T" n="80"/>esse, sed praeteritam: ergo mutabiliter.  
+    </p>
+               <p xml:id="pdt7y6-f04721-d1e664">
+                  <lb ed="#T" n="81"/>2. Quod scitur immutabiliter, non potest non 
+      <lb ed="#T" n="82"/>sciri: sed Deus potest nescire multa quae scit: 
+      er<lb ed="#T" n="83" break="no"/>go non omnia scit immutabiliter.  
+    </p>
+               <p xml:id="pdt7y6-f04721-d1e674">
+                  <lb ed="#T" n="84"/>3. Quae immutabiliter sciuntur, 
+      immutabi<lb ed="#T" n="85" break="no"/>liter sunt vera: sed contingentia futura non 
+      <lb ed="#T" n="86"/>sunt vera immutabiliter: ergo non sciuntur 
+      im<lb ed="#T" n="87" break="no"/>mutabiliter.  
+    </p>
+               <p xml:id="pdt7y6-f04721-d1e685">
+                  <lb ed="#T" n="88"/>Contra. 1. Quod scitur mutabiliter, scitur 
+      in<lb ed="#T" n="89" break="no"/>certitudinaliter: sed Deus scit, quaecumque scit, 
+      <lb ed="#T" n="90"/>certitudinaliter: ergo immutabiliter.  
+    </p>
+               <p xml:id="pdt7y6-f04721-d1e694">
+                  <lb ed="#T" n="91"/>2. Nobilior est cognitio qua cognoscitur 
+      ali<lb ed="#T" n="92" break="no"/>quid immutabiliter, quam qua cognoscitur 
+      mu<lb ed="#T" n="93" break="no"/>tabiliter: sed omnis Dei cognitio est 
+      nobilissi<lb ed="#T" n="94" break="no"/>sima: ergo omnia cognoscit immutabiliter.  
+    </p>
+               <p xml:id="pdt7y6-f04721-d1e705">
+                  <lb ed="#T" n="95"/>3. Probat Augustinus de Trinitate, quod 
+      <lb ed="#T" n="96"/>scientia Dei est immutabilis, quia scire Dei est: 
+      <lb ed="#T" n="97"/>esse: sed Deus est, quicquid est, immutabiliter: 
+      <lb ed="#T" n="98"/>ergo scit, quicquid scit, immutabiliter.  
+    </p>
+               <p xml:id="pdt7y6-f04721-d1e716">
+                  <lb ed="#T" n="99"/>Respondeo ad primum. Deum omnia scire 
+      <lb ed="#T" n="100"/>praesentialiter, dupliciter potest intelligi: aut ita 
+      <lb ed="#T" n="101"/>quod aduerbium determinet verbum a parte 
+      sup<lb ed="#T" n="102" break="no"/>positi, aut a parte appositi: primo modo dicit 
+      <lb ed="#T" n="103"/>modum a parte cognoscentis, &amp; sic propositio 
+      <lb ed="#T" n="104"/>vera est: secundo modo a parte rei cognitae, &amp; 
+      <lb ed="#T" n="105"/>sic falsa: sibi quippe sunt omnia temporalia 
+      prae<lb ed="#T" n="106" break="no"/>sentia, quia sicut praesenti nunc omnia loca, &amp; 
+      <lb ed="#T" n="107"/>quae in eis siunt praesentia sunt, sic aeterno nunc 
+      <lb ed="#T" n="108"/>omnia tempora: sed in seipsis non sunt 
+      praesen<lb ed="#T" n="109" break="no"/>tia. Per hoc patet solutio ad argumenta. 
+    </p>
+               <p xml:id="pdt7y6-f04721-d1e742">
+                  <lb ed="#T" n="110"/>Ad secundam quaest. similiter resp. Deus 
+      <lb ed="#T" n="111"/>scit omnia immutabiliter a parte scientis, non 
+      <lb ed="#T" n="112"/>tamen immutabiliter a parte rerum scitarum 
+      mu<lb ed="#T" n="113" break="no"/>tabilium: sicut si esset oculus fixus in pariete, 
+      <lb ed="#T" n="114"/>seipso sine receptione aspiciens, omnes 
+      transeun<lb ed="#T" n="115" break="no"/>tes videret immutabiliter a parte videntis, 
+      muta<lb ed="#T" n="116" break="no"/>biliter a parte visorum. 
+    </p>
+               <p xml:id="pdt7y6-f04721-d1e761">
+                  <lb ed="#T" n="117"/>Ad 1. Deus scit hodie &amp;c. Resp. Haec 
+      fucces<lb ed="#T" n="118" break="no"/>sio a parte rei scitae ponitur, non a parte scientis. 
+    </p>
+               <p xml:id="pdt7y6-f04721-d1e768">
+                  <lb ed="#T" n="119"/>Ad 2. Quod scitur immutabiliter &amp;c. Resp. 
+      <lb ed="#T" n="120"/>Cum dicitur, Deus potest nescire multa quae 
+      <lb ed="#T" n="121"/>scit, distinguendum est: quia potest haec 
+      propo<lb ed="#T" n="122" break="no"/>sitio intelligi coniunctim, &amp; sic sequeretur 
+      mu<lb ed="#T" n="123" break="no"/>tabslitas: aut diuisim, &amp; sic non sequitur.  
+    </p>
+               <p xml:id="pdt7y6-f04721-d1e781">
+                  <lb ed="#T" n="124"/>Ad 3. Quae sciuntur immutabiliter &amp;c. Resp. 
+      <lb ed="#T" n="125"/>In scientia causata a rebus necesse est vt scita 
+      <lb ed="#T" n="126"/>immutabiliter, sint in se immutabiliter vera: sed 
+      <lb ed="#T" n="127"/>in scientia Diuina non, sed solum quod sint 
+      im<lb ed="#T" n="128" break="no"/>mutabiliter vera inquantum scientiae subsunt.  
+    </p>
+               <p xml:id="pdt7y6-f04721-d1e794">
+                  <lb ed="#T" n="129"/>TxposITIO LITERAE. 
+      <lb ed="#T" n="130"/>D Raecedit aliquid in peccatoribus.] Contra 
+      <lb ed="#T" n="131"/>E 
+    </p>
+               <p xml:id="pdt7y6-f04721-d1e803">
+                  <lb ed="#T" n="132"/>Quamdiu sunt in peccato non sunt 
+      digni<lb ed="#T" n="133" break="no"/>inftificatione. Resp. Dignitatem vocat praepara¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0419.xml-->
+      <pb ed="#T" n="344"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>tionem ad gratiam, quae est dignitas de congruo, 
+      <lb ed="#T" n="2"/>non de condigno. 
+    </p>
+               <p xml:id="pdt7y6-f04721-d1e821">
+                  <lb ed="#T" n="3"/>[Deus scire futura definit.] Contra. Nihil  
+      <lb ed="#T" n="4"/>aeternum desinere potest. Item omne quod caret. 
+      <lb ed="#T" n="5"/>principio caret fine. Resp. Praescire ratione 
+      <lb ed="#T" n="6"/>significati non definit: sed ratione ordinis 
+      con<lb ed="#T" n="7" break="no"/>notati, cuius alterum extremum est temporale. 
+      <lb ed="#T" n="8"/>definit. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0419.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="9"/>Ad illud de aeterno. Resp. Pure aeternum 
+      defi<lb ed="#T" n="10" break="no"/>nere non potest, &amp; inquantum est aetornum, sed  
+      <lb ed="#T" n="11"/>ratione connotati temporal is. 
+    </p>
+               <p xml:id="pdt7y6-f04721-d1e848">
+                  <lb ed="#T" n="12"/>Ad illud. Omne quod catret principio caret. 
+      <lb ed="#T" n="13"/>fine. Resp. Praescire licet ratio ne significati careat 
+      <lb ed="#T" n="14"/>principio, tamen connotat fut urum habens prin: 
+      <lb ed="#T" n="15"/>cipum, &amp; ideo potest finem habere. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0419.xml-->
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

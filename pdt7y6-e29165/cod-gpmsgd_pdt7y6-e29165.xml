@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="96"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e29165"><!-- l1d11prae -->
+            <head xml:id="pdt7y6-e29165-Hd1e99">Praeambulum</head>
+            <head xml:id="pdt7y6-e29165-Hd1e101" type="question-title"/>
+            <p xml:id="pdt7y6-e29165-d1e103">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0171.xml-->
+               <pb ed="#T" n="96"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>VoD SPIRITVS SANCTVS 
+      <lb ed="#T" n="2"/>Procedit a Patie &amp; Filio, Distinct. TI.
+    </p>
+       <!--     <p xml:id="pdt7y6-e29165-d1e116">
+               <lb ed="#T" n="3"/>&amp; IC dicendum est Spiritum sanctum a Patre esse &amp; Filio, &amp; procedere 
+      <lb ed="#T" n="4"/>&amp;a Patre &amp; Filio, quod multi haeretici negauerunt. Quod autem de 
+      <lb ed="#T" n="5"/>vtroque procedat, multis Diuinorum eloquiorum testimonijs com¬ 
+    </p>
+            <p xml:id="pdt7y6-e29165-d1e125">
+               <lb ed="#T" n="6"/>probatur. Dicit enim Apostolus: Misit Deus Spiritum Filij sui in 
+      cor<lb ed="#T" n="7" break="no"/>da nostra. Ecce hic dicitur Spiritus Filij. Et alibi. Qui autem 
+      Spiri<lb ed="#T" n="8" break="no"/>tum Christi non habet, hic non est eius. Ipse etiam Filius de Spiritu 
+      <lb ed="#T" n="9"/> sancto dicit in Euangelio, Quem ego mittam vobis a Patre. Patris 
+      <lb ed="#T" n="10"/>autem Spiritus dictus est, vbi legitur, Si Spiritus eius qui suscitauit Christum a 
+      mor<lb ed="#T" n="11" break="no"/>tuis habitat in vobis. Et ipse Christus dicit, non enim vos estis qui loquimini, sed  
+      <lb ed="#T" n="12"/>Spiritus Patris vestri quiloquitur. Et in alio loco. Quem mittet Pater in nomine meo. 
+      <lb ed="#T" n="13"/>Et alibi. Ipse Filius de Spiritu sancto ait, de Patre procedit. His &amp; aliis authoritatibus 
+      <lb ed="#T" n="14"/>pluribus ostenditur quod Spiritus sanctus a Patre &amp; Filio procedit. 
+    </p>
+            <p xml:id="pdt7y6-e29165-d1e148">
+               <lb ed="#T" n="15"/>Quod Graeci non concedunt Spiritum sanctum procedere a Filio. 
+      <lb ed="#T" n="16"/>(Graeci tamen dicunt Spiritum sanctum procedere tantum a Patre, &amp; non a Filio. 
+      <lb ed="#T" n="17"/>Quod ideo dicunt, quia veritas in Euangelio fidem integram continente, de 
+      proces<lb ed="#T" n="18" break="no"/>sione Spiritus loquens, solum Patrem commemorat dicens, Spiritus qui a Patre 
+      pro<lb ed="#T" n="19" break="no"/>cedit. Et etiam ideo quia in principalibus Concilijs quae apud eos celebrata sunt, ita 
+      <lb ed="#T" n="20"/>symbola eorum subiunctis anathematibus sancita sunt, vt nulli de Trinitatis fide aliud 
+      <lb ed="#T" n="21"/>docere vel aliter praedicare, quam ibi continetur, liceat. In quibus quidem symbolis 
+      <lb ed="#T" n="22"/>cum Spiritus sanctus commemoretur procedere a Patre, &amp; non a Filio, Quicunque 
+      in<lb ed="#T" n="23" break="no"/>quiunt a Filio cum procedere addunt, anathema incurrunt: vnde &amp; nos arguunt 
+      ana<lb ed="#T" n="24" break="no"/>thematis reos. Addunt etiam ad assertionem suae opinionis, &amp; in testimonium nostrae 
+      <lb ed="#T" n="25"/>damnationis de symbolo fidei, quod secundum traditionem praedictorum conciliorum 
+      <lb ed="#T" n="26"/>Leo IIl. Romae transcriptum in tabula argentea post altare beati Pauliposita, posteris 
+      <lb ed="#T" n="27"/>reliquit pro ainore (vt ipse ait) &amp; cautela fidei orthodoxae. In quo quidem symbolo, 
+      <lb ed="#T" n="28"/>in processione Spiritus solus commemoratur Pater: his verbis: Et in Spiritum sanctum 
+      <lb ed="#T" n="29"/>Dominum, &amp; viuificatorem, ex Patre procedentem: cum Patre &amp; Filio coadorandum 
+      <lb ed="#T" n="30"/>&amp; glorificandum &amp;c. Illud est symbolum quod in Missa cantatur, editum in Nicaeno 
+      <lb ed="#T" n="31"/>concilio, in fine cuius subiunctum est, Qui aliud docuerit, vel aliter praedicauerit, 
+      ana<lb ed="#T" n="32" break="no"/>thema sit. Ideoque Graeci nos anathematizatos dicunt, quia dicimus Spiritum sanctum 
+      <lb ed="#T" n="33"/>a Filio procedere, quod ibi non continetur. Quod enim secundum nos ibi dicitur, Quia 
+      <lb ed="#T" n="34"/>a Patre Filioque procedit, alterum a Latinis est additum, scilicet, Filioque. 
+    </p>
+            <p xml:id="pdt7y6-e29165-d1e194">
+               <lb ed="#T" n="35"/>Responsio, vbi determinantur praedicta. 
+      <lb ed="#T" n="36"/>Nos autem illa verba ita determinamus: Qui aliud docuerit, vel aliter praedicauerit, 
+      <lb ed="#T" n="37"/>id est, contrarium docuerit, vel contrario modo praedicauerit, anathema sit. Aliud ergo 
+      <lb ed="#T" n="38"/>posuit pro opposito, qualiter &amp; Apostolus in epistola ad Gal. Si quis aliud 
+      euangeliaa<lb ed="#T" n="39" break="no"/>uerit, id est, contrarium, anathema sit. Non dicit. Si quis addiderit. Nam si illud 
+      dice<lb ed="#T" n="40" break="no"/>ret, sibi ipsi, vt ait Aug. praeiudicaret, qui cupiebat venire ad quosdam quibus 
+      scribe<lb ed="#T" n="41" break="no"/>bat, sicut ad Thessal, vt suppleret quae illorum fidei deerant. Sed qui supplet quod 
+      mi<lb ed="#T" n="42" break="no"/>nus erat, addit, non quod inerat, tollit: qui autem praetergreditur fidei regulam, non 
+      <lb ed="#T" n="43"/>incedit in via, sed recedit a via. Ad illud autem quod de Euangelio opponunt. 
+      Respon<lb ed="#T" n="44" break="no"/>demus ita, quia cum dicat in eo Veritas Spiritum sanctum a Patre procedere, non 
+      ad<lb ed="#T" n="45" break="no"/>dit solo, &amp; ideo etiam a se procedere non negat: sed ideo Patrem tantum nominat, quia 
+      <lb ed="#T" n="46"/>ad cum solet referre etiam quod ipsius est, quia ab illo habet.  
+    </p>
+            <p xml:id="pdt7y6-e29165-d1e223">
+               <lb ed="#T" n="47"/>Quod Graeci in sensu nobiscum conueniant, etsi verbis differant. 
+      <lb ed="#T" n="48"/>Sciendum est tamen, quod Graeci confitentur Spiritum sanctum esse Filij, sicut &amp; 
+      Pa<lb ed="#T" n="49" break="no"/>tris: quia &amp; Apostolus dicit, Spiritum Filij. Et Veritas in Euangelio, Spiritum veritatis. 
+      <lb ed="#T" n="50"/>Sed cum non sit aliud; Spiritum sanctum esse Patris vel Filij, quam esse a Patre &amp; Filio: 
+      <lb ed="#T" n="51"/>etiam in hoc in eandem nobiscum fidei sententiam conuenire videntur, licet in verbis 
+      <lb ed="#T" n="52"/>dissentiant. 
+    </p>
+            <p xml:id="pdt7y6-e29165-d1e239">
+               <lb ed="#T" n="53"/>Authoritatibus Graecorum ostendit Spiritum sanctum etiam procedere a Filio. 
+      <lb ed="#T" n="54"/>Vnde etiam quidam eorum catholici Doctores intelligentes vnam eandemque fore 
+      <lb ed="#T" n="55"/>sententiam praedictorum verborum, quibus dicitur Spiritus sanctus procedere a Filio, 
+      <lb ed="#T" n="56"/>&amp; esse Filij, professi sunt Spiritum sanctum etiam procedere a Filio: vnde Athanasius in 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0172.xml-\->
+      <pb ed="#T" n="97"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>symbolo fidei, Spiritus sanctus a Patre &amp; Filio, non factus, nec creatus, nec genitus: 
+      <lb ed="#T" n="2"/>sed procedens. Ecce Spiritum sanctum aperte dixit procedere a Patre &amp; Filio. Didymus 
+      <lb ed="#T" n="3"/>etiam eorum maximus Doctor inlib. 2. de Spiritu sancto, Spiritum sanctum a Filio 
+      proce<lb ed="#T" n="4" break="no"/>dere dicit. Saluator, inquit, qui est veritas, Non enim loquetur a semetipso, hoc est, 
+      <lb ed="#T" n="5"/>non sine me &amp; sine meo &amp; patris arbitrio: quia inseparabiliter est a me &amp; a Patris 
+      volun<lb ed="#T" n="6" break="no"/>tate: quia ex se non est, sed ex Patre &amp; me est. Hoc enim ipsum quod subsistit &amp; 
+      loqui<lb ed="#T" n="7" break="no"/>tur, a Patre &amp; a me illi est. Item Spiritus sanctus qui est Spiritus veritatis, spiritusque 
+      <lb ed="#T" n="8"/>sapientiae, non potest audire a Filio loquente quae nescit, cum hoc ipsum sit quod 
+      pro<lb ed="#T" n="9" break="no"/>fertur a Filio, id est, procedens Deus de Deo, Spiritus veritatis procedens a veritate, 
+      con<lb ed="#T" n="10" break="no"/>solator manans ex consolatione. Item Cyrillus Episcopus in epistola Nestorio directa 
+      <lb ed="#T" n="11"/>ait. Spiritus intelligitur per se secundum quod Spiritus est, &amp; non Filius: sed tamen non 
+      <lb ed="#T" n="12"/>est alienus ab eo: Spiritus enim veritatis nominatur, &amp; profluit ab eo sicut ex Deo 
+      pa<lb ed="#T" n="13" break="no"/>tre. Ioannes quoque Chrysost. in Homilia quadam de expositione Symboli sic ait, Iste est 
+      <lb ed="#T" n="14"/>Spiritus procedens de Patre &amp; Filio, qui diuidit dona propria prout vult. Idem in alia 
+      <lb ed="#T" n="15"/>homilia, Credendum est Spiritum sanctum Patris esse &amp; Filij, istum Spiritum sanctum 
+      <lb ed="#T" n="16"/>dicimus Patri &amp; Filio coaequalem, &amp; procedentem de Patre &amp; Filio. Hoc credite ne 
+      <lb ed="#T" n="17"/>colloquia mala corrumpant bonos mores. Ecce a doctoribus Graecorum aperta 
+      habe<lb ed="#T" n="18" break="no"/>mus testimonia, quibus Spiritus sanctus a Patre &amp; Filio procedere ostenditur. Omnis 
+      <lb ed="#T" n="19"/>ergo lingua confiteatur Spiritum sanctum procedere a Patre &amp; Filio.
+    </p>-->
+            <p xml:id="pdt7y6-e29165-d1e298">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0172.xml-->
+               <cb ed="#T" n="b"/>
+               <lb ed="#T" n="20" type="fixed=97"/>DIVISIO TEXTVS. 
+      <lb ed="#T" n="21"/>I VIc dicendum est] Postquam egit de modo 
+      <lb ed="#T" n="22"/>procedendi, hic de principio a quo 
+      pro<lb ed="#T" n="23" break="no"/>cedit. Et primo ostendit, quid Latini super hoc 
+      <lb ed="#T" n="24"/>intendant vel sentiant. Secundo in quo ab eis 
+      <lb ed="#T" n="25"/>(Graeci dissentiant [ Graeci tamen) Tertio, in 
+      <lb ed="#T" n="26"/>quo tam Graeci quam Latini conueniunt [
+      Scien<lb ed="#T" n="27" break="no"/>dum tamen.] In secunda parte primo ponit 
+      ra<lb ed="#T" n="28" break="no"/>tiones Graecorum. Secundo determinat eas [Nos 
+      <lb ed="#T" n="29"/>autem.] In tertia parte primo ostendit, in quo 
+      <lb ed="#T" n="30"/>conueniunt omnes sanctis Igitur sciendum) 
+      Se<lb ed="#T" n="31" break="no"/>cundo, in quo conueniunt aliqui Doctores 
+      Grae<lb ed="#T" n="32" break="no"/>corum specialiter [Vnde &amp; quidam.] 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

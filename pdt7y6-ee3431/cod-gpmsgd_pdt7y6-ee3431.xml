@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="13"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-ee3431"><!-- l1d1q2 -->
+            <head xml:id="pdt7y6-ee3431-Hd1e99">Quaestio 2</head>
+            <head xml:id="pdt7y6-ee3431-Hd1e101" type="question-title">De fruitione</head>
+            <p xml:id="pdt7y6-ee3431-d1e104">
+               <lb ed="#T" n="20"/>QVESTIO II. 
+      <lb ed="#T" n="21"/>DE FRVITIONE.
+</p>
+            <p xml:id="pdt7y6-ee3431-d1e111">
+               <lb ed="#T" n="22"/>SEcundo quaeritur de fruitione. 
+      <lb ed="#T" n="23"/>Et quaeruntur tria. Primo quid sit fruis 
+      <lb ed="#T" n="24"/>Secundo quo fruendum. Tertio quis fruens 
+    </p>
+            <div xml:id="pdt7y6-ee3431-Dd1e120">
+               <head xml:id="pdt7y6-ee3431-Hd1e122">Articulus 1</head>
+               <head xml:id="pdt7y6-ee3431-Hd1e124" type="question-title">
+        Quid sit frui et cuius potentiae
+      </head>
+               <p xml:id="pdt7y6-ee3431-d1e127">
+                  <lb ed="#T" n="25"/>Articvlvs I. 
+      <lb ed="#T" n="26"/>Quid sit frui, &amp; cuius potentiae.
+</p>
+               <p xml:id="pdt7y6-ee3431-d1e134">
+                  <lb ed="#T" n="27"/>AD primum sic proceditur. 1. Augustinus 
+      di<lb ed="#T" n="28" break="no"/>eit, quod visio est tota merces: sed fruitio 
+      <lb ed="#T" n="29"/>est merces tota, vel pars mercedis: ergo 
+      perti<lb ed="#T" n="30" break="no"/>net ad actum visionis: ergo ad potentiam 
+      visi<lb ed="#T" n="31" break="no"/>uam spiritualem: ergo ad intellectum. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e147">
+                  <lb ed="#T" n="32"/>2. Actus altissimus debet esse altissimae 
+      poten<lb ed="#T" n="33" break="no"/>tiae: altissima potentia est intellectiua, 
+      altissi<lb ed="#T" n="34" break="no"/>mus vero actus fruitio: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e157">
+                  <lb ed="#T" n="35"/>Contra 1. frui est delectari: ergo fruibile 
+      dele<lb ed="#T" n="36" break="no"/>ctabile: delectabile dicit differentiam boni: ergo 
+      <lb ed="#T" n="37"/>&amp; fruibile: Bonum vero est objectum voluntatis: 
+      <lb ed="#T" n="38"/>ergo fruibile est eius obiectum: ergo frui est 
+      <lb ed="#T" n="39"/>eius actus. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e170">
+                  <lb ed="#T" n="40"/>2. Cuius est moueri eius est quiescere: sed 
+      vo<lb ed="#T" n="41" break="no"/>luntatis principaliter est moueri circa cognita, 
+      <lb ed="#T" n="42"/>ergo &amp; quiescere in eis: ergo frui, secundum 
+      defi<lb ed="#T" n="43" break="no"/>nitionem Augustini. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e181">
+                  <lb ed="#T" n="44"/>Contra 1. praemium respondet merito: actu 
+      <lb ed="#T" n="45"/>cuiuslibet potentiae contingit mereri: ergo &amp; 
+      prae<lb ed="#T" n="46" break="no"/>miari: ergo &amp;c. praemium vero est fruitio: ergo 
+      <lb ed="#T" n="47"/>&amp; frui. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e192">
+                  <lb ed="#T" n="48"/>2. Augustinus dicit, quod sensus interior 
+      refi<lb ed="#T" n="49" break="no"/>cietur in contemplatione humanitatis: ergo fruetur.  
+      <lb ed="#T" n="50"/>3. Augnst. deSpiritu &amp; anima. Sensus conuerte 
+      <lb ed="#T" n="51"/> tur in imaginationem, imaginatio in rationem, ra¬ 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e203">
+                  <lb ed="#T" n="52"/>tio in intelligentia: ergo actus cogitatiuae in 
+      intel<lb ed="#T" n="53" break="no"/>ligentia: sed actus intelligentiae est frui: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e210">
+                  <lb ed="#T" n="54"/>Iuxta hoc quaeritur, cuius virtutis actus sit 
+      <lb ed="#T" n="55"/>frui. Videtur, quod: solius charitatis actus sit frui 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e218">
+                  <lb ed="#T" n="56"/>1. Quia secundum Augustinum frui est 
+      amo<lb ed="#T" n="57" break="no"/>re inhaerere, 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e225">
+                  <lb ed="#T" n="58"/>2. Actus melior debet esse melioris 
+      virtu<lb ed="#T" n="59" break="no"/>tis: ergo optimus, optimae. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e232">
+                  <lb ed="#T" n="60"/>Contra 1. videtur, quod omnium 
+      Theologi<lb ed="#T" n="61" break="no"/>carum, quia ad fruitionem exigitur cognitio, &amp; 
+      <lb ed="#T" n="62"/>apprehensio, &amp; delectatio: quorum primum 
+      per<lb ed="#T" n="63" break="no"/>tinet ad fidem, secundum ad spem, tertium ad 
+      <lb ed="#T" n="64"/>charitatem. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0088.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="65"/>2. Videtur quod sit omnium, etiam 
+      cardina<lb ed="#T" n="66" break="no"/>lium. Oppositorum enim oppositi sunt actus, &amp; 
+      <lb ed="#T" n="67"/>effectus oppositi: omni vitio a Deo separamur: 
+      <lb ed="#T" n="68"/>ergo omini virtute coniungimur: sed quo 
+      con<lb ed="#T" n="69" break="no"/>iungimur Deo, eo fruimur.  
+      <lb ed="#T" n="70"/>Respondeo. Si simplex ad simpliciter, &amp; magis 
+      <lb ed="#T" n="71"/>ad magis, &amp; maxime ad maximum: ergo si actus 
+      <lb ed="#T" n="72"/>elicitur a potentia habitu mediante, &amp; perfectus 
+      <lb ed="#T" n="73"/>a perfecta potentia mediante perfecto habitu: 
+      er<lb ed="#T" n="74" break="no"/>go perfectior a perfectiore: ergo &amp; perfectissimus. 
+      <lb ed="#T" n="75"/>a perfectissima: fruitio est actus creaturae 
+      ratio<lb ed="#T" n="76" break="no"/>nalis perfectissimus, in quo quiescit totaliter 
+      de<lb ed="#T" n="77" break="no"/>siderium eius: complementum vero felicitatis 
+      <lb ed="#T" n="78"/>non est in solo habitu, sed in actu, cum actus sit 
+      <lb ed="#T" n="79"/>perfectio potentiae: ergo oportet, quod sit 
+      perfe<lb ed="#T" n="80" break="no"/>ctissimae potentiae &amp; perfectissimi habitus: 
+      prae<lb ed="#T" n="81" break="no"/>stantissima potentia voluntas est, quae sola est 
+      <lb ed="#T" n="82"/>Domina sui actus, &amp; est respectu finis, &amp; ideo 
+      <lb ed="#T" n="83"/>mouet alias, &amp; vtitur eis; &amp; perfectissima virtus 
+      <lb ed="#T" n="84"/>charitas est, quae sola Deo immediatius 
+      coniun<lb ed="#T" n="85" break="no"/>gitur, frui ergo voluntatis est vt potentiae, 
+      cha<lb ed="#T" n="86" break="no"/>ritatis vt habitus, elicitiue dico, aliarum autem 
+      <lb ed="#T" n="87"/>potest esse dispositiue. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e299">
+                  <lb ed="#T" n="88"/>Ad 1. Visio est tota merces. Resp. Dictum est 
+      <lb ed="#T" n="89"/>per causam, vel concomitantiam, non per 
+      essen<lb ed="#T" n="90" break="no"/>tiam. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e308">
+                  <lb ed="#T" n="91"/>Ad 2. Intelligentia est altissima potentia. Resp. 
+      <lb ed="#T" n="92"/>In genere cognoscitiuarum verum est, non 
+      sim<lb ed="#T" n="93" break="no"/>pliciter, quia motiua imperans, scilicet 
+      volun<lb ed="#T" n="94" break="no"/>tas, superior est dominatione &amp; potestate, 
+      quam<lb ed="#T" n="95" break="no"/>uis non origitne. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e321">
+                  <lb ed="#T" n="96"/>Ad 1. In contrarium, Quod omnis potentia 
+      <lb ed="#T" n="97"/>praemiabitur. Resp. Verum est, sed non praemio 
+      <lb ed="#T" n="98"/>essentiali, quod est fruitio, sed aliquo alio 
+      cau<lb ed="#T" n="99" break="no"/>sato ab illo. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e333">
+                  <lb ed="#T" n="100"/>Ad 2. de refectione sensus. Resp. Illa refectio 
+      <lb ed="#T" n="101"/>non erit fruitio, quia non erit de ipsa 
+      apprehen<lb ed="#T" n="102" break="no"/>sione finis a sensu sed eorum, quae sunt ad finem. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e342">
+                  <lb ed="#T" n="103"/>Ad 3. quod obijcitur de conuersione virium 
+      <lb ed="#T" n="104"/>Resp. Conuersio illa non est secundum 
+      substan<lb ed="#T" n="105" break="no"/>tiam, &amp; operationem, sed secundum modum 
+      re<lb ed="#T" n="106" break="no"/>cipiendi, quia sicut modo intelligentia recipit, 
+      <lb ed="#T" n="107"/>cognitionem ab inferioribus, ita tunc inferiores 
+      <lb ed="#T" n="108"/>recipient influentiam gaudij ab ipsa: sicut &amp; 
+      <lb ed="#T" n="109"/>gaudium viri contemplatiui prorumpit in 
+      iubi<lb ed="#T" n="110" break="no"/>lum vocis. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e362">
+                  <lb ed="#T" n="111"/>Ad 1. contra determinationem quaest. Ad 
+      frui<lb ed="#T" n="112" break="no"/>tionem requiritur cognitio &amp;c. Resp. Delectatio 
+      <lb ed="#T" n="113"/>vt essentians; alia vt disponentia. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e371">
+                  <lb ed="#T" n="114"/>Ad 2. omni vitio separamur. Resp. Verum est, 
+      <lb ed="#T" n="115"/>inquantum quodlibet vitium opponitur 
+      chari<lb ed="#T" n="116" break="no"/>tati penes rationem auersionis vnam: non 
+      inquan<lb ed="#T" n="117" break="no"/>tum singulis virtutibus opponuntur singula vitia 
+      <lb ed="#T" n="118"/>penes rationem conuersionis diuersam. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-ee3431-Dd1e386">
+               <head xml:id="pdt7y6-ee3431-Hd1e388">Articulus 2</head>
+               <head xml:id="pdt7y6-ee3431-Hd1e390" type="question-title">Quodnam sit obiectum fruitionis</head>
+               <p xml:id="pdt7y6-ee3431-d1e393">
+                  <lb ed="#T" n="119"/>Articvlvs II. 
+      <lb ed="#T" n="120"/>Quodnam sit obiectum fruitionis.
+</p>
+               <p xml:id="pdt7y6-ee3431-d1e400">
+                  <lb ed="#T" n="121"/>AD secundum sic proceditur. 1. Solo illo 
+      <lb ed="#T" n="122"/>fruendum, quod propter se diligendum est: 
+      <lb ed="#T" n="123"/>talis est solus finis vltimus, scilicet Deus: ergo 
+      <lb ed="#T" n="124"/>solo Deo fruendum. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e411">
+                  <lb ed="#T" n="125"/>2. Solo illo fruendum est, in quo habito 
+      appe<lb ed="#T" n="126" break="no"/>titus noster totaliter quiescit, &amp; terminatur: hoc 
+      <lb ed="#T" n="127"/>vero est solus Deus, quia omni bono finito 
+      <lb ed="#T" n="128"/>maius potest cogitari, &amp; appeti. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e423">
+                  <lb ed="#T" n="129"/>Contra 1. Omni eo fruendum, quod propter se 
+      <lb ed="#T" n="130"/>diligendum: sed virtus, &amp; scientia sunt huiusmodi: 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0089.xml-->
+      <pb ed="#T" n="14"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>ergo &amp;c. Probatio Mediae. Tullius in Rhet 
+      di<lb ed="#T" n="2" break="no"/>cit, quod expetendorum tria sunt genera, vnum 
+      <lb ed="#T" n="3"/>quod propter se expetendum est, scilicet 
+      scien<lb ed="#T" n="4" break="no"/>tia, &amp; virtus: alterum, quod propter alterum 
+      <lb ed="#T" n="5"/>tantum, vt pecunia: alterum, quod propter 
+      vtrun<lb ed="#T" n="6" break="no"/>que, vt amicitia. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e449">
+                  <lb ed="#T" n="7"/>2. Augustinus. His fruendum est quae bonos 
+      fa<lb ed="#T" n="8" break="no"/>ciunt: sed hoc facit virtus, &amp; beatitudo creata. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e456">
+                  <lb ed="#T" n="9"/>3. Rom. 15. Si primum ex parte vobis fruitus 
+      <lb ed="#T" n="10"/>fuero. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e463">
+                  <lb ed="#T" n="11"/>Iuxta hoc quaeritur si vno actu fruitionis 
+      frue<lb ed="#T" n="12" break="no"/>mur tribus personis. Videtur quod sic. 1. Quia 
+      <lb ed="#T" n="13"/>ratio objecti fruibilis eadem est in illis. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e472">
+                  <lb ed="#T" n="14"/>2. Quia non potest cognosci vnum 
+      correlati<lb ed="#T" n="15" break="no"/>uorum sine cognitione alterius: ergo nec diligi 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e479">
+                  <lb ed="#T" n="16"/>Contra 1. Actus distinguuntur per objecta. 
+      <lb ed="#T" n="17"/>2. Triplex est distincta cognitio de tribus 
+      per<lb ed="#T" n="18" break="no"/>sonis, quia noscuntur proprietatibus suis: 
+      distin<lb ed="#T" n="19" break="no"/>ctam vero cognitionem sequitur distincta 
+      dile<lb ed="#T" n="20" break="no"/>ctio: ergo &amp; distincta fruitio. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e493">
+                  <lb ed="#T" n="21"/>Respondeo. Frui aliquo quatuor modis 
+      dici<lb ed="#T" n="22" break="no"/>tur, vel effectiue scilicet potentia per quam 
+      frui<lb ed="#T" n="23" break="no"/>mur; vel dispositiue, habitu charitatis per quam 
+      <lb ed="#T" n="24"/>disponimur; vel formaliter, actu fruitionis quo 
+      <lb ed="#T" n="25"/>quiescimus &amp; hic est beatitudo creata; vel 
+      mate<lb ed="#T" n="26" break="no"/>rialiter, &amp; finaliter, vt objecto scilicet, in quo 
+      <lb ed="#T" n="27"/>quiescimus, &amp; sic folo summo bono fruendum est, 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e511">
+                  <lb ed="#T" n="28"/>Ad 1. de virtute. Resp. Propter se diligi, vel 
+      <lb ed="#T" n="29"/>appeti dicitur aliquid dupliciter; vel formaliter  
+      <lb ed="#T" n="30"/>vt excludat per accidens, sic dicitur vinum dilig. 
+      <lb ed="#T" n="31"/>propter dulcedinem, dulcedo propter se; vel 
+      fi<lb ed="#T" n="32" break="no"/>naliter, vt excludat propter aliud: primo modo, 
+      <lb ed="#T" n="33"/>quod disponit ad finem, scilicet honestas, cum 
+      <lb ed="#T" n="34"/>suis partibus, diligitur propter se: secundo modo 
+      <lb ed="#T" n="35"/>solus finis vltimus. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e531">
+                  <lb ed="#T" n="36"/>Ad 2. His fruendum &amp;c. Resp. Intelligit, quae 
+      <lb ed="#T" n="37"/>bonos faciunt finaliter, &amp; vt objectum cui 
+      pro<lb ed="#T" n="38" break="no"/>pter se, amore inhaeremus, qualis est solus 
+      vlti<lb ed="#T" n="39" break="no"/>mus finis: non dispositiue aut formaliter, sicut  
+      <lb ed="#T" n="40"/>virtus &amp; beatitudo creata. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e544">
+                  <lb ed="#T" n="41"/>Ad 3. quod obijcitur de Apostolo Resp. glos. 
+      <lb ed="#T" n="42"/>exponit, id est de fructo vestro laetatus, vnde 
+      su<lb ed="#T" n="43" break="no"/>mitur fruitio large; non proprie. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e553">
+                  <lb ed="#T" n="44"/>Ad quaest. de fruitione trium personarum. 
+      <lb ed="#T" n="45"/>Resp. Vno actu fruitionis fruendum est tribus 
+      <lb ed="#T" n="46"/>personis, duplici ratione; vna est, quia ratio 
+      se<lb ed="#T" n="47" break="no"/>cundum quam sumitur objectum fruitionis, vna 
+      <lb ed="#T" n="48"/>est in eis, scilicet ratio finis; altera est, quia vna 
+      <lb ed="#T" n="49"/>est ipsarum cognitio, quia non cognoscitur vnum 
+      <lb ed="#T" n="50"/>correlatiuorum sine altero. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e571">
+                  <lb ed="#T" n="51"/>Ad 1. In contrarium. Actus distinguuntur per 
+      <lb ed="#T" n="52"/>objecta. Resp. Intelligendum est de objectorum 
+      <lb ed="#T" n="53"/>distinctione secundum rationem formalem qua 
+      <lb ed="#T" n="54"/>objecta sunt, non secundum id quod sunt Nam 
+      <lb ed="#T" n="55"/>diuersa colorata actu vnius sensus videntur.  
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e585">
+                  <lb ed="#T" n="56"/>Ad 2. Distinctam cognitionem tanquam 
+      dis<lb ed="#T" n="57" break="no"/>positionem sequitur fruitio distincta. Resp. Non 
+      <lb ed="#T" n="58"/>est distincta cognitio trium personarum 
+      inquan<lb ed="#T" n="59" break="no"/>tum est dispositio fruitionis, sed vna; quia 
+      cogni<lb ed="#T" n="60" break="no"/>tio trium personarum non secundum quod tres 
+      <lb ed="#T" n="61"/>sunt, sed secundum quod sunt vnum summum. 
+      <lb ed="#T" n="62"/>bonum, est dispositio fruitionis. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-ee3431-Dd1e604">
+               <head xml:id="pdt7y6-ee3431-Hd1e606">Articulus 3</head>
+               <head xml:id="pdt7y6-ee3431-Hd1e608" type="question-title">Quis sit fruens</head>
+               <p xml:id="pdt7y6-ee3431-d1e611">
+                  <lb ed="#T" n="63"/>Articvlvs III. 
+      <lb ed="#T" n="64"/>Quis sit fruens.
+</p>
+               <p xml:id="pdt7y6-ee3431-d1e618">
+                  <lb ed="#T" n="65"/>AD vltimum sic proceditur. Deus diligit se 
+      <lb ed="#T" n="66"/>propter se: ergo fiuitur se. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0089.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>Contra Augustinus. Si fruitur nobis, eget 
+      bo<lb ed="#T" n="68" break="no"/>no nostro: ergo onine quod fruitur, aliquo bono 
+      <lb ed="#T" n="69"/>eget: sed Deus nullo bono eget, ergo non fruitur.  
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e636">
+                  <lb ed="#T" n="70"/>Iuxta hoc quaeritur primo si beati in patria 
+      <lb ed="#T" n="71"/>fruuntur. Videtur quod non, quia si fruuntur,  
+      <lb ed="#T" n="72"/>aliquo bono egent 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e646">
+                  <lb ed="#T" n="73"/>Contra. Erui est amore inhaerere alicui rei 
+      <lb ed="#T" n="74"/>propter se, sic autem beati inhaerent Deo. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e653">
+                  <lb ed="#T" n="75"/>Iuxta hoc quaeritur secundo, si sancti in via 
+      <lb ed="#T" n="76"/>ruuntur. Videtur quod non. Quia secundum 
+      <lb ed="#T" n="77"/>Augustinum. Fruimur cognitis, in quibus 
+      volun<lb ed="#T" n="78" break="no"/>tas delectata propter se quiescit: sed in praesenti 
+      <lb ed="#T" n="79"/>voluntas sanctorum non quiescit, quia semper 
+      <lb ed="#T" n="80"/>tendunt in profectum ampliorem. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e669">
+                  <lb ed="#T" n="81"/>Contra Diligut in praesenti Deum: aut 
+      propu<lb ed="#T" n="82" break="no"/>aliud, &amp; sic de fine faciunt viam, quod mortale 
+      <lb ed="#T" n="83"/>est: aut propter se, &amp; sic fruuntur.  
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e678">
+                  <lb ed="#T" n="84"/>Iuxta hoc queritur tertio, si peccatores 
+      fruun<lb ed="#T" n="85" break="no"/>tur Deo. Videtur quod sic, quia in aliquo actu: 
+      <lb ed="#T" n="86"/>quem propter Deum faciunt, amore inhaerent 
+      <lb ed="#T" n="87"/>Deo propter se: ergo fruuntur.  
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e689">
+                  <lb ed="#T" n="88"/>Contra non habent charitatem, cuius est actus 
+      <lb ed="#T" n="89"/>fruitio. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e696">
+                  <lb ed="#T" n="90"/>Iuxta hocquaeritur quarto, an bruta fruantur.  
+      <lb ed="#T" n="91"/>Videtur quod sic, libro 83. quaestionum frui 
+      ci<lb ed="#T" n="92" break="no"/>bis non inconuenienter aestimantur bestiae. 
+      <lb ed="#T" n="93"/>Contra. Non contingit frui sine apprehensione 
+      <lb ed="#T" n="94"/>finis &amp; ordinatione in finem, bruta non ap 
+      <lb ed="#T" n="95"/>prehendunt finem, nec ordinant in illum: 
+      <lb ed="#T" n="96"/>ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e715">
+                  <lb ed="#T" n="97"/>Respondeo. Ad fruitionem tria requiruntur: 
+      <lb ed="#T" n="98"/>oportet enim esse coiunctionem, delectationem, 
+      <lb ed="#T" n="99"/>quietationem: quae tria tanguntur in diffinitione 
+      <lb ed="#T" n="100"/>illa, Erui est amore inhaerere &amp;c. non enim 
+      po<lb ed="#T" n="101" break="no"/>test inhaerere mens sine coniunctione, nec amare 
+      <lb ed="#T" n="102"/>sine delectatione, nec propter se diligere sine 
+      <lb ed="#T" n="103"/>quietatione. Quietatio voluntatis potest esse 
+      <lb ed="#T" n="104"/>vel secundum appetitum rectae rationis, sic 
+      fruu<lb ed="#T" n="105" break="no"/>tur boni summo bono; vel libidinis, sic mali 
+      bo<lb ed="#T" n="106" break="no"/>no creato; vel sensualitatis, sic bruta cibo. 
+      Se<lb ed="#T" n="107" break="no"/>cundum appetitum autem rectae rationis triplex 
+      <lb ed="#T" n="108"/>est fruitio: coniunctio enim triplex potest esse, 
+      <lb ed="#T" n="109"/>vel per idemtitatem naturae, vel per speciem 
+      glo<lb ed="#T" n="110" break="no"/>riae, vel per inhabitationem gratiae. In primo 
+      <lb ed="#T" n="111"/>modo nulla est indigentia, nullus enim indiget 
+      <lb ed="#T" n="112"/>seipso: in secundo est indigentia necessitatis, quae 
+      <lb ed="#T" n="113"/>est de bono habito: in tertio indigentia 
+      penu<lb ed="#T" n="114" break="no"/>riae, quae est de bono non plene habito: primo 
+      <lb ed="#T" n="115"/>modo fruitur Deus seipso; secundo modo 
+      fruun<lb ed="#T" n="116" break="no"/>tur beati ipso; tertio modo fruutur&amp; sancti in via. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e761">
+                  <lb ed="#T" n="117"/>Ad illud. Si Deus fruitur eget. Resp. Non 
+      quod<lb ed="#T" n="118" break="no"/>cunque frui importat indigentiam, sed frui 
+      alte<lb ed="#T" n="119" break="no"/>ro, quam seipso. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e770">
+                  <lb ed="#T" n="120"/>Ad illud quaest. primae, sancti non eget. Resp. in 
+      <lb ed="#T" n="121"/>eis est indigentia necessitatis, non penuriae. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e777">
+                  <lb ed="#T" n="122"/>Ad arg. quaest. 2. Quod voluntas sanctorum 
+      <lb ed="#T" n="123"/>non quiescit in praesenti. Resp. Imo quiescit 
+      ali<lb ed="#T" n="124" break="no"/>quatenus, sed non plene: non enim tendit in 
+      <lb ed="#T" n="125"/>aliud sed in idem plenius. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e788">
+                  <lb ed="#T" n="126"/>Ad arg. quaest. 3. Peccator inhaeret amore, &amp;c. 
+      <lb ed="#T" n="127"/>Resp. Ad inhaesionem non sufficit referre actu 
+      <lb ed="#T" n="128"/>nisi referatur habitu, quod peccator non facit. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e797">
+                  <lb ed="#T" n="129"/>Ad arg. quaest. 4. de Brutis. Resp. Eruuntur  
+      <lb ed="#T" n="130"/>communiter &amp; large, non stricte, &amp; proprie. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-ee3431-Dd1e805">
+               <head xml:id="pdt7y6-ee3431-Hd1e807">Expositio litterae</head>
+               <p xml:id="pdt7y6-ee3431-d1e809">
+                  <lb ed="#T" n="131"/>EXPOSITIO LITTERAE. 
+      <lb ed="#T" n="132"/>vIrca literam dubitatur [Omnis doctrina de 
+      <lb ed="#T" n="133"/>Crebus, vel de signis.] 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0090.xml-->
+      <pb ed="#T" n="15"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>Contra. Doctrina de peccatis non est de rebus, 
+      <lb ed="#T" n="2"/>nec de signis. Resp. Nomen rei accipitur large 
+      <lb ed="#T" n="3"/>vt comprahendit tam species rerum, quam 
+      pri<lb ed="#T" n="4" break="no"/>uationes; quae tamen, quia cognoscuntur per 
+      <lb ed="#T" n="5"/>habitus suos non per se, de eis nec est doctrina 
+      <lb ed="#T" n="6"/>primo &amp; per se; sed per accidens. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e838">
+                  <lb ed="#T" n="7"/>Omne signum res aliqua est.] Contra. 
+      Om<lb ed="#T" n="8" break="no"/>nis diuisio est per oppositionem. Respondeo. 
+      Op<lb ed="#T" n="9" break="no"/>positio rei non fundatur super eodem subjecto; 
+      <lb ed="#T" n="10"/>sed oppositio rationis potest, sicut ratio finis, &amp; 
+      <lb ed="#T" n="11"/>principij in eodem puncto. Res vero &amp; signum 
+      <lb ed="#T" n="12"/>opponuntur oppositione rationis, non rei: 
+      scili<lb ed="#T" n="13" break="no"/>cet, quia res dicit esse rei absolutum, signum 
+      <lb ed="#T" n="14"/>vero esse rei relatum ad alterum cognoscendum 
+      <lb ed="#T" n="15"/>per illud. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e860">
+                  <lb ed="#T" n="16"/>[Non omnis res signum est.] Contra omnis 
+      cre<lb ed="#T" n="17" break="no"/>atura creatoris sui vestigium est, vel imago, vel 
+      <lb ed="#T" n="18"/>vtrumque simul. Resp. Loquitur de signo, quod 
+      <lb ed="#T" n="19"/>significat ab institutione, non quod a natura. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e871">
+                  <lb ed="#T" n="20"/>[Primum de rebus.] Contra per signum venitur  
+      <lb ed="#T" n="21"/>in cognitionem rerum: ergo de signis prius est 
+      <lb ed="#T" n="22"/>agendum. Resp. signa, quamuis sint priora 
+      se<lb ed="#T" n="23" break="no"/>cundum ordinem cognitionis, rebus quarum, 
+      <lb ed="#T" n="24"/>sunt signa, non tamen alijs: res vero, de quibus 
+      <lb ed="#T" n="25"/>agitur in tribus primis libris, non sunt res 
+      illo<lb ed="#T" n="26" break="no"/>rum signorum, de quibus agitur in quarto. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e890">
+                  <lb ed="#T" n="27"/>[Res aliae sunt, quibus fruendum est.] Contra 
+      <lb ed="#T" n="28"/>omne commune diuisum simplicius est partibus 
+      <lb ed="#T" n="29"/>diuidentibus, &amp; diuidentia sunt partes diuisi: ergo 
+      <lb ed="#T" n="30"/>aliquid est rebus fruibilibus, id est Deo, 
+      simpli<lb ed="#T" n="31" break="no"/>cius, &amp; Deus erit pars alicuius. Respondeo 
+      <lb ed="#T" n="32"/>Communitas haec non est naturae pure 
+      vni<lb ed="#T" n="33" break="no"/>uoca, sed analoga analogia qua aliquid vnum 
+      <lb ed="#T" n="34"/>est in diuersis inaequaliter, siue per 
+      partici<lb ed="#T" n="35" break="no"/>pationem, vt ens in substantiis &amp; in 
+      accidenti<lb ed="#T" n="36" break="no"/>bus; siue in altero per essentiam, in altero per 
+      <lb ed="#T" n="37"/>participationem, vt ens in creatore &amp; creatura: 
+      <lb ed="#T" n="38"/>in diuisione talis communis, nec commune 
+      diui<lb ed="#T" n="39" break="no"/>sum oportet esse simplicius, nec diuidens 
+      opor<lb ed="#T" n="40" break="no"/>tet esse partem diuisi, nisi secundum rationem 
+      ap<lb ed="#T" n="41" break="no"/>prehensionis. Sic aute diuiduntur res ab August. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e925">
+                  <lb ed="#T" n="42"/>[Res quae fruuntur, &amp; vtuntur nos sumus. 
+      <lb ed="#T" n="43"/>Contra nos sumus de numero rerum quibus 
+      vte<lb ed="#T" n="44" break="no"/>dum est. Resp. Non est diuisio secundum 
+      oppo<lb ed="#T" n="45" break="no"/>sitionem rei, sed rationis; differunt enim ratio qua 
+      <lb ed="#T" n="46"/>aliquid est causa efficiens beatitudinis, aliquid 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0090.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="47"/>suscipiens, aliquid disponens. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e945">
+                  <lb ed="#T" n="48"/>[Non enim facile potest inueniri nome. ]Ratio 
+      <lb ed="#T" n="49"/>huius est quia sicut res nouimus, ita nomina eis 
+      <lb ed="#T" n="50"/>imponimus: vnde, cum ad cognitionem diuinarum 
+      <lb ed="#T" n="51"/>proprietatum, per proprietates creaturarum 
+      perue<lb ed="#T" n="52" break="no"/>niamus, sic eis nomina imponimus: quae tamen 
+      <lb ed="#T" n="53"/>proprietates nobiliori modo sunt in Deo quam in 
+      <lb ed="#T" n="54"/>creaturis; vnde non per nomina concreta 
+      con<lb ed="#T" n="55" break="no"/>gruenter ipsum designamus, quia significant quid 
+      <lb ed="#T" n="56"/>compositum, nec per abstracta, quia significant  
+      <lb ed="#T" n="57"/>quid non per se actu subsistens. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e969">
+                  <lb ed="#T" n="58"/>Ibi proprie] ex parte medij, quia per essentia 
+      <lb ed="#T" n="59"/>non per imedium extraneum [bene] ex parte 
+      <lb ed="#T" n="60"/>fruentis cuius desiderium replebitur.  
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e978">
+                  <lb ed="#T" n="61"/>[Perfecte] ex parte fruibilis, de quo nihil erit, 
+      <lb ed="#T" n="62"/>cuius creatura sit capax, quod non capiatur,  
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e985">
+                  <lb ed="#T" n="63"/>In homines spes ponenda non est) Contra. De 
+      <lb ed="#T" n="64"/>Deata Virgine, Spes nostra salue. Resp. Spes 
+      suf<lb ed="#T" n="65" break="no"/>fragij potest poni in homine, sed non salutis, &amp; 
+      <lb ed="#T" n="66"/>de suffragando ad salutem, non de conferendo, 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e997">
+                  <lb ed="#T" n="67"/>[Te fruar in Domino] Hyperanallage est, id est, 
+      <lb ed="#T" n="68"/>Domino in te. Sed nunquid similiter in 
+      creatu<lb ed="#T" n="69" break="no"/>ra qualibet, cum in ea sit Deus? Resp. Non est 
+      simi<lb ed="#T" n="70" break="no"/>le, quia in solis beatis erit Deus, vt objectum 
+      fruitio<lb ed="#T" n="71" break="no"/>nis, scilicet in ratione summi boni beatificantis. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e1010">
+                  <lb ed="#T" n="72"/>] Quia bonus est Deus, sumus] Contra posita 
+      <lb ed="#T" n="73"/>causa ponitur effectus: ergo si ab aeterno bonus, 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e1017">
+                  <lb ed="#T" n="74"/>Bonitas Dei causa 
+      <lb ed="#T" n="75"/>ab aeterno sumus. Resp. 
+      <lb ed="#T" n="76"/>est voluntaria non naturalis: illud autem 
+      intelli<lb ed="#T" n="77" break="no"/>gitur de causa naturali. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e1028">
+                  <lb ed="#T" n="78"/>Item si, quia bonus sumus, ergo a simili, quia 
+      <lb ed="#T" n="79"/>iustus, vel sapiens. Resp. Non est simile, quia 
+      bo<lb ed="#T" n="80" break="no"/>nitas est causa vel ratio finalis: finis vero mouet 
+      <lb ed="#T" n="81"/>efficientem ad opera conuenientia fini: ideo quia 
+      <lb ed="#T" n="82"/>bonus est sumus: non autem quia iustus, vel 
+      <lb ed="#T" n="83"/>sapiens, quia huiusmodi attributa non dicunt 
+      ra<lb ed="#T" n="84" break="no"/>tionem causae finalis mouentis. 
+    </p>
+               <p xml:id="pdt7y6-ee3431-d1e1046">
+                  <lb ed="#T" n="85"/>[Pariunt gaudium spirituale] Contra. Eadem 
+      ra<lb ed="#T" n="86" break="no"/>tione illud gaudium, cum sit virtus, pariet aliud 
+      <lb ed="#T" n="87"/>gaudium spirituale, &amp; sic in infinitum. Resp. 
+      <lb ed="#T" n="88"/>Duplex est gaudium spirituale: vnum 
+      delibora<lb ed="#T" n="89" break="no"/>tiuum, quo gaudet anima de bonis proximi, 
+      <lb ed="#T" n="90"/>&amp; hoc est virtus, vel actus virtutis: aliud gaudium 
+      <lb ed="#T" n="91"/>naturale quo gaudet anima in coniunctione 
+      vir<lb ed="#T" n="92" break="no"/>tutis perficientis cum potentia perfectibili: hic 
+      <lb ed="#T" n="93"/>est status, vel fructus virtutis, nec parit aliud.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

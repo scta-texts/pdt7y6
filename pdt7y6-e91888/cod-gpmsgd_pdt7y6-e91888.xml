@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="303"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e91888"><!-- l1d37q2 -->
+            <head xml:id="pdt7y6-e91888-Hd1e99">Quaestio 2</head>
+            <head xml:id="pdt7y6-e91888-Hd1e101" type="question-title">Qualiter se habeat Deus ad locum et motum</head>
+            <p xml:id="pdt7y6-e91888-d1e104">
+               <lb ed="#T" n="13"/>QVESTIO II. 
+      <lb ed="#T" n="14"/>QVALILER DEVS EST VBIQVE. 
+    </p>
+            <p xml:id="pdt7y6-e91888-d1e111">
+               <lb ed="#T" n="15"/>CIrca secundum quaeruntur tria. 
+      <lb ed="#T" n="16"/>Primo vtrum Deus sit vbique. 
+      <lb ed="#T" n="17"/>Secundo vtrum hoc sibi soli conueniat. 
+      <lb ed="#T" n="18"/>Tertio an sibi conueniat ab aeterno. 
+    </p>
+            <div xml:id="pdt7y6-e91888-Dd1e122">
+               <head xml:id="pdt7y6-e91888-Hd1e124">Articulus 1</head>
+               <head xml:id="pdt7y6-e91888-Hd1e126" type="question-title">An Deus sit ubique</head>
+               <p xml:id="pdt7y6-e91888-d1e129">
+                  <lb ed="#T" n="19"/>Articvlvs I. 
+      <lb ed="#T" n="20"/>An Deus sit ubique.
+    </p>
+               <p xml:id="pdt7y6-e91888-d1e136">
+                  <lb ed="#T" n="21"/>D primum sic proceditur. 1. dicit Ansel
+      <lb ed="#T" n="22"/>mus quod Deus est id quo maius 
+      excogita<lb ed="#T" n="23" break="no"/>ri non potest, imo maius quam cogitari possit:  
+      <lb ed="#T" n="24"/>sed si Deus non esset vbique, aliquid maius 
+      ex<lb ed="#T" n="25" break="no"/>cogitari posset: ergo Deus vbique est. 
+    </p>
+               <p xml:id="pdt7y6-e91888-d1e149">
+                  <lb ed="#T" n="26"/>2. Probat hoc Anselmus in Monologio sic 
+      <lb ed="#T" n="27"/>Deus aut nusquam est, &amp; nunquam: aut vbique 
+      <lb ed="#T" n="28"/>est, &amp; semper: aut alicubi non, &amp; aliquando 
+      <lb ed="#T" n="29"/>non: si nusquam, &amp; nunquam; ergo nihil est: 
+      <lb ed="#T" n="30"/>si alicubi, &amp; aliquando tantum; ergo definitur 
+      <lb ed="#T" n="31"/>loco &amp; tempore: sed nullum horum est: ergo 
+      <lb ed="#T" n="32"/>vbique &amp; semper 
+    </p>
+               <p xml:id="pdt7y6-e91888-d1e168">
+                  <lb ed="#T" n="33"/>3. Sicut quaelibet res indiget Dei praesentia 
+      <lb ed="#T" n="34"/>conferuante, ita &amp; locus: ergo qua ratione 
+      po<lb ed="#T" n="35" break="no"/>nitur in qualibet re esse, eadem ratione &amp; in 
+      om<lb ed="#T" n="36" break="no"/>ni loco. 
+    </p>
+               <p xml:id="pdt7y6-e91888-d1e179">
+                  <lb ed="#T" n="37"/>4. Maior est vnio materiae &amp; formae, quam 
+      <lb ed="#T" n="38"/>loci &amp; locati: sed non manet forma in materia 
+      <lb ed="#T" n="39"/>nisi Dei interna praesentia conferuante: ergo 
+      <lb ed="#T" n="40"/>multo minus locatum in loco: ergo Deus est 
+      <lb ed="#T" n="41"/>praesens in omni loco: ergo vbicumque. 
+    </p>
+               <p xml:id="pdt7y6-e91888-d1e192">
+                  <lb ed="#T" n="42"/>Contra. 1. Ioan. Damasc. 
+      Incircumscriptibi<lb ed="#T" n="43" break="no"/>lis &amp; immaterialis existens Deus in loco non 
+      <lb ed="#T" n="44"/>est: ipse enim sui ipsius locus est: ergo non est 
+      <lb ed="#T" n="45"/>in alio loco a se: ergo non est vbique 
+    </p>
+               <p xml:id="pdt7y6-e91888-d1e203">
+                  <lb ed="#T" n="46"/>2. Anselmus in Monologio, si vsus 
+      loquen<lb ed="#T" n="47" break="no"/>di admitteret, potius deberet dici Deus esse cum 
+      <lb ed="#T" n="48"/>omni loco, quam in omni loco; nam quod in 
+      <lb ed="#T" n="49"/>omini loco est, continetur loco: ergo non est 
+      <lb ed="#T" n="50"/>vbique. 
+    </p>
+               <p xml:id="pdt7y6-e91888-d1e216">
+                  <lb ed="#T" n="51"/>3. Nulla conditio corporalis conuenit Deo, 
+      <lb ed="#T" n="52"/>nisi per metaphoram: sed esse in loco est 
+      condi<lb ed="#T" n="53" break="no"/>tio corporalis: ergo Deus proprie non est m 
+      lo<lb ed="#T" n="54" break="no"/>co: ergo non est vbique. 
+    </p>
+               <p xml:id="pdt7y6-e91888-d1e227">
+                  <lb ed="#T" n="55"/>4. Sicut se habent successiua ad tempus, ita 
+      <lb ed="#T" n="56"/>permanentia ad locum: sed in succeniuis 
+      nul<lb ed="#T" n="57" break="no"/>lum indiuisibile potest esse semper, vt idem 
+      <lb ed="#T" n="58"/>nunc: ergo nec in permanentibus vllum 
+      indiui<lb ed="#T" n="59" break="no"/>sibile potest esse vbique. 
+    </p>
+               <p xml:id="pdt7y6-e91888-d1e241">
+                  <lb ed="#T" n="60"/>Ad 5. Dicit Boetius lib. de Trinit. Deus 
+      vbi<lb ed="#T" n="61" break="no"/>que esse dicitur, non quod in omni loco sit, 
+      <lb ed="#T" n="62"/>omnino enim in loco esse non potest qui vbique 
+      <lb ed="#T" n="63"/>est: ergo non est vbique nisi prout vbique idem 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0378.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="64"/>est quod in omni re. 
+    </p>
+               <p xml:id="pdt7y6-e91888-d1e259">
+                  <lb ed="#T" n="65"/>Respondeo. Sicut vbi &amp; ibi aliquando 
+      acci<lb ed="#T" n="66" break="no"/>pitur stricte &amp; proprie, scilicet imsitu vel in 
+      lo<lb ed="#T" n="67" break="no"/>co, vt quando dico, non ibi est pes vbi manus; 
+      <lb ed="#T" n="68"/>aliquando communiter &amp; large, vt quando 
+      di<lb ed="#T" n="69" break="no"/>co, non ibi est scientia vbi virtus: ita esse 
+      vbi<lb ed="#T" n="70" break="no"/>que dupliciter dicitur; vel communiter id est in 
+      <lb ed="#T" n="71"/>omnimoda re, sicut iam dictum est quod Deus 
+      <lb ed="#T" n="72"/>est vbique: vel proprie, id est in omni loco: &amp; 
+      <lb ed="#T" n="73"/>hoc dupliciter, aut per praesentiam, aut per 
+      con<lb ed="#T" n="74" break="no"/>tinentiam: primo modo Deus est in omni loco: 
+      <lb ed="#T" n="75"/>secundo modo in nullo. Vnde Augustinus ad 
+      <lb ed="#T" n="76"/>Dardanum de praesentia Dei loquens ait: Deus 
+      <lb ed="#T" n="77"/>vbique est, quia nusquam absens est; in seipso 
+      <lb ed="#T" n="78"/>est, quia non continetur jis quibus praesens est 
+      <lb ed="#T" n="79"/>Est autem alius modus praesentiae quo Deus 
+      di<lb ed="#T" n="80" break="no"/>citur esse in loco per praesentiam, &amp; quo dicitur 
+      <lb ed="#T" n="81"/>esse in omnire per praesentiam: prout de re 
+      dici<lb ed="#T" n="82" break="no"/>tur, sonat quasi extrinsecam assistentiam; sed  
+      <lb ed="#T" n="83"/>prout de loco, repletionem internam: vterque 
+      <lb ed="#T" n="84"/>tamen modus nomine praesentiae continetur.  
+    </p>
+               <p xml:id="pdt7y6-e91888-d1e305">
+                  <lb ed="#T" n="85"/>Ad 1. Ex Damasceno, Deus in loco non est, 
+      <lb ed="#T" n="86"/>Resp. Verum est proprie, scilicet per 
+      continen<lb ed="#T" n="87" break="no"/>tiam: sed non similitudinarie &amp; per praesentiam 
+      <lb ed="#T" n="88"/>repletiuam 
+    </p>
+               <p xml:id="pdt7y6-e91888-d1e316">
+                  <lb ed="#T" n="89"/>Ad 2. De Ansel. Resp. Loquitur de esse in 
+      <lb ed="#T" n="90"/>loco per continentiam, non per praesentiam. 
+    </p>
+               <p xml:id="pdt7y6-e91888-d1e323">
+                  <lb ed="#T" n="91"/>Ad 3. Nulla conditio corporalis &amp;c. Resp. 
+      <lb ed="#T" n="92"/>Esse in loco per solam praesentiam non est 
+      con<lb ed="#T" n="93" break="no"/>ditio corporalis. &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e91888-d1e332">
+                  <lb ed="#T" n="94"/>Ad 4. De successiuo. Resp. Non est simile, 
+      <lb ed="#T" n="95"/>quia nullum est successiuum actu infinitum, 
+      <lb ed="#T" n="96"/>nicut aliquod permanens, scilicet Deus, actu est 
+      <lb ed="#T" n="97"/>infinitum. Vel illud verum est de indiuisibili quod 
+      <lb ed="#T" n="98"/>est terminus quantitatis successiuae, vt nunc; 
+      <lb ed="#T" n="99"/>sed aeternitas indiuisibilis est in omni tempore: 
+      <lb ed="#T" n="100"/>similiter punctus qui est terminus quantitatis) 
+      <lb ed="#T" n="101"/>continuae non potest esse in omni loco, sed Deus 
+      <lb ed="#T" n="102"/>qui est separatus ab omni quantitate potest. 
+      <lb ed="#T" n="103"/>Ad 5. De Boetio. Resp. Loquitur in loco per 
+      <lb ed="#T" n="104"/>continentiam: Deus vero dicitur esse vbique per 
+      <lb ed="#T" n="105"/>praesentiam. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e91888-Dd1e363">
+               <head xml:id="pdt7y6-e91888-Hd1e365">Articulus 2</head>
+               <head xml:id="pdt7y6-e91888-Hd1e367" type="question-title">An esse vbique soli Deo conueniat</head>
+               <p xml:id="pdt7y6-e91888-d1e370">
+                  <lb ed="#T" n="106"/>Articvlvs II. 
+      <lb ed="#T" n="107"/>An esse vbique soli Deo conueniat. 
+</p>
+               <p xml:id="pdt7y6-e91888-d1e377">
+                  <lb ed="#T" n="108"/>AD secundum articulum sic proceditur. 1. 
+      <lb ed="#T" n="109"/>dicit Philosophus, quod particulare est 
+      <lb ed="#T" n="110"/>hic &amp; nunc, vniuersale est vbique &amp; semper: en 
+      <lb ed="#T" n="111"/>go hoc non est solius Dei proprium. 
+    </p>
+               <p xml:id="pdt7y6-e91888-d1e388">
+                  <lb ed="#T" n="112"/>2. Materia prima est in omni loco, quia non 
+      <lb ed="#T" n="113"/>est corpus sine materia, nec locus sine corpore: 
+      <lb ed="#T" n="114"/>ergo vbique. 
+    </p>
+               <p xml:id="pdt7y6-e91888-d1e398">
+                  <lb ed="#T" n="115"/>3. Natura entis est vbique: ergo non solus 
+      <lb ed="#T" n="116"/>Deus. 
+    </p>
+               <p xml:id="pdt7y6-e91888-d1e405">
+                  <lb ed="#T" n="117"/>4. Si Deus fecisset vnum tantum hominem, 
+      <lb ed="#T" n="118"/>&amp; nullam aliam creaturam, nullus esset locus 
+      <lb ed="#T" n="119"/>extra corpus eius; sed anima eius tota esset in 
+      <lb ed="#T" n="120"/>qualibet parte corporis sui: ergo &amp; tota vbique. 
+    </p>
+               <p xml:id="pdt7y6-e91888-d1e416">
+                  <lb ed="#T" n="121"/>5. Non est determinatum angelo quantum 
+      <lb ed="#T" n="122"/>corpus possit assumere: sed ipse totus est in 
+      qua<lb ed="#T" n="123" break="no"/>libet parte assumpti corporis: ergo potest totus 
+      <lb ed="#T" n="124"/>vbique esse. 
+    </p>
+               <p xml:id="pdt7y6-e91888-d1e427">
+                  <lb ed="#T" n="125"/>6. Si duo totaliter vnita sunt, vbicumque est 
+      <lb ed="#T" n="126"/>vnum, &amp; alterum: verbum &amp; caro in Christo 
+      to<lb ed="#T" n="127" break="no"/>taliter vnita sunt: ergo cum verbum vbique sit 
+      <lb ed="#T" n="128"/>similiter &amp; caro. 
+    </p>
+               <p xml:id="pdt7y6-e91888-d1e438">
+                  <lb ed="#T" n="129"/>7. Per confecrationem corpus Christi potest 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0379.xml-->
+      <pb ed="#T" n="304"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>esse non in tot locis quin in pluribus: ergo 
+      vbi<lb ed="#T" n="2" break="no"/>que: ergo non proprium solum Dei est esse vbique 
+    </p>
+               <p xml:id="pdt7y6-e91888-d1e454">
+                  <lb ed="#T" n="3"/>Contra. 1. Boetius probat Spiritum sanctun 
+      <lb ed="#T" n="4"/>esse Deum per hoc quod est vbique, secundum 
+      <lb ed="#T" n="5"/>illud Sap. 1. Repleuit orbem terrarum: ergo 
+      pro<lb ed="#T" n="6" break="no"/>prium est Dei esse vbique. 
+    </p>
+               <p xml:id="pdt7y6-e91888-d1e466">
+                  <lb ed="#T" n="7"/>2. Omne terminatum necesse est in loco 
+      deter<lb ed="#T" n="8" break="no"/>minato esse: sed omne aliud a Deo terminatum  
+      <lb ed="#T" n="9"/>est: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e91888-d1e475">
+                  <lb ed="#T" n="10"/>3. Esse vbique conuenit Deo ratione 
+      immen<lb ed="#T" n="11" break="no"/>sitatis: ergo sicut immensitas est ipsi propria 
+      <lb ed="#T" n="12"/>ita esse vbique. 
+    </p>
+               <p xml:id="pdt7y6-e91888-d1e484">
+                  <lb ed="#T" n="13"/>Respondeo Aliquid esse vbique dupliciter  
+      <lb ed="#T" n="14"/>potest dici: vel per se, vel per accidens: primo 
+      <lb ed="#T" n="15"/>modo proprium est soli Deo, cui conuenit na 
+      <lb ed="#T" n="16"/>turaliter ratione suae essentiae ita quod nullus 
+      <lb ed="#T" n="17"/>locus aut res potest sine ipso esse: secundo 
+      mo<lb ed="#T" n="18" break="no"/>do potest accipidupliciter: aut per accidens 
+      ra<lb ed="#T" n="19" break="no"/>tione sui, aut per accidens ratione loci: 
+      ratio<lb ed="#T" n="20" break="no"/>ne sui, vt quia licet non secundum se, tamer 
+      <lb ed="#T" n="21"/>per partes suas est vbique, sicut si poneremus 
+      <lb ed="#T" n="22"/>corpus aliquod infinitum, illud esset vbique per 
+      <lb ed="#T" n="23"/>accidens, scilicet per partes suas; hoc modo 
+      <lb ed="#T" n="24"/>prima materia &amp; vniuersale &amp; ens possunt dici 
+      <lb ed="#T" n="25"/>vbique esse, diuiduuntur enim in jis in quibus 
+      <lb ed="#T" n="26"/>sunt, nec sunt vbique per esse indiuisibile: ra 
+      <lb ed="#T" n="27"/>tione vero loci, vt si non sit locus alius, tunc 
+      <lb ed="#T" n="28"/>illud quod est in loco illo potest dici vbique 
+      <lb ed="#T" n="29"/>esse: sic anima esset vbique existente vnico ho 
+      <lb ed="#T" n="30"/>mine. 
+    </p>
+               <p xml:id="pdt7y6-e91888-d1e526">
+                  <lb ed="#T" n="31"/>v Per quae patet ad quatuor priora argumenta. 
+      <lb ed="#T" n="32"/>de vniuersali, de materia, de ente, &amp; de anima 
+    </p>
+               <p xml:id="pdt7y6-e91888-d1e533">
+                  <lb ed="#T" n="33"/>Ad 5. De angelo. Resp. Determinatum est 
+      <lb ed="#T" n="34"/>ei in natura, quantum corpus possit accipere, 
+      <lb ed="#T" n="35"/>scilicet secundum quod conuenit operationis 
+      <lb ed="#T" n="36"/>suae immediatae: quamuis non sit determinatum 
+      <lb ed="#T" n="37"/>in nostra scientia. 
+    </p>
+               <p xml:id="pdt7y6-e91888-d1e546">
+                  <lb ed="#T" n="38"/>Ad 6. De carne Christi. Resp. Hoc 
+      intelligi<lb ed="#T" n="39" break="no"/>tur de jis quae vniformiter comparantur ad 
+      lo<lb ed="#T" n="40" break="no"/>cum: nam quamuis anima nostra tota sit unita 
+      <lb ed="#T" n="41"/>manui, non tamen vbicumque est anima ibi 
+      <lb ed="#T" n="42"/>manus. 
+    </p>
+               <p xml:id="pdt7y6-e91888-d1e560">
+                  <lb ed="#T" n="43"/>Ad 7. De consecratione. Resp. Sine 
+      sacerdo<lb ed="#T" n="44" break="no"/>te non potest fieri consecratio: non ergo vbique 
+      <lb ed="#T" n="45"/>quia non potest fieri in eo loco in quo 
+      sacer<lb ed="#T" n="46" break="no"/>dos non est. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e91888-Dd1e572">
+               <head xml:id="pdt7y6-e91888-Hd1e574">Articulus 3</head>
+               <head xml:id="pdt7y6-e91888-Hd1e576" type="question-title">An Deo esse vbique conueniat ab aeterno</head>
+               <p xml:id="pdt7y6-e91888-d1e579">
+                  <lb ed="#T" n="47"/>Articvlvs III. 
+      <lb ed="#T" n="48"/>An Deo esse vbique conueniat ab aeterno. 
+    </p>
+               <p xml:id="pdt7y6-e91888-d1e586">
+                  <lb ed="#T" n="49"/>AD tertium articulum sic proceditur. 1. 
+      di<lb ed="#T" n="50" break="no"/>cit Ambrosius, quod proprium est 
+      Diuini<lb ed="#T" n="51" break="no"/>tatis esse semper &amp; vbique: ergo semper ei 
+      con<lb ed="#T" n="52" break="no"/>uenit: ergo ab aeterno. 
+    </p>
+               <p xml:id="pdt7y6-e91888-d1e597">
+                  <lb ed="#T" n="53"/>2. Sicut vbique distribuit pro omni loco, ita 
+      <lb ed="#T" n="54"/>semper po omni tempore: sed nihilominus 
+      di<lb ed="#T" n="55" break="no"/>ci potest quod Deus ante existentiam creaturae 
+      <lb ed="#T" n="56"/>fuit semper: ergo fuit vbique: ergo ab aeterno 
+      <lb ed="#T" n="57"/>fuit vbique 
+    </p>
+               <p xml:id="pdt7y6-e91888-d1e611">
+                  <lb ed="#T" n="58"/>3. Esse rerum in Deo non requirit actualem 
+      <lb ed="#T" n="59"/>existentiam rerum: ergo videtur quod nec esse 
+      <lb ed="#T" n="60"/>Dei in rebus. 
+    </p>
+               <p xml:id="pdt7y6-e91888-d1e620">
+                  <lb ed="#T" n="61"/>4. Si non ab aeterno fuit ubique, modo est 
+      <lb ed="#T" n="62"/>vbique, ergo est alibi quam prius: ergo motus: 
+      <lb ed="#T" n="63"/>ergo mutatus. 
+    </p>
+               <p xml:id="pdt7y6-e91888-d1e629">
+                  <lb ed="#T" n="64"/>5. Dicitur Deus esse vbique, quia est in 
+      om<lb ed="#T" n="65" break="no"/>nibus rebus quae modo sunt: sed ab aeterno erat 
+      <lb ed="#T" n="66"/>in omnibus rebus quae tunc erant: ergo vbiqque. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0379.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>Contra. 1. Nullum vbi erat: ergo Deus vbique 
+      <lb ed="#T" n="68"/>esse non poterat. 
+    </p>
+               <p xml:id="pdt7y6-e91888-d1e647">
+                  <lb ed="#T" n="69"/>2. Esse vbique connotat actualem respectum 
+      <lb ed="#T" n="70"/>vel effectum in creatura: sed hoc ab aetorno esse 
+      <lb ed="#T" n="71"/>non poterat: ergo nec Deus vbique erat. 
+    </p>
+               <p xml:id="pdt7y6-e91888-d1e656">
+                  <lb ed="#T" n="72"/>Respondeo. Cum Deus vbique esse dicitur  
+      <lb ed="#T" n="73"/>sit distributio large pro vniuerfitate rerum, aut 
+      <lb ed="#T" n="74"/>stricte pro vniuersitate locorum: vtroque vero 
+      <lb ed="#T" n="75"/>modo importatur respectus Dei aliquis ad 
+      crea<lb ed="#T" n="76" break="no"/>turam, qui habet fudari super aliquem Dei 
+      <lb ed="#T" n="77"/>effectum, &amp; ideo requirit alterum extremorum. 
+      <lb ed="#T" n="78"/>actu esse: ideo non potest conuenire ab aeterno 
+      <lb ed="#T" n="79"/>esse vbique 
+    </p>
+               <p xml:id="pdt7y6-e91888-d1e676">
+                  <lb ed="#T" n="80"/>Ad 1. Ambrosij. Resp. Proprium dicitur etiam 
+      <lb ed="#T" n="81"/>quod conuenit omni &amp; soli, nec tamen semper, 
+      <lb ed="#T" n="82"/>sicut homini canescere in senectute: sic etiam 
+      <lb ed="#T" n="83"/>Dei proprium est esse creatorem: nec tamen hoc 
+      <lb ed="#T" n="84"/>proprium adueniens mutat ipsum, quia 
+      rela<lb ed="#T" n="85" break="no"/>tiuum est non absolutum: sicut si circa me 
+      im<lb ed="#T" n="86" break="no"/>mobilem siat domus, incipio esse in domo 
+      mu<lb ed="#T" n="87" break="no"/>tatione alterius non mea. 
+    </p>
+               <p xml:id="pdt7y6-e91888-d1e697">
+                  <lb ed="#T" n="88"/>Ad 2. De semper &amp; vbique. Resp. Non est. 
+      <lb ed="#T" n="89"/>simile, quia semper in intellectu nominis non 
+      <lb ed="#T" n="90"/>importat tempus: vnde accipi potest pro 
+      inde<lb ed="#T" n="91" break="no"/>ficientia aeternitatis: sed vbique nomine suo 
+      in<lb ed="#T" n="92" break="no"/>cludit locum. 
+    </p>
+               <p xml:id="pdt7y6-e91888-d1e710">
+                  <lb ed="#T" n="93"/>Ad 3. De existentia rerum in Deo. Resp. Non 
+      <lb ed="#T" n="94"/>est simile, quia effectus est in causa in potentia: 
+      <lb ed="#T" n="95"/>sed causa non potest esse in effectu nisi sit actu. 
+    </p>
+               <p xml:id="pdt7y6-e91888-d1e719">
+                  <lb ed="#T" n="96"/>Ad 4. Est alibi quam prius &amp;c. Resp. Non 
+      se<lb ed="#T" n="97" break="no"/>quitur quod sit ipse mutatus, sed aliud circa 
+      <lb ed="#T" n="98"/>ipsum exterius: quia esse in aliquo non dicit quid  
+      <lb ed="#T" n="99"/>inhaerens sed assistens, secundum Boet. lib. de 
+      <lb ed="#T" n="100"/>Trinit. &amp; patet per exemplum positum de 
+      do<lb ed="#T" n="101" break="no"/>mo facta circa aliquem. 
+    </p>
+               <p xml:id="pdt7y6-e91888-d1e735">
+                  <lb ed="#T" n="102"/>Ad 5. Tunc erat in omnibus rebus &amp;c. Resp. 
+      <lb ed="#T" n="103"/>AEquiuocatur esse in, quia Deus est in rebus aeter 
+      <lb ed="#T" n="104"/>nis per essentiae unitatem: sed in rebus creatis 
+      <lb ed="#T" n="105"/>per praesentiam vniuersalem quae significatur  
+      <lb ed="#T" n="106"/>quando Deus dicitur esse vbique. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

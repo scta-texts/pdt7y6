@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="112"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e33882"><!-- l1d14q1 -->
+            <head xml:id="pdt7y6-e33882-Hd1e99">Quaestio 1</head>
+            <head xml:id="pdt7y6-e33882-Hd1e101" type="question-title">De processione temporali Spiritus Sancti</head>
+            <p xml:id="pdt7y6-e33882-d1e104">
+               <cb ed="#T" n="c"/>
+               <lb ed="#T" n="61"/>QVESTIO VNICA. 
+      <lb ed="#T" n="62"/>DE PROCESSIOIIE TEMPORALI 
+      <lb ed="#T" n="63"/>SPIRITVS SANCTI 
+    </p>
+            <p xml:id="pdt7y6-e33882-d1e115">
+               <lb ed="#T" n="64"/>QVaeruntur hic de processione temporali 
+      se<lb ed="#T" n="65" break="no"/>ptem. 
+      <lb ed="#T" n="66"/>Primo an sit. 
+      <lb ed="#T" n="67"/>Secundo quid sit. 
+      <lb ed="#T" n="68"/>Tertio cuius sit, 
+      <lb ed="#T" n="69"/>Quarto qualiter differt a processione aeterna. 
+      <lb ed="#T" n="70"/>Quinto an in ipsa personaliter detur Spiritus 
+      <lb ed="#T" n="71"/>sanctus. 
+      <lb ed="#T" n="72"/>Sexto an dentur cum eo dona gratiae gratum 
+      <lb ed="#T" n="73"/>facientis. 
+      <lb ed="#T" n="74"/>Septimo an Spiritus sanctus detur a viris 
+      san<lb ed="#T" n="75" break="no"/>ctis. 
+    </p>
+            <div xml:id="pdt7y6-e33882-Dd1e144">
+               <head xml:id="pdt7y6-e33882-Hd1e146">Articulus 1</head>
+               <head xml:id="pdt7y6-e33882-Hd1e148" type="question-title">An spiritus sanctus temporaliter procedat</head>
+               <p xml:id="pdt7y6-e33882-d1e151">
+                  <lb ed="#T" n="76"/>Articvlvs I. 
+      <lb ed="#T" n="77"/>An spiritus sanctus temporaliter procedat.
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e158">
+                  <lb ed="#T" n="78"/>AD primum proceditur sic. 1. Sicut generatio 
+      <lb ed="#T" n="79"/>conuenit Filio, ita processio conuenit 
+      Spi<lb ed="#T" n="80" break="no"/>ritui sancto: sed Filius non dicitur temporaliter  
+      <lb ed="#T" n="81"/>generari, nisi ratione naturae temporaliter 
+      as<lb ed="#T" n="82" break="no"/>sumptae: cum ergo Spiritus sanctus nullam na¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0188.xml-->
+      <pb ed="#T" n="113"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>turam temporalem assumpserit, non potest 
+      dici<lb ed="#T" n="2" break="no"/>temporaliter procedere. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e182">
+                  <lb ed="#T" n="3"/>2. Processio Spiritus sancti idem est quod eius 
+      <lb ed="#T" n="4"/>spiratio: sed nulla est eius temporalis spiratio: 
+      <lb ed="#T" n="5"/>ergo nec temporalis processio. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e192">
+                  <lb ed="#T" n="6"/>3. Spiritus sanctus procedendo accipit esse: si 
+      <lb ed="#T" n="7"/>ergo procedit temporaliter, temporaliter accipit,  
+      <lb ed="#T" n="8"/>esse: sed hoc est falsum: ergo primum. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e201">
+                  <lb ed="#T" n="9"/>4. Illud per quod eleuatur creatura supra 
+      tem<lb ed="#T" n="10" break="no"/>pus non potest dici temporale: sed per 
+      proces<lb ed="#T" n="11" break="no"/>sionem Spititus sancti in creaturam, ipsa 
+      eleua<lb ed="#T" n="12" break="no"/>tur supra tempus, quia vt ait Augustinus lib. de 
+      <lb ed="#T" n="13"/>Trinit. cum aliquid aeternum capimus non 
+      su<lb ed="#T" n="14" break="no"/>mus in tempore: ergo non potest dici temporale. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e217">
+                  <lb ed="#T" n="15"/>5. Denominatio debet fieri a digniori: sed in 
+      <lb ed="#T" n="16"/>processione temporali includitur aeternum cum 
+      <lb ed="#T" n="17"/>temporali: ergo potius debet dici aeterna, quam 
+      <lb ed="#T" n="18"/>temporalis. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e228">
+                  <lb ed="#T" n="19"/>6. Duplex est processio, causalis &amp; localis: sic 
+      <lb ed="#T" n="20"/>ergo Spiritus procedit temporaliter, aut ergo 
+      <lb ed="#T" n="21"/>processione causali, &amp; ita temporale erit causa 
+      <lb ed="#T" n="22"/>aeterni, aut locali, &amp; ita Spiritus mouebitur de 
+      <lb ed="#T" n="23"/>loco ad locum: vtrumque est falsum: ergo non 
+      <lb ed="#T" n="24"/>potest dici procedere temporaliter  
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e244">
+                  <lb ed="#T" n="25"/>7. Processio Spiritus sancti siue actiue siue 
+      pas<lb ed="#T" n="26" break="no"/>siue dicta est operatio Dei: sed operatio Dei in 
+      <lb ed="#T" n="27"/>aeternitate est, non in tempore: vnde dicitur lib.  
+      <lb ed="#T" n="28"/>de causis, Inter rem namque, cuius substantia &amp; 
+      <lb ed="#T" n="29"/>operatio est in aeternitate, &amp; cuius substantia &amp; 
+      <lb ed="#T" n="30"/>operatio est in tempore, erit media res cuius 
+      sub<lb ed="#T" n="31" break="no"/>stantia est in momento aeterir itatis, &amp; operatio in 
+      <lb ed="#T" n="32"/>momento temporis: ergo non potest dici 
+      pro<lb ed="#T" n="33" break="no"/>cessio temporalis. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e266">
+                  <lb ed="#T" n="34"/>Contra 1. Spiritus sanctus habetur a creatura 
+      <lb ed="#T" n="35"/>ex tempore: sed non habetur nisi secundum 
+      <lb ed="#T" n="36"/>quod procedit m ipsam a Patre&amp; Filio: ergo 
+      pro<lb ed="#T" n="37" break="no"/>cedit ab illis in creaturam ex tempore. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e278">
+                  <lb ed="#T" n="38"/>2. Donum, quando datur, procedit a dante in 
+      <lb ed="#T" n="39"/>recipientem: sed Spiritus sanctus datur a Patre &amp; 
+      <lb ed="#T" n="40"/>Filio temporaliter creaturae: ergo temporaliter 
+      <lb ed="#T" n="41"/>procedit ab eis in creaturam. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e289">
+                  <lb ed="#T" n="42"/>3. Spiritus sanctus vt hic etiam dicitur, 
+      proce<lb ed="#T" n="43" break="no"/>dit a Patre &amp; Filio ad sanctificandam creaturam: 
+      <lb ed="#T" n="44"/>sed creaturae sanctificatio non potest esse nisi ex 
+      <lb ed="#T" n="45"/>ex tempore: ergo huiusmodi processio 
+      tempo<lb ed="#T" n="46" break="no"/>ralis est, 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e302">
+                  <lb ed="#T" n="47"/>Respondeo. Spiritus sanctus a Patre &amp; Filio: 
+      <lb ed="#T" n="48"/>procedit vt amor: processus vero amoris est ab 
+      <lb ed="#T" n="49"/>aliquo in aliquid: procedere vero ab aliquo in 
+      <lb ed="#T" n="50"/>aliquid dupliciter est, velvt in objectum tantum, 
+      <lb ed="#T" n="51"/>vel vt in subjectum susceptibile, accipiendo 
+      lar<lb ed="#T" n="52" break="no"/>ge subjectum susceptibile quocumque modo 
+      <lb ed="#T" n="53"/>susceptionis. Primo modo, cum objectum 
+      amo<lb ed="#T" n="54" break="no"/>ris, qui est Spiritus sanctus sit aeternum, eius 
+      pro<lb ed="#T" n="55" break="no"/>cessio est aeterna: secundo modo, cum subjectum 
+      <lb ed="#T" n="56"/>susceptibile non sit nisi temporale, eius processio. 
+      <lb ed="#T" n="57"/>est temporalis: ex qua processione temporali, 
+      <lb ed="#T" n="58"/>cum causetur in creatura noua habitudo 
+      creatu<lb ed="#T" n="59" break="no"/>ra ad ipsum &amp; non e conuerso causatur in 
+      crea<lb ed="#T" n="60" break="no"/>tura quaedam relatio &amp; dependentia secundum 
+      <lb ed="#T" n="61"/>rem, cui a parte Spiritus sancti respondet 
+      cor<lb ed="#T" n="62" break="no"/>relatio secundum intellectum tantum, sicut  
+      <lb ed="#T" n="63"/>cum dicitur Deus, dominus noster, vel refugium. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e341">
+                  <lb ed="#T" n="64"/>Ad 1. De generatione Filij. Resp. Non est 
+      si<lb ed="#T" n="65" break="no"/>mile, quia generatio dicit respectum ad 
+      princi<lb ed="#T" n="66" break="no"/>pium a quo tantum; sed processio importat etia 
+      <lb ed="#T" n="67"/>respectum ad terminum in quem: Deus vero ad 
+      <lb ed="#T" n="68"/>creaturam, vt ad principium a quo, respectum 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0188.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="69"/>habere non potest ratione diuinae naturae, sed vt 
+      <lb ed="#T" n="70"/>ad terminum potest: Christus vero habet 
+      com<lb ed="#T" n="71" break="no"/>parationem, vt ad principium a quo, ad Patrem 
+      <lb ed="#T" n="72"/>solum ratione naturae diuinae, &amp; ad Matrem 
+      ra<lb ed="#T" n="73" break="no"/>tione naturae humanae: terminus vero 
+      proces<lb ed="#T" n="74" break="no"/>sionis personae diuinae duplex est, vel vt 
+      obje<lb ed="#T" n="75" break="no"/>ctum tantum, vel etiam vt subjectum. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e374">
+                  <lb ed="#T" n="76"/>Ad 2. De spiratione. Resp. Quamuis idem 
+      <lb ed="#T" n="77"/>sint re, differunt tamen modo significandi: quia 
+      <lb ed="#T" n="78"/>spiratio dicit respectum ad principium a quo, 
+      <lb ed="#T" n="79"/>non ad terminum in quem; processio vero 
+      vtrum<lb ed="#T" n="80" break="no"/>que, sed habet maltiplicari respectu termini in 
+      <lb ed="#T" n="81"/>quem, non principij a quo, 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e390">
+                  <lb ed="#T" n="82"/>Ad 3. Procedendo accipit esse. Resp. 
+      Falla<lb ed="#T" n="83" break="no"/>cia accidentis est: nam procedere temporaliter  
+      <lb ed="#T" n="84"/>addit accidens quoddam ex parte termini in 
+      <lb ed="#T" n="85"/>quem, scilicet effectum connotatum, supra 
+      <lb ed="#T" n="86"/>procedere simpliciter dictum: propter quod, 
+      <lb ed="#T" n="87"/>quamuis procedendo simpliciter accipiat esse, 
+      <lb ed="#T" n="88"/>non tamen procedendo temporaliter: sicut 
+      bal<lb ed="#T" n="89" break="no"/>neum addit accidens. quoddam supra naturam 
+      <lb ed="#T" n="90"/>aquae, ratione cuius, quamuis aqua sit naturalis, 
+      <lb ed="#T" n="91"/>tamen balneum non potest dici naturale. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e415">
+                  <lb ed="#T" n="92"/>Ad 4. Illud per quod eleuatur &amp;c. Resp. 
+      <lb ed="#T" n="93"/>Temporale aliquid potest dici dupliciter: vel 
+      <lb ed="#T" n="94"/>quia sub tempore, vel quia in tempore: primo 
+      <lb ed="#T" n="95"/>modo temporale dicitur, quod subjacet 
+      varia<lb ed="#T" n="96" break="no"/>sioni temporali, &amp; hoc modo id per quod 
+      ele<lb ed="#T" n="97" break="no"/>uamur supra tempus non est in tempore, vt 
+      gra<lb ed="#T" n="98" break="no"/>tia: secundo modo temporale dicitur illud quod 
+      <lb ed="#T" n="99"/>incipit esse in tempore; hoc modo temporalis 
+      <lb ed="#T" n="100"/>est processio Spiritus sancti in creaturam. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e437">
+                  <lb ed="#T" n="101"/>Ed 5. Denominatio debet fieri a digniori, 
+      <lb ed="#T" n="102"/>Resp. Denominatio non semper sit a digniori: 
+      <lb ed="#T" n="103"/>sed aliquando ab euidentiori, sicut homo 
+      dici<lb ed="#T" n="104" break="no"/>tur ab humo propter corpus, quod est 
+      euiden<lb ed="#T" n="105" break="no"/>tius anima, licet ignobilius; ita temporale in 
+      <lb ed="#T" n="106"/>processione temporali Spiritus sancti euidentius 
+      <lb ed="#T" n="107"/>est, licet non dignius, 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e455">
+                  <lb ed="#T" n="108"/>Ad 6. De duplici processione. Resp. Nec 
+      cau<lb ed="#T" n="109" break="no"/>saliter procedit nec localiter, sed ad 
+      similitudi<lb ed="#T" n="110" break="no"/>ne vtriusque, quoad aliquid. Nam quoad 
+      respe<lb ed="#T" n="111" break="no"/>ctum ad terminum a quo, habet magis 
+      similitu<lb ed="#T" n="112" break="no"/>dinem cum causali: quoad respectum ad 
+      termi<lb ed="#T" n="113" break="no"/>num in quem, cum locali: nec tunc temporale 
+      <lb ed="#T" n="114"/>est causa aeterni, sed e conuerso: quia 
+      procede<lb ed="#T" n="115" break="no"/>re temporaliter dicitur secundum quod Iy 
+      tem<lb ed="#T" n="116" break="no"/>poraliter determinat verbum a parte termini in 
+      <lb ed="#T" n="117"/>quem, non a quo, id est propter effectum 
+      tem<lb ed="#T" n="118" break="no"/>poralem, non propter originem temporalem. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e481">
+                  <lb ed="#T" n="119"/>Ad 7 Operatio Dei est in aeternitate. Resp. 
+      <lb ed="#T" n="120"/>Quamuis operatio qua operatur sit in aeternitate, 
+      <lb ed="#T" n="121"/>quia operatur per essentiam propriam; tamen 
+      <lb ed="#T" n="122"/>operatio quam operatur, id est effectus, in 
+      tem<lb ed="#T" n="123" break="no"/>pore est; &amp; ille connotatur in processione 
+      tem<lb ed="#T" n="124" break="no"/>porali, &amp; ideo ratione illius dicitur processio 
+      <lb ed="#T" n="125"/>pperatio temporalis, non ex parte operantis, 
+      <lb ed="#T" n="126"/>sed ex parte rei operatae. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e33882-Dd1e503">
+               <head xml:id="pdt7y6-e33882-Hd1e505">Articulus 2</head>
+               <head xml:id="pdt7y6-e33882-Hd1e507" type="question-title">Quid sit temporalis processio Spiritus sancti</head>
+               <p xml:id="pdt7y6-e33882-d1e510">
+                  <lb ed="#T" n="127"/>Articvlvs II. 
+      <lb ed="#T" n="128"/>Quid sit temporalis processio Spiritus sancti. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e517">
+                  <lb ed="#T" n="129"/>AD secundum sic proceditur. dicit Magister,  
+      <lb ed="#T" n="130"/>quod processio temporalis est qua Spiritus 
+      <lb ed="#T" n="131"/>sanctus procedit a Patre &amp; Filio ad 
+      sanctifican<lb ed="#T" n="132" break="no"/>creaturam: sed non sanctificat nisi creaturam 
+      <lb ed="#T" n="133"/>rationalem: ergo non procedit nisi in ipsam. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e530">
+                  <lb ed="#T" n="134"/>Contra 1. Spiritus sanctus pro¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0189.xml-->
+      <pb ed="#T" n="114"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>cessit temporaliter in columbam, &amp; linguas 
+      <lb ed="#T" n="2"/>igneas, non tamen sanctificauit ea. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e547">
+                  <lb ed="#T" n="3"/>2. Sanctificatio creaturae communis est 
+      toti<lb ed="#T" n="4" break="no"/>Trinitati: processio temporalis est propria 
+      Spi<lb ed="#T" n="5" break="no"/>ritus sancti: ergo male definitur per 
+      sanctifica<lb ed="#T" n="6" break="no"/>tionem creaturae. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e558">
+                  <lb ed="#T" n="7"/>3. Proc edit Spiritus sanctus quando datur  
+      <lb ed="#T" n="8"/>Prophetae ad prophetandum, nec tamen 
+      pro<lb ed="#T" n="9" break="no"/>phetia est donum sanctificationis. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e567">
+                  <lb ed="#T" n="10"/>4. Processit in Christum in Baptismo: 
+      Chri<lb ed="#T" n="11" break="no"/>stus autem non fuit sanctificabilis amplius, 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e574">
+                  <lb ed="#T" n="12"/>5. Quaeritur in quo differunt Spiritus sancti 
+      <lb ed="#T" n="13"/>processio temporalis, donatio, missio, 
+      appa<lb ed="#T" n="14" break="no"/>ritio. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e583">
+                  <lb ed="#T" n="15"/>Respondeo. Processio temporalis tria 
+      im<lb ed="#T" n="16" break="no"/>portat, scilicet respectumad id a quo procedit, 
+      <lb ed="#T" n="17"/>&amp; ad id in quod procedit, &amp; ad effectum quem 
+      <lb ed="#T" n="18"/>efficit, &amp; conotat: haec vero tria tanguntur in 
+      des<lb ed="#T" n="19" break="no"/>scriptione posita. Nam id a quo, est Pater &amp; 
+      Fi<lb ed="#T" n="20" break="no"/>lius; id in quod, creatura est; effectus vero 
+      sancti<lb ed="#T" n="21" break="no"/>ficatio est. Ideo sufficienter ibi describitur.  
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e601">
+                  <lb ed="#T" n="22"/>Ad 1. De processu Spiritus sancti in 
+      colum<lb ed="#T" n="23" break="no"/>bam. Resp. In illam processit vt in signum, non 
+      <lb ed="#T" n="24"/>vt in subjectum susceptibile: sicut sapientia. 
+      <lb ed="#T" n="25"/>magistri aliter procedit in vocem, aliter in 
+      <lb ed="#T" n="26"/>auditorem. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e615">
+                  <lb ed="#T" n="27"/>Ad 2. Sanctificatio communis est &amp;c. Resp. 
+      <lb ed="#T" n="28"/>Sanctificatio quamuis sit communis toti 
+      Trini<lb ed="#T" n="29" break="no"/>tati, tamen appropriatur Spiritui sancto, 
+      ratio<lb ed="#T" n="30" break="no"/>ne amoris qui est principium totius 
+      sancti<lb ed="#T" n="31" break="no"/>ficationis. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e628">
+                  <lb ed="#T" n="32"/>Ad 3. De dono prophetiae. Resp. Quamuis 
+      <lb ed="#T" n="33"/>libi detur Spiritus sanctus ad aliquem actum, 
+      <lb ed="#T" n="34"/>non tamen simpliciter, id est ad inhabitandum: 
+      <lb ed="#T" n="35"/>vnde nec simpliciter dicitur tunc procedere, 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e639">
+                  <lb ed="#T" n="36"/>Ad 4. De Christo. Resp. Hic describitur 
+      <lb ed="#T" n="37"/>processio inuisibilis, non visibilis, qualis fuit 
+      <lb ed="#T" n="38"/>illa qua processit in Christum. Vel processio 
+      <lb ed="#T" n="39"/>illa fuit ad sanctitatis ostensionem, non 
+      efficien<lb ed="#T" n="40" break="no"/>tiam: sanctificari vero dicitur large ad vtrumque 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e652">
+                  <lb ed="#T" n="41"/>Ad 5. Quo quaeritur &amp;c. Resp. Illa quatuor 
+      <lb ed="#T" n="42"/>idem sunt in re, sed differunt ratione: nam missio 
+      <lb ed="#T" n="43"/>dicit principaliter respectum ad principiuma 
+      <lb ed="#T" n="44"/>quo: processio temporalis vero ad terminum. 
+      <lb ed="#T" n="45"/>in quem: donatio vero ad effectum, seu ad 
+      mo<lb ed="#T" n="46" break="no"/>dum: apparitio vero ad signum visibile in quo 
+      <lb ed="#T" n="47"/>manifestatur: vnde caetera tria conueniunt 
+      pro<lb ed="#T" n="48" break="no"/>cessioni visibili &amp; inuisibili, sed apparitio 
+      pro<lb ed="#T" n="49" break="no"/>cessioni visibili tantum. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e33882-Dd1e675">
+               <head xml:id="pdt7y6-e33882-Hd1e677">Articulus 3</head>
+               <head xml:id="pdt7y6-e33882-Hd1e679" type="question-title">
+  An processio temporalis sit Spiritus sancti propria
+</head>
+               <p xml:id="pdt7y6-e33882-d1e682">
+                  <lb ed="#T" n="50"/>ARTICVLVS III 
+      <lb ed="#T" n="51"/>An processio temporalis sit Spiritus sancti propria. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e689">
+                  <lb ed="#T" n="52"/>AD tertium sic proceditur. Ioan. 10. Ego ex 
+      <lb ed="#T" n="53"/>Deo processi &amp; veni: &amp; loquitur de 
+      pro<lb ed="#T" n="54" break="no"/>cessione aduentus in carnem; illa vero 
+      tempo<lb ed="#T" n="55" break="no"/>ralis est: ergo Filio conuenit processio 
+      tempo<lb ed="#T" n="56" break="no"/>ralis. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e702">
+                  <lb ed="#T" n="57"/>2. Spiritus sanctus procedit temporaliter  
+      <lb ed="#T" n="58"/>quando venit temporaliter ad sanctificandam 
+      <lb ed="#T" n="59"/>creaturam: sed Filius ad hoc venit: ergo ei 
+      con<lb ed="#T" n="60" break="no"/>uenit processio temporalis. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e714">
+                  <lb ed="#T" n="61"/>3. Beda dicit quod missio Spiritus sancti est 
+      <lb ed="#T" n="62"/>eius temporalis processio: sed Filio conuenit 
+      <lb ed="#T" n="63"/>missio, sicut Spiritui sancto: ergo temporalis 
+      <lb ed="#T" n="64"/>processio. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e725">
+                  <lb ed="#T" n="65"/>Contra. 1. Processio temporalis includit in 
+      <lb ed="#T" n="66"/>se processionem aeternam: ergo cum Spiritus 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0189.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>sancti proprietas sit aeterna processio, 
+      tempo<lb ed="#T" n="68" break="no"/>ralis processio conuenit soli Spiritui sancto. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e741">
+                  <lb ed="#T" n="69"/>2. Solius Spiritus sancti processio secundum 
+      <lb ed="#T" n="70"/>sanctos inuenitur distingui in processionem 
+      <lb ed="#T" n="71"/>aeternam &amp; temporale: ergo non conuenit Filio. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e750">
+                  <lb ed="#T" n="72"/>Respondeo. Proceisio in Diuinis dupliciter  
+      <lb ed="#T" n="73"/>accipitur: vno modo communiter, secundum 
+      <lb ed="#T" n="74"/>quod importat respectum ad principium a quo 
+      <lb ed="#T" n="75"/>tantum: alio modo stricte &amp; proprie, secundum 
+      <lb ed="#T" n="76"/>quod importat respectum ad principium a quo, 
+      <lb ed="#T" n="77"/>&amp; ad terminum in quem: primo modo habet  
+      <lb ed="#T" n="78"/>similitudinem cum sola processione causali, 
+      se<lb ed="#T" n="79" break="no"/>cundo modo cum causali &amp; locali. Quia ergo 
+      <lb ed="#T" n="80"/>Filius ab aeterno non procedit vt tendens 
+      <lb ed="#T" n="81"/>in alterum, Spiritus sanctus vero vt tendens in 
+      <lb ed="#T" n="82"/>alterum, ideo Spiritui sancto appropriatur 
+      pro<lb ed="#T" n="83" break="no"/>cessio: &amp; quia in processione temporali 
+      inclu<lb ed="#T" n="84" break="no"/>ditur ratio processionis aeternae, ideo missio. 
+      <lb ed="#T" n="85"/>Filij non proprie dicitur processio temporalis; 
+      <lb ed="#T" n="86"/>communiter tamen loquendo, missio Filij 
+      tem<lb ed="#T" n="87" break="no"/>poralis posset dici processio. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e787">
+                  <lb ed="#T" n="88"/>1. De Ioan. Resp. Procedere accipitur 
+      com<lb ed="#T" n="89" break="no"/>muniter, non stricte &amp; proprie. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e794">
+                  <lb ed="#T" n="90"/>Ad 2. Filius venit ad sanctificandam 
+      creatu<lb ed="#T" n="91" break="no"/>ram. Resp. Non ita per se &amp; proprie, sicut 
+      Spi<lb ed="#T" n="92" break="no"/>ritus sanctus: non enim sanctificat nisi in 
+      quan<lb ed="#T" n="93" break="no"/>tum dat Spiritum sanctificantem. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e806">
+                  <lb ed="#T" n="94"/>Ad 3. de missione. Resp. Non est simile, quia 
+      <lb ed="#T" n="95"/>missio Spiritus sancti est vt doni, sed Filij non, 
+      <lb ed="#T" n="96"/>sed tontum vt dati: non enim procedit per 
+      mo<lb ed="#T" n="97" break="no"/>dum doni ab aeterno, sicut Spiritus sanctus. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e33882-Dd1e818">
+               <head xml:id="pdt7y6-e33882-Hd1e820">Articulus 4</head>
+               <head xml:id="pdt7y6-e33882-Hd1e822" type="question-title">
+  Qualiter processio temporalis differat ab aeterna.
+</head>
+               <p xml:id="pdt7y6-e33882-d1e825">
+                  <lb ed="#T" n="98"/>ARTICVLVS IIII. 
+      <lb ed="#T" n="99"/>Qualiter processio temporalis differat ab aeterna. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e832">
+                  <lb ed="#T" n="100"/>AD quartum sic proceditur. 1. AEternum &amp; 
+      <lb ed="#T" n="101"/>teporale essentialiter differunt: ergo 
+      proces<lb ed="#T" n="102" break="no"/>sio aeterna &amp; temporalis essentialiter differunt. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e841">
+                  <lb ed="#T" n="103"/>2. Quaecumque habent ordinem, habent &amp; 
+      <lb ed="#T" n="104"/>distinctionem: sed processio aeterna &amp; 
+      tempora<lb ed="#T" n="105" break="no"/>lis habent ordinem, quia prior est aeterna quam 
+      <lb ed="#T" n="106"/>temporalis: ergo &amp; distinctionem: ergo non 
+      <lb ed="#T" n="107"/>sunt eadem. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e855">
+                  <lb ed="#T" n="108"/>3. Idem non est signum sui ipsius: sed 
+      processio<lb ed="#T" n="109" break="no"/>tem poralis est signum aeternae: ergo non sunt 
+      <lb ed="#T" n="110"/>idem. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e864">
+                  <lb ed="#T" n="111"/>4. Essentialiter differunt generatio Filij 
+      aeter<lb ed="#T" n="112" break="no"/>na &amp; temporalis: ergo a simili essentialiter 
+      diffe<lb ed="#T" n="113" break="no"/>runt processio Spiritus sancti aeterna &amp; 
+      tempo<lb ed="#T" n="114" break="no"/>ralis: sicut enim se habet Filius ad 
+      generatio<lb ed="#T" n="115" break="no"/>nem, sic se habet Spiritus sanctus ad 
+      pro<lb ed="#T" n="116" break="no"/>cessionem. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e880">
+                  <lb ed="#T" n="117"/>5. Si essentialiter idem sunt, aut ergo vna 
+      ad<lb ed="#T" n="118" break="no"/>dit aliquid super alteram, aut nihil: si nihil, 
+      <lb ed="#T" n="119"/>ergo non est ratio, quare vna dicatur aeterna, 
+      <lb ed="#T" n="120"/>aItera temporalis; si aliquid, aut ergo aeterna 
+      <lb ed="#T" n="121"/>super temporalem, aut e conuerso: si aeterna 
+      <lb ed="#T" n="122"/>super temporalem: ergo supponit eam: ergo 
+      <lb ed="#T" n="123"/>illa prior est: si e conuerso ergo aeterna est 
+      im<lb ed="#T" n="124" break="no"/>perfecta, quia perfecto non potest fieri additio¬ 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e900">
+                  <lb ed="#T" n="125"/>6. Temporali processione procedit a seipso, 
+      <lb ed="#T" n="126"/>vt habetur dist. 15. aeterna vero non: ergo non 
+      <lb ed="#T" n="127"/>est eadem processio. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e909">
+                  <lb ed="#T" n="128"/>Contra. 1. Processio teniporalis addit 
+      res<lb ed="#T" n="129" break="no"/>pectum temporalem ad processionem aeternam: 
+      <lb ed="#T" n="130"/>sed respectus huiusmodi, cum non sit realis 
+      <lb ed="#T" n="131"/>non variat rei essentiam: ergo eadem est 
+      essen<lb ed="#T" n="132" break="no"/>tialiter processio aeterna &amp; temporalis.
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e922">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0190.xml-->
+                  <pb ed="#T" n="115"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>2. Sicut dis, runt a parte solis lucere &amp; 
+      illu<lb ed="#T" n="2" break="no"/>minare, sic a Pete Spiritus sancti procedere 
+      <lb ed="#T" n="3"/>aeternaliter &amp; prodere ad sanctificationem 
+      <lb ed="#T" n="4"/>creaturae: ergo sicut se, &amp; illuminare non 
+      dif<lb ed="#T" n="5" break="no"/>ferunt in sole, ita proced: aeternaliter&amp; 
+      tempo<lb ed="#T" n="6" break="no"/>raliter non differunt essentiali in Spiritu sancto 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e945">
+                  <lb ed="#T" n="7"/>3. Idem simpliciter ab ijsdem An pr¬cedit 
+      di<lb ed="#T" n="8" break="no"/>uersis processionibus; cum ergo Speitus sa. ctu 
+      <lb ed="#T" n="9"/>sit persona simplex &amp; ab eisdem procadat 
+      aetei<lb ed="#T" n="10" break="no"/>naliter &amp; temporaliter, non sunt diuersae 
+      pro<lb ed="#T" n="11" break="no"/>cessiones aeterna &amp; temporalis 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e958">
+                  <lb ed="#T" n="12"/>4. Quae non sunt eiusdem rationis non 
+      con<lb ed="#T" n="13" break="no"/>numerantur, non enim dicitur quod homo pictus 
+      <lb ed="#T" n="14"/>&amp; homo verus sint duo homines: sed processio 
+      <lb ed="#T" n="15"/>aeterna &amp; temporalis non sunt eiusdem rationis: 
+      <lb ed="#T" n="16"/>ergo non connumerantur. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e971">
+                  <lb ed="#T" n="17"/>Respondeo. Processio alicuius ab aliquo 
+      po<lb ed="#T" n="18" break="no"/>test intelligi geminati quatuor modis: aut 
+      gemi<lb ed="#T" n="19" break="no"/>natione eorum a quibus procedit, vt processio 
+      <lb ed="#T" n="20"/>filij a patre &amp; matre: aut geminatione 
+      mo<lb ed="#T" n="21" break="no"/>dorum quibus procedit, vt processio notitiae &amp; 
+      <lb ed="#T" n="22"/>amoris a mente: aut geminatione ipsorum 
+      pro<lb ed="#T" n="23" break="no"/>ccoentium, vt processio geminorum ab ijsdem 
+      <lb ed="#T" n="24"/>Patre &amp; matre: aut geminatione terminorum, vt 
+      <lb ed="#T" n="25"/>geminatur dilectio Dei &amp; proximi; &amp; hoc dupli 
+      <lb ed="#T" n="26"/>citer, aut terminorum non cordinatorum, vt actu 
+      <lb ed="#T" n="27"/>dilectionis qua homo diligit se, &amp; qua diligit  
+      <lb ed="#T" n="28"/>proximum, aut coordinatorum, vt actus 
+      dile<lb ed="#T" n="29" break="no"/>ctionis, quo diligit Deum, &amp; quo diligit 
+      proxi<lb ed="#T" n="30" break="no"/>mum propter Deum: quae sic geminantur non 
+      <lb ed="#T" n="31"/>oportet differre essentialiter, vt a parte solis actus 
+      <lb ed="#T" n="32"/>lucendi, illuminandi, &amp; liquefaciendi. Hoc 
+      vlti<lb ed="#T" n="33" break="no"/>mo modo geminatur processio Spiritus sancti 
+      <lb ed="#T" n="34"/>aeterna qua procedit a Patre in Filium, &amp; e 
+      con<lb ed="#T" n="35" break="no"/>uerso vt in objectum; &amp; temporalis, qua al 
+      <lb ed="#T" n="36"/>vtroque procedit vlterius in creatura vt in sub 
+      <lb ed="#T" n="37"/>jectum (large accipiendo subjectum omne illuo 
+      <lb ed="#T" n="38"/>in quo aliquid recipitur quolibet modo) ex quo 
+      <lb ed="#T" n="39"/>processu consequitur effectus in creatura, &amp; ex 
+      <lb ed="#T" n="40"/>effectu respectus quidam realis ad Spiritum 
+      san<lb ed="#T" n="41" break="no"/>ctum, cui correspondet in Spiritu sancto 
+      respe<lb ed="#T" n="42" break="no"/>ctus secundum intellectum solum. Non ergo 
+      <lb ed="#T" n="43"/>differunt penes id quod procedit, nec penes 
+      prin<lb ed="#T" n="44" break="no"/>cipium a quo procedit, sed penes terminum 
+      <lb ed="#T" n="45"/>propter effectum in illo consecutum, &amp; respe 
+      <lb ed="#T" n="46"/>ctum ex effectu causatum. Non tamen intelligas 
+      <lb ed="#T" n="47"/>quod Spiritus sanctus secundum se sit in homine 
+      <lb ed="#T" n="48"/>vt accidens in subjecto, sed secundum dona suas 
+      <lb ed="#T" n="49"/>ipse vero secundum se est ibi, vt motor separatu 
+      <lb ed="#T" n="50"/>Iin moto. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1047">
+                  <lb ed="#T" n="51"/>Ad 1. AEternum &amp; temporale &amp;c. Resp. Quas 
+      <lb ed="#T" n="52"/>do aliquid dicitur aeternum per essentiam, &amp; aliuo 
+      <lb ed="#T" n="53"/>temporale per essentiam, tunc differunt 
+      essentia<lb ed="#T" n="54" break="no"/>liter: sed processio non dicitur temporalis per 
+      es<lb ed="#T" n="55" break="no"/>sentiam, sed per causam, propter effectum 
+      addi<lb ed="#T" n="56" break="no"/>tum, qui tamen non variat processionem 
+      tempo<lb ed="#T" n="57" break="no"/>ralem, quia additur vt effectus ad causam, non 
+      <lb ed="#T" n="58"/>vt accidens ad subjectum: &amp; potius attenditur 
+      <lb ed="#T" n="59"/>haec additio in significatione termini, quam in 
+      <lb ed="#T" n="60"/>natura rei. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1071">
+                  <lb ed="#T" n="61"/>Ad 2. Quaecumque habent ordinem &amp;c. Resp. 
+      <lb ed="#T" n="62"/>Verum est secundum quod habent ordinem: 
+      <lb ed="#T" n="63"/>sed processio temporalis &amp; aeterna dicuntur 
+      ha<lb ed="#T" n="64" break="no"/>bere ordinem ratione effectus connotati, non 
+      <lb ed="#T" n="65"/>ratione principalis significati.  
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1084">
+                  <lb ed="#T" n="66"/>Ad 3. Idem non est signum sui. Resp. Verum 
+      <lb ed="#T" n="67"/>est secundum idem: sed temporalis processio 
+      di<lb ed="#T" n="68" break="no"/>citur esse signum aeternae ratione effectus conno¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0190.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="69"/>tati, qui est amor gratuitus, qui est signum 
+      <lb ed="#T" n="70"/>amoris aeterni. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1103">
+                  <lb ed="#T" n="71"/>Ad 4. De generatione Filij. Resp. Non est 
+      <lb ed="#T" n="72"/>simile, quia generatio aeterna &amp; temporalis 
+      di<lb ed="#T" n="73" break="no"/>stinguntur per principium a quo sunt, &amp; 
+      secun<lb ed="#T" n="74" break="no"/>dum naturas duas in eodem genito; sed 
+      pro<lb ed="#T" n="75" break="no"/>cessio aeterna &amp; temporalis non distinguuntur 
+      <lb ed="#T" n="76"/>secundum principium a quo, nec secundum 
+      <lb ed="#T" n="77"/>au nid quod sit realiter in ipso procedente, 
+      <lb ed="#T" n="78"/>sed sec adum respectum &amp; effectum 
+      extrinse<lb ed="#T" n="79" break="no"/>cum. Procssio enim dicit respectum semper ad 
+      <lb ed="#T" n="80"/>principium a auo, quod cum sit aeternum, 
+      <lb ed="#T" n="81"/>oportet, quod tmporalis processio includat,  
+      <lb ed="#T" n="82"/>in se aeternam: sed addit effectum connotatum. 
+      <lb ed="#T" n="83"/>&amp; respectum, quorum vtrumque secundum rem 
+      <lb ed="#T" n="84"/>est in termino; quidam tamen respectus 
+      secun<lb ed="#T" n="85" break="no"/>dum dici cointelligitur in ipso procedente 
+      <lb ed="#T" n="86"/>quem connotat processio temporalis: sicut 
+      illu<lb ed="#T" n="87" break="no"/>minatio, quando caecus incipit videre lumen 
+      <lb ed="#T" n="88"/>in luce enim illuminante cointelligitur respectus 
+      <lb ed="#T" n="89"/>quidam secundum dici solum. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1147">
+                  <lb ed="#T" n="90"/>Ad 5. De additione. Resp. Temporalis 
+      pro<lb ed="#T" n="91" break="no"/>cessio addit supra aeternam secundum modum 
+      <lb ed="#T" n="92"/>intelligendi solum: nec tamen seduitur quod 
+      <lb ed="#T" n="93"/>illa sit imperfecta, quia non addit aliquid in 
+      <lb ed="#T" n="94"/>illa, sed in creatura 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1160">
+                  <lb ed="#T" n="95"/>Ad 6. Temporali processione procedit a 
+      <lb ed="#T" n="96"/>seipso. Resp. Intelligitur quantum ad effectum 
+      <lb ed="#T" n="97"/>connotatum qui est a tota Trinitate, non 
+      quan<lb ed="#T" n="98" break="no"/>tum ad respectum ad principium a quo 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1171">
+                  <lb ed="#T" n="99"/>Ad illud quod opponitur de 
+      connumeratio<lb ed="#T" n="100" break="no"/>ne. Resp. Secundum principale significatum  
+      <lb ed="#T" n="101"/>idem sunt processio aeterna &amp; temporalis: sed 
+      <lb ed="#T" n="102"/>secundum effectum &amp; respectum connotatum. 
+      <lb ed="#T" n="103"/>quamuis non sint eiusdem rationis secundum 
+      <lb ed="#T" n="104"/>vniuocationem, sunt tamen secundum 
+      analo<lb ed="#T" n="105" break="no"/>giam aliquam, sicut processio amori aeterni 
+      <lb ed="#T" n="106"/>&amp; temporalis, &amp; ideo connumerari possunt,  
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e33882-Dd1e1192">
+               <head xml:id="pdt7y6-e33882-Hd1e1194">Articulus 5</head>
+               <head xml:id="pdt7y6-e33882-Hd1e1196" type="question-title">
+  An per processionem temporalem personaliter decui 
+  Spiritus sanctus.
+</head>
+               <p xml:id="pdt7y6-e33882-d1e1199">
+                  <lb ed="#T" n="107"/>ARTICVLVS V 
+      <lb ed="#T" n="108"/>An per processionem temporalem personaliter detui 
+      <lb ed="#T" n="109"/>Spiritus sanctus. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1208">
+                  <lb ed="#T" n="110"/>AD quintum articulum sic proceditur. 1. 
+      <lb ed="#T" n="111"/>Quod secundum se vbique est, secundum se 
+      <lb ed="#T" n="112"/>nusquam potest procedere: Spiritus sanctus 
+      se<lb ed="#T" n="113" break="no"/>cundum se in omni creatura est: ergo 
+      secun<lb ed="#T" n="114" break="no"/>dum se in nullam creaturam potest procedere. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1221">
+                  <lb ed="#T" n="115"/>2. Spiritus sanctus secundum se semper eodem 
+      <lb ed="#T" n="116"/>modo se habet ad creaturam: ergo si procedit 
+      <lb ed="#T" n="117"/>temporaliter in creaturam vel datur ei, hoc erit, 
+      <lb ed="#T" n="118"/>non secundum se, sed secundum effectum 
+      ali<lb ed="#T" n="119" break="no"/>quem eius in creatura. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1235">
+                  <lb ed="#T" n="120"/>3. Quod datur alicui sit in potestate 
+      accipien<lb ed="#T" n="121" break="no"/>tis: sed Spiritus sanctus cum sit omnipotens, 
+      <lb ed="#T" n="122"/>non sit in potestate creaturae: ergo secundum se 
+      <lb ed="#T" n="123"/>non datur creaturae: si ergo datur, hoc erit 
+      se<lb ed="#T" n="124" break="no"/>cundum effectum eius. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1248">
+                  <lb ed="#T" n="125"/>4. Spiritus sanctus per se sufficit ad omne 
+      <lb ed="#T" n="126"/>bonum: ergo cum eo superfluit aliud donum ad 
+      <lb ed="#T" n="127"/>bene faciendum: sed non superfluit: ergo ipse 
+      <lb ed="#T" n="128"/>non datur.  
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1259">
+                  <lb ed="#T" n="129"/>5. Secundum Augustinum, virtus est bona 
+      <lb ed="#T" n="130"/>qualitas mentis qua recte viuitur: ergo ipsius 
+      <lb ed="#T" n="131"/>infusio, absque eo quod Spiritus sanctus detur 
+      <lb ed="#T" n="132"/>sufficit ad recte viuendum. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1270">
+                  <lb ed="#T" n="133"/>Contra. 1. Rom. 5. Charitas Dei diffusa est 
+      <lb ed="#T" n="134"/>in cordibus nostris per Spiritum sanctum, qui¬  
+      <!--1652-gregPress-MichiganState-gbooks-v1-0191.xml-->
+      <pb ed="#T" n="116"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>datus est nobis. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1286">
+                  <lb ed="#T" n="2"/>2. Spiritus sanctus personaliter est donum: sed  
+      <lb ed="#T" n="3"/>donum dicitur ex eo quod datur, secundum 
+      <lb ed="#T" n="4"/>Augustinum: ergo personaliter datur.  
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1295">
+                  <lb ed="#T" n="5"/>3. Spiritus sanctus est amor: ergo primum 
+      do<lb ed="#T" n="6" break="no"/>num: sed posterius non datui sine priori: ergo 
+      <lb ed="#T" n="7"/>ipse Spiritus sanctus datur, cum datur eius 
+      <lb ed="#T" n="8"/>donum. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1307">
+                  <lb ed="#T" n="9"/>4. Corpus mysticum est vnum per amore¬as 
+      <lb ed="#T" n="10"/>ergo vnitur in aliquo vno per amorem: con in 
+      <lb ed="#T" n="11"/>amore creato, quia nil creatum vtam est in 
+      <lb ed="#T" n="12"/>pluribus: ergo in Spiritu sancto: ergo Spiritus 
+      <lb ed="#T" n="13"/>sanctus datur corpori mystico. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1320">
+                  <lb ed="#T" n="14"/>Iuxta hoc quaeritur. Quid dicatur daei per 
+      <lb ed="#T" n="15"/>prius an ipe Spiritus sanctus qui est causa 
+      <lb ed="#T" n="16"/>donorum: an dona quae disponunt, ad 
+      <lb ed="#T" n="17"/>ipsum. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1331">
+                  <lb ed="#T" n="18"/>Respondeo. Vt dicit Augustinus, totum &amp; 
+      <lb ed="#T" n="19"/>solum malum hominis est vti fruendis &amp; frui 
+      <lb ed="#T" n="20"/>vtendis: ergo opponitur ei totum bonum eius: 
+      <lb ed="#T" n="21"/>ad fruendum autem eo, quo fruendum est, 
+      re<lb ed="#T" n="22" break="no"/>quiritur praesentia fruibilis inquantum 
+      fruibi<lb ed="#T" n="23" break="no"/>le est, vt scilicet apprehendatur &amp; habeatur in 
+      <lb ed="#T" n="24"/>ratione fruibilis: &amp; requiritur dispositio debita 
+      <lb ed="#T" n="25"/>fruentis: hinc est quod requiritur praesentia 
+      Spa<lb ed="#T" n="26" break="no"/>ritus sancti, &amp; eius donum scilicet antor quo 
+      <lb ed="#T" n="27"/>inhaereatur ei. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1355">
+                  <lb ed="#T" n="28"/>Ad 1. Spiritus sanctus vbique est in 
+      omni<lb ed="#T" n="29" break="no"/>creatura. Resp. Objectio procedit de 
+      processio<lb ed="#T" n="30" break="no"/>ne locali: haec vero quamuis ex parte termim 
+      <lb ed="#T" n="31"/>in quem habeat similitudinem cum processione 
+      <lb ed="#T" n="32"/>locali, non tamen est localis: non enim 
+      Spiri<lb ed="#T" n="33" break="no"/>tus sanctus incipit esse in loco nouo, sed nouo 
+      <lb ed="#T" n="34"/>modo per productionem noui effectus &amp; 
+      noui<lb ed="#T" n="35" break="no"/>respectus, ex quo creatura se habet aliter ad 
+      <lb ed="#T" n="36"/>Spiritum senctum quam prinis; vnde ipse 
+      di<lb ed="#T" n="37" break="no"/>citur esse aliter in creatura, quam prius, quia est 
+      <lb ed="#T" n="38"/>in ipsa vt in cognoscente ipsum &amp; amante 
+      <lb ed="#T" n="39"/>quod non prius: sicut lux solis, quae pulsat ad 
+      <lb ed="#T" n="40"/>oculum caecum (si oculus miraculo 
+      illumine<lb ed="#T" n="41" break="no"/>tur ad videndam lucem) aliter est in ipso oculo 
+      <lb ed="#T" n="42"/>quam prius, mutatione oculi, non lucis. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1390">
+                  <lb ed="#T" n="43"/>Ad 2. Semper eodem modo ie habet. Resp. 
+      <lb ed="#T" n="44"/>Quamuis Spiritus se habeat eodem modo, non 
+      <lb ed="#T" n="45"/>tamen creatura ad ipsum: ex qua diuersa 
+      crea<lb ed="#T" n="46" break="no"/>turae habitudine causatur aliqua relatio 
+      secun<lb ed="#T" n="47" break="no"/>dum rem in creatura, cui respondet aliqua 
+      re<lb ed="#T" n="48" break="no"/>latio secundum intellectum in Spiritu sancto: 
+      <lb ed="#T" n="49"/>propterea dicitur esse de nouo in aliqua 
+      crea<lb ed="#T" n="50" break="no"/>tura. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1410">
+                  <lb ed="#T" n="51"/>Ad 3. Quod datur alicui sit in potestate illius, 
+      <lb ed="#T" n="52"/>Resp. Quamuis hoc verum sit de eo quod 
+      <lb ed="#T" n="53"/>datur ad possidendum, non tamen vniuersaliter 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1420">
+                  <lb ed="#T" n="54"/>verum est: nam corpori datur anima, nec est in 
+      <lb ed="#T" n="55"/>eius potestate, sed e conuerso: sic est aperte 
+      <lb ed="#T" n="56"/>hic: secus enim est de dono creato &amp; increato 
+      <lb ed="#T" n="57"/>quia donum creatum transfertur in potestatem 
+      <lb ed="#T" n="58"/>accipientis, sed donum increatum transfert 
+      ac<lb ed="#T" n="59" break="no"/>accipientem ia potestatem suam. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1436">
+                  <lb ed="#T" n="60"/>Ad 4. Spiricus sanctus per se sufficit &amp;c. 
+      <lb ed="#T" n="61"/>Resp. Spiritus sanctus sufficiens est ad 
+      sanctifi<lb ed="#T" n="62" break="no"/>cationem omnem, in ratione principij efficientis, 
+      <lb ed="#T" n="63"/>sed non formalis 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1447">
+                  <lb ed="#T" n="64"/>Ad 5. Virtute recte viu:tur. Resp. Verum est 
+      <lb ed="#T" n="65"/>formaliter seu dispositiue, non autem effectiue 
+      <lb ed="#T" n="66"/>aut finaliter.  
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1456">
+                  <lb ed="#T" n="67"/>Ad illud quod quaeritur. Quid prius detur 
+      <lb ed="#T" n="68"/>&amp;c. Resp. Ordo naturae inter haec potest dupli¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0191.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="69"/>citer considerari: vel ex parte sus pientis, sic 
+      <lb ed="#T" n="70"/>prior est dispositio ad finem quam finis 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1472">
+                  <lb ed="#T" n="71"/>ior est in eius 
+      in<lb ed="#T" n="72" break="no"/>vel ex parte agentis, sic finis 
+      <lb ed="#T" n="73"/>tentione, quia finis estrO &amp; causa eorum 
+      <lb ed="#T" n="74"/>quae sunt ad finetri: prijs modo dona dicuntur  
+      <lb ed="#T" n="75"/>dari per prin natur. ri; secundo modo 
+      Spi<lb ed="#T" n="76" break="no"/>ritus sartus. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e33882-Dd1e1489">
+               <head xml:id="pdt7y6-e33882-Hd1e1491">Articulus 6</head>
+               <head xml:id="pdt7y6-e33882-Hd1e1493" type="question-title">
+  An cum Spiritu sancto dentur donae gratiae. 
+  sanctificantis
+</head>
+               <p xml:id="pdt7y6-e33882-d1e1496">
+                  <lb ed="#T" n="77"/>ARTICVLVS VI. 
+      <lb ed="#T" n="78"/>An cum Spiritu sancto dentur donae gratiae. 
+      <lb ed="#T" n="79"/>sanctificantis. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1505">
+                  <lb ed="#T" n="80"/>AD sextum articulum sic proceditur. 1. 
+      <lb ed="#T" n="81"/>A Augustinus 4. de Trinitate. Mitti est 
+      <lb ed="#T" n="82"/>cognosci esse ab alio: sed hoc potest fieri per 
+      do<lb ed="#T" n="83" break="no"/>na gratiae gratis datae: ergo secundum illa potes 
+      <lb ed="#T" n="84"/>dici Spiritus sanctus mitti: ergo &amp; procedere, 
+      <lb ed="#T" n="85"/>vel dari. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1521">
+                  <lb ed="#T" n="86"/>2. Dona posteriora non dantur sine dono 
+      prio<lb ed="#T" n="87" break="no"/>ri, quod est retio dandi alia dona: sed Spiritus 
+      <lb ed="#T" n="88"/>sanctus est donum primum, &amp; retio dandi non 
+      <lb ed="#T" n="89"/>tantum dona gratum facientia, sed gratis data: 
+      <lb ed="#T" n="90"/>Ergo illa non dantur sine ipso: ergo datur cum 
+      <lb ed="#T" n="91"/>iplis 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1538">
+                  <lb ed="#T" n="92"/>3. Dicit Rabanus, quod ter datus est 
+      Spiri<lb ed="#T" n="93" break="no"/>tus sanctus, primo a gratiam doctrinae &amp; 
+      ope<lb ed="#T" n="94" break="no"/>rationis mitaculorum; demde post 
+      resurrectio<lb ed="#T" n="95" break="no"/>nem ad potestatem remissionis peccatorum; 
+      <lb ed="#T" n="96"/>deinde in Pentecoste ad robus, &amp; diuersitatem 
+      <lb ed="#T" n="97"/>linguarum: ergo datur in donis gratiae gratis 
+      <lb ed="#T" n="98"/>catae. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1556">
+                  <lb ed="#T" n="99"/>Contra. 1. Dicit hic Augustinus, quod 
+      tem<lb ed="#T" n="100" break="no"/>poralis processio Spiritus sancti est missio ad  
+      <lb ed="#T" n="101"/>sanctificandam creaturan: sed sanctificatio non 
+      <lb ed="#T" n="102"/>sit nisi per dona gratiae gratum facientis: ergo 
+      <lb ed="#T" n="103"/>nec temporais processio. Item August. 15. de 
+      <lb ed="#T" n="104"/>Trinitate dicit quod cum Spiritus sanctus 
+      tem<lb ed="#T" n="105" break="no"/>poraliter datur, accendit meitem in dilectionem 
+      <lb ed="#T" n="106"/>Dei &amp; proximi: sed hoc nonsit sine donis 
+      gra<lb ed="#T" n="107" break="no"/>tiae gratum facientis: ergo :ec cemporalis datio¬ 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1578">
+                  <lb ed="#T" n="108"/>2. Cui datur Spiritus saactus, eius sic: sed non 
+      <lb ed="#T" n="109"/>sit nisi bonorum: ergo non datur nisibonis. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1585">
+                  <lb ed="#T" n="110"/>3. Sapientia. Cap. 1. Spiritus sanctus disciplina 
+      <lb ed="#T" n="111"/>e. rugiet fictum. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1592">
+                  <lb ed="#T" n="112"/>Respondeo. Processio Spiritus sancti in 
+      ali<lb ed="#T" n="113" break="no"/>quid vel donatio importat nouum modum 
+      exi<lb ed="#T" n="114" break="no"/>stendi in illo: sunt autem dona quaedam quae 
+      <lb ed="#T" n="115"/>sunt a Spiritu, sed possunt esse sine Spiritu, vt 
+      gra<lb ed="#T" n="116" break="no"/>tis daeta, quia non coniunguat fini; quaedam 
+      <lb ed="#T" n="117"/>vero quae sunt a Spiritu &amp; semper cum Spiritu, 
+      <lb ed="#T" n="118"/>vt gratum facientia. In primis ergo donis non 
+      <lb ed="#T" n="119"/>dicitur simpliciter procedere vel dari Spiritus 
+      <lb ed="#T" n="120"/>sanctus, sed in secundis, quia per haec 
+      coniun<lb ed="#T" n="121" break="no"/>gimur ei vt nostro fini, vnde incipit esse in 
+      no<lb ed="#T" n="122" break="no"/>bis: vt finis quo fruimur, nam processio Filij a 
+      <lb ed="#T" n="123"/>Patre, &amp; Spiritus sancti ab vtroque sicut sunt,  
+      <lb ed="#T" n="124"/>principium exitus nostri a Deo creante, &amp; hoc 
+      <lb ed="#T" n="125"/>secundum dona naturalia; ita sunt principium 
+      <lb ed="#T" n="126"/>reditus per dona gratuita. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1627">
+                  <lb ed="#T" n="127"/>Ad 1. Mitti est cognosci &amp;c. Resp. Loquitur 
+      <lb ed="#T" n="128"/>non de cognitione simplici, sed approbatiua. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1635">
+                  <lb ed="#T" n="129"/>Ad 2. Dona posteriora non dantur sine dono 
+      <lb ed="#T" n="130"/>priori. Resp. Sine dono priori tanquam 
+      efficien<lb ed="#T" n="131" break="no"/>te aut mouente non dantur, sed sine eo vt 
+      con<lb ed="#T" n="132" break="no"/>comitante aliqua dantur.  
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1646">
+                  <lb ed="#T" n="133"/>Ad 3. Ex Rabano. Resp. Cum illis donis 
+      aug<lb ed="#T" n="134" break="no"/>mentabantur &amp; dona gratum facientia in Apo¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0192.xml-->
+      <pb ed="#T" n="117"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>stolis, ratione quorum ipse Spiritus eis 
+      dari<lb ed="#T" n="2" break="no"/>dicitur.  
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e33882-Dd1e1665">
+               <head xml:id="pdt7y6-e33882-Hd1e1667">Articulus 7</head>
+               <head xml:id="pdt7y6-e33882-Hd1e1669" type="question-title">
+  An Spiritus sanctus detur a viris sanctis
+</head>
+               <p xml:id="pdt7y6-e33882-d1e1672">
+                  <lb ed="#T" n="3"/>ARTICVLVS VII. 
+      <lb ed="#T" n="4"/>An Spiritus sanctus detur a viris sanctis.
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1679">
+                  <lb ed="#T" n="5"/>AD septimum articulum sic proceditur. 1. 
+      <lb ed="#T" n="6"/>Apostoli in primitiua Ecclesia dabant per 
+      <lb ed="#T" n="7"/>impositionem mannum Spiritum sanctum, vt 
+      <lb ed="#T" n="8"/>patet Act. 5. ergo Spiritus sanctus potest dari a 
+      <lb ed="#T" n="9"/>sanctis viris. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1692">
+                  <lb ed="#T" n="10"/>2. Remissio peccatorum non sit nisi per 
+      Spi<lb ed="#T" n="11" break="no"/>ritum sanctum: ergo cum Apostoli remitterent 
+      <lb ed="#T" n="12"/>peccata, secundum illud Ioan. 9. Quorum 
+      remi<lb ed="#T" n="13" break="no"/>feritis peccata, etiam dabant Spiritum sanctum 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1704">
+                  <lb ed="#T" n="14"/>3. Quod datum est alicui suum est: quod suum 
+      <lb ed="#T" n="15"/>est, alteri dare potest: ergo sanctus vir Spritium 
+      <lb ed="#T" n="16"/>sanctum sibi datum alteri dare potest. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1713">
+                  <lb ed="#T" n="17"/>4. Corpus illuminatum lumine corporali aliud 
+      <lb ed="#T" n="18"/>illuminare potest: ergo multo fortius spiritus 
+      <lb ed="#T" n="19"/>illuminatus lumine spirituali alium illuminare 
+      <lb ed="#T" n="20"/>potest: ergo dare Spiritum illuminantem. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1724">
+                  <lb ed="#T" n="21"/>5. Angeli superiores possunt inferiores purgare, 
+      <lb ed="#T" n="22"/>illuminare, perficere: ergo homines superiores 
+      <lb ed="#T" n="23"/>similiter subditos suos: sed haec opera non fiunt, 
+      <lb ed="#T" n="24"/>nisi per Spiritum sanctum: ergo possunt dare 
+      <lb ed="#T" n="25"/>Spiritum sanctum. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1737">
+                  <lb ed="#T" n="26"/>6. In Sacramentis datur Spiritus sanctus: sed 
+      <lb ed="#T" n="27"/>qui dat aliquid, in quo datur aliud, dicitur dare 
+      <lb ed="#T" n="28"/>illud: vt qui dat medicinam sanatiuam, dicitur 
+      <lb ed="#T" n="29"/>dare sanitatem: ergo qui dant Sacramenta, dant,  
+      <lb ed="#T" n="30"/>Spiritum sanctum. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1750">
+                  <lb ed="#T" n="31"/>Contra. 1. Qui dat aliquid, potestatem habet  
+      <lb ed="#T" n="32"/>in illud, &amp; est eo superior: sed Spiritu sancto 
+      <lb ed="#T" n="33"/>nullus homo est superior: ergo. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1759">
+                  <lb ed="#T" n="34"/>2. Donum procedit a dante: sed Spiritus 
+      <lb ed="#T" n="35"/>sanctus non procedit nisi a Patre &amp; Filio: ergo 
+      <lb ed="#T" n="36"/>non datur nisi a Patre &amp; Filio. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1769">
+                  <lb ed="#T" n="37"/>3. Augustinus. Quomodo ergo Deus non est 
+      <lb ed="#T" n="38"/>qui dat Deum? imo quantus Deus est, qui dat 
+      <lb ed="#T" n="39"/>Deum: 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1778">
+                  <lb ed="#T" n="40"/>Respondeo. Dare aliquis aliquid dicitur 
+      tri<lb ed="#T" n="41" break="no"/>pliciter, vel per modum auctoritatis, vel per 
+      <lb ed="#T" n="42"/>modum impetrationis, vel per modum 
+      mini<lb ed="#T" n="43" break="no"/>sterij: primo modo dat Dominus rei; secundo 
+      <lb ed="#T" n="44"/>modo mediator; tertio modo dispensator, vel 
+      <lb ed="#T" n="45"/>seruus. Hoc vltimo modo sancti &amp; non sancti 
+      <lb ed="#T" n="46"/>dicuntur alijs dare Spiritum sanctum per 
+      mo<lb ed="#T" n="47" break="no"/>dum ministerij exterioris, non interioris, 
+      mi<lb ed="#T" n="48" break="no"/>nistrando scilicet sacramentum gratiae, non 
+      <lb ed="#T" n="49"/>gratiam immediate: secundo modo soli sancti: 
+      <lb ed="#T" n="50"/>primo modo, scilicet per modum auctoritatis 
+      <lb ed="#T" n="51"/>solus Deus dat Spiritum sanctum, &amp; non 
+      homo<lb ed="#T" n="52" break="no"/>&amp; hoc tam ratione respectus aeterni ad id a quo 
+      <lb ed="#T" n="53"/>datur, quam ratione effectus scilicet gratiae, quae 
+      <lb ed="#T" n="54"/>cum sit forma super naturam eleuans, non est 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0192.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="55"/>forma materialis: ergo non potest educi de 
+      ma<lb ed="#T" n="56" break="no"/>teria: ergo ab agente creato, quod praesupponit 
+      <lb ed="#T" n="57"/>materiam, educi non potest. Exemplum illius 
+      <lb ed="#T" n="58"/>triplicis donationis potest poni in Domino, 
+      <lb ed="#T" n="59"/>&amp; eius vxore cum sollicitante, &amp; seruo 
+      deferen<lb ed="#T" n="60" break="no"/>te eleemosynam pauperi petenti. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1830">
+                  <lb ed="#T" n="61"/>Ad 1. &amp; 2. De Apostostolis. Resp. Dabant,  
+      <lb ed="#T" n="62"/>Spiritum sanctum ministerio non auctoritate 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1837">
+                  <lb ed="#T" n="63"/>Ad 3. Quod suum est quilibet potest dare. 
+      <lb ed="#T" n="64"/>Resp. Suum dicitur dupliciter, vel vt eius 
+      <lb ed="#T" n="65"/>possessio sicut pecunia, &amp; sic verum est; vel vt 
+      <lb ed="#T" n="66"/>eius perfectio sicut sapientia, sic non. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1848">
+                  <lb ed="#T" n="67"/>Ad 4. De corpore illuminato. Resp. Non est. 
+      <lb ed="#T" n="68"/>argumentum a minori, sed a maiori affirmatiue; 
+      <lb ed="#T" n="69"/>magis enim possibilis est transfusio in forma 
+      <lb ed="#T" n="70"/>minus nobili &amp; quasi materiali, qualis est lux 
+      <lb ed="#T" n="71"/>corporalis, quam in forma immateriali qualis 
+      <lb ed="#T" n="72"/>ex lux spiritualis, scilicet gratia. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1864">
+                  <lb ed="#T" n="73"/>Ad 5. De Angelis. Resp. Actus illi 
+      intelligun<lb ed="#T" n="74" break="no"/>tur quoad scientiam, non quoad gratiam 
+      nisi<lb ed="#T" n="75" break="no"/>excitatiue seu dispositiue, non completiue 
+      ul<lb ed="#T" n="76" break="no"/>to minus vero est illuminare intellectum, quam 
+      <lb ed="#T" n="77"/>perficere affectum. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1878">
+                  <lb ed="#T" n="78"/>Ad 6. De Sacramentis. Resp. Quod ministri 
+      <lb ed="#T" n="79"/>Sacramentorum dantSpiritum sanctum 
+      ministe<lb ed="#T" n="80" break="no"/>rio non auctoritate, sicut medicus sanitatem, &amp; 
+      <lb ed="#T" n="81"/>multo minus, quia iste operatur circa subjectum 
+      <lb ed="#T" n="82"/>proprium sanitatis, illi non sed circa animam. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e33882-Dd1e1893">
+               <head xml:id="pdt7y6-e33882-Hd1e1895">Expositio litterae</head>
+               <p xml:id="pdt7y6-e33882-d1e1897">
+                  <lb ed="#T" n="83"/>EXPOSITIO LITERAE. 
+      <lb ed="#T" n="84"/>EC Piritus sanctus non de Patre in Filium. ]Co¬ 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1904">
+                  <lb ed="#T" n="85"/>Otra. sup. dist. 10. Dictum est, quod a Patre. 
+      <lb ed="#T" n="86"/>procedit in Filium. Resp. Non procedit in ipsum 
+      <lb ed="#T" n="87"/>vt in subjectum susceptibile. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1913">
+                  <lb ed="#T" n="88"/>[Ipse est virtus, quae de illo exibat; Contra. 
+      <lb ed="#T" n="89"/>virtus appropriatur Filio 1. Cor. 1. Resp. Virtus 
+      <lb ed="#T" n="90"/>secundum diuersas rationes appropriatur vel 
+      <lb ed="#T" n="91"/>Patri, vel Filio, vel Spiritui sancto: Patri 
+      inquan<lb ed="#T" n="92" break="no"/>tum est complementum potentiae: Filio 
+      inquan<lb ed="#T" n="93" break="no"/>tum est media inter substantiam &amp; operationem: 
+      <lb ed="#T" n="94"/>Spiritui sancto inquantum est principium 
+      boni<lb ed="#T" n="95" break="no"/>operis. 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1933">
+                  <lb ed="#T" n="96"/>[Qui est Deus &amp; tertia in Trinitate 
+      perfona<lb ed="#T" n="97" break="no"/>Contra voi non est prins &amp; posterius non est 
+      <lb ed="#T" n="98"/>primum, secundum, &amp; tertium. Resp. Quod 
+      di<lb ed="#T" n="99" break="no"/>ctio, tertia, aut accipitur materialiter solum, sic 
+      <lb ed="#T" n="100"/>quaelibet persona est tertia: aut ordinaliter, aut 
+      <lb ed="#T" n="101"/>ergo ordine originis solum, sic Spiritus sanctus 
+      <lb ed="#T" n="102"/>est tertia persona: aut ordine naturae, vel 
+      tem<lb ed="#T" n="103" break="no"/>poris, vel dignitatis, sic nulla persona potest 
+      dici<lb ed="#T" n="104" break="no"/>vel prima, vel secunda, velter: ia 
+    </p>
+               <p xml:id="pdt7y6-e33882-d1e1956">
+                  <lb ed="#T" n="105"/>Immutabilis est Spiritus sanctus] Contra 
+      <lb ed="#T" n="106"/>Sapient. 7. dicitur mobilis multipliciter. Resp. 
+      <lb ed="#T" n="107"/>Immobilis in se essentialiter est, mobilis in 
+      no<lb ed="#T" n="108" break="no"/>bis effectiue. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

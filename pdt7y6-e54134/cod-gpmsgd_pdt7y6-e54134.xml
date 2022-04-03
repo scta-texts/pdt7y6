@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="177"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e54134"><!-- l1d21prae -->
+            <head xml:id="pdt7y6-e54134-Hd1e99">Praeambulum</head>
+            <head xml:id="pdt7y6-e54134-Hd1e101" type="question-title"/>
+            <p xml:id="pdt7y6-e54134-d1e103">
+               <cb ed="#T" n="c"/>
+               <lb ed="#T" n="59"/>QVERITVR QVOMoDO POSSIT 
+      <lb ed="#T" n="60"/>dici solus Pater, vel solus Filius, vel solus Spiritus sanctus, 
+      <lb ed="#T" n="61"/>cum sint inseparabiles. Distinct. XXI. 
+    </p>
+           <!-- <p xml:id="pdt7y6-e54134-d1e114">
+               <lb ed="#T" n="62"/>IC oritur quaestio trahens originem ex praedictis. Dictum est enim supra 
+      <lb ed="#T" n="63"/>quod tantus est solus Pater, vel solus Filius, vel solus Spiritus sanctus, quam 
+      <lb ed="#T" n="64"/>tum simul illae tres: &amp; quod duae vel tres personae simul non sunt maius 
+      ali<lb ed="#T" n="65" break="no"/>quid, quam vna persona sola. Ideo quaerit August. in 6 lib. de Trin. 
+      quo<lb ed="#T" n="66" break="no"/>modo haec sane dici possint, cum nec Pater sit solus, nec Filius, nec Spiritus 
+      <lb ed="#T" n="67"/> sanctus, sed semper &amp; inseparabiliter &amp; Filius cum Patre, &amp; Pater cum 
+      <lb ed="#T" n="68"/>Filio, &amp; Spiritus sanctus cum vtroque, inseparabiles enim sunt hae tres personae Ad quod 
+      <lb ed="#T" n="69"/>ita respondet August. in eodem. Solum Patrem dicimus, non quia separatur a Filio, vel a 
+      <lb ed="#T" n="70"/>Spiritu sancto, sed hoc dicentes significamus, quia illi simul cum eo non sunt Pater. Solus, 
+      <lb ed="#T" n="71"/>enim Pater est. Quod non dicitur quia ipse sit solus, id est sine Filio vel Spiritu sancto, sed  
+      <lb ed="#T" n="72"/>per hoc Filius vel Spiritus sanctus a paternitatis confortio excluduntur. Ita &amp; cum dicitur,  
+      <lb ed="#T" n="73"/>Solus Filius, Filius est, vel solus Spiritus sanctus est Spiritus sanctus, non diuiditur Filius a 
+      <lb ed="#T" n="74"/>Patre, vel Spiritus sanctus ab vtroque, sed a confortio filialis proprietatis excluduntur 
+      Pa<lb ed="#T" n="75" break="no"/>ter &amp; Spiritus sanctus, &amp; a confortio processibilis proprietatis Pater &amp; Filius. Cum ergo 
+      <lb ed="#T" n="76"/>dicitur. Tantus est solus Pater, quantum simul illi tres, per hoc quod, dicitur solus, non 
+      <lb ed="#T" n="77"/>separatur Pater ab alijs, sed hic est sensus, Solus Pater, id est, Pater qui ita Pater est, quod 
+      <lb ed="#T" n="78"/>nec Filius nec Spiritus sanctus, tantus est, &amp;c. Similiter intellige cum dicitur, Solus est 
+      Fi<lb ed="#T" n="79" break="no"/>lius, vel solus est Spiritus sanctus. Solus ergo Pater dicitur, vt ait August. in eodem, quia 
+      <lb ed="#T" n="80"/>non nisi ipse ibi Pater est, solus Filius, quia non nisi ipse ibi Filius est, &amp; solus Spiritus san 
+      <lb ed="#T" n="81"/>ctus, quia non nisi ipse ibi Spiritus sanctus est 
+    </p>
+            <p xml:id="pdt7y6-e54134-d1e160">
+               <lb ed="#T" n="82"/>Vtrum possit dici, Solus Pater est Deus, solus Filius est Deus, velsolus Spiritus sanctus est Deus, 
+      <lb ed="#T" n="83"/>vel Pater est solus Deus, Filius est solus Deus, Spiritus sanctus est solus Deus. 
+      <lb ed="#T" n="84"/>Post haec quaeritur, vtrum sicut dicitur, solus Pater est Pater, vel solus Filius est Filius: 
+      <lb ed="#T" n="85"/>ita possit dici, solus Pater est Deus, vel solus Filius est Deus, ita &amp; de epiritu sancto: aut 
+      Pa<lb ed="#T" n="86" break="no"/>ter est solus Deus, Filius est solus Deus. Ad quod dicimus, quia Pater &amp; Filius, &amp; Spiritus 
+      <lb ed="#T" n="87"/>sanctus dicitur &amp; est vnus Deus: &amp; haec Trinitas simui proprie dicitur esse solus Deus, sicut  
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0253.xml-\->
+      <pb ed="#T" n="178"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>solus sapiens, solus potens. Sed non videtur debere dici a nobis, verbis nostris vtentibus, 
+      <lb ed="#T" n="2"/>nisi vbi sermo auctoritatis occurrit, Solus Pater est Deus, vel Pater est solus Deus, ita de 
+      Fi<lb ed="#T" n="3" break="no"/>lio &amp; Spiritu sancto dicimus. Vnde Augustinus in sexto libro de Trinitate ait Quoniam 
+      <lb ed="#T" n="4"/>ostendimus, quomodo posset dici solus Pater, vel solus Filius, consideranda est illa 
+      sen<lb ed="#T" n="5" break="no"/>tentia qua dicitur, Non esse solum Patrem Deum verum solum, sed patrem, &amp; Filium, &amp; 
+      <lb ed="#T" n="6"/>Spiritum sanctum. Ecce habes, quia non solus Pater dicendus est esse verus Deus. Item in 
+      eo<lb ed="#T" n="7" break="no"/>dem, si quis interrogat vtrum pater solus sit Deus, quomodo respondebimus non esse, 
+      nisi<lb ed="#T" n="8" break="no"/>forte dicamus ita esse quidem patrem Deum, sed non eum esse solum Deum? Esse autem 
+      <lb ed="#T" n="9"/>solum Deum dicamus patrem, &amp; Filium, &amp; Spiritum sanctum? Ecce &amp; hic habes, quia 
+      pa<lb ed="#T" n="10" break="no"/>ter non debet dici solus Deus. Atque hoc solum in parte subjecti tantum accipere quidam 
+      <lb ed="#T" n="11"/>volunt, in parte vero praedicati si sit concedunt quod Pater est solus Deus. Sed ex verbis 
+      <lb ed="#T" n="12"/>Aug. videtur ostendi, quod proprie solus Deus dici debeat tota Trinitas. Et haec Trinitas 
+      <lb ed="#T" n="13"/>vt ait Aug. contra Maximinum, intelligitur cum Apostolus dicit, Beatus &amp; solus potens: 
+      <lb ed="#T" n="14"/>&amp; ibi, Soli sapienti Deo: &amp; ibi, inuisibili soli Deo. Non enim de solo Patre haec accipienda, 
+      <lb ed="#T" n="15"/>sunt, vt contendebat Maximinus &amp; alij haeretici, sed de Trinitate: sicut &amp; illud, Solus 
+      ha<lb ed="#T" n="16" break="no"/>bet immortalitatem: quia secundum rectam fidem, ipsa Trinitas est vnus solus Deus, 
+      bea<lb ed="#T" n="17" break="no"/>tus, potens sabiens, inuisibilis. Vnde August. in eodem, Cum vnus Deus sit Trinitas, haec 
+      <lb ed="#T" n="18"/>sit nobis solutio quaestionis, vt intelligamus solum Deum sapientem, solum potentem, 
+      Pa<lb ed="#T" n="19" break="no"/>trem &amp; Filium &amp; Spiritum sanctum, qui est vnus &amp; solus Deus. 
+    </p>
+            <p xml:id="pdt7y6-e54134-d1e224">
+               <lb ed="#T" n="20"/>Quomodo dicitur Trinitas solus Deus, cum ipsa sit cum spiritibus &amp; animabus sanctis. 
+      <lb ed="#T" n="21"/>Sed iterum quaeritur, quomodo ipsam Trinitatem dicimus solum Deum, cum sit cum 
+      <lb ed="#T" n="22"/>spiritibus &amp; animabus sanctis. Ad quod respondet August. in 6. de Trinit. dicens 
+      Trinita<lb ed="#T" n="23" break="no"/>tem dicimus Deum solum, quamuis semper sit cum spiritibus &amp; animabus sanctis: sed 
+      so<lb ed="#T" n="24" break="no"/>lum dicimus, quia non aliud quam ipsa Trinitas Deus est. Non enim illi cum illa Deus 
+      <lb ed="#T" n="25"/>sunt, vel aliqua alia: sed ipsa Trinitas tantum, non illi vel alia Deus est, 
+    </p>
+            <p xml:id="pdt7y6-e54134-d1e240">
+               <lb ed="#T" n="26"/>Et si de Patre solo praedicta dicerentur, non tamen excluderetur Filius &amp; Spiritus sanctus. 
+      <lb ed="#T" n="27"/>Veruntamen, vt ait August. etsi de solo Patre praedicta dicerentur, non tamen 
+      exclude<lb ed="#T" n="28" break="no"/>retur Filius vel Spiritus sanctus: quia hi tres vnum sunt: sicut in Apocalypsi de Filio 
+      legi<lb ed="#T" n="29" break="no"/>tur, quod habet nomen scriptum quod nemo scit nisi ipse: non enim inde separatur Pater 
+      <lb ed="#T" n="30"/>vel Spiritus sanctus. Et cum dicitur, Nemo nouit Patrem nisi Filius, non inde separatur  
+      <lb ed="#T" n="31"/>Pater vel Spiritus sanctus, quia inseparabiles sunt. Aliquando etiam nominuntur Pater &amp; 
+      <lb ed="#T" n="32"/>Filius, &amp; tacetur Spiritus sanctus, vt Veritas ad patrem loquens ait, Vt cognoscant te, &amp; 
+      <lb ed="#T" n="33"/>quem misistilesum Christum esse vnum verum Deum. Cur ergo (inquit Aug.) tacuit de 
+      <lb ed="#T" n="34"/>Spiritu sancto? Quia consequens est vt vbicumque nominatur vnus, sicut Pater &amp; Filius, 
+      <lb ed="#T" n="35"/>tanta pace vni adhaerens, intelligatur etiam ipsa pax, quamuis non commemoretur: vno 
+      <lb ed="#T" n="36"/>ergo istorum nominato, etiam reliqui intelliguntur, quod in pluribus Scripturae locis 
+      oc<lb ed="#T" n="37" break="no"/>currit. 
+    </p>-->
+            <p xml:id="pdt7y6-e54134-d1e269">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0253.xml-->
+               <cb ed="#T" n="b"/>
+               <lb ed="#T" n="38" type="fixed=178"/>DIVISIO TEXTVS. 
+      <lb ed="#T" n="39"/>[TTIcoritur quaestio] Ostendit aequalita¬ 
+    </p>
+            <p xml:id="pdt7y6-e54134-d1e280">
+               <lb ed="#T" n="40"/>Item magnitudinis in essendo, &amp; 
+      aequali<lb ed="#T" n="41" break="no"/>tatem potestatis in operando. Hic ostendit etiam 
+      <lb ed="#T" n="42"/>incidenter inseparabilitatem in confortio, 
+      inqui<lb ed="#T" n="43" break="no"/>rens qualiter dictiones exclusiuae praedicantur  
+      <lb ed="#T" n="44"/>de Deo. Et primo inquirit an possit dici Pater  
+      <lb ed="#T" n="45"/>est solus Deus, aut solus Pater est Deus. [Post. 
+      <lb ed="#T" n="46"/>haec quaeritur) Secundo an possit dici Trinitas 
+      <lb ed="#T" n="47"/>est solus Deus. [Sed iterum quaeritur ] Tertio, 
+      <lb ed="#T" n="48"/>dat generalem regulam de huiusmodi 
+      locutio<lb ed="#T" n="49" break="no"/>nibus. [Veruntamen. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="168"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e50943"><!-- l1d19q3 -->
+            <head xml:id="pdt7y6-e50943-Hd1e99">Quaestio 3</head>
+            <head xml:id="pdt7y6-e50943-Hd1e101" type="question-title">De rationibus per quas probatur personarum aequalitas</head>
+            <p xml:id="pdt7y6-e50943-d1e104">
+               <lb ed="#T" n="20"/>QVESTIO III. 
+      <lb ed="#T" n="21"/>DE RATIONIBVS PER QVAS 
+      PRo<lb ed="#T" n="22" break="no"/>EATVR PERSONARVM DIVINARVM 
+      AEQVA<lb ed="#T" n="23" break="no"/>LITAS, SCILICETPER EXCLVSIONEM. 
+      <lb ed="#T" n="24"/>TOTALITATIS ETPARTIS. 
+</p>
+            <p xml:id="pdt7y6-e50943-d1e117">
+               <lb ed="#T" n="25"/>CIrca tertium quaeruntur quatuor.  
+      <lb ed="#T" n="26"/>EPrimo vtrum in Diuinis sit totum integrale. 
+      <lb ed="#T" n="27"/>Secundo an sit ibi totum vniuersale. 
+      <lb ed="#T" n="28"/>Tertio an sit ibi principium materiale. 
+      <lb ed="#T" n="29"/>Quarto an sit ibi communicabile &amp; 
+      incom<lb ed="#T" n="30" break="no"/>municabile. 
+    </p>
+            <div xml:id="pdt7y6-e50943-Dd1e133">
+               <head xml:id="pdt7y6-e50943-Hd1e135">Articulus 1</head>
+               <head xml:id="pdt7y6-e50943-Hd1e137" type="question-title">
+  An in Diuinis sit totum integrale.
+</head>
+               <p xml:id="pdt7y6-e50943-d1e140">
+                  <lb ed="#T" n="31"/>ARTICVLVS I. 
+      <lb ed="#T" n="32"/>An in Diuinis sit totum integrale.
+  </p>
+               <p xml:id="pdt7y6-e50943-d1e147">
+                  <lb ed="#T" n="33"/>AD primum sic proceditur. 1. Vbicumque 
+      <lb ed="#T" n="34"/>est reperire rationem quantitatis, est reper 
+      <lb ed="#T" n="35"/>rire rationem totius integralis, quia quantitas 
+      <lb ed="#T" n="36"/>diuisibilitatem habet in partes suas: sed in 
+      Diui<lb ed="#T" n="37" break="no"/>nis est reperire rationem quantitatis, secundum 
+      <lb ed="#T" n="38"/>magnitudinem: ergo &amp; rationem totius 
+      in<lb ed="#T" n="39" break="no"/>tegralis. 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e165">
+                  <lb ed="#T" n="40"/>2. Natura totius integralis est praedicari de 
+      om<lb ed="#T" n="41" break="no"/>nibus partibus suis simul, &amp; de nulla per se: sed  
+      <lb ed="#T" n="42"/>sic se habet Trinitas ad personas: ergo habet ad 
+      <lb ed="#T" n="43"/>eas rationem totius integralis. 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e177">
+                  <lb ed="#T" n="44"/>3. In qualibet collectione quilibet de ipsa 
+      <lb ed="#T" n="45"/>collectione est pars eius integralis, vt homo 
+      <lb ed="#T" n="46"/>pars populi: sed Trinitas nomen collectiuum 
+      <lb ed="#T" n="47"/>est personarum: ergo quaelibet persona pars est 
+      <lb ed="#T" n="48"/>eius integralis: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e190">
+                  <lb ed="#T" n="49"/>4. Numerus omnis est totum integrale ad 
+      <lb ed="#T" n="50"/>quamlibet suam vnitatem: ergo ternarius trium. 
+      <lb ed="#T" n="51"/>personarum est totum integrale ad quamlibet 
+      <lb ed="#T" n="52"/>vnitatem personalem. 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e201">
+                  <lb ed="#T" n="53"/>5. In omni natura communicabili non 
+      consti<lb ed="#T" n="54" break="no"/>tuitur res naturae ex sola natura nisi superaddito 
+      <lb ed="#T" n="55"/>iliquo: ergo requiritur compositio: ergo totalitas: 
+      <lb ed="#T" n="56"/>cum ergo natura Diuina sit huiusmodi, oportet 
+      <lb ed="#T" n="57"/>personam componi: ergo habere rationem totius 
+      <lb ed="#T" n="58"/>integralis. 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e217">
+                  <lb ed="#T" n="59"/>Contra. 1. Omne totum integrale maius est 
+      <lb ed="#T" n="60"/>sua parte: in Deo nihil maius est aut minus. 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e224">
+                  <lb ed="#T" n="61"/>2. Omne totum compositum est, &amp; in partes 
+      <lb ed="#T" n="62"/>suas secundum rem vel secundum intellectum 
+      <lb ed="#T" n="63"/>resolubile: in Diuinis vero nil tale est: ergo &amp;c. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0243.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="64"/>3. Vbi non potest esse ratio partis, non potest 
+      <lb ed="#T" n="65"/>esse ratio totius, cum pars &amp; totum dicantur 
+      rela<lb ed="#T" n="66" break="no"/>tiue: in Deo non potest esse ratio partis, quia 
+      im<lb ed="#T" n="67" break="no"/>perfectionem importat: ergo nec ratio totius. 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e246">
+                  <lb ed="#T" n="68"/>Respondeo. Totum aliquando dicitur 
+      abso<lb ed="#T" n="69" break="no"/>lute, &amp; sic idem est quod perfectum: &amp; hoc 
+      <lb ed="#T" n="70"/>modo dicitur, Pater est totius Diuinitatis 
+      <lb ed="#T" n="71"/>principium: aliquando relatiue in 
+      comparatio<lb ed="#T" n="72" break="no"/>ne ad partem; &amp; hoc dupliciter vel per 
+      abnega<lb ed="#T" n="73" break="no"/>tionem, sicut dicitur aeternitas tota simul &amp; 
+      <lb ed="#T" n="74"/>perfecta; vel per positionem, &amp; sic totum de 
+      <lb ed="#T" n="75"/>Deo non potest dici. Cum ergo sic dicatur 
+      to<lb ed="#T" n="76" break="no"/>tum integrale, in Deo non potest esse totum 
+      in<lb ed="#T" n="77" break="no"/>tegrale triplici ratione, scilicet propter 
+      compo<lb ed="#T" n="78" break="no"/>sitionem totius, &amp; partis imperfectionem, &amp; 
+      <lb ed="#T" n="79"/>eorum inaequalitatem. 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e276">
+                  <lb ed="#T" n="80"/>Ad 1. De quantitate. Resp. Quantitas 
+      dupli<lb ed="#T" n="81" break="no"/>citer dicitur vel proprie id quod habet 
+      diuisi<lb ed="#T" n="82" break="no"/>bilitatem in partes intra: vel similitudinarie id 
+      <lb ed="#T" n="83"/>quod habet diuisibilitatem in partes extra, talis 
+      <lb ed="#T" n="84"/>est quantitas virtutis quae diuiditur secundum 
+      <lb ed="#T" n="85"/>ea in quae potest: vbi est inuenire rationem 
+      <lb ed="#T" n="86"/>quantitatis primo modo, est ibi totalitas 
+      inte<lb ed="#T" n="87" break="no"/>gralis: sed non secundo modo: nam hoc vltimo 
+      <lb ed="#T" n="88"/>modo vnumquodque tanto diuisibilius quanto. 
+      <lb ed="#T" n="89"/>simplicius. 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e300">
+                  <lb ed="#T" n="90"/>Ad 2. Natura totius integralis est praedicari de 
+      <lb ed="#T" n="91"/>partibus suis simul. Resp. Hoc contingit in toto 
+      <lb ed="#T" n="92"/>integrali, non ratione solius totalitatis, sed 
+      di<lb ed="#T" n="93" break="no"/>uersitatis partium inter se: contingit enim 
+      ra<lb ed="#T" n="94" break="no"/>tione duplici, scilicet ratione inaequalitatis 
+      <lb ed="#T" n="95"/>totius ad partes singulas, &amp; ratione distinctionis 
+      <lb ed="#T" n="96"/>partium singularum ab alijs: quod autem 
+      Tri<lb ed="#T" n="97" break="no"/>nitas non praedicatur de singulis personis, 
+      con<lb ed="#T" n="98" break="no"/>tingit ratione distinctionis tantum, &amp; ideo 
+      <lb ed="#T" n="99"/>non habet rationem totius integralis. 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e324">
+                  <lb ed="#T" n="100"/>Ad 3. De collectione. Resp. Hoc verum est 
+      <lb ed="#T" n="101"/>vbi est collectio secundum rem, id est 
+      constitu<lb ed="#T" n="102" break="no"/>tio vnius rei ex diuersis: sed in hoc nomine 
+      <lb ed="#T" n="103"/>Trinitas, est collectio secundum nonien solum, 
+      <lb ed="#T" n="104"/>siue per rationem. 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e337">
+                  <lb ed="#T" n="105"/>Ad 4. De numero. Resp. Hoc verum est vbi 
+      <lb ed="#T" n="106"/>est numerus in sua perfecta ratione, ibi enim 
+      <lb ed="#T" n="107"/>non solum distinctio sed diuisio, quia vnum est 
+      <lb ed="#T" n="108"/>indiuisum in se, diuisum ab alijs: sed numerus 
+      <lb ed="#T" n="109"/>personarum constituitur ex distinctis, non 
+      <lb ed="#T" n="110"/>autem diuisis: vnde cum illa distincta sint vnum, 
+      <lb ed="#T" n="111"/>non constituitur totum integrale, quia non 
+      sa<lb ed="#T" n="112" break="no"/>ciunt coaceruationem. 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e357">
+                  <lb ed="#T" n="113"/>Ad 5. De natura communicabili. Resp. Hoc 
+      <lb ed="#T" n="114"/>locum habet in naturis compositis in quibus 
+      di<lb ed="#T" n="115" break="no"/>stinguitur res naturae penes proprietates 
+      absolu<lb ed="#T" n="116" break="no"/>tas, quae additae compositionem faciunt: sed in 
+      <lb ed="#T" n="117"/>Diuinis distinguitur penes proprietates relatiuas 
+      <lb ed="#T" n="118"/>tantum, quae non faciunt compositionem. Non 
+      <lb ed="#T" n="119"/>enim Pater aliquis magis componitur ex 
+      rela<lb ed="#T" n="120" break="no"/>tione ad multos Filios, nec punctus ex 
+      relatio<lb ed="#T" n="121" break="no"/>ne ad multas lineas. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e50943-Dd1e381">
+               <head xml:id="pdt7y6-e50943-Hd1e383">Articulus 2</head>
+               <head xml:id="pdt7y6-e50943-Hd1e385" type="question-title">
+  An in Diuinis sit totum uniuersale
+</head>
+               <p xml:id="pdt7y6-e50943-d1e388">
+                  <lb ed="#T" n="122"/>Articvlvs I. 
+      <lb ed="#T" n="123"/>An in Diuinis sit totum uniuersale.
+</p>
+               <p xml:id="pdt7y6-e50943-d1e395">
+                  <lb ed="#T" n="124"/>AD secundum articulum proceditur sic. 
+      Vni<lb ed="#T" n="125" break="no"/>uersale est quod praedicatur de P.ribus. 
+      <lb ed="#T" n="126"/>essentialiter, particulare quod de vno solo: sed  
+      <lb ed="#T" n="127"/>vtrumque praedicabile est in Diuinis: ergo ibi  
+      <lb ed="#T" n="128"/>est vniuersale &amp; particulare. 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e408">
+                  <lb ed="#T" n="129"/>2. Quanto aliqua forma simplicior tanto vni¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0244.xml-->
+      <pb ed="#T" n="169"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>uersalior: sed essentia Diuina est forma 
+      simpli<lb ed="#T" n="2" break="no"/>cissima: ergo maxime vniuersalis. 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e425">
+                  <lb ed="#T" n="3"/>3. Omne quod praedicatur de aliquibus 
+      essen<lb ed="#T" n="4" break="no"/>tialiter, &amp; est amplius quam aliquod illorum, 
+      <lb ed="#T" n="5"/>vniuersale est: sed sic praedicatur essentia Diuina 
+      <lb ed="#T" n="6"/>de qualibet persona: ergo essentia diuina est 
+      vni<lb ed="#T" n="7" break="no"/>uersale 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e438">
+                  <lb ed="#T" n="8"/>4. Vbicumque est inuenire commune &amp; 
+      pro<lb ed="#T" n="9" break="no"/>prium in praedicando, ibi est inuenire 
+      vniuer<lb ed="#T" n="10" break="no"/>sale &amp; particulare: ergo in Deo. 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e447">
+                  <lb ed="#T" n="11"/>5. Damas. dicit quod essentia est vt commune, 
+      <lb ed="#T" n="12"/>persona vt particulare 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e454">
+                  <lb ed="#T" n="13"/>Contra. 1. Vbi est particulare ibi est aliquod 
+      <lb ed="#T" n="14"/>ens hic &amp; nunc: sed in diuinis nihil tale est: ergo 
+      <lb ed="#T" n="15"/>non est ibi particulare: ergo nec vniuersale. 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e463">
+                  <lb ed="#T" n="16"/>2. Omnis natura in qua vniuersale est &amp; 
+      par<lb ed="#T" n="17" break="no"/>ticulare, est in genere determinato: sed natura 
+      <lb ed="#T" n="18"/>diuina non est in genere determinato, quia non 
+      <lb ed="#T" n="19"/>est finita: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e474">
+                  <lb ed="#T" n="20"/>3. Vbi est vniuersale ibi est forma 
+      communi<lb ed="#T" n="21" break="no"/>multiplicata actu in pluribus, vel 
+      multiplicabi<lb ed="#T" n="22" break="no"/>lis aptitudine quantum est de natura formae, vt 
+      <lb ed="#T" n="23"/>forma Solis: sed in Diuinis nulla est forma talis 
+      <lb ed="#T" n="24"/>ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e488">
+                  <lb ed="#T" n="25"/>4. Vbicumque est vniuersale &amp; particulare 
+      <lb ed="#T" n="26"/>uniuersale simplicius est particulari: sed in 
+      di<lb ed="#T" n="27" break="no"/>uinis nihil altero est simplicius: ergo &amp;c. 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e497">
+                  <lb ed="#T" n="28"/>Respondeo. In diuinis est non est vniuersale 
+      <lb ed="#T" n="29"/>&amp; particulare: vniuersale enim est vnum in 
+      <lb ed="#T" n="30"/>multis &amp; de multis praedicabile actu vel 
+      aptitu<lb ed="#T" n="31" break="no"/>dine quantum est ex parte formae, quamuis 
+      <lb ed="#T" n="32"/>quod actu de vno solo, contingat aliquando ex 
+      <lb ed="#T" n="33"/>collectione totius materiae speciei in illo vt in 
+      <lb ed="#T" n="34"/>Sole: sed vnitas non est vnius rei numero, sed  
+      <lb ed="#T" n="35"/>vnius intentionis: essentia vero diuina in 
+      perso<lb ed="#T" n="36" break="no"/>nis vna est vnitate rei non intentionis solum. 
+      Ra<lb ed="#T" n="37" break="no"/>tio vero quare non possit esse ibi ratio 
+      vniuer<lb ed="#T" n="38" break="no"/>salis &amp; particularis, vna est quia non differt in 
+      <lb ed="#T" n="39"/>Deo sua quidditas &amp; suum esse. Altera, quia 
+      <lb ed="#T" n="40"/>non multiplicatur forma diuina in suis 
+      supposi<lb ed="#T" n="41" break="no"/>tis. Tertia, quia ipsa supposita non differunt 
+      nu<lb ed="#T" n="42" break="no"/>mero simpliciter, ita quod nihil, quod est in 
+      vno<lb ed="#T" n="43" break="no"/>sit in altero. Quarta, quia in Deo formae 
+      commu<lb ed="#T" n="44" break="no"/>nis non sit contractio per additionem: haec autem 
+      <lb ed="#T" n="45"/>omnia reperiuntur vbicumque est vniuersale 
+      <lb ed="#T" n="46"/>vere &amp; particulare, 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e541">
+                  <lb ed="#T" n="47"/>Ad 1. Uniuersale est quod praedicatur &amp;c. 
+      <lb ed="#T" n="48"/>Resp. Quamuis hoc faciat ad habendam aliqua 
+      <lb ed="#T" n="49"/>similitudinem cum vniuersali, non tamen 
+      per<lb ed="#T" n="50" break="no"/>ficit rationem vniuersalis: sed oportet quod prae 
+      <lb ed="#T" n="51"/>dicetur de pluribus secundum vnitatem rationis 
+      <lb ed="#T" n="52"/>non rei: essentia vero praedicatur secundum 
+      vni<lb ed="#T" n="53" break="no"/>tatem rei indiuisibilis. 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e559">
+                  <lb ed="#T" n="54"/>Ad 2. Quanto aliqua forma simplicior &amp;c. 
+      <lb ed="#T" n="55"/>Resp. Vbi est forma simplex a priuatione 
+      com<lb ed="#T" n="56" break="no"/>positionis in se Solum, sed non componibilitatis 
+      <lb ed="#T" n="57"/>cum altero: verum est hoc; nam tale simplex 
+      <lb ed="#T" n="58"/>per additionem habet contrahi &amp; determinati: 
+      <lb ed="#T" n="59"/>&amp; talis est simplicitas vniuersalis: sed vbi 
+      pri<lb ed="#T" n="60" break="no"/>uatur vtraque compositio non est verum, tale 
+      <lb ed="#T" n="61"/>enim simplex non recipit additionem. 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e579">
+                  <lb ed="#T" n="62"/>Ad 3. Omne quod praedicatur essentialiter &amp; 
+      <lb ed="#T" n="63"/>est amplius &amp;c. Resp. Hoc non sufficit ad ratio  
+      <lb ed="#T" n="64"/>nem vniuersalis, nisi huiusimodi praedicatio sit 
+      <lb ed="#T" n="65"/>per communicationem multiplicatam in ijs de 
+      <lb ed="#T" n="66"/>quibus praedicatur, quod non conuenit essentiae 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e592">
+                  <lb ed="#T" n="67"/>Ad 4. De communi &amp; proprio. Resp. Non 
+      <lb ed="#T" n="68"/>est verumgsimpliciter, sed de eo quod comune est 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0244.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="69"/>communitate rationis non rei, scilicet per 
+      di<lb ed="#T" n="70" break="no"/>uisionem non per indiuisionem. 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e609">
+                  <lb ed="#T" n="71"/>Ad 5. DeDamasceno. Resp. Vniuersale &amp; 
+      par<lb ed="#T" n="72" break="no"/>ticulare dicit non secundum proprietatem rei, 
+      <lb ed="#T" n="73"/>sed secundum aliquam similitudinem 
+      praedica<lb ed="#T" n="74" break="no"/>tionis 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e50943-Dd1e621">
+               <head xml:id="pdt7y6-e50943-Hd1e623">Articulus 3</head>
+               <head xml:id="pdt7y6-e50943-Hd1e625" type="question-title">
+  An in Diuinis sit principium materiale.
+</head>
+               <p xml:id="pdt7y6-e50943-d1e628">
+                  <lb ed="#T" n="75"/>Articvlvs III. 
+      <lb ed="#T" n="76"/>An in Diuinis sit principium materiale.
+</p>
+               <p xml:id="pdt7y6-e50943-d1e635">
+                  <lb ed="#T" n="77"/>D tertium articulum proceditur sic. 
+      Mate<lb ed="#T" n="78" break="no"/>ria &amp; forma dicuntur relatiue: sed in 
+      Diui<lb ed="#T" n="79" break="no"/>nis est vere forma: ergo vere materia. 
+      <lb ed="#T" n="80"/>2. Ratio finiti est a forma, ratio infiniti a 
+      mate<lb ed="#T" n="81" break="no"/>ria: ergo cum in Diuinis sit ratio infiniti, ibi est 
+      <lb ed="#T" n="82"/>materia. 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e651">
+                  <lb ed="#T" n="83"/>3. Id de quo aliquid producitur, ita quod 
+      il<lb ed="#T" n="84" break="no"/>lud manet in illo, dicitur eius materia: Filius 
+      <lb ed="#T" n="85"/>proucitur de substantia Patris, ita quod ipsa 
+      <lb ed="#T" n="86"/>manet in eo: ergo est quasi eius materia. 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e663">
+                  <lb ed="#T" n="87"/>4. Omnis differentia seu distinctio est a forma: 
+      <lb ed="#T" n="88"/>ergo circunscripta forma, materia a nullo differt 
+      <lb ed="#T" n="89"/>ergo non differt a Deo: sed quod est indifferen 
+      <lb ed="#T" n="90"/>est idem: ergo est idem cum Deo. 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e674">
+                  <lb ed="#T" n="91"/>5. Materia est incorruptibilis, &amp; primum 
+      fun<lb ed="#T" n="92" break="no"/>damentum entium: hoc autem Deo conuenit: 
+      <lb ed="#T" n="93"/>ergo habet rationem materiae. 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e683">
+                  <lb ed="#T" n="94"/>Contra. 1. Boetius lib. de Trinit. dicit. Quod 
+      <lb ed="#T" n="95"/>Deus est forma sine materia. 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e690">
+                  <lb ed="#T" n="96"/>2. Materia principium est pass onis: Deus es 
+      <lb ed="#T" n="97"/>impassibilis, 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e697">
+                  <lb ed="#T" n="98"/>3. Materia est ens imperfectum &amp; in potentia 
+      <lb ed="#T" n="99"/>tantum: Deus autem est ens perfectisi: mum. 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e704">
+                  <lb ed="#T" n="100"/>Respondeo. In Deo nulla est proprie 
+      causa<lb ed="#T" n="101" break="no"/>litas respectu personarum Diuinarum, sed 
+      tan<lb ed="#T" n="102" break="no"/>tum ratio principij: quia causa est cuius esse 
+      se<lb ed="#T" n="103" break="no"/>quitur aliud, vnde requirit dificrentiam 
+      essentia<lb ed="#T" n="104" break="no"/>lem (id est distinetionem realem in essentia) ? 
+      <lb ed="#T" n="105"/>Respectu vero creaturarum est in Deo triplex 
+      <lb ed="#T" n="106"/>genus causalitatis, scilicet efiscies, finalis, &amp; 
+      for<lb ed="#T" n="107" break="no"/>inalis, &amp; secundum Philosophum exemplar: 
+      <lb ed="#T" n="108"/>haec enim tres essitiens, formalis &amp; sinalis, 
+      se<lb ed="#T" n="109" break="no"/>cundum Philosophum lib. Phys. in idem 
+      coin<lb ed="#T" n="110" break="no"/>cidunt, sed materialis numquam incidit in idem 
+      <lb ed="#T" n="111"/>cum eis 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e734">
+                  <lb ed="#T" n="112"/>Ad. 1. De materia. Resp. Forma duplex est 
+      <lb ed="#T" n="113"/>quaedam exemplaris extra rem, quaedaut quae 
+      <lb ed="#T" n="114"/>est pars rei: prima non dicitur relatiue ad 
+      mate<lb ed="#T" n="115" break="no"/>riam, sed ad exemplatum: secunda dicitur 
+      rela<lb ed="#T" n="116" break="no"/>tiue ad materiam: primo modo Deus est forma, 
+      <lb ed="#T" n="117"/>non secundo. 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e750">
+                  <lb ed="#T" n="118"/>Ad 2. De ratione infiniti. Resp. Infinitum 
+      du<lb ed="#T" n="119" break="no"/>pliciter accipitur: aut priuatiue, &amp; sic dicit 
+      con<lb ed="#T" n="120" break="no"/>ditionem materiae, nec est in Deo, quia non est 
+      <lb ed="#T" n="121"/>determinata ad aliquam formam, quia non 
+      ha<lb ed="#T" n="122" break="no"/>bet virtutem terminatam: aut negatiue solum, 
+      <lb ed="#T" n="123"/>sic est in Deo, nec importat imperfectionem 
+      ali<lb ed="#T" n="124" break="no"/>quam. Vel dicendum quod infinitum in 
+      reci<lb ed="#T" n="125" break="no"/>piendo attestatur materiae, non infinitum in 
+      <lb ed="#T" n="126"/>agendo. 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e772">
+                  <lb ed="#T" n="127"/>Ad 3. De quo aliquid producitur &amp;c. Resp. 
+      <lb ed="#T" n="128"/>Cum dicitur Filius produci de substantia Patris 
+      <lb ed="#T" n="129"/>haec praepositio de accipitur substantialiter, non 
+      <lb ed="#T" n="130"/>materialiter: quia res ita dicitur fieri de materia. 
+      <lb ed="#T" n="131"/>quod ipsa materia transmutatur, &amp; res non est 
+      <lb ed="#T" n="132"/>ipsa materia de qua fit, cum materia sit pars eius: 
+      <lb ed="#T" n="133"/>Filius vero est essentia Patris. 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e790">
+                  <lb ed="#T" n="134"/>Ad 4. Omnis distinctio est a forma. Resp. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0245.xml-->
+      <pb ed="#T" n="170"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>Omnis perfecta distinctio a forma est: sed hoc 
+      <lb ed="#T" n="2"/>potest esse vel a forma eius quod dicitur differre, 
+      <lb ed="#T" n="3"/>vel alterius: sicut informe differt a formato, 
+      for<lb ed="#T" n="4" break="no"/>ma illius non sua: sic ipsa forma amateria 
+      distin<lb ed="#T" n="5" break="no"/>guitur perfecte, &amp; similiter Deus seipso 
+      perfe<lb ed="#T" n="6" break="no"/>cta distinctione distinguitur: materia vero ab 
+      <lb ed="#T" n="7"/>ipso imperfecta distinctione. 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e816">
+                  <lb ed="#T" n="8"/>Ad 5. Materia est incorruptibilis &amp;c. Aliter 
+      <lb ed="#T" n="9"/>dicitur materia incorruptibilis, scilicet 
+      corru<lb ed="#T" n="10" break="no"/>ptione naturali, quia non potest resolui in 
+      alte<lb ed="#T" n="11" break="no"/>ram materiam: aliter Deus, scilicet omni modo 
+      <lb ed="#T" n="12"/>corruptionis: aliter etiam dicitur materia 
+      funda<lb ed="#T" n="13" break="no"/>mentum, scilicet formas omnes in se suscipiendo: 
+      <lb ed="#T" n="14"/>aliter Deus, scilicet omnia effectiue sustentando. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-e50943-Dd1e835">
+               <head xml:id="pdt7y6-e50943-Hd1e837">Articulus 4</head>
+               <head xml:id="pdt7y6-e50943-Hd1e839" type="question-title">
+  An in Diuinis sit communicabile et incommunicabile.
+</head>
+               <p xml:id="pdt7y6-e50943-d1e842">
+                  <lb ed="#T" n="15"/>ARTICVLVS IV 
+      <lb ed="#T" n="16"/>An in Diuinis sit communicabile &amp; 
+      <lb ed="#T" n="17"/>incommunicabile. 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e851">
+                  <lb ed="#T" n="18"/>AD quartum articulum sic proceditur. 1. 
+      Ri<lb ed="#T" n="19" break="no"/>cardus de Trinit. lib. 4. In Diuina natura 
+      <lb ed="#T" n="20"/>est existentia quae est omnibus communicabilis, 
+      <lb ed="#T" n="21"/>&amp; est existentia quae omnino est 
+      incommunica<lb ed="#T" n="22" break="no"/>bilis: ergo est ibi communicabile &amp; 
+      incommu<lb ed="#T" n="23" break="no"/>nicabile. 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e867">
+                  <lb ed="#T" n="24"/>2. Essentia praedicatur de pluribus, persona 
+      <lb ed="#T" n="25"/>vero singularis non: ergo est ibi communicabile 
+      <lb ed="#T" n="26"/>&amp; incommunicabile. 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e877">
+                  <lb ed="#T" n="27"/>Contra. 1. In omni natura, in qua est ponere 
+      <lb ed="#T" n="28"/>communicabile &amp; incommunicabile, est ponere 
+      <lb ed="#T" n="29"/>vniuersale &amp; particulare: sed hoc non est 
+      pone<lb ed="#T" n="30" break="no"/>re in Diuinis: ergo nec illa 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e888">
+                  <lb ed="#T" n="31"/>2. Communicabilitas &amp; incommunicabilitas 
+      <lb ed="#T" n="32"/>in Diuinis ab eodem causatur aut ab alio: si ab 
+      <lb ed="#T" n="33"/>eodem, ergo idem est causa oppositorum: si ab 
+      <lb ed="#T" n="34"/>alio, ergo diuersitas est in Deo. 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e899">
+                  <lb ed="#T" n="35"/>3. Quicquid est in Deo vnum est; in vno non 
+      <lb ed="#T" n="36"/>potest esse oppositio: communicabile vero &amp; 
+      <lb ed="#T" n="37"/>incommunicabile opposita sunt: ergo non sunt,  
+      <lb ed="#T" n="38"/>in Deo. 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e910">
+                  <lb ed="#T" n="39"/>Respondeo. In Diuinis conuenientia est 
+      se<lb ed="#T" n="40" break="no"/>cundum conditiones absolutas: differentia 
+      se<lb ed="#T" n="41" break="no"/>cundum conditiones relatiuas. Quia vero 
+      abso<lb ed="#T" n="42" break="no"/>lutum &amp; relatiuum non oportet differre re, sed  
+      <lb ed="#T" n="43"/>ratione; ideo in quo conueniunt &amp; in quo 
+      dif<lb ed="#T" n="44" break="no"/>ferunt, id est communicabile &amp; 
+      incommunica<lb ed="#T" n="45" break="no"/>bile, non differunt re sed ratione: relatiua tamen 
+      <lb ed="#T" n="46"/>ipsa adinuicem differunt re. 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e930">
+                  <lb ed="#T" n="47"/>Ad 1. In contrarium. In omni natura &amp;
+      c<lb ed="#T" n="48" break="no"/>Resp. Non est verum, sed vbi ponitur 
+      commu<lb ed="#T" n="49" break="no"/>nicabile per sui multiplicationem &amp; diuisionem. 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e939">
+                  <lb ed="#T" n="50"/>Ad 2. Aut ab eodem causatur &amp;c. Resp. Sicut 
+      <lb ed="#T" n="51"/>Pater eo est Deus, quo Pater secundum rem, 
+      <lb ed="#T" n="52"/>non eodem secundum rationem; ita ratio 
+      com<lb ed="#T" n="53" break="no"/>municabilis &amp; incommunicabilis causatur ab 
+      <lb ed="#T" n="54"/>eodem secundum rem, sed differente secundum 
+      <lb ed="#T" n="55"/>rationem. 
+    </p>
+               <p xml:id="pdt7y6-e50943-d1e956">
+                  <lb ed="#T" n="56"/>Ad 3. Deus est vnum. Resp. Oppositio rei 
+      <lb ed="#T" n="57"/>non potest esse in eodem; sed oppositio rationis 
+      <lb ed="#T" n="58"/>potest, sed non secundum idem, nam Petrus est 
+      <lb ed="#T" n="59"/>idem cum homine, &amp; tamen Petrus est 
+      incom<lb ed="#T" n="60" break="no"/>municabilis, homo vero communicabilis.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

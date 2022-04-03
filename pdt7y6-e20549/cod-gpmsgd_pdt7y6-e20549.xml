@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="70"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-e20549"><!-- l1d8prae -->
+            <head xml:id="pdt7y6-e20549-Hd1e99">Praeambulum</head>
+            <head xml:id="pdt7y6-e20549-Hd1e101" type="question-title"/>
+            <p xml:id="pdt7y6-e20549-d1e103">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0143.xml-->
+               <cb ed="#T" n="c"/>
+               <lb ed="#T" n="28"/>DEVERITATE, PROPRIETATE. 
+      <lb ed="#T" n="29"/>incommutabilitate &amp; simplicitate essentiae Dei, 
+      <lb ed="#T" n="30"/>Distinct. VIII. 
+    </p>
+           <!-- <p xml:id="pdt7y6-e20549-d1e116">
+               <lb ed="#T" n="31"/>VNCde veritate siue proprietate, siue incommutabilitate atque 
+      simpli<lb ed="#T" n="32" break="no"/>Pcitate Diuinae naturae, siue substantiae, siue essentiae agendum est. Est 
+      ita<lb ed="#T" n="33" break="no"/>p que Deus, vt ait August. in 5. lib. de Trinit. sine dubitatione substantia, 
+      <lb ed="#T" n="34"/>&amp; vel si melius hoc appellatur, essentia quam Graeci acia, vocant. Sicut enim 
+      <lb ed="#T" n="35"/>Nu ab eo quod est sapere dicta est sapientia, &amp; ab eo quod est scire dicta est 
+      <lb ed="#T" n="36"/>scientia: ita ab eo quod est esse, dicta est essentia. Et quis magis est, quam 
+      <lb ed="#T" n="37"/>ille qui dixit famulo suo: E go sum qui sum? Et dices Filijs Isracl. Qui est misit me ad vos: 
+      <lb ed="#T" n="38"/>Ipse vere ac proprie dicitur essentia, cuius essentia non nouit praeteritum vel futurum. 
+      <lb ed="#T" n="39"/>Vnde Hieron. ad Damasum scribens ait, Deus solus qui exordium non habet, verae 
+      essen<lb ed="#T" n="40" break="no"/>tiae nomen tenet, quia in eius comparatione qui vere est, qui incommutabilis est, quasi, 
+      <lb ed="#T" n="41"/>non sunt quae mutabilia sunt. De quo enim dicitur, Fuit, non est, &amp; de quo dicitur, Erit, 
+      <lb ed="#T" n="42"/>nondum est: Deus autem tantum est, qui non nouit fuisse vel futurum esse. Solus ergo 
+      <lb ed="#T" n="43"/>Deus vere est: cuius essentiae comparatum nostrum esse, non est. 
+    </p>
+            <p xml:id="pdt7y6-e20549-d1e147">
+               <lb ed="#T" n="44"/>Qualiter intelligenda sint verba Hieronymi, quaerendum est, 
+      <lb ed="#T" n="45"/>Hic diligenter aduertendum est, quomodo intelligi debeant illa verba Hieron. scilicet,  
+      <lb ed="#T" n="46"/>Deus tantum est, &amp; non nouit fuisse vel futurum esse: tanquam non possit dici de Deo: 
+      <lb ed="#T" n="47"/>Fuit vel erit, sed tantum est, cum de eo scriptum frequenter reperiamus, fuit ab aeterno, 
+      <lb ed="#T" n="48"/>fuit semper, &amp; erit in secula, &amp; huiusmodi: vnde videtur quia non est tantum dicendum 
+      <lb ed="#T" n="49"/>de Deo: Fuit, vel Est, vel Erit. Si enim diceretur tantum, Fuit, putaretur quod defierit 
+      <lb ed="#T" n="50"/>esse: si diceretur tantum, Est, putaretur quod non semper fuerit, sed esse coeperit: sic 
+      <lb ed="#T" n="51"/>tantum diceretur, Erit, putaretur non esse modo. Dicatur ergo quia semper fuit, est, &amp; 
+      <lb ed="#T" n="52"/>erit, vt intelligatur quia nec coepit, nec desinit, nec desinet esse. De hoc August. super 
+      <lb ed="#T" n="53"/>soannem, ita ait, Cum de sempiterna re proprie dicatur, Est: secundum nos bene dicitur,  
+      <lb ed="#T" n="54"/>Fuit &amp; erit: fuit, quia nunquam desiit; erit, quia nunquam deerit; est, quia semper est: 
+      <lb ed="#T" n="55"/>non praeteriit, quasi quod non maneat: non erit, quasi quod non erat. Cum ergo nostra 
+      <lb ed="#T" n="56"/>locutio pertempora varietur, de eo vere dicuntur verba cuiuslibet temporis, qui nullo 
+      <lb ed="#T" n="57"/>tempore defuit, vel deest, vel deerit: &amp; ideo non est mirum si de spiritu veritatis veritas 
+      <lb ed="#T" n="58"/>loquens dixit per futurum: Quaecumque audiet, loquetur: andiet, scilicet, ab eo a quo 
+      <lb ed="#T" n="59"/>procedit. Audire illius est scire, idem etiam esse. Aquo ergo est illi essentia, ab illo 
+      audien<lb ed="#T" n="60" break="no"/>tia, id est, scientia: quae non est aliud quam essentia. Audiet ergo, dixit de eo quod 
+      audi<lb ed="#T" n="61" break="no"/>uit: &amp; audit, id est, quod semper sciuit, scit, &amp; sciet. Ecce hic dicit Aug. Verba 
+      cu<lb ed="#T" n="62" break="no"/>iuslibet temporis dici de Deo: sed tamen proprie, est. Illud ergo quod Hieronymus dicit 
+      <lb ed="#T" n="63"/>ita intelligendum est. Non nouit fuisse vel futurum esse, sed tantum esse, id est, cum 
+      di<lb ed="#T" n="64" break="no"/>citur de Deo quod fuit vel erit, non est intelligendum quod praeterierit vel futurus sit, sed  
+      <lb ed="#T" n="65"/>quod existat simpliciter sine aliquo temporali motu. Licet enim verba substantiua 
+      diuer<lb ed="#T" n="66" break="no"/>forum temporum de Deo dicantur (vt fuit, erit, est, erat) non tamen temporales 
+      mo<lb ed="#T" n="67" break="no"/>tus esse distingunt, scilicet, praeteritum vel futurum, vel praeteritum imperfectum, vel 
+      <lb ed="#T" n="68"/>praeteritum perfectum, vel praeteritum plusquam perfectum: sed essentiam siue 
+      existen<lb ed="#T" n="69" break="no"/>tiam suae Diuinitatis simpliciter insinuant: Deus ergo solus proprie dicitur essentia vel esse. 
+      <lb ed="#T" n="70"/>Vnde Hilarius in 7. de Trinitate ait, Esse non est accidens Deo, sed subsistens veritas, &amp; 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0144.xml-\->
+      <cb ed="#T" n="144"/>
+               <lb ed="#T" n="1"/>manens eausa, &amp; naturalis generis proprietas. 
+    </p>
+            <p xml:id="pdt7y6-e20549-d1e216">
+               <lb ed="#T" n="2"/>Hic de incommutabilitate. 
+      <lb ed="#T" n="3"/>Dei etiam solius essentia incommutabilis dicitur proprie: quia: nec mutatur, nec 
+      mu<lb ed="#T" n="4" break="no"/>tari potest. Vnde Augrin 5. dib. de Trinit. Aliue; inquit, essentiae vel substantiae capiunt  
+      <lb ed="#T" n="5"/>accidentia, quibus uis siat vti magna, vel quantacumque muratio: Deo: utem aliquid 
+      <lb ed="#T" n="6"/>huiusmodi accidene nonpotest; p8cideo sola substansia vel essentia, quavest Deus, 
+      incom<lb ed="#T" n="7" break="no"/>munabilib est, curpeofecto marum qiac verissime competit esse. Quod enim mutatur, non 
+      <lb ed="#T" n="8"/>serpac ipsum verum esse, &amp; quod mutari potestaetiam si non mutetur, potest quod fuerat 
+      <lb ed="#T" n="9"/>non esse. Ideoque illud solum uod non tantum non mutatur, verum etiam murari 
+      omni<lb ed="#T" n="10" break="no"/>non non potest, verissime dicitur esse, id est, substantia Patris, &amp; Filij &amp; Spiritus 
+      Sancti<lb ed="#T" n="11" break="no"/>Ideoque Apostosus soquens de Deo ait. Qui solus: habet immertalitatem. Vt enim ait 
+      <lb ed="#T" n="12"/>August. in libro primo de Trinitaee. Cum anima quodammodo immortalis esse dicatur 
+      <lb ed="#T" n="13"/>&amp; sit, non diceret Apostolus: Solus Deus habet immortalitatem: nisi quia vera 
+      immor<lb ed="#T" n="14" break="no"/>talitas incommutabilitas est, quam nulla potest habere creatura, quoniam solius 
+      Creato<lb ed="#T" n="15" break="no"/>ris est. Vnde lacobus ait: Apud Deum non est transmuratio, nec vicissitudinis 
+      obumbra<lb ed="#T" n="16" break="no"/>tio. Et Dauid: Mutabis ea, &amp; mutabuntur: tu autem idem ipse es. Ideo August. super Gen. 
+      <lb ed="#T" n="17"/>dicit quod Deus nec perloca, uec per tempora mouetur: creatura vero per loca &amp; 
+      tempo<lb ed="#T" n="18" break="no"/>ra. Et per tempora moueri, est per affectiones commutari. Deus autem necloco, nec 
+      as<lb ed="#T" n="19" break="no"/>fectione mutari potest, qui per prophetam ait, ego Deus &amp; non mutor, qui est immutabilis 
+      <lb ed="#T" n="20"/>solus. Vnde recte solus dicitur habere immortalitatem. In omni enim mutabili natura, vt 
+      <lb ed="#T" n="21"/>ait August. contra Maximinum, nonnulla mors est ipsa mutatio: quia facit aliquid in ea 
+      <lb ed="#T" n="22"/>non esse quod erat. Vnde &amp; ipsa anima humana, quae ideo dicitur immortalis, quia 
+      secun<lb ed="#T" n="23" break="no"/>dum modum suum nunquam definit viuere, habet tamen quandam mortem suam, quia 
+      si<lb ed="#T" n="24" break="no"/>iuste viuebat &amp; peccat, moritur iustitiae: si peccatrix erat &amp; iustificatur, moritur peccato, vt 
+      <lb ed="#T" n="25"/>alias eius mutationes taceam, de quibus modo longum est disputare. Et creaturarum naturae. 
+      <lb ed="#T" n="26"/>celestium mori potuit, quia peccare potuit. nam &amp; Angeli peccauersunt &amp; daemones facti sunt,  
+      <lb ed="#T" n="27"/>quorum est diabolus princeps, &amp; qui non peccauerunt, peccare potuerunt: &amp; cuicunque 
+      ra<lb ed="#T" n="28" break="no"/>tionali creaturae praestatur, vt peccare non possit: non est hoc naturae propriae, sed Dei 
+      gra<lb ed="#T" n="29" break="no"/>tiae. Et ideo solus Deus, vt ait Apostolus, habet immortalitatem: qui non cuiusquam 
+      gra<lb ed="#T" n="30" break="no"/>tia, sed natura sua nec potuit, nec potest aliqua conuersione mutari, nec potuit, nec poter 
+      <lb ed="#T" n="31"/>sit aliqua mutatione peccare. Proinde, vt ait August. in lib. 1. de Trinitate, substantiam 
+      <lb ed="#T" n="32"/>Dei sine vlla sui commutatione mutabilia facientem, &amp; sine vllo suo temporali motu 
+      tem<lb ed="#T" n="33" break="no"/>poralia creantem, intueri &amp; nosse, licet sit difficile, oportet. Vere ergo ac proprie 
+      incom<lb ed="#T" n="34" break="no"/>mutabilis est sola diuinitatis essentia: quae sine sui mutatione cunctas condidit naturas. 
+    </p>
+            <p xml:id="pdt7y6-e20549-d1e290">
+               <lb ed="#T" n="35"/>Hic de simplicitate. 
+      <lb ed="#T" n="36"/>Eademque sola proprie ac vere simplex est vbi nec partium nec accidentium, nec 
+      qua<lb ed="#T" n="37" break="no"/>rumlibet formarum vlla est diuersitas, siue variatio vel multitudo. Vt autem scias 
+      quomo<lb ed="#T" n="38" break="no"/>do simplex sit illa substantia, te docet August. in 6. lib. de Trinitate. Animaduerte primo, 
+      <lb ed="#T" n="39"/>quare omnis creatura sit multiplex, &amp; nullo modo vere simplex: &amp; primum de corporalis 
+      <lb ed="#T" n="40"/>postea de spirituali creatura. Corporalis vtique creatura ex partibus constat, ita vt sit ibi 
+      <lb ed="#T" n="41"/>aliqua pars minor, alia maior: &amp; maius sit totum, quam quaelibet pars: &amp; in vnoquoque 
+      <lb ed="#T" n="42"/>corpore aliud est magnitudo, aliud color, aliud est figura. Potest enim imminuta 
+      magnitu<lb ed="#T" n="43" break="no"/>dine manere idem color, &amp; eadem figura: &amp; colore mutato manere eadem figura &amp; 
+      ea<lb ed="#T" n="44" break="no"/>dem magnitudo. Ac per hoc multiplex esse conuincitur natura corporis: simplex autem 
+      <lb ed="#T" n="45"/>nullomodo. 
+    </p>
+            <p xml:id="pdt7y6-e20549-d1e316">
+               <lb ed="#T" n="46"/>Hie despirituali creatura ostendit quomodo sit multiplex &amp; non simplex. E 
+      <lb ed="#T" n="47"/>Creatura quoque spiritualis, vt est anima, in comparatione quidem corporis est 
+      sim<lb ed="#T" n="48" break="no"/>plex, sine comparatione vero corporis, est multiplex &amp; non simplex: quae ideo simplex 
+      di<lb ed="#T" n="49" break="no"/>citur respectu corporis, quia mole non diffunditur per spacium loci, sed in vnoquoque 
+      <lb ed="#T" n="50"/>corpore &amp; in toto tota est, &amp; in qualibet eius parte tota est. Et ideo cum sit aliquid in quauis 
+      <lb ed="#T" n="51"/>exigua particula corporis, quod sentiat anima, quamuis non siat in toto corpore, illa 
+      ta<lb ed="#T" n="52" break="no"/>men tota sentit, quia totam non latet. Sed tamen nec in ipsa tota anima vera simplicitas 
+      <lb ed="#T" n="53"/>est. Cum enim aliud sit artificiosum esse, aliud inertem, aliud acutum, aliud memorem: aliud 
+      <lb ed="#T" n="54"/>cupiditas, aliud timor, aliud laetitia, aliud tristitia, possintque haec &amp; alia huiusmodi 
+      innu<lb ed="#T" n="55" break="no"/>merabilia in animae inueniri natura, &amp; alia sine aliis, &amp; alia magis, &amp; alia minus, 
+      manife<lb ed="#T" n="56" break="no"/>stum est animae non simplicem, sed multiplicem esse naturam. Nihil enim simplex 
+      muta<lb ed="#T" n="57" break="no"/>bileaest; omnis autem creatura mutabilis est, nulla ergo creatura vere simplex est: Deus 
+      <lb ed="#T" n="58"/>vero etsi multiplex dicatur, vere tamen &amp; summe simplex est. Dicitur enim magnus, 
+      bo<lb ed="#T" n="59" break="no"/>nus; sapiens, beatus, verus, &amp; quicquid aliud non indigne dici videtur: sed eadem magni¬ 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0145.xml-\->
+      <cb ed="#T" n="145"/>
+               <lb ed="#T" n="1"/>tudo eius est quae sapientia. Non enim mole magnus est, sed virtute: &amp; eadem honitas 
+      <lb ed="#T" n="2"/>eius, est, quae sapientia, &amp; magnitudo, &amp; veritas: &amp; non est ibi aliud ipsum beatum esse, &amp; 
+      <lb ed="#T" n="3"/>aliud magnum aut fapiontem aut verum aut bonum esse, aut omnino esse. 
+    </p>
+            <p xml:id="pdt7y6-e20549-d1e360">
+               <lb ed="#T" n="4"/>Qualiter naeus cum sit simplex, multiplex tamen dicatig. 
+      <lb ed="#T" n="5"/>Hic diligenter notandum est, cum dicat Augustinus solum Deum tere simplicem esse 
+      <lb ed="#T" n="6"/>eur dicat eundem multiplicitur: dici. Sed hoc non proprer idiuersitatem accidehtiuduuel 
+      <lb ed="#T" n="7"/>partium dicit, sed propterdiuensitatem ac multitudineam nominum, quae de Deo dicuntur,  
+      <lb ed="#T" n="8"/>quaelicet multiplicia sint vnum tamen significant, scilicet, diuinam naturam. Haec anim 
+      <lb ed="#T" n="9"/>non ita accipiuntur, cum de illa incommuntabili, aetemaque substabtia, incomparubilites  
+      <lb ed="#T" n="10"/>simpliciore quam est humanus animus, dicuntur, quemadmodum cum ide creaturis dicuns 
+      <lb ed="#T" n="11"/>tur. Vnde August. in 6. lib. de Trinit. Deo, inquit hoc est esse, quod est fortem esse, vel 
+      sa<lb ed="#T" n="12" break="no"/>pientem esse, vel iustum esse, &amp; si quid de illa simplici multiplicitate, vel multiplici 
+      simpli<lb ed="#T" n="13" break="no"/>citate dixeris, quo substantia eius significetur. Humana autem animo non est hoc esse, 
+      <lb ed="#T" n="14"/>quod est fortem esse, aut prudentem aut iustum: potest enim esse animus, &amp; nullam 
+      ista<lb ed="#T" n="15" break="no"/>rum habere virtutum. 
+    </p>
+            <p xml:id="pdt7y6-e20549-d1e389">
+               <lb ed="#T" n="16"/>Tanta est Dei simplicitas, quod nulli praedicamentorum subiicitur.  
+      <lb ed="#T" n="17"/>Quod autem in natura diuina nulla sit accidentium diuersitas, nullaque penitus 
+      mutabi<lb ed="#T" n="18" break="no"/>litas, sed perfecta simplicitas, ostendit August. in libro quinto de Trinitate dicens, 
+      Intelli<lb ed="#T" n="19" break="no"/>gamus Deum quantum possumus, sine qualitate bonum, sine quantitate magnum, sine 
+      in<lb ed="#T" n="20" break="no"/>digentia creatorem, sine situ praesidentem, sine habitu omnia continentem, sine loco 
+      vbi<lb ed="#T" n="21" break="no"/>que totum, sine tempore sempiternum, sine vlla sui mutatione mutabilia facientem, 
+      ni<lb ed="#T" n="22" break="no"/>hilque patientem, quisquis Deum ita cogitat, etsi nondum potest omnino inuenire quid 
+      <lb ed="#T" n="23"/>sit ipse: pie tamen caueat quantum potest aliquid de illo sentire, quod non sit. Ecce, si 
+      sub<lb ed="#T" n="24" break="no"/>Filiter intendas, ex his atque praedictis aperitur, illa praedicamenta artis DialecticaeDei 
+      na<lb ed="#T" n="25" break="no"/>turae minime conuenire, quae nullis est subjecta accidentibus. 
+    </p>
+            <p xml:id="pdt7y6-e20549-d1e413">
+               <lb ed="#T" n="26"/>Quod Deus non proprie, sed abusiue dicitur substantia. 
+      <lb ed="#T" n="27"/>Vnde nec proprie dicitur substantia, vt Augustinus ostendit in libro septimo de 
+      Trinita<lb ed="#T" n="28" break="no"/>te, Sicut ab eo quod est esse appellatur essentia, ita ab eo quod est subsistere substantiam 
+      <lb ed="#T" n="29"/>dicimus, si tamen dignum est, vt Deus dicatur subsistere. Hoc enim de his rebus recte 
+      in<lb ed="#T" n="30" break="no"/>telligitur, in quibus, vt subjectis, sunt ea quae in aliquo subjecto esse dicuntur: sicut 
+      incor<lb ed="#T" n="31" break="no"/>pore color, aut forma. Corpus enim subsistit, &amp; ideo substantia est. Res vero mutabiles 
+      <lb ed="#T" n="32"/>neque simplices proprie dicuntur substantiae. Deus autem si subsistit, vt substantia proprie 
+      <lb ed="#T" n="33"/>dici possit, inest in eo aliquid tanquam in subjecto: &amp; non est simplex. Nefas est autem 
+      <lb ed="#T" n="34"/>dicere vt subsistat Deus, &amp; subsit bonitati suae: atque illa bonitas non substantia sit, vel 
+      po<lb ed="#T" n="35" break="no"/>tius essentia, neque ipse Deus sit bonitas sua, sed in illo sit tanquam in subjecto. Unde 
+      ma<lb ed="#T" n="36" break="no"/>nifestum est Deum abusiue substantiam vocari, vt nomine vsitatiore intelligatur essentia, 
+      <lb ed="#T" n="37"/>quod vere ac proprie dicitur, ita vt fortasse solum Deum dici oporteat essentiam. Est enim 
+      <lb ed="#T" n="38"/>vere solus quia incommutabilis est. 
+    </p>
+            <p xml:id="pdt7y6-e20549-d1e445">
+               <lb ed="#T" n="39"/>Quod non est aliquid in Deo quod non sit Deus. 
+      <lb ed="#T" n="40"/>Huius autem essentiae simplicitas ac synceritas tanta est, quod non est in ea aliquid quod 
+      <lb ed="#T" n="41"/>non sit ipsa: sed idem est habens, &amp; quod habetur, vnde Hilarius in lib. septimo de Trinit. 
+      <lb ed="#T" n="42"/>ait, Non ex compositis Deus, qui vita est, subsistit, neque qui virtus est, ex infirmis 
+      conti<lb ed="#T" n="43" break="no"/>netur, neque qui lux est, obscuris coaptatur, neque qui spiritus est, ex disparibus formalis 
+      <lb ed="#T" n="44"/>est: totum quod in eo est, vnum est. Idem in 8. lib. de Trin. Non humano modo ex com¬ 
+    </p>
+            <p xml:id="pdt7y6-e20549-d1e461">
+               <lb ed="#T" n="45"/>positis Deus est, vt in eo aliud sit quod ab eo habetur, &amp; aliud sit ipse qui habeat: sed 
+      to<lb ed="#T" n="46" break="no"/>tum vna est natura, scilicet, perfecta &amp; infinita, &amp; non ex disparibus constituta, sed viuens 
+      <lb ed="#T" n="47"/>per totum ipsa. De hoc eodem Boet. in 1. lib. de Trin. ait, Quocirca hoc vere vnum est, in quo 
+      <lb ed="#T" n="48"/>nullus numerus, nullum in eo aliud praeter id quod in eo est: neque enim subjectum fieri 
+      po<lb ed="#T" n="49" break="no"/>test. Aug. quoque in lib. de Fide &amp; Symbolo dicit, In Dei substantia non est aliquid quod non 
+      <lb ed="#T" n="50"/>sit substantia: quasi aliud sit ibi substantia, aliud quod accidit substantiae. Sed quicquid ibi 
+      <lb ed="#T" n="51"/>intelligi potest substantiae est. Verum haec dici possunt facile, &amp; credi: videri aute nisi puro 
+      <lb ed="#T" n="52"/>corde omnino non possunt. Itemaug. 15. lib. de Trin. Sic habetur in naturavniuscuiusque trium, 
+      <lb ed="#T" n="53"/>quod qui habet, hoc sit quod habet, sicut immutabilis simplexque substantia, vnde 
+      Isido<lb ed="#T" n="54" break="no"/>rus, ait, Deus simplex dicitur, siue non amittendo quod habet, seu quo aliud non est ipse, 
+      <lb ed="#T" n="55"/>&amp; aliud quod in ipso est. Et cum tantae simplicitatis atque synceritatis sit natura diuina, est 
+      <lb ed="#T" n="56"/>tamen in ea Trinitas personarum. Vnde Aug. in lib. 11. de Ciuitate Dei. Non propter hoc 
+      <lb ed="#T" n="57"/>naturam summi boni simplicem dicimus, quia est pater in ea solus, aut Filius in ea solus, aut 
+      <lb ed="#T" n="58"/>Filius in ea solus aut Spiritus sanctus in ea solus, aut quia est sola ista nominum Trinitas, 
+      <lb ed="#T" n="59"/>siue substantia personarum, sicut Sabelliani putauerunt. Sed ideo simplex dicitur, quia est 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0146.xml-\->
+      <pb ed="#T" n="71"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>hoc, quod habet: excepto quod relatiue quaeque persona ad alteram dicitur, nec est 
+      ipsa<lb ed="#T" n="2" break="no"/>Nam vtique Pater habet Filium, ad quem relatiue dicitur, nec tamen ipse est Filius: &amp; 
+      Fi<lb ed="#T" n="3" break="no"/>lius habet Patrem, nec tamen ipse est Pater. In quo vero ad semetipsum dicitur, non ad 
+      <lb ed="#T" n="4"/>alterum, hoc est quod habet: sicut ad semetipsum dicitur viuus habendo vitam, &amp; eadem 
+      <lb ed="#T" n="5"/>vita est ipse Propter hoc vtique natura haec dicitur simplex, quod non sit aliud habens, &amp; 
+      <lb ed="#T" n="6"/>aliud id quod habet, sicut in caeteris rebus est. Non enim habens liquorem liquor est, nec 
+      <lb ed="#T" n="7"/>corpus color, nec anima est sapientia. Ecce, quanta est identitas, quanta est vnitas, 
+      immu<lb ed="#T" n="8" break="no"/>tabilitas, simplicitas, puritas diuinae substantiae, iuxta infirmitatis nostrae valetudinem 
+      as<lb ed="#T" n="9" break="no"/>signauimus. 
+    </p>-->
+            <p xml:id="pdt7y6-e20549-d1e522">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0146.xml-->
+               <cb ed="#T" n="b"/>
+               <lb ed="#T" n="10" type="fixed=71"/>DIVISIO TEXTVS. 
+      <lb ed="#T" n="11"/>TVnc de veritate) Egit de terminis 
+      Diui<lb ed="#T" n="12" break="no"/>Nnae generationis, &amp; de virtute generantis: 
+      <lb ed="#T" n="13"/>hic agitur de natura communicata per actum 
+      <lb ed="#T" n="14"/>generationis. Determinat ergo de tribus 
+      pro<lb ed="#T" n="15" break="no"/>prietatibus eius, vt pateat genitum esse verum 
+      <lb ed="#T" n="16"/>Deum, &amp; Deum incommutabilem, &amp; aeternum. 
+      <lb ed="#T" n="17"/>&amp; eundem cum Patre Deum. Primo ergo agit 
+      <lb ed="#T" n="18"/>de veritate naturae. Secundo de eius 
+      incommu<lb ed="#T" n="19" break="no"/>tabilitate [Dei etiam solius] Tertio de eius 
+      <lb ed="#T" n="20"/>simplicitate [Eadem quoque sola, 
+    </p>
+            <p xml:id="pdt7y6-e20549-d1e553">
+               <lb ed="#T" n="21"/>In prima parte primo determinat, qualiter 
+      <lb ed="#T" n="22"/>nomen essentiae sit &amp; proprie Deo conueniat. 
+      Se<lb ed="#T" n="23" break="no"/>cundo in contrarium opponitt Hic diligenter  
+      <lb ed="#T" n="24"/>Tertio soluit [Illud ergo 
+    </p>
+            <p xml:id="pdt7y6-e20549-d1e564">
+               <lb ed="#T" n="25"/>In secunda parte principali primo ostendit, 
+      <lb ed="#T" n="26"/>quod Deus solus est immutabilis [Dei etiam 
+      <lb ed="#T" n="27"/>Secundo quod omnis creatura est mutabilis 
+      <lb ed="#T" n="28"/>[In omni enim mutabili natura 
+    </p>
+            <p xml:id="pdt7y6-e20549-d1e575">
+               <lb ed="#T" n="29"/>In tertia parte principali ostendit diuina 
+      sim<lb ed="#T" n="30" break="no"/>plicitatem. Primo respectu creaturarum quae 
+      <lb ed="#T" n="31"/>sunt ab ipso [Eadem quoque] Secundo 
+      respe<lb ed="#T" n="32" break="no"/>ctu atrributorum quae dicuntur de ipso [Hic 
+      <lb ed="#T" n="33"/>diligenter ] Tertio respectu proprietatum quae 
+      <lb ed="#T" n="34"/>sunt in ipso [Huius autem essentiae] Respectu 
+      <lb ed="#T" n="35"/>creaturarum ostendit dupliciter. Primo respectu 
+      <lb ed="#T" n="36"/>creaturae corporalis [Eandem quoque] 
+      Secun<lb ed="#T" n="37" break="no"/>do respectu creaturae spiritualis [Creatura 
+      quo<lb ed="#T" n="38" break="no"/>que.] Respectu attributorum tripliciter. 
+      Pri<lb ed="#T" n="39" break="no"/>mo respectu quorumlibet communiter [Hic. 
+      <lb ed="#T" n="40"/>diligenter] Secundo respectu accidentalium 
+      <lb ed="#T" n="41"/>specialiter [Quod autem in in natura] Tertio 
+      <lb ed="#T" n="42"/>respectu attribatorum substantialium 
+      singulari<lb ed="#T" n="43" break="no"/>ter [Vnde nec proprie. ] In tertia parte, 
+      respe<lb ed="#T" n="44" break="no"/>cta proprietatum, quae sunt in ipso, 
+      ostenden<lb ed="#T" n="45" break="no"/>do eius simplicitatem, Primo ostendit quod in 
+      <lb ed="#T" n="46"/>Deo nulla est diuersitas [Hoc autem; 
+      Secun<lb ed="#T" n="47" break="no"/>do quod ninilominus est in Deo personarum. 
+      <lb ed="#T" n="48"/>Trinitas [Et cum tantae simplicitatis.] 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="338"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-f03447"><!-- l1d41q1 -->
+            <head xml:id="pdt7y6-f03447-Hd1e99">Quaestio 1</head>
+            <head xml:id="pdt7y6-f03447-Hd1e101" type="question-title">De divina electione</head>
+            <p xml:id="pdt7y6-f03447-d1e104">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0413.xml-->
+               <cb ed="#T" n="c"/>
+               <lb ed="#T" n="60"/>QVESTIO I. 
+      <lb ed="#T" n="61"/>DE DIVINA ELECTIONE. 
+    </p>
+            <p xml:id="pdt7y6-f03447-d1e115">
+               <lb ed="#T" n="62"/>VIc quaeruntur quatuor.  
+      <lb ed="#T" n="63"/>Primo de Diuina electione. 
+      <lb ed="#T" n="64"/>Secundo de praedestinatione. 
+      <lb ed="#T" n="65"/>Tertio de reprobatione. 
+      <lb ed="#T" n="66"/>Quarto de praescientia. 
+    </p>
+            <p xml:id="pdt7y6-f03447-d1e128">
+               <lb ed="#T" n="67"/>Circa primum quaeruntur duo. 
+      <lb ed="#T" n="68"/>Primo an electio sit in Deo ab aeteroo. 
+      <lb ed="#T" n="69"/>Secundo quid sit. 
+    </p>
+            <div xml:id="pdt7y6-f03447-Dd1e138">
+               <head xml:id="pdt7y6-f03447-Hd1e140">Articulus 1</head>
+               <head xml:id="pdt7y6-f03447-Hd1e142" type="question-title">An electio sit in Deo ab aeternos</head>
+               <p xml:id="pdt7y6-f03447-d1e145">
+                  <lb ed="#T" n="70"/>Articvlvs I. 
+      <lb ed="#T" n="71"/>An electio sit in Deo ab aeternos 
+</p>
+               <p xml:id="pdt7y6-f03447-d1e152">
+                  <lb ed="#T" n="72"/>AD primum sic proceditur. 1. Ephes. 1. 
+      Ele<lb ed="#T" n="73" break="no"/>git nos ante mundi constitutionem: ergo 
+      <lb ed="#T" n="74"/>electio est in Deo ab aeterno. 
+    </p>
+               <p xml:id="pdt7y6-f03447-d1e161">
+                  <lb ed="#T" n="75"/>2. In omni agente secundum rationabile 
+      pro<lb ed="#T" n="76" break="no"/>positum, operationem praecedit electio: sed  
+      <lb ed="#T" n="77"/>Deus est agens huiusmodi: ergo omnem 
+      ope<lb ed="#T" n="78" break="no"/>rationem eius in creatura praecessit electio: ergo 
+      <lb ed="#T" n="79"/>ante mundi creationem fuit in Deo electio: ergo 
+      <lb ed="#T" n="80"/>ab aeterno. 
+    </p>
+               <p xml:id="pdt7y6-f03447-d1e178">
+                  <lb ed="#T" n="81"/>2. Praedestinatio est electio quaedam: sed prae¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0414.xml-->
+      <pb ed="#T" n="339"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>destinatio ab aeterno fuit in Deo: ergo &amp; electio 
+    </p>
+               <p xml:id="pdt7y6-f03447-d1e191">
+                  <lb ed="#T" n="2"/>Contra. 1. Damascenus. Electio est duobus 
+      <lb ed="#T" n="3"/>propositis alterum alteri praeoptare: sed 
+      huius<lb ed="#T" n="4" break="no"/>modi praeoptatio non est in Deo secundum 
+      affe<lb ed="#T" n="5" break="no"/>ctum: ergo secundum effectum: ergo ex tempore 
+    </p>
+               <p xml:id="pdt7y6-f03447-d1e202">
+                  <lb ed="#T" n="6"/>2. Electio est ex diuersis: sed ab aeterno non 
+      <lb ed="#T" n="7"/>fuit nisi vnum: ergo non fuit electio 
+    </p>
+               <p xml:id="pdt7y6-f03447-d1e209">
+                  <lb ed="#T" n="8"/>3. Secundum Philosophum 3. Ethic. Electio 
+      <lb ed="#T" n="9"/>sequitur consilium, sicut conclusio eius: sed in 
+      <lb ed="#T" n="10"/>Deo non est consilium, vt ait Damascenus. 
+      <lb ed="#T" n="11"/>ignorantis enim naturae est consiliari: ergo nec 
+      <lb ed="#T" n="12"/>electio. 
+    </p>
+               <p xml:id="pdt7y6-f03447-d1e222">
+                  <lb ed="#T" n="13"/>4. Non esset electio nisi homo peccasset, quia 
+      <lb ed="#T" n="14"/>omnes essent boni: ergo electio non est aeterna 
+    </p>
+               <p xml:id="pdt7y6-f03447-d1e229">
+                  <lb ed="#T" n="15"/>Respondeo. Electio proprie est aliquonum 
+      <lb ed="#T" n="16"/>quae in se permixta sunt, segregatio &amp; 
+      praeopta<lb ed="#T" n="17" break="no"/>tio: quia ergo finis vltimus in se determinatus 
+      <lb ed="#T" n="18"/>est euidenter, ideo eius non est electio, sed 
+      eo<lb ed="#T" n="19" break="no"/>rum quae sunt ad finem: ea vero quae sunt ad 
+      <lb ed="#T" n="20"/>fines contrarios diuersos, vt rationalia &amp; irra 
+      <lb ed="#T" n="21"/>tionalia, sufficienter separata sunt, vnde non est 
+      <lb ed="#T" n="22"/>electio inter haec: sed rationalium ex 
+      ratio<lb ed="#T" n="23" break="no"/>nalibus. Huiusmodi vero separatio duplicite 
+      <lb ed="#T" n="24"/>potest esse, vel in proposito cligentis, sic dici 
+      <lb ed="#T" n="25"/>tur electio aeterna: vel in executione, sic 
+      tem<lb ed="#T" n="26" break="no"/>poralis. 
+    </p>
+               <p xml:id="pdt7y6-f03447-d1e259">
+                  <lb ed="#T" n="27"/>Ad 1. Damasceni. Resp. Praeoptare 
+      secun<lb ed="#T" n="28" break="no"/>dum effectum in proposito, vel in executione: 
+      <lb ed="#T" n="29"/>&amp; secundum hoc duplex est electio 
+    </p>
+               <p xml:id="pdt7y6-f03447-d1e268">
+                  <lb ed="#T" n="30"/>Ad 2. Ab aeterno non fuit nisi vnum. Resp. 
+      <lb ed="#T" n="31"/>Quamuis vnum esset in natura vel in actu, erant 
+      <lb ed="#T" n="32"/>tamen multa in cognitione Diuina. 
+    </p>
+               <p xml:id="pdt7y6-f03447-d1e277">
+                  <lb ed="#T" n="33"/>Ad 3. Electio sequitur consilium. Resp. Hoc 
+      <lb ed="#T" n="34"/>non est essentiale electioni, sed accidentale 
+      <lb ed="#T" n="35"/>prout est in nobis qui indigemus inquisitione 
+    </p>
+               <p xml:id="pdt7y6-f03447-d1e286">
+                  <lb ed="#T" n="36"/>Ad illud, Electio non esset &amp;c. Resp. Licet non 
+      <lb ed="#T" n="37"/>esset electio bonorum ex malis, esset tamen 
+      me<lb ed="#T" n="38" break="no"/>liorum ex bonis. Notandum vero quod vocatio 
+      <lb ed="#T" n="39"/>dicit actum exteriorem solum, &amp; ideo tantum 
+      <lb ed="#T" n="40"/>est temporalis: praedestinatio solum interiorem 
+      <lb ed="#T" n="41"/>actum, &amp; ideo tantum est aeterna: electio dicit 
+      <lb ed="#T" n="42"/>actum interiorem, vel per se, vel cum effectu 
+      ex<lb ed="#T" n="43" break="no"/>teriori, &amp; ideo dicitur aeterna vel temporalis 
+      <lb ed="#T" n="44"/>&amp; dilectio similiter.  
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f03447-Dd1e309">
+               <head xml:id="pdt7y6-f03447-Hd1e311">Articulus 2</head>
+               <head xml:id="pdt7y6-f03447-Hd1e313" type="question-title">Quid sit electio</head>
+               <p xml:id="pdt7y6-f03447-d1e316">
+                  <lb ed="#T" n="45"/>ARTICVLVS II 
+      <lb ed="#T" n="46"/>Quid sit electio.
+    </p>
+               <p xml:id="pdt7y6-f03447-d1e323">
+                  <lb ed="#T" n="47"/>AD secundum articulum sic proceditur. 1 
+      <lb ed="#T" n="48"/>Dicitur hic quod praedestinatio est electio 
+      <lb ed="#T" n="49"/>qua elegit Deus quos voluit ante mundi 
+      consti<lb ed="#T" n="50" break="no"/>tutionem: ergo praedestinatio &amp; electio idem. 
+    </p>
+               <p xml:id="pdt7y6-f03447-d1e334">
+                  <lb ed="#T" n="51"/>2. Electi dicuntur praedestinati, &amp; e conuerso: 
+      <lb ed="#T" n="52"/>ergo praedestinatio est electio. 
+    </p>
+               <p xml:id="pdt7y6-f03447-d1e342">
+                  <lb ed="#T" n="53"/>3. Vnum vni tantum opponitur: sed 
+      opposi<lb ed="#T" n="54" break="no"/>tum praedestinationis &amp; electionis est vnum, 
+      sci<lb ed="#T" n="55" break="no"/>licet reprobatio: ergo electio &amp; praedestinatio 
+      <lb ed="#T" n="56"/>est vnum. 
+    </p>
+               <p xml:id="pdt7y6-f03447-d1e353">
+                  <lb ed="#T" n="57"/>Contra. 1. Electio est aliquorum malorum, 
+      vn<lb ed="#T" n="58" break="no"/>de Ioan. 12. Ego duodecim vos elegi, &amp; vnus 
+      <lb ed="#T" n="59"/>ex vobis diabolus est: praedestinatio vero non 
+      <lb ed="#T" n="60"/>est nisi bonorum: ergo non sunt idem. 
+    </p>
+               <p xml:id="pdt7y6-f03447-d1e364">
+                  <lb ed="#T" n="61"/>2. Omne agens secundum propositum, 
+      dici<lb ed="#T" n="62" break="no"/>tur agere secundum electionem: sed non dicitur 
+      <lb ed="#T" n="63"/>agere se cundum praedestinationem: ergo electio 
+      <lb ed="#T" n="64"/>non est praedestinatio.  
+    </p>
+               <p xml:id="pdt7y6-f03447-d1e375">
+                  <lb ed="#T" n="65"/>3. Electio est de hominibus, praedestinatio 
+      <lb ed="#T" n="66"/>etiam de angelis: ergo &amp;c. 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0414.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>Respondeo. Diuina electio duplex est, 
+      sci<lb ed="#T" n="68" break="no"/>licet aeterna, &amp; temporalis, haec duplex, 
+      quae<lb ed="#T" n="69" break="no"/>dam ad gratiam, quaedam ad officium. Inter 
+      te<lb ed="#T" n="70" break="no"/>poralem electionem &amp; praedestinationem 
+      ma<lb ed="#T" n="71" break="no"/>nifesta est differentia: praescientia vero Diuina 
+      <lb ed="#T" n="72"/>propositum, electio, praedestinatio, idem sunt,  
+      <lb ed="#T" n="73"/>secundum rem, sed differunt secundum 
+      ratio<lb ed="#T" n="74" break="no"/>nem. Nam praescientia dicit solam 
+      praecognitio<lb ed="#T" n="75" break="no"/>nem: propositum addit voluntatis 
+      inclinatio<lb ed="#T" n="76" break="no"/>nem: electi addit alicuius a suo opposito 
+      separa<lb ed="#T" n="77" break="no"/>tionem: praedestinatio addit alicuius in finem 
+      <lb ed="#T" n="78"/>vltimum destinationem 
+    </p>
+               <p xml:id="pdt7y6-f03447-d1e412">
+                  <lb ed="#T" n="79"/>Ad 1. in contrarium de malis. Resp. 
+      Loqui<lb ed="#T" n="80" break="no"/>tur de electione temporali, vel ad gratiam, vel 
+      <lb ed="#T" n="81"/>ad officium; non de eterna 
+    </p>
+               <p xml:id="pdt7y6-f03447-d1e421">
+                  <lb ed="#T" n="82"/>Ad 2. Omne agens. Resp. Hoc est quia 
+      ele<lb ed="#T" n="83" break="no"/>ctio dicit solam separationem ab opposito, sed  
+      <lb ed="#T" n="84"/>praedestinatio ordiuem in finem vltimum: 
+      quo<lb ed="#T" n="85" break="no"/>rum primum conuenit omni agenti secundum 
+      <lb ed="#T" n="86"/>propositum, secundum non 
+    </p>
+               <p xml:id="pdt7y6-f03447-d1e435">
+                  <lb ed="#T" n="87"/>Ad 3. Electio de hominibus est. Resp. Electio 
+      <lb ed="#T" n="88"/>non tantum est hominum, sed angelorum, siue 
+      <lb ed="#T" n="89"/>prout electio dicitur separatio bonorum a malis. 
+      <lb ed="#T" n="90"/>siue prout dicitur praeoptatio meliorum. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

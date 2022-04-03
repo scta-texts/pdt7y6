@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="346"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-f05809"><!-- l1d42q1 -->
+            <head xml:id="pdt7y6-f05809-Hd1e99">Quaestio 1</head>
+            <head xml:id="pdt7y6-f05809-Hd1e101" type="question-title">De potentia Dei secundum se</head>
+            <p xml:id="pdt7y6-f05809-d1e104">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0421.xml-->
+               <pb ed="#T" n="346"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>QVESTIO I. 
+      <lb ed="#T" n="2"/>DEPOTENTIA DEISECVNDVMSE.
+      </p>
+            <p xml:id="pdt7y6-f05809-d1e117">
+               <lb ed="#T" n="3"/>TTIc quaeruntur duo, 
+      <lb ed="#T" n="4"/>Primo de potentia Dei secundum se. 
+      <lb ed="#T" n="5"/>Secundo de ijs quae subjecta sunt potentiae. 
+      <lb ed="#T" n="6"/>Diuinae. 
+    </p>
+            <p xml:id="pdt7y6-f05809-d1e128">
+               <lb ed="#T" n="7"/>Circa primum quaeruntur quatuor.  
+      <lb ed="#T" n="8"/>Primo an in Deo sit potentia. 
+      <lb ed="#T" n="9"/>Secundo an vna vel plures. 
+      <lb ed="#T" n="10"/>Tertio an sit aequalis suae scientiae &amp; voluntati. 
+      <lb ed="#T" n="11"/>Quarto an sit omnipotens. 
+    </p>
+            <div xml:id="pdt7y6-f05809-Dd1e142">
+               <head xml:id="pdt7y6-f05809-Hd1e144">Articulus 1</head>
+               <head xml:id="pdt7y6-f05809-Hd1e146" type="question-title">An in Deo sit potentia</head>
+               <p xml:id="pdt7y6-f05809-d1e149">
+                  <lb ed="#T" n="12"/>Articvlvs I. 
+      <lb ed="#T" n="13"/>An in Deo sit potentia.
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e156">
+                  <lb ed="#T" n="14"/>AD primum sic proceditur. 1. Omnis 
+      poten<lb ed="#T" n="15" break="no"/>tia aut est actiua, aut passiua: actiua 
+      poten<lb ed="#T" n="16" break="no"/>tia est principium transmutationis in aliud: 
+      po<lb ed="#T" n="17" break="no"/>tentia passiua est principium transmutationis e, 
+      <lb ed="#T" n="18"/>altero, vt habetur 5. Metaph. sed in Deo non est 
+      <lb ed="#T" n="19"/>principium transmutationis in aliud, quia non 
+      <lb ed="#T" n="20"/>praesupponit materiam in quam agat; nec ex 
+      al<lb ed="#T" n="21" break="no"/>tero, quia ipse est forma sine materia: ergo 
+      nul<lb ed="#T" n="22" break="no"/>la est in ipso potentia. 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e178">
+                  <lb ed="#T" n="23"/>2. Sicut se habet primum patiens, scilicet 
+      pri<lb ed="#T" n="24" break="no"/>ma materia ad actum; sic primum agens ad 
+      po<lb ed="#T" n="25" break="no"/>tentiam: sed in prima materia nullus est actus: 
+      <lb ed="#T" n="26"/>ergo in primo agente nulla est potentia. 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e190">
+                  <lb ed="#T" n="27"/>3. Quod agit per essentiam non agit 
+      median<lb ed="#T" n="28" break="no"/>te potentia aliqua, quia potentia est medium 
+      <lb ed="#T" n="29"/>inter essentiam &amp; operationem: sed primum agens 
+      <lb ed="#T" n="30"/>agit per essentiam: non ergo mediante vlla 
+      po<lb ed="#T" n="31" break="no"/>tentia. 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e203">
+                  <lb ed="#T" n="32"/>4. Si in Deo est potentia operatiua, aut ergo 
+      <lb ed="#T" n="33"/>semper est coniuncta suo actui; aut non: si sic 
+      <lb ed="#T" n="34"/>ergo ab aeterno operatus est omnia: si non, ergo 
+      <lb ed="#T" n="35"/>potentia eius est imperfecta nam potentia 
+      di<lb ed="#T" n="36" break="no"/>stans ab actu est imperfecta. 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e216">
+                  <lb ed="#T" n="37"/>5. Omnis potentia operatiua ordinatur ad 
+      <lb ed="#T" n="38"/>opus aliquod, quod non est ipsa ded omne quod 
+      <lb ed="#T" n="39"/>ordinatur ad aliud, imperfect; in est, in Deo 
+      <lb ed="#T" n="40"/>vero nihil est imperfectum: ergo nulla potentia. 
+      <lb ed="#T" n="41"/>operatiua. 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e229">
+                  <lb ed="#T" n="42"/>Contra. 1. Omnis actus egreditur ab aliqua 
+      <lb ed="#T" n="43"/>potentia: a Deo multi egrediuntur actus: ergo 
+      <lb ed="#T" n="44"/>in Deo est aliqua potentia. 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e238">
+                  <lb ed="#T" n="45"/>2. Deus est rerum omnium efficiens &amp; 
+      exem<lb ed="#T" n="46" break="no"/>plaris &amp; finalis causa: omnis vero causa habet  
+      <lb ed="#T" n="47"/>posse super causata sua: ergo in Deo est potentia. 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e247">
+                  <lb ed="#T" n="48"/>3. Secundum Philosophum, principia 
+      mini<lb ed="#T" n="49" break="no"/>ma sunt quantitate, &amp; maxima virtute: Deus 
+      <lb ed="#T" n="50"/>autem est principium principiorum: ergo eius 
+      <lb ed="#T" n="51"/>est virtus maxima: ergo in ipso est potentia. 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e259">
+                  <lb ed="#T" n="52"/>4. Scriptura sacra frequenter laudat Dei 
+      po<lb ed="#T" n="53" break="no"/>tentiam: ergo in Deo est potentia. 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e266">
+                  <lb ed="#T" n="54"/>Respondeo. Nomen potentie primo inuentum 
+      <lb ed="#T" n="55"/>est ad significandum principium actionis in 
+      al<lb ed="#T" n="56" break="no"/>terum deinde ad significandum principium 
+      sus<lb ed="#T" n="57" break="no"/>cipiendi alterius actionem in seipso, vnde 
+      dici<lb ed="#T" n="58" break="no"/>tur potentia actiua, &amp; potentia passiua, &amp; 
+      vtri<lb ed="#T" n="59" break="no"/>que potentiae respondet suus actus: nam 
+      poten<lb ed="#T" n="60" break="no"/>tiae actiuae respondet actus qui est actio, 
+      poten<lb ed="#T" n="61" break="no"/>tiae passiuae actus qui est perfectio. Agere in 
+      al<lb ed="#T" n="62" break="no"/>terum conuenit alicui secundum quod ipse est 
+      <lb ed="#T" n="63"/>ens actu, pati vero ab altero, secundum quod 
+      <lb ed="#T" n="64"/>non est pure in actu, sed partim in potentia: ergo 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0421.xml-->
+      <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="65"/>quia Deus actus est, conuenit ei potentia actiua: 
+      <lb ed="#T" n="66"/>quia vero purus actus est, remouetur ab eo 
+      poten<lb ed="#T" n="67" break="no"/>tia passiua, vnde secundum quod dicit Magistei 
+      <lb ed="#T" n="68"/>omnipotens est quia potest omnia facere, &amp; nihil 
+      <lb ed="#T" n="69"/>pati. 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e307">
+                  <lb ed="#T" n="70"/>Ad 1. Potentia praesupponit materiam &amp;c. 
+      <lb ed="#T" n="71"/>Resp. Hoc non est de ratione potentiae actiuae. 
+      <lb ed="#T" n="72"/>in quantum est actiua, sed inquantum imperfecta 
+      <lb ed="#T" n="73"/>quae non potest in totam rei substantiam: talis 
+      <lb ed="#T" n="74"/>vero est omnis potentia actiua creata, &amp; ideo 
+      <lb ed="#T" n="75"/>Philosophus definit eam per comparationem ad 
+      <lb ed="#T" n="76"/>materiam in quam agit. Vel dicendum quod 
+      <lb ed="#T" n="77"/>in aliud accipit communiter adsubjectum 
+      trans<lb ed="#T" n="78" break="no"/>mutationis &amp; ad terminum. 
+      <lb ed="#T" n="79"/>Ad 2. Sicut se habet prima materia ad actum. 
+      <lb ed="#T" n="80"/>Resp. De potentia paisiua &amp; actu qui est 
+      per<lb ed="#T" n="81" break="no"/>fectio, tenet similitudo; non de actiua, &amp; de 
+      <lb ed="#T" n="82"/>actu qui est actio, quia agens primum oportet 
+      <lb ed="#T" n="83"/>omnino esse perfectum &amp; ens actu vt possit 
+      per<lb ed="#T" n="84" break="no"/>ficere omnia: sed primum patiens oportet esse 
+      <lb ed="#T" n="85"/>omnino imperfectum &amp; ens in potentia tantum, 
+      <lb ed="#T" n="86"/>vt ab omnibus denudatum possit recipere omnia. 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e346">
+                  <lb ed="#T" n="87"/>Ad 3. De agente per essentiam. Resp. 
+      Quam<lb ed="#T" n="88" break="no"/>uis tale agens non indigeat potentia inedia 
+      in<lb ed="#T" n="89" break="no"/>ter essentiam &amp; operationem secundum rem 
+      <lb ed="#T" n="90"/>tamen oportet vt eius essentia sit potentia 
+      in<lb ed="#T" n="91" break="no"/>quantum est principium operationum, quia 
+      <lb ed="#T" n="92"/>omnis operatio egreditur ab aliqua potentia. 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e362">
+                  <lb ed="#T" n="93"/>Ad 4. Aut semper est coniuncta &amp;c. Resp. 
+      <lb ed="#T" n="94"/>Semper est coniuncta actui interiori, sed non 
+      <lb ed="#T" n="95"/>exteriori effectui. Nec ex hoc sequitur 
+      imper<lb ed="#T" n="96" break="no"/>fectio vlla, quia actus interior est perfectio 
+      po<lb ed="#T" n="97" break="no"/>tentiae, non exterior: sicut potentia Solis semper 
+      <lb ed="#T" n="98"/>est in actu lucendi, non semper in actu 
+      illumi<lb ed="#T" n="99" break="no"/>nandi, &amp; hoc sine vlla imperfectione sua. 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e380">
+                  <lb ed="#T" n="100"/>Ad 5. Omnis potentia ordinatur &amp;c. Hoc non 
+      <lb ed="#T" n="101"/>est verum vniuersaliter, sed in naturis 
+      compo<lb ed="#T" n="102" break="no"/>sitis tantum, in quibus differunt potentia, &amp; 
+      <lb ed="#T" n="103"/>substantia, &amp; operatio: haec vero non differunt 
+      <lb ed="#T" n="104"/>in natura Diuina. 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f05809-Dd1e394">
+               <head xml:id="pdt7y6-f05809-Hd1e396">Articulus 2</head>
+               <head xml:id="pdt7y6-f05809-Hd1e398" type="question-title">An in Deo sit una potentia vel plures</head>
+               <p xml:id="pdt7y6-f05809-d1e401">
+                  <lb ed="#T" n="105"/>Articvlvs II. 
+      <lb ed="#T" n="106"/>An in Deo sit una potentia vel plures.
+</p>
+               <p xml:id="pdt7y6-f05809-d1e408">
+                  <lb ed="#T" n="107"/>AD secundum articulum sic proceditur. 1. 
+      <lb ed="#T" n="108"/>No potest esse vna &amp; eadem potentia 
+      pro<lb ed="#T" n="109" break="no"/>pria vni, &amp; communis pluribus: sed in Deo est 
+      <lb ed="#T" n="110"/>potentia propria vni, scilicet potentia 
+      generan<lb ed="#T" n="111" break="no"/>di, &amp; est potentia communibus pluribus, 
+      scili<lb ed="#T" n="112" break="no"/>cet potentia creandi: non ergo tantum vna. 
+      <lb ed="#T" n="113"/>2. Potentiae distinguntur per actus: in Deo vero 
+      <lb ed="#T" n="114"/>sicut in nobis, sunt tres specificae differentiae 
+      <lb ed="#T" n="115"/>actuum, scilicet quorundam naturalium vt 
+      ge<lb ed="#T" n="116" break="no"/>nitare, intellectualium vt intelligere, 
+      quorun<lb ed="#T" n="117" break="no"/>dam artificialium siue voluntariorum vt 
+      causa<lb ed="#T" n="118" break="no"/>re: ergo in Deo sunt tres potentiae differentes 
+      <lb ed="#T" n="119"/>secundum speciem. 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e439">
+                  <lb ed="#T" n="120"/>3. Substantiae separatae diuiduntur in duo 
+      se<lb ed="#T" n="121" break="no"/>cundum Philosophos, scilicet in rationem &amp; 
+      <lb ed="#T" n="122"/>voluntatem: sed non diuiduntur sic per 
+      essen<lb ed="#T" n="123" break="no"/>tiam: ergo per potentiam: ergo in substantijs 
+      se<lb ed="#T" n="124" break="no"/>paratis est ad minus duplex potentia: ergo in 
+      <lb ed="#T" n="125"/>Deo. 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e456">
+                  <lb ed="#T" n="126"/>Contra. 1. In Deo secundum Augustinum 
+      <lb ed="#T" n="127"/>posse &amp; esse idem est: sed esse in Deo non est nisi 
+      <lb ed="#T" n="128"/>vnum: ergo nec posse. 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e465">
+                  <lb ed="#T" n="129"/>2. Libro de causis dicitur quod omnis virtu 
+      <lb ed="#T" n="130"/>vnica magis est infinita quam virtus multipli¬ 
+      <!--1652-gregPress-MichiganState-gbooks-v1-0422.xml-->
+      <pb ed="#T" n="347"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>cata: ergo cum potentia Diuina habeat summam 
+      <lb ed="#T" n="2"/>infinitatem, habet &amp; sunimam vnitatem. 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e483">
+                  <lb ed="#T" n="3"/>3. Omne quod Deus agit aut agit tota sua 
+      po<lb ed="#T" n="4" break="no"/>tentia, aut non tota: si non tota, ergo eius 
+      po<lb ed="#T" n="5" break="no"/>tentia diuisibilis est secundum partem &amp; partem: 
+      <lb ed="#T" n="6"/>si tota, aut ergo sufficit vna, aut non: in non 
+      <lb ed="#T" n="7"/>ergo aliquid est in Deo insufficiens: si sic, ergo 
+      <lb ed="#T" n="8"/>superflueret altera. Resp. Potentia dupliciter  
+      <lb ed="#T" n="9"/>potest considerari: aut secundum se, id est 
+      se<lb ed="#T" n="10" break="no"/>cundum id quod est, scilicet in radice sua: aut 
+      <lb ed="#T" n="11"/>secundum inclinationem ad actum, scilicet 
+      in<lb ed="#T" n="12" break="no"/>quantu coniuncta actui. Sic enim potentia in 
+      so<lb ed="#T" n="13" break="no"/>le, qua lucet illuminat, liquefacit, indurat  
+      <lb ed="#T" n="14"/>potest considerari, aut secundum se, aut 
+      secun<lb ed="#T" n="15" break="no"/>dum quod actui coniuncta: &amp; primo modo, vna 
+      <lb ed="#T" n="16"/>est: secundo modo multipliciter dici potest, sed 
+      <lb ed="#T" n="17"/>quia magis conuenit ei quod conuenit in se, quam 
+      <lb ed="#T" n="18"/>quod ex altero, ideo simpliciter &amp; absolute est 
+      <lb ed="#T" n="19"/>vna, tamen multiplex dicitur inquantum es 
+      <lb ed="#T" n="20"/>multorum effectiua. Sic potentia Dei potest 
+      <lb ed="#T" n="21"/>cosiderati dupliciter: aut secundum se in radic. 
+      <lb ed="#T" n="22"/>sua quae est essentia Diuina, sic tantum vna est 
+      <lb ed="#T" n="23"/>Dei potentia: aut secundum quod coniuncta suo 
+      <lb ed="#T" n="24"/>actui, aut ergo interiori tantum, aut 
+      exteriori<lb ed="#T" n="25" break="no"/>ab exteriori quidem non recipit multiplicitatem  
+      <lb ed="#T" n="26"/>aliquam, vnde non potest dici quod alia sit in 
+      <lb ed="#T" n="27"/>Deo potentia creandi alia gubernandi mundum, 
+      <lb ed="#T" n="28"/>quia vna simplici essentia aeque immediate 
+      ope<lb ed="#T" n="29" break="no"/>ratur omnia: sed ab actu interiori potest 
+      recipe<lb ed="#T" n="30" break="no"/>re aliquam multiplicitatem; prout enim 
+      diffe<lb ed="#T" n="31" break="no"/>runt ipsi actus interiores essentiales, &amp; 
+      notio<lb ed="#T" n="32" break="no"/>nales, sic differt potentia actui essentiali, vel 
+      <lb ed="#T" n="33"/>notionali coniuncta. Sicut ergo differunt in Deo 
+      <lb ed="#T" n="34"/>intelligere &amp; generare, secundum rationem, &amp; 
+      <lb ed="#T" n="35"/>modum se habendi absolutum, &amp; relatum ad 
+      <lb ed="#T" n="36"/>alterum: sic differunt potentia generandi &amp; 
+      <lb ed="#T" n="37"/>intelligendi. Quia vero actus essentialis interior 
+      <lb ed="#T" n="38"/>includitur in exteriori, sicut actus intelligendi 
+      <lb ed="#T" n="39"/>&amp; volendi in actu creandi: ideo simili modo difi 
+      <lb ed="#T" n="40"/>ferunt potentia creandi &amp; generandi; quamuis 
+      <lb ed="#T" n="41"/>effectus ipse connotatus per potentiam creandi. 
+      <lb ed="#T" n="42"/>essentialiter differat ab ipsa potentia generandi. 
+      <lb ed="#T" n="43"/>similiter enim differt essentialiter a potentia 
+      cre<lb ed="#T" n="44" break="no"/>andi. 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e577">
+                  <lb ed="#T" n="45"/>Ad 1. Non est eadem potentia propria vni &amp;c. 
+      <lb ed="#T" n="46"/>Rsep. Quamuis in creatura commune &amp; 
+      pro<lb ed="#T" n="47" break="no"/>prium ditierant secundum rem, in Deo tamen 
+      <lb ed="#T" n="48"/>non differunt nisi secundum rationem, non qua 
+      <lb ed="#T" n="49"/>sit tantum a parte ratiocinantis intellectus nostri, 
+      <lb ed="#T" n="50"/>sed etiam a parte Dei: quae ratio est modus se 
+      ha<lb ed="#T" n="51" break="no"/>bendi non essendi. Vnde potentia generandi &amp; 
+      <lb ed="#T" n="52"/>creandi in Deo idem sunt secundum modum 
+      <lb ed="#T" n="53"/>essendi, sed differunt secundum modum se 
+      ha<lb ed="#T" n="54" break="no"/>hendi, quia potentia generandi nominat &amp; 
+      con<lb ed="#T" n="55" break="no"/>tinet principium distinctionis personae a 
+      perso<lb ed="#T" n="56" break="no"/>na: sed potentia creandi non. 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e606">
+                  <lb ed="#T" n="57"/>Ad 2. Potentiae distinguntur per actus &amp;c. 
+      <lb ed="#T" n="58"/>Resp. Actus illi, quamuis in creatura differant 
+      <lb ed="#T" n="59"/>secundum speciem, in Deo tamen non differunt 
+      <lb ed="#T" n="60"/>nisi secundum rationem quantum ad 
+      significa<lb ed="#T" n="61" break="no"/>tum principale: licet id quod connotatur 
+      exte<lb ed="#T" n="62" break="no"/>rius, essentialiter differat a quolibet illorum, 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e622">
+                  <lb ed="#T" n="63"/>Ad 3. De substantijs separatis. Resp. Illa diuisio 
+      <lb ed="#T" n="64"/>rationis &amp; voluntatis in substantijs separatis) 
+      <lb ed="#T" n="65"/>aliter est quam in creatore: quia in illis 
+      secun<lb ed="#T" n="66" break="no"/>dum differentiam realem, quia non idem est in 
+      <lb ed="#T" n="67"/>eis essentia &amp; potentia, nec vno &amp; eodem 
+      prin<lb ed="#T" n="68" break="no"/>cipio operantur omnia opera sua: in Deo 
+      secun<lb ed="#T" n="69" break="no"/>dum rationem intelligendi solum.
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f05809-Dd1e641">
+               <head xml:id="pdt7y6-f05809-Hd1e643">Articulus 3</head>
+               <head xml:id="pdt7y6-f05809-Hd1e645" type="question-title">
+  An potentia in Deo sit aequalis suae scientia et voluntati
+</head>
+               <p xml:id="pdt7y6-f05809-d1e648">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0422.xml-->
+                  <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="70"/>ARTICVLVS III. 
+      <lb ed="#T" n="71"/>An potentia in Deo sit aequalis suae scientia &amp; 
+      <lb ed="#T" n="72"/>voluntati. 
+        </p>
+               <p xml:id="pdt7y6-f05809-d1e661">
+                  <lb ed="#T" n="73"/>AD tertium articulum sic proceditur. 1. Ad 
+      <lb ed="#T" n="74"/>plura se extendit scientia Dei, quam 
+      poten<lb ed="#T" n="75" break="no"/>tia, scilicet ad mala &amp; ad essentiam propriam: 
+      <lb ed="#T" n="76"/>ergo maior est Dei scientia quam potentia. 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e672">
+                  <lb ed="#T" n="77"/>2. Maius est quod continet &amp; non contiuetur 
+      <lb ed="#T" n="78"/>quam quod continetur &amp; non continet: tota 
+      <lb ed="#T" n="79"/>Dei potentia in Dei scientia continetur, &amp; non e 
+      <lb ed="#T" n="80"/>conuerso; scit enim Deus omne quod potest, sed  
+      <lb ed="#T" n="81"/>non potest omne quod scit: ergo maior est 
+      <lb ed="#T" n="82"/>scientia eius quam potentia. 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e689">
+                  <lb ed="#T" n="83"/>3. Dicit Anselmus lib. Cur Deus homo, quod 
+      <lb ed="#T" n="84"/>in omnibus habentibus potestatem &amp; 
+      volunta<lb ed="#T" n="85" break="no"/>tem, potestas sequitur voluntatem, &amp; non e 
+      <lb ed="#T" n="86"/>conuerso, vnde quando dicitur possum 
+      aibu<lb ed="#T" n="87" break="no"/>lare, intelligitur si volo: ergo voluntas mouer 
+      <lb ed="#T" n="88"/>potentiam: ergo est maior. 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e705">
+                  <lb ed="#T" n="89"/>4. Hugo de sancto Victore. Voluntas mouet  
+      <lb ed="#T" n="90"/>scientia disponit, potentia operatur: sed quod 
+      <lb ed="#T" n="91"/>mouet prius est &amp; maius moto: ergo voluntas 
+      <lb ed="#T" n="92"/>est prior quam potentia. 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e716">
+                  <lb ed="#T" n="93"/>Contra. 1. Deus nihil scit quod scire non 
+      pos<lb ed="#T" n="94" break="no"/>sit: potest autem aliqua scire quae nescit: ergo 
+      <lb ed="#T" n="95"/>potest facere quod non facit: ergo potentia Dei 
+      <lb ed="#T" n="96"/>prior est &amp; amplior quam scientia. 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e727">
+                  <lb ed="#T" n="97"/>2. Vt ostondit Richardus de sancto Victore 
+      <lb ed="#T" n="98"/>Potentia in multis est, in quibus non est 
+      scien<lb ed="#T" n="99" break="no"/>tia: scientia autem in nullo est in quo non sit 
+      <lb ed="#T" n="100"/>potentia: tergo potentia prior est &amp; amplior 
+      <lb ed="#T" n="101"/>quam sit scientia. 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e740">
+                  <lb ed="#T" n="102"/>3. Multa potest Deus quae non vult: quicquid 
+      <lb ed="#T" n="103"/>ergo vult, potest: ergo adplura se extendit 
+      po<lb ed="#T" n="104" break="no"/>tentia, quam voluntas: ergo maior 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e749">
+                  <lb ed="#T" n="105"/>4. Deus dicitur omnipotens, sed non omnis 
+      <lb ed="#T" n="106"/>uolens: ergo vniuersalior est potentia quam 
+      vo<lb ed="#T" n="107" break="no"/>luntas: ergo maior. 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e759">
+                  <lb ed="#T" n="108"/>5. E contra videtur quod sint omnino aequalia, 
+      <lb ed="#T" n="109"/>1. Quia non differunt in Deo scire posse &amp; 
+      vel<lb ed="#T" n="110" break="no"/>le: ergo vnum non est altero, maius. 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e768">
+                  <lb ed="#T" n="111"/>2. Probat Richardus de sancto Victore lib. de 
+      <lb ed="#T" n="112"/>Trinit. quod si maior esset sua voluntas, vel suae 
+      <lb ed="#T" n="113"/>scientia, quam sua potentia, aut e conuerso: 
+      er<lb ed="#T" n="114" break="no"/>go Deus esset maior seipso: sed hoc est falsum: 
+      <lb ed="#T" n="115"/>ergo illa tria sunt omnia aequalia. 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e781">
+                  <lb ed="#T" n="116"/>Respondeo. Potentia Dei, scientia, &amp; 
+      volun<lb ed="#T" n="117" break="no"/>tas adinuicem possunt comparari tripliciter: aut 
+      <lb ed="#T" n="118"/>secundum id quod sunt, &amp; sic omnino idem 
+      <lb ed="#T" n="119"/>sunt: aut secundum actus ad quos sunt, sic 
+      aequa<lb ed="#T" n="120" break="no"/>lia sunt, quia se omnino continent &amp; 
+      circum<lb ed="#T" n="121" break="no"/>incedunt; Deus enim potest scire &amp; velle, 
+      quic<lb ed="#T" n="122" break="no"/>quid scit &amp; vult; scit se posse &amp; velle, quicquid 
+      <lb ed="#T" n="123"/>potest &amp; scit: aut secundum objecta respectu 
+      <lb ed="#T" n="124"/>quorum sunt; &amp; sic maior est Dei scientia, &amp; 
+      po<lb ed="#T" n="125" break="no"/>tentia, quam voluntas. De scientia. vero Dei est: 
+      <lb ed="#T" n="126"/>loqui tripliciter, secundum triplicem 
+      acceptio<lb ed="#T" n="127" break="no"/>nem scientiae diuinae: aut de scientia simplicis 
+      <lb ed="#T" n="128"/>intelligentiae: sic scientia maior est, quia scit 
+      <lb ed="#T" n="129"/>non tantum bona sed mala: aut de scientia 
+      ap<lb ed="#T" n="130" break="no"/>probationis; sic potentia maior est, quia potest 
+      <lb ed="#T" n="131"/>multa quae non facit: aut de scientia visionis; 
+      <lb ed="#T" n="132"/>sic se habent vt excedentia &amp; excessa, quia 
+      scien<lb ed="#T" n="133" break="no"/>tia, visionis de aliquibus est de quibus non es 
+      <lb ed="#T" n="134"/>potentia, scilicet de malis; &amp; potentia est de 
+      <lb ed="#T" n="135"/>aliquibus de quibus non est scientia visionis, id  
+      <!--1652-gregPress-MichiganState-gbooks-v1-0423.xml-->
+      <pb ed="#T" n="348"/>
+                  <cb ed="#T" n="a"/>
+                  <lb ed="#T" n="1"/>est de bonis quae possunt fieri sed non fient. 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e836">
+                  <lb ed="#T" n="2"/>Ad 1. Scientia ad plura se extendit. Resp. Hoc 
+      <lb ed="#T" n="3"/>est verum descientia simplicis intelligentiae, qua 
+      <lb ed="#T" n="4"/>maior est quoad obiecta 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e845">
+                  <lb ed="#T" n="5"/>Ad 2. Maius est quod continet &amp;c. Resp. 
+      <lb ed="#T" n="6"/>Scientia simplicis intelligentiae sola continet 
+      to<lb ed="#T" n="7" break="no"/>tam potentiam quae ad obiecta, &amp; non 
+      contine<lb ed="#T" n="8" break="no"/>tur ab illa, vnde ipsa maior est, 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e856">
+                  <lb ed="#T" n="9"/>Ad 3. Ansclmi de voluntate. Resp. 
+      Consecu<lb ed="#T" n="10" break="no"/>tio illa intelligitur secundum ordinem agendi, 
+      <lb ed="#T" n="11"/>non essendi; &amp; in ijs in quibus differunt potentia 
+      <lb ed="#T" n="12"/>&amp; voluntas: vnde cum voluntas moueat 
+      poten<lb ed="#T" n="13" break="no"/>tiam, voluntas est nobilior. Sed in Deo idem 
+      <lb ed="#T" n="14"/>sunt, vnde vnum non est nobilius altero, 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e873">
+                  <lb ed="#T" n="15"/>Ad 4. Voluntas mouet &amp;c. Resp. Haec 
+      diffe<lb ed="#T" n="16" break="no"/>rentia secundum rem locum habet in ijs quae per 
+      <lb ed="#T" n="17"/>essentiam non agunt, sed per motum: sed in Deo 
+      <lb ed="#T" n="18"/>non, nisi secundum modum inte lligendi. 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e884">
+                  <lb ed="#T" n="19"/>Ad ea quae opponuntur in contrarium, quod 
+      <lb ed="#T" n="20"/>sunt aequalia. Resp. Quamuis secundum id quod 
+      <lb ed="#T" n="21"/>sunt non differant, vnde non habent 
+      inaequali<lb ed="#T" n="22" break="no"/>tatem: tamen eorum obiecta differunt, &amp; ex illa 
+      <lb ed="#T" n="23"/>parte habent inaequalitatem 
+    </p>
+            </div>
+            <div xml:id="pdt7y6-f05809-Dd1e898">
+               <head xml:id="pdt7y6-f05809-Hd1e900">Articulus 4</head>
+               <head xml:id="pdt7y6-f05809-Hd1e902" type="question-title">An Deus sit omnipotens.</head>
+               <p xml:id="pdt7y6-f05809-d1e905">
+                  <lb ed="#T" n="24"/>ARTICVLVS IV 
+      <lb ed="#T" n="25"/>An Deus sit omnipotens.
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e912">
+                  <lb ed="#T" n="26"/>CIrca quartum articulum proceditur sic. 1. 
+      <lb ed="#T" n="27"/>Prustra est actiua potentia, cui nulla potest 
+      <lb ed="#T" n="28"/>respondere potentia passiua in quam agat: sed  
+      <lb ed="#T" n="29"/>omnipotentiae actiue in Deo nulla potest 
+      respon<lb ed="#T" n="30" break="no"/>dere passiua omnipotentia: ergo. 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e925">
+                  <lb ed="#T" n="31"/>2. Qui non potest oninia quae posse potentia 
+      <lb ed="#T" n="32"/>est, non vere poscit dici oninipotens: sed Deus 
+      <lb ed="#T" n="33"/>non potest ambulare, icqui, comedere, quae 
+      ta<lb ed="#T" n="34" break="no"/>men posse potentiae est: ergo non est vere 
+      om<lb ed="#T" n="35" break="no"/>lli3 oteris 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e939">
+                  <lb ed="#T" n="36"/>3. Potentia passiua est aliqua potentia: ergo 
+      <lb ed="#T" n="37"/>qui non habet potentiam paniuam, non habet  
+      <lb ed="#T" n="38"/>omnipotentiam. 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e948">
+                  <lb ed="#T" n="39"/>Contra 1. Exodi 12. Omnipotens nomen eius 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e953">
+                  <lb ed="#T" n="40"/>2. Sunimo &amp; vniuersali bono nihil simpliciter  
+      <lb ed="#T" n="41"/>bonum deesse potest: sed Deus est sumnium &amp; 
+      <lb ed="#T" n="42"/>vniuersale bonum, &amp; omnis potentia, vt ait, 
+      <lb ed="#T" n="43"/>Philoscplius lib. Topic. de genere bonorum est 
+      <lb ed="#T" n="44"/>ergo nulla potentia Deo deesse potest. 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e966">
+                  <lb ed="#T" n="45"/>3. Qui potest infinita, potest omnia: Deus 
+      po<lb ed="#T" n="46" break="no"/>test infinita: ergo omnia: ergo omnipotens. 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e973">
+                  <lb ed="#T" n="47"/>Respondeo. Posse dicitur aliquis dupliciter: 
+      <lb ed="#T" n="48"/>aut simpliciter &amp; proprie a potentia quae est in 
+      <lb ed="#T" n="49"/>ipso, vt Achilles potest vincere Hectorem: aut 
+      <lb ed="#T" n="50"/>large &amp; communiter a potentia quae est in alte 
+      <lb ed="#T" n="51"/>ro, vt Hector potest vinci ab Achille: primo 
+      <lb ed="#T" n="52"/>modo dicitur quis posse illud cuius principium 
+      <lb ed="#T" n="53"/>actiuum est in ipso: secundo modo illud cuius 
+      <lb ed="#T" n="54"/>principium passiuum est in eo. A primo posse 
+      <lb ed="#T" n="55"/>dicitur quis simpliciter potens: a secundo vero, 
+      <lb ed="#T" n="56"/>quamuis dicatur potens secundum vocem, 
+      ta<lb ed="#T" n="57" break="no"/>nmen melius potest dici impotens secundum rem. 
+      <lb ed="#T" n="58"/>Quia ergo Deus habet potentiam actiuam res 
+      <lb ed="#T" n="59"/>pectu omnium, congrue dicitur omnipotens, 
+      <lb ed="#T" n="60"/>quamuis nihil possit recipere vel pati. 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e1006">
+                  <lb ed="#T" n="61"/>Ad 1. Prustra est actiua potentia &amp;c. Resp. 
+      <lb ed="#T" n="62"/>Hoc habet locum, in potentia de se imperfecta 
+      <lb ed="#T" n="63"/>quae habet perfici actu suo: sed Dei potentia de 
+      <lb ed="#T" n="64"/>se perfecta est, nec vllo actu perficitur; vnde 
+      <lb ed="#T" n="65"/>etsi nullus esset effectus &amp; nulla potentia passiua, 
+      <lb ed="#T" n="66"/>ipsum recipiens, non ideo minus esset perfecta.
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e1023">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0423.xml-->
+                  <cb ed="#T" n="b"/>
+                  <lb ed="#T" n="67"/>Ad 2. De actu ambulandi. Resp. Sicut dicit 
+      <lb ed="#T" n="68"/>Dionysius, quaedam sunt potentiae &amp; nobilitatis 
+      <lb ed="#T" n="69"/>in inferioribus, quae essent impotentiae in 
+      supe<lb ed="#T" n="70" break="no"/>rioribus: vt esse furibundum in cane est 
+      nobili<lb ed="#T" n="71" break="no"/>tatis, in homine ignobilitatis: sic moueri in ijs 
+      <lb ed="#T" n="72"/>quae habent per motum perfici, nobilitatis est: 
+      <lb ed="#T" n="73"/>sed in rebus perfectis esset ignobilitatis. Vel 
+      po<lb ed="#T" n="74" break="no"/>test dici quod si actus comparantur ad supposita 
+      <lb ed="#T" n="75"/>sua dupliciter: scilicet vt ad causam, &amp; vt ad 
+      <lb ed="#T" n="76"/>subjectum: primum nobilitatis est, &amp; pertinet 
+      <lb ed="#T" n="77"/>ad potentiam actiuam, &amp; sic comparantur etiam 
+      <lb ed="#T" n="78"/>ad deum: secundum indignitatis, &amp; pertinet ad 
+      <lb ed="#T" n="79"/>potentiam passiuam, &amp; sic non comparantur ad 
+      <lb ed="#T" n="80"/>Deum. 
+    </p>
+               <p xml:id="pdt7y6-f05809-d1e1060">
+                  <lb ed="#T" n="81"/>Ad 3. De potentia passiua. Resp. Est potius 
+      <lb ed="#T" n="82"/>impotentia quam potentia, vnde non 
+      includi<lb ed="#T" n="83" break="no"/>tur in omnipotentia. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

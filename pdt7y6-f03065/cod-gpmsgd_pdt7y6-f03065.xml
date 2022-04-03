@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#T" n="336"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="pdt7y6-f03065"><!-- l1d41prae -->
+            <head xml:id="pdt7y6-f03065-Hd1e99">Praeambulum</head>
+            <head xml:id="pdt7y6-f03065-Hd1e101" type="question-title"/>
+            <p xml:id="pdt7y6-f03065-d1e103">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0411.xml-->
+               <cb ed="#T" n="c"/>
+               <lb ed="#T" n="49"/>VIRVM ALIQVOD SiTMERITVM. 
+      <lb ed="#T" n="50"/>obdurationis &amp; misericordiae, 
+      <lb ed="#T" n="51"/>Dictinet. XLI. 
+    </p>
+           <!-- <p xml:id="pdt7y6-f03065-d1e116">
+               <lb ed="#T" n="52"/>SI autem quaerimus meritum obdurationis &amp; misericordiae, obdurationis 
+      <lb ed="#T" n="53"/>meritum inuenimus, misericordiae autem meritum non inuenimus: 
+      <lb ed="#T" n="54"/>Q quia nullum est miscricordiae meritum, ne gratia euacuetur, si non gratis 
+      <lb ed="#T" n="55"/>cex donetur, sed meritis redditur. Miferetur itaque se cundum gratiam, quae 
+      <lb ed="#T" n="56"/>gratis datur: obdurat autem secundum iudicium, quod meritis redditur.  
+      <lb ed="#T" n="57"/>Vnde datur intelligi: vt sicut reprobatio Dei est nolle misereri, ita 
+      obdu<lb ed="#T" n="58" break="no"/>ratio Dei sit non misereri: vt non ab illo irrogetur aliquid quo sit homo 
+      <lb ed="#T" n="59"/>deterior: sed tantum quo sit melior non errogetur. Ex his aperte ostenditur quid 
+      miseri<lb ed="#T" n="60" break="no"/>cordiam, quid obdurationem intellexerit Apostolus, &amp; quia misericordia nullum 
+      aduo<lb ed="#T" n="61" break="no"/>cati meritum, obduratio vero non est sine merito: &amp; miscricordiae verbo hic accipitur 
+      prae<lb ed="#T" n="62" break="no"/>destinatio, &amp; praecipue praedestinationis effectus: obdurationis vero non ipsa Dei aeterna 
+      <lb ed="#T" n="63"/>reprobatio, quia eius nullum est meritum, sed gratiae priuatio siue subtractio, quae 
+      quodam<lb ed="#T" n="64" break="no"/>modo est reprobationis effectus. Accipitur tamen aliquando reprobatio pro obduratione, 
+      <lb ed="#T" n="65"/>sicut &amp; praedestinatio pro suo effectu, cui est gratia apposita. Gratia enim quae apponitur,  
+      <lb ed="#T" n="66"/>effectus est praedestinationis. Cum ergo gratiae quae apponitur homini ad 
+      instificatio<lb ed="#T" n="67" break="no"/>nem, nulla sint merita, multo minus &amp; ipsius praedestinationis, quam ab aeterno elegit 
+      <lb ed="#T" n="68"/>Deus quos voluit, aliqua possunt existere merita: ita nec reprobationis, quam ab aeterno 
+      <lb ed="#T" n="69"/>quosdam praesciuit futuros malos &amp; damnandos, sicut elegit lacob, &amp; reprobauit Esaum, 
+      <lb ed="#T" n="70"/>quod non fuit pro meritis eorum quae tunc habebant: quia nulla habebant, quoniam nec 
+      <lb ed="#T" n="71"/>ipsi existebant: nec propter futura merita quae praeuideret, vel illum elegit, vel istum 
+      re<lb ed="#T" n="72" break="no"/>probauit. 
+    </p>
+            <p xml:id="pdt7y6-f03065-d1e164">
+               <lb ed="#T" n="73"/>Opinio quorundam, in qua etiam fuit aliquando Augostinus, sed postea retractauit. 
+      <lb ed="#T" n="74"/>Opinaeti sunt tamen quidam Deum ideo elegisse lacob, quia talem futurum praesciuit, 
+      <lb ed="#T" n="75"/>qui in eum crederet, &amp; ei seruiret: quod aliquando Augustin. se sensisse dicit in lib. Retract. 
+      <lb ed="#T" n="76"/>vbi aperte ostendit, quod si propter futura merita electus esset, iam non ex gratia esset 
+      ele<lb ed="#T" n="77" break="no"/>ctio. Non ergo ideo electus est a Deo, quia talis futurus erat, sed ex tali electione talis est 
+      <lb ed="#T" n="78"/>factus: ita dicens, Disputans ego quid elegerit Deus in nondum nato, cui dixit seruiturum 
+      <lb ed="#T" n="79"/>esse maiorem, &amp; quid in eodem maiore similiter nondum nato reprobauerit: ad hoc 
+      per<lb ed="#T" n="80" break="no"/>duxi ratiocinationem, vt dicerem, non ergo elegit Deus opera cuiusquam in praescientia, 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0412.xml-\->
+      <pb ed="#T" n="337"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>quae ipse daturus est: sed fidem elegit in praescientia: &amp; quem sibi crediturum esse praesciuit, 
+      <lb ed="#T" n="2"/>ipsum elegit cui Spiritum sanctum daret, vt bona operando, etiam aeternam vitam 
+      con<lb ed="#T" n="3" break="no"/>sequeretur. Ecce hic aperte dicit non propter opera cum elegisse, sed propter fidem qua 
+      <lb ed="#T" n="4"/>cum praeuidit crediturum. Sed quia in fide meritum est sicuti &amp; in operibus, hoc 
+      retracta<lb ed="#T" n="5" break="no"/>uit dicens, Nondum diligentius quaesiueram, nec adhuc inueneram qualis sit electio gratiae, 
+      <lb ed="#T" n="6"/>de qua dicit Apostolus, Reliquiae per electionem gratiae saluae fient: quae vtique non est 
+      <lb ed="#T" n="7"/>ex gratia, si ex meritis procedit, vt iam quod datur non secundum gratiam, sed secundum 
+      <lb ed="#T" n="8"/>debitum reddatur potius meritis quam donetur. Perinde quod continue dixi: Dicit enim 
+      <lb ed="#T" n="9"/>idem Apostolus, Idem Deus qui operatur omnia in omnibus; nusquam autem dictum est, 
+      <lb ed="#T" n="10"/>Deus credit omnia in omnibus: Ac deinde subiunxi, Quod ergo credimus nostrum est: 
+      <lb ed="#T" n="11"/>quod vero bonum operamur, illius est qui credentibus dat Spiritum sanctum: sed hoc 
+      pro<lb ed="#T" n="12" break="no"/>fecto non dicerem, si scirem etiam ipsam fidem inter Dei munera reperiri, quae dantur in 
+      <lb ed="#T" n="13"/>eodem Spiritu. Vtrumque ergo nostrum est propter arbitrium voluntatis, &amp; vtrumque 
+      <lb ed="#T" n="14"/>datum est per Spiritum fidei &amp; charitatis. Et quod paulo post dixi, Nostrum enim est 
+      cre<lb ed="#T" n="15" break="no"/>dere &amp; velle, illius autem dare credentibus &amp; volentibus facultatem bene operandi per 
+      <lb ed="#T" n="16"/>Spiritum sanctum, per quem charitas Dei diffunditur in cordibus nostris, verum est 
+      qui<lb ed="#T" n="17" break="no"/>dem sed eadem regula est: &amp; vtrumque ipsius est, quia ipse praeparat voluntatem: &amp; 
+      vtrum<lb ed="#T" n="18" break="no"/>que nostrum, quia non sit nisi volentibus nobis: ergo &amp; meritum fidei de mifericordia Dei. 
+      <lb ed="#T" n="19"/>venit. Non ergo propter fidem vel aliqua merita elegit Deus aliquos ab aeterno, vel 
+      ap<lb ed="#T" n="20" break="no"/>posuit gratiam iustificationis in tempore, sed gratuita bonitate sua elegit, vt boni essent. 
+      <lb ed="#T" n="21"/>Vnde singust. in libr. de Praedestinatione Sanctorum, Non quia futuros nos tales esse 
+      prae<lb ed="#T" n="22" break="no"/>sciuit, ideo elegit, sed vt essemus tales per ipsam electionem gratiae suae, qua gratificauit 
+      <lb ed="#T" n="23"/>nos in dilecto Filio suo. 
+    </p>
+            <p xml:id="pdt7y6-f03065-d1e241">
+               <lb ed="#T" n="24"/>His videtur contrarium quod alibi ait Augustinus. 
+      <lb ed="#T" n="25"/>His tamen aduersari videtur quod dicit August. lib. 83. quaestionum, Cui vult, inquit  
+      <lb ed="#T" n="26"/>miscretur Deus, &amp; quem vult indurat: sed haec voluntas Dei iniusta esse non potest, venit 
+      <lb ed="#T" n="27"/>enim de occultissimis meritis: quia &amp; ipsi peccatores cum propter generale peccatum 
+      <lb ed="#T" n="28"/>vnam massam fecerunt, tamen nonnulla inter eos est diuersitas. Praecedit ergo aliquid in 
+      <lb ed="#T" n="29"/>peccatoribus, quo quamuis nondum sint iuitificati, digni efficiantur iustificatione. Et  
+      <lb ed="#T" n="30"/>item praecedit in aliis peccatoribus, quo digni sunt obtusione. Ecce hic videtur August. 
+      di<lb ed="#T" n="31" break="no"/>cere, quod &amp; ipsa Dei voluntas, qua alios eligit, alios reprobat, ex meritis proueniat, sed  
+      <lb ed="#T" n="32"/>occultissimis, id est, quod pro meritis alios voluerit eligere, alios reprobare: &amp; quod 
+      pro<lb ed="#T" n="33" break="no"/>meritis alijs apponitur gratia iustificationis, aliis non, vnde obtunduntur. Sed quid 
+      intel<lb ed="#T" n="34" break="no"/>ligere voluerit, ignoratur: nisi forte hoc dicatur intellixisse, quod supra dximus cum 
+      re<lb ed="#T" n="35" break="no"/>tractasse. Na ibidem quaedam alia continue subdit, quae in lib. 1. Retract. aperte retractat: 
+      <lb ed="#T" n="36"/>quod vtrumque legenti patebit. Unde verisimile est in praemissis etiam hoc retractasse. 
+      <lb ed="#T" n="37"/>Quidam tamen ex eo sensu accipiunt fore dictum, non quia aliquis praedestinetur pro 
+      me<lb ed="#T" n="38" break="no"/>ritis, vel iustificationis gratiam mereatur: sed quia aliqui non adeo mali sunt, vt mereantur  
+      <lb ed="#T" n="39"/>sibi gratiam non impartiri. Nullus enim Dei gratiam mereri potest per quam iustificatur: 
+      <lb ed="#T" n="40"/>potest tamen mereri vt non apponatur, vt penitus abiiciatur. Et quidem aliqui in tantum 
+      <lb ed="#T" n="41"/>profundum iniquitatis deuenerunt, vt hoc mereantur, vt hoc digni sint: alijvero ita viuunt, 
+      <lb ed="#T" n="42"/>vt etsi non mereantur gratiam iustificationis, non tamen merentur omnino repelli, &amp; 
+      gra<lb ed="#T" n="43" break="no"/>tiam sibi subtrahi. Ideoque dixit in quibusdam peccatoribus praecedere quo digni sint 
+      iu<lb ed="#T" n="44" break="no"/>stificatione, &amp; in aliijs quo digni sint obtusione: sed hoc friuolum est, 
+    </p>
+            <p xml:id="pdt7y6-f03065-d1e289">
+               <lb ed="#T" n="45"/>Opinio quorundam falsa de occultis Dei disserentium carnaliter. 
+      <lb ed="#T" n="46"/>Multi vero de isto profundo quaerentes reddere rationem, atque se cundum conjecturas 
+      <lb ed="#T" n="47"/>cordis sui inscrutabilem altitudinem iudiciorum Dei cogitare conantes, in fabulas 
+      vanita<lb ed="#T" n="48" break="no"/>tis abierunt, dicentes, quod animae sursum in caelo peccant, &amp; secundum peccata sua ad 
+      <lb ed="#T" n="49"/>corpora pro meritis diriguntur, &amp; dignis sibi quasi carceribus includuntur. Ierunt hi tales 
+      <lb ed="#T" n="50"/>post cogitationes suas &amp; volentes disputare de Dei profundo, versi sunt in profundum, 
+      di<lb ed="#T" n="51" break="no"/>centes animas in caelo ante conuersatas, &amp; ibi aliquid boni vel mali egisse, &amp; pro meritis 
+      <lb ed="#T" n="52"/>ad corpora terrena detrusas esse. Hoc autem respuit catholica fides propter euidentem 
+      <lb ed="#T" n="53"/>Apostoli sententia, qua ait, Cum nondum nati essent, aut aliquid boni vel mali egissent,] 
+      <lb ed="#T" n="54"/>&amp;c. Melior est ergo fidelis ignorantia, quam temeraria scientia. El egit ergo eos quos 
+      <lb ed="#T" n="55"/>voluit gratuita mifericordia, non quia fideles futuri erant, sed vt fideles essent; eisque 
+      gra<lb ed="#T" n="56" break="no"/>tiam dedit, non quia fideles erant, sed vt fierent: ait enim Apostolus, Mifericordiam 
+      con<lb ed="#T" n="57" break="no"/>secutus sum, vt fidelis essem, non ait, quia fidelis eram. datur quidem, &amp; fideli, sed data est? 
+      <lb ed="#T" n="58"/>etiam prius vt esset fidelis. Ita etiam reprobauit quos voluit, non propter futura merita 
+      <lb ed="#T" n="59"/>quae praeuideret, veritate tamen rectissima, &amp; a nostris sensibus remota. 
+      <!-\-1652-gregPress-MichiganState-gbooks-v1-0413.xml-\->
+      <pb ed="#T" n="338"/>
+               <cb ed="#T" n="a"/>
+               <lb ed="#T" n="1"/>Questio. 
+      <lb ed="#T" n="2"/>Sed quaeritur, vtrum sicut dicitur elegisse quosdam vt boni fierent &amp; fideles; ita etiam 
+      <lb ed="#T" n="3"/>concedi debeat reprobasse quosdam vt mali essent &amp; infideles, &amp; obdurare vt peccent: quod 
+      <lb ed="#T" n="4"/>nullatenus concedi oportet. Non enim reprobatio ita est causa mali, sicut praedestinatio 
+      <lb ed="#T" n="5"/>est causa boni: neque obduratio ita facit hominem malum, quemadmodum mifericordia 
+      <lb ed="#T" n="6"/>facit bonum. 
+    </p>
+            <p xml:id="pdt7y6-f03065-d1e344">
+               <lb ed="#T" n="7"/>An ea quae semelscit &amp; praescit, semper sciat &amp; praesciat, &amp; semper scierit vel praescierit. E 
+      <lb ed="#T" n="8"/>Praeterea considerari oportet, vtrum ea omnia quae semel scit vel praescit Deus, semper 
+      <lb ed="#T" n="9"/>sciat &amp; scierit, ac praesciat &amp; praescierit, an olim scierit vel praescierit, quod modo non scit 
+      <lb ed="#T" n="10"/>vel praescit. De praescientia primo respondemus, dicentes, multa cum praescisse quae 
+      mo<lb ed="#T" n="11" break="no"/>do non praescit. Cum enim eius praescientia non sit nisi de futuris, ex quo illa quae futura 
+      <lb ed="#T" n="12"/>erant, praesentia siunt vel praetereunt, sub Dei praescientia esse desinunt, sub scientia vero 
+      <lb ed="#T" n="13"/>semper sunt. Praesciuit ergo Deus omnia ab aeterno quae futura erant, neque praescire 
+      de<lb ed="#T" n="14" break="no"/>sinit, nisi cum futura esse desinunt. Neque cum praescire desinit aliqua quae ante 
+      praescie<lb ed="#T" n="15" break="no"/>bat, minus ea noscit quam ante cognoscebat. Non enim dicitur ex defectu scientiae Dei, 
+      <lb ed="#T" n="16"/>quod aliqua praescierit aliquando quae modo non praesciat, sed ex ratione verbi quod est 
+      <lb ed="#T" n="17"/>praescientia. Praescire enim est ante scire aliquid quam fiat. Ideoque non potest dici Deus 
+      <lb ed="#T" n="18"/>praescire nisi ea quae futura sunt.  
+    </p>
+            <p xml:id="pdt7y6-f03065-d1e373">
+               <lb ed="#T" n="19"/>Hic de scientia, dicens Deum semper scire quae semelscit. 
+      <lb ed="#T" n="20"/>De scientia autem aliter dicimus. Scit enim Deus semper omnia quae aliquando scit: 
+      <lb ed="#T" n="21"/>omnem enim scientiam quam aliquando habet, semper habuit, &amp; habet, &amp; habebit. Ad  
+      <lb ed="#T" n="22"/>hoc autem opponitur ita: Olim sciuit hunc hominem nasciturum qui natus est, modo non 
+      <lb ed="#T" n="23"/>scit cum nasciturum, sciuit ergo aliquid quod modo non scit. Item, sciuit mundum 
+      <lb ed="#T" n="24"/>esse creandum, modo non scit eum esse creandum: aliquid ergo sciuit quod modo non 
+      <lb ed="#T" n="25"/>scit, &amp; alia huiusmodi infinita dici possunt. Sed ad hoc dicimus quod idem de natiuitate 
+      <lb ed="#T" n="26"/>huius hominis &amp; mundi creatione, nunc etiam scit, quod sciebat antequam fierent, licet,  
+      <lb ed="#T" n="27"/>tunc &amp; nunc hanc scientiam eius diuersis exprimi verbis oportet. Nam quod tunc 
+      futu<lb ed="#T" n="28" break="no"/>rum erat, nunc praeteritum est. Ideoque verba commutanda sunt ad ipsum designandum. 
+      <lb ed="#T" n="29"/>Sicut diuersis temporibus loquentes, eandem diem modo per hoc aduerbium Cras 
+      desi<lb ed="#T" n="30" break="no"/>gnamus, dum adnuc futura est: modo per Hodie, dum praesens est modo per Heri, dum 
+      <lb ed="#T" n="31"/>praeterita est. Itaque antequam crearetur mundus, sciebat Deus hunc creandum: postquam  
+      <lb ed="#T" n="32"/>creatus est, scit eam creatum: nec est hoc scire diuersa, sed omnino idem de creatione 
+      <lb ed="#T" n="33"/>mundi. Sicut antiqui Patres crediderunt Christum nasciturum &amp; moriturum, nos autem 
+      <lb ed="#T" n="34"/>credimus eum natum &amp; mortuum, nec tamen diuersa credimus nos &amp; illi, sed eadem. 
+      <lb ed="#T" n="35"/>Tempora enim, vt ait August. variata sunt, &amp; ideo verba sunt mutata non fides. 
+      Indubi<lb ed="#T" n="36" break="no"/>tanter ergo teneamus Deum semper omnia scire, quae aliquando scit.
+    </p>-->
+            <p xml:id="pdt7y6-f03065-d1e415">
+      <!--1652-gregPress-MichiganState-gbooks-v1-0413.xml-->
+               <cb ed="#T" n="b"/>
+               <lb ed="#T" n="37" type="fixed=338"/>DIVISIO TEXTVS. 
+      <lb ed="#T" n="38"/>[I autem quaerimus.] Egit de effectu Diui¬ 
+      <lb ed="#T" n="39"/>Qnae praedestinationis &amp; reprobationis: hic 
+      <lb ed="#T" n="40"/>agit de causa. Et primo quaerit an diuina 
+      prae<lb ed="#T" n="41" break="no"/>scientia vel praedestinatio causetur ex humanis 
+      <lb ed="#T" n="42"/>meritis. Secundo incidenter inquirit an vlla 
+      mu<lb ed="#T" n="43" break="no"/>tatio causetur in Dei praescientia, seu scientia. 
+      <lb ed="#T" n="44"/>ex rebus mutatis [Praeterea. 
+    </p>
+            <p xml:id="pdt7y6-f03065-d1e439">
+               <lb ed="#T" n="45"/>In prima parte primo determinat veritatem. 
+      <lb ed="#T" n="46"/>Secundo excludit quorundam Catholicorum 
+      <lb ed="#T" n="47"/>falsam opinionem [Opinati sunt) Tertio 
+      quo<lb ed="#T" n="48" break="no"/>umdam haercticorum destruit errorem [Multi.] 
+      <lb ed="#T" n="49"/>In secunda parte primo ostendit quod electio 
+      <lb ed="#T" n="50"/>Dei non venit ex meritorum praescientia. 
+      Se<lb ed="#T" n="51" break="no"/>cundo opponit in contrarium &amp; soluit [His 
+      ta<lb ed="#T" n="52" break="no"/>men aduersarij. IIn tertia parte primo ostendit 
+      <lb ed="#T" n="53"/>quod merita praecedentia no sunt causa diuinae 
+      <lb ed="#T" n="54"/>electionis seu reprobationis [Multi] Secundo 
+      <lb ed="#T" n="55"/>quod mala merita non sunt finis reprobationis 
+      <lb ed="#T" n="56"/>biuinae seu obdurationis [Sed quaeritur.   
+    </p>
+            <p xml:id="pdt7y6-f03065-d1e469">
+               <lb ed="#T" n="57"/>In secunda parte principali, primo mouet &amp; 
+      <lb ed="#T" n="58"/>determinat quaestionem de praescientia [
+      Prae<lb ed="#T" n="59" break="no"/>terea, Secundo de scientia[ De scientia autem.]
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>
