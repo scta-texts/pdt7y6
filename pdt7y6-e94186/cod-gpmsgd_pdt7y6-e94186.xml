@@ -1,954 +1,954 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 5</title>
-            <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 5</title>
-               <date when="2022-04-03">April 03, 2022</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2022-04-03" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#T" n="309"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="pdt7y6-e94186"><!-- l1d37q5 -->
-            <head xml:id="pdt7y6-e94186-Hd1e99">Quaestio 5</head>
-            <head xml:id="pdt7y6-e94186-Hd1e101" type="question-title">Qualiter Angelus moveatur de loco ad locum</head>
-            <p xml:id="pdt7y6-e94186-d1e104">
-               <lb ed="#T" n="37"/>QVESTIO V 
-      <lb ed="#T" n="38"/>QVALITERANGELVSMOVEATVR 
-      <lb ed="#T" n="39"/>DELOCO ADLOCVM. 
-</p>
-            <p xml:id="pdt7y6-e94186-d1e113">
-               <lb ed="#T" n="40"/>CIrca quintum quaeruntur tria. 
-      <lb ed="#T" n="41"/>Primo an angelus moueatur de loco ad 
-      <lb ed="#T" n="42"/>locum. 
-      <lb ed="#T" n="43"/>Secundo an pertranseat medium. 
-      <lb ed="#T" n="44"/>Tertio an eius motus sit in tepore, vel subito. 
-    </p>
-            <div xml:id="pdt7y6-e94186-Dd1e126">
-               <head xml:id="pdt7y6-e94186-Hd1e128">Articulus 1</head>
-               <head xml:id="pdt7y6-e94186-Hd1e130" type="question-title">An angelus moueatur de loco ad locum</head>
-               <p xml:id="pdt7y6-e94186-d1e133">
-                  <lb ed="#T" n="45"/>Articvlvs I. 
-      <lb ed="#T" n="46"/>An angelus moueatur de loco ad locum.
-</p>
-               <p xml:id="pdt7y6-e94186-d1e140">
-                  <lb ed="#T" n="47"/>AD primum proceditur sic. 1. Motus est 
-      <lb ed="#T" n="48"/>actus imperfecti: sed angelus est perfectus, 
-      <lb ed="#T" n="49"/>cum sit beatus: ergo non mouetur.  
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e149">
-                  <lb ed="#T" n="50"/>2. Omne quod mouetur, mouetur aliqua 
-      spe<lb ed="#T" n="51" break="no"/>cie motus: angelus nulla specie motus 
-      moue<lb ed="#T" n="52" break="no"/>tur, quia nec generatione, nec corruptione, 
-      <lb ed="#T" n="53"/>cum no sit ex materia generabili &amp; corruptibilij 
-      <lb ed="#T" n="54"/>nec augmento, vel diminutione, cum non 
-      ha<lb ed="#T" n="55" break="no"/>beat quantitatem dimensiuam, nec: 
-      alteratio<lb ed="#T" n="56" break="no"/>nem, cum alteratio sit circa qualitates 
-      sensibi<lb ed="#T" n="57" break="no"/>les, vt dicit Philosophus5 Phys. nec motu 
-      lo<lb ed="#T" n="58" break="no"/>cali, quia omnis motus localis est propter 
-      indi<lb ed="#T" n="59" break="no"/>gentiam: ergo nulio: modo mouetur.  
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e174">
-                  <lb ed="#T" n="60"/>3. Sicut probat Philosophus 6 Phys. nusiuim. 
-      <lb ed="#T" n="61"/>impartibile mouetur per se: quia omne quod 
-      <lb ed="#T" n="62"/>mouetur transit a termino a quo ad terminum 
-      <lb ed="#T" n="63"/>ad quem: aut ergo totaliter est in termino a quo, 
-      <!--1652-gregPress-MichiganState-gbooks-v1-0384.xml-->
-      <cb ed="#T" n="b"/>
-                  <lb ed="#T" n="64"/>&amp; sic nondum mouetur, sed quiescit: aut 
-      to<lb ed="#T" n="65" break="no"/>taliter in termino ad quem, &amp; sic non mouetur. 
-      <lb ed="#T" n="66"/>quia iam motus est: aut partim in termino a quo, 
-      <lb ed="#T" n="67"/>partim in termino ad quem: ergo est partibile: 
-      <lb ed="#T" n="68"/>sed angelus est impartibilis: ergo non mouetur. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e200">
-                  <lb ed="#T" n="69"/>4. Indiuisibile si mouetur non attingit de 
-      <lb ed="#T" n="70"/>spatio nisi indiuisibile: sed spatium non 
-      compo<lb ed="#T" n="71" break="no"/>nitur ex indiuisibilibus: ergo nullam partem 
-      <lb ed="#T" n="72"/>spatij attingit: sed nihil potest moueri per 
-      spa<lb ed="#T" n="73" break="no"/>tium aliquod nisi attingat aliquam partem 
-      spa<lb ed="#T" n="74" break="no"/>ij: ergo non potest moueri. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e216">
-                  <lb ed="#T" n="75"/>5. Impossibile est quod aliquid pertranseat 
-      <lb ed="#T" n="76"/>patium maius se, quin prius pertranseat minus 
-      <lb ed="#T" n="77"/>aut aequale: sed indiuisibile non potest 
-      pertran<lb ed="#T" n="78" break="no"/>sire minus, quia nihil est eo minus; nec aequale. 
-      <lb ed="#T" n="79"/>quia aequalia sunt infinita, scilicet puncta: ergo 
-      <lb ed="#T" n="80"/>non potest aliud spatium pertransire: ergo nec 
-      <lb ed="#T" n="81"/>moueri. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e234">
-                  <lb ed="#T" n="82"/>6. Magis simplex &amp; indiuisibilis est vnitas 
-      <lb ed="#T" n="83"/>quam punctus, &amp; angelus quam vtrumque; 
-      <lb ed="#T" n="84"/>quia punctus non inuenitur nisi in continuo, 
-      <lb ed="#T" n="85"/>vnitas vero etiam in discreta quantitate: ergo, 
-      <lb ed="#T" n="86"/>cum nec vnitas, nec punctus propter suam 
-      indi<lb ed="#T" n="87" break="no"/>uisibilitatem possint por se moueri, multo minus 
-      <lb ed="#T" n="88"/>angelus. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e252">
-                  <lb ed="#T" n="89"/>7. Spiritus angelicus non habet potentiam ad 
-      <lb ed="#T" n="90"/>motum rectum, quia nec est grauis, nec leuis; 
-      <lb ed="#T" n="91"/>nec ad motum circularem, quia nec circulariss 
-      <lb ed="#T" n="92"/>nec ad processiuum, quia sine organis 
-      proces<lb ed="#T" n="93" break="no"/>siuis: ergo ad nullum motum localem habet 
-      po<lb ed="#T" n="94" break="no"/>tentiam. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e268">
-                  <lb ed="#T" n="95"/>Contra. 1. Damascenus dicit, quod angelus, 
-      <lb ed="#T" n="96"/>naturae velocitate inuenitur in diuersis locis,  
-      <lb ed="#T" n="97"/>quia parate &amp; cito transit: ergo mouetur 
-      loca<lb ed="#T" n="98" break="no"/>liter.  
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e280">
-                  <lb ed="#T" n="99"/>2. Angeli aliquando inuisibiliter sunt in coelo, 
-      <lb ed="#T" n="100"/>aliquando inuitibiliter in terra: ergo mouentur  
-      <lb ed="#T" n="101"/>sine assumpto corpore. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e289">
-                  <lb ed="#T" n="102"/>3. Omne quod potest esse hic &amp; alibi non 
-      <lb ed="#T" n="103"/>simul, potest localiter moueri: sed sic se 
-      ha<lb ed="#T" n="104" break="no"/>bet angelus: ergo &amp;c. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e298">
-                  <lb ed="#T" n="105"/>4. Anima separata a corpore, sine corpore 
-      <lb ed="#T" n="106"/>suo, vel alieno, aut descendit in infernum, aut 
-      <lb ed="#T" n="107"/>ascendit in coelum: ergo localiter mouetur.  
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e307">
-                  <lb ed="#T" n="108"/>Respondeo. Triplex motus angelorum 
-      in<lb ed="#T" n="109" break="no"/>uenitur a sanctis traditus. Primus est motus 
-      spi<lb ed="#T" n="110" break="no"/>ritualium illuminationum quo mouentur ab 
-      al<lb ed="#T" n="111" break="no"/>tero spiritu, vei mouent alterum, &amp; hunc 
-      di<lb ed="#T" n="112" break="no"/>stinguit Dionysius metaphorice in circularem, 
-      <lb ed="#T" n="113"/>&amp; rectum &amp; obliquum: circularis est 
-      illumina<lb ed="#T" n="114" break="no"/>tio angeli a Deo per quam reffectitur in Deum. 
-      <lb ed="#T" n="115"/>rectus, illuminatio superioris ad inferiorem ad 
-      <lb ed="#T" n="116"/>aliquid in inferioribus agendum; obliquus est 
-      <lb ed="#T" n="117"/>compositus ex vtroque, qui est illuminatio 
-      in<lb ed="#T" n="118" break="no"/>feriorum a superioribus per quam tendunt &amp; 
-      <lb ed="#T" n="119"/>reffectuntur, non inferiora, nec in angelum 
-      <lb ed="#T" n="120"/>illuminantem, sed in Deum. Secundus est 
-      mo<lb ed="#T" n="121" break="no"/>us temporalium vicissitudinum in seipsis, vel 
-      <lb ed="#T" n="122"/>secundum cognitionem, vespertinam scilicet,  
-      <lb ed="#T" n="123"/>diuersarum rerum quae sit per multa, non 
-      se<lb ed="#T" n="124" break="no"/>cundum matutinam quae sit per vnum, id est 
-      <lb ed="#T" n="125"/>per verbum: vel secundum varietatem 
-      affectio<lb ed="#T" n="126" break="no"/>nis. Tertius est localium mutationum in 
-      corpo<lb ed="#T" n="127" break="no"/>ralibus inferioribus, quo transcunt de vno loco 
-      <lb ed="#T" n="128"/>ad alium, vel in assumpto corpore, vel sine 
-      <lb ed="#T" n="129"/>assumpto corpore prout volunt.  
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e357">
-                  <lb ed="#T" n="130"/>Ad 1. De actu imperfecto. Resp. Motus 
-      dici<lb ed="#T" n="131" break="no"/>tur, vel proprie exitus de materiali potentia in 
-      <!--1652-gregPress-MichiganState-gbooks-v1-0385.xml-->
-      <pb ed="#T" n="310"/>
-                  <cb ed="#T" n="a"/>
-                  <lb ed="#T" n="1"/>actum, &amp; sic est actus imnerfecti: vel 
-      communi<lb ed="#T" n="2" break="no"/>ter, scilicet quaelibet rei operatio, vel interior 
-      <lb ed="#T" n="3"/>vt sentire, intelligere; vel exterior quae 
-      termi<lb ed="#T" n="4" break="no"/>natur in materiam extrinsecam, qui proprie 
-      di<lb ed="#T" n="5" break="no"/>citur actio: &amp; hic est actus perfecti. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e381">
-                  <lb ed="#T" n="6"/>Ad 2. Resp. Quamuis primus motus proprie 
-      <lb ed="#T" n="7"/>non sit motus, quia in Diuinis illuminationibus 
-      <lb ed="#T" n="8"/>semper manet angelus: tamen secundus est 
-      <lb ed="#T" n="9"/>motus exitus ex ocio in actum, ad motum 
-      al<lb ed="#T" n="10" break="no"/>terationis reducibilis, secundum quod alteratio 
-      <lb ed="#T" n="11"/>dicitur communiter, prout est circa passiones 
-      <lb ed="#T" n="12"/>quae consistunt siue in abjectione a substantia. 
-      <lb ed="#T" n="13"/>siue in receptione tantum; non proprie prout 
-      <lb ed="#T" n="14"/>est circa passiones quae consistunt in abjectione 
-      <lb ed="#T" n="15"/>a substantia tantum. Tertius quoque motus 
-      re<lb ed="#T" n="16" break="no"/>ducitur ad motum localem: nec oportet quod 
-      <lb ed="#T" n="17"/>omnis motus localis sit propter indigentiam 
-      <lb ed="#T" n="18"/>propriam, sed vel propter suam vel alienam, 
-      <lb ed="#T" n="19"/>sicut coelum mouetur propter indigentiam non 
-      <lb ed="#T" n="20"/>suam, sed inferiorum. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e417">
-                  <lb ed="#T" n="21"/>Ad 3. De impartibili. Resp. Quamuis 
-      an<lb ed="#T" n="22" break="no"/>gelus non sit partibilis per essentiam, est tamen 
-      <lb ed="#T" n="23"/>secundum quosda partibilis per virtualem 
-      prae<lb ed="#T" n="24" break="no"/>sentiam, sicut anima, quia potest esse simul 
-      prae<lb ed="#T" n="25" break="no"/>sens pluribus partibus spatij, quia non 
-      deterimi<lb ed="#T" n="26" break="no"/>nat sibi situm sicut punctus. Vnde argumentum 
-      <lb ed="#T" n="27"/>illud Philosophi concludit non de quolibet 
-      <lb ed="#T" n="28"/>indiuisibili, sed de indiuisibili habente situm in 
-      <lb ed="#T" n="29"/>continuo, vt est punctus: tale enim in motu suo 
-      <lb ed="#T" n="30"/>aliquid de spatio commensurando contingit; sed 
-      <lb ed="#T" n="31"/>angelus nihil, quia nihil habet in spatio seipso 
-      <lb ed="#T" n="32"/>minus, vel maius, vel aequale sicut punctus, 
-      <lb ed="#T" n="33"/>non enim est quantitas eiusdem generis cum 
-      lo<lb ed="#T" n="34" break="no"/>ci quantitate. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e450">
-                  <lb ed="#T" n="35"/>Vel secundum alios, quamuis cum mouetur. 
-      <lb ed="#T" n="36"/>non sit per essentiam vel praesentiam partibilis 
-      <lb ed="#T" n="37"/>secundum rem, quia nunquam est nisi in 
-      rmpar<lb ed="#T" n="38" break="no"/>tibili. scilicet puncto, est tamen secundum 
-      ra<lb ed="#T" n="39" break="no"/>tionem, id est secundum comparationem ad 
-      <lb ed="#T" n="40"/>vtrunique terminum. Nam, vt dicunt, cum 
-      <lb ed="#T" n="41"/>angelus mouetur, totaliter &amp; simul tam 
-      secun<lb ed="#T" n="42" break="no"/>dum essentiam quam praesentiam exit a termino 
-      <lb ed="#T" n="43"/>a quo, &amp; totaliter est vel in termino ad quem, in 
-      <lb ed="#T" n="44"/>relatione tamen ad terminum a quo, secundum 
-      <lb ed="#T" n="45"/>illos qui dicunt quod mouetur sine medio: vel 
-      <lb ed="#T" n="46"/>totaliter in medio, per relationem tamen ad 
-      ter<lb ed="#T" n="47" break="no"/>minum ad quem &amp; a quo, secundum illos qui  
-      <lb ed="#T" n="48"/>dicunt quod mouetur per medium. Rationem 
-      <lb ed="#T" n="49"/>ergo motus quam facit in corporibus 
-      diuisibili<lb ed="#T" n="50" break="no"/>tas secundum rem, facit in spiritibus 
-      diuisibili<lb ed="#T" n="51" break="no"/>tas secundum rationem: consideratus enim 
-      an<lb ed="#T" n="52" break="no"/>gelus prout est secundum rationem in medio: 
-      <lb ed="#T" n="53"/>vel in termino ad quem absolute, non dicitur 
-      <lb ed="#T" n="54"/>moueri: sed prout est in medio tanquam 
-      rece<lb ed="#T" n="55" break="no"/>dens a termino a quo, &amp; tendens ad terminum. 
-      <lb ed="#T" n="56"/>ad quem: vel prout est in termino ad quem vt 
-      <lb ed="#T" n="57"/>recedens a termino a quo: sicut enim dualitas 
-      <lb ed="#T" n="58"/>consistit in duabus vnitatibus, vel ternarius in 
-      <lb ed="#T" n="59"/>tribus no absolute consideratis, sed inuicem 
-      co<lb ed="#T" n="60" break="no"/>paratis; ita motus angeli in duobus terminie, &amp; 
-      <lb ed="#T" n="61"/>medio secundum alios, non absolute per se 
-      sum<lb ed="#T" n="62" break="no"/>tis, sed inuicem comparatis. Prima tamen 
-      so<lb ed="#T" n="63" break="no"/>utio videtur planior.  
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e515">
-                  <lb ed="#T" n="64"/>Ad 4. De spatio indiuisibili. Resp. 
-      Aigumen<lb ed="#T" n="65" break="no"/>tum concluditsolum de indiuisibili habente situm 
-      <lb ed="#T" n="66"/>in continuo: hoc enim quando mouetur 
-      com<lb ed="#T" n="67" break="no"/>mensurando attingit aliquid de spatio¬ 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e526">
-                  <lb ed="#T" n="68"/>Ad 5. Impossibile est quod aliquid pertran¬ 
-      <!--1652-gregPress-MichiganState-gbooks-v1-0385.xml-->
-      <cb ed="#T" n="b"/>
-                  <lb ed="#T" n="69"/>eat spatium maius &amp;c. Resp. Concludit de 
-      in<lb ed="#T" n="70" break="no"/>diuisibili habente situm: nam huic soli indiuisibile. 
-      <lb ed="#T" n="71"/>loci potest dici aequale, cum sit eiusdem generis: 
-      <lb ed="#T" n="72"/>angelo vero punctus vel linea non est maius 
-      <lb ed="#T" n="73"/>quid nec minus, nec aequale, sicut nec leuca 
-      <lb ed="#T" n="74"/>horae: vnde huic indiuisibili commensuratur 
-      in<lb ed="#T" n="75" break="no"/>diuisibile loci, sed non angelo: vnde motu suo 
-      <lb ed="#T" n="76"/>non distinguit puncta, sed potest vel puncto(vt 
-      <lb ed="#T" n="77"/>multi dicunt) sine contactu, vel loco 
-      quan<lb ed="#T" n="78" break="no"/>to (vt dicit Guillelmus Altissiodorensis) praesens 
-      <lb ed="#T" n="79"/>esse: &amp; hoc vt arbitror vel minori, si vult 
-      mo<lb ed="#T" n="80" break="no"/>ueri tardius, vel maiori si citius, quod est in sua 
-      <lb ed="#T" n="81"/>voluntate. Secundum istos vero non mouetur 
-      <lb ed="#T" n="82"/>per simplicia, sed per composita, quibus 
-      assen<lb ed="#T" n="83" break="no"/>tior, puto enim quod moueri per corpus 
-      con<lb ed="#T" n="84" break="no"/>tinetur sub corporali operatione, requirit enim 
-      <lb ed="#T" n="85"/>terminorum distantiam: &amp; ideo puto quod non 
-      <lb ed="#T" n="86"/>mouetur per puncta sed per quanta, deferendo 
-      <lb ed="#T" n="87"/>aliquid de primo quanto, &amp; occupando aliquid 
-      <lb ed="#T" n="88"/>de sequenti, partibilitate praesentiae, non 
-      parti<lb ed="#T" n="89" break="no"/>bilitate essentiae. Est ergo impartibile duplex: 
-      <lb ed="#T" n="90"/>quoddam habens situm in materia, &amp; hoc 
-      opor<lb ed="#T" n="91" break="no"/>tet esse impartibile per essentiam &amp; praesentiam: 
-      <lb ed="#T" n="92"/>quoddam non habens, vt spiritus; &amp; hoc 
-      quam<lb ed="#T" n="93" break="no"/>uis sit indiuisibile per essentiam, tamen diuisibile 
-      <lb ed="#T" n="94"/>est per virtualem praesentia qua potest pluribus 
-      <lb ed="#T" n="95"/>partious eiusdem spatij simul totus adesse, non 
-      <lb ed="#T" n="96"/>tamen vbique, sed in loco sibi determinato, nec 
-      <lb ed="#T" n="97"/>ine suo motu vel mutatione: Deus vero vbique 
-      <lb ed="#T" n="98"/>sine motu &amp; mutatione. Secundum alios 
-      ve<lb ed="#T" n="99" break="no"/>ro mouetur per puncta, non tamen se eis 
-      com<lb ed="#T" n="100" break="no"/>mensarando, sed de termino impartibili ad 
-      ter<lb ed="#T" n="101" break="no"/>ninum impartibilem transferendo: nec attingit 
-      <lb ed="#T" n="102"/>simul vtrumque, nec partibilitate essentiae, nec 
-      <lb ed="#T" n="103"/>praesentiae, sed sola relatione seu comparatione 
-      <lb ed="#T" n="104"/>ad vtrumque, vt dictum est, ita quod 
-      quan<lb ed="#T" n="105" break="no"/>do est in vno, nec in parte, nec totaliter  
-      <lb ed="#T" n="106"/>est in altero, sed habet, comparationem ad 
-      alte<lb ed="#T" n="107" break="no"/>rum. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e620">
-                  <lb ed="#T" n="108"/>Ad 6. De vnitate &amp; puncto. Resp. Non est. 
-      <lb ed="#T" n="109"/>tota ratio immobilitatis in eis indiuisibilitas 
-      <lb ed="#T" n="110"/>simpliciter, sed talis, scilicet quia punctus 
-      ha<lb ed="#T" n="111" break="no"/>bet situm in continuo: vnitas vero non est 
-      sub<lb ed="#T" n="112" break="no"/>stantia, vnde non comparatur ad locum nisi per 
-      <lb ed="#T" n="113"/>accidens. Vel dicendum quod ratio concludit 
-      <lb ed="#T" n="114"/>de motu locali localiter id est qui sit 
-      comme<lb ed="#T" n="115" break="no"/>tiendo se spatio¬ 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e640">
-                  <lb ed="#T" n="116"/>Ad 7. De motu recto &amp;c. Resp. Diuisio illa 
-      <lb ed="#T" n="117"/>motus pertinet ad motum corporalem &amp; 
-      natu<lb ed="#T" n="118" break="no"/>ralem, non spiritualem &amp; voluntarium. 
-    </p>
-            </div>
-            <div xml:id="pdt7y6-e94186-Dd1e651">
-               <head xml:id="pdt7y6-e94186-Hd1e653">Articulus 2</head>
-               <head xml:id="pdt7y6-e94186-Hd1e655" type="question-title">An angelus pertranseat medium</head>
-               <p xml:id="pdt7y6-e94186-d1e658">
-                  <lb ed="#T" n="119"/>ARTICVLVS II 
-      <lb ed="#T" n="120"/>An angelus pertranseat medium.
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e665">
-                  <lb ed="#T" n="121"/>AD secundum articulum sic proceditur. 1. 
-      <lb ed="#T" n="122"/>Medium in motu est secundum 
-      Philoso<lb ed="#T" n="123" break="no"/>phum 5. Physic. in quod primo venit illud quod 
-      <lb ed="#T" n="124"/>mutatur, antequam perfecte mutetur: sed in 
-      <lb ed="#T" n="125"/>aliquod tale primo venit angelus cum de coelo 
-      <lb ed="#T" n="126"/>ad terram mouetur: ergo per medium pertransit. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e681">
-                  <lb ed="#T" n="127"/>2. Omne motum esse praecedit moueri: motum 
-      <lb ed="#T" n="128"/>esse est in termino ad quem quando attingit 
-      <lb ed="#T" n="129"/>eum: ergo ante praecedit moueri: sed non in 
-      <lb ed="#T" n="130"/>termino a quo: ergo in medio. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e693">
-                  <lb ed="#T" n="131"/>3. Inter coelum &amp; terram est distantia 
-      secun<lb ed="#T" n="132" break="no"/>dum naturam: aut ergo est ibi distantia quo ad 
-      <lb ed="#T" n="133"/>angelum, aut non: si non est ergo 2 aliquid 
-      <lb ed="#T" n="134"/>quod est in rerum natura, quoad angelum: nihil 
-      <lb ed="#T" n="135"/>est: si sic, ergo oportet quod pertranseat ipsam 
-      <!--1652-gregPress-MichiganState-gbooks-v1-0386.xml-->
-      <pb ed="#T" n="311"/>
-                  <cb ed="#T" n="a"/>
-                  <lb ed="#T" n="1"/>veniendo de caelo ad terram. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e715">
-                  <lb ed="#T" n="2"/>4. Prius erat in termino a quo postea est in 
-      <lb ed="#T" n="3"/>termino ad quem: aut ergo transeundo per 
-      me<lb ed="#T" n="4" break="no"/>dium, aut non; si non, contra, non venitur ad 
-      <lb ed="#T" n="5"/>terminum viae nisi per viam: si sic: ergo 
-      per<lb ed="#T" n="6" break="no"/>transit per medium. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e728">
-                  <lb ed="#T" n="7"/>5. Motus non habet comparationem nisi vel 
-      <lb ed="#T" n="8"/>ad terminum a quo, vel ad quem, vel ad 
-      ime<lb ed="#T" n="9" break="no"/>dium: sed in termino a quo est quiescere, in 
-      ter<lb ed="#T" n="10" break="no"/>mino ad quem motum esse: ergo moueri non est 
-      <lb ed="#T" n="11"/>nisi in medio. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e741">
-                  <lb ed="#T" n="12"/>6. Si medium non facit distantiam in motu 
-      <lb ed="#T" n="13"/>angelico, ergo infinitum medium non 
-      impe<lb ed="#T" n="14" break="no"/>diret transitum angeli: ergo posset pertransire 
-      <lb ed="#T" n="15"/>distantiam infinitam. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e752">
-                  <lb ed="#T" n="16"/>Contra. 1. Motus animae coniunctae eorpori 
-      <lb ed="#T" n="17"/>potest esse a termino in terminum sine medio, vt 
-      <lb ed="#T" n="18"/>patet in successione cogitationum, cogitando 
-      <lb ed="#T" n="19"/>primo vnum terminum, postmodum alterum: 
-      <lb ed="#T" n="20"/>ergo a simili motus Angeli, cum sit liberior, 
-      po<lb ed="#T" n="21" break="no"/>test esse non pertranseundo medium. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e768">
-                  <lb ed="#T" n="22"/>2. Damascenus dicit, quod intelligitur adesse 
-      <lb ed="#T" n="23"/>vbi operatur: si ergo nihil operatur in medio, 
-      <lb ed="#T" n="24"/>non est ibi. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e778">
-                  <lb ed="#T" n="25"/>3. In medio sunt infinita simplicia: cum ergo 
-      <lb ed="#T" n="26"/>angelus, eo quod simplex, moueatur per 
-      sim<lb ed="#T" n="27" break="no"/>plicia, si mouetur per medium pertransit 
-      infini<lb ed="#T" n="28" break="no"/>ta: sed hoc est impossibile: ergo non pertransit. 
-      <lb ed="#T" n="29"/>med ium. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e791">
-                  <lb ed="#T" n="30"/>Respondeo. Circa motum Angeli sicut circa 
-      <lb ed="#T" n="31"/>locum duae sunt opiniones: vna dicentium quod 
-      <lb ed="#T" n="32"/>non pertransit medium nisi habeat operari in 
-      <lb ed="#T" n="33"/>medio: altera quod pertransit medium, etsi 
-      nihilo<lb ed="#T" n="34" break="no"/>operetur in ipso. Primi volunt quod transitus 
-      <lb ed="#T" n="35"/>Angeli de loco ad locum est sicut mutatio 
-      quae<lb ed="#T" n="36" break="no"/>dam subita a termino in terminum sine medio: 
-      <lb ed="#T" n="37"/>sicut aeris illuminatio. Secundi quod est sicut 
-      <lb ed="#T" n="38"/>fuccessiuus motus. In omni autem motu 
-      requi<lb ed="#T" n="39" break="no"/>ritur medium per quod sit motus, differens ab 
-      <lb ed="#T" n="40"/>vtroque termino, quia moueri non est 
-      nisi<lb ed="#T" n="41" break="no"/>in medio. Sed moueri per medium dicuntur 
-      du<lb ed="#T" n="42" break="no"/>pliciter vel commensurando se medio, sicut  
-      <lb ed="#T" n="43"/>mouetur corpus per medium: vel non 
-      commen<lb ed="#T" n="44" break="no"/>surando, sicut spiritus mouetur.  
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e826">
-                  <lb ed="#T" n="45"/>Secundum primam opinionem respondendum 
-      <lb ed="#T" n="46"/>est ad objecta sic. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e833">
-                  <lb ed="#T" n="47"/>Ad 1. Medium est id in quod primo venit &amp;c. 
-      <lb ed="#T" n="48"/>Resp. Loquitur, vt patet ex textu de medio 
-      <lb ed="#T" n="49"/>in locali motu successiuo qui sit spatio se 
-      com<lb ed="#T" n="50" break="no"/>mensurando: sic vero non mouetur Angelus, 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e844">
-                  <lb ed="#T" n="51"/>Ad 2. Ante motum esse praecedit moueri. 
-      <lb ed="#T" n="52"/>Resp. Vbi differunt motum esse &amp; mouer 
-      secun<lb ed="#T" n="53" break="no"/>dum rem, vt in motibus successiuis, hoc est 
-      <lb ed="#T" n="54"/>verum: sed vbi non differunt nisi secundum 
-      ra<lb ed="#T" n="55" break="no"/>tionem, vt in subitis, non praecedit nisi 
-      secun<lb ed="#T" n="56" break="no"/>dum intellectum. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e860">
-                  <lb ed="#T" n="57"/>Ad 3. De distantia. Resp. Non est inconuenies 
-      <lb ed="#T" n="58"/>vt illud quod est aliquid in rerum natura quoad 
-      <lb ed="#T" n="59"/>motum Angeli se habeat ac si non sit: sicut 
-      me<lb ed="#T" n="60" break="no"/>dium duorum terminorum in motu cogitationis 
-      <lb ed="#T" n="61"/>de vno ad alterum, se habet ac si non fit 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e874">
-                  <lb ed="#T" n="62"/>Ad 4. Non venitur ad terminum viae 
-      nisi<lb ed="#T" n="63" break="no"/>per viam. Resp. In illo motu subito non est via 
-      <lb ed="#T" n="64"/>media inter vtrumque terminum percurrendat. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e883">
-                  <lb ed="#T" n="65"/>Ad 5. De motu. Resp. Non differunt motum 
-      <lb ed="#T" n="66"/>esse &amp; moueri re, sed ratione, quia motum esse 
-      <lb ed="#T" n="67"/>dicit comparationem solum ad terminnm ad 
-      <lb ed="#T" n="68"/>quem, sed moueri &amp; ad terminum quo. 
-      <!--1652-gregPress-MichiganState-gbooks-v1-0386.xml-->
-      <cb ed="#T" n="b"/>
-                  <lb ed="#T" n="69"/>Ad 6. De distantia infinita. Resp. Cum 
-      me<lb ed="#T" n="70" break="no"/>dium faciat distantiam, Angelus non 
-      pertran<lb ed="#T" n="71" break="no"/>seundo medium non pertransisset distantiam 
-      in<lb ed="#T" n="72" break="no"/>finitam. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e907">
-                  <lb ed="#T" n="73"/>Secundum aliam opinionem, quae videtur 
-      <lb ed="#T" n="74"/>planior &amp; verior, respondendum est ad 
-      argu<lb ed="#T" n="75" break="no"/>menta. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e916">
-                  <lb ed="#T" n="76"/>Ad 1. In contrarium de motu cogitationis. 
-      <lb ed="#T" n="77"/>Resp. Quod non est simile, quia inter terminos 
-      <lb ed="#T" n="78"/>motus illius, scilicet ipsas species in anima, nulla 
-      <lb ed="#T" n="79"/>est distantia: sed inter terminos motus localis 
-      <lb ed="#T" n="80"/>angeli est distantia. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e929">
-                  <lb ed="#T" n="81"/>Ad 2. De operatione. Resp. Adest vbi 
-      ope<lb ed="#T" n="82" break="no"/>ratur, sed non solum: vnde etsi nihil operetur 
-      <lb ed="#T" n="83"/>in medio, necesse est tamen illi pertranseundo 
-      <lb ed="#T" n="84"/>adesse si velit accedere ad terminum ad quem &amp; 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e940">
-                  <lb ed="#T" n="85"/>Ad 3. In medio sunt infinita &amp;c. Resp. Non 
-      <lb ed="#T" n="86"/>est necesse angelum, quamuis sit simplex, 
-      mo<lb ed="#T" n="87" break="no"/>ueri per simplicia spatij, quia quamuis sit 
-      sim<lb ed="#T" n="88" break="no"/>plex simplicitate molis, tamen est quantus 
-      qua<lb ed="#T" n="89" break="no"/>titate virtutis qua potest esse praesens loco 
-      quan<lb ed="#T" n="90" break="no"/>titatiuo. Vel dicendum quod infinita puncta non 
-      <lb ed="#T" n="91"/>est pertransire numerando illa, siue 
-      contingen<lb ed="#T" n="92" break="no"/>do, sed angelus non contingit ea. Vel dicendum 
-      <lb ed="#T" n="93"/>quod simplicia infinita in continuo non sunt,  
-      <lb ed="#T" n="94"/>ictu, sed tantum in potentia diuisionis: angelus, 
-      <lb ed="#T" n="95"/>vero in motu suo non diuidit spatium, vnde non 
-      <lb ed="#T" n="96"/>pertransit actu infinita sed potentia. 
-    </p>
-            </div>
-            <div xml:id="pdt7y6-e94186-Dd1e970">
-               <head xml:id="pdt7y6-e94186-Hd1e972">Articulus 3</head>
-               <head xml:id="pdt7y6-e94186-Hd1e974" type="question-title">An motus angeli sit in tempore vel subito</head>
-               <p xml:id="pdt7y6-e94186-d1e977">
-                  <lb ed="#T" n="97"/>Articvlvs III. 
-      <lb ed="#T" n="98"/>An motus angeli sit in tempore, vel subito. 
-</p>
-               <p xml:id="pdt7y6-e94186-d1e984">
-                  <lb ed="#T" n="99"/>D tertium articulum proceditur sic. 1. 
-      Mu<lb ed="#T" n="100" break="no"/>
-                  <!-- line coord error -->
-                  <lb ed="#T" n="101"/>tatio angeli secundum locum est simplicior 
-      <lb ed="#T" n="102"/>qualibet mutatione corporali: sed aliquae 
-      muta<lb ed="#T" n="103" break="no"/>tiones corporales siunt subito vt illuminatio 
-      se<lb ed="#T" n="104" break="no"/>cundum Philosophum 5. Physic. &amp; generatio: 
-      <lb ed="#T" n="105"/>ergo multo fertius imotus, angeti de loco ad 
-      <lb ed="#T" n="106"/>ocum. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e1006">
-                  <lb ed="#T" n="107"/>2. In termino temporis mensurantis motu: 
-      <lb ed="#T" n="108"/>est in termino ad quem: tempore quod 
-      praece<lb ed="#T" n="109" break="no"/>dit aut est totaliter in termino a quo, &amp; sic non 
-      <lb ed="#T" n="110"/>mouetur: aut partim in termino a quo, partim 
-      <lb ed="#T" n="111"/>in termino ad quem, &amp; sic erit partibilis. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e1020">
-                  <lb ed="#T" n="112"/>3. Ubi nulla est resistentia medij, nulla est 
-      re<lb ed="#T" n="113" break="no"/>tardatio, cum retardatio contingac propter 
-      re<lb ed="#T" n="114" break="no"/>sistentiam: sed medium nullo modo resistit 
-      an<lb ed="#T" n="115" break="no"/>gelo in motu suo: ergo nulla est ibi retardatio: 
-      <lb ed="#T" n="116"/>ergo motus eius est subitus. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e1033">
-                  <lb ed="#T" n="117"/>4. Improportionalium motorum &amp; mobilium, 
-      <lb ed="#T" n="118"/>motus est improportionalis: sed corpus &amp; 
-      an<lb ed="#T" n="119" break="no"/>gelus improportionalia sunt: ergo &amp; motus 
-      ip<lb ed="#T" n="120" break="no"/>lorum: se omne tempus omni tempori 
-      pro<lb ed="#T" n="121" break="no"/>portionale est, secundum Philosophum: ergo 
-      <lb ed="#T" n="122"/>ni corporis motus est in tempore, motus angeli 
-      <lb ed="#T" n="123"/>non erit in tempore, sed in nunc. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e1051">
-                  <lb ed="#T" n="124"/>5. Motus successiuus est compositus, angelus, 
-      <lb ed="#T" n="125"/>simplex: accidens vero compositum non potest 
-      <lb ed="#T" n="126"/>esse in subjecto simplici: ergo nec motus 
-      suc<lb ed="#T" n="127" break="no"/>tessiuus in angelo. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e1062">
-                  <lb ed="#T" n="128"/>6. Quod simul se cotum transicet, erus motus 
-      <lb ed="#T" n="129"/>est subitus, non successiuus: sed angelus subito. 
-      <lb ed="#T" n="130"/>se totum transfert: ergo &amp;c. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e1071">
-                  <lb ed="#T" n="131"/>7. Secundum Philosophum lib. Physic. si esse. 
-      <lb ed="#T" n="132"/>vacuum, non esset motus successiuus: sed 
-      ange<lb ed="#T" n="133" break="no"/>Io non plus resistit plenum quam vncuum: ei go 
-      <lb ed="#T" n="134"/>motus eius non est successiuus. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e1082">
-                  <lb ed="#T" n="135"/>8. Non est velocior lux in motursuo quam a 
-      <!--1652-gregPress-MichiganState-gbooks-v1-0387.xml-->
-      <pb ed="#T" n="312"/>
-                  <cb ed="#T" n="a"/>
-                  <lb ed="#T" n="1"/>gelus: sed vt dicit Augustinus lib. 4. de Gen. 
-      <lb ed="#T" n="2"/>ad lit. radius oculi non citius venit ad 
-      propin<lb ed="#T" n="3" break="no"/>quiora, quam ad remotiora loca, sed vtraque 
-      <lb ed="#T" n="4"/>spatia pari celeritate transcurrit: ergo multo 
-      <lb ed="#T" n="5"/>magis angelus. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e1105">
-                  <lb ed="#T" n="6"/>Contra. 1. Omnis motus habet prius &amp; 
-      poste<lb ed="#T" n="7" break="no"/>rius, quia aliquid per motum abijcitur, &amp; aliquid 
-      <lb ed="#T" n="8"/>aliud acquiritur, quae duo simul esse non possunt: 
-      <lb ed="#T" n="9"/>sed mensura prioris &amp; posterioris est tempus: 
-      <lb ed="#T" n="10"/>ergo omnis motus sit in tempore. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e1118">
-                  <lb ed="#T" n="11"/>2. Autin eodem instanti est in vtroqe; termino 
-      <lb ed="#T" n="12"/>motus, aut in diuersis: si in eodem, ergo simul 
-      <lb ed="#T" n="13"/>est in pluribus locis: si in diuersis, ergo cum 
-      <lb ed="#T" n="14"/>inter quaelibet duo instantia sit tempus medium. 
-      <lb ed="#T" n="15"/>in motu eius a termino n terminum intercedit 
-      <lb ed="#T" n="16"/>tempus 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e1134">
-                  <lb ed="#T" n="17"/>3. Si mbuetur in nunc, ergo simul est 
-      moue<lb ed="#T" n="18" break="no"/>ri &amp; motum esse: ergo simul est via &amp; terminus. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e1141">
-                  <lb ed="#T" n="19"/>4. Quanto fortior est virtus motoris, tanto 
-      ve<lb ed="#T" n="20" break="no"/>locior est morus: sed si motus cuiuslibet angeli 
-      <lb ed="#T" n="21"/>est in nunc, non potest angeli fortioris esse 
-      velo<lb ed="#T" n="22" break="no"/>cior motus: ergo non est in nunc. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e1152">
-                  <lb ed="#T" n="23"/>5. Si tanta virtus potest in tanto tempore 
-      mo<lb ed="#T" n="24" break="no"/>uere, &amp; maior potest in minori, &amp; maxima in 
-      <lb ed="#T" n="25"/>minimo, &amp; infinita in non tempore, id est, in 
-      <lb ed="#T" n="26"/>nunc: ergo cum nunc excedat tempus 
-      impropor<lb ed="#T" n="27" break="no"/>tionaliter, oportet quod virtus quae mouet in 
-      <lb ed="#T" n="28"/>nunc, excedat improportionaliter virtutem quae 
-      <lb ed="#T" n="29"/>mouet in tempore: sed angeli virtus, cum sit 
-      <lb ed="#T" n="30"/>creata, non excedit in infinitum virtutem 
-      cor<lb ed="#T" n="31" break="no"/>poris alicuius mouentis in tempore: ergo virtus 
-      <lb ed="#T" n="32"/>angeli non mouet in nunc. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e1176">
-                  <lb ed="#T" n="33"/>Respondeo. Circa hanc quaestionem sunt 
-      opi<lb ed="#T" n="34" break="no"/>niones diuersae. Quidam enim ponunt motum. 
-      <lb ed="#T" n="35"/>angeli per se, scilicet fine corpore assumpto. 
-      <lb ed="#T" n="36"/>esse subitum, id est in nunc ita quod: in vno 
-      <lb ed="#T" n="37"/>nunc se transferat de hoc loco in alterum, &amp; de 
-      <lb ed="#T" n="38"/>isto ad alium in alio nunc; &amp; ideo tota mensura 
-      <lb ed="#T" n="39"/>huiusmodi motus angelici  ab Augustino 
-      vo<lb ed="#T" n="40" break="no"/>catur tempus improprie, in quo est quaedam 
-      <lb ed="#T" n="41"/>successto saltem duorum vel plurium nunc inter 
-      <lb ed="#T" n="42"/>quae nihil est medium: est enim ex vicissitudine 
-      <lb ed="#T" n="43"/>compositum simplicium nunc: vnde in 
-      mensu<lb ed="#T" n="44" break="no"/>ra motus angeli ponunt quadam? successionem 
-      <lb ed="#T" n="45"/>vicissitudinum xseu nunc simplicium sibi 
-      suece<lb ed="#T" n="46" break="no"/>dentium immediate, sicut in numero vnitates 
-      <lb ed="#T" n="47"/>quod in natourali mutatione esse non potest. Alij. 
-      <lb ed="#T" n="48"/>dicunt motum angeli esse successiuum in 
-      tem<lb ed="#T" n="49" break="no"/>pore proprie dicto: quia successio in motu 
-      con<lb ed="#T" n="50" break="no"/>tingit propter quatuor causas, propter 
-      resisten<lb ed="#T" n="51" break="no"/>tiam medij, propter distantiam terminorum, 
-      <lb ed="#T" n="52"/>propter diuisibilitatem mobilis, &amp; propter 
-      fini<lb ed="#T" n="53" break="no"/>tam virtutem motoris: successio vero in motu 
-      <lb ed="#T" n="54"/>angeli contingit nec propter resistentiam inedijp. 
-      <lb ed="#T" n="55"/>nec propter diuisibilitatem mobilis, sed propret 
-      <lb ed="#T" n="56"/>finitam virtutem propriam quae mouet, &amp; 
-      <lb ed="#T" n="57"/>propter distantiam terminorum. Alij dicunt, 
-      <lb ed="#T" n="58"/>quod potest moueri vel subito, vel successiue 
-      <lb ed="#T" n="59"/>secundumamperium voluntatis, quibus 
-      assen<lb ed="#T" n="60" break="no"/>tior, sed subito non potest moneri nisi in locum 
-      <lb ed="#T" n="61"/>immediatum, successiue etiam in romotis. 
-      Se<lb ed="#T" n="62" break="no"/>cundum hoc oportet vtraque argumenta 
-      solue<lb ed="#T" n="63" break="no"/>re, &amp; sic potest quilibet soluere contra se objecta. 
-      <lb ed="#T" n="64"/>confentiendo cuimagis. voluerit opinionis 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e1249">
-                  <lb ed="#T" n="65"/>Ad 1. De illuminatione &amp; huiusmodi. Resp. 
-      <lb ed="#T" n="66"/>Non est simile; quia non sunt motus sed 
-      muta<lb ed="#T" n="67" break="no"/>tiones (&amp; fines motuum, sicut illuminatio est finis 
-      <lb ed="#T" n="68"/>motus Solis ad punctum directae oppositionis 
-      <!--1652-gregPress-MichiganState-gbooks-v1-0387.xml-->
-      <cb ed="#T" n="b"/>
-                  <lb ed="#T" n="69"/>vnde est simplex &amp; Fin instanti, sed motus ipfeno. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e1267">
-                  <lb ed="#T" n="70"/>Ad 2. De tempore medio. Resp. In 
-      medio<lb ed="#T" n="71" break="no"/>tempore est angelus indiuersis partibus medij, 
-      <lb ed="#T" n="72"/>nec tamen partim in termino a quo &amp; ad quem, 
-      <lb ed="#T" n="73"/>hoc enim locum habet in motu vere &amp; proprie 
-      <lb ed="#T" n="74"/>ocali: sed motus angeli non est huiusmodi, vnde 
-      <lb ed="#T" n="75"/>eius successio &amp; continuitas nonaccipitur penes 
-      <lb ed="#T" n="76"/>huiusmodi diuisibilitatem, sed penes 
-      accessio<lb ed="#T" n="77" break="no"/>nem solam &amp; recessionem 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e1287">
-                  <lb ed="#T" n="78"/>Ad 3. De resistentia medij. Resp. Non est illa 
-      <lb ed="#T" n="79"/>sola causa, sed etiam virtus motoris finita, &amp; 
-      <lb ed="#T" n="80"/>distantia spatij potest esse causa, vel voluntas 
-      <lb ed="#T" n="81"/>ipsius motoris voluntarij. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e1298">
-                  <lb ed="#T" n="82"/>Ad 4. De corpore &amp; angelo. Resp. Quamuis 
-      <lb ed="#T" n="83"/>non sit proportio secundum naturam: quia 
-      <lb ed="#T" n="84"/>tamen voluntas creata agit libere, siue tota 
-      vir<lb ed="#T" n="85" break="no"/>tute, siue parte virtutis, ideo potest, virturi sibi 
-      <lb ed="#T" n="86"/>naturaliter improportionali proportionari 
-      <lb ed="#T" n="87"/>3 
-      <lb ed="#T" n="88"/>sicut &amp; virtus diuina creatae virtuti. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e1316">
-                  <lb ed="#T" n="89"/>Ad 5. De motu composito. Resp. Accidens 
-      co<lb ed="#T" n="90" break="no"/>positum quod habet partes suas simul actu, non 
-      <lb ed="#T" n="91"/>potest esse in subjecto simplici: sed accidens 
-      co<lb ed="#T" n="92" break="no"/>positum quod non habet partes suas simul actu, 
-      <lb ed="#T" n="93"/>vt duratio successiua, bene potest. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e1329">
-                  <lb ed="#T" n="94"/>Ad 6. Quod simul se transfert &amp;c. Resp. Hoc 
-      <lb ed="#T" n="95"/>verum est de eo, quod transfert se simul totum 
-      <lb ed="#T" n="96"/>&amp; in totum: sed angelus quamuis simul se 
-      trans<lb ed="#T" n="97" break="no"/>ferat totum, non tamen in totum. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e1341">
-                  <lb ed="#T" n="98"/>Ad 7. De vacuo. Resp. Philosophus loquitur 
-      <lb ed="#T" n="99"/>de vacuo secundum quod vacuum dicit 
-      priua<lb ed="#T" n="100" break="no"/>tionem &amp; nihil ponit, sic enim non tantum 
-      tol<lb ed="#T" n="101" break="no"/>lit medij resistentiam, sed etiam terminorum 
-      di<lb ed="#T" n="102" break="no"/>stantiam. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e1354">
-                  <lb ed="#T" n="103"/>Ad 8. De radio. Resp. Augustinus loquitur 
-      <lb ed="#T" n="104"/>secundum apparentiam sensus, non secundum 
-      <lb ed="#T" n="105"/>existentiam. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e1363">
-                  <lb ed="#T" n="106"/>Ad 1. In contrarium, quod omnis motus habet 
-      <lb ed="#T" n="107"/>prius &amp; posterius. Resp. Omnis modus habet  
-      <lb ed="#T" n="108"/>prius &amp; posterius, vel natura vel tempore. Vel 
-      <lb ed="#T" n="109"/>dicendum quod hoc intelligitur de motu 
-      pro<lb ed="#T" n="110" break="no"/>prie dicto: sed angeli motus potius habet 
-      na<lb ed="#T" n="111" break="no"/>turam mutationis. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e1379">
-                  <lb ed="#T" n="112"/>Ad 2. Aut in eodem instante &amp;c. Resp. In 
-      tem<lb ed="#T" n="113" break="no"/>pore praecedente motum est in termino. a quo, 
-      <lb ed="#T" n="114"/>in fine illius est in termino ad quem, sicut 
-      con<lb ed="#T" n="115" break="no"/>tingit in mutationibus alijs. Vel dicendum 
-      se<lb ed="#T" n="116" break="no"/>cundum alios, quod in diuersis nunc immediatis, 
-      <lb ed="#T" n="117"/>Quod tamen videtur impossibile, cum vnum 
-      <lb ed="#T" n="118"/>nunc alteri nec contiguari possit, nec 
-      conti<lb ed="#T" n="119" break="no"/>nuari, nec immediate consequi illud, secundum 
-      <lb ed="#T" n="120"/>Aristotelem 6. Physic. Sed dicunt id locum 
-      ha<lb ed="#T" n="121" break="no"/>bere in illis nunc quae sunt in tempore proprie 
-      <lb ed="#T" n="122"/>dicto, non large. Vel secundum alios in eodem. 
-      <lb ed="#T" n="123"/>secundumrem, instante est in vtroque, tamen 
-      <lb ed="#T" n="124"/>multiplicato. fecundum, rationem inquantum 
-      <lb ed="#T" n="125"/>est finis praeteriti temporis, &amp; initium futuri. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e1412">
-                  <lb ed="#T" n="126"/>Ad. 3. Ergo simul est moueri &amp; motum esse. 
-      <lb ed="#T" n="127"/>Resp. Hoc in motibus spiritualibus, qui fubiti 
-      <lb ed="#T" n="128"/>sunt, non est inconueniens; quia non differunt 
-      <lb ed="#T" n="129"/>moueri &amp; motum esse nisi secundum rationem: 
-      <lb ed="#T" n="130"/>sed in motibus naturalibus successiuis non 
-      po<lb ed="#T" n="131" break="no"/>test vtrumque simul esse, quia differunt 
-      secun<lb ed="#T" n="132" break="no"/>dum rem. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e1430">
-                  <lb ed="#T" n="133"/>Ad 4. De virtute motoris. Resp. Quamuis 
-      <lb ed="#T" n="134"/>ingelus superior &amp; inferior non sint aequalis 
-      <lb ed="#T" n="135"/>virtutis simpliciter, possunt tamen esse quoad 
-      <lb ed="#T" n="136"/>hoc, scilicet quoad aliquem actum in corpore, 
-      <lb ed="#T" n="137"/>maxime cum actus iste sit eis accidentalis, non 
-      <!--1652-gregPress-MichiganState-gbooks-v1-0388.xml-->
-      <pb ed="#T" n="313"/>
-                  <cb ed="#T" n="a"/>
-                  <lb ed="#T" n="1"/>naturalis. Praeterea voluntas contemperat 
-      virtu<lb ed="#T" n="2" break="no"/>tem ad motum secundum suum beneplacitum. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e1455">
-                  <lb ed="#T" n="3"/>Ad 5. De virtute angeli. Resp. Quamuis 
-      vir<lb ed="#T" n="4" break="no"/>tus angeli finita sit absolute, tamen potest esse 
-      <lb ed="#T" n="5"/>infinita in comparatione ad corpus aliquod, sicut  
-      <lb ed="#T" n="6"/>linea ad punctu: vtitur tamen eo pro voluntate, 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e1466">
-                  <lb ed="#T" n="7"/>De loco ergo angeli &amp; de motu sic potest 
-      in<lb ed="#T" n="8" break="no"/>telligi. Nam quamuis circa hoc due sint celebres 
-      <lb ed="#T" n="9"/>opiniones, aliqui enim dicunt quod angelus 
-      <lb ed="#T" n="10"/>non potest esse nisi in loco quanto, alij vero quod 
-      <lb ed="#T" n="11"/>non nisi in simplici: puto tamen quod angelus, 
-      <lb ed="#T" n="12"/>potest esse in loco quanto, vel in simplici. Aut  
-      <lb ed="#T" n="13"/>ergo angelus vult esse in loco aliquo sine vlla 
-      <lb ed="#T" n="14"/>corporali operatione, aut operari ibidem: si 
-      se<lb ed="#T" n="15" break="no"/>cundo modo, in quanto corpore vult operari 
-      <lb ed="#T" n="16"/>immediate, oportet quod sit in tanto loco: in 
-      pri<lb ed="#T" n="17" break="no"/>mo, aut vult praesentialiter adesse alicui quanto, 
-      <lb ed="#T" n="18"/>quamuis in eo non operetur, aut non: si sic, 
-      po<lb ed="#T" n="19" break="no"/>test esse in loco tanto quantum potest 
-      immedia<lb ed="#T" n="20" break="no"/>te imouere, non maiori, sed bene potest in 
-      minori<lb ed="#T" n="21" break="no"/>illo: si non, potest esse in simpliciori id est in 
-      pun<lb ed="#T" n="22" break="no"/>cto, in minori non, quia non est minus puncto; 
-      <lb ed="#T" n="23"/>sed si ininus esset puncto, posset in minori, quia 
-      <lb ed="#T" n="24"/>multo simplicior ei: puncto: &amp; esse difinitiue in 
-      <lb ed="#T" n="25"/>loco non requirit nisi ita esse hic quod non alibi. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e1510">
-                  <lb ed="#T" n="26"/>Si vero angelus vult moueri de loco ad 
-      lo<lb ed="#T" n="27" break="no"/>cum, aut ergo vult moueri ad locum 
-      immedia<lb ed="#T" n="28" break="no"/>tum, &amp; tunc potest si vult maueri subito, sed  
-      <lb ed="#T" n="29"/>non nisi ad locum virtuti suae proportionatum 
-      <lb ed="#T" n="30"/>vel in minorem illo, &amp; de illo ad alterum in 
-      al<lb ed="#T" n="31" break="no"/>tero nunc, &amp; motu altero: motus autem iste, quia 
-      <lb ed="#T" n="32"/>ad locum immediatum, sit sine medio, id enim 
-      to<lb ed="#T" n="33" break="no"/>tum reputatur pro loco vno, in quod se totum 
-      <lb ed="#T" n="34"/>simul actu transfert. Aut vult moueri ad locum 
-      <lb ed="#T" n="35"/>mediatum, &amp; tunc puto quod non potest 
-      moue<lb ed="#T" n="36" break="no"/>ri ad illum sine medio: nec potest in eodem nunc 
-      <lb ed="#T" n="37"/>&amp; simplici motu vno, sed in tepore, &amp; in motu 
-      <lb ed="#T" n="38"/>successiuo, quia non potest simul esse in diuersis 
-      <lb ed="#T" n="39"/>locis. Aut ergo vult moueri quam citius potest, 
-      <lb ed="#T" n="40"/>caut tardius, &amp; sic pro libito motus eius sit 
-      suc<lb ed="#T" n="41" break="no"/>cessiue, in maiori vel minori duratione. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e1547">
-                  <lb ed="#T" n="42"/>Sed vnde successio &amp; continuitas in motu isto: 
-      <lb ed="#T" n="43"/>Resp. Quod facit in corporibus praesentia 
-      cor<lb ed="#T" n="44" break="no"/>poralis, hoc facit in spiritibus praesentia 
-      virtua<lb ed="#T" n="45" break="no"/>lis: dico ergo quod ontinuitatem &amp; 
-      diuisibili<lb ed="#T" n="46" break="no"/>tatem motus corporalis facit spatij diuinibilitas, 
-      <lb ed="#T" n="47"/>&amp; corporis mobilis adaequatio secundum 
-      essen<lb ed="#T" n="48" break="no"/>tiam: continuitate vero &amp; diuisibilitate in 
-      mo<lb ed="#T" n="49" break="no"/>tu spirituali facit diuisibilitas spatij, &amp; spiritus 
-      <lb ed="#T" n="50"/>mobilis ad aequatio secundum praesentiam: sicut  
-      <lb ed="#T" n="51"/>enim corpus commensurabiliter adest diuersis 
-      <lb ed="#T" n="52"/>partibus spacij simul, sic spiritus praesentialiter:  
-      <lb ed="#T" n="53"/>&amp; sicut corpus, cu mouetur, in parte deferit 
-      ter<lb ed="#T" n="54" break="no"/>minu a quo, id parte attingit terminum ad quem; 
-      <lb ed="#T" n="55"/>sic spiritus, cum mouetur, deferit vnam partem 
-      <lb ed="#T" n="56"/>loci in quo erat, &amp; virtualiter extendit 
-      prae<lb ed="#T" n="57" break="no"/>sentiam suam ad partem loci in quo non erat. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e1584">
-                  <lb ed="#T" n="58"/>Quidam tamen asserunt quod angelus non 
-      po<lb ed="#T" n="59" break="no"/>test esse nisi in loco quanto, non in simplici, nec 
-      <lb ed="#T" n="60"/>potest moueri per simplicia, sed per composita: 
-      <lb ed="#T" n="61"/>quorum ratio multiplex est. Vna, quia punctus 
-      <lb ed="#T" n="62"/>non est locus, cum non sit superficies, nec 
-      ha<lb ed="#T" n="63" break="no"/>beat virtutem continendi quae est proprietas 
-      lo<lb ed="#T" n="64" break="no"/>ci: ergo nihil potest esse in puncto vt in loco. alia 
-      <lb ed="#T" n="65"/>ratio est, quia punctus non est actu in continuo 
-      <lb ed="#T" n="66"/>sed potentia tantum, nisi punctus initialis: 
-      <lb ed="#T" n="67"/>quod autem non est actu in se, non est locus 
-      alte<lb ed="#T" n="68" break="no"/>rius entis actu. Alia ratio est, quia vbicum¬ 
-      <!--1652-gregPress-MichiganState-gbooks-v1-0388.xml-->
-      <cb ed="#T" n="b"/>
-                  <lb ed="#T" n="69"/>que est angelus ibi potest operari: sed in 
-      <lb ed="#T" n="70"/>puncto, cum punctus sit immobilis 
-      secun<lb ed="#T" n="71" break="no"/>dum Philosophum 6. Physic. non potest 
-      <lb ed="#T" n="72"/>operari: ergo &amp;c. Alia ratio est, quia anima 
-      <lb ed="#T" n="73"/>rationalis magis est in corpore suo toto, quam 
-      <lb ed="#T" n="74"/>ingelus in loco: sed anima non est in puncto 
-      <lb ed="#T" n="75"/>corporis, punctus enim non est corpus 
-      organi<lb ed="#T" n="76" break="no"/>cum potentia vitam habens: ergo nec angelus, 
-      <lb ed="#T" n="77"/>in puncto loci. Alia ratio, quia in motu angeli 
-      <lb ed="#T" n="78"/>esset interruptio, cum punctus non sit 
-      immedia<lb ed="#T" n="79" break="no"/>tus puncto. altera ratio est, quod motu suo 
-      per<lb ed="#T" n="80" break="no"/>transiret infinita, enm infinita puncta sint in 
-      <lb ed="#T" n="81"/>quolibet continuo. Sed horum omnium ex prae 
-      <lb ed="#T" n="82"/>missis diligenter inspectis potest haberi solutio. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e1645">
-                  <lb ed="#T" n="83"/>Alij vero dicunt quod angelus, cum sit 
-      im<lb ed="#T" n="84" break="no"/>partibilis per essentiam, semper est in 
-      impartibi<lb ed="#T" n="85" break="no"/>li loco: extendit tamen, quando vult, virtutem 
-      <lb ed="#T" n="86"/>suam ad loca continua illi propinqua, in eis 
-      ope<lb ed="#T" n="87" break="no"/>rando, sicut adamas in ferro remoto: cum vero 
-      <lb ed="#T" n="88"/>mouetur pertransit in loca impartibilia, non 
-      ta<lb ed="#T" n="89" break="no"/>men se cis comniensurando. Est autem motus 
-      <lb ed="#T" n="90"/>eius transitus de loco impartibili ad 
-      impartibi<lb ed="#T" n="91" break="no"/>lem, vtiumque inspiciendo, nec est partim in 
-      <lb ed="#T" n="92"/>vno, partim altero secundum essentiam vel 
-      prae<lb ed="#T" n="93" break="no"/>sentiam, sed in vno totus ad alterum comparato. 
-      <lb ed="#T" n="94"/>Nec est instans idem seu nunc quo est in termino 
-      <lb ed="#T" n="95"/>a quo &amp; ad quem, sed diuersa: non imnmediata 
-      <lb ed="#T" n="96"/>sed V inter se: ordinata;r immediata enim non 
-      <lb ed="#T" n="97"/>sunt possibiliav in tempore propiie accepto. Si 
-      <lb ed="#T" n="98"/>mul autem in eodem nunc est moueri, &amp; motum 
-      <lb ed="#T" n="99"/>esse, secundum eos qui dicunt quod non 
-      pertran<lb ed="#T" n="100" break="no"/>sit medium: sed moueri dicit relationem ad 
-      <lb ed="#T" n="101"/>vtrumque terminum, motum esse dicit 
-      relatio<lb ed="#T" n="102" break="no"/>nem ad terminum tantum ad quem: nec est 
-      ali<lb ed="#T" n="103" break="no"/>quid medium inter illa diuersa, sicut contingit 
-      <lb ed="#T" n="104"/>in tempore, vel in motu? non interrupto. 
-    </p>
-            </div>
-            <div xml:id="pdt7y6-e94186-Dd1e1696">
-               <head xml:id="pdt7y6-e94186-Hd1e1698">Expositio litterae</head>
-               <p xml:id="pdt7y6-e94186-d1e1700">
-                  <lb ed="#T" n="105"/>EXPOSITIO LITERAE. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e1705">
-                  <lb ed="#T" n="106"/>Pud se habitabat. ] Contia. Ioan. 1. 
-      Ver<lb ed="#T" n="107" break="no"/>bum erat apud Deum, gloss. vt alius apud 
-      <lb ed="#T" n="108"/>alium. Resp. Haec praepositio importat 
-      distin<lb ed="#T" n="109" break="no"/>ctionem vpersonalem)? ratione terminorum 
-      qui<lb ed="#T" n="110" break="no"/>pus adiungitur.  
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e1718">
-                  <lb ed="#T" n="111"/>Vt ab eo cognoscatur &amp; diligatur. ] 
-      Contra<lb ed="#T" n="112" break="no"/>In paruulis habitat, nec tame ab eis cognoscitur 
-      <lb ed="#T" n="113"/>nec diligitur. Resp. Cognoscitur &amp; diligitur 
-      ha<lb ed="#T" n="114" break="no"/>bitu, licet non actu. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e1729">
-                  <lb ed="#T" n="115"/>[Spiritus fordibus polluti corporis non 
-      inqui<lb ed="#T" n="116" break="no"/>natur. Contra. Anima a carne ttahit maculam 
-      <lb ed="#T" n="117"/>peccati originalis. Resp. Loquitur de forde 
-      cor<lb ed="#T" n="118" break="no"/>porali, non de spirituali, 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e1741">
-                  <lb ed="#T" n="119"/>[Per tempus &amp; locum. ]Contra. Moueri 
-      lo<lb ed="#T" n="120" break="no"/>caliter est etiam moueri per tempus. Resp. Haec 
-      <lb ed="#T" n="121"/>diuisio conunet sex species motus: nam moueri 
-      <lb ed="#T" n="122"/>per, locum, motum continet ad locum: moueri 
-      <lb ed="#T" n="123"/>per tempus tantum, motum ad formam: in his 
-      <lb ed="#T" n="124"/>continentur aliae quinque species motus. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e1757">
-                  <lb ed="#T" n="125"/>[Creatura spiritualis per tempus.] Contra. 
-      <lb ed="#T" n="126"/>Angelus &amp; ea quae in ipso sunt, mensuratur aeuo. 
-      <lb ed="#T" n="127"/>Item tempus est mensura motus primi mobilis. 
-      <lb ed="#T" n="128"/>Resp. Loquitur de tempore accepto large, 
-      secun<lb ed="#T" n="129" break="no"/>dum quod est mensura cuiuslibet mutationis; 
-      <lb ed="#T" n="130"/>non stricte, secundum quod est mensura 
-      muta<lb ed="#T" n="131" break="no"/>tionis successiuae tantum: aeuum autem nmensura. 
-      <lb ed="#T" n="132"/>angelorum quoad esse substantiale quod est 
-      in<lb ed="#T" n="133" break="no"/>uariabile, est tempus large acceptum quoad 
-      pro<lb ed="#T" n="134" break="no"/>prietates consequentes quae variantur.  
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e1781">
-                  <lb ed="#T" n="135"/>TVna sapientia est in duobus.] Contra. Ergo 
-      <lb ed="#T" n="136"/>vna sapientia numero est in pluribus: ergo, 
-      <!--1652-gregPress-MichiganState-gbooks-v1-0389.xml-->
-      <pb ed="#T" n="314"/>
-                  <cb ed="#T" n="a"/>
-                  <lb ed="#T" n="1"/>Item, homo in intellectu &amp; in natura, aut est 
-      <lb ed="#T" n="2"/>idem numero, aut non: si sic, ergo cum non sit 
-      <lb ed="#T" n="3"/>nisi vnus homo in ipsa natura, non est nisi vnus 
-      <lb ed="#T" n="4"/>in omni intellectu intelligente hominem: si non, 
-      <lb ed="#T" n="5"/>ergo cum homo sit ad vtrumque commune, aut 
-      <lb ed="#T" n="6"/>est commune communitate generis, &amp; sic homo 
-      <lb ed="#T" n="7"/>non est species specialissima: aut speciei, &amp; sic 
-      <lb ed="#T" n="8"/>homo in natura, &amp; homo in intellectu sunt 
-      indi<lb ed="#T" n="9" break="no"/>uidua non praedicabilia vnum de vno, quod 
-      fal<lb ed="#T" n="10" break="no"/>sum est, 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e1816">
-                  <lb ed="#T" n="11"/>Item sapientia in sapiente est accidens, 
-      secun<lb ed="#T" n="12" break="no"/>dum Augustinum: idem vero accidens non 
-      po<lb ed="#T" n="13" break="no"/>test esse in diuersis subjectis. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e1825">
-                  <lb ed="#T" n="14"/>Respondeo. Sapientia increata in omnibus, 
-      <lb ed="#T" n="15"/>eadem est: sapientia vero creata dupliciter 
-      po<lb ed="#T" n="16" break="no"/>test considerari, aut per comparationem 
-      specie<lb ed="#T" n="17" break="no"/>rum ad res quarum sunt, sic est vna: aut ad eos 
-      <lb ed="#T" n="18"/>in quibus sunt, sic multae: &amp; quia in via prima 
-      <!--1652-gregPress-MichiganState-gbooks-v1-0389.xml-->
-      <cb ed="#T" n="b"/>
-                  <lb ed="#T" n="19"/>sunt species causa sapientiae, ideo dicunt Sancti 
-      <lb ed="#T" n="20"/>sapientiam esse vnam: haec tamen vnitas non 
-      <lb ed="#T" n="21"/>est vnitas absoluta, sed vnitas proportionis ad 
-      <lb ed="#T" n="22"/>vnum. 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e1851">
-                  <lb ed="#T" n="23"/>Ad illud de homine in intellectu. Resp. Homo 
-      <lb ed="#T" n="24"/>in intellectu dupliciter intelligi potest: vel vt 
-      <lb ed="#T" n="25"/>objectum tantum, vel vt accidens in subjecto: 
-      <lb ed="#T" n="26"/>primo modo idem est homo, quia homo in 
-      na<lb ed="#T" n="27" break="no"/>tura obiectum est intellectus: secundo modo non, 
-      <lb ed="#T" n="28"/>quia sic species hominis dicitur homo: homo 
-      <lb ed="#T" n="29"/>autem de vtroque dicitur communiter 
-      commu<lb ed="#T" n="30" break="no"/>nitate vel aequiuocationis, vel analogiae 
-      secun<lb ed="#T" n="31" break="no"/>dum rationem: communitas vero rationis non 
-      <lb ed="#T" n="32"/>fecit speciem 
-    </p>
-               <p xml:id="pdt7y6-e94186-d1e1876">
-                  <lb ed="#T" n="33"/>Ad illud de sapientia accidente. Resp. Est 
-      ac<lb ed="#T" n="34" break="no"/>cidens per comparationem ad subjectum, non ad 
-      <lb ed="#T" n="35"/>objectum seu ad res de quibus est, quo modo est 
-      <lb ed="#T" n="36"/>vna vnitate proportionis sensu explicato. 1 
-      <!--1652-gregPress-MichiganState-gbooks-v1-0389.xml-->
-    </p>
-            </div>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 5</title>
+        <author ref="#PetrusDeTarantasia">Petrus de Tarantasia</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 5</title>
+          <date when="2022-04-03">April 03, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T" n="cod-gpmsgd">Toulouse 1652</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-04-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#T" n="309"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pdt7y6-e94186"><!-- l1d37q5 -->
+        <head xml:id="pdt7y6-e94186-Hd1e99">Quaestio 5</head>
+        <head xml:id="pdt7y6-e94186-Hd1e101" type="question-title">Qualiter Angelus moveatur de loco ad locum</head>
+        <p xml:id="pdt7y6-e94186-d1e104">
+          <lb ed="#T" n="37"/>QVESTIO V 
+          <lb ed="#T" n="38"/>QVALITERANGELVSMOVEATVR 
+          <lb ed="#T" n="39"/>DELOCO ADLOCVM. 
+        </p>
+        <p xml:id="pdt7y6-e94186-d1e113">
+          <lb ed="#T" n="40"/>CIrca quintum quaeruntur tria. 
+          <lb ed="#T" n="41"/>Primo an angelus moueatur de loco ad 
+          <lb ed="#T" n="42"/>locum. 
+          <lb ed="#T" n="43"/>Secundo an pertranseat medium. 
+          <lb ed="#T" n="44"/>Tertio an eius motus sit in tepore, vel subito. 
+        </p>
+        <div xml:id="pdt7y6-e94186-Dd1e126">
+          <head xml:id="pdt7y6-e94186-Hd1e128">Articulus 1</head>
+          <head xml:id="pdt7y6-e94186-Hd1e130" type="question-title">An angelus moueatur de loco ad locum</head>
+          <p xml:id="pdt7y6-e94186-d1e133">
+            <lb ed="#T" n="45"/>Articvlvs I. 
+            <lb ed="#T" n="46"/>An angelus moueatur de loco ad locum.
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e140">
+            <lb ed="#T" n="47"/>AD primum proceditur sic. 1. Motus est 
+            <lb ed="#T" n="48"/>actus imperfecti: sed angelus est perfectus, 
+            <lb ed="#T" n="49"/>cum sit beatus: ergo non mouetur.  
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e149">
+            <lb ed="#T" n="50"/>2. Omne quod mouetur, mouetur aliqua 
+            spe<lb ed="#T" n="51" break="no"/>cie motus: angelus nulla specie motus 
+            moue<lb ed="#T" n="52" break="no"/>tur, quia nec generatione, nec corruptione, 
+            <lb ed="#T" n="53"/>cum no sit ex materia generabili &amp; corruptibilij 
+            <lb ed="#T" n="54"/>nec augmento, vel diminutione, cum non 
+            ha<lb ed="#T" n="55" break="no"/>beat quantitatem dimensiuam, nec: 
+            alteratio<lb ed="#T" n="56" break="no"/>nem, cum alteratio sit circa qualitates 
+            sensibi<lb ed="#T" n="57" break="no"/>les, vt dicit Philosophus5 Phys. nec motu 
+            lo<lb ed="#T" n="58" break="no"/>cali, quia omnis motus localis est propter 
+            indi<lb ed="#T" n="59" break="no"/>gentiam: ergo nulio: modo mouetur.  
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e174">
+            <lb ed="#T" n="60"/>3. Sicut probat Philosophus 6 Phys. nusiuim. 
+            <lb ed="#T" n="61"/>impartibile mouetur per se: quia omne quod 
+            <lb ed="#T" n="62"/>mouetur transit a termino a quo ad terminum 
+            <lb ed="#T" n="63"/>ad quem: aut ergo totaliter est in termino a quo, 
+            <!--1652-gregPress-MichiganState-gbooks-v1-0384.xml-->
+            <cb ed="#T" n="b"/>
+            <lb ed="#T" n="64"/>&amp; sic nondum mouetur, sed quiescit: aut 
+            to<lb ed="#T" n="65" break="no"/>taliter in termino ad quem, &amp; sic non mouetur. 
+            <lb ed="#T" n="66"/>quia iam motus est: aut partim in termino a quo, 
+            <lb ed="#T" n="67"/>partim in termino ad quem: ergo est partibile: 
+            <lb ed="#T" n="68"/>sed angelus est impartibilis: ergo non mouetur. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e200">
+            <lb ed="#T" n="69"/>4. Indiuisibile si mouetur non attingit de 
+            <lb ed="#T" n="70"/>spatio nisi indiuisibile: sed spatium non 
+            compo<lb ed="#T" n="71" break="no"/>nitur ex indiuisibilibus: ergo nullam partem 
+            <lb ed="#T" n="72"/>spatij attingit: sed nihil potest moueri per 
+            spa<lb ed="#T" n="73" break="no"/>tium aliquod nisi attingat aliquam partem 
+            spa<lb ed="#T" n="74" break="no"/>ij: ergo non potest moueri. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e216">
+            <lb ed="#T" n="75"/>5. Impossibile est quod aliquid pertranseat 
+            <lb ed="#T" n="76"/>patium maius se, quin prius pertranseat minus 
+            <lb ed="#T" n="77"/>aut aequale: sed indiuisibile non potest 
+            pertran<lb ed="#T" n="78" break="no"/>sire minus, quia nihil est eo minus; nec aequale. 
+            <lb ed="#T" n="79"/>quia aequalia sunt infinita, scilicet puncta: ergo 
+            <lb ed="#T" n="80"/>non potest aliud spatium pertransire: ergo nec 
+            <lb ed="#T" n="81"/>moueri. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e234">
+            <lb ed="#T" n="82"/>6. Magis simplex &amp; indiuisibilis est vnitas 
+            <lb ed="#T" n="83"/>quam punctus, &amp; angelus quam vtrumque; 
+            <lb ed="#T" n="84"/>quia punctus non inuenitur nisi in continuo, 
+            <lb ed="#T" n="85"/>vnitas vero etiam in discreta quantitate: ergo, 
+            <lb ed="#T" n="86"/>cum nec vnitas, nec punctus propter suam 
+            indi<lb ed="#T" n="87" break="no"/>uisibilitatem possint por se moueri, multo minus 
+            <lb ed="#T" n="88"/>angelus. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e252">
+            <lb ed="#T" n="89"/>7. Spiritus angelicus non habet potentiam ad 
+            <lb ed="#T" n="90"/>motum rectum, quia nec est grauis, nec leuis; 
+            <lb ed="#T" n="91"/>nec ad motum circularem, quia nec circulariss 
+            <lb ed="#T" n="92"/>nec ad processiuum, quia sine organis 
+            proces<lb ed="#T" n="93" break="no"/>siuis: ergo ad nullum motum localem habet 
+            po<lb ed="#T" n="94" break="no"/>tentiam. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e268">
+            <lb ed="#T" n="95"/>Contra. 1. Damascenus dicit, quod angelus, 
+            <lb ed="#T" n="96"/>naturae velocitate inuenitur in diuersis locis,  
+            <lb ed="#T" n="97"/>quia parate &amp; cito transit: ergo mouetur 
+            loca<lb ed="#T" n="98" break="no"/>liter.  
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e280">
+            <lb ed="#T" n="99"/>2. Angeli aliquando inuisibiliter sunt in coelo, 
+            <lb ed="#T" n="100"/>aliquando inuitibiliter in terra: ergo mouentur  
+            <lb ed="#T" n="101"/>sine assumpto corpore. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e289">
+            <lb ed="#T" n="102"/>3. Omne quod potest esse hic &amp; alibi non 
+            <lb ed="#T" n="103"/>simul, potest localiter moueri: sed sic se 
+            ha<lb ed="#T" n="104" break="no"/>bet angelus: ergo &amp;c. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e298">
+            <lb ed="#T" n="105"/>4. Anima separata a corpore, sine corpore 
+            <lb ed="#T" n="106"/>suo, vel alieno, aut descendit in infernum, aut 
+            <lb ed="#T" n="107"/>ascendit in coelum: ergo localiter mouetur.  
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e307">
+            <lb ed="#T" n="108"/>Respondeo. Triplex motus angelorum 
+            in<lb ed="#T" n="109" break="no"/>uenitur a sanctis traditus. Primus est motus 
+            spi<lb ed="#T" n="110" break="no"/>ritualium illuminationum quo mouentur ab 
+            al<lb ed="#T" n="111" break="no"/>tero spiritu, vei mouent alterum, &amp; hunc 
+            di<lb ed="#T" n="112" break="no"/>stinguit Dionysius metaphorice in circularem, 
+            <lb ed="#T" n="113"/>&amp; rectum &amp; obliquum: circularis est 
+            illumina<lb ed="#T" n="114" break="no"/>tio angeli a Deo per quam reffectitur in Deum. 
+            <lb ed="#T" n="115"/>rectus, illuminatio superioris ad inferiorem ad 
+            <lb ed="#T" n="116"/>aliquid in inferioribus agendum; obliquus est 
+            <lb ed="#T" n="117"/>compositus ex vtroque, qui est illuminatio 
+            in<lb ed="#T" n="118" break="no"/>feriorum a superioribus per quam tendunt &amp; 
+            <lb ed="#T" n="119"/>reffectuntur, non inferiora, nec in angelum 
+            <lb ed="#T" n="120"/>illuminantem, sed in Deum. Secundus est 
+            mo<lb ed="#T" n="121" break="no"/>us temporalium vicissitudinum in seipsis, vel 
+            <lb ed="#T" n="122"/>secundum cognitionem, vespertinam scilicet,  
+            <lb ed="#T" n="123"/>diuersarum rerum quae sit per multa, non 
+            se<lb ed="#T" n="124" break="no"/>cundum matutinam quae sit per vnum, id est 
+            <lb ed="#T" n="125"/>per verbum: vel secundum varietatem 
+            affectio<lb ed="#T" n="126" break="no"/>nis. Tertius est localium mutationum in 
+            corpo<lb ed="#T" n="127" break="no"/>ralibus inferioribus, quo transcunt de vno loco 
+            <lb ed="#T" n="128"/>ad alium, vel in assumpto corpore, vel sine 
+            <lb ed="#T" n="129"/>assumpto corpore prout volunt.  
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e357">
+            <lb ed="#T" n="130"/>Ad 1. De actu imperfecto. Resp. Motus 
+            dici<lb ed="#T" n="131" break="no"/>tur, vel proprie exitus de materiali potentia in 
+            <!--1652-gregPress-MichiganState-gbooks-v1-0385.xml-->
+            <pb ed="#T" n="310"/>
+            <cb ed="#T" n="a"/>
+            <lb ed="#T" n="1"/>actum, &amp; sic est actus imnerfecti: vel 
+            communi<lb ed="#T" n="2" break="no"/>ter, scilicet quaelibet rei operatio, vel interior 
+            <lb ed="#T" n="3"/>vt sentire, intelligere; vel exterior quae 
+            termi<lb ed="#T" n="4" break="no"/>natur in materiam extrinsecam, qui proprie 
+            di<lb ed="#T" n="5" break="no"/>citur actio: &amp; hic est actus perfecti. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e381">
+            <lb ed="#T" n="6"/>Ad 2. Resp. Quamuis primus motus proprie 
+            <lb ed="#T" n="7"/>non sit motus, quia in Diuinis illuminationibus 
+            <lb ed="#T" n="8"/>semper manet angelus: tamen secundus est 
+            <lb ed="#T" n="9"/>motus exitus ex ocio in actum, ad motum 
+            al<lb ed="#T" n="10" break="no"/>terationis reducibilis, secundum quod alteratio 
+            <lb ed="#T" n="11"/>dicitur communiter, prout est circa passiones 
+            <lb ed="#T" n="12"/>quae consistunt siue in abjectione a substantia. 
+            <lb ed="#T" n="13"/>siue in receptione tantum; non proprie prout 
+            <lb ed="#T" n="14"/>est circa passiones quae consistunt in abjectione 
+            <lb ed="#T" n="15"/>a substantia tantum. Tertius quoque motus 
+            re<lb ed="#T" n="16" break="no"/>ducitur ad motum localem: nec oportet quod 
+            <lb ed="#T" n="17"/>omnis motus localis sit propter indigentiam 
+            <lb ed="#T" n="18"/>propriam, sed vel propter suam vel alienam, 
+            <lb ed="#T" n="19"/>sicut coelum mouetur propter indigentiam non 
+            <lb ed="#T" n="20"/>suam, sed inferiorum. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e417">
+            <lb ed="#T" n="21"/>Ad 3. De impartibili. Resp. Quamuis 
+            an<lb ed="#T" n="22" break="no"/>gelus non sit partibilis per essentiam, est tamen 
+            <lb ed="#T" n="23"/>secundum quosda partibilis per virtualem 
+            prae<lb ed="#T" n="24" break="no"/>sentiam, sicut anima, quia potest esse simul 
+            prae<lb ed="#T" n="25" break="no"/>sens pluribus partibus spatij, quia non 
+            deterimi<lb ed="#T" n="26" break="no"/>nat sibi situm sicut punctus. Vnde argumentum 
+            <lb ed="#T" n="27"/>illud Philosophi concludit non de quolibet 
+            <lb ed="#T" n="28"/>indiuisibili, sed de indiuisibili habente situm in 
+            <lb ed="#T" n="29"/>continuo, vt est punctus: tale enim in motu suo 
+            <lb ed="#T" n="30"/>aliquid de spatio commensurando contingit; sed 
+            <lb ed="#T" n="31"/>angelus nihil, quia nihil habet in spatio seipso 
+            <lb ed="#T" n="32"/>minus, vel maius, vel aequale sicut punctus, 
+            <lb ed="#T" n="33"/>non enim est quantitas eiusdem generis cum 
+            lo<lb ed="#T" n="34" break="no"/>ci quantitate. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e450">
+            <lb ed="#T" n="35"/>Vel secundum alios, quamuis cum mouetur. 
+            <lb ed="#T" n="36"/>non sit per essentiam vel praesentiam partibilis 
+            <lb ed="#T" n="37"/>secundum rem, quia nunquam est nisi in 
+            rmpar<lb ed="#T" n="38" break="no"/>tibili. scilicet puncto, est tamen secundum 
+            ra<lb ed="#T" n="39" break="no"/>tionem, id est secundum comparationem ad 
+            <lb ed="#T" n="40"/>vtrunique terminum. Nam, vt dicunt, cum 
+            <lb ed="#T" n="41"/>angelus mouetur, totaliter &amp; simul tam 
+            secun<lb ed="#T" n="42" break="no"/>dum essentiam quam praesentiam exit a termino 
+            <lb ed="#T" n="43"/>a quo, &amp; totaliter est vel in termino ad quem, in 
+            <lb ed="#T" n="44"/>relatione tamen ad terminum a quo, secundum 
+            <lb ed="#T" n="45"/>illos qui dicunt quod mouetur sine medio: vel 
+            <lb ed="#T" n="46"/>totaliter in medio, per relationem tamen ad 
+            ter<lb ed="#T" n="47" break="no"/>minum ad quem &amp; a quo, secundum illos qui  
+            <lb ed="#T" n="48"/>dicunt quod mouetur per medium. Rationem 
+            <lb ed="#T" n="49"/>ergo motus quam facit in corporibus 
+            diuisibili<lb ed="#T" n="50" break="no"/>tas secundum rem, facit in spiritibus 
+            diuisibili<lb ed="#T" n="51" break="no"/>tas secundum rationem: consideratus enim 
+            an<lb ed="#T" n="52" break="no"/>gelus prout est secundum rationem in medio: 
+            <lb ed="#T" n="53"/>vel in termino ad quem absolute, non dicitur 
+            <lb ed="#T" n="54"/>moueri: sed prout est in medio tanquam 
+            rece<lb ed="#T" n="55" break="no"/>dens a termino a quo, &amp; tendens ad terminum. 
+            <lb ed="#T" n="56"/>ad quem: vel prout est in termino ad quem vt 
+            <lb ed="#T" n="57"/>recedens a termino a quo: sicut enim dualitas 
+            <lb ed="#T" n="58"/>consistit in duabus vnitatibus, vel ternarius in 
+            <lb ed="#T" n="59"/>tribus no absolute consideratis, sed inuicem 
+            co<lb ed="#T" n="60" break="no"/>paratis; ita motus angeli in duobus terminie, &amp; 
+            <lb ed="#T" n="61"/>medio secundum alios, non absolute per se 
+            sum<lb ed="#T" n="62" break="no"/>tis, sed inuicem comparatis. Prima tamen 
+            so<lb ed="#T" n="63" break="no"/>utio videtur planior.  
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e515">
+            <lb ed="#T" n="64"/>Ad 4. De spatio indiuisibili. Resp. 
+            Aigumen<lb ed="#T" n="65" break="no"/>tum concluditsolum de indiuisibili habente situm 
+            <lb ed="#T" n="66"/>in continuo: hoc enim quando mouetur 
+            com<lb ed="#T" n="67" break="no"/>mensurando attingit aliquid de spatio¬ 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e526">
+            <lb ed="#T" n="68"/>Ad 5. Impossibile est quod aliquid pertran¬ 
+            <!--1652-gregPress-MichiganState-gbooks-v1-0385.xml-->
+            <cb ed="#T" n="b"/>
+            <lb ed="#T" n="69"/>eat spatium maius &amp;c. Resp. Concludit de 
+            in<lb ed="#T" n="70" break="no"/>diuisibili habente situm: nam huic soli indiuisibile. 
+            <lb ed="#T" n="71"/>loci potest dici aequale, cum sit eiusdem generis: 
+            <lb ed="#T" n="72"/>angelo vero punctus vel linea non est maius 
+            <lb ed="#T" n="73"/>quid nec minus, nec aequale, sicut nec leuca 
+            <lb ed="#T" n="74"/>horae: vnde huic indiuisibili commensuratur 
+            in<lb ed="#T" n="75" break="no"/>diuisibile loci, sed non angelo: vnde motu suo 
+            <lb ed="#T" n="76"/>non distinguit puncta, sed potest vel puncto(vt 
+            <lb ed="#T" n="77"/>multi dicunt) sine contactu, vel loco 
+            quan<lb ed="#T" n="78" break="no"/>to (vt dicit Guillelmus Altissiodorensis) praesens 
+            <lb ed="#T" n="79"/>esse: &amp; hoc vt arbitror vel minori, si vult 
+            mo<lb ed="#T" n="80" break="no"/>ueri tardius, vel maiori si citius, quod est in sua 
+            <lb ed="#T" n="81"/>voluntate. Secundum istos vero non mouetur 
+            <lb ed="#T" n="82"/>per simplicia, sed per composita, quibus 
+            assen<lb ed="#T" n="83" break="no"/>tior, puto enim quod moueri per corpus 
+            con<lb ed="#T" n="84" break="no"/>tinetur sub corporali operatione, requirit enim 
+            <lb ed="#T" n="85"/>terminorum distantiam: &amp; ideo puto quod non 
+            <lb ed="#T" n="86"/>mouetur per puncta sed per quanta, deferendo 
+            <lb ed="#T" n="87"/>aliquid de primo quanto, &amp; occupando aliquid 
+            <lb ed="#T" n="88"/>de sequenti, partibilitate praesentiae, non 
+            parti<lb ed="#T" n="89" break="no"/>bilitate essentiae. Est ergo impartibile duplex: 
+            <lb ed="#T" n="90"/>quoddam habens situm in materia, &amp; hoc 
+            opor<lb ed="#T" n="91" break="no"/>tet esse impartibile per essentiam &amp; praesentiam: 
+            <lb ed="#T" n="92"/>quoddam non habens, vt spiritus; &amp; hoc 
+            quam<lb ed="#T" n="93" break="no"/>uis sit indiuisibile per essentiam, tamen diuisibile 
+            <lb ed="#T" n="94"/>est per virtualem praesentia qua potest pluribus 
+            <lb ed="#T" n="95"/>partious eiusdem spatij simul totus adesse, non 
+            <lb ed="#T" n="96"/>tamen vbique, sed in loco sibi determinato, nec 
+            <lb ed="#T" n="97"/>ine suo motu vel mutatione: Deus vero vbique 
+            <lb ed="#T" n="98"/>sine motu &amp; mutatione. Secundum alios 
+            ve<lb ed="#T" n="99" break="no"/>ro mouetur per puncta, non tamen se eis 
+            com<lb ed="#T" n="100" break="no"/>mensarando, sed de termino impartibili ad 
+            ter<lb ed="#T" n="101" break="no"/>ninum impartibilem transferendo: nec attingit 
+            <lb ed="#T" n="102"/>simul vtrumque, nec partibilitate essentiae, nec 
+            <lb ed="#T" n="103"/>praesentiae, sed sola relatione seu comparatione 
+            <lb ed="#T" n="104"/>ad vtrumque, vt dictum est, ita quod 
+            quan<lb ed="#T" n="105" break="no"/>do est in vno, nec in parte, nec totaliter  
+            <lb ed="#T" n="106"/>est in altero, sed habet, comparationem ad 
+            alte<lb ed="#T" n="107" break="no"/>rum. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e620">
+            <lb ed="#T" n="108"/>Ad 6. De vnitate &amp; puncto. Resp. Non est. 
+            <lb ed="#T" n="109"/>tota ratio immobilitatis in eis indiuisibilitas 
+            <lb ed="#T" n="110"/>simpliciter, sed talis, scilicet quia punctus 
+            ha<lb ed="#T" n="111" break="no"/>bet situm in continuo: vnitas vero non est 
+            sub<lb ed="#T" n="112" break="no"/>stantia, vnde non comparatur ad locum nisi per 
+            <lb ed="#T" n="113"/>accidens. Vel dicendum quod ratio concludit 
+            <lb ed="#T" n="114"/>de motu locali localiter id est qui sit 
+            comme<lb ed="#T" n="115" break="no"/>tiendo se spatio¬ 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e640">
+            <lb ed="#T" n="116"/>Ad 7. De motu recto &amp;c. Resp. Diuisio illa 
+            <lb ed="#T" n="117"/>motus pertinet ad motum corporalem &amp; 
+            natu<lb ed="#T" n="118" break="no"/>ralem, non spiritualem &amp; voluntarium. 
+          </p>
+        </div>
+        <div xml:id="pdt7y6-e94186-Dd1e651">
+          <head xml:id="pdt7y6-e94186-Hd1e653">Articulus 2</head>
+          <head xml:id="pdt7y6-e94186-Hd1e655" type="question-title">An angelus pertranseat medium</head>
+          <p xml:id="pdt7y6-e94186-d1e658">
+            <lb ed="#T" n="119"/>ARTICVLVS II 
+            <lb ed="#T" n="120"/>An angelus pertranseat medium.
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e665">
+            <lb ed="#T" n="121"/>AD secundum articulum sic proceditur. 1. 
+            <lb ed="#T" n="122"/>Medium in motu est secundum 
+            Philoso<lb ed="#T" n="123" break="no"/>phum 5. Physic. in quod primo venit illud quod 
+            <lb ed="#T" n="124"/>mutatur, antequam perfecte mutetur: sed in 
+            <lb ed="#T" n="125"/>aliquod tale primo venit angelus cum de coelo 
+            <lb ed="#T" n="126"/>ad terram mouetur: ergo per medium pertransit. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e681">
+            <lb ed="#T" n="127"/>2. Omne motum esse praecedit moueri: motum 
+            <lb ed="#T" n="128"/>esse est in termino ad quem quando attingit 
+            <lb ed="#T" n="129"/>eum: ergo ante praecedit moueri: sed non in 
+            <lb ed="#T" n="130"/>termino a quo: ergo in medio. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e693">
+            <lb ed="#T" n="131"/>3. Inter coelum &amp; terram est distantia 
+            secun<lb ed="#T" n="132" break="no"/>dum naturam: aut ergo est ibi distantia quo ad 
+            <lb ed="#T" n="133"/>angelum, aut non: si non est ergo 2 aliquid 
+            <lb ed="#T" n="134"/>quod est in rerum natura, quoad angelum: nihil 
+            <lb ed="#T" n="135"/>est: si sic, ergo oportet quod pertranseat ipsam 
+            <!--1652-gregPress-MichiganState-gbooks-v1-0386.xml-->
+            <pb ed="#T" n="311"/>
+            <cb ed="#T" n="a"/>
+            <lb ed="#T" n="1"/>veniendo de caelo ad terram. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e715">
+            <lb ed="#T" n="2"/>4. Prius erat in termino a quo postea est in 
+            <lb ed="#T" n="3"/>termino ad quem: aut ergo transeundo per 
+            me<lb ed="#T" n="4" break="no"/>dium, aut non; si non, contra, non venitur ad 
+            <lb ed="#T" n="5"/>terminum viae nisi per viam: si sic: ergo 
+            per<lb ed="#T" n="6" break="no"/>transit per medium. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e728">
+            <lb ed="#T" n="7"/>5. Motus non habet comparationem nisi vel 
+            <lb ed="#T" n="8"/>ad terminum a quo, vel ad quem, vel ad 
+            ime<lb ed="#T" n="9" break="no"/>dium: sed in termino a quo est quiescere, in 
+            ter<lb ed="#T" n="10" break="no"/>mino ad quem motum esse: ergo moueri non est 
+            <lb ed="#T" n="11"/>nisi in medio. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e741">
+            <lb ed="#T" n="12"/>6. Si medium non facit distantiam in motu 
+            <lb ed="#T" n="13"/>angelico, ergo infinitum medium non 
+            impe<lb ed="#T" n="14" break="no"/>diret transitum angeli: ergo posset pertransire 
+            <lb ed="#T" n="15"/>distantiam infinitam. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e752">
+            <lb ed="#T" n="16"/>Contra. 1. Motus animae coniunctae eorpori 
+            <lb ed="#T" n="17"/>potest esse a termino in terminum sine medio, vt 
+            <lb ed="#T" n="18"/>patet in successione cogitationum, cogitando 
+            <lb ed="#T" n="19"/>primo vnum terminum, postmodum alterum: 
+            <lb ed="#T" n="20"/>ergo a simili motus Angeli, cum sit liberior, 
+            po<lb ed="#T" n="21" break="no"/>test esse non pertranseundo medium. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e768">
+            <lb ed="#T" n="22"/>2. Damascenus dicit, quod intelligitur adesse 
+            <lb ed="#T" n="23"/>vbi operatur: si ergo nihil operatur in medio, 
+            <lb ed="#T" n="24"/>non est ibi. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e778">
+            <lb ed="#T" n="25"/>3. In medio sunt infinita simplicia: cum ergo 
+            <lb ed="#T" n="26"/>angelus, eo quod simplex, moueatur per 
+            sim<lb ed="#T" n="27" break="no"/>plicia, si mouetur per medium pertransit 
+            infini<lb ed="#T" n="28" break="no"/>ta: sed hoc est impossibile: ergo non pertransit. 
+            <lb ed="#T" n="29"/>med ium. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e791">
+            <lb ed="#T" n="30"/>Respondeo. Circa motum Angeli sicut circa 
+            <lb ed="#T" n="31"/>locum duae sunt opiniones: vna dicentium quod 
+            <lb ed="#T" n="32"/>non pertransit medium nisi habeat operari in 
+            <lb ed="#T" n="33"/>medio: altera quod pertransit medium, etsi 
+            nihilo<lb ed="#T" n="34" break="no"/>operetur in ipso. Primi volunt quod transitus 
+            <lb ed="#T" n="35"/>Angeli de loco ad locum est sicut mutatio 
+            quae<lb ed="#T" n="36" break="no"/>dam subita a termino in terminum sine medio: 
+            <lb ed="#T" n="37"/>sicut aeris illuminatio. Secundi quod est sicut 
+            <lb ed="#T" n="38"/>fuccessiuus motus. In omni autem motu 
+            requi<lb ed="#T" n="39" break="no"/>ritur medium per quod sit motus, differens ab 
+            <lb ed="#T" n="40"/>vtroque termino, quia moueri non est 
+            nisi<lb ed="#T" n="41" break="no"/>in medio. Sed moueri per medium dicuntur 
+            du<lb ed="#T" n="42" break="no"/>pliciter vel commensurando se medio, sicut  
+            <lb ed="#T" n="43"/>mouetur corpus per medium: vel non 
+            commen<lb ed="#T" n="44" break="no"/>surando, sicut spiritus mouetur.  
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e826">
+            <lb ed="#T" n="45"/>Secundum primam opinionem respondendum 
+            <lb ed="#T" n="46"/>est ad objecta sic. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e833">
+            <lb ed="#T" n="47"/>Ad 1. Medium est id in quod primo venit &amp;c. 
+            <lb ed="#T" n="48"/>Resp. Loquitur, vt patet ex textu de medio 
+            <lb ed="#T" n="49"/>in locali motu successiuo qui sit spatio se 
+            com<lb ed="#T" n="50" break="no"/>mensurando: sic vero non mouetur Angelus, 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e844">
+            <lb ed="#T" n="51"/>Ad 2. Ante motum esse praecedit moueri. 
+            <lb ed="#T" n="52"/>Resp. Vbi differunt motum esse &amp; mouer 
+            secun<lb ed="#T" n="53" break="no"/>dum rem, vt in motibus successiuis, hoc est 
+            <lb ed="#T" n="54"/>verum: sed vbi non differunt nisi secundum 
+            ra<lb ed="#T" n="55" break="no"/>tionem, vt in subitis, non praecedit nisi 
+            secun<lb ed="#T" n="56" break="no"/>dum intellectum. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e860">
+            <lb ed="#T" n="57"/>Ad 3. De distantia. Resp. Non est inconuenies 
+            <lb ed="#T" n="58"/>vt illud quod est aliquid in rerum natura quoad 
+            <lb ed="#T" n="59"/>motum Angeli se habeat ac si non sit: sicut 
+            me<lb ed="#T" n="60" break="no"/>dium duorum terminorum in motu cogitationis 
+            <lb ed="#T" n="61"/>de vno ad alterum, se habet ac si non fit 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e874">
+            <lb ed="#T" n="62"/>Ad 4. Non venitur ad terminum viae 
+            nisi<lb ed="#T" n="63" break="no"/>per viam. Resp. In illo motu subito non est via 
+            <lb ed="#T" n="64"/>media inter vtrumque terminum percurrendat. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e883">
+            <lb ed="#T" n="65"/>Ad 5. De motu. Resp. Non differunt motum 
+            <lb ed="#T" n="66"/>esse &amp; moueri re, sed ratione, quia motum esse 
+            <lb ed="#T" n="67"/>dicit comparationem solum ad terminnm ad 
+            <lb ed="#T" n="68"/>quem, sed moueri &amp; ad terminum quo. 
+            <!--1652-gregPress-MichiganState-gbooks-v1-0386.xml-->
+            <cb ed="#T" n="b"/>
+            <lb ed="#T" n="69"/>Ad 6. De distantia infinita. Resp. Cum 
+            me<lb ed="#T" n="70" break="no"/>dium faciat distantiam, Angelus non 
+            pertran<lb ed="#T" n="71" break="no"/>seundo medium non pertransisset distantiam 
+            in<lb ed="#T" n="72" break="no"/>finitam. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e907">
+            <lb ed="#T" n="73"/>Secundum aliam opinionem, quae videtur 
+            <lb ed="#T" n="74"/>planior &amp; verior, respondendum est ad 
+            argu<lb ed="#T" n="75" break="no"/>menta. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e916">
+            <lb ed="#T" n="76"/>Ad 1. In contrarium de motu cogitationis. 
+            <lb ed="#T" n="77"/>Resp. Quod non est simile, quia inter terminos 
+            <lb ed="#T" n="78"/>motus illius, scilicet ipsas species in anima, nulla 
+            <lb ed="#T" n="79"/>est distantia: sed inter terminos motus localis 
+            <lb ed="#T" n="80"/>angeli est distantia. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e929">
+            <lb ed="#T" n="81"/>Ad 2. De operatione. Resp. Adest vbi 
+            ope<lb ed="#T" n="82" break="no"/>ratur, sed non solum: vnde etsi nihil operetur 
+            <lb ed="#T" n="83"/>in medio, necesse est tamen illi pertranseundo 
+            <lb ed="#T" n="84"/>adesse si velit accedere ad terminum ad quem &amp; 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e940">
+            <lb ed="#T" n="85"/>Ad 3. In medio sunt infinita &amp;c. Resp. Non 
+            <lb ed="#T" n="86"/>est necesse angelum, quamuis sit simplex, 
+            mo<lb ed="#T" n="87" break="no"/>ueri per simplicia spatij, quia quamuis sit 
+            sim<lb ed="#T" n="88" break="no"/>plex simplicitate molis, tamen est quantus 
+            qua<lb ed="#T" n="89" break="no"/>titate virtutis qua potest esse praesens loco 
+            quan<lb ed="#T" n="90" break="no"/>titatiuo. Vel dicendum quod infinita puncta non 
+            <lb ed="#T" n="91"/>est pertransire numerando illa, siue 
+            contingen<lb ed="#T" n="92" break="no"/>do, sed angelus non contingit ea. Vel dicendum 
+            <lb ed="#T" n="93"/>quod simplicia infinita in continuo non sunt,  
+            <lb ed="#T" n="94"/>ictu, sed tantum in potentia diuisionis: angelus, 
+            <lb ed="#T" n="95"/>vero in motu suo non diuidit spatium, vnde non 
+            <lb ed="#T" n="96"/>pertransit actu infinita sed potentia. 
+          </p>
+        </div>
+        <div xml:id="pdt7y6-e94186-Dd1e970">
+          <head xml:id="pdt7y6-e94186-Hd1e972">Articulus 3</head>
+          <head xml:id="pdt7y6-e94186-Hd1e974" type="question-title">An motus angeli sit in tempore vel subito</head>
+          <p xml:id="pdt7y6-e94186-d1e977">
+            <lb ed="#T" n="97"/>Articvlvs III. 
+            <lb ed="#T" n="98"/>An motus angeli sit in tempore, vel subito. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e984">
+            <lb ed="#T" n="99"/>D tertium articulum proceditur sic. 1. 
+            Mu<lb ed="#T" n="100" break="no"/>
+            <!-- line coord error -->
+            <lb ed="#T" n="101"/>tatio angeli secundum locum est simplicior 
+            <lb ed="#T" n="102"/>qualibet mutatione corporali: sed aliquae 
+            muta<lb ed="#T" n="103" break="no"/>tiones corporales siunt subito vt illuminatio 
+            se<lb ed="#T" n="104" break="no"/>cundum Philosophum 5. Physic. &amp; generatio: 
+            <lb ed="#T" n="105"/>ergo multo fertius imotus, angeti de loco ad 
+            <lb ed="#T" n="106"/>ocum. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e1006">
+            <lb ed="#T" n="107"/>2. In termino temporis mensurantis motu: 
+            <lb ed="#T" n="108"/>est in termino ad quem: tempore quod 
+            praece<lb ed="#T" n="109" break="no"/>dit aut est totaliter in termino a quo, &amp; sic non 
+            <lb ed="#T" n="110"/>mouetur: aut partim in termino a quo, partim 
+            <lb ed="#T" n="111"/>in termino ad quem, &amp; sic erit partibilis. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e1020">
+            <lb ed="#T" n="112"/>3. Ubi nulla est resistentia medij, nulla est 
+            re<lb ed="#T" n="113" break="no"/>tardatio, cum retardatio contingac propter 
+            re<lb ed="#T" n="114" break="no"/>sistentiam: sed medium nullo modo resistit 
+            an<lb ed="#T" n="115" break="no"/>gelo in motu suo: ergo nulla est ibi retardatio: 
+            <lb ed="#T" n="116"/>ergo motus eius est subitus. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e1033">
+            <lb ed="#T" n="117"/>4. Improportionalium motorum &amp; mobilium, 
+            <lb ed="#T" n="118"/>motus est improportionalis: sed corpus &amp; 
+            an<lb ed="#T" n="119" break="no"/>gelus improportionalia sunt: ergo &amp; motus 
+            ip<lb ed="#T" n="120" break="no"/>lorum: se omne tempus omni tempori 
+            pro<lb ed="#T" n="121" break="no"/>portionale est, secundum Philosophum: ergo 
+            <lb ed="#T" n="122"/>ni corporis motus est in tempore, motus angeli 
+            <lb ed="#T" n="123"/>non erit in tempore, sed in nunc. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e1051">
+            <lb ed="#T" n="124"/>5. Motus successiuus est compositus, angelus, 
+            <lb ed="#T" n="125"/>simplex: accidens vero compositum non potest 
+            <lb ed="#T" n="126"/>esse in subjecto simplici: ergo nec motus 
+            suc<lb ed="#T" n="127" break="no"/>tessiuus in angelo. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e1062">
+            <lb ed="#T" n="128"/>6. Quod simul se cotum transicet, erus motus 
+            <lb ed="#T" n="129"/>est subitus, non successiuus: sed angelus subito. 
+            <lb ed="#T" n="130"/>se totum transfert: ergo &amp;c. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e1071">
+            <lb ed="#T" n="131"/>7. Secundum Philosophum lib. Physic. si esse. 
+            <lb ed="#T" n="132"/>vacuum, non esset motus successiuus: sed 
+            ange<lb ed="#T" n="133" break="no"/>Io non plus resistit plenum quam vncuum: ei go 
+            <lb ed="#T" n="134"/>motus eius non est successiuus. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e1082">
+            <lb ed="#T" n="135"/>8. Non est velocior lux in motursuo quam a 
+            <!--1652-gregPress-MichiganState-gbooks-v1-0387.xml-->
+            <pb ed="#T" n="312"/>
+            <cb ed="#T" n="a"/>
+            <lb ed="#T" n="1"/>gelus: sed vt dicit Augustinus lib. 4. de Gen. 
+            <lb ed="#T" n="2"/>ad lit. radius oculi non citius venit ad 
+            propin<lb ed="#T" n="3" break="no"/>quiora, quam ad remotiora loca, sed vtraque 
+            <lb ed="#T" n="4"/>spatia pari celeritate transcurrit: ergo multo 
+            <lb ed="#T" n="5"/>magis angelus. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e1105">
+            <lb ed="#T" n="6"/>Contra. 1. Omnis motus habet prius &amp; 
+            poste<lb ed="#T" n="7" break="no"/>rius, quia aliquid per motum abijcitur, &amp; aliquid 
+            <lb ed="#T" n="8"/>aliud acquiritur, quae duo simul esse non possunt: 
+            <lb ed="#T" n="9"/>sed mensura prioris &amp; posterioris est tempus: 
+            <lb ed="#T" n="10"/>ergo omnis motus sit in tempore. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e1118">
+            <lb ed="#T" n="11"/>2. Autin eodem instanti est in vtroqe; termino 
+            <lb ed="#T" n="12"/>motus, aut in diuersis: si in eodem, ergo simul 
+            <lb ed="#T" n="13"/>est in pluribus locis: si in diuersis, ergo cum 
+            <lb ed="#T" n="14"/>inter quaelibet duo instantia sit tempus medium. 
+            <lb ed="#T" n="15"/>in motu eius a termino n terminum intercedit 
+            <lb ed="#T" n="16"/>tempus 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e1134">
+            <lb ed="#T" n="17"/>3. Si mbuetur in nunc, ergo simul est 
+            moue<lb ed="#T" n="18" break="no"/>ri &amp; motum esse: ergo simul est via &amp; terminus. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e1141">
+            <lb ed="#T" n="19"/>4. Quanto fortior est virtus motoris, tanto 
+            ve<lb ed="#T" n="20" break="no"/>locior est morus: sed si motus cuiuslibet angeli 
+            <lb ed="#T" n="21"/>est in nunc, non potest angeli fortioris esse 
+            velo<lb ed="#T" n="22" break="no"/>cior motus: ergo non est in nunc. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e1152">
+            <lb ed="#T" n="23"/>5. Si tanta virtus potest in tanto tempore 
+            mo<lb ed="#T" n="24" break="no"/>uere, &amp; maior potest in minori, &amp; maxima in 
+            <lb ed="#T" n="25"/>minimo, &amp; infinita in non tempore, id est, in 
+            <lb ed="#T" n="26"/>nunc: ergo cum nunc excedat tempus 
+            impropor<lb ed="#T" n="27" break="no"/>tionaliter, oportet quod virtus quae mouet in 
+            <lb ed="#T" n="28"/>nunc, excedat improportionaliter virtutem quae 
+            <lb ed="#T" n="29"/>mouet in tempore: sed angeli virtus, cum sit 
+            <lb ed="#T" n="30"/>creata, non excedit in infinitum virtutem 
+            cor<lb ed="#T" n="31" break="no"/>poris alicuius mouentis in tempore: ergo virtus 
+            <lb ed="#T" n="32"/>angeli non mouet in nunc. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e1176">
+            <lb ed="#T" n="33"/>Respondeo. Circa hanc quaestionem sunt 
+            opi<lb ed="#T" n="34" break="no"/>niones diuersae. Quidam enim ponunt motum. 
+            <lb ed="#T" n="35"/>angeli per se, scilicet fine corpore assumpto. 
+            <lb ed="#T" n="36"/>esse subitum, id est in nunc ita quod: in vno 
+            <lb ed="#T" n="37"/>nunc se transferat de hoc loco in alterum, &amp; de 
+            <lb ed="#T" n="38"/>isto ad alium in alio nunc; &amp; ideo tota mensura 
+            <lb ed="#T" n="39"/>huiusmodi motus angelici  ab Augustino 
+            vo<lb ed="#T" n="40" break="no"/>catur tempus improprie, in quo est quaedam 
+            <lb ed="#T" n="41"/>successto saltem duorum vel plurium nunc inter 
+            <lb ed="#T" n="42"/>quae nihil est medium: est enim ex vicissitudine 
+            <lb ed="#T" n="43"/>compositum simplicium nunc: vnde in 
+            mensu<lb ed="#T" n="44" break="no"/>ra motus angeli ponunt quadam? successionem 
+            <lb ed="#T" n="45"/>vicissitudinum xseu nunc simplicium sibi 
+            suece<lb ed="#T" n="46" break="no"/>dentium immediate, sicut in numero vnitates 
+            <lb ed="#T" n="47"/>quod in natourali mutatione esse non potest. Alij. 
+            <lb ed="#T" n="48"/>dicunt motum angeli esse successiuum in 
+            tem<lb ed="#T" n="49" break="no"/>pore proprie dicto: quia successio in motu 
+            con<lb ed="#T" n="50" break="no"/>tingit propter quatuor causas, propter 
+            resisten<lb ed="#T" n="51" break="no"/>tiam medij, propter distantiam terminorum, 
+            <lb ed="#T" n="52"/>propter diuisibilitatem mobilis, &amp; propter 
+            fini<lb ed="#T" n="53" break="no"/>tam virtutem motoris: successio vero in motu 
+            <lb ed="#T" n="54"/>angeli contingit nec propter resistentiam inedijp. 
+            <lb ed="#T" n="55"/>nec propter diuisibilitatem mobilis, sed propret 
+            <lb ed="#T" n="56"/>finitam virtutem propriam quae mouet, &amp; 
+            <lb ed="#T" n="57"/>propter distantiam terminorum. Alij dicunt, 
+            <lb ed="#T" n="58"/>quod potest moueri vel subito, vel successiue 
+            <lb ed="#T" n="59"/>secundumamperium voluntatis, quibus 
+            assen<lb ed="#T" n="60" break="no"/>tior, sed subito non potest moneri nisi in locum 
+            <lb ed="#T" n="61"/>immediatum, successiue etiam in romotis. 
+            Se<lb ed="#T" n="62" break="no"/>cundum hoc oportet vtraque argumenta 
+            solue<lb ed="#T" n="63" break="no"/>re, &amp; sic potest quilibet soluere contra se objecta. 
+            <lb ed="#T" n="64"/>confentiendo cuimagis. voluerit opinionis 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e1249">
+            <lb ed="#T" n="65"/>Ad 1. De illuminatione &amp; huiusmodi. Resp. 
+            <lb ed="#T" n="66"/>Non est simile; quia non sunt motus sed 
+            muta<lb ed="#T" n="67" break="no"/>tiones (&amp; fines motuum, sicut illuminatio est finis 
+            <lb ed="#T" n="68"/>motus Solis ad punctum directae oppositionis 
+            <!--1652-gregPress-MichiganState-gbooks-v1-0387.xml-->
+            <cb ed="#T" n="b"/>
+            <lb ed="#T" n="69"/>vnde est simplex &amp; Fin instanti, sed motus ipfeno. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e1267">
+            <lb ed="#T" n="70"/>Ad 2. De tempore medio. Resp. In 
+            medio<lb ed="#T" n="71" break="no"/>tempore est angelus indiuersis partibus medij, 
+            <lb ed="#T" n="72"/>nec tamen partim in termino a quo &amp; ad quem, 
+            <lb ed="#T" n="73"/>hoc enim locum habet in motu vere &amp; proprie 
+            <lb ed="#T" n="74"/>ocali: sed motus angeli non est huiusmodi, vnde 
+            <lb ed="#T" n="75"/>eius successio &amp; continuitas nonaccipitur penes 
+            <lb ed="#T" n="76"/>huiusmodi diuisibilitatem, sed penes 
+            accessio<lb ed="#T" n="77" break="no"/>nem solam &amp; recessionem 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e1287">
+            <lb ed="#T" n="78"/>Ad 3. De resistentia medij. Resp. Non est illa 
+            <lb ed="#T" n="79"/>sola causa, sed etiam virtus motoris finita, &amp; 
+            <lb ed="#T" n="80"/>distantia spatij potest esse causa, vel voluntas 
+            <lb ed="#T" n="81"/>ipsius motoris voluntarij. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e1298">
+            <lb ed="#T" n="82"/>Ad 4. De corpore &amp; angelo. Resp. Quamuis 
+            <lb ed="#T" n="83"/>non sit proportio secundum naturam: quia 
+            <lb ed="#T" n="84"/>tamen voluntas creata agit libere, siue tota 
+            vir<lb ed="#T" n="85" break="no"/>tute, siue parte virtutis, ideo potest, virturi sibi 
+            <lb ed="#T" n="86"/>naturaliter improportionali proportionari 
+            <lb ed="#T" n="87"/>3 
+            <lb ed="#T" n="88"/>sicut &amp; virtus diuina creatae virtuti. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e1316">
+            <lb ed="#T" n="89"/>Ad 5. De motu composito. Resp. Accidens 
+            co<lb ed="#T" n="90" break="no"/>positum quod habet partes suas simul actu, non 
+            <lb ed="#T" n="91"/>potest esse in subjecto simplici: sed accidens 
+            co<lb ed="#T" n="92" break="no"/>positum quod non habet partes suas simul actu, 
+            <lb ed="#T" n="93"/>vt duratio successiua, bene potest. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e1329">
+            <lb ed="#T" n="94"/>Ad 6. Quod simul se transfert &amp;c. Resp. Hoc 
+            <lb ed="#T" n="95"/>verum est de eo, quod transfert se simul totum 
+            <lb ed="#T" n="96"/>&amp; in totum: sed angelus quamuis simul se 
+            trans<lb ed="#T" n="97" break="no"/>ferat totum, non tamen in totum. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e1341">
+            <lb ed="#T" n="98"/>Ad 7. De vacuo. Resp. Philosophus loquitur 
+            <lb ed="#T" n="99"/>de vacuo secundum quod vacuum dicit 
+            priua<lb ed="#T" n="100" break="no"/>tionem &amp; nihil ponit, sic enim non tantum 
+            tol<lb ed="#T" n="101" break="no"/>lit medij resistentiam, sed etiam terminorum 
+            di<lb ed="#T" n="102" break="no"/>stantiam. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e1354">
+            <lb ed="#T" n="103"/>Ad 8. De radio. Resp. Augustinus loquitur 
+            <lb ed="#T" n="104"/>secundum apparentiam sensus, non secundum 
+            <lb ed="#T" n="105"/>existentiam. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e1363">
+            <lb ed="#T" n="106"/>Ad 1. In contrarium, quod omnis motus habet 
+            <lb ed="#T" n="107"/>prius &amp; posterius. Resp. Omnis modus habet  
+            <lb ed="#T" n="108"/>prius &amp; posterius, vel natura vel tempore. Vel 
+            <lb ed="#T" n="109"/>dicendum quod hoc intelligitur de motu 
+            pro<lb ed="#T" n="110" break="no"/>prie dicto: sed angeli motus potius habet 
+            na<lb ed="#T" n="111" break="no"/>turam mutationis. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e1379">
+            <lb ed="#T" n="112"/>Ad 2. Aut in eodem instante &amp;c. Resp. In 
+            tem<lb ed="#T" n="113" break="no"/>pore praecedente motum est in termino. a quo, 
+            <lb ed="#T" n="114"/>in fine illius est in termino ad quem, sicut 
+            con<lb ed="#T" n="115" break="no"/>tingit in mutationibus alijs. Vel dicendum 
+            se<lb ed="#T" n="116" break="no"/>cundum alios, quod in diuersis nunc immediatis, 
+            <lb ed="#T" n="117"/>Quod tamen videtur impossibile, cum vnum 
+            <lb ed="#T" n="118"/>nunc alteri nec contiguari possit, nec 
+            conti<lb ed="#T" n="119" break="no"/>nuari, nec immediate consequi illud, secundum 
+            <lb ed="#T" n="120"/><ref xml:id="pdt7y6-e94186-Rd1e1403"><name xml:id="pdt7y6-e94186-Nd1e1404" ref="#Aristotle">Aristotelem</name> 6. Physic.</ref> Sed dicunt id locum 
+            ha<lb ed="#T" n="121" break="no"/>bere in illis nunc quae sunt in tempore proprie 
+            <lb ed="#T" n="122"/>dicto, non large. Vel secundum alios in eodem. 
+            <lb ed="#T" n="123"/>secundumrem, instante est in vtroque, tamen 
+            <lb ed="#T" n="124"/>multiplicato. fecundum, rationem inquantum 
+            <lb ed="#T" n="125"/>est finis praeteriti temporis, &amp; initium futuri. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e1412">
+            <lb ed="#T" n="126"/>Ad. 3. Ergo simul est moueri &amp; motum esse. 
+            <lb ed="#T" n="127"/>Resp. Hoc in motibus spiritualibus, qui fubiti 
+            <lb ed="#T" n="128"/>sunt, non est inconueniens; quia non differunt 
+            <lb ed="#T" n="129"/>moueri &amp; motum esse nisi secundum rationem: 
+            <lb ed="#T" n="130"/>sed in motibus naturalibus successiuis non 
+            po<lb ed="#T" n="131" break="no"/>test vtrumque simul esse, quia differunt 
+            secun<lb ed="#T" n="132" break="no"/>dum rem. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e1430">
+            <lb ed="#T" n="133"/>Ad 4. De virtute motoris. Resp. Quamuis 
+            <lb ed="#T" n="134"/>ingelus superior &amp; inferior non sint aequalis 
+            <lb ed="#T" n="135"/>virtutis simpliciter, possunt tamen esse quoad 
+            <lb ed="#T" n="136"/>hoc, scilicet quoad aliquem actum in corpore, 
+            <lb ed="#T" n="137"/>maxime cum actus iste sit eis accidentalis, non 
+            <!--1652-gregPress-MichiganState-gbooks-v1-0388.xml-->
+            <pb ed="#T" n="313"/>
+            <cb ed="#T" n="a"/>
+            <lb ed="#T" n="1"/>naturalis. Praeterea voluntas contemperat 
+            virtu<lb ed="#T" n="2" break="no"/>tem ad motum secundum suum beneplacitum. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e1455">
+            <lb ed="#T" n="3"/>Ad 5. De virtute angeli. Resp. Quamuis 
+            vir<lb ed="#T" n="4" break="no"/>tus angeli finita sit absolute, tamen potest esse 
+            <lb ed="#T" n="5"/>infinita in comparatione ad corpus aliquod, sicut  
+            <lb ed="#T" n="6"/>linea ad punctu: vtitur tamen eo pro voluntate, 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e1466">
+            <lb ed="#T" n="7"/>De loco ergo angeli &amp; de motu sic potest 
+            in<lb ed="#T" n="8" break="no"/>telligi. Nam quamuis circa hoc due sint celebres 
+            <lb ed="#T" n="9"/>opiniones, aliqui enim dicunt quod angelus 
+            <lb ed="#T" n="10"/>non potest esse nisi in loco quanto, alij vero quod 
+            <lb ed="#T" n="11"/>non nisi in simplici: puto tamen quod angelus, 
+            <lb ed="#T" n="12"/>potest esse in loco quanto, vel in simplici. Aut  
+            <lb ed="#T" n="13"/>ergo angelus vult esse in loco aliquo sine vlla 
+            <lb ed="#T" n="14"/>corporali operatione, aut operari ibidem: si 
+            se<lb ed="#T" n="15" break="no"/>cundo modo, in quanto corpore vult operari 
+            <lb ed="#T" n="16"/>immediate, oportet quod sit in tanto loco: in 
+            pri<lb ed="#T" n="17" break="no"/>mo, aut vult praesentialiter adesse alicui quanto, 
+            <lb ed="#T" n="18"/>quamuis in eo non operetur, aut non: si sic, 
+            po<lb ed="#T" n="19" break="no"/>test esse in loco tanto quantum potest 
+            immedia<lb ed="#T" n="20" break="no"/>te imouere, non maiori, sed bene potest in 
+            minori<lb ed="#T" n="21" break="no"/>illo: si non, potest esse in simpliciori id est in 
+            pun<lb ed="#T" n="22" break="no"/>cto, in minori non, quia non est minus puncto; 
+            <lb ed="#T" n="23"/>sed si ininus esset puncto, posset in minori, quia 
+            <lb ed="#T" n="24"/>multo simplicior ei: puncto: &amp; esse difinitiue in 
+            <lb ed="#T" n="25"/>loco non requirit nisi ita esse hic quod non alibi. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e1510">
+            <lb ed="#T" n="26"/>Si vero angelus vult moueri de loco ad 
+            lo<lb ed="#T" n="27" break="no"/>cum, aut ergo vult moueri ad locum 
+            immedia<lb ed="#T" n="28" break="no"/>tum, &amp; tunc potest si vult maueri subito, sed  
+            <lb ed="#T" n="29"/>non nisi ad locum virtuti suae proportionatum 
+            <lb ed="#T" n="30"/>vel in minorem illo, &amp; de illo ad alterum in 
+            al<lb ed="#T" n="31" break="no"/>tero nunc, &amp; motu altero: motus autem iste, quia 
+            <lb ed="#T" n="32"/>ad locum immediatum, sit sine medio, id enim 
+            to<lb ed="#T" n="33" break="no"/>tum reputatur pro loco vno, in quod se totum 
+            <lb ed="#T" n="34"/>simul actu transfert. Aut vult moueri ad locum 
+            <lb ed="#T" n="35"/>mediatum, &amp; tunc puto quod non potest 
+            moue<lb ed="#T" n="36" break="no"/>ri ad illum sine medio: nec potest in eodem nunc 
+            <lb ed="#T" n="37"/>&amp; simplici motu vno, sed in tepore, &amp; in motu 
+            <lb ed="#T" n="38"/>successiuo, quia non potest simul esse in diuersis 
+            <lb ed="#T" n="39"/>locis. Aut ergo vult moueri quam citius potest, 
+            <lb ed="#T" n="40"/>caut tardius, &amp; sic pro libito motus eius sit 
+            suc<lb ed="#T" n="41" break="no"/>cessiue, in maiori vel minori duratione. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e1547">
+            <lb ed="#T" n="42"/>Sed vnde successio &amp; continuitas in motu isto: 
+            <lb ed="#T" n="43"/>Resp. Quod facit in corporibus praesentia 
+            cor<lb ed="#T" n="44" break="no"/>poralis, hoc facit in spiritibus praesentia 
+            virtua<lb ed="#T" n="45" break="no"/>lis: dico ergo quod ontinuitatem &amp; 
+            diuisibili<lb ed="#T" n="46" break="no"/>tatem motus corporalis facit spatij diuinibilitas, 
+            <lb ed="#T" n="47"/>&amp; corporis mobilis adaequatio secundum 
+            essen<lb ed="#T" n="48" break="no"/>tiam: continuitate vero &amp; diuisibilitate in 
+            mo<lb ed="#T" n="49" break="no"/>tu spirituali facit diuisibilitas spatij, &amp; spiritus 
+            <lb ed="#T" n="50"/>mobilis ad aequatio secundum praesentiam: sicut  
+            <lb ed="#T" n="51"/>enim corpus commensurabiliter adest diuersis 
+            <lb ed="#T" n="52"/>partibus spacij simul, sic spiritus praesentialiter:  
+            <lb ed="#T" n="53"/>&amp; sicut corpus, cu mouetur, in parte deferit 
+            ter<lb ed="#T" n="54" break="no"/>minu a quo, id parte attingit terminum ad quem; 
+            <lb ed="#T" n="55"/>sic spiritus, cum mouetur, deferit vnam partem 
+            <lb ed="#T" n="56"/>loci in quo erat, &amp; virtualiter extendit 
+            prae<lb ed="#T" n="57" break="no"/>sentiam suam ad partem loci in quo non erat. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e1584">
+            <lb ed="#T" n="58"/>Quidam tamen asserunt quod angelus non 
+            po<lb ed="#T" n="59" break="no"/>test esse nisi in loco quanto, non in simplici, nec 
+            <lb ed="#T" n="60"/>potest moueri per simplicia, sed per composita: 
+            <lb ed="#T" n="61"/>quorum ratio multiplex est. Vna, quia punctus 
+            <lb ed="#T" n="62"/>non est locus, cum non sit superficies, nec 
+            ha<lb ed="#T" n="63" break="no"/>beat virtutem continendi quae est proprietas 
+            lo<lb ed="#T" n="64" break="no"/>ci: ergo nihil potest esse in puncto vt in loco. alia 
+            <lb ed="#T" n="65"/>ratio est, quia punctus non est actu in continuo 
+            <lb ed="#T" n="66"/>sed potentia tantum, nisi punctus initialis: 
+            <lb ed="#T" n="67"/>quod autem non est actu in se, non est locus 
+            alte<lb ed="#T" n="68" break="no"/>rius entis actu. Alia ratio est, quia vbicum¬ 
+            <!--1652-gregPress-MichiganState-gbooks-v1-0388.xml-->
+            <cb ed="#T" n="b"/>
+            <lb ed="#T" n="69"/>que est angelus ibi potest operari: sed in 
+            <lb ed="#T" n="70"/>puncto, cum punctus sit immobilis 
+            secun<lb ed="#T" n="71" break="no"/>dum Philosophum 6. Physic. non potest 
+            <lb ed="#T" n="72"/>operari: ergo &amp;c. Alia ratio est, quia anima 
+            <lb ed="#T" n="73"/>rationalis magis est in corpore suo toto, quam 
+            <lb ed="#T" n="74"/>ingelus in loco: sed anima non est in puncto 
+            <lb ed="#T" n="75"/>corporis, punctus enim non est corpus 
+            organi<lb ed="#T" n="76" break="no"/>cum potentia vitam habens: ergo nec angelus, 
+            <lb ed="#T" n="77"/>in puncto loci. Alia ratio, quia in motu angeli 
+            <lb ed="#T" n="78"/>esset interruptio, cum punctus non sit 
+            immedia<lb ed="#T" n="79" break="no"/>tus puncto. altera ratio est, quod motu suo 
+            per<lb ed="#T" n="80" break="no"/>transiret infinita, enm infinita puncta sint in 
+            <lb ed="#T" n="81"/>quolibet continuo. Sed horum omnium ex prae 
+            <lb ed="#T" n="82"/>missis diligenter inspectis potest haberi solutio. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e1645">
+            <lb ed="#T" n="83"/>Alij vero dicunt quod angelus, cum sit 
+            im<lb ed="#T" n="84" break="no"/>partibilis per essentiam, semper est in 
+            impartibi<lb ed="#T" n="85" break="no"/>li loco: extendit tamen, quando vult, virtutem 
+            <lb ed="#T" n="86"/>suam ad loca continua illi propinqua, in eis 
+            ope<lb ed="#T" n="87" break="no"/>rando, sicut adamas in ferro remoto: cum vero 
+            <lb ed="#T" n="88"/>mouetur pertransit in loca impartibilia, non 
+            ta<lb ed="#T" n="89" break="no"/>men se cis comniensurando. Est autem motus 
+            <lb ed="#T" n="90"/>eius transitus de loco impartibili ad 
+            impartibi<lb ed="#T" n="91" break="no"/>lem, vtiumque inspiciendo, nec est partim in 
+            <lb ed="#T" n="92"/>vno, partim altero secundum essentiam vel 
+            prae<lb ed="#T" n="93" break="no"/>sentiam, sed in vno totus ad alterum comparato. 
+            <lb ed="#T" n="94"/>Nec est instans idem seu nunc quo est in termino 
+            <lb ed="#T" n="95"/>a quo &amp; ad quem, sed diuersa: non imnmediata 
+            <lb ed="#T" n="96"/>sed V inter se: ordinata;r immediata enim non 
+            <lb ed="#T" n="97"/>sunt possibiliav in tempore propiie accepto. Si 
+            <lb ed="#T" n="98"/>mul autem in eodem nunc est moueri, &amp; motum 
+            <lb ed="#T" n="99"/>esse, secundum eos qui dicunt quod non 
+            pertran<lb ed="#T" n="100" break="no"/>sit medium: sed moueri dicit relationem ad 
+            <lb ed="#T" n="101"/>vtrumque terminum, motum esse dicit 
+            relatio<lb ed="#T" n="102" break="no"/>nem ad terminum tantum ad quem: nec est 
+            ali<lb ed="#T" n="103" break="no"/>quid medium inter illa diuersa, sicut contingit 
+            <lb ed="#T" n="104"/>in tempore, vel in motu? non interrupto. 
+          </p>
+        </div>
+        <div xml:id="pdt7y6-e94186-Dd1e1696">
+          <head xml:id="pdt7y6-e94186-Hd1e1698">Expositio litterae</head>
+          <p xml:id="pdt7y6-e94186-d1e1700">
+            <lb ed="#T" n="105"/>EXPOSITIO LITERAE. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e1705">
+            <lb ed="#T" n="106"/>Pud se habitabat. ] Contia. Ioan. 1. 
+            Ver<lb ed="#T" n="107" break="no"/>bum erat apud Deum, gloss. vt alius apud 
+            <lb ed="#T" n="108"/>alium. Resp. Haec praepositio importat 
+            distin<lb ed="#T" n="109" break="no"/>ctionem vpersonalem)? ratione terminorum 
+            qui<lb ed="#T" n="110" break="no"/>pus adiungitur.  
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e1718">
+            <lb ed="#T" n="111"/>Vt ab eo cognoscatur &amp; diligatur. ] 
+            Contra<lb ed="#T" n="112" break="no"/>In paruulis habitat, nec tame ab eis cognoscitur 
+            <lb ed="#T" n="113"/>nec diligitur. Resp. Cognoscitur &amp; diligitur 
+            ha<lb ed="#T" n="114" break="no"/>bitu, licet non actu. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e1729">
+            <lb ed="#T" n="115"/>[Spiritus fordibus polluti corporis non 
+            inqui<lb ed="#T" n="116" break="no"/>natur. Contra. Anima a carne ttahit maculam 
+            <lb ed="#T" n="117"/>peccati originalis. Resp. Loquitur de forde 
+            cor<lb ed="#T" n="118" break="no"/>porali, non de spirituali, 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e1741">
+            <lb ed="#T" n="119"/>[Per tempus &amp; locum. ]Contra. Moueri 
+            lo<lb ed="#T" n="120" break="no"/>caliter est etiam moueri per tempus. Resp. Haec 
+            <lb ed="#T" n="121"/>diuisio conunet sex species motus: nam moueri 
+            <lb ed="#T" n="122"/>per, locum, motum continet ad locum: moueri 
+            <lb ed="#T" n="123"/>per tempus tantum, motum ad formam: in his 
+            <lb ed="#T" n="124"/>continentur aliae quinque species motus. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e1757">
+            <lb ed="#T" n="125"/>[Creatura spiritualis per tempus.] Contra. 
+            <lb ed="#T" n="126"/>Angelus &amp; ea quae in ipso sunt, mensuratur aeuo. 
+            <lb ed="#T" n="127"/>Item tempus est mensura motus primi mobilis. 
+            <lb ed="#T" n="128"/>Resp. Loquitur de tempore accepto large, 
+            secun<lb ed="#T" n="129" break="no"/>dum quod est mensura cuiuslibet mutationis; 
+            <lb ed="#T" n="130"/>non stricte, secundum quod est mensura 
+            muta<lb ed="#T" n="131" break="no"/>tionis successiuae tantum: aeuum autem nmensura. 
+            <lb ed="#T" n="132"/>angelorum quoad esse substantiale quod est 
+            in<lb ed="#T" n="133" break="no"/>uariabile, est tempus large acceptum quoad 
+            pro<lb ed="#T" n="134" break="no"/>prietates consequentes quae variantur.  
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e1781">
+            <lb ed="#T" n="135"/>TVna sapientia est in duobus.] Contra. Ergo 
+            <lb ed="#T" n="136"/>vna sapientia numero est in pluribus: ergo, 
+            <!--1652-gregPress-MichiganState-gbooks-v1-0389.xml-->
+            <pb ed="#T" n="314"/>
+            <cb ed="#T" n="a"/>
+            <lb ed="#T" n="1"/>Item, homo in intellectu &amp; in natura, aut est 
+            <lb ed="#T" n="2"/>idem numero, aut non: si sic, ergo cum non sit 
+            <lb ed="#T" n="3"/>nisi vnus homo in ipsa natura, non est nisi vnus 
+            <lb ed="#T" n="4"/>in omni intellectu intelligente hominem: si non, 
+            <lb ed="#T" n="5"/>ergo cum homo sit ad vtrumque commune, aut 
+            <lb ed="#T" n="6"/>est commune communitate generis, &amp; sic homo 
+            <lb ed="#T" n="7"/>non est species specialissima: aut speciei, &amp; sic 
+            <lb ed="#T" n="8"/>homo in natura, &amp; homo in intellectu sunt 
+            indi<lb ed="#T" n="9" break="no"/>uidua non praedicabilia vnum de vno, quod 
+            fal<lb ed="#T" n="10" break="no"/>sum est, 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e1816">
+            <lb ed="#T" n="11"/>Item sapientia in sapiente est accidens, 
+            secun<lb ed="#T" n="12" break="no"/>dum Augustinum: idem vero accidens non 
+            po<lb ed="#T" n="13" break="no"/>test esse in diuersis subjectis. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e1825">
+            <lb ed="#T" n="14"/>Respondeo. Sapientia increata in omnibus, 
+            <lb ed="#T" n="15"/>eadem est: sapientia vero creata dupliciter 
+            po<lb ed="#T" n="16" break="no"/>test considerari, aut per comparationem 
+            specie<lb ed="#T" n="17" break="no"/>rum ad res quarum sunt, sic est vna: aut ad eos 
+            <lb ed="#T" n="18"/>in quibus sunt, sic multae: &amp; quia in via prima 
+            <!--1652-gregPress-MichiganState-gbooks-v1-0389.xml-->
+            <cb ed="#T" n="b"/>
+            <lb ed="#T" n="19"/>sunt species causa sapientiae, ideo dicunt Sancti 
+            <lb ed="#T" n="20"/>sapientiam esse vnam: haec tamen vnitas non 
+            <lb ed="#T" n="21"/>est vnitas absoluta, sed vnitas proportionis ad 
+            <lb ed="#T" n="22"/>vnum. 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e1851">
+            <lb ed="#T" n="23"/>Ad illud de homine in intellectu. Resp. Homo 
+            <lb ed="#T" n="24"/>in intellectu dupliciter intelligi potest: vel vt 
+            <lb ed="#T" n="25"/>objectum tantum, vel vt accidens in subjecto: 
+            <lb ed="#T" n="26"/>primo modo idem est homo, quia homo in 
+            na<lb ed="#T" n="27" break="no"/>tura obiectum est intellectus: secundo modo non, 
+            <lb ed="#T" n="28"/>quia sic species hominis dicitur homo: homo 
+            <lb ed="#T" n="29"/>autem de vtroque dicitur communiter 
+            commu<lb ed="#T" n="30" break="no"/>nitate vel aequiuocationis, vel analogiae 
+            secun<lb ed="#T" n="31" break="no"/>dum rationem: communitas vero rationis non 
+            <lb ed="#T" n="32"/>fecit speciem 
+          </p>
+          <p xml:id="pdt7y6-e94186-d1e1876">
+            <lb ed="#T" n="33"/>Ad illud de sapientia accidente. Resp. Est 
+            ac<lb ed="#T" n="34" break="no"/>cidens per comparationem ad subjectum, non ad 
+            <lb ed="#T" n="35"/>objectum seu ad res de quibus est, quo modo est 
+            <lb ed="#T" n="36"/>vna vnitate proportionis sensu explicato. 1 
+            <!--1652-gregPress-MichiganState-gbooks-v1-0389.xml-->
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>
