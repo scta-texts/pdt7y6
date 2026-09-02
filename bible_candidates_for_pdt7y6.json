@@ -1,0 +1,611 @@
+{
+  "pdt7y6-e1e300": {
+    "pdt7y6-e1e300-d1e125": [
+      {
+        "candidate_id": "iob38_33",
+        "intersectionCount": 6,
+        "status": "encoded",
+        "note": "thema verse of prologue, explicit Iob 38 citation"
+      },
+      {
+        "candidate_id": "iob38_34",
+        "intersectionCount": 7,
+        "status": "encoded",
+        "note": "thema verse of prologue, explicit Iob 38 citation"
+      }
+    ],
+    "pdt7y6-e1e300-d1e190": [
+      {
+        "candidate_id": "Ireg5_17",
+        "intersectionCount": 2,
+        "status": "encoded",
+        "note": "explicit tertij Reg. 5 (=Vulgate III Regum=Ireg) citation"
+      },
+      {
+        "candidate_id": "cant4_4",
+        "intersectionCount": 3,
+        "status": "encoded",
+        "note": "explicit Cant. 4 citation"
+      },
+      {
+        "candidate_id": "ps44_2",
+        "intersectionCount": 3,
+        "status": "encoded",
+        "note": "explicit 'Psalmista' attribution"
+      }
+    ],
+    "pdt7y6-e1e300-d1e355": [
+      {
+        "candidate_id": "iob38_33",
+        "intersectionCount": 3,
+        "status": "not_found",
+        "note": "brief rhetorical echo ('Nunquid, ait, nosti?') of the already-quoted thema within exposition, not a fresh quotation"
+      }
+    ],
+    "pdt7y6-e1e300-d1e469": [
+      {
+        "candidate_id": "is12_3",
+        "intersectionCount": 2,
+        "status": "encoded",
+        "note": "explicit Isa. 12 citation"
+      },
+      {
+        "candidate_id": "bar3_38",
+        "intersectionCount": 3,
+        "status": "encoded",
+        "note": "explicit Bar. 3 citation"
+      },
+      {
+        "candidate_id": "eph5_27",
+        "intersectionCount": 3,
+        "status": "encoded",
+        "note": "explicit Ephes. 5 citation"
+      }
+    ],
+    "pdt7y6-e1e300-d1e578": [
+      {
+        "candidate_id": "sap2_3",
+        "intersectionCount": 3,
+        "status": "encoded",
+        "note": "explicit Sap. 2 citation"
+      }
+    ]
+  },
+  "pdt7y6-ee5773": {
+    "pdt7y6-ee5773-d1e974": [
+      {
+        "candidate_id": "rom11_36",
+        "intersectionCount": 2,
+        "status": "encoded",
+        "note": "explicit Rom. 11 citation (one of eight numbered scriptural proofs)"
+      }
+    ]
+  },
+  "pdt7y6-ee8125": {
+    "pdt7y6-ee8125-d1e195": [
+      {
+        "candidate_id": "rom1_20",
+        "intersectionCount": 2,
+        "status": "encoded",
+        "note": "explicit Contra Rom. 1 citation"
+      }
+    ]
+  },
+  "pdt7y6-ee8635": {
+    "pdt7y6-ee8635-d1e649": [
+      {
+        "candidate_id": "rom1_20",
+        "intersectionCount": 2,
+        "status": "not_found",
+        "note": "bracketed word-by-word gloss of an already-quoted Rom 1:20 lemma, not a fresh quotation"
+      }
+    ]
+  },
+  "pdt7y6-e11984": {
+    "pdt7y6-e11984-d1e429": [
+      {
+        "candidate_id": "ps72_20",
+        "intersectionCount": 2,
+        "status": "encoded",
+        "note": "explicit 'Contra Psal.' citation"
+      }
+    ]
+  },
+  "pdt7y6-e19903": {
+    "pdt7y6-e19903-d1e501": [
+      {
+        "candidate_id": "io1_3",
+        "intersectionCount": 2,
+        "status": "encoded",
+        "note": "explicit Ioan. 1 citation"
+      }
+    ]
+  },
+  "pdt7y6-e27506": {
+    "pdt7y6-e27506-d1e275": [
+      {
+        "candidate_id": "num5_13",
+        "intersectionCount": 2,
+        "status": "not_found",
+        "note": "philosophical discussion of personal properties, no relation to Num 5:13"
+      }
+    ]
+  },
+  "pdt7y6-e28168": {
+    "pdt7y6-e28168-d1e202": [
+      {
+        "candidate_id": "IIth2_1",
+        "intersectionCount": 2,
+        "status": "not_found",
+        "note": "false positive, shared phrase 'Domini nostri Iesu Christi' only"
+      },
+      {
+        "candidate_id": "Icor6_11",
+        "intersectionCount": 2,
+        "status": "not_found",
+        "note": "false positive, shared phrase 'Domini nostri Iesu Christi' only"
+      },
+      {
+        "candidate_id": "Itim6_3",
+        "intersectionCount": 2,
+        "status": "not_found",
+        "note": "false positive, shared phrase 'Domini nostri Iesu Christi' only"
+      },
+      {
+        "candidate_id": "IIcor13_13",
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "MS cites Rom. vlt but wording matches IICor 13:13 exactly"
+      }
+    ],
+    "pdt7y6-e28168-d1e447": [
+      {
+        "candidate_id": "lc12_53",
+        "intersectionCount": 4,
+        "status": "not_found",
+        "note": "quotes Hieronymus on Spirit as mutual love of Father/Son, no relation to Lc 12:53"
+      }
+    ]
+  },
+  "pdt7y6-e28731": {
+    "pdt7y6-e28731-d1e267": [
+      {
+        "candidate_id": "mt28_19",
+        "intersectionCount": 2,
+        "status": "not_found",
+        "note": "trinitarian theology discussion, no Matthew citation or quotation"
+      }
+    ]
+  },
+  "pdt7y6-e29402": {
+    "pdt7y6-e29402-d1e241": [
+      {
+        "candidate_id": "io16_14",
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "explicit Ioan. 16 citation"
+      }
+    ]
+  },
+  "pdt7y6-e32152": {
+    "pdt7y6-e32152-d1e369": [
+      {
+        "candidate_id": "io8_42",
+        "intersectionCount": 2,
+        "status": "encoded",
+        "note": "explicit Ioan. 8 citation, matches io8_42 exactly"
+      }
+    ]
+  },
+  "pdt7y6-e33882": {
+    "pdt7y6-e33882-d1e689": [
+      {
+        "candidate_id": "io8_42",
+        "intersectionCount": 2,
+        "status": "encoded",
+        "note": "MS cites Ioan. 10 but text matches Io 8:42 exactly"
+      }
+    ],
+    "pdt7y6-e33882-d1e1270": [
+      {
+        "candidate_id": "rom5_5",
+        "intersectionCount": 11,
+        "status": "encoded",
+        "note": "explicit Rom. 5 citation"
+      }
+    ]
+  },
+  "pdt7y6-e37646": {
+    "pdt7y6-e37646-d1e381": [
+      {
+        "candidate_id": "sap7_27",
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "explicit 'eiusdem 7' (Sap. 7) citation"
+      }
+    ]
+  },
+  "pdt7y6-e39316": {
+    "pdt7y6-e39316-d1e520": [
+      {
+        "candidate_id": "rom1_20",
+        "intersectionCount": 2,
+        "status": "encoded",
+        "note": "explicit Rom. 1 citation"
+      }
+    ]
+  },
+  "pdt7y6-e47106": {
+    "pdt7y6-e47106-d1e144": [
+      {
+        "candidate_id": "Icor12_4",
+        "intersectionCount": 2,
+        "status": "encoded",
+        "note": "explicit '1 Chor 12' (I Cor 12) citation"
+      }
+    ]
+  },
+  "pdt7y6-e49127": {
+    "pdt7y6-e49127-d1e757": [
+      {
+        "candidate_id": "hebr1_3",
+        "intersectionCount": 2,
+        "status": "encoded",
+        "note": "explicit Heb. 1 citation"
+      }
+    ],
+    "pdt7y6-e49127-d1e986": [
+      {
+        "candidate_id": "io14_11",
+        "intersectionCount": 5,
+        "status": "not_found",
+        "note": "duplicate candidate for same quote; text matches io14_10 (singular 'credis') not io14_11 (plural 'creditis')"
+      },
+      {
+        "candidate_id": "io14_10",
+        "intersectionCount": 7,
+        "status": "encoded",
+        "note": "explicit Ioan. 14 citation, matches io14_10 (singular credis) not io14_11"
+      }
+    ]
+  },
+  "pdt7y6-e54342": {
+    "pdt7y6-e54342-d1e365": [
+      {
+        "candidate_id": "mt11_27",
+        "intersectionCount": 2,
+        "status": "encoded",
+        "note": "explicit Matt. 11 citation"
+      }
+    ],
+    "pdt7y6-e54342-d1e1103": [
+      {
+        "candidate_id": "io17_3",
+        "intersectionCount": 3,
+        "status": "encoded",
+        "note": "MS cites Matth. 17 but text matches Io 17:3 exactly"
+      }
+    ],
+    "pdt7y6-e54342-d1e1209": [
+      {
+        "candidate_id": "deut32_39",
+        "intersectionCount": 2,
+        "status": "encoded",
+        "note": "explicit Deuter. 32 citation"
+      }
+    ],
+    "pdt7y6-e54342-d1e1288": [
+      {
+        "candidate_id": "deut32_39",
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "restates Deut 32:39 from preceding objection"
+      }
+    ]
+  },
+  "pdt7y6-e55876": {
+    "pdt7y6-e55876-d1e232": [
+      {
+        "candidate_id": "rom10_10",
+        "intersectionCount": 3,
+        "status": "encoded",
+        "note": "explicit Rom. 10 citation"
+      }
+    ]
+  },
+  "pdt7y6-e58062": {
+    "pdt7y6-e58062-d1e802": [
+      {
+        "candidate_id": "mt28_19",
+        "intersectionCount": 4,
+        "status": "not_found",
+        "note": "trinitarian formula naming Father/Son/Spirit without Matthew citation or quotation marker"
+      }
+    ],
+    "pdt7y6-e58062-d1e903": [
+      {
+        "candidate_id": "mt28_19",
+        "intersectionCount": 3,
+        "status": "not_found",
+        "note": "paragraph quotes Augustine De Trinitate, no Matthew reference"
+      }
+    ]
+  },
+  "pdt7y6-e68513": {
+    "pdt7y6-e68513-d1e273": [
+      {
+        "candidate_id": "sir1_5",
+        "intersectionCount": 3,
+        "status": "encoded",
+        "note": "explicit Eccles. 1 (=Ecclesiasticus/Sirach) citation"
+      }
+    ]
+  },
+  "pdt7y6-e72027": {
+    "pdt7y6-e72027-d1e558": [
+      {
+        "candidate_id": "gen1_3",
+        "intersectionCount": 3,
+        "status": "encoded",
+        "note": "explicit Gen. 1 citation"
+      }
+    ]
+  },
+  "pdt7y6-e77644": {
+    "pdt7y6-e77644-d1e1188": [
+      {
+        "candidate_id": "ps32_6",
+        "intersectionCount": 6,
+        "status": "encoded",
+        "note": "verbatim Ps 32:6 formula, no explicit citation marker but exact wording"
+      }
+    ]
+  },
+  "pdt7y6-e84288": {
+    "pdt7y6-e84288-d1e218": [
+      {
+        "candidate_id": "rom1_20",
+        "intersectionCount": 2,
+        "status": "encoded",
+        "note": "explicit Rom. 1 citation"
+      }
+    ]
+  },
+  "pdt7y6-e86986": {
+    "pdt7y6-e86986-d1e408": [
+      {
+        "candidate_id": "col1_16",
+        "intersectionCount": 2,
+        "status": "not_found",
+        "note": "structural divisio-textus outline, wording does not match"
+      },
+      {
+        "candidate_id": "rom11_36",
+        "intersectionCount": 5,
+        "status": "not_found",
+        "note": "structural divisio-textus outline paraphrasing doctrinal formula, not an explicit citation"
+      }
+    ]
+  },
+  "pdt7y6-e87333": {
+    "pdt7y6-e87333-d1e763": [
+      {
+        "candidate_id": "rom11_36",
+        "intersectionCount": 2,
+        "status": "not_found",
+        "note": "wording attributed explicitly to Ambrose ('secundum Ambrosium'), not presented as a direct scriptural citation"
+      }
+    ]
+  },
+  "pdt7y6-e88503": {
+    "pdt7y6-e88503-d1e438": [
+      {
+        "candidate_id": "hebr11_3",
+        "intersectionCount": 7,
+        "status": "encoded"
+      }
+    ]
+  },
+  "pdt7y6-f00416": {
+    "pdt7y6-f00416-d1e817": [
+      {
+        "candidate_id": "eph1_4",
+        "intersectionCount": 3,
+        "status": "encoded",
+        "note": "explicit Ephes. 1 citation"
+      }
+    ]
+  },
+  "pdt7y6-f03798": {
+    "pdt7y6-f03798-d1e456": [
+      {
+        "candidate_id": "rom9_21",
+        "intersectionCount": 2,
+        "status": "encoded",
+        "note": "explicit Rom. 9 citation"
+      }
+    ]
+  },
+  "pdt7y6-f04339": {
+    "pdt7y6-f04339-d1e189": [
+      {
+        "candidate_id": "rom9_12",
+        "intersectionCount": 5,
+        "status": "encoded",
+        "note": "explicit Rom. 9 citation; quote continues into Rom 9:13 (Iacob dilexi...), encoded as multi-verse quote"
+      }
+    ]
+  },
+  "pdt7y6-f06783": {
+    "pdt7y6-f06783-d1e933": [
+      {
+        "candidate_id": "eph3_20",
+        "intersectionCount": 2,
+        "status": "encoded",
+        "note": "explicit Ephes. citation"
+      }
+    ],
+    "pdt7y6-f06783-d1e964": [
+      {
+        "candidate_id": "num5_13",
+        "intersectionCount": 2,
+        "status": "not_found",
+        "note": "quotes Augustine Contra Faustum on scientia/veritas, no relation to Num 5:13"
+      }
+    ]
+  },
+  "pdt7y6-f08875": {
+    "pdt7y6-f08875-d1e1119": [
+      {
+        "candidate_id": "mt28_18",
+        "intersectionCount": 2,
+        "status": "encoded",
+        "note": "MS cites Matth. 27 but wording matches Mt 28:18 exactly"
+      }
+    ]
+  },
+  "pdt7y6-f10060": {
+    "pdt7y6-f10060-d1e1106": [
+      {
+        "candidate_id": "mt26_53",
+        "intersectionCount": 2,
+        "status": "not_found",
+        "note": "bracketed cross-reference to base text being expounded, not an authorial scriptural citation"
+      }
+    ]
+  },
+  "pdt7y6-f11325": {
+    "pdt7y6-f11325-d1e794": [
+      {
+        "candidate_id": "io3_34",
+        "intersectionCount": 2,
+        "status": "encoded",
+        "note": "explicit Ioan. 3 citation"
+      }
+    ],
+    "pdt7y6-f11325-d1e1361": [
+      {
+        "candidate_id": "sir42_25",
+        "intersectionCount": 2,
+        "status": "encoded",
+        "note": "explicit Eccles. 42 (=Sirach) citation"
+      }
+    ]
+  },
+  "pdt7y6-f13546": {
+    "pdt7y6-f13546-d1e215": [
+      {
+        "candidate_id": "eph1_11",
+        "intersectionCount": 2,
+        "status": "encoded",
+        "note": "explicit Ephes. 1 citation"
+      }
+    ]
+  },
+  "pdt7y6-f14413": {
+    "pdt7y6-f14413-d1e686": [
+      {
+        "candidate_id": "eph1_11",
+        "intersectionCount": 2,
+        "status": "encoded",
+        "note": "explicit Ephes. 1 citation"
+      }
+    ]
+  },
+  "pdt7y6-f15115": {
+    "pdt7y6-f15115-d1e535": [
+      {
+        "candidate_id": "mt15_4",
+        "intersectionCount": 2,
+        "status": "not_found",
+        "note": "generic decalogue-precept example without citation marker or further verse-specific wording"
+      },
+      {
+        "candidate_id": "mt19_19",
+        "intersectionCount": 2,
+        "status": "not_found",
+        "note": "generic decalogue-precept example without citation marker or further verse-specific wording"
+      }
+    ]
+  },
+  "pdt7y6-f17795": {
+    "pdt7y6-f17795-d1e270": [
+      {
+        "candidate_id": "rom3_8",
+        "intersectionCount": 2,
+        "status": "encoded",
+        "note": "MS cites Rom. 4 but wording matches Rom 3:8 exactly"
+      }
+    ],
+    "pdt7y6-f17795-d1e473": [
+      {
+        "candidate_id": "rom8_28",
+        "intersectionCount": 3,
+        "status": "encoded",
+        "note": "explicit Rom. 8 citation"
+      }
+    ],
+    "pdt7y6-f17795-d1e841": [
+      {
+        "candidate_id": "ps7_2",
+        "intersectionCount": 3,
+        "status": "encoded",
+        "note": "explicit Psalm citation via Glossa"
+      }
+    ]
+  },
+  "pdt7y6-f19093": {
+    "pdt7y6-f19093-d1e401": [
+      {
+        "candidate_id": "is41_24",
+        "intersectionCount": 2,
+        "status": "not_found",
+        "note": "no scriptural quotation present, philosophical discussion of potentia naturalis/rationalis"
+      }
+    ],
+    "pdt7y6-f19093-d1e530": [
+      {
+        "candidate_id": "mt12_30",
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "explicit Math. 12 citation"
+      }
+    ]
+  },
+  "pdt7y6-f20596": {
+    "pdt7y6-f20596-d1e166": [
+      {
+        "candidate_id": "is55_9",
+        "intersectionCount": 2,
+        "status": "encoded",
+        "note": "explicit Isa. citation, matches Is 55:9"
+      }
+    ]
+  },
+  "pdt7y6-f21211": {
+    "pdt7y6-f21211-d1e140": [
+      {
+        "candidate_id": "deut16_20",
+        "intersectionCount": 2,
+        "status": "encoded",
+        "note": "MS cites Deuter. 10 but wording matches Deut 16:20 exactly"
+      }
+    ]
+  },
+  "pdt7y6-f22083": {
+    "pdt7y6-f22083-d1e533": [
+      {
+        "candidate_id": "IIcor11_31",
+        "intersectionCount": 2,
+        "status": "not_found",
+        "note": "author's own closing doxology 'benedictus in saecula', common liturgical formula, not an attributed citation"
+      },
+      {
+        "candidate_id": "rom1_25",
+        "intersectionCount": 3,
+        "status": "not_found",
+        "note": "author's own closing doxology 'benedictus in saecula', common liturgical formula, not an attributed citation"
+      }
+    ]
+  }
+}
