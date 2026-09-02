@@ -362,7 +362,7 @@
     </p>
                <p xml:id="pdt7y6-f14413-d1e686">
                   <lb ed="#T" n="11"/>AD tertium articulum proceditur sic. 1. 
-      <lb ed="#T" n="12"/>Ephes. 1. <quote source="http://scta.info/resource/eph1_11@11-17">Omnia operatur secundum
+      <lb ed="#T" n="12"/>Ephes. 1. <quote xml:id="pdt7y6-f14413-Qd1e696" source="http://scta.info/resource/eph1_11@11-17">Omnia operatur secundum
       con<lb ed="#T" n="13" break="no"/>silium voluntatis.</quote> Glos. voluntas Dei ex
       ratio<lb ed="#T" n="14" break="no"/>ne est: ergo habet causam rationabilem. 
     </p>

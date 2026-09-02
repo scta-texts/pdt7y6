@@ -122,7 +122,7 @@
       <lb ed="#T" n="79"/>ergo &amp; nominari.
     </p>
                <p xml:id="pdt7y6-e55876-d1e232">
-                  <lb ed="#T" n="80"/>2. Roni. 10. <quote source="http://scta.info/resource/rom10_10@1-11">Corde creditur ad iustitiam, ore
+                  <lb ed="#T" n="80"/>2. Roni. 10. <quote xml:id="pdt7y6-e55876-Qd1e238" source="http://scta.info/resource/rom10_10@1-11">Corde creditur ad iustitiam, ore
       <lb ed="#T" n="81"/>autem confessio sit ad salutem</quote>: ergo non est
       <lb ed="#T" n="82"/>salus sine Dei confessione: ergo nec sine 
       nomi<lb ed="#T" n="83" break="no"/>natione: ergo non tantum possibile, imo necesse 
