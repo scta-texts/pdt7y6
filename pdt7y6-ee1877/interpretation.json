@@ -1,0 +1,287 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-02T00:00:00Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "7302be9",
+    "generation_method": "hierarchical",
+    "source_file": "cod-gpmsgd_pdt7y6-ee1877.xml"
+  },
+  "pdt7y6-ee1877": {
+    "summary": "Peter's preamble to Lombard's prologue, consisting of a division of the text and a literal exposition. Lombard's prologue is divided into the author's excuse (three intrinsic motives, each paired with a deterrent, and two extrinsic ones, heretics' error and Catholics' requests), the rebuke of detractors who attack truth and teach falsehood, the commendation of the work by its four causes, and the exhortation of the reader by the work's utility, humble truth and clarity. The exposition glosses key terms and resolves objections to them: penuria and tenuitas as lack of acquired and natural knowledge; the ascent beyond sense, imagination and sophism; good versus bad presumption; the licit addition of truth to Scripture; charity as fervent love; and truth as lovable per se but hateful per accidens through a contrary disposition, with falsity lying in sign or intention.",
+    "claims": [
+      "Lombard's prologue divides into excuse, rebuke, commendation and exhortation.",
+      "Presumption grounded in God is good.",
+      "Truth may be added to Scripture's truth.",
+      "Truth is hated only accidentally, through a contrary disposition."
+    ],
+    "concepts": [
+      "divisio textus",
+      "expositio litterae",
+      "four causes of a book",
+      "praesumptio",
+      "love of truth",
+      "heresy"
+    ],
+    "_metadata": {
+      "level": "praeambulum",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pdt7y6-ee1877-d1e101",
+        "pdt7y6-ee1877-d1e219",
+        "pdt7y6-ee1877-d1e246",
+        "pdt7y6-ee1877-d1e285",
+        "pdt7y6-ee1877-d1e296",
+        "pdt7y6-ee1877-d1e307",
+        "pdt7y6-ee1877-d1e320",
+        "pdt7y6-ee1877-d1e336",
+        "pdt7y6-ee1877-d1e359",
+        "pdt7y6-ee1877-d1e372",
+        "pdt7y6-ee1877-d1e383",
+        "pdt7y6-ee1877-d1e401",
+        "pdt7y6-ee1877-d1e414"
+      ]
+    }
+  },
+  "pdt7y6-ee1877-d1e101": {
+    "summary": "Heading introducing the prologue of Peter Lombard, bishop of Paris, to his books of Sentences, the text Peter of Tarantaise is about to divide and expound.",
+    "claims": [],
+    "concepts": [
+      "Lombard's prologue"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-ee1877"
+      ]
+    }
+  },
+  "pdt7y6-ee1877-d1e219": {
+    "summary": "Divides Lombard's prologue (divisio textus) into four parts, each keyed to its incipit: the author's excuse, the rebuke of the detractor ('Quamvis non ambigamus'), the commendation of the work ('Horum igitur odibilem'), and the stirring of the reader ('Non igitur debet').",
+    "claims": [
+      "Lombard's prologue has four parts: excuse, rebuke, commendation, exhortation."
+    ],
+    "concepts": [
+      "divisio textus",
+      "structure of the prologue"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-ee1877",
+        "pdt7y6-ee1877-d1e246",
+        "pdt7y6-ee1877-d1e285",
+        "pdt7y6-ee1877-d1e296",
+        "pdt7y6-ee1877-d1e307"
+      ]
+    }
+  },
+  "pdt7y6-ee1877-d1e246": {
+    "summary": "Analyses the first part: Lombard excuses himself from presumption in taking on so great a work by citing moving causes. The intrinsic ones are threefold: confidence of hope, love of the promised reward, and desire of making progress, each paired with a restraining cause (difficulty in beginning, labour in continuing, fear of failing). The extrinsic ones are two: the error of heretics and the requests of Catholics.",
+    "claims": [
+      "Lombard's excuse rests on three intrinsic and two extrinsic moving causes.",
+      "Each intrinsic motive is balanced by a corresponding deterrent."
+    ],
+    "concepts": [
+      "causes of writing",
+      "hope",
+      "reward",
+      "heresy",
+      "humility topos"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-ee1877",
+        "pdt7y6-ee1877-d1e219"
+      ]
+    }
+  },
+  "pdt7y6-ee1877-d1e285": {
+    "summary": "Analyses the second part: the rebuke of the detractor is twofold, against attacking the truth ('Quamvis non ambigamus') and against teaching falsehood ('Quorum professio').",
+    "claims": [
+      "The detractor is rebuked for attacking truth and teaching falsehood."
+    ],
+    "concepts": [
+      "heresy",
+      "truth and falsehood"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-ee1877",
+        "pdt7y6-ee1877-d1e219"
+      ]
+    }
+  },
+  "pdt7y6-ee1877-d1e296": {
+    "summary": "Analyses the third part: Lombard commends the work by its four causes: final ('Horum igitur'), efficient ('Cum labore'), material ('Ex testimoniis') and formal ('In quo').",
+    "claims": [
+      "The work is commended through its final, efficient, material and formal causes."
+    ],
+    "concepts": [
+      "four causes of a book",
+      "accessus ad auctores"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-ee1877",
+        "pdt7y6-ee1877-d1e219"
+      ]
+    }
+  },
+  "pdt7y6-ee1877-d1e307": {
+    "summary": "Analyses the last part: Lombard rouses the reader by three reasons: the usefulness of the work for the blessed life, its humble truth, and its distinct clarity (the ordering by chapters).",
+    "claims": [
+      "The reader is exhorted by the work's utility, humble truth and clarity."
+    ],
+    "concepts": [
+      "exhortation of the reader",
+      "utility",
+      "ordo"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-ee1877",
+        "pdt7y6-ee1877-d1e219"
+      ]
+    }
+  },
+  "pdt7y6-ee1877-d1e320": {
+    "summary": "Begins the literal exposition: 'penuria' signifies a lack of exterior substance and 'tenuitas' a lack of interior substance, so Lombard uses the first for a lack of acquired knowledge and the second for a lack of natural intelligence.",
+    "claims": [
+      "Penuria denotes lack of acquired knowledge, tenuitas lack of natural intelligence."
+    ],
+    "concepts": [
+      "expositio litterae",
+      "acquired vs. natural knowledge",
+      "humility topos"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-ee1877"
+      ]
+    }
+  },
+  "pdt7y6-ee1877-d1e336": {
+    "summary": "Glosses 'ardua scandere' as a threefold ascent, leaving behind sensible species, imaginative phantasms, and the sophisms of conflicting natural reasons. On 'praesumimus', meeting the objection that presumption is a sin, it distinguishes a good presumption of confidence in God from a bad presumption of arrogance in oneself.",
+    "claims": [
+      "Ascent to divine things leaves sense, imagination and sophistical reasoning behind.",
+      "Presumption of trust in God is good; presumption of self-reliance is sinful."
+    ],
+    "concepts": [
+      "ascent of the mind",
+      "phantasms",
+      "praesumptio"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-ee1877",
+        "pdt7y6-ee1877-d1e246"
+      ]
+    }
+  },
+  "pdt7y6-ee1877-d1e359": {
+    "summary": "On 'supereroganti', answering the objection from Apocalypse 22 that nothing may be added to Scripture: what is unlike must not be added, since it corrupts (falsehood to truth), but what is like may be (truth to truth), as adding water to wine differs from adding wine to wine.",
+    "claims": [
+      "Adding truth to Scripture's truth is permitted; adding falsehood is not."
+    ],
+    "concepts": [
+      "addition to Scripture",
+      "development of doctrine"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-ee1877"
+      ]
+    }
+  },
+  "pdt7y6-ee1877-d1e372": {
+    "summary": "On 'Christi charitas', meeting the objection that no one knows whether he has charity (Ecclesiastes 9): charity here means fervent love, not the charity that makes one pleasing to God.",
+    "claims": [
+      "Lombard's 'charity' means fervent love, not sanctifying charity."
+    ],
+    "concepts": [
+      "charity",
+      "certainty of grace"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-ee1877"
+      ]
+    }
+  },
+  "pdt7y6-ee1877-d1e383": {
+    "summary": "On 'veritati offendenti', meeting the objection that all men desire to know: truth is lovable in itself and hateful only accidentally, through a contrary disposition in the subject, as light is hateful to diseased eyes but lovable to healthy ones (Augustine).",
+    "claims": [
+      "Truth is desirable per se and hateful only per accidens."
+    ],
+    "concepts": [
+      "love of truth",
+      "disposition of the knower",
+      "per se vs. per accidens"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-ee1877",
+        "pdt7y6-ee1877-d1e285"
+      ]
+    }
+  },
+  "pdt7y6-ee1877-d1e401": {
+    "summary": "On 'omni verborum mendacio', meeting Augustine's dictum that no false teaching lacks some admixture of truth: things are called false either by falsity of the sign or by falsity of the signifier's intention.",
+    "claims": [
+      "Falsity may lie in the sign or in the intention of the one signifying."
+    ],
+    "concepts": [
+      "falsity",
+      "sign and intention",
+      "heresy"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-ee1877",
+        "pdt7y6-ee1877-d1e285"
+      ]
+    }
+  },
+  "pdt7y6-ee1877-d1e414": {
+    "summary": "On 'veritatem sine foedere', meeting the objection from Esdras that all the earth calls on truth: truth in general is always loved, while particular truths are attacked, not as truths but accidentally, insofar as they oppose some disposition in the hearer.",
+    "claims": [
+      "Truth in general is always loved; particular truths are resisted accidentally."
+    ],
+    "concepts": [
+      "love of truth",
+      "general vs. particular truth"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-ee1877",
+        "pdt7y6-ee1877-d1e383"
+      ]
+    }
+  }
+}

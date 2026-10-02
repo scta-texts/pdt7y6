@@ -1,0 +1,800 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-02T00:00:00Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "7302be9",
+    "generation_method": "hierarchical",
+    "source_file": "cod-gpmsgd_pdt7y6-e92541.xml"
+  },
+  "pdt7y6-e92541": {
+    "summary": "Question 3 of distinction 37 asks how God relates to place and motion, in three articles. (1) God is not local: he is in every place by coexistence and presence, but is not subject to the laws of place (being contained, measured, conserved and bounded), which he rather causes, so he is wholly in each place without circumscription. (2) God cannot move from place to place: remaining stable, he moves all things, and motion or new presence is said of him only causally, through change in creatures, as a house built around a stationary man. (3) God is outside every place not by spatial distance but by the excess of his immensity; 'outside the world', like 'before the world', is a privative predication denying that he is enclosed by place or time.",
+    "claims": [
+      "God is in place but not local.",
+      "God is immobile; motion is predicated of him only causally.",
+      "God transcends place by immensity, not by distance."
+    ],
+    "concepts": [
+      "locality",
+      "leges loci",
+      "circumscription",
+      "immutability",
+      "immensity",
+      "privative predication"
+    ],
+    "_metadata": {
+      "level": "question",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pdt7y6-e92541-d1e104",
+        "pdt7y6-e92541-d1e111",
+        "pdt7y6-e92541-Dd1e124",
+        "pdt7y6-e92541-Dd1e320",
+        "pdt7y6-e92541-Dd1e486"
+      ]
+    }
+  },
+  "pdt7y6-e92541-d1e104": {
+    "summary": "First part of the rubric of question 3 of distinction 37: how God is related (continued in the next paragraph: to place and motion).",
+    "claims": [],
+    "concepts": [
+      "God and place"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e92541",
+        "pdt7y6-e92541-d1e111"
+      ]
+    }
+  },
+  "pdt7y6-e92541-d1e111": {
+    "summary": "Completes the rubric ('to place and motion') and divides the third principal question into three articles: whether God is local, whether he can change from place to place, and whether he is outside every place.",
+    "claims": [],
+    "concepts": [
+      "locality",
+      "divine immutability",
+      "extra-mundane God"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e92541",
+        "pdt7y6-e92541-d1e104",
+        "pdt7y6-e92541-Dd1e124",
+        "pdt7y6-e92541-Dd1e320",
+        "pdt7y6-e92541-Dd1e486"
+      ]
+    }
+  },
+  "pdt7y6-e92541-Dd1e124": {
+    "summary": "Article 1 asks whether God is local. Arguments for: being in every place makes a thing more local, presence in a determinate place makes it local, whole presence implies circumscription, and being in place implies locality as being in time implies temporality. Arguments against: only what is measured by place is local, place is an accident, and God is not 'punctual'. Peter distinguishes being in place by coexistence from being local by commensuration: the local is what follows Anselm's laws of place (being contained, measured, conserved and bounded), which God does not undergo but rather causes. God is in place by presence, not circumscription; he is in a determinate place but not determined to it; his being whole in each place excludes no other place; and only being in place as in one's proper measure makes a thing local.",
+    "claims": [
+      "God is in place but is not local.",
+      "Locality consists in being subject to the laws of place.",
+      "God is whole in each place without circumscription."
+    ],
+    "concepts": [
+      "locality",
+      "leges loci",
+      "circumscription",
+      "measure",
+      "coexistence vs. commensuration"
+    ],
+    "_metadata": {
+      "level": "article",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pdt7y6-e92541-d1e131",
+        "pdt7y6-e92541-d1e138",
+        "pdt7y6-e92541-d1e154",
+        "pdt7y6-e92541-d1e164",
+        "pdt7y6-e92541-d1e175",
+        "pdt7y6-e92541-d1e191",
+        "pdt7y6-e92541-d1e202",
+        "pdt7y6-e92541-d1e211",
+        "pdt7y6-e92541-d1e222",
+        "pdt7y6-e92541-d1e254",
+        "pdt7y6-e92541-d1e270",
+        "pdt7y6-e92541-d1e281",
+        "pdt7y6-e92541-d1e294"
+      ]
+    }
+  },
+  "pdt7y6-e92541-d1e131": {
+    "summary": "Rubric of article 1: whether God is local.",
+    "claims": [],
+    "concepts": [
+      "locality"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e92541-Dd1e124"
+      ]
+    }
+  },
+  "pdt7y6-e92541-d1e138": {
+    "summary": "First argument that God is local: what changes in every species of motion (a human body) is more changeable than what changes in one (the heavens); likewise, what is in every place is more local than what is in one place only.",
+    "claims": [
+      "Being in every place makes a thing more local, not less (argument)."
+    ],
+    "concepts": [
+      "locality",
+      "species of motion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e92541-Dd1e124"
+      ]
+    }
+  },
+  "pdt7y6-e92541-d1e154": {
+    "summary": "Second: God is in every place and so in this determinate place, and whatever is in a determinate place is local.",
+    "claims": [
+      "Presence in a determinate place makes something local (argument)."
+    ],
+    "concepts": [
+      "determinate place",
+      "locality"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e92541-Dd1e124"
+      ]
+    }
+  },
+  "pdt7y6-e92541-d1e164": {
+    "summary": "Third: God is here either by a part, and so divisible, which is false, or as a whole, and so circumscribed by place and local.",
+    "claims": [
+      "Whole presence in a place implies circumscription (argument)."
+    ],
+    "concepts": [
+      "whole and part",
+      "circumscription"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e92541-Dd1e124"
+      ]
+    }
+  },
+  "pdt7y6-e92541-d1e175": {
+    "summary": "Fourth: whatever is in time is temporal, so whatever is in place is local; God is in place, so he is local.",
+    "claims": [
+      "Being in place makes a thing local, as being in time makes it temporal (argument)."
+    ],
+    "concepts": [
+      "temporal and local",
+      "time and place analogy"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e92541-Dd1e124"
+      ]
+    }
+  },
+  "pdt7y6-e92541-d1e191": {
+    "summary": "First argument against: only what is measured by time, whole or part, is called temporal, so only what is measured by place is local; the immense is not measured.",
+    "claims": [
+      "Only what is measured by place is local.",
+      "The immense is not measured by place."
+    ],
+    "concepts": [
+      "measure",
+      "immensity",
+      "locality"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e92541-Dd1e124"
+      ]
+    }
+  },
+  "pdt7y6-e92541-d1e202": {
+    "summary": "Second: place is an accident and denominates only that to which it stands as an accident, which God is not.",
+    "claims": [
+      "Place cannot denominate God, to whom nothing is accidental."
+    ],
+    "concepts": [
+      "place as accident",
+      "denomination"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e92541-Dd1e124"
+      ]
+    }
+  },
+  "pdt7y6-e92541-d1e211": {
+    "summary": "Third: God is not only in place but in a point of place, and a point is more like God than place is; yet God is not called 'punctual' from a point, so still less 'local' from a place.",
+    "claims": [
+      "If God is not named from a point, he should not be named from a place."
+    ],
+    "concepts": [
+      "point",
+      "denomination",
+      "simplicity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e92541-Dd1e124"
+      ]
+    }
+  },
+  "pdt7y6-e92541-d1e222": {
+    "summary": "Peter's determination: as being in time differs from being temporal, being in place differs from being local. The first can be said by coexistence, the second only by commensuration. Following Anselm, the local is what follows the laws of place and the temporal what follows the laws of time. The laws of place are to contain, measure, conserve and bound the located thing; God receives none of these from place but rather causes them in place with respect to located things. So God, though coexisting with and present to place, is not local.",
+    "claims": [
+      "Being in place differs from being local.",
+      "The local is what follows the laws of place: containment, measure, conservation and limitation.",
+      "God causes the laws of place rather than being subject to them, so he is not local."
+    ],
+    "concepts": [
+      "leges loci",
+      "coexistence vs. commensuration",
+      "locality",
+      "Anselm"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e92541-Dd1e124",
+        "pdt7y6-e92541-d1e175",
+        "pdt7y6-e92541-d1e191"
+      ]
+    }
+  },
+  "pdt7y6-e92541-d1e254": {
+    "summary": "Reply to the first: the inference would hold if God were in place properly, that is, circumscriptively, as a thing moved in some species of motion is changed; but he is said to be in place by presence alone.",
+    "claims": [
+      "God is in place by presence, not circumscriptively."
+    ],
+    "concepts": [
+      "circumscription",
+      "presence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e92541-Dd1e124",
+        "pdt7y6-e92541-d1e138"
+      ]
+    }
+  },
+  "pdt7y6-e92541-d1e270": {
+    "summary": "Reply to the second: though God is in a determinate place, he is not determined to that place, and only what is determined to a place is local.",
+    "claims": [
+      "Being in a determinate place differs from being determined to a place."
+    ],
+    "concepts": [
+      "determination to place",
+      "locality"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e92541-Dd1e124",
+        "pdt7y6-e92541-d1e154"
+      ]
+    }
+  },
+  "pdt7y6-e92541-d1e281": {
+    "summary": "Reply to the third: God is whole in every place, but being whole in something entails circumscription only if one adds that it is not at the same time elsewhere, actually or potentially, which does not apply to God.",
+    "claims": [
+      "Wholeness in a place implies circumscription only with exclusion of being elsewhere."
+    ],
+    "concepts": [
+      "circumscription",
+      "totality",
+      "ubiquity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e92541-Dd1e124",
+        "pdt7y6-e92541-d1e164"
+      ]
+    }
+  },
+  "pdt7y6-e92541-d1e294": {
+    "summary": "Reply to the fourth: being in time as in one's proper measure makes a thing temporal, and similarly for place; but being in time in any way does not. Something is in time as its whole substance (the now), as a part (past and future), as a property (long and short), or as measured (motion). Likewise, not every way of being in place makes a thing local, but only being in it by circumscription.",
+    "claims": [
+      "Only being in place as in one's proper measure, by circumscription, makes a thing local.",
+      "There are several modes of being in time, only one of which makes a thing temporal."
+    ],
+    "concepts": [
+      "modes of being in time",
+      "measure",
+      "circumscription"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e92541-Dd1e124",
+        "pdt7y6-e92541-d1e175",
+        "pdt7y6-e92541-d1e222"
+      ]
+    }
+  },
+  "pdt7y6-e92541-Dd1e320": {
+    "summary": "Article 2 asks whether God can move from place to place. Augustine's claim that God moves himself, God's new presence to new creatures, and his moving with the saints suggest so; his ubiquity, the imperfection inherent in motion, and the nobility of rest argue against. Following Boethius, God remains stable while moving all things, so motion is predicated of him only causally: he becomes newly present through changes in creatures, as light to air or a harbour to a ship. Augustine's 'self-motion without place and time' means act without imperfection; new presence comes from the creature's change, as when a house is built around a stationary person; and only what is conjoined to a moving thing moves with it.",
+    "claims": [
+      "God is immobile and moves all things.",
+      "Motion and new presence are said of God only through change in creatures."
+    ],
+    "concepts": [
+      "immutability",
+      "unmoved mover",
+      "causal predication",
+      "extrinsic change",
+      "pure act"
+    ],
+    "_metadata": {
+      "level": "article",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pdt7y6-e92541-d1e327",
+        "pdt7y6-e92541-d1e334",
+        "pdt7y6-e92541-d1e347",
+        "pdt7y6-e92541-d1e361",
+        "pdt7y6-e92541-d1e381",
+        "pdt7y6-e92541-d1e397",
+        "pdt7y6-e92541-d1e406",
+        "pdt7y6-e92541-d1e415",
+        "pdt7y6-e92541-d1e433",
+        "pdt7y6-e92541-d1e456",
+        "pdt7y6-e92541-d1e474"
+      ]
+    }
+  },
+  "pdt7y6-e92541-d1e327": {
+    "summary": "Rubric of article 2: whether God can change from place to place.",
+    "claims": [],
+    "concepts": [
+      "divine immutability",
+      "local motion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e92541-Dd1e320"
+      ]
+    }
+  },
+  "pdt7y6-e92541-d1e334": {
+    "summary": "First argument that God moves, from Augustine's De Genesi ad litteram: God moves the bodily creature through place and time, the spiritual creature through time but not place, and himself without place and time; so he moves.",
+    "claims": [
+      "God moves himself without place and time (authority)."
+    ],
+    "concepts": [
+      "Augustine",
+      "self-motion",
+      "motion through time and place"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e92541-Dd1e320"
+      ]
+    }
+  },
+  "pdt7y6-e92541-d1e347": {
+    "summary": "Second: whatever comes to be where it was not before, or the reverse, is moved; God comes to be where he was not when a new creature is made, and the reverse when one is destroyed.",
+    "claims": [
+      "Coming to be present where one was not implies motion (argument)."
+    ],
+    "concepts": [
+      "new presence",
+      "creation and destruction",
+      "change"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e92541-Dd1e320"
+      ]
+    }
+  },
+  "pdt7y6-e92541-d1e361": {
+    "summary": "Third: as Aristotle says in the Topics, when we move, what is in us moves (parts, accidental forms, the soul); so when the saints move, God in them moves. Gregory says that though God is non-local, he walks locally with the saints.",
+    "claims": [
+      "What is in a moving thing moves with it (authority).",
+      "God walks with the saints (authority)."
+    ],
+    "concepts": [
+      "motion per accidens",
+      "indwelling",
+      "Gregory"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e92541-Dd1e320"
+      ]
+    }
+  },
+  "pdt7y6-e92541-d1e381": {
+    "summary": "First argument against: what moves locally reaches a place where it was not, but God is everywhere, so he cannot move locally, and still less by any other kind of motion, since local motion is the first and simplest (the only kind found in the heavens).",
+    "claims": [
+      "An omnipresent being cannot move locally.",
+      "Local motion is the primary kind of motion."
+    ],
+    "concepts": [
+      "local motion",
+      "ubiquity",
+      "primacy of local motion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e92541-Dd1e320"
+      ]
+    }
+  },
+  "pdt7y6-e92541-d1e397": {
+    "summary": "Second: all motion is the act of something imperfect going from potency to act, and God has nothing imperfect.",
+    "claims": [
+      "Motion is the act of the imperfect, which God is not."
+    ],
+    "concepts": [
+      "motion as actus imperfecti",
+      "potency and act",
+      "divine perfection"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e92541-Dd1e320"
+      ]
+    }
+  },
+  "pdt7y6-e92541-d1e406": {
+    "summary": "Third: rest is nobler than motion, being its end, and the nobler must be attributed to God, so he rests rather than moves.",
+    "claims": [
+      "Rest, as the end of motion, is nobler and belongs to God."
+    ],
+    "concepts": [
+      "rest and motion",
+      "nobility"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e92541-Dd1e320"
+      ]
+    }
+  },
+  "pdt7y6-e92541-d1e415": {
+    "summary": "Peter's determination: as Boethius says, God, remaining stable, makes all things move. Motion can be attributed to God not essentially but only causally, as he is said to be exalted in a person's heart: he becomes closer or more present to something through a change in that thing, not in himself, as light to air, a magnet to iron, a harbour to a ship.",
+    "claims": [
+      "God moves all things while remaining unmoved.",
+      "Motion is attributed to God only causally, by change in creatures."
+    ],
+    "concepts": [
+      "unmoved mover",
+      "causal predication",
+      "immutability",
+      "Boethius"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e92541-Dd1e320",
+        "pdt7y6-e92541-d1e347",
+        "pdt7y6-e92541-d1e397"
+      ]
+    }
+  },
+  "pdt7y6-e92541-d1e433": {
+    "summary": "Reply to Augustine: since all motion properly so called is in place and time, saying God moves himself without place and time means he moves himself without motion. Motion implies both act and imperfection of act; God is always in act and never imperfect, so the phrase involves no contradiction.",
+    "claims": [
+      "God's 'self-motion' is act without the imperfection of motion."
+    ],
+    "concepts": [
+      "act and imperfection",
+      "self-motion",
+      "pure act"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e92541-Dd1e320",
+        "pdt7y6-e92541-d1e334"
+      ]
+    }
+  },
+  "pdt7y6-e92541-d1e456": {
+    "summary": "Reply to the second: something comes to be where it was not either by its own motion toward a thing or by the thing's motion toward it (as when a house is built around someone stationary). The first implies motion in the subject, the second in the other; God never comes to be where he was not in the first way, only in the second.",
+    "claims": [
+      "God becomes newly present only through change in creatures."
+    ],
+    "concepts": [
+      "extrinsic change",
+      "relation",
+      "immutability"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e92541-Dd1e320",
+        "pdt7y6-e92541-d1e347"
+      ]
+    }
+  },
+  "pdt7y6-e92541-d1e474": {
+    "summary": "Reply to the third: the principle applies to what is in us essentially or as accidentally conjoined, not to what is separate, like God.",
+    "claims": [
+      "Only what is conjoined to a moving thing moves with it."
+    ],
+    "concepts": [
+      "motion per accidens",
+      "separateness of God"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e92541-Dd1e320",
+        "pdt7y6-e92541-d1e361"
+      ]
+    }
+  },
+  "pdt7y6-e92541-Dd1e486": {
+    "summary": "Article 3 asks whether God is outside every place. Against: there is nothing outside the world for God to be in, the phrase has no coherent referent, and God is only in what is in him. For: Isidore's formula (outside all things without being excluded), God's being beyond time, and the threat of his being bounded. Peter answers that God is not outside things by spatial distance but is outside every created thing and place by the excess and indetermination of his immensity. 'Outside the world' is a privative predicate denying that he is enclosed, not a positive location, just as 'before the world' denies a temporal 'when' and posits eternity; it presupposes being, so it cannot be said of a chimera.",
+    "claims": [
+      "God is outside the world by immensity, not by distance.",
+      "'Outside the world' said of God is privative, denying enclosure."
+    ],
+    "concepts": [
+      "immensity",
+      "transcendence",
+      "privative predication",
+      "eternity"
+    ],
+    "_metadata": {
+      "level": "article",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pdt7y6-e92541-d1e493",
+        "pdt7y6-e92541-d1e500",
+        "pdt7y6-e92541-d1e511",
+        "pdt7y6-e92541-d1e530",
+        "pdt7y6-e92541-d1e539",
+        "pdt7y6-e92541-d1e550",
+        "pdt7y6-e92541-d1e559",
+        "pdt7y6-e92541-d1e572",
+        "pdt7y6-e92541-d1e590",
+        "pdt7y6-e92541-d1e602",
+        "pdt7y6-e92541-d1e615"
+      ]
+    }
+  },
+  "pdt7y6-e92541-d1e493": {
+    "summary": "Rubric of article 3: whether God is outside every place.",
+    "claims": [],
+    "concepts": [
+      "extra-mundane God"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e92541-Dd1e486"
+      ]
+    }
+  },
+  "pdt7y6-e92541-d1e500": {
+    "summary": "First argument that God is not outside the world: God is not in nothing, and outside the world or every place there is nothing.",
+    "claims": [
+      "Nothing exists beyond the world, and God is not in nothing (argument)."
+    ],
+    "concepts": [
+      "extra-mundane void",
+      "nothing"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e92541-Dd1e486"
+      ]
+    }
+  },
+  "pdt7y6-e92541-d1e511": {
+    "summary": "Second: 'outside the world' stands either for nothing (then a chimera could be said to be outside the world) or for something, either created (then some creature is outside the world) or uncreated (then, since everything is in God, everything could be said to be outside the world).",
+    "claims": [
+      "'Outside the world' has no acceptable referent (argument)."
+    ],
+    "concepts": [
+      "supposition",
+      "extra-mundane space",
+      "chimera"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e92541-Dd1e486"
+      ]
+    }
+  },
+  "pdt7y6-e92541-d1e530": {
+    "summary": "Third: God is in nothing that is not in him; nothing outside the world is in God, so there is nothing outside the world for God to be in.",
+    "claims": [
+      "God is only in what is in him (argument)."
+    ],
+    "concepts": [
+      "mutual inherence",
+      "extra-mundane God"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e92541-Dd1e486"
+      ]
+    }
+  },
+  "pdt7y6-e92541-d1e539": {
+    "summary": "First argument for: Isidore says God is above all things without being raised, below all without being lowered, outside all without being excluded, within all without being enclosed; so he is outside the world.",
+    "claims": [
+      "God is outside all things without being excluded (authority)."
+    ],
+    "concepts": [
+      "Isidore",
+      "transcendence and immanence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e92541-Dd1e486"
+      ]
+    }
+  },
+  "pdt7y6-e92541-d1e550": {
+    "summary": "Second: God is outside all time, because above it in eternity, so likewise outside every place and the world.",
+    "claims": [
+      "As God is beyond time, he is beyond place."
+    ],
+    "concepts": [
+      "eternity",
+      "transcendence of place"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e92541-Dd1e486"
+      ]
+    }
+  },
+  "pdt7y6-e92541-d1e559": {
+    "summary": "Third: if God were not outside the world, he would be defined and bounded within it.",
+    "claims": [
+      "Denying God's being outside the world would make him bounded."
+    ],
+    "concepts": [
+      "limitation",
+      "infinity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e92541-Dd1e486"
+      ]
+    }
+  },
+  "pdt7y6-e92541-d1e572": {
+    "summary": "Peter's determination: God's being outside the world or place, or separate from place, can mean distance of position, in which sense he is outside no thing or place, or the indifference, indetermination and excess of his immensity, in which sense he is outside every created thing and place.",
+    "claims": [
+      "God is not outside things by spatial distance.",
+      "God is outside all things by the excess of his immensity."
+    ],
+    "concepts": [
+      "immensity",
+      "transcendence",
+      "spatial vs. non-spatial 'outside'"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e92541-Dd1e486",
+        "pdt7y6-e92541-d1e539",
+        "pdt7y6-e92541-d1e559"
+      ]
+    }
+  },
+  "pdt7y6-e92541-d1e590": {
+    "summary": "Reply to the first: God is said to be outside the world not positively, as if in something beyond it, but privatively, because he is not enclosed within it.",
+    "claims": [
+      "'Outside the world' is said of God privatively."
+    ],
+    "concepts": [
+      "privative predication",
+      "non-enclosure"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e92541-Dd1e486",
+        "pdt7y6-e92541-d1e500"
+      ]
+    }
+  },
+  "pdt7y6-e92541-d1e602": {
+    "summary": "Reply to the second: the phrase does not stand for something in which God is, but denies that he is enclosed by the world. Nor can a chimera be said to be outside the world, since being outside the world presupposes being.",
+    "claims": [
+      "The phrase denies enclosure rather than designating a place.",
+      "Only what exists can be said to be outside the world."
+    ],
+    "concepts": [
+      "supposition",
+      "privative predication",
+      "chimera"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e92541-Dd1e486",
+        "pdt7y6-e92541-d1e511"
+      ]
+    }
+  },
+  "pdt7y6-e92541-d1e615": {
+    "summary": "Reply to the third: God is said to be outside the world not in the sense that sets up an order of position, but in the sense that denies definition by place; just as God is said to be 'before' the world not as a 'when' in time, but as denying any 'when' and positing eternity.",
+    "claims": [
+      "'Outside' and 'before' said of God deny place and time rather than locate him."
+    ],
+    "concepts": [
+      "negative predication",
+      "eternity",
+      "ante mundum"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e92541-Dd1e486",
+        "pdt7y6-e92541-d1e530"
+      ]
+    }
+  }
+}

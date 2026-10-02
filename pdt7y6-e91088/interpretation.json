@@ -1,0 +1,1104 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-02T00:00:00Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "7302be9",
+    "generation_method": "hierarchical",
+    "source_file": "cod-gpmsgd_pdt7y6-e91088.xml"
+  },
+  "pdt7y6-e91088": {
+    "summary": "Question 1 of distinction 37, opening a five-question treatment that moves from divine presence to the location and motion of angels, asks how God is in things, in three articles. (1) God is in all things: since his essence, power and operation are identical and every creature, made from nothing, needs immediate conservation, God's essence is intimately present to each thing, more intimate than its own form and matter, and creatures act only by divine power joined to them. (2) God is equally present to all things as bare presence, but unequally in them as to the effects of his influence, and of base things (devil, hell) he is said to be in them only insofar as they are creatures. (3) Lombard's five modes are defended: in all things by essence, presence and power; in the saints by indwelling grace; in Christ by union. These are best distinguished from the creature's side (procession from God, return to God, personal union), differ only in reason on God's side, and absorb other proposed modes.",
+    "claims": [
+      "God is present in all things by essence, since he conserves them immediately.",
+      "God is equally present to all but unequally in them by his effects.",
+      "God is in all things by essence, presence and power, in the saints by grace, and in Christ by union."
+    ],
+    "concepts": [
+      "omnipresence",
+      "conservation",
+      "divine simplicity",
+      "presence vs. influence",
+      "modes of divine presence",
+      "indwelling grace",
+      "hypostatic union"
+    ],
+    "_metadata": {
+      "level": "question",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pdt7y6-e91088-d1e104",
+        "pdt7y6-e91088-d1e120",
+        "pdt7y6-e91088-d1e136",
+        "pdt7y6-e91088-Dd1e148",
+        "pdt7y6-e91088-Dd1e448",
+        "pdt7y6-e91088-Dd1e585"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e104": {
+    "summary": "Rubric of question 1 of distinction 37: how God is in things.",
+    "claims": [],
+    "concepts": [
+      "presence of God in things"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e120": {
+    "summary": "Lays out the plan for the whole distinction in five principal questions: how God is in things; how God is everywhere; how he relates to place and motion; how a created spirit is in place; and how it moves from place to place.",
+    "claims": [
+      "Distinction 37 is treated in five questions, moving from divine presence to the location and motion of created spirits."
+    ],
+    "concepts": [
+      "presence of God",
+      "ubiquity",
+      "place and motion",
+      "location of angels"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e136": {
+    "summary": "Divides the first question into three articles: whether God is in all things, whether he is in them equally, and the modes in which he is in them.",
+    "claims": [],
+    "concepts": [
+      "presence of God in things",
+      "modes of presence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088",
+        "pdt7y6-e91088-Dd1e148",
+        "pdt7y6-e91088-Dd1e448",
+        "pdt7y6-e91088-Dd1e585"
+      ]
+    }
+  },
+  "pdt7y6-e91088-Dd1e148": {
+    "summary": "Article 1 asks whether God is in all things. Objections argue that a nobler effect survives its cause's absence, that the noblest agent can act at a distance, that created nature can persist on its own, that God is only an extrinsic cause, and that God and creatures cannot both be immediate causes of one effect. Peter answers that, because God's essence, power and operation are identical, and God must immediately conserve every creature (what is made from nothing cannot keep itself in being, and being cannot be conserved without its cause present), God's essence is present in all things. This follows both from the creature's need and from the Creator's infinity. In the replies, dependence on the first cause is no defect; action at a distance belongs to finite agents; created nature persists only through conservation; God is more intimate than a thing's intrinsic parts; and creatures act only by divine power conjoined to them, not as a rival agent.",
+    "claims": [
+      "God is present in all things by essence, power and operation.",
+      "Divine conservation requires God's immediate presence.",
+      "God is more intimate to things than their intrinsic principles.",
+      "Creatures act only through divine power conjoined to them."
+    ],
+    "concepts": [
+      "omnipresence",
+      "conservation",
+      "divine simplicity",
+      "concurrence",
+      "divine intimacy"
+    ],
+    "_metadata": {
+      "level": "article",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pdt7y6-e91088-d1e155",
+        "pdt7y6-e91088-d1e162",
+        "pdt7y6-e91088-d1e184",
+        "pdt7y6-e91088-d1e198",
+        "pdt7y6-e91088-d1e209",
+        "pdt7y6-e91088-d1e225",
+        "pdt7y6-e91088-d1e241",
+        "pdt7y6-e91088-d1e250",
+        "pdt7y6-e91088-d1e259",
+        "pdt7y6-e91088-d1e276",
+        "pdt7y6-e91088-d1e289",
+        "pdt7y6-e91088-d1e313",
+        "pdt7y6-e91088-d1e326",
+        "pdt7y6-e91088-d1e368",
+        "pdt7y6-e91088-d1e386",
+        "pdt7y6-e91088-d1e400",
+        "pdt7y6-e91088-d1e413",
+        "pdt7y6-e91088-d1e429"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e155": {
+    "summary": "Rubric of article 1: whether God is in all things.",
+    "claims": [],
+    "concepts": [
+      "divine omnipresence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e148"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e162": {
+    "summary": "First argument that God need not be in all his effects: a nobler agent produces a nobler effect, and an effect that can be preserved without its cause's presence is nobler (a seal's imprint in wax versus water); since created agents, natural like the sun or voluntary like a craftsman, produce such effects, God can all the more.",
+    "claims": [
+      "An effect that persists without its cause is nobler (argument).",
+      "God's effects need not depend on his presence (argument)."
+    ],
+    "concepts": [
+      "conservation",
+      "nobility of effects",
+      "causal dependence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e148"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e184": {
+    "summary": "Second argument: an agent that can act both where it is and where it is not (as the heavens act on lower things) is nobler than one that acts only when present; God is the noblest agent, so he can act in absence.",
+    "claims": [
+      "The noblest agent can act at a distance (argument)."
+    ],
+    "concepts": [
+      "action at a distance",
+      "celestial causation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e148"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e198": {
+    "summary": "Third argument: natura naturans is more powerful than natura naturata, and natura naturata gives its effects the power to persist by themselves, so natura naturans does so all the more.",
+    "claims": [
+      "God gives creatures the power to persist on their own (argument)."
+    ],
+    "concepts": [
+      "natura naturans",
+      "natura naturata",
+      "conservation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e148"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e209": {
+    "summary": "Fourth argument: the only intrinsic causes of a thing are form and matter; God is neither, but only exemplar, efficient and final cause, so he is an extrinsic, not an intrinsic, cause of things.",
+    "claims": [
+      "God is an extrinsic cause of things (argument)."
+    ],
+    "concepts": [
+      "intrinsic vs. extrinsic causes",
+      "four causes",
+      "exemplar cause"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e148"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e225": {
+    "summary": "Fifth argument: two agents cannot immediately produce the same effect, since one operation ends in one proper product; so God and a creature cannot both act immediately in the same effect, and God is not immediately present to all creaturely effects.",
+    "claims": [
+      "Two agents cannot be immediate causes of the same effect (argument)."
+    ],
+    "concepts": [
+      "concurrence",
+      "immediate causation",
+      "secondary causes"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e148"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e241": {
+    "summary": "First argument for the opposite: whatever is in one thing and not another has bounded being; God's being is unbounded, so he is in everything.",
+    "claims": [
+      "God's unbounded being entails presence in all things."
+    ],
+    "concepts": [
+      "infinity",
+      "omnipresence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e148"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e250": {
+    "summary": "Second argument: if God were in one thing and not another, either he could be there, and so would be movable, or he could not, and so would be impotent.",
+    "claims": [
+      "Absence from any thing would make God either mobile or impotent."
+    ],
+    "concepts": [
+      "immutability",
+      "omnipotence",
+      "omnipresence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e148"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e259": {
+    "summary": "Third argument: a primary cause influences its effect more than a secondary cause does; no effect can be kept in being without the immediate presence of its matter and form, so still less without the immediate presence of the first cause.",
+    "claims": [
+      "The first cause is more intimately required than matter and form."
+    ],
+    "concepts": [
+      "primary vs. secondary causes",
+      "conservation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e148"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e276": {
+    "summary": "Fourth argument, from the Commentator on the Liber de causis: between a cause acting through its essence and its product there is no intervening thing; God is such a cause of all things, so he is immediately present to everything.",
+    "claims": [
+      "A cause acting by its essence is immediately present to its effect."
+    ],
+    "concepts": [
+      "Liber de causis",
+      "immediacy",
+      "action through essence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e148"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e289": {
+    "summary": "Fifth argument: wherever there is immediate influence, agent and recipient must be immediately conjoined; God's influence on creatures is immediate, because what is made from nothing cannot preserve itself, let alone another, so every thing must be immediately preserved by its maker.",
+    "claims": [
+      "Immediate influence requires immediate conjunction.",
+      "Nothing made from nothing can preserve itself."
+    ],
+    "concepts": [
+      "conservation",
+      "creation ex nihilo",
+      "immediacy"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e148"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e313": {
+    "summary": "Sixth argument: every posterior cause acts by the power of a prior cause concurring in the work (the seed's power in the sun's, created power in creative power); since in God power and essence are identical, the divine essence must be present.",
+    "claims": [
+      "Secondary causes act by the power of the first cause.",
+      "Where God's power is, his essence is."
+    ],
+    "concepts": [
+      "concurrence",
+      "identity of essence and power",
+      "secondary causes"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e148"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e326": {
+    "summary": "Peter's determination. Because of God's total simplicity, his essence, power and operation are identical, so wherever his operation is, his power and essence are. God's operation is in all things, since no creature can preserve itself or another in being: whoever gives being immediately must also preserve it, and being cannot be preserved without the cause of being present, as motion cannot continue without a mover. This follows both from the creature's need (made from nothing, it cannot keep itself in being) and from the Creator's perfection (infinite and uncircumscribable, he is enclosed by no limit).",
+    "claims": [
+      "God's essence, power and operation are identical.",
+      "God conserves every creature immediately.",
+      "Conservation requires the presence of the cause of being.",
+      "God's essence is therefore present in all things."
+    ],
+    "concepts": [
+      "divine simplicity",
+      "conservation",
+      "omnipresence",
+      "creation ex nihilo",
+      "infinity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e148",
+        "pdt7y6-e91088-d1e259",
+        "pdt7y6-e91088-d1e289",
+        "pdt7y6-e91088-d1e313"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e368": {
+    "summary": "Reply to the first argument: an effect that survives its cause's absence is nobler among the effects of secondary causes, but not with respect to the first cause; it is ignoble to depend on many secondary causes, but not on the first cause.",
+    "claims": [
+      "Dependence on the first cause is no imperfection."
+    ],
+    "concepts": [
+      "dependence on the first cause",
+      "nobility of effects"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e148",
+        "pdt7y6-e91088-d1e162"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e386": {
+    "summary": "Reply to the second argument: acting in absence holds of a mediate agent of finite essence, power and operation, which cannot be present to many things at once, not of an immediate and infinite agent.",
+    "claims": [
+      "Only finite agents need to act at a distance."
+    ],
+    "concepts": [
+      "action at a distance",
+      "infinite agent"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e148",
+        "pdt7y6-e91088-d1e184"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e400": {
+    "summary": "Reply to the third argument: natura naturata's persistence is not its own gift but comes from the first cause that preserves it; abstracted from that cause, it is nothing that could preserve anything.",
+    "claims": [
+      "Created nature persists only through the first cause's conservation."
+    ],
+    "concepts": [
+      "natura naturata",
+      "conservation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e148",
+        "pdt7y6-e91088-d1e198"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e413": {
+    "summary": "Reply to the fourth argument: matter and form alone are intrinsic as parts, but the first cause that preserves them must be more intimate in acting; since his operation is his power and his power his essence, God's essence must be intimate to everything.",
+    "claims": [
+      "God is more intimate to things than their intrinsic parts.",
+      "God's essence is intimately present to every thing."
+    ],
+    "concepts": [
+      "divine intimacy",
+      "intrinsic vs. extrinsic causes",
+      "divine simplicity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e148",
+        "pdt7y6-e91088-d1e209",
+        "pdt7y6-e91088-d1e326"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e429": {
+    "summary": "Reply to the fifth argument: the impossibility holds of two agents of the same kind or genus, each acting by itself; but a created agent acts only by the power of the first cause joined to it, and that power is God's essence, so it acts only in conjunction with the divine essence.",
+    "claims": [
+      "God and creatures are not two co-ordinate agents of the same order.",
+      "Creatures act only by divine power conjoined to them."
+    ],
+    "concepts": [
+      "concurrence",
+      "primary and secondary causality",
+      "divine power"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e148",
+        "pdt7y6-e91088-d1e225",
+        "pdt7y6-e91088-d1e313"
+      ]
+    }
+  },
+  "pdt7y6-e91088-Dd1e448": {
+    "summary": "Article 2 asks whether God is equally in things. Arguments for equality appeal to the Liber de causis, to simplicity, and to the equal infinite distance of all creatures; arguments against appeal to the mode of the recipient, unequal participation, and the fact that God is not said to be in demons or hell. Peter distinguishes God's being in things as bare presence, by which he is equally in all, from his being in them as connoting the effects of his influence, by which he is unequally in them. Further, he is not equally said to be in all: of things that name a defect or baseness he is said to be present only with the qualification 'insofar as they are creatures'. This distinction answers all the arguments.",
+    "claims": [
+      "God is equally present to all things but unequally in them by his effects.",
+      "God is said to be in base things only with a qualification."
+    ],
+    "concepts": [
+      "presence vs. influence",
+      "participation",
+      "predication with qualification"
+    ],
+    "_metadata": {
+      "level": "article",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pdt7y6-e91088-d1e455",
+        "pdt7y6-e91088-d1e462",
+        "pdt7y6-e91088-d1e473",
+        "pdt7y6-e91088-d1e481",
+        "pdt7y6-e91088-d1e499",
+        "pdt7y6-e91088-d1e512",
+        "pdt7y6-e91088-d1e521",
+        "pdt7y6-e91088-d1e532",
+        "pdt7y6-e91088-d1e539",
+        "pdt7y6-e91088-d1e577"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e455": {
+    "summary": "Rubric of article 2: whether God is in things equally.",
+    "claims": [],
+    "concepts": [
+      "degrees of divine presence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e448"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e462": {
+    "summary": "First argument for equality: the Liber de causis says the first cause is related in the same way to all things, so it is equally in all.",
+    "claims": [
+      "The first cause relates to all things alike (authority)."
+    ],
+    "concepts": [
+      "Liber de causis",
+      "uniform relation of God to creatures"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e448"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e473": {
+    "summary": "Second argument: what is simple is wholly wherever it is, so God is wholly and hence equally in each thing.",
+    "claims": [
+      "A simple being is wholly present wherever it is."
+    ],
+    "concepts": [
+      "divine simplicity",
+      "totality of presence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e448"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e481": {
+    "summary": "Third argument: God is infinitely distant from every creature, and so equally, since one infinite is not greater than another; so he is equally related to, and equally in, all things.",
+    "claims": [
+      "The distance between God and any creature is equally infinite (argument)."
+    ],
+    "concepts": [
+      "infinite distance",
+      "Creator-creature relation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e448"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e499": {
+    "summary": "First argument against equality: whatever is received is in the recipient according to the recipient's mode; the capacity to receive God is not equal in all, so God is not equally in all.",
+    "claims": [
+      "Whatever is received is received according to the mode of the receiver."
+    ],
+    "concepts": [
+      "quidquid recipitur",
+      "receptivity",
+      "participation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e448"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e512": {
+    "summary": "Second argument: divine wisdom is not equally in all the wise, nor goodness in all the good, so neither is God's essence in all things equally.",
+    "claims": [
+      "Divine perfections are unequally shared (argument)."
+    ],
+    "concepts": [
+      "participation",
+      "divine attributes"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e448"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e521": {
+    "summary": "Third argument: whatever is participated differently by different things is not equally in them, as sunlight in illuminated things; divine being is differently participated.",
+    "claims": [
+      "Divine being is participated in different degrees."
+    ],
+    "concepts": [
+      "participation",
+      "light analogy"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e448"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e532": {
+    "summary": "Fourth argument: God is not said to be in demons or in hell, so he is not equally in all things.",
+    "claims": [
+      "God is not said to be in demons or hell (argument)."
+    ],
+    "concepts": [
+      "demons",
+      "hell",
+      "predication of presence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e448"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e539": {
+    "summary": "Peter's determination: God's being in things can be taken either as connoting only the relation of his presence to the creature or as connoting the effect of his influence on it. In the second sense God is unequally in creatures, since he produces unequal effects in them; in the first sense he is equally in all, but he is not equally said to be in all. Some creatures name a defect or baseness, spiritual, natural or common (devil, sinner, hell, latrine), and of these God is said to be in them not simply but with a qualification, insofar as they are creatures; of creatures that name a nature without a base condition, he is said to be in them simply.",
+    "claims": [
+      "As bare presence God is equally in all things.",
+      "As to the effects of his influence he is unequally in things.",
+      "God is said to be in base things only with a qualification, insofar as they are creatures."
+    ],
+    "concepts": [
+      "presence vs. influence",
+      "connotation",
+      "predication with qualification",
+      "participation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e448",
+        "pdt7y6-e91088-d1e462",
+        "pdt7y6-e91088-d1e499",
+        "pdt7y6-e91088-d1e532"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e577": {
+    "summary": "States that all arguments on both sides are answered by this distinction between presence and influence.",
+    "claims": [
+      "Both sets of arguments are resolved by distinguishing presence from influence."
+    ],
+    "concepts": [
+      "presence vs. influence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e448",
+        "pdt7y6-e91088-d1e539"
+      ]
+    }
+  },
+  "pdt7y6-e91088-Dd1e585": {
+    "summary": "Article 3 examines Lombard's modes of divine presence: three general ones (essence, presence, power) and two special ones (grace of adoption in the saints, grace of union in Christ). Objections argue from divine simplicity, the uniformity of God's relation, Augustine's longer list, appropriation, and the claims of wisdom, goodness and gratuitous grace to be modes. Peter reports a distinction by appropriation (essence; power to the Father; presence, as knowing, to the Son; grace to the Spirit; union to essence in a person), but prefers one from the creature's side: all creatures are from God, rational creatures return to him, and human nature alone is united to him in person. God is in Christ by union, in saints by indwelling grace, and in all things by presence (assisting from without), power (conserving and flowing in) and essence (penetrating from within). The modes are distinct in reason on God's side and in reality on the creature's; other modes, including presence as vestige and gratuitous grace, reduce to these.",
+    "claims": [
+      "The general modes are essence, presence and power; the special ones are indwelling grace and hypostatic union.",
+      "The modes are best distinguished from the creature's side.",
+      "The modes differ by reason in God and really in creatures."
+    ],
+    "concepts": [
+      "essence, presence, power",
+      "indwelling grace",
+      "hypostatic union",
+      "appropriation",
+      "exitus and reditus",
+      "connotation"
+    ],
+    "_metadata": {
+      "level": "article",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pdt7y6-e91088-d1e592",
+        "pdt7y6-e91088-d1e599",
+        "pdt7y6-e91088-d1e621",
+        "pdt7y6-e91088-d1e631",
+        "pdt7y6-e91088-d1e644",
+        "pdt7y6-e91088-d1e653",
+        "pdt7y6-e91088-d1e662",
+        "pdt7y6-e91088-d1e687",
+        "pdt7y6-e91088-d1e699",
+        "pdt7y6-e91088-d1e708",
+        "pdt7y6-e91088-d1e718",
+        "pdt7y6-e91088-d1e727",
+        "pdt7y6-e91088-d1e764",
+        "pdt7y6-e91088-d1e795",
+        "pdt7y6-e91088-d1e818",
+        "pdt7y6-e91088-d1e813",
+        "pdt7y6-e91088-d1e824",
+        "pdt7y6-e91088-d1e834",
+        "pdt7y6-e91088-d1e841",
+        "pdt7y6-e91088-d1e863",
+        "pdt7y6-e91088-d1e874",
+        "pdt7y6-e91088-d1e885"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e592": {
+    "summary": "Rubric of article 3: the modes in which God is in things.",
+    "claims": [],
+    "concepts": [
+      "modes of divine presence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e585"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e599": {
+    "summary": "Opening argument: the Master assigns three general modes in which God is in all things (by nature or essence, presence and power) and two special ones in rational creatures alone (by grace of adoption in the saints and grace of union in Christ), so God seems to be in things in these five modes only.",
+    "claims": [
+      "Lombard assigns three general and two special modes of divine presence."
+    ],
+    "concepts": [
+      "essence, presence, power",
+      "grace of adoption",
+      "grace of union"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e585"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e621": {
+    "summary": "First counter-argument: essence, presence and power are identical in God, so being in things by each is the same, and the three general modes collapse.",
+    "claims": [
+      "The identity of essence, presence and power in God threatens their distinction as modes (argument)."
+    ],
+    "concepts": [
+      "divine simplicity",
+      "essence, presence, power"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e585"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e631": {
+    "summary": "Second: the modes differ either on God's side, which is impossible since he relates the same way to all things, or on the creature's side, in which case there are many more modes of participation than five.",
+    "claims": [
+      "The modes cannot differ on God's side and would be indefinitely many on the creature's (argument)."
+    ],
+    "concepts": [
+      "distinction of modes",
+      "participation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e585"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e644": {
+    "summary": "Third: all things are in God in one way only, the divine way, so God is in things in one way only.",
+    "claims": [
+      "God is in things in one way, as they are in him in one way (argument)."
+    ],
+    "concepts": [
+      "esse rerum in Deo",
+      "modes of presence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e585"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e653": {
+    "summary": "Fourth: Dionysius says God is related to things in the same way, though they are not related to him in the same way, so he is in all things in one way.",
+    "claims": [
+      "God's relation to things is uniform (authority)."
+    ],
+    "concepts": [
+      "Dionysius",
+      "non-mutual relation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e585"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e662": {
+    "summary": "Fifth: Augustine in the Confessions says God is in himself as Alpha and Omega, in the world as creator and ruler, in the angel as beauty and savour, in the elect as liberator and helper, in the reprobate as terror and horror, so there are more than five modes.",
+    "claims": [
+      "Augustine lists more than five modes of divine presence (authority)."
+    ],
+    "concepts": [
+      "modes of presence",
+      "elect and reprobate"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e585"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e687": {
+    "summary": "Sixth: the modes are taken from God's relation to creatures, hence from some causality, either by a ratio common to the three persons (and then there are as many modes as kinds of effects, more than three) or by appropriation to the persons (but essence and presence are appropriated to no person).",
+    "claims": [
+      "Neither common causality nor appropriation yields exactly three modes (argument)."
+    ],
+    "concepts": [
+      "appropriation",
+      "Trinitarian causality",
+      "modes of presence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e585"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e699": {
+    "summary": "Seventh: God's essence connotes no effect in things and no relation to them, so God should not be said to be in things by essence.",
+    "claims": [
+      "Essence connotes no relation to creatures (argument)."
+    ],
+    "concepts": [
+      "connotation",
+      "divine essence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e585"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e708": {
+    "summary": "Eighth: God's goodness and wisdom cause things just as his power does, so he should equally be said to be in things by goodness and wisdom.",
+    "claims": [
+      "Goodness and wisdom should be modes of presence like power (argument)."
+    ],
+    "concepts": [
+      "divine attributes",
+      "power, wisdom, goodness"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e585"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e718": {
+    "summary": "Ninth: between nature and the grace of adoption there is gratuitous grace (gratia gratis data), which seems to call for an intermediate mode of presence.",
+    "claims": [
+      "Gratia gratis data seems to require a further mode (argument)."
+    ],
+    "concepts": [
+      "gratia gratis data",
+      "grace of adoption"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e585"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e727": {
+    "summary": "Peter's determination, part one: the modes can be distinguished from God's side and from the creature's. On God's side, some distinguish essence considered in itself, person in itself, and essence in person: being in things by essence is appropriated to the essence, by power to the Father, by presence (as 'prae-sentiens', knowing) to the Son, by grace to the Holy Spirit, and the last mode, by union, to essence in a person. They are better distinguished from the creature's side: all creatures are from God, only rational creatures return to God, and only human nature is personally united to God.",
+    "claims": [
+      "The modes can be distinguished by appropriation on God's side.",
+      "They are better distinguished on the creature's side: issuing from God, returning to God, union with God."
+    ],
+    "concepts": [
+      "appropriation",
+      "exitus and reditus",
+      "hypostatic union",
+      "modes of presence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e585",
+        "pdt7y6-e91088-d1e599",
+        "pdt7y6-e91088-d1e687"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e764": {
+    "summary": "Determination continued: by the last mode God is in Christ through union, by the second in the saints through indwelling grace, by the first in all things in three ways. Either he is within a thing's substance by essence, flows into its power by power, and cooperates with its operations by presence (since an agent must be present where it acts); or, better, he is in things by presence as assisting each from without, by power as preserving the whole thing and flowing into it, and by essence as penetrating its whole existence from within.",
+    "claims": [
+      "God is in Christ by union, in the saints by indwelling grace, and in all things by essence, presence and power.",
+      "By essence God penetrates the whole existence of a thing from within."
+    ],
+    "concepts": [
+      "essence, presence, power",
+      "indwelling grace",
+      "hypostatic union",
+      "divine intimacy"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e585",
+        "pdt7y6-e91088-d1e727"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e795": {
+    "summary": "Reply to the first counter-argument: though essence, presence and power are the same in God himself, they do not connote the same thing with respect to creatures.",
+    "claims": [
+      "The modes differ in what they connote in creatures."
+    ],
+    "concepts": [
+      "connotation",
+      "divine simplicity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e585",
+        "pdt7y6-e91088-d1e621"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e818": {
+    "summary": "Reply to the second: the modes differ in reason on God's side and in reality on the creature's side; there may be many other special modes, but these are the general ones.",
+    "claims": [
+      "The modes differ rationally in God and really in creatures.",
+      "The listed modes are general, not exhaustive of special modes."
+    ],
+    "concepts": [
+      "distinction of reason vs. real distinction",
+      "general vs. special modes"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e585",
+        "pdt7y6-e91088-d1e631"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e813": {
+    "summary": "Reply to the third: the cases are not alike, since everything is in a recipient according to the recipient's mode; the divine mode is one, but the creature's mode is many.",
+    "claims": [
+      "Presence follows the mode of the recipient, which is manifold in creatures."
+    ],
+    "concepts": [
+      "quidquid recipitur",
+      "esse rerum in Deo"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e585",
+        "pdt7y6-e91088-d1e644"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e824": {
+    "summary": "Reply to Dionysius: God relates to all things in the same way in reality, but differently in reason.",
+    "claims": [
+      "God's relation to creatures is uniform in reality, diverse in reason."
+    ],
+    "concepts": [
+      "relation of reason",
+      "Dionysius"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e585",
+        "pdt7y6-e91088-d1e653"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e834": {
+    "summary": "Reply to Augustine: his several modes reduce to these.",
+    "claims": [
+      "Augustine's modes reduce to the general modes."
+    ],
+    "concepts": [
+      "modes of presence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e585",
+        "pdt7y6-e91088-d1e662"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e841": {
+    "summary": "Reply to the sixth: in one way the modes are taken from the creature's side through causality, but only the general modes are expressed; in another way they are taken by appropriation, not in that essence or presence themselves are appropriated, but being in things by essence and by presence are.",
+    "claims": [
+      "What is appropriated is the mode of being-in, not the attribute itself."
+    ],
+    "concepts": [
+      "appropriation",
+      "causality"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e585",
+        "pdt7y6-e91088-d1e687"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e863": {
+    "summary": "Reply to the seventh: though essence itself connotes no effect, being in a creature by essence does.",
+    "claims": [
+      "Being-in-by-essence connotes an effect in the creature."
+    ],
+    "concepts": [
+      "connotation",
+      "divine essence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e585",
+        "pdt7y6-e91088-d1e699"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e874": {
+    "summary": "Reply to the eighth: the way God is in things by wisdom and goodness, through representation as a vestige, is contained in the mode of existence by nature.",
+    "claims": [
+      "Presence by wisdom and goodness as a vestige falls under presence by nature."
+    ],
+    "concepts": [
+      "vestigium",
+      "power, wisdom, goodness"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e585",
+        "pdt7y6-e91088-d1e708"
+      ]
+    }
+  },
+  "pdt7y6-e91088-d1e885": {
+    "summary": "Reply to the last: gratuitous grace reduces to the mode of existence by grace, as an incomplete disposition to a complete habit.",
+    "claims": [
+      "Gratia gratis data is an incomplete disposition toward sanctifying grace."
+    ],
+    "concepts": [
+      "gratia gratis data",
+      "disposition and habit"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91088-Dd1e585",
+        "pdt7y6-e91088-d1e718"
+      ]
+    }
+  }
+}

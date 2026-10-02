@@ -1,0 +1,1490 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-02T00:00:00Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "7302be9",
+    "generation_method": "hierarchical",
+    "source_file": "cod-gpmsgd_pdt7y6-e1e577.xml"
+  },
+  "pdt7y6-e1e577": {
+    "summary": "The single question of Peter of Tarantaise's prologue on theology as a science, in six articles. (1) Theology is broadly a science but properly wisdom, since it belongs to the higher reason illuminated by eternal laws, and its principles are articles of faith evident to the faithful. (2) It is one science by analogy of attribution, treating all things under the single ratio of their ordering to God, who is divine by essence while other things participate in divinity. (3) God is its subject of intention, and all divine things, especially the works of restoration through Christ, are its subject of execution. (4) It is an affective wisdom, a middle habit between speculative science and practical art, chiefly practical, named from savour rather than knowing. (5) It is necessary beyond philosophy because the supernatural end of the rational creature, immediate vision of God, cannot be known naturally; metaphysics treats beings' going out from God, theology their return, and the other sciences serve it as handmaids. (6) Reasoning suits theology when it is subordinated to faith and serves to clarify and defend it, not to prove or produce it.",
+    "claims": [
+      "Theology is properly wisdom and broadly a science.",
+      "Theology is one science by analogy of attribution to God.",
+      "God is theology's subject of intention.",
+      "Theology is an affective wisdom, chiefly practical.",
+      "Theology is necessary because humanity's supernatural end exceeds natural knowledge.",
+      "Reason in theology clarifies and defends faith but does not prove it."
+    ],
+    "concepts": [
+      "theology as science",
+      "scientia vs. sapientia",
+      "analogy",
+      "subiectum intentionis",
+      "affective knowledge",
+      "exitus and reditus",
+      "faith and reason"
+    ],
+    "_metadata": {
+      "level": "question",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pdt7y6-e1e577-d1e104",
+        "pdt7y6-e1e577-d1e111",
+        "pdt7y6-e1e577-Dd1e137",
+        "pdt7y6-e1e577-Dd1e387",
+        "pdt7y6-e1e577-Dd1e547",
+        "pdt7y6-e1e577-Dd1e812",
+        "pdt7y6-e1e577-Dd1e1062",
+        "pdt7y6-e1e577-Dd1e1245"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e104": {
+    "summary": "Rubric announcing the single question of the prologue, on the science of theology.",
+    "claims": [],
+    "concepts": [
+      "theology as science"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e111": {
+    "summary": "Lays out the plan of the prologue question: six articles on theology's genus (whether it is a science), its unity, its subject, its end (speculative or practical), its necessity alongside the other sciences, and its mode (whether inquiry by reasons and arguments suits it). The outline frames theology through the standard Aristotelian prologue topics.",
+    "claims": [
+      "The prologue treats theology's genus, unity, subject, end, necessity and mode."
+    ],
+    "concepts": [
+      "genus of a science",
+      "unity of a science",
+      "subject of a science",
+      "speculative vs. practical",
+      "necessity of theology",
+      "modus procedendi"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577",
+        "pdt7y6-e1e577-Dd1e137",
+        "pdt7y6-e1e577-Dd1e387",
+        "pdt7y6-e1e577-Dd1e547",
+        "pdt7y6-e1e577-Dd1e812",
+        "pdt7y6-e1e577-Dd1e1062",
+        "pdt7y6-e1e577-Dd1e1245"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-Dd1e137": {
+    "summary": "Article 1 asks whether theology is a science. Objections hold that science concerns only intelligibles and universals and proceeds from self-evident principles, whereas theology concerns historical singulars and believed articles. Peter answers with Augustine's distinction between the lower reason, which grasps natural causes fully and yields science, and the higher reason, which consults eternal laws under a light that exceeds it and yields wisdom; theology is broadly a science but properly wisdom. In the replies, theology is per se about divine intelligibles and uses sensibles only as illustration; it treats singulars as universal in one of four ways (predicating, exemplifying, signifying, causing); and its principles are the articles of faith, which are self-evident to the faithful as proper principles are to experts.",
+    "claims": [
+      "Theology is broadly a science and strictly wisdom.",
+      "Theology treats singulars as universal exemplars, signs or causes.",
+      "The articles of faith are theology's proper principles, evident to the faithful."
+    ],
+    "concepts": [
+      "scientia vs. sapientia",
+      "ratio inferior and superior",
+      "four modes of universality",
+      "articles of faith",
+      "self-evident principles"
+    ],
+    "_metadata": {
+      "level": "article",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pdt7y6-e1e577-d1e144",
+        "pdt7y6-e1e577-d1e151",
+        "pdt7y6-e1e577-d1e171",
+        "pdt7y6-e1e577-d1e181",
+        "pdt7y6-e1e577-d1e188",
+        "pdt7y6-e1e577-d1e197",
+        "pdt7y6-e1e577-d1e206",
+        "pdt7y6-e1e577-d1e219",
+        "pdt7y6-e1e577-d1e271",
+        "pdt7y6-e1e577-d1e311",
+        "pdt7y6-e1e577-d1e350"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e144": {
+    "summary": "Rubric of article 1: whether theology is a science.",
+    "claims": [],
+    "concepts": [
+      "theology as science"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e137"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e151": {
+    "summary": "First argument that theology is not a science: every science concerns intelligibles alone, but theology, as Augustine notes, concerns many things that are believed and never understood, such as historical narratives of singular human deeds.",
+    "claims": [
+      "Every science concerns only intelligibles (argument).",
+      "Theology concerns historical matters that are believed rather than understood (argument)."
+    ],
+    "concepts": [
+      "science",
+      "intelligibles",
+      "belief vs. understanding",
+      "history"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e137"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e171": {
+    "summary": "Major premise of the second argument against theology's being a science: following Aristotle's Metaphysics I, singulars are the province of experience, whereas art and science concern universals.",
+    "claims": [
+      "No science is of singulars (argument)."
+    ],
+    "concepts": [
+      "universal and singular",
+      "experience",
+      "science"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e137",
+        "pdt7y6-e1e577-d1e181"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e181": {
+    "summary": "Completes the second argument: theology is for the most part about singulars, so it is not a science.",
+    "claims": [
+      "Theology is mostly about singulars (argument)."
+    ],
+    "concepts": [
+      "singulars",
+      "science"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e137",
+        "pdt7y6-e1e577-d1e171"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e188": {
+    "summary": "Third argument: every science proceeds from self-evident principles, but theology proceeds from articles of belief that are not self-evident.",
+    "claims": [
+      "Theology's principles are credibilia, not self-evident (argument)."
+    ],
+    "concepts": [
+      "self-evident principles",
+      "credibilia",
+      "articles of faith"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e137"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e197": {
+    "summary": "First argument for the opposite, from Augustine's De Trinitate XIII: theology is a science of the things that pertain to the soul's salvation.",
+    "claims": [
+      "Theology is a science of what pertains to salvation (authority)."
+    ],
+    "concepts": [
+      "salvation",
+      "theology as science"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e137"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e206": {
+    "summary": "Second argument for the opposite: knowledge handed on by divine inspiration is more certain than knowledge by human reason, since inspiration cannot err as reasoning can; so theology is more certain than philosophy and has a better claim to be called a science.",
+    "claims": [
+      "Inspired knowledge is more certain than rational knowledge.",
+      "Theology is more certain than philosophy."
+    ],
+    "concepts": [
+      "certainty",
+      "divine inspiration",
+      "theology vs. philosophy"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e137"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e219": {
+    "summary": "Peter's determination. Using Augustine's definition of knowing as perceiving by reason, he distinguishes the lower reason, which takes its principles from the laws of natural causes and effects and grasps its objects fully, from the higher reason, which consults the eternal laws and receives a light that exceeds it (like sunlight to the eye), so that more must be believed than can be seen. A habit perfecting the lower way is properly science; one perfecting the higher way is properly wisdom (science of human things, wisdom of divine, per De Trinitate XIV). Theology is therefore broadly a science, but strictly and properly wisdom.",
+    "claims": [
+      "Theology can broadly be called a science but is properly wisdom.",
+      "Science perfects the lower reason; wisdom perfects the higher reason.",
+      "Divine things exceed reason's grasp, so more is believed than seen."
+    ],
+    "concepts": [
+      "ratio inferior and ratio superior",
+      "scientia vs. sapientia",
+      "eternal laws",
+      "illumination",
+      "faith"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e137",
+        "pdt7y6-e1e577-d1e151",
+        "pdt7y6-e1e577-d1e197"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e271": {
+    "summary": "Reply to the first argument. Theology, like every science, is first and per se about intelligibles, namely divine things; it treats sensible and historical matters only secondarily, as examples that manifest divine things, as mathematics illustrates intelligible figures with drawn ones for the learner's sake. Alternatively, the premise holds of human science, which rests on a limited light, not of divine science, which rests on an infused light able to manifest everything, even singulars in their proper natures.",
+    "claims": [
+      "Theology is per se about divine intelligibles and only secondarily about sensibles.",
+      "Sensible examples serve the learner's need, not the science's.",
+      "Theology rests on an infused divine light capable of manifesting singulars."
+    ],
+    "concepts": [
+      "per se vs. per posterius",
+      "exemplification",
+      "infused light",
+      "human vs. divine science"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e137",
+        "pdt7y6-e1e577-d1e151"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e311": {
+    "summary": "Reply to the second argument. Theology treats singulars not as singulars but as universal in virtue, by comparison to similar cases, and especially in their spiritual rather than literal sense (Abraham as a universal exemplar of believing). Something is universal in four ways: in predicating (species of individuals), in exemplifying (a last for shoes), in signifying (Jacob's two wives signifying the perfect in both lives), and in causing (God as universal cause of creation, Christ of redemption). Whatever theology treats is universal in one of these ways.",
+    "claims": [
+      "Theology treats singulars as universal in virtue, not as singular.",
+      "There are four modes of universality: predication, exemplification, signification, causation.",
+      "God is the universal cause of creation and Christ of redemption."
+    ],
+    "concepts": [
+      "four modes of universality",
+      "spiritual sense of Scripture",
+      "exemplar",
+      "universal causality"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e137",
+        "pdt7y6-e1e577-d1e171",
+        "pdt7y6-e1e577-d1e181"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e350": {
+    "summary": "Reply to the third argument. Self-evident principles are either common to all (the whole is greater than its part) or proper to a science and evident only to the learned (in everything below the first, being and what-it-is differ). Not every science proceeds from common principles; theology proceeds from the articles of faith, which are self-evident not to all but to the faithful, since within the genus of credibles everything else is proved through them and they through nothing else, though they can be clarified and defended by reasons.",
+    "claims": [
+      "Sciences may proceed from proper principles known only to the wise.",
+      "The articles of faith function as theology's first principles, evident to the faithful.",
+      "The articles are not proved but can be clarified and defended by reasons."
+    ],
+    "concepts": [
+      "self-evident principles",
+      "common vs. proper principles",
+      "articles of faith",
+      "esse and quod est"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e137",
+        "pdt7y6-e1e577-d1e188"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-Dd1e387": {
+    "summary": "Article 2 asks whether theology is one science, given that it treats things to be used and enjoyed, natural and moral matters, things and signs. Peter grounds its unity in analogy: a genus may be one univocally or analogically, and the strongest analogical unity is by reference to a cause that has by essence what its effects have by participation. Since divinity is in God essentially and in other things by participation, theology is one science, treating everything under the single ratio of being ordered to God, whereas human sciences treat the same materials under diverse rationes.",
+    "claims": [
+      "Theology is one science by analogical unity of attribution to God.",
+      "Theology treats all its matters under the one ratio of ordering to God."
+    ],
+    "concepts": [
+      "unity of a science",
+      "analogy",
+      "participation",
+      "formal ratio"
+    ],
+    "_metadata": {
+      "level": "article",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pdt7y6-e1e577-d1e394",
+        "pdt7y6-e1e577-d1e407",
+        "pdt7y6-e1e577-d1e423",
+        "pdt7y6-e1e577-d1e431",
+        "pdt7y6-e1e577-d1e440",
+        "pdt7y6-e1e577-d1e453",
+        "pdt7y6-e1e577-d1e462",
+        "pdt7y6-e1e577-d1e475",
+        "pdt7y6-e1e577-d1e530"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e394": {
+    "summary": "Rubric of article 2: whether theology is one science.",
+    "claims": [],
+    "concepts": [
+      "unity of a science"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e387"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e407": {
+    "summary": "First argument against theology's unity: according to the Posterior Analytics, a science is one when it concerns one determinate genus or subject, but theology treats both things to be enjoyed and things to be used, so it lacks a single subject-genus.",
+    "claims": [
+      "A science is one by having one subject-genus (argument).",
+      "Theology treats both frui and uti (argument)."
+    ],
+    "concepts": [
+      "unity of a science",
+      "subject-genus",
+      "uti and frui"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e387"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e423": {
+    "summary": "Second argument: among human sciences there is no single science of natural and moral matters, so there should not be one in divine matters either.",
+    "claims": [
+      "Natural and moral matters do not fall under one human science (argument)."
+    ],
+    "concepts": [
+      "natural vs. moral philosophy",
+      "unity of a science"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e387"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e431": {
+    "summary": "Third argument: there is no single science of things and signs, yet theology treats both together, so it is not one science.",
+    "claims": [
+      "Theology treats both res and signa (argument)."
+    ],
+    "concepts": [
+      "res and signa",
+      "unity of a science"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e387"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e440": {
+    "summary": "First argument for unity, from Augustine's De libero arbitrio: if the highest good is one, the truth in which it is seen must be one, and the ratio of the highest good is seen in no science but theology.",
+    "claims": [
+      "Theology alone discloses the highest good, so it is one (authority)."
+    ],
+    "concepts": [
+      "summum bonum",
+      "unity of truth"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e387"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e453": {
+    "summary": "Second argument for unity: what is said by way of superabundance belongs to one alone, so the highest and noblest science can only be one.",
+    "claims": [
+      "The highest science must be unique and so one."
+    ],
+    "concepts": [
+      "superlative predication",
+      "nobility of a science"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e387"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e462": {
+    "summary": "Third argument for unity: a science may treat things of different genera under one ratio, as metaphysics treats all beings under the ratio of being; theology treats everything under one ratio, the divine.",
+    "claims": [
+      "Theology treats all things under the single ratio of the divine."
+    ],
+    "concepts": [
+      "formal ratio of a science",
+      "metaphysics",
+      "ens"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e387"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e475": {
+    "summary": "Peter's determination. A genus is one either univocally (predicated equally of many) or analogically, by reference to one thing; analogy is either to a subject (healthy said of urine and medicine) or to a cause, and the latter either by unequal participation (being of substance and accident) or with the cause having it by essence and the effects by participation (being of created and uncreated being). Wherever there is one genus in any of these ways, there can be one science: natural science is one in the first way, medicine in the second, metaphysics in the third. Since theology treats divine things, and divinity is in God by essence and in others by participation, theology is one science in the last way. This also answers the first argument about things to be enjoyed and used.",
+    "claims": [
+      "Unity of genus may be univocal or analogical.",
+      "Analogical unity by reference to a cause that possesses by essence what effects possess by participation suffices for one science.",
+      "Theology is one science because divinity is in God by essence and in creatures by participation."
+    ],
+    "concepts": [
+      "univocity",
+      "analogy",
+      "participation",
+      "unity of a science",
+      "analogy of attribution"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e387",
+        "pdt7y6-e1e577-d1e407",
+        "pdt7y6-e1e577-d1e462"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e530": {
+    "summary": "Replies to the second and third arguments: human science treats natural and moral things, or things and signs, under their own diverse rationes and so is not one; theology treats them under one divine ratio, as ordered to God, its principal concern, and so is one.",
+    "claims": [
+      "Theology is one because it treats diverse things as ordered to God."
+    ],
+    "concepts": [
+      "formal ratio",
+      "ordering to God",
+      "unity of a science"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e387",
+        "pdt7y6-e1e577-d1e423",
+        "pdt7y6-e1e577-d1e431",
+        "pdt7y6-e1e577-d1e475"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-Dd1e547": {
+    "summary": "Article 3 asks whether God is theology's subject. Etymology and the nobility of subjects suggest yes; Boethius on simple form, the non-coincidence of matter and end, and authorities naming the works of restoration, the whole Christ, or things and signs as theology's matter suggest no. Peter reviews and rejects a view built on substance, power and operation (God, Christ, works of restoration) and a view built on root principle, integral whole and universal genus. He adopts the distinction between the subject of intention, principally treated and giving the science its unity and name, and the subject of execution, everything treated in it: God is the subject of intention, all divine things as participating divine being are the subject of execution. Being a subject of doctrine places nothing in God, and the object of the highest science, like that of charity, can coincide with its end; the works of restoration are the most proximate means of manifesting God as beatifying good.",
+    "claims": [
+      "God is the subject of intention of theology.",
+      "Created and restored things are theology's subject of execution.",
+      "The object of the highest science can coincide with its end."
+    ],
+    "concepts": [
+      "subiectum intentionis",
+      "subiectum executionis",
+      "works of restoration",
+      "materia circa quam",
+      "divine simplicity"
+    ],
+    "_metadata": {
+      "level": "article",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pdt7y6-e1e577-d1e554",
+        "pdt7y6-e1e577-d1e561",
+        "pdt7y6-e1e577-d1e581",
+        "pdt7y6-e1e577-d1e593",
+        "pdt7y6-e1e577-d1e600",
+        "pdt7y6-e1e577-d1e624",
+        "pdt7y6-e1e577-d1e635",
+        "pdt7y6-e1e577-d1e644",
+        "pdt7y6-e1e577-d1e653",
+        "pdt7y6-e1e577-d1e752",
+        "pdt7y6-e1e577-d1e765",
+        "pdt7y6-e1e577-d1e785"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e554": {
+    "summary": "Rubric of article 3: whether God is the subject of theology.",
+    "claims": [],
+    "concepts": [
+      "subject of theology"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e547"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e561": {
+    "summary": "First argument that God is the subject: theology is named from 'theos' (God) and 'logos' (discourse); if it is called so because it comes from God, every science would be theology, which is false, so it must be because it is about God, and God is its subject.",
+    "claims": [
+      "Theology is so named because it is about God (argument)."
+    ],
+    "concepts": [
+      "etymology of theologia",
+      "subject of a science"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e547"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e581": {
+    "summary": "Second argument: according to Aristotle in De anima, a science is more honorable for having a more honorable subject, so the most honorable science has the most honorable subject, God.",
+    "claims": [
+      "The nobility of a science follows the nobility of its subject."
+    ],
+    "concepts": [
+      "nobility of a science",
+      "subject of a science"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e547"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e593": {
+    "summary": "First argument against, from Boethius's De Trinitate: a simple form cannot be a subject of anything, and God is a simple form.",
+    "claims": [
+      "A simple form cannot be a subject (authority)."
+    ],
+    "concepts": [
+      "divine simplicity",
+      "subject"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e547"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e600": {
+    "summary": "Second argument against: although efficient, formal and final causes coincide in substance (Physics II), matter and end never coincide, since matter is most imperfect and the end is best. God is the end of theology ('Christ is the end of the law', Romans 10), so he cannot be its matter or subject.",
+    "claims": [
+      "Matter and end cannot coincide (argument).",
+      "God is theology's end and therefore not its matter (argument)."
+    ],
+    "concepts": [
+      "four causes",
+      "matter and end",
+      "subject as matter"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e547"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e624": {
+    "summary": "Third argument against, from Hugh of St Victor: the matter of other sciences is the works of foundation (creation), that of theology the works of restoration, not God.",
+    "claims": [
+      "Theology's matter is the works of restoration (authority)."
+    ],
+    "concepts": [
+      "opera conditionis",
+      "opera restaurationis",
+      "Hugh of St Victor"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e547"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e635": {
+    "summary": "Fourth argument against: a gloss on the first Psalm says that the matter of Scripture is the whole Christ, head with members.",
+    "claims": [
+      "Scripture's matter is the whole Christ (authority)."
+    ],
+    "concepts": [
+      "totus Christus",
+      "matter of Scripture"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e547"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e644": {
+    "summary": "Fifth argument against: Augustine and the Master say theology concerns things and signs, things to be used and enjoyed, hence everything rather than God alone.",
+    "claims": [
+      "Theology concerns all things (argument)."
+    ],
+    "concepts": [
+      "res and signa",
+      "uti and frui"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e547"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e653": {
+    "summary": "Peter's determination, reviewing three views. (1) Some, following the triad substance, power and operation, make God the subject in the first sense, Christ (the Father's power) in the second, and the works of restoration in the third, so the whole subject is the divine substance manifested through Christ in the works of repair; Peter objects that all beings are works of God and Christ, so all would be theology's subject. (2) Others take the subject as that to which everything is reduced, as to a root principle, an integral whole, or a universal genus (point, body, continuous quantity in geometry), making God, Christ and divine being the subject in these respective ways; but a principle is not usually called a subject, since conclusions are proved of subjects through principles. (3) Peter adopts the view that distinguishes the strict subject of intention, which the science principally treats, to which all else is reduced and by which it is distinguished and titled, from the broad subject of execution, everything treated in it (the house versus the wood and stones of building). God is the subject of intention; all divine things, as participating divine being, are the subject of execution.",
+    "claims": [
+      "Making Christ's works the subject would make every being theology's subject.",
+      "A principle is not properly called a subject.",
+      "God is theology's subject of intention.",
+      "All divine things, as participating divine being, are its subject of execution."
+    ],
+    "concepts": [
+      "subiectum intentionis",
+      "subiectum executionis",
+      "subject of a science",
+      "substance, power, operation",
+      "works of restoration",
+      "participation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e547",
+        "pdt7y6-e1e577-d1e624",
+        "pdt7y6-e1e577-d1e635",
+        "pdt7y6-e1e577-d1e644"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e752": {
+    "summary": "Reply to the Boethian argument: the principle that a simple form cannot be a subject concerns a subject of nature, not a subject of teaching; being a subject of doctrine posits nothing in God but only in the teacher, as praising Caesar posits nothing in Caesar.",
+    "claims": [
+      "Being a subject of a doctrine implies nothing in the thing itself."
+    ],
+    "concepts": [
+      "subject of nature vs. subject of doctrine",
+      "extrinsic denomination",
+      "divine simplicity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e547",
+        "pdt7y6-e1e577-d1e593"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e765": {
+    "summary": "Reply to the argument from matter and end: matter 'out of which', a part of the thing and subject of natural operation, cannot coincide with the end; but matter 'about which', the object of the soul's operations, can. Thus charity, the highest virtue, has the same thing as object and end, and so does theology, the highest science.",
+    "claims": [
+      "Matter ex qua cannot coincide with the end, but matter circa quam can.",
+      "In the highest virtue and science, object and end coincide."
+    ],
+    "concepts": [
+      "materia ex qua",
+      "materia circa quam",
+      "object and end",
+      "charity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e547",
+        "pdt7y6-e1e577-d1e600"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e785": {
+    "summary": "Reply to the argument from the works of restoration: theology is about God alone as subject of intention, whose properties it aims to make known, and about other things as subject of execution, through which he is made known. Some of these are more closely ordered to manifesting God as the beatifying highest good (the end of the rational creature), namely the works of restoration, and others more remotely; hence the gloss calls Christ or the works of restoration the matter of Scripture. The remaining arguments are answered by what was said.",
+    "claims": [
+      "God alone is the subject of intention; other things are subjects of execution.",
+      "The works of restoration are more proximately ordered to manifesting God as beatifying good."
+    ],
+    "concepts": [
+      "subiectum intentionis",
+      "subiectum executionis",
+      "works of restoration",
+      "beatitude"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e547",
+        "pdt7y6-e1e577-d1e624",
+        "pdt7y6-e1e577-d1e635",
+        "pdt7y6-e1e577-d1e653"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-Dd1e812": {
+    "summary": "Article 4 asks whether theology is speculative, practical or both. Peter distinguishes three perfections of the intellect: in itself (purely speculative science), as extended to work (purely practical art), and as extended to affection (a middle habit, wisdom). Theology is this affective wisdom, partly speculative and partly practical but chiefly practical, because it concerns the ultimate end containing the ends of all sciences, God as first power, truth and goodness. The replies distinguish metaphysical from ecclesiastical theology (after Hugh), restrict the objections to purely practical sciences, contrast philosophical sapientia (from sapere) with theological sapientia (from sapor), contrast human positive law with universal divine law, and say a habit is named from its proximate rather than its remote end.",
+    "claims": [
+      "Theology is an affective wisdom, neither purely speculative nor purely practical.",
+      "Theology is principally practical in the sense of ordering affection to God.",
+      "Theological sapientia is named from savour."
+    ],
+    "concepts": [
+      "affective knowledge",
+      "speculative vs. practical",
+      "sapientia a sapore",
+      "theologia mundana vs. ecclesiastica",
+      "ultimate end"
+    ],
+    "_metadata": {
+      "level": "article",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pdt7y6-e1e577-d1e819",
+        "pdt7y6-e1e577-d1e826",
+        "pdt7y6-e1e577-d1e845",
+        "pdt7y6-e1e577-d1e855",
+        "pdt7y6-e1e577-d1e873",
+        "pdt7y6-e1e577-d1e882",
+        "pdt7y6-e1e577-d1e889",
+        "pdt7y6-e1e577-d1e900",
+        "pdt7y6-e1e577-d1e907",
+        "pdt7y6-e1e577-d1e993",
+        "pdt7y6-e1e577-d1e1009",
+        "pdt7y6-e1e577-d1e1016",
+        "pdt7y6-e1e577-d1e1025",
+        "pdt7y6-e1e577-d1e1032"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e819": {
+    "summary": "Rubric of article 4: whether theology is speculative or practical.",
+    "claims": [],
+    "concepts": [
+      "speculative vs. practical"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e812"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e826": {
+    "summary": "First argument that theology is speculative: Boethius divides speculative science into theology (abstract and without motion), mathematics, and natural science, so theology is speculative.",
+    "claims": [
+      "Boethius counts theology among the speculative sciences (authority)."
+    ],
+    "concepts": [
+      "division of the speculative sciences",
+      "Boethius"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e812"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e845": {
+    "summary": "Second argument: according to Metaphysics I the noblest science is for its own sake, while practical sciences are for the sake of a work; theology, the noblest, is therefore speculative.",
+    "claims": [
+      "The noblest science is pursued for its own sake (argument)."
+    ],
+    "concepts": [
+      "knowledge for its own sake",
+      "nobility of a science"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e812"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e855": {
+    "summary": "Third argument: Ethics VI divides the speculative habits into understanding (of principles), science (of conclusions) and wisdom (of both, at the highest level); theology is wisdom and so speculative.",
+    "claims": [
+      "Wisdom is a speculative habit, and theology is wisdom (argument)."
+    ],
+    "concepts": [
+      "intellectual virtues",
+      "intellectus, scientia, sapientia"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e812"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e873": {
+    "summary": "First argument that theology is practical: according to Ethics VI practical knowledge aims not at itself but at our becoming good, and that is theology's aim.",
+    "claims": [
+      "Theology aims at making us good (argument)."
+    ],
+    "concepts": [
+      "practical knowledge",
+      "moral goodness"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e812"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e882": {
+    "summary": "Second argument: the science of laws is practical, and theology is a science of laws, the old and the new.",
+    "claims": [
+      "Theology is a science of law and so practical (argument)."
+    ],
+    "concepts": [
+      "law",
+      "Old and New Law",
+      "practical science"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e812"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e889": {
+    "summary": "First argument that theology is both: the end of speculative science is truth and of practical science is work (Metaphysics I), and theology has both ends, since it treats faith and morals.",
+    "claims": [
+      "Theology aims at both truth and action (argument)."
+    ],
+    "concepts": [
+      "truth and work as ends",
+      "faith and morals"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e812"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e900": {
+    "summary": "Second argument that it is both: theology teaches both the contemplative and the active way of life.",
+    "claims": [
+      "Theology teaches both contemplative and active life (argument)."
+    ],
+    "concepts": [
+      "vita contemplativa",
+      "vita activa"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e812"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e907": {
+    "summary": "Peter's determination. Science perfects the human intellect, which can be considered in itself (ordered to cognition), as extended to affection (exciting love), or as extended to external work (directing operation). These call for three habits: purely speculative cognition (properly science), purely practical cognition (properly art), and a middle cognition partly speculative and partly practical (properly wisdom), which completes speculation and is the first though not proximate principle of action, containing both but chiefly the practical. Theology is this middle habit: it concerns the ultimate end of all sciences, which alone perfects the intellective soul and contains the other ends, since God is (per Plato, via Augustine) the ratio of understanding, the cause of subsisting and the order of living. As Jerome notes, Scripture treats nature, morals and logic; for in God are the first power (principle and end of all motion), the first truth (of all speculation) and the first goodness (of all moral action).",
+    "claims": [
+      "The intellect is perfected in itself, as extended to affection, and as extended to work.",
+      "Theology is a middle, affective habit, properly wisdom, chiefly practical.",
+      "Theology concerns the ultimate end that contains the ends of all sciences.",
+      "God is first power, first truth and first goodness."
+    ],
+    "concepts": [
+      "affective knowledge",
+      "scientia, ars, sapientia",
+      "speculative vs. practical",
+      "ultimate end",
+      "sapientia"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e812",
+        "pdt7y6-e1e577-d1e826",
+        "pdt7y6-e1e577-d1e873",
+        "pdt7y6-e1e577-d1e889"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e993": {
+    "summary": "Reply to the Boethian argument: following Hugh of St Victor, there are two theologies, a worldly one (metaphysics), which investigates God by worldly reasons and is purely speculative, and an ecclesiastical one, which investigates by divine reasons and is both speculative and practical.",
+    "claims": [
+      "Metaphysical theology is purely speculative; ecclesiastical theology is both."
+    ],
+    "concepts": [
+      "theologia mundana",
+      "theologia ecclesiastica",
+      "metaphysics"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e812",
+        "pdt7y6-e1e577-d1e826"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e1009": {
+    "summary": "Reply to the second argument: that practical sciences are not for their own sake is true only of purely practical sciences.",
+    "claims": [
+      "Only purely practical sciences are not for their own sake."
+    ],
+    "concepts": [
+      "purely practical science"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e812",
+        "pdt7y6-e1e577-d1e845"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e1016": {
+    "summary": "Reply to the third argument: the Philosopher derives wisdom (sapientia) from knowing (sapere), the theologian from savour (sapor), so theological wisdom is an affective, tasting knowledge rather than a purely speculative habit.",
+    "claims": [
+      "Theological wisdom is named from taste and is affective, not merely speculative."
+    ],
+    "concepts": [
+      "sapientia a sapore",
+      "affective knowledge"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e812",
+        "pdt7y6-e1e577-d1e855"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e1025": {
+    "summary": "Reply to the first argument for practicality: it speaks of purely practical knowledge.",
+    "claims": [
+      "The argument holds only of purely practical knowledge."
+    ],
+    "concepts": [
+      "purely practical science"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e812",
+        "pdt7y6-e1e577-d1e873"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e1032": {
+    "summary": "Reply to the argument from law: human law concerns the determinate order of person to person through external acts, while divine law concerns the universal order of a human being in himself, to God and to neighbor, across all powers and both interior and exterior acts, so the comparison fails. Nor is the position refuted by the objection that theology's end is the vision of God hereafter and a habit is named from its end: that end is remote and common, while denomination follows the proximate and proper end.",
+    "claims": [
+      "Divine law orders the whole person, interior and exterior acts alike.",
+      "A habit is named from its proximate and proper end, not its remote end."
+    ],
+    "concepts": [
+      "divine vs. human law",
+      "proximate vs. remote end",
+      "beatific vision"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e812",
+        "pdt7y6-e1e577-d1e882",
+        "pdt7y6-e1e577-d1e907"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-Dd1e1062": {
+    "summary": "Article 5 asks whether theology is necessary in addition to philosophy. Against: philosophy covers every genus of being and perfects both intellects, and nature suffices for animals. Peter argues that the rational creature's ultimate end is immediate vision of God, reached by grace and merit, which nature cannot make known because natural effects are disproportionate to the first cause. A higher science is therefore needed, treating God as end of the rational creature: metaphysics considers beings as they go out from God, theology as they return to him. As science of the ultimate end, theology is the noblest and uses the others as handmaids. Philosophy treats beings under the general ratio of being, not as reduced to God as final cause; its perfection is natural, not simple; and man's nobility puts his perfection beyond nature.",
+    "claims": [
+      "Theology is necessary because humans' supernatural end cannot be known naturally.",
+      "Metaphysics treats exitus, theology reditus.",
+      "Theology is the queen of the sciences, which serve it."
+    ],
+    "concepts": [
+      "necessity of revelation",
+      "beatific vision",
+      "exitus and reditus",
+      "nature and grace",
+      "ancillae theologiae"
+    ],
+    "_metadata": {
+      "level": "article",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pdt7y6-e1e577-d1e1069",
+        "pdt7y6-e1e577-d1e1076",
+        "pdt7y6-e1e577-d1e1089",
+        "pdt7y6-e1e577-d1e1127",
+        "pdt7y6-e1e577-d1e1197",
+        "pdt7y6-e1e577-d1e1215",
+        "pdt7y6-e1e577-d1e1228"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e1069": {
+    "summary": "Rubric of article 5: whether theology is necessary.",
+    "claims": [],
+    "concepts": [
+      "necessity of theology"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e1062"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e1076": {
+    "summary": "First argument that theology is superfluous: philosophy, by its divisions, already gives science of every kind of being, divine and human, things and signs.",
+    "claims": [
+      "Philosophy covers every genus of being (argument)."
+    ],
+    "concepts": [
+      "sufficiency of philosophy",
+      "division of philosophy"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e1062"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e1089": {
+    "summary": "Second and third arguments against necessity, followed by the first counter-argument. Second: the end of science is perfecting the speculative or practical intellect, and philosophy provides both, in demonstrative and moral science. Third: nature suffices for other animals to reach their perfection, so all the more for nobler man, who needs no science he cannot acquire naturally. Against: Augustine says theology concerns what pertains to the soul's salvation, which is supremely necessary.",
+    "claims": [
+      "Philosophy perfects both speculative and practical intellect (argument).",
+      "If nature suffices for animals it should suffice for man (argument).",
+      "Theology concerns salvation and is therefore necessary (authority)."
+    ],
+    "concepts": [
+      "perfection of the intellect",
+      "sufficiency of nature",
+      "salvation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e1062"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e1127": {
+    "summary": "Second counter-argument and Peter's determination. An effect not proportioned to its cause cannot lead to sufficient knowledge of it, and all natural effects are so related to the first cause, so another science is needed. Reply: the rational creature's end is likeness to its Creator through contemplation, which is either through creatures, where God shines obscurely (the natural speculation that is the end of philosophy), or through his essence, by immediate vision in the future, reached through grace and merit (the ultimate end). Since one cannot tend to an end without knowing it, and nature cannot teach how infinite light infuses itself into a finite intellect, a higher science is needed, concerning God as end of the rational creature. Worldly theology treats beings as they issue from God; divine theology treats them as they return to him as end. Being about the ultimate end, the noblest cause, it is the noblest science, and as supreme it uses the others as handmaids.",
+    "claims": [
+      "Natural effects are disproportionate to the first cause and cannot yield sufficient knowledge of it.",
+      "The ultimate end of the rational creature is immediate vision of God.",
+      "One must know the end to tend toward it, and nature cannot reveal this end.",
+      "Metaphysics treats the exitus of beings from God, theology their reditus.",
+      "Theology is the noblest science and the others are its handmaids."
+    ],
+    "concepts": [
+      "exitus and reditus",
+      "beatific vision",
+      "disproportion of effect to cause",
+      "grace and merit",
+      "ancillae theologiae",
+      "final causality"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e1062",
+        "pdt7y6-e1e577-d1e1076",
+        "pdt7y6-e1e577-d1e1089"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e1197": {
+    "summary": "Reply to the first argument: philosophy gives knowledge of every genus of being under the general ratio of being, but not in every mode, specifically not in the nobler mode of their reduction to God as final cause.",
+    "claims": [
+      "Philosophy does not treat beings as reduced to God as final cause."
+    ],
+    "concepts": [
+      "final cause",
+      "modes of knowing"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e1062",
+        "pdt7y6-e1e577-d1e1076"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e1215": {
+    "summary": "Reply to the second argument: philosophy yields a perfection of the intellect sufficient according to nature, but not perfection simply nor easily, since nature is imperfect without the gift of grace.",
+    "claims": [
+      "Nature without grace does not yield perfection simply."
+    ],
+    "concepts": [
+      "nature and grace",
+      "perfection of the intellect"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e1062",
+        "pdt7y6-e1e577-d1e1089"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e1228": {
+    "summary": "Reply to the argument from animals: the inference runs the wrong way. Because man is incomparably nobler, his perfection transcends his genus, and so nature does not suffice for it as it does for other animals.",
+    "claims": [
+      "Man's perfection transcends his nature, so nature alone cannot attain it."
+    ],
+    "concepts": [
+      "supernatural end",
+      "human dignity",
+      "nature and grace"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e1062",
+        "pdt7y6-e1e577-d1e1089"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-Dd1e1245": {
+    "summary": "Article 6 asks whether inquiry by reasons and arguments suits theology. Scriptural and patristic warnings (Ecclesiasticus, Damascene, Ambrose, Gregory) oppose it; Richard of St Victor's necessary reasons, the duty of defending the faith, and Augustine's endorsement of Catholic reasons favour it. Peter distinguishes modest inquiry, which subordinates reason to faith, from presumptuous inquiry, which sets reason above it. The former suits theology, not to prove the faith but to clarify and defend it, especially toward unbelievers; the authorities forbid only rash inquiry, reasoning contrary to Scripture, or reasoning that produces faith and so voids its merit.",
+    "claims": [
+      "Reason subordinated to faith belongs in theology.",
+      "Reasons clarify and defend the faith but do not prove or produce it."
+    ],
+    "concepts": [
+      "faith and reason",
+      "modest vs. presumptuous inquiry",
+      "merit of faith",
+      "apologetics"
+    ],
+    "_metadata": {
+      "level": "article",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pdt7y6-e1e577-d1e1252",
+        "pdt7y6-e1e577-d1e1265",
+        "pdt7y6-e1e577-d1e1276",
+        "pdt7y6-e1e577-d1e1288",
+        "pdt7y6-e1e577-d1e1295",
+        "pdt7y6-e1e577-d1e1306",
+        "pdt7y6-e1e577-d1e1319",
+        "pdt7y6-e1e577-d1e1330",
+        "pdt7y6-e1e577-d1e1341",
+        "pdt7y6-e1e577-d1e1358",
+        "pdt7y6-e1e577-d1e1365",
+        "pdt7y6-e1e577-d1e1378",
+        "pdt7y6-e1e577-d1e1389"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e1252": {
+    "summary": "Rubric of the last article: whether inquiry by reasons and arguments suits theology.",
+    "claims": [],
+    "concepts": [
+      "method of theology"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e1245"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e1265": {
+    "summary": "First argument against rational inquiry: Ecclesiasticus warns against seeking things higher than oneself; divine things are higher than us, so they should not be investigated by reason.",
+    "claims": [
+      "Divine things should not be searched out by reason (argument)."
+    ],
+    "concepts": [
+      "limits of reason",
+      "curiositas"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e1245"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e1276": {
+    "summary": "Second argument: John Damascene says we receive and venerate what the prophets and evangelists have handed down, seeking nothing beyond it; reasons and arguments go beyond it.",
+    "claims": [
+      "Nothing should be sought beyond Scripture (authority)."
+    ],
+    "concepts": [
+      "sufficiency of Scripture",
+      "tradition"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e1245"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e1288": {
+    "summary": "Third argument, from Ambrose: remove reasoning where faith is sought; fishermen are believed, not dialecticians.",
+    "claims": [
+      "Faith excludes dialectical reasoning (authority)."
+    ],
+    "concepts": [
+      "faith and dialectic"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e1245"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e1295": {
+    "summary": "Fourth argument, from Gregory: faith has no merit when human reason provides proof, so rational inquiry weakens the merit of faith and is bad.",
+    "claims": [
+      "Rational proof destroys the merit of faith (authority)."
+    ],
+    "concepts": [
+      "merit of faith",
+      "faith and reason"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e1245"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e1306": {
+    "summary": "First argument for rational inquiry: divine things are eternal and so necessary, and as Richard of St Victor says, there are necessary reasons for every necessary truth; it is not bad to investigate what is.",
+    "claims": [
+      "Necessary truths admit necessary reasons (authority)."
+    ],
+    "concepts": [
+      "rationes necessariae",
+      "Richard of St Victor"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e1245"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e1319": {
+    "summary": "Second argument: defending the faith against adversaries is praiseworthy, and since they do not accept authorities, it must be done with reasons.",
+    "claims": [
+      "Defending the faith against unbelievers requires reasons."
+    ],
+    "concepts": [
+      "apologetics",
+      "authority vs. reason"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e1245"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e1330": {
+    "summary": "Third argument, from Augustine's De Trinitate I: against garrulous reasoners, more proud than capable, Catholic reasons and fitting likenesses must be used.",
+    "claims": [
+      "Reasons and likenesses should be used against proud reasoners (authority)."
+    ],
+    "concepts": [
+      "apologetics",
+      "similitudines"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e1245"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e1341": {
+    "summary": "Peter's determination: inquiry by reasons is either modest, subordinating reason to faith, or presumptuous, setting reason above faith. The first suits theology, not to prove the faith but to clarify it with respect to unbelievers; the second does not.",
+    "claims": [
+      "Reason subordinated to faith is fitting in theology; reason set above faith is not.",
+      "Reasons serve to clarify the faith, not to prove it."
+    ],
+    "concepts": [
+      "faith and reason",
+      "modest vs. presumptuous inquiry",
+      "declaratio fidei"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e1245",
+        "pdt7y6-e1e577-d1e1265",
+        "pdt7y6-e1e577-d1e1319"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e1358": {
+    "summary": "Reply to the Ecclesiasticus argument: it speaks of rash inquiry.",
+    "claims": [
+      "Scripture forbids only rash inquiry."
+    ],
+    "concepts": [
+      "temeraria inquisitio"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e1245",
+        "pdt7y6-e1e577-d1e1265",
+        "pdt7y6-e1e577-d1e1341"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e1365": {
+    "summary": "Reply to Damascene: 'beyond' Scripture means what is neither explicitly nor implicitly contained in it, or what contradicts it, not what agrees with it, as 'another gospel' means a contrary one (according to the Gloss).",
+    "claims": [
+      "Only what is absent from or contrary to Scripture is 'beyond' it."
+    ],
+    "concepts": [
+      "implicit content of Scripture",
+      "consonance with Scripture"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e1245",
+        "pdt7y6-e1e577-d1e1276"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e1378": {
+    "summary": "Reply to Ambrose: reasoning must cease when it comes to producing faith, since that would exclude merit, but not when it comes to clarifying and defending it.",
+    "claims": [
+      "Reason may clarify and defend faith but not produce it."
+    ],
+    "concepts": [
+      "merit of faith",
+      "declaratio and defensio fidei"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e1245",
+        "pdt7y6-e1e577-d1e1288"
+      ]
+    }
+  },
+  "pdt7y6-e1e577-d1e1389": {
+    "summary": "Reply to Gregory: he speaks of experience and reason that produce faith, not of reason that supports and assists it.",
+    "claims": [
+      "Reason that assists faith does not remove its merit."
+    ],
+    "concepts": [
+      "merit of faith",
+      "ratio adminiculans"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e1e577-Dd1e1245",
+        "pdt7y6-e1e577-d1e1295"
+      ]
+    }
+  }
+}

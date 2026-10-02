@@ -1,0 +1,1147 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-02T00:00:00Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "7302be9",
+    "generation_method": "hierarchical",
+    "source_file": "cod-gpmsgd_pdt7y6-e93079.xml"
+  },
+  "pdt7y6-e93079": {
+    "summary": "Question 4 of distinction 37 asks how a created spirit or angel is in place, in three articles. (1) Rejecting the philosophers' denial of angelic location and the view that angels are located only by operation, Peter holds that angels are in place by essence, definitively not circumscriptively. Location properly involves commensuration, determination and presence: bodies have all three, angels determination and presence, God presence alone. Angels are finite, indivisible substances whose place is assigned by God. (2) An angel cannot be in several places at once: its finite essence fixes it to one place, its virtual quantity sets how large a place it can occupy, and its will and operation fix where it actually is, whether a point or an extended region counted as one place; Christ's Eucharistic multilocation is a miracle. (3) Several angels cannot share the same proper place, since each is defined by its own substance, power and operation, though all are within God as common place and may share a common place.",
+    "claims": [
+      "Angels are in place definitively, by essence.",
+      "An angel cannot be in several places at once.",
+      "Several angels cannot occupy the same proper place.",
+      "An angel's location is determined by essence, virtual quantity and will/operation."
+    ],
+    "concepts": [
+      "angelic location",
+      "definitive vs. circumscriptive presence",
+      "virtual quantity",
+      "substance, power, operation",
+      "multilocation",
+      "co-location"
+    ],
+    "_metadata": {
+      "level": "question",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pdt7y6-e93079-d1e104",
+        "pdt7y6-e93079-d1e113",
+        "pdt7y6-e93079-Dd1e126",
+        "pdt7y6-e93079-Dd1e657",
+        "pdt7y6-e93079-Dd1e991"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e104": {
+    "summary": "Rubric of question 4 of distinction 37: how a created spirit, or angel, is in place.",
+    "claims": [],
+    "concepts": [
+      "angelic location"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e113": {
+    "summary": "Divides the fourth principal question into three articles: whether an angel is in place, whether it can be in several places at once, and whether several angels can be in the same place at once.",
+    "claims": [],
+    "concepts": [
+      "angelic location",
+      "multilocation",
+      "co-location of angels"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079",
+        "pdt7y6-e93079-Dd1e126",
+        "pdt7y6-e93079-Dd1e657",
+        "pdt7y6-e93079-Dd1e991"
+      ]
+    }
+  },
+  "pdt7y6-e93079-Dd1e126": {
+    "summary": "Article 1 asks whether an angel is in place. Boethius, Augustine and arguments from incorporeality, separateness and the placeless outermost heaven deny it; Damascene, the trilemma of everywhere/nowhere/somewhere, the distinctness of angels and their being parts of the world affirm it. Peter rejects the view that angels are located only through operation, then surveys three positions: the philosophers' (Intelligences are in no way in place, moving only as objects of desire), which contradicts the faith; that of some theologians (location by operation only), which conflicts with the saints; and the common theological view, which he adopts, that angels are in place by essence, definitively and not circumscriptively. Drawing on Aristotle's definition of place, he analyses location into commensuration, determination and presence: bodies have all three (circumscriptive), angels the last two (definitive), God only presence. Angels are finite, indivisible substances bounded by a limit outside quantity; their location is set by God, and they could have existed without place. The authorities deny only circumscription.",
+    "claims": [
+      "Angels are in place by essence, definitively not circumscriptively.",
+      "Bodies are in place circumscriptively, angels definitively, God by presence.",
+      "The philosophers' denial of angelic location contradicts the faith."
+    ],
+    "concepts": [
+      "definitive vs. circumscriptive presence",
+      "angelic location",
+      "commensuration",
+      "Intelligences",
+      "presence by operation",
+      "Aristotelian place"
+    ],
+    "_metadata": {
+      "level": "article",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pdt7y6-e93079-d1e133",
+        "pdt7y6-e93079-d1e140",
+        "pdt7y6-e93079-d1e151",
+        "pdt7y6-e93079-d1e163",
+        "pdt7y6-e93079-d1e172",
+        "pdt7y6-e93079-d1e183",
+        "pdt7y6-e93079-d1e194",
+        "pdt7y6-e93079-d1e203",
+        "pdt7y6-e93079-d1e210",
+        "pdt7y6-e93079-d1e218",
+        "pdt7y6-e93079-d1e234",
+        "pdt7y6-e93079-d1e245",
+        "pdt7y6-e93079-d1e258",
+        "pdt7y6-e93079-d1e267",
+        "pdt7y6-e93079-d1e278",
+        "pdt7y6-e93079-d1e288",
+        "pdt7y6-e93079-d1e299",
+        "pdt7y6-e93079-d1e310",
+        "pdt7y6-e93079-d1e326",
+        "pdt7y6-e93079-d1e398",
+        "pdt7y6-e93079-d1e567",
+        "pdt7y6-e93079-d1e577",
+        "pdt7y6-e93079-d1e584",
+        "pdt7y6-e93079-d1e595",
+        "pdt7y6-e93079-d1e628",
+        "pdt7y6-e93079-d1e637"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e133": {
+    "summary": "Rubric of article 1: whether an angel is in place.",
+    "claims": [],
+    "concepts": [
+      "angelic location"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e126"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e140": {
+    "summary": "First argument that angels are not in place, from Boethius's De Trinitate: it is a common conception of the mind that incorporeal things are not in place.",
+    "claims": [
+      "Incorporeal things are not in place (authority)."
+    ],
+    "concepts": [
+      "communis animi conceptio",
+      "incorporeality",
+      "place"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e126"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e151": {
+    "summary": "Second, from Augustine's Eighty-Three Questions: what is somewhere is contained by place, and what is contained by place is a body; an angel is not a body, so it is not anywhere.",
+    "claims": [
+      "Only bodies are contained by place (authority)."
+    ],
+    "concepts": [
+      "containment",
+      "corporeality"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e126"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e163": {
+    "summary": "Third: place is a bodily accident, and a spiritual substance cannot receive bodily accidents.",
+    "claims": [
+      "Place is a bodily accident (argument)."
+    ],
+    "concepts": [
+      "place as accident",
+      "spiritual substance"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e126"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e172": {
+    "summary": "Fourth: the human spirit can exist without its own body, so all the more without another's, hence without place; still more the angel, which is more detached from body.",
+    "claims": [
+      "A spirit that can exist without a body can exist without place (argument)."
+    ],
+    "concepts": [
+      "separated soul",
+      "angelic separateness"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e126"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e183": {
+    "summary": "Fifth: whatever does not depend on position or matter does not depend on place, so an angel can be without place and therefore is not in place.",
+    "claims": [
+      "Independence from matter implies independence from place (argument)."
+    ],
+    "concepts": [
+      "immateriality",
+      "dependence on place"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e126"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e194": {
+    "summary": "Sixth: the outermost body, the heaven, is not in place because of its nobility, so neither is the far nobler angel.",
+    "claims": [
+      "The outermost heaven is not in place (argument)."
+    ],
+    "concepts": [
+      "outermost sphere",
+      "nobility"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e126"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e203": {
+    "summary": "First argument for the opposite, premise from Damascene: heaven is the container of visible and invisible creatures.",
+    "claims": [
+      "Heaven contains visible and invisible creatures (authority)."
+    ],
+    "concepts": [
+      "caelum continens",
+      "Damascene"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e126",
+        "pdt7y6-e93079-d1e210"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e210": {
+    "summary": "Conclusion of the Damascene argument: so the invisible creature, the angel, is contained by heaven and is in heaven.",
+    "claims": [
+      "Angels are contained by heaven."
+    ],
+    "concepts": [
+      "angelic location"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e126",
+        "pdt7y6-e93079-d1e203"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e218": {
+    "summary": "Second: Damascene says the angel is essentially present and circumscribed where it acts, and that when angels are in heaven they are not on earth, so they are defined by place.",
+    "claims": [
+      "Angels are where they act and are not elsewhere (authority)."
+    ],
+    "concepts": [
+      "Damascene",
+      "presence by operation",
+      "definition by place"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e126"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e234": {
+    "summary": "Third: Augustine (actually Gennadius), De ecclesiasticis dogmatibus: we call angels and all intellectual substances corporeal because they are circumscribed by place.",
+    "claims": [
+      "Angels are circumscribed by place (authority)."
+    ],
+    "concepts": [
+      "corporeality of angels",
+      "circumscription"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e126"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e245": {
+    "summary": "Fourth: an angel is everywhere (and then is God, per Ambrose), nowhere (and then nothing, per Anselm), or somewhere and not elsewhere, and then is defined by place.",
+    "claims": [
+      "An angel must be somewhere and not elsewhere."
+    ],
+    "concepts": [
+      "ubiquity",
+      "definitive presence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e126"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e258": {
+    "summary": "Fifth: whatever lacks local difference is together; many angels are not together, so they differ in place.",
+    "claims": [
+      "Distinct angels differ in place (argument)."
+    ],
+    "concepts": [
+      "local difference",
+      "plurality of angels"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e126"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e267": {
+    "summary": "Sixth: angels are not outside the world, being parts of it; they are not in the whole of it, so they are in a part, a determinate place.",
+    "claims": [
+      "Angels are in a determinate part of the world."
+    ],
+    "concepts": [
+      "angels as parts of the universe",
+      "determinate place"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e126"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e278": {
+    "summary": "Reports an opinion: an angel is in a determinate place not by its essence but by its operation.",
+    "claims": [
+      "Some hold that angels are in place only through operation."
+    ],
+    "concepts": [
+      "presence by operation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e126"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e288": {
+    "summary": "First objection to that opinion: what belongs to something through another belongs first to that other, but being in place does not belong to an operation, so it cannot belong to the angel through operation.",
+    "claims": [
+      "Location cannot be derived from operation, which is not itself located (argument)."
+    ],
+    "concepts": [
+      "per aliud",
+      "presence by operation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e126",
+        "pdt7y6-e93079-d1e278"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e299": {
+    "summary": "Second objection: God's operation can be in a defined place (raising a dead man), yet God is not therefore said to be in a place definitively; likewise for an angel.",
+    "claims": [
+      "Local effects do not make the agent definitively located."
+    ],
+    "concepts": [
+      "definitive presence",
+      "divine operation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e126",
+        "pdt7y6-e93079-d1e278"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e310": {
+    "summary": "Third objection: the operation in question is either spiritual, which has no relation to place, or bodily, but an angel in heaven does nothing bodily, so it would not be definitively in heaven.",
+    "claims": [
+      "Neither spiritual nor bodily operation explains an angel's location in heaven."
+    ],
+    "concepts": [
+      "spiritual vs. bodily operation",
+      "presence by operation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e126",
+        "pdt7y6-e93079-d1e278"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e326": {
+    "summary": "Peter's determination, part one, surveys three opinions. (1) The ancient philosophers: an Intelligence, wholly free of matter, is in no way in place, neither by essence nor operation, since it moves as an object of desire moves the desirer, moving a soul joined to a sphere, which moves the sphere, which moves elemental matter. (2) Some theologians: an angel is never in place by essence, nor by accident in an assumed body, but only by operation on a place or located thing, so that without such operation it is not in bodily place; the divine spirit is in place because it causes the very being of place and located thing, the angel because it causes things consequent on being, the human spirit because it gives being to its own body and acts through it. (3) Theologians generally: an angel is in place both by bodily operation and by essence, definitively but not circumscriptively. The first contradicts the faith, which holds that angels act around us; the second fits poorly with the saints' authorities, which say angels are circumscribed, that is, determined; the third seems truer.",
+    "claims": [
+      "The philosophers' view that Intelligences are in no way in place contradicts the faith.",
+      "The view that angels are in place only by operation conflicts with patristic authority.",
+      "Angels are in place by essence, definitively and not circumscriptively."
+    ],
+    "concepts": [
+      "Intelligences",
+      "celestial movers",
+      "presence by operation",
+      "definitive vs. circumscriptive presence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e126",
+        "pdt7y6-e93079-d1e278",
+        "pdt7y6-e93079-d1e218",
+        "pdt7y6-e93079-d1e234"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e398": {
+    "summary": "Determination, part two. Following Aristotle's definition of place as the surface of the surrounding body, being properly in place involves commensuration, determination (being enclosed) and presence, where presence must be per se subsisting (unlike accidents), separate (unlike parts) and internal (unlike contiguous bodies); so only complete substances are per se in bodily places. Bodies have all three and are in place circumscriptively. Created spirits, lying within bodily surfaces (since the universe is composed of contiguous bodies), have determination and presence but not commensuration, and are in place definitively. The uncreated spirit has presence only, being also outside every surface. The reason: body is a divisible substance bounded by a limit of the same genus; an angel is indivisible but bounded by a limit of another genus; God is neither divisible nor bounded. The human being illustrates this: the body is circumscriptively in place, the soul quasi-definitively in its body and quasi-presentially in each part, though properly it is in the body as perfection and mover, not as in a place. God does not depend on place, but place on him. An angel neither depends on place nor place on it, so it could have been created without place in an intelligible world; but having been created in the sensible world, it is always in place, determined there not by place but by God. A body and place depend on each other.",
+    "claims": [
+      "Proper location requires commensuration, determination and presence.",
+      "Bodies are in place circumscriptively, angels definitively, God only by presence.",
+      "An angel is a finite, indivisible substance bounded by a limit of another genus than quantity.",
+      "An angel's location is set by God, not by place, and it could have existed without place."
+    ],
+    "concepts": [
+      "circumscriptive, definitive and repletive presence",
+      "Aristotelian place",
+      "commensuration",
+      "finitude of angels",
+      "soul as form and mover"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e126",
+        "pdt7y6-e93079-d1e326",
+        "pdt7y6-e92541"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e567": {
+    "summary": "Reply to Boethius: he speaks of being in place strictly and properly, that is circumscriptively, not merely definitively.",
+    "claims": [
+      "Boethius denies only circumscriptive location to incorporeals."
+    ],
+    "concepts": [
+      "circumscriptive presence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e126",
+        "pdt7y6-e93079-d1e140"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e577": {
+    "summary": "Reply to Augustine: he speaks of being somewhere circumscriptively, not only definitively.",
+    "claims": [
+      "Augustine denies only circumscriptive location to incorporeals."
+    ],
+    "concepts": [
+      "circumscriptive presence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e126",
+        "pdt7y6-e93079-d1e151"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e584": {
+    "summary": "Reply to the third: place is not in the located thing; and the claim that 'where' is a bodily accident holds of circumscriptive, not definitive, 'where'.",
+    "claims": [
+      "Place is not an accident inhering in the located thing.",
+      "Only circumscriptive 'where' is a bodily accident."
+    ],
+    "concepts": [
+      "ubi",
+      "place as accident"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e126",
+        "pdt7y6-e93079-d1e163"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e595": {
+    "summary": "Reply to the fourth: being without a body can mean separation in being or in location. In being, it belongs more to the angel than to the soul; in location it is the reverse, because the soul as part of a whole is in place only accidentally, and per se only after separation, whereas the angel is an absolute substance. Alternatively, in the first sense being without one's own body is greater than without another's, in the second lesser; just as being in this place is less than being in place simply, so being able to be without this place does not imply being able to be without place at all.",
+    "claims": [
+      "Separation from body in being differs from separation in location.",
+      "Being able to lack this place does not imply being able to lack place altogether."
+    ],
+    "concepts": [
+      "separated soul",
+      "angel as absolute substance",
+      "per se vs. per accidens location"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e126",
+        "pdt7y6-e93079-d1e172"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e628": {
+    "summary": "Reply to the fifth: what is free from matter and position is free from circumscriptive place, not from definitive place.",
+    "claims": [
+      "Immateriality excludes circumscriptive but not definitive location."
+    ],
+    "concepts": [
+      "definitive presence",
+      "immateriality"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e126",
+        "pdt7y6-e93079-d1e183"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e637": {
+    "summary": "Reply to the sixth: the outermost heaven is not in place not because of its nobility or independence alone but because it is outermost and largest and so cannot be enclosed by another body; yet a nobler but smaller body, such as a glorified body, is enclosed within it.",
+    "claims": [
+      "The outermost heaven lacks place because it is outermost and largest, not because of nobility."
+    ],
+    "concepts": [
+      "outermost sphere",
+      "glorified body"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e126",
+        "pdt7y6-e93079-d1e194"
+      ]
+    }
+  },
+  "pdt7y6-e93079-Dd1e657": {
+    "summary": "Article 2 asks whether an angel can be in several places at once. Arguments from Christ's Eucharistic body, from angelic power and operation, from assumed bodies and from instantaneous motion support it; definitive presence, finitude and Damascene deny it. Peter reports the view that an angel occupies only an indivisible place and the view (William of Auxerre) that it can be whole in an extended place as the soul in its body. Using Dionysius's triad, he holds that an angel is in one determinate place by its finite essence, can occupy a larger or smaller place according to its virtual quantity (power), and is actually here by will and operation; so it can occupy a point or an extended place, but not several places, since its essence, power and immediate operation each terminate in one. Christ's multilocation is a miracle of transubstantiation; an assumed body or a traversed interval counts as one place.",
+    "claims": [
+      "An angel cannot be in several places at once.",
+      "Its location depends on essence, virtual quantity and will/operation.",
+      "An angel can occupy a point or an extended place as a single place."
+    ],
+    "concepts": [
+      "multilocation",
+      "virtual quantity",
+      "substance, power, operation",
+      "definitive presence",
+      "transubstantiation"
+    ],
+    "_metadata": {
+      "level": "article",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pdt7y6-e93079-d1e664",
+        "pdt7y6-e93079-d1e671",
+        "pdt7y6-e93079-d1e684",
+        "pdt7y6-e93079-d1e698",
+        "pdt7y6-e93079-d1e711",
+        "pdt7y6-e93079-d1e727",
+        "pdt7y6-e93079-d1e738",
+        "pdt7y6-e93079-d1e745",
+        "pdt7y6-e93079-d1e763",
+        "pdt7y6-e93079-d1e901",
+        "pdt7y6-e93079-d1e923",
+        "pdt7y6-e93079-d1e939",
+        "pdt7y6-e93079-d1e968"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e664": {
+    "summary": "Rubric of article 2: whether an angel can be in several places at once.",
+    "claims": [],
+    "concepts": [
+      "angelic multilocation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e657"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e671": {
+    "summary": "First argument for: a body is more determined to place than an angel, yet a body, Christ's, can be in several places at once; so an angel can.",
+    "claims": [
+      "If Christ's body can be multilocated, so can an angel (argument)."
+    ],
+    "concepts": [
+      "multilocation",
+      "Eucharistic body"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e657"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e684": {
+    "summary": "Second: according to Damascene an angel is where it acts, and it can act beyond one determinate place, since any agent whose power exceeds what it acts on can also act on something else.",
+    "claims": [
+      "An angel's power can extend to several places (argument)."
+    ],
+    "concepts": [
+      "presence by operation",
+      "angelic power"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e657"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e698": {
+    "summary": "Third: when an angel assumes a body and moves it all at once, it is in every part equally, since it is where it acts; as there are many parts, it is in many places.",
+    "claims": [
+      "An angel moving an assumed body is in all its parts (argument)."
+    ],
+    "concepts": [
+      "assumed bodies",
+      "presence by operation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e657"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e711": {
+    "summary": "Fourth: an angel in a place such as a house is either in something simple, like a point (but it does not act in a point), or in something composite, either in the whole but not in each part (and then it is extended) or in each part (and then in several places).",
+    "claims": [
+      "An angel in an extended place is either extended or multilocated (argument)."
+    ],
+    "concepts": [
+      "point and extension",
+      "whole and part"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e657"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e727": {
+    "summary": "Fifth: some say an angel moves instantaneously, so in the same instant it is at the starting point, the middle and the end, and thus in several places.",
+    "claims": [
+      "Instantaneous motion would make an angel multilocated (argument)."
+    ],
+    "concepts": [
+      "instantaneous motion",
+      "angelic motion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e657",
+        "pdt7y6-e94186"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e738": {
+    "summary": "First argument against: an angel is in place definitively, so here in such a way as not elsewhere.",
+    "claims": [
+      "Definitive presence excludes being elsewhere."
+    ],
+    "concepts": [
+      "definitive presence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e657"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e745": {
+    "summary": "Second and third arguments against: nothing whose being is bounded can be in several places at once; and Damascene says that when angels are in heaven they are not on earth.",
+    "claims": [
+      "A bounded being cannot be in several places at once.",
+      "Angels in heaven are not on earth (authority)."
+    ],
+    "concepts": [
+      "finitude",
+      "Damascene"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e657"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e763": {
+    "summary": "Peter's determination. Some say an angel, being indivisible, can be in place by essence only in one indivisible place, acting from there on what is near, like a magnet on distant iron. Others, with William of Auxerre, say it can be wholly in a quantified place and in each part of it, as the soul is in the whole body, though only in as large a place as it can act on immediately. Following Dionysius's triad of substance, power and operation, Peter parallels body and angel: a body is determinately in one place by the finitude of its substance, in a place of a given size by its dimensive quantity, and in this place by its motion or operation; an angel is definitively in one place because it is a finite spiritual substance, can be in a larger or smaller place by its virtual quantity, and is in this place by its will and operation. By essence, being finite, it is limited to one place; being simple, it can be in a composite or a simple (point) place. By power, it can be in as large a place as it can be immediately present to and act on. By operation, spiritual action needs no determinate place, bodily action needs as much as it acts on immediately. Since its operation, power and essence can each terminate in only one, an angel cannot be in several places. Being in a determinate place belongs to every angel by essence; the size of possible place varies with power; whether it occupies the whole, a part, or a point depends on will and the needs of operation.",
+    "claims": [
+      "An angel cannot be in several places at once.",
+      "Its being in one place follows from its finite essence.",
+      "The size of its possible place follows from its virtual quantity (power).",
+      "Its actual location here follows from will and operation.",
+      "An angel can be in a point or in an extended place."
+    ],
+    "concepts": [
+      "substance, power, operation",
+      "virtual quantity",
+      "definitive presence",
+      "angelic location",
+      "William of Auxerre",
+      "Dionysius"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e657",
+        "pdt7y6-e93079-d1e671",
+        "pdt7y6-e93079-d1e684",
+        "pdt7y6-e93079-d1e698",
+        "pdt7y6-e93079-d1e711",
+        "pdt7y6-e93079-d1e398"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e901": {
+    "summary": "Replies to the first and second. Christ's body is in many places by the miracle of transubstantiating many substances into the same body, not by the body's own power. An angel can act immediately in only one thing at a time, though it can act mediately through that on many; and it is said to be where it acts immediately.",
+    "claims": [
+      "Christ's Eucharistic multilocation is a miracle of transubstantiation, not a natural power.",
+      "An angel acts immediately on one thing only and is located where it acts immediately."
+    ],
+    "concepts": [
+      "transubstantiation",
+      "immediate vs. mediate action",
+      "multilocation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e657",
+        "pdt7y6-e93079-d1e671",
+        "pdt7y6-e93079-d1e684"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e923": {
+    "summary": "Reply to the third: the whole assumed body is for the angel a single place, though it is in each part, because it is in the parts not as separate but as joined in their whole, as the soul is in the body's parts.",
+    "claims": [
+      "An assumed body is one place for the angel."
+    ],
+    "concepts": [
+      "assumed bodies",
+      "whole and part",
+      "soul in body"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e657",
+        "pdt7y6-e93079-d1e698"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e939": {
+    "summary": "Reply to the fourth: depending on the will's movement and the end for which it is located, an angel can be in a simple or a composite place. When it immediately performs bodily works, it must be in a quantified place, but not for spiritual works. It is in every part of its place not as each is by itself but as all are joined in their whole, so it is in all the parts as in one place.",
+    "claims": [
+      "Whether an angel occupies a point or an extended place depends on its will and work.",
+      "Bodily operation requires a quantified place; spiritual operation does not."
+    ],
+    "concepts": [
+      "point and extension",
+      "spiritual vs. bodily operation",
+      "unity of place"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e657",
+        "pdt7y6-e93079-d1e711",
+        "pdt7y6-e93079-d1e763"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e968": {
+    "summary": "Reply to the fifth: instantaneous motion does not entail multilocation, either because (on that view) the angel does not pass through the middle, or because the whole middle is one place for it in one instant, like a whole assumed body; others say it moves through distinct immediate instants, at the start in one, the middle in another, the end in another, as discussed later in the distinction.",
+    "claims": [
+      "Instantaneous angelic motion need not make the angel multilocated."
+    ],
+    "concepts": [
+      "instantaneous motion",
+      "succession of instants",
+      "angelic motion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e657",
+        "pdt7y6-e93079-d1e727",
+        "pdt7y6-e94186"
+      ]
+    }
+  },
+  "pdt7y6-e93079-Dd1e991": {
+    "summary": "Article 3 asks whether several angels can be in the same place. Arguments from spirit's coexistence with body, demonic possession, spirit's not filling place, angels' coexistence with God and glorified bodies support it; Damascene, Aristotle's impenetrability of bodies and the impossibility of two souls in one body deny it. Peter distinguishes three senses of an angel's place: God, in whom all angels are; the natural limit of each one's substance, power and operation, in which each has its own; and the defining bodily place, which several cannot share as their proper place, though they can share a common place, since each angel suffices for its own work and a second would be superfluous. What excludes co-location is definition, not filling; demons occupy cavities, not the body's substance; God is distinguished from creatures by himself, not by place; and spirits do not interpenetrate as glorified bodies do.",
+    "claims": [
+      "Several angels cannot occupy the same proper place.",
+      "Angelic distinctness of place follows from distinct substance, power and operation."
+    ],
+    "concepts": [
+      "co-location",
+      "proper vs. common place",
+      "definitive presence",
+      "demonic possession",
+      "glorified body"
+    ],
+    "_metadata": {
+      "level": "article",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pdt7y6-e93079-d1e998",
+        "pdt7y6-e93079-d1e1005",
+        "pdt7y6-e93079-d1e1018",
+        "pdt7y6-e93079-d1e1035",
+        "pdt7y6-e93079-d1e1042",
+        "pdt7y6-e93079-d1e1053",
+        "pdt7y6-e93079-d1e1066",
+        "pdt7y6-e93079-d1e1079",
+        "pdt7y6-e93079-d1e1095",
+        "pdt7y6-e93079-d1e1148",
+        "pdt7y6-e93079-d1e1157",
+        "pdt7y6-e93079-d1e1168",
+        "pdt7y6-e93079-d1e1175",
+        "pdt7y6-e93079-d1e1193"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e998": {
+    "summary": "Rubric of article 3: whether several angels can be in the same place at once.",
+    "claims": [],
+    "concepts": [
+      "co-location of angels"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e991"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e1005": {
+    "summary": "First argument for: a body fills place more than a spirit does, yet a spirit can be together with a body, so all the more one spirit with another.",
+    "claims": [
+      "If spirit and body can be co-located, two spirits can (argument)."
+    ],
+    "concepts": [
+      "repletion of place",
+      "co-location"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e991"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e1018": {
+    "summary": "Second: though a demon does not enter the soul, it enters the body; since the soul is in the whole body and each part, demon and soul are together, and for the same reason two demons or two angels can be.",
+    "claims": [
+      "Demon and soul coexist in one body (argument)."
+    ],
+    "concepts": [
+      "demonic possession",
+      "soul in body"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e991"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e1035": {
+    "summary": "Third: a spirit does not fill place, so it does not prevent another from being in the same place.",
+    "claims": [
+      "Spirits do not fill place (argument)."
+    ],
+    "concepts": [
+      "repletion of place"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e991"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e1042": {
+    "summary": "Fourth: an angel is closer in kind to another angel than to God; if it can be in the same place as God, all the more with another angel.",
+    "claims": [
+      "An angel coexists in place with God, so it could with another angel (argument)."
+    ],
+    "concepts": [
+      "co-location",
+      "likeness among angels"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e991"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e1053": {
+    "summary": "Fifth: two bodies, one glorified and one not, can be in the same place, so two spirits can, or at least an angel with a human spirit.",
+    "claims": [
+      "Glorified bodies penetrate others (argument)."
+    ],
+    "concepts": [
+      "glorified body",
+      "compenetration"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e991"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e1066": {
+    "summary": "First argument against: Damascene proves there cannot be two gods because one would not be everywhere together with the other; still less can angels, which are defined by place, be in the same place together.",
+    "claims": [
+      "Two definitively located spirits cannot share a place."
+    ],
+    "concepts": [
+      "Damascene",
+      "uniqueness of God",
+      "definitive presence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e991"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e1079": {
+    "summary": "Second: as body is to circumscribing place, so created spirit is to defining place; and as Aristotle proves in Physics IV, two bodies cannot naturally be in the same circumscribing place.",
+    "claims": [
+      "Definitive place excludes co-occupation, as circumscriptive place does for bodies."
+    ],
+    "concepts": [
+      "impenetrability",
+      "definitive presence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e991"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e1095": {
+    "summary": "Third argument against and Peter's determination. Two human spirits cannot be in one body, so neither can two angels. Reply: an angel's place is said in three ways: (1) the divine Spirit that bounds and contains them, in which all are in the same place, running within God wherever they are sent (Gregory); (2) the natural limit of each one's substance, power and operation, by which each is in its own place and not several in one; (3) the bodily place that defines them, in which several angels cannot be in the same proper place, though they can be in the same common place. This holds whether the proper place is set by the limit of substance, of virtual quantity or of operation, since each angel suffices by itself for its operation, so one with another would be superfluous.",
+    "claims": [
+      "All angels are in God as their common place.",
+      "Each angel has its own natural place, the limit of its substance, power and operation.",
+      "Several angels cannot share the same proper place, though they can share a common place.",
+      "Co-location would be superfluous since each angel suffices for its own operation."
+    ],
+    "concepts": [
+      "angelic place",
+      "proper vs. common place",
+      "substance, power, operation",
+      "superfluity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e991",
+        "pdt7y6-e93079-d1e1005",
+        "pdt7y6-e93079-d1e1079",
+        "pdt7y6-e93079-d1e763"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e1148": {
+    "summary": "Reply to the first: what prevents co-location is not filling but each angel's definition in substance, power and operation.",
+    "claims": [
+      "Definition, not repletion, excludes two angels from one place."
+    ],
+    "concepts": [
+      "definitive presence",
+      "repletion of place"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e991",
+        "pdt7y6-e93079-d1e1005"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e1157": {
+    "summary": "Reply to the second: the demon and soul cases differ, since the soul is in the body's substance, while the demon is in its pores or cavities, or in fluids or enclosed air.",
+    "claims": [
+      "A possessing demon occupies the body's cavities, not its substance."
+    ],
+    "concepts": [
+      "demonic possession",
+      "soul in body"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e991",
+        "pdt7y6-e93079-d1e1018"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e1168": {
+    "summary": "Reply to the third: filling is not the cause, but definition, as was said.",
+    "claims": [
+      "Definition, not repletion, is the relevant cause."
+    ],
+    "concepts": [
+      "definitive presence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e991",
+        "pdt7y6-e93079-d1e1035"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e1175": {
+    "summary": "Reply to the fourth: the cause is not unlikeness but distinction of substance, power and operation. God must be present to each thing in all these ways, yet he is sufficiently distinguished from each thing by himself, not by place, time or any other extrinsic mode.",
+    "claims": [
+      "Angels are distinguished in place by their distinct substance, power and operation.",
+      "God is distinguished from creatures by himself, not by place."
+    ],
+    "concepts": [
+      "distinction of God from creatures",
+      "substance, power, operation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e991",
+        "pdt7y6-e93079-d1e1042"
+      ]
+    }
+  },
+  "pdt7y6-e93079-d1e1193": {
+    "summary": "Reply to the fifth: the cases differ, because a glorified body, being spiritual, penetrates another body, but a spirit does not penetrate a spirit in this way.",
+    "claims": [
+      "Spirits do not penetrate one another as a glorified body penetrates a body."
+    ],
+    "concepts": [
+      "glorified body",
+      "compenetration"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e93079-Dd1e991",
+        "pdt7y6-e93079-d1e1053"
+      ]
+    }
+  }
+}

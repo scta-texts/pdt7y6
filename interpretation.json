@@ -1,0 +1,157 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-02T00:00:00Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-ancestors-v1",
+    "source_commit": "7302be9",
+    "generation_method": "hierarchical",
+    "scope": "Ancestors of interpreted items only: Liber 1 Prologus (2 of 2 items) and Liber 1 Distinctio 37 (6 of 6 items), with partial entries for Liber 1 and the whole work. The Liber 1 Prooemium (pdt7y6-e1e300) was deliberately left uninterpreted. The EDF contains only Book 1, so no Book 2 Distinctio 44 exists; other divs have no interpreted children and are omitted.",
+    "source_structure": "~/Projects/scta/scta-projectfiles/pdt7y6.xml"
+  },
+  "pdt7y6-d1e106": {
+    "summary": "The Prologue to Book I consists of a single question on theology as a science and a preamble dividing and expounding Lombard's own prologue. The question, in six articles, holds that theology is broadly a science but properly wisdom, belonging to the higher reason illuminated by eternal laws, with the articles of faith as principles evident to the faithful. It is one science by analogy of attribution, since it treats all things as ordered to God, who is divine by essence while creatures participate in divinity. God is its subject of intention, and divine things, above all the works of restoration through Christ, are its subject of execution. It is an affective wisdom, a middle habit between speculative science and practical art, chiefly practical and named from savour (sapor). It is necessary beyond philosophy because the rational creature's supernatural end, immediate vision of God, cannot be known by nature: metaphysics treats beings' going out from God, theology their return, and the other sciences serve it. Reasoning suits theology when subordinated to faith, to clarify and defend it rather than prove it. The preamble divides Lombard's prologue into the author's excuse (motives and deterrents, heretics' error, Catholics' requests), the rebuke of detractors, the commendation of the work by its four causes, and the exhortation of the reader, and it glosses key terms: good and bad presumption, the licit addition of truth to Scripture, and truth as hateful only per accidens.",
+    "claims": [
+      "Theology is properly wisdom and broadly a science.",
+      "Theology is one science by analogy of attribution to God.",
+      "God is theology's subject of intention.",
+      "Theology is an affective wisdom, chiefly practical.",
+      "Theology is necessary because humanity's supernatural end exceeds natural knowledge.",
+      "Reason in theology clarifies and defends faith but does not prove it.",
+      "Lombard's prologue divides into excuse, rebuke, commendation and exhortation."
+    ],
+    "concepts": [
+      "theology as science",
+      "scientia vs. sapientia",
+      "analogy",
+      "subiectum intentionis",
+      "affective knowledge",
+      "exitus and reditus",
+      "faith and reason",
+      "divisio textus",
+      "four causes of a book"
+    ],
+    "_metadata": {
+      "level": "liber1-prologus",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pdt7y6-e1e577",
+        "pdt7y6-ee1877"
+      ],
+      "partial": false,
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-ancestors-v1",
+      "generated_at": "2026-10-02T00:00:00Z",
+      "source_commit": "7302be9",
+      "source_structure": "~/Projects/scta/scta-projectfiles/pdt7y6.xml"
+    }
+  },
+  "pdt7y6-d1e3060": {
+    "summary": "Distinction 37 of Book I moves from God's presence in things to the location and motion of angels, in a division of Lombard's text followed by five questions. The division sets out Lombard's true modes of divine presence (by nature in all things, by grace in the saints, by union in Christ) and his exclusion of false ones (local or temporal change in God), with an incidental doubt about the motion of spirits. (1) God is in all things by essence, since his essence, power and operation are identical and every creature, made from nothing, needs his immediate conservation; he is equally present to all as bare presence but unequally in them by his effects, and his modes of presence are essence, presence and power in all things, indwelling grace in the saints, and union in Christ. (2) God is in every place by a repletive presence but in none by containment; ubiquity per se is proper to him alone; and he is everywhere only once creatures exist, a relative predicate acquired without change in him. (3) God is in place but not local, since he is not subject to the laws of place (containment, measure, conservation, limitation) but causes them; he is immobile, motion being predicated of him only causally; and he is outside all places by the excess of his immensity, not by distance. (4) Angels are in place by essence, definitively not circumscriptively: bodies have commensuration, determination and presence, angels the latter two, God presence alone. An angel cannot be in several places at once, and several angels cannot share one proper place; its location is fixed by its finite essence, its extent by its virtual quantity, and its actual position by will and operation, in a point or an extended place. (5) Angels move by illumination, internal change and voluntary local motion; indivisible in essence but divisible in virtual presence, they pass through the medium without commensuration, instantaneously only to an adjacent place and successively at a chosen speed to distant ones. A literal exposition closes the distinction.",
+    "claims": [
+      "God is present in all things by essence, since he conserves them immediately.",
+      "God is in every place by presence but in none by containment, and is not local.",
+      "God is immobile; motion and new presence are predicated of him only through change in creatures.",
+      "Angels are in place definitively, by essence, and cannot be in several places at once.",
+      "Several angels cannot share the same proper place.",
+      "Angels can move instantaneously only to adjacent places and successively to distant ones, through the medium, by virtual presence."
+    ],
+    "concepts": [
+      "omnipresence",
+      "conservation",
+      "modes of divine presence",
+      "ubiquity",
+      "presence vs. containment",
+      "leges loci",
+      "immutability",
+      "immensity",
+      "angelic location",
+      "definitive vs. circumscriptive presence",
+      "virtual quantity",
+      "angelic motion",
+      "instantaneous vs. successive motion"
+    ],
+    "_metadata": {
+      "level": "liber1-distinctio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pdt7y6-e90341",
+        "pdt7y6-e91088",
+        "pdt7y6-e91888",
+        "pdt7y6-e92541",
+        "pdt7y6-e93079",
+        "pdt7y6-e94186"
+      ],
+      "partial": false,
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-ancestors-v1",
+      "generated_at": "2026-10-02T00:00:00Z",
+      "source_commit": "7302be9",
+      "source_structure": "~/Projects/scta/scta-projectfiles/pdt7y6.xml"
+    }
+  },
+  "pdt7y6-d1e78": {
+    "summary": "Partial summary: of the 50 direct children of Book I in the EDF (the Prooemium, the Prologue, and Distinctions 1–48), this rests only on the Prologue and Distinction 37; the Prooemium and Distinctions 1–36 and 38–48 are not covered. As far as these show, Book I opens with Peter of Tarantaise's account of theology as an affective wisdom: properly wisdom rather than science, one by analogy of attribution to God, with God as its subject of intention, chiefly practical, necessary because humanity's supernatural end exceeds natural knowledge, and using reason to clarify and defend faith rather than to prove it. Distinction 37 shows his treatment of God's relation to creatures and to place: God is present in all things by essence, presence and power as their immediate conserver, in the saints by grace and in Christ by union; he is in every place repletively but not locally or by containment, is immobile, and transcends place by immensity. It extends this to angels, which are in place definitively, can occupy neither several places nor a shared proper place, and move at will, instantaneously to adjacent places and successively to distant ones, by the shifting of their virtual presence.",
+    "claims": [
+      "Theology is an affective wisdom, properly wisdom rather than science (Prologue).",
+      "God is present in all things by essence as their immediate conserver (d. 37).",
+      "God is in every place by presence, not by containment, and is not local (d. 37).",
+      "Angels are in place definitively and move by virtual presence (d. 37)."
+    ],
+    "concepts": [
+      "theology as science",
+      "scientia vs. sapientia",
+      "affective knowledge",
+      "omnipresence",
+      "ubiquity",
+      "definitive vs. circumscriptive presence",
+      "angelic location",
+      "angelic motion"
+    ],
+    "_metadata": {
+      "level": "liber",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pdt7y6-d1e106",
+        "pdt7y6-d1e3060"
+      ],
+      "partial": true,
+      "coverage": "2 of 50 direct children have interpretations",
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-ancestors-v1",
+      "generated_at": "2026-10-02T00:00:00Z",
+      "source_commit": "7302be9",
+      "source_structure": "~/Projects/scta/scta-projectfiles/pdt7y6.xml"
+    }
+  },
+  "pdt7y6": {
+    "summary": "Partial summary: this rests only on Book I, itself covered only through its Prologue and Distinction 37; the EDF contains only Book I, so no other books are listed. On that narrow basis, Peter of Tarantaise's Commentary on the Sentences frames theology as an affective, chiefly practical wisdom grounded in the articles of faith, ordered to God as its subject and to the beatific vision as its end, and employing reason in the service of faith. Its treatment of divine presence holds that God is in all things by essence, presence and power as their immediate conserver, everywhere repletively but never locally, and immobile, while angels occupy place definitively and move by will through the shifting of their virtual presence.",
+    "claims": [
+      "Theology is an affective wisdom ordered to the vision of God (Book I, Prologue).",
+      "God is present in all things by essence and in every place without being local (Book I, d. 37).",
+      "Angels are definitively located and move by virtual presence (Book I, d. 37)."
+    ],
+    "concepts": [
+      "theology as science",
+      "affective knowledge",
+      "omnipresence",
+      "ubiquity",
+      "angelic location",
+      "angelic motion"
+    ],
+    "_metadata": {
+      "level": "work",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pdt7y6-d1e78"
+      ],
+      "partial": true,
+      "coverage": "1 of 1 direct children have interpretations (and that one is itself partial)",
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-ancestors-v1",
+      "generated_at": "2026-10-02T00:00:00Z",
+      "source_commit": "7302be9",
+      "source_structure": "~/Projects/scta/scta-projectfiles/pdt7y6.xml"
+    }
+  }
+}

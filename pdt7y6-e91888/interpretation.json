@@ -1,0 +1,981 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-02T00:00:00Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "7302be9",
+    "generation_method": "hierarchical",
+    "source_file": "cod-gpmsgd_pdt7y6-e91888.xml"
+  },
+  "pdt7y6-e91888": {
+    "summary": "Question 2 of distinction 37 asks how God is everywhere, in three articles. (1) God is everywhere: in every thing, as established in question 1, and in every place by a repletive presence, though in no place by containment or circumscription, since he is infinite and beyond quantity. (2) Being everywhere per se, through an indivisible essence present in every place, belongs to God alone; matter, universals and being are everywhere only per accidens through their divided parts, a soul could be so only for lack of other places, and neither Christ's flesh nor his Eucharistic body is everywhere. (3) God is not everywhere from eternity, since ubiquity implies a relation founded on an effect in actually existing creatures; such relative predicates, like 'Creator', accrue in time without any change in God.",
+    "claims": [
+      "God is in every place by presence, not by containment.",
+      "Ubiquity per se is proper to God alone.",
+      "God is everywhere only once creatures exist, without change in himself."
+    ],
+    "concepts": [
+      "ubiquity",
+      "presence vs. containment",
+      "repletive presence",
+      "per se vs. per accidens",
+      "temporal predication",
+      "immutability"
+    ],
+    "_metadata": {
+      "level": "question",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pdt7y6-e91888-d1e104",
+        "pdt7y6-e91888-d1e111",
+        "pdt7y6-e91888-Dd1e122",
+        "pdt7y6-e91888-Dd1e363",
+        "pdt7y6-e91888-Dd1e572"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e104": {
+    "summary": "Rubric of question 2 of distinction 37: how God is everywhere. (The edition's head gives a different title, on God's relation to place and motion.)",
+    "claims": [],
+    "concepts": [
+      "ubiquity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e111": {
+    "summary": "Divides the second principal question into three articles: whether God is everywhere, whether this belongs to him alone, and whether it belongs to him from eternity.",
+    "claims": [],
+    "concepts": [
+      "ubiquity",
+      "proper attributes of God",
+      "eternity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888",
+        "pdt7y6-e91888-Dd1e122",
+        "pdt7y6-e91888-Dd1e363",
+        "pdt7y6-e91888-Dd1e572"
+      ]
+    }
+  },
+  "pdt7y6-e91888-Dd1e122": {
+    "summary": "Article 1 asks whether God is everywhere. Anselmian arguments (that than which nothing greater can be thought; the trilemma of nowhere, somewhere, everywhere) and the need of places and located things for conservation support it; Damascene, Anselm, the bodily character of location, the impossibility of an indivisible being everywhere, and Boethius oppose it. Peter distinguishes 'everywhere' as 'in every thing' from 'in every place', and being in place by presence from being in place by containment. God is in every place by a repletive presence and in no place by containment, so the authorities deny only containment. Presence in place without containment is not bodily, and the analogy with the indivisible 'now' fails because God is actually infinite and beyond quantity, as eternity is present to all time.",
+    "claims": [
+      "God is in every place by presence and in none by containment.",
+      "Divine presence in place is repletive, not circumscriptive.",
+      "God, beyond quantity, can be wholly everywhere."
+    ],
+    "concepts": [
+      "ubiquity",
+      "presence vs. containment",
+      "repletive presence",
+      "actual infinity",
+      "eternity"
+    ],
+    "_metadata": {
+      "level": "article",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pdt7y6-e91888-d1e129",
+        "pdt7y6-e91888-d1e136",
+        "pdt7y6-e91888-d1e149",
+        "pdt7y6-e91888-d1e168",
+        "pdt7y6-e91888-d1e179",
+        "pdt7y6-e91888-d1e192",
+        "pdt7y6-e91888-d1e203",
+        "pdt7y6-e91888-d1e216",
+        "pdt7y6-e91888-d1e227",
+        "pdt7y6-e91888-d1e241",
+        "pdt7y6-e91888-d1e259",
+        "pdt7y6-e91888-d1e305",
+        "pdt7y6-e91888-d1e316",
+        "pdt7y6-e91888-d1e323",
+        "pdt7y6-e91888-d1e332"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e129": {
+    "summary": "Rubric of article 1: whether God is everywhere.",
+    "claims": [],
+    "concepts": [
+      "ubiquity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e122"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e136": {
+    "summary": "First argument that God is everywhere, from Anselm: God is that than which nothing greater can be thought, indeed greater than can be thought; if he were not everywhere, something greater could be thought.",
+    "claims": [
+      "A being not everywhere would fall short of that than which nothing greater can be thought."
+    ],
+    "concepts": [
+      "id quo maius cogitari nequit",
+      "Anselm",
+      "ubiquity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e122"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e149": {
+    "summary": "Second argument, Anselm's Monologion: God is either nowhere and never (and so nothing), or somewhere and sometimes only (and so bounded by place and time), or everywhere and always; the first two are excluded.",
+    "claims": [
+      "God is either nothing, bounded by place and time, or everywhere and always."
+    ],
+    "concepts": [
+      "Monologion",
+      "ubiquity",
+      "eternity",
+      "circumscription"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e122"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e168": {
+    "summary": "Third argument: just as every thing needs God's conserving presence, so does every place; whatever reason puts God in each thing puts him in each place.",
+    "claims": [
+      "Places, like things, need God's conserving presence."
+    ],
+    "concepts": [
+      "conservation",
+      "place"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e122",
+        "pdt7y6-e91888"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e179": {
+    "summary": "Fourth argument: the union of matter and form is closer than that of place and located thing, and form remains in matter only through God's inner conserving presence; all the more must he be present to keep the located thing in its place, so he is in every place.",
+    "claims": [
+      "God's presence is needed to keep a located thing in its place."
+    ],
+    "concepts": [
+      "matter and form",
+      "place and located",
+      "conservation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e122"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e192": {
+    "summary": "First argument against, from John Damascene: God, uncircumscribable and immaterial, is not in place, since he is his own place; so he is not in any place other than himself and not everywhere.",
+    "claims": [
+      "God is his own place and is not in place (authority)."
+    ],
+    "concepts": [
+      "Damascene",
+      "uncircumscribability",
+      "place"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e122"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e203": {
+    "summary": "Second argument, from Anselm's Monologion: if usage allowed, God should be said to be 'with' every place rather than 'in' every place, since what is in a place is contained by it.",
+    "claims": [
+      "Being in a place implies being contained by it (authority)."
+    ],
+    "concepts": [
+      "containment",
+      "Anselm",
+      "place"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e122"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e216": {
+    "summary": "Third argument: no bodily condition belongs to God except by metaphor; being in place is a bodily condition, so God is not properly in place or everywhere.",
+    "claims": [
+      "Being in place is a bodily condition (argument)."
+    ],
+    "concepts": [
+      "metaphorical predication",
+      "corporeality",
+      "place"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e122"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e227": {
+    "summary": "Fourth argument: permanent things are to place as successive things are to time; in successive things no indivisible (such as a single 'now') can be always, so in permanent things no indivisible can be everywhere.",
+    "claims": [
+      "An indivisible cannot be everywhere, as a 'now' cannot be always (argument)."
+    ],
+    "concepts": [
+      "indivisibles",
+      "time and place analogy",
+      "the now"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e122"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e241": {
+    "summary": "Fifth argument against (labelled 'Ad 5' in the print), from Boethius's De Trinitate: God is said to be everywhere not because he is in every place, since what is everywhere cannot be in place at all; so 'everywhere' means only 'in every thing'.",
+    "claims": [
+      "God's ubiquity means presence in every thing, not in every place (authority)."
+    ],
+    "concepts": [
+      "Boethius",
+      "ubiquity",
+      "place"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e122"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e259": {
+    "summary": "Peter's determination. As 'where' and 'there' are used strictly of location and broadly of any subject (knowledge is not where virtue is), 'everywhere' means either broadly 'in every kind of thing' (as established in question 1) or strictly 'in every place'. The latter is either by presence or by containment: God is in every place by presence and in no place by containment. Augustine to Dardanus: God is everywhere because nowhere absent, and in himself because not contained by what he is present to. Presence said of a thing sounds like extrinsic assistance, while presence said of a place means interior filling (repletio); both fall under the name 'presence'.",
+    "claims": [
+      "God is in every place by presence but in none by containment.",
+      "'Everywhere' may mean in every thing or in every place.",
+      "Presence in a place is repletive, filling it from within."
+    ],
+    "concepts": [
+      "ubiquity",
+      "presence vs. containment",
+      "repletive presence",
+      "circumscription"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e122",
+        "pdt7y6-e91888-d1e192",
+        "pdt7y6-e91888-d1e203",
+        "pdt7y6-e91888-d1e241",
+        "pdt7y6-e91088"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e305": {
+    "summary": "Reply to Damascene: God is not properly in place by containment, but he is in place by a repletive presence.",
+    "claims": [
+      "God is not in place by containment but is by repletive presence."
+    ],
+    "concepts": [
+      "repletive presence",
+      "containment"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e122",
+        "pdt7y6-e91888-d1e192",
+        "pdt7y6-e91888-d1e259"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e316": {
+    "summary": "Reply to Anselm: he speaks of being in place by containment, not by presence.",
+    "claims": [
+      "Anselm's denial concerns containment, not presence."
+    ],
+    "concepts": [
+      "containment",
+      "presence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e122",
+        "pdt7y6-e91888-d1e203"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e323": {
+    "summary": "Reply to the third: being in place by presence alone is not a bodily condition.",
+    "claims": [
+      "Presence in place without containment is not a bodily condition."
+    ],
+    "concepts": [
+      "corporeality",
+      "presence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e122",
+        "pdt7y6-e91888-d1e216"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e332": {
+    "summary": "Replies to the fourth and fifth. The analogy between succession and permanence fails: nothing successive is actually infinite, whereas a permanent being, God, is actually infinite. Alternatively, what holds is that an indivisible terminating a quantity (the 'now' in time, the point in a continuum) cannot be in all time or every place, but the indivisible eternity is present to all time, and God, separate from all quantity, can be in every place. Boethius speaks of being in place by containment, whereas God is everywhere by presence.",
+    "claims": [
+      "God is actually infinite, unlike anything successive.",
+      "Indivisibles that terminate quantity cannot be everywhere, but God, beyond quantity, can.",
+      "Eternity is present to all time."
+    ],
+    "concepts": [
+      "actual infinity",
+      "eternity and time",
+      "indivisibles",
+      "presence vs. containment"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e122",
+        "pdt7y6-e91888-d1e227",
+        "pdt7y6-e91888-d1e241",
+        "pdt7y6-e91888-d1e259"
+      ]
+    }
+  },
+  "pdt7y6-e91888-Dd1e363": {
+    "summary": "Article 2 asks whether ubiquity belongs to God alone, against claims that universals, prime matter, being, a sole man's soul, an angel in an unlimited assumed body, Christ's flesh united to the Word, or his Eucharistic body could be everywhere. Peter distinguishes ubiquity per se, by essence and through an indivisible being, which belongs to God alone, from ubiquity per accidens, either through divided parts (matter, universals, being) or through the absence of other places (the sole man's soul). The angel's assumable body is naturally limited by its operation; union does not entail co-location unless both terms relate to place alike; and Eucharistic presence depends on a priest's consecration.",
+    "claims": [
+      "Ubiquity per se is proper to God.",
+      "Other things are everywhere only per accidens.",
+      "Neither Christ's flesh nor his Eucharistic body is everywhere."
+    ],
+    "concepts": [
+      "ubiquity",
+      "per se vs. per accidens",
+      "immensity",
+      "hypostatic union",
+      "Eucharist",
+      "angelic assumed bodies"
+    ],
+    "_metadata": {
+      "level": "article",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pdt7y6-e91888-d1e370",
+        "pdt7y6-e91888-d1e377",
+        "pdt7y6-e91888-d1e388",
+        "pdt7y6-e91888-d1e398",
+        "pdt7y6-e91888-d1e405",
+        "pdt7y6-e91888-d1e416",
+        "pdt7y6-e91888-d1e427",
+        "pdt7y6-e91888-d1e438",
+        "pdt7y6-e91888-d1e454",
+        "pdt7y6-e91888-d1e466",
+        "pdt7y6-e91888-d1e475",
+        "pdt7y6-e91888-d1e484",
+        "pdt7y6-e91888-d1e526",
+        "pdt7y6-e91888-d1e533",
+        "pdt7y6-e91888-d1e546",
+        "pdt7y6-e91888-d1e560"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e370": {
+    "summary": "Rubric of article 2: whether being everywhere belongs to God alone.",
+    "claims": [],
+    "concepts": [
+      "ubiquity as divine property"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e363"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e377": {
+    "summary": "First argument that ubiquity is not proper to God: Aristotle says the particular is here and now, the universal everywhere and always.",
+    "claims": [
+      "Universals are everywhere and always (authority)."
+    ],
+    "concepts": [
+      "universals",
+      "ubiquity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e363"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e388": {
+    "summary": "Second argument: prime matter is in every place, since there is no body without matter and no place without body.",
+    "claims": [
+      "Prime matter is everywhere (argument)."
+    ],
+    "concepts": [
+      "prime matter",
+      "place"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e363"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e398": {
+    "summary": "Third argument: the nature of being is everywhere, so not God alone.",
+    "claims": [
+      "Being as such is everywhere (argument)."
+    ],
+    "concepts": [
+      "ens",
+      "ubiquity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e363"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e405": {
+    "summary": "Fourth argument: if God had made only one man and no other creature, there would be no place outside his body, and his soul, being whole in every part of the body, would be whole everywhere.",
+    "claims": [
+      "A soul could be everywhere if its body were the only body (argument)."
+    ],
+    "concepts": [
+      "soul in body",
+      "totality of the soul",
+      "place"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e363"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e416": {
+    "summary": "Fifth argument: no limit is fixed to the size of body an angel can assume, and the angel is whole in every part of an assumed body, so it could be whole everywhere.",
+    "claims": [
+      "An angel's assumed body has no fixed limit (argument)."
+    ],
+    "concepts": [
+      "angelic assumed bodies",
+      "totality"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e363"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e427": {
+    "summary": "Sixth argument: where two things are wholly united, wherever one is the other is; the Word and the flesh are wholly united in Christ, so since the Word is everywhere, so is the flesh.",
+    "claims": [
+      "Christ's flesh would be everywhere through union with the Word (argument)."
+    ],
+    "concepts": [
+      "hypostatic union",
+      "ubiquity of Christ's body",
+      "communicatio idiomatum"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e363"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e438": {
+    "summary": "Seventh argument: through consecration Christ's body can be in more places than any given number, so everywhere; hence ubiquity is not proper to God alone.",
+    "claims": [
+      "Christ's body could be everywhere through consecration (argument)."
+    ],
+    "concepts": [
+      "Eucharist",
+      "multilocation",
+      "body of Christ"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e363"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e454": {
+    "summary": "First argument for the opposite: Boethius proves the Holy Spirit is God because he is everywhere ('he filled the whole world', Wisdom 1), so ubiquity is proper to God.",
+    "claims": [
+      "Ubiquity proves divinity (authority)."
+    ],
+    "concepts": [
+      "divinity of the Holy Spirit",
+      "ubiquity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e363"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e466": {
+    "summary": "Second: everything bounded must be in a determinate place, and everything other than God is bounded.",
+    "claims": [
+      "Everything other than God is bounded and so determinately located."
+    ],
+    "concepts": [
+      "finitude",
+      "determinate place"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e363"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e475": {
+    "summary": "Third: being everywhere belongs to God by reason of his immensity; as immensity is proper to him, so is ubiquity.",
+    "claims": [
+      "Ubiquity follows from immensity, which is proper to God."
+    ],
+    "concepts": [
+      "immensity",
+      "ubiquity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e363"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e484": {
+    "summary": "Peter's determination: something is everywhere either per se or per accidens. Per se ubiquity belongs to God alone, by nature and by reason of his essence, so that no place or thing can be without him. Per accidens ubiquity is either by reason of the thing itself, being everywhere through its parts (as an infinite body would be; in this way prime matter, universals and being can be called everywhere, since they are divided among the things they are in and are not everywhere by an indivisible being), or by reason of place, when there is no other place (as the soul of a sole existing man would be everywhere).",
+    "claims": [
+      "Ubiquity per se, by essence and indivisibly, belongs to God alone.",
+      "Matter, universals and being are everywhere only per accidens, through divided parts.",
+      "A thing may be everywhere per accidens through the absence of other places."
+    ],
+    "concepts": [
+      "per se vs. per accidens",
+      "ubiquity",
+      "indivisible presence",
+      "prime matter",
+      "universals"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e363",
+        "pdt7y6-e91888-d1e377",
+        "pdt7y6-e91888-d1e388",
+        "pdt7y6-e91888-d1e398",
+        "pdt7y6-e91888-d1e405"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e526": {
+    "summary": "States that the determination answers the first four arguments, on the universal, matter, being and the soul.",
+    "claims": [
+      "The first four arguments are answered by the per se/per accidens distinction."
+    ],
+    "concepts": [
+      "per se vs. per accidens"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e363",
+        "pdt7y6-e91888-d1e484"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e533": {
+    "summary": "Reply on the angel: the size of body an angel can assume is fixed in nature, according to what suits its immediate operation, though it is not determined in our knowledge.",
+    "claims": [
+      "An angel's capacity to assume a body is naturally limited by its operation."
+    ],
+    "concepts": [
+      "angelic assumed bodies",
+      "finitude of angelic power"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e363",
+        "pdt7y6-e91888-d1e416"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e546": {
+    "summary": "Reply on Christ's flesh: the principle holds of things uniformly related to place; the soul is wholly united to the hand, yet the hand is not wherever the soul is.",
+    "claims": [
+      "Union does not entail co-location unless both relate to place alike."
+    ],
+    "concepts": [
+      "hypostatic union",
+      "ubiquity of Christ's body",
+      "soul and body"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e363",
+        "pdt7y6-e91888-d1e427"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e560": {
+    "summary": "Reply on consecration: consecration requires a priest, so Christ's sacramental body cannot be everywhere, since it cannot be consecrated where no priest is.",
+    "claims": [
+      "Eucharistic presence is limited by the presence of a consecrating priest."
+    ],
+    "concepts": [
+      "Eucharist",
+      "multilocation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e363",
+        "pdt7y6-e91888-d1e438"
+      ]
+    }
+  },
+  "pdt7y6-e91888-Dd1e572": {
+    "summary": "Article 3 asks whether God is everywhere from eternity. Ambrose, the parallel of 'always' and 'everywhere', the timeless being of things in God, the threat of divine change, and God's eternal presence in what then existed favour it; the absence of any 'where' and the connotation of an actual effect oppose it. Peter holds that ubiquity, whether over things or places, implies a relation founded on a divine effect, requiring the creature to exist actually, so God is not everywhere from eternity. A proper attribute need not be eternal (like being Creator), and such relative titles change nothing in God, as a house built around a stationary man changes only the house. 'Always' can signify eternity while 'everywhere' includes place; a cause is in its effect only when the effect exists; and 'in' is equivocal between God's being in the divine persons and in creatures.",
+    "claims": [
+      "God is not everywhere from eternity.",
+      "Ubiquity is a relative predicate acquired in time without change in God."
+    ],
+    "concepts": [
+      "temporal predication",
+      "relations of God to creatures",
+      "immutability",
+      "eternity",
+      "extrinsic denomination"
+    ],
+    "_metadata": {
+      "level": "article",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pdt7y6-e91888-d1e579",
+        "pdt7y6-e91888-d1e586",
+        "pdt7y6-e91888-d1e597",
+        "pdt7y6-e91888-d1e611",
+        "pdt7y6-e91888-d1e620",
+        "pdt7y6-e91888-d1e629",
+        "pdt7y6-e91888-d1e647",
+        "pdt7y6-e91888-d1e656",
+        "pdt7y6-e91888-d1e676",
+        "pdt7y6-e91888-d1e697",
+        "pdt7y6-e91888-d1e710",
+        "pdt7y6-e91888-d1e719",
+        "pdt7y6-e91888-d1e735"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e579": {
+    "summary": "Rubric of article 3: whether being everywhere belongs to God from eternity.",
+    "claims": [],
+    "concepts": [
+      "ubiquity",
+      "eternity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e572"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e586": {
+    "summary": "First argument for eternal ubiquity, from Ambrose: it is proper to divinity to be always and everywhere, so it belongs to God always and so from eternity.",
+    "claims": [
+      "Being always and everywhere is proper to divinity (authority)."
+    ],
+    "concepts": [
+      "proper attributes",
+      "eternity",
+      "ubiquity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e572"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e597": {
+    "summary": "Second: 'everywhere' distributes over all places as 'always' does over all times, and God can be said to have been always even before creatures existed, so he was everywhere from eternity.",
+    "claims": [
+      "'Everywhere' and 'always' are parallel (argument)."
+    ],
+    "concepts": [
+      "semper and ubique",
+      "distribution"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e572"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e611": {
+    "summary": "Third: the being of things in God does not require their actual existence, so neither does God's being in things.",
+    "claims": [
+      "God's being in things should no more require their existence than their being in him (argument)."
+    ],
+    "concepts": [
+      "esse rerum in Deo",
+      "actual existence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e572"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e620": {
+    "summary": "Fourth: if God was not everywhere from eternity but is now, he is now somewhere he was not, and so has moved and changed.",
+    "claims": [
+      "Acquiring ubiquity would imply change in God (argument)."
+    ],
+    "concepts": [
+      "immutability",
+      "motion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e572"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e629": {
+    "summary": "Fifth argument, and the first argument against. Fifth: God is everywhere because he is in all things that now exist, and from eternity he was in all things that then existed, so he was everywhere. Against: there was no 'where' from eternity, so God could not be everywhere.",
+    "claims": [
+      "God was in all that existed from eternity (argument).",
+      "Without places God could not be everywhere."
+    ],
+    "concepts": [
+      "eternity",
+      "place",
+      "ubiquity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e572"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e647": {
+    "summary": "Second argument against: being everywhere connotes an actual relation or effect in creatures, which could not exist from eternity.",
+    "claims": [
+      "Ubiquity connotes an actual effect in creatures."
+    ],
+    "concepts": [
+      "connotation",
+      "relation to creatures"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e572"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e656": {
+    "summary": "Peter's determination: 'God is everywhere' distributes either broadly over all things or strictly over all places; either way it implies a relation of God to creatures founded on some divine effect, which requires the other term to exist actually. So ubiquity does not belong to God from eternity.",
+    "claims": [
+      "Ubiquity implies a relation to creatures founded on an effect.",
+      "God is not everywhere from eternity."
+    ],
+    "concepts": [
+      "relations of God to creatures",
+      "connotation",
+      "ubiquity",
+      "temporal predication"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e572",
+        "pdt7y6-e91888-d1e647"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e676": {
+    "summary": "Reply to Ambrose: a property can belong to all and only the members of a kind without belonging always, as greying in old age belongs to man; being Creator is proper to God but not eternal. Such an acquired property does not change God, since it is relative, not absolute: if a house is built around me while I stay still, I begin to be in it by another's change, not mine.",
+    "claims": [
+      "A proper attribute need not belong always.",
+      "Relative predicates acquired in time involve no change in God."
+    ],
+    "concepts": [
+      "proprium",
+      "relations of reason",
+      "Creator as temporal title",
+      "immutability"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e572",
+        "pdt7y6-e91888-d1e586"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e697": {
+    "summary": "Reply to the second: the cases differ, because 'always' does not include time in its meaning and can signify the unfailing duration of eternity, while 'everywhere' includes place in its meaning.",
+    "claims": [
+      "'Always' can signify eternity; 'everywhere' necessarily includes place."
+    ],
+    "concepts": [
+      "semper and ubique",
+      "semantics of temporal terms"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e572",
+        "pdt7y6-e91888-d1e597"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e710": {
+    "summary": "Reply to the third: an effect can be in its cause potentially, but a cause can be in its effect only if the effect actually exists.",
+    "claims": [
+      "Effects pre-exist potentially in the cause, but the cause is in effects only when they exist."
+    ],
+    "concepts": [
+      "causal containment",
+      "actuality"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e572",
+        "pdt7y6-e91888-d1e611"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e719": {
+    "summary": "Reply to the fourth: it does not follow that God is changed, only that something outside him changes, since 'being in' signifies assisting rather than inhering (Boethius), as the example of the house built around someone shows.",
+    "claims": [
+      "God's coming to be everywhere is a change in creatures, not in God."
+    ],
+    "concepts": [
+      "immutability",
+      "extrinsic denomination",
+      "Boethius"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e572",
+        "pdt7y6-e91888-d1e620",
+        "pdt7y6-e91888-d1e676"
+      ]
+    }
+  },
+  "pdt7y6-e91888-d1e735": {
+    "summary": "Reply to the fifth: 'being in' is equivocal; God is in eternal things (the divine persons) by unity of essence, but in created things by the universal presence signified when he is said to be everywhere.",
+    "claims": [
+      "God is in eternal things by unity of essence and in creatures by universal presence."
+    ],
+    "concepts": [
+      "equivocation of 'in'",
+      "unity of essence",
+      "universal presence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e91888-Dd1e572",
+        "pdt7y6-e91888-d1e629"
+      ]
+    }
+  }
+}

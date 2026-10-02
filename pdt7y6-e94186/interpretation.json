@@ -1,0 +1,1815 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-02T00:00:00Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "7302be9",
+    "generation_method": "hierarchical",
+    "source_file": "cod-gpmsgd_pdt7y6-e94186.xml"
+  },
+  "pdt7y6-e94186": {
+    "summary": "Question 5 of distinction 37 asks how an angel moves from place to place, and closes the distinction with a literal exposition. (1) Angels undergo three motions: spiritual illumination, internal change of cognition and affection, and voluntary local motion with or without an assumed body. Aristotle's denial that indivisibles move applies only to indivisibles with position in a continuum; an angel is indivisible in essence but divisible in virtual presence. (2) An angel passes through the medium even when it does nothing there, but without commensurating itself to it, traversing extended places by its virtual quantity. (3) Rejecting both purely instantaneous and purely successive accounts, Peter holds that an angel moves at will, instantaneously to an adjacent place proportioned to its power, successively and at a chosen speed to distant ones, with continuity produced by the gradual shift of its virtual presence; it can occupy a point or an extended place as its will and operation require. The exposition addresses habitual knowledge in infants, aevum and time, and the unity of wisdom by proportion.",
+    "claims": [
+      "Angels move locally by will, without assumed bodies if they choose.",
+      "An angel is divisible by virtual presence though indivisible in essence.",
+      "An angel passes through the medium without commensuration.",
+      "Angels move instantaneously only to adjacent places, successively to distant ones."
+    ],
+    "concepts": [
+      "angelic motion",
+      "virtual presence",
+      "medium",
+      "instantaneous vs. successive motion",
+      "angelic will",
+      "aevum",
+      "expositio litterae"
+    ],
+    "_metadata": {
+      "level": "question",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pdt7y6-e94186-d1e104",
+        "pdt7y6-e94186-d1e113",
+        "pdt7y6-e94186-Dd1e126",
+        "pdt7y6-e94186-Dd1e651",
+        "pdt7y6-e94186-Dd1e970",
+        "pdt7y6-e94186-Dd1e1696"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e104": {
+    "summary": "Rubric of question 5 of distinction 37: how an angel moves from place to place.",
+    "claims": [],
+    "concepts": [
+      "angelic motion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e113": {
+    "summary": "Divides the fifth principal question into three articles: whether an angel moves from place to place, whether it passes through the intervening medium, and whether its motion is in time or instantaneous.",
+    "claims": [],
+    "concepts": [
+      "angelic motion",
+      "medium",
+      "instantaneous vs. successive motion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186",
+        "pdt7y6-e94186-Dd1e126",
+        "pdt7y6-e94186-Dd1e651",
+        "pdt7y6-e94186-Dd1e970"
+      ]
+    }
+  },
+  "pdt7y6-e94186-Dd1e126": {
+    "summary": "Article 1 asks whether an angel moves from place to place. Objections argue that motion belongs to the imperfect, that an angel fits no species of motion, that Aristotle proves nothing indivisible moves, that an indivisible cannot traverse continuous space, and that an angel lacks the potencies for natural motions. Damascene, angels' invisible presence in heaven and on earth, and the motion of separated souls argue the opposite. Peter distinguishes three angelic motions: spiritual illumination (Dionysius's circular, straight and oblique), internal change of cognition and affection, and local change with or without an assumed body. Motion in the broad sense of operation is the act of the perfect, internal change reduces to alteration broadly taken, and local motion may serve others' needs. Aristotle's arguments apply only to indivisibles with position in a continuum: an angel is indivisible in essence but divisible in virtual presence, and spatial quantities are incommensurable with it. Peter holds it moves through extended places by shifting its presence, not through points, and that its motion is voluntary, not natural.",
+    "claims": [
+      "Angels move by illumination, by internal change, and locally.",
+      "An angel is indivisible in essence but divisible in virtual presence.",
+      "Aristotle's proof that indivisibles cannot move applies only to positioned indivisibles.",
+      "Angelic local motion is voluntary and proceeds through extended places."
+    ],
+    "concepts": [
+      "angelic motion",
+      "virtual presence",
+      "Dionysian hierarchy",
+      "indivisibles",
+      "commensuration",
+      "voluntary motion"
+    ],
+    "_metadata": {
+      "level": "article",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pdt7y6-e94186-d1e133",
+        "pdt7y6-e94186-d1e140",
+        "pdt7y6-e94186-d1e149",
+        "pdt7y6-e94186-d1e174",
+        "pdt7y6-e94186-d1e200",
+        "pdt7y6-e94186-d1e216",
+        "pdt7y6-e94186-d1e234",
+        "pdt7y6-e94186-d1e252",
+        "pdt7y6-e94186-d1e268",
+        "pdt7y6-e94186-d1e280",
+        "pdt7y6-e94186-d1e289",
+        "pdt7y6-e94186-d1e298",
+        "pdt7y6-e94186-d1e307",
+        "pdt7y6-e94186-d1e357",
+        "pdt7y6-e94186-d1e381",
+        "pdt7y6-e94186-d1e417",
+        "pdt7y6-e94186-d1e450",
+        "pdt7y6-e94186-d1e515",
+        "pdt7y6-e94186-d1e526",
+        "pdt7y6-e94186-d1e620",
+        "pdt7y6-e94186-d1e640"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e133": {
+    "summary": "Rubric of article 1: whether an angel moves from place to place.",
+    "claims": [],
+    "concepts": [
+      "angelic local motion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e126"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e140": {
+    "summary": "First argument against angelic motion: motion is the act of the imperfect, but an angel is perfect, being blessed.",
+    "claims": [
+      "Motion belongs to the imperfect (argument)."
+    ],
+    "concepts": [
+      "motion as actus imperfecti",
+      "beatitude"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e126"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e149": {
+    "summary": "Second: whatever moves does so by some species of motion, but an angel undergoes none: not generation or corruption (no corruptible matter), not growth or diminution (no dimensive quantity), not alteration (which concerns sensible qualities, Physics V), and not local motion, which always arises from need.",
+    "claims": [
+      "An angel is subject to none of the species of motion (argument).",
+      "Local motion arises from need (argument)."
+    ],
+    "concepts": [
+      "species of motion",
+      "local motion",
+      "indigence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e126"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e174": {
+    "summary": "Third, from Aristotle's proof in Physics VI that nothing indivisible moves per se: a moving thing is either wholly at the starting point (at rest), wholly at the end (already moved), or partly at each (and so divisible); an angel is indivisible, so it cannot move.",
+    "claims": [
+      "Only divisible things can move per se (authority)."
+    ],
+    "concepts": [
+      "Physics VI",
+      "indivisibles",
+      "terminus a quo and ad quem"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e126"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e200": {
+    "summary": "Fourth: a moving indivisible touches only an indivisible of space, but space is not made of indivisibles, so it touches no part of space and cannot move through it.",
+    "claims": [
+      "An indivisible cannot traverse continuous space (argument)."
+    ],
+    "concepts": [
+      "continuum",
+      "indivisibles",
+      "space"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e126"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e216": {
+    "summary": "Fifth: nothing traverses a space greater than itself without first traversing a smaller or equal one; an indivisible cannot traverse a smaller (nothing is smaller) or an equal one (there are infinitely many points), so it cannot move.",
+    "claims": [
+      "An indivisible cannot traverse a smaller or equal space first (argument)."
+    ],
+    "concepts": [
+      "continuum",
+      "points",
+      "infinity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e126"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e234": {
+    "summary": "Sixth: unity is simpler than a point (found also in discrete quantity), and an angel simpler than both; if neither unity nor point can move per se because of indivisibility, still less an angel.",
+    "claims": [
+      "An angel is more indivisible than a point or unity (argument)."
+    ],
+    "concepts": [
+      "unity and point",
+      "simplicity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e126"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e252": {
+    "summary": "Seventh: an angel has no potency for straight motion (neither heavy nor light), circular motion (not circular), or progressive motion (no organs), so it has no potency for local motion.",
+    "claims": [
+      "An angel lacks the potencies for every kind of local motion (argument)."
+    ],
+    "concepts": [
+      "natural motion",
+      "heavy and light",
+      "progressive motion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e126"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e268": {
+    "summary": "First argument for: Damascene says that by the swiftness of its nature an angel is found in different places, passing readily and quickly; so it moves locally.",
+    "claims": [
+      "Angels pass swiftly from place to place (authority)."
+    ],
+    "concepts": [
+      "Damascene",
+      "angelic swiftness"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e126"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e280": {
+    "summary": "Second: angels are sometimes invisibly in heaven and sometimes invisibly on earth, so they move without an assumed body.",
+    "claims": [
+      "Angels move without assumed bodies."
+    ],
+    "concepts": [
+      "assumed bodies",
+      "invisibility"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e126"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e289": {
+    "summary": "Third: whatever can be here and elsewhere but not at once can move locally, and an angel is such.",
+    "claims": [
+      "What can be in different places successively can move locally."
+    ],
+    "concepts": [
+      "definitive presence",
+      "local motion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e126"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e298": {
+    "summary": "Fourth: the soul separated from the body, without its own or another's body, either descends to hell or ascends to heaven, so it moves locally.",
+    "claims": [
+      "Separated souls move locally."
+    ],
+    "concepts": [
+      "separated soul",
+      "local motion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e126"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e307": {
+    "summary": "Peter's determination: the saints describe three angelic motions. (1) The motion of spiritual illuminations, by which an angel is moved by or moves another spirit, which Dionysius metaphorically divides into circular (illumination from God reflected back to God), straight (illumination of a lower angel by a higher, for action among lower things) and oblique (a combination, the illumination of lower angels by higher ones, through which they are turned back to God, not to the illuminating angel). (2) The motion of temporal changes within themselves, either in cognition (the evening knowledge of diverse things through many species, not the morning knowledge through the one Word) or in affection. (3) The motion of local change among lower bodies, passing from place to place with or without an assumed body as they will.",
+    "claims": [
+      "Angels undergo three kinds of motion: illumination, internal change of cognition and affection, and local change.",
+      "Angels move locally with or without assumed bodies, at will."
+    ],
+    "concepts": [
+      "Dionysian hierarchy",
+      "circular, straight and oblique motion",
+      "evening and morning knowledge",
+      "angelic local motion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e126",
+        "pdt7y6-e94186-d1e268",
+        "pdt7y6-e94186-d1e280"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e357": {
+    "summary": "Reply to the first: motion is either properly the passage from material potency to act, which is the act of the imperfect, or broadly any operation, interior (sensing, understanding) or exterior (action ending in external matter), which is the act of the perfect.",
+    "claims": [
+      "Motion in the broad sense, as operation, is the act of the perfect."
+    ],
+    "concepts": [
+      "motion as actus imperfecti",
+      "operation as actus perfecti"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e126",
+        "pdt7y6-e94186-d1e140"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e381": {
+    "summary": "Reply to the second: the first motion (illumination) is not properly motion, since the angel always remains in divine illuminations; the second, a passage from rest to act, reduces to alteration taken broadly, as concerning affections that consist in reception alone, not in loss of substance. The third reduces to local motion, and local motion need not be for one's own need: it may be for another's, as the heavens move for the needs of lower things.",
+    "claims": [
+      "Angelic internal change reduces to alteration in a broad sense.",
+      "Local motion can serve another's need rather than one's own."
+    ],
+    "concepts": [
+      "alteration broadly taken",
+      "passio",
+      "celestial motion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e126",
+        "pdt7y6-e94186-d1e149",
+        "pdt7y6-e94186-d1e307"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e417": {
+    "summary": "Reply to the third: although an angel is indivisible in essence, it is, according to some, divisible by virtual presence, like the soul, since it can be present to several parts of space at once and does not fix its position as a point does. Aristotle's argument concerns an indivisible having position in a continuum, such as a point, which moves by measuring itself against space; an angel has nothing in space smaller, larger or equal to itself, since its quantity is not of the same genus as the quantity of place.",
+    "claims": [
+      "An angel is indivisible in essence but divisible in virtual presence.",
+      "Aristotle's argument applies only to indivisibles with position in a continuum.",
+      "Angelic quantity is not commensurable with spatial quantity."
+    ],
+    "concepts": [
+      "virtual presence",
+      "indivisibles",
+      "commensuration",
+      "Physics VI"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e126",
+        "pdt7y6-e94186-d1e174"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e450": {
+    "summary": "Alternative reply to the third, according to others: an angel in motion is not divisible in reality by essence or presence, since it is always in an indivisible point, but is divisible in reason, by relation to both termini. On the instantaneous view, it leaves the starting point wholly and is wholly at the end, though as related to the start; on the view that it passes through a medium, it is wholly in the middle as related to both termini. Real divisibility does in bodies what divisibility in reason does in spirits, as two or three consist of units not taken absolutely but compared to each other. Peter judges the first solution plainer.",
+    "claims": [
+      "On another view, angelic motion consists in a relation to both termini, not real divisibility.",
+      "The first solution, by virtual presence, is plainer."
+    ],
+    "concepts": [
+      "divisibility in reason",
+      "relation to termini",
+      "instantaneous motion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e126",
+        "pdt7y6-e94186-d1e174",
+        "pdt7y6-e94186-d1e417"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e515": {
+    "summary": "Reply to the fourth: the argument holds only of an indivisible with position in a continuum, which in moving touches some of space by commensuration.",
+    "claims": [
+      "The argument concerns only positioned indivisibles."
+    ],
+    "concepts": [
+      "positioned indivisibles",
+      "commensuration"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e126",
+        "pdt7y6-e94186-d1e200"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e526": {
+    "summary": "Reply to the fifth: it holds only of an indivisible with position, to which an indivisible of place can be equal as of the same genus. To an angel a point or line is neither larger, smaller nor equal, any more than a league is to an hour, so its motion does not mark out points. An angel can be present to a point without contact (as many say) or to a quantified place (William of Auxerre), smaller if it wants to move more slowly, larger if more quickly, as it wills. Peter agrees with those who hold it moves through composite, not simple, places, since moving through a body is a bodily operation requiring distance between termini: it leaves part of the first extended place and occupies part of the next by divisibility of presence, not of essence. There are two kinds of indivisible: one with position in matter, indivisible in essence and presence, and spirit, indivisible in essence but divisible in virtual presence, present wholly to several parts of a space, though only in its determined place and not without motion or change, whereas God is everywhere without motion. Others hold it moves through points, from indivisible to indivisible, by relation to both without touching both.",
+    "claims": [
+      "Spatial quantities are incommensurable with an angel.",
+      "An angel moves through extended places by shifting its virtual presence, not through points.",
+      "Spirit is indivisible in essence but divisible in virtual presence."
+    ],
+    "concepts": [
+      "virtual presence",
+      "commensuration",
+      "point vs. extended place",
+      "William of Auxerre",
+      "angelic local motion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e126",
+        "pdt7y6-e94186-d1e216",
+        "pdt7y6-e94186-d1e417",
+        "pdt7y6-e93079"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e620": {
+    "summary": "Reply to the sixth: what makes point and unity immobile is not indivisibility simply but a specific kind: the point has position in a continuum, and unity is not a substance and relates to place only accidentally. Alternatively, the argument concerns local motion that proceeds by commensurating oneself to space.",
+    "claims": [
+      "The point's immobility comes from its position in the continuum, not its indivisibility as such."
+    ],
+    "concepts": [
+      "unity and point",
+      "commensuration"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e126",
+        "pdt7y6-e94186-d1e234"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e640": {
+    "summary": "Reply to the seventh: the division into straight, circular and progressive motion belongs to bodily, natural motion, not to spiritual, voluntary motion.",
+    "claims": [
+      "Angelic motion is voluntary, not natural, and escapes the natural division of motions."
+    ],
+    "concepts": [
+      "natural vs. voluntary motion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e126",
+        "pdt7y6-e94186-d1e252"
+      ]
+    }
+  },
+  "pdt7y6-e94186-Dd1e651": {
+    "summary": "Article 2 asks whether an angel passes through the medium. Aristotelian arguments (the medium as what is first reached, being moved precedes having been moved, real distance, the road to the end) support it; the analogy with thought, Damascene's presence by operation, and the infinity of points oppose it. Peter presents two opinions: that an angel passes through the medium only if it acts there, its passage being a sudden change like illumination, or that it always passes through, its motion being successive. Every motion needs a medium, though spirits traverse it without commensuration. He answers the arguments on both views but judges the second plainer and truer: unlike thought, angelic termini are distant; an angel is present where it acts but not only there; and by its virtual quantity it traverses extended places, with points infinite only potentially.",
+    "claims": [
+      "An angel passes through the medium even when it does nothing there.",
+      "Spirits traverse a medium without commensurating themselves to it."
+    ],
+    "concepts": [
+      "medium",
+      "sudden vs. successive motion",
+      "presence by operation",
+      "virtual quantity",
+      "potential infinity"
+    ],
+    "_metadata": {
+      "level": "article",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pdt7y6-e94186-d1e658",
+        "pdt7y6-e94186-d1e665",
+        "pdt7y6-e94186-d1e681",
+        "pdt7y6-e94186-d1e693",
+        "pdt7y6-e94186-d1e715",
+        "pdt7y6-e94186-d1e728",
+        "pdt7y6-e94186-d1e741",
+        "pdt7y6-e94186-d1e752",
+        "pdt7y6-e94186-d1e768",
+        "pdt7y6-e94186-d1e778",
+        "pdt7y6-e94186-d1e791",
+        "pdt7y6-e94186-d1e826",
+        "pdt7y6-e94186-d1e833",
+        "pdt7y6-e94186-d1e844",
+        "pdt7y6-e94186-d1e860",
+        "pdt7y6-e94186-d1e874",
+        "pdt7y6-e94186-d1e883",
+        "pdt7y6-e94186-d1e907",
+        "pdt7y6-e94186-d1e916",
+        "pdt7y6-e94186-d1e929",
+        "pdt7y6-e94186-d1e940"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e658": {
+    "summary": "Rubric of article 2: whether an angel passes through the medium.",
+    "claims": [],
+    "concepts": [
+      "medium in motion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e651"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e665": {
+    "summary": "First argument for: according to Physics V, the medium is that into which a changing thing first comes before it has completely changed; an angel moving from heaven to earth first comes into such an intermediate, so it passes through the medium.",
+    "claims": [
+      "An angel first comes to an intermediate place (argument)."
+    ],
+    "concepts": [
+      "medium",
+      "Physics V"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e651"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e681": {
+    "summary": "Second: being moved precedes having been moved; having been moved is at the end-point, so being moved precedes it, and is not at the start, so it is in the middle.",
+    "claims": [
+      "Being moved occurs in the medium (argument)."
+    ],
+    "concepts": [
+      "moveri and motum esse"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e651"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e693": {
+    "summary": "Third: there is natural distance between heaven and earth; either it exists for the angel or not. If not, something real is nothing for the angel; if so, the angel must traverse it.",
+    "claims": [
+      "Real distance must be traversed (argument)."
+    ],
+    "concepts": [
+      "distance",
+      "medium"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e651"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e715": {
+    "summary": "Fourth: the angel was first at the starting point and then at the end; either by passing through the medium or not, but one reaches the end of a road only by the road.",
+    "claims": [
+      "One reaches a terminus only by way of the road (argument)."
+    ],
+    "concepts": [
+      "via and terminus"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e651"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e728": {
+    "summary": "Fifth: motion relates only to the starting point, the end or the middle; at the start there is rest, at the end having been moved, so being moved is only in the middle.",
+    "claims": [
+      "Motion exists only in the medium (argument)."
+    ],
+    "concepts": [
+      "medium",
+      "rest and motion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e651"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e741": {
+    "summary": "Sixth: if the medium creates no distance in angelic motion, an infinite medium would not hinder the angel, which could then cross an infinite distance.",
+    "claims": [
+      "Ignoring the medium would let an angel cross infinite distance (argument)."
+    ],
+    "concepts": [
+      "infinite distance"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e651"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e752": {
+    "summary": "First argument against: the soul joined to a body can move from one term to another without a medium, as in the succession of thoughts; so an angel, being freer, can move without passing through the medium.",
+    "claims": [
+      "Thought passes between terms without a medium."
+    ],
+    "concepts": [
+      "motion of thought",
+      "medium"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e651"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e768": {
+    "summary": "Second: Damascene says an angel is present where it acts; if it does nothing in the medium, it is not there.",
+    "claims": [
+      "An angel is present only where it acts (authority)."
+    ],
+    "concepts": [
+      "presence by operation",
+      "Damascene"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e651"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e778": {
+    "summary": "Third: there are infinitely many simple points in the medium; if a simple angel moves through simples and passes the medium, it traverses infinitely many, which is impossible.",
+    "claims": [
+      "Traversing the medium would mean traversing infinitely many points (argument)."
+    ],
+    "concepts": [
+      "infinity",
+      "points",
+      "continuum"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e651"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e791": {
+    "summary": "Peter's determination, setting out two opinions, paralleling those on angelic place: one that an angel does not pass through the medium unless it acts there, so its passage is like a sudden change from term to term without a medium, as the illumination of the air; the other that it passes through the medium even when doing nothing there, so its passage is like successive motion. Every motion requires a medium distinct from both termini, since being moved is only in a medium; but moving through a medium is either by commensurating oneself to it, as bodies do, or without commensuration, as spirits do.",
+    "claims": [
+      "Two opinions hold angelic motion to be either sudden and without medium, or successive through the medium.",
+      "Every motion requires a medium.",
+      "Spirits move through a medium without commensuration."
+    ],
+    "concepts": [
+      "medium",
+      "sudden change",
+      "successive motion",
+      "commensuration"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e651",
+        "pdt7y6-e93079"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e826": {
+    "summary": "Announces replies to the arguments according to the first opinion (no passage through the medium).",
+    "claims": [],
+    "concepts": [
+      "first opinion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e651",
+        "pdt7y6-e94186-d1e791"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e833": {
+    "summary": "First-opinion reply to the first: Aristotle speaks of the medium in successive local motion that measures itself against space, which is not how an angel moves.",
+    "claims": [
+      "Aristotle's definition of medium concerns commensurative motion."
+    ],
+    "concepts": [
+      "medium",
+      "commensuration"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e651",
+        "pdt7y6-e94186-d1e665",
+        "pdt7y6-e94186-d1e826"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e844": {
+    "summary": "First-opinion reply to the second: being moved precedes having been moved only where they differ in reality, as in successive motions; in sudden motions they differ only in reason, so the precedence is only conceptual.",
+    "claims": [
+      "In sudden changes, being moved and having been moved differ only in reason."
+    ],
+    "concepts": [
+      "moveri and motum esse",
+      "sudden change"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e651",
+        "pdt7y6-e94186-d1e681",
+        "pdt7y6-e94186-d1e826"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e860": {
+    "summary": "First-opinion reply to the third: it is not absurd that something real be, for the angel's motion, as if it were not, just as the gap between two terms of thought is as nothing to the movement of thinking.",
+    "claims": [
+      "Real distance can be irrelevant to angelic motion."
+    ],
+    "concepts": [
+      "distance",
+      "motion of thought"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e651",
+        "pdt7y6-e94186-d1e693",
+        "pdt7y6-e94186-d1e826"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e874": {
+    "summary": "First-opinion reply to the fourth: in that sudden motion there is no intermediate road between the termini to be run through.",
+    "claims": [
+      "Sudden motion has no intermediate path."
+    ],
+    "concepts": [
+      "sudden change",
+      "via and terminus"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e651",
+        "pdt7y6-e94186-d1e715",
+        "pdt7y6-e94186-d1e826"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e883": {
+    "summary": "First-opinion replies to the fifth and sixth: having been moved and being moved differ in reason, not reality, since the former relates only to the end and the latter also to the start. And since the medium makes distance, an angel not passing through the medium would not traverse an infinite distance.",
+    "claims": [
+      "Being moved and having been moved differ only in reason.",
+      "An angel that skips the medium traverses no distance."
+    ],
+    "concepts": [
+      "moveri and motum esse",
+      "infinite distance"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e651",
+        "pdt7y6-e94186-d1e728",
+        "pdt7y6-e94186-d1e741",
+        "pdt7y6-e94186-d1e826"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e907": {
+    "summary": "Announces replies according to the second opinion (passage through the medium), which Peter judges plainer and truer.",
+    "claims": [
+      "The opinion that angels pass through the medium is plainer and truer."
+    ],
+    "concepts": [
+      "second opinion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e651",
+        "pdt7y6-e94186-d1e791"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e916": {
+    "summary": "Second-opinion reply to the argument from thought: the cases differ, because there is no distance between the termini of thought (the species in the soul), but there is distance between the termini of an angel's local motion.",
+    "claims": [
+      "Unlike the termini of thought, the termini of angelic motion are distant."
+    ],
+    "concepts": [
+      "motion of thought",
+      "distance"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e651",
+        "pdt7y6-e94186-d1e752",
+        "pdt7y6-e94186-d1e907"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e929": {
+    "summary": "Second-opinion reply to Damascene: an angel is present where it acts, but not only there; even if it does nothing in the medium, it must be present to it in passing if it wishes to reach the end-point.",
+    "claims": [
+      "An angel is present where it acts but not only there."
+    ],
+    "concepts": [
+      "presence by operation",
+      "medium"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e651",
+        "pdt7y6-e94186-d1e768",
+        "pdt7y6-e94186-d1e907"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e940": {
+    "summary": "Second-opinion reply to the infinity argument: an angel, though simple in bulk, has a quantity of power by which it can be present to an extended place, so it need not move through simples. Or: traversing infinite points means counting or touching them, which the angel does not do. Or: infinite points exist in a continuum only potentially, by division, and since the angel does not divide space in moving, it traverses infinitely many only potentially.",
+    "claims": [
+      "An angel's virtual quantity lets it move through extended places, not points.",
+      "Points in a continuum are infinite only potentially."
+    ],
+    "concepts": [
+      "virtual quantity",
+      "potential infinity",
+      "continuum"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e651",
+        "pdt7y6-e94186-d1e778",
+        "pdt7y6-e94186-d1e907"
+      ]
+    }
+  },
+  "pdt7y6-e94186-Dd1e970": {
+    "summary": "Article 3 asks whether angelic motion is in time or instantaneous. Arguments for instantaneity invoke illumination, indivisibility, lack of resistance, disproportion to body, simplicity, whole transfer, the void and the visual ray; arguments for time invoke before and after, the gap between instants, the distinction of road and terminus, differences of power, and the finitude of created power. Peter reports three opinions (instantaneous motion through a series of immediate 'nows'; successive motion due to finite power and distance; motion either way at will) and adopts the third. An angel can move instantaneously only to an adjacent place proportioned to its power, while motion to distant places is through the medium, in time, and faster or slower at will. Continuity arises because virtual presence does in spirits what bodily presence does in bodies: the spirit leaves part of its place and extends its presence to the next. He concludes that an angel can be in a point or an extended place according to will and operation, and reports and answers the rival views that angels occupy only extended or only indivisible places.",
+    "claims": [
+      "Angels can move instantaneously or successively at will.",
+      "Only adjacent places can be reached instantaneously.",
+      "Successive angelic motion is continuous through the shifting of virtual presence.",
+      "An angel can occupy a point or an extended place."
+    ],
+    "concepts": [
+      "instantaneous vs. successive motion",
+      "virtual presence",
+      "causes of succession",
+      "discrete time",
+      "angelic will",
+      "definitive presence"
+    ],
+    "_metadata": {
+      "level": "article",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pdt7y6-e94186-d1e977",
+        "pdt7y6-e94186-d1e984",
+        "pdt7y6-e94186-d1e1006",
+        "pdt7y6-e94186-d1e1020",
+        "pdt7y6-e94186-d1e1033",
+        "pdt7y6-e94186-d1e1051",
+        "pdt7y6-e94186-d1e1062",
+        "pdt7y6-e94186-d1e1071",
+        "pdt7y6-e94186-d1e1082",
+        "pdt7y6-e94186-d1e1105",
+        "pdt7y6-e94186-d1e1118",
+        "pdt7y6-e94186-d1e1134",
+        "pdt7y6-e94186-d1e1141",
+        "pdt7y6-e94186-d1e1152",
+        "pdt7y6-e94186-d1e1176",
+        "pdt7y6-e94186-d1e1249",
+        "pdt7y6-e94186-d1e1267",
+        "pdt7y6-e94186-d1e1287",
+        "pdt7y6-e94186-d1e1298",
+        "pdt7y6-e94186-d1e1316",
+        "pdt7y6-e94186-d1e1329",
+        "pdt7y6-e94186-d1e1341",
+        "pdt7y6-e94186-d1e1354",
+        "pdt7y6-e94186-d1e1363",
+        "pdt7y6-e94186-d1e1379",
+        "pdt7y6-e94186-d1e1412",
+        "pdt7y6-e94186-d1e1430",
+        "pdt7y6-e94186-d1e1455",
+        "pdt7y6-e94186-d1e1466",
+        "pdt7y6-e94186-d1e1510",
+        "pdt7y6-e94186-d1e1547",
+        "pdt7y6-e94186-d1e1584",
+        "pdt7y6-e94186-d1e1645"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e977": {
+    "summary": "Rubric of article 3: whether an angel's motion is in time or instantaneous.",
+    "claims": [],
+    "concepts": [
+      "instantaneous vs. successive motion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e970"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e984": {
+    "summary": "First argument for instantaneous motion: angelic local change is simpler than any bodily change, and some bodily changes, such as illumination (Physics V) and generation, are instantaneous; all the more an angel's.",
+    "claims": [
+      "Some bodily changes are instantaneous, so angelic motion should be (argument)."
+    ],
+    "concepts": [
+      "illumination",
+      "instantaneous change"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e970"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1006": {
+    "summary": "Second: at the end of the time measuring the motion, the angel is at the end-point; in the preceding time it is either wholly at the start (not moving) or partly at each (and so divisible).",
+    "claims": [
+      "Successive motion would require the angel to be divisible (argument)."
+    ],
+    "concepts": [
+      "divisibility",
+      "measure of motion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e970"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1020": {
+    "summary": "Third: where the medium offers no resistance there is no slowing, and nothing resists an angel, so its motion is instantaneous.",
+    "claims": [
+      "Without resistance motion is instantaneous (argument)."
+    ],
+    "concepts": [
+      "resistance of the medium",
+      "speed"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e970"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1033": {
+    "summary": "Fourth: motions of disproportionate movers and movables are disproportionate; body and angel are disproportionate, and every time is proportionate to every time, so if bodily motion is in time, angelic motion is in an instant.",
+    "claims": [
+      "Angelic motion is disproportionate to bodily motion and so not in time (argument)."
+    ],
+    "concepts": [
+      "proportion of motions",
+      "instant"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e970"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1051": {
+    "summary": "Fifth: successive motion is composite and an angel simple, and a composite accident cannot be in a simple subject.",
+    "claims": [
+      "A simple subject cannot bear successive motion (argument)."
+    ],
+    "concepts": [
+      "composite accident",
+      "simplicity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e970"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1062": {
+    "summary": "Sixth: what transfers itself whole at once moves instantaneously, and an angel does so.",
+    "claims": [
+      "An angel moves wholly at once (argument)."
+    ],
+    "concepts": [
+      "whole transfer"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e970"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1071": {
+    "summary": "Seventh: according to the Physics, in a void there would be no successive motion; for an angel a plenum resists no more than a void.",
+    "claims": [
+      "Motion through a void would be instantaneous (authority)."
+    ],
+    "concepts": [
+      "void",
+      "Physics IV"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e970"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1082": {
+    "summary": "Eighth: light is not faster than an angel, and Augustine says the eye's ray reaches near and far places with equal speed; all the more an angel.",
+    "claims": [
+      "The visual ray reaches all distances equally fast (authority)."
+    ],
+    "concepts": [
+      "visual ray",
+      "Augustine",
+      "speed of light"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e970"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1105": {
+    "summary": "First argument for motion in time: all motion has before and after, since something is lost and something acquired, which cannot be simultaneous, and time measures before and after.",
+    "claims": [
+      "All motion has before and after and so is in time."
+    ],
+    "concepts": [
+      "prius et posterius",
+      "time as measure"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e970"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1118": {
+    "summary": "Second: an angel is at both termini either in the same instant (and so in several places at once) or in different instants, between which there is always intervening time.",
+    "claims": [
+      "Between any two instants lies a time (argument)."
+    ],
+    "concepts": [
+      "instants",
+      "continuity of time"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e970"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1134": {
+    "summary": "Third: if it moves in an instant, being moved and having been moved are simultaneous, and so road and end-point coincide.",
+    "claims": [
+      "Instantaneous motion conflates via and terminus (argument)."
+    ],
+    "concepts": [
+      "moveri and motum esse"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e970"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1141": {
+    "summary": "Fourth: the stronger the mover, the faster the motion; if every angel moved instantaneously, a stronger angel could not move faster.",
+    "claims": [
+      "Instantaneous motion erases differences of angelic power (argument)."
+    ],
+    "concepts": [
+      "power of mover",
+      "speed"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e970"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1152": {
+    "summary": "Fifth: if a given power moves in a given time, a greater in less time, the greatest in the least, an infinite power moves in no time, an instant. Since an instant exceeds time disproportionately, a power moving in an instant must exceed disproportionately one moving in time; but created angelic power does not exceed bodily power infinitely, so it does not move in an instant.",
+    "claims": [
+      "Only an infinite power moves in an instant.",
+      "Angelic power is finite and so moves in time."
+    ],
+    "concepts": [
+      "finite and infinite power",
+      "instant",
+      "proportion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e970"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1176": {
+    "summary": "Peter's determination, setting out three opinions. (1) Some hold that an angel's motion by itself (without an assumed body) is instantaneous, moving from place to place in one 'now' and to another in another 'now'; its whole measure is what Augustine improperly calls time, a succession of simple 'nows' following immediately like units in number, impossible in natural change. (2) Others hold it is successive in time properly so called: of the four causes of succession (resistance of the medium, distance of termini, divisibility of the mobile, finite power of the mover), angelic motion has the last two, finite power and distance. (3) Others, with whom Peter agrees, hold that it can move either instantaneously or successively at will, but instantaneously only to an immediately adjacent place, and successively also to remote places. Each can answer the arguments according to the opinion it prefers.",
+    "claims": [
+      "An angel can move instantaneously or successively at will.",
+      "Instantaneous motion is possible only to an adjacent place.",
+      "Successive angelic motion is due to finite power and distance, not resistance or divisibility."
+    ],
+    "concepts": [
+      "instantaneous vs. successive motion",
+      "discrete time",
+      "causes of succession",
+      "angelic will"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e970",
+        "pdt7y6-e94186-d1e984",
+        "pdt7y6-e94186-d1e1152"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1249": {
+    "summary": "Reply to the first: illumination and the like are not motions but changes and ends of motions, as illumination is the end of the sun's motion to the point of direct opposition; so it is simple and instantaneous, but the motion itself is not.",
+    "claims": [
+      "Illumination is the instantaneous end of a motion, not a motion."
+    ],
+    "concepts": [
+      "mutatio vs. motus",
+      "illumination"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e970",
+        "pdt7y6-e94186-d1e984"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1267": {
+    "summary": "Reply to the second: in the intervening time the angel is in different parts of the medium, but not partly at the start and partly at the end, which applies to motion that is truly and properly local; the succession and continuity of angelic motion come from approach and withdrawal alone, not from such divisibility.",
+    "claims": [
+      "The continuity of angelic motion lies in approach and withdrawal, not divisibility."
+    ],
+    "concepts": [
+      "continuity of motion",
+      "approach and withdrawal"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e970",
+        "pdt7y6-e94186-d1e1006"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1287": {
+    "summary": "Reply to the third: resistance is not the only cause of slowness; the finite power of the mover, the distance of space, or the will of a voluntary mover can be causes.",
+    "claims": [
+      "Slowness can come from finite power, distance or will, not only resistance."
+    ],
+    "concepts": [
+      "causes of succession",
+      "voluntary motion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e970",
+        "pdt7y6-e94186-d1e1020"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1298": {
+    "summary": "Reply to the fourth: though there is no natural proportion between angel and body, a created will acts freely, with all or part of its power, and so can proportion itself to a naturally disproportionate power, as divine power does to created power.",
+    "claims": [
+      "Free will can proportion angelic power to bodily motion."
+    ],
+    "concepts": [
+      "free will",
+      "proportion of power"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e970",
+        "pdt7y6-e94186-d1e1033"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1316": {
+    "summary": "Reply to the fifth: a composite accident whose parts exist simultaneously cannot be in a simple subject, but one whose parts do not exist simultaneously, like successive duration, can.",
+    "claims": [
+      "Successive accidents can inhere in simple subjects."
+    ],
+    "concepts": [
+      "successive accident",
+      "simplicity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e970",
+        "pdt7y6-e94186-d1e1051"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1329": {
+    "summary": "Reply to the sixth: that holds of what transfers itself wholly at once and over the whole distance; an angel transfers itself whole at once, but not over the whole distance.",
+    "claims": [
+      "An angel moves whole but not over the whole distance at once."
+    ],
+    "concepts": [
+      "whole transfer"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e970",
+        "pdt7y6-e94186-d1e1062"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1341": {
+    "summary": "Reply to the seventh: Aristotle speaks of the void as a mere privation positing nothing, which removes not only resistance but also the distance between termini.",
+    "claims": [
+      "The Aristotelian void removes distance as well as resistance."
+    ],
+    "concepts": [
+      "void",
+      "distance"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e970",
+        "pdt7y6-e94186-d1e1071"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1354": {
+    "summary": "Reply to the eighth: Augustine speaks of how things appear to sense, not of how they are.",
+    "claims": [
+      "Augustine's claim about the visual ray concerns appearance."
+    ],
+    "concepts": [
+      "appearance vs. reality"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e970",
+        "pdt7y6-e94186-d1e1082"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1363": {
+    "summary": "Reply to the first counter-argument: every motion has before and after, either in nature or in time; or this holds of motion properly so called, whereas angelic motion has more the nature of change.",
+    "claims": [
+      "Angelic motion may have only a natural before and after."
+    ],
+    "concepts": [
+      "prius et posterius",
+      "mutatio vs. motus"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e970",
+        "pdt7y6-e94186-d1e1105"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1379": {
+    "summary": "Reply to the second counter-argument, offering three answers: in the time preceding the motion the angel is at the start and at its end at the end-point, as in other changes; or, for others, in different immediate 'nows', which seems impossible since, per Physics VI, no 'now' can be contiguous, continuous or immediately consecutive to another, though they reply that this holds of 'nows' in time strictly speaking; or, for others, in one instant really but doubled in reason, as end of past time and beginning of future.",
+    "claims": [
+      "Immediately successive 'nows' are impossible in time properly speaking.",
+      "One instant can be both end and beginning in reason."
+    ],
+    "concepts": [
+      "instants",
+      "discrete time",
+      "Physics VI"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e970",
+        "pdt7y6-e94186-d1e1118",
+        "pdt7y6-e94186-d1e1176"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1412": {
+    "summary": "Reply to the third counter-argument: in sudden spiritual motions it is not absurd for being moved and having been moved to coincide, since they differ only in reason; in natural successive motions they cannot, since they differ really.",
+    "claims": [
+      "In sudden spiritual motions being moved and having been moved can coincide."
+    ],
+    "concepts": [
+      "moveri and motum esse",
+      "spiritual motion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e970",
+        "pdt7y6-e94186-d1e1134"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1430": {
+    "summary": "Reply to the fourth counter-argument: higher and lower angels are not equal in power simply, but can be equal with respect to an act in a body, especially since such an act is accidental to them; and the will tempers power to motion at its pleasure.",
+    "claims": [
+      "Angels unequal in power can be equal for bodily acts.",
+      "The will adjusts the power applied to motion."
+    ],
+    "concepts": [
+      "angelic hierarchy",
+      "voluntary motion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e970",
+        "pdt7y6-e94186-d1e1141"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1455": {
+    "summary": "Reply to the fifth counter-argument: an angel's power, though finite absolutely, can be infinite relative to a body, as a line is to a point; but it uses this power according to its will.",
+    "claims": [
+      "Finite angelic power can be infinite relative to a body."
+    ],
+    "concepts": [
+      "relative infinity",
+      "angelic power"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e970",
+        "pdt7y6-e94186-d1e1152"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1466": {
+    "summary": "Peter's synthesis on angelic place: of the two well-known opinions (only in an extended place; only in a simple one), he holds an angel can be in either. If it wishes to act bodily somewhere, it must be in as large a place as it acts on immediately. If it does not act, either it wishes to be present to something extended, in which case it can occupy at most as large a place as it can immediately move, though a smaller one is possible, or it does not, in which case it can be in a point (and in something smaller, if there were anything smaller). Being definitively in place requires only being here in such a way as not elsewhere.",
+    "claims": [
+      "An angel can occupy an extended place or a point, according to its will and work.",
+      "Definitive presence requires only being here and not elsewhere."
+    ],
+    "concepts": [
+      "angelic location",
+      "point vs. extended place",
+      "definitive presence",
+      "virtual quantity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e970",
+        "pdt7y6-e93079"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1510": {
+    "summary": "Synthesis on angelic motion: if an angel wishes to move to an immediately adjacent place, it can move instantaneously, but only to a place proportioned to its power or smaller, and from there to another in another 'now' by another motion; such motion has no medium, since the whole place counts as one place to which it transfers itself at once. If it wishes to move to a mediate place, it cannot do so without a medium, nor in one 'now' by one simple motion, but only in time by successive motion, since it cannot be in several places at once; and its motion is faster or slower at will.",
+    "claims": [
+      "Angels can move instantaneously only to an adjacent place.",
+      "Motion to a distant place must be successive and through the medium.",
+      "The speed of successive angelic motion depends on the will."
+    ],
+    "concepts": [
+      "instantaneous vs. successive motion",
+      "medium",
+      "angelic will"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e970",
+        "pdt7y6-e94186-d1e1176",
+        "pdt7y6-e94186-d1e1466"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1547": {
+    "summary": "Explains the source of succession and continuity in angelic motion: what bodily presence does in bodies, virtual presence does in spirits. The continuity of bodily motion comes from the divisibility of space and the body's matching it by essence; in spiritual motion, from the divisibility of space and the spirit's matching it by presence. As a body moving partly leaves the start and partly reaches the end, so a spirit leaves one part of its place and extends its presence virtually to a part where it was not.",
+    "claims": [
+      "Virtual presence does for spirits what dimensive presence does for bodies.",
+      "Angelic motion is continuous by the gradual shifting of virtual presence across divisible space."
+    ],
+    "concepts": [
+      "virtual presence",
+      "continuity of motion",
+      "divisibility of space"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e970",
+        "pdt7y6-e94186-d1e1510",
+        "pdt7y6-e94186-d1e526"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1584": {
+    "summary": "Reports a view that an angel can be only in an extended place, not a point, and moves through composites, not simples, with its reasons: a point is not a place (not a surface, no power to contain); points exist in a continuum only potentially; an angel can act wherever it is but cannot act in an immobile point; the soul is not in a point of its body, and an angel is less in its place than the soul in its body; motion through points would be interrupted, since points are not immediate to one another; and it would traverse infinitely many points. Peter says all these can be resolved from what has been established.",
+    "claims": [
+      "Some deny that an angel can be in a point, for several reasons.",
+      "Peter's earlier analysis resolves these reasons."
+    ],
+    "concepts": [
+      "point as place",
+      "potential points",
+      "angelic location"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e970",
+        "pdt7y6-e94186-d1e1466"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1645": {
+    "summary": "Reports the opposite view: an angel, indivisible in essence, is always in an indivisible place, extending its power when it wishes to nearby continuous places by acting there, like a magnet on distant iron. In motion it passes through indivisible places without commensurating itself, transferring from one indivisible place to another by relation to both, never partly in each. It is at start and end in different, non-immediate but ordered instants (immediate ones being impossible in time proper). For those who deny passage through the medium, being moved and having been moved are simultaneous in one 'now', differing only by relation to both termini or the end alone.",
+    "claims": [
+      "On another view, angels occupy only indivisible places and act at a distance by power.",
+      "Their motion is a transfer between indivisible places by relation, not commensuration."
+    ],
+    "concepts": [
+      "indivisible place",
+      "action at a distance",
+      "relation to termini",
+      "instants"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e970",
+        "pdt7y6-e94186-d1e1584",
+        "pdt7y6-e94186-d1e450"
+      ]
+    }
+  },
+  "pdt7y6-e94186-Dd1e1696": {
+    "summary": "Literal exposition of Lombard's text for distinction 37, resolving objections to his wording. 'Apud' implies personal distinction; baptized infants know and love God by habit, not act; the spirit's freedom from bodily filth concerns bodily, not spiritual, defilement; the division of motion through time and place covers all six species of motion; 'time' for spiritual creatures is time broadly taken, the measure of any change, while aevum measures their invariable substance. On 'one wisdom in two', uncreated wisdom is numerically one, while created wisdom is many by its subjects and one only by a unity of proportion to its object; similarly 'man' in the intellect is the same as man in nature taken as object, but only analogously so taken as a mental species.",
+    "claims": [
+      "Infants have charity and knowledge of God by habit.",
+      "Aevum measures angelic substance; time broadly taken measures its changes.",
+      "Created wisdom is one only by unity of proportion to its object."
+    ],
+    "concepts": [
+      "expositio litterae",
+      "habit vs. act",
+      "aevum",
+      "unity of proportion",
+      "intelligible species"
+    ],
+    "_metadata": {
+      "level": "expositio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pdt7y6-e94186-d1e1700",
+        "pdt7y6-e94186-d1e1705",
+        "pdt7y6-e94186-d1e1718",
+        "pdt7y6-e94186-d1e1729",
+        "pdt7y6-e94186-d1e1741",
+        "pdt7y6-e94186-d1e1757",
+        "pdt7y6-e94186-d1e1781",
+        "pdt7y6-e94186-d1e1816",
+        "pdt7y6-e94186-d1e1825",
+        "pdt7y6-e94186-d1e1851",
+        "pdt7y6-e94186-d1e1876"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1700": {
+    "summary": "Heading of the literal exposition of Lombard's text for distinction 37.",
+    "claims": [],
+    "concepts": [
+      "expositio litterae"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e1696"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1705": {
+    "summary": "On 'apud se habitabat' (God dwelt with himself before the saints existed), meeting John 1 ('the Word was with God', glossed as 'one with another'): the preposition 'apud' implies personal distinction by reason of the terms it joins.",
+    "claims": [
+      "'Apud' implies personal distinction according to the terms it joins."
+    ],
+    "concepts": [
+      "prepositions in Trinitarian language",
+      "personal distinction"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e1696",
+        "pdt7y6-e90341"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1718": {
+    "summary": "On God dwelling in the saints 'that he may be known and loved by them', meeting the objection that he dwells in infants who neither know nor love him: they know and love him by habit, not by act.",
+    "claims": [
+      "Baptized infants know and love God habitually, not actually."
+    ],
+    "concepts": [
+      "indwelling in infants",
+      "habit vs. act",
+      "infused virtues"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e1696",
+        "pdt7y6-e90341"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1729": {
+    "summary": "On 'the spirit is not defiled by the filth of a polluted body', meeting the objection that the soul contracts the stain of original sin from the flesh: Lombard speaks of bodily, not spiritual, filth.",
+    "claims": [
+      "The text concerns bodily, not spiritual, defilement."
+    ],
+    "concepts": [
+      "original sin",
+      "soul and flesh"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e1696"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1741": {
+    "summary": "On 'through time and place', meeting the objection that moving locally is also moving through time: the division covers the six species of motion, since moving through place contains local motion and moving through time alone contains motion toward form, under which the other five species fall.",
+    "claims": [
+      "The division of motion through time and place covers all six species of motion."
+    ],
+    "concepts": [
+      "species of motion",
+      "Augustine's division of motion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e1696",
+        "pdt7y6-e94186-d1e307"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1757": {
+    "summary": "On 'the spiritual creature moves through time', meeting the objections that angels are measured by aevum and that time measures the first heaven's motion: time is taken broadly as the measure of any change, not strictly as the measure of successive change; aevum measures angels' invariable substantial being, while time broadly taken measures their varying consequent properties.",
+    "claims": [
+      "Aevum measures angelic substance; time broadly taken measures angelic changes."
+    ],
+    "concepts": [
+      "aevum",
+      "time broadly taken",
+      "angelic change"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e1696",
+        "pdt7y6-e94186-d1e1176"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1781": {
+    "summary": "On 'one wisdom is in two', raising objections: then numerically one wisdom is in many. Likewise, is 'man' in the intellect and in nature numerically the same? If so, since there is only one man in nature, there is only one in every intellect; if not, 'man' is common to both either as a genus (then man is not a lowest species) or as a species (then man in nature and man in the intellect are individuals not predicable of each other), which is false.",
+    "claims": [
+      "One wisdom in many seems to entail an accident in many subjects (argument).",
+      "The relation of 'man' in nature and in intellect poses a dilemma (argument)."
+    ],
+    "concepts": [
+      "unity of wisdom",
+      "universals in mind and reality",
+      "species"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e1696"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1816": {
+    "summary": "Further objection: according to Augustine, wisdom in the wise is an accident, and the same accident cannot be in different subjects.",
+    "claims": [
+      "The same accident cannot be in several subjects."
+    ],
+    "concepts": [
+      "wisdom as accident",
+      "individuation of accidents"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e1696",
+        "pdt7y6-e94186-d1e1781"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1825": {
+    "summary": "Reply: uncreated wisdom is the same in all. Created wisdom, considered in relation to the things its species are of, is one; considered in relation to those in whom it is, many. Because the species are the cause of wisdom in the first way, the saints say wisdom is one, but this is not absolute unity, only unity of proportion to one.",
+    "claims": [
+      "Uncreated wisdom is one in all.",
+      "Created wisdom is one by its objects and many by its subjects.",
+      "The unity of created wisdom is a unity of proportion."
+    ],
+    "concepts": [
+      "uncreated vs. created wisdom",
+      "species",
+      "unity of proportion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e1696",
+        "pdt7y6-e94186-d1e1781",
+        "pdt7y6-e94186-d1e1816"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1851": {
+    "summary": "Reply on 'man' in the intellect: it can be taken as object only, in which case it is the same man, since man in nature is the intellect's object; or as accident in a subject, in which case not, since then the species of man is called 'man'. 'Man' is said of both by a community of equivocation or of analogy in reason, and such a community of reason does not make a species.",
+    "claims": [
+      "As object, man in the intellect is the same as man in nature.",
+      "As an accident in the mind, the species of man is only analogously called 'man'."
+    ],
+    "concepts": [
+      "intelligible species",
+      "object vs. subject",
+      "analogy"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e1696",
+        "pdt7y6-e94186-d1e1781"
+      ]
+    }
+  },
+  "pdt7y6-e94186-d1e1876": {
+    "summary": "Reply on wisdom as accident: it is an accident by comparison to its subject, not to its object or the things it concerns, with respect to which it is one by unity of proportion, as explained.",
+    "claims": [
+      "Wisdom is accidental relative to its subject but one relative to its object."
+    ],
+    "concepts": [
+      "wisdom as accident",
+      "unity of proportion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "pdt7y6-e94186-Dd1e1696",
+        "pdt7y6-e94186-d1e1816",
+        "pdt7y6-e94186-d1e1825"
+      ]
+    }
+  }
+}
